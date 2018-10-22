@@ -17,7 +17,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 {% capture notice-1 %}
 This guide is available in other languages!
 Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/ios-guide) to help to keep these translations up to date.
+Alternatively, click [here]() to help to keep these translations up to date.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
