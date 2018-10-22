@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8267943526926430",
+    enable_page_level_ads: true
+  });
+</script>
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+        
+      {% assign split_path = page.path | split: "/" %}
+      {% assign locale = split_path[1] %}
+
+      {% for link in site.data.navigation[locale].bottom %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+        {% else %}
+          {% assign domain = site.url | append: site.baseurl %}
+        {% endif %}
+        <div class ="notice">{{ link.title }}</div>
+      {% endfor %}
+
+      <center>
+        {% include ad.html %}
+      </center>
+      
+      {{ content }}
+    </section>
+  </article>
+  
+  <center>
+	{% include ad.html %}
+	{% include ad.html %}
+  </center>
+
+</div>

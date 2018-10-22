@@ -1,0 +1,32 @@
+{% assign split_path = page.path | split: "/" %}
+{% assign locale = split_path[1] %}
+{% if locale == 'en_US' %}
+  {% assign locale_var = '/' %}
+{% else %}
+  {% assign locale_var = locale | prepend:'/' | append:'/' %}
+{% endif %}
+
+{% assign title = site.data.navigation[locale].sidebar_title %}
+{% assign navigation = site.data.navigation[locale].sidebar_pages %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    <li>
+      <span class="nav__sub-title">{{ title[0].title }}</span>
+      <ol>
+        {% for link in site.data.navigation[locale].sidebar_pages %}
+          {% if link.url == "/" %}
+            <li style="display: none;" data-name="home"><a href='{{ domain }}{{ locale_var }}'>{{ link.title }}</a></li>
+          {% elsif link.url == "multiple-options" %}
+            <li style="display: none;" data-name="multiple-options"><i>({{ link.title }})</i></li>
+          {% else %}
+            <li style="display: none;" data-name="{{ site.data.navigation.en_US.sidebar_pages[forloop.index0].url }}"><a href='{{ domain }}{{ locale_var }}{{ link.url }}'>{{ link.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </li>
+  </ul>
+</nav>
