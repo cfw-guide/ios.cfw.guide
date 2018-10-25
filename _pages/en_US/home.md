@@ -11,9 +11,6 @@ header:
 **This guide has not been completed yet and is not recommended to be used until it is complete.**
 {: .notice--warning}
 
-This page is not completed yet.
-{: .notice--warning}
-
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--info}
 
@@ -54,8 +51,20 @@ Newer jailbreaks released for versions above iOS 9 will usually involve installi
 
 Older jailbreaks may allow you to simply install the software once from your computer and then the jailbreak will be applied automatically on every boot, with no input from you, the user.
 
+## What can I do once jailbroken?
+
+- Gain full access to your device's OS
+- Access Cydia, mentioned above
+- Install themes to change the look and feel of your device
+- Install tweaks to change how iOS behaves
+
 ## What should I know before starting?
 
+Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
+{: .notice--warning}
+
+- If no issues occur during installation, you will be jailbroken without any data loss
+- Keep the device plugged into to a power source so that any unexpected power off will be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to malware and other security issues after jailbreaking
 - Your device warranty will become void after jailbreaking
