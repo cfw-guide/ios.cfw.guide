@@ -42,7 +42,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        
+
         {% assign split_path = page.path | split: "/" %}
         {% assign locale = split_path[1] %}
 
@@ -59,10 +59,12 @@ layout: default
         {% include ad.html %}
         {% include ad.html %}
         </center>
+        <hr>
 
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
+        <hr>
         <center>
         {% include ad.html %}
         {% include ad.html %}
@@ -91,7 +93,7 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
-  
+
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
