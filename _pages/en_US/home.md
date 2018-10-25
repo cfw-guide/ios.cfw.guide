@@ -11,6 +11,9 @@ header:
 **This guide has not been completed yet and is not recommended to be used until it is complete.**
 {: .notice--warning}
 
+This page is not completed yet.
+{: .notice--warning}
+
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--info}
 
