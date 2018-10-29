@@ -9,7 +9,7 @@ If I forgot you here, contact me and I'll add your name.
     + J9ck
     + emiyl
     + EricLegend
-    + shady
+    + C9Shady
 
 </pre>{% endcapture %}
 
