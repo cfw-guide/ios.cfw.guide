@@ -30,8 +30,33 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0</td>
-      <td style="text-align: center; font-weight: bold;">10.33</td>
+      <td style="text-align: center; font-weight: bold;">9.1</td>
       <td style="text-align: center; font-weight: bold;">Coming Soon</td>
+    </tr>
+      <tr>
+      <td style="text-align: center; font-weight: bold;">9.2</td>
+      <td style="text-align: center; font-weight: bold;">9.3.3</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
+    </tr>
+      <tr>
+      <td style="text-align: center; font-weight: bold;">10.0</td>
+      <td style="text-align: center; font-weight: bold;">10.2</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-yalu102">Installing Yalu</a></td>
+    </tr>
+  <tr>
+      <td style="text-align: center; font-weight: bold;">10.0</td>
+      <td style="text-align: center; font-weight: bold;">10.3.3</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
+    </tr>
+  <tr>
+      <td style="text-align: center; font-weight: bold;">10.0</td>
+      <td style="text-align: center; font-weight: bold;">10.3.3</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
+    </tr>
+  <tr>
+      <td style="text-align: center; font-weight: bold;">11.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.1</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-electra">Installing Electra</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
