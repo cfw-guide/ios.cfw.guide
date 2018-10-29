@@ -58,7 +58,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td style="text-align: center; font-weight: bold;"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-meridian">Installing Meridian</a></td>
     </tr>
-    </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.1</td>
