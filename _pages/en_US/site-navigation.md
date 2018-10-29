@@ -17,7 +17,6 @@ sitemap: false
 + [Credits](credits)
 + [Donations](donations)
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
 + [Home](/)
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
