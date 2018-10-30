@@ -4,7 +4,8 @@ title: "Credits"
 
 If I forgot you here, contact me and I'll add your name.
 
-{% capture notice-1 %}<pre><br>
+{% capture notice-1 %}<pre>
+
     + J9ck
     + emiyl
     + EricLegend
