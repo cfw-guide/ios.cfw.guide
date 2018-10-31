@@ -18,12 +18,13 @@ sitemap: false
 + [Donations](donations)
 + [FAQ](faq)
 + [Home](/)
-+ [Installing Unc0ver](installing-unc0ver)
 + [Installing Electra](installing-electra)
-+ [Installing Yalu](installing-yalu102)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing h3lix](installing-h3lix)
 + [Installing Pangu](installing-pangu933)
++ [Installing Unc0ver](installing-unc0ver)
++ [Installing Yalu](installing-yalu102)
++ [Running Unc0ver](running-unc0ver)
 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
