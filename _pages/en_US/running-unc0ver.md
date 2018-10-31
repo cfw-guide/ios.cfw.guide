@@ -1,5 +1,5 @@
 ---
-title: Running unc0ver
+title: Using unc0ver
 ---
 
 This page is not completed yet.
@@ -52,6 +52,6 @@ In the "Settings" tab, there are multiple options for customizing the jailbreak 
       <tr>
       <td style="text-align: center; font-weight: bold;">Load Tweaks (enabled by default)</td>
       <td style="text-align: center; font-weight: bold;">This will load the dylibs upon a successful jailbreak.</td>
-      </tr> 
+      </tr>
   </tbody>
 </table>

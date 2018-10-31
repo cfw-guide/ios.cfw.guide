@@ -35,3 +35,6 @@ The app will now install to your iOS device.
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
+
+Continue to [Using unc0ver](using-unc0ver)
+{: .notice--info}

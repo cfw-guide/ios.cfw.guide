@@ -24,7 +24,7 @@ sitemap: false
 + [Installing Pangu](installing-pangu933)
 + [Installing Unc0ver](installing-unc0ver)
 + [Installing Yalu](installing-yalu102)
-+ [Running Unc0ver](running-unc0ver)
++ [Using unc0ver](using-unc0ver)
 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
