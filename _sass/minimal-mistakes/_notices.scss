@@ -53,8 +53,8 @@
     }
   }
 
-  code {
-    background-color: mix(#000, $notice-color, 35%)
+  code, pre {
+    background-color: mix(#000, $notice-color, 35%) !important;
   }
 
   ul {
