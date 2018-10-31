@@ -18,7 +18,7 @@ On the main tab "Jailbreak", the page features basic information about the devel
 
 ## Settings for unc0ver
 
-In the "Settings" tab, there are multiple options for customizing the jailbreak experience. 
+In the "Settings" tab, there are multiple options for customizing the jailbreak experience.
 
 <table>
   <colgroup>
@@ -52,7 +52,6 @@ In the "Settings" tab, there are multiple options for customizing the jailbreak 
       <tr>
       <td style="text-align: center; font-weight: bold;">Load Tweaks (enabled by default)</td>
       <td style="text-align: center; font-weight: bold;">This will load the dylibs upon a successful jailbreak.</td>
-      </tr>
-    </tr>
+      </tr> 
   </tbody>
 </table>
