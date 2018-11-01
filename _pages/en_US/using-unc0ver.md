@@ -5,7 +5,7 @@ title: Using unc0ver
 This page is not completed yet.
 {: .notice--warning}
 
-Once that you have unc0ver installed and trusted on your device, go ahead and open the application.
+After successfully following the previous step, the unc0ver application will be installed to your home screen. Open the application.
 
 TODO: add image of unc0ver welcome screen.
 {: .notice--warning}
@@ -30,28 +30,32 @@ In the "Settings" tab, there are multiple options for customizing the jailbreak 
   </colgroup>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">Load Tweaks (enabled by default)</td>
-      <td style="text-align: center; font-weight: bold;">This will load the dylibs upon a successful jailbreak.</td>
+      <th style="text-align: center; font-weight: bold;">Load Tweaks (enabled by default)</th>
+      <td style="text-align: center;">This will load the dylibs upon a successful jailbreak.</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">Load Daemons (enabled by default)</td>
-      <td style="text-align: center; font-weight: bold;">This will load the daemons (jailbreakd, etc) upon a successful jailbreak.</td>
-            </tr>
-      <tr>
-      <td style="text-align: center; font-weight: bold;">Dump APTicket (enabled by default)</td>
-      <td style="text-align: center; font-weight: bold;">TODO</td>
-            </tr>
-      <tr>
-      <td style="text-align: center; font-weight: bold;">Refresh Icon Cache</td>
-      <td style="text-align: center; font-weight: bold;">This is the equivalent to running `uicache`.</td>
-      </tr>
-      <tr>
-      <td style="text-align: center; font-weight: bold;">Disable Auto Updates</td>
-      <td style="text-align: center; font-weight: bold;">This will disable the automatic OTA daemon.</td>
-      </tr>
-      <tr>
-      <td style="text-align: center; font-weight: bold;">Load Tweaks (enabled by default)</td>
-      <td style="text-align: center; font-weight: bold;">This will load the dylibs upon a successful jailbreak.</td>
-      </tr>
+      <th style="text-align: center; font-weight: bold;">Load Daemons (enabled by default)</th>
+      <td style="text-align: center;">This will load the daemons (jailbreakd, etc) upon a successful jailbreak.</td>
+    </tr>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Dump APTicket (enabled by default)</th>
+      <td style="text-align: center;">TODO</td>
+    </tr>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Refresh Icon Cache</th>
+      <td style="text-align: center;">This is the equivalent to running `uicache`.</td>
+    </tr>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Disable Auto Updates</th>
+      <td style="text-align: center;">This will disable the automatic OTA daemon.</td>
+    </tr>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">
+        Load Tweaks (enabled by default)
+      </th>
+      <td style="text-align: center;">
+        This will load the dylibs upon a successful jailbreak.
+      </td>
+    </tr>
   </tbody>
 </table>
