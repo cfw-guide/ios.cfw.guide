@@ -3,12 +3,12 @@ layout: splash
 title: iOS Guide
 excerpt: "A complete iOS jailbreaking guide, from stock to Cydia."
 header:
-  overlay_color: "#3E1C33"
+  overlay_color: "#1a1d24"
   cta_label: "Get Started"
   cta_url: get-started
 ---
 
-This guide has not been completed yet and is not recommended to be used until it is complete.
+**This guide has not been completed yet and is not recommended to be used until it is complete.**
 {: .notice--warning}
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
