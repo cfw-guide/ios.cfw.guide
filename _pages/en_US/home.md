@@ -9,7 +9,7 @@ header:
 ---
 
 **This guide has not been completed yet and is not recommended to be used until it is complete.**
-{: .notice--warning}
+{: .notice--danger}
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--info}
@@ -61,7 +61,7 @@ Older jailbreaks may allow you to simply install the software once from your com
 ## What should I know before starting?
 
 Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
-{: .notice--warning}
+{: .notice--danger}
 
 - If no issues occur during installation, you will be jailbroken without any data loss
 - Keep the device plugged into to a power source so that any unexpected power off will be prevented

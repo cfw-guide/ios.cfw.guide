@@ -3,12 +3,12 @@ title: Using unc0ver
 ---
 
 This page is not completed yet.
-{: .notice--warning}
+{: .notice--danger}
 
 After successfully following the previous step, the unc0ver application will be installed to your home screen. Open the application.
 
 TODO: add image of unc0ver welcome screen.
-{: .notice--warning}
+{: .notice--primary}
 
 There are two tabs available to view in the unc0ver jailbreak, "Jailbreak" and "Settings".
 

@@ -3,7 +3,7 @@ title: Installing unc0ver
 ---
 
 This page is not completed yet.
-{: .notice--warning}
+{: .notice--danger}
 
 The unc0ver jailbreak tool for iOS devices allows is capable of jailbreaking every device with firmware version 11.0 up to 11.3.1 and includes beta firmwares up to 11.4b3.
 
@@ -35,6 +35,9 @@ The app will now install to your iOS device.
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
+
+The unc0ver application will be installed to your home screen.
+{: .notice--success}
 
 Continue to [Using unc0ver](using-unc0ver)
 {: .notice--info}
