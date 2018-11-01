@@ -30,24 +30,44 @@ In the "Settings" tab, there are multiple options for customizing the jailbreak 
   </colgroup>
   <tbody>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Load Tweaks (enabled by default)</th>
-      <td style="text-align: center;">This will load the dylibs upon a successful jailbreak.</td>
+      <th style="text-align: center; font-weight: bold;">
+        Load Tweaks (enabled by default)
+      </th>
+      <td style="text-align: center;">
+        This will load the dylibs upon a successful jailbreak.
+      </td>
     </tr>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Load Daemons (enabled by default)</th>
-      <td style="text-align: center;">This will load the daemons (jailbreakd, etc) upon a successful jailbreak.</td>
+      <th style="text-align: center; font-weight: bold;">
+        Load Daemons (enabled by default)
+      </th>
+      <td style="text-align: center;">
+        This will load the daemons (jailbreakd, etc) upon a successful jailbreak.
+      </td>
     </tr>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Dump APTicket (enabled by default)</th>
-      <td style="text-align: center;">TODO</td>
+      <th style="text-align: center; font-weight: bold;">
+        Dump APTicket (enabled by default)
+      </th>
+      <td style="text-align: center;">
+        TODO
+      </td>
     </tr>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Refresh Icon Cache</th>
-      <td style="text-align: center;">This is the equivalent to running `uicache`.</td>
+      <th style="text-align: center; font-weight: bold;">
+        Refresh Icon Cache
+      </th>
+      <td style="text-align: center;">
+        This is the equivalent to running `uicache`.
+      </td>
     </tr>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Disable Auto Updates</th>
-      <td style="text-align: center;">This will disable the automatic OTA daemon.</td>
+      <th style="text-align: center; font-weight: bold;">
+        Disable Auto Updates
+      </th>
+      <td style="text-align: center;">
+        This will disable the automatic OTA daemon.
+      </td>
     </tr>
     <tr>
       <th style="text-align: center; font-weight: bold;">
