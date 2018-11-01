@@ -3,7 +3,7 @@ title: Installing Pangu
 ---
 
 This page is not completed yet.
-{: .notice--warning}
+{: .notice--danger}
 
 The Pangu jailbreak tool for iOS devices allows is capable of jailbreaking every 64 bit device with firmware version 9.2 up to 9.3.3.
 
@@ -35,3 +35,6 @@ The app will now install to your iOS device.
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
+
+The Pangu application will be installed to your home screen.
+{: .notice--success}

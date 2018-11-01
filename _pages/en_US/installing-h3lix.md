@@ -3,7 +3,7 @@ title: Installing h3lix
 ---
 
 This page is not completed yet.
-{: .notice--warning}
+{: .notice--danger}
 
 The h3lix jailbreak tool for iOS devices allows is capable of jailbreaking every 32 bit device with firmware version 10.0 up to 10.3.3.
 
@@ -35,3 +35,6 @@ The app will now install to your iOS device.
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
+
+The h3lix application will be installed to your home screen.
+{: .notice--success}
