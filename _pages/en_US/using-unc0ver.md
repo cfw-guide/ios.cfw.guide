@@ -16,6 +16,9 @@ There are two tabs available to view in the unc0ver jailbreak, "Jailbreak" and "
 
 On the main tab "Jailbreak", the page features basic information about the developers and UI designers. The next main feature is the "Jailbreak" button. This will jailbreak your device.
 
+Tap the "Jailbreak" button to jailbreak your phone.
+{: .notice--success}
+
 ## Settings for unc0ver
 
 In the "Settings" tab, there are multiple options for customizing the jailbreak experience.
