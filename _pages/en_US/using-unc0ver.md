@@ -14,9 +14,9 @@ There are two tabs available to view in the unc0ver jailbreak, "Jailbreak" and "
 
 ## Jailbreak Tab
 
-On the main tab "Jailbreak", the page features basic information about the developers and UI designers. The next main feature is the "Jailbreak" button. This will jailbreak your device.
+On the main tab "Jailbreak", the page features basic information about the developers and UI designers. The main feature is the "Jailbreak" button. This will jailbreak your device and install Cydia to your home screen.
 
-Tap the "Jailbreak" button to jailbreak your phone.
+Tap the "Jailbreak" button to jailbreak your device.
 {: .notice--success}
 
 ## Settings for unc0ver
