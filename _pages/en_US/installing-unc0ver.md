@@ -2,6 +2,8 @@
 title: Installing unc0ver
 ---
 
+{% include toc title="Table of Contents" %}
+
 This page is not completed yet.
 {: .notice--danger}
 
