@@ -2,6 +2,8 @@
 title: Blocking Updates
 ---
 
+{% include toc title="Table of Contents" %}
+
 This page is not completed yet.
 {: .notice--warning}
 
