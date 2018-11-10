@@ -16,8 +16,9 @@ We can block updates using an Apple tvOS profile, which will prevent any further
 4. Choose your current device if prompted
 5. Tap "Install"
 6. Confirm by tapping "Install" again
-7. Tap "Install" for a third time
-8. Restart your device when prompted
+7. Enter your passcode if you have one
+8. Tap "Install" for a third time
+9. Restart your device when prompted
 
 Your device should no longer receive software updates.
 {: .notice--success}
@@ -34,7 +35,8 @@ By removing update blocking you may update to a higher firmware and be unable to
   - `Profiles` may display as `Profiles and Device Management`
 3. Select `tvOS 12 Beta Software Profile`
 4. Tap "Remove Profile"
-5. Confirm by tapping "Remove"
+5. Enter your passcode if you have one
+6. Confirm by tapping "Remove"
 
 Your device should now be able to update again.
 {: .notice--success}

@@ -4,9 +4,6 @@ title: Installing Pangu
 
 {% include toc title="Table of Contents" %}
 
-This page is not completed yet.
-{: .notice--danger}
-
 The Pangu jailbreak tool for iOS devices allows is capable of jailbreaking every 64 bit device with firmware version 9.2 up to 9.3.3.
 
 Note that the Pangu jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.

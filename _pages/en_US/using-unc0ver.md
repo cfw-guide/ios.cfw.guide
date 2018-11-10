@@ -4,9 +4,6 @@ title: Using unc0ver
 
 {% include toc title="Table of Contents" %}
 
-This page is not completed yet.
-{: .notice--danger}
-
 After successfully following the previous step, the unc0ver application will be installed to your home screen. Open the application.
 
 ![]({{ "/assets/images/unc0vermain.png" | absolute_url }})
@@ -24,6 +21,9 @@ On the main tab "Jailbreak", the page features basic information about the devel
 ## Settings for unc0ver
 
 In the "Settings" tab, there are multiple options for customizing the jailbreak experience.
+
+This section is not completed yet.
+{: .notice--danger}
 
 <table>
   <colgroup>
