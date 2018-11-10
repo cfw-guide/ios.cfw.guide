@@ -4,9 +4,6 @@ title: Installing yalu102
 
 {% include toc title="Table of Contents" %}
 
-This page is not completed yet.
-{: .notice--danger}
-
 The yalu102 jailbreak tool for iOS devices allows is capable of jailbreaking every 64 bit device with a headphone jack on firmware version 10.0 up to 10.2.
 
 Note that the yalu102 jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.

@@ -4,9 +4,6 @@ title: Installing Electra
 
 {% include toc title="Table of Contents" %}
 
-This page is not completed yet.
-{: .notice--danger}
-
 The Electra jailbreak tool for iOS devices allows is capable of jailbreaking every device with firmware version 11.0 up to 11.3.1.
 
 Note that the Electra jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
