@@ -17,6 +17,9 @@ We will use the Cydia Impactor tool to install the unc0ver jailbreak application
 - The latest version of [unc0ver](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
+![]({{ "/assets/images/impactor.png" | absolute_url }})
+{: .notice--primary}
+
 ## Installing the application
 
 1. Open Cydia Impactor
