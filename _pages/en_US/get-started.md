@@ -32,7 +32,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <!--<tr>
       <td style="text-align: center; font-weight: bold;">1.0</td>
       <td style="text-align: center; font-weight: bold;">9.1</td>
       <td style="text-align: center; font-weight: bold;" colspan="3">Coming Soon</td>
@@ -57,6 +57,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-meridian">Installing Meridian</a></td>
+    </tr>-->
+    <tr>
+      <td style="text-align: center; font-weight: bold;">1.0</td>
+      <td style="text-align: center; font-weight: bold;">10.3.3</td>
+      <td style="text-align: center; font-weight: bold;" colspan="3">Coming Soon</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>

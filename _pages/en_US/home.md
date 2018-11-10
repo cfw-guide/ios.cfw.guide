@@ -8,9 +8,6 @@ header:
   cta_url: get-started
 ---
 
-This guide has not been completed yet and is not recommended to be used until it is complete.
-{: .notice--danger}
-
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--info}
 
@@ -24,6 +21,9 @@ Alternatively, click [here]() to help to keep these translations up to date.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+For now this guide is only compatible with iOS 11.
+{: .notice--primary}
 
 ## What is jailbreaking?
 
