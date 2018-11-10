@@ -73,7 +73,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4</td>
-      <td style="text-align: center; font-weight: bold;">12.0.1</td>
+      <td style="text-align: center; font-weight: bold;">12.1</td>
       <!--<td style="text-align: center; font-weight: bold;">N/A</td>-->
       <td style="text-align: center; font-weight: bold;" colspan="1"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
