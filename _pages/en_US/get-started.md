@@ -67,13 +67,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
-      <td style="text-align: center; font-weight: bold;">11.3.1</td>
+      <td style="text-align: center; font-weight: bold;">11.4.1</td>
       <!--<td style="text-align: center; font-weight: bold;">N/A</td>-->
       <td style="text-align: center; font-weight: bold;" colspan="1"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">11.4</td>
-      <td style="text-align: center; font-weight: bold;">12.1</td>
+      <td style="text-align: center; font-weight: bold;">12.0</td>
+      <td style="text-align: center; font-weight: bold;">12.1.3</td>
       <!--<td style="text-align: center; font-weight: bold;">N/A</td>-->
       <td style="text-align: center; font-weight: bold;" colspan="1"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
