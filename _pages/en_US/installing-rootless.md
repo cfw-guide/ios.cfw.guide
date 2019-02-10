@@ -10,7 +10,7 @@ This guide is for **ADVANCED USERS ONLY**. This will require use of Xcode and ex
 You must own a computer running MacOS to use this guide.
 {:.notice--info}
 
-The rootlessJB jailbreak tool for iOS devices allows is capable of jailbreaking every device with firmware version 12.0 up to 12.1.2.
+The rootlessJB jailbreak tool for iOS devices allows is capable of jailbreaking every device on firmware version 12.0 up to 12.1.2.
 
 Note that the rootless jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -44,9 +44,6 @@ We will use Xcode to install the rootless jailbreak application to your iOS devi
   - `io.shady.rootlessjb` for example
 1. Click "Build"
 
-![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--info}
-
 The app will now install to your iOS device.
 
 ## Trusting the application
@@ -55,5 +52,13 @@ The app will now install to your iOS device.
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The rootlessjb application will be installed to your home screen.
+The rootlessJB application will be installed to your home screen.
 {: .notice--success}
+
+## Running rootlessJB
+
+1. Open the rootlessJB application from your home screen
+1. Tap "Jailbreak!"
+
+If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+{:.notice--info}
