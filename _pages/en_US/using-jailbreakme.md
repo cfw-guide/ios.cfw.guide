@@ -10,7 +10,7 @@ Note that the Jailbreak.me exploit is not “persistent” (meaning it does not 
 
 If you this guide does not work we recommend you follow our [Installing HomeDepot](installing-homedepot) guide instead.
 
-## Running Meridian
+## Running Jailbreak.me
 
 1. Open Safari on your iOS device
 1. Go to the [jailbreak.me](https://jailbreak.me/){:target="_blank"} website
