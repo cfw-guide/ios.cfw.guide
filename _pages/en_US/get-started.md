@@ -68,6 +68,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
 </table>
 
 ---
+
+iOS 12.0 to 12.1.2 users can install a ["rootless" jailbreak](/installing-rootless) to use tweaks, however this is only recommended for advanced users.
+{:.notice--danger}
+
+---
 {% capture notice-2 %}
 ![]({{ "/assets/images/system-version.jpg" | absolute_url }})
 
