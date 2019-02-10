@@ -22,7 +22,7 @@ Alternatively, click [here](https://crowdin.com/project/dsi-guide){:target="_bla
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div> -->
 
-For now this guide is only compatible with iOS 10 and 11.
+For now this guide is only compatible with iOS 9 to 11.
 {: .notice--primary}
 
 ## What is jailbreaking?

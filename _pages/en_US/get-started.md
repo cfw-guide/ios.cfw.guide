@@ -34,17 +34,37 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0</td>
-      <td style="text-align: center; font-weight: bold;">9.3.3</td>
+      <td style="text-align: center; font-weight: bold;">9.1</td>
       <td style="text-align: center; font-weight: bold;" colspan="2">Coming Soon</td>
       <td style="text-align: center; font-weight: bold;">N/A</td>
     </tr>
     <!--<tr>
-      <td style="text-align: center; font-weight: bold;">9.2</td>
-      <td style="text-align: center; font-weight: bold;">9.3.3</td>
-      <td style="text-align: center; font-weight: bold;">Coming Soon</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
+      <td style="text-align: center; font-weight: bold;">9.0</td>
+      <td style="text-align: center; font-weight: bold;">9.1</td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-pangu90">Installing Pangu</a></td>
       <td style="text-align: center; font-weight: bold;">N/A</td>
     </tr>-->
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.2</td>
+      <td style="text-align: center; font-weight: bold;">9.3.3</td>
+      <td style="text-align: center; font-weight: bold;"><a href="using-jailbreakme">Using Jailbreak.me</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.3.4</td>
+      <td style="text-align: center; font-weight: bold;">9.3.4</td>
+      <td style="text-align: center; font-weight: bold;"><a href="using-jailbreakme">Using Jailbreak.me</a></td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.3.5</td>
+      <td style="text-align: center; font-weight: bold;">9.3.5</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-phoenix">Installing Phœnix</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">N/A</td>
+    </tr>
   <tr>
       <td style="text-align: center; font-weight: bold;">10.0</td>
       <td style="text-align: center; font-weight: bold;">10.3.3</td>
