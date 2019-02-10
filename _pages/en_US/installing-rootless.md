@@ -54,3 +54,4 @@ The app will now install to your iOS device.
 
 The rootlessjb application will be installed to your home screen.
 {: .notice--success}
+Continue to [Using rootless](using-rootless)
