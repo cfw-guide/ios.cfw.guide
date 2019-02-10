@@ -8,6 +8,9 @@ If you are currently on an unjailbreakable firmware, and have hopes to jailbreak
 
 We can block updates using an Apple tvOS profile, which will prevent any further iOS updates downloading to your device. This is completely safe and can be removed easily when you want to update.
 
+iOS 12.0 to 12.1.2 users can install a ["rootless" jailbreak](/installing-rootless) to use tweaks, however this is only recommended for advanced users.
+{:.notice--danger}
+
 ### Installing the tvOS profile
 
 1. Visit this website on your iOS device
