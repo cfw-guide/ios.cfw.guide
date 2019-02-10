@@ -14,13 +14,13 @@ For complete guides to homebrew and custom firmware for other devices, check out
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--info}
 
-{% capture notice-1 %}
+<!-- {% capture notice-1 %}
 This guide is available in other languages!
 Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here]() to help to keep these translations up to date.
+Alternatively, click [here](https://crowdin.com/project/dsi-guide){:target="_blank"} to help to keep these translations up to date.
 {% endcapture %}
 
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+<div class="notice--info">{{ notice-1 | markdownify }}</div> -->
 
 For now this guide is only compatible with iOS 10 and 11.
 {: .notice--primary}
