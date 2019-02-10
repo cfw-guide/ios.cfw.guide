@@ -8,36 +8,15 @@ The Meridian jailbreak tool for iOS devices allows is capable of jailbreaking ev
 
 Note that the Meridian jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
-Due to how custom applications are installed to the device, in most cases you will need to reinstall the Meridian jailbreak application to your device every 7 days from your computer.
+If you are using a device with a headphone jack we strongly recommend you follow our [Installing doubleh3lix](installing-doubleh3lix) guide for 64bit devices instead.
 
-We will use the Cydia Impactor tool to install the Meridian jailbreak application to your iOS device for use in the next step.
+## Running Meridian
 
-## Downloads
+1. Open Safari on your iOS device
+1. Go to the [meridian.sparkes.zone](https://meridian.sparkes.zone/){:target="_blank"} website
+1. Tap "Jailbreak"
 
-- The latest version of [Meridian](https://meridian.sparkes.zone/)
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
+Meridian will now install the temporary jailbreak on your device.
 
-![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--primary}
-
-## Installing the application
-
-1. Open Cydia Impactor
-1. Plug your iOS device into your computer
-  - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Meridian `.ipa` file into Cydia Impactor
-1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage){:target="_blank"} and generate an App-Specific Password
-1. Enter in your App-Specific Password
-  - This information is sent to Apple only
-
-The app will now install to your iOS device.
-
-## Trusting the application
-
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
-  - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
-
-The Meridian application will be installed to your home screen.
+Tap `Share` -> `Add to home screen` for easier access to Meridian.
 {: .notice--success}

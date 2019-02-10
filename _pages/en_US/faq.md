@@ -12,4 +12,4 @@ redirect_from:
 <a name="faq_blobs" />**Q:** What are “blobs”?
 {: .notice--info}
 
-**A:** A blob is the term for a small piece of data that controls whether an iOS device can update to a certain firmware version or not. It allows you to install other iOS versions without them being signed, just as if they were actually signed. You can save blobs using [this guide](/blobs).
+**A:** A blob is the term for a small piece of data that controls whether an iOS device can update to a certain firmware version or not. It allows you to install other iOS versions without them being signed, just as if they were actually signed. You can save blobs on [tsssaver.1conan.com](https://tsssaver.1conan.com/){:target="_blank"}.

@@ -18,64 +18,51 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
-    <!--<col span="1" style="width: 25%;">
     <col span="1" style="width: 25%;">
-    <col span="1" style="width: 30%;">-->
+    <col span="1" style="width: 25%;">
+    <col span="1" style="width: 30%;">
   </colgroup>
   <thead>
     <tr>
       <th style="text-align: center; font-weight: bold;">From</th>
       <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
-      <!--<th style="text-align: center; font-weight: bold;">32-bit</th>
+      <th style="text-align: center; font-weight: bold;">32-bit</th>
       <th style="text-align: center; font-weight: bold;">64-bit</th>
-      <th style="text-align: center; font-weight: bold;">No Headphone Jack</th>-->
+      <th style="text-align: center; font-weight: bold;">No Headphone Jack</th>
     </tr>
   </thead>
   <tbody>
-    <!--<tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">1.0</td>
-      <td style="text-align: center; font-weight: bold;">9.1</td>
-      <td style="text-align: center; font-weight: bold;" colspan="3">Coming Soon</td>
+      <td style="text-align: center; font-weight: bold;">9.3.3</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Coming Soon</td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
     </tr>
-      <tr>
+    <!--<tr>
       <td style="text-align: center; font-weight: bold;">9.2</td>
       <td style="text-align: center; font-weight: bold;">9.3.3</td>
       <td style="text-align: center; font-weight: bold;">Coming Soon</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
       <td style="text-align: center; font-weight: bold;">N/A</td>
-    </tr>
-      <tr>
-      <td style="text-align: center; font-weight: bold;">10.0</td>
-      <td style="text-align: center; font-weight: bold;">10.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-yalu102">Installing Yalu</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-meridian">Installing Meridian</a></td>
-    </tr>
+    </tr>-->
   <tr>
-      <td style="text-align: center; font-weight: bold;">10.2.1</td>
+      <td style="text-align: center; font-weight: bold;">10.0</td>
       <td style="text-align: center; font-weight: bold;">10.3.3</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-meridian">Installing Meridian</a></td>
-    </tr>-->
-    <tr>
-      <td style="text-align: center; font-weight: bold;">1.0</td>
-      <td style="text-align: center; font-weight: bold;">10.3.3</td>
-      <td style="text-align: center; font-weight: bold;" colspan="1">Coming Soon</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
       <td style="text-align: center; font-weight: bold;">11.4.1</td>
-      <!--<td style="text-align: center; font-weight: bold;">N/A</td>-->
-      <td style="text-align: center; font-weight: bold;" colspan="1"><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.0</td>
       <td style="text-align: center; font-weight: bold;">12.1.3</td>
-      <!--<td style="text-align: center; font-weight: bold;">N/A</td>-->
-      <td style="text-align: center; font-weight: bold;" colspan="1"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
   </tbody>
 </table>

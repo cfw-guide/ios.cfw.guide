@@ -18,6 +18,9 @@ On the main tab "Jailbreak", the page features basic information about the devel
 **Tap the "Jailbreak" button to jailbreak your device.**
 {: .notice--success}
 
+If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+{:.notice--info}
+
 ## Settings for unc0ver
 
 In the "Settings" tab, there are multiple options for customizing the jailbreak experience.

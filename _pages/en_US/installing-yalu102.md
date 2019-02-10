@@ -17,6 +17,9 @@ We will use the Cydia Impactor tool to install the yalu102 jailbreak application
 - The latest version of [yalu102](https://yalu.qwertyoruiop.com/yalu102_beta7.ipa)
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
+![]({{ "/assets/images/impactor.png" | absolute_url }})
+{: .notice--info}
+
 ## Installing the application
 
 1. Open Cydia Impactor
@@ -35,5 +38,5 @@ The app will now install to your iOS device.
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The yalu102 application will be installed to your home screen.
+The yalu102 application can now be opened from home screen.
 {: .notice--success}

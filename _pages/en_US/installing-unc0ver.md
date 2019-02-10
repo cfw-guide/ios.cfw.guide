@@ -18,7 +18,7 @@ We will use the Cydia Impactor tool to install the unc0ver jailbreak application
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--primary}
+{: .notice--info}
 
 ## Installing the application
 
@@ -38,7 +38,7 @@ The app will now install to your iOS device.
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The unc0ver application will be installed to your home screen.
+The unc0ver application can now be opened from home screen.
 {: .notice--success}
 
 Continue to [Using unc0ver](using-unc0ver)

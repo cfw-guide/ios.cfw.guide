@@ -18,7 +18,7 @@ We will use the Cydia Impactor tool to install the h3lix jailbreak application t
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--primary}
+{: .notice--info}
 
 ## Installing the application
 
@@ -39,5 +39,13 @@ The app will now install to your iOS device.
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The h3lix application will be installed to your home screen.
+The h3lix application can now be opened from home screen.
 {: .notice--success}
+
+## Running h3lix
+
+1. Open the h3lix application from your home screen
+1. Tap "Jailbreak"
+
+If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+{:.notice--info}
