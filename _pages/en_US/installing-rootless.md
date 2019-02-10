@@ -44,9 +44,6 @@ We will use Xcode to install the rootless jailbreak application to your iOS devi
   - `io.shady.rootlessjb` for example
 1. Click "Build"
 
-![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--info}
-
 The app will now install to your iOS device.
 
 ## Trusting the application
