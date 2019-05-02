@@ -26,7 +26,6 @@ We will use Xcode to install the rootless jailbreak application to your iOS devi
 ## Installing the application
 
 ![]({{ "/assets/images/rootlessjb.png" | absolute_url }})
-{: .notice--info}
 
 1. Open Xcode
 1. Plug your iOS device into your computer
@@ -53,7 +52,7 @@ The app will now install to your iOS device.
 1. Tap `Trust "<Your Apple ID>"`
 
 The rootlessJB application will be installed to your home screen.
-{: .notice--success}
+{: .notice--primary}
 
 ## Running rootlessJB
 
@@ -61,4 +60,4 @@ The rootlessJB application will be installed to your home screen.
 1. Tap "Jailbreak!"
 
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
-{:.notice--info}
+{:.notice--danger}

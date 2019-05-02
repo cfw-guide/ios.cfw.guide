@@ -4,7 +4,7 @@ title: Installing yalu102
 
 {% include toc title="Table of Contents" %}
 
-The yalu102 jailbreak tool for iOS devices allows is capable of jailbreaking every 64 bit device with a headphone jack on firmware version 10.0 up to 10.2.
+The yalu102 jailbreak tool is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.2.
 
 Note that the yalu102 jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -18,7 +18,6 @@ We will use the Cydia Impactor tool to install the yalu102 jailbreak application
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--info}
 
 ## Installing the application
 
@@ -39,4 +38,4 @@ The app will now install to your iOS device.
 1. Tap `Trust "<Your Apple ID>"`
 
 The yalu102 application can now be opened from home screen.
-{: .notice--success}
+{: .notice--primary}

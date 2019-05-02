@@ -4,7 +4,7 @@ title: Installing unc0ver
 
 {% include toc title="Table of Contents" %}
 
-The unc0ver jailbreak tool for iOS devices allows is capable of jailbreaking every device onß firmware version 11.0 up to 11.4.1.
+The unc0ver jailbreak tool is capable of jailbreaking every iOS device on firmware version 11.0 up to 11.4.1.
 
 Note that the unc0ver jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -18,7 +18,6 @@ We will use the Cydia Impactor tool to install the unc0ver jailbreak application
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--info}
 
 ## Installing the application
 
@@ -39,7 +38,7 @@ The app will now install to your iOS device.
 1. Tap `Trust "<Your Apple ID>"`
 
 The unc0ver application can now be opened from home screen.
-{: .notice--success}
+{: .notice--primary}
 
 Continue to [Using unc0ver](using-unc0ver)
 {: .notice--info}

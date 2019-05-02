@@ -7,7 +7,7 @@ title: Using unc0ver
 After successfully following the previous step, the unc0ver application will be installed to your home screen. Open the application.
 
 ![]({{ "/assets/images/unc0vermain.png" | absolute_url }})
-{: .notice--primary}
+{: .notice--info}
 
 There are two tabs available to view in the unc0ver jailbreak, "Jailbreak" and "Settings".
 
@@ -16,7 +16,7 @@ There are two tabs available to view in the unc0ver jailbreak, "Jailbreak" and "
 On the main tab "Jailbreak", the page features basic information about the developers and UI designers. The main feature is the "Jailbreak" button. This will jailbreak your device and install Cydia to your home screen.
 
 **Tap the "Jailbreak" button to jailbreak your device.**
-{: .notice--success}
+{: .notice--primary}
 
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
 {:.notice--info}
@@ -26,7 +26,7 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 In the "Settings" tab, there are multiple options for customizing the jailbreak experience.
 
 This section is not completed yet.
-{: .notice--danger}
+{: .notice--primary}
 
 <table>
   <colgroup>

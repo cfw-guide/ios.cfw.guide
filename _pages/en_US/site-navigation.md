@@ -7,8 +7,8 @@ sitemap: false
 {% capture notice-1 %}
 **Popular**
 
++ [Installing Chimera](installing-chimera)
 + [Installing Unc0ver](installing-unc0ver)
-+ [Using unc0ver](using-unc0ver)
 + [Blocking Updates](blocking-updates)
 
 {% endcapture %}
@@ -23,6 +23,7 @@ sitemap: false
 + [FAQ](faq)
 + [Get Started](get-started)
 + [Home](/)
++ [Installing Chimera](installing-chimera)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing Electra](installing-electra)
 + [Installing h3lix](installing-h3lix)
