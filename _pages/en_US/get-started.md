@@ -36,36 +36,35 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td style="text-align: center; font-weight: bold;">1.0</td>
       <td style="text-align: center; font-weight: bold;">9.1</td>
       <td style="text-align: center; font-weight: bold;" colspan="2">Coming Soon</td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
     <!--<tr>
       <td style="text-align: center; font-weight: bold;">9.0</td>
       <td style="text-align: center; font-weight: bold;">9.1</td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-pangu90">Installing Pangu</a></td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>-->
     <tr>
       <td style="text-align: center; font-weight: bold;">9.2</td>
       <td style="text-align: center; font-weight: bold;">9.3.3</td>
       <td style="text-align: center; font-weight: bold;"><a href="using-jailbreakme">Using Jailbreak.me</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.3.4</td>
       <td style="text-align: center; font-weight: bold;">9.3.4</td>
       <td style="text-align: center; font-weight: bold;"><a href="using-jailbreakme">Using Jailbreak.me</a></td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">--</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.3.5</td>
       <td style="text-align: center; font-weight: bold;">9.3.5</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-phoenix">Installing Phœnix</a></td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">N/A</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">--</td>
     </tr>
-  <tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">10.0</td>
       <td style="text-align: center; font-weight: bold;">10.3.3</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
@@ -75,13 +74,19 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
       <td style="text-align: center; font-weight: bold;">11.4.1</td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.0</td>
+      <td style="text-align: center; font-weight: bold;">12.1.2</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">12.1.3</td>
-      <td style="text-align: center; font-weight: bold;">N/A</td>
+      <td style="text-align: center; font-weight: bold;">12.2</td>
+      <td style="text-align: center; font-weight: bold;">--</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
   </tbody>
@@ -89,8 +94,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-iOS 12.0 to 12.1.2 users can install a ["rootless" jailbreak](/installing-rootless) to use tweaks, however this is only recommended for advanced users.
-{:.notice--danger}
+In boxes marked `--`, there are no iOS devices that fit into those two categories.
+{: .notice--info}
 
 ---
 {% capture notice-2 %}

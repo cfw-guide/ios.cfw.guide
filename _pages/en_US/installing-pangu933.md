@@ -4,7 +4,7 @@ title: Installing Pangu
 
 {% include toc title="Table of Contents" %}
 
-The Pangu jailbreak tool for iOS devices allows is capable of jailbreaking every 64 bit device on firmware version 9.2 up to 9.3.3.
+The Pangu jailbreak tool is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
 
 Note that the Pangu jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -18,7 +18,6 @@ We will use the Cydia Impactor tool to install the Pangu jailbreak application t
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
-{: .notice--info}
 
 ## Installing the application
 
@@ -40,7 +39,7 @@ The app will now install to your iOS device.
 1. Tap `Trust "<Your Apple ID>"`
 
 The Pangu application can now be opened from home screen.
-{: .notice--success}
+{: .notice--primary}
 
 ## Running Pangu
 
@@ -51,7 +50,7 @@ The Pangu application can now be opened from home screen.
 1. You should get a notification telling you that the jailbreak has succeeded
 
 On the first installation, the jailbreak may take some time to complete. This is normal.
-{:.notice--primary}
+{:.notice--info}
 
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
-{:.notice--info}
+{:.notice--danger}

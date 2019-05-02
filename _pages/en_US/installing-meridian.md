@@ -4,7 +4,7 @@ title: Installing Meridian
 
 {% include toc title="Table of Contents" %}
 
-The Meridian jailbreak tool for iOS devices allows is capable of jailbreaking every 64 bit device on firmware version 10.0 up to 10.3.3.
+The Meridian jailbreak tool is capable of jailbreaking every 64bit iOS device on firmware version 10.0 up to 10.3.3.
 
 Note that the Meridian jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -19,4 +19,4 @@ If you are using a device with a headphone jack we strongly recommend you follow
 Meridian will now install the temporary jailbreak on your device.
 
 Tap `Share` -> `Add to home screen` for easier access to Meridian.
-{: .notice--success}
+{: .notice--info}
