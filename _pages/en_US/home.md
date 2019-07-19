@@ -4,8 +4,8 @@ title: iOS Guide
 excerpt: "A complete iOS jailbreaking guide, from stock to Cydia."
 header:
   overlay_color: "#1a1d24"
-  cta_label: "Get Started"
-  cta_url: get-started
+  cta_label: "Device Selection"
+  cta_url: device-selection
 ---
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
@@ -22,14 +22,14 @@ Alternatively, click [here](https://crowdin.com/project/dsi-guide){:target="_bla
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div> -->
 
-For now this guide is only compatible with iOS 9 to 11.
+For now this guide is only compatible with iOS 9 to 12.2.
 {: .notice--primary}
 
 ## What is jailbreaking?
 
 Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's OS is known for being extremely secure and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
 
-Jailbreaking gives you the ability to install custom applications and "tweaks" from Cydia to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 11.4.1 and below.
+Jailbreaking gives you the ability to install custom applications and "tweaks" from Cydia to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.2 and below.
 
 ## Is jailbreaking legal?
 
@@ -69,5 +69,5 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 - You may be vulnerable to malware and other security issues after jailbreaking
 - Your device warranty will become void after jailbreaking
 
-Continue to [Get Started](get-started)
+Continue to [Device Selection](device-selection)
 {: .notice--info}

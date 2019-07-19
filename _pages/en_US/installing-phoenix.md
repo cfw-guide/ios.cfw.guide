@@ -4,7 +4,7 @@ title: Installing Phœnix
 
 {% include toc title="Table of Contents" %}
 
-The Phœnix jailbreak tool is capable of jailbreaking every 32bit iOS device on firmware version 9.3.5.
+The Phœnix jailbreak tool is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5.
 
 Note that the Phœnix jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 

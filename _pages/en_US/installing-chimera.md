@@ -4,7 +4,10 @@ title: Installing Chimera
 
 {% include toc title="Table of Contents" %}
 
-The Chimera jailbreak app is capable of jailbreaking every iOS device on firmware version 12.0 up to 12.1.2.
+If you have a newer device with an A12 processor, such as the iPhone XS, you can only use Chimera on firmware versions 12.0 to 12.1.2.
+{: .notice--danger}
+
+The Chimera jailbreak app is capable of jailbreaking nearly every device on firmwares 12.0 to 12.2.
 
 Note that the Chimera jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
