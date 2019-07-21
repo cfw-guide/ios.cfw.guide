@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "nord"
 locale                   : "en-US"
 title                    : "iOS Guide"
 title_separator          : "-"
-name                     : "emiyl & Shady"
+name                     : '<a href="https://github.com/emiyl" target="_blank">emiyl</a>'
 description              : "A complete iOS jailbreaking guide, from stock to Cydia."
 url                      : "https://ios.cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "ios.cfw.guide"

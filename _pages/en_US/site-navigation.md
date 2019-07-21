@@ -2,6 +2,7 @@
 title: "Site Navigation" #
 layout: single-no-ads
 sitemap: false
+permalink: /site-navigation
 ---
 
 {% capture notice-1 %}
@@ -21,7 +22,7 @@ sitemap: false
 + [Credits](credits)
 + [Donations](donations)
 + [FAQ](faq)
-+ [Get Started](get-started)
++ [Device Selection](device-selection)
 + [Home](/)
 + [Installing Chimera](installing-chimera)
 + [Installing doubleh3lix](installing-doubleh3lix)
