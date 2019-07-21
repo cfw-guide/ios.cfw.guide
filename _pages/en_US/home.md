@@ -2,6 +2,7 @@
 layout: splash
 title: iOS Guide
 excerpt: "A complete iOS jailbreaking guide, from stock to Cydia."
+permalink: /
 header:
   overlay_color: "#1a1d24"
   cta_label: "Device Selection"
