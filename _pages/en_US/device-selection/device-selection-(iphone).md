@@ -44,8 +44,8 @@ Note that all "+" models of iPhones are functionally identical to the normal siz
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">iPhone 7</th>
       <th style="text-align: center; font-weight: bold;">iPhone 8</th>
+      <th style="text-align: center; font-weight: bold;">iPhone 7</th>
       <th style="text-align: center; font-weight: bold;">iPhone SE</th>
     </tr>
   </thead>
