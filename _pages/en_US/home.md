@@ -28,19 +28,19 @@ For now this guide is only compatible with iOS 9 to 12.2.
 
 ## What is jailbreaking?
 
-Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's OS is known for being extremely secure and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
+Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's mobile operating system is known for being extremely secure and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
 
-Jailbreaking gives you the ability to install custom applications and "tweaks" from Cydia to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.2 and below.
+Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.2 and below.
 
 ## Is jailbreaking legal?
 
 Jailbreaking in the US is perfectly legal. In 2010, the US Copyright Office declared jailbreaking to be an exception to the Digital Millennium Copyright Act. You may want to check in your country as to whether it is legal there or not before proceeding.
 
-## What is Cydia?
+## What is a package manager?
 
-Cydia is a package manager that can be used on jailbroken iOS. This means that you can use it to install custom applications, tweaks and themes from it.
+Package managers are used to install and uninstall community-made software to customize your device. Cydia and Sileo are both examples of package managers.
 
-It can be considered similar to the iOS App Store, where you can install both free and paid software.
+They can be considered similar to the iOS App Store, where you can install both free and paid software.
 
 ## What are tweaks?
 
@@ -48,14 +48,14 @@ Tweaks are typically software packages that can be installed to your device whic
 
 ## What does this guide install?
 
-Newer jailbreaks released for versions above iOS 9 will usually involve installing a custom app to your phone through your computer and then running that app to reapply the jailbreak after every reboot. You will also need to reinstall this custom app to your phone from your computer every 7 days.
+Newer jailbreaks released for versions above iOS 9 will typically involve installing an app to your phone through your computer, and then running that app to reapply the jailbreak after every reboot. You will also need to reinstall this custom app to your phone from your computer every 7 days due to how Apple allows unofficial apps to be run.
 
 Older jailbreaks may allow you to simply install the software once from your computer and then the jailbreak will be applied automatically on every boot, with no input from you, the user.
 
 ## What can I do once jailbroken?
 
 - Gain full access to your device's OS
-- Access Cydia, mentioned above
+- Get access to a package manager, such as Cydia or Sileo
 - Install themes to change the look and feel of your device
 - Install tweaks to change how iOS behaves
 
