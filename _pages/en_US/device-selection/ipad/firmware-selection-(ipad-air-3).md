@@ -1,6 +1,6 @@
 ---
-title: Firmware Selection (iPhone SE)
-permalink: /firmware-selection-(iphone-se)
+title: Firmware Selection (iPad Air 3)
+permalink: /firmware-selection-(ipad-air-3)
 ---
 
 {% include toc title="Table of Contents" %}
@@ -9,7 +9,7 @@ permalink: /firmware-selection-(iphone-se)
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 11.0 to 12.2" row includes version 11.0, version 12.2, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 12.3 to 12.4" row includes version 12.3, version 12.4, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -30,23 +30,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.3</td>
-      <td style="text-align: center; font-weight: bold;">9.3.3</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">9.3.4</td>
-      <td style="text-align: center; font-weight: bold;">9.3.5</td>
-      <td style="text-align: center; font-weight: bold;">--</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">10.0</td>
-      <td style="text-align: center; font-weight: bold;">10.3.3</td>
-      <td style="text-align: center; font-weight: bold;"><a href="using-meridian">Using Meridian</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">11.0</td>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">12.2</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>

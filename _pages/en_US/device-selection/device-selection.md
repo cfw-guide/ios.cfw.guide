@@ -27,8 +27,8 @@ Please select what kind of device you have below.
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="device-selection-(iphone)"><img src="/assets/images/iPhone11,2.png" alt="" width="50%"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a hef="device-selection-(ipad)"><img src="/assets/images/iPad8,7.png" style="filter: gray; -webkit-filter: grayscale(1); filter: grayscale(1);" alt="" width="50%"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a hef="device-selection-(ipod)"><img src="/assets/images/iPod9,1.png" style="filter: gray; -webkit-filter: grayscale(1); filter: grayscale(1);" alt="" width="50%"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="device-selection-(ipad)"><img src="/assets/images/iPad8,7.png" alt="" width="50%"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="device-selection-(ipod)"><img src="/assets/images/iPod9,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>

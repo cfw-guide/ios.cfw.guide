@@ -66,16 +66,16 @@ Note that all "+" models of iPhones are functionally identical to the normal siz
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">iPhone 5S</th>
-      <th style="text-align: center; font-weight: bold;">iPhone 6</th>
       <th style="text-align: center; font-weight: bold;">iPhone 6S</th>
+      <th style="text-align: center; font-weight: bold;">iPhone 6</th>
+      <th style="text-align: center; font-weight: bold;">iPhone 5S</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="firmware-selection-(iphone-5s)"><img src="/assets/images/iPhone6,2.png" alt="" width="50%"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="firmware-selection-(iphone-6)"><img src="/assets/images/iPhone7,1.png" alt="" width="50%"></a></td>
       <td style="text-align: center; font-weight: bold;"><a href="firmware-selection-(iphone-6s)"><img src="/assets/images/iPhone8,1.png" alt="" width="50%"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="firmware-selection-(iphone-6)"><img src="/assets/images/iPhone7,1.png" alt="" width="50%"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="firmware-selection-(iphone-5s)"><img src="/assets/images/iPhone6,2.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>

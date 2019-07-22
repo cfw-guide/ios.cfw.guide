@@ -41,7 +41,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0</td>
       <td style="text-align: center; font-weight: bold;">9.0.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-10.3.3">Updating to 10.3.3</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-to-10-3-4">Updating to 10.3.4</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.1</td>
@@ -49,13 +49,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td style="text-align: center; font-weight: bold;"><a href="installing-homedepot">Installing HomeDepot</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.3.5</td>
-      <td style="text-align: center; font-weight: bold;">9.3.5</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">9.3.5</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-phoenix">Installing Phœnix</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">10.0</td>
-      <td style="text-align: center; font-weight: bold;">10.3.3</td>
+      <td style="text-align: center; font-weight: bold;">10.3.4</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
     </tr>
   </tbody>

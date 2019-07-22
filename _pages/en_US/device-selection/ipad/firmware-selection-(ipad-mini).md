@@ -1,6 +1,6 @@
 ---
-title: Firmware Selection (iPhone 4S)
-permalink: /firmware-selection-(iphone-4s)
+title: Firmware Selection (iPad Mini)
+permalink: /firmware-selection-(ipad-mini)
 ---
 
 {% include toc title="Table of Contents" %}
@@ -30,7 +30,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">5.0</td>
+      <td style="text-align: center; font-weight: bold;">6.0.1</td>
       <td style="text-align: center; font-weight: bold;">8.4</td>
       <td style="text-align: center; font-weight: bold;">Coming Soon</td>
     </tr>
