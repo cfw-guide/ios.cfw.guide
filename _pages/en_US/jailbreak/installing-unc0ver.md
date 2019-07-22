@@ -41,5 +41,18 @@ The app will now install to your iOS device.
 The unc0ver application can now be opened from home screen.
 {: .notice--primary}
 
-Continue to [Using unc0ver](using-unc0ver)
+## Running unc0ver
+
+1. Reboot your phone
+  - This is not necessary but recommended
+1. Open the unc0ver application from your home screen immediately afterwards
+1. Tap "Jailbreak"
+1. Reboot your phone when prompted
+1. Open the unc0ver application from your home screen immediately after rebooting
+1. Tap "Jailbreak"
+
+The unc0ver jailbreak is now installed and the Cydia package manager will be installed to your home screen.
 {: .notice--info}
+
+If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
+{:.notice--danger}

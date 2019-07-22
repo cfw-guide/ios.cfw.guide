@@ -27,12 +27,14 @@ permalink: /site-navigation
 + [Installing Chimera](installing-chimera)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing Electra](installing-electra)
++ [Installing EtasonJB](installing-etasonjb)
 + [Installing h3lix](installing-h3lix)
-+ [Installing Meridian](installing-meridian)
++ [Installing HomeDepot](installing-homedepot)
 + [Installing Pangu](installing-pangu933)
++ [Installing Phœnix](installing-phoenix)
 + [Installing Unc0ver](installing-unc0ver)
 + [Installing Yalu](installing-yalu102)
-+ [Using unc0ver](using-unc0ver)
++ [Using Meridian](Using-meridian)
 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
