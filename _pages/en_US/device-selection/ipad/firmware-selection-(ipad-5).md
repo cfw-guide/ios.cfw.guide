@@ -1,6 +1,6 @@
 ---
-title: Firmware Selection (iPhone SE)
-permalink: /firmware-selection-(iphone-se)
+title: Firmware Selection (iPad 5)
+permalink: /firmware-selection-(ipad-5)
 ---
 
 {% include toc title="Table of Contents" %}
@@ -30,19 +30,9 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.3</td>
-      <td style="text-align: center; font-weight: bold;">9.3.3</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-pangu933">Installing Pangu933</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">9.3.4</td>
-      <td style="text-align: center; font-weight: bold;">9.3.5</td>
-      <td style="text-align: center; font-weight: bold;">--</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">10.0</td>
+      <td style="text-align: center; font-weight: bold;">10.3.2</td>
       <td style="text-align: center; font-weight: bold;">10.3.3</td>
-      <td style="text-align: center; font-weight: bold;"><a href="using-meridian">Using Meridian</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>

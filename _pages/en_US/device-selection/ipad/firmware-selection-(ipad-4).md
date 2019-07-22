@@ -1,6 +1,6 @@
 ---
-title: Firmware Selection (iPhone 4S)
-permalink: /firmware-selection-(iphone-4s)
+title: Firmware Selection (iPad 4)
+permalink: /firmware-selection-(ipad-4)
 ---
 
 {% include toc title="Table of Contents" %}
@@ -30,7 +30,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">5.0</td>
+      <td style="text-align: center; font-weight: bold;">6.0</td>
       <td style="text-align: center; font-weight: bold;">8.4</td>
       <td style="text-align: center; font-weight: bold;">Coming Soon</td>
     </tr>
@@ -41,7 +41,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0</td>
       <td style="text-align: center; font-weight: bold;">9.0.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-9-3-6">Updating to 9.3.6</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.1</td>
@@ -49,9 +49,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td style="text-align: center; font-weight: bold;"><a href="installing-homedepot">Installing HomeDepot</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.3.5</td>
-      <td style="text-align: center; font-weight: bold;">9.3.6</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">9.3.5</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-phoenix">Installing Phœnix</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">10.0</td>
+      <td style="text-align: center; font-weight: bold;">10.3.3</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h3lix">Installing h3lix</a></td>
     </tr>
   </tbody>
 </table>

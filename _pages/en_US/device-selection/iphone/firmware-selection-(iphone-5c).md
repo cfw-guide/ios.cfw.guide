@@ -41,7 +41,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0</td>
       <td style="text-align: center; font-weight: bold;">9.0.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-10.3.3">Updating to 10.3.3</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.1</td>

@@ -1,13 +1,13 @@
 ---
 title: Updating to 9.3.5
-permalink: /updating-to-9.3.5
+permalink: /updating-to-9-3-5
 ---
 
 {% include toc title="Table of Contents" %}
 
 ### Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware versions 9.0 to 9.0.2 on 32-bit devices. However, devices with an A5 processor, such as the iPhone 4S, can update to 9.3.5 and use the Phœnix jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware versions 9.0 to 9.0.2 on 32-bit devices. However devices such as the iPod Touch 5, can update to 9.3.5 and use the Phœnix jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 9.3.5, we can easily update to the desired firmware version, due to the age of the devices.
 
