@@ -357,3 +357,29 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+.credits {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 1.5em;
+}
+.user {
+  @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
+  display: table-cell;
+  margin: auto;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+  img {
+    border-radius: 50%;
+    width: 60%
+  }
+  h3 {
+    margin: 1em !important;
+  }
+  p {
+    opacity: 0.65;
+  }
+}
