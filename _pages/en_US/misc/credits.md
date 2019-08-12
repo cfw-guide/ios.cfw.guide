@@ -47,7 +47,7 @@ permalink: /credits
     <div class="user">
       <img src="https://avatars.io/twitter/carsuki_/large">
       <h3>carsuki</h3>
-      <p>guide writer and graphical designer</p>
+      <p>guide writer and graphic designer</p>
       <a class="social-icon" href="https://twitter.com/carsuki_" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>
