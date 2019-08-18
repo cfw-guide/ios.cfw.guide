@@ -30,7 +30,7 @@ For now this guide is only compatible with iOS 8.4.1 and above.
 
 Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's mobile operating system is known for being extremely secure and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
 
-Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.2 and below.
+Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.4 and below.
 
 ## Is jailbreaking legal?
 

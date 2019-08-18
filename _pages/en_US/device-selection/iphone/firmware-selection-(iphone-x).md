@@ -36,8 +36,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.3</td>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td style="text-align: center; font-weight: bold;">12.3.1</td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-to-12-4">Updating to 12.4</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">12.4</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
   </tbody>
 </table>
