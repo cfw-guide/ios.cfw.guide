@@ -30,10 +30,7 @@ Support for the following devices is experimental, and may require more attempts
 
 Every time you reboot, you must have a computer with you to re-apply the exploit. This is different to the majority of iOS exploits in the recent years where you only had to run an application to re-apply the exploit.
 
-Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager){:target="_blank"}. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years. As it's more user friendly, however, we recommend to install the "Sileo" package manager in the guide.
-
-You will be able to choose your package manager when you install checkra1n. If you don't know what this means, ignore this for now.
-{: .notice--info}
+Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager){:target="_blank"}. For this we will be using Cydia. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years.
 
 ## Downloads
 
@@ -54,14 +51,11 @@ Your iOS device should reboot. There should now be a checkra1n application on yo
 ## Running checkra1n.
 
 1. Open the checkra1n application on your iOS device
-1. Press "Sileo" under the `Install` section
-  - This installs the Sileo [package manager](faq#package-manager){:target="_blank"}
+1. Press "Cydia" under the `Install` section
+  - This installs the Cydia [package manager](faq#package-manager){:target="_blank"}
   - This may take a few seconds
 
-You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
 
-You don't have to use Sileo! If you're experienced with jailbreaking, we encourage you make your own choice.
-{: .notice--success}
-
-Continue to [Using Sileo](using-sileo)
+Continue to [Using Cydia](using-cydia)
 {: .notice--info}
