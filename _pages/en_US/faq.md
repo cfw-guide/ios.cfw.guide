@@ -33,6 +33,10 @@ Respringing is essentially restarting the home screen and the iOS UI. Most of th
 
 You won't have to reinstall an exploit after respringing, however, and you can remain jailbroken
 
+## <a name="dfu_mode" />What is DFU mode?
+
+DFU mode is a way you can interact with your iOS device without loading the operating system or boot loader. It stands for Direct Firmware Update. It's different from recovery mode and is generally intended for more advanced use only, however we can use it with [checkra1n](installing-checkra1n){:target="_blank"} to jailbreak your device instead.
+
 ## <a name="possibilities" />What can I do once jailbroken?
 
 - Gain full access to your device's OS
