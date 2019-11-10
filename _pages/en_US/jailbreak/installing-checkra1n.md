@@ -8,7 +8,7 @@ permalink: /installing-checkra1n
 Currently, checkra1n is only compatible with MacOS.
 {: .notice--info}
 
-If you have a device that was released after iOS 12 was released, such as an iPhone XS, you will not be able to use checkra1n.
+If you have a newer device, such as an iPhone XS, you will not be able to use checkra1n. Check the [Device Selection](device-selection) page to check if your device is compatible.
 {: .notice--danger}
 
 checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above.
