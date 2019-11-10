@@ -15,6 +15,15 @@ checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 a
 
 Note that the checkra1n jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
+In the future, checkra1n will support all devices released before iOS 12. Currently, however, the following devices aren't supported:
+
+  - iPhone 5S
+  - iPad mini 2
+  - iPad mini 3
+  - iPad Air
+  - iPad Air 2
+  - iPad Pro (1st Gen)
+
 Every time you reboot, you must have a computer with you to re-apply the exploit. This is different to the majority of iOS exploits in the recent years where you only had to run an application to re-apply the exploit.
 
 Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager){:target="_blank"}. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years. As it's more user friendly, however, we recommend to install the "Sileo" package manager in the guide.
