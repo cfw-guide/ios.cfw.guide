@@ -43,3 +43,16 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
 
 If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb){:target="_blank"} for support.
 {: .notice--info}
+
+## <a name="iphonex_dfu" />How to enter DFU on an iPhone X
+
+1. Power on your iPhone if it's not on already
+1. Connect it to your computer with your cable
+1. Launch iTunes (or Finder on Macos 10.15) and check that the iPhone is recognised
+1. Press the Volume+ button immediately followed by the Volume- button
+1. Press and hold down the Power button until the screen turns black
+1. Release the Power button
+1. Hold down the Power button and the Volume- button for 5 seconds immediately after
+1. Release the Power button but keep holding down the Volume- button for another 5 seconds
+
+Your device should now be in DFU mode. The screen should be black and your computer should recognise it as in recovery mode.

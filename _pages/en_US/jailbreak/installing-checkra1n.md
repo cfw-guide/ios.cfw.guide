@@ -46,6 +46,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
 1. Click `Start` -> `Next` on checkra1n
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
+  - If you have an iPhone X, follow [these instructions](troubleshooting#iphonex_dfu){:target="_blank"} to enter DFU mode, as the instructions in the checkra1n application are incorrect
   - Follow the instructions until your device reboots to a black screen
 1. checkra1n will now be automatically installed
 
