@@ -5,7 +5,7 @@ permalink: /installing-unc0ver
 
 {% include toc title="Table of Contents" %}
 
-The unc0ver jailbreak tool is capable of jailbreaking every iOS device on firmware version 11.0 up to 12.4.
+unc0ver is capable of jailbreaking every iOS device on firmware version 11.0 up to 12.4.
 
 Note that the unc0ver jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 

@@ -5,7 +5,7 @@ permalink: /installing-doubleh3lix
 
 {% include toc title="Table of Contents" %}
 
-The doubleh3lix jailbreak tool is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.
+doubleh3lix is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.
 
 Note that the doubleh3lix jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 

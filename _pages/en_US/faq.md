@@ -27,7 +27,7 @@ Tweaks are small modifications that can be installed change the look and/or feel
 
 Unlike apps, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Some simpler tweaks might not even have this.
 
-## <a name=respring" />What is "respringing"?
+## <a name="respring" />What is "respringing"?
 
 Respringing is essentially restarting the home screen and the iOS UI. Most of the time, you can install a tweak and respring to apply it, without fully rebooting.
 
