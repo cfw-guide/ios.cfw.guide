@@ -54,6 +54,8 @@ The unc0ver application can now be opened from home screen.
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
 {:.notice--danger}
 
+If you receive the error `rootFS already mounted, delete the OTA update`, read the [Troubleshooting](troubleshooting#rootfs_u0) page
+
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
 
 Continue to [Using Cydia](using-cydia)
