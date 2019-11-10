@@ -51,8 +51,10 @@ The unc0ver application can now be opened from home screen.
 1. Open the unc0ver application from your home screen immediately after rebooting
 1. Tap "Jailbreak"
 
-The unc0ver jailbreak is now installed and the Cydia package manager will be installed to your home screen.
-{: .notice--info}
-
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
 {:.notice--danger}
+
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+
+Continue to [Using Cydia](using-cydia)
+{: .notice--info}

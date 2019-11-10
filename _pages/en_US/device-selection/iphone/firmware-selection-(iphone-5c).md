@@ -35,7 +35,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td style="text-align: center; font-weight: bold;">Coming Soon</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">8.4.1</td>
+      <td style="text-align: center; font-weight: bold;">8.4.1</td>
+      <td style="text-align: center; font-weight: bold;">8.4.1</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-etasonjb">Installing EtasonJB</a></td>
     </tr>
     <tr>

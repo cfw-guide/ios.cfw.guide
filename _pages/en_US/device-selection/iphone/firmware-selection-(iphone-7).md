@@ -19,34 +19,45 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th style="text-align: center; font-weight: bold;">From</th>
       <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;"></th>
+      <th style="text-align: center; font-weight: bold;">MacOS</th>
+      <th style="text-align: center; font-weight: bold;">Windows/Linux</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">10.0.1</td>
       <td style="text-align: center; font-weight: bold;">10.3.3</td>
-      <td style="text-align: center; font-weight: bold;"><a href="using-meridian">Using Meridian</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="using-meridian">Using Meridian</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
       <td style="text-align: center; font-weight: bold;">12.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.3</td>
       <td style="text-align: center; font-weight: bold;">12.3.1</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-12-4">Updating to 12.4</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">12.4</td>
+      <td style="text-align: center; font-weight: bold;">12.4</td>
+      <td style="text-align: center; font-weight: bold;">12.4</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
+      <td style="text-align: center; font-weight: bold;">13.2.2</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
   </tbody>
 </table>
