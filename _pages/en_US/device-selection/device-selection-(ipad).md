@@ -5,13 +5,13 @@ permalink: /device-selection-(ipad)
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+## Required Reading
 
 Different iPads will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
 Please select what model of iPad you have below.
 
-### iPad
+## iPad
 
 <table>
   <colgroup>
@@ -59,7 +59,7 @@ Please select what model of iPad you have below.
 
 
 
-### iPad Mini
+## iPad Mini
 
 <table>
   <colgroup>
@@ -105,7 +105,7 @@ Please select what model of iPad you have below.
   </tbody>
 </table>
 
-### iPad Pro
+## iPad Pro
 
 <table>
   <colgroup>
@@ -129,7 +129,7 @@ Please select what model of iPad you have below.
   </tbody>
 </table>
 
-### iPad Air
+## iPad Air
 
 <table>
   <colgroup>
