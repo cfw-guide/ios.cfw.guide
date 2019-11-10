@@ -5,7 +5,7 @@ permalink: /installing-etasonjb
 
 {% include toc title="Table of Contents" %}
 
-The EtasonJB jailbreak tool is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.
+EtasonJB is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.
 
 Unlike most modern jailbreaks, EtasonJB is persistent after a reboot (this is also referred to as an "untethered" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
 

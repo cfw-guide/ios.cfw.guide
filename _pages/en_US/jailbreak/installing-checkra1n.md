@@ -11,7 +11,7 @@ Currently, checkra1n is only compatible with MacOS.
 If you have a device that was released after iOS 12 was released, such as an iPhone XS, you will not be able to use checkra1n.
 {: .notice--danger}
 
-The checkra1n exploit is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above.
+checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above.
 
 Note that the checkra1n jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -20,7 +20,7 @@ Every time you reboot, you must have a computer with you to re-apply the exploit
 Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager){:target="_blank"}. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years. As it's more user friendly, however, we recommend to install the "Sileo" package manager in the guide.
 
 You don't have to use Sileo! If you're experienced with jailbreaking, we encourage you make your own choice.
-{: .notice}
+{: .notice--success}
 
 You will be able to choose your package manager when you install checkra1n. If you don't know what this means, ignore this for now.
 {: .notice--info}
