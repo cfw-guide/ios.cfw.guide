@@ -5,7 +5,7 @@ permalink: /installing-checkra1n
 
 {% include toc title="Table of Contents" %}
 
-Currently, checkra1n is only compatible with MacOS.
+Currently, checkra1n is only compatible with MacOS, and will not work in a VM. Windows and Linux support is coming soon.
 {: .notice--info}
 
 If you have a newer device, such as an iPhone XS, you will not be able to use checkra1n. Check the [Device Selection](device-selection) page to check if your device is compatible.
