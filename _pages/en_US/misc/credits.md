@@ -31,12 +31,13 @@ permalink: /credits
 If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}<pre><br>
-    + Jamie Bishop (nullpixel)
-    + patricck88
-    + nqcshady
-    + J9ck
+    + aaronp613
     + carsuki
     + EricLegend
+    + nqcshady
+    + J9ck
+    + Jamie Bishop (nullpixel)
+    + patricck88
 
 
 </pre>{% endcapture %}
