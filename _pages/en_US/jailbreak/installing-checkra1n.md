@@ -24,17 +24,17 @@ You will be able to choose your package manager when you install checkra1n. If y
 
 ## Downloads
 
-- The latest version of [checkra1n]()
+- The latest version of [checkra1n](https://checkra.in)
 
 ## Installing checkra1n
 
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
 1. Click `Start` -> `Next` on checkra1n
-  - You will now be presented with instructions in how to reboot your device into DFU mode
+  - Your device will be put into recovery mode automatically
+1. You will now be presented with instructions in how to reboot your device into DFU mode, click `Start` to begin
   - Follow the instructions until your device reboots to a black screen
-1. After you reach the black screen, click `Start`
-1. Once it's finished, click `Done`
+1. checkra1n will now be automatically installed
 
 Your iOS device should reboot. There should now be a checkra1n application on your home scren.
 
