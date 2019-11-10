@@ -38,6 +38,9 @@ Once the exploit is installed, you will have the choice of installing a [package
 
 ## Installing checkra1n
 
+If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver){:target="_blank"} before proceeding.
+{: .notice--success}
+
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
 1. Click `Start` -> `Next` on checkra1n
