@@ -8,7 +8,7 @@ permalink: /site-navigation
 {% capture notice-1 %}
 **Popular**
 
-+ [Installing checkra1n](installing-chimera)
++ [Installing checkra1n](installing-checkra1n)
 + [Installing Unc0ver](installing-unc0ver)
 + [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
