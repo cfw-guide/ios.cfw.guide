@@ -55,3 +55,8 @@ On the first installation, the jailbreak may take some time to complete. This is
 
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
 {:.notice--danger}
+
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+
+Continue to [Using Cydia](using-cydia)
+{: .notice--info}

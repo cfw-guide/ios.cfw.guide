@@ -22,3 +22,8 @@ Meridian will now install the temporary jailbreak on your device.
 
 Tap `Share` -> `Add to home screen` for easier access to Meridian.
 {: .notice--info}
+
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+
+Continue to [Using Cydia](using-cydia)
+{: .notice--info}
