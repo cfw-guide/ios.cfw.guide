@@ -5,7 +5,7 @@ permalink: /device-selection-(iphone)
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+## Required Reading
 
 Different iPhones will require different steps to jailbreak your iOS device. This page will help you find where to start.
 

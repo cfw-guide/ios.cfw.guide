@@ -5,7 +5,7 @@ permalink: /firmware-selection-(iphone-xs)
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+## Required Reading
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
@@ -16,7 +16,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 There is no jailbreak on firmwares 12.4.1 and above for this device.
 {: .notice--danger}
 
-### Version Table
+## Version Table
 
 <table>
   <colgroup>

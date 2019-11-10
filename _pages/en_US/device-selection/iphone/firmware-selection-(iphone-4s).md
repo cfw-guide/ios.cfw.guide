@@ -5,7 +5,7 @@ permalink: /firmware-selection-(iphone-4s)
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+## Required Reading
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
@@ -13,7 +13,7 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
-### Version Table
+## Version Table
 
 <table>
   <colgroup>
