@@ -36,6 +36,8 @@ Once the exploit is installed, you will have the choice of installing a [package
 
 - The latest version of [checkra1n](https://checkra.in){:target="_blank"}
 
+![]({{ "/assets/images/checkra1n.png" | absolute_url }})
+
 ## Installing checkra1n
 
 If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver){:target="_blank"} before proceeding.
