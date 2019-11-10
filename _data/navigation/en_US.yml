@@ -7,14 +7,14 @@ main:
     title: FAQ
     url: faq
   -
+    title: Troubleshooting
+    url: troubleshooting
+  -
     title: Donations
     url: donations
   -
     title: Credits
     url: credits
-  -
-    title: Site Navigation
-    url: site-navigation
 bottom:
   -
     title: For support in English, ask for help on the official r/Jailbreak <a href="https://discord.gg/jb" target="_blank">Discord Server</a>.
