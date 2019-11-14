@@ -15,6 +15,10 @@ We can block updates using an Apple tvOS profile, which will prevent any further
 2. Click [this link](https://cdn.discordapp.com/attachments/355816969984933890/508301348505387008/tvOS_12_Beta_Profile.mobileconfig) in your device's browser
 3. Select "Allow" if prompted
 4. Choose your current device if prompted
+1. Open the Settings application
+1. Navigate to `General` -> `Profile`
+  - This may also be called `Profile and Device Management`
+1. Tap on the tvOS Beta Profile you just installed
 5. Tap "Install"
 6. Confirm by tapping "Install" again
 7. Enter your passcode if you have one
@@ -32,12 +36,10 @@ By removing update blocking you may update to a higher firmware and be unable to
 {: .notice--danger}
 
 1. Open the Settings application
-2. Go to `General` -> `Profiles`
-  - `Profiles` may display as `Profiles and Device Management`
-3. Select `tvOS 12 Beta Software Profile`
-4. Tap "Remove Profile"
-5. Enter your passcode if you have one
-6. Confirm by tapping "Remove"
+2. Go to `General` -> `Profile`
+  - This may also be called `Profile and Device Management`
+3. Tap on the tvOS Beta Profile
+4. Tap "Remove Downloaded Profile"
 
 Your device should now be able to update again.
 {: .notice--success}

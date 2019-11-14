@@ -13,6 +13,9 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
+There is no jailbreak on firmwares 12.4.1 and above for this device.
+{: .notice--danger}
+
 ## Version Table
 
 <table>
