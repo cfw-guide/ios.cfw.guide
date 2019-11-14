@@ -27,7 +27,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <th style="text-align: center; font-weight: bold;">From</th>
       <th style="text-align: center; font-weight: bold;">To</th>
       <th style="text-align: center; font-weight: bold;">MacOS</th>
-      <th style="text-align: center; font-weight: bold;">Windows/Linux</th>
+      <th style="text-align: center; font-weight: bold;">All</th>
     </tr>
   </thead>
   <tbody>
@@ -38,8 +38,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
+      <td style="text-align: center; font-weight: bold;">11.4.1</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.0</td>
+      <td style="text-align: center; font-weight: bold;">12.2</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.3</td>
@@ -50,8 +55,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4</td>
       <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4.1</td>
@@ -63,6 +67,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
 </table>
 
 ---
+
+checkra1n is also compatible with firmware version 12.4 however we recommend use Chimera instead due to it being usable without a computer on every reboot.
+{: .notice--primary}
+
+unc0ver is also compatible with firmware versions 12.0 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
+{: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}

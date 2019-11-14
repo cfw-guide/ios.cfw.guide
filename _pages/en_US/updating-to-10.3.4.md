@@ -5,13 +5,27 @@ permalink: /updating-to-10-3-4
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+## Required Reading
 
 Unfortunately, there is currently no jailbreak available for firmware versions 9.0 to 9.0.2 on 32-bit devices. However devices such as the iPhone 5, can update to 10.3.4 and use the Helix jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 10.3.4, we can easily update to the desired firmware version, due to the age of the devices.
 
-### Updating to 10.3.4
+If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
+
+## Removing Profiles
+
+Only follow this if you've installed update blocking in the past.
+{: .notice--info}
+
+1. Open the Settings application
+1. Tap `General` -> `Profile`
+  - This may also be called `Profile and Device Management`
+1. Tap on the tvOS Beta Software Profile
+  - If this is not there, you can skip to the next section of the guide
+1. Tap `Remove Downloaded Profile`
+
+## Updating to 10.3.4
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Tap `Settings` -> `General` -> `Software Update`

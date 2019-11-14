@@ -31,6 +31,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.1</td>
+      <td style="text-align: center; font-weight: bold;">12.1.2</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.1.3</td>
       <td style="text-align: center; font-weight: bold;">12.2</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
@@ -53,6 +58,9 @@ Your device version can be found in the Settings application in `General` -> `Ab
 </table>
 
 ---
+
+unc0ver is also compatible with firmware versions 12.0 to 12.1.2, however we recommend use Chimera instead due to it being easier to use.
+{: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}

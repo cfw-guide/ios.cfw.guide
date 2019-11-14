@@ -8,7 +8,7 @@ permalink: /installing-chimera
 If you have a newer device with an A12 processor, such as the iPhone XS, you can only use Chimera on firmware versions 12.0 to 12.1.2.
 {: .notice--danger}
 
-Chimera is capable of jailbreaking nearly every device on firmwares 12.0 to 12.2.
+Chimera is capable of jailbreaking nearly every iOS device on firmware version 12.0 up to 12.4, excluding 12.3 and 12.3.1.
 
 Note that the Chimera jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -16,13 +16,13 @@ Due to how custom applications are installed to the device, in most cases you wi
 
 We will use the Cydia Impactor tool to install the Chimera jailbreak application to your iOS device for use in the next step.
 
-This jailbreak automatically installs the Sileo package manager upon installation, and not Cydia.
+This jailbreak automatically installs the Sileo [package manager](faq#package-manager){:target="_blank"} upon installation, and not Cydia.
 {: .notice--info}
 
 ## Downloads
 
 - The latest version of [Chimera](https://chimera.sh/){:target="_blank"}
-  - Do not select the ChimeraTV download
+  - Select the left-most download (Not the "No PC" or ChimeraTV download)
 - The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
