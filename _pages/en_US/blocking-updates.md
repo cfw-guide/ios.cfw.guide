@@ -5,11 +5,12 @@ permalink: /blocking-updates
 
 {% include toc title="Table of Contents" %}
 
-If you're' currently on an unjailbreakable firmware, and have hopes to jailbreak when something comes out for your firmware, you need to block updates. This method will block accidental OTA updates, which ensures that you will be able to jailbreak your phone when the time comes.
+This method of update blocking will not work if you're on iOS 13.
+{: .notice--danger}
 
-We can block updates using an Apple tvOS profile, which will prevent any further iOS updates downloading to your device. This is completely safe and can be removed easily when you want to update.
+This will take you through installing the iOS 12 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
 
-### Installing the tvOS profile
+## Installing the tvOS profile
 
 1. Visit this website on your iOS device
 2. Click [this link](https://cdn.discordapp.com/attachments/355816969984933890/508301348505387008/tvOS_12_Beta_Profile.mobileconfig) in your device's browser
@@ -28,7 +29,7 @@ We can block updates using an Apple tvOS profile, which will prevent any further
 Your device should no longer receive software updates.
 {: .notice--success}
 
-### Uninstalling the tvOS Profile
+## Uninstalling the tvOS Profile
 
 If you want to update your system again, follow the following steps to remove update blocking.
 

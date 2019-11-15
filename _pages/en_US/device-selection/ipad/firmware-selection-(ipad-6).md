@@ -50,14 +50,19 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4</td>
       <td style="text-align: center; font-weight: bold;">12.4</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-chimera">Installing Chimera</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4.1</td>
       <td style="text-align: center; font-weight: bold;">13.2.2</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
   </tbody>
 </table>

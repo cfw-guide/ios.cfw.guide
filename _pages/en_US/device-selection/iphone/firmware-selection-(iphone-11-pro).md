@@ -35,7 +35,7 @@ There is no jailbreak currently available for this device.
     <tr>
       <td style="text-align: center; font-weight: bold;">13.0</td>
       <td style="text-align: center; font-weight: bold;">13.2.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
   </tbody>
 </table>

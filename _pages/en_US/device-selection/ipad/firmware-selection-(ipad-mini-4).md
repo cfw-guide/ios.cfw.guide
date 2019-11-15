@@ -75,9 +75,15 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;">12.4.3</td>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
+      <td style="text-align: center; font-weight: bold;">13.2.2</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
   </tbody>
 </table>
