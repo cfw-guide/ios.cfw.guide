@@ -39,8 +39,13 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.0</td>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
+      <td style="text-align: center; font-weight: bold;">11.4.1</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.0</td>
+      <td style="text-align: center; font-weight: bold;">12.2</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.3</td>
@@ -50,17 +55,25 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4</td>
       <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
+      <td style="text-align: center; font-weight: bold;">12.4.1</td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">12.4.1</td>
       <td style="text-align: center; font-weight: bold;">13.2.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
   </tbody>
 </table>
 
 ---
+
+unc0ver is also compatible with firmware versions 12.0 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
+{: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}

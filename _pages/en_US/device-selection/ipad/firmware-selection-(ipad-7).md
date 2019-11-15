@@ -13,34 +13,40 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
-There is no jailbreak currently available for this device.
-{: .notice--danger}
-
 ## Version Table
 
 <table>
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th style="text-align: center; font-weight: bold;">From</th>
       <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;"></th>
+      <th style="text-align: center; font-weight: bold;">MacOS</th>
+      <th style="text-align: center; font-weight: bold;">All</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">13.1</td>
       <td style="text-align: center; font-weight: bold;">13.2.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td style="text-align: center; font-weight: bold;">--</td>
     </tr>
   </tbody>
 </table>
 
 ---
+
+In boxes marked `--`, there is no jailbreak for that firmware version.
+{: .notice--info}
+
+---
+
 {% capture notice-2 %}
 ![]({{ "/assets/images/system-version.jpg" | absolute_url }})
 
