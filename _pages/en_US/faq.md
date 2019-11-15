@@ -21,6 +21,10 @@ Package managers are used to install/uninstall custom software to your device. C
 
 It's essentially an app store for all the tweaks and themes available for your device.
 
+## <a name="repos" />What's a repo?
+
+These are essentially databases that contain lots of tweaks for you to install. When you add repos to your package manager, you will be able to install the tweaks contained on it, and look for them using the search function.
+
 ## <a name="tweaks" />What are tweaks?
 
 Tweaks are small modifications that can be installed change the look and/or feel of your device.
