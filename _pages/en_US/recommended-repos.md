@@ -5,14 +5,14 @@ permalink: /recommended-repos
 
 {% include toc title="Table of Contents" %}
 
-After installing your jailbreak, you may want to install some repos ([repositories](faq#repos)). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!
+After installing your jailbreak, you may want to install some repos ([repositories](faq#repos){:target="_blank"}). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!
 
 ## BigBoss
 
 {% capture big-boss %}
 A default repo in most package managers, Big oss is one of the largest repos, with thousands of tweaks and modifications to install. It's an essential repo that the majority of jailbreakers rely on.
 
-URL: <code><a href="http://apt.thebigboss.org/repofiles/cydia/" target="_blank">http://apt.thebigboss.org/repofiles/cydia/</a></code>
+URL: `http://apt.thebigboss.org/repofiles/cydia/`
 {% endcapture %}
 
 <div class="notice--info">{{ big-boss | markdownify }}</div>
@@ -42,7 +42,7 @@ URL: <code><a href="https://repo.packix.com/" target="_blank">https://repo.packi
 {% capture modmyi %}
 Although now no longer updated, ModMyi is a good source of tweaks if you're on a lower version, as it has many tweaks for your older devices. Unfortunately, however, if you're on a newer firmware version, such as iOS 13, a lot of the tweaks won't be compatible with your device.
 
-URL: <code><a href="http://apt.modmyi.com/" target="_blank">http://apt.modmyi.com/</a></code>
+URL: `http://apt.modmyi.com/`
 {% endcapture %}
 
 <div class="notice--warning">{{ modmyi | markdownify }}</div>
