@@ -18,7 +18,7 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
 
 ## Version Table
 
-<table>
+<table class="version_table">
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
@@ -26,36 +26,36 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;"></th>
+      <th>From</th>
+      <th>To</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-chimera">Installing Chimera</a></td>
+      <td>12.2</td>
+      <td>12.2</td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.3</td>
-      <td style="text-align: center; font-weight: bold;">12.3.1</td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>12.3</td>
+      <td>12.3.1</td>
+      <td>--</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-chimera">Installing Chimera</a></td>
+      <td>12.4</td>
+      <td>12.4</td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td>12.4.1</td>
+      <td>12.4.1</td>
+      <td><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;">13.2.2</td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>13.0</td>
+      <td>13.2.2</td>
+      <td>--</td>
     </tr>
   </tbody>
 </table>

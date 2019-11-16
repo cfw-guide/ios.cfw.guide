@@ -11,7 +11,7 @@ Different devices will require different steps to jailbreak your iOS device. Thi
 
 Please select what kind of device you have below.
 
-<table>
+<table class="version_table">
   <colgroup>
     <col span="1" style="width: 33%;">
     <col span="1" style="width: 33%;">
@@ -19,16 +19,16 @@ Please select what kind of device you have below.
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">iPhone</th>
-      <th style="text-align: center; font-weight: bold;">iPad</th>
-      <th style="text-align: center; font-weight: bold;">iPod</th>
+      <th>iPhone</th>
+      <th>iPad</th>
+      <th>iPod</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="device-selection-(iphone)"><img src="/assets/images/iPhone11,2.png" alt="" width="50%"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="device-selection-(ipad)"><img src="/assets/images/iPad8,7.png" alt="" width="50%"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="device-selection-(ipod)"><img src="/assets/images/iPod9,1.png" alt="" width="50%"></a></td>
+      <td><a href="device-selection-(iphone)"><img src="/assets/images/iPhone11,2.png" alt="" width="50%"></a></td>
+      <td><a href="device-selection-(ipad)"><img src="/assets/images/iPad8,7.png" alt="" width="50%"></a></td>
+      <td><a href="device-selection-(ipod)"><img src="/assets/images/iPod9,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>

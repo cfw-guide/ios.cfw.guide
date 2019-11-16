@@ -388,3 +388,10 @@ input[type="submit"],
     margin-bottom: 0.3em !important;
   }
 }
+
+.version_table {
+  th, td {
+    text-align: center;
+    font-weight: bold;
+  }
+}

@@ -15,7 +15,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
+<table class="version_table">
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
@@ -24,50 +24,50 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;">MacOS</th>
-      <th style="text-align: center; font-weight: bold;">All</th>
+      <th>From</th>
+      <th>To</th>
+      <th>MacOS</th>
+      <th>All</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">10.3.2</td>
-      <td style="text-align: center; font-weight: bold;">10.3.3</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
+      <td>10.3.2</td>
+      <td>10.3.3</td>
+      <td colspan="2"><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">11.0</td>
-      <td style="text-align: center; font-weight: bold;">11.4.1</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td>11.0</td>
+      <td>11.4.1</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.0</td>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td>12.0</td>
+      <td>12.2</td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.3</td>
-      <td style="text-align: center; font-weight: bold;">12.3.1</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>12.3</td>
+      <td>12.3.1</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td>--</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td>12.4</td>
+      <td>12.4</td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td>12.4.1</td>
+      <td>12.4.1</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;">13.2.2</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>13.0</td>
+      <td>13.2.2</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td>--</td>
     </tr>
   </tbody>
 </table>
