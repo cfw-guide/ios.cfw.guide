@@ -15,7 +15,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
+<table class="version_table">
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
@@ -24,71 +24,71 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;">MacOS</th>
-      <th style="text-align: center; font-weight: bold;">All</th>
+      <th>From</th>
+      <th>To</th>
+      <th>MacOS</th>
+      <th>All</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.1</td>
-      <td style="text-align: center; font-weight: bold;">8.4</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Coming Soon</td>
+      <td>7.0.1</td>
+      <td>8.4</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">8.4.1</td>
-      <td style="text-align: center; font-weight: bold;">8.4.1</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>8.4.1</td>
+      <td>8.4.1</td>
+      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
+      <td>--</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.0</td>
-      <td style="text-align: center; font-weight: bold;">9.1</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Coming Soon</td>
+      <td>9.0</td>
+      <td>9.1</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.2</td>
-      <td style="text-align: center; font-weight: bold;">9.3.3</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-pangu933">Installing Pangu933</a></td>
+      <td>9.2</td>
+      <td>9.3.3</td>
+      <td colspan="2"><a href="installing-pangu933">Installing Pangu933</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">9.3.4</td>
-      <td style="text-align: center; font-weight: bold;">9.3.5</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>9.3.4</td>
+      <td>9.3.5</td>
+      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
+      <td>--</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">10.0.1</td>
-      <td style="text-align: center; font-weight: bold;">10.3.3</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="using-meridian">Using Meridian</a></td>
+      <td>10.0.1</td>
+      <td>10.3.3</td>
+      <td colspan="2"><a href="using-meridian">Using Meridian</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">11.0</td>
-      <td style="text-align: center; font-weight: bold;">11.4.1</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td>11.0</td>
+      <td>11.4.1</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.0</td>
-      <td style="text-align: center; font-weight: bold;">12.2</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td>12.0</td>
+      <td>12.2</td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.3</td>
-      <td style="text-align: center; font-weight: bold;">12.3.1</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>12.3</td>
+      <td>12.3.1</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td>--</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;">12.4</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td>12.4</td>
+      <td>12.4</td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">12.4.1</td>
-      <td style="text-align: center; font-weight: bold;">12.4.3</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td>12.4.1</td>
+      <td>12.4.3</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
   </tbody>
 </table>

@@ -18,7 +18,7 @@ There is no jailbreak currently available for this device.
 
 ## Version Table
 
-<table>
+<table class="version_table">
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
@@ -26,16 +26,16 @@ There is no jailbreak currently available for this device.
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;"></th>
+      <th>From</th>
+      <th>To</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">13.0</td>
-      <td style="text-align: center; font-weight: bold;">13.2.2</td>
-      <td style="text-align: center; font-weight: bold;">--</td>
+      <td>13.0</td>
+      <td>13.2.2</td>
+      <td>--</td>
     </tr>
   </tbody>
 </table>
