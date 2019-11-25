@@ -64,7 +64,7 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     </tr>
     <tr>
       <td>13.0</td>
-      <td>13.2.2</td>
+      <td>{% include latestfw %}</td>
       <td>--</td>
     </tr>
   </tbody>
