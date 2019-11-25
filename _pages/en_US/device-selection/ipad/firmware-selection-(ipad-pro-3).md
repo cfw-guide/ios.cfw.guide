@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>13.0</td>
-      <td>13.2.2</td>
+      <td>{% include latestfw %}</td>
       <td>--</td>
     </tr>
   </tbody>
