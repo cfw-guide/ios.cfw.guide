@@ -70,6 +70,7 @@ p {
 u,
 ins {
   text-decoration: none;
+  border-bottom: 1px solid $text-color;
   a {
     color: inherit;
   }
@@ -129,14 +130,13 @@ a {
     @extend %tab-focus;
   }
 
-  &:hover,
-  &:active {
-    color: $link-color-hover;
-    outline: 0;
-  }
-
   &:visited {
     color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
   }
 }
 
@@ -154,12 +154,10 @@ kbd,
 samp,
 pre {
   font-family: $monospace;
-  border: 1px solid mix(#eaeaea, #262a34, 20%);
 }
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
-  background-color: #252b35 !important;
 }
 
 p > code,
@@ -169,7 +167,7 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: $type-size-6;
+  font-size: 0.8em;
   background: $code-background-color;
   border-radius: $border-radius;
 
@@ -356,42 +354,4 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
-}
-
-.credits {
-  margin-top: 2em;
-  display: table;
-  width: 50%;
-  table-layout: fixed;
-  border-spacing: 0.2em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.user {
-  @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
-  display: table-cell;
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
-  a, a:hover {
-    text-decoration: none !important;
-  }
-  img {
-    border-radius: 50%;
-    width: 80%;
-  }
-  h3 {
-    margin: 0.3em !important;
-  }
-  p {
-    opacity: 0.65;
-    margin-bottom: 0.3em !important;
-  }
-}
-
-.version_table {
-  th, td {
-    text-align: center;
-    font-weight: bold;
-  }
 }
