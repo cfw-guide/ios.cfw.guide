@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .archive {
+  margin-top: 1em;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
@@ -17,11 +18,25 @@
   }
 }
 
+.archive__item {
+  position: relative;
+
+  a {
+    position: relative;
+    z-index: 10;
+  }
+
+  a[rel="permalink"] {
+    position: static;
+  }
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
+  border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -35,8 +50,13 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
-  a {
-    color: inherit;
+  a[rel="permalink"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
   }
 
   a + a {
@@ -55,24 +75,48 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
-  a {
-	color: #eaeaea !important;
-	text-decoration: none;
-  }
-  a:hover {
-	text-decoration: underline !important;
-  }
 
   & + p {
     text-indent: 0;
   }
+
+  a {
+    position: relative;
+  }
 }
 
 .archive__item-teaser {
+  position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
+  }
+}
+
+.archive__item-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: $caption-font-family;
+  font-size: $type-size-8;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: $border-radius 0 0 0;
+
+  @include breakpoint($large) {
+    padding: 5px 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
@@ -189,29 +233,17 @@
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-}
+  border-bottom: 1px solid $border-color;
 
-.archive__item-author {
-  font-weight: bold;
-  font-size: 0.6rem;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  color: #bbb;
-  letter-spacing: 2px;
-
-  a {
-    color: #bbb !important;
-    text-decoration: none !important;
-  }
-
-  a:hover {
-    text-decoration: underline !important;
+  .archive__item-title {
+    margin-bottom: 0;
   }
 }
 
 .feature__item {
+  position: relative;
   margin-bottom: 2em;
-  font-size: 1.25rem;
+  font-size: 1.125em;
 
   @include breakpoint($small) {
     float: left;
@@ -239,16 +271,44 @@
     }
   }
 
+  .archive__item-body {
+    padding-left: gutter(1 of 12);
+    padding-right: gutter(1 of 12);
+  }
+
+  a.btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
   &--left {
+    position: relative;
     float: left;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem;
+    font-size: 1.125em;
+
+    .archive__item {
+      float: left;
+    }
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    a.btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
     }
 
     @include breakpoint($small) {
@@ -267,15 +327,29 @@
   }
 
   &--right {
+    position: relative;
     float: left;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem;
+    font-size: 1.125em;
+
+    .archive__item {
+      float: left;
+    }
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    a.btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
     }
 
     @include breakpoint($small) {
@@ -287,7 +361,7 @@
       }
 
       .archive__item-body {
-        float: right;
+        float: left;
         width: span(7 of 12);
         padding-left: gutter(0.5 of 12);
         padding-right: gutter(1 of 12);
@@ -296,15 +370,30 @@
   }
 
   &--center {
+    position: relative;
     float: left;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem;
+    font-size: 1.125em;
+
+    .archive__item {
+      float: left;
+      width: 100%;
+    }
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    a.btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
     }
 
     @include breakpoint($small) {
@@ -339,4 +428,28 @@
   .feature__item--right {
     font-size: 1em;
   }
+}
+
+/*
+   Wide Pages
+   ========================================================================== */
+
+  .wide {
+  .archive {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-right: 0;
+    }
+  }
+}
+
+/* Place inside a single layout */
+
+.layout--single {
+	.feature__wrapper {
+		display: inline-block;
+	}
 }
