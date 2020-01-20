@@ -30,7 +30,7 @@ For now this guide is only compatible with iOS 8.4.1 and above.
 
 Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's mobile operating system is known for being extremely secure and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
 
-Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.4 and below.
+Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices.
 
 ## Is jailbreaking legal?
 
@@ -48,7 +48,11 @@ Tweaks are typically software packages that can be installed to your device whic
 
 ## What does this guide install?
 
-Newer jailbreaks released for versions above iOS 9 will typically involve installing an app to your phone through your computer, and then running that app to reapply the jailbreak after every reboot. You will also need to reinstall this custom app to your phone from your computer every 7 days due to how Apple allows unofficial apps to be run.
+The new [checkra1n](https://checkra.in/){:target="_blank"} jailbreak will install a jailbreak to your device from recovery mode which will need to be re-applied every reboot. This will allow you unlimited access to your device.
+
+It works on any firmware above 12.3 on all devices, and will even work on all future firmware versions, due to the nature of the exploit. Unfortunately it's currently only able to be installed from MacOS, however a Windows version is coming in the future.
+
+Other jailbreaks released recently will typically involve installing an app to your phone through your computer, and then running that app to reapply the jailbreak after every reboot. You will also need to reinstall this custom app to your phone from your computer every 7 days due to how Apple allows unofficial apps to be run.
 
 Older jailbreaks may allow you to simply install the software once from your computer and then the jailbreak will be applied automatically on every boot, with no input from you, the user.
 
