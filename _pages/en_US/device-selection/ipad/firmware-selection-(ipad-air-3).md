@@ -9,7 +9,7 @@ permalink: /firmware-selection-(ipad-air-3)
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 12.4.1 to {% include latestfw %}" row includes version 12.4.1, version {% include latestfw %}, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 13.0 to {% include latestfw %}" row includes version 13.0, version {% include latestfw %}, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
