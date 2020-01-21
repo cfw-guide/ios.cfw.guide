@@ -5,26 +5,17 @@ permalink: /installing-checkra1n
 
 {% include toc title="Table of Contents" %}
 
-Currently, checkra1n is only compatible with MacOS, and will not work in a VM. Windows and Linux support is coming soon.
-{: .notice--info}
-
 If you have a newer device, such as an iPhone XS, you will not be able to use checkra1n. Check the [Device Selection](device-selection) page to check if your device is compatible.
 {: .notice--primary}
 
-checkra1n is currently only available on MacOS. You are currently not running a MacOS device and checkra1n will not work on your system.
+checkra1n is currently only compatible with MacOS. You are currently not running a MacOS device and checkra1n will not work on your system.
 {: .notice--danger #hide_os}
 
 <script src="{{ '/assets/js/hide_if_mac_os.js' | absolute_url }}"></script>
 
-checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above.
+checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above. It's currently only compatible with MacOS but a Windows release is coming soon.
 
 Note that the checkra1n jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
-
-In the future, checkra1n will support all devices released before iOS 12. Currently, however, the following devices aren't supported:
-
-  - iPad 5
-  - iPad Air 2
-  - iPad Pro (1st Gen)
 
 Support for the following devices is experimental, and may require more attempts than usual:
 
