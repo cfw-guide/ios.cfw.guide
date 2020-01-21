@@ -9,7 +9,12 @@ Currently, checkra1n is only compatible with MacOS, and will not work in a VM. W
 {: .notice--info}
 
 If you have a newer device, such as an iPhone XS, you will not be able to use checkra1n. Check the [Device Selection](device-selection) page to check if your device is compatible.
-{: .notice--danger}
+{: .notice--primary}
+
+checkra1n is currently only available on MacOS. You are currently not running a MacOS device and checkra1n will not work on your system.
+{: .notice--danger #hide_os}
+
+<script src="{{ '/assets/js/hide_if_mac_os.js' | absolute_url }}"></script>
 
 checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above.
 
