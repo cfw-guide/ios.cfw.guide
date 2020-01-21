@@ -9,7 +9,7 @@ $(document).ready(function(){
   var allLinks = document.querySelectorAll('a')
   for (var i = 0; i < allLinks.length; ++i) {
     if (allLinks[i].hostname !== host && allLinks[i].hostname !== '') {
-      allLinks[i].target = '_blank'
+      allLinks[i].target = "_blank"
     }
   }
 
