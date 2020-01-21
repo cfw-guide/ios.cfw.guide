@@ -17,6 +17,17 @@
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=PYEmwKvQAx">
 <meta name="theme-color" content="#2E3440">
 
+<script>
+  function externalLinks() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+      var b = c[a];
+      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+  }
+  ;
+  externalLinks();
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152619365-1"></script>
 <script>

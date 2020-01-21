@@ -21,9 +21,9 @@ This jailbreak automatically installs the Sileo [package manager](faq#package-ma
 
 ## Downloads
 
-- The latest version of [Chimera](https://chimera.sh/){:target="_blank"}
+- The latest version of [Chimera](https://chimera.sh/)
   - Select the left-most download (Not the "No PC" or ChimeraTV download)
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
+- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
 
@@ -34,7 +34,7 @@ This jailbreak automatically installs the Sileo [package manager](faq#package-ma
   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the Chimera `.ipa` file into Cydia Impactor
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage){:target="_blank"} and generate an App-Specific Password
+1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
 1. Enter in your App-Specific Password
   - This information is sent to Apple only
 

@@ -15,8 +15,8 @@ We will use the Cydia Impactor tool to install the h3lix jailbreak application t
 
 ## Downloads
 
-- The latest version of [h3lix](https://h3lix.tihmstar.net/ipa/h3lix-RC5.ipa)
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
+- The latest version of [h3lix](https://h3lix.tihmstar.net/ipa/h3lix-RC5.ipa){:target="_self"}
+- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
 {: .notice--info}
@@ -28,7 +28,7 @@ We will use the Cydia Impactor tool to install the h3lix jailbreak application t
   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the h3lix `.ipa` file into Cydia Impactor
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage){:target="_blank"} and generate an App-Specific Password
+1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
 1. Enter in your App-Specific Password
   - This information is sent to Apple only
 

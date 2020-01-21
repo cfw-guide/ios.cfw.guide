@@ -41,7 +41,7 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
 1. Turn on Airplane Mode and run the jailbreak now
   - This may take several attempts, keep trying until it works
 
-If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb){:target="_blank"} for support.
+If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb) for support.
 {: .notice--info}
 
 ## <a name="iphonex_dfu" />How to enter DFU on an iPhone X

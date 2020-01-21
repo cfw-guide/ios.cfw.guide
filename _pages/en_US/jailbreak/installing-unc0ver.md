@@ -15,8 +15,8 @@ We will use the Cydia Impactor tool to install the unc0ver jailbreak application
 
 ## Downloads
 
-- The latest version of [unc0ver](https://github.com/pwn20wndstuff/Undecimus/releases){:target="_blank"}
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
+- The latest version of [unc0ver](https://github.com/pwn20wndstuff/Undecimus/releases)
+- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
 
@@ -28,7 +28,7 @@ We will use the Cydia Impactor tool to install the unc0ver jailbreak application
 1. Drag and drop the unc0ver `.ipa` file into Cydia Impactor
 1. Enter in your Apple ID and Password
   - This information is sent to Apple only
-1. If you use 2FA, go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage){:target="_blank"} and generate an App-Specific Password to use in Cydia Impactor instead of your regular password
+1. If you use 2FA, go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password to use in Cydia Impactor instead of your regular password
 
 The app will now install to your iOS device.
 
