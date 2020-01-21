@@ -48,7 +48,7 @@ Tweaks are typically software packages that can be installed to your device whic
 
 ## What does this guide install?
 
-The new [checkra1n](https://checkra.in/) jailbreak will install a jailbreak to your device from recovery mode which will need to be re-applied every reboot. This will allow you unlimited access to your device.
+The new [checkra1n](https://checkra.in/){:target="_blank"} jailbreak will install a jailbreak to your device from recovery mode which will need to be re-applied every reboot. This will allow you unlimited access to your device.
 
 It works on any firmware above 12.3 on all devices, and will even work on all future firmware versions, due to the nature of the exploit. Unfortunately it's currently only able to be installed from MacOS, however a Windows version is coming in the future.
 

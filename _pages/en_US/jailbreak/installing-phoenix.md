@@ -15,8 +15,8 @@ We will use the Cydia Impactor tool to install the Phœnix jailbreak application
 
 ## Downloads
 
-- The latest version of [Phœnix](https://phoenixpwn.com/)
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
+- The latest version of [Phœnix](https://phoenixpwn.com/){:target="_blank"}
+- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
 
@@ -27,7 +27,7 @@ We will use the Cydia Impactor tool to install the Phœnix jailbreak application
   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the Phœnix `.ipa` file into Cydia Impactor
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
+1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage){:target="_blank"} and generate an App-Specific Password
 1. Enter in your App-Specific Password
   - This information is sent to Apple only
 

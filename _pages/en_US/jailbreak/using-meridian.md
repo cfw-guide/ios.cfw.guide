@@ -15,7 +15,7 @@ If you are using a device with a headphone jack we strongly recommend you follow
 ## Running Meridian
 
 1. Open Safari on your iOS device
-1. Go to the [meridian.sparkes.zone](https://meridian.sparkes.zone/) website
+1. Go to the [meridian.sparkes.zone](https://meridian.sparkes.zone/){:target="_blank"} website
 1. Tap "Jailbreak"
 
 Meridian will now install the temporary jailbreak on your device.
