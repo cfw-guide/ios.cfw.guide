@@ -18,14 +18,13 @@
 <meta name="theme-color" content="#2E3440">
 
 <script>
-  function externalLinks() {
-    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
-      var b = c[a];
-      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+  var host = location.hostname
+  var allLinks = document.querySelectorAll('a')
+  for (var i = 0; i < allLinks.length; ++i) {
+    if (allLinks[i].hostname !== host && allLinks[i].hostname !== '') {
+      allLinks[i].target = '_blank'
     }
   }
-  ;
-  externalLinks();
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
