@@ -37,11 +37,11 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
 1. Tap `Delete`
 1. Scroll to the unc0ver application and tap on it
 1. Tap `Delete`
-1. [Install unc0ver](installing-unc0ver){:target="_blank"} again like before but don't run it yet
+1. [Install unc0ver](installing-unc0ver) again like before but don't run it yet
 1. Turn on Airplane Mode and run the jailbreak now
   - This may take several attempts, keep trying until it works
 
-If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb){:target="_blank"} for support.
+If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb) for support.
 {: .notice--info}
 
 ## <a name="iphonex_dfu" />How to enter DFU on an iPhone X

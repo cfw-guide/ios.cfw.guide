@@ -30,17 +30,17 @@ Support for the following devices is experimental, and may require more attempts
 
 Every time you reboot, you must have a computer with you to re-apply the exploit. This is different to the majority of iOS exploits in the recent years where you only had to run an application to re-apply the exploit.
 
-Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager){:target="_blank"}. For this we will be using Cydia. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years.
+Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager). For this we will be using Cydia. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years.
 
 ## Downloads
 
-- The latest version of [checkra1n](https://checkra.in){:target="_blank"}
+- The latest version of [checkra1n](https://checkra.in)
 
 ![]({{ "/assets/images/checkra1n.png" | absolute_url }})
 
 ## Installing checkra1n
 
-If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver){:target="_blank"} before proceeding.
+If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
 {: .notice--success}
 
 1. Open checkra1n on your computer
@@ -48,7 +48,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
 1. Click `Start` -> `Next` on checkra1n
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
-  - If you have an iPhone X, follow [these instructions](troubleshooting#iphonex_dfu){:target="_blank"} to enter DFU mode, as the instructions in the checkra1n application are incorrect
+  - If you have an iPhone X, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
   - Follow the instructions until your device reboots to a black screen
 1. checkra1n will now be automatically installed
 
@@ -58,10 +58,10 @@ Your iOS device should reboot. There should now be a checkra1n application on yo
 
 1. Open the checkra1n application on your iOS device
 1. Press "Cydia" under the `Install` section
-  - This installs the Cydia [package manager](faq#package-manager){:target="_blank"}
+  - This installs the Cydia [package manager](faq#package-manager)
   - This may take a few seconds
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks), themes and more.
 
 Continue to [Using Cydia](using-cydia)
 {: .notice--info}

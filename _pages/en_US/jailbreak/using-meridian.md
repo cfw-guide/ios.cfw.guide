@@ -15,7 +15,7 @@ If you are using a device with a headphone jack we strongly recommend you follow
 ## Running Meridian
 
 1. Open Safari on your iOS device
-1. Go to the [meridian.sparkes.zone](https://meridian.sparkes.zone/){:target="_blank"} website
+1. Go to the [meridian.sparkes.zone](https://meridian.sparkes.zone/) website
 1. Tap "Jailbreak"
 
 Meridian will now install the temporary jailbreak on your device.
@@ -23,7 +23,7 @@ Meridian will now install the temporary jailbreak on your device.
 Tap `Share` -> `Add to home screen` for easier access to Meridian.
 {: .notice--info}
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks), themes and more.
 
 Continue to [Using Cydia](using-cydia)
 {: .notice--info}

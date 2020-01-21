@@ -13,8 +13,8 @@ We will use the Cydia Impactor tool to install the EtasonJB jailbreak applicatio
 
 ## Downloads
 
-- The latest version of [EtasonJB](https://etasonjb.tihmstar.net/){:target="_blank"}
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/){:target="_blank"}
+- The latest version of [EtasonJB](https://etasonjb.tihmstar.net/)
+- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
 
 ![]({{ "/assets/images/impactor.png" | absolute_url }})
 
@@ -25,7 +25,7 @@ We will use the Cydia Impactor tool to install the EtasonJB jailbreak applicatio
   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the EtasonJB `.ipa` file into Cydia Impactor
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage){:target="_blank"} and generate an App-Specific Password
+1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
 1. Enter in your App-Specific Password
   - This information is sent to Apple only
 
@@ -48,7 +48,7 @@ The EtasonJB application can now be opened from home screen.
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
 {:.notice--danger}
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks){:target="_blank"}, themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks), themes and more.
 
 Continue to [Using Cydia](using-cydia)
 {: .notice--info}
