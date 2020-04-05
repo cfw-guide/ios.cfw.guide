@@ -16,7 +16,7 @@ description              : "A complete iOS jailbreaking guide, from stock to Cyd
 url                      : "https://ios.cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "ios.cfw.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "emiyl/ios.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "cfw-guide/ios.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -103,7 +103,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "cfw_guide"
+  twitter          : "emiyl0"
   vine             :
   weibo            :
   xing             :
