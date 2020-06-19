@@ -26,7 +26,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>MacOS</th>
+      <th>macOS / Linux</th>
       <th>All</th>
     </tr>
   </thead>
@@ -49,7 +49,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
     <tr>
-      <td>13.0</td>
+      <td>12.4</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td>--</td>
@@ -59,8 +59,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-checkra1n and unc0ver also compatible with firmware version 12.4 however we recommend use Chimera instead due to it being easier to use.
+unc0ver is also compatible with firmware version 12.4 however we recommend use Chimera instead due to it being easier to use.
 {: .notice--primary}
+
+checkra1n is compatible with every firmware
+{: .notice-primary}
 
 unc0ver is also compatible with firmware versions 13.0 - 13.5.5 if you prefer a semi-untethered jailbreak.
 {: .notice--primary}
