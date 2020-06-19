@@ -1,6 +1,3 @@
----
-permalink: /find-ios-version
----
 
 ## Finding your iOS version
 

@@ -1,6 +1,4 @@
----
-permalink: /firmware-selection-(iphone-a13)
----
+
 ## Version Table
 
 <table class="version_table">
