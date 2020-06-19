@@ -13,36 +13,7 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
-There is no jailbreak currently available for this device.
-{: .notice--danger}
-
-## Version Table
-
-<table class="version_table">
-  <colgroup>
-    <col span="1" style="width: 15%;">
-    <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th>From</th>
-      <th>To</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>13.0</td>
-      <td>{% include latestfw %}</td>
-      <td>--</td>
-    </tr>
-  </tbody>
-</table>
-
----
-{% capture notice-2 %}
-![]({{ "/assets/images/system-version.jpg" | absolute_url }})
+{% include_relative firmware-selection-(iphone-a13).md %}
 
 **Finding your iOS version on iOS 11.2.2**
 {% endcapture %}
