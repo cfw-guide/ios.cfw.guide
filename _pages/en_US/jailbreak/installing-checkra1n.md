@@ -34,11 +34,11 @@ Once the exploit is installed, you will have the choice of installing a [package
 
 ![]({{ "/assets/images/checkra1n.png" | absolute_url }})
 
-## Installing checkra1n
-
 If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
 {: .notice--success}
 
+## Installing checkra1n (macOS)
+  
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
 1. Click `Start` -> `Next` on checkra1n
@@ -48,7 +48,14 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
   - Follow the instructions until your device reboots to a black screen
 1. checkra1n will now be automatically installed
 
-Your iOS device should reboot. There should now be a checkra1n application on your home scren.
+Your iOS device should reboot. There should now be a checkra1n application on your home screen.
+  
+## Installing checkra1n (Linux)
+  
+1. Run the `checkra1n` binary in the terminal using `./checkra1n`
+  - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
+1. Click `Start` and follow all onscreen prompts
+1. 
 
 ## Running checkra1n.
 
