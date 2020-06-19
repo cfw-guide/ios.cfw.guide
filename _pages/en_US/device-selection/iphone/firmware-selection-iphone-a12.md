@@ -1,6 +1,4 @@
----
-permalink: /firmware-selection-(iphone-a12)
----
+
 
 ## Version Table
 

@@ -13,7 +13,7 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
-{% include_relative firmware-selection-(iphone-a12).md %}
+{% include_relative firmware-selection-iphone-a12.md %}
 
 unc0ver is also compatible with firmware versions 12.0 to 12.1.2, however we recommend use Chimera instead due to it being easier to use.
 {: .notice--primary}
