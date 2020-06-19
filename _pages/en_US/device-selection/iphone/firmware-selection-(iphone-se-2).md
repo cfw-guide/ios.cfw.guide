@@ -13,8 +13,6 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
-There is no jailbreak currently available for this device.
-{: .notice--danger}
 
 {% include_relative firmware-selection-(iphone-a13).md %}
   
