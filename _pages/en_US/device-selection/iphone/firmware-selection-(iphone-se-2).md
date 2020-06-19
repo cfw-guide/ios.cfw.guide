@@ -1,6 +1,6 @@
 ---
-title: Firmware Selection (iPhone XR)
-permalink: /firmware-selection-(iphone-xr)
+title: Firmware Selection (iPhone SE 2020)
+permalink: /firmware-selection-(iphone-se-2)
 ---
 
 {% include toc title="Table of Contents" %}
@@ -13,16 +13,10 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
-{% include_relative firmware-selection-iphone-a12.md %}
 
-unc0ver is also compatible with firmware versions 12.0 to 12.1.2, however we recommend use Chimera instead due to it being easier to use.
-{: .notice--primary}
-
-In boxes marked `--`, there is no jailbreak for that firmware version.
-{: .notice--info}
-
----
-
+{% include_relative firmware-selection-iphone-a13.md %}
+  
 {% include find-ios-version.md %}
+
 
 <div class="notice">{{ notice-2 | markdownify }}</div>

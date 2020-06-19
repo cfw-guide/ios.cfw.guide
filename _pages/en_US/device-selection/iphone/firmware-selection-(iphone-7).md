@@ -80,14 +80,14 @@ checkra1n is also compatible with firmware version 12.4 however we recommend use
 unc0ver is also compatible with firmware versions 12.0 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
 {: .notice--primary}
 
+unc0ver is also compatible with firmware versions 13.0 - 13.5.5 if you prefer a semi-untethered jailbreak.
+{: .notice--primary}
+
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
 ---
-{% capture notice-2 %}
-![]({{ "/assets/images/system-version.jpg" | absolute_url }})
-
-**Finding your iOS version on iOS 11.2.2**
-{% endcapture %}
+  
+{% include find-ios-version.md %}
 
 <div class="notice">{{ notice-2 | markdownify }}</div>
