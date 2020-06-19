@@ -26,16 +26,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>MacOS</th>
+      <th>macOS / Linux</th>
       <th>All</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>13.1</td>
-      <td>{% include latestfw %}</td>
+      <td>13.5.5</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td>--</td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
   </tbody>
 </table>

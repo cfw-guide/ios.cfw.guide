@@ -26,7 +26,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>MacOS</th>
+      <th>macOS</th>
       <th>All</th>
     </tr>
   </thead>

@@ -115,16 +115,38 @@ Please select what model of iPad you have below.
   </colgroup>
   <thead>
     <tr>
+      <th>iPad Pro 4</th>
       <th>iPad Pro 3</th>
       <th>iPad Pro 2</th>
-      <th>iPad Pro</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><a href="firmware-selection-(ipad-pro-4)"><img src="/assets/images/iPad8,9.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-pro-3)"><img src="/assets/images/iPad8,5.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-pro-2)"><img src="/assets/images/iPad7,1.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="version_table">
+  <colgroup>
+    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 34%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>iPad Pro</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td><a href="firmware-selection-(ipad-pro)"><img src="/assets/images/iPad6,7.png" alt="" width="50%"></a></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
