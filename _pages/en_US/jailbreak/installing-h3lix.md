@@ -11,25 +11,24 @@ Note that the h3lix jailbreak is not “persistent” (meaning it does not remai
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the h3lix jailbreak application to your device every 7 days from your computer.
 
-We will use the Cydia Impactor tool to install the h3lix jailbreak application to your iOS device for use in the next step.
+We will use the AltDeploy tool to install the h3lix jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
 - The latest version of [h3lix](https://h3lix.tihmstar.net/)
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
+- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
 
-![]({{ "/assets/images/impactor.png" | absolute_url }})
+![]({{ "/assets/images/altdeploy.png" | absolute_url }})
 {: .notice--info}
 
 ## Installing the application
 
-1. Open Cydia Impactor
+1. Open AltDeploy
 1. Plug your iOS device into your computer
   - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the h3lix `.ipa` file into Cydia Impactor
+1. Drag and drop the h3lix `.ipa` file into AltDeploy
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
-1. Enter in your App-Specific Password
+1. Enter in your pasword
   - This information is sent to Apple only
 
 The app will now install to your iOS device.

@@ -11,7 +11,7 @@ Note that the unc0ver jailbreak is not “persistent” (meaning it does not rem
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the unc0ver jailbreak application to your device every 7 days from your computer.
 
-We will use the Cydia Impactor tool to install the unc0ver jailbreak application to your iOS device for use in the next step.
+We will use the AltStore tool to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 

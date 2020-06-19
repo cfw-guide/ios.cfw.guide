@@ -9,24 +9,24 @@ EtasonJB is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.
 
 Unlike most modern jailbreaks, EtasonJB is persistent after a reboot (this is also referred to as an "untethered" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
 
-We will use the Cydia Impactor tool to install the EtasonJB jailbreak application to your iOS device for use in the next step.
+We will use the AltDeploy tool to install the EtasonJB jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
 - The latest version of [EtasonJB](https://etasonjb.tihmstar.net/)
-- The latest version of [Cydia Impactor](http://www.cydiaimpactor.com/)
+- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
 
-![]({{ "/assets/images/impactor.png" | absolute_url }})
+![]({{ "/assets/images/altdeploy.png" | absolute_url }})
+{: .notice--info}
 
 ## Installing the application
 
-1. Open Cydia Impactor
+1. Open AltDeploy
 1. Plug your iOS device into your computer
   - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the EtasonJB `.ipa` file into Cydia Impactor
+1. Drag and drop the EtasonJB `.ipa` file into AltDeploy
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
-1. Enter in your App-Specific Password
+1. Enter in your password
   - This information is sent to Apple only
 
 The app will now install to your iOS device.
