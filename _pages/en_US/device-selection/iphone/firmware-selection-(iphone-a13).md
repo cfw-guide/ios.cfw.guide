@@ -27,6 +27,3 @@ permalink: /firmware-selection-(iphone-a13)
 </table>
 
 ---
-
-{% capture notice-2 %}
-![]({{ "/assets/images/system-version.jpg" | absolute_url }})
