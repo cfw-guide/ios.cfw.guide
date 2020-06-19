@@ -1,6 +1,6 @@
 ---
-title: Firmware Selection (iPhone 11 Pro)
-permalink: /firmware-selection-(iphone-11-pro)
+title: Firmware Selection (iPhone SE 2020)
+permalink: /firmware-selection-(iphone-se-2)
 ---
 
 {% include toc title="Table of Contents" %}
