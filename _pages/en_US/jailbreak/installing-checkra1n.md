@@ -44,7 +44,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
 1. Click `Start` -> `Next` on checkra1n
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
-  - If you have an iPhone X, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
+  - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
   - Follow the instructions until your device reboots to a black screen
 1. checkra1n will now be automatically installed
 
@@ -55,7 +55,9 @@ Your iOS device should reboot. There should now be a checkra1n application on yo
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
   - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
 1. Click `Start` and follow all onscreen prompts
-1. 
+1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
+  - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
+  - Follow the instructions until your device reboots to a black screen
 
 ## Running checkra1n.
 
