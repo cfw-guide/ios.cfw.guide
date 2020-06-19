@@ -22,8 +22,7 @@ In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
 ---
-{% capture notice-2 %}
-![]({{ "/assets/images/system-version.jpg" | absolute_url }})
+
   
 {% include /find-ios-version.md %}
 
