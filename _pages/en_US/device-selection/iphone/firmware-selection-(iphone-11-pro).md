@@ -18,7 +18,8 @@ There is no jailbreak currently available for this device.
 
 {% include_relative firmware-selection-(iphone-a13).md %}
 
-**Finding your iOS version on iOS 11.2.2**
-{% endcapture %}
+  
+{% include /find-ios-version.md %}
+
 
 <div class="notice">{{ notice-2 | markdownify }}</div>

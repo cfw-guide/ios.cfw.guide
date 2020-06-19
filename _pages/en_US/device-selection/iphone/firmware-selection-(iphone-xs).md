@@ -24,8 +24,8 @@ In boxes marked `--`, there is no jailbreak for that firmware version.
 ---
 {% capture notice-2 %}
 ![]({{ "/assets/images/system-version.jpg" | absolute_url }})
+  
+{% include /find-ios-version.md %}
 
-**Finding your iOS version on iOS 11.2.2**
-{% endcapture %}
 
 <div class="notice">{{ notice-2 | markdownify }}</div>

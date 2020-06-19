@@ -15,7 +15,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 {% include_relative firmware-selection-(iphone-a13).md %}
 
-**Finding your iOS version on iOS 11.2.2**
-{% endcapture %}
+{% include /find-ios-version.md %}
+
 
 <div class="notice">{{ notice-2 | markdownify }}</div>
