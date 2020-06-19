@@ -19,7 +19,6 @@
       <td>13.0</td>
       <td>13.5.5</td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-      <td></td>
     </tr>
   </tbody>
 </table>

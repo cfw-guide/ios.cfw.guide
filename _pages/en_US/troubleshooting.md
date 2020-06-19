@@ -48,7 +48,7 @@ If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg
 
 1. Power on your iPhone if it's not on already
 1. Connect it to your computer with your cable
-1. Launch iTunes (or Finder on Macos 10.15) and check that the iPhone is recognised
+1. Launch iTunes (or Finder on macOS 10.15) and check that the iPhone is recognised
 1. Press the Volume+ button immediately followed by the Volume- button
 1. Press and hold down the Power button until the screen turns black
 1. Release the Power button

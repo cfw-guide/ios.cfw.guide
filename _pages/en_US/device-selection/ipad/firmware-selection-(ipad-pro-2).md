@@ -26,7 +26,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>MacOS</th>
+      <th>macOS / Linux</th>
       <th>All</th>
     </tr>
   </thead>
@@ -52,22 +52,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td>--</td>
     </tr>
-    <tr>
+     <tr>
       <td>12.4</td>
-      <td>12.4</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
-    </tr>
-    <tr>
-      <td>12.4.1</td>
-      <td>12.4.1</td>
+      <td>13.5.5</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td><a href="blocking-updates">Blocking Updates</a></td>
-    </tr>
-    <tr>
-      <td>13.0</td>
-      <td>{% include latestfw %}</td>
-      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td>--</td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
   </tbody>
 </table>

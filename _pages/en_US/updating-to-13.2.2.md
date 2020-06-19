@@ -7,7 +7,7 @@ permalink: /updating-to-13-2-2
 
 ## Required Reading
 
-We suggest only updating to the latest version if you are on MacOS, as the jailbreak for this firmware version is not supported on other operating systems yet.
+We suggest only updating to the latest version if you are on macOS, as the jailbreak for this firmware version is not supported on other operating systems yet.
 {: .notice--primary}
 
 Unfortunately, there is currently no jailbreak available for some firmware versions on 64-bit devices. However, you can update to 13.2.2 and use the checkra1n jailbreak instead.
