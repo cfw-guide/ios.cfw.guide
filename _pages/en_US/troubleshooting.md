@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting"
 permalink: /troubleshooting
+excerpt: Having trouble with your jailbreak? We've got the solution
 ---
 
 ## <a name="rootfs_u0" />rootFS already mounted

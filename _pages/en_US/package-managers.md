@@ -1,6 +1,7 @@
 ---
 title: "Package Managers"
 permalink: /package-managers
+excerpt: Information on the current package managers available to use
 ---
 
 {% include toc title="Table of Contents" %}
