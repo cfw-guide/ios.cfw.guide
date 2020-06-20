@@ -20,12 +20,15 @@ permalink: /site-navigation
 **All**
 
 + [Blocking Updates](blocking-updates)
++ [Resigning Apps](resigning-apps)
 + [Credits](credits)
 + [Donations](donations)
 + [FAQ](faq)
 + [Device Selection](device-selection)
 + [Home](/)
 + [Installing checkra1n](installing-checkra1n)
++ [Installing Chimera](installing-chimera)
++ [Installing Electra](installing-electra)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing EtasonJB](installing-etasonjb)
 + [Installing h3lix](installing-h3lix)
