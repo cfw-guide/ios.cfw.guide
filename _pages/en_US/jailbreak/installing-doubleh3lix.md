@@ -29,7 +29,6 @@ We will use the AltDeploy tool to install the doubleh3lix jailbreak application 
   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the doubleh3lix `.ipa` file into AltDeploy
 1. Enter in your Apple ID
-1. Go to [appleid.apple.com/account/manage](https://appleid.apple.com/account/manage) and generate an App-Specific Password
 1. Enter in your password
   - This information is sent to Apple only
 
