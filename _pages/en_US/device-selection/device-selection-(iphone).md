@@ -124,3 +124,24 @@ Note that all "+" models of iPhones are functionally identical to the normal siz
     </tr>
   </tbody>
 </table>
+<table class="version_table">
+  <colgroup>
+    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 34%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>iPhone 4</th>
+      <th>iPhone 3GS</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="firmware-selection-(iphone-4)"><img src="/assets/images/iPhone3,3.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(iphone-3gs)"><img src="/assets/images/iPhone2,1.png" alt="" width="50%"></a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
