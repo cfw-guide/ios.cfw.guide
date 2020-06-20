@@ -1,6 +1,7 @@
 ---
 title: Device Selection (iPad)
 permalink: /device-selection-(ipad)
+excerpt: Find out what jailbreaks you can use on your iPad
 ---
 
 {% include toc title="Table of Contents" %}

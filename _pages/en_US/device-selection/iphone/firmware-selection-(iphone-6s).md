@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPhone 6S)
 permalink: /firmware-selection-(iphone-6s)
+excerpt: Find out what jailbreaks you can use on your iPhone 6S or iPhone 6S Plus
 ---
 
 {% include toc title="Table of Contents" %}

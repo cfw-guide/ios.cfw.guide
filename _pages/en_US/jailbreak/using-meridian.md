@@ -2,6 +2,7 @@
 title: Using Meridian
 permalink: /using-meridian
 redirect_from: /installing-meridian
+excerpt: Guide to using Meridian
 ---
 
 {% include toc title="Table of Contents" %}

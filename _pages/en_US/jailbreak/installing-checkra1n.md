@@ -1,7 +1,9 @@
 ---
 title: Installing checkra1n
 permalink: /installing-checkra1n
+excerpt: Guide to installing Checkra1n
 ---
+<link rel="shortcut icon" type="image/png" href="/assets/images/jb/checkra1n.png">
 
 {% include toc title="Table of Contents" %}
 

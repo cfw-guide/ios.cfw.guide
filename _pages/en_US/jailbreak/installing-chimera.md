@@ -1,6 +1,7 @@
 ---
 title: Installing Chimera
 permalink: /installing-chimera
+excerpt: Guide to installing Chimera
 ---
 
 {% include toc title="Table of Contents" %}

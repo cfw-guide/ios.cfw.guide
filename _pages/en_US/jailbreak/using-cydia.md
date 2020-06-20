@@ -1,6 +1,7 @@
 ---
 title: "Using Cydia"
 permalink: /using-cydia
+excerpt: Guide to using Cydia
 ---
 
 {% include toc title="Table of Contents" %}

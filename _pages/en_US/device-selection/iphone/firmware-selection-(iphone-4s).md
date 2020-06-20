@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPhone 4S)
 permalink: /firmware-selection-(iphone-4s)
+excerpt: Find out what jailbreaks you can use on your iPhone 4S
 ---
 
 {% include toc title="Table of Contents" %}

@@ -1,6 +1,7 @@
 ---
 title: Installing unc0ver
 permalink: /installing-unc0ver
+excerpt: Guide to installing unc0ver
 ---
 
 {% include toc title="Table of Contents" %}

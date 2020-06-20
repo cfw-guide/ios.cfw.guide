@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPad Mini 4)
 permalink: /firmware-selection-(ipad-mini-4)
+excerpt: Find out what jailbreaks you can use on your iPad Mini 4
 ---
 
 {% include toc title="Table of Contents" %}

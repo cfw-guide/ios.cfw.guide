@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPad 7)
 permalink: /firmware-selection-(ipad-7)
+excerpt: Find out what jailbreaks you can use on your iPad 7th Generation
 ---
 
 {% include toc title="Table of Contents" %}

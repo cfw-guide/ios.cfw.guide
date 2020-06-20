@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPod Touch 7)
 permalink: /firmware-selection-(ipod-touch-7)
+excerpt: Find out what jailbreaks you can use on your iPod Touch 7th Generation
 ---
 
 {% include toc title="Table of Contents" %}
