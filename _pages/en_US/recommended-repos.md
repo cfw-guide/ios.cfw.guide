@@ -1,6 +1,7 @@
 ---
 title: "Recommended Repos"
 permalink: /recommended-repos
+excerpt: Information on popular repositories for jailbreak tweaks
 ---
 
 {% include toc title="Table of Contents" %}
