@@ -13,7 +13,7 @@ permalink: /credits
     <div class="user">
       <h3>emiyl</h3>
       <p>Guide Writer</p>
-      <a class="social-icon" href="https://twitter.com/cfw_guide" target="_blank">
+      <a class="social-icon" href="https://twitter.com/emiyl0" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>
       <a class="social-icon" href="https://github.com/emiyl" target="_blank">
