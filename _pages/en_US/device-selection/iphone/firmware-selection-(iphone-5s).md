@@ -27,11 +27,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>macOS</th>
+      <th>macOS / Linux</th>
       <th>All</th>
     </tr>
   </thead>
   <tbody>
+  <tr>
+      <td>6.1.3</td>
+      <td>6.1.6</td>
+      <td colspan="2"><a href="installing-p0sixspwn">Installing P0sixspwn</a></td>
+    </tr>
     <tr>
       <td>7.0.1</td>
       <td>8.4</td>
@@ -110,10 +115,6 @@ In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
 ---
-{% capture notice-2 %}
-![]({{ "/assets/images/system-version.jpg" | absolute_url }})
-
-**Finding your iOS version on iOS 11.2.2**
-{% endcapture %}
+{% include find-ios-version.md %}
 
 <div class="notice">{{ notice-2 | markdownify }}</div>

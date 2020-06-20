@@ -64,6 +64,6 @@ In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
 ---
-{% include find-ios-version.md %}
+{% include find-ios-version-old.md %}
 
 <div class="notice">{{ notice-2 | markdownify }}</div>

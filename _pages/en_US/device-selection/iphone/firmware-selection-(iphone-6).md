@@ -27,7 +27,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>macOS</th>
+      <th>macOS / Linux</th>
       <th>All</th>
     </tr>
   </thead>
@@ -110,10 +110,6 @@ In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
 ---
-{% capture notice-2 %}
-![]({{ "/assets/images/system-version.jpg" | absolute_url }})
-
-**Finding your iOS version on iOS 11.2.2**
-{% endcapture %}
+{% include find-ios-version.md %}
 
 <div class="notice">{{ notice-2 | markdownify }}</div>
