@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPad 3)
 permalink: /firmware-selection-(ipad-3)
+excerpt: Find out what jailbreaks you can use on your iPad 3
 ---
 
 {% include toc title="Table of Contents" %}

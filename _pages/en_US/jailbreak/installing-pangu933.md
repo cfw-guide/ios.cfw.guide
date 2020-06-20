@@ -1,6 +1,7 @@
 ---
 title: Installing Pangu
 permalink: /installing-pangu933
+excerpt: Guide to installing Pangu933
 ---
 
 {% include toc title="Table of Contents" %}

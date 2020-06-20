@@ -1,6 +1,7 @@
 ---
 title: Installing Phœnix
 permalink: /installing-phoenix
+excerpt: Guide to installing Phoenix
 ---
 
 {% include toc title="Table of Contents" %}

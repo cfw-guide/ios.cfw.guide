@@ -1,6 +1,7 @@
 ---
 title: "Using Sileo"
 permalink: /using-sileo
+excerpt: Guide to using Sileo
 ---
 
 {% include toc title="Table of Contents" %}

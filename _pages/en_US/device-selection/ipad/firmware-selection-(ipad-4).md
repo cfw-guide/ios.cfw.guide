@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPad 4)
 permalink: /firmware-selection-(ipad-4)
+excerpt: Find out what jailbreaks you can use on your iPad 4
 ---
 
 {% include toc title="Table of Contents" %}

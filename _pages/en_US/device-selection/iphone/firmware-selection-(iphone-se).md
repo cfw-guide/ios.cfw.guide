@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPhone SE)
 permalink: /firmware-selection-(iphone-se)
+excerpt: Find out what jailbreaks you can use on your iPhone SE 1st Generation (2016)
 ---
 
 {% include toc title="Table of Contents" %}

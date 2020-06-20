@@ -1,6 +1,7 @@
 ---
 title: Installing doubleh3lix
 permalink: /installing-doubleh3lix
+excerpt: Guide to installing DoubleH3lix
 ---
 
 {% include toc title="Table of Contents" %}

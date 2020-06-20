@@ -1,6 +1,7 @@
 ---
 title: Installing EtasonJB
 permalink: /installing-etasonjb
+excerpt: Guide to installing etasonjb
 ---
 
 {% include toc title="Table of Contents" %}

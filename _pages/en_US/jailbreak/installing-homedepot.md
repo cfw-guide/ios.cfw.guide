@@ -1,6 +1,7 @@
 ---
 title: Installing HomeDepot
 permalink: /installing-homedepot
+excerpt: Guide to installing HomeDepot
 ---
 
 {% include toc title="Table of Contents" %}

@@ -1,6 +1,7 @@
 ---
 title: Firmware Selection (iPhone 5)
 permalink: /firmware-selection-(iphone-5)
+excerpt: Find out what jailbreaks you can use on your iPhone 5
 ---
 
 {% include toc title="Table of Contents" %}

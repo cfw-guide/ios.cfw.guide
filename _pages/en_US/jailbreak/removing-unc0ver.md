@@ -1,6 +1,7 @@
 ---
 title: Removing unc0ver
 permalink: /removing-unc0ver
+excerpt: Guide to removing unc0ver
 ---
 
 {% include toc title="Table of Contents" %}
