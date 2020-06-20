@@ -47,16 +47,6 @@ They can be considered similar to the iOS App Store, where you can install both 
 
 Tweaks are typically software packages that can be installed to your device which transform the look and feel of your iOS device. With some exceptions, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Simpler tweaks might not have these.
 
-## What does this guide install?
-
-The new [checkra1n](https://checkra.in/) jailbreak will install a jailbreak to your device from recovery mode which will need to be re-applied every reboot. This will allow you unlimited access to your device.
-
-It works on any firmware above 12.3 on all devices, and will even work on all future firmware versions, due to the nature of the exploit. Unfortunately it's currently only able to be installed from macOS, however a Windows version is coming in the future.
-
-Other jailbreaks released recently will typically involve installing an app to your phone through your computer, and then running that app to reapply the jailbreak after every reboot. You will also need to reinstall this custom app to your phone from your computer every 7 days due to how Apple allows unofficial apps to be run.
-
-Older jailbreaks may allow you to simply install the software once from your computer and then the jailbreak will be applied automatically on every boot, with no input from you, the user.
-
 ## What can I do once jailbroken?
 
 - Gain full access to your device's OS

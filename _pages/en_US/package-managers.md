@@ -6,25 +6,25 @@ excerpt: Information on the current package managers available to use
 
 {% include toc title="Table of Contents" %}
 
-After installing your jailbreak, you may may be wondering what is a Package Manager and why do I need one?
-  
-# What is a Package Manager
-  
-Package Managers are like the App Store. They allow you to browse repositories (sometimes refered to as repos or sources) and download Tweaks, Apps, and other pieces of software for your jailbroken device. Most jailbreaks come prepackaged with a Package Manager called Cydia.
+After jailbreaking, you may be wondering what a package manager is, and why it's necessary to have one.
 
-## Cydia
+## What is a package manager?
+
+Package managers are like an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Most jailbreaks come pre-packaged with a package manager called Cydia.
+
+### Cydia
 
 {% capture cydia %}
-Cydia has been around almost as long as jailbreaking iOS Devices has. It's the package manager that is usually at the front of every jailbreak. It's often mocked for its outdated design, somewhat abandonement by its creator, and slow performance.
+Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's typically at the front of every jailbreak, however often mocked for its outdated design, somewhat abandonment by its creator, and slow performance.
 {% endcapture %}
 
 <div class="notice--info">{{ cydia | markdownify }}</div>
 
-## Sileo
+### Sileo
 
 {% capture sileo %}
 Sileo is a relatively new Package Manager made by Coolstar. Just like Cydia, it's used to download and install jailbreak tweaks. Sileo prides itself with its superior performance over Cydia along with general QOL improvements. The modern-looking package manager also borrows its design from Apple's iOS App Store.
-  
+
 If your jailbreak does not ship with Sileo, it is possible to install Sileo if you're running iOS 11 or newer. For the best experience, only use it on a device with an Apple A9 SoC or newer.
 
 URL: <code><a href="https://repo.getsileo.app/" target="_blank">https://repo.getsileo.app/</a></code>
@@ -32,10 +32,10 @@ URL: <code><a href="https://repo.getsileo.app/" target="_blank">https://repo.get
 
 <div class="notice--info">{{ sileo | markdownify }}</div>
 
-## Zebra
+### Zebra
 
 {% capture zebra %}
-Zebra is the newest of the bunch. Taking inspiration from Cydia's design, it's able to refresh sources far quicker than Cydia and runs decently well on older hardware. Zebra isn't perfect, but it's a great start to replacing the againg Cydia package manager.
+Zebra is the newest of the bunch. Taking inspiration from Cydia's design, it's able to refresh sources far quicker than Cydia and runs decently well on older hardware. Zebra isn't perfect, but it's a great start to replacing the ageing Cydia package manager.
 
 URL: <code><a href="https://getzbra.com/" target="_blank">https://getzbra.com/</a></code>
 {% endcapture %}
