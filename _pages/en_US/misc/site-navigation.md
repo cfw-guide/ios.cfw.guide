@@ -39,6 +39,8 @@ permalink: /site-navigation
 + [Using Cydia](using-cydia)
 + [Using Meridian](using-meridian)
 + [Using Sileo](using-sileo)
++ [Using Coolbooter](using-coolbooter)
++ [Using T3nbelow](using-t3nbelow)
 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
