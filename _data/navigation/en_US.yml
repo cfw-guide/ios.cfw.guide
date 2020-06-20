@@ -10,6 +10,9 @@ main:
     title: Recommended Repos
     url: recommended-repos
   -
+    title: Package Managers
+    url: package-managers
+  -
     title: Troubleshooting
     url: troubleshooting
   -
