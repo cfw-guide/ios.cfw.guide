@@ -1,7 +1,7 @@
 ---
 title: Installing h3lix
 permalink: /installing-h3lix
-]excerpt: Guide to installing H3lix
+excerpt: Guide to installing H3lix
 ---
 
 {% include toc title="Table of Contents" %}
