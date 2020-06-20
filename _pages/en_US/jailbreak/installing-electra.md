@@ -1,22 +1,22 @@
 ---
-title: Installing doubleh3lix
-permalink: /installing-doubleh3lix
-excerpt: Guide to installing DoubleH3lix
+title: Installing Electra
+permalink: /installing-electra
+excerpt: Guide to installing Electra
 ---
 
 {% include toc title="Table of Contents" %}
 
-doubleh3lix is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.
+Electra is capable of jailbreaking every iOS device on firmware version 11.0 up to 11.4.1
 
-Note that the doubleh3lix jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
+Note that the Electra jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
-Due to how custom applications are installed to the device, in most cases you will need to reinstall the doubleh3lix jailbreak application to your device every 7 days from your computer.
+Due to how custom applications are installed to the device, in most cases you will need to reinstall the Electra jailbreak application to your device every 7 days from your computer.
 
-We will use the AltDeploy tool to install the doubleh3lix jailbreak application to your iOS device for use in the next step.
+We will use the AltDeploy tool to install the Electra jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
-- The latest version of [doubleh3lix](https://doubleh3lix.tihmstar.net/ipa/doubleH3lix-RC8.ipa){:target="_self"}
+- The latest version of [Electra](https://coolstar.org/electra/){:target="_self"}
 - The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
 
 ![]({{ "/assets/images/altdeploy.png" | absolute_url }})
@@ -27,7 +27,7 @@ We will use the AltDeploy tool to install the doubleh3lix jailbreak application 
 1. Open AltDeploy
 1. Plug your iOS device into your computer
   - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the doubleh3lix `.ipa` file into AltDeploy
+1. Drag and drop the Electra `.ipa` file into AltDeploy
 1. Enter in your Apple ID
 1. Enter in your password
   - This information is sent to Apple only
@@ -40,12 +40,12 @@ The app will now install to your iOS device.
   - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The doubleh3lix application can now be opened from home screen.
+The Electra application can now be opened from home screen.
 {: .notice--primary}
 
-## Running doubleh3lix
+## Running Electra
 
-1. Open the doubleh3lix application from your home screen
+1. Open the Electra application from your home screen
 1. Tap "Jailbreak"
 
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
