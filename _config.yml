@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "emiyl"
-  avatar           : "bio-photo.jpg"
-  bio              : "Guide Writer"
-  location         : "England"
+  name             : "emiyl (Emma)"
+  avatar           : "https://avatars1.githubusercontent.com/u/31181801?s=400&u=cfd561b223a087ddd91eed53f00bb19096e64d42&v=4"
+  bio              : "<p>guide writer @ cfw.guide and hacks.guide | she/her</p>"
+  location         : "United Kingdom"
   email            : "emily@cfw.guide"
   uri              :
   bitbucket        :
@@ -213,9 +213,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jemoji
   - jekyll-redirect-from
-  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -223,6 +223,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jemoji
 
 
@@ -270,8 +271,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
-      sidebar: false
+      sidebar: true
   - scope:
       path: "_pages/af_ZA"
       type: pages
