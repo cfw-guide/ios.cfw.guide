@@ -331,33 +331,33 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .navicon {
-  position: relative;
-  width: $navicon-width;
-  height: $navicon-height;
-  background: $text-color;
-  margin: auto;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+ position: relative;
+ width: $navicon-width;
+ height: $navicon-height;
+ background: $text-color;
+ margin: auto;
+ -webkit-transition: 0.3s;
+ transition: 0.3s;
 
-  &:before,
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: $navicon-width;
-    height: $navicon-height;
-    background: $text-color;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
+ &:before,
+ &:after {
+   content: "";
+   position: absolute;
+   left: 0;
+   width: $navicon-width;
+   height: $navicon-height;
+   background: $text-color;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+ }
 
-  &:before {
-    top: (-2 * $navicon-height);
-  }
+ &:before {
+   top: (-2 * $navicon-height);
+ }
 
-  &:after {
-    bottom: (-2 * $navicon-height);
-  }
+ &:after {
+   bottom: (-2 * $navicon-height);
+ }
 }
 
 .close .navicon {
@@ -398,6 +398,87 @@ body:hover .visually-hidden button {
     }
   }
 }
+
+/*
+   Langicons
+   ========================================================================== */
+
+.langicon {
+  position: relative;
+  width: $navicon-width;
+  display: inline-block;
+  filter: invert(100%);
+  margin: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: $navicon-width;
+    height: $navicon-height;
+	background: $text-color;
+	display: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  &:before {
+    top: (-2 * $navicon-height);
+  }
+
+  &:after {
+    bottom: (-2 * $navicon-height);
+  }
+}
+
+.close .langicon {
+  /* hide the middle line*/
+  background: transparent;
+
+  .fa-language {
+    display: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  /* overlay the lines by setting both their top values to 0*/
+  &:before,
+  &:after {
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    top: 0;
+	width: $navicon-width;
+	display: inherit;
+  }
+
+  /* rotate the lines to form the x shape*/
+  &:before {
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+  }
+  &:after {
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+  }
+}
+
+button.langsel:hover {
+	.langicon,
+	.langicon:before,
+	.langicon:after {
+	  filter: invert(75%);
+	}
+
+	&.close {
+	  .langicon {
+		filter: invert(100%);
+	  }
+	}
+  }
 
 /*
    Sticky, fixed to top content

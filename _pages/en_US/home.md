@@ -6,8 +6,8 @@ permalink: /
 header:
   overlay_image: /assets/images/splash.png
   overlay_color: "#1a1d24"
-  cta_label: "Device Selection"
-  cta_url: device-selection
+  cta_label: "Get Started"
+  cta_url: "#get-started"
 ---
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
@@ -64,5 +64,7 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 - You may be vulnerable to malware and other security issues after jailbreaking
 - Your device warranty will become void after jailbreaking
 
-Continue to [Device Selection](device-selection)
+Continue to [Get Started](get-started)
 {: .notice--info}
+
+<a id="get-started"/>

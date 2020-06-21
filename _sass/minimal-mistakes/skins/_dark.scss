@@ -2,10 +2,21 @@
    Dark skin
    ========================================================================== */
 
-/* Colors */
+/* Theme */
 $background-color: #252a34 !default;
 $text-color: #eaeaea !default;
 $primary-color: #00adb5 !default;
+$table-header: #30353e !default;
+$table-header-text: #88C0D0 !default;
+
+$default-color: #30353e !default;
+$primary-notice-color: #567487 !default;
+$success-color: #5f866a !default;
+$warning-color: #935248 !default;
+$danger-color: #97424a !default;
+$info-color: #3f4956 !default;
+
+/* Colors */
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
@@ -18,7 +29,13 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
-.author__urls.social-icons .fa,
-.page__footer-follow .social-icons .fa {
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
+
+$tabbgcolor: #151a24;

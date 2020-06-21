@@ -19,6 +19,7 @@
   text-indent: initial; /* override*/
   background-color: $notice-color;
   border-radius: $border-radius;
+  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
   h4 {
     margin-top: 0 !important; /* override*/
@@ -56,6 +57,10 @@
   code {
     background-color: mix(#000, $notice-color, 35%)
   }
+
+/*  pre code {
+    background-color: inherit;
+  } */
 
   ul {
     &:last-child {

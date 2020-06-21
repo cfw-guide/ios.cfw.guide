@@ -74,7 +74,8 @@ In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
 ---
-  
-{% include find-ios-version-ipad-old.md %}
+
+{% capture find-ios-version-ipad-old %}{% include_relative find-ios-version-ipad-old.md %}{% endcapture %}
+<div id="find-ios-version-ipad-old">{{ find-ios-version-ipad-old | markdownify }}</div>
 
 <div class="notice">{{ notice-2 | markdownify }}</div>
