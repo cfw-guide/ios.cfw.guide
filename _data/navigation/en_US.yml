@@ -1,9 +1,6 @@
 ---
 main:
   -
-    title: iOS Guide
-    url: /
-  -
     title: FAQ
     url: faq
   -
@@ -16,14 +13,14 @@ main:
     title: Resigning Apps
     url: resigning-apps
   -
-    title: Troubleshooting
-    url: troubleshooting
-  -
     title: Coolbooter
     url: using-coolbooter
   -
     title: T3nBelow
     url: using-t3nbelow
+  -
+    title: Troubleshooting
+    url: troubleshooting
   -
     title: Donations
     url: donations
@@ -37,6 +34,14 @@ bottom:
     title: If you appreciate this guide, we accept <a href="/donations">Donations</a>.
 footer:
   -
-    title: Source
+    label: Source
+    url: https://github.com/cfw-guide/ios.cfw.guide
+    icon: fab fa-fw fa-github
   -
-    title: Site Navigation
+    label: Site Navigation
+    url: site-navigation
+    icon: fas fa-fw fa-globe
+  -
+    label: Credits & Donations
+    url: credits
+    icon: fas fa-fw fa-users

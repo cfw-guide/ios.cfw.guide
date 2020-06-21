@@ -5,28 +5,29 @@
 {% else %}
   {% assign locale_var = locale | prepend:'/' | append:'/' %}
 {% endif %}
-
-{% assign title = site.data.navigation[locale].sidebar_title %}
-{% assign navigation = site.data.navigation[locale].sidebar_pages %}
+{% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <label for="ac-toc">{{ site.data.ui-text[locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
-    <li>
-      <span class="nav__sub-title">{{ title[0].title }}</span>
-      <ol>
-        {% for link in site.data.navigation[locale].sidebar_pages %}
-          {% if link.url == "/" %}
-            <li style="display: none;" data-name="home"><a href='{{ domain }}{{ locale_var }}'>{{ link.title }}</a></li>
-          {% elsif link.url == "multiple-options" %}
-            <li style="display: none;" data-name="multiple-options"><i>({{ link.title }})</i></li>
-          {% else %}
-            <li style="display: none;" data-name="{{ site.data.navigation.en_US.sidebar_pages[forloop.index0].url }}"><a href='{{ domain }}{{ locale_var }}{{ link.url }}'>{{ link.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ol>
-    </li>
+    {% for nav in navigation %}
+      <li>
+        {% if nav.url %}
+          <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+        {% else %}
+          <span class="nav__sub-title">{{ nav.title }}</span>
+        {% endif %}
+
+        {% if nav.children != null %}
+        <ul>
+          {% for child in nav.children %}
+            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
   </ul>
 </nav>
