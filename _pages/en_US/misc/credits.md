@@ -1,6 +1,7 @@
 ---
 title: "Credits"
 permalink: /credits
+author_profile: true
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
