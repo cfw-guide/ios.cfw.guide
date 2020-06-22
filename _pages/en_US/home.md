@@ -34,7 +34,7 @@ Jailbreaking gives you the ability to install custom applications and "tweaks" (
 
 Jailbreaking in the US is perfectly legal. In 2010, the US Copyright Office declared jailbreaking to be an exception to the Digital Millennium Copyright Act.
 
-You may want to check in your country as to whether it is legal there or not before proceeding, however in most countries it should be fine.
+You may want to check in your country whether it is legal there or not before proceeding, however in most countries it should be fine.
 
 ## What is a package manager?
 
