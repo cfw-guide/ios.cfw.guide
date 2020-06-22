@@ -14,7 +14,7 @@ Semi-Untethered jailbreaks require the use of a sideloaded app to jailbreak. If 
 
 1. Add the repo: <code><a href="https://repo.incendo.ws/" target="_blank">https://repo.incendo.ws/</a></code> using your package manager of choice
 1. Open ReProvision
-1. Sign into your Apple ID
+1. Sign in to your Apple ID
   - This information is only sent to Apple
 1. Revoke all Certificates if asked
 1. Sign any apps that are about to expire

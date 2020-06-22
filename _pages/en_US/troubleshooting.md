@@ -27,7 +27,7 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
 1. When prompted about restoring, tap `OK`
   - This may take some time
   - If it fails, try again from the beginning
-1. When finished, tap `OK` again and your device will restart
+1. When finished, tap `OK` again, and your device will restart
 1. Open the Settings application
 1. Go to `General` -> `Software Update`
 1. Download the software update but **do not install it**
@@ -53,7 +53,7 @@ If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg
 1. Press the Volume+ button immediately followed by the Volume- button
 1. Press and hold down the Power button until the screen turns black
 1. Release the Power button
-1. Hold down the Power button and the Volume- button for 5 seconds immediately after
+1. Hold down the Power button, and the Volume- button for 5 seconds immediately after
 1. Release the Power button but keep holding down the Volume- button for another 5 seconds
 
-Your device should now be in DFU mode. The screen should be black and your computer should recognise it as in recovery mode.
+Your device should now be in DFU mode. The screen should be black, and your computer should recognise it as in recovery mode.
