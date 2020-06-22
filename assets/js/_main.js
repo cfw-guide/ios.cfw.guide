@@ -5,22 +5,21 @@
 $(document).ready(function(){
 
   // external links should open in a new tab
-  var host = location.hostname
-  var allLinks = document.querySelectorAll('a')
-  for (var i = 0; i < allLinks.length; ++i) {
+  let host = location.hostname;
+  let allLinks = document.querySelectorAll('a')
+  for (let i = 0; i < allLinks.length; ++i) {
     if (allLinks[i].hostname !== host && allLinks[i].hostname !== '') {
       allLinks[i].target = "_blank"
     }
   }
 
   // Sticky footer
-  var bumpIt = function() {
+  let bumpIt = function() {
       $('body').css('margin-bottom', $('.page__footer').outerHeight(true));
     },
     didResize = false;
 
   bumpIt();
-
   $(window).resize(function() {
     didResize = true;
   });
@@ -110,47 +109,47 @@ $(document).ready(function(){
     $('nav.greedy-nav').prepend('<style>.hidden-links:after{left:5px !important;}</style>');
   }
 
-  var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "credits", "donations", "dumping-dsiware", "f3-(linux)", "f3x-(mac)", "faq", "file-extensions-(windows)", "h2testw-(windows)", "installing-dsiware", "installing-unlaunch-(tempnand)", "replacing-system-menu-with-dsimenu++", "site-navigation"];
+  let sidebar_shown = true;
+  let sidebar_hidden_pages = ["404", "credits", "donations", "dumping-dsiware", "f3-(linux)", "f3x-(mac)", "faq", "file-extensions-(windows)", "h2testw-(windows)", "installing-dsiware", "installing-unlaunch-(tempnand)", "replacing-system-menu-with-dsimenu++", "site-navigation"];
 
-  for(var i = 0; i < sidebar_hidden_pages.length; i++){
+  for(let i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
       sidebar_shown = false;
     }
   }
 
-  var methods = {
+  let methods = {
     "installing-unlaunch": "1",
     "installing-unlaunch-(tempnand)": "2",
   };
 
-  for(var method in methods){
+  for(let method in methods){
     if(window.location.href.indexOf("/" + method) > -1) {
       localStorage.setItem('method', methods[method]);
     }
   }
 
-  var method;
+  let method;
   if(!(method = localStorage.getItem('method'))){
     sidebar_shown = false;
   }
 
   if(sidebar_shown){
-    var unhide = [];
-    var route = {
+    let unhide = [];
+    let route = {
       "1": ["installing-unlaunch", "installing-hiyacfw", "finalising-setup"],
       "2": ["blocking-updates", "installing-hiyacfw", "finalising-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
       unhide.push("home");
-      var ol = $('.sidebar.sticky .nav__list .nav__items ol');
-      for (var i = 0; i < unhide.length; i++){
+      let ol = $('.sidebar.sticky .nav__list .nav__items ol');
+      for (let i = 0; i < unhide.length; i++){
         ol.children('li[data-name="' + unhide[i] + '"]').css("display", "");
       }
       ol.children().each(function(idx, li) {
-        var link = $(li).find("a").attr('href');
-        var name = $(li).attr('data-name');
+        let link = $(li).find("a").attr('href');
+        let name = $(li).attr('data-name');
         if((window.location.href.endsWith(link) ||
             window.location.href.endsWith(link + "/") ||
             window.location.href.indexOf(link + "#") > -1 ||
@@ -161,7 +160,7 @@ $(document).ready(function(){
         }
         $(li).addClass("completed");
       });
-      if (ol.children(".active").css("display") != "none"){
+      if (ol.children(".active").css("display") !== "none"){
         $('.sidebar.sticky').css("display", "inherit");
       }
     }
