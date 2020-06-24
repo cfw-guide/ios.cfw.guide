@@ -34,6 +34,11 @@
       <td>13.5.5</td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
+    <tr>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td>--</td>
+    </tr>
   </tbody>
 </table>
 

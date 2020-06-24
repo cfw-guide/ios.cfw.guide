@@ -45,8 +45,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
-      <td>--</td>
+      <td colspan="2"><a href="updating-to-13-5-1">Updating to 13.5.1</a></td>
     </tr>
     <tr>
       <td>10.0.1</td>
@@ -85,6 +84,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td>--</td>
+    </tr>
+    <tr>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td colspan="2" >Coming Soon</td>
     </tr>
   </tbody>
 </table>

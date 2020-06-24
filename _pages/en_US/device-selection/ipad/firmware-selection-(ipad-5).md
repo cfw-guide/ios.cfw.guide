@@ -61,12 +61,17 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     <tr>
       <td>12.4.1</td>
       <td>12.4.1</td>
-      <td><a href="blocking-updates">Blocking Updates</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>13.0</td>
       <td>{% include latestfw %}</td>
-      <td>--</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+    </tr>
+    <tr>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td colspan="2" >Coming Soon</td>
     </tr>
   </tbody>
 </table>
