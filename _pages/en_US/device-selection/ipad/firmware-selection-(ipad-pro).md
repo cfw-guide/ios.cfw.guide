@@ -20,60 +20,65 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>macOS / Linux</th>
+      <th>All</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>9.1</td>
       <td>9.1</td>
-      <td>Coming Soon</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
       <td>9.2</td>
       <td>9.3.3</td>
-      <td><a href="installing-pangu933">Installing Pangu933</a></td>
+      <td colspan="2"><a href="installing-pangu933">Installing Pangu933</a></td>
     </tr>
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
+      <td><a href="updating-to-{% include latestfw %}">Updating to {% include latestfw %}</a></td>
       <td>--</td>
     </tr>
     <tr>
-      <td>10.0</td>
+      <td>10.0.1</td>
       <td>10.3.3</td>
-      <td><a href="installing-doubleh3lix">Installing doubleh3lix</a></td>
+      <td colspan="2"><a href="using-meridian">Using Meridian</a></td>
     </tr>
     <tr>
       <td>11.0</td>
+      <td>11.4.1</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>12.0</td>
       <td>12.2</td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td>12.3</td>
       <td>12.3.1</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td>--</td>
     </tr>
     <tr>
       <td>12.4</td>
-      <td>12.4</td>
+      <td>13.5.5</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
-      <td>12.4.1</td>
-      <td>12.4.1</td>
-      <td><a href="blocking-updates">Blocking Updates</a></td>
-    </tr>
-    <tr>
-      <td>13.0</td>
-      <td>{% include latestfw %}</td>
-      <td>--</td>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td colspan="2" >Coming Soon</td>
     </tr>
   </tbody>
 </table>

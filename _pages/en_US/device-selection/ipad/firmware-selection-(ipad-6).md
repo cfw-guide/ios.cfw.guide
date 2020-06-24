@@ -55,6 +55,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
+    <tr>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td colspan="2" >Coming Soon</td>
+    </tr>
   </tbody>
 </table>
 
