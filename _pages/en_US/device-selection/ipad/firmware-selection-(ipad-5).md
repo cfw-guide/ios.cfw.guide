@@ -71,7 +71,7 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     <tr>
       <td>14.0</td>
       <td>14.0</td>
-      <td colspan="2" >Coming Soon</td>
+      <td colspan="2" ><a href="https://twitter.com/jamiebishop123/status/1276277675489968128?s=20" target="_blank">Coming Soon</a></td>
     </tr>
   </tbody>
 </table>
