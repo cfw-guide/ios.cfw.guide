@@ -15,16 +15,9 @@ checkra1n is currently only compatible with macOS & Linux. You are currently not
 
 <script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
 
-checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above. It's currently only compatible with macOS but a Windows release is coming soon.
+checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above. It's currently only compatible with macOS and Linux but a Windows release is coming soon.
 
 Note that the checkra1n jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
-
-Support for the following devices is experimental, and may require more attempts than usual:
-
-  - iPhone 5s
-  - iPad Mini 2
-  - iPad Mini 3
-  - iPad Air
 
 Every time you reboot, you must have a computer with you to re-apply the exploit. This is different to the majority of iOS exploits in the recent years where you only had to run an application to re-apply the exploit.
 
