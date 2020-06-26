@@ -28,7 +28,7 @@
     </tr>
     <tr>
       <td>12.3</td>
-      <td>12.3.1</td>
+      <td>12.3.2</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td>--</td>
     </tr>

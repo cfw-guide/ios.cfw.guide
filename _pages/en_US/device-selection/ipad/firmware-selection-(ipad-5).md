@@ -50,8 +50,8 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     </tr>
     <tr>
       <td>12.3</td>
-      <td>12.3.1</td>
-      <td>--</td>
+      <td>12.3.2</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
     </tr>
     <tr>
       <td>12.4</td>
