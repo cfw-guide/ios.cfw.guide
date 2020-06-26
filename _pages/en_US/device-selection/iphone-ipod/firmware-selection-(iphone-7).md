@@ -62,7 +62,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.0</td>
       <td>14.0</td>
-      <td colspan="2" >Coming Soon</td>
+      <td colspan="2" ><a href="https://twitter.com/jamiebishop123/status/1276277675489968128?s=20" target="_blank">Coming Soon</a></td>
     </tr>
   </tbody>
 </table>
