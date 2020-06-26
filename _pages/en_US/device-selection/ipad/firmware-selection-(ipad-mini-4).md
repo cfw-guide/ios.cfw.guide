@@ -27,7 +27,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>macOS</th>
+      <th>macOS / Linux</th>
       <th>All</th>
     </tr>
   </thead>
@@ -77,13 +77,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>12.4.1</td>
       <td>12.4.1</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td><a href="blocking-updates">Blocking Updates</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
-      <td>13.0</td>
+      <td>12.4</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td>--</td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>14.0</td>
