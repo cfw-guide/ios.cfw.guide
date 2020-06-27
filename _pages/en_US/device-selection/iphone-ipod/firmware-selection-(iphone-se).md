@@ -69,24 +69,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>13.5.5</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>14.0</td>
-      <td>14.0</td>
-      <td colspan="2" ><a href="https://twitter.com/jamiebishop123/status/1276277675489968128?s=20" target="_blank">Coming Soon</a></td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
 ---
 
-checkra1n is compatible with every iOS version
+checkra1n is compatible with all firmware versions 12.3 and up if you prefer a semi-tethered jailbreak
 {: .notice--primary}
 
-unc0ver is also compatible with firmware versions 12.0 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
-{: .notice--primary}
-
-unc0ver is also compatible with firmware versions 13.0 - 13.5.5 if you prefer a semi-untethered jailbreak.
+unc0ver is also compatible with firmware versions 11.0 to 13.5.5 Developer Beta 1 (excluding firmwares 12.3 - 12.3.2 and 12.4.2 - 12.4.7)
 {: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.

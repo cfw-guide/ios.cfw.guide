@@ -60,25 +60,23 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     </tr>
     <tr>
       <td>12.4.1</td>
-      <td>12.4.1</td>
+      <td>13.5.5</td>
       <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>13.0</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-    </tr>
-    <tr>
-      <td>14.0</td>
-      <td>14.0</td>
-      <td colspan="2" ><a href="https://twitter.com/jamiebishop123/status/1276277675489968128?s=20" target="_blank">Coming Soon</a></td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
 ---
 
-unc0ver is also compatible with firmware versions 12.0 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
+checkra1n is compatible with all firmware versions 12.3 and up if you prefer a semi-tethered jailbreak
+{: .notice--primary}
+
+unc0ver is also compatible with firmware versions 11.0 to 13.5.5 Developer Beta 1 (excluding firmwares 12.3 - 12.3.2 and 12.4.2 - 12.4.7)
 {: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.

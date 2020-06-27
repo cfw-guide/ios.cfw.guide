@@ -37,11 +37,6 @@
       <td>13.5.5</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>14.0</td>
-      <td>14.0</td>
-      <td colspan="2" ><a href="https://twitter.com/jamiebishop123/status/1276277675489968128?s=20" target="_blank">Coming Soon</a></td>
-    </tr>
+     </tr>
   </tbody>
 </table>
