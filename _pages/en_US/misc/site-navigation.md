@@ -20,6 +20,8 @@ permalink: /site-navigation
 **All**
 
 + [Blocking Updates](blocking-updates)
++ [Package Managers](package-managers)
++ [Jailbreak Types](jailbreak-types)
 + [Resigning Apps](resigning-apps)
 + [Credits](credits)
 + [Donations](donations)
