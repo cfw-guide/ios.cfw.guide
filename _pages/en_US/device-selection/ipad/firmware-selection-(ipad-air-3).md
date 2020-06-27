@@ -19,7 +19,7 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
 
 {% include_relative firmware-selection-ipad-a12.md %}
 
-unc0ver is also compatible with firmware versions 12.2 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
+unc0ver is also compatible with firmware versions 12.0 to 13.5.5 Developer Beta 1 (excluding firmwares 12.3 - 12.3.2 and 12.4.2 - 12.4.7)
 {: .notice--primary}
 
 ---

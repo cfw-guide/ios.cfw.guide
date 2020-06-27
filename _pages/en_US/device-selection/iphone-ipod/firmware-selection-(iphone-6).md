@@ -102,10 +102,10 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-checkra1n is compatible with every iOS version
+checkra1n is compatible with all firmware versions 12.3 and up if you prefer a semi-tethered jailbreak
 {: .notice--primary}
 
-unc0ver is also compatible with firmware versions 12.0 to 12.4 (excluding firmwares 12.3 and 12.3.1) however we recommend use Chimera instead due to it being easier to use.
+unc0ver is also compatible with firmware versions 11.0 to 12.4.1 (excluding firmwares 12.3 - 12.3.2)
 {: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.

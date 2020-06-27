@@ -16,6 +16,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 {% include_relative firmware-selection-ipad-a12.md %}
 
+unc0ver is also compatible with firmware versions 13.0 to 13.5.5 Developer Beta 1 (excluding firmwares 12.3 - 12.3.2 and 12.4.2 - 12.4.7)
+{: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
