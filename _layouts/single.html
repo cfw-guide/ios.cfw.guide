@@ -14,14 +14,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8267943526926430",
-    enable_page_level_ads: true
-  });
-</script>
-
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -32,6 +24,9 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <div class="page__inner-wrap">
+
+      <div id="waldo-tag-8408"></div>
+      
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
@@ -72,8 +67,9 @@ layout: default
 
         <hr>
 
-        {% include ad.html %}
-        {% include ad.html %}
+        <div id="waldo-tag-8442"></div>
+        <hr>
+        <div id="waldo-tag-8443"></div>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
