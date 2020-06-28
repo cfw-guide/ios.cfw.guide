@@ -24,8 +24,6 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <div class="page__inner-wrap">
-
-      <div id="waldo-tag-8408"></div>
       
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
@@ -59,6 +57,10 @@ layout: default
           {% endif %}
           <div class ="notice">{{ link.title }}</div>
         {% endfor %}
+        
+        <hr>
+        
+        <center><div id="waldo-tag-8408"></div></center>
 
         <hr>
 
