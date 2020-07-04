@@ -32,17 +32,21 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>13.1</td>
-      <td>13.5.0</td>
+      <td> 13.5</td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>{% include latestfw %}</td>
       <td>{% include latestfw %}</td>
-      <td>--</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
     </tr>
     <tr>
       <td colspan="2">All Versions</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a> (macOS and Linux only)</td>
+    </tr>
+    <tr>
+      <td colspan="2">All Versions</td>
+      <td><a href="using-bootra1n">Using bootra1n</a> (Live Bootable Linux OS)</td>
     </tr>
   </tbody>
 </table>
