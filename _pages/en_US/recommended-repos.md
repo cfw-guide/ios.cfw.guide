@@ -11,7 +11,7 @@ After installing your jailbreak, you may want to install some repos ([repositori
 ## BigBoss
 
 {% capture big-boss %}
-A default repo in most package managers, Big oss is one of the largest repos, with thousands of tweaks and modifications to install. It's an essential repo that the majority of jailbreakers rely on.
+A default repo in most package managers, Big Boss is one of the largest repos, with thousands of tweaks and modifications to install. It's an essential repo that the majority of jailbreakers rely on.
 
 URL: `http://apt.thebigboss.org/repofiles/cydia/`
 {% endcapture %}
