@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: iOS Guide
-excerpt: "A complete iOS jailbreaking guide, from stock to Cydia."
+excerpt: "A complete iOS modding guide, from stock to jailbroken."
 permalink: /
 header:
   overlay_image: /assets/images/splash.png
