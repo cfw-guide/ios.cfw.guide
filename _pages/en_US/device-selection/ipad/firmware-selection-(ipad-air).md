@@ -8,7 +8,7 @@ excerpt: Find out what jailbreaks you can use on your iPad Air
 
 ## Required Reading
 
-Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
+Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
 Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 9.2 to 9.3.3" row includes version 9.2, version 9.3.3, and all versions in-between.
 
@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
+      <td><a href="updating-to-12-4-7">Updating to 12.4.7</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
+      <td><a href="updating-to-12-4-7">Updating to 12.4.7</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -66,13 +66,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>11.0</td>
-      <td>11.4.1</td>
-      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>12.0</td>
       <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -82,11 +77,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.4</td>
-      <td>12.4</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
-    </tr>
-    <tr>
-      <td>12.4.1</td>
       <td>12.4.1</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
@@ -105,18 +95,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 Support for the iPad Air with checkra1n is experimental and may require more attempts than usual
 {: .notice--danger}
 
-checkra1n is compatible with all firmware versions 12.3 and up if you prefer a semi-tethered jailbreak
-{: .notice--primary}
-
-unc0ver is also compatible with firmware versions 11.0 to 12.4.1 (excluding firmwares 12.3 - 12.3.2)
-{: .notice--primary}
-
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
----
-
-{% capture find-ios-version-ipad %}{% include_relative find-ios-version-ipad.md %}{% endcapture %}
-<div id="find-ios-version-ipad">{{ find-ios-version-ipad | markdownify }}</div>
-
-<div class="notice">{{ notice-2 | markdownify }}</div>
+{% include_relative find-ios-version-ipad.md %}

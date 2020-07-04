@@ -1,3 +1,13 @@
+{% include toc title="Table of Contents" %}
+
+## Required Reading
+
+Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
+
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 11.0 to 12.2" row includes version 11.0, version 12.2, and all versions in-between.
+
+Your device version can be found in the Settings application in `General` -> `About`.
+
 ## Version Table
 
 <table class="version_table">
@@ -17,14 +27,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>11.1</td>
-      <td>11.4.1</td>
-      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>12.0</td>
+      <td>11.0</td>
       <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -34,9 +39,25 @@
     </tr>
     <tr>
       <td>12.4</td>
-      <td>13.5.5</td>
+      <td>13.5.0</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
      </tr>
+    <tr>
+      <td>{% include latestfw %}</td>
+      <td>{% include latestfw %}</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td>--</td>
+     </tr>
   </tbody>
 </table>
+
+---
+
+unc0ver is also compatible with up to version 13.5.5 Developer Beta 1, which is currently being signed, however may be unstable.
+{: .notice--primary}
+
+In boxes marked `--`, there is no jailbreak for that firmware version.
+{: .notice--info}
+
+{% include_relative find-ios-version.md %}

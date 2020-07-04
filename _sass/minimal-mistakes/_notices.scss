@@ -104,3 +104,9 @@
 .notice--danger {
   @include notice($danger-color);
 }
+
+/* Textbox notice */
+
+.notice--textbox {
+  @include notice($textbox-color);
+}
