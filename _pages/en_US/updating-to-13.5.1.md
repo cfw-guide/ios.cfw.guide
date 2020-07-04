@@ -7,10 +7,7 @@ permalink: /updating-to-13-5-1
 
 ## Required Reading
 
-We suggest only updating to the latest version if you are on macOS, as the jailbreak for this firmware version is not supported on other operating systems yet.
-{: .notice--primary}
-
-You can update to 13.5.1 and use the checkra1n jailbreak instead.
+If you're on an unsupported firmware version, you can update to 13.5.1 and use the checkra1n jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 13.5.1, we can easily update to the desired firmware version.
 

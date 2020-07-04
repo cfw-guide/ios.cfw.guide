@@ -8,14 +8,11 @@ excerpt: Find out what jailbreaks you can use on your iPad Air 2
 
 ## Required Reading
 
-Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
+Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
 Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 9.2 to 9.3.3" row includes version 9.2, version 9.3.3, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
-
-There is no jailbreak on firmwares 12.4.1 and above for this device.
-{: .notice--danger}
 
 ## Version Table
 
@@ -43,7 +40,8 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td colspan="2"><a href="updating-to-13-5-1">Updating to 13.5.1</a></td>
+      <td><a href="updating-to-13-5-1">Updating to 13.5.1</a></td>
+      <td>--</td>
     </tr>
     <tr>
       <td>9.0</td>
@@ -58,7 +56,8 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td colspan="2" ><a href="updating-to-13-5-1">Updating to 13.5.1</a></td>
+      <td><a href="updating-to-13-5-1">Updating to 13.5.1</a></td>
+      <td>--</td>
     </tr>
     <tr>
       <td>10.0.1</td>
@@ -67,13 +66,8 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     </tr>
     <tr>
       <td>11.0</td>
-      <td>11.4.1</td>
-      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
       <td>12.0</td>
-      <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -83,37 +77,25 @@ There is no jailbreak on firmwares 12.4.1 and above for this device.
     </tr>
     <tr>
       <td>12.4</td>
-      <td>12.4</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
-    </tr>
-    <tr>
-      <td>12.4</td>
-      <td>12.4.1</td>
+      <td>13.5.0</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
-      <td>13.0</td>
+      <td>{% include latestfw %}</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td>--</td>
-     </tr>
+    </tr>
   </tbody>
 </table>
 
 ---
 
-checkra1n is compatible with all firmware versions 12.3 and up if you prefer a semi-tethered jailbreak
-{: .notice--primary}
-
-unc0ver is also compatible with firmware versions 11.0 to 13.5.5 Developer Beta 1 (excluding firmwares 12.3 - 12.3.2 and 12.4.2 - 12.4.7)
+unc0ver is also compatible with up to version 13.5.5 Developer Beta 1, which is currently being signed, however may be unstable.
 {: .notice--primary}
 
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
----
-
-{% capture find-ios-version-ipad %}{% include_relative find-ios-version-ipad.md %}{% endcapture %}
-<div id="find-ios-version-ipad">{{ find-ios-version-ipad | markdownify }}</div>
-
-<div class="notice">{{ notice-2 | markdownify }}</div>
+{% include_relative find-ios-version-ipad.md %}

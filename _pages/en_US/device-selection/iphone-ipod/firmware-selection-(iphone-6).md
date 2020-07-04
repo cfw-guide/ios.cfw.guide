@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
+      <td><a href="updating-to-12-4-7">Updating to 12.4.7</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-12-4-3">Updating to 12.4.3</a></td>
+      <td><a href="updating-to-12-4-7">Updating to 12.4.7</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -66,13 +66,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>11.0</td>
-      <td>11.4.1</td>
-      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>12.0</td>
       <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -83,7 +78,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>12.4</td>
       <td>12.4</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.4.1</td>
@@ -102,18 +97,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-checkra1n is compatible with all firmware versions 12.3 and up if you prefer a semi-tethered jailbreak
-{: .notice--primary}
-
-unc0ver is also compatible with firmware versions 11.0 to 12.4.1 (excluding firmwares 12.3 - 12.3.2)
-{: .notice--primary}
-
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
----
-
-{% capture find-ios-version %}{% include_relative find-ios-version.md %}{% endcapture %}
-<div id="find-ios-version">{{ find-ios-version | markdownify }}</div>
-
-<div class="notice">{{ notice-2 | markdownify }}</div>
+{% include_relative find-ios-version.md %}

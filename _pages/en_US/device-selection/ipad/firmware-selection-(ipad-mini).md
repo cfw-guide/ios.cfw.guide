@@ -73,9 +73,4 @@ Your device version can be found in the Settings application in `General` -> `Ab
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
----
-
-{% capture find-ios-version-ipad-old %}{% include_relative find-ios-version-ipad-old.md %}{% endcapture %}
-<div id="find-ios-version-ipad-old">{{ find-ios-version-ipad-old | markdownify }}</div>
-
-<div class="notice">{{ notice-2 | markdownify }}</div>
+{% include_relative find-ios-version-ipad-old.md %}
