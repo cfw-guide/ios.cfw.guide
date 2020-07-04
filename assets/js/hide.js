@@ -22,6 +22,9 @@
             case "Linux armv7l":
                 div.style.display = "none";
                 break;
+            case "Linux armv8l":
+                div.style.display = "none";
+                break;
             case "Linux x86_64"
                 div.style.display = "none";
                 break;
