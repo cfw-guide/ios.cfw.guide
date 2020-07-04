@@ -9,23 +9,21 @@ excerpt: Guide to installing Chimera
 If you have a newer device with an A12 processor, such as the iPhone XS, you can only use Chimera on firmware versions 12.0 to 12.1.2.
 {: .notice--danger}
 
+Chimera is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
+{:.notice--info}
+
 Chimera is capable of jailbreaking nearly every iOS device on firmware version 12.0 up to 12.4, excluding 12.3 and 12.3.1.
 
-Note that the Chimera jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
-
-Due to how custom applications are installed to the device, in most cases you will need to reinstall the Chimera jailbreak application to your device every 7 days from your computer.
+Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
 We will use AltStore to install the Chimera jailbreak application to your iOS device for use in the next step.
-
-This jailbreak automatically installs the Sileo [package manager](faq#package-manager) upon installation, and not Cydia.
-{: .notice--info}
 
 ## Downloads
 
 - The latest version of [Chimera](https://chimera.sh/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The leastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
+- The lastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
 ## Installing the application
 
@@ -42,7 +40,7 @@ This jailbreak automatically installs the Sileo [package manager](faq#package-ma
   - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
 The Chimera application can now be opened from home screen.
-{: .notice--primary}
+{: .notice--success}
 
 
 ## Running Chimera

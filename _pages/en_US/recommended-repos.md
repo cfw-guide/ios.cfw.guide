@@ -21,7 +21,9 @@ URL: `http://apt.thebigboss.org/repofiles/cydia/`
 ## Dynastic Repo
 
 {% capture dynastic %}
-The Dynastic Repo offers a small selection of high quality tweaks for your device, which guarantee to improve the look and feel of iOS for you. While there may not be as many tweaks on here as on BigBoss, there are definitely some good tweaks on here which will be worth your time.
+The Dynastic Repo offers a small selection of high quality tweaks for your device, which guarantee to improve the look and feel of iOS for you.
+
+While there may not be as many tweaks on here as on BigBoss, there are definitely some good tweaks on here which will be worth your time.
 
 URL: <code><a href="https://repo.dynastic.co/" target="_blank">https://repo.dynastic.co/</a></code>
 {% endcapture %}
@@ -61,7 +63,11 @@ URL: <code><a href="https://sparkdev.me/" target="_blank">https://sparkdev.me/</
 ## nullpixel's Repo
 
 {% capture nullpixel %}
-This repo is a small one, but includes a crucial tool: TSS Saver. This allows you to save small bits of information related to iOS updates called "blobs". Saving these will allow you to update and downgrade to the specific firmware version that was available when you saved the blobs. It's important to save them with this tool every time a new update is released.
+This repo is a small one, but includes a crucial tool: TSS Saver. This allows you to save small bits of information related to iOS updates called "blobs".
+
+Saving these will allow you to update and downgrade to the specific firmware version that was available when you saved the blobs.
+
+It's important to save them with this tool every time a new update is released.
 
 URL: <code><a href="http://repo.nullpixel.uk/" target="_blank">http://repo.nullpixel.uk/</a></code>
 {% endcapture %}

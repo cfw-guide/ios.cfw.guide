@@ -8,17 +8,16 @@ excerpt: Guide to using Sileo
 
 ## Required Reading
 
+This page is optional, but helpful if you are unfamiliar with jailbreaking.
+{: .notice--info}
+
 Sileo is a modern package manager that has a redesigned UI made to fit with iOS 11 and above. It's the App Store for all the tweaks and themes available for your device.
 
-Tweaks are small modifications to change the look and/or feel of your device.
-{: .notice}
+[Tweaks](faq#what-are-tweaks){:target="_blank"} are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".
 
-You can find tweaks on repositories. We will refer to them as "repos" from now on. These are essentially databases that contain lots of tweaks for you to install. When you add repos to Sileo, you will be able to install the tweaks on it, and look for them using the search function.
+[Repositories](faq#whats-a-repo){:target="_blank"} are essentially databases that contain lots of tweaks for you to install. When you add repos to Sileo, you will be able to install the tweaks on it, and look for them using the search function.
 
 This guide will show you how you can install and uninstall tweaks, and add different repos.
-
-This is all optional, but could be helpful if you are unfamiliar with jailbreaking.
-{: .notice--info}
 
 ## Adding Repos
 
@@ -29,6 +28,7 @@ This is all optional, but could be helpful if you are unfamiliar with jailbreaki
 1. Tap `Add Source`
 
 You can now enter the repo from this page to see all the tweaks available on it.
+{:.notice--textbox}
 
 ## Removing Repos
 
@@ -37,6 +37,9 @@ You can now enter the repo from this page to see all the tweaks available on it.
 1. Tap the `Edit` button in the top left-hand corner
 1. Tap the red icon next to the repo you want to delete
 1. Confirm the deletion
+
+The repo should now be removed from Sileo.
+{:.notice--textbox}
 
 ## Installing Tweaks
 
@@ -52,9 +55,11 @@ You can now enter the repo from this page to see all the tweaks available on it.
   - The device should appear to reboot after this
   - Sometimes, the button might not say to respring, but you can tap the button anyway
 
-Respringing is essentially restarting the home screen and the iOS UI. Most of the time, you can install a tweak and respring to apply it, without fully rebooting.
+What is [respringing](faq#what-is-respringing){:target="_blank}? Click the link to learn more.
+{:.notice--info}
 
-You won't have to reinstall an exploit after respringing, however, and you can remain jailbroken.
+The tweak should now be installed to your device and will be active whenever your device is jailbroken.
+{:.notice--textbox}
 
 ## Uninstalling Tweaks
 
@@ -69,4 +74,8 @@ You won't have to reinstall an exploit after respringing, however, and you can r
   - The device should appear to reboot after this
   - Sometimes, the button might not say to respring, but you can tap the button anyway
 
+What is [respringing](faq#what-is-respringing){:target="_blank}? Click the link to learn more.
+{:.notice--info}
+
 After respringing, the tweak should now be uninstalled.
+{:.notice--textbox}

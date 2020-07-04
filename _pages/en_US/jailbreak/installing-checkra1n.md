@@ -15,13 +15,12 @@ checkra1n is currently only compatible with macOS & Linux. You are currently not
 
 <script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
 
+checkra1n is a [semi-tethered jailbreak](/types-of-jailbreak#semi-tethered-jailbreaks){:target="_blank"}, meaning it requires a PC to re-apply the exploit after a reboot. Click the link to learn more.
+{:.notice--info}
+
 checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above. It's currently only compatible with macOS and Linux but a Windows release is coming soon.
 
-Note that the checkra1n jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
-
-Every time you reboot, you must have a computer with you to re-apply the exploit. This is different to the majority of iOS exploits in the recent years where you only had to run an application to re-apply the exploit.
-
-Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager). For this we will be using Cydia. You may already be familiar with Cydia, as it was the default package manager for jailbreaking for 10 years.
+Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager). For this we will be using Cydia. You may already be familiar with Cydia, as it has been the default package manager for over a decade.
 
 ## Downloads
 
@@ -30,7 +29,7 @@ Once the exploit is installed, you will have the choice of installing a [package
 ![]({{ "/assets/images/checkra1n.png" | absolute_url }})
 
 If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
-{: .notice--success}
+{: .notice--textbox}
 
 ## Installing checkra1n (macOS)
   
@@ -54,7 +53,7 @@ Your iOS device should reboot. There should now be a checkra1n application on yo
   - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
   - Follow the instructions until your device reboots to a black screen
 
-## Running checkra1n.
+## Running checkra1n
 
 1. Open the checkra1n application on your iOS device
 1. Press "Cydia" under the `Install` section

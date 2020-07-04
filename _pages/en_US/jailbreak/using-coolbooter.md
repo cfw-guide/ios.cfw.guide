@@ -11,7 +11,9 @@ excerpt: Guide to using Coolbooter to dualboot two different versions of iOS on 
 Only the iPhone 4, iPhone 4S, iPhone 5, iPhone 5c, iPad 2, iPad 3, iPad 4, iPad Mini 1G, and iPod Touch 5G on iOS 5 - iOS 10 are supported
 {: .notice--info}
 
-Coolbooter allows you to dualboot any supported version of iOS on a select few of iOS device. Coolbooter is permanent, but can be removed through the Coolbooter app on the main OS. This guide will require that you are already jailbroken on a supported OS listed above.
+Coolbooter allows you to dualboot any supported version of iOS on a select few of iOS device. Coolbooter is permanent, but can be removed through the Coolbooter app on the main OS.
+
+This guide will require that you are already jailbroken on a supported OS listed above.
 
 ## Installing Coolbooter
 
