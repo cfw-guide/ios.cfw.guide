@@ -28,7 +28,7 @@ Once the exploit is installed, you will have the choice of installing a [package
     - or [bootra1n 32-Bit](https://github.com/foxlet/bootra1n/releases/download/0.10.2/bootra1n-i686-0.10.2-20200526.iso)
 - [Rufus](https://rufus.ie/)
 
-![]({{ "/assets/images/checkra1n.png" | absolute_url }})
+![]({{ "/assets/images/bootra1n.png" | absolute_url }})
 
 If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
 {: .notice--textbox}
