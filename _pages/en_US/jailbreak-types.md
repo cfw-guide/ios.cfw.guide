@@ -30,7 +30,7 @@ After that, your device is fully jailbroken and won't require any further action
 
 Unfortunately, there hasn't been a new untethered jailbreak in a very long time, and it's likely we won't see one for even longer.
 
-The only downside to an intethered jailbreak is that if something goes wrong, it could very well result in a bootloop requiring you to restore your device via iTunes. The likelihood of this happening is _low_, but is indeed possible.
+The only downside to an untethered jailbreak is that if something goes wrong, it could very well result in a bootloop requiring you to restore your device via iTunes. The likelihood of this happening is _low_, but is indeed possible.
 
 A few examples of untethered jailbreaks are [p0sixspwn](installing-p0sixspwn) and Pangu9.
 
