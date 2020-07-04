@@ -28,7 +28,17 @@ While there may not be as many tweaks on here as on BigBoss, there are definitel
 URL: <code><a href="https://repo.dynastic.co/" target="_blank">https://repo.dynastic.co/</a></code>
 {% endcapture %}
 
-<div class="notice--primary">{{ dynastic | markdownify }}</div>
+<div class="notice--textbox">{{ dynastic | markdownify }}</div>
+
+## Chariz
+
+{% capture chariz %}
+Chariz is another repo that comes default with many jailbreak installations. It includes a wide variety of tweaks from some well-known developers and is sure to have something you'll find useful.
+
+URL: <code><a href="https://repo.chariz.com/" target="_blank">https://repo.chariz.com/</a></code>
+{% endcapture %}
+
+<div class="notice--primary">{{ chariz | markdownify }}</div>
 
 ## Packix
 
@@ -76,20 +86,20 @@ URL: <code><a href="http://repo.nullpixel.uk/" target="_blank">http://repo.nullp
 
 ## rpetrich repo
 
-{% capture dynastic %}
+{% capture rpetrich %}
 The rpetrich repo is another small repo but includes some useful tweaks and tools which are quite important, such as PreferenceLoader and RocketBootstrap.
 
 URL: <code><a href="https://rpetri.ch/repo/" target="_blank">https://rpetri.ch/repo/</a></code>
 {% endcapture %}
 
-<div class="notice--primary">{{ dynastic | markdownify }}</div>
+<div class="notice--textbox">{{ rpetrich | markdownify }}</div>
 
 ## Revulate's Repo
 
-{% capture packix %}
-Revulate's Repo includes lots of beta versions of some of his tools on the Dynastic Repo, but also has a good crash report tool to help make sense of errors.
+{% capture revulate %}
+Revulate's Repo includes a good crash report tool to help make sense of errors.
 
 URL: <code><a href="https://revulate.dev/" target="_blank">https://revulate.dev/</a></code>
 {% endcapture %}
 
-<div class="notice--success">{{ packix | markdownify }}</div>
+<div class="notice--primary">{{ revulate | markdownify }}</div>
