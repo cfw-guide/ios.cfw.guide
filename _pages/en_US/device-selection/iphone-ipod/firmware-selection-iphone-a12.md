@@ -36,7 +36,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.4</td>
-      <td>13.5.0</td>
+      <td> 13.5</td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
