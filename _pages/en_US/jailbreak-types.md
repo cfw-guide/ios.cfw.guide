@@ -1,45 +1,66 @@
 ---
-title: "Jailbreak Types"
-permalink: /jailbreak-types
+title: "Types of Jailbreak"
+permalink: /types-of-jailbreak
 excerpt: Explanation on the different types of jailbreaks
 ---
 
 {% include toc title="Table of Contents" %}
 
-Not all jailbreaks work in the same way.
+Not all jailbreaks work in the same way. This page will take you through each type of jailbreak and explain how they work.
 
-## What are the different types of Jailbeaks?
+## What are the different types?
 
-There are 4 main types of jailbreaks: Fully Untethered, Tethered, Semi-Untethered, and Semi-Tethered. Each type is determine by how independent it is from a computer.
+There are 4 main types of jailbreaks: 
 
-### Untethered
+- Fully Untethered
+- Semi-Untethered
+- Semi-Tethered
+- Tethered
 
-{% capture untethered %}
-Untethered  Jailbreaks can be considered the holy grail of all jailbreaks. They only require the exploit to be ran once either via a website or a computer. Unfortunately, there hasn't been a new Untehered Jailbreak in a long time and it's likely we may not see one for even longer. The only downside to an Untethered Jailbreak is that if something goes wrong, it could very well result in a bootloop requiring you to restore your device via iTunes. The likelihood of this happening is _low_, but is indeed possible. A few examples of Untethered Jailbreaks are P0sixspwn and Pangu9.
-{% endcapture %}
+Each type is determined by how independent it is from a computer.
 
-<div class="notice--info">{{ untethered | markdownify }}</div>
+### Untethered Jailbreaks
+---
 
-### Semi-Untethered
+Untethered jailbreaks can be considered the holy grail of all jailbreaks. They only require the exploit to be ran once either via a website or a computer.
 
-{% capture semi-untethered %}
-Semi-Untethered Jailbreaks have been the most prevalent type of jailbreak. A Semi-Untethered Jailbreak requires an exploit to be ran unpon every reboot or power loss. The upside is that the exploit is ran through an app on the device itself. This app, however, must be resigned every 7 days if sideloaded with a standard Apple ID. Semi-Untethered Jailbreaks have the benefit of being easily removable through their respective app. A few popular examples of Semi-Untethered Jailbreaks include Unc0ver, Electra, and Chimera.
-{% endcapture %}
+![]({{ "/assets/images/p0sixpwn.png" | absolute_url }})
 
-<div class="notice--info">{{ semi-untethered| markdownify }}</div>
+After that, your device is fully jailbroken and won't require any further action. The exploit will stay on a device even after you reboot it.
 
-### Semi-Tethered
+Unfortunately, there hasn't been a new untethered jailbreak in a very long time, and it's likely we won't see one for even longer.
 
-{% capture semi-tethered %}
-Semi-Tethered Jailbreaks are very similar to Semi-Unthered Jailbreaks with the only difference being that an exploit must be ran unpon every reboot on via a computer rather than a sideloaded app. Due to requiring a computer to rejailbreak after every reboot, some choose to use a Semi-Untethered Jailbreak. Checkra1n is a fairly popular Semi-Tethered Jailbreak.
-{% endcapture %}
+The only downside to an intethered jailbreak is that if something goes wrong, it could very well result in a bootloop requiring you to restore your device via iTunes. The likelihood of this happening is _low_, but is indeed possible.
 
-<div class="notice--info">{{ semi-tethered | markdownify }}</div>
+A few examples of untethered jailbreaks are [p0sixspwn](installing-p0sixspwn) and Pangu9.
 
-### Tethered
+### Semi-Untethered Jailbreaks
+---
 
-{% capture tethered %}
-Tethered Jailbreaks are not meant to be used by the general public. These Jailbreaks require a computer to boot the device. Therefore, these are only meant to be used by developers to get their tweaks ready for newer versions of iOS.
-{% endcapture %}
+Semi-untethered jailbreaks have been the most popular type of jailbreak in recent years. This type of jailbreak requires an exploit to be executed every time you reboot or turn off your device.
 
-<div class="notice--info">{{ tethered | markdownify }}</div>
+<img src="{{ "/assets/images/unc0vermain.png" | absolute_url }}" width="250" class="align-right"/>
+
+This jailbreak works by running the exploit through an app on the device itself. This app, however, must be resigned every 7 days if sideloaded with a standard Apple ID.
+
+Due to the nature of how the exploit is applied, these jailbreaks are easily removable through their respective app.
+
+A few examples of semi-untethered jailbreaks include [unc0ver](installing-unc0ver), [Electra](installing-electra), and [Chimera](installing-chimera).
+
+### Semi-Tethered Jailbreaks
+---
+
+Semi-tethered jailbreaks are very similar to semi-unthered jailbreaks, however the exploit must be ran using a computer rather than using a sideloaded app.
+
+![]({{ "/assets/images/checkra1n.png" | absolute_url }})
+
+Due to requiring a computer to rejailbreak after every reboot, most choose to use a semi-untethered jailbreak instead.
+
+An example of a semi-tethered jailbreak is [checkra1n](installing-checkra1n).
+
+### Tethered Jailbreaks
+---
+
+Tethered jailbreaks are not meant to be used by the general public. These exploits modify the device in a way that it requires a PC to even boot at all, even without jailbreka.
+
+Because of this, these tend to only be used by jailbreak developers getting ready for a newer version of iOS.

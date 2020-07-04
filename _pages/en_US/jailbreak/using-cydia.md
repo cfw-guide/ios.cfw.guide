@@ -6,19 +6,20 @@ excerpt: Guide to using Cydia
 
 {% include toc title="Table of Contents" %}
 
-## Required Reading
+## Introduction
+
+This page is optional, but helpful if you are unfamiliar with jailbreaking.
+{: .notice--info}
 
 Cydia is a package manager that has been used since the start of jailbreaking in 2008. It can be used to install tweaks and themes and is still running 11 years later.
 
-Tweaks are small modifications to change the look and/or feel of your device.
-{: .notice}
+![]({{ "/assets/images/cydia_picture.jpg" | absolute_url }})
 
-You can find tweaks on repositories. We will refer to them as "repos" from now on. These are essentially databases that contain lots of tweaks for you to install. When you add repos to Cydia, you will be able to install the tweaks on it, and look for them using the search function.
+[Tweaks](faq#what-are-tweaks){:target="_blank"} are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".
+
+[Repositories](faq#whats-a-repo){:target="_blank"} are essentially databases that contain lots of tweaks for you to install. When you add repos to Cydia, you will be able to install the tweaks on it, and look for them using the search function.
 
 This guide will show you how you can install and uninstall tweaks, and add different repos.
-
-This is all optional, but could be helpful if you are unfamiliar with jailbreaking.
-{: .notice--info}
 
 ## Adding Repos
 
@@ -30,6 +31,7 @@ This is all optional, but could be helpful if you are unfamiliar with jailbreaki
 1. Tap `Add Source`
 
 You can now enter the repo from this page to see all the tweaks available on it.
+{:.notice--textbox}
 
 ## Removing Repos
 
@@ -38,6 +40,9 @@ You can now enter the repo from this page to see all the tweaks available on it.
 1. Tap the `Edit` button in the top left-hand corner
 1. Tap the red icon next to the repo you want to delete
 1. Confirm the deletion
+
+The repo should now be removed from Sileo.
+{:.notice--textbox}
 
 ## Installing Tweaks
 
@@ -52,9 +57,11 @@ You can now enter the repo from this page to see all the tweaks available on it.
   - The device should appear to reboot after this
   - Sometimes, the button might not say to respring, but you can tap the button anyway
 
-Respringing is essentially restarting the home screen and the iOS UI. Most of the time, you can install a tweak and respring to apply it, without fully rebooting.
+What is [respringing](faq#what-is-respringing){:target="_blank}? Click the link to learn more.
+{:.notice--info}
 
-You won't have to reinstall an exploit after respringing, however, and you can remain jailbroken.
+The tweak should now be installed to your device and will be active whenever your device is jailbroken.
+{:.notice--textbox}
 
 ## Uninstalling Tweaks
 
@@ -68,4 +75,8 @@ You won't have to reinstall an exploit after respringing, however, and you can r
   - The device should appear to reboot after this
   - Sometimes, the button might not say to respring, but you can tap the button anyway
 
+What is [respringing](faq#what-is-respringing){:target="_blank}? Click the link to learn more.
+{:.notice--info}
+
 After respringing, the tweak should now be uninstalled.
+{:.notice--textbox}

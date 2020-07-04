@@ -5,7 +5,7 @@ permalink: /blocking-updates
 
 {% include toc title="Table of Contents" %}
 
-This method of update blocking will not work if you're on iOS 13.
+This method of update blocking will not work if you're on iOS 13 or above.
 {: .notice--danger}
 
 This will take you through installing the iOS 12 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.

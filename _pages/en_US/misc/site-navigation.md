@@ -6,28 +6,8 @@ permalink: /site-navigation
 ---
 
 {% capture notice-1 %}
-**Popular**
+**Jailbreaks**
 
-+ [Installing checkra1n](installing-checkra1n)
-+ [Installing Unc0ver](installing-unc0ver)
-+ [Using Sileo](using-sileo)
-+ [Blocking Updates](blocking-updates)
-
-{% endcapture %}
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-2 %}
-**All**
-
-+ [Blocking Updates](blocking-updates)
-+ [Package Managers](package-managers)
-+ [Jailbreak Types](jailbreak-types)
-+ [Resigning Apps](resigning-apps)
-+ [Credits](credits)
-+ [Donations](donations)
-+ [FAQ](faq)
-+ [Device Selection](device-selection)
-+ [Home](/)
 + [Installing checkra1n](installing-checkra1n)
 + [Installing Chimera](installing-chimera)
 + [Installing Electra](installing-electra)
@@ -37,7 +17,17 @@ permalink: /site-navigation
 + [Installing HomeDepot](installing-homedepot)
 + [Installing Pangu](installing-pangu933)
 + [Installing Phœnix](installing-phoenix)
-+ [Installing Unc0ver](installing-unc0ver)
++ [Installing unc0ver](installing-unc0ver)
+{% endcapture %}
+
+{% capture notice-2 %}
+**Extra Pages**
+
++ [Blocking Updates](blocking-updates)
++ [Package Managers](package-managers)
++ [Types of Jailbreak](types-of-jailbreak)
++ [Recommended Repos](recommended-repos)
++ [Resigning Apps](resigning-apps)
 + [Using Cydia](using-cydia)
 + [Using Meridian](using-meridian)
 + [Using Sileo](using-sileo)
@@ -45,4 +35,19 @@ permalink: /site-navigation
 + [Using T3nbelow](using-t3nbelow)
 
 {% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
+
+{% capture notice-3 %}
+**ios.cfw.guide**
+
+
++ [Credits](credits)
++ [Donations](donations)
++ [FAQ](faq)
++ [Device Selection](device-selection)
++ [Home](/)
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+<div class="notice--textbox">{{ notice-2 | markdownify }}</div>
+<div class="notice">{{ notice-3 | markdownify }}</div>
