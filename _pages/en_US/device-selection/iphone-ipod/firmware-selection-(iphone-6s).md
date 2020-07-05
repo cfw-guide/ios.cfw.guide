@@ -66,10 +66,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.4</td>
-      <td>13.5.5</td>
+      <td>13.5</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-     </tr>
+    </tr>
+    <tr>
+      <td>{% include latestfw %}</td>
+      <td>{% include latestfw %}</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="using-bootra1n">Using bootra1n</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -80,7 +86,5 @@ unc0ver is also compatible with up to version 13.5.5 Developer Beta 1, which is 
 
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
-
----
 
 {% include_relative find-ios-version.md %}
