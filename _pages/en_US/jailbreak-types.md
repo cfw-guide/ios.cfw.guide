@@ -61,6 +61,6 @@ An example of a semi-tethered jailbreak is [checkra1n](installing-checkra1n).
 ### Tethered Jailbreaks
 ---
 
-Tethered jailbreaks are not meant to be used by the general public. These exploits modify the device in a way that it requires a PC to even boot at all, even without jailbreka.
+Tethered jailbreaks are not meant to be used by the general public. These exploits modify the device in a way that it requires a PC to even boot at all, even without a jailbreak.
 
 Because of this, these tend to only be used by jailbreak developers getting ready for a newer version of iOS.

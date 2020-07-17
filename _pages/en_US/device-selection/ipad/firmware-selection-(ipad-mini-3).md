@@ -73,7 +73,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>12.3</td>
       <td>12.3.2</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td>--</td>
+      <td><a href="using-bootra1n">Using bootra1n</a></td>
     </tr>
     <tr>
       <td>12.4</td>
@@ -85,7 +85,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>12.4.2</td>
       <td>12.4.7</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td>--</td>
+      <td><a href="using-bootra1n">Using bootra1n</a></td>
     </tr>
   </tbody>
 </table>
