@@ -29,8 +29,9 @@ permalink: /site-navigation
 + [Recommended Repos](recommended-repos)
 + [Resigning Apps](resigning-apps)
 + [Using Cydia](using-cydia)
-+ [Using Meridian](using-meridian)
++ [Using Bootra1n](using-bootra1n)
 + [Using Sileo](using-sileo)
++ [Using Meridian](using-meridian)
 + [Using Coolbooter](using-coolbooter)
 + [Using T3nbelow](using-t3nbelow)
 

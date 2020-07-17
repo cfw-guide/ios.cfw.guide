@@ -33,6 +33,7 @@
          viewport height - nav height - masthead x-padding
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
+      transform: scale(0.8);
     }
   }
 
