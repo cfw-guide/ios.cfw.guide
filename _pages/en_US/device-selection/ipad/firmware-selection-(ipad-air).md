@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-12-4-7">Updating to 12.4.7</a></td>
+      <td><a href="updating-to-12-4-8">Updating to 12.4.8</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-12-4-7">Updating to 12.4.7</a></td>
+      <td><a href="updating-to-12-4-8">Updating to 12.4.8</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -86,6 +86,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>12.4.7</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>
+    </tr>
+    <tr>
+      <td>12.4.8</td>
+      <td>12.4.8</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
   </tbody>
 </table>
