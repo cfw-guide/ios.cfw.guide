@@ -9,9 +9,7 @@ excerpt: Guide to installing unc0ver
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to  13.5, excluding 12.3 - 12.3.2, 12.4.2 - 12.4.7, and 13.5.1 - 13.6.
-
-The jailbreak is also compatible with iOS 13.5.5 Developer Beta, which is currently being signed, however may be unstable.
+unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 13.5, excluding 12.3 - 12.3.2 and 12.4.2 - 12.4.7.
 
 Due to how [semi-untethered jailbreaks](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"} work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 

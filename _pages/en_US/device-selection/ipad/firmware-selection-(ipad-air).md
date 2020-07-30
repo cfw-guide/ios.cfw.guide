@@ -98,9 +98,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-Support for the iPad Air with checkra1n is experimental and may require more attempts than usual
-{: .notice--danger}
-
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
