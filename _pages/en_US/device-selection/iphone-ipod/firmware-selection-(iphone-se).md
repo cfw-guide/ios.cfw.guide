@@ -77,9 +77,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-unc0ver is also compatible with up to version 13.5.5 Developer Beta 1, which is currently being signed, however may be unstable.
-{: .notice--primary}
-
 In boxes marked `--`, there is no jailbreak for that firmware version.
 {: .notice--info}
 
