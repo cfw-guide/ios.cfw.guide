@@ -35,7 +35,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
   
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
-  - If your device is running iOS 13.6, navigate to `Options` and check `Allow untested iOS/iPadOS/tvOS versions`
+  - If your device is running iOS 13.5.1 or above, navigate to `Options` and check `Allow untested iOS/iPadOS/tvOS versions`
 1. Click `Start` -> `Next` on checkra1n
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
