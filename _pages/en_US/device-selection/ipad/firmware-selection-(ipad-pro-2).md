@@ -55,7 +55,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
      </tr>
     <tr>
-      <td>{% include latestfw %}</td>
+      <td>13.5.1</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>
