@@ -26,10 +26,8 @@ This means that, in the selected application, all tweaks except Liberty Lite wil
 
 - [Liberty Lite (Beta)](sileo://package/com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://https://ryleyangus.com/repo/))
 - [Choicy](sileo://package/com.opa334.choicy) ([opa334.github.io](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/))
-- [PicaHide](sileo://package/com.aeonlucid.snaphide2) ([aeonlucid.com/cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://aeonlucid.com/cydia))
-	- This is for Snapchat only
 
-Choicy and PicaHide are both available on the defaault BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
+Choicy is available on the defaault BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
 {: .notice}
 
 There is other software available for hiding jailbreak, such as [Shadow](sileo://package/me.jjolano.shadow) ([ios.jjolano.me](cydia://url/https://cydia.saurik.com/api/share#?source=https://ios.jjolano.me/)), however we'll only be covering the above three tweaks in this guide.
@@ -56,11 +54,7 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 1. Tap on `Applications`
 1. Tap on an application that you selected with Liberty Lite
 1. Enable `Custom Tweak Configuration`
+	- For Snapchat, enable `Disable Tweak Injection` and skip the next steps
 1. Make sure `Whitelist` is selected
 1. Enable `zzzzzLiberty`
-1. If you're using Snapchat, enable `SnapHide2` (PicaHide)
-	
-	PicaHide can cause crashes on unsupported versions - disable it if the app stops working
-	{:.notice--danger}
-
 1. Repeat this for every app you selected with Liberty Lite
