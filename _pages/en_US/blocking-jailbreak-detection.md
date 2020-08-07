@@ -1,5 +1,5 @@
 ---
-title: "Blocking  Jailbreak Detection"
+title: "Blocking Jailbreak Detection"
 permalink: /blocking-jailbreak-detection
 excerpt: Bypassing and avoiding jailbreak detection.
 ---
