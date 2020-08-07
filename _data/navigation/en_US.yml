@@ -2,34 +2,37 @@
 main:
   -
     title: FAQ
-    url: faq
+    url: /faq
   -
     title: Recommended Repos
-    url: recommended-repos
+    url: /recommended-repos
   -
     title: Package Managers
-    url: package-managers
+    url: /package-managers
   -
     title: Resigning Apps
-    url: resigning-apps
+    url: /resigning-apps
+  -
+    title: Jailbreak Detection
+    url: /blocking-jailbreak-detection
   -
     title: Jailbreak Types
-    url: types-of-jailbreak
+    url: /types-of-jailbreak
   -
     title: Coolbooter
-    url: using-coolbooter
+    url: /using-coolbooter
   -
     title: T3nBelow
-    url: using-t3nbelow
+    url: /using-t3nbelow
   -
     title: Troubleshooting
-    url: troubleshooting
+    url: /troubleshooting
   -
     title: Donations
-    url: donations
+    url: /donations
   -
     title: Credits
-    url: credits
+    url: /credits
 bottom:
   -
     title: For support in English, ask for help on the official r/Jailbreak <a href="https://discord.gg/jb" target="_blank">Discord Server</a>.
