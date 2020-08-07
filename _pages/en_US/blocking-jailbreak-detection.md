@@ -60,7 +60,7 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 1. Enable `zzzzzLiberty`
 1. If you're using Snapchat, enable `SnapHide2` (PicaHide)
 	
-	PicaHide can cause crashes - disable it if the app stops working
+	PicaHide can cause crashes on unsupported versions - disable it if the app stops working
 	{:.notice--danger}
 
 1. Repeat this for every app you selected with Liberty Lite
