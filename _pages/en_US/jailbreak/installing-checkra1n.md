@@ -65,3 +65,6 @@ You should now be jailbroken with Cydia installed on your home screen. You can u
 
 Continue to [Using Cydia](using-cydia)
 {: .notice--info}
+
+If you've used Cydia before, continue to [Blocking Jailbreak Detection](blocking-jailbreak-detection)
+{: .notice--textbox}
