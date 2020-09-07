@@ -20,39 +20,42 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>macOS / Linux</th>
+      <th>All</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>12.3</td>
       <td>12.3.2</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>
     </tr>
     <tr>
       <td>12.4</td>
-      <td> 13.5</td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td>12.4.1</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
+      <td>13.0</td>
+      <td>13.5</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
       <td>13.5.1</td>
       <td>{% include latestfw %}</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>
-    </tr>
-    <tr>
-      <td colspan="2">All Versions</td>
-      <td><a href="installing-checkra1n">Installing checkra1n</a> (macOS and Linux only)</td>
-    </tr>
-    <tr>
-      <td colspan="2">All Versions</td>
-      <td><a href="using-bootra1n">Using bootra1n</a> (Live Bootable Linux OS)</td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 

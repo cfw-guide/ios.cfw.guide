@@ -27,7 +27,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>12.1</td>
       <td>12.2</td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -36,11 +36,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.4</td>
-      <td>13.5</td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td>12.4.1</td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
-      <td>{% include latestfw %}</td>
+      <td>13.0</td>
+      <td>13.5</td>
+      <td><a href="installing-odyssey">Installing Odyssey</a></td>
+    </tr>
+    <tr>
+      <td>13.5.1</td>
       <td>{% include latestfw %}</td>
       <td>--</td>
      </tr>
