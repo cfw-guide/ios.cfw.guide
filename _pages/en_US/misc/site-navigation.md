@@ -18,6 +18,8 @@ permalink: /site-navigation
 + [Installing Pangu](installing-pangu933)
 + [Installing Phœnix](installing-phoenix)
 + [Installing unc0ver](installing-unc0ver)
++ [Installing Chimera](installing-chimera)
++ [Installing Odyssey](installing-odyssey)
 {% endcapture %}
 
 {% capture notice-2 %}
