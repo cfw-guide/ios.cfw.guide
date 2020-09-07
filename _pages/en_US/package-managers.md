@@ -15,7 +15,7 @@ Package managers are like an App Store for tweaks. They allow you to browse repo
 ### Cydia
 
 {% capture cydia %}
-Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's typically at the front of every jailbreak, however often mocked for its outdated design, somewhat abandonment by its creator, and slow performance.
+Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's typically at the front of every jailbreak, however often mocked for its outdated design, abandonment by its creator, and slow performance.
 {% endcapture %}
 
 <div class="notice--info">{{ cydia | markdownify }}</div>

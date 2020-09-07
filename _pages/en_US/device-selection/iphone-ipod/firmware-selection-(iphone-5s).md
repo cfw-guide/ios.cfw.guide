@@ -71,13 +71,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>11.0</td>
-      <td>11.4.1</td>
-      <td colspan="2"><a href="installing-electra">Installing Electra</a></td>
-    </tr>
-    <tr>
-      <td>12.0</td>
       <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -89,7 +84,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>12.4</td>
       <td>12.4.1</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td><a href="installing-chimera">Installing Chimera</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.4.2</td>

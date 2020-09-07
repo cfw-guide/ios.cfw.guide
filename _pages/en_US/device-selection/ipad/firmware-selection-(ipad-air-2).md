@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-13-6">Updating to 13.6</a></td>
+      <td><a href="updating-to-13-7">Updating to 13.7</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-13-6">Updating to 13.6</a></td>
+      <td><a href="updating-to-13-7">Updating to 13.7</a></td>
       <td>--</td>
     </tr>
     <tr>
