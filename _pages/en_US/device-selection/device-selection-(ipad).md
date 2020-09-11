@@ -38,15 +38,17 @@ Please select what model of iPad you have below.
 
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 34%;">
+    <col span="1" style="width: 25%;">
+    <col span="1" style="width: 25%;">
+    <col span="1" style="width: 25%;">
+    <col span="1" style="width: 25%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPad 4</th>
       <th>iPad 3</th>
       <th>iPad 2</th>
+      <th>iPad 1</th>
     </tr>
   </thead>
   <tbody>
@@ -54,6 +56,7 @@ Please select what model of iPad you have below.
       <td><a href="firmware-selection-(ipad-4)"><img src="/assets/images/iPad3,4.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-3)"><img src="/assets/images/iPad3,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-2)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-1)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
