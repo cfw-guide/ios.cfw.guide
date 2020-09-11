@@ -35,22 +35,19 @@ Please select what model of iPod you have below.
 </table>
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 34%;">
+    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 50%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPod Touch 4</th>
-      <th></th>
-      <th></th>
+      <th>iPod Touch 3</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipod-touch-4)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
-      <td></td>
-      <td></td>
+      <td><a href="firmware-selection-(ipod-touch-3)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
