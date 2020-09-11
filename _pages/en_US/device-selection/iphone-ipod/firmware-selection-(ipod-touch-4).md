@@ -30,6 +30,20 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
   </thead>
   <tbody>
+     <tr>
+      <td>4.1</td>
+      <td>5.1</td>
+      <td>Coming Soon</td>
+    <tr>
+    <tr>
+      <td>5.1.1</td>
+      <td>5.1.1</td>
+      <td><a href="installing-redsn0w-511">Installing RedSn0w (5.1.1)</a></td>
+    </tr>
+    <tr>
+      <td>6.0</td>
+      <td>6.1.2</td>
+      <td>Coming Soon</td>
     <tr>
       <td>6.1.3</td>
       <td>6.1.6</td>
