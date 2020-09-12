@@ -43,7 +43,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>6.0</td>
       <td>6.1.2</td>
-      <td><b>Coming Soon</b></td>
+      <td><td><a href="installing-evasi0n">Installing Evasi0n</a></td></td>
     </tr>
     <tr>
       <td>6.1.3</td>
