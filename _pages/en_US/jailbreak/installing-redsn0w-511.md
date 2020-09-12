@@ -8,7 +8,7 @@ excerpt: Guide to installing redsn0w (5.1.1)
 
 RedSn0w's 5.1.1 untethered exploit, known as Rocky Racoon, is capable of jailbreaking all iOS devices running iOS 5.1.1.
 
-Unlike most modern jailbreaks, Absinthe is persistent after a reboot (this is also referred to as an "untethered" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
+Unlike most modern jailbreaks, RedSn0w is persistent after a reboot (this is also referred to as an "untethered" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
 
 ## Downloads
 
