@@ -32,8 +32,28 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
   <tr>
       <td>4.3</td>
+      <td>4.3.2</td>
+      <td>--</td>
+    </tr>
+  <tr>
+    <td>4.3.3</td>
+    <td>4.3.3</td>
+    <td>Coming Soon</td>
+  </tr>
+  <tr>
+      <td>4.3.4</td>
+      <td>5.0</td>
+      <td>--</td>
+    </tr>
+   <tr>
+    <td>5.0.1</td>
+    <td>5.0.1</td>
+    <td>Coming Soon</td>
+  </tr>
+  <tr>
       <td>5.1</td>
-      <td>Coming Soon</td>
+      <td>5.1</td>
+      <td>--</td>
     </tr>
    <tr>
       <td>5.1.1</td>
