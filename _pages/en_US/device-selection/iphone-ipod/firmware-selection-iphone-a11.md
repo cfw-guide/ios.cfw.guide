@@ -56,10 +56,15 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>13.5.1</td>
-      <td>{% include latestfw %}</td>
+      <td>13.7</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>
      </tr>
+    <tr>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td colspan="2">--</td>
+    </tr>
   </tbody>
 </table>
 
