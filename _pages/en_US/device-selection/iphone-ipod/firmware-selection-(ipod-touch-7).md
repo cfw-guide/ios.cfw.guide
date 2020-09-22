@@ -59,7 +59,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.0</td>
       <td>14.0</td>
-      <td colspan="2">--</td>
+      <td colspan="2">Wait for Checkra1n</td>
     </tr>
   </tbody>
 </table>
