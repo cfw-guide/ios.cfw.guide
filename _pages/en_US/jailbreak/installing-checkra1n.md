@@ -10,6 +10,9 @@ excerpt: Guide to installing Checkra1n
 If you have a newer device, such as an iPhone XS or newer, you will not be able to use checkra1n. Check the [Device Selection](device-selection) page to check if your device is compatible.
 {: .notice--primary}
 
+On iOS 14, checkra1n is only compatible with A9(X) devices at this time. A10(X) and A11 will be added a future date.
+{: .notice--primary}
+
 checkra1n is currently only compatible with macOS & Linux. You are currently not running a macOS or Linux device and checkra1n will not work on your system. You can use [bootra1n](/using-bootra1n) instead.
 {: .notice--danger #hide_os}
 
