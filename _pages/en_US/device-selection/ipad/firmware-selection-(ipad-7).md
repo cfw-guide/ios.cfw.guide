@@ -46,7 +46,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="using-bootra1n">Using bootra1n</a></td>
      </tr>
      <tr>
-      <td>{% include latestfw %}</td>
+      <td>14.0</td>
       <td>{% include latestfw %}</td>
       <td>--</td>
       </tr>
