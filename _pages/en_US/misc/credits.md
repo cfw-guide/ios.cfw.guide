@@ -32,7 +32,7 @@ author_profile: true
       <img src="https://avatars2.githubusercontent.com/u/28849256?s=460&u=d0132ac21602cad1fa4c4fa76bc9f25af656d241&v=4">
   </div>
   <div class="user">
-    <h3>TheHacker894</h3>
+    <h3>Skylar</h3>
     <p>Guide Writer</p>
     <a class="social-icon" href="https://twitter.com/TheHacker894" target="_blank">
       <i class="fab fa-twitter"></i>
