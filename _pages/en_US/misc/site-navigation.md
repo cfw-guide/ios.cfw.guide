@@ -9,17 +9,16 @@ permalink: /site-navigation
 **Jailbreaks**
 
 + [Installing checkra1n](installing-checkra1n)
++ [Installing Odyssey](installing-odyssey)
 + [Installing Chimera](installing-chimera)
 + [Installing Electra](installing-electra)
++ [Installing unc0ver](installing-unc0ver)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing EtasonJB](installing-etasonjb)
 + [Installing h3lix](installing-h3lix)
 + [Installing HomeDepot](installing-homedepot)
 + [Installing Pangu](installing-pangu933)
 + [Installing Phœnix](installing-phoenix)
-+ [Installing unc0ver](installing-unc0ver)
-+ [Installing Chimera](installing-chimera)
-+ [Installing Odyssey](installing-odyssey)
 {% endcapture %}
 
 {% capture notice-2 %}
