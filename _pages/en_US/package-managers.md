@@ -25,9 +25,7 @@ Cydia has been around almost as long as jailbreaking iOS devices has. It's the p
 {% capture sileo %}
 Sileo is a relatively new Package Manager made by Coolstar. Just like Cydia, it's used to download and install jailbreak tweaks. Sileo prides itself with its superior performance over Cydia along with general QOL improvements. The modern-looking package manager also borrows its design from Apple's iOS App Store.
 
-If your jailbreak does not ship with Sileo, it is possible to install Sileo if you're running iOS 11 or newer. For the best experience, only use it on a device with an Apple A9 SoC or newer.
-
-URL: <code><a href="https://repo.getsileo.app/" target="_blank">https://repo.getsileo.app/</a></code>
+If your jailbreak does not ship with Sileo, you will have to switch to either the Electra, Chimera, or Odyssey jailbreaks to get Sileo.
 {% endcapture %}
 
 <div class="notice--info">{{ sileo | markdownify }}</div>
