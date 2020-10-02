@@ -32,6 +32,16 @@ URL: <code><a href="https://repo.getsileo.app/" target="_blank">https://repo.get
 
 <div class="notice--info">{{ sileo | markdownify }}</div>
 
+### Installer 5
+
+{% capture installer %}
+Installer is another package manager that has even been around before Cydia has. In Installer 5, it can now be used to install packages through APT, like other package managers. Just like Sileo, the package manager offers an App Store-style user interface and dozens of customization options to make it how you like it. If you are looking for a modern package manager, but you don't prefer Sileo, this is a great choice.
+
+URL: <code><a href="https://apptapp.me/repo/" target="_blank">https://apptapp.me/repo/</a></code>
+{% endcapture %}
+
+<div class="notice--info">{{ installer | markdownify }}</div>
+
 ### Zebra
 
 {% capture zebra %}
