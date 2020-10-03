@@ -37,7 +37,7 @@ Unlike apps, tweaks usually don't come with an app icon, but rather instead an a
 
 Respringing is essentially restarting the home screen and the iOS UI. Most of the time, you can install a tweak and respring to apply it, without fully rebooting.
 
-You won't have to reinstall an exploit after respringing, however, and you can remain jailbroken
+You won't have to reinstall an exploit after respringing, however, and you can remain jailbroken.
 
 ## What is DFU mode?
 
@@ -52,10 +52,11 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 
 ## What should I know before starting?
 
-ßBefore following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
+Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
 
+- It is **strongly** recommended to backup your device to iCloud or iTunes in case of data loss
 - If no issues occur during installation, you will be jailbroken without any data loss
 - Keep the device plugged into to a power source so that any unexpected power off will be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to malware and other security issues after jailbreaking
-- Your device warranty will become void after jailbreaking
+- Your device warranty will become void after jailbreaking, but you can claim your warranty from Apple by restoring RootFS or fully restoring with iTunes
