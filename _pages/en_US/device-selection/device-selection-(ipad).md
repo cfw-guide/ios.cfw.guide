@@ -29,7 +29,7 @@ Please select what model of iPad you have below.
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipad-8)"><img src="/assets/images/iPad7,11.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-8)"><img src="/assets/images/iPad11,6.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-7)"><img src="/assets/images/iPad7,11.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-6)"><img src="/assets/images/iPad7,5.png" alt="" width="50%"></a></td>
     </tr>
@@ -190,7 +190,7 @@ Please select what model of iPad you have below.
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipad-air-4)"><img src="/assets/images/iPad8,9.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-air-4)"><img src="/assets/images/iPad13,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-air-3)"><img src="/assets/images/iPad11,3.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-air-2)"><img src="/assets/images/iPad5,4.png" alt="" width="50%"></a></td>
     </tr>

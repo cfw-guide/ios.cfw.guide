@@ -26,7 +26,7 @@ Please select what kind of device you have below.
   <tbody>
     <tr>
       <td><a href="device-selection-(iphone)"><img src="/assets/images/iPhone12,3.png" alt="" width="50%"></a></td>
-      <td><a href="device-selection-(ipad)"><img src="/assets/images/iPad8,9.png" alt="" width="50%"></a></td>
+      <td><a href="device-selection-(ipad)"><img src="/assets/images/iPad13,1.png" alt="" width="50%"></a></td>
       <td><a href="device-selection-(ipod)"><img src="/assets/images/iPod9,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
