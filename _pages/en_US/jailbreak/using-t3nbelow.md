@@ -11,6 +11,9 @@ excerpt: Guide to using Coolbooter to downgrade from iOS 10.X or 9.X to 8.4.1
 Only the iPhone 4S, iPhone 5, and iPod Touch 5G on iOS 10.X and 9.X are supported
 {: .notice--info}
 
+This guide is no longer supported and support will most likely not be given. This guide is only here for preservation.
+{:.notice--warning}
+
 T3nBelow allows you to downgrade your support iOS Device to iOS 8.4.1
 
 ## Downgrading
