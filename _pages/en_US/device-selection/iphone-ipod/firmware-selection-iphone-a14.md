@@ -27,9 +27,9 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>{% include latestfw %}</td>
       <td>{% include latestfw %}</td>
-      <td>--</td>
+      <td colspan="2">--</td>
     </tr>
-     
+
   </tbody>
 </table>
 
