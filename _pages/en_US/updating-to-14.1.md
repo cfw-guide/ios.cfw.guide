@@ -1,16 +1,16 @@
 ---
-title: Updating to 14.0.1
-permalink: /updating-to-14-0-1
+title: Updating to 14.1
+permalink: /updating-to-14-1
 ---
 
 {% include toc title="Table of Contents" %}
 
-Take caution with updating to iOS 14.0.X as checkra1n only supports A9(X) devices at this time.
+Take caution with updating to iOS 14.0 - 14.1 as checkra1n only supports A9(X) devices at this time.
 {: .notice--danger }
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to 14.0.X and use the checkra1n jailbreak instead.
+If you're on an unsupported firmware version, you can update to 14.1 and use the checkra1n jailbreak instead if your device is compatible.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 14.0.X, we can easily update to the desired firmware version.
 
@@ -33,7 +33,7 @@ Only follow this if you've installed update blocking in the past.
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-  - Ensure that the version you are updating to is 14.0.X
+  - Ensure that the version you are updating to is 14.1
 1. Download and install the update
 
 Continue to [Installing checkra1n](installing-checkra1n)
