@@ -10,12 +10,12 @@ After jailbreaking, you may be wondering what a package manager is, and why it's
 
 ## What is a package manager?
 
-Package managers are like an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Most jailbreaks come pre-packaged with a package manager called Cydia.
+Package managers are in some ways like an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Most jailbreaks come pre-packaged with a package manager called Cydia.
 
 ### Cydia
 
 {% capture cydia %}
-Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's typically at the front of every jailbreak, however often mocked for its outdated design, abandonment by its creator, and slow performance.
+Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's typically at the front of every jailbreak, however has since been abandoned by its creator. This package manager is unrecommended due to its outdated design and slow performance.
 {% endcapture %}
 
 <div class="notice--info">{{ cydia | markdownify }}</div>
@@ -23,9 +23,9 @@ Cydia has been around almost as long as jailbreaking iOS devices has. It's the p
 ### Sileo
 
 {% capture sileo %}
-Sileo is a relatively new Package Manager made by Coolstar. Just like Cydia, it's used to download and install jailbreak tweaks. Sileo prides itself with its superior performance over Cydia along with general QOL improvements. The modern-looking package manager also borrows its design from Apple's iOS App Store.
+Sileo is a relatively new Package Manager made by [Coolstar](https://twitter.com/CStar_OW). Just like Cydia, it's used to download and install jailbreak tweaks. Sileo prides itself with its superior performance, modern design, and general QOL improvements.
 
-If your jailbreak does not ship with Sileo, you will have to switch to either the Electra, Chimera, or Odyssey jailbreaks to get Sileo.
+Sileo is only available using the Electra, Chimera and Odyssey jailbreaks.
 {% endcapture %}
 
 <div class="notice--info">{{ sileo | markdownify }}</div>
@@ -33,7 +33,9 @@ If your jailbreak does not ship with Sileo, you will have to switch to either th
 ### Installer 5
 
 {% capture installer %}
-Installer is another package manager that has even been around before Cydia has. In Installer 5, it can now be used to install packages through APT, like other package managers. Just like Sileo, the package manager offers an App Store-style user interface and dozens of customization options to make it how you like it. If you are looking for a modern package manager, but you don't prefer Sileo, this is a great choice.
+Installer is an even older package manager than Sileo, however the newest release features an updated modern design with dozens of customization options available to choose from.
+
+If you don't like Sileo, but still want a modern design, this is a great choice.
 
 URL: <code><a href="https://apptapp.me/repo/" target="_blank">https://apptapp.me/repo/</a></code>
 {% endcapture %}
@@ -43,7 +45,7 @@ URL: <code><a href="https://apptapp.me/repo/" target="_blank">https://apptapp.me
 ### Zebra
 
 {% capture zebra %}
-Zebra is the newest of the bunch. Taking inspiration from Cydia's design, it's able to refresh sources far quicker than Cydia and runs decently well on older hardware. Zebra isn't perfect, but it's a great start to replacing the ageing Cydia package manager.
+Zebra is the newest of the bunch, and provides a snappier experience on older devices. It's able to refresh sources far quicker than Cydia, which it takes its design inspiration from. The design may not be as flashy as some of the other managers in this list, but it's a great alternative for ageing hardware.
 
 URL: <code><a href="https://getzbra.com/" target="_blank">https://getzbra.com/</a></code>
 {% endcapture %}

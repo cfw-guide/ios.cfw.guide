@@ -63,7 +63,7 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 - Keep the device plugged into to a power source so that any unexpected power off will be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to malware and other security issues after jailbreaking
-- Your device warranty will become void after jailbreaking, but you can claim your warranty from Apple by restoring RootFS (unjailbreaking) or fully restoring with iTunes or Finder
+- Your device warranty will become void after jailbreaking until it is restored to an un-jailbroken state
 
 Continue to [Get Started](get-started)
 {: .notice--info}

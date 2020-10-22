@@ -50,16 +50,6 @@ URL: <code><a href="https://repo.packix.com/" target="_blank">https://repo.packi
 
 <div class="notice--success">{{ packix | markdownify }}</div>
 
-## ModMyi (Archive)
-
-{% capture modmyi %}
-Although now no longer updated, ModMyi is a good source of tweaks if you're on a lower version, as it has many tweaks for your older devices. Unfortunately, however, if you're on a newer firmware version, such as iOS 13, a lot of the tweaks won't be compatible with your device.
-
-URL: `http://apt.modmyi.com/`
-{% endcapture %}
-
-<div class="notice--warning">{{ modmyi | markdownify }}</div>
-
 ## SparkDev
 
 {% capture sparkdev %}
@@ -93,13 +83,3 @@ URL: <code><a href="https://rpetri.ch/repo/" target="_blank">https://rpetri.ch/r
 {% endcapture %}
 
 <div class="notice--textbox">{{ rpetrich | markdownify }}</div>
-
-## Revulate's Repo
-
-{% capture revulate %}
-Revulate's Repo includes a good crash report tool to help make sense of errors.
-
-URL: <code><a href="https://revulate.dev/" target="_blank">https://revulate.dev/</a></code>
-{% endcapture %}
-
-<div class="notice--primary">{{ revulate | markdownify }}</div>
