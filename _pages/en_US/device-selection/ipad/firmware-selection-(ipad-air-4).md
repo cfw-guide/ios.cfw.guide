@@ -10,7 +10,7 @@ excerpt: Find out what jailbreaks you can use on your iPad Air 4th Generation
 
 Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 14.0 - 14.1" row includes version 14.0.1, version 14.1, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 14.0 - 14.2" row includes version 14.0.1, version 14.2, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 

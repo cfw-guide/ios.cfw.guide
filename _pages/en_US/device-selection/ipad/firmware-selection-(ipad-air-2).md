@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-14-1">Updating to 14.1</a></td>
+      <td><a href="updating-to-14-2">Updating to 14.2</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-14-1">Updating to 14.1</a></td>
+      <td><a href="updating-to-14-2">Updating to 14.2</a></td>
       <td>--</td>
     </tr>
     <tr>
@@ -94,10 +94,15 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>13.5.1</td>
-      <td>{% include latestfw %}</td>
+      <td>14.1</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>
      </tr>
+     <tr>
+    <td>{% include latestfw %}</td>
+      <td>{% include latestfw %}</td>
+      <td colspan="2">--</td>
+    </tr>
   </tbody>
 </table>
 
