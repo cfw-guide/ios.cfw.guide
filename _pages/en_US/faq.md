@@ -54,9 +54,9 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 
 Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
 
-- It is **strongly** recommended to backup your device to iCloud or iTunes in case of data loss
+- It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss
 - If no issues occur during installation, you will be jailbroken without any data loss
 - Keep the device plugged into to a power source so that any unexpected power off will be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to malware and other security issues after jailbreaking
-- Your device warranty will become void after jailbreaking, but you can claim your warranty from Apple by restoring RootFS (unjailbreaking) or fully restoring with iTunes
+- Your device warranty will become void after jailbreaking, but you can claim your warranty from Apple by restoring RootFS (unjailbreaking) or fully restoring with iTunes or Finder
