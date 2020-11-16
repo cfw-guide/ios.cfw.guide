@@ -12,7 +12,7 @@ Different iPhones will require different steps to jailbreak your iOS device. Thi
 
 Please select what model of iPhone you have below.
 
-Note that all "+" models of iPhones are functionally identical to the normal sized models.
+Note that all "Plus", "Max", and "mini" models of iPhones are functionally identical to the normal sized models.
 {: .notice--primary}
 
 <table class="version_table">
