@@ -41,7 +41,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>12.0</td>
       <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td>12.3</td>
@@ -62,7 +63,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
-      <td>13.$</td>
+      <td>14.0</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="using-bootra1n">Using bootra1n</a></td>

@@ -34,7 +34,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>12.0</td>
       <td>12.2</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td>12.3</td>
