@@ -6,7 +6,7 @@ excerpt: Guide to installing Odyssey
 
 {% include toc title="Table of Contents" %}
 
-This jailbreak is compatible with all iOS devices from 13.0 to 13.7.
+This jailbreak is compatible with A8(X) &amp A9(X) devices from 13.0 - 13.5 and all other iOS devices from 13.0 to 13.7.
 {: .notice--primary}
 
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
