@@ -35,7 +35,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
 {: .notice--textbox}
 
 ## Installing checkra1n (macOS)
-  
+
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
 1. Click `Start` -> `Next` on checkra1n
@@ -46,9 +46,9 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
 1. checkra1n will now be automatically installed
 
 Your iOS device should reboot. There should now be a checkra1n application on your home screen.
-  
+
 ## Installing checkra1n (Linux)
-  
+
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
   - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
 1. Click `Start` and follow all onscreen prompts

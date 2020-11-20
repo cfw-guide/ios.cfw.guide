@@ -6,6 +6,9 @@ excerpt: Guide to installing Odyssey
 
 {% include toc title="Table of Contents" %}
 
+This jailbreak is compatible with all iOS devices from 13.0 to 13.7.
+{: .notice--primary}
+
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
@@ -18,7 +21,7 @@ We will use AltStore to install the Odyssey jailbreak application to your iOS de
 - The latest version of [Odyssey](https://theodyssey.dev/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The lastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
+- The lastet version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
 ## Installing the application
 

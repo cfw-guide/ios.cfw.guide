@@ -28,7 +28,7 @@ Only follow this if you've installed update blocking in the past.
   - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to 13.7
+## Updating to 14.2
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
