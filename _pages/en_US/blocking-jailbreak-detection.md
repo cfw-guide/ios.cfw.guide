@@ -27,7 +27,7 @@ This means that, in the selected application, all tweaks except Liberty Lite wil
 - [Liberty Lite (Beta)](sileo://package/com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://https://ryleyangus.com/repo/))
 - [Choicy](sileo://package/com.opa334.choicy) ([opa334.github.io](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/))
 
-Choicy is available on the defaault BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
+Choicy is available on the default BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
 {: .notice}
 
 There is other software available for hiding jailbreak, such as [Shadow](sileo://package/me.jjolano.shadow) ([ios.jjolano.me](cydia://url/https://cydia.saurik.com/api/share#?source=https://ios.jjolano.me/)), however we'll only be covering the above three tweaks in this guide.
