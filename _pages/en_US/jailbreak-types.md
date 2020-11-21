@@ -39,13 +39,13 @@ A few examples of untethered jailbreaks are [p0sixspwn](installing-p0sixspwn) an
 
 Semi-untethered jailbreaks have been the most popular type of jailbreak in recent years. This type of jailbreak requires an exploit to be executed every time you reboot or turn off your device.
 
-<img src="{{ "/assets/images/unc0vermain.png" | absolute_url }}" width="250" class="align-right"/>
+<img src="{{ "/assets/images/odysseymain.png" | absolute_url }}" width="250" class="align-right"/>
 
-This jailbreak works by running the exploit through an app on the device itself. This app, however, must be resigned every 7 days if sideloaded with a standard Apple ID.
+This jailbreak works by running the exploit through an app on the device itself. The app, however, must be resigned every 7 days if sideloaded with a standard Apple ID. Utilities like AltStore and ReProvision make this process far easier.
 
 Due to the nature of how the exploit is applied, these jailbreaks are easily removable through their respective app.
 
-A few examples of semi-untethered jailbreaks include [unc0ver](installing-unc0ver), [Electra](installing-electra), and [Chimera](installing-chimera).
+A few examples of semi-untethered jailbreaks include [Odyssey](installing-odyssey), [Chimera](installing-chimera), [Electra](installing-electra), and [unc0ver](installing-unc0ver).
 
 ### Semi-Tethered Jailbreaks
 ---
