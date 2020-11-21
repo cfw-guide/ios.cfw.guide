@@ -44,7 +44,7 @@ The Odyssey application can now be opened from home screen.
 
 1. Reboot your phone
   - This is not necessary but recommended
-1. Open the Odysseya application from your home screen immediately afterwards
+1. Open the Odyssey application from your home screen immediately afterwards
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
