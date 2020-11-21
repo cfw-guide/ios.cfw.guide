@@ -4,8 +4,4 @@ permalink: /firmware-selection-(ipad-pro-4)
 excerpt: Find out what jailbreaks you can use on your iPad Pro 12.9" 4th Generation or iPad Pro 11" 2nd Generation
 ---
 
-{% include toc title="Table of Contents" %}
-
-## Required Reading
-
 {% include_relative firmware-selection-ipad-a12.md %}
