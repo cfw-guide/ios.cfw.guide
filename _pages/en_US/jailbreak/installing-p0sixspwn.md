@@ -22,12 +22,12 @@ P0sixspwn is an untethered jailbreak meaning that it survives a reboot and and c
 1. Run P0sixspwn
     - Right click and click `Open` on macOS
     - Run P0sixspwn as Administrator on Windows. You'll need to run it in Compatibility Mode on for Windows 7 if you're on Windows 10)
-1. Connect your iOS Device via its 30-pin connector
+1. Connect your iOS Device over to USB to your computer
   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Click `Jailbreak` on P0sixspwn
     - Follow all onscreen prompts to put your device in DFU mode
 
-Be sure to use an official 30-pin connector for highest chances of success
+Be sure to use an MFI-certified 30-pin or lightning connector for highest chances of success
 {: .notice--primary}
 
 Your iOS Device should now be jailbroken.
