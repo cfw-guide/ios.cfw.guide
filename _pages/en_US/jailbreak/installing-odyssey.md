@@ -6,7 +6,7 @@ excerpt: Guide to installing Odyssey
 
 {% include toc title="Table of Contents" %}
 
-This jailbreak is compatible with all iOS devices from 13.0 to 13.7.
+This jailbreak is compatible with A8(X) &amp A9(X) devices from 13.0 - 13.5 and all other iOS devices from 13.0 to 13.7.
 {: .notice--primary}
 
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
@@ -44,7 +44,7 @@ The Odyssey application can now be opened from home screen.
 
 1. Reboot your phone
   - This is not necessary but recommended
-1. Open the Odysseya application from your home screen immediately afterwards
+1. Open the Odyssey application from your home screen immediately afterwards
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
