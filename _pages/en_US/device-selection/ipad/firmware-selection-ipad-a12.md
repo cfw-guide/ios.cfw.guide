@@ -4,7 +4,7 @@
 
 Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 12.4 to 13.5" row includes version 12.4, version 13.5, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 13.0 to 13.7" row includes version 13.0, version 13.7, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -31,13 +31,18 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.3</td>
-      <td>12.3.2</td>
-      <td>--</td>
+      <td>12.3.1</td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>12.4</td>
-      <td>12.4.1</td>
+      <td>12.4</td>
       <td><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
+      <td>12.4.1</td>
+      <td>12.4.1</td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>13.0</td>

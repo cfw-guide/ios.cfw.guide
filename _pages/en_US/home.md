@@ -4,10 +4,10 @@ title: iOS Guide
 excerpt: "A complete iOS modding guide, from stock to jailbroken."
 permalink: /
 header:
-  overlay_image: /assets/images/splash.png
+  overlay_image: /assets/images/splash-odyssey.png
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
-  cta_url: "#get-started"
+  cta_url: "/get-started"
 ---
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).

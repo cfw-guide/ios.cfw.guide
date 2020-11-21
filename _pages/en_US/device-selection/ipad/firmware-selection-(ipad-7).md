@@ -20,30 +20,25 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 35%;">
-    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 70%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>macOS / Linux
-      </th>
-      <th>All</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>13.1</td>
       <td>13.7</td>
-      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
       <td><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
       <td>14.0</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-      <td><a href="using-bootra1n">Using bootra1n</a></td>
      </tr>
   </tbody>
 </table>
