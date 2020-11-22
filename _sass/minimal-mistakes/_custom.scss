@@ -1,11 +1,16 @@
 .credits {
   margin-top: 2em;
   display: table;
-  width: 50%;
+  width: 60%;
   table-layout: fixed;
   border-spacing: 0.2em;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  .credits {
+      width: 80% !important;
+  }
 }
 .user {
   @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
