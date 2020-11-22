@@ -82,8 +82,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.4.1</td>
-      <td>12.4.9</td>
+      <td>12.4.8</td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>12.4.9</td>
+      <td>12.4.9</td>
+      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
     </tr>
   </tbody>
 </table>
