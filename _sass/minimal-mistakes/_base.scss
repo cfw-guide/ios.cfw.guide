@@ -170,7 +170,14 @@ td > code {
   font-size: 0.8em;
   background: $code-background-color;
   border-radius: $border-radius;
-  white-space: nowrap;
+
+  white-space: pre; /* CSS 2.0 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3.0 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: -moz-pre-wrap; /* Mozilla */
+  word-wrap: break-word; /* IE 5+ */
 
   &:before,
   &:after {
