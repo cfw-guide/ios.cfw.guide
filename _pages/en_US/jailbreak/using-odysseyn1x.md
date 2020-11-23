@@ -43,7 +43,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
   - This will completely erase your USB drive, backup all important files to your local disk
   - Do not remove your USB Drive until the process has completed
 1. Once the flashing has completed, reboot your computer
-1. Go into your BIOS settings and disable `Secure Boot`, then enter the boot picker and select your USB Drive to boot from
+1. Go into your BIOS settings and disable Secure Boot, then enter the boot picker and select your USB Drive to boot from
     - This is different for every motherboard, laptop, etc... Google your PC or motherboard brand to find out how to get to your BIOS settings if you do not know how
 
 ## Running checkra1n
