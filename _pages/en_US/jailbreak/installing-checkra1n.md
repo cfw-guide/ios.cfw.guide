@@ -86,7 +86,7 @@ Before you can start installing anything else, you first need to install a few n
 
 1. Open the newly installed Sileo application
 1. Go to the "Packages" tab
-1. Tap "Update All" if there are any updates
+1. Tap "Upgrade All" if there are any updates
   - Do not install yet
 1. Go to the "Search" tab
 1. Search for the "libhooker" package
