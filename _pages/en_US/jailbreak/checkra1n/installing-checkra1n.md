@@ -20,16 +20,13 @@ You are currently not running a macOS or Linux device and checkra1n will not wor
 On iOS 14.0 - 14.2, checkra1n is only fully supported on A9(X) and A10(X) devices for the moment. Full A11 support will be added a future date.
 {: .notice--info}
 
-checkra1n is a [semi-tethered jailbreak](/types-of-jailbreak#semi-tethered-jailbreaks){:target="_blank"}, meaning it requires a PC to re-apply the exploit after a reboot. Click the link to learn more.
-{: .notice--textbox}
+{% include_relative include/semi-tethered.md %}
 
 checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
 
-Once the exploit is installed, you will have to install a [package manager](faq#whats-a-package-manager). By default, checkra1n only supports the "Cydia" package manager, however this is outdated and slow.
+{% include_relative include/package-manager.md %}
 
-Instead, we'll be using a the odysseyra1n script to install the "Sileo" package manager, which provides a more modern experience.
-
-If you are using Windows, proceed to [Using bootra1n](/using-bootra1n).
+If you are using Windows, proceed to [Using odysseyn1x](/using-odysseyn1x).
 {: .notice--primary #hide_os }
 
 ## Downloads
@@ -49,8 +46,8 @@ If you're migrating from unc0ver to checkra1n, you must follow [Removing unc0ver
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
-  - Follow the instructions until your device reboots to a black screen
-1. checkra1n will now be automatically installed
+  - Follow the instructions until your device shows a black screen
+1. After this, checkra1n should automatically install
 
 Your iOS device should reboot. Do not open the checkra1n app until you have ran the odysseyra1n script.
 
@@ -61,13 +58,15 @@ Your iOS device should reboot. Do not open the checkra1n app until you have ran 
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
-  - Follow the instructions until your device reboots to a black screen
+  - Follow the instructions until your device shows a black screen
+1. After this, checkra1n should automatically install
 
 Your iOS device should reboot. Do not open the checkra1n app until you have ran the odysseyra1n script.
 
 ## The odysseyra1n script
 
 1. Open the terminal app on your computer
+1. Ensure that your computer is trusted by your device
 1. If you are on macOS, install "homebrew" by pasting and executing the following command:
 
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
@@ -78,25 +77,4 @@ Your iOS device should reboot. Do not open the checkra1n app until you have ran 
 
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
 
-You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install [tweaks](faq#tweaks), themes, packages and more.
-
-Before you can start installing anything else, you first need to install a few necessary programs.
-
-## Installing packages
-
-1. Open the newly installed Sileo application
-1. Go to the "Packages" tab
-1. Tap "Upgrade All" if there are any updates
-  - Do not install yet
-1. Go to the "Search" tab
-1. Search for the "libhooker" package
-1. Tap the "Get" button
-1. Tap on the "Queued" bar at the bottom of your screen
-1. Tap "Confirm"
-1. Reboot your device and re-jailbreak with checkra1n
-
-Continue to [Using Sileo](using-sileo)
-{: .notice--info}
-
-If you've used Sileo before, continue to [Blocking Jailbreak Detection](blocking-jailbreak-detection)
-{: .notice--textbox}
+{% include_relative include/end-of-page.md %}

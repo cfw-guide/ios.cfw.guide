@@ -30,7 +30,7 @@ permalink: /site-navigation
 + [Recommended Repos](recommended-repos)
 + [Resigning Apps](resigning-apps)
 + [Using Cydia](using-cydia)
-+ [Using Bootra1n](using-bootra1n)
++ [Using odysseyn1x](using-odysseyn1x)
 + [Using Sileo](using-sileo)
 + [Using Meridian](using-meridian)
 + [Using Coolbooter](using-coolbooter)
