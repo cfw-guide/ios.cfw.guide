@@ -1,6 +1,8 @@
 ---
 title: "Package Managers"
 permalink: /package-managers
+redirect_from:
+  - /pkgman
 excerpt: Information on the current package managers available to use
 ---
 

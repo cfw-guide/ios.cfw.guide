@@ -1,23 +1,21 @@
 ---
 title: Using bootra1n
 permalink: /using-bootra1n
+redirect_from:
+  - /using-bootrain
+  - /bootra1n
+  - /bootrain
+  - /br
 excerpt: Guide to installing Checkra1n by using bootra1n
 ---
 <link rel="shortcut icon" type="image/png" href="/assets/images/jb/checkra1n.png">
 
 {% include toc title="Table of Contents" %}
 
-If you have a newer device, such as an iPhone XS or newer, you will not be able to use checkra1n. Check the [Device Selection](device-selection) page to check if your device is compatible.
-{: .notice--primary}
-
-<script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
-
-bootra1n is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device.
-
 checkra1n is a [semi-tethered jailbreak](/types-of-jailbreak#semi-tethered-jailbreaks){:target="_blank"}, meaning it requires a PC to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-checkra1n is capable of jailbreaking nearly every iOS device on firmwares 12.3 and above.
+bootra1n is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device.
 
 Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager). For this we will be using Cydia. You may already be familiar with Cydia, as it has been the default package manager for over a decade.
 
@@ -34,7 +32,7 @@ If you're migrating from unc0ver to to checkra1n, you must follow [Removing unc0
 {: .notice--textbox}
 
 ## Flashing bootra1n iso to USB or CD
-  
+
 1. Download and open Rufus
 1. Select the USB Drive or CD/DVD you wish to flash or burn bootra1n to
 1. Click `SELECT` and select your downloaded iso file
@@ -68,3 +66,6 @@ You should now be jailbroken with Cydia installed on your home screen. You can u
 
 Continue to [Using Cydia](using-cydia)
 {: .notice--info}
+
+If you've used Cydia before, continue to [Blocking Jailbreak Detection](blocking-jailbreak-detection)
+{: .notice--textbox}

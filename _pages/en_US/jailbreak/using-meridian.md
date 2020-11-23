@@ -1,7 +1,10 @@
 ---
 title: Using Meridian
 permalink: /using-meridian
-redirect_from: /installing-meridian
+redirect_from:
+  - /installing-meridian
+  - /meridian
+  - /md
 excerpt: Guide to using Meridian
 ---
 

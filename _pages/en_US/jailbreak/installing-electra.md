@@ -1,6 +1,9 @@
 ---
 title: Installing Electra
 permalink: /installing-electra
+redirect_from:
+  - /electra
+  - /el
 excerpt: Guide to installing Electra
 ---
 

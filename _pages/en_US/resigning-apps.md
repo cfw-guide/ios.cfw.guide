@@ -1,6 +1,8 @@
 ---
 title: "Resigning Apps"
 permalink: /resigning-apps
+redirect_from:
+  - /resign
 excerpt: Guide to using resigning your apps
 ---
 

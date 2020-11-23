@@ -1,6 +1,12 @@
 ---
 title: Installing P0sixspwn
 permalink: /installing-p0sixspwn
+redirect_from:
+  - /installing-posixpwn
+  - /p0sixpwn
+  - /posixpwn
+  - /p0
+
 excerpt: Guide to installing P0sixspwn
 ---
 

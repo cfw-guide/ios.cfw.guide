@@ -1,6 +1,8 @@
 ---
 title: "Recommended Repos"
 permalink: /recommended-repos
+redirect_from:
+  - /repos
 excerpt: Information on popular repositories for jailbreak tweaks
 ---
 

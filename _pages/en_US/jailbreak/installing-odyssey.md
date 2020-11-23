@@ -1,6 +1,9 @@
 ---
 title: Installing Odyssey
 permalink: /installing-odyssey
+redirect_from:
+  - /odyssey
+  - /od
 excerpt: Guide to installing Odyssey
 ---
 

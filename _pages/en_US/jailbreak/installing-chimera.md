@@ -1,6 +1,9 @@
 ---
 title: Installing Chimera
 permalink: /installing-chimera
+redirect_from:
+  - /chimera
+  - /cm
 excerpt: Guide to installing Chimera
 ---
 

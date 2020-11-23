@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPhone 3GS)
 permalink: /firmware-selection-(iphone-3gs)
+redirect_from:
+  - /iphone-3gs
 excerpt: Find out what jailbreaks you can use on your iPhone 3GS
 ---
 

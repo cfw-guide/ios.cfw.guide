@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPhone X)
 permalink: /firmware-selection-(iphone-x)
+redirect_from:
+  - /iphone-x
 excerpt: Find out what jailbreaks you can use on your iPhone X
 ---
 

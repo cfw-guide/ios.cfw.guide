@@ -1,6 +1,8 @@
 ---
 title: "Using Cydia"
 permalink: /using-cydia
+redirect_from:
+  - /cydia
 excerpt: Guide to using Cydia
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Using Sileo"
 permalink: /using-sileo
+redirect_from:
+  - /sileo
 excerpt: Guide to using Sileo
 ---
 

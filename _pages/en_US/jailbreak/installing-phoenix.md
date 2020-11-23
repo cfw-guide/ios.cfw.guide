@@ -1,6 +1,9 @@
 ---
 title: Installing Phœnix
 permalink: /installing-phoenix
+redirect_from:
+  - /phoenix
+  - /pn
 excerpt: Guide to installing Phoenix
 ---
 

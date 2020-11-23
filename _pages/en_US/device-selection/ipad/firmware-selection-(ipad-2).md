@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPad 2)
 permalink: /firmware-selection-(ipad-2)
+redirect_from:
+  - /ipad-2
 excerpt: Find out what jailbreaks you can use on your iPad 2
 ---
 
