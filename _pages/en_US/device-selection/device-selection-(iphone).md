@@ -95,7 +95,7 @@ Note that all "Plus", "Max", and "mini" models of iPhones are functionally ident
     </tr>
   </thead>
   <tbody>
-    <tr> 
+    <tr>
       <td><a href="firmware-selection-(iphone-7)"><img src="/assets/images/iPhone9,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(iphone-se)"><img src="/assets/images/iPhone8,4.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(iphone-6s)"><img src="/assets/images/iPhone8,1.png" alt="" width="50%"></a></td>
