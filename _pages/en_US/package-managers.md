@@ -15,9 +15,9 @@ Package managers are in some ways like an App Store for tweaks. They allow you t
 ### Cydia
 
 {% capture cydia %}
-Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's typically at the front of every jailbreak, however has since been abandoned by its creator. This package manager is unrecommended due to its outdated design and slow performance.
+Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's historically been at the front of every jailbreak, however has since been abandoned by its creator. Due to it's age, it unfortunately suffers from its outdated design and slow performance.
 
-Cydia, while not recommended, is available using the unc0ver, checkra1n, and other older jailbreaks. You can also choose to install it on Odyssey and Chimera.
+Cydia, while not recommended, is available using the unc0ver, checkra1n, and other older jailbreaks. You can also choose to install it on Odyssey and Chimera if you so wish to.
 {% endcapture %}
 
 <div class="notice--info">{{ cydia | markdownify }}</div>
