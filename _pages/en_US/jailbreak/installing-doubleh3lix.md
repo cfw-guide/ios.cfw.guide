@@ -1,6 +1,11 @@
 ---
 title: Installing doubleh3lix
 permalink: /installing-doubleh3lix
+redirect_from:
+  - /installing-doublehelix
+  - /doubleh3lix
+  - /doublehelix
+  - /dh
 excerpt: Guide to installing DoubleH3lix
 ---
 

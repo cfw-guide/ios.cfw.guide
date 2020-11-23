@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPhone 7)
 permalink: /firmware-selection-(iphone-7)
+redirect_from:
+  - /iphone-7
 excerpt: Find out what jailbreaks you can use on your iPhone 7 or iPhone 7 Plus
 ---
 

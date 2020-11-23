@@ -1,6 +1,8 @@
 ---
 title: "Coolbooter"
 permalink: /using-coolbooter
+redirect_from:
+  - /coolbooter
 excerpt: Guide to using Coolbooter to dualboot two different versions of iOS on your 32 bit device
 ---
 
@@ -36,4 +38,3 @@ If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg
 
 To reboot back into your main version of iOS, reboot.
 {: .notice--info}
-

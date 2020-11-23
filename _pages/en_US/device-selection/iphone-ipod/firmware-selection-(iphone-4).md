@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPhone 4)
 permalink: /firmware-selection-(iphone-4)
+redirect_from:
+  - /iphone-4
 excerpt: Find out what jailbreaks you can use on your iPhone 4
 ---
 

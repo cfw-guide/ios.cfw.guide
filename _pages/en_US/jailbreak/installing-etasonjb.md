@@ -1,6 +1,10 @@
 ---
 title: Installing EtasonJB
 permalink: /installing-etasonjb
+redirect_from:
+  - /etasonjb
+  - /es
+  - /eta
 excerpt: Guide to installing etasonjb
 ---
 

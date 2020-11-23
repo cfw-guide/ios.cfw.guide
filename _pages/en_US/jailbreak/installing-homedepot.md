@@ -1,6 +1,9 @@
 ---
 title: Installing HomeDepot
 permalink: /installing-homedepot
+redirect_from:
+  - /homedepot
+  - /hd
 excerpt: Guide to installing HomeDepot
 ---
 

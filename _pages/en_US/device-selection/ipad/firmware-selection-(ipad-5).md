@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPad 5)
 permalink: /firmware-selection-(ipad-5)
+redirect_from:
+  - /ipad-5
 excerpt: Find out what jailbreaks you can use on your iPad 5th Generation
 ---
 

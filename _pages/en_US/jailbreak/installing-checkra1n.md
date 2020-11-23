@@ -1,6 +1,11 @@
 ---
 title: Installing checkra1n
 permalink: /installing-checkra1n
+redirect_from:
+  - /installing-checkrain
+  - /checkra1n
+  - /checkrain
+  - /cr
 excerpt: Guide to installing Checkra1n
 ---
 <link rel="shortcut icon" type="image/png" href="/assets/images/jb/checkra1n.png">
@@ -8,7 +13,7 @@ excerpt: Guide to installing Checkra1n
 {% include toc title="Table of Contents" %}
 
 You are currently not running a macOS or Linux device and checkra1n will not work on your system. You can use [bootra1n](/using-bootra1n) instead.
-{: .notice--danger #hide_os}
+{: .notice--danger #hide_os #hide_mobile }
 
 <script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
 
@@ -16,11 +21,14 @@ On iOS 14.0 - 14.2, checkra1n is only compatible with A9(X) and A10(X) devices f
 {: .notice--info}
 
 checkra1n is a [semi-tethered jailbreak](/types-of-jailbreak#semi-tethered-jailbreaks){:target="_blank"}, meaning it requires a PC to re-apply the exploit after a reboot. Click the link to learn more.
-{:.notice--textbox}
+{: .notice--textbox}
 
 checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
 
 Once the exploit is installed, you will have the choice of installing a [package manager](faq#package-manager). For this we will be using Cydia. You may already be familiar with Cydia, as it has been the default package manager for over a decade.
+
+If you are using Windows, proceed to [Using bootra1n](/using-bootra1n).
+{: .notice--primary #hide_os }
 
 ## Downloads
 

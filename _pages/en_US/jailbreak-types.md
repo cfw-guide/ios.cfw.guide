@@ -1,6 +1,8 @@
 ---
 title: "Types of Jailbreak"
 permalink: /types-of-jailbreak
+redirect_from:
+  - /jailbreaks
 excerpt: Explanation on the different types of jailbreaks
 ---
 
@@ -10,7 +12,7 @@ Not all jailbreaks work in the same way. This page will take you through each ty
 
 ## What are the different types?
 
-There are 4 main types of jailbreaks: 
+There are 4 main types of jailbreaks:
 
 - Fully Untethered
 - Semi-Untethered

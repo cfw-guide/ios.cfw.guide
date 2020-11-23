@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPad Pro 2)
 permalink: /firmware-selection-(ipad-pro-2)
+redirect_from:
+  - /ipad-pro-2
 excerpt: Find out what jailbreaks you can use on your iPad Pro 12.9" 2nd Generation or iPad Pro 10.5"
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPad 6)
 permalink: /firmware-selection-(ipad-6)
+redirect_from:
+  - /ipad-6
 excerpt: Find out what jailbreaks you can use on your iPad 6th Generation
 ---
 

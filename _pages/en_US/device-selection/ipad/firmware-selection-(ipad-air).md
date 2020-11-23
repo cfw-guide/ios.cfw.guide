@@ -1,6 +1,9 @@
 ---
 title: Firmware Selection (iPad Air)
 permalink: /firmware-selection-(ipad-air)
+redirect_from:
+  - /ipad-air
+  - /ipad-air-1
 excerpt: Find out what jailbreaks you can use on your iPad Air
 ---
 

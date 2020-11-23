@@ -1,6 +1,10 @@
 ---
 title: Installing Pangu
 permalink: /installing-pangu933
+redirect_from:
+  - /pangu933
+  - /pangu
+  - /pg
 excerpt: Guide to installing Pangu933
 ---
 

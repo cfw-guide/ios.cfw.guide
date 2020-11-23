@@ -1,6 +1,11 @@
 ---
 title: "T3nbelow"
 permalink: /using-t3nbelow
+redirect_from:
+  - /using-tenbelow
+  - /t3nbelow
+  - /tenbelow
+  - /tb
 excerpt: Guide to using Coolbooter to downgrade from iOS 10.X or 9.X to 8.4.1
 ---
 
@@ -27,6 +32,3 @@ T3nBelow allows you to downgrade your support iOS Device to iOS 8.4.1
 
 Continue to [etasonJB](install-etasonjb)
 {: .notice--info}
-
-
-

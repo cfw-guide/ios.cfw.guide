@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPod Touch 5)
 permalink: /firmware-selection-(ipod-touch-5)
+redirect_from:
+  - /ipod-touch-5
 excerpt: Find out what jailbreaks you can use on your iPod Touch 5th Generation
 ---
 

@@ -1,6 +1,12 @@
 ---
 title: Installing unc0ver
 permalink: /installing-unc0ver
+redirect_from:
+  - /installing-uncover
+  - /unc0ver
+  - /uncover
+  - /u0
+  - /uo
 excerpt: Guide to installing unc0ver
 ---
 

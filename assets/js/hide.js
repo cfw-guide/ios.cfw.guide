@@ -1,52 +1,46 @@
 (function (window) {
     {
-
-        console.log(navigator.platform);
-
-        let div = document.getElementById("hide_os");
+        let hideOS     = document.getElementById("hide_os").style;
+        let hideMobile = document.getElementById("hide_os").style;
 
         switch(navigator.platform) {
             /* desktop operation systems */
             case "MacIntel":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
             case "MacPPC":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
             case "Mac68K":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
             case "Linux i686":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
             case "Linux armv7l":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
             case "Linux armv8l":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
             case "Linux x86_64":
-                div.style.display = "none";
+                hideOS.display = "none";
                 break;
                 /* phones */
             case "iPhone":
-                div.style.display = "none";
+                hideMobile.display = "none";
                 break;
             case "iPod":
-                div.style.display = "none";
+                hideMobile.display = "none";
                 break;
             case "iPad":
-                div.style.display = "none";
+                hideMobile.display = "none";
                 break;
             case "BlackBerry":
-                div.style.display = "none";
+                hideMobile.display = "none";
                 break;
             case "Android":
-                div.style.display = "none";
-                break;
-
-
-            default:
+                hideMobile.display = "none";
                 break;
         }
     }

@@ -1,6 +1,8 @@
 ---
 title: Firmware Selection (iPad Air 4)
 permalink: /firmware-selection-(ipad-air-4)
+redirect_from:
+  - /ipad-air-4
 excerpt: Find out what jailbreaks you can use on your iPad Air 4th Generation
 ---
 

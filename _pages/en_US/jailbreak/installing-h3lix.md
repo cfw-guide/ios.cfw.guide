@@ -1,6 +1,12 @@
 ---
 title: Installing h3lix
 permalink: /installing-h3lix
+redirect_from:
+  - /installing-helix
+  - /helix
+  - /h3lix
+  - /h3
+  - /he
 excerpt: Guide to installing H3lix
 ---
 
