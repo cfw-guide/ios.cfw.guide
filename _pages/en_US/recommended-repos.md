@@ -64,7 +64,7 @@ URL: <code><a href="https://sparkdev.me/" target="_blank">https://sparkdev.me/</
 
 ## 1Conan's Repo
 
-{% capture 1conan %}
+{% capture conan %}
 This repo is a small one, but includes a crucial tool: TSS Saver. This allows you to save small bits of information related to iOS updates called "blobs".
 
 Saving these will allow you to update and downgrade to the specific firmware version that was available when you saved the blobs.
@@ -74,7 +74,7 @@ It's important to save them with this tool every time a new update is released.
 URL: <code><a href="http://repo.1conan.com/" target="_blank">http://repo.1conan.com/</a></code>
 {% endcapture %}
 
-<div class="notice--info">{{ 1conan | markdownify }}</div>
+<div class="notice--info">{{ conan | markdownify }}</div>
 
 ## rpetrich repo
 
