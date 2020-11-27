@@ -33,7 +33,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td>13.0</td>
+      <td>13.1</td>
       <td>13.7</td>
       <td><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
