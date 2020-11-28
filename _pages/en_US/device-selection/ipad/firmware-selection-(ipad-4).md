@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-4)
 redirect_from:
   - /ipad-4
 excerpt: Find out what jailbreaks you can use on your iPad 4
+soc: A6X
 ---
 
 {% include toc title="Table of Contents" %}

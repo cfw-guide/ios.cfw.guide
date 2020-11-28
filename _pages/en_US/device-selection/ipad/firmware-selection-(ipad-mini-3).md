@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-mini-3)
 redirect_from:
   - /ipad-mini-3
 excerpt: Find out what jailbreaks you can use on your iPad Mini 3
+soc: A7
 ---
 
 {% include toc title="Table of Contents" %}

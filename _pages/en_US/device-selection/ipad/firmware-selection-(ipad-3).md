@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-3)
 redirect_from:
   - /ipad-3
 excerpt: Find out what jailbreaks you can use on your iPad 3
+soc: A5X
 ---
 
 {% include toc title="Table of Contents" %}
