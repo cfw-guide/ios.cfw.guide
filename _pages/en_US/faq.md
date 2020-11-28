@@ -11,7 +11,7 @@ redirect_from:
 
 Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's mobile operating system is known for being extremely secure and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
 
-Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices on iOS 12.4 and below.
+Jailbreaking gives you the ability to install custom applications and "tweaks" (modifications) from a package manager to customize and enhance the user experience. Jailbreaking is free and easy on most devices.
 
 ## Is jailbreaking legal?
 
@@ -57,6 +57,6 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 - It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss
 - If no issues occur during installation, you will be jailbroken without any data loss
 - Keep the device plugged into to a power source so that any unexpected power off will be prevented
-- Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
+- Jailbreaking allows you to directly access the filesystem but can lead to data loss if you damage the OS
 - You may be vulnerable to malware and other security issues after jailbreaking
 - Your device warranty will become void after jailbreaking, but you can claim your warranty from Apple by restoring RootFS (unjailbreaking) or fully restoring with iTunes or Finder
