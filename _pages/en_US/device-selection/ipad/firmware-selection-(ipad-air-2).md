@@ -90,11 +90,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>13.0</td>
-      <td>13.5</td>
+      <td>13.7</td>
       <td><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
-      <td>13.5.1</td>
+      <td>14.0</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
      </tr>
