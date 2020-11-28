@@ -4,6 +4,7 @@ permalink: /firmware-selection-(iphone-5s)
 redirect_from:
   - /iphone-5s
 excerpt: Find out what jailbreaks you can use on your iPhone 5S
+soc: A7
 ---
 
 {% include toc title="Table of Contents" %}

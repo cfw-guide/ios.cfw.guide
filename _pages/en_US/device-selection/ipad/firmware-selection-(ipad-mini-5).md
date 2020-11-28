@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-mini-5)
 redirect_from:
   - /ipad-mini-5
 excerpt: Find out what jailbreaks you can use on your iPad Mini 5th Generation
+soc: A12 Bionic
 ---
 
 {% include toc title="Table of Contents" %}

@@ -4,6 +4,7 @@ permalink: /firmware-selection-(iphone-3gs)
 redirect_from:
   - /iphone-3gs
 excerpt: Find out what jailbreaks you can use on your iPhone 3GS
+soc: Samsung APL0298C05
 ---
 
 {% include toc title="Table of Contents" %}

@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-7)
 redirect_from:
   - /ipad-7
 excerpt: Find out what jailbreaks you can use on your iPad 7th Generation
+soc: A10 Fusion
 ---
 
 {% include toc title="Table of Contents" %}

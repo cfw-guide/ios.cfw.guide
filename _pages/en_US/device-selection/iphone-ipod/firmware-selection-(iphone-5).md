@@ -4,6 +4,7 @@ permalink: /firmware-selection-(iphone-5)
 redirect_from:
   - /iphone-5
 excerpt: Find out what jailbreaks you can use on your iPhone 5
+soc: A6
 ---
 
 {% include toc title="Table of Contents" %}

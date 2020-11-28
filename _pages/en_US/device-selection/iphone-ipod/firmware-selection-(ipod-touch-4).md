@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipod-touch-4)
 redirect_from:
   - /ipod-touch-4
 excerpt: Find out what jailbreaks you can use on your iPod Touch 4th Generation
+soc: A4
 ---
 
 {% include toc title="Table of Contents" %}

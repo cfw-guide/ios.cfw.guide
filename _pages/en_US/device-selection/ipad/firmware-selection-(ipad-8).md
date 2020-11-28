@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-8)
 redirect_from:
   - /ipad-8
 excerpt: Find out what jailbreaks you can use on your iPad 8th Generation
+soc: A12 Bionic
 ---
 
 {% include toc title="Table of Contents" %}

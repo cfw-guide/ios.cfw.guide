@@ -4,6 +4,7 @@ permalink: /firmware-selection-(iphone-6)
 redirect_from:
   - /iphone-6
 excerpt: Find out what jailbreaks you can use on your iPhone 6 or iPhone 6 Plus
+soc: A8
 ---
 
 {% include toc title="Table of Contents" %}

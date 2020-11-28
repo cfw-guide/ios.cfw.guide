@@ -4,6 +4,7 @@ permalink: /firmware-selection-(ipad-air-2)
 redirect_from:
   - /ipad-air-2
 excerpt: Find out what jailbreaks you can use on your iPad Air 2
+soc: A8X
 ---
 
 {% include toc title="Table of Contents" %}

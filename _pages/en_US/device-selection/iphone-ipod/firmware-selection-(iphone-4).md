@@ -4,6 +4,7 @@ permalink: /firmware-selection-(iphone-4)
 redirect_from:
   - /iphone-4
 excerpt: Find out what jailbreaks you can use on your iPhone 4
+soc: A4
 ---
 
 {% include toc title="Table of Contents" %}
