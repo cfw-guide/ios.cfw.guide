@@ -12,7 +12,7 @@ excerpt: Guide to installing Checkra1n
 
 {% include toc title="Table of Contents" %}
 
-You are currently not running a macOS or Linux device and checkra1n will not work on your system. You can use [bootra1n](/using-bootra1n) instead.
+You are currently not running a macOS or Linux device and checkra1n will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
 {: .notice--danger #hide_os #hide_mobile }
 
 <script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
