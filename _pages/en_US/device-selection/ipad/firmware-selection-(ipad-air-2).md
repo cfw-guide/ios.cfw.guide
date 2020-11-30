@@ -69,11 +69,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-electra">Installing Electra</a></td>
     </tr>
     <tr>
-      <td>11.0</td>
-      <td>11.4.1</td>
-      <td><a href="installing-electra">Installing Electra</a></td>
-    </tr>
-    <tr>
       <td>12.0</td>
       <td>12.4</td>
       <td><a href="installing-chimera">Installing Chimera</a></td>
