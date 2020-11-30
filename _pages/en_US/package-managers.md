@@ -37,7 +37,7 @@ Sileo is only available using the Electra, Chimera and Odyssey jailbreaks.
 ### Installer 5
 
 {% capture installer %}
-Installer is an even older package manager than Sileo, however the newest release features an updated modern design with dozens of customization options available to choose from.
+Installer is an even older package manager than Cydia, however the newest release features an updated modern design with dozens of customization options available to choose from.
 
 If you don't like Sileo, but still want a modern design, this is a great choice.
 
