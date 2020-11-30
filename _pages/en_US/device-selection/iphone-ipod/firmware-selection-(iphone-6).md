@@ -70,16 +70,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.0</td>
-      <td>12.2</td>
-      <td><a href="installing-chimera">Installing Chimera</a></td>
-    </tr>
-    <tr>
-      <td>12.3</td>
-      <td>12.3.1</td>
-      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-    </tr>
-    <tr>
-      <td>12.4</td>
       <td>12.4</td>
       <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>

@@ -15,7 +15,7 @@ If you have a newer device with an A12 SoC, such as the iPhone XS, you can only 
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on firmware iOS 12.0 - 12.4. 12.3.X and 12.4.1+ is not compatible.
+Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on firmware iOS 12.0 - 12.4. 12.4.1+ is not compatible.
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
