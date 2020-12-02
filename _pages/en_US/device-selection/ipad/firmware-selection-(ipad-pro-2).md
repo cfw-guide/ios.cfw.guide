@@ -45,13 +45,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.0</td>
-      <td>12.4</td>
+      <td>12.4.1</td>
       <td><a href="installing-chimera">Installing Chimera</a></td>
-    </tr>
-    <tr>
-      <td>12.4.1</td>
-      <td>12.4.1</td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>13.0</td>
