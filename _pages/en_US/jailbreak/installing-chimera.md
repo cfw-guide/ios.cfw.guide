@@ -15,7 +15,7 @@ If you have a newer device with an A12 SoC, such as the iPhone XS, you can only 
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on firmware iOS 12.0 - 12.4. 12.4.1+ is not compatible.
+Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on firmware iOS 12.0 - 12.4.9.
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
@@ -23,9 +23,7 @@ We will use AltStore to install the Chimera jailbreak application to your iOS de
 
 ## Downloads
 
-- [Chimera 12.0 - 12.4](https://github.com/coolstar/electra-ipas/blob/master/chimera/1.5.0b1-12.0-12.4.ipa?raw=true)
-or
-- [Chimera 12.2 - 12.4](https://github.com/coolstar/electra-ipas/blob/master/chimera/1.5.0b1-12.2-12.4.ipa?raw=true)
+- [Chimera](https://chimera.coolstar.org/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The lastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
