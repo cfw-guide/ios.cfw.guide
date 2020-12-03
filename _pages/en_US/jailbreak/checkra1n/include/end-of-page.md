@@ -6,6 +6,7 @@ Before you can start installing anything else, you first need to install a few n
 
 1. Open the newly installed Sileo application
 1. Go to the "Packages" tab
+1. Select the filter button next to "Name", then select "Developer"
 1. Tap "Upgrade All" if there are any updates
 - Do not install yet
 1. Go to the "Search" tab
