@@ -13,21 +13,21 @@ redirect_from:
   - /using-checknix
   - /checkn1x
   - /checkn1x
-excerpt: Guide to installing checkra1n via odysseyn1x
+excerpt: Guide to installing checkra1n via Odysseyn1x
 ---
 
 {% include toc title="Table of Contents" %}
 
 {% include_relative include/semi-tethered.md %}
 
-odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above.
+Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above.
 
 {% include_relative include/package-manager.md %}
 
 ## Downloads
 
 - 512MB or greater USB Drive
-- The latest version of [odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases){:target="_blank"}
+- The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases){:target="_blank"}
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [balenaEtcher](https://www.balena.io/etcher/){:target="_blank"}
@@ -36,7 +36,7 @@ odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 
 {% include_relative include/unc0ver-migration.md %}
 
-## Flashing odysseyn1x
+## Flashing Odysseyn1x
 
 1. Download and install balenaEtcher
 1. Click `Flash from file`
@@ -60,12 +60,16 @@ odysseyn1x is a live bootable Linux environment that allows you to quickly run c
   - Follow the instructions until your device reboots to a black screen
 1. Once your device boots, you can quit checkra1n, but do not shut down your computer
 
-## The odysseyra1n script
+## The Odysseyra1n script
+
+The following steps only need to be performed once and are optional but highly recommended for a smoother experience and modern bootstrap.
 
 1. Unlock your device
 1. Ensure that your computer is trusted by your device
-1. Select `odysseyra1n` in odysseyn1x
+1. Select `Odysseyra1n` in Odysseyn1x
 1. Sileo should install to your device
-1. Do not close odysseyn1x as you will need to re-jailbreak in a few minutes
+1. Do not close Odysseyn1x as you will need to re-jailbreak in a few minutes
+
+{% include_relative include/no-loader.md %}
 
 {% include_relative include/end-of-page.md %}
