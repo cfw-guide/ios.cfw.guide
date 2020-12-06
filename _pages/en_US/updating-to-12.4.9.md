@@ -8,8 +8,9 @@ permalink: /updating-to-12-4-9
 ## Required Reading
 
 Unfortunately, there is currently no jailbreak available for some firmware versions on 64-bit devices. However devices, such as the iPhone 6 and iPad Mini 2, can update to 12.4.9 and use chimera instead.
+{: .notice--primary}
 
-This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 12.4.9, we can easily update to the desired firmware version.
+Simply update through the Settings application normally. The latest version for these devices is 12.4.9, so you can easily update to the desired firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
