@@ -24,40 +24,40 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 35%;">
-	<col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
       <th>Wi-Fi</th>
-	  <th>Cellular</th>
+      <th>Cellular</th>
     </tr>
   </thead>
   <tbody>
-  <tr>
+    <tr>
       <td>4.3</td>
       <td>4.3.2</td>
-      <td><a href="updating-to-9-3-5-ipsw">Updating to 9.3.5 using iTunes/Finder</a><td>
-	  <td><a href="updating-to-9-3-6-ipsw">Updating to 9.3.6 using iTunes/Finder</a><td>
+      <td><a href="updating-to-9-3-5-ipsw">Updating to 9.3.5 using iTunes/Finder</a></td>
+      <td><a href="updating-to-9-3-6-ipsw">Updating to 9.3.6 using iTunes/Finder</a></td>
     </tr>
-	<tr>
+    <tr>
       <td>4.3.3</td>
       <td>4.3.3</td>
       <td colspan="2">Coming Soon</td>
     </tr>
-	<tr>
+    <tr>
       <td>4.3.4</td>
       <td>4.3.5</td>
-      <td><a href="updating-to-9-3-5-ipsw">Updating to 9.3.5 using iTunes/Finder</a><td>
-	  <td><a href="updating-to-9-3-6-ipsw">Updating to 9.3.6 using iTunes/Finder</a><td>
+      <td><a href="updating-to-9-3-5-ipsw">Updating to 9.3.5 using iTunes/Finder</a></td>
+      <td><a href="updating-to-9-3-6-ipsw">Updating to 9.3.6 using iTunes/Finder</a></td>
     </tr>
-	<tr>
+    <tr>
       <td>5.0</td>
       <td>6.1.2</td>
       <td colspan="2">Coming Soon</td>
     </tr>
-  <tr>
+    <tr>
       <td>6.1.3</td>
       <td>6.1.6</td>
       <td colspan="2"><a href="installing-p0sixspwn">Installing P0sixspwn</a></td>
