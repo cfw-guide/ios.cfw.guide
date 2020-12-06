@@ -34,7 +34,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td>6.0</td>
+      <td>4.0</td>
       <td>6.1.2</td>
       <td><b>Coming Soon</b></td>
     </tr>

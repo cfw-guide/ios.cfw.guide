@@ -7,9 +7,9 @@ permalink: /updating-to-10-3-3
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware versions 9.0 to 9.0.2 on 32-bit devices. However devices such as the iPhone 5C, can update to 10.3.3 and use the Helix jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware versions 8.4.1 or 9.3.4 to 9.3.5 on 64-bit devices. However devices, such as the iPhone 5S, can update to 10.3.3 and use the Meridian jailbreak instead.
 
-This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 10.3.3, we can easily update to the desired firmware version, due to the age of the devices.
+This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 10.3.3, we can easily update to the desired firmware version, due to the age of their curremt firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
@@ -32,5 +32,8 @@ Only follow this if you've installed update blocking in the past.
   - Ensure that the version you are updating to is 10.3.3
 1. Download and install the update
 
-Continue to [Installing Helix](installing-helix)
+Continue to [Using Meridian](using-meridian)
+{: .notice--info}
+
+If you want to update to iOS 12.4.9, Continue to [Updating to 12.4.9](updating-to-12-4-9)
 {: .notice--info}
