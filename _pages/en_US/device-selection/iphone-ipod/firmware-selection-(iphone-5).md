@@ -33,6 +33,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
   </thead>
   <tbody>
+  <tr>
+	<td>6.0</td>
+	<td>6.1.2</td>
+	<td>Coming Soon</td>
+	</tr>
       <tr>
       <td>6.1.3</td>
       <td>6.1.6</td>
@@ -51,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.0</td>
       <td>9.0.2</td>
-      <td><a href="updating-to-10-3-4">Updating to 10.3.4</a></td>
+      <td>Coming Soon</td>
     </tr>
     <tr>
       <td>9.1</td>

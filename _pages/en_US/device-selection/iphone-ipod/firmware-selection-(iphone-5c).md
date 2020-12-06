@@ -33,11 +33,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
   </thead>
   <tbody>
-  <tr>
-      <td>6.1.3</td>
-      <td>6.1.6</td>
-      <td><a href="installing-p0sixspwn">Installing P0sixspwn</a></td>
-    </tr>
     <tr>
       <td>7.0.1</td>
       <td>8.4</td>
@@ -51,7 +46,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.0</td>
       <td>9.0.2</td>
-      <td><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
+      <td>Coming Soon</td>
     </tr>
     <tr>
       <td>9.1</td>
