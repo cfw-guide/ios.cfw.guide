@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.0</td>
       <td>9.0.2</td>
-      <td><a href="updating-to-9-3-5">Updating to 9.3.5</a></td>
+      <td>Coming Soon</td>
     </tr>
     <tr>
       <td>9.1</td>
@@ -65,7 +65,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>9.3.5</td>
-      <td>9.3.5</td>
+      <td>9.3.6</td>
       <td><a href="installing-phoenix">Installing Phœnix</a></td>
     </tr>
   </tbody>
