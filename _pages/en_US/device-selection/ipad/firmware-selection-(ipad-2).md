@@ -23,50 +23,69 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+	<col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>Wi-Fi</th>
+	  <th>Cellular</th>
     </tr>
   </thead>
   <tbody>
   <tr>
       <td>4.3</td>
+      <td>4.3.2</td>
+      <td><a href="updating-to-9-3-5-ipsw">Updating to 9.3.5 using iTunes/Finder</a><td>
+	  <td><a href="updating-to-9-3-6-ipsw">Updating to 9.3.6 using iTunes/Finder</a><td>
+    </tr>
+	<tr>
+      <td>4.3.3</td>
+      <td>4.3.3</td>
+      <td colspan="2">Coming Soon</td>
+    </tr>
+	<tr>
+      <td>4.3.4</td>
+      <td>4.3.5</td>
+      <td><a href="updating-to-9-3-5-ipsw">Updating to 9.3.5 using iTunes/Finder</a><td>
+	  <td><a href="updating-to-9-3-6-ipsw">Updating to 9.3.6 using iTunes/Finder</a><td>
+    </tr>
+	<tr>
+      <td>5.0</td>
       <td>6.1.2</td>
-      <td>Coming Soon</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
   <tr>
       <td>6.1.3</td>
       <td>6.1.6</td>
-      <td><a href="installing-p0sixspwn">Installing P0sixspwn</a></td>
+      <td colspan="2"><a href="installing-p0sixspwn">Installing P0sixspwn</a></td>
     </tr>
     <tr>
       <td>7.0</td>
       <td>8.4</td>
-      <td>Coming Soon</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="installing-etasonjb">Installing EtasonJB</a></td>
+      <td colspan="2"><a href="installing-etasonjb">Installing EtasonJB</a></td>
     </tr>
     <tr>
       <td>9.0</td>
       <td>9.0.2</td>
-      <td><a href="updating-to-9-3-5">Updating to 9.3.5</a></td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
       <td>9.1</td>
       <td>9.3.4</td>
-      <td><a href="installing-homedepot">Installing HomeDepot</a></td>
+      <td colspan="2"><a href="installing-homedepot">Installing HomeDepot</a></td>
     </tr>
     <tr>
       <td>9.3.5</td>
-      <td>9.3.5</td>
-      <td><a href="installing-phoenix">Installing Phœnix</a></td>
+      <td>9.3.6</td>
+      <td colspan="2"><a href="installing-phoenix">Installing Phœnix</a></td>
     </tr>
   </tbody>
 </table>
