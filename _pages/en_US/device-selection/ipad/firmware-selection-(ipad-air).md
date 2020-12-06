@@ -58,7 +58,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-12-4-9">Updating to 12.4.9</a></td>
+      <td><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
     </tr>
     <tr>
       <td>10.0.1</td>

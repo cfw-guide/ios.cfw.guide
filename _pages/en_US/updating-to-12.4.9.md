@@ -7,12 +7,10 @@ permalink: /updating-to-12-4-9
 
 ## Required Reading
 
-We suggest only updating to the latest version if you are on macOS, as the jailbreak for this firmware version is not supported on other operating systems yet.
+Unfortunately, there is currently no jailbreak available for some firmware versions on 64-bit devices. However devices, such as the iPhone 6 and iPad Mini 2, can update to 12.4.9 and use chimera instead.
 {: .notice--primary}
 
-Unfortunately, there is currently no jailbreak available for some firmware versions on 64-bit devices. However devices such as the iPhone 5S and iPhone 6, can update to 12.4.9 and use the checkra1n jailbreak instead.
-
-This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 12.4.9, we can easily update to the desired firmware version.
+Simply update through the Settings application normally. The latest version for these devices is 12.4.9, so you can easily update to the desired firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
@@ -36,5 +34,5 @@ Only follow this if you've installed update blocking in the past.
   - Ensure that the version you are updating to is 12.4.9
 1. Download and install the update
 
-Continue to [Installing checkra1n](installing-checkra1n)
+Continue to [Installing Chimera](installing-chimera)
 {: .notice--info}
