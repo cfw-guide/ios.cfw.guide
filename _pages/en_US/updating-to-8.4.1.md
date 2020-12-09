@@ -15,14 +15,13 @@ If you have installed update blocking via tvOS Beta profiles, you must first rem
 
 ## Removing Profiles
 
-Only follow this if you've installed update blocking in the past.
+Only follow this if you've installed an update-blocking profile in the past.
 {: .notice--info}
 
 1. Open the Settings application
 1. Tap `General` -> `Profile`
   - This may also be called `Profile and Device Management`
 1. Tap on the tvOS Beta Software Profile
-  - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
 ## Updating to 8.4.1
