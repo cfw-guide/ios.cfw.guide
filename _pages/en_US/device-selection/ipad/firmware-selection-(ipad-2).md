@@ -54,6 +54,21 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>5.0</td>
+      <td>5.0</td>
+      <td colspan="2"><a href="updating-to-6-1-3">Updating to 6.1.3</a></td>
+    </tr>
+	<tr>
+      <td>5.0.1</td>
+      <td>5.0.1</td>
+      <td colspan="2">Coming Soon</td>
+    </tr>
+	<tr>
+      <td>5.1</td>
+      <td>5.1</td>
+      <td colspan="2"><a href="updating-to-6-1-3">Updating to 6.1.3</a></td>
+    </tr>
+	<tr>
+      <td>5.1.1</td>
       <td>6.1.2</td>
       <td colspan="2">Coming Soon</td>
     </tr>

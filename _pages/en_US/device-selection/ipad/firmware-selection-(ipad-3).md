@@ -35,6 +35,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
   <tr>
       <td>5.1</td>
+      <td>5.1</td>
+      <td><a href="updating-to-8-4-1">Updating to 8.4.1</a></td>
+    </tr>
+  <tr>
+      <td>5.1.1</td>
       <td>6.1.2</td>
       <td>Coming Soon</td>
     </tr>
