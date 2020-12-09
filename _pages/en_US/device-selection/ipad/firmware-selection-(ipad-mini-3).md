@@ -59,7 +59,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="updating-to-12-4-9">Updating to 12.4.9</a></td>
     </tr>
     <tr>
-      <td>10.0.1</td>
+      <td>10.0</td>
       <td>10.3.3</td>
       <td><a href="using-meridian">Using Meridian</a></td>
     </tr>
