@@ -20,6 +20,21 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
+<table class="version_table">
+  <colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 70%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>From</th>
+      <th>To</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td>13.4</td>
       <td>13.7</td>
       <td><a href="installing-odyssey">Installing Odyssey</a></td>
@@ -27,8 +42,9 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.0</td>
       <td>{% include latestfw %}</td>
-      <td>--</td>
+      <td colspan="2">--</td>
     </tr>
+
   </tbody>
 </table>
 
