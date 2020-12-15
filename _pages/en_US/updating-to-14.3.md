@@ -1,11 +1,13 @@
 ---
-title: Updating to 14.2
-permalink: /updating-to-14-2
+title: Updating to 14.3
+permalink: /updating-to-14-3
+redirect_from:
+  - /updating-to-14-2
 ---
 
 {% include toc title="Table of Contents" %}
 
-Take caution with updating to iOS 14.0 - 14.2 as checkra1n only supports A9(X) and A10(X) devices at this time.
+Take caution with updating to iOS 14.0 - 14.2 as checkra1n only supports A9(X) and A10(X) devices at this time. 14.3 support will come at a later date.
 {: .notice--danger }
 
 ## Required Reading
@@ -28,7 +30,7 @@ Only follow this if you've installed update blocking in the past.
   - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to 14.2
+## Updating to 14.3
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
