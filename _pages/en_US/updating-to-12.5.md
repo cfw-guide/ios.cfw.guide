@@ -1,13 +1,15 @@
 ---
 title: Updating to 12.5
 permalink: /updating-to-12-5
+redirect_from:
+  - /updating-to-12-4-9
 ---
 
 {% include toc title="Table of Contents" %}
 
 ## Required Reading
 
-Checkra1n is compatible with the latest signed version of iOS, 12.5, for A7/A8.
+Checkra1n and Chimera are both compatible with the latest signed version of iOS, 12.5, for A7/A8.
 {: .notice--primary}
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
@@ -32,5 +34,5 @@ Only follow this if you've installed update blocking in the past.
   - Ensure that the version you are updating to is 12.5
 1. Download and install the update
 
-Continue to [Installing Checkra1n](installing-checkra1n)
+Continue to [Installing Chimera](installing-chimera)
 {: .notice--info}
