@@ -12,6 +12,9 @@ excerpt: Guide to installing Odyssey
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
+If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0)
+{:.notice--danger}
+
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
 We will use AltStore to install the Odyssey jailbreak application to your iOS device for use in the next step.

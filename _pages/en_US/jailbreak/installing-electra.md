@@ -12,6 +12,9 @@ excerpt: Guide to installing Electra
 Electra is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
+If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0)
+{:.notice--danger}
+
 Electra is capable of jailbreaking every iOS device on firmware version 11.0 up to 11.4.1
 
 Note that the Electra jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.

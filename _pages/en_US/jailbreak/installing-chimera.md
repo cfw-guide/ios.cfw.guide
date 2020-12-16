@@ -12,6 +12,9 @@ excerpt: Guide to installing Chimera
 If you have a newer device with an A12 SoC, such as the iPhone XS, you can only use Chimera on iOS 12.0 - 12.1.2.
 {: .notice--danger}
 
+If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0)
+{:.notice--danger}
+
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
