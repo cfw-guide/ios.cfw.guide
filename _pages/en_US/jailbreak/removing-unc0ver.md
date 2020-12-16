@@ -1,6 +1,11 @@
 ---
 title: Removing unc0ver
 permalink: /removing-unc0ver
+redirect_from:
+  - /removing-u0
+  - /removing-uo
+  - /remove-u0
+  - /remove-uo
 excerpt: Guide to removing unc0ver
 ---
 
@@ -27,5 +32,5 @@ If you're proceeding to installing checkra1n, we recommend making a system backu
   - If it fails, try again from the beginning
 1. When finished, tap `OK` again and your device will restart
 
-If you want to install checkra1n now, go back to [Installing checkra1n](installing-checkra1n)
+You are now free to jailbreak with [checkra1n](installing-checkra1n) or [Chimera](installing-chimera)
 {: .notice--info}
