@@ -32,5 +32,5 @@ If you're proceeding to installing checkra1n, we recommend making a system backu
   - If it fails, try again from the beginning
 1. When finished, tap `OK` again and your device will restart
 
-You are now free to jailbreak with [checkra1n](installing-checkra1n), [Chimera](installing-chimera), or [Odyssey](installing-odyssey)
+You are now free to jailbreak with [checkra1n](installing-checkra1n), [Electra](installing-electra), [Chimera](installing-chimera), or [Odyssey](installing-odyssey)
 {: .notice--info}
