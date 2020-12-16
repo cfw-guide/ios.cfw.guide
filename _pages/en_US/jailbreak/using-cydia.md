@@ -10,10 +10,10 @@ excerpt: Guide to using Cydia
 
 ## Introduction
 
-This page is optional, but helpful if you are unfamiliar with jailbreaking.
+Cydia is incredibly outdated. If you are using Electra, Chimera, Odyssey, or Checkra1n, please consider using [Sileo](sileo){:target="_blank"}
 {: .notice--info}
 
-Cydia is a package manager that has been used since the start of jailbreaking in 2008. It can be used to install tweaks and themes and is still running 11 years later.
+Cydia is a package manager that has been used since the start of jailbreaking in 2008. It can be used to install tweaks and themes.
 
 ![]({{ "/assets/images/cydia_picture.jpg" | absolute_url }})
 
