@@ -55,13 +55,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>14.0</td>
-      <td>14.2</td>
+      <td>{% include latestfw %}</td>
       <td><a href="installing-checkra1n">Installing checkra1n</a></td>
-     </tr>
-     <tr>
-      <td>{% include latestfw %}</td>
-      <td>{% include latestfw %}</td>
-      <td>--</td>
      </tr>
   </tbody>
 

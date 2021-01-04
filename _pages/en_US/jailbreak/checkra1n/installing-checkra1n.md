@@ -17,7 +17,7 @@ You are currently not running a macOS or Linux device and checkra1n will not wor
 
 <script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
 
-On iOS 14.0 - 14.2, checkra1n is only fully supported on A9(X) and A10(X) devices for the moment. Full A11 support will be added a future date.
+On iOS 14.0 - 14.3, checkra1n is only fully supported on A9(X) and A10(X) devices for the moment. Full A11 support will be added a future date.
 {: .notice--info}
 
 {% include_relative include/semi-tethered.md %}
