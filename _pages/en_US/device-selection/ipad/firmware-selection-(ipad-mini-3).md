@@ -41,7 +41,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-12-5">Updating to 12.5</a></td>
+      <td><a href="updating-to-12-5-1">Updating to 12.5.1</a></td>
     </tr>
     <tr>
       <td>9.0</td>
@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-12-5">Updating to 12.5</a></td>
+      <td><a href="updating-to-12-5-1">Updating to 12.5.1</a></td>
     </tr>
     <tr>
       <td>10.0</td>
@@ -70,8 +70,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>12.0</td>
-      <td>12.5</td>
+      <td>12.5.1</td>
       <td><a href="installing-chimera">Installing Chimera</a></td>
+    </tr>
+    <tr>
+      <td>12.5</td>
+      <td>12.5.1</td>
+      <td><a href="installing-checkra1n">Installing Checkra1n</a></td>
     </tr>
   </tbody>
 </table>
