@@ -12,10 +12,13 @@ excerpt: Guide to installing unc0ver
 
 {% include toc title="Table of Contents" %}
 
+Unless you are using an A12 device on iOS 12.1.3 - 12.4.1, you should not be following this page due to the fact that, throughout the past several months, better options have emerged for all other devices/versions, which are listed on each devices page at [Get Started](get-started)
+{:.notice--danger}
+
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 13.5, excluding 12.3 - 12.3.2 and 12.4.2 - 12.4.7.
+unc0ver is capable of jailbreaking every iOS device on firmware version 11.0 up to 13.5, excluding 12.4.9 - 12.5.1.
 
 Due to how [semi-untethered jailbreaks](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"} work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
@@ -26,7 +29,7 @@ We will use the AltStore tool to install the unc0ver jailbreak application to yo
 - The latest version of [unc0ver](https://github.com/pwn20wndstuff/Undecimus/releases)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The leastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
+- The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
 ## Installing the application
 
