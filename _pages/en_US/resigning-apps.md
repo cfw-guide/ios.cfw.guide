@@ -3,10 +3,14 @@ title: "Resigning Apps"
 permalink: /resigning-apps
 redirect_from:
   - /resign
+  - /resigning
   - /altstore
   - /altdaemon
   - /altserver
-excerpt: Guide to using resigning your apps
+  - /altdeploy
+  - /sideload
+  - /sideloading
+excerpt: Guide to using resigning your apps with or without a computer
 ---
 
 {% include toc title="Table of Contents" %}
@@ -15,8 +19,21 @@ excerpt: Guide to using resigning your apps
 
 Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. Apps sideloaded with a regular AppleID will expire after 7 days. After that period, you will no longer be able to open that app to re-jailbreak.
 
+## Resign With A Mac (AltDeploy)
+
+AltDeploy has not been optimized for newer versions of macOS. You may experience incompatibility issues.
+{:.notice--info}
+
+1. Download and Install the latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
+1. Connect your iOS Device to  your Mac via USB
+1. Choose the IPA file you want to sideload
+  - Follow all onscreen prompts
+1. Open Settings and navigate to `General` -> `Device Management` and verify the app you sideloaded
 
 ## Resign With Computer (AltStore/AltServer)
+
+AltServer is only compatible with iOS 12.2 and newer.
+{:.notice--info}
 
 1. Download the latest versions [AltServer](http://altstore.io/), [iTunes](https://www.apple.com/itunes/download/win32) if on Windows, and [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 1. Install AltServer for your respective operating system
@@ -34,8 +51,8 @@ Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. App
 
 ## Resign Without Computer (AltDaemon)
 
-You must have AltStore v1.4 or later to use AltDaemon.
-{:.notice--textbox}
+AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
+{:.notice--info}
 
 AltDaemon allows AltStore to automatically re-sign these applications, without needing to connect to a computer running AltServer over local network.
 
