@@ -9,7 +9,7 @@ permalink: /updating-to-6-1-3
 
 Unfortunately, there is currently no jailbreak available for firmware versions 5.0 or 5.1 to on most A5 devices. However devices, such as the iPhone 4S, can update to 6.1.3 and use p0sixspwn instead.
 
-This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 6.1.3, we can easily update to the desired firmware version, due to the age of their curremt firmware version.
+This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 6.1.3, we can easily update to the desired firmware version, due to the age of their current firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 

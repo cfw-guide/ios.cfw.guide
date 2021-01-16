@@ -7,7 +7,7 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-Take caution with updating as checkra1n only supports A8(X) and A9(X) on iOS 14.3 at this time. A10(X) is only supported on iOS 14.0 - 14.2.
+Take caution with updating as checkra1n only supports A8(X) to A10(X) on iOS 14.3 at this time.
 
 ## Required Reading
 
