@@ -31,6 +31,9 @@ We will use AltStore to install the Chimera jailbreak application to your iOS de
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The lastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
+If you are running iOS 12.0 - 12.1.4, you will need to use [AltDeploy](resigning-apps#resign-with-a-mac-altdeploy)
+{: .notice--info}
+
 ## Installing the application
 
 1. Download AltStore for your respective operating system
