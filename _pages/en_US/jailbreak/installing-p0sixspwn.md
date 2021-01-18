@@ -14,7 +14,7 @@ excerpt: Guide to installing P0sixspwn
 
 P0sixspwn is capable of jailbreaking every 64bit iOS device on firmware version 6.1.3 up to 6.1.6
 
-P0sixspwn is an untethered jailbreak meaning that it survives a reboot and and cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or Future Restore
+P0sixspwn is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or Future Restore
 
 ## Downloads
 
