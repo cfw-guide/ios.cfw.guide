@@ -3,6 +3,7 @@ title: "Blocking Jailbreak Detection"
 permalink: /blocking-jailbreak-detection
 redirect_from:
   - /blocking
+  - /jailbreak-detection
 excerpt: Bypassing and avoiding jailbreak detection.
 ---
 
@@ -28,6 +29,7 @@ This means that, in the selected application, all tweaks except Liberty Lite wil
 
 - [Liberty Lite (Beta)](sileo://package/com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](sileo://source/https://ryleyangus.com/repo/))
 - [Choicy](sileo://package/com.opa334.choicy) ([opa334.github.io](sileo://source/https://opa334.github.io/))
+- [KernBypass](#kernbypass-ios-120---142) (see below)
 
 Choicy is available on the default BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
 {: .notice}
@@ -51,6 +53,9 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 
 ## Choicy
 
+This is the best option for users wanting to use Snapchat on their jailbroken device.
+{:.notice--info}
+
 1. Exit the Liberty Lite settings
 1. Tap on `Choicy`
 1. Tap on `Applications`
@@ -60,3 +65,26 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 1. Make sure `Whitelist` is selected
 1. Enable `zzzzzLiberty`
 1. Repeat this for every app you selected with Liberty Lite
+
+## KernBypass (iOS 12.0 - 14.2)
+
+This is the best option for users wanting to use Nintendo apps (Mario Kart Tour, Animal Crossing: Pocket Camp, etc) and Pokemon GO on their jailbroken device.
+{:.notice--info}
+
+KernBypass is a kernel tweak. Do not install on unsupported devices.
+{:.notice--danger}
+
+1. Remove the file `/var/mobile/Library/Preferences/jp.akusio.kernbypass.plist` if it exists on your device
+1. Download and install [the latest version of the KernBypass .deb file](https://github.com/XsF1re/KernBypass-Public/releases)
+  - [Filza](sileo://package/com.tigisoftware.filza) from [](sileo://source/http://tigisoftware.com/cydia/) is recommended
+1. Download [fakevar.zip](http://repo.misty.moe/apt/fakevar13.zip)
+1. Extract fakevar to `/var/mobile/`
+  - Make sure the folder `/var/mobile/fakevar/mobile/` exists
+1. Open a Terminal app
+  - [NewTerm 2](sileo://package/ws.hbang.newterm2) from [https://repo.chariz.com/](sileo://source/https://repo.chariz.com/) is recommended
+1. In your Terminal app, run `su` then type your root password
+  - By default, the root password is `alpine`
+1. Run the command `preparerootfs`
+1. Run `changerootfs`
+1. Run `disown %1`
+1. Open Settings > KernBypass to select what app you would like to bypass
