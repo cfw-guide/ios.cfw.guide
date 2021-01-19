@@ -24,7 +24,7 @@ We will use AltStore to install the Odyssey jailbreak application to your iOS de
 
 ## Downloads
 
-- The latest version of [Odyssey](https://theodyssey.dev/) or [Odyssey 1.1.2](https://theodyssey.dev/releases/) if using A10
+- The latest version of [Odyssey](https://theodyssey.dev/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
@@ -48,9 +48,21 @@ The Odyssey application can now be opened from home screen.
 
 ## Running Odyssey
 
+A10(X) devices on on iOS 13.0 - 13.5 should follow [the A10 section of this guide](#running-odyssey-a10)
+{: .notice--info}
+
 1. Reboot your phone
   - This is not necessary but recommended
 1. Open the Odyssey application from your home screen immediately afterwards
+1. Tap "Jailbreak"
+
+## Running Odyssey (A10)
+
+1. Reboot your phone
+  - This is not necessary but recommended
+1. Open the Odyssey application from your home screen immediately afterwards
+1. Switch to an anime theme
+1. Tap three times on the ⓘ icon
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
