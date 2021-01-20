@@ -20,7 +20,7 @@ We will use the AltDeploy tool to install the Pangu jailbreak application to you
 
 ## Downloads
 
-- The latest version of [Pangu](http://en.pangu.io/help.html)
+- The latest version of [Pangu](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.og)_
 - The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
 
 ![]({{ "/assets/images/altdeploy.png" | absolute_url }})
