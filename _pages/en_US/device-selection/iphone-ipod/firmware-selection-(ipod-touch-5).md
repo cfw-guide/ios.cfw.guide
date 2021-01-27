@@ -39,14 +39,14 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>Coming Soon</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold">8.4.1</td>
-      <td style="text-align: center; font-weight: bold">8.4.1</td>
+      <td>8.4.1</td>
+      <td>8.4.1</td>
       <td><a href="installing-etasonjb">Installing EtasonJB</a></td>
     </tr>
     <tr>
       <td>9.0</td>
       <td>9.0.2</td>
-      <td><a href="updating-to-9-3-5">Updating to 9.3.5</a></td>
+      <td>Coming Soon</td>
     </tr>
     <tr>
       <td>9.1</td>
@@ -55,7 +55,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>9.3.5</td>
-        <td>9.3.5</td>
+	   <td>9.3.5</td>
       <td><a href="installing-phoenix">Installing Phœnix</a></td>
     </tr>
   </tbody>
