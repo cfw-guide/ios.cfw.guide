@@ -55,7 +55,7 @@ If you're migrating from unc0ver to checkra1n, you must follow [Removing unc0ver
   - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
 
-Your iOS device should reboot. Do not open the checkra1n app until you have ran the odysseyra1n script.
+Your iOS device should reboot. Do not open the checkra1n app until you have ran the Odysseyra1n script.
 
 ## Installing checkra1n (Linux)
 
@@ -67,9 +67,9 @@ Your iOS device should reboot. Do not open the checkra1n app until you have ran 
   - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
 
-Your iOS device should reboot. Do not open the checkra1n app until you have ran the odysseyra1n script.
+Your iOS device should reboot. Do not open the checkra1n app until you have ran the Odysseyra1n script.
 
-## The odysseyra1n script
+## The Odysseyra1n script
 
 1. Open the terminal app on your computer
 1. Ensure that your computer is trusted by your device
