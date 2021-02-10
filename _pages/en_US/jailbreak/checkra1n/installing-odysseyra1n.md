@@ -49,10 +49,10 @@ Please select your operating system below:
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">macOS</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Linux</button>
 
-{% capture a-instructions %}{% include_relative include/ra1n-macos.md %}{% endcapture %}
+{% capture a-instructions %}{% include_relative ra1n-macos.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative include/ra1n-linux.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative ra1n-linux.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
 <script>
