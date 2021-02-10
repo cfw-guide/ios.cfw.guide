@@ -46,7 +46,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.0</td>
       <td>{% include latestfw %}</td>
-      <td><a href="installing-checkra1n">Installing checkra1n</a></td>
+      <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
      </tr>
   </tbody>
 </table>
