@@ -22,4 +22,4 @@ Your iOS device should reboot. Do not open the checkra1n app until you have ran 
 
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
 
-{% include_relative include/end-of-page.md %}
+{% include_relative end-of-page.md %}
