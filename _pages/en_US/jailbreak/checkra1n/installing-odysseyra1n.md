@@ -1,30 +1,36 @@
 ---
-title: Installing checkra1n
-permalink: /installing-checkra1n
+title: Installing Odysseyra1n
+permalink: /installing-odysseyra1n
 redirect_from:
+  - /ra1n
+  - /installing-odysseyrain
+  - /odysseyra1n
+  - /odysseyrain
+  - /or
+  - /installing-checkra1n
   - /installing-checkrain
   - /checkra1n
   - /checkrain
   - /cr
-excerpt: Guide to installing Checkra1n
+excerpt: Guide to installing Odysseyra1n
 ---
 <link rel="shortcut icon" type="image/png" href="/assets/images/jb/checkra1n.png">
 
 {% include toc title="Table of Contents" %}
 
-You are currently not running a macOS or Linux device and checkra1n will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
+You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
 {: .notice--danger #hide_os #hide_mobile }
 
 <script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
 
-On iOS 14.0 - 14.4, checkra1n is only fully supported on A8(X) to A10(X) devices for the moment. Full A11 support will be added a future date.
+On iOS 14.0 - 14.4, Odysseyra1n is only fully supported on A8(X) to A10(X) devices for the moment. Full A11 support will be added a future date.
 {: .notice--info}
 
 {% include_relative include/semi-tethered.md %}
 
-checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
+checkra1n is a tool capable of jailbreaking millions of iOS device on firmwares 12.0 and above. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
 
-{% include_relative include/package-manager.md %}
+{% include_relative include/odysseyra1n-explanation.md %}
 
 If you are using Windows, proceed to [Using odysseyn1x](/using-odysseyn1x).
 {: .notice--primary #hide_os }
