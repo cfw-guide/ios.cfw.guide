@@ -24,7 +24,7 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 
 {% include_relative include/odysseyra1n-explanation.md %}
 
-## Downloads
+## Requirements
 
 - 512MB or greater USB Drive
 - The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases){:target="_blank"}

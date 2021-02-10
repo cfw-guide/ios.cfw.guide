@@ -16,8 +16,6 @@ excerpt: Guide to installing Odysseyra1n
 ---
 <link rel="shortcut icon" type="image/png" href="/assets/images/jb/checkra1n.png">
 
-{% include toc title="Table of Contents" %}
-
 You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
 {: .notice--danger #hide_os #hide_mobile }
 
@@ -44,43 +42,55 @@ If you are using Windows, proceed to [Using odysseyn1x](/using-odysseyn1x).
 If you're migrating from unc0ver to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
 {: .notice--textbox}
 
-## Installing checkra1n (macOS)
+---
 
-1. Open checkra1n on your computer
-1. Plug your iOS device into your computer
-1. Click `Start` -> `Next` on checkra1n
-  - Your device will be put into recovery mode automatically
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
-  - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
-  - Follow the instructions until your device shows a black screen
-1. After this, checkra1n should automatically install
+Please select your operating system below:
 
-Your iOS device should reboot. Do not open the checkra1n app until you have ran the Odysseyra1n script.
+<button class="btn btn--large btn--info" id="abtn" onclick="showa()">macOS</button>
+<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Linux</button>
 
-## Installing checkra1n (Linux)
+{% capture a-instructions %}{% include_relative include/ra1n-macos.md %}{% endcapture %}
+<div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-1. Run the `checkra1n` binary in the terminal using `./checkra1n`
-  - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
-1. Click `Start` and follow all onscreen prompts
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
-  - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
-  - Follow the instructions until your device shows a black screen
-1. After this, checkra1n should automatically install
+{% capture b-instructions %}{% include_relative include/ra1n-linux.md %}{% endcapture %}
+<div id="binstr">{{ b-instructions | markdownify }}</div>
 
-Your iOS device should reboot. Do not open the checkra1n app until you have ran the Odysseyra1n script.
+<script>
+  var a = document.getElementById("ainstr");
+  var abtn = document.getElementById("abtn");
+  var aclr = "btn--white"
 
-## The Odysseyra1n script
+  var b = document.getElementById("binstr");
+  var bbtn = document.getElementById("bbtn");
+  var bclr = "btn--facebook"
 
-1. Open the terminal app on your computer
-1. Ensure that your computer is trusted by your device
-1. If you are on macOS, install "homebrew" by pasting and executing the following command:
+  var clr = "btn--info"
 
-    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-1. Install "iproxy" through the terminal
-  - macOS: `brew install libusbmuxd`
-  - Linux: `sudo apt install libusbmuxd-tools`
-1. Paste and execute the following command:
+  a.style.display = "block";
+  b.style.display = "none";
 
-    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
+  abtn.classList.remove("btn--info");
+  abtn.classList.add(aclr);
 
-{% include_relative include/end-of-page.md %}
+  function showa() {
+    a.style.display = "block";
+    b.style.display = "none";
+
+    abtn.classList.remove(clr);
+    bbtn.classList.add(clr);
+
+    abtn.classList.add(aclr);
+    bbtn.classList.remove(bclr);
+  }
+
+  function showb() {
+    a.style.display = "none";
+    b.style.display = "block";
+
+    abtn.classList.add(clr);
+    bbtn.classList.remove(clr);
+
+    abtn.classList.remove(aclr);
+    bbtn.classList.add(bclr);
+  }
+</script>
