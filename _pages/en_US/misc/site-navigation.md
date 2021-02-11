@@ -8,7 +8,7 @@ permalink: /site-navigation
 {% capture notice-1 %}
 **Jailbreaks**
 
-+ [Installing checkra1n](installing-checkra1n)
++ [Installing Odysseyra1n](installing-odysseyra1n)
 + [Installing Odyssey](installing-odyssey)
 + [Installing Chimera](installing-chimera)
 + [Installing Electra](installing-electra)
