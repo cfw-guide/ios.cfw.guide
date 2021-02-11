@@ -58,7 +58,7 @@ Please select your operating system below:
 <script>
   var a = document.getElementById("ainstr");
   var abtn = document.getElementById("abtn");
-  var aclr = "btn--white"
+  var aclr = "btn--inverse"
 
   var b = document.getElementById("binstr");
   var bbtn = document.getElementById("bbtn");
