@@ -35,7 +35,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>12.1</td>
-      <td>12.1.1</td>
+      <td>12.1.2</td>
       <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
@@ -50,10 +50,14 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>14.0</td>
+      <td>14.3</td>
+      <td colspan="2">Coming Soon</td>
+     </tr>
+	<tr>
+      <td>{% include latestfw %}</td>
       <td>{% include latestfw %}</td>
       <td colspan="2">--</td>
      </tr>
-
   </tbody>
 </table>
 
