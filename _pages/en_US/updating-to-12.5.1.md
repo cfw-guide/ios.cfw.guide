@@ -10,7 +10,7 @@ redirect_from:
 
 ## Required Reading
 
-Checkra1n and Chimera are both compatible with the latest signed version of iOS, 12.5.1, for A7/A8.
+Odysseyra1n and Chimera are both compatible with the latest signed version of iOS, 12.5.1, for A7 and most A8 devices.
 {: .notice--primary}
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
