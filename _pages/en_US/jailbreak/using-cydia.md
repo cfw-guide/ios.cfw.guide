@@ -10,7 +10,7 @@ excerpt: Guide to using Cydia
 
 ## Introduction
 
-Cydia is incredibly outdated. If you are using Electra, Chimera, Odyssey, or Checkra1n, please consider using [Sileo](sileo){:target="_blank"}
+Cydia is incredibly outdated. If you are using Electra, Chimera, Odyssey, or Odysseyra1n, please consider using [Sileo](sileo){:target="_blank"}
 {: .notice--info}
 
 Cydia is a package manager that has been used since the start of jailbreaking in 2008. It can be used to install tweaks and themes.
@@ -43,7 +43,7 @@ You can now enter the repo from this page to see all the tweaks available on it.
 1. Tap the red icon next to the repo you want to delete
 1. Confirm the deletion
 
-The repo should now be removed from Sileo.
+The repo should now be removed from Cydia.
 {:.notice--textbox}
 
 ## Installing Tweaks
