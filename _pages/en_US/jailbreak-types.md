@@ -43,11 +43,11 @@ Semi-untethered jailbreaks have been the most popular type of jailbreak in recen
 
 <img src="{{ "/assets/images/odysseymain.png" | absolute_url }}" width="250" class="align-right"/>
 
-This jailbreak works by running the exploit through an app on the device itself. The app, however, must be resigned every 7 days if sideloaded with a standard Apple ID. Utilities like AltStore and ReProvision make this process far easier.
+This jailbreak works by running the exploit through an app on the device itself. The app, however, must be resigned every 7 days if sideloaded with a standard Apple ID. Utilities like AltStore, ReProvisionFix, and AltDaemon make this process far easier.
 
 Due to the nature of how the exploit is applied, these jailbreaks are easily removable through their respective app.
 
-A few examples of semi-untethered jailbreaks include [Odyssey](installing-odyssey), [Chimera](installing-chimera), [Electra](installing-electra), and [unc0ver](installing-unc0ver).
+A few examples of semi-untethered jailbreaks include [Odyssey](installing-odyssey), [Chimera](installing-chimera), and [Electra](installing-electra).
 
 ### Semi-Tethered Jailbreaks
 ---
@@ -58,7 +58,7 @@ Semi-tethered jailbreaks are very similar to semi-unthered jailbreaks, however t
 
 Due to requiring a computer to rejailbreak after every reboot, most choose to use a semi-untethered jailbreak instead.
 
-An example of a semi-tethered jailbreak is [checkra1n](installing-checkra1n).
+An example of a semi-tethered jailbreak is [Odysseyra1n](installing-odysseyra1n).
 
 ### Tethered Jailbreaks
 ---
