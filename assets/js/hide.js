@@ -2,8 +2,14 @@
     {
         let hideOS     = document.getElementById("hide_os").style;
         let hideMobile = document.getElementById("hide_os").style;
+        let plat       = navigator.platform
+        
+        if (!plat) {
+            hideOS.display     = "none";
+            hideMobile.display = "none";
+        }
 
-        switch(navigator.platform) {
+        switch(plat) {
             /* desktop operation systems */
             case "MacIntel":
                 hideOS.display = "none";
