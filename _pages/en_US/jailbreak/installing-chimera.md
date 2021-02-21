@@ -59,12 +59,14 @@ The Chimera application can now be opened from home screen.
 1. Open the Chimera application from your home screen immediately afterwards
 1. Tap "Jailbreak"
 1. Reboot your phone again when prompted
+  - If you are not prompted and it automatically reboots, wait 1-2 minutes, then try again.
   - This time, it is necessary
 1. Once again, open the Chimera application from your home screen immediately after rebooting
 1. Tap "Jailbreak" again
+  - If it automatically reboots or crashes and the jailbreak is not installed, wait 1-2 minutes, then try again.
 
-If that app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
-{:.notice--danger}
+If that app or your device continually crashes/restarts unexpectedly and the jailbreak isn't installed despite the above steps, attempt to put the device in a freezer for that 1-2 minute period.
+{:.notice--info}
 
 You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install [tweaks](faq#tweaks), themes and more.
 

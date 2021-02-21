@@ -60,7 +60,7 @@ If I forgot you here, contact me and I'll add your name.
   + patricck88
   + pharzyn
   + Kabir Oberai
-  + TheMasterOfMike
+  + MasterOfMike
   + Aspen
   + Steckler (atoiletcat)
   + Cimmerian_Iter
