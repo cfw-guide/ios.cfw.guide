@@ -54,7 +54,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-unc0ver">Installing unc0ver</td>
      </tr>
 	<tr>
-      <td>{% include latestfw %}</td>
+      <td>14.4</td>
       <td>{% include latestfw %}</td>
       <td>--</td>
      </tr>
