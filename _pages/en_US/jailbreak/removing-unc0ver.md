@@ -21,7 +21,7 @@ This guide is useful for people who want to install checkra1n, as it requires th
 If you're proceeding to installing checkra1n, we recommend making a system backup through iTunes or Finder (macOS Catalina and newer) after you remove unc0ver.
 {: .notice--success}
 
-## Installing the application
+## Uninstalling
 
 1. Open the unc0ver application
 1. Tap on the settings icon in the top right-hand corner
@@ -35,5 +35,5 @@ If you're proceeding to installing checkra1n, we recommend making a system backu
   - If it fails, try again from the beginning
 1. When finished, tap `OK` again and your device will restart
 
-You are now free to jailbreak with [checkra1n](installing-checkra1n), [Electra](installing-electra), [Chimera](installing-chimera), or [Odyssey](installing-odyssey)
+unc0ver should now be uninstalled leaving you safe to install any other jailbreak.
 {: .notice--info}
