@@ -12,17 +12,14 @@ excerpt: Guide to installing unc0ver
 
 {% include toc title="Table of Contents" %}
 
-Unless you are using an A12 device on iOS 12.1.3 - 12.4.1, using an A8-A10(X) device on 14.0-14.3 and only have a Windows computer, or are using an A11+ device on 14.0-14.3, you **should not** be following this page. Better options are now available for most devices/versions, which have superseded unc0ver to the extent where the guide is only recommended and will only contain references to the applicable devices/versions, which are listed on each devices page at [Get Started](get-started).
-{:.notice--danger}
+Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend to wait until a more stable option is available before jailbreaking.
+{: .notice--danger}
 
-unc0ver currently has an extreme amount of instability issues, as a result it is highly recommended to wait for better options or unc0ver to be updated a couple of times before attempting to jailbreak, A8-A10(X) users on Windows can use [Odysseyn1x](using-odysseyn1x] as an alternative.
-{:.notice--danger}
-
-unc0ver, by default, disables Over-the-Air updates upon initially jailbreaking, we recommend disabling this (which the guide does) for it has the potential to completely break your OTA updates even after updating to a newer iOS version using iTunes
-{:.notice--danger}
+If you use a device with an A8-A10(X) SOC, we recommend using [Odysseyra1n](/installing-odysseyra1n) or [Odysseyn1x](using-odysseyn1x) instead.
+{: .notice--primary}
 
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
-{:.notice--info}
+{: .notice--info}
 
 unc0ver is capable of jailbreaking every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available
 
@@ -62,7 +59,12 @@ The unc0ver application can now be opened from home screen.
 1. Reboot your phone
   - This is not necessary but recommended
 1. Open the unc0ver application from your home screen immediately afterwards
+  - If unc0ver warns you that the app has been tampered with, reinstall unc0ver via AltStore
 1. Open the settings menu and disable the `Disable Auto Updates` toggle
+
+	unc0ver disables Over-The-Air updates on default, however it's recommended to toggle this as it can cause issues when updating manually if not disabled.
+	{: .notice--warning}
+	
 1. Tap "Done"
 1. Tap "Jailbreak"
 1. Reboot your phone when prompted
@@ -70,10 +72,7 @@ The unc0ver application can now be opened from home screen.
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
-{:.notice--danger}
-
-If unc0ver warns you that the app has been tampered with, reinstall unc0ver via AltStore
-{:.notice--danger}
+{:.notice--info}
 
 If you receive the error `rootFS already mounted, delete the OTA update`, read the [Troubleshooting](troubleshooting#rootfs_u0) page
 
