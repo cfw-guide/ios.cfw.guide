@@ -54,7 +54,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.4</td>
       <td>{% include latestfw %}</td>
-      <td colspan="2"><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
+      <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
+      <td><a href="installing-odysseyn1x">Installing Odysseyn1x</a></td>
     </tr>
   </tbody>
 </table>
