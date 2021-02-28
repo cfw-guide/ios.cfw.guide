@@ -12,7 +12,7 @@ excerpt: Guide to installing unc0ver
 
 {% include toc title="Table of Contents" %}
 
-Unless you are using an A12 device on iOS 12.1.3 - 12.4.1, using an A8-A10(X) device on 14.0-14.3 and only have a Windows computer, or an A11 device on 14.0-14.3, you **should not** be following this page. Better options are now available for most devices/versions, which have superseded unc0ver to the extent where the guide is only recommended and will only contain references to the applicable devices/versions, which are listed on each devices page at [Get Started](get-started).
+Unless you are using an A12 device on iOS 12.1.3 - 12.4.1, using an A8-A10(X) device on 14.0-14.3 and only have a Windows computer, or are using an A11+ device on 14.0-14.3, you **should not** be following this page. Better options are now available for most devices/versions, which have superseded unc0ver to the extent where the guide is only recommended and will only contain references to the applicable devices/versions, which are listed on each devices page at [Get Started](get-started).
 {:.notice--danger}
 
 unc0ver currently has an extreme amount of instability issues, as a result it is highly recommended to wait for better options or unc0ver to be updated a couple of times before attempting to jailbreak, A8-A10(X) users on Windows can use [Odysseyn1x](using-odysseyn1x] as an alternative.
