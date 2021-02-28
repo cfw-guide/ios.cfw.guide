@@ -12,6 +12,8 @@ excerpt: Guide to installing unc0ver
 
 {% include toc title="Table of Contents" %}
 
+<meta property="og:image" content="/assets/images/cydia_picture.jpg">
+
 Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend to wait until a more stable option is available before jailbreaking.
 {: .notice--danger}
 
