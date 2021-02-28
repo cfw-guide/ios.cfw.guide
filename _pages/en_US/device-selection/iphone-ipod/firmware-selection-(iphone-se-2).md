@@ -47,7 +47,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.4</td>
       <td>{% include latestfw %}</td>
-      <td colspan="2">--</td>
+      <td>--</td>
     </tr>
   </tbody>
 </table>
