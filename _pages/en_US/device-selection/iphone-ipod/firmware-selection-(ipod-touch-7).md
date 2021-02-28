@@ -31,7 +31,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>MacOS/Linux</th>
+      <th>macOS/Linux</th>
       <th>Windows</th>
     </tr>
   </thead>
@@ -50,13 +50,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>13.5.1</td>
       <td>14.3</td>
       <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
-	  <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-     </tr>
-	 <tr>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
       <td>14.4</td>
-      <td>14.4</td>
+      <td>{% include latestfw %}</td>
       <td colspan="2"><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
-	 </tr>
+    </tr>
   </tbody>
 </table>
 
