@@ -32,13 +32,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.0</td>
       <td>14.3</td>
-      <td colspan="2">Coming Soon</td>
-     </tr>
-	<tr>
+      <td>Coming Soon</td>
+    </tr>
+    <tr>
+      <td>14.4</td>
       <td>{% include latestfw %}</td>
-      <td>{% include latestfw %}</td>
-      <td colspan="2">--</td>
-     </tr>
+      <td>--</td>
+    </tr>
   </tbody>
 </table>
 
