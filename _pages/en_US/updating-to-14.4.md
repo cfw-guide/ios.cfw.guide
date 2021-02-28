@@ -8,7 +8,7 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-Take caution with updating as checkra1n only supports A8(X) to A10(X) on iOS 14.4 at this time.
+Take caution with updating as Odysseyra1n only supports A8(X) to A10(X) on iOS 14.4 at this time.
 
 ## Required Reading
 
