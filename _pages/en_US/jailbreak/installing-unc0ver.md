@@ -31,7 +31,7 @@ We will use the AltStore tool to install the unc0ver jailbreak application to yo
 
 ## Downloads
 
-- The latest version of [unc0ver](https://github.com/pwn20wndstuff/Undecimus/releases)
+- The latest version of [unc0ver](https://unc0ver.dev/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
