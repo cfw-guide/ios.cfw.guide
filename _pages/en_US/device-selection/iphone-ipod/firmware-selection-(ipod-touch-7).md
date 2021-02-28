@@ -20,7 +20,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
 ## Version Table
 
 <table class="version_table">
-<table class="version_table">
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
