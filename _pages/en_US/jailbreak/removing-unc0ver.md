@@ -11,6 +11,9 @@ excerpt: Guide to removing unc0ver
 
 {% include toc title="Table of Contents" %}
 
+Currently, unc0ver Restore RootFS is broken on 14.0 - 14.3, as a result, you will not be able to follow this guide currently if on the aforementioned iOS versions.
+{: .notice--info}
+
 Uninstalling a jailbreak isn't as simple as deleting the app. When you uninstall unc0ver, you need to go in the app and restore parts of the OS to how they were before your device was jailbroken.
 
 This guide is useful for people who want to install checkra1n, as it requires that unc0ver is removed first, or just people who want to unjailbreak their device.

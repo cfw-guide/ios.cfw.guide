@@ -20,34 +20,43 @@ Your device version can be found in the Settings application in `General` -> `Ab
 ## Version Table
 
 <table class="version_table">
+<table class="version_table">
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>macOS/Linux</th>
+      <th>Windows</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>12.3</td>
       <td>12.4.1</td>
-      <td><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td>13.0</td>
-      <td>13.7</td>
-      <td><a href="installing-odyssey">Installing Odyssey</a></td>
+      <td>13.5</td>
+      <td colspan="2"><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
-      <td>14.0</td>
-      <td>{% include latestfw %}</td>
+      <td>13.5.1</td>
+      <td>14.3</td>
       <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
-     </tr>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>14.4</td>
+      <td>{% include latestfw %}</td>
+      <td colspan="2"><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
+    </tr>
   </tbody>
 </table>
 

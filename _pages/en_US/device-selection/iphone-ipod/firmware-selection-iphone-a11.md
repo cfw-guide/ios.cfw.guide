@@ -39,16 +39,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>13.7</td>
       <td><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
-     <tr>
+    <tr>
       <td>14.0</td>
       <td>14.3</td>
-      <td colspan="2">Coming Soon</td>
-     </tr>
-	<tr>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>14.4</td>
       <td>{% include latestfw %}</td>
-      <td>{% include latestfw %}</td>
-      <td colspan="2">--</td>
-     </tr>
+      <td>--</td>
+    </tr>
   </tbody>
 </table>
 

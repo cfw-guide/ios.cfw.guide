@@ -23,26 +23,35 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>macOS/Linux</th>
+      <th>Windows</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>13.1</td>
       <td>13.7</td>
-      <td><a href="installing-odyssey">Installing Odyssey</a></td>
+      <td colspan="2"><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
       <td>14.0</td>
+      <td>14.3</td>
+      <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+     </tr>
+     <tr>
+      <td>14.4</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
-     </tr>
+      <td><a href="installing-odysseyn1x">Installing Odysseyn1x</a></td>
+    </tr>
   </tbody>
 </table>
 

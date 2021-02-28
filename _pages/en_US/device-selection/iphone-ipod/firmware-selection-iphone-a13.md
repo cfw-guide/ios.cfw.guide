@@ -31,10 +31,14 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>14.0</td>
-      <td>{% include latestfw %}</td>
-      <td colspan="2">--</td>
+      <td>14.3</td>
+      <td>Coming Soon</td>
     </tr>
-
+    <tr>
+      <td>14.4</td>
+      <td>{% include latestfw %}</td>
+      <td>--</td>
+    </tr>
   </tbody>
 </table>
 
