@@ -265,3 +265,49 @@ rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
 
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
 rubiconproject.com, 17820, DIRECT, 0bfd66d529a55807
+adagio.io, 1102, DIRECT
+rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
+pubmatic.com, 159110, RESELLER, 5d62403b186f2ace
+improvedigital.com, 1790, RESELLER
+quantumdex.io, EXU5930, RESELLER
+interdogmedia.com, EXU5930, RESELLER
+apacdex.com, EXU5930, RESELLER
+onetag.com, 2bb78272a859ca6, DIRECT
+appnexus.com, 11711, DIRECT, f5ab79cb980f11d1
+33across.com, 0010b00002GYEhcAAH, DIRECT, bbea06d9c4d2853c
+rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
+appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
+adtech.com, 12094, RESELLER
+aol.com, 47594, RESELLER, e1a5b5b6e3255540
+indexexchange.com, 183635, RESELLER, 50b1c356f2c5c8fc
+openx.com, 537120563, RESELLER, 6a698e2ec38604c6
+openx.com, 540995201, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
+advangelists.com, 8d3bba7425e7c98c50f52ca1b52d3735, RESELLER, 60d26397ec060f98
+yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
+pubmatic.com, 157940, RESELLER, 5d62403b186f2ace
+sovrn.com, 278426, DIRECT, fafdf38b16bf6b2b
+lijit.com, 278426, DIRECT, fafdf38b16bf6b2b
+lijit.com, 278426-eb, DIRECT, fafdf38b16bf6b2b
+appnexus.com, 1360, RESELLER, f5ab79cb980f11d1
+gumgum.com, 11645, RESELLER, ffdef49475d318a9
+openx.com, 538959099, RESELLER, 6a698e2ec38604c6
+openx.com, 539924617, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156700, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
+appnexus.com, 10273, RESELLER, f5ab79cb980f11d1
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 192922, RESELLER, 50b1c356f2c5c8fc
+appnexus.com, 11395, RESELLER, f5ab79cb980f11d1
+appnexus.com, 10273, RESELLER, f5ab79cb980f11d1
+sonobi.com, f5d517e1b9, RESELLER, d1a215d9eb5aee9e
+yahoo.com, 58754, RESELLER, e1a5b5b6e3255540
+advertising.com, 28643, RESELLER #VerizonVideo
