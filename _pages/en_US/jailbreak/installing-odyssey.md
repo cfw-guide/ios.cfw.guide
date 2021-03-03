@@ -48,7 +48,7 @@ The Odyssey application can now be opened from home screen.
 
 ## Running Odyssey
 
-Users with iPhone 7 &#124; 7 Plus devices on iOS 13.0 - 13.5 should follow [the iPhone 7 &#124; 7 Plus section of this guide](#running-odyssey-iphone-7--7-plus)
+Users with iPhone 7 / 7 Plus devices on iOS 13.0 - 13.5 should follow [the iPhone 7 / 7 Plus section of this guide](#running-odyssey-iphone-7--7-plus)
 {: .notice--info}
 
 1. Reboot your phone
@@ -56,7 +56,7 @@ Users with iPhone 7 &#124; 7 Plus devices on iOS 13.0 - 13.5 should follow [the 
 1. Open the Odyssey application from your home screen immediately afterwards
 1. Tap "Jailbreak"
 
-## Running Odyssey (iPhone 7 &#124; 7 Plus)
+## Running Odyssey (iPhone 7 / 7 Plus)
 
 Note that these instructions will only work for you if your device is on iOS 13.0 - 13.5
 {: .notice--info}
