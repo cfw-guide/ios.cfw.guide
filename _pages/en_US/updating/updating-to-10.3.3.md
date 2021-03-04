@@ -3,8 +3,6 @@ title: Updating to 10.3.3
 permalink: /updating-to-10-3-3
 ---
 
-{% include toc title="Table of Contents" %}
-
 ## Required Reading
 
 Unfortunately, there is currently no jailbreak available for firmware versions 8.4.1 or 9.3.4 to 9.3.5 on 64-bit devices. However devices, such as the iPhone 5S, can update to 10.3.3 and use the Meridian jailbreak instead.

@@ -11,9 +11,9 @@ redirect_from:
   - /sideload
   - /sideloading
 excerpt: Guide to using resigning your apps with or without a computer
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

@@ -16,9 +16,8 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <section class="page__content" itemprop="text">
-      {% assign split_path = page.path | split: "/" %}
+        {% assign split_path = page.path | split: "/" %}
       {% assign locale = split_path[1] %}
-
       {% for link in site.data.navigation[locale].bottom %}
         {% if link.url contains 'http' %}
           {% assign domain = '' %}
@@ -27,20 +26,17 @@ layout: default
         {% endif %}
         <div class ="notice">{{ link.title }}</div>
       {% endfor %}
-
       <hr>
-
       {{ content }}
     </section>
   </article>
 
   <hr>
-
-  <center>
-      <!-- 728x90/970x90/320x50 -->
-      <div id="waldo-tag-8541"></div>
-      <hr>
-      <!-- 728x90/970x90/320x50 -->
-      <div id="waldo-tag-8542"></div>
-  </center>
+  <div style="text-align: center;">
+	<!-- 728x90/970x90/320x50 -->
+	<div id="waldo-tag-8541"></div>
+	<hr>
+	<!-- 728x90/970x90/320x50 -->
+	<div id="waldo-tag-8542"></div>
+  </div>
 </div>

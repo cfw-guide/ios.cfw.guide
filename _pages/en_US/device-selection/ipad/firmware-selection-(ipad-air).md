@@ -5,10 +5,10 @@ redirect_from:
   - /ipad-air
   - /ipad-air-1
 excerpt: Find out what jailbreaks you can use on your iPad Air
+sidebar:
+  nav: sidebar
 soc: A7
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

@@ -4,10 +4,10 @@ permalink: /firmware-selection-(ipad-air-3)
 redirect_from:
   - /ipad-air-3
 excerpt: Find out what jailbreaks you can use on your iPad Air 3rd Generation
+sidebar:
+  nav: sidebar
 soc: A12 Bionic
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

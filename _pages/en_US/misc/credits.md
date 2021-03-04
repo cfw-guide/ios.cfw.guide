@@ -2,6 +2,9 @@
 title: "Credits"
 permalink: /credits
 author_profile: true
+toc: false
+sidebar:
+  nav: sidebar
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">

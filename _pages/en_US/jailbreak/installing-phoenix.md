@@ -5,9 +5,9 @@ redirect_from:
   - /phoenix
   - /pn
 excerpt: Guide to installing Phoenix
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 Phœnix is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5.
 

@@ -5,9 +5,9 @@ redirect_from:
   - /blocking
   - /jailbreak-detection
 excerpt: Bypassing and avoiding jailbreak detection.
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 We do not recommend using banking apps on a jailbroken device. Use a separate secure device to access your bank account.
 {: .notice--danger}

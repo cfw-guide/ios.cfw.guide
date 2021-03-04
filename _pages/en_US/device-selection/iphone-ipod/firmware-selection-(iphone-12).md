@@ -4,6 +4,8 @@ permalink: /firmware-selection-(iphone-12)
 redirect_from:
   - /iphone-12
 excerpt: Find out what jailbreaks you can use on your iPhone 12
+sidebar:
+  nav: sidebar
 soc: A14 Bionic
 ---
 

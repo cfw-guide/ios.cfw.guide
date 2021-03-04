@@ -4,9 +4,9 @@ permalink: /types-of-jailbreak
 redirect_from:
   - /jailbreaks
 excerpt: Explanation on the different types of jailbreaks
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 Not all jailbreaks work in the same way. This page will take you through each type of jailbreak and explain how they work.
 

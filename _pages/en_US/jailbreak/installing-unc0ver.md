@@ -8,11 +8,9 @@ redirect_from:
   - /u0
   - /uo
 excerpt: Guide to installing unc0ver
+sidebar:
+  nav: ios1314
 ---
-
-{% include toc title="Table of Contents" %}
-
-<meta property="og:image" content="/assets/images/cydia_picture.jpg">
 
 Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend to wait until a more stable option is available before jailbreaking.
 {: .notice--danger}
@@ -66,7 +64,7 @@ The unc0ver application can now be opened from home screen.
 
 	unc0ver disables Over-The-Air updates on default, however it's recommended to toggle this as it can cause issues when updating manually if not disabled.
 	{: .notice--warning}
-	
+
 1. Tap "Done"
 1. Tap "Jailbreak"
 1. Reboot your phone when prompted

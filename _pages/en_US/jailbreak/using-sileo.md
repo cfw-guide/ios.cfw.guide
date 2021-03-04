@@ -4,9 +4,9 @@ permalink: /using-sileo
 redirect_from:
   - /sileo
 excerpt: Guide to using Sileo
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

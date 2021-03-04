@@ -4,9 +4,9 @@ permalink: /package-managers
 redirect_from:
   - /pkgman
 excerpt: Information on the current package managers available to use
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 After jailbreaking, you may be wondering what a package manager is, and why it's necessary to have one.
 

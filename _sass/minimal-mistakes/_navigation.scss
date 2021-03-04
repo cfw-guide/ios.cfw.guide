@@ -168,160 +168,160 @@
      Priority plus navigation
      ========================================================================== */
 
-     .greedy-nav {
-       position: relative;
-       display: -webkit-box;
-       display: flex;
-       -webkit-box-align: center;
-             align-items: center;
-       background: $background-color;
+.greedy-nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: $nav-height;
+  background: $background-color;
 
-       a {
-         display: block;
-         margin: 0 1rem;
-         padding: 0.5rem 0;
-         color: $masthead-link-color;
-         text-decoration: none;
+  a {
+    display: block;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    color: $masthead-link-color;
+    text-decoration: none;
+    -webkit-transition: none;
+    transition: none;
 
-         &:hover {
-           color: $masthead-link-color-hover;
-         }
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
 
-         &.site-title {
-           margin-left: 0;
-         }
-       }
+    &.site-logo {
+      margin-left: 0;
+      margin-right: 0.5rem;
+    }
 
-       button {
-         padding: 0 0.5rem;
-         align-self: stretch;
-         border: 0;
-         outline: none;
-         color: #fff;
-         background: transparent;
-         cursor: pointer;
-       }
+    &.site-title {
+      margin-left: 0;
+    }
+  }
 
-       .visible-links {
-         margin-left: 1em;
-         display: -webkit-box;
-         display: flex;
-         -webkit-box-pack: end;
-         -webkit-box-flex: 1;
-                     flex: 1;
-         padding-right: 2rem;
-         overflow: hidden;
+  img{
+    -webkit-transition: none;
+    transition: none;
+  }
 
-         li {
-           -webkit-box-flex: 0;
-                       flex: none;
+  &__toggle {
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: $nav-toggle-height;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
 
-           &:first-child {
-             a {
-               margin-left: 0;
-             }
-           }
-           &:last-child {
-             a {
-               margin-right: 0;
-             }
-           }
-         }
+  .visible-links {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-box-flex: 1;
+                flex: 1;
+    padding-right: 2rem;
+    overflow: hidden;
 
-         a {
-           position: relative;
+    li {
+      -webkit-box-flex: 0;
+      -ms-flex: none;
+      flex: none;
+    }
 
-           &:before {
-             content: "";
-             position: absolute;
-             left: 0;
-             bottom: 0;
-             height: 4px;
-             background: $primary-color;
-             width: 100%;
-             -webkit-transition: $global-transition;
-             transition: $global-transition;
-             -webkit-transform: scaleX(0) translate3d(0, 0 , 0);
-                     transform: scaleX(0) translate3d(0, 0 , 0); /* hide*/
-           }
+    a {
+      position: relative;
 
-           &:hover:before {
-             -webkit-transform: scaleX(1);
-                     -ms-transform: scaleX(1);
-                 transform: scaleX(1); /* reveal*/
-           }
-         }
-       }
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        background: $primary-color;
+        width: 100%;
+        -webkit-transition: $global-transition;
+        transition: $global-transition;
+        -webkit-transform: scaleX(0) translate3d(0, 0, 0);
+        transform: scaleX(0) translate3d(0, 0, 0); // hide
+      }
 
-       .links-menu{
-         right: 0.5rem;
-       }
+      &:hover:before {
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1); // reveal
+      }
+    }
+  }
 
-       .lang-menu{
-         right: .2rem;
-       }
+  .hidden-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: $background-color;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
+      0 2px 10px 0 rgba(#000, 0.12);
+    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
 
-       .hidden-links {
-         position: absolute;
-         top: 100%;
-         margin-top: 15px;
-         padding: 5px;
-         border: 1px solid $border-color;
-         border-radius: $border-radius;
-         background: $background-color;
-         box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+    &.hidden {
+      display: none;
+    }
 
-         &.hidden {
-           display: none;
-         }
+    a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-5;
 
-         a {
-           margin: 0;
-           padding: 10px 20px;
-           font-size: $type-size-5;
+      &:hover {
+        color: $masthead-link-color-hover;
+        background: $navicon-link-color-hover;
+        transition: 0.2s ease-out;
+      }
+    }
 
-           &:hover {
-             color: $masthead-link-color-hover;
-             background: $navicon-link-color-hover;
-           }
-         }
+    &:before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $border-color transparent;
+      display: block;
+      z-index: 0;
+    }
 
-         &:before {
-           content: "";
-           position: absolute;
-           top: -11px;
-           right: 5px;
-           width: 0;
-           border-style: solid;
-           border-width: 0 10px 10px;
-           border-color: $border-color transparent;
-           display: block;
-           z-index: 0;
-         }
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $background-color transparent;
+      display: block;
+      z-index: 1;
+    }
 
-         &:after {
-           content: "";
-           position: absolute;
-           top: -10px;
-           right: 5px;
-           width: 0;
-           border-style: solid;
-           border-width: 0 10px 10px;
-           border-color: $background-color transparent;
-           display: block;
-           z-index: 1;
-         }
+    li {
+      display: block;
+      border-bottom: 1px solid $border-color;
 
-         li {
-           display: block;
-           border-bottom: 1px solid $border-color;
-
-           &:last-child {
-             border-bottom: none;
-           }
-         }
-       }
-     }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
 
 .no-js {
   .greedy-nav {
@@ -496,77 +496,96 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  margin-bottom: 1em;
 }
 
 /*
-     Table of contents navigation
-     ========================================================================== */
+ Table of contents navigation
+ ========================================================================== */
 
-.toc {
-  font-family: $sans-serif-narrow;
-  color: $gray;
-  background-color: $background-color;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  -webkit-box-shadow: $box-shadow;
-  box-shadow: $box-shadow;
+ .toc {
+     font-family: $sans-serif-narrow;
+     color: $gray;
+     background-color: $background-color;
+     //border: 1px solid $border-color;
+     border-radius: $border-radius;
+     box-shadow: $box-shadow;
 
-  .nav__title {
-    color: #fff;
-    font-size: $type-size-6;
-    background: $primary-color;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
-  }
+     /*@include breakpoint($large) {
+         position: fixed;
+     }*/
 
-  // Scrollspy marks toc items as .active when they are in focus
-  .active a {
-    @include yiq-contrasted($active-color);
-  }
-}
+     .nav__title {
+       color: #fff;
+       font-size: $type-size-6;
+       background: $primary-color;
+       border-top-left-radius: $border-radius;
+       border-top-right-radius: $border-radius;
+       display: none;
+     }
+   }
 
-.toc__menu {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  list-style: none;
-  font-size: $type-size-6;
+   .toc__menu {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     list-style: none;
+     font-size: 1rem;
 
-  @include breakpoint($large) {
-    font-size: $type-size-7;
-  }
+     a {
+       display: block;
+       padding: 0.5rem .8rem;
+       color: $text-color;
+       font-size: $type-size-7;
+       font-weight: bold;
+       line-height: 1.5;
+       //border-bottom: 1px solid $border-color;
+     }
 
-  a {
-    display: block;
-    padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
-    font-weight: bold;
-    line-height: 1.5;
-    border-bottom: 1px solid $border-color;
+     li {
+         margin-bottom: .6em;
+         a {
+             background-color: $info-color;
+             border-left: 3px solid mix(#fff, $info-color, 40%);
+         }
 
-    &:hover {
-      color: $text-color;
+         a:hover {
+             background-color: mix(#000, $info-color, 15%);
+             text-decoration: none !important;
+         }
+     }
+
+     /*> li:last-child {
+       a {
+         border-bottom: none;
+       }
+   }*/
+
+    li ul {
+        > li {
+          a {
+            margin-left: 1rem;
+            font-weight: normal;
+            background-color: mix(#000, $info-color, 20%);
+            border-left: 3px solid mix(#fff, $info-color, 30%);
+          }
+
+          a:hover {
+            background-color: mix(#000, mix(#000, $info-color, 20%), 15%);
+          }
+        }
+
+        > li:first-child {
+            margin-top: 0.6em;
+        }
     }
-  }
 
-  li ul > li a {
-    padding-left: 1.25rem;
-    font-weight: normal;
-  }
+     /* hide sub sub links on small screens*/
+     li > ul li {
+       display: none;
 
-  li ul li ul > li a {
-    padding-left: 1.75rem;
-  }
-
-  li ul li ul li ul > li a {
-    padding-left: 2.25rem;
-  }
-
-  li ul li ul li ul li ul > li a {
-    padding-left: 2.75rem;
-  }
-
-  li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
-  }
-}
+       @include breakpoint($medium) {
+         display: block;
+       }
+     }
+   }

@@ -1,5 +1,3 @@
-{% include toc title="Table of Contents" %}
-
 ## Required Reading
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.

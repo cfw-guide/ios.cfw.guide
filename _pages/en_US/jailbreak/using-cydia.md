@@ -4,9 +4,9 @@ permalink: /using-cydia
 redirect_from:
   - /cydia
 excerpt: Guide to using Cydia
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Introduction
 

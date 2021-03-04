@@ -6,9 +6,9 @@ redirect_from:
   - /pangu
   - /pg
 excerpt: Guide to installing Pangu933
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 Pangu is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
 

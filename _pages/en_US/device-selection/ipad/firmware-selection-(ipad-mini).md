@@ -5,10 +5,10 @@ redirect_from:
   - /ipad-mini
   - /ipad-mini-1
 excerpt: Find out what jailbreaks you can use on your iPad Mini
+sidebar:
+  nav: sidebar
 soc: A5
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

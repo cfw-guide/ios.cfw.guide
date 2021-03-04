@@ -4,10 +4,10 @@ permalink: /firmware-selection-(ipod-touch-6)
 redirect_from:
   - /ipod-touch-6
 excerpt: Find out what jailbreaks you can use on your iPod Touch 6th Generation
+sidebar:
+  nav: sidebar
 soc: A8
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

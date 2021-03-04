@@ -13,8 +13,9 @@ redirect_from:
   - /checkrain
   - /cr
 excerpt: Guide to installing Odysseyra1n
+sidebar:
+  nav: ios1314
 ---
-<link rel="shortcut icon" type="image/png" href="/assets/images/jb/checkra1n.png">
 
 You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
 {: .notice--danger #hide_os #hide_mobile }
@@ -66,8 +67,22 @@ Please select your operating system below:
 
   var clr = "btn--info"
 
+  var toc1 = document.getElementById("toc1");
+  var toc2 = document.getElementById("toc2");
+  var toc3 = document.getElementById("toc3");
+  var toc4 = document.getElementById("toc4");
+  var toc5 = document.getElementById("toc5");
+  var toc6 = document.getElementById("toc6");
+
   a.style.display = "block";
   b.style.display = "none";
+
+  toc1.style.display = "block";
+  toc2.style.display = "block";
+  toc3.style.display = "block";
+  toc4.style.display = "none";
+  toc5.style.display = "none";
+  toc6.style.display = "none";
 
   abtn.classList.remove("btn--info");
   abtn.classList.add(aclr);
@@ -81,6 +96,13 @@ Please select your operating system below:
 
     abtn.classList.add(aclr);
     bbtn.classList.remove(bclr);
+
+    toc1.style.display = "block";
+    toc2.style.display = "block";
+    toc3.style.display = "block";
+    toc4.style.display = "none";
+    toc5.style.display = "none";
+    toc6.style.display = "none";
   }
 
   function showb() {
@@ -92,5 +114,12 @@ Please select your operating system below:
 
     abtn.classList.remove(aclr);
     bbtn.classList.add(bclr);
+
+    toc1.style.display = "none";
+    toc2.style.display = "none";
+    toc3.style.display = "none";
+    toc4.style.display = "block";
+    toc5.style.display = "block";
+    toc6.style.display = "block";
   }
 </script>

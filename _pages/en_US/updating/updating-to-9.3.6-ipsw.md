@@ -3,8 +3,6 @@ title: Updating to 9.3.6 using iTunes/Finder
 permalink: /updating-to-9-3-6-ipsw
 ---
 
-{% include toc title="Table of Contents" %}
-
 ## Required Reading
 
 Unfortunately, there is currently no jailbreak available for firmware versions 4.3 to 4.3.2 and 4.3.4 to 4.3.5 on iPad 2 devices. However, this device can update to 9.3.6 and use the Phœnix jailbreak instead.

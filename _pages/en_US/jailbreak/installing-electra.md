@@ -5,9 +5,9 @@ redirect_from:
   - /electra
   - /el
 excerpt: Guide to installing Electra
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 Electra is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}

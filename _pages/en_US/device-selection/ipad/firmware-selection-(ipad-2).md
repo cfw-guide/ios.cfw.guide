@@ -4,10 +4,10 @@ permalink: /firmware-selection-(ipad-2)
 redirect_from:
   - /ipad-2
 excerpt: Find out what jailbreaks you can use on your iPad 2
+sidebar:
+  nav: sidebar
 soc: A5
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

@@ -208,7 +208,7 @@ body:hover .visually-hidden button {
   .fab,
   .far,
   .fal {
-    color: $text-color;
+    color: $text-color !important;
   }
 
   .fa-behance,
@@ -416,7 +416,7 @@ body:hover .visually-hidden button {
   .navicon,
   .navicon:before,
   .navicon:after {
-    background: mix(#000, $primary-color, 25%);
+    background: mix(#000, $text-color, 25%);
   }
 
   &.close {

@@ -4,10 +4,10 @@ permalink: /firmware-selection-(iphone-5c)
 redirect_from:
   - /iphone-5c
 excerpt: Find out what jailbreaks you can use on your iPhone 5C
+sidebar:
+  nav: sidebar
 soc: A6
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

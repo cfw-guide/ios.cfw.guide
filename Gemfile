@@ -1,4 +1,3 @@
 source "https://rubygems.org"
-gem 'jemoji'
-gem 'jekyll-redirect-from'
 gemspec
+gem "webrick", "~> 1.7"

@@ -6,9 +6,9 @@ redirect_from:
   - /meridian
   - /md
 excerpt: Guide to using Meridian
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 Meridian is capable of jailbreaking every 64-bit iOS device on firmware version 10.0 up to 10.3.3.
 

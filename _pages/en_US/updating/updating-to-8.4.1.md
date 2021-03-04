@@ -3,8 +3,6 @@ title: Updating to 8.4.1
 permalink: /updating-to-8-4-1
 ---
 
-{% include toc title="Table of Contents" %}
-
 ## Required Reading
 
 Unfortunately, there is currently no jailbreak available for firmware version 5.1 to on the iPad 3rd Generation. However, this device can update to 8.4.1 and use EtasonJB instead.
