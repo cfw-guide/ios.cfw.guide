@@ -12,9 +12,6 @@ excerpt: Guide to installing Odyssey
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-iPhone 7 &#124; 7 Plus devices on iOS 13.5.1 - 13.7 will not be able to use Odyssey in any reliable form. You should, instead, be following [checkra1n](/checkra1n)
-{: .notice--info}
-
 If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0)
 {:.notice--danger}
 
@@ -48,24 +45,17 @@ The Odyssey application can now be opened from home screen.
 
 ## Running Odyssey
 
-Users with iPhone 7 / 7 Plus devices on iOS 13.0 - 13.5 should follow [the iPhone 7 / 7 Plus section of this guide](#running-odyssey-iphone-7--7-plus)
-{: .notice--info}
+iPhone 7 and iPod Touch 7 devices on iOS 13.5.1 - 13.7 will not be able to use Odyssey in any reliable form. You should instead be using [Odysseyra1n](/odysseyra1n)
+{: .notice--warning}
 
 1. Reboot your phone
   - This is not necessary but recommended
 1. Open the Odyssey application from your home screen immediately afterwards
-1. Tap "Jailbreak"
-
-## Running Odyssey (iPhone 7 / 7 Plus)
-
-Note that these instructions will only work for you if your device is on iOS 13.0 - 13.5
-{: .notice--info}
-
-1. Reboot your phone
-  - This is not necessary but recommended
-1. Open the Odyssey application from your home screen immediately afterwards
-1. Switch to an anime theme
-1. Tap three times on the ⓘ icon
+1. If you are using an iPhone 7 or an iPod Touch 7:
+  - Tap `Settings` -> `Theme`
+  - Select `Azur Lane`
+  - Tap three times on the ⓘ icon
+  - After this, the exploit should be toggled
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
