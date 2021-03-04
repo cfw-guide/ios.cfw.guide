@@ -5,9 +5,9 @@ redirect_from:
   - /chimera
   - /cm
 excerpt: Guide to installing Chimera
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 If you have a newer device with an A12 SoC, such as the iPhone XS, you can only use Chimera on iOS 12.0 - 12.1.2.
 {: .notice--danger}

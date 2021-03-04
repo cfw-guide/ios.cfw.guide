@@ -1,15 +1,13 @@
 ---
-title: Updating to 9.3.5
-permalink: /updating-to-9-3-5
+title: Updating to 6.1.3
+permalink: /updating-to-6-1-3
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware versions 9.0 to 9.0.2 on 32-bit devices. However devices such as the iPod Touch 5, can update to 9.3.5 and use the Phœnix jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware versions 5.0 or 5.1 to on most A5 devices. However devices, such as the iPhone 4S, can update to 6.1.3 and use p0sixspwn instead.
 
-This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 9.3.5, we can easily update to the desired firmware version, due to the age of the devices.
+This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 6.1.3, we can easily update to the desired firmware version, due to the age of their current firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
@@ -25,12 +23,12 @@ Only follow this if you've installed update blocking in the past.
   - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to 9.3.5
+## Updating to 6.1.3
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Tap `Settings` -> `General` -> `Software Update`
-  - Ensure that the version you are updating to is 9.3.5
+  - Ensure that the version you are updating to is 6.1.3
 1. Download and install the update
 
-Continue to [Installing Phœnix](installing-phoenix)
+Continue to [Installing p0sixspwn](installing-p0sixspwn)
 {: .notice--info}

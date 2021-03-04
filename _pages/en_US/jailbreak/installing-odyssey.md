@@ -5,9 +5,9 @@ redirect_from:
   - /odyssey
   - /od
 excerpt: Guide to installing Odyssey
+sidebar:
+  nav: ios1314
 ---
-
-{% include toc title="Table of Contents" %}
 
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
@@ -41,7 +41,6 @@ We will use AltStore to install the Odyssey jailbreak application to your iOS de
   - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
 The Odyssey application can now be opened from home screen.
-{: .notice--success}
 
 ## Running Odyssey
 

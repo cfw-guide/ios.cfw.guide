@@ -7,9 +7,9 @@ redirect_from:
   - /tenbelow
   - /tb
 excerpt: Guide to using Coolbooter to downgrade from iOS 10.X or 9.X to 8.4.1
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

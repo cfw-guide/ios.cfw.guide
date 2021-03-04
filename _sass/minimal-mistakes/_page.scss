@@ -6,7 +6,6 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -31,16 +30,6 @@ body {
           flex-direction: column;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
-}
-
 .initial-content,
 .search-content {
   flex: 1 0 auto;
@@ -60,7 +49,7 @@ html {
 
   .page__inner-wrap {
     float: left;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -208,7 +197,7 @@ html {
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 8px rgba(#000, 0.73);
+      text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
     .page__lead {
@@ -308,6 +297,12 @@ html {
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.page__meta-sep::before {
+  content: "\2022";
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /*
@@ -561,14 +556,4 @@ html {
       padding-right: 0;
     }
   }
-}
-
-.tabcontent {
-	background: $tabbgcolor;
-	border-radius: 25px;
-	padding: 12.5px;
-
-	h1, h2, h3, h4, h5, h6 {
-		margin: 1em 0 0.5em;
-	}
 }

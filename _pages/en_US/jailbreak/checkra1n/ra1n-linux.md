@@ -1,5 +1,3 @@
-{% include toc title="Table of Contents" %}
-
 ## Installing checkra1n (Linux)
 
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`

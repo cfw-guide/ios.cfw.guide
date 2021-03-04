@@ -4,10 +4,10 @@ permalink: /firmware-selection-(ipad-mini-4)
 redirect_from:
   - /ipad-mini-4
 excerpt: Find out what jailbreaks you can use on your iPad Mini 4
+sidebar:
+  nav: sidebar
 soc: A8
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

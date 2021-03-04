@@ -4,10 +4,10 @@ permalink: /firmware-selection-(iphone-4s)
 redirect_from:
   - /iphone-4s
 excerpt: Find out what jailbreaks you can use on your iPhone 4S
+sidebar:
+  nav: sidebar
 soc: A5
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

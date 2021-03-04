@@ -8,9 +8,9 @@ redirect_from:
   - /h3
   - /he
 excerpt: Guide to installing H3lix
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 h3lix is capable of jailbreaking every 32bit iOS device on firmware version 10.0 up to 10.3.3.
 

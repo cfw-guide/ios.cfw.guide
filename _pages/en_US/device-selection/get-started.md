@@ -2,6 +2,9 @@
 title: Get Started
 permalink: /get-started
 excerpt: Find out what jailbreaks you can use on your iOS Device
+toc: false
+sidebar:
+  nav: sidebar
 ---
 
 ## Required Reading

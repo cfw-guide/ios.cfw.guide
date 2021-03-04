@@ -14,9 +14,9 @@ redirect_from:
   - /checkn1x
   - /checkn1x
 excerpt: Guide to installing checkra1n via Odysseyn1x
+sidebar:
+  nav: ios1314
 ---
-
-{% include toc title="Table of Contents" %}
 
 {% include_relative include/semi-tethered.md %}
 

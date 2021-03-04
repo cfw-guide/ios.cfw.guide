@@ -5,10 +5,10 @@ redirect_from:
   - /ipad-pro
   - /ipad-pro-1
 excerpt: Find out what jailbreaks you can use on your iPad Pro 12.9" 1st Generation or iPad Pro 9.7"
+sidebar:
+  nav: sidebar
 soc: A9X
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

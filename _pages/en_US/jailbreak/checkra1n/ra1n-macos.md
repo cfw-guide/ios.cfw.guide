@@ -1,5 +1,3 @@
-{% include toc title="Table of Contents" %}
-
 ## Installing checkra1n (macOS)
 
 1. Open checkra1n on your computer

@@ -6,110 +6,119 @@
    Default
    ========================================================================== */
 
-.sidebar {
-  @include clearfix();
-  // @include breakpoint(max-width $large) {
-  //   /* fix z-index order of follow links */
-  //   position: relative;
-  //   z-index: 10;
-  //   -webkit-transform: translate3d(0, 0, 0);
-  //   transform: translate3d(0, 0, 0);
-  // }
+   .sidebar {
+     @include clearfix();
+     // @include breakpoint(max-width $large) {
+     //   /* fix z-index order of follow links */
+     //   position: relative;
+     //   z-index: 10;
+     //   -webkit-transform: translate3d(0, 0, 0);
+     //   transform: translate3d(0, 0, 0);
+     // }
 
-  @include breakpoint($large) {
-    float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+     display: none;
 
-    &:hover {
-      opacity: 1;
-    }
+     @include breakpoint($large) {
+       display: block;
+       float: left;
+       width: calc(#{$right-sidebar-width-narrow} - 1em);
+       opacity: 0.75;
+       -webkit-transition: opacity 0.2s ease-in-out;
+       transition: opacity 0.2s ease-in-out;
 
-    &.sticky {
-      //overflow-y: auto;
-      /* calculate height of nav list
-         viewport height - nav height - masthead x-padding
-      */
-      max-height: calc(100vh - #{$nav-height} - 2em);
-      transform: scale(0.8);
-    }
-  }
+       &:hover {
+         opacity: 1;
+       }
 
-  @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
-  }
+       &.sticky {
+         overflow-y: auto;
+         /* calculate height of nav list
+            viewport height - nav height - masthead x-padding
+         */
+         max-height: calc(100vh - #{$nav-height} - 2em);
+         margin-top: 2em;
+       }
+     }
 
-  > * {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
+     @include breakpoint($x-large) {
+       width: calc(#{$right-sidebar-width} - 1em);
+     }
 
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 0;
-    font-family: $sans-serif-narrow;
-  }
+     > * {
+       margin-top: 2em;
+       @include breakpoint($large) {
+         margin-top: 0em;
+       }
+       margin-bottom: 1em;
+     }
 
-  p,
-  li {
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-    line-height: 1.5;
-  }
+     h2,
+     h3,
+     h4,
+     h5,
+     h6 {
+       margin-bottom: 0;
+       font-family: $sans-serif-narrow;
+     }
 
-  img {
-    width: 100%;
+     p,
+     li {
+       font-family: $sans-serif;
+       font-size: $type-size-6;
+       line-height: 1.5;
+       margin-top: 0.5em;
+     }
 
-    &.emoji {
-      width: 20px;
-      height: 20px;
-    }
-  }
-}
+     img {
+       width: 100%;
 
-.sidebar__right {
-  margin-bottom: 1em;
+       &.emoji {
+         width: 20px;
+         height: 20px;
+       }
+     }
+   }
 
-  @include breakpoint($large) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: $right-sidebar-width-narrow;
-    margin-right: -1 * $right-sidebar-width-narrow;
-    padding-left: 1em;
-    z-index: 10;
+   .sidebar__right {
+     margin-bottom: 1em;
+     margin-top: 1em;
 
-    &.sticky {
-      @include clearfix();
-      position: -webkit-sticky;
-      position: sticky;
-      top: 2em;
-      float: right;
-    }
-  }
+     @include breakpoint($large) {
+       margin-top: 0;
+       position: absolute;
+       top: 0;
+       right: 0;
+       width: $right-sidebar-width-narrow;
+       margin-right: -1 * $right-sidebar-width-narrow;
+       padding-left: 1em;
+       z-index: 10;
 
-  @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-    margin-right: -1 * $right-sidebar-width;
-  }
-}
+       &.sticky {
+         @include clearfix();
+         position: -webkit-sticky;
+         position: sticky;
+         top: 2em;
+         float: right;
+       }
+     }
 
-.splash .sidebar__right {
-  @include breakpoint($large) {
-    position: relative;
-    float: right;
-    margin-right: 0;
-  }
+     @include breakpoint($x-large) {
+       width: $right-sidebar-width;
+       margin-right: -1 * $right-sidebar-width;
+     }
+   }
 
-  @include breakpoint($x-large) {
-    margin-right: 0;
-  }
-}
+   .splash .sidebar__right {
+     @include breakpoint($large) {
+       position: relative;
+       float: right;
+       margin-right: 0;
+     }
+
+     @include breakpoint($x-large) {
+       margin-right: 0;
+     }
+   }
 
 /*
    Author profile and links
@@ -186,7 +195,6 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
-  position: relative;
   cursor: pointer;
 
   li:last-child {

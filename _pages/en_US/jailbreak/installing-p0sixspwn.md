@@ -8,6 +8,8 @@ redirect_from:
   - /p0
 
 excerpt: Guide to installing P0sixspwn
+sidebar:
+  nav: sidebar
 ---
 
 {% include toc title="Table of Contents" %}

@@ -7,9 +7,9 @@ redirect_from:
   - /remove-u0
   - /remove-uo
 excerpt: Guide to removing unc0ver
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 Currently, unc0ver Restore RootFS is broken on 14.0 - 14.3, as a result, you will not be able to follow this guide currently if on the aforementioned iOS versions.
 {: .notice--info}

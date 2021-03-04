@@ -3,6 +3,9 @@ title: "Site Navigation" #
 layout: single-no-ads
 sitemap: false
 permalink: /site-navigation
+toc: false
+sidebar:
+  nav: sidebar
 ---
 
 {% capture notice-1 %}
@@ -10,9 +13,9 @@ permalink: /site-navigation
 
 + [Installing Odysseyra1n](installing-odysseyra1n)
 + [Installing Odyssey](installing-odyssey)
++ [Installing unc0ver](installing-unc0ver)
 + [Installing Chimera](installing-chimera)
 + [Installing Electra](installing-electra)
-+ [Installing unc0ver](installing-unc0ver)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing EtasonJB](installing-etasonjb)
 + [Installing h3lix](installing-h3lix)

@@ -2,9 +2,10 @@
 title: Device Selection (iPod)
 permalink: /device-selection-(ipod)
 excerpt: Find out what jailbreaks you can use on your iPod
+toc: false
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

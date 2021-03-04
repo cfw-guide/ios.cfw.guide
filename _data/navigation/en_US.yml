@@ -1,53 +1,111 @@
 ---
 main:
-  -
-    title: FAQ
-    url: /faq
-  -
-    title: Recommended Repos
-    url: /recommended-repos
-  -
-    title: Package Managers
-    url: /package-managers
-  -
-    title: Resigning Apps
-    url: /resigning-apps
-  -
-    title: Jailbreak Detection
-    url: /blocking-jailbreak-detection
-  -
-    title: Jailbreak Types
-    url: /types-of-jailbreak
-  -
-    title: Coolbooter
-    url: /using-coolbooter
-  -
-    title: T3nBelow
-    url: /using-t3nbelow
-  -
-    title: Troubleshooting
-    url: /troubleshooting
-  -
-    title: Donations
-    url: /donations
-  -
-    title: Credits
-    url: /credits
+  - title: FAQ
+    url: faq
+  - title: Recommended Repos
+    url: recommended-repos
+  - title: Package Managers
+    url: package-managers
+  - title: Resigning Apps
+    url: resigning-apps
+  - title: Jailbreak Detection
+    url: blocking-jailbreak-detection
+  - title: Jailbreak Types
+    url: types-of-jailbreak
+  - title: Coolbooter
+    url: using-coolbooter
+  - title: T3nBelow
+    url: using-t3nbelow
+  - title: Donations
+    url: donations
+  - title: Credits
+    url: credits
 bottom:
-  -
-    title: For support in English, ask for help on the official r/Jailbreak <a href="https://discord.gg/jb" target="_blank">Discord Server</a>.
-  -
-    title: If you appreciate this guide, we accept <a href="/donations">Donations</a>.
+  - title: For support in English, ask for help on the official r/Jailbreak <a href="https://discord.gg/jb" target="_blank">Discord Server</a>.
+  - title: If you appreciate this guide, we accept <a href="/donations">Donations</a>.
 footer:
-  -
-    label: Source
+  - label: Source
     url: https://github.com/cfw-guide/ios.cfw.guide
     icon: fab fa-fw fa-github
-  -
-    label: Site Navigation
+  - label: Site Navigation
     url: site-navigation
     icon: fas fa-fw fa-globe
-  -
-    label: Credits & Donations
+  - label: Credits & Donations
     url: credits
     icon: fas fa-fw fa-users
+
+# Sidebars
+
+sidebar:
+  - title: "Package Managers"
+    children:
+      - title: "An explanation"
+        url: /package-managers
+      - title: "Using Sileo"
+        url: /using-sileo
+      - title: "Using Cydia"
+        url: /using-cydia
+  - title: "Support"
+    children:
+      - title: "Recommended Repos"
+        url: /recommended-repos
+      - title: "Resigning Apps"
+        url: /resigning-apps
+      - title: "Jailbreak Detection"
+        url: /blocking-jailbreak-detection
+      - title: "Types of Jailbreak"
+        url: /types-of-jailbreak
+      - title: "FAQ"
+        url: /faq
+      - title: "Discord"
+        url: https://discord.gg/jb
+  - title: "Miscellaneous"
+    children:
+      - title: "Credits"
+        url: /credits
+      - title: "Donations"
+        url: /donations
+      - title: "Site Navigation"
+        url: /site-navigation
+
+ios1314:
+  - title: "Jailbreaks"
+    children:
+      - title: "Installing unc0ver"
+        url: /installing-unc0ver
+      - title: "Installing Odyssey"
+        url: /installing-odyssey
+      - title: "Installing Odysseyra1n"
+        url: /installing-odysseyra1n
+      - title: "Using Odysseyn1x"
+        url: /using-odysseyn1x
+  - title: "Package Managers"
+    children:
+      - title: "An explanation"
+        url: /package-managers
+      - title: "Using Sileo"
+        url: /using-sileo
+      - title: "Using Cydia"
+        url: /using-cydia
+  - title: "Support"
+    children:
+      - title: "Recommended Repos"
+        url: /recommended-repos
+      - title: "Resigning Apps"
+        url: /resigning-apps
+      - title: "Jailbreak Detection"
+        url: /blocking-jailbreak-detection
+      - title: "Types of Jailbreak"
+        url: /types-of-jailbreak
+      - title: "FAQ"
+        url: /faq
+      - title: "Discord"
+        url: https://discord.gg/jb
+  - title: "Miscellaneous"
+    children:
+      - title: "Credits"
+        url: /credits
+      - title: "Donations"
+        url: /donations
+      - title: "Site Navigation"
+        url: /site-navigation

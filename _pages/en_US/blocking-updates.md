@@ -3,8 +3,6 @@ title: Blocking Updates
 permalink: /blocking-updates
 ---
 
-{% include toc title="Table of Contents" %}
-
 This method of update blocking will not work if you're on iOS 13 or above.
 {: .notice--danger}
 

@@ -71,13 +71,13 @@ $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
 $primary-color: #6f777d !default;
+$primary-notice-color: #567487 !default;
 $success-color: #3fa63f !default;
 $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
 $info-color: #3b9cba !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
-$textbox-color: #465573;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
@@ -153,7 +153,7 @@ $max-width: $x-large !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
+$right-sidebar-width: 250px !default;
 $right-sidebar-width-wide: 400px !default;
 
 /*
@@ -168,3 +168,8 @@ $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
 $global-transition: all 0.2s ease-in-out !default;
 $intro-transition: intro 0.3s both !default;
+
+
+$textbox-color: #465573;
+$intel-color: #0071c5;
+$nvidia-color: #7AB547;

@@ -6,9 +6,9 @@ redirect_from:
   - /es
   - /eta
 excerpt: Guide to installing etasonjb
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 EtasonJB is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.
 

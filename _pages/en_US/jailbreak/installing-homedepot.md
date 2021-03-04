@@ -5,9 +5,9 @@ redirect_from:
   - /homedepot
   - /hd
 excerpt: Guide to installing HomeDepot
+sidebar:
+  nav: sidebar
 ---
-
-{% include toc title="Table of Contents" %}
 
 HomeDepot is capable of jailbreaking every 32bit iOS device on firmware version 9.1 up to 9.3.4.
 

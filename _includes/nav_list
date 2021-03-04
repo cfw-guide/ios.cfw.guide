@@ -5,12 +5,14 @@
 {% else %}
   {% assign locale_var = locale | prepend:'/' | append:'/' %}
 {% endif %}
-{% assign navigation = site.data.navigation[include.nav] %}
+
+{% assign sidebar = page.sidebar.nav %}
+{% assign navigation = site.data.navigation[locale].[sidebar] %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[locale].menu_label | default: "Toggle Menu" }}</label>
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
     {% for nav in navigation %}
       <li>

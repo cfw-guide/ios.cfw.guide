@@ -4,10 +4,10 @@ permalink: /firmware-selection-(ipad-5)
 redirect_from:
   - /ipad-5
 excerpt: Find out what jailbreaks you can use on your iPad 5th Generation
+sidebar:
+  nav: sidebar
 soc: A9
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 

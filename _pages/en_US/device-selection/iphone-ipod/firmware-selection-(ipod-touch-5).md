@@ -4,10 +4,10 @@ permalink: /firmware-selection-(ipod-touch-5)
 redirect_from:
   - /ipod-touch-5
 excerpt: Find out what jailbreaks you can use on your iPod Touch 5th Generation
+sidebar:
+  nav: sidebar
 soc: A5
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Required Reading
 
