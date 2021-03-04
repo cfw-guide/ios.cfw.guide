@@ -45,7 +45,7 @@ The Odyssey application can now be opened from home screen.
 
 ## Running Odyssey
 
-iPhone 7 and iPod Touch 7 devices on iOS 13.5.1 - 13.7 will not be able to use Odyssey in any reliable form. You should instead be using [Odysseyra1n](/odysseyra1n)
+iPhone 7 and iPod Touch 7 devices on iOS 13.5.1 - 13.7 will not be able to use Odyssey in any reliable form. You should instead be using [Odysseyra1n](/odysseyra1n).
 {: .notice--warning}
 
 1. Reboot your phone
