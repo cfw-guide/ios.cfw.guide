@@ -27,7 +27,7 @@ This means that, in the selected application, all tweaks except Liberty Lite wil
 
 ## Tweaks
 
-- [Liberty Lite (Beta)](sileo://package/com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](sileo://source/https://ryleyangus.com/repo/))
+- [Liberty Lite (Beta)](sileo://package/com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://https://ryleyangus.com/repo/))
 - [Choicy](sileo://package/com.opa334.choicy) ([opa334.github.io](sileo://source/https://opa334.github.io/))
 - [KernBypass](sileo://package/jp.akusio.kernbypass-unofficial) ([cydia.ichitaso.com](sileo://source/https://cydia.ichitaso.com/))
 
