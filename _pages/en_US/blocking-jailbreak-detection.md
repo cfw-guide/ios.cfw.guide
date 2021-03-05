@@ -27,9 +27,9 @@ This means that, in the selected application, all tweaks except Liberty Lite wil
 
 ## Tweaks
 
-- [Liberty Lite (Beta)](sileo://package/com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/))
-- [Choicy](sileo://package/com.opa334.choicy) ([opa334.github.io](sileo://source/https://opa334.github.io/))
-- [KernBypass](sileo://package/jp.akusio.kernbypass-unofficial) ([cydia.ichitaso.com](sileo://source/https://cydia.ichitaso.com/))
+- [Liberty Lite (Beta)](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/&package=com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/))
+- [Choicy](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/&package=com.opa334.choicy) ([opa334.github.io](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/))
+- [KernBypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.ichitaso.com/&package=jp.akusio.kernbypass-unofficial) ([cydia.ichitaso.com](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.ichitaso.com/))
 
 Choicy is available on the default BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
 {: .notice}
