@@ -3,6 +3,7 @@
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
   - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
 1. Click `Start` and follow all onscreen prompts
+  - You may need to enable `enable untested versions` if you are on iOS 14.4 - 14.4.1 before being able to follow this step
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - If you have an iPhone or iPad without a Home Button, follow [these instructions](troubleshooting#iphonex_dfu) to enter DFU mode, as the instructions in the checkra1n application are incorrect
   - Follow the instructions until your device shows a black screen
