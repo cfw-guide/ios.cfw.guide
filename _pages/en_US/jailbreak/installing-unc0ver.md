@@ -62,7 +62,7 @@ The unc0ver application can now be opened from home screen.
   - If unc0ver warns you that the app has been tampered with, reinstall unc0ver via AltStore
 1. Open the settings menu and disable the `Disable Auto Updates` toggle
 
-	unc0ver disables Over-The-Air updates on default, however it's recommended to toggle this as it can cause issues when updating manually if not disabled.
+	unc0ver disables Over-The-Air updates by default, however it's recommended to toggle this as it can cause issues when updating manually if not disabled.
 	{: .notice--warning}
 
 1. Tap "Done"
