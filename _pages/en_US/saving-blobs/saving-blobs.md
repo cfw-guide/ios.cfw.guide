@@ -7,7 +7,6 @@ redirect_from:
   - /save-blobs
   - /save-blob
   - /saving-blob
-
 sidebar:
   nav: sidebar
 excerpt: Guide to saving blobs to secure your ability to downgrade iOS in the future.
@@ -30,30 +29,22 @@ This will take you through the process of saving blobs which are required if you
 <script>
   var a = document.getElementById("ainstr");
   var abtn = document.getElementById("abtn");
-  var aclr = "btn--inverse"
+  var aclr = "btn--primary"
 
   var b = document.getElementById("binstr");
   var bbtn = document.getElementById("bbtn");
-  var bclr = "btn--facebook"
+  var bclr = "btn--primary"
 
   var clr = "btn--info"
 
   var toc0 = document.getElementById("toc0");
   var toc1 = document.getElementById("toc1");
-/*  var toc3 = document.getElementById("toc3");
-  var toc4 = document.getElementById("toc4");
-  var toc5 = document.getElementById("toc5");
-  var toc6 = document.getElementById("toc6"); */
 
   a.style.display = "block";
   b.style.display = "none";
 
   toc0.style.display = "block";
   toc1.style.display = "none";
- /* toc3.style.display = "block";
-  toc4.style.display = "none";
-  toc5.style.display = "none";
-  toc6.style.display = "none"; */
 
   abtn.classList.remove("btn--info");
   abtn.classList.add(aclr);
@@ -70,10 +61,6 @@ This will take you through the process of saving blobs which are required if you
 
     toc0.style.display = "block";
     toc1.style.display = "none";
-  /*  toc3.style.display = "block";
-    toc4.style.display = "none";
-    toc5.style.display = "none";
-    toc6.style.display = "none"; */
   }
 
   function showb() {
@@ -88,13 +75,5 @@ This will take you through the process of saving blobs which are required if you
 
     toc0.style.display = "none";
     toc1.style.display = "block";
-/*    toc3.style.display = "none";
-    toc4.style.display = "block";
-    toc5.style.display = "block";
-    toc6.style.display = "block"; */
   }
 </script>
-
-
-
-

@@ -12,7 +12,7 @@ sidebar:
 
 With the recent and upcoming jailbreak releases for iOS 14.0 to 14.3, many users find themselves on a version too low to take advantage of it.
 
-Luckily, users who have [saved their blobs](https://tsssaver.1conan.com/v2/) can easily update to an older iOS 14 version and install these new jailbreaks.
+Luckily, users who have [saved their blobs](/saving-blobs) can easily update to an older iOS 14 version and install these new jailbreaks.
 
 If you saved blobs for an earlier version of iOS 14, but not 14.3, this will still work. 14.3 is recommended but not required.
 {: .notice--primary}
@@ -35,7 +35,7 @@ You must restore rootFS before updating or your device will be wiped.
 - The latest release of [Java 8](https://www.java.com/en/download/)
 - The iPSW file for your device from [ipsw.me](ipsw.me)
   - This should be the same iOS version that your blob is for
-- On Windows, make sure you have [iTunes](https://www.apple.com/uk/itunes/) installed
+- On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
 
 ## Instructions
