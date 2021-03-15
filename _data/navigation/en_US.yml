@@ -6,6 +6,8 @@ main:
     url: recommended-repos
   - title: Package Managers
     url: package-managers
+  - title: Restoring to 14.3
+    url: restoring-to-14-3
   - title: Resigning Apps
     url: resigning-apps
   - title: Jailbreak Detection
@@ -49,6 +51,8 @@ sidebar:
     children:
       - title: "Recommended Repos"
         url: /recommended-repos
+      - title: Restoring to 14.3
+        url: /restoring-to-14-3
       - title: "Resigning Apps"
         url: /resigning-apps
       - title: "Jailbreak Detection"
@@ -91,6 +95,8 @@ ios1314:
     children:
       - title: "Recommended Repos"
         url: /recommended-repos
+      - title: Restoring to 14.3
+        url: /restoring-to-14-3
       - title: "Resigning Apps"
         url: /resigning-apps
       - title: "Jailbreak Detection"
