@@ -53,6 +53,8 @@ sidebar:
         url: /recommended-repos
       - title: Restoring to 14.3
         url: /restoring-to-14-3
+      - title: Saving Blobs
+        url: /saving-blobs
       - title: "Resigning Apps"
         url: /resigning-apps
       - title: "Jailbreak Detection"
