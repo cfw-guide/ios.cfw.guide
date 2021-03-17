@@ -52,7 +52,7 @@ A few examples of semi-untethered jailbreaks include [Odyssey](installing-odysse
 ### Semi-Tethered Jailbreaks
 ---
 
-Semi-tethered jailbreaks are very similar to semi-unthered jailbreaks, however the exploit must be ran using a computer rather than using a sideloaded app.
+Semi-tethered jailbreaks are very similar to semi-untethered jailbreaks, however the exploit must be ran using a computer rather than using a sideloaded app.
 
 ![]({{ "/assets/images/checkra1n.png" | absolute_url }})
 
