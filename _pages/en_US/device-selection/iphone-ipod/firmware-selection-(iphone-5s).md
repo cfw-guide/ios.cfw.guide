@@ -54,9 +54,9 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-pangu933">Installing Pangu933</a></td>
     </tr>
     <tr>
-      <td>9.3.4</td>
+      <td>9.3.3</td>
       <td>9.3.5</td>
-      <td><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
+      <td><a href="installing-kok3shi">Installing Kok3shi</a></td>
     </tr>
     <tr>
       <td>10.0.1</td>
