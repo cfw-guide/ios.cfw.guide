@@ -10,7 +10,7 @@ sidebar:
 
 ## Introduction
 
-Cydia is incredibly outdated. If you are using Electra, Chimera, Odyssey, or Odysseyra1n, please consider using [Sileo](sileo){:target="_blank"}
+Cydia is incredibly outdated. If you are using a modern jailbreak on iOS 11 or newer, consider using [Sileo](sileo){:target="_blank"}
 {: .notice--info}
 
 Cydia is a package manager that has been used since the start of jailbreaking in 2008. It can be used to install tweaks and themes.

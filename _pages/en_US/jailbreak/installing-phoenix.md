@@ -40,7 +40,7 @@ The app will now install to your iOS device.
 ## Trusting the application
 
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
-  - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+  - Depending on your iOS version, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
 The Phœnix application can now be opened from home screen.
