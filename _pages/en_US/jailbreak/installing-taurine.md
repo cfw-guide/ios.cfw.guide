@@ -1,15 +1,18 @@
 ---
-title: Installing Odyssey
-permalink: /installing-odyssey
+title: Installing Taurine
+permalink: /installing-taurine
 redirect_from:
-  - /odyssey
-  - /od
-excerpt: Guide to installing Odyssey
+  - /taurine
+  - /tr
+excerpt: Guide to installing Taurine
 sidebar:
   nav: ios1314
 ---
 
-Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
+Taurine is not released yet. This page is a placeholder for when it does release.
+{:.notice--warning}
+
+Taurine is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
 If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0) before proceeding.
@@ -17,11 +20,11 @@ If you are already jailbroken with unc0ver, make sure to properly [remove it](re
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
-We will use AltStore to install the Odyssey jailbreak application to your iOS device for use in the next step.
+We will use AltStore to install the Taurine jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
-- The latest version of [Odyssey](https://theodyssey.dev/)
+- The latest version of [Taurine]()
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
@@ -37,24 +40,16 @@ We will use AltStore to install the Odyssey jailbreak application to your iOS de
 1. Click Install AltStore
   - Follow all onscreen prompts
 1. Open Settings and navigate to `General` -> `Device Management` and verify AltStore
-1. Download [Odyssey](https://theodyssey.dev/) on your iOS Device and open the `.ipa` in AltStore
+1. Download [Taurine]() on your iOS Device and open the `.ipa` in AltStore
   - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
-The Odyssey application can now be opened from home screen.
+The Taurine application can now be opened from home screen.
 
-## Running Odyssey
-
-iPhone 7 and iPod Touch 7 devices on iOS 13.5.1 - 13.7 will not be able to use Odyssey in any reliable form. You should instead be using [Odysseyra1n](/odysseyra1n).
-{: .notice--warning}
+## Running Taurine
 
 1. Reboot your phone
   - This is not necessary but recommended
-1. Open the Odyssey application from your home screen immediately afterwards
-1. If you are using an iPhone 7 or an iPod Touch 7:
-  - Tap `Settings` -> `Theme`
-  - Select `Azur Lane`
-  - Tap three times on the ⓘ icon
-  - After this, the exploit should be toggled
+1. Open the Taurine application from your home screen immediately afterwards
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
