@@ -43,7 +43,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td colspan="2"><a href="updating-to-14-4">Updating to 14.4</a></td>
+      <td colspan="2"><a href="updating-to-14-4-2">Updating to {% include latestfw %}</a></td>
     </tr>
     <tr>
       <td>9.0</td>
