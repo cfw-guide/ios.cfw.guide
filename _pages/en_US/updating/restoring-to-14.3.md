@@ -50,7 +50,7 @@ You must restore rootFS before updating or your device will be wiped.
   - If your device was previously jailbroken and you haven't restored rootFS, **DO NOT** enable this option
 1. If you're using a non-cellular (WiFi only) device, Change "Latest Baseband" to "No Baseband"
 
-    At the time of writing this, the latest update is 14.4.1 and using the latest baseband and SEP is safe. If there is a new update and this page has not been updated, <u>make sure to check</u> if the latest baseband and SEP are compatible before continuing.
+    At the time of writing this, the latest update is 14.4.2 and using the latest baseband and SEP is safe. If there is a new update and this page has not been updated, <u>make sure to check</u> if the latest baseband and SEP are compatible before continuing.
     {: .notice--danger}
 
 1. Click `Start FutureRestore`
