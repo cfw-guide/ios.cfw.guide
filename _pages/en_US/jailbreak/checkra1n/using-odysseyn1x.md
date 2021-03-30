@@ -2,6 +2,7 @@
 title: Using Odysseyn1x
 permalink: /using-odysseyn1x
 redirect_from:
+  - /installing-odysseyn1x
   - /using-odysseynix
   - /odysseyn1x
   - /odysseynix
