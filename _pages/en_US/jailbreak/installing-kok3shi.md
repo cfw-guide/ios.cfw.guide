@@ -9,7 +9,7 @@ sidebar:
   nav: sidebar
 ---
 
-Kok3shi is capable of jailbreaking the iPhone 5S, 6 | 6 Plus, iPad Air 1 and 2, iPad mini 2 - 4, and the 6th Generation iPod Touch on iOS 9.3.3 - 9.3.5. 
+Kok3shi is capable of jailbreaking the iPhone 5S, 6 | 6 Plus, iPad Air 1 and 2, iPad mini 2 - 4, and the 6th Generation iPod Touch on iOS 9.3.2 - 9.3.5. 
 
 This jailbreak is in its early stages and therefore may not work as intended. Be sure to back up your iOS Device.
 {: .notice--danger}
