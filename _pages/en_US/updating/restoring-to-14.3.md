@@ -30,9 +30,7 @@ You must restore rootFS before updating or your device will be wiped.
 
 ## Downloads
 
-- The latest release of [FutureRestore-GUI](https://github.com/JohnnnnyKlayy/FutureRestore-GUI/releases)
-  - For Linux, download the Universal build
-- The latest release of [Java 8](https://www.java.com/en/download/)
+- The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
 - The iPSW file for your device from [ipsw.me](ipsw.me)
   - This should be the same iOS version that your blob is for
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
@@ -43,7 +41,7 @@ You must restore rootFS before updating or your device will be wiped.
 1. Connect your iDevice to your computer
 1. Make sure that your computer is trusted by your device
 1. Create a full backup of your device through iTunes or Finder
-1. Extract the FutureRestore-GUI `.zip` file and run the application
+1. Download and install FutureRestoreGUI
   - If prompted by Windows Defender or other anti-virus software, allow the program to run - it's safe
 1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
 1. Click the `Select Blob File...` button and select your blob `.shsh2` file
