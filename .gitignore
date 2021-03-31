@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 **/.DS_Store
 .vs/
+node_modules
+pnpm-lock.yaml
