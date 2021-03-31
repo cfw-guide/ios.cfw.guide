@@ -22,7 +22,7 @@ Blocking jailbreak detection can stop you from accessing photos and other files 
 Now, we'll go through each tweak that can be used to minimize jailbreak detection. Some apps, however, cannot be patched and will not work when jailbroken, regardless of the content below. Other apps may need bypasses made specifically for them.
 ## Tweaks
 
-- [A-Bypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/&package=com.rpgfarm.a-bypass)
+- [A-Bypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/&package=com.rpgfarm.a-bypass) ([repo.co.kr](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/))
 - [Liberty Lite (Beta)](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/&package=com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/))
 - [Choicy](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/&package=com.opa334.choicy) ([opa334.github.io](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/))
 - Libhooker Configurator (available on the Odyssey repo)
@@ -50,6 +50,7 @@ It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and u
 1. Open the Settings application
 2. Scroll down to `A-Bypass`
 3. Tap on `Check for Updates`
+	- If a new app doesn't work with A-Bypass, you should always try to go back and try to check for updates in the A-Bypass preferences again.
 4. Scroll down and enable any apps you wish to block jailbreak detection with.
 
 ## Liberty Lite
