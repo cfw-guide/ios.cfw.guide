@@ -75,8 +75,8 @@ If you use a libhooker-based jailbreak, such as [Chimera](installing-chimera.md)
 1. Enable `Custom Tweak Configuration`
 	- For Snapchat, enable `Disable Tweak Injection` and skip the next steps
 1. Make sure `Whitelist` is selected
-1. Enable `zzzzzLiberty`
-1. Repeat this for every app you selected with Liberty Lite
+1. Enable the bypass you're using - for Liberty Lite this would be `zzzzzLiberty`, or `!ABypass2` for A-Bypass.
+1. Repeat this for every app you've selected to use with your bypass tweak.
 
 ## libhooker configurator
 
@@ -89,6 +89,7 @@ This only works on libhooker-based jailbreaks! If you use a Substrate or Substit
 1. Here, you can either disable tweaks entirely in this application, or configure individual tweaks.
    - To configure individual tweaks, enable "Override Configuration", which will open up options to only allow specific tweaks or deny specific tweaks.
    - For example, to allow only Liberty Lite, you'd select `Allow`, then select `zzzzzLiberty`.
+   - If you're using A-Bypass, you'd enable `!ABypass2` instead.
 
 ## KernBypass (iOS 12.0 - 14.2)
 
