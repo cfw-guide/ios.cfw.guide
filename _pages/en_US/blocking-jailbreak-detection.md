@@ -43,7 +43,7 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 
 ## A-Bypass
 
-According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as [Chimera](installing-chimera.md), [Odyssey](installing-odyssey.md), [odysseyra1n](checkra1n/installing-odysseyra1n.md), and [Taurine](installing-taurine.md)  
+According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as [Chimera](installing-chimera), [Odyssey](installing-odyssey), [odysseyra1n](checkra1n/installing-odysseyra1n), and [Taurine](installing-taurine)  
 It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
 {:.notice--info}
 
@@ -66,7 +66,7 @@ It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and u
 This is the best option for users wanting to use Snapchat on their jailbroken device.
 {:.notice--info}
 
-If you use a libhooker-based jailbreak, such as [Chimera](installing-chimera.md), [Odyssey](installing-odyssey.md), [odysseyra1n](checkra1n/installing-odysseyra1n.md), or [Taurine](installing-taurine.md), then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
+If you use a libhooker-based jailbreak, such as [Chimera](installing-chimera), [Odyssey](installing-odyssey), [odysseyra1n](checkra1n/installing-odysseyra1n), or [Taurine](installing-taurine), then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
 {:.notice--info}
 
 1. Open the Settings application
