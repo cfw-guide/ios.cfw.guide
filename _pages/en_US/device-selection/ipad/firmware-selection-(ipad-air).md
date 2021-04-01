@@ -1,4 +1,4 @@
-12.5.2---
+---
 title: Firmware Selection (iPad Air)
 permalink: /firmware-selection-(ipad-air)
 redirect_from:
