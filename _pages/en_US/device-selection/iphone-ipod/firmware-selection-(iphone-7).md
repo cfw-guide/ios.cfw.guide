@@ -23,45 +23,48 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>macOS/Linux</th>
+      <th>Windows</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>10.0</td>
       <td>10.3.3</td>
-      <td><a href="using-meridian">Using Meridian</a></td>
+      <td colspan="2"><a href="using-meridian">Using Meridian</a></td>
     </tr>
     <tr>
       <td>11.0</td>
       <td>11.4.1</td>
-      <td><a href="installing-electra">Installing Electra</a></td>
+      <td colspan="2"><a href="installing-electra">Installing Electra</a></td>
     </tr>
     <tr>
       <td>12.0</td>
       <td>12.4.1</td>
-      <td><a href="installing-chimera">Installing Chimera</a></td>
+      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
     <tr>
       <td>13.0</td>
       <td>13.5</td>
-      <td><a href="installing-odyssey">Installing Odyssey</a></td>
+      <td colspan="2"><a href="installing-odyssey">Installing Odyssey</a></td>
     </tr>
     <tr>
       <td>13.5.1</td>
       <td>14.3</td>
-      <td><a href="installing-taurine">Installing Taurine</a></td>
+      <td colspan="2"><a href="installing-taurine">Installing Taurine</a></td>
     </tr>
     <tr>
       <td>14.4</td>
       <td>{% include latestfw %}</td>
       <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
+      <td><a href="using-odysseyn1x">Using Odysseyn1x</a></td>
     </tr>
   </tbody>
 </table>
