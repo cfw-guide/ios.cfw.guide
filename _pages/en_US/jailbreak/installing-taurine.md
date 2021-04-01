@@ -9,9 +9,6 @@ sidebar:
   nav: ios1314
 ---
 
-Taurine is not released yet. This page is a placeholder for when it does release.
-{:.notice--warning}
-
 Taurine is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
