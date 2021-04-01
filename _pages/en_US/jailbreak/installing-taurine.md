@@ -12,9 +12,6 @@ sidebar:
 Taurine is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0) before proceeding.
-{:.notice--danger}
-
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
 We will use AltStore to install the Taurine jailbreak application to your iOS device for use in the next step.
@@ -47,7 +44,9 @@ The Taurine application can now be opened from home screen.
 1. Reboot your phone
   - This is not necessary but recommended
 1. Open the Taurine application from your home screen immediately afterwards
+  - If you have unc0ver installed, enable "Restore RootFS" before proceeding to remove unc0ver
 1. Tap "Jailbreak"
+  - If you enabled restore rootFS, go back to step 1 and repeat this section
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
 {:.notice--danger}
