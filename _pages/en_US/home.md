@@ -4,7 +4,7 @@ title: iOS Guide
 excerpt: "A complete iOS modding guide, from stock to jailbroken."
 permalink: /
 header:
-  overlay_image: /assets/images/splash-odyssey.png
+  overlay_image: /assets/images/splash-taurine.png
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
   cta_url: "/get-started"
