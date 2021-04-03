@@ -1,12 +1,15 @@
 ---
-title: Updating to 14.4
-permalink: /updating-to-14-4
+title: Updating to 14.4.2
+permalink: /updating-to-14-4-2
 redirect_from:
-  - /updating-to-14.3
   - /updating-to-14-2
+  - /updating-to-14-3
+  - /updating-to-14-4
+  - /updating-to-14-4-1
 ---
 
-Take caution with updating as Odysseyra1n only supports A8(X) to A10(X) on iOS 14.4 at this time.
+Odysseyra1n only supports A8(X) to A10(X) on iOS 14.4.2 at this time.
+{: .notice--warning}
 
 ## Required Reading
 
@@ -28,7 +31,7 @@ Only follow this if you've installed update blocking in the past.
   - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to 14.4
+## Updating to {% include latestfw %}
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
