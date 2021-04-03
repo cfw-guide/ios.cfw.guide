@@ -34,16 +34,8 @@ checkra1n is a tool capable of jailbreaking millions of iOS device on firmwares 
 If you are using Windows, proceed to [Using odysseyn1x](/using-odysseyn1x).
 {: .notice--primary #hide_os }
 
-## Downloads
-
-- The latest version of [checkra1n](https://checkra.in)
-
-![]({{ "/assets/images/checkra1n.png" | absolute_url }})
-
 If you're migrating from unc0ver to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
 {: .notice--textbox}
-
----
 
 Please select your operating system below:
 
@@ -67,22 +59,22 @@ Please select your operating system below:
 
   var clr = "btn--info"
 
+  var toc0 = document.getElementById("toc0");
   var toc1 = document.getElementById("toc1");
   var toc2 = document.getElementById("toc2");
   var toc3 = document.getElementById("toc3");
   var toc4 = document.getElementById("toc4");
   var toc5 = document.getElementById("toc5");
   var toc6 = document.getElementById("toc6");
+  var toc7 = document.getElementById("toc7");
 
   a.style.display = "block";
   b.style.display = "none";
 
-  toc1.style.display = "block";
-  toc2.style.display = "block";
-  toc3.style.display = "block";
   toc4.style.display = "none";
   toc5.style.display = "none";
   toc6.style.display = "none";
+  toc7.style.display = "none";
 
   abtn.classList.remove("btn--info");
   abtn.classList.add(aclr);
@@ -97,12 +89,14 @@ Please select your operating system below:
     abtn.classList.add(aclr);
     bbtn.classList.remove(bclr);
 
+    toc0.style.display = "block";
     toc1.style.display = "block";
     toc2.style.display = "block";
     toc3.style.display = "block";
     toc4.style.display = "none";
     toc5.style.display = "none";
     toc6.style.display = "none";
+    toc7.style.display = "none";
   }
 
   function showb() {
@@ -115,11 +109,13 @@ Please select your operating system below:
     abtn.classList.remove(aclr);
     bbtn.classList.add(bclr);
 
+    toc0.style.display = "none";
     toc1.style.display = "none";
     toc2.style.display = "none";
     toc3.style.display = "none";
     toc4.style.display = "block";
     toc5.style.display = "block";
     toc6.style.display = "block";
+    toc7.style.display = "block";
   }
 </script>

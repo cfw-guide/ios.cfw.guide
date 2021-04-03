@@ -2,7 +2,7 @@
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 13.0 to 13.7" row includes version 13.0, version 13.7, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 11.0 to 11.4.1" row includes version 11.0, version 11.4.1, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>14.0</td>
       <td>14.3</td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td><a href="installing-taurine">Installing Taurine</a></td>
     </tr>
     <tr>
       <td>14.4</td>

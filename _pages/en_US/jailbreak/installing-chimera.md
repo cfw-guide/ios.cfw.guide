@@ -18,7 +18,7 @@ If you are already jailbroken with unc0ver, make sure to properly [remove it](re
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on iOS 12.0 - 12.5.1.
+Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on iOS 12.0 - 12.5.2.
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
