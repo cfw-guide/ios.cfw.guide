@@ -17,9 +17,6 @@ Luckily, users who have [saved their blobs](/saving-blobs) can easily update to 
 If you saved blobs for an earlier version of iOS 14, but not 14.3, this will still work. 14.3 is recommended but not required.
 {: .notice--primary}
 
-You must restore rootFS before updating or your device will be wiped.
-{: .notice--danger}
-
 ## Requirements
 
 - Blobs saved for iOS 14.3 or below
@@ -47,7 +44,6 @@ You must restore rootFS before updating or your device will be wiped.
 1. Click the `Select Blob File...` button and select your blob `.shsh2` file
 1. Click the `Select Target iPSW File...` and select your `.ipsw` file
 1. Enable the `Update (-u)` checkbox
-  - If your device was previously jailbroken and you haven't restored rootFS, **DO NOT** enable this option
 1. If you're using a non-cellular (WiFi only) device, Change "Latest Baseband" to "No Baseband"
 
     At the time of writing this, the latest update is 14.4.2 and using the latest baseband and SEP is safe. If there is a new update and this page has not been updated, <u>make sure to check</u> if the latest baseband and SEP are compatible before continuing.
