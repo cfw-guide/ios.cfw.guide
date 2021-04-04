@@ -41,9 +41,6 @@ If you are running iOS 12.0 - 12.1.4, you will need to use [AltDeploy](resigning
 
 ## Installing the application
 
-Alternatively, you can use [jailbreaks.app](https://jailbreaks.app) if it is signed, and skip this section.
-{: .notice--info}
-
 1. Download AltStore for your respective operating system
 1. Launch AltStore/AltServer
   - On macOS, open the Mail app and open `Mail` -> `Preferencees` in the menu bar
