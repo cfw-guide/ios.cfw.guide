@@ -18,8 +18,10 @@ We will use AltStore to install the Taurine jailbreak application to your iOS de
 
 ## Downloads
 
-If jailbreaks.app is signed, you may skip this section.
-{: .notice--info}
+Taurine is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
+{: .notice--primary #ifJailbreaksAppSigned}
+
+<script src="{{ '/assets/js/if_jailbreaksapp_signed.js' }}"></script>
 
 - The latest version of [Taurine](https://taurine.app/)
 - The latest version of [AltStore](http://altstore.io/)
@@ -27,9 +29,6 @@ If jailbreaks.app is signed, you may skip this section.
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
 ## Installing the application
-
-Alternatively, you can use [jailbreaks.app](https://jailbreaks.app) if it is signed, and skip this section.
-{: .notice--info}
 
 1. Download AltStore for your respective operating system
 1. Launch AltStore/AltServer
