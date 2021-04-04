@@ -9,16 +9,16 @@ sidebar:
   nav: sidebar
 ---
 
-If you have a newer device with an A12 SoC, such as the iPhone XS, you can only use Chimera on iOS 12.0 - 12.1.2.
-{: .notice--danger}
-
-If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0)
-{:.notice--danger}
-
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {:.notice--info}
 
-Chimera is capable of jailbreaking A12 on iOS 12.0 - 12.1.2 and A7 - A11 on iOS 12.0 - 12.5.2.
+If you have a newer device with an A12 SoC, such as the iPhone XS, you can only use Chimera on iOS 12.0 - 12.1.2.
+{: .notice--warning}
+
+If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0) before installing Chimera.
+{:.notice--danger}
+
+Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.2.
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
@@ -26,15 +26,17 @@ We will use AltStore to install the Chimera jailbreak application to your iOS de
 
 ## Downloads
 
-If jailbreaks.app is signed, you may skip this section.
-{: .notice--info}
+Chimera is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
+{: .notice--primary #ifJailbreaksAppSigned}
 
-- [Chimera](https://chimera.coolstar.org/)
-- The latest version of [AltStore](http://altstore.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The lastest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
+<script src="{{ '/assets/js/if_jailbreaksapp_signed.js' }}"></script>
 
-If you are running iOS 12.0 - 12.1.4, you will need to use either [AltDeploy](resigning-apps#resign-with-a-mac-altdeploy) or jailbreaks.app {:target="_blank"}
+- The latest release of [Chimera](https://chimera.coolstar.org/)
+- The latest release of [AltStore](http://altstore.io/)
+- The latest release of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest release of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
+
+If you are running iOS 12.0 - 12.1.4, you will need to use [AltDeploy](resigning-apps#resign-with-a-mac-altdeploy){:target="_blank"}
 {: .notice--info}
 
 ## Installing the application
