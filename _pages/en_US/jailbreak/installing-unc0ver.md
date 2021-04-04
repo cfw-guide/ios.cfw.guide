@@ -29,15 +29,21 @@ We will use the AltStore tool to install the unc0ver jailbreak application to yo
 
 ## Downloads
 
+If jailbreaks.app is signed, you may skip this section.
+{: .notice--info}
+
 - The latest version of [unc0ver](https://unc0ver.dev/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
-If you are running iOS 12.1.3 - 12.1.4, you will need to use [AltDeploy](resigning-apps#resign-with-a-mac-altdeploy)
+If you are running iOS 11.0 - 12.1.4, you will need to use [AltDeploy](resigning-apps#resign-with-a-mac-altdeploy)
 {: .notice--info}
 
 ## Installing the application
+
+Alternatively, you can use [jailbreaks.app](https://jailbreaks.app) if it is signed, and skip this section.
+{: .notice--info}
 
 1. Download AltStore for your respective operating system
 1. Launch AltStore/AltServer
