@@ -29,7 +29,7 @@ We will use AltStore to install the Chimera jailbreak application to your iOS de
 Chimera is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
 {: .notice--primary #ifJailbreaksAppSigned}
 
-<script src="{{ '/assets/js/if_jailbreaksapp_signed.js' }}"></script>
+<script src="https://jailbreaks.app/if_jailbreaksapp_signed.js"></script>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
 - The latest release of [AltStore](http://altstore.io/)
