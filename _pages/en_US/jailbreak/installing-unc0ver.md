@@ -32,7 +32,7 @@ We will use the AltStore tool to install the unc0ver jailbreak application to yo
 unc0ver is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
 {: .notice--primary #ifJailbreaksAppSigned}
 
-<script src="{{ '/assets/js/if_jailbreaksapp_signed.js' }}"></script>
+<script src="https://jailbreaks.app/if_jailbreaksapp_signed.js"></script>
 
 - The latest version of [unc0ver](https://unc0ver.dev/)
 - The latest version of [AltStore](http://altstore.io/)
