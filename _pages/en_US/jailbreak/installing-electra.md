@@ -28,7 +28,7 @@ We will use the AltDeploy tool to install the Electra jailbreak application to y
 Electra is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
 {: .notice--primary #ifJailbreaksAppSigned}
 
-<script src="https://jailbreaks.app/if_jailbreaksapp_signed.js"></script>
+<script src="/if_jailbreaksapp_signed.js"></script>
 
 - The latest version of [Electra](https://coolstar.org/electra/){:target="_self"}
 - The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
