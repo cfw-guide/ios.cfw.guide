@@ -19,6 +19,9 @@ We will use the AltDeploy tool to install the Phœnix jailbreak application to y
 
 ## Downloads
 
+If jailbreaks.app is signed, you may skip this section.
+{: .notice--info}
+
 - The latest version of [Phœnix](https://phoenixpwn.com/)
 - The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
 
@@ -26,6 +29,9 @@ We will use the AltDeploy tool to install the Phœnix jailbreak application to y
 {: .notice--info}
 
 ## Installing the application
+
+Alternatively, you can use [jailbreaks.app](https://jailbreaks.app) if it is signed, and skip this section.
+{: .notice--info}
 
 1. Open AltDeploy
 1. Plug your iOS device into your computer

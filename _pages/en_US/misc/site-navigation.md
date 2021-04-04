@@ -11,11 +11,12 @@ sidebar:
 {% capture notice-1 %}
 **Jailbreaks**
 
++ [Installing Taurine](installing-taurine)
 + [Installing Odysseyra1n](installing-odysseyra1n)
 + [Installing Odyssey](installing-odyssey)
-+ [Installing unc0ver](installing-unc0ver)
 + [Installing Chimera](installing-chimera)
 + [Installing Electra](installing-electra)
++ [Installing unc0ver](installing-unc0ver)
 + [Installing doubleh3lix](installing-doubleh3lix)
 + [Installing EtasonJB](installing-etasonjb)
 + [Installing h3lix](installing-h3lix)
@@ -37,7 +38,6 @@ sidebar:
 + [Using Sileo](using-sileo)
 + [Using Meridian](using-meridian)
 + [Using Coolbooter](using-coolbooter)
-+ [Using T3nbelow](using-t3nbelow)
 
 {% endcapture %}
 
