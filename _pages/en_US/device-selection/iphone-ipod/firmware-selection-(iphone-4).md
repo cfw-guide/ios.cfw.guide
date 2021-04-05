@@ -62,10 +62,17 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>4.3</td>
       <td>4.3.3</td>
-      <td colspan="2"><a href="using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
+      <td><a href="using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>4.3.4</td>
+      <td>4.3.5</td>
+      <td>Coming Soon</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>5.0</td>
       <td>6.1.2</td>
       <td colspan="2">Coming Soon</td>
     </tr>
