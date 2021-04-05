@@ -45,7 +45,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>4.2.5</td>
       <td>4.2.5</td>
       <td>N/A</td>
-      <td><a href="updating-to-7-1-2-ipsw">Updating to 7.1.2 using iTunes/Finder</td>
+      <td><a href="updating-to-7-1-2-ipsw">Updating to 7.1.2 using iTunes/Finder</a></td>
     </tr>
     <tr>
       <td>4.2.6</td>
