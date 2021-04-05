@@ -6,7 +6,7 @@ redirect_from:
 excerpt: Find out what jailbreaks you can use on your iPhone 3GS
 sidebar:
   nav: sidebar
-soc: Samsung APL0298C05
+soc: Samsung APL0298
 ---
 
 ## Required Reading
@@ -35,6 +35,16 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>3.0</td>
+      <td>3.1.1</td>
+      <td>Coming Soon</td>
+    </tr>
+    <tr>
+      <td>3.1.2</td>
+      <td>4.0.1</td>
+      <td><a href="using-jailbreakme-star">Using JailbreakMe Star</a></td>
+    </tr>
+    <tr>
+      <td>4.0.2</td>
       <td>4.2.1</td>
       <td>Coming Soon</td>
     </tr>
