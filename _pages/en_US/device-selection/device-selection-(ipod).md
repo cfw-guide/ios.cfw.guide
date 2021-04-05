@@ -43,14 +43,14 @@ Please select what model of iPod you have below.
   <thead>
     <tr>
       <th>iPod Touch 4</th>
-      <th></th>
+      <th>iPod Touch 3</th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipod-touch-4)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
-      <td></td>
+      <td><a href="firmware-selection-(ipod-touch-3)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
       <td></td>
     </tr>
   </tbody>
