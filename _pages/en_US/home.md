@@ -16,9 +16,6 @@ For complete guides to homebrew and custom firmware for other devices, check out
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--info}
 
-We have recently partnered with [jailbreaks.app](https://jailbreaks.app). As a result, we now mention (and in some cases prefer) jailbreaks.app on some of the pages on this guide.
-{: .notice--info}
-
 <!-- {% capture notice-1 %}
 This guide is available in other languages!
 Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
