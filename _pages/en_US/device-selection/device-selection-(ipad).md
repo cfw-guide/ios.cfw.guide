@@ -67,14 +67,14 @@ Please select what model of iPad you have below.
   <thead>
     <tr>
       <th>iPad 2</th>
-      <th></th>
+      <th>iPad 1</th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipad-2)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
-      <td></td>
+      <td><a href="firmware-selection-(ipad-1)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
       <td></td>
     </tr>
   </tbody>
