@@ -37,6 +37,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>4.0</td>
+      <td>4.0.1</td>
+      <td><a href="using-jailbreakme-star">Using JailbreakMe Star</a></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>4.0.2</td>
       <td>4.2.1</td>
       <td>Coming Soon</td>
       <td>N/A</td>
