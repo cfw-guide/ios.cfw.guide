@@ -67,7 +67,7 @@ Please select what model of iPod you have below.
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipod-touch-1)"><img src="/assets/images/iPod1,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipod-touch-1)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>

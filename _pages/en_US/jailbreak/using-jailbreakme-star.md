@@ -15,7 +15,7 @@ JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to i
 
 JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or Future Restore
 
-## Running JailbreakMe Saffron
+## Running JailbreakMe Star
 
 1. Open Safari on your iOS device
 1. Go to the [jailbreakme.com](https://jailbreakme.com) website
