@@ -6,4 +6,4 @@
 1. Tap "Save Blobs"
 1. Once you receive the confirmation message, tap "Open"
 
-{% include_relative includes/end-of-page.md %}
+{% include_relative include/end-of-page.md %}

@@ -13,4 +13,4 @@
     - iPhone 6S, 6S Plus, and iPhone SE users will need to get their board configuration by [downloading this app](https://itunes.apple.com/us/app/ax-cpu/id1048174418?mt=8)
 1. Click Submit
 
-{% include_relative includes/end-of-page.md %}
+{% include_relative include/end-of-page.md %}
