@@ -26,7 +26,7 @@ Odyssey is currently signed at [jailbreaks.app](https://jailbreaks.app/) for eas
 
 <script src="/if_jailbreaksapp_signed.js"></script>
 
-- The latest version of [Odyssey](https://theodyssey.dev/)
+- The latest version of [Odyssey](https://cdn.discordapp.com/attachments/668928257428815892/819903339978424360/Odyssey_1.3.1b2.ipa)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
@@ -42,24 +42,16 @@ Odyssey is currently signed at [jailbreaks.app](https://jailbreaks.app/) for eas
 1. Click Install AltStore
   - Follow all onscreen prompts
 1. Open Settings and navigate to `General` -> `Device Management` and verify AltStore
-1. Download [Odyssey](https://theodyssey.dev/) on your iOS Device and open the `.ipa` in AltStore
+1. Download [Odyssey](https://cdn.discordapp.com/attachments/668928257428815892/819903339978424360/Odyssey_1.3.1b2.ipa) on your iOS Device and open the `.ipa` in AltStore
   - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
 The Odyssey application can now be opened from home screen.
 
 ## Running Odyssey
 
-iPhone 7 and iPod Touch 7 devices on iOS 13.5.1 - 13.7 will not be able to use Odyssey in any reliable form. You should instead be using [Odysseyra1n](/odysseyra1n).
-{: .notice--warning}
-
 1. Reboot your phone
   - This is not necessary but recommended
 1. Open the Odyssey application from your home screen immediately afterwards
-1. If you are using an iPhone 7 or an iPod Touch 7:
-  - Tap `Settings` -> `Theme`
-  - Select `Azur Lane`
-  - Tap three times on the ⓘ icon
-  - After this, the exploit should be toggled
 1. Tap "Jailbreak"
 
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
