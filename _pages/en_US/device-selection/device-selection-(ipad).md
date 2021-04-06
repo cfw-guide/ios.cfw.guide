@@ -60,22 +60,19 @@ Please select what model of iPad you have below.
 </table>
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 34%;">
+    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 50%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPad 2</th>
       <th>iPad 1</th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipad-2)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-1)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -108,22 +105,19 @@ Please select what model of iPad you have below.
 
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 34%;">
+    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 50%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPad Mini 2</th>
       <th>iPad Mini</th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipad-mini-2)"><img src="/assets/images/iPad4,4.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-mini)"><img src="/assets/images/iPad2,7.png" alt="" width="50%"></a></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -154,22 +148,16 @@ Please select what model of iPad you have below.
 
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 34%;">
+    <col span="1" style="width: 100%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPad Pro</th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipad-pro)"><img src="/assets/images/iPad6,7.png" alt="" width="50%"></a></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -200,22 +188,16 @@ Please select what model of iPad you have below.
 
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
-    <col span="1" style="width: 34%;">
+    <col span="1" style="width: 100%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPad Air</th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipad-air)"><img src="/assets/images/iPad4,2.png" alt="" width="50%"></a></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>

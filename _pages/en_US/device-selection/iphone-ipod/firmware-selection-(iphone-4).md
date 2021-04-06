@@ -37,6 +37,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>4.0</td>
+      <td>4.0.1</td>
+      <td><a href="using-jailbreakme-star">Using JailbreakMe Star</a></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>4.0.2</td>
       <td>4.2.1</td>
       <td>Coming Soon</td>
       <td>N/A</td>
@@ -45,7 +51,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>4.2.5</td>
       <td>4.2.5</td>
       <td>N/A</td>
-      <td><a href="updating-to-7-1-2-ipsw">Updating to 7.1.2 using iTunes/Finder</td>
+      <td><a href="updating-to-7-1-2-ipsw">Updating to 7.1.2 using iTunes/Finder</a></td>
     </tr>
     <tr>
       <td>4.2.6</td>
@@ -62,10 +68,17 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>4.3</td>
       <td>4.3.3</td>
-      <td colspan="2"><a href="using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
+      <td><a href="using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>4.3.4</td>
+      <td>4.3.5</td>
+      <td>Coming Soon</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>5.0</td>
       <td>6.1.2</td>
       <td colspan="2">Coming Soon</td>
     </tr>

@@ -1,12 +1,12 @@
 ---
-title: Firmware Selection (iPod Touch 3)
-permalink: /firmware-selection-(ipod-touch-3)
+title: Firmware Selection (iPod Touch 1)
+permalink: /firmware-selection-(ipod-touch-1)
 redirect_from:
-  - /ipod-touch-3
-excerpt: Find out what jailbreaks you can use on your iPod Touch 3rd Generation
+  - /ipod-touch-1
+excerpt: Find out what jailbreaks you can use on your iPod Touch 1st Generation
 sidebar:
   nav: sidebar
-soc: APL2298
+soc: APL0098
 ---
 
 ## Required Reading
@@ -34,29 +34,14 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td>3.1.1</td>
+      <td>1.1</td>
       <td>3.1.1</td>
       <td>Coming Soon</td>
     </tr>
     <tr>
       <td>3.1.2</td>
-      <td>4.0.1</td>
+      <td>3.1.3</td>
       <td><a href="using-jailbreakme-star">Using JailbreakMe Star</a></td>
-    </tr>
-    <tr>
-      <td>4.0.2</td>
-      <td>4.2.1</td>
-      <td>Coming Soon</td>
-    </tr>
-    <tr>
-      <td>4.3</td>
-      <td>4.3.3</td>
-      <td><a href="using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
-    </tr>
-    <tr>
-      <td>4.3.4</td>
-      <td>5.1.1</td>
-      <td>Coming Soon</td>
     </tr>
   </tbody>
 </table>
