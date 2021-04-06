@@ -18,13 +18,13 @@ This will take you through the process of saving blobs which are required if you
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Web</button>
 <button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Computer (A12+)</button>
 
-{% capture a-instructions %}{% include_relative include/tss-app.md %}{% endcapture %}
+{% capture a-instructions %}{% include_relative tss-app.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative include/tss-web.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative tss-web.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
-{% capture c-instructions %}{% include_relative include/tss-computer.md %}{% endcapture %}
+{% capture c-instructions %}{% include_relative tss-computer.md %}{% endcapture %}
 <div id="cinstr">{{ c-instructions | markdownify }}</div>
 
 <script>
