@@ -71,4 +71,4 @@ These values can be reused at any time to save blobs whether or not you're jailb
 Please note that you should not use tools that allow you to input a different generator value unless you can be sure that you will remember it.
 {: .notice--danger}
 
-{% include_relative includes/end-of-page.md %}
+{% include_relative include/end-of-page.md %}
