@@ -1,19 +1,19 @@
 ---
-title: Firmware Selection (iPod Touch 3)
-permalink: /firmware-selection-(ipod-touch-3)
+title: Firmware Selection (iPhone 3G)
+permalink: /firmware-selection-(iphone-3g)
 redirect_from:
-  - /ipod-touch-3
-excerpt: Find out what jailbreaks you can use on your iPod Touch 3rd Generation
+  - /iphone-3g
+excerpt: Find out what jailbreaks you can use on your iPhone 3G
 sidebar:
   nav: sidebar
-soc: APL2298
+soc: APL0098
 ---
 
 ## Required Reading
 
 Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 6.1.3 to 6.1.6" row includes version 6.1.3, version 6.1.3, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 6.1.3 to 6.1.6" row includes version 6.1.3, version 6.1.6, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -34,7 +34,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td>3.1.1</td>
+      <td>2.0</td>
       <td>3.1.1</td>
       <td>Coming Soon</td>
     </tr>
@@ -47,17 +47,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>4.0.2</td>
       <td>4.2.1</td>
       <td>Coming Soon</td>
-    </tr>
-    <tr>
-      <td>4.3</td>
-      <td>4.3.3</td>
-      <td><a href="using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
-    </tr>
-    <tr>
-      <td>4.3.4</td>
-      <td>5.1.1</td>
-      <td>Coming Soon</td>
-    </tr>
   </tbody>
 </table>
 
