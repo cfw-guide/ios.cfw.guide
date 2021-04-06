@@ -143,7 +143,7 @@ Note that all "Plus", "Max", "Pro" and "mini" models of iPhones are functionally
     <tr>
       <td><a href="firmware-selection-(iphone-4)"><img src="/assets/images/iPhone3,3.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(iphone-3gs)"><img src="/assets/images/iPhone2,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(iphone-3g)"><img src="/assets/images/iPhone1,2.png" alt="" width="50%"></td>
+      <td><a href="firmware-selection-(iphone-3g)"><img src="/assets/images/iPhone1,2.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
