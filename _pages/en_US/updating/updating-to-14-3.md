@@ -21,7 +21,7 @@ You need a pre-existing jailbreak installed to use this method.
   - This is important as the device will be wiped later on
 1. Launch your current jailbreak
 1. Open your preferred package manager and add the following repo: `https://myxxdev.github.io/`
-1. Search and install the `MyBloXXX` package
+1. Search and install the `MyBloXX` package
   - There are multiple version; pick the one corresponding to your current iOS version
 1. Tap `Restart Springboard`
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
