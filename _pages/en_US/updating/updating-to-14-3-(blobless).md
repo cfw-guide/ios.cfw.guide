@@ -22,7 +22,6 @@ You need a pre-existing jailbreak installed to use this method.
 ## Preparing
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
-  - This is important as the device will be wiped later on
 1. Launch your current jailbreak
 1. Open your preferred package manager and add the following repo: `https://myxxdev.github.io/`
 1. Search and install the `MyBloXX` package
@@ -47,8 +46,10 @@ You need a pre-existing jailbreak installed to use this method.
 
 1. Install a 14.3 jailbreak of your choice
   - We recommend the [Taurine](installing-taurine) jailbreak
-1. Uninstall `MyBloXXX` using your package manager
-1. Remove the 14.3 certificate through Settings
+1. Install `MyBloXX` using your package manager
+1. In Settings, navigate to the MyBloXX section and tap "Revert Supervision Spoofing"
+1. Uninstall `MyBloXX` again
+1. Remove the 14.3 update certificate through Settings
 
 ## Troubleshooting
 
