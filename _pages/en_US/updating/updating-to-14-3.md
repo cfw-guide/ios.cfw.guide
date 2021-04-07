@@ -45,5 +45,27 @@ You need a pre-existing jailbreak installed to use this method.
 1. Follow any prompts and confirmations that appear
 1. Once your device is erased, restore the device backup you made earlier
 
+## Troubleshooting
+
+If you're having issues with updating, follow the advice below. If it worked, continue on to [installing Taurine](installing-taurine).
+
+### "iOS is up to date"
+
+1. Remove any beta profiles installed
+1. Install the OTADisabler tweak and then uninstall it
+1. Restart your device
+  - You can also use ldrestart or a userspace reboot
+
+### "Unable to check for updates"
+
+1. Restore rootFS through your jailbreak
+1. Install and open the [unc0ver](installing-unc0ver) application
+1. Turn off "Disable updates"
+1. Re-jailbreak using unc0ver
+
+### It just freezes
+
+Re-enable the OTA daemon using the iCleaner tweak
+
 Continue to [Installing Taurine](installing-taurine)
 {: .notice--info}
