@@ -50,24 +50,30 @@ Please select what model of iPod you have below.
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipod-touch-4)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipod-touch-3)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipod-touch-2)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipod-touch-3)"><img src="/assets/images/iPod3,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipod-touch-2)"><img src="/assets/images/iPod2,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
 
 <table class="version_table">
   <colgroup>
-    <col span="1" style="width: 100%;">
+    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 34%;">
   </colgroup>
   <thead>
     <tr>
       <th>iPod Touch 1</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipod-touch-1)"><img src="/assets/images/iPod4,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipod-touch-1)"><img src="/assets/images/iPod1,1.png" alt="" width="50%"></a></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
