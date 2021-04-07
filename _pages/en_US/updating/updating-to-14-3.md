@@ -7,6 +7,9 @@ redirect_from:
   - /and@@starplayer132
 ---
 
+This method will not work on A14 devices such as the iPhone 12.
+{:.notice--warning}
+
 ## Required Reading
 
 While iOS firmware version 14.3 is unsigned, it's still possible to update to it from a lower firmware version. However, this method will **expire on April 26th, 2021**.
