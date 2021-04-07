@@ -1,6 +1,7 @@
 ---
 title: Updating to 14.3 (Blobless)
 permalink: /updating-to-14-3
+excerpt: Guide on updating to 14.3 without any blobs.
 ---
 
 ## Required Reading
