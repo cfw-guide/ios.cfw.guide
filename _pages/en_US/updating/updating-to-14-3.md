@@ -5,7 +5,7 @@ permalink: /updating-to-14-3
 
 ## Required Reading
 
-While iOS firmware version 14.3 is unsigned, it's still possible to update to it from a lower firmware version. However, this method will **expire on the 26th April 2021**.
+While iOS firmware version 14.3 is unsigned, it's still possible to update to it from a lower firmware version. However, this method will **expire on April 26th, 2021**.
 
 This is a good firmware version to update to as it supports the latest Taurine jailbreak, while being a fairly stable OS to begin with.
 
