@@ -39,16 +39,12 @@ You need a pre-existing jailbreak installed to use this method.
   - Ensure that the version you are updating to is 14.3
 1. Download and install the update
 
-## Wiping your device
+## Finalizing Setup
 
-This is optional, however we recommend doing it just in case any issues arise.
-{: .notice--info}
-
-1. Open the Settings application
-1. Go to `General` -> `Reset`
-1. Tap `Erase All Contents and Settings`
-1. Follow any prompts and confirmations that appear
-1. Once your device is erased, restore the device backup you made earlier
+1. Install a 14.3 jailbreak of your choice
+  - We recommend the [Taurine](installing-taurine) jailbreak
+1. Uninstall `MyBloXXX` using your package manager
+1. Remove the 14.3 certificate through Settings
 
 ## Troubleshooting
 
@@ -71,6 +67,3 @@ If you're having issues with updating, follow the advice below. If it worked, co
 ### It just freezes
 
 Re-enable the OTA daemon using the iCleaner tweak
-
-Continue to [Installing Taurine](installing-taurine)
-{: .notice--info}
