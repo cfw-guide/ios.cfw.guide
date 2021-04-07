@@ -6,8 +6,8 @@ main:
     url: recommended-repos
   - title: Saving Blobs
     url: saving-blobs
-  - title: Restoring to 14.3
-    url: restoring-to-14-3
+  - title: Updating to 14.3
+    url: updating-to-14-3
   - title: Resigning Apps
     url: resigning-apps
   - title: Jailbreak Detection
