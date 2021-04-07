@@ -1,8 +1,9 @@
 ---
 title: Updating to 14.3 (Blobless)
-permalink: /updating-to-14-3
+permalink: /updating-to-14-3-(blobless)
 excerpt: Guide on updating to 14.3 without any blobs.
 redirect_from:
+  - /updating-to-14-3
   - /and@@starplayer132
 ---
 
