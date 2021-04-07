@@ -3,7 +3,7 @@ title: Updating to 14.4.2
 permalink: /updating-to-14-4-2
 redirect_from:
   - /updating-to-14-2
-  - /updating-to-14-3
+  #- /updating-to-14-3
   - /updating-to-14-4
   - /updating-to-14-4-1
 ---
