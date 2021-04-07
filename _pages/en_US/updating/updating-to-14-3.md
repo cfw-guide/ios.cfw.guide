@@ -41,6 +41,9 @@ You need a pre-existing jailbreak installed to use this method.
 
 ## Wiping your device
 
+This is optional, however we recommend doing it just in case any issues arise.
+{: .notice--info}
+
 1. Open the Settings application
 1. Go to `General` -> `Reset`
 1. Tap `Erase All Contents and Settings`
