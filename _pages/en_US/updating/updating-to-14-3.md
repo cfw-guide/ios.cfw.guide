@@ -17,7 +17,7 @@ While iOS firmware version 14.3 is unsigned, it's still possible to update to it
 This is a good firmware version to update to as it supports the latest Taurine jailbreak, while being a fairly stable OS to begin with.
 
 You need a pre-existing jailbreak installed to use this method.
-{: .notice--warning}
+{: .notice--primary}
 
 ## Preparing
 
