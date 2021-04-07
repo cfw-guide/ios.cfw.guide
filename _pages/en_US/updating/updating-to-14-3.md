@@ -1,5 +1,5 @@
 ---
-title: Updating to 14.3
+title: Updating to 14.3 (Blobless)
 permalink: /updating-to-14-3
 ---
 
