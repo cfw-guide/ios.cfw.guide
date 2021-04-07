@@ -41,15 +41,7 @@ You need a pre-existing jailbreak installed to use this method.
 1. Tap `General` -> `Software Update`
   - Ensure that the version you are updating to is 14.3
 1. Download and install the update
-
-## Finalizing Setup
-
-1. Install a 14.3 jailbreak of your choice
-  - We recommend the [Taurine](installing-taurine) jailbreak
-1. Install `MyBloXX` using your package manager
-1. In Settings, navigate to the MyBloXX section and tap "Revert Supervision Spoofing"
-1. Uninstall `MyBloXX` again
-1. Remove the 14.3 update certificate through Settings
+1. Once updated, remove the 14.3 update certificate through Settings
 
 ## Troubleshooting
 
