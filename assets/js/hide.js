@@ -1,8 +1,8 @@
 (function (window) {
     {
-        let hideOS     = document.getElementById("hide_os").style;
-        let hideMobile = document.getElementById("hide_os").style;
-        let plat       = navigator.platform
+        const hideOS     = document.querySelector('.hide--os').style;
+        const hideMobile = document.querySelector('.hide--mobile').style;
+        const plat       = navigator.platform
 
         if (!plat) {
             hideOS.display     = "none";
