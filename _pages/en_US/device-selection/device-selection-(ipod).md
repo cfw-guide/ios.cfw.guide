@@ -4,7 +4,7 @@ permalink: /device-selection-(ipod)
 excerpt: Find out what jailbreaks you can use on your iPod
 toc: false
 sidebar:
-  nav: sidebar
+  nav: ios1314
 ---
 
 ## Required Reading

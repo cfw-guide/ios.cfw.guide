@@ -4,7 +4,7 @@ permalink: /device-selection-(ipad)
 excerpt: Find out what jailbreaks you can use on your iPad
 toc: false
 sidebar:
-  nav: sidebar
+  nav: ios1314
 ---
 
 ## Required Reading
