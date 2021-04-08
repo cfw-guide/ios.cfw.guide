@@ -69,3 +69,7 @@ If you're having issues with updating, follow the advice below. If it worked, co
 ### It just freezes
 
 Re-enable the OTA daemon using the iCleaner tweak
+
+---
+
+Credits to [dhinakg](https://github.com/dhinakg/) for discovering this method.
