@@ -10,6 +10,9 @@ redirect_from:
 This method will not work on A14 devices such as the iPhone 12.
 {:.notice--warning}
 
+If you used futurerestore to update after January 26th, 2021 then this method will likely not work for you.
+{: .notice--info}
+
 ## Required Reading
 
 While iOS firmware version 14.3 is unsigned, it's still possible to update to it from a lower firmware version. However, this method will **expire on April 26th, 2021**.
