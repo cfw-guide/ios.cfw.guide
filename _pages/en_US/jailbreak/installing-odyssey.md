@@ -24,7 +24,7 @@ We will use AltStore to install the Odyssey jailbreak application to your iOS de
 Odyssey is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
 {: .notice--primary #ifJailbreaksAppSigned}
 
-<script src="/if_jailbreaksapp_signed.js"></script>
+<script src="/assets/js/if_jailbreaksapp_signed.js"></script>
 
 - The latest version of [Odyssey](https://cdn.discordapp.com/attachments/668928257428815892/819903339978424360/Odyssey_1.3.1b2.ipa)
 - The latest version of [AltStore](http://altstore.io/)
