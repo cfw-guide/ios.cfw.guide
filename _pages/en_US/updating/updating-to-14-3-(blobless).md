@@ -50,7 +50,7 @@ You need a pre-existing jailbreak installed to use this method.
 
 ## Troubleshooting
 
-If you're having issues with updating, follow the advice below. If it worked, continue on to [installing Taurine](installing-taurine).
+If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked, move on to [installing Taurine](installing-taurine).
 
 ### "iOS is up to date"
 
