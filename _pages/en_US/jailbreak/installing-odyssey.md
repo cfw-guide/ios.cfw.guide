@@ -42,7 +42,7 @@ Odyssey is currently signed at [jailbreaks.app](https://jailbreaks.app/) for eas
 1. Click Install AltStore
   - Follow all onscreen prompts
 1. Open Settings and navigate to `General` -> `Device Management` and verify AltStore
-1. Download [Odyssey](https://cdn.discordapp.com/attachments/668928257428815892/819903339978424360/Odyssey_1.3.1b2.ipa) on your iOS Device and open the `.ipa` in AltStore
+1. Download [Odyssey](https://theodyssey.dev/#download) on your iOS Device and open the `.ipa` in AltStore
   - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
 The Odyssey application can now be opened from home screen.
