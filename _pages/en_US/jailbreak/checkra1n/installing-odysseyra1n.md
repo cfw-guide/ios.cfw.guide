@@ -18,9 +18,9 @@ sidebar:
 ---
 
 You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
-{: .notice--danger #hide_os #hide_mobile }
+{: .notice--danger .hide--mobile .hide--os }
 
-<script src="{{ '/assets/js/hide.js' | absolute_url }}"></script>
+<script src="/assets/js/hide.js"></script>
 
 On iOS 14.0 to {% include latestfw %}, Odysseyra1n is only fully supported on A8(X) to A10(X) devices for the moment. Full A11 support may be added at future date.
 {: .notice--info}

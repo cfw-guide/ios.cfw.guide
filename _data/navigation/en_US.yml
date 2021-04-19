@@ -77,8 +77,8 @@ sidebar:
 ios1314:
   - title: "Jailbreaks"
     children:
-      - title: "Installing unc0ver"
-        url: /installing-unc0ver
+      - title: "Installing Taurine"
+        url: /installing-taurine
       - title: "Installing Odyssey"
         url: /installing-odyssey
       - title: "Installing Odysseyra1n"

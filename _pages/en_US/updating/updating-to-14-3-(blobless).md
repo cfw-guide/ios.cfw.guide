@@ -10,6 +10,9 @@ redirect_from:
 This method will not work on A14 devices such as the iPhone 12.
 {:.notice--warning}
 
+If you used futurerestore to update after January 26th, 2021 then this method will likely not work for you.
+{: .notice--info}
+
 ## Required Reading
 
 While iOS firmware version 14.3 is unsigned, it's still possible to update to it from a lower firmware version. However, this method will **expire on April 26th, 2021**.
@@ -27,6 +30,8 @@ You need a pre-existing jailbreak installed to use this method.
 1. Search and install the `MyBloXX` package
   - There are multiple version; pick the one corresponding to your current iOS version
 1. Tap `Restart Springboard`
+1. Your device should now be in supervision mode
+  - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
 1. After installing the profile, 14.3 should show up in the Settings app as an update
 1. Restart your device
@@ -45,7 +50,7 @@ You need a pre-existing jailbreak installed to use this method.
 
 ## Troubleshooting
 
-If you're having issues with updating, follow the advice below. If it worked, continue on to [installing Taurine](installing-taurine).
+If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked, move on to [installing Taurine](installing-taurine).
 
 ### "iOS is up to date"
 
@@ -64,3 +69,7 @@ If you're having issues with updating, follow the advice below. If it worked, co
 ### It just freezes
 
 Re-enable the OTA daemon using the iCleaner tweak
+
+---
+
+Credits to [dhinakg](https://github.com/dhinakg/) for discovering this method.

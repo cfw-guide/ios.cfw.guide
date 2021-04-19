@@ -9,7 +9,7 @@ redirect_from:
   - /uo
 excerpt: Guide to installing unc0ver
 sidebar:
-  nav: ios1314
+  nav: sidebar
 ---
 
 Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend to wait until a more stable option is available before jailbreaking.
@@ -32,7 +32,7 @@ We will use the AltStore tool to install the unc0ver jailbreak application to yo
 unc0ver is currently signed at [jailbreaks.app](https://jailbreaks.app/) for easy installation without a computer.
 {: .notice--primary #ifJailbreaksAppSigned}
 
-<script src="/if_jailbreaksapp_signed.js"></script>
+<script src="/assets/js/if_jailbreaksapp_signed.js"></script>
 
 - The latest version of [unc0ver](https://unc0ver.dev/)
 - The latest version of [AltStore](http://altstore.io/)
