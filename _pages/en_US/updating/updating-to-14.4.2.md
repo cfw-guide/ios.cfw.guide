@@ -13,7 +13,7 @@ Odysseyra1n only supports A8(X) to A10(X) on iOS 14.4.2 at this time.
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to {% include latestfw %} and use the checkra1n jailbreak instead if your device is compatible.
+If you're on an unsupported firmware version, you can update to {% include latestfw %} and use the Odysseyra1n jailbreak instead if your device is compatible.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is {% include latestfw %}, we can easily update to the desired firmware version.
 

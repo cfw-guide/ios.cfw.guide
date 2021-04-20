@@ -38,7 +38,7 @@ You may want to check in your country whether it is legal there or not before pr
 
 ## What is a package manager?
 
-Package managers are used to install and uninstall community-made software to customize your device. Cydia and Sileo are both examples of package managers.
+Package managers are used to install and uninstall community-made software to customize your device. Sileo is an example of a package manager.
 
 They can be considered similar to the iOS App Store, where you can install both free and paid software.
 
@@ -49,7 +49,7 @@ Tweaks are typically software packages that can be installed to your device whic
 ## What can I do once jailbroken?
 
 - Gain full access to your device's OS
-- Get access to a package manager, such as Cydia or Sileo
+- Get access to a package manager, such as Sileo
 - Install themes to change the look and feel of your device
 - Install tweaks to change how iOS behaves
 

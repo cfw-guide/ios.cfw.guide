@@ -35,13 +35,17 @@ sidebar:
 **Extra Pages**
 
 + [Removing unc0ver](removing-unc0ver)
++ [Installing Sileo](installing-sileo)
++ [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
++ [Updating to 14.3 (Blobless)](updating-to-14-3-(blobless))
++ [Restoring to 14.3](restoring-to-14-3)
++ [Updating to 14.4.2](updating-to-14-4-2)
 + [Package Managers](package-managers)
 + [Types of Jailbreak](types-of-jailbreak)
 + [Recommended Repos](recommended-repos)
 + [Resigning Apps](resigning-apps)
 + [Using Cydia](using-cydia)
-+ [Using Sileo](using-sileo)
 + [Using Coolbooter](using-coolbooter)
 
 {% endcapture %}
@@ -49,12 +53,12 @@ sidebar:
 {% capture notice-3 %}
 **ios.cfw.guide**
 
-
++ [Home](/)
++ [Device Selection](device-selection)
++ [FAQ](faq)
++ [Troubleshooting](troubleshooting)
 + [Credits](credits)
 + [Donations](donations)
-+ [FAQ](faq)
-+ [Device Selection](device-selection)
-+ [Home](/)
 
 {% endcapture %}
 

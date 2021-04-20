@@ -43,7 +43,7 @@ Semi-untethered jailbreaks have been the most popular type of jailbreak in recen
 
 <img src="{{ "/assets/images/odysseymain.png" | absolute_url }}" width="250" class="align-right"/>
 
-This jailbreak works by running the exploit through an app on the device itself. The app, however, must be resigned every 7 days if sideloaded with a standard Apple ID. Utilities like AltStore, ReProvisionFix, and AltDaemon make this process far easier.
+This jailbreak works by running the exploit through an app on the device itself. The app, however, must be resigned every 7 days if sideloaded with a standard Apple ID. Utilities like AltStore, ReProvision Reborn, and AltDaemon make this process far easier.
 
 Due to the nature of how the exploit is applied, these jailbreaks are easily removable through their respective app.
 

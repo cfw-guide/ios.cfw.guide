@@ -15,7 +15,7 @@ Uninstalling a jailbreak isn't as simple as deleting the app. When you uninstall
 
 This guide is useful for people who want to install checkra1n, as it requires that unc0ver is removed first, or just people who want to unjailbreak their device.
 
-If you're proceeding to installing checkra1n, we recommend making a system backup through iTunes or Finder (macOS Catalina and newer) after you remove unc0ver.
+If you're proceeding to installing Odysseyra1n, we recommend making a system backup through iTunes or Finder (macOS Catalina and newer) after you remove unc0ver.
 {: .notice--success}
 
 ## Uninstalling

@@ -2,7 +2,33 @@
 title: "Troubleshooting"
 permalink: /troubleshooting
 excerpt: Having trouble with your jailbreak? We've got the solution
+sidebar:
+  nav: sidebar
 ---
+
+## <a name="iphonex_dfu" />How to enter DFU on an iPhone or iPad without a Home Button
+
+1. Power on your iPhone/iPad if it's not on already
+1. Connect it to your computer with your cable
+1. Launch iTunes (or Finder on macOS Catalina and newer) and check that the iPhone/iPad is recognised
+1. Press the Volume+ button immediately followed by the Volume- button
+1. Press and hold down the Power button until the screen turns black
+1. Release the Power button
+1. Hold down the Power button, and the Volume- button for 5 seconds immediately after
+1. Release the Power button but keep holding down the Volume- button for another 5 seconds
+
+Your device should now be in DFU mode. The screen should be black, and your computer should recognise it as in recovery mode.
+
+## <a name="err_jailbreak" />ERR_Jailbreak on Odyssey and Taurine
+
+This is caused by you having used a previous jailbreak. To solve this, you need to restore rootfs:
+
+1. Reboot the device.
+1. Open the Odyssey or Taurine, depending on your iOS version.
+1. Toggle the `Restore Rootfs` option
+1. Press the Jailbreak button.
+
+Once the restore rootfs successfully completes, try jailbreaking again.
 
 ## <a name="rootfs_u0" />rootFS already mounted
 
@@ -44,16 +70,3 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
 
 If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb) for support.
 {: .notice--info}
-
-## <a name="iphonex_dfu" />How to enter DFU on an iPhone or iPad without a Home Button
-
-1. Power on your iPhone/iPad if it's not on already
-1. Connect it to your computer with your cable
-1. Launch iTunes (or Finder on macOS Catalina and newer) and check that the iPhone/iPad is recognised
-1. Press the Volume+ button immediately followed by the Volume- button
-1. Press and hold down the Power button until the screen turns black
-1. Release the Power button
-1. Hold down the Power button, and the Volume- button for 5 seconds immediately after
-1. Release the Power button but keep holding down the Volume- button for another 5 seconds
-
-Your device should now be in DFU mode. The screen should be black, and your computer should recognise it as in recovery mode.

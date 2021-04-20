@@ -19,7 +19,9 @@ Package managers are in some ways like an App Store for tweaks. They allow you t
 {% capture sileo %}
 Sileo is a relatively new Package Manager made by [Coolstar](https://twitter.com/CStar_OW). It's used to download and install jailbreak tweaks, similar to package managers listed below. Sileo prides itself with its superior performance, modern design, and general QOL improvements.
 
-Sileo is only available using Electra, Chimera, Odyssey, and Odysseyra1n.
+Sileo is installed by default on Electra, Chimera, Odyssey, Taurine, and Odysseyra1n. Sileo is also downloadable through checkra1n as well as unc0ver on iOS 12.0 and higher.
+
+URL: <code><a href="https://getsileo.app/" target="_blank">https://getsileo.app/</a></code>
 {% endcapture %}
 
 <div class="notice--info">{{ sileo | markdownify }}</div>
@@ -30,7 +32,7 @@ Sileo is only available using Electra, Chimera, Odyssey, and Odysseyra1n.
 {% capture cydia %}
 Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's historically been at the front of every jailbreak, however has since been abandoned by its creator. Due to it's age, it unfortunately suffers from its outdated design and slow performance.
 
-Cydia, while not recommended, is available using unc0ver and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
+Cydia, while not recommended, is included by default using unc0ver and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
 {% endcapture %}
 
 <div class="notice--info">{{ cydia | markdownify }}</div>
