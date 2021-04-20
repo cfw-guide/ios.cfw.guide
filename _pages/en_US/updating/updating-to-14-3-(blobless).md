@@ -7,7 +7,7 @@ redirect_from:
   - /and@@starplayer132
 ---
 
-This method will not work on A14 devices such as the iPhone 12.
+This method will not work on A14 devices such as the iPhone 12 and iPad Air 4.
 {:.notice--warning}
 
 If you used futurerestore to update after January 26th, 2021 then this method will likely not work for you.
