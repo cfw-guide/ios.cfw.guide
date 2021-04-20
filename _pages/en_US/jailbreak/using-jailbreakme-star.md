@@ -11,7 +11,7 @@ sidebar:
   nav: sidebar
 ---
 
-JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to iOS 4.0.1
+JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to iOS 4.0.1 except for the iPad 1st Generation on iPhone OS 3.2.2
 
 JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or Future Restore
 
