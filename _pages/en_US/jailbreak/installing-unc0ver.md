@@ -12,10 +12,10 @@ sidebar:
   nav: sidebar
 ---
 
-Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend to wait until a more stable option is available before jailbreaking.
+Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend using [Taurine](/installing-taurine) or [Odysseyra1n](/installing-odysseyra1n) instead.
 {: .notice--danger}
 
-If you use a device with an A8-A10(X) SOC, we recommend using [Odysseyra1n](/installing-odysseyra1n) or [Odysseyn1x](using-odysseyn1x) instead.
+If you use a device on iOS 14.0 to 14.3, we recommend using [Taurine](/installing-taurine) instead.
 {: .notice--primary}
 
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
@@ -82,6 +82,9 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 If you receive the error `rootFS already mounted, delete the OTA update`, read the [Troubleshooting](troubleshooting#rootfs_u0) page
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](faq#tweaks), themes and more.
+
+If you wish to use a more modern package manager, and are on iOS 12.0 or higher, continue to [Installing Sileo](installing-sileo)
+{: .notice--info}
 
 Continue to [Using Cydia](using-cydia)
 {: .notice--info}
