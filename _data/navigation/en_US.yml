@@ -2,20 +2,20 @@
 main:
   - title: FAQ
     url: faq
+  - title: Troubleshooting
+    url: troubleshooting
   - title: Recommended Repos
     url: recommended-repos
   - title: Saving Blobs
     url: saving-blobs
-  - title: Updating to 14.3
-    url: updating-to-14-3
+  - title: Restoring to 14.3
+    url: restoring-to-14-3
   - title: Resigning Apps
     url: resigning-apps
   - title: Jailbreak Detection
     url: blocking-jailbreak-detection
   - title: Jailbreak Types
     url: types-of-jailbreak
-  - title: Coolbooter
-    url: using-coolbooter
   - title: Donations
     url: donations
   - title: Credits
@@ -59,10 +59,12 @@ sidebar:
         url: /blocking-jailbreak-detection
   - title: "Support"
     children:
-      - title: "Types of Jailbreak"
-        url: /types-of-jailbreak
+      - title: "Troubleshooting"
+        url: /troubleshooting
       - title: "FAQ"
         url: /faq
+      - title: "Types of Jailbreak"
+        url: /types-of-jailbreak
       - title: "Discord"
         url: https://discord.gg/jb
   - title: "Miscellaneous"
@@ -107,10 +109,12 @@ ios1314:
         url: /blocking-jailbreak-detection
   - title: "Support"
     children:
-      - title: "Types of Jailbreak"
-        url: /types-of-jailbreak
+      - title: "Troubleshooting"
+        url: /troubleshooting
       - title: "FAQ"
         url: /faq
+      - title: "Types of Jailbreak"
+        url: /types-of-jailbreak
       - title: "Discord"
         url: https://discord.gg/jb
   - title: "Miscellaneous"
