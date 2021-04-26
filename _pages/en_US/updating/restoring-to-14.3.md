@@ -28,7 +28,7 @@ If you saved blobs for an earlier version of iOS 14, but not 14.3, this will sti
 ## Downloads
 
 - The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
-- The iPSW file for your device from [ipsw.me](ipsw.me)
+- The iPSW file for your device from [ipsw.me](https://ipsw.me/)
   - This should be the same iOS version that your blob is for
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
