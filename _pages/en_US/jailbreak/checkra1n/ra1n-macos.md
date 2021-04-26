@@ -10,7 +10,7 @@
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
 1. Click `Start` -> `Next` on checkra1n
-  - You may need to enable `enable untested versions` if you are on iOS 14.4 to {% include latestfw %} before being able to follow this step
+  - You may need to enable `enable untested versions` if you are on iOS 14.4 to 14.4.2 before being able to follow this step
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device shows a black screen
