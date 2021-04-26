@@ -43,7 +43,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td colspan="2"><a href="updating-to-14-4-2">Updating to {% include latestfw %}</a></td>
+      <td colspan="2"><a href="updating-to-14-5">Updating to {% include latestfw %}</a></td>
     </tr>
     <tr>
       <td>10.0</td>
@@ -72,9 +72,14 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>14.4</td>
-      <td>{% include latestfw %}</td>
+      <td>14.4.2</td>
       <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
       <td><a href="using-odysseyn1x">Using Odysseyn1x</a></td>
+    </tr>
+    <tr>
+      <td>{% include latestfw %}</td>
+      <td>{% include latestfw %}</td>
+      <td colspan="2">--</td>
     </tr>
   </tbody>
 </table>
