@@ -5,7 +5,7 @@ permalink: /updating-to-10-3-3
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware versions 8.4.1 or 9.3.4 to 9.3.5 on 64-bit devices. However devices, such as the iPhone 5S, can update to 10.3.3 and use the Meridian jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware version 8.4.1 on 64-bit devices. However devices, such as the iPhone 5S, can update to 10.3.3 and use the Meridian jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 10.3.3, we can easily update to the desired firmware version, due to the age of their current firmware version.
 
