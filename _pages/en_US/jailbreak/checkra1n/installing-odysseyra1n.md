@@ -22,7 +22,7 @@ You are currently not running a macOS or Linux device and this guide will not wo
 
 <script src="/assets/js/hide.js"></script>
 
-On iOS 14.0 to 14.4.2, Odysseyra1n is only fully supported on A8(X) to A10(X) devices for the moment. Full A11 support may be added at future date.
+On iOS 14.0 to {% include latestfw %} Odysseyra1n is only fully supported on A8(X) to A10(X) devices for the moment. Full A11 support may be added at future date.
 {: .notice--info}
 
 {% include_relative include/semi-tethered.md %}
@@ -34,7 +34,7 @@ checkra1n is a tool capable of jailbreaking millions of iOS device on firmwares 
 If you are using Windows, proceed to [Using odysseyn1x](/using-odysseyn1x).
 {: .notice--primary #hide_os }
 
-If you're migrating from unc0ver to checkra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
+If you're migrating from unc0ver to Odysseyra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
 {: .notice--textbox}
 
 Please select your operating system below:
