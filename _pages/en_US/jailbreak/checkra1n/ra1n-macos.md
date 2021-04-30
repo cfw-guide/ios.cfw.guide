@@ -32,3 +32,5 @@ Your iOS device should reboot. Do not open the checkra1n app until you have ran 
 1. Install the Odysseyra1n script by pasting and executing the following command:
 
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
+    
+{% include_relative include/end-of-page.md %}
