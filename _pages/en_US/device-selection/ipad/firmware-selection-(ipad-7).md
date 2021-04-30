@@ -44,17 +44,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>14.0</td>
       <td>14.3</td>
       <td colspan="2"><a href="installing-taurine">Installing Taurine</a></td>
-     </tr>
-     <tr>
-      <td>14.4</td>
-      <td>14.4.2</td>
-      <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
-      <td><a href="using-odysseyn1x">Using Odysseyn1x</a></td>
     </tr>
     <tr>
+      <td>14.4</td>
       <td>{% include latestfw %}</td>
-      <td>{% include latestfw %}</td>
-      <td colspan="2">--</td>
+      <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
+      <td><a href="using-odysseyn1x">Using Odysseyn1x</a></td>
     </tr>
   </tbody>
 </table>

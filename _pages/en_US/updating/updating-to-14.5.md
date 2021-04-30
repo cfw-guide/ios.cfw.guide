@@ -9,12 +9,12 @@ redirect_from:
   - /updating-to-14-4-2
 ---
 
-There is no jailbreak for iOS 14.5 at this time.
+Odysseyra1n only supports A8(X) to A10(X) on iOS 14.5 at this time.
 {: .notice--warning}
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to {% include latestfw %}.
+If you're on an unsupported firmware version, you can update to {% include latestfw %} and use the Odysseyra1n jailbreak instead if your device is compatible.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is {% include latestfw %}, we can easily update to the desired firmware version.
 
@@ -39,3 +39,6 @@ Only follow this if you've installed update blocking in the past.
 1. Tap `General` -> `Software Update`
   - Ensure that the version you are updating to is {% include latestfw %}
 1. Download and install the update
+
+Continue to [Installing Odysseyra1n](installing-odysseyra1n)
+{: .notice--info}

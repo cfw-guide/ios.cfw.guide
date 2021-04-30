@@ -9,7 +9,6 @@
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
   - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
 1. Click `Start` and follow all onscreen prompts
-  - You may need to enable `enable untested versions` if you are on iOS 14.4 to 14.4.2 before being able to follow this step
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
