@@ -22,7 +22,6 @@ sidebar:
 
 Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. Apps sideloaded with a regular Apple ID will expire after 7 days or 365 days with a Developer Apple ID. After that period, you will no longer be able to open that app to re-jailbreak.
 
-
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">AltDeploy</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">AltServer</button>
 <button class="btn btn--large btn--info" id="cbtn" onclick="showc()">AltDaemon</button>
@@ -54,7 +53,7 @@ Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. App
   var c = document.getElementById("cinstr");
   var cbtn = document.getElementById("cbtn");
   var cclr = "btn--primary"
-  
+
   var d = document.getElementById("dinstr");
   var dbtn = document.getElementById("dbtn");
   var dclr = "btn--primary"
