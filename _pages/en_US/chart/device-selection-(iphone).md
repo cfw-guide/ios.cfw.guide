@@ -4,7 +4,7 @@ permalink: /chart/device-selection-(iphone)
 excerpt: Find out what jailbreaks you can use on your iPhone
 toc: false
 sidebar:
-  nav: ios1314
+  nav: sidebar
 ---
 
 ## Required Reading
