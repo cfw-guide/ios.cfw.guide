@@ -1,20 +1,17 @@
 ---
-title: Firmware Selection (iPhone 11)
-permalink: /chart/firmware-selection-(iphone-11)
-excerpt: Find out what jailbreaks you can use on your iPhone 11
+title: Firmware Selection (iPad Pro 4)
+permalink: /chart/firmware-selection-(ipad-pro-4)
+excerpt: Find out what jailbreaks you can use on your iPad Pro 12.9" 4th Generation or iPad Pro 11" 2nd Generation
 sidebar:
   nav: sidebar
-soc: A13 Bionic
+soc: A12Z Bionic
 ---
 
 ## Required Reading
 
-Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
+Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
-This page is compatible with the following devices:
-- iPhone 11
-- iPhone 11 Pro
-- iPhone 11 Pro Max
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 13.4 to 13.7" row includes version 13.4, version 13.7, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -29,72 +26,12 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </colgroup>
   <thead>
     <tr>
-      <th>Firmware</th>
+      <th>Firmare</th>
       <th>Build Num</th>
       <th colspan="2"></th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>13.0</td>
-      <td>17A577</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.1</td>
-      <td>17A844</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.1.1</td>
-      <td>17A854</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.1.2</td>
-      <td>17A860</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.1.3</td>
-      <td>17A878</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.2</td>
-      <td>17B84</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.2.2</td>
-      <td>17B102</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.2.3</td>
-      <td>17B111</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.3</td>
-      <td>17C54</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
-    <tr>
-      <td>13.3.1</td>
-      <td>17D50</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
-    </tr>
     <tr>
       <td>13.4</td>
       <td>17E255</td>
@@ -197,4 +134,4 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-{% include_relative find-ios-version.md %}
+{% include_relative find-ios-version-ipad.md %}

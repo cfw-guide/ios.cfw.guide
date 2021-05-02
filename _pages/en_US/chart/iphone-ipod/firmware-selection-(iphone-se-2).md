@@ -93,16 +93,6 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td><a href="installing-taurine">Installing Taurine</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
-    <!--<tr>
-      <td>14.2</td>
-      <td>18B111</td>
-      <td colspan="2">N/A</td>
-    </tr>
-    <tr>
-      <td>14.2.1</td>
-      <td>18B121</td>
-      <td colspan="2">N/A</td>
-    </tr>-->
     <tr>
       <td>14.3</td>
       <td>18C66</td>
@@ -138,8 +128,5 @@ Your device version can be found in the Settings application in `General` -> `Ab
 </table>
 
 ---
-
-<!--In boxes marked `N/A`, the firmware version was not released for that device.
-{: .notice--info}-->
 
 {% include_relative find-ios-version.md %}
