@@ -18,7 +18,7 @@ If you have a newer device with an A12 SoC, such as the iPhone XS, you can only 
 If you are already jailbroken with unc0ver, make sure to properly [remove it](removing-u0) before installing Chimera.
 {:.notice--danger}
 
-Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.2.
+Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.3.
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
