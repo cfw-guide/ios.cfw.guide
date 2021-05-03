@@ -16,7 +16,7 @@ This will take you through the process of saving blobs which are required if you
 
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">App</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Web</button>
-<button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Computer(A12+)</button>
+<button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Computer (A12+)</button>
 
 {% capture a-instructions %}{% include_relative tss-app.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
