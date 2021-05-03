@@ -105,7 +105,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>13.1.2</td>
-      <td>17A861</td>
+      <td>17A860</td>
       <td><a href="installing-Odyssey">Installing Odyssey</a></td>
       <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
