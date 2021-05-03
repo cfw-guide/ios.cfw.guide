@@ -1,20 +1,17 @@
 ---
-title: Firmware Selection (iPhone 11)
-permalink: /chart/firmware-selection-(iphone-11)
-excerpt: Find out what jailbreaks you can use on your iPhone 11
+title: Firmware Selection (iPad Mini 5)
+permalink: /chart/firmware-selection-(ipad-mini-5)
+excerpt: Find out what jailbreaks you can use on your iPad Mini 5th Generation
 sidebar:
   nav: sidebar
-soc: A13 Bionic
+soc: A12 Bionic
 ---
 
 ## Required Reading
 
-Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
+Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
-This page is compatible with the following devices:
-- iPhone 11
-- iPhone 11 Pro
-- iPhone 11 Pro Max
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 13.0 to 13.7" row includes version 13.0, version 13.7, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -29,17 +26,36 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </colgroup>
   <thead>
     <tr>
-      <th>Firmware</th>
+      <th>Firmare</th>
       <th>Build Num</th>
       <th colspan="2"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>13.0</td>
-      <td>17A577</td>
-      <td><a href="installing-Odyssey">Installing Odyssey</a></td>
-      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+      <td>12.2</td>
+      <td>16E227</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>12.3</td>
+      <td>16F156</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>12.3.1</td>
+      <td>16F203</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>12.4</td>
+      <td>16G77</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>12.4.1</td>
+      <td>16G102</td>
+      <td colspan="2"><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>13.1</td>
@@ -197,4 +213,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-{% include_relative find-ios-version.md %}
+In boxes marked `--`, there is no jailbreak for that firmware version.
+{: .notice--info}
+
+{% include_relative find-ios-version-ipad.md %}

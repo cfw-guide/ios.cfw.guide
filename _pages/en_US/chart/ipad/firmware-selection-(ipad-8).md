@@ -21,32 +21,63 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 15%;">
-    <col span="1" style="width: 70%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>
-      <th>From</th>
-      <th>To</th>
-      <th></th>
+      <th>Firmware</th>
+      <th>Build Num</th>
+      <th colspan="2"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>14.0</td>
-      <td>14.3</td>
+      <td>14.1</td>
+      <td>18A8395</td>
       <td><a href="installing-taurine">Installing Taurine</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>14.2</td>
+      <td>18B92</td>
+      <td><a href="installing-taurine">Installing Taurine</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
+    </tr>
+    <tr>
+      <td>14.3</td>
+      <td>18C66</td>
+      <td><a href="installing-taurine">Installing Taurine</a></td>
+      <td><a href="installing-unc0ver">Installing unc0ver</a></td>
     </tr>
     <tr>
       <td>14.4</td>
-      <td>{% include latestfw %}</td>
-      <td>--</td>
+      <td>18D52</td>
+      <td colspan="2">No Jailbreak</td>
+    </tr>
+    <tr>
+      <td>14.4.1</td>
+      <td>18D61</td>
+      <td colspan="2">No Jailbreak</td>
+    </tr>
+    <tr>
+      <td>14.4.2</td>
+      <td>18D70</td>
+      <td colspan="2">No Jailbreak</td>
+    </tr>
+    <tr>
+      <td>14.5</td>
+      <td>18E199</td>
+      <td colspan="2">No Jailbreak</td>
+    </tr>
+    <tr>
+      <td>14.6 Beta</td>
+      <td></td>
+      <td colspan="2">No Jailbreak</td>
     </tr>
   </tbody>
 </table>
 
 ---
-
-In boxes marked `--`, there is no jailbreak for that firmware version.
-{: .notice--info}
 
 {% include_relative find-ios-version-ipad.md %}

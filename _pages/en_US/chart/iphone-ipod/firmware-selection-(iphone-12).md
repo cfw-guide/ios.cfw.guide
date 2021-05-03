@@ -96,7 +96,4 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-<!--In boxes marked `N/A`, the firmware version was not released for that device.
-{: .notice--info}-->
-
 {% include_relative find-ios-version.md %}
