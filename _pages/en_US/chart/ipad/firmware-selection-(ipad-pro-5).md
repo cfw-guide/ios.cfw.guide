@@ -25,23 +25,25 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </colgroup>
   <thead>
     <tr>
-      <th>From</th>
-      <th>To</th>
+      <th>Firmware</th>
+      <th>Build Num</th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>14.5</td>
-      <td>14.5</td>
-      <td>--</td>
+      <td>18E199</td>
+      <td>No Jailbreak</td>
+    </tr>
+    <tr>
+      <td>14.6 Beta</td>
+      <td></td>
+      <td>No Jailbreak</td>
     </tr>
   </tbody>
 </table>
 
 ---
-
-In boxes marked `--`, there is no jailbreak for that firmware version.
-{: .notice--info}
 
 {% include_relative find-ios-version-ipad.md %}
