@@ -57,7 +57,7 @@ If you restored rootFS, go back to step 1 and repeat this section.
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
 {:.notice--danger}
 
-If you receive the error `ERR_Jailbreak`, read the [Troubleshooting](troubleshooting#err_jailbreak) page
+If you receive the error `ERR_Jailbreak`, `ERR_Already_Jailbroken` or `ERR_KernRW` read the Taurine/Odyssey section on the [Troubleshooting](troubleshooting#taurine_odyssey) page
 {: .notice--info}
 
 You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install [tweaks](faq#tweaks), themes and more.
