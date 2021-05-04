@@ -10,20 +10,14 @@ sidebar:
   nav: sidebar
 ---
 
-With the recent and upcoming jailbreak releases for iOS 14.0 to 14.3, many users find themselves on a version too low to take advantage of it.
-
-Luckily, users who have [saved their blobs](/saving-blobs) can easily update to an older iOS 14 version and install these new jailbreaks.
-
-If you saved blobs for an earlier version of iOS 14, but not 14.3, this will still work. 14.3 is recommended but not required.
-{: .notice--primary}
+If you have ever found yourself wanting to restore to an unsigned version, well, now you can! Assuming that you have met the requirements below and have a computer, you can use Futurerestore! See requirements below.
 
 ## Requirements
 
-- Blobs saved for iOS 14.3 or below
+- Blobs saved for the version you want to restore to
   - If there are multiple blobs saved for your version, use the first one
-- A device on iOS 13.7 or below
-  - If you have an A11 device or older, you can do this on iOS 14.x using [Dimentio](https://www.reddit.com/r/jailbreak/comments/ly5p10/update_free_release_dimentio_generator_setter_210/) to set your generator
-- A computer with at least 12GB of available storage space
+- A device that can be or is already jailbroken
+- A computer with at least 10 gigabytes of space.
 
 ## Downloads
 
@@ -32,25 +26,24 @@ If you saved blobs for an earlier version of iOS 14, but not 14.3, this will sti
   - This should be the same iOS version that your blob is for
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
+- Dimentio on the iDevice. In order to download it, add [1conans repo](https://repo.1conan.com) to sources of Cydia/Sileo, then search for dimentio and download it, if there are multiple ones to choose from, you can choose any.
+- OpenSSH and NewTerm 2 need to be downloaded on the iDevice through Cydia/Sileo. Unc0ver users will have to download libkrw as well.
 
-## Instructions
+## Steps
+- On Device
+(Optional: make sure to save a back up)
+1. Open your blob and search for "generator", there should a long number under it, like this:
+![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) If the number isnt 0x1111111111111111, don't freak out! Make sure to write the number under "generator" somewhere, it's essential.
+2. Open NewTerm 2 and type in "su root -c dimentio (number under generator)" if it asks for a password and you didn't change yours before, type "alpine". After that, simply type "dimentio" a long list should appear, at the end of the list it should say "current nonce: (number that you put)".
+ 
+-On Computer 
+1. Download the latest version of [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
+2. Click "Download FutureRestore" 
+3. Click "Select iPSW" and select the iPSW of the version you want to go to 
+4. Click "Select Blob" and select the blob of the version you want to go to 
+5. If you want to keep your data, make sure to click "update" (DO NOT DO THIS IF YOURE GOING FROM 14.5 TO A LOWER VERSION)
+6. Click "Start Futurerestore"
 
-1. Connect your iDevice to your computer
-1. Make sure that your computer is trusted by your device
-1. Create a full backup of your device through iTunes or Finder
-1. Download and install FutureRestoreGUI
-  - If prompted by Windows Defender or other anti-virus software, allow the program to run - it's safe
-1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-1. Click the `Select Blob File...` button and select your blob `.shsh2` file
-1. Click the `Select Target iPSW File...` and select your `.ipsw` file
-1. Enable the `Update (-u)` checkbox
-1. If you're using a non-cellular (WiFi only) device, Change "Latest Baseband" to "No Baseband"
+And that's it! If you have any issues, please come and ask in the [Futurerestore-Help channel in the r/jailbreak discord](https://discord.gg/9apvC4C3CC)
 
-    At the time of writing this, the latest update is 14.4.2 and using the latest baseband and SEP is safe. If there is a new update and this page has not been updated, <u>make sure to check</u> if the latest baseband and SEP are compatible before continuing.
-    {: .notice--danger}
-
-1. Click `Start FutureRestore`
-
-Once this process is done, you should be updated to your desired firmware version, ready to use any new jailbreaks.
-
-If you experience any issues during the installation, ask in the #futurerestore-help channel on the [r/jailbreak Discord Server](https://discord.gg/jb)
+Guide written by dabezt
