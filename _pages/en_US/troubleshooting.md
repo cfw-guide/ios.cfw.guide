@@ -19,17 +19,27 @@ sidebar:
 
 Your device should now be in DFU mode. The screen should be black, and your computer should recognise it as in recovery mode.
 
-## <a name="err_jailbreak" />ERR_Jailbreak on Odyssey and Taurine
+## <a name="taurine_odyssey" />Common Errors on Odyssey and Taurine
 
+### ERR_Jailbreak
 This is caused by you having used a previous jailbreak. To solve this, you need to restore rootfs:
 
 1. Reboot the device.
-1. Open the Odyssey or Taurine, depending on your iOS version.
+1. Open the Odyssey or Taurine app, depending on your iOS version.
 1. Toggle the `Restore Rootfs` option
 1. Press the Jailbreak button.
 
 Once the restore rootfs successfully completes, try jailbreaking again.
 
+### ERR_Already_Jailbroken and ERR_KernRW (Taurine)/ERR_TFP0 (Odyssey)
+`ERR_Already_Jailbroken` indicates that the jailbreak process was interrupted. `ERR_KernRW` and `ERR_TFP0` indicate that the exploit failed. Both can be solved in the same way:
+
+1. Reboot the device.
+1. Open the Odyssey or Taurine app, depending on your iOS version.
+1. Press the Jailbreak button.
+
+Jailbreaks are hardly ever 100% successful, you may need to re-attempt running the jailbreak multiple times
+{: .notice--info}
 ## <a name="rootfs_u0" />rootFS already mounted
 
 1. Open the Settings application
