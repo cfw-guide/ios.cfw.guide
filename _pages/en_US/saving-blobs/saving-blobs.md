@@ -12,7 +12,7 @@ sidebar:
 excerpt: Guide to saving blobs to secure your ability to downgrade iOS in the future.
 ---
 
-This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. You can either use TSS Saver App if you are jailbroken on iOS or use [the TSS Saver website](https://tsssaver.1conan.com/v2/). Unjailbroken A12+ users will need a computer for this guide.
+This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. You can either use TSS Saver App if you are jailbroken on iOS or use [the TSS Saver website](https://tsssaver.1conan.com/v2/). Unjailbroken Devices on A12 or higher require a computer for this guide.
 
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">App</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Web</button>
@@ -92,6 +92,7 @@ This will take you through the process of saving blobs which are required if you
     toc1.style.display = "block";
     toc2.style.display = "none";
   }
+  
   function showc() {
     a.style.display = "none";
     b.style.display = "none";
