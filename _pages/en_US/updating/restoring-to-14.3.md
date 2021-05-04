@@ -1,11 +1,11 @@
 ---
-title: "Restoring to 14.3"
-permalink: /restoring-to-14-3
+title: "Restoring with blobs using FutureRestore"
+permalink: /futurerestore 
 redirect_from:
   - /future-restore
   - /futurerestore
   - /fr
-excerpt: Guide to using FutureRestore to restore your device to 14.3
+excerpt: Guide to using FutureRestore to restore your device 
 sidebar:
   nav: sidebar
 ---
