@@ -40,7 +40,7 @@ sidebar:
 ## Setting nonce
 
 1. Open your blob in a text editor and search for `<key>generator</key>`
-1. Note down the value inside the `<key>` field
+1. Note down the value inside the `<string>` field
     - This should be a `0x` followed by many numbers
 1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
 
