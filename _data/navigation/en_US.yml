@@ -8,8 +8,8 @@ main:
     url: recommended-repos
   - title: Saving Blobs
     url: saving-blobs
-  - title: Restoring to 14.3
-    url: restoring-to-14-3
+  - title: FutureRestore
+    url: futurerestore
   - title: Resigning Apps
     url: resigning-apps
   - title: Jailbreak Detection
