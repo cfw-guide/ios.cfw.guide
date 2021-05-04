@@ -13,8 +13,7 @@ sidebar:
 - This page is intended to provide solutions for errors encountered with FutureRestore. If none work, please join the [r/jb discord and ask in #futurerestorehelp](https://discord.gg/9apvC4C3CC)
 
 ## iBec error (Error code 3, 8, and 10)
- This error can only happen on Windows machines. 
-Potentional Fix: `
+Potentional Fix:
 1. Uninstall all apple drivers via device manager.
 2. Uninstall all apple products including itunes and apple device support stuff via control panel uninstall a program. MAKE SURE TO CHECK UNINSTALL DRIVER WHEN UNINSTALLING
 3. Unplug and replug device.
