@@ -44,7 +44,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.0</td>
       <td>9.0.2</td>
-      <td>Coming Soon</td>
+      <td><a href ="installing-Pangu9jb">Installing Pangu9</td>
     </tr>
     <tr>
       <td>9.1</td>
