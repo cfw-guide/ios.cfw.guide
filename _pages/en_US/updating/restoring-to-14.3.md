@@ -1,9 +1,9 @@
 ---
 title: "Restoring with blobs using FutureRestore"
-permalink: /futurerestore 
+permalink: /futurerestore
 redirect_from:
   - /future-restore
-  - /futurerestore
+  - /restoring-to-14-3
   - /fr
 excerpt: Guide to using FutureRestore to restore your device 
 sidebar:
