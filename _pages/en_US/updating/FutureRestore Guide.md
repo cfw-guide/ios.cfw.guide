@@ -34,8 +34,11 @@ sidebar:
 ### On Device
 (Optional: Make a backup)
 1. Open your blob in any text editor and search for `generator`. There should a long number under it, like this:
-![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) Note that number down. This is your generator.
-2. Open NewTerm 2 and type in the following command: ```su root -c 'dimentio [generator]'``` The default password is `alpine`—if you've changed your root password, enter that instead. A lot of text should appear, and on the last or second to last line, you should see `Current nonce is [generator]`.
+![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
+Note that number down. This is your generator.
+**NOTE:** If there is no generator value, try to remember which jailbreak you were using at the time of saving blobs. If you were using unc0ver, your generator is most likely `0x1111111111111111`, and if you were using Chimera/Odyssey/Taurine, your generator is most likely `0xbd34a880be0b53f3`
+
+2. Open NewTerm 2 and type in the following command: ```su root -c 'dimentio [generator]'``` The default password is `alpine`—if you've changed your root password, enter that instead. A lot of text should appear, and on the last or second to last line, you should see `Set nonce to [generator]`.
  
 ### On Computer 
 1. Download the latest version of [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
