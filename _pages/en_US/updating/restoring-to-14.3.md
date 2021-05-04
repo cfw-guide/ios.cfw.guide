@@ -30,7 +30,7 @@ sidebar:
   - Taurine: Download libkernrw
   - checkra1n/odysseyra1n: Nothing extra is needed.
 
-## Steps
+## Instructions
 ### On Device
 (Optional: Make a backup)
 1. Open your blob in any text editor and search for `generator`. There should a long number under it, like this:
