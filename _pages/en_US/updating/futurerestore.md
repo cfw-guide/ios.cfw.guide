@@ -1,0 +1,67 @@
+---
+title: "Restoring with blobs using FutureRestore"
+permalink: /futurerestore
+redirect_from:
+  - /future-restore
+  - /restoring-to-14-3
+  - /fr
+excerpt: Guide to using FutureRestore to restore your device 
+sidebar:
+  nav: sidebar
+---
+
+## Requirements
+
+- Blobs saved for the version you want to restore to
+- A jailbroken iDevice
+- A computer with at least 10 gigabytes of available space
+
+## Downloads
+
+- The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
+- The iPSW file for your device from [ipsw.me](https://ipsw.me/)
+  - This should be the same iOS version as your blob
+- On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
+  - Scroll down and select the other Windows build as the Windows Store version will not work
+
+## Getting Started
+
+1. Open your package manager on your jailbroken iDevice
+1. Add [repo.1conan.com](https://repo.1conan.com) to your sources
+1. Add [repo.chariz.com](https://repo.chariz.com) to your sources
+    - This will usually already be there on newer jailbreaks
+1. Download and install dimentio
+1. Download and install NewTerm2
+1. If you're on iOS 14.0 or above:
+    - Install `libkernrw` if you're using Taurine
+    - Install `libkrw` if you're using unc0ver
+    - checkra1n/odysseyra1n users don't need to install anything extra
+
+## Setting nonce
+
+1. Open your blob in a text editor and search for `<key>generator</key>`
+1. Note down the value inside the `<key>` field
+    - This should be a `0x` followed by many numbers
+1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
+
+    `su root -c 'dimention [generator]'`
+    
+1. When asked for a password, enter your root password
+    - By default, this is set to `alpine`
+1. Once the command executes, a lot of text should appear
+1. Near the end of the text, you should see the line `Current nonce is [generator]`
+ 
+### On Computer 
+1. Connect your iDevice to your compjuter
+1. Make sure that your computer is trusted by your device
+1. Create a full backup of your device through iTunes or Finder
+1. Open FutureRestoreGUI on your computer
+    - If prompted by Windows Defender or other anti-virus software, allow the program to run - it’s safe
+1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
+1. Click the `Select Blob File...` button and select your blob .shsh2 file
+1. Click the `Select Target iPSW File...` and select your .ipsw file
+1. Enable the `Update (-u)` checkbox
+    - Do not enable this when downgrading from 14.5 or later
+1. Click `Start Futurerestore`
+
+If you experience any issues during the installation, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
