@@ -14,7 +14,7 @@ sidebar:
 
 - Blobs saved for the version you want to restore to
 - A jailbroken device
-- A computer with at least 10 gigabytes of space.
+- A computer with at least 8 gigabytes of space (not including the ipsw)
 
 ## Downloads
 
@@ -34,15 +34,20 @@ sidebar:
 ### On Device
 (Optional: Make a backup)
 1. Open your blob in any text editor and search for `generator`. There should a long number under it, like this:
-![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) Note that number down. This is your generator.
-2. Open NewTerm 2 and type in the following command: ```su root -c 'dimentio [generator]'``` The default password is `alpine`—if you've changed your root password, enter that instead. A lot of text should appear, and on the last or second to last line, you should see `Current nonce is [generator]`.
+![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
+
+Note that number down. This is your generator.
+
+**NOTE:** If there is no generator value, try to remember which jailbreak you were using at the time of saving blobs. If you were using unc0ver, your generator is most likely `0x1111111111111111`, and if you were using Chimera/Odyssey/Taurine, your generator is most likely `0xbd34a880be0b53f3`
+
+2. Open NewTerm 2 and type in the following command: ```su root -c 'dimentio [generator]'``` The default password is `alpine`—if you've changed your root password, enter that instead. A lot of text should appear, and on the last or second to last line, you should see `Set nonce to [generator]`.
  
 ### On Computer 
 1. Download the latest version of [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
 2. Click "Download FutureRestore" 
 3. Click "Select iPSW" and select the iPSW of the version you want to go to 
 4. Click "Select Blob" and select your blob that you downloaded earlier
-5. If you want to keep your data, make sure to click "update" (DO NOT DO THIS IF YOU'RE GOING FROM 14.5 TO A LOWER VERSION)
+5. If you want to keep your data, make sure to click "Update (-u)" (DO NOT DO THIS IF YOU'RE GOING FROM 14.5 TO A LOWER VERSION)
 6. Click "Start Futurerestore"
 
-And that's it! If you have any issues, please come and ask in the [Futurerestore-Help channel in the r/jailbreak discord](https://discord.gg/9apvC4C3CC)
+And that's it! If you have any issues, please come and ask in the [futurerestore-Help channel in the r/jailbreak discord](https://discord.gg/9apvC4C3CC)
