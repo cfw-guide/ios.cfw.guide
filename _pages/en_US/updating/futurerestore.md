@@ -1,11 +1,11 @@
 ---
-title: "Restoring with blobs using FutureRestore"
+title: "Restoring with blobs using Futurerestore"
 permalink: /futurerestore
 redirect_from:
   - /future-restore
   - /restoring-to-14-3
   - /fr
-excerpt: Guide to using FutureRestore to restore your device 
+excerpt: Guide to using Futurerestore to restore your device 
 sidebar:
   nav: sidebar
 ---
@@ -13,7 +13,7 @@ sidebar:
 ## Requirements
 
 - Blobs saved for the version you want to restore to
-- A jailbroken iDevice
+- A jailbroken device
 - A computer with at least 10 gigabytes of available space
 
 ## Downloads

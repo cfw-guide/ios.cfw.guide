@@ -8,7 +8,7 @@ main:
     url: recommended-repos
   - title: Saving Blobs
     url: saving-blobs
-  - title: FutureRestore
+  - title: Futurerestore
     url: futurerestore
   - title: Resigning Apps
     url: resigning-apps
