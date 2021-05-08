@@ -53,7 +53,7 @@ If you are running iOS 11.0 - 12.1.4, you will need to use [AltDeploy](resigning
 1. Click Install AltStore
   - Follow all onscreen prompts
 1. Open Settings and navigate to `General` -> `Device Management` and verify AltStore
-1. Download [unc0ver](https://github.com/pwn20wndstuff/Undecimus/releases) on your iOS Device and open the `.ipa` in AltStore
+1. Download [unc0ver](https://unc0ver.dev/) on your iOS Device and open the `.ipa` in AltStore
   - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
 The unc0ver application can now be opened from home screen.
