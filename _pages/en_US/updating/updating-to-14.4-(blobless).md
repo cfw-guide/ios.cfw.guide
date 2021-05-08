@@ -10,7 +10,13 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 14.4 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on June 8th, 2021**.
+While iOS firmware version 14.4 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on June 24th, 2021**.
+
+This method will not work on A14 devices, such as the iPhone 12 and iPad Air 4.
+{:.notice--warning}
+
+If you used futurerestore to update after April 26th, 2021, then this method will likely not work for you.
+{: .notice--warning}
 
 Odysseyra1n only supports A8(X) to A10(X) on iOS 14.4 at this time.
 {: .notice--warning}
