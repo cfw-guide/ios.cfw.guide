@@ -1,15 +1,16 @@
 ---
-title: Updating to 14.5
-permalink: /updating-to-14-5
+title: Updating to 14.5.1
+permalink: /updating-to-14-5-1
 redirect_from:
   - /updating-to-14-2
   - /updating-to-14-3
   #- /updating-to-14-4
   - /updating-to-14-4-1
   - /updating-to-14-4-2
+  - /updating-to-14-5
 ---
 
-Odysseyra1n only supports A8(X) to A10(X) on iOS 14.5 at this time.
+Odysseyra1n only supports A8(X), A9, and A10(X) devices on iOS 14.5.1 at this time.
 {: .notice--warning}
 
 ## Required Reading
