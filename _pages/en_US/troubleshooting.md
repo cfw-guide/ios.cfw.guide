@@ -87,7 +87,7 @@ For the purposes of this troubleshooting section, we are assuming you are runnin
 
 In order to determine which error you are encountering, you will have to tap `Show Details` in Sileo when you encounter an error with installing or removing a package.
 
-If the fixes below don't help, feel free to ask on the [Sileo Discord](https://discord.gg/Sileo).
+If the fixes below don't help, feel free to ask on the Sileo [Discord Server](https://discord.gg/Sileo) for support.
 ### Syntax error: "(" unexpected
 This error indicates that the developer of the tweak you are trying to install/remove has written the installation/removal script incorrectly. You will need Filza to fix this issue.
 
