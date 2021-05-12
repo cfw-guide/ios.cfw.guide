@@ -59,7 +59,7 @@ On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(
 ## Running checkra1n
 
 1. Once you have loaded odysseyn1x, select `checkra1n`
-  - If you're on A11, you will need to enable both allow untested versions and Skip A11 BPR Check
+  - If you're on A11, you will need to enable `Skip A11 BPR Check`
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device reboots to a black screen
