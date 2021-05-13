@@ -44,7 +44,7 @@ sidebar:
     - This should be a `0x` followed by many numbers
 1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
 
-    `su root -c 'dimention [generator]'`
+    `su root -c 'dimentio [generator]'`
     
 1. When asked for a password, enter your root password
     - By default, this is set to `alpine`
