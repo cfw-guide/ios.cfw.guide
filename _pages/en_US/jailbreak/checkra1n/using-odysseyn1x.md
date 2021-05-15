@@ -23,7 +23,7 @@ sidebar:
 
 Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above.
 
-On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(X) to A10(X) devices, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(X) to A10(X) devices with limited support (no security) for A11 device. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 {% include_relative include/odysseyra1n-explanation.md %}
