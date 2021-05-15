@@ -23,8 +23,8 @@ sidebar:
 
 Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above.
 
-On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(X) to A10(X) devices for the moment. Full A11 support may be added at future date.
-{: .notice--info}
+On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(X) to A10(X) devices with limited support (no security) for A11 device. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+{: .notice--danger}
 
 {% include_relative include/odysseyra1n-explanation.md %}
 
@@ -59,6 +59,7 @@ On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(
 ## Running checkra1n
 
 1. Once you have loaded odysseyn1x, select `checkra1n`
+  - If you're on A11, you will need to enable `Skip A11 BPR Check`
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device reboots to a black screen
