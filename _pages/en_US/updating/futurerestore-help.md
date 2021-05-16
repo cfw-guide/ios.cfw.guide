@@ -1,8 +1,10 @@
 ---
 title: "FutureRestore issues Help"
-permalink: /FutureRestoreHelp
+permalink: /futurerestore-help
 redirect_from:
   - /frhelp
+  - /futurerestorehelp
+  - /FutureRestoreHelp
 
 excerpt: Provides solutions to some FR issues.
 sidebar:
