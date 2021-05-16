@@ -81,3 +81,6 @@ What is [respringing](faq#what-is-respringing){:target="_blank}? Click the link 
 
 After respringing, the tweak should now be uninstalled.
 {:.notice--textbox}
+
+If you run into errors installing or removing packages, we cover some of the solutions on the [Troubleshooting](troubleshooting#sileo_errors) page
+{:.notice--info}
