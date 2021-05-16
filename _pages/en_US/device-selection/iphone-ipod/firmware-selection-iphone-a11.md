@@ -52,7 +52,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-In boxes marked `--`, there is no jailbreak for that firmware version.
+In boxes marked `--`, there are no fully supported jailbreaks for that firmware version.
 {: .notice--info}
 
 {% include_relative find-ios-version.md %}
