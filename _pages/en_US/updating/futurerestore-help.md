@@ -28,13 +28,13 @@ To fix this:
 1. Uninstall the iBoot (Recovery) driver and software from Device Manager
 1. Run FutureRestore again
 1. Unplug and replug your device.
-1. Run FutureRestore again.
+1. Run FutureRestore again. This issue should now be resolved.
 
 ![example](https://media.discordapp.net/attachments/825122925204078622/839186681202212904/unknown.png)
 
 ## Device ApNonce doesn't match APTicket nonce
 
-This error means that you have not set nonce on your device to that of the blob. In order to solve this problem:
+This error means that you have not set your generator on your device to that of the blob. In order to solve this problem:
 
 ### Getting Started
 
@@ -66,15 +66,23 @@ This error means that you have not set nonce on your device to that of the blob.
     - By default, this is set to `alpine`
 5. Once the command executes, a lot of text should appear
 6. Near the end of the text, you should see the line `Set nonce to [generator]`
+7. Run FutureRestore again. This issue should now be resolved.
 
-## SEP Firmware is not signed
+## SEP Firmware is not being signed
 
-This problem occurs when the user tries to manually specify SEP. To fix this problem, either choose latest SEP or manually specify a signed SEP. You can check what SEP (and baseband) is currently signed by looking at what iOS versions are signed right now at [iPSW.me](https://ipsw.me)
+This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or manually specify a SEP from the latest available iOS version, viewable at [IPSW.me](https://ipsw.me)
 
-## Could not enter recovery mode
+## Could not connect to device in recovery mode / Failed to place device in recovery mode
 
-In order to fix this issue, manually enter [Recovery Mode](https://www.howtogeek.com/396530/how-to-put-your-iphone-or-ipad-into-recovery-mode/) on your device and run FutureRestore again.
+**NOTE:** if the error is similarly named, follow these steps too.
+
+If your device is in recovery mode:
+- Run FutureRestore again while your device is in recovery mode.
+
+If your device is not in recovery mode:
+- Enter recovery mode manually, then run FutureRestore again.
 
 ## Error: Unable to receive message from FDR...
 
-The fix for this is either waiting (it can take a very long time) or just re-trying the process. This is an error that has been diagnosed but no fix for it is available as of the time of writing this.
+The fix for this is either waiting (it can take a very long time) or just re-trying the process. 
+This is an error that has been diagnosed but no fix for it is available as of the time of writing this.
