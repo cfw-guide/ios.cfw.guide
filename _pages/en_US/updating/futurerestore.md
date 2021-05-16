@@ -64,4 +64,4 @@ sidebar:
     - Do not enable this when downgrading from 14.5 or later
 1. Click `Start Futurerestore`
 
-If you experience any issues during the installation, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
+If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
