@@ -28,7 +28,8 @@ A popup will appear with the message "APTicket Submitted" once finished. You can
 ## Checking Blob Type
 
 To check what type of blobs you have, use [img4tool](https://github.com/tihmstar/img4tool)
-1. Download the IPSW and OTA zip from internet, then extract the BuildManifest.plist from both of the iPSWs.
+1. Download the IPSW and OTA zip from the internet, then extract the BuildManifest.plist from both of the iPSWs.
+    - Google is your friend
 2. Run  `img4tool -v IPSW_BuildManifest.plist -s blob.shsh2 and img4tool -v OTA_BuildManifest.plist -s blob.shsh2`
 3. Scrub through the output and check which BuildManifest img4tool reported a success with.
 
