@@ -19,13 +19,13 @@ This page explains the technological reasons around it as well as why we are onl
 
 Essentially, when Apple released iOS 14, they included a mitigation for A10(X)+ devices regarding SEP (Secure Enclave Processor) and DFU (Device Firmware Upgrade) mode.
 
-This mitigation basically causes a device booted from DFU to kernel panic if a request to decrypt SEP is made, as checkm8 (the bootrom exploit) is not a functional SEP exploit, it cannot be mitigated just through checkm8.
+This mitigation basically causes a device booted from DFU to kernel panic if a request to decrypt user data is made to the Secure Enclave, as checkm8 (the bootrom exploit) is not a functional SEP exploit, it cannot be mitigated just through checkm8.
 
 ## Why is this not an issue for A10(X)?
 
 The biggest reason this is **not** an issue for A10(X) is because of the fact that on A10(X), a SEP exploit exists known as [blackbird](https://twitter.com/windknown/status/1291308058493116416?s=21), allowing us to work around this mitigation on A10(X) devices.
 
-On A11, the same SEP exploit used is patched, meaning that it cannot be used to work around this mitigation.
+On A11, the same SEP vulnerability was made impossible to exploit, meaning that it cannot be used to work around this mitigation.
 
 ## Why is this functionality even present in checkra1n?
 
