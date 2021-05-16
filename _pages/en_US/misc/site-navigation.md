@@ -32,7 +32,7 @@ sidebar:
 {% endcapture %}
 
 {% capture notice-2 %}
-**Extra Pages**
+**Miscellaneous**
 
 + [Removing unc0ver](removing-unc0ver)
 + [Installing Sileo](installing-sileo)
@@ -47,7 +47,7 @@ sidebar:
 + [Resigning Apps](resigning-apps)
 + [Using Cydia](using-cydia)
 + [Using Coolbooter](using-coolbooter)
-+ [Future Restore](futurerestore-help)
++ [FutureRestore](futurerestore-help)
 
 {% endcapture %}
 
