@@ -12,8 +12,8 @@ redirect_from:
 
 While iOS firmware version 14.4 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on June 8th, 2021**.
 
-Odysseyra1n only supports A8(X) to A10(X) on iOS 14.4 at this time.
-{: .notice--warning}
+Odysseyra1n only fully supports A8(X) to A10(X) on iOS 14.4, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+{: .notice--danger}
 
 You need a pre-existing jailbreak installed to use this method.
 {: .notice--primary}

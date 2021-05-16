@@ -9,8 +9,8 @@ redirect_from:
   - /updating-to-14-4-2
 ---
 
-Odysseyra1n only supports A8(X) to A10(X) on iOS 14.5 at this time.
-{: .notice--warning}
+Odysseyra1n only fully supports A8(X) to A10(X) on iOS 14.5, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+{: .notice--danger}
 
 ## Required Reading
 

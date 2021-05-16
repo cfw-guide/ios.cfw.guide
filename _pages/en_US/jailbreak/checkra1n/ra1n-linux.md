@@ -8,6 +8,7 @@
 
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
   - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
+  - If you're on A11, you will need to enable `Skip A11 BPR Check` once it runs
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device shows a black screen
