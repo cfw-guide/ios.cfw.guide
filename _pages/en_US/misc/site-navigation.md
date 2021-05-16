@@ -38,7 +38,7 @@ sidebar:
 + [Installing Sileo](installing-sileo)
 + [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
-+ [FutureRestore guide](FutureRestore-Guide)
++ [Future Restore](futurerestore)
 + [Updating to 14.4 (Blobless)](updating-to-14-4-(blobless))
 + [Updating to 14.4.2](updating-to-14-4-2)
 + [Package Managers](package-managers)
@@ -47,7 +47,7 @@ sidebar:
 + [Resigning Apps](resigning-apps)
 + [Using Cydia](using-cydia)
 + [Using Coolbooter](using-coolbooter)
-+ [Futurerestore help](futurerestorehelp)
++ [Future Restore](futurerestore-help)
 
 {% endcapture %}
 
