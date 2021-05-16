@@ -70,7 +70,7 @@ This error means that you have not set your generator on your device to that of 
 
 ## SEP Firmware is not being signed
 
-This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or manually specify a SEP from the latest available iOS version, viewable at [IPSW.me](https://ipsw.me)
+This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or manually specify a SEP from the latest available iOS version
 
 ## Could not connect to device in recovery mode / Failed to place device in recovery mode
 
