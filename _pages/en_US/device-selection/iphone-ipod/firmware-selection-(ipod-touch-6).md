@@ -41,7 +41,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td><a href="updating-to-12-5-1">Updating to 12.5.1</a></td>
+      <td><a href="updating-to-12-5-3">Updating to 12.5.3</a></td>
     </tr>
     <tr>
       <td>9.0</td>
