@@ -22,7 +22,10 @@ You are currently not running a macOS or Linux device and this guide will not wo
 
 <script src="/assets/js/hide.js"></script>
 
-On iOS 14.0 to {% include latestfw %} Odysseyra1n is only fully supported on A8(X) to A10(X) devices with limited support (no security) for A11 devices. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+On iOS 14.0 to 14.4.2 Odysseyra1n is only fully supported on A8(X) to A10(X) devices with limited support (no security) for A11 devices. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+{: .notice--danger}
+
+On iOS 14.5 to {% include latestfw %} Odysseyra1n is only fully supported on A8(X), A9, and A10(X) devices with limited support (no security) for A11 devices. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 {% include_relative include/semi-tethered.md %}
