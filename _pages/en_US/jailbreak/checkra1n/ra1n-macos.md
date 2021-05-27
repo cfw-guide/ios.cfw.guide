@@ -1,6 +1,7 @@
 ## Downloads (macOS)
 
 - The latest release of [checkra1n](https://checkra.in)
+  - If you are on an A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
 
 ![]({{ "/assets/images/checkra1n.png" | absolute_url }})
 
