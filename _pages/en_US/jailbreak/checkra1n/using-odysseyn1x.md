@@ -23,7 +23,10 @@ sidebar:
 
 Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above.
 
-On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(X) to A10(X) devices with limited support (no security) for A11 device. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+On iOS 14.0 to 14.4.2 Odysseyra1n is only fully supported on A8(X) to A10(X) devices with limited support (no security) for A11 devices. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+{: .notice--danger}
+
+On iOS 14.5 to {% include latestfw %} Odysseyra1n is only fully supported on A8(X), A9, and A10(X) devices with limited support (no security) for A11 devices. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 {% include_relative include/odysseyra1n-explanation.md %}
@@ -32,6 +35,7 @@ On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(
 
 - 512MB or greater USB Drive
 - The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases){:target="_blank"}
+    - If you are on an A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [balenaEtcher](https://www.balena.io/etcher/){:target="_blank"}
@@ -60,6 +64,7 @@ On iOS 14.0 to {% include latestfw %}, Odysseyn1x is only fully supported on A8(
 
 1. Once you have loaded odysseyn1x, select `checkra1n`
   - If you're on A11, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
+  - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device reboots to a black screen

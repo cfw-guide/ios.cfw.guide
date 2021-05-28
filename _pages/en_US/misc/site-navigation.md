@@ -34,13 +34,14 @@ sidebar:
 {% capture notice-2 %}
 **Miscellaneous**
 
++ [Regarding Odysseyra1n on A11](information-regarding-a11)
 + [Removing unc0ver](removing-unc0ver)
 + [Installing Sileo](installing-sileo)
 + [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
 + [Future Restore](futurerestore)
 + [Updating to 14.4 (Blobless)](updating-to-14-4-(blobless))
-+ [Updating to 14.4.2](updating-to-14-4-2)
++ [Updating to 14.6](updating-to-14-6)
 + [Package Managers](package-managers)
 + [Types of Jailbreak](types-of-jailbreak)
 + [Recommended Repos](recommended-repos)
