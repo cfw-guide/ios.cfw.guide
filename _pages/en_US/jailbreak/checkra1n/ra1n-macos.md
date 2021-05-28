@@ -1,6 +1,7 @@
 ## Downloads (macOS)
 
 - The latest release of [checkra1n](https://checkra.in)
+  - If you are on an A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
 
 ![]({{ "/assets/images/checkra1n.png" | absolute_url }})
 
@@ -12,6 +13,7 @@ If you're using an M1 Mac and are attempting to jailbreak on A7 or A9X (not A9) 
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
   - If you're on A11, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
+  - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` -> `Next` on checkra1n
   - Your device will be put into recovery mode automatically
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
