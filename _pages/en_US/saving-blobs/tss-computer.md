@@ -2,7 +2,7 @@
 
 ### blobsaver
 
-1. Download, install, and open the blobsaver v3.0 beta from [here](https://github.com/airsquared/blobsaver/discussions/242).
+1. Download, install, and launch blobsaver from [here](https://github.com/airsquared/blobsaver/releases).
 2. Connect your iOS device to your computer and make sure it is unlocked.
 3. Click on the first "Read from device" button, which will fill your ECID and device information.
 4. If your iOS device is not A12 or higher, you are not required to get an APNonce and you may skip the next step.
