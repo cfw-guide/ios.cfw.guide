@@ -2,7 +2,7 @@ Please note that this works only for Procursus jailbreak users, meaning unc0ver 
 
 ## Saving blobs automatically
 1. Search for and download "shshd"
-2. Done! now blobs will automatically be saved when you download shshd and every sunday. The blobs are available at the [TSS saver website](https://tsssaver.1conan.com/v2/), in order to retrieve them, go to "retrieve" and put in your ECID
+2. Done! now blobs will automatically be saved when you download shshd, every time you rejailbreak, and every week after that. The blobs are available at the [TSS saver website](https://tsssaver.1conan.com/v2/), in order to retrieve them, go to "retrieve" and put in your ECID
 
 ## Running shshd manually
 If you ever want to run shshd manually, here is how:
