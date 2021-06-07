@@ -38,7 +38,7 @@ sidebar:
 + [Installing Sileo](installing-sileo)
 + [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
-+ [FutureRestore guide](FutureRestore-Guide)
++ [FutureRestore guide](futurerestore-guide)
 + [Updating to 14.4 (Blobless)](updating-to-14-4-(blobless))
 + [Updating to 14.4.2](updating-to-14-4-2)
 + [Package Managers](package-managers)
