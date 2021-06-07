@@ -24,7 +24,7 @@ Each type is determined by how independent it is from a computer.
 ### Untethered Jailbreaks
 ---
 
-Untethered jailbreaks can be considered the holy grail of all jailbreaks. They only require the exploit to be ran once either via a website or a computer.
+Untethered jailbreaks can be considered the holy grail of all jailbreaks. They only require the exploit to be ran once either via a website, an app or a computer.
 
 ![]({{ "/assets/images/p0sixpwn.png" | absolute_url }})
 
@@ -47,7 +47,7 @@ This jailbreak works by running the exploit through an app on the device itself.
 
 Due to the nature of how the exploit is applied, these jailbreaks are easily removable through their respective app.
 
-A few examples of semi-untethered jailbreaks include [Odyssey](installing-odyssey), [Chimera](installing-chimera), and [Electra](installing-electra).
+A few examples of semi-untethered jailbreaks include [Taurine](installing-taurine), [unc0ver](installing-unc0ver), and [Odyssey](installing-odyssey).
 
 ### Semi-Tethered Jailbreaks
 ---

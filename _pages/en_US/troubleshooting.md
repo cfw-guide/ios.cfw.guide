@@ -11,13 +11,40 @@ sidebar:
 1. Power on your iPhone/iPad if it's not on already
 1. Connect it to your computer with your cable
 1. Launch iTunes (or Finder on macOS Catalina and newer) and check that the iPhone/iPad is recognised
-1. Press the Volume+ button immediately followed by the Volume- button
+1. Press the Volume Up button immediately followed by the Volume Down button
 1. Press and hold down the Power button until the screen turns black
 1. Release the Power button
-1. Hold down the Power button, and the Volume- button for 5 seconds immediately after
-1. Release the Power button but keep holding down the Volume- button for another 5 seconds
+1. Hold down the Power button and the Volume Down button for immediately after for 5 seconds
+1. Release the Power button but keep holding down the Volume Down button for another 5 seconds
+
+## <a name="a10_dfu" />How to enter DFU on an iPhone 7/7+, iPod 7th gen, and 2018 iPads
+
+1. Power on your iPhone/iPad if it's not on already
+1. Connect it to your computer with your cable
+1. Launch iTunes (or Finder on macOS Catalina and newer) and check that the iPhone/iPad is recognised
+1. Hold down both the Side button and Volume Down button.
+1. After 8 seconds, release the Side button while continuing to hold down the Volume Down button.
+
+## <a name="a9-_dfu>" />How to enter DFU on devices with a real home button (iPhone 6s and older)
+
+1. Hold down both the Home button and Lock button.
+1. After 8 seconds, release the Lock button while continuing to hold down the Home button.
 
 Your device should now be in DFU mode. The screen should be black, and your computer should recognise it as in recovery mode.
+
+## <a name="exit_dfu" />How to exit DFU mode:
+
+- For devices with a real home button (iPhone 6s and below):
+
+  Hold the Home button and the Lock button until the device reboots.
+- For iPhone 7 and iPhone 7 Plus: 
+
+  Hold down the Side button and Volume Down button until the device reboots.
+
+- For devices with a home button:
+1. Quick-press the Volume Up button 
+2. Quick-press the Volume Down button
+3. Hold down the Side button until the device reboots.
 
 ## <a name="taurine_odyssey" />Common Errors on Odyssey and Taurine
 
@@ -53,12 +80,10 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
 
 1. Open the unc0ver application
 1. Tap on the settings icon in the top right-hand corner
-1. Tap `Clean diagnostics data`
-  - If unc0ver crashes, open it again
-1. Uncheck all the options
-1. Enable `Restore RootFS`
-1. Press `Done` in the top right-hand corner
-1. Go to the jailbreak tab and press `Restore RootFS`
+2. Uncheck all the options
+3. Enable `Restore RootFS`
+4. Press `Done` in the top right-hand corner
+5. Go to the jailbreak tab and press `Restore RootFS`
   - If the button says `Jailbreak`, go back and check to see if `Restore RootFS` is the only option enabled
 1. When prompted about restoring, tap `OK`
   - This may take some time
