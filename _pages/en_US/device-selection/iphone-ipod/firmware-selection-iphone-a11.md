@@ -52,7 +52,10 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ---
 
-In boxes marked `--`, there is no jailbreak for that firmware version.
+In boxes marked `--`, there are no fully supported jailbreaks for that firmware version.
 {: .notice--info}
+
+On iOS 14.4 to 14.5.1, while you *can* use [Odysseyra1n](installing-odysseyra1n), we do not recommend it due to the security issues. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+{: .notice--danger}
 
 {% include_relative find-ios-version.md %}

@@ -1,5 +1,5 @@
 ## Saving Blobs with TSS Saver Website
-A12+ Users will need their ApNonce and Generator pair for this method. If you are not jailbroken, follow [the computer-based guide](https://ios.cfw.guide/saving-blobs#saving-blobs-with-computer-a12).
+A12+ Users will need their ApNonce and Generator pair for this method. If you are not jailbroken, follow [the blobsaver guide](https://ios.cfw.guide/saving-blobs#saving-blobs-with-blobsaver).
 {: .notice--info}
 
 ### Getting Generator and ApNonce (Jailbroken A12+ only)
