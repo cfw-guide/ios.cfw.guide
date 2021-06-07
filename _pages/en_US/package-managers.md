@@ -30,9 +30,9 @@ URL: <code><a href="https://getsileo.app/" target="_blank">https://getsileo.app/
 ### Cydia
 
 {% capture cydia %}
-Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's historically been at the front of every jailbreak, however has since been abandoned by its creator. Due to it's age, it unfortunately suffers from its outdated design and slow performance.
+Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's historically been at the front of every jailbreak, however has since been abandoned by its creator. It now recieves very scarce updates, and due to its age and traditional style, it may not appeal to newer users as much as a package manager like Sileo might do, and suffers from a lot of "Quality of Life" issues.
 
-Cydia, while not recommended, is included by default using unc0ver and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
+Cydia is included by default using unc0ver and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
 {% endcapture %}
 
 <div class="notice--info">{{ cydia | markdownify }}</div>

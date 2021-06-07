@@ -14,12 +14,13 @@ sidebar:
 
 - Blobs saved for the version you want to restore to
 - A jailbroken iDevice
-- A computer with at least 10 gigabytes of available space
+- A computer with at least 8 gigabytes of available space (not including the ipsw)
 
 ## Downloads
 
 - The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
-- The iPSW file for your device from [ipsw.me](https://ipsw.me/)
+- The iPSW file for your device from the internet
+  - Google is your friend
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
@@ -39,17 +40,22 @@ sidebar:
 
 ## Setting nonce
 
-1. Open your blob in a text editor and search for `<key>generator</key>`
-1. Note down the value inside the `<string>` field
-    - This should be a `0x` followed by many numbers
-1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
+1. Open your blob in a text editor and search for `generator`
+   ![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
 
-    `su root -c 'dimention [generator]'`
+3. Note down the value inside the `<string>` field
+    - This should be a `0x` followed 16 characters which will be a combination of letters and numbers. This is your generator.
+
+**NOTE:** If there is no generator value, try to remember which jailbreak you were using at the time of saving blobs. If you were using unc0ver, your generator is most likely `0x1111111111111111`, and if you were using Chimera/Odyssey/Taurine, your generator is most likely `0xbd34a880be0b53f3`
+
+4. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
+
+    `su root -c 'dimentio [generator]'`
     
 1. When asked for a password, enter your root password
     - By default, this is set to `alpine`
 1. Once the command executes, a lot of text should appear
-1. Near the end of the text, you should see the line `Current nonce is [generator]`
+1. Near the end of the text, you should see the line `Set nonce to [generator]`
  
 ### On Computer 
 1. Connect your iDevice to your compjuter
@@ -64,4 +70,4 @@ sidebar:
     - Do not enable this when downgrading from 14.5 or later
 1. Click `Start Futurerestore`
 
-If you experience any issues during the installation, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
+If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
