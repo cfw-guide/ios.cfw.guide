@@ -34,7 +34,7 @@ unc0ver is currently signed at [jailbreaks.app](https://jailbreaks.app/) for eas
 
 <script src="/assets/js/if_jailbreaksapp_signed.js"></script>
 
-- The latest version of [unc0ver](https://unc0ver.dev/)
+- The 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa/)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
