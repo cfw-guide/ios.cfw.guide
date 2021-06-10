@@ -18,7 +18,7 @@ Note that the h3lix jailbreak is not “persistent” (meaning it does not remai
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the h3lix jailbreak application to your device every 7 days from your computer.
 
-We will use iOS-App-Signer, Xcode, and a patcher script to achieve this.
+We will use iOS-App-Signer, Xcode, and a patcher script to install the application to your device.
 
 ## Downloads
 
