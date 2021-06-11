@@ -32,24 +32,27 @@ We will use iOS-App-Signer, Xcode, and a patcher script to install the applicati
 
 ## Patching the application
 
-1. Open Terminal
-2. Change directory to the folder where you saved the script and h3lix.ipa files
+1. Open the Terminal application
+1. Change directory to the folder where you saved the script and h3lix.ipa files
    - If you saved them to Downloads, this would be `cd ~/Downloads`
-3. Type `./patch.sh` in the terminal then drag in the h3lix ipa, type `h3lix.ipa` then press enter
+1. Type `./patch.sh` in the terminal
+1. Drag and drop the h3lix `.ipa` file into the terminal
+1. Type "h3lix.ipa"
+1. Press Enter
 
 You now have a patched h3lix ipa that you can sign
 
 ## Signing the application
 
 1. Open Xcode and create a new application project called Test
-2. Click on the top instance of Test in the files sidebar
-3. Click on Test under Targets
-4. Click on Signing and Capabilities and follow the steps to create a signing certificate and enter your Apple ID when prompted
-5. Open iOS-App-Signer
-6. Click browse and choose the patched h3lix ipa we made earlier
-7. Your Apple ID will be in the Signing Certificate box, but if it isn't, select it from the dropdown list
-8. Change the Provisioning Profile option to the provisioning profile corresponding to your Xcode project name (this should be Test)
-9. Click start, then save, saying yes to overwriting any other files of the same name
+1. Click on the top instance of Test in the files sidebar
+1. Click on Test under Targets
+1. Click on Signing and Capabilities and follow the steps to create a signing certificate and enter your Apple ID when prompted
+1. Open iOS-App-Signer
+1. Click browse and choose the patched h3lix ipa we made earlier
+1. Your Apple ID will be in the Signing Certificate box, but if it isn't, select it from the dropdown list
+1. Change the Provisioning Profile option to the provisioning profile corresponding to your Xcode project name (this should be Test)
+1. Click start, then save, saying yes to overwriting any other files of the same name
 
 ## Sideloading the application
 
