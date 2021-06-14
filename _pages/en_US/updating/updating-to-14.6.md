@@ -4,9 +4,9 @@ permalink: /updating-to-14-6
 redirect_from:
   - /updating-to-14-2
   - /updating-to-14-3
-  #- /updating-to-14-4
+  - /updating-to-14-4
   - /updating-to-14-4-1
-  - /updating-to-14-4-2
+  #- /updating-to-14-4-2
   - /updating-to-14-5
   - /updating-to-14-5-1
 ---
