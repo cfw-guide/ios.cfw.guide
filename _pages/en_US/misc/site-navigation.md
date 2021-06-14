@@ -42,6 +42,7 @@ sidebar:
 + [FutureRestore](futurerestore)
 + [Updating to 14.4.2 (Blobless)](updating-to-14-4-2-(blobless))
 + [Updating to 14.6](updating-to-14-6)
++ [Updating to 12.5.2 (Blobless)](updating-to-12-5-2-(blobless))
 + [Updating to 12.5.4](updating-to-12-5-4)
 + [Package Managers](package-managers)
 + [Types of Jailbreak](types-of-jailbreak)
