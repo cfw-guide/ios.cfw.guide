@@ -1,18 +1,19 @@
 ---
-title: Updating to 14.4 (Blobless)
-permalink: /updating-to-14-4-(blobless)
+title: Updating to 14.4.2 (Blobless)
+permalink: /updating-to-14-4-2-(blobless)
 excerpt: Guide on updating to 14.4 without any blobs.
 redirect_from:
-  - /updating-to-14-4
+  - /updating-to-14-4-2
+  - /updating-to-14-4-(blobless)
   - /updating-to-14-3-(blobless)
   - /and@@starplayer132
 ---
 
 ## Required Reading
 
-While iOS firmware version 14.4 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on June 8th, 2021**.
+While iOS firmware version 14.4.2 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on July 25th, 2021**.
 
-Odysseyra1n only fully supports A8(X) to A10(X) on iOS 14.4, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+Odysseyra1n only fully supports A8(X) to A10(X) on iOS 14.4.2, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 You need a pre-existing jailbreak installed to use this method.
@@ -35,14 +36,14 @@ You need a pre-existing jailbreak installed to use this method.
   - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
-## Updating to 14.4
+## Updating to 14.4.2
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-  - Ensure that the version you are updating to is 14.4
+  - Ensure that the version you are updating to is 14.4.2
 1. Download and install the update
-1. Once updated, remove the 14.4 update certificate through Settings
+1. Once updated, remove the 14.4.2 update certificate through Settings
 
 ## Troubleshooting
 
