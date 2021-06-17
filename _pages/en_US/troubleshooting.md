@@ -118,7 +118,7 @@ This error indicates that the developer of the tweak you are trying to install/r
 
 #### Removing the tweak causing this error
 1. Open Filza and navigate to `/Library/dpkg/info`
-1. Find the .postinst or .postrm file corresponding to the tweak with an error, e.g. `com.miro.shortmoji2.postinst` would be the file to edit if ShortMoji 2 had an install error
+1. Find the .postinst or .postrm file corresponding to the tweak with an error, e.g. `com.miro.shortmoji2.postinst` would be the file to edit if ShortMoji 2 had an install error or `com.miro.shortmoji2.postrm` if it had an uninstall error.
 1. Tap and hold the file until a menu appears.
 1. Tap `Open with`.
 1. Tap `Text Editor`.
