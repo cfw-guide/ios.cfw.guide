@@ -171,10 +171,10 @@ This error indicates that the developer of the tweak you are trying to install/r
 1. Navigate to the `Sources` tab.
 1. Swipe down and refresh your sources.
 1. Navigate to the `Search` tab.
-1. Type `libioexec1` into the Search field.
-1. Install `libioexec1` by Hayden Seay.
+1. Type `libiosexec1` into the Search field.
+1. Install `libiosexec1` by Hayden Seay.
 1. Try installing the tweak causing an error again.
 
-In May 2021, Procursus attempted to migrate to a version of dpkg that no longer handles this install error, as developers should have included the `#!/bin/sh` or `#!/bin/bash` calls in their scripts. At the time of writing, the lead developer of Procursus has created a patch, `libioexec`, that re-adds this error handling. If you still encounter this error, you may not have updated for a while.
+In May 2021, Procursus attempted to migrate to a version of dpkg that no longer handles this install error, as developers should have included the `#!/bin/sh` or `#!/bin/bash` calls in their scripts. At the time of writing, the lead developer of Procursus has created a patch, `libiosexec`, that re-adds this error handling. If you still encounter this error, you may not have updated for a while.
 {:.notice--info}
 
