@@ -12,7 +12,7 @@ sidebar:
 excerpt: Guide to saving blobs to secure your ability to downgrade iOS in the future.
 ---
 
-This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. There are multiple methods below you can try. For unjailbroken devices or devices with an A12 processor or newer, you will need to use the "Computer" method.
+This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. There are multiple methods below you can try. For unjailbroken devices, you will need to use the "Computer" method.
 
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">App</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Web</button>
