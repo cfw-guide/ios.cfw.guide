@@ -294,3 +294,8 @@ rubiconproject.com, 13702, DIRECT, 0bfd66d529a55807
 sonobi.com, bc2afab5f7, DIRECT, d1a215d9eb5aee9e
 video.unrulymedia.com, 3736557092, RESELLER
 rhythmone.com, 3736557092, RESELLER, a670c89d4a324e47
+
+nativo.com, 5677, DIRECT
+media.net, 8CUT8W5DX, DIRECT
+media.net, 8CUEA322C, DIRECT
+google.com, pub-9035087792692775, RESELLER, f08c47fec0942fa0
