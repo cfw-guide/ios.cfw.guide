@@ -299,3 +299,5 @@ nativo.com, 5677, DIRECT
 media.net, 8CUT8W5DX, DIRECT
 media.net, 8CUEA322C, DIRECT
 google.com, pub-9035087792692775, RESELLER, f08c47fec0942fa0
+
+onetag.com, 732218ebb38c233, DIRECT
