@@ -20,7 +20,7 @@ sidebar:
 
 - The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
 - The iPSW file for your device from the internet
-  - Google is your friend
+  - [ipsw.me](https://ipsw.me)
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
@@ -33,10 +33,6 @@ sidebar:
     - This will usually already be there on newer jailbreaks
 1. Download and install dimentio
 1. Download and install NewTerm2
-1. If you're on iOS 14.0 or above:
-    - Install `libkernrw` if you're using Taurine
-    - Install `libkrw` if you're using unc0ver
-    - checkra1n/odysseyra1n users don't need to install anything extra
 
 ## Setting nonce
 
