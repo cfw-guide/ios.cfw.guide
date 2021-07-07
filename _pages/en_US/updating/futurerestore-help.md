@@ -34,7 +34,7 @@ To fix this:
 
 ## Device ApNonce doesn't match APTicket nonce
 
-This error means that you have not set your generator on your device to that of the blob. In order to solve this problem:
+This error means that you have not set your generator on your device to that of the blob. In order to solve this problem, you'll need to set Nonce, follow the steps bellow:
 
 ### Getting Started
 
