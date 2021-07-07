@@ -23,6 +23,13 @@ sidebar:
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
+  - **NOTE:** If you are using an A14 device or a WiFi only iPad, then you'll need a more recent Futurerestore build rather than 194, which is what Futurerestore-GUI automatically downloads.
+
+[Most recent build for macOS](https://cdn.discordapp.com/attachments/688124783400845336/858047086755053618/futurerestore-mac-v2_0_0-test.tar.xz)
+
+[Most recent build for Linux](https://cadoth.net/~nyuszika7h/ios-builds/futurerestore-v2.0.0-215.tar.gz)
+
+(Windows users can only use 194 at the moment)
 
 ## Getting Started
 
@@ -55,7 +62,8 @@ sidebar:
     - By default, this is set to `alpine`
 1. Once the command executes, a lot of text should appear
 1. Near the end of the text, you should see the line `Set nonce to [generator]`
- 
+
+
 ### On Computer 
 1. Connect your iDevice to your compjuter
 1. Make sure that your computer is trusted by your device
@@ -63,10 +71,13 @@ sidebar:
 1. Open FutureRestoreGUI on your computer
     - If prompted by Windows Defender or other anti-virus software, allow the program to run - it’s safe
 1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-1. Click the `Select Blob File...` button and select your blob .shsh2 file
-1. Click the `Select Target iPSW File...` and select your .ipsw file
-1. Enable the `Update (-u)` checkbox
+
+**NOTE:** If you manually downloaded FutureRestore, then press "select FutureRestore binary/Executable" instead and select the Executable file that you have downloaded.
+
+3. Click the `Select Blob File...` button and select your blob .shsh2 file
+4. Click the `Select Target iPSW File...` and select your .ipsw file
+5. Enable the `Update (-u)` checkbox
     - Do not enable this when downgrading from 14.5 or later
-1. Click `Start Futurerestore`
+6. Click `Start Futurerestore`
 
 If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
