@@ -20,7 +20,7 @@ sidebar:
 
 - The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
 - The iPSW file for your device from the internet
-  - Google is your friend
+  - get iPSWs at [ipsw.me](https://ipsw.me)
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
