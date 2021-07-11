@@ -10,11 +10,14 @@ Before you can start installing anything else, you first need to install a few n
 1. Tap "Upgrade All" if there are any updates
 - Do not install yet
 1. Go to the "Search" tab
-1. Search for the "libhooker" package
-1. Tap the "Get" button
+1. Search for the "libhooker" and "libhooker configurator" packages
+1. Tap the "Get" button for both
 1. Tap on the "Queued" bar at the bottom of your screen
 1. Tap "Confirm"
-1. Reboot your device and re-jailbreak with checkra1n
+1. Once your device finishes respringing, open the libhooker configurator app
+1. Check that tweaks switch is enabled
+   - If not, turn it on and follow the prompts to userspace reboot
+   - If it is, you're done
 
 Continue to [Using Sileo](using-sileo)
 {: .notice--info}
