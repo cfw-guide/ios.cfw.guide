@@ -27,10 +27,10 @@ In order to use Evasi0n, you will need a Windows computer running Windows 7 or n
 If your device has been OTA updated to its current version of iOS 7, you may encounter a bootloop
 {: .notice--warning}
 
-1. Open patched-with-ipg-link-evasi0n7.exe
+1. Open the `patched-with-ipg-link-evasi0n7.exe` file
 1. Plug your device into your computer and trust the computer on device when prompted
-1. Click on jailbreak in Evasi0n7
-   - it may take a moment for the required files to download
+1. In Evasion7, click "Jailbreak"
+   - It may take a moment for the required files to download
 1. Once your phone has rebooted once, open the Evasi0n app on your home screen
 1. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
 
