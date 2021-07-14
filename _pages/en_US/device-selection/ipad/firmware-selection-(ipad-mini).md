@@ -46,6 +46,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>7.0</td>
+      <td>7.0.6</td>
+      <td><a href="installing-evasi0n7">Installing Evasi0n7</a></td>
+    </tr>
+    <tr>
+      <td>7.1</td>
       <td>8.4</td>
       <td>Coming Soon</td>
     </tr>
