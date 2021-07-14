@@ -26,10 +26,10 @@ sidebar:
 + [Installing Pangu](installing-pangu933)
 + [Installing EtasonJB](installing-etasonjb)
 + [Installing HomeDepot](installing-homedepot)
++ [Installing evasi0n7](installing-evasi0n7.md)
 + [Installing P0sixspwn](installing-p0sixspwn)
 + [Using JailbreakMe Saffron](using-jailbreakme-saffron)
 + [Using JailbreakMe Star](using-jailbreakme-star)
-+ [Installing evasi0n7](installing-evasi0n7.md)
 {% endcapture %}
 
 {% capture notice-2 %}
