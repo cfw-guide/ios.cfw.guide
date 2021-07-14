@@ -31,11 +31,11 @@ If your device has been OTA updated to its current version of iOS 7, you may enc
 
 1. Open the `patched-with-ipg-link-evasi0n7.exe` file
    - if you're using a 5S/5C on 7.0, it'll be called `ONLY_5c_7.0_evasi0n7.exe`
-2. Plug your device into your computer and trust the computer on device when prompted
-3. In Evasion7, click "Jailbreak"
+1. Plug your device into your computer and trust the computer on device when prompted
+1. In Evasion7, click "Jailbreak"
    - It may take a moment for the required files to download
-4. Once your phone has rebooted once, open the Evasi0n app on your home screen
-5. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
+1. Once your phone has rebooted once, open the Evasi0n app on your home screen
+1. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
 
 Once you see your lock screen, you should be jailbroken. Cydia will be on your home screen. You can use Cydia to install [tweaks](faq#tweaks), themes and more.
 
