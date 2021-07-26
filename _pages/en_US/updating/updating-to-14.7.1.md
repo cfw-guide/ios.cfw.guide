@@ -6,13 +6,13 @@ redirect_from:
   - /updating-to-14-3
   - /updating-to-14-4
   - /updating-to-14-4-1
-  #- /updating-to-14-4-2
-  - /updating-to-14-5
+  - /updating-to-14-4-2
+  #- /updating-to-14-5
   - /updating-to-14-5-1
   - /updating-to-14-6
 ---
 
-Odysseyra1n only fully supports A8(X), A9, and A10(X) on iOS 14.7, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+Odysseyra1n only fully supports A8(X), A9, and A10(X) on iOS 14.7.1, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 ## Required Reading
