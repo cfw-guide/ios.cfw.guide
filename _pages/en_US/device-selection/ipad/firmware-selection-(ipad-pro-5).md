@@ -35,7 +35,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>14.5</td>
-      <td>14.5</td>
+      <td>14.7.1</td>
       <td>--</td>
     </tr>
   </tbody>
