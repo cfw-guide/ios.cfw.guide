@@ -41,7 +41,7 @@ sidebar:
 + [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
 + [FutureRestore](futurerestore)
-+ [Updating to 14.5 (Blobless)](updating-to-14-5-(blobless))
++ [Updating to iOS 14(Blobless)](updating-to-14-(blobless))
 + [Updating to 14.7.1](updating-to-14-7-1)
 + [Updating to 12.5.2 (Blobless)](updating-to-12-5-2-(blobless))
 + [Updating to 12.5.4](updating-to-12-5-4)
