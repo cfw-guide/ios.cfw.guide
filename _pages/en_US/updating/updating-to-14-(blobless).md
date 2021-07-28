@@ -14,7 +14,7 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware versions cannot be downgraded to unsigned versions, it's still possible to update to them from a lower firmware version and use A newer Jailbreak or Odysseyra1n. However, this method will **expire. you can check when the profiles expire [here](https://dhinakg.github.io/delayed-otas.html)**.
+While iOS firmware versions cannot be downgraded to when unsigned, it's still possible to update to them from a lower firmware version and use A newer Jailbreak or Odysseyra1n. However, this method will **expire. you can check when the profiles expire [here](https://dhinakg.github.io/delayed-otas.html)**.
 
 Odysseyra1n only fully supports A8(X), A9, and A10(X) devices on iOS 14, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
