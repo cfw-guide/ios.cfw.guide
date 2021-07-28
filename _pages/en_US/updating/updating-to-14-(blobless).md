@@ -4,6 +4,7 @@ permalink: /updating-to-14-(blobless)
 excerpt: Guide on updating to iOS 14 without any blobs.
 redirect_from:
   - /updating-to-14-(blobless)
+  - /updating-to-14-6-(blobless)
   - /updating-to-14-5
   - /updating-to-14-4-2-(blobless)
   - /updating-to-14-4-(blobless)
