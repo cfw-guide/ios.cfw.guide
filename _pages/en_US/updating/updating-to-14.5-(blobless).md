@@ -36,14 +36,14 @@ You need a pre-existing jailbreak installed to use this method.
   - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
-## Updating to 14.5
+## Updating to the verion
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-  - Ensure that the version you are updating to is 14.5
+  - Ensure that the version you are updating to is correct
 1. Download and install the update
-1. Once updated, remove the 14.5 update certificate through Settings
+1. Once updated, remove the update certificate through Settings
 
 ## Troubleshooting
 
