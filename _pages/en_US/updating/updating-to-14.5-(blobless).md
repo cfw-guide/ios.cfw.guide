@@ -30,7 +30,7 @@ You need a pre-existing jailbreak installed to use this method.
 1. Tap `Restart Springboard`
 1. Your device should now be in supervision mode
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile for the version you want to update to ](https://dhinakg.github.io/delayed-otas.html) 
-1. After installing the profile, 14.5 should show up in the Settings app as an update
+1. After installing the profile, the update should show up in the Settings app as an update
 1. Restart your device
 1. Open your current jailbreak and enable restoring rootFS
   - This will remove all tweaks and other jailbreak related data
