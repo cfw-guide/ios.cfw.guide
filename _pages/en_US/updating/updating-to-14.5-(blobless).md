@@ -1,7 +1,7 @@
 ---
-title: Updating to 14.5 (Blobless)
-permalink: /updating-to-14-5-(blobless)
-excerpt: Guide on updating to 14.5 without any blobs.
+title: Updating iOS 14 (Blobless)
+permalink: /updating-to-14-(blobless)
+excerpt: Guide on updating to iOS 14 without any blobs.
 redirect_from:
   - /updating-to-14-(blobless)
   - /updating-to-14-5
@@ -13,9 +13,9 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 14.5 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on July 31st, 2021**.
+While iOS firmware versions cannot be downgraded to unsigned versions, it's still possible to update to them from a lower firmware version and use A newer Jailbreak or Odysseyra1n. However, this method will **expire. you can check when the profiles expire [here](https://dhinakg.github.io/delayed-otas.html)**.
 
-Odysseyra1n only fully supports A8(X), A9, and A10(X) devices on iOS 14.5, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+Odysseyra1n only fully supports A8(X), A9, and A10(X) devices on iOS 14, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 You need a pre-existing jailbreak installed to use this method.
