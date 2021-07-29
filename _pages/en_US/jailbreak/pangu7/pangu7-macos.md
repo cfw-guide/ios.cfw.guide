@@ -5,7 +5,7 @@
 ## Installing Pangu
 
 1. Open the `pangu` dmg and move the application to your `/Applications` folder
-1. Open the terminal and run the following command: `sude -b /Applications/pangu.app/Contents/MacOS/pangu`
+1. Open the terminal and run the following command: `sudo -b /Applications/pangu.app/Contents/MacOS/pangu`
 1. Plug your device into your computer and trust your computer 
 1. Disable your passcode (You will be able to re-enable it once the jailbreak process is done)
 1. Set your device's date to any point before June 2014
