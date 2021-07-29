@@ -16,7 +16,7 @@ You will bootloop if you jailbreak your device while in the dark
 1. Open the Pangu app on your device once it appears on your home screen
    - Tap Continue to trust the app and allow it to run
 1. Your device will reboot after a short period, then you will need to unlock it
-2. Wait a little while and your device will reboot one more time
+1. Wait a little while and your device will reboot one more time
 
 ## Fixing bootloops while booting in the dark
 
