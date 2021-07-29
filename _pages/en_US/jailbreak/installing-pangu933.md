@@ -1,16 +1,15 @@
 ---
-title: Installing Pangu
+title: Installing Pangu9
 permalink: /installing-pangu933
 redirect_from:
   - /pangu933
-  - /pangu
-  - /pg
+  - /pangu9
 excerpt: Guide to installing Pangu933
 sidebar:
   nav: sidebar
 ---
 
-Pangu is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
+Pangu9 is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
 
 Note that the Pangu jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
