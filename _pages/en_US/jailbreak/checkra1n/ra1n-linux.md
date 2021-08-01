@@ -1,3 +1,6 @@
+If you are using a computer with an AMD Ryzen CPU, this will likely not work for you, you should use a Mac or a computer with an Intel CPU to follow this guide if this is the case.
+{: .notice--warning}
+
 ## Downloads (Linux)
 
 - The latest release of [checkra1n](https://checkra.in)
