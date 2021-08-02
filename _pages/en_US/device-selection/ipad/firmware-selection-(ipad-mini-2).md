@@ -41,7 +41,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>7.1</td>
       <td>7.1.2</td>
-      <td colspan="2"><a href="installing-pangu7">Installing Pangu7</td>
+      <td colspan="2"><a href="installing-pangu7">Installing Pangu7</a></td>
     </tr>
     <tr>
       <td>8.0</td>
