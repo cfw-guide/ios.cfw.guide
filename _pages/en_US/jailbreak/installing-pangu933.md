@@ -11,15 +11,15 @@ sidebar:
 
 Pangu9 is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
 
-Note that the Pangu jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
+Note that the Pangu9 jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
-Due to how custom applications are installed to the device, in most cases you will need to reinstall the Pangu jailbreak application to your device every 7 days from your computer.
+Due to how custom applications are installed to the device, in most cases you will need to reinstall the Pangu9 jailbreak application to your device every 7 days from your computer.
 
-We will use the AltDeploy tool to install the Pangu jailbreak application to your iOS device for use in the next step.
+We will use the AltDeploy tool to install the Pangu9 jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
-- The latest version of [Pangu](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.og)_
+- The latest version of [Pangu9](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.og)_
 - The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
 
 ![]({{ "/assets/images/altdeploy.png" | absolute_url }})
@@ -46,9 +46,9 @@ The app will now install to your iOS device.
 The Pangu application can now be opened from home screen.
 {: .notice--primary}
 
-## Running Pangu
+## Running Pangu9
 
-1. Open the Pangu application from your home screen
+1. Open the Pangu9 application from your home screen
   - Allow notifications if prompted
 1. Tap "Start"
 1. Lock the device
