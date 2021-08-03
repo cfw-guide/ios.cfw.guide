@@ -35,8 +35,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
   <tbody>
     <tr>
       <td>6.0</td>
-      <td>6.1.3</td>
+      <td>6.1.2</td>
       <td>Coming Soon</td>
+    </tr>
+    <tr>
+      <td>6.1.3</td>
+      <td>6.1.3</td>
+      <td><a href="installing-p0sixspwn">Installing P0sixspwn</a></td>
     </tr>
     <tr>
       <td>7.0</td>
@@ -45,8 +50,13 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>7.1</td>
+      <td>7.1.2</td>
+      <td colspan="2"><a href="installing-pangu7">Installing Pangu7<a></td>
+    </tr>
+    <tr>
+      <td>8.0</td>
       <td>8.4</td>
-      <td>Coming Soon</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
       <td>8.4.1</td>
