@@ -35,7 +35,7 @@ Please select your operating system below:
 {% capture a-instructions %}{% include_relative ra1n-macos-a9x.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative ra1n-linux-a9s.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative ra1n-linux-a9x.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
 <script>
