@@ -24,7 +24,7 @@ sidebar:
 + [Installing kok3shi](installing-kok3shi)
 + [Installing Phœnix](installing-phoenix)
 + [Installing Pangu9](installing-pangu933)
-+ [Installing EtasonJB](installing-etasonjb
++ [Installing EtasonJB](installing-etasonjb)
 + [Installing HomeDepot](installing-homedepot)
 + [Installing Pangu7](installing-pangu7)
 + [Installing evasi0n7](installing-evasi0n7)
