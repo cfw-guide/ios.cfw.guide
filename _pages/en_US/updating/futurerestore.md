@@ -42,12 +42,12 @@ sidebar:
 1. Open your blob in a text editor and search for `generator`
    ![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
 
-3. Note down the value inside the `<string>` field
+1. Note down the value inside the `<string>` field
     - This should be a `0x` followed 16 characters which will be a combination of letters and numbers. This is your generator.
 
 **NOTE:** If there is no generator value, try to remember which jailbreak you were using at the time of saving blobs. If you were using unc0ver, your generator is most likely `0x1111111111111111`, and if you were using Chimera/Odyssey/Taurine, your generator is most likely `0xbd34a880be0b53f3`
 
-4. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
+1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
 
     `su root -c 'dimentio [generator]'`
     
@@ -59,7 +59,7 @@ sidebar:
 ### On Computer 
 1. Connect your iDevice to your compjuter
 1. Make sure that your computer is trusted by your device
-1. (optional) Create a full backup of your device through iTunes or Finder
+    - Optionally, you can create a full backup of your device through iTunes or Finder
 1. Open FutureRestoreGUI on your computer
     - If prompted by Windows Defender or other anti-virus software, allow the program to run - it’s safe
 1. When opening FutureRestoreGUI, you should be greeted by this menu:
