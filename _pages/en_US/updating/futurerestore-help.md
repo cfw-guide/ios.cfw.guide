@@ -12,7 +12,7 @@ sidebar:
 ---
 ## Help page
 
-- This page is intended to provide solutions for errors encountered with FutureRestore. If none work, please join the [r/jb discord and ask in #futurerestorehelp](https://discord.gg/9apvC4C3CC)
+- This page is intended to provide solutions for errors encountered with FutureRestore. If none work, please join the [FDR Bureau discord]( https://discord.gg/96wCSnwYVX) and ask for help in the #support channel
 
 ## iBEC error (error code -8)
 This is a common error which you may run into while using FutureRestore, especially if you are using a Windows machine.
@@ -36,7 +36,7 @@ To fix this:
 
 This error means that you have not set your generator on your device to that of the blob. In order to solve this problem:
 
-### Getting Started
+
 
 1. Open your package manager on your jailbroken iDevice
 1. Add [repo.1conan.com](https://repo.1conan.com) to your sources
@@ -64,7 +64,7 @@ This error means that you have not set your generator on your device to that of 
     
 4. When asked for a password, enter your root password
     - By default, this is set to `alpine`
-5. Once the command executes, a lot of text should appear
+5. Once the command executes, text should appear
 6. Near the end of the text, you should see the line `Set nonce to [generator]`
 7. Run FutureRestore again. This issue should now be resolved.
 
