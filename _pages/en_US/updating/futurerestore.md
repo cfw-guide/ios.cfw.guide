@@ -66,13 +66,15 @@ sidebar:
 ![image](https://user-images.githubusercontent.com/48022799/126875170-142c9d15-8bd3-420e-bd59-18a6df8fc6eb.png)
 
 3. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-** Note:** For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
+
+Note: For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
+
 5. Click the `Select Blob File...` button and select your blob .shsh2 file
 6. Click the `Select Target iPSW File...` and select your .ipsw file
 7. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
-8. If you are upgrading or restoring to the same version the device is on, you may enable `Preserve Data` to keep data, however do not use this when downgrading. Especially when downgrading from 14.5 to a lower version, as that will result in a recovery loop.
-9. Do not enable `AP Nonce Collision` on any modern devices
+8. If you are not downgrding, you may enable the `Preserve Data` option, enabling it while downgrading may result in a recovery loop.
+9. Do not enable `AP Nonce Collision` unless you know what it means
 10. Click Next to navigate to the controls menu
 11. Click `Start Futurerestore`
 
-If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
+If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #support channel on the [FDR Bureau](https://discord.gg/96wCSnwYVX) discord server
