@@ -26,7 +26,7 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 On iOS 14.0 to {% include latestfw %}, Odysseyra1n is only fully supported on A8(X), A9, and A10(X) devices. A9X devices are only fully supported on 14.0 to 14.4.2. All A11 devices have limited support with no security. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
-If you are using a computer with an AMD Ryzen CPU, this will likely not work for you, you should use a Mac or a computer with an Intel CPU to follow this guide if this is the case.
+If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
 {: .notice--warning}
 
 {% include_relative include/odysseyra1n-explanation.md %}
