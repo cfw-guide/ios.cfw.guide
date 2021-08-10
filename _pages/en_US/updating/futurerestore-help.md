@@ -12,7 +12,7 @@ sidebar:
 ---
 ## Help page
 
-- This page is intended to provide solutions for errors encountered with FutureRestore. If none work, please join the [FDR Bureau discord]( https://discord.gg/96wCSnwYVX) and ask for help in the #support channel
+- This page is intended to provide solutions for errors encountered with FutureRestore. If none work, please join the [Official FutureRestore support]( https://discord.gg/96wCSnwYVX) and ask for help in the #support channel
 
 ## iBEC error (error code -8)
 This is a common error which you may run into while using FutureRestore, especially if you are using a Windows machine.
