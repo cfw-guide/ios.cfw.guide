@@ -77,4 +77,4 @@ Note: For A14 and WiFi only-iPad users, you will need to click the `Settings` bu
 10. Click Next to navigate to the controls menu
 11. Click `Start Futurerestore`
 
-If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #support channel on the [FDR Bureau](https://discord.gg/96wCSnwYVX) discord server
+If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #support channel on the [Official FutureRestore support](https://discord.gg/96wCSnwYVX) discord server
