@@ -68,5 +68,5 @@ In order to do the restore, complete the following steps:
 3. type `./restore.sh` and press enter 
 4. When prompted with the Main Menu, press 1 then enter
 5. Select the version you want to restore to by typing the number next to it
-6. When asked if you want to jailbreak the firmware you're restoring to refuse, as that tends to be unreliable
+6. Select “[2] No” when prompted if you want to jailbreak the target version, because this tends to be unreliable
 Now your device should restore successfully! If you encounter any issues, join the [R/jailbreak legacy discord server](https://discord.gg/bhDpTAu) and ask for assistence in the #assistence channel
