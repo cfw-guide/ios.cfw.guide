@@ -42,12 +42,12 @@ sidebar:
 1. Open your blob in a text editor and search for `generator`
    ![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
 
-3. Note down the value inside the `<string>` field
+1. Note down the value inside the `<string>` field
     - This should be a `0x` followed 16 characters which will be a combination of letters and numbers. This is your generator.
 
 **NOTE:** If there is no generator value, try to remember which jailbreak you were using at the time of saving blobs. If you were using unc0ver, your generator is most likely `0x1111111111111111`, and if you were using Chimera/Odyssey/Taurine, your generator is most likely `0xbd34a880be0b53f3`
 
-4. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
+1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed:
 
     `su root -c 'dimentio [generator]'`
     
@@ -59,14 +59,20 @@ sidebar:
 ### On Computer 
 1. Connect your iDevice to your compjuter
 1. Make sure that your computer is trusted by your device
-1. Create a full backup of your device through iTunes or Finder
+    - Optionally, you can create a full backup of your device through iTunes or Finder
 1. Open FutureRestoreGUI on your computer
     - If prompted by Windows Defender or other anti-virus software, allow the program to run - it’s safe
-1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-1. Click the `Select Blob File...` button and select your blob .shsh2 file
-1. Click the `Select Target iPSW File...` and select your .ipsw file
-1. Enable the `Update (-u)` checkbox
-    - Do not enable this when downgrading from 14.5 or later
-1. Click `Start Futurerestore`
+1. When opening FutureRestoreGUI, you should be greeted by this menu:
+![image](https://user-images.githubusercontent.com/48022799/126875170-142c9d15-8bd3-420e-bd59-18a6df8fc6eb.png)
+
+3. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
+** Note:** For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
+5. Click the `Select Blob File...` button and select your blob .shsh2 file
+6. Click the `Select Target iPSW File...` and select your .ipsw file
+7. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
+8. If you are upgrading or restoring to the same version the device is on, you may enable `Preserve Data` to keep data, however do not use this when downgrading. Especially when downgrading from 14.5 to a lower version, as that will result in a recovery loop.
+9. Do not enable `AP Nonce Collision` on any modern devices
+10. Click Next to navigate to the controls menu
+11. Click `Start Futurerestore`
 
 If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)
