@@ -23,7 +23,7 @@ Taurine is currently signed at [jailbreaks.app](https://jailbreaks.app/) for eas
 
 <script src="/assets/js/if_jailbreaksapp_signed.js"></script>
 
-- The latest version of [Taurine](https://taurine.app)
+- The 1.0.4 version of [Taurine](https://github.com/Odyssey-Team/Taurine/releases/tag/1.0.4)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
