@@ -35,6 +35,12 @@ Tweaks are small modifications that can be installed change the look and/or feel
 
 Unlike apps, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Some simpler tweaks might not even have this.
 
+## What are blobs?
+
+Blobs are a file containing a special key specifically for that one device to allow restoring to a specific firmware. They're like golden tickets, but instead a digital signature made by Apple that was saved at the time when the signing window was open. If you possess one (or many), keep them safe.
+
+You may save blobs at any time when an iOS version is signed, and unsigned. (being jailbroken is required to save unsigned blobs, also known as [onboard blobs](https://ios.cfw.guide/saving-blobs))
+
 ## What is "respringing" or "Restarting Springboard"?
 
 Respringing is essentially restarting the home screen and the iOS UI. Most of the time, you can install a tweak and respring to apply it, without fully rebooting.
