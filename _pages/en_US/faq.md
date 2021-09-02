@@ -41,6 +41,8 @@ Blobs are a file containing a special key specifically for that one device to al
 
 You may save blobs at any time when an iOS version is signed, and unsigned if you're on a jailbreakable version.
 
+To use blobs, you need SEP and baseband to be compatible with the versions you are restoring to, unfortunately this is something you cannot control yourself. [Check here](https://ios.cfw.guide/sepbb-compat) to see if SEP/bb is compatible.
+
 ## What is "respringing" or "Restarting Springboard"?
 
 Respringing is essentially restarting the home screen and the iOS UI. Most of the time, you can install a tweak and respring to apply it, without fully rebooting.
