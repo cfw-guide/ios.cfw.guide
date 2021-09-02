@@ -39,7 +39,7 @@ Unlike apps, tweaks usually don't come with an app icon, but rather instead an a
 
 Blobs are a file containing a special key specifically for that one device to allow restoring to a specific firmware. They're like golden tickets, but instead a digital signature made by Apple that was saved at the time when the signing window was open. If you possess one (or many), keep them safe.
 
-You may save blobs at any time when an iOS version is signed, and if you're on an unsigned version that is jailbreakable.
+You may save blobs at any time when an iOS version is signed, and unsigned if you're on a jailbreakable version.
 
 ## What is "respringing" or "Restarting Springboard"?
 
