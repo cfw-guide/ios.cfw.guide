@@ -37,4 +37,4 @@ checkra1n team did not want people to use unofficial builds of checkra1n. Theref
 
 If you are on iOS 14.0 to 14.3, we **highly** recommend using [Taurine](installing-taurine) instead of Odysseyra1n, for it allows you to retain security.
 
-If you are on iOS 14.4 to 14.7.1, your options are incredibly limited. We do not recommend jailbreaking currently. Instead, it's best to wait for a future jailbreak like Taurine. However, if you fully understand the security flaws, you can continue to [Odysseyra1n](installing-odysseyra1n).
+If you are on iOS 14.4 to {% include latestfw %}, your options are incredibly limited. We do not recommend jailbreaking currently. Instead, it's best to wait for a future jailbreak like Taurine. However, if you fully understand the security flaws, you can continue to [Odysseyra1n](installing-odysseyra1n).
