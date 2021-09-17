@@ -1,9 +1,10 @@
 ---
 title: Updating to 14.5 (Blobless)
-permalink: /updating-to-14-5-(blobless)
+permalink: /updating-to-14-6-(blobless)
 excerpt: Guide on updating to 14.5 without any blobs.
 redirect_from:
-  - /updating-to-14-5
+  - /updating-to-14-6
+  - /updating-to-14-5-(blobless)
   - /updating-to-14-4-2-(blobless)
   - /updating-to-14-4-(blobless)
   - /updating-to-14-3-(blobless)
@@ -12,9 +13,9 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 14.5 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on July 31st, 2021**.
+While iOS firmware version 14.6 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on October 18th, 2021**.
 
-Odysseyra1n only fully supports A8(X), A9, and A10(X) devices on iOS 14.5, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+Odysseyra1n only fully supports A8(X), A9, and A10(X) devices on iOS 14.6, with limited support (no security) for A11 devices, for more context, see [Regarding Odysseyra1n on A11](information-regarding-a11).
 {: .notice--danger}
 
 You need a pre-existing jailbreak installed to use this method.
@@ -31,18 +32,18 @@ You need a pre-existing jailbreak installed to use this method.
 1. Your device should now be in supervision mode
   - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
-1. After installing the profile, 14.5 should show up in the Settings app as an update
+1. After installing the profile, 14.6 should show up in the Settings app as an update
 1. Restart your device
 1. Open your current jailbreak and enable restoring rootFS
   - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
-## Updating to 14.5
+## Updating to 14.6
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-  - Ensure that the version you are updating to is 14.5
+  - Ensure that the version you are updating to is 14.6
 1. Download and install the update
 1. Once updated, remove the 14.5 update certificate through Settings
 
