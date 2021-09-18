@@ -1,37 +1,27 @@
 ---
-title: Installing Odysseyra1n
-permalink: /installing-odysseyra1n
+title: Installing Odysseyra1n (A9X)
+permalink: /installing-odysseyra1n-a9x
 redirect_from:
-  - /ra1n
-  - /installing-odysseyrain
-  - /odysseyra1n
-  - /odysseyrain
-  - /or
-  - /installing-checkra1n
-  - /installing-checkrain
-  - /checkra1n
-  - /checkrain
-  - /cr
-excerpt: Guide to installing Odysseyra1n
+excerpt: Guide to installing Odysseyra1n on A9X devices
 sidebar:
   nav: ios1314
 ---
 
-You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [odysseyn1x](/using-odysseyn1x) instead.
+You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [Odysseyn1x (A9X)](using-odysseyn1x-a9x) instead.
 {: .notice--danger .hide--mobile .hide--os }
 
 <script src="/assets/js/hide.js"></script>
 
-On iOS 14.0 to {% include latestfw %}, Odysseyra1n is only fully supported on A8(X), A9, and A10(X) devices. A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A9X devices on 14.5 to {% include latestfw %}, which is detailed at [Installing Odysseyra1n (A9X)](installing-odysseyra1n-a9x). All A11 devices have limited support with no security. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+If you are using an A9X device running iOS 14.4.2 or earlier, you should follow [Installing Odysseyra1n](installing-odysseyra1n) and use checkra1n version 0.12.2 instead.
 {: .notice--danger}
 
 {% include_relative include/semi-tethered.md %}
 
-checkra1n is a tool capable of jailbreaking millions of iOS device on firmwares 12.0 and above. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
+On A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode.
 
 {% include_relative include/odysseyra1n-explanation.md %}
 
-If you are using Windows, proceed to [Using odysseyn1x](/using-odysseyn1x).
+If you are using Windows, proceed to [Odysseyn1x (A9X)](using-odysseyn1x-a9x).
 {: .notice--primary #hide_os }
 
 If you're migrating from unc0ver to Odysseyra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
@@ -42,10 +32,10 @@ Please select your operating system below:
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">macOS</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Linux</button>
 
-{% capture a-instructions %}{% include_relative ra1n-macos.md %}{% endcapture %}
+{% capture a-instructions %}{% include_relative ra1n-macos-a9x.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative ra1n-linux.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative ra1n-linux-a9x.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
 <script>

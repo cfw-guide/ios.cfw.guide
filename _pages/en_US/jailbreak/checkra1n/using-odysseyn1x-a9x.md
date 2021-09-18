@@ -1,30 +1,20 @@
 ---
-title: Using Odysseyn1x
-permalink: /using-odysseyn1x
+title: Using Odysseyn1x (A9X)
+permalink: /using-odysseyn1x-a9x
 redirect_from:
-  - /installing-odysseyn1x
-  - /using-odysseynix
-  - /odysseyn1x
-  - /odysseynix
-  - /using-bootra1n
-  - /using-bootrain
-  - /bootra1n
-  - /bootrain
-  - /using-checkn1x
-  - /using-checknix
-  - /checkn1x
-  - /checkn1x
-excerpt: Guide to installing checkra1n via Odysseyn1x
+excerpt: Guide to installing checkra1n via Odysseyn1x on A9X devices
 sidebar:
   nav: ios1314
 ---
 
 {% include_relative include/semi-tethered.md %}
 
-Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS device on firmwares 12.0 and above.
-
-On iOS 14.0 to {% include latestfw %}, Odysseyra1n is only fully supported on A8(X), A9, and A10(X) devices. A9X devices are only fully supported up to 14.4.2 using an older version of Odysseyn1x, with a special method required for A9X devices on 14.5 to {% include latestfw %}, which is detailed at [Using Odysseyn1x (A9X)](using-odysseyn1x-a9x). All A11 devices have limited support with no security. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+If you are using an A9X device running iOS 14.4.2 or earlier, you should follow [Using Odysseyn1x](using-odysseyn1x) and use Odysseyn1x version 2.9 instead.
 {: .notice--danger}
+
+On A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode. It is possible to use a custom version of Odysseyn1x, however, to work around this.
+
+{% include_relative include/odysseyra1n-explanation.md %}
 
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
 {: .notice--warning}
@@ -34,8 +24,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ## Requirements
 
 - 256MB or greater USB Drive
-- The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases){:target="_blank"}
-    - If you are on an A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
+- The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-1){:target="_blank"}
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [balenaEtcher](https://www.balena.io/etcher/){:target="_blank"}
@@ -62,11 +51,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 ## Running checkra1n
 
-1. Once you have loaded odysseyn1x, select `checkra1n`
-  - If you're on A11, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
-  - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
-  - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
-1. Click `Start` and follow all onscreen prompts
+1. Once you have loaded odysseyn1x, select `checkra1n (A9X)`
 1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
   - Follow the instructions until your device reboots to a black screen
 1. Once your device boots, you can quit checkra1n, but do not shut down your computer
