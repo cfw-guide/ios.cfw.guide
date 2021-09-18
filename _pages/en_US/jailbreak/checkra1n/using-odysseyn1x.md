@@ -33,7 +33,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 ## Requirements
 
-- 512MB or greater USB Drive
+- 256MB or greater USB Drive
 - The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases){:target="_blank"}
     - If you are on an A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
     - For 64-bit computers, download the "AMD64" version
