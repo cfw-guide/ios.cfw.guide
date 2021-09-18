@@ -24,7 +24,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ## Requirements
 
 - 256MB or greater USB Drive
-- The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-1){:target="_blank"}
+- The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-2){:target="_blank"}
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [balenaEtcher](https://www.balena.io/etcher/){:target="_blank"}
