@@ -52,7 +52,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ## Running checkra1n
 
 1. Once you have loaded odysseyn1x, select `checkra1n (A9X)`
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), click `Start` to begin
+1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), enter DFU mode to begin
   - Follow the instructions until your device reboots to a black screen
 1. Once your device boots, you can quit checkra1n, but do not shut down your computer
 
