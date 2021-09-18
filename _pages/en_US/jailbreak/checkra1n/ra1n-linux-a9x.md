@@ -14,7 +14,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
   - Keep note of where you extract this
 1. Run the `checkra1n` binary in CLI mode using this custom pongoOS in the terminal using `sudo checkra1n -c -k [path to PongoConsolidated.bin]`
 1. Plug your iOS device into your computer
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), emter DFU mode to begin
+1. You will now be presented with instructions in how to reboot your device into [DFU mode](faq#dfu_mode), enter DFU mode to begin
   - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
 
