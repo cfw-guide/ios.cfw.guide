@@ -7,7 +7,7 @@ sidebar:
   nav: ios1314
 ---
 
-You are currently not running a macOS or Linux device and this guide will not work on your system. You will need to live boot or install a full Linux distribution or obtain a Mac.
+You are currently not running a macOS or Linux device and this guide will not work on your system. You can use [Odysseyn1x (A9X)](using-odysseyn1x-a9x) instead.
 {: .notice--danger .hide--mobile .hide--os }
 
 <script src="/assets/js/hide.js"></script>
@@ -21,7 +21,7 @@ On A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5+ s
 
 {% include_relative include/odysseyra1n-explanation.md %}
 
-If you are using Windows, you will need to live boot or install a full Linux distribution or obtain a Mac.
+If you are using Windows, proceed to [Odysseyn1x (A9X)](using-odysseyn1x-a9x).
 {: .notice--primary #hide_os }
 
 If you're migrating from unc0ver to Odysseyra1n, you must follow [Removing unc0ver](removing-unc0ver) before proceeding.
