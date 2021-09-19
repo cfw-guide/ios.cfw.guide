@@ -36,12 +36,12 @@ sidebar:
 {% capture notice-2 %}
 **Miscellaneous**
 
-+ [Regarding Odysseyra1n on A11](information-regarding-a11)
 + [Removing unc0ver](removing-unc0ver)
 + [Installing Sileo](installing-sileo)
 + [Using Sileo](using-sileo)
 + [Blocking Updates](blocking-updates)
 + [FutureRestore](futurerestore)
++ [Updating to 15.0](updating-to-15-0)
 + [Updating to 14.6 (Blobless)](updating-to-14-6-(blobless))
 + [Updating to 14.8](updating-to-14-8)
 + [Updating to 12.5.4](updating-to-12-5-4)

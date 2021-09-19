@@ -23,16 +23,16 @@ Please select what model of iPad you have below.
   </colgroup>
   <thead>
     <tr>
+      <th>iPad 9</th>
       <th>iPad 8</th>
       <th>iPad 7</th>
-      <th>iPad 6</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><a href="firmware-selection-(ipad-9)"><img src="/assets/images/iPad11,6.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-8)"><img src="/assets/images/iPad11,6.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-7)"><img src="/assets/images/iPad7,11.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-6)"><img src="/assets/images/iPad7,5.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
@@ -45,16 +45,16 @@ Please select what model of iPad you have below.
   </colgroup>
   <thead>
     <tr>
+      <th>iPad 6</th>
       <th>iPad 5</th>
       <th>iPad 4</th>
-      <th>iPad 3</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><a href="firmware-selection-(ipad-6)"><img src="/assets/images/iPad7,5.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-5)"><img src="/assets/images/iPad6,12.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-4)"><img src="/assets/images/iPad3,4.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-3)"><img src="/assets/images/iPad3,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
@@ -66,16 +66,16 @@ Please select what model of iPad you have below.
   </colgroup>
   <thead>
     <tr>
+      <th>iPad 3</th>
       <th>iPad 2</th>
       <th>iPad 1</th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><a href="firmware-selection-(ipad-3)"><img src="/assets/images/iPad3,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-2)"><img src="/assets/images/iPad2,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-1)"><img src="/assets/images/iPad1,1.png" alt="" width="50%"></a></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -92,16 +92,16 @@ Please select what model of iPad you have below.
   </colgroup>
   <thead>
     <tr>
+      <th>iPad Mini 6</th>
       <th>iPad Mini 5</th>
       <th>iPad Mini 4</th>
-      <th>iPad Mini 3</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipad-mini-5)"><img src="/assets/images/iPad11,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-mini-4)"><img src="/assets/images/iPad5,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-mini-3)"><img src="/assets/images/iPad4,8.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-6)"><img src="/assets/images/iPad11,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-5)"><img src="/assets/images/iPad5,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-4)"><img src="/assets/images/iPad4,8.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
@@ -114,16 +114,16 @@ Please select what model of iPad you have below.
   </colgroup>
   <thead>
     <tr>
+      <th>iPad Mini 3</th>
       <th>iPad Mini 2</th>
-      <th>iPad Mini</th>
-      <th></th>
+      <th>iPad Mini 1</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipad-mini-2)"><img src="/assets/images/iPad4,4.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-3)"><img src="/assets/images/iPad4,4.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-2)"><img src="/assets/images/iPad2,7.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-mini)"><img src="/assets/images/iPad2,7.png" alt="" width="50%"></a></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
