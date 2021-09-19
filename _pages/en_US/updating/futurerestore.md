@@ -65,14 +65,14 @@ sidebar:
 1. When opening FutureRestoreGUI, you should be greeted by this menu:
 ![image](https://user-images.githubusercontent.com/48022799/126875170-142c9d15-8bd3-420e-bd59-18a6df8fc6eb.png)
 
-3. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
+1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
 ** Note:** For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
-5. Click the `Select Blob File...` button and select your blob .shsh2 file
-6. Click the `Select Target iPSW File...` and select your .ipsw file
-7. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
-8. If you are upgrading or restoring to the same version the device is on, you may enable `Preserve Data` to keep data, however do not use this when downgrading. Especially when downgrading from 14.5 to a lower version, as that will result in a recovery loop.
-9. Do not enable `AP Nonce Collision` on any modern devices
-10. Click Next to navigate to the controls menu
-11. Click `Start Futurerestore`
+1. Click the `Select Blob File...` button and select your blob .shsh2 file
+1. Click the `Select Target iPSW File...` and select your .ipsw file
+1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
+1. If you are upgrading or restoring to the same version the device is on, you may enable `Preserve Data` to keep data, however do not use this when downgrading. Especially when downgrading from 14.5 to a lower version, as that will result in a recovery loop.
+1. Do not enable `AP Nonce Collision` on any modern devices
+1. Click Next to navigate to the controls menu
+1. Click `Start Futurerestore`
 
 If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the [r/jailbreak Discord](https://discord.gg/9apvC4C3CC)

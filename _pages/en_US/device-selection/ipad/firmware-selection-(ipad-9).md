@@ -1,19 +1,19 @@
 ---
-title: Firmware Selection (iPad Air 4)
-permalink: /firmware-selection-(ipad-air-4)
+title: Firmware Selection (iPad 9)
+permalink: /firmware-selection-(ipad-9)
 redirect_from:
-  - /ipad-air-4
-excerpt: Find out what jailbreaks you can use on your iPad Air 4th Generation
+  - /ipad-9
+excerpt: Find out what jailbreaks you can use on your iPad 9th Generation
 sidebar:
   nav: sidebar
-soc: A14 Bionic
+soc: A13 Bionic
 ---
 
 ## Required Reading
 
 Different firmware versions will require different steps to jailbreak your iPadOS device. This page will help you find where to start.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 14.0 to 14.3" row includes version 14.0, version 14.3, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 15.0 to {% include latestfw %}" row includes version 15.0, version {% include latestfw %}, and all versions in-between.
 
 Your device version can be found in the Settings application in `General` -> `About`.
 
@@ -34,12 +34,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
   </thead>
   <tbody>
     <tr>
-      <td>14.0</td>
-      <td>14.3</td>
-      <td><a href="installing-taurine">Installing Taurine</a></td>
-    </tr>
-    <tr>
-      <td>14.4</td>
+      <td>15.0</td>
       <td>{% include latestfw %}</td>
       <td>--</td>
     </tr>
