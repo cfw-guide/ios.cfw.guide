@@ -100,8 +100,8 @@ Please select what model of iPad you have below.
   <tbody>
     <tr>
       <td><a href="firmware-selection-(ipad-mini-6)"><img src="/assets/images/iPad11,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-mini-5)"><img src="/assets/images/iPad5,1.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-mini-4)"><img src="/assets/images/iPad4,8.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-5)"><img src="/assets/images/iPad11,1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-4)"><img src="/assets/images/iPad5,1.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
 </table>
@@ -121,8 +121,8 @@ Please select what model of iPad you have below.
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipad-mini-3)"><img src="/assets/images/iPad4,4.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(ipad-mini-2)"><img src="/assets/images/iPad2,7.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-3)"><img src="/assets/images/iPad4,8.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-mini-2)"><img src="/assets/images/iPad4,4.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-mini)"><img src="/assets/images/iPad2,7.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
@@ -156,7 +156,7 @@ Please select what model of iPad you have below.
   <colgroup>
     <col span="1" style="width: 33%;">
     <col span="1" style="width: 33%;">
-    <col span="1" style="width: 33%;">
+    <col span="1" style="width: 34%;">
   </colgroup>
   <thead>
     <tr>
@@ -167,7 +167,7 @@ Please select what model of iPad you have below.
   </thead>
   <tbody>
     <tr>
-      <td><a href="firmware-selection-(ipad-pro-2)"><img src="/assets/images/iPad7.1.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(ipad-pro-2)"><img src="/assets/images/iPad7,1.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(ipad-pro)"><img src="/assets/images/iPad6,7.png" alt="" width="50%"></a></td>
       <td></td>
     </tr>
