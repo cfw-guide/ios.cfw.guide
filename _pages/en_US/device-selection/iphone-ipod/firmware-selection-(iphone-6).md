@@ -56,7 +56,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td>Coming Soon</td>
+      <td><a href="installing-kok3shi">Installing Kok3shi</a></td>
     </tr>
     <tr>
       <td>10.0.1</td>

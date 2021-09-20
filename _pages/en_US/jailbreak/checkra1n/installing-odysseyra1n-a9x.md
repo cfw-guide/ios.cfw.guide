@@ -17,7 +17,7 @@ If you are using an A9X device running iOS 14.4.2 or earlier, you should follow 
 
 {% include_relative include/semi-tethered.md %}
 
-On A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode.
+On A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5 to 14.8 support) without the use of a custom pongoOS and checkra1n in CLI mode.
 
 {% include_relative include/odysseyra1n-explanation.md %}
 
