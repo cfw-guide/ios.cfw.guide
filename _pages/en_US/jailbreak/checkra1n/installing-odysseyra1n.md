@@ -22,12 +22,15 @@ You are currently not running a macOS or Linux device and this guide will not wo
 
 <script src="/assets/js/hide.js"></script>
 
-On iOS 14.0 to {% include latestfw %}, Odysseyra1n is only fully supported on A8(X), A9, and A10(X) devices. A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A9X devices on 14.5 to {% include latestfw %}, which is detailed at [Installing Odysseyra1n (A9X)](installing-odysseyra1n-a9x). All A11 devices have limited support with no security. For more information, see [Regarding Odysseyra1n on A11](information-regarding-a11).
+On iOS 14.0 to 14.8, Odysseyra1n is only fully supported on A8(X), A9, A10(X), and A11 devices. A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A9X devices on 14.5 to 14.8, which is detailed at [Installing Odysseyra1n (A9X)](installing-odysseyra1n-a9x).
 {: .notice--danger}
+
+On iOS 14.0 to 14.8, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality is things such as a Passcode, Face ID/Touch ID, and Apple Pay.
+{: .notice--warning}
 
 {% include_relative include/semi-tethered.md %}
 
-checkra1n is a tool capable of jailbreaking millions of iOS device on firmwares 12.0 and above. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
+checkra1n is a tool capable of jailbreaking millions of iOS devices with the A7 to A11 SoC on firmwares 12.0 to 14.8. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
 
 {% include_relative include/odysseyra1n-explanation.md %}
 

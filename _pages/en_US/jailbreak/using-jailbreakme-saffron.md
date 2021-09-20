@@ -13,7 +13,7 @@ sidebar:
 
 JailbreakMe Saffron is capable of jailbreaking every device on 4.3.3, as well as all devices except the iPad 2 on 4.3 to 4.3.2 and the iPhone 4 (CDMA) from 4.2.6 to 4.2.8
 
-JailbreakMe Saffron is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or Future Restore
+JailbreakMe Saffron is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
 
 ## Running JailbreakMe Saffron
 

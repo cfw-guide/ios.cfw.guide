@@ -1,4 +1,4 @@
-Please note that this works only for Procursus jailbreak users, meaning that unc0ver and base checkra1n (not odysseyra1n) are not supported.
+Please note that this works only for Procursus jailbreak users, meaning that unc0ver and stock checkra1n users (not odysseyra1n) will not be able to follow this guide.
 {: .notice--danger}
 
 ## Saving blobs automatically
