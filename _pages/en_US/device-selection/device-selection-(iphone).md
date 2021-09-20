@@ -32,7 +32,7 @@ Note that all "Plus", "Max", "Pro" and "mini" models of iPhones are functionally
   <tbody>
     <tr>
       <td><a href="firmware-selection-(iphone-13)"><img src="/assets/images/iphone12.png" alt="" width="50%"></a></td>
-      <td><a href="firmware-selection-(iphone-12)"><img src="/assets/images/iPhone12.png" alt="" width="50%"></a></td>
+      <td><a href="firmware-selection-(iphone-12)"><img src="/assets/images/iphone12.png" alt="" width="50%"></a></td>
       <td><a href="firmware-selection-(iphone-se-2)"><img src="/assets/images/iPhone12,8.png" alt="" width="50%"></a></td>
     </tr>
   </tbody>
