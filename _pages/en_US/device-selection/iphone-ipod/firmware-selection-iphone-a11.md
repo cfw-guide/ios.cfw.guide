@@ -19,7 +19,8 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th></th>
+      <th>macOS/Linux</th>
+      <th>Windows</th>
     </tr>
   </thead>
   <tbody>
