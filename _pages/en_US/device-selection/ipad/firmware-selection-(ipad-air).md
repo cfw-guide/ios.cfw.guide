@@ -31,15 +31,14 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <th>From</th>
       <th>To</th>
-      <th>macOS/Linux</th>
-      <th>Windows</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>     
     <tr>
       <td>7.0.3</td>
       <td>7.0.6</td>
-      <td colspan="2"><a href="installing-evasi0n7">Installing Evasi0n7</a></td>
+      <td><a href="installing-evasi0n7">Installing Evasi0n7</a></td>
     </tr>
     <tr>
       <td>7.1</td>
@@ -49,48 +48,42 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>8.0</td>
       <td>8.4</td>
-      <td colspan="2" colspan="2">Coming Soon</td>
+      <td colspan="2">Coming Soon</td>
     </tr>
     <tr>
       <td>8.4.1</td>
       <td>8.4.1</td>
-      <td colspan="2"><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
+      <td><a href="updating-to-10-3-3">Updating to 10.3.3</a></td>
     </tr>
     <tr>
       <td>9.0</td>
       <td>9.1</td>
-      <td colspan="2">Coming Soon</td>
+      <td>Coming Soon</td>
     </tr>
     <tr>
       <td>9.2</td>
       <td>9.3.3</td>
-      <td colspan="2"><a href="installing-pangu933">Installing Pangu933</a></td>
+      <td><a href="installing-pangu933">Installing Pangu933</a></td>
     </tr>
     <tr>
       <td>9.3.4</td>
       <td>9.3.5</td>
-      <td colspan="2"><a href="installing-kok3shi">Installing Kok3shi</a></td>
+      <td><a href="installing-kok3shi">Installing Kok3shi</a></td>
     </tr>
     <tr>
       <td>10.0</td>
       <td>10.3.3</td>
-      <td colspan="2"><a href="using-meridian">Using Meridian</a></td>
+      <td><a href="using-meridian">Using Meridian</a></td>
     </tr>
     <tr>
       <td>11.0</td>
       <td>11.4.1</td>
-      <td colspan="2"><a href="installing-electra">Installing Electra</a></td>
+      <td><a href="installing-electra">Installing Electra</a></td>
     </tr>
     <tr>
       <td>12.0</td>
-      <td>12.5.4</td>
-      <td colspan="2"><a href="installing-chimera">Installing Chimera</a></td>
-    </tr>
-    <tr>
       <td>12.5.5</td>
-      <td>12.5.5</td>
-      <td><a href="installing-odysseyra1n">Installing Odysseyra1n</a></td>
-      <td><a href="using-odysseyn1x">Using Odysseyn1x</a></td>
+      <td><a href="installing-chimera">Installing Chimera</a></td>
     </tr>
   </tbody>
 </table>
