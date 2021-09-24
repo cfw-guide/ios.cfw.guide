@@ -12,7 +12,7 @@ sidebar:
   nav: sidebar
 ---
 
-Many users have reported crashing, rebooting and other stability issues while using unc0ver. We recommend using [Taurine](/installing-taurine) or [Odysseyra1n](/installing-odysseyra1n) instead.
+unc0ver has not yet been updated to support iOS 12.5.5. We recommend using [Chimera](/installing-chimera) instead.
 {: .notice--danger}
 
 If you use a device on iOS 14.0 to 14.3, we recommend using [Taurine](/installing-taurine) instead.
@@ -21,7 +21,7 @@ If you use a device on iOS 14.0 to 14.3, we recommend using [Taurine](/installin
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"}, meaning it requires a app to re-apply the exploit after a reboot. Click the link to learn more.
 {: .notice--info}
 
-unc0ver is capable of jailbreaking every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available
+unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
 
 Due to how [semi-untethered jailbreaks](/types-of-jailbreak#semi-untethered-jailbreaks){:target="_blank"} work, the app will need to be [re-signed](resigning-apps) once every 7 days.
 
