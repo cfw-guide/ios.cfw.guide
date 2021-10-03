@@ -13,7 +13,7 @@ Before you can start installing anything else, you first need to install a few n
 1. Tap the "Get" button
 1. Tap on the "Queued" bar at the bottom of your screen
 1. Tap "Confirm"
-1. Reboot your device and re-jailbreak with checkra1n
+1. Once finished, tap 'Restart SpringBoard'
 
 Continue to [Using Sileo](using-sileo)
 {: .notice--info}

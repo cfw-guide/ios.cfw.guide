@@ -72,7 +72,7 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 1. Search for "PreferenceLoader" and "RocketBootstrap" and add them to the queue by pressing "Install"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
-1. Once finished, restart your device and re-jailbreak using Taurine
+1. Once finished, tap 'Restart SpringBoard'
 
 Continue to [Using Sileo](using-sileo)
 {: .notice--info}
