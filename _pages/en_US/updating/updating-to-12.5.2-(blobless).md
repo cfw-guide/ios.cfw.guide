@@ -1,14 +1,14 @@
 ---
-title: Updating to 12.5.2 (Blobless)
-permalink: /updating-to-12-5-2-(blobless)
-excerpt: Guide on updating to 12.5.2 without any blobs.
+title: Updating to 12.5.4 (Blobless)
+permalink: /updating-to-12-5-4-(blobless)
+excerpt: Guide on updating to 12.5.4 without any blobs.
 redirect_from:
-  - /updating-to-12-5-2
+  - /updating-to-12-5-4
 ---
 
 ## Required Reading
 
-While iOS firmware version 12.5.2 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on July 31th, 2021**.
+While iOS firmware version 12.5.4 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on December 21st, 2021**.
 
 This method only works if you are on a 64-bit device that is not supported by iOS 13.
 {: .notice--danger}
@@ -27,20 +27,20 @@ You need a pre-existing jailbreak installed to use this method.
 1. Your device should now be in supervision mode
   - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
-1. After installing the profile, 12.5.2 should show up in the Settings app as an update
+1. After installing the profile, 12.5.4 should show up in the Settings app as an update
 1. Restart your device
 1. Open your current jailbreak and enable restoring rootFS
   - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
-## Updating to 12.5.2
+## Updating to 12.5.4
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-  - Ensure that the version you are updating to is 12.5.2
+  - Ensure that the version you are updating to is 12.5.4
 1. Download and install the update
-1. Once updated, remove the 12.5.2 update certificate through Settings
+1. Once updated, remove the 12.5.4 update certificate through Settings
 
 ## Troubleshooting
 

@@ -33,5 +33,5 @@ Only follow this if you've installed update blocking in the past.
 Continue to [Using Meridian](using-meridian)
 {: .notice--info}
 
-If you want to update to iOS 12.5.4, Continue to [Updating to 12.5.4](updating-to-12-5-4)
+If you want to update to iOS 12.5.5, Continue to [Updating to 12.5.5](updating-to-12-5-5)
 {: .notice--info}

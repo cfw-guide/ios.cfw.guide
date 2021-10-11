@@ -22,7 +22,7 @@ A11 devices do not allow you to use SEP functionality in a jailbroken state with
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to 14.8 and use the Odysseyra1n jailbreak instead if your device is compatible.
+If you're on firmware version 14.5 or later, you can update to 14.8 and use the Odysseyra1n jailbreak instead if your device is compatible.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 14.8, we can easily update to the desired firmware version.
 
@@ -45,7 +45,7 @@ Only follow this if you've installed update blocking in the past.
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-  - Ensure that the version you are updating to is {% include latestfw %}
+  - Ensure that the version you are updating to is 14.8
 1. Download and install the update
 
 Continue to [Installing Odysseyra1n](installing-odysseyra1n)
