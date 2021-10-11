@@ -34,6 +34,11 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     <tr>
       <td>14.4</td>
+      <td>14.5.1</td>
+      <td>Coming Soon</td>
+    </tr>
+    <tr>
+      <td>14.6</td>
       <td>{% include latestfw %}</td>
       <td>--</td>
     </tr>
