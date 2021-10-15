@@ -28,6 +28,7 @@ To install Odysseyra1n, <u>do not</u> open the checkra1n app and install Cydia. 
 1. Ensure that your computer is trusted by your device
 1. Install "iproxy" by pasting and executing the following command:
   - Ubuntu/Debian: `sudo apt install libusbmuxd-tools`
+  - Arch Linux: `pacman -S libusbmuxd`
 1. Install the Odysseyra1n script by pasting and executing the following command:
 
     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
