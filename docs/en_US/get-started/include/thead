@@ -1,0 +1,12 @@
+<colgroup>
+  <col span="1" style="width: 15%;">
+  <col span="1" style="width: 15%;">
+  <col span="1" style="width: 70%;">
+</colgroup>
+<thead>
+  <tr>
+    <th>From</th>
+    <th>To</th>
+    <th></th>
+  </tr>
+</thead>

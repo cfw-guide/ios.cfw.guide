@@ -5,5 +5,5 @@
 1. Navigate to `General` -> `About` -> `System Version`
   
 ::: tip
-![](/assets/images/find-version-ipad.jpg)
+![Finding iPadOS version on an iPad](/assets/images/find-version-ipad.jpg)
 :::

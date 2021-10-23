@@ -19,11 +19,18 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-From | To   | <colgroup><col style="width:15%;"><col style="width:15%;"><col style="width:70%;"></colgroup>
-:-:  | :-:  | :-: |
-!!!include(./docs/en_US/get-started/include/odyssey)!!!
-!!!include(./docs/en_US/get-started/include/taurine)!!!
-14.4 | !!!include(./docs/en_US/include/latestfw)!!! | --
+<table>
+  !!!include(./docs/en_US/get-started/include/thead)!!!
+  <tbody>
+    !!!include(./docs/en_US/get-started/include/odyssey)!!!
+    !!!include(./docs/en_US/get-started/include/taurine)!!!
+    <tr>
+      <td>14.4</td>
+      <td>!!!include(./docs/en_US/include/latestfw)!!!</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
