@@ -15,30 +15,128 @@ Please select what model of iPhone you have below.
 Note that all "Plus", "Max", "Pro" and "mini" models of iPhones are functionally identical to the regular models.
 :::
 
-iPhone 13 | iPhone 12 | iPhone SE (2020)
-:-------: | :-------: | :--------------:
-[<img src="/assets/images/iphone12.png" alt="iPhone 13" width="50%">](13) | [<img src="/assets/images/iphone12.png" alt="iPhone 12" width="50%">](12) | [<img src="/assets/images/iPhone12,8.png" alt="iPhone SE (2020)" width="50%">](se-2)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone 13</th>
+      <th>iPhone 12</th>
+      <th>iPhone SE (2020)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="13/"><img src="/assets/images/iphone12.png" alt="" width="50%"></a></td>
+      <td><a href="12/"><img src="/assets/images/iphone12.png" alt="" width="50%"></a></td>
+      <td><a href="se-2/"><img src="/assets/images/iPhone12,8.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-iPhone 11 | iPhone XS | iPhone XR
-:-------: | :-------: | :-------:
-[<img src="/assets/images/iPhone12,1.png" alt="iPhone 11" width="50%">](11) | [<img src="/assets/images/iPhone11,2.png" alt="iPhone XS" width="50%">](xs) | [<img src="/assets/images/iPhone11,8.png" alt="iPhone XR" width="50%">](xr)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone 11</th>
+      <th>iPhone XS</th>
+      <th>iPhone XR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="11/"><img src="/assets/images/iPhone12,1.png" alt="" width="50%"></a></td>
+      <td><a href="xs/"><img src="/assets/images/iPhone11,2.png" alt="" width="50%"></a></td>
+      <td><a href="xr/"><img src="/assets/images/iPhone11,8.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-iPhone X | iPhone 8 | iPhone 7
-:------: | :------: | :------:
-[<img src="/assets/images/iPhone10,6.png" alt="iPhone X" width="50%">](x) | [<img src="/assets/images/iPhone10,1.png" alt="iPhone 8" width="50%">](8) | [<img src="/assets/images/iPhone9,1.png" alt="iPhone XR" width="50%">](7)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone X</th>
+      <th>iPhone 8</th>
+      <th>iPhone 7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="x/"><img src="/assets/images/iPhone10,6.png" alt="" width="50%"></a></td>
+      <td><a href="8/"><img src="/assets/images/iPhone10,1.png" alt="" width="50%"></a></td>
+      <td><a href="7/"><img src="/assets/images/iPhone9,1.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-iPhone SE (2016) | iPhone 6S | iPhone 6
-:--------------: | :-------: | :------:
-[<img src="/assets/images/iPhone8,4.png" alt="iPhone SE (2016)" width="50%">](se) | [<img src="/assets/images/iPhone8,1.png" alt="iPhone 6S" width="50%">](6s) | [<img src="/assets/images/iPhone7,1.png" alt="iPhone 6" width="50%">](6)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone SE (2016)</th>
+      <th>iPhone 6S</th>
+      <th>iPhone 6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="se/"><img src="/assets/images/iPhone8,4.png" alt="" width="50%"></a></td>
+      <td><a href="6s/"><img src="/assets/images/iPhone8,1.png" alt="" width="50%"></a></td>
+      <td><a href="6/"><img src="/assets/images/iPhone7,1.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-iPhone 5S | iPhone 5C | iPhone 5
-:-------: | :-------: | :------:
-[<img src="/assets/images/iPhone6,2.png" alt="iPhone 5S" width="50%">](5s) | [<img src="/assets/images/iPhone5,3.png" alt="iPhone 5C" width="50%">](5c) | [<img src="/assets/images/iPhone5,1.png" alt="iPhone 5" width="50%">](5)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone 5S</th>
+      <th>iPhone 5C</th>
+      <th>iPhone 5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="5s/"><img src="/assets/images/iPhone6,2.png" alt="" width="50%"></a></td>
+      <td><a href="5c/"><img src="/assets/images/iPhone5,3.png" alt="" width="50%"></a></td>
+      <td><a href="5/"><img src="/assets/images/iPhone5,1.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-iPhone 4S | iPhone 4 | iPhone 3GS
-:-------: | :------: | :--------:
-[<img src="/assets/images/iPhone4,1.png" alt="iPhone 4S" width="50%">](4s) | [<img src="/assets/images/iPhone3,3.png" alt="iPhone 4" width="50%">](4) | [<img src="/assets/images/iPhone2,1.png" alt="iPhone 3GS" width="50%">](3gs)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone 4S</th>
+      <th>iPhone 4</th>
+      <th>iPhone 3GS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="4s/"><img src="/assets/images/iPhone4,1.png" alt="" width="50%"></a></td>
+      <td><a href="4/"><img src="/assets/images/iPhone3,3.png" alt="" width="50%"></a></td>
+      <td><a href="3gs/"><img src="/assets/images/iPhone2,1.png" alt="" width="50%"></a></td>
+    </tr>
+  </tbody>
+</table>
 
-iPhone 3G | iPhone 2G |   |
-:-------: | :-------: | - |
-[<img src="/assets/images/iPhone1,2.png" alt="iPhone 3G" width="50%">](3g) | [<img src="/assets/images/iPhone1,1.png" alt="iPhone 2G" width="50%">](2g)
+<table>
+  <colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup>
+  <thead>
+    <tr>
+      <th>iPhone 3G</th>
+      <th>iPhone 2G</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="3g/"><img src="/assets/images/iPhone1,2.png" alt="" width="50%"></a></td>
+      <td><a href="2g/"><img src="/assets/images/iPhone1,1.png" alt="" width="50%"></a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
