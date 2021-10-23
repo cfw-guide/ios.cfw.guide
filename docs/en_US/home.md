@@ -10,7 +10,7 @@ header:
   overlay_image: https://ios.cfw.guide/assets/images/splash-taurine.png
   overlay_color: 1a1d24
   cta_label: "Get Started"
-  cta_url: /get-started/index.html
+  cta_url: /get-started/
 ---
 
 ::: tip
@@ -64,5 +64,5 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 - Your device warranty will become void after jailbreaking until it is restored to an un-jailbroken state, which is easy to do
 
 ::: tip
-Continue to [Get Started](get-started)
+Continue to [Get Started](/get-started/)
 :::
