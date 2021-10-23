@@ -40,7 +40,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>3.1.2</td>
       <td>4.0.1</td>
-      <td><a href="/using-jailbreakme-star">Using JailbreakMe Star</a></td>
+      <td><a href="/using-jailbreakme-star/">Using JailbreakMe Star</a></td>
     </tr>
     <tr>
       <td>4.0.2</td>
@@ -50,7 +50,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>4.3</td>
       <td>4.3.3</td>
-      <td><a href="/using-jailbreakme-saffron">Using JailbreakMe Saffron</a></td>
+      <td><a href="/using-jailbreakme-saffron/">Using JailbreakMe Saffron</a></td>
     </tr>
     <tr>
       <td>4.3.4</td>
@@ -60,7 +60,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     <tr>
       <td>6.1.3</td>
       <td>6.1.6</td>
-      <td><a href="/installing-p0sixspwn">Installing P0sixspwn</a></td>
+      <td><a href="/installing-p0sixspwn/">Installing P0sixspwn</a></td>
     </tr>
   </tbody>
 </table>

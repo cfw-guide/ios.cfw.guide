@@ -5,5 +5,5 @@
 1. Navigate to `General` -> `About` -> `Version`
 
 ::: tip
-![](/assets/images/find-version-ipad-old.jpg)
+![Finding iOS version on an iPad](/assets/images/find-version-ipad-old.jpg)
 :::

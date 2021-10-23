@@ -18,15 +18,21 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-From   | To     | macOS/Linux | Windows <colgroup><col style="width:15%;"><col style="width:15%;"><col style="width:35%;"><col style="width:35%;"></colgroup>
-:-:    | :-:    | :-:         | :-:
-!!!include(./docs/en_US/get-started/include/electra)!!!
-!!!include(./docs/en_US/get-started/include/chimera-a11-a12)!!!
-!!!include(./docs/en_US/get-started/include/unc0ver)!!!
-!!!include(./docs/en_US/get-started/include/odyssey)!!!
-!!!include(./docs/en_US/get-started/include/taurine)!!!
-!!!include(./docs/en_US/get-started/include/ora1n)!!!
-15.0   | !!!include(./docs/en_US/include/latestfw)!!! <td colspan=2>--</td>
+<table>
+  !!!include(./docs/en_US/get-started/include/thead-2span)!!!
+  <tbody>
+    !!!include(./docs/en_US/get-started/include/electra-2span)!!!
+    !!!include(./docs/en_US/get-started/include/chimera-a9-a10-a11-2span)!!!
+    !!!include(./docs/en_US/get-started/include/odyssey-2span)!!!
+    !!!include(./docs/en_US/get-started/include/taurine-2span)!!!
+    !!!include(./docs/en_US/get-started/include/ora1n)!!!
+    <tr>
+      <td>15.0</td>
+      <td>!!!include(./docs/en_US/include/latestfw)!!!</td>
+      <td colspan="2">--</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

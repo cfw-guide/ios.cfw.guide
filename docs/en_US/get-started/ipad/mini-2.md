@@ -18,18 +18,29 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-From   | To     | <colgroup><col style="width:15%;"><col style="width:15%;"><col style="width:70%;"></colgroup>
-:-:    | :-:    | :-:
-!!!include(./docs/en_US/get-started/include/evasi0n7)!!!
-!!!include(./docs/en_US/get-started/include/pangu7)!!!
-8.0    | 8.4    | Coming Soon
-!!!include(./docs/en_US/get-started/include/update-to-10-3-3-a7)!!!
-9.0    | 9.1    <td colspan="2">Coming Soon</td>
-!!!include(./docs/en_US/get-started/include/pangu933)!!!
-!!!include(./docs/en_US/get-started/include/kok3shi)!!!
-!!!include(./docs/en_US/get-started/include/meridian)!!!
-!!!include(./docs/en_US/get-started/include/electra)!!!
-!!!include(./docs/en_US/get-started/include/chimera-a7-a8)!!!
+<table>
+  !!!include(./docs/en_US/get-started/include/thead)!!!
+  <tbody>
+    !!!include(./docs/en_US/get-started/include/evasi0n7)!!!
+    !!!include(./docs/en_US/get-started/include/pangu7)!!!
+    <tr>
+      <td>8.0</td>
+      <td>8.4</td>
+      <td>Coming Soon</td>
+    </tr>
+    !!!include(./docs/en_US/get-started/include/update-to-10-3-3-a7)!!!
+    <tr>
+      <td>9.0</td>
+      <td>9.1</td>
+      <td>Coming Soon</td>
+    </tr>
+    !!!include(./docs/en_US/get-started/include/pangu933)!!!
+    !!!include(./docs/en_US/get-started/include/kok3shi)!!!
+    !!!include(./docs/en_US/get-started/include/meridian)!!!
+    !!!include(./docs/en_US/get-started/include/electra)!!!
+    !!!include(./docs/en_US/get-started/include/chimera-a7-a8)!!!
+  </tbody>
+</table>
 
 ---
 

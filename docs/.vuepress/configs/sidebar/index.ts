@@ -220,8 +220,8 @@ export const en: SidebarConfig = {
           link: '/get-started/ipad/mini-2/',
         },
         {
-          text: 'iPad mini 1',
-          link: '/get-started/ipad/mini-1/',
+          text: 'iPad mini',
+          link: '/get-started/ipad/mini/',
         },
       ],
     },
