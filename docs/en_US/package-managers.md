@@ -15,7 +15,7 @@ Package managers are in some ways like an App Store for tweaks. They allow you t
 
 ### Sileo
 
-Sileo is a relatively new Package Manager made by [Coolstar](https://twitter.com/CStar_OW). It's used to download and install jailbreak tweaks, similar to package managers listed below. Sileo prides itself with its superior performance, modern design, and general QOL improvements.
+Sileo is a relatively new Package Manager maintained by [Amy](https://twitter.com/elihwyma). It's used to download and install jailbreak tweaks, similar to package managers listed below. Sileo prides itself with its superior performance, modern design, and general QOL improvements.
 
 Sileo is installed by default on Electra, Chimera, Odyssey, Taurine, and Odysseyra1n. Sileo is also downloadable through checkra1n as well as unc0ver on iOS 12.0 and higher.
 
