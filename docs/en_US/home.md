@@ -8,6 +8,7 @@ header:
   overlay_title: iOS Guide
   overlay_excerpt: A complete iOS modding guide, from stock to jailbroken.
   overlay_image: https://ios.cfw.guide/assets/images/splash-taurine.png
+  overlay_filter: 0.3
   overlay_color: 1a1d24
   cta_label: "Get Started"
   cta_url: /get-started/
