@@ -40,5 +40,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: path.resolve(__dirname, './vuepress-theme'),
   extendsMarkdown: (md) => {
       md.use(require('markdown-it-include'))
-  }
+  },
+  
+	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
+	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
 })
