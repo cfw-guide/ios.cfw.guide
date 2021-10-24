@@ -459,6 +459,19 @@ export const en: SidebarConfig = {
     troubleshooting,
   ],
   
+  '/installing-unc0ver/': [
+    getStarted,
+    {
+      text: 'unc0ver',
+      children: [
+        '/installing-unc0ver/',
+        '/installing-unc0ver/using-cydia/',
+      ],
+    },
+    guides,
+    troubleshooting,
+  ],
+  
   '/installing-electra/': [
     getStarted,
     {
