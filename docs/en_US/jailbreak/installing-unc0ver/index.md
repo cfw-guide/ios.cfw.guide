@@ -15,7 +15,7 @@ unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-ja
 
 The tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
 
-Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](resigning-apps) once every 7 days.
+Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](/resigning-apps) once every 7 days.
 
 We will use the AltStore tool to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
@@ -26,6 +26,7 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa/)
+  - Users on firmware version 12.5.5 should download the [latest version](https://unc0ver.dev)
 - The latest version of [AltStore](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
