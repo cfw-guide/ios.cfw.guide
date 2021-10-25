@@ -11,14 +11,6 @@ redirect_from:
   - /uo
 ---
 
-::: tip
-unc0ver has not yet been updated to support iOS 12.5.5. We recommend using [Chimera](/installing-chimera) instead.
-:::
-
-::: tip
-If you use a device on iOS 14.0 to 14.3, we recommend using [Taurine](/installing-taurine) instead.
-:::
-
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
 
 The tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
@@ -55,7 +47,6 @@ If you are running iOS 11.0 - 12.1.4, you will need to use [AltDeploy](resigning
     - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 
 The unc0ver application can now be opened from home screen.
-{: .notice--primary}
 
 ## Running unc0ver
 
