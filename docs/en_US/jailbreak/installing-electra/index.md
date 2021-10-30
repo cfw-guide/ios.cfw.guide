@@ -14,7 +14,7 @@ The tool is compatible with jailbreaking devices on iOS versions from 11.0 to 11
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](/resigning-apps) once every 7 days.
 
-We will use AltDeploy to install the Taurine Electra application to your iOS device for use in the next step.
+We will use Sideloadly to install the Taurine Electra application to your iOS device for use in the next step.
 
 ::: warning
 If you are already jailbroken with unc0ver, make sure to properly [remove it](/removing-unc0ver) before proceeding.
@@ -27,19 +27,19 @@ Electra is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Electra](https://coolstar.org/electra/)
-- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 
-![A screenshot of the AltDeploy application](/assets/images/altdeploy.png)
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open AltDeploy
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Electra `.ipa` file into AltDeploy
+1. Drag and drop the Electra `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - This information is sent to Apple only
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

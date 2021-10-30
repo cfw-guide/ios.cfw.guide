@@ -33,7 +33,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
       <td>9.3.5</td>
       <td colspan="2"><a href="/updating-to-15-0-2/">Updating to !!!include(./docs/en_US/include/latestfw)!!!</a></td>
     </tr>
-    !!!include(./docs/en_US/get-started/include/meridian-2span)!!!
+    !!!include(./docs/en_US/get-started/include/doubleh3lix-2span)!!!
     !!!include(./docs/en_US/get-started/include/electra-2span)!!!
     !!!include(./docs/en_US/get-started/include/chimera-a9-a10-a11-2span)!!!
     !!!include(./docs/en_US/get-started/include/odyssey-2span)!!!
