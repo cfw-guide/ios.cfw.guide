@@ -9,28 +9,32 @@ redirect_from:
   - /eta
 ---
 
-Daibutsu is capable of jailbreaking 32-bit iOS devices on firmware version 8.4.1 to 9.1.
+Daibutsu is capable of jailbreaking A5(X) iOS devices on firmware version 8.4.1.
 
 Unlike most modern jailbreaks, Daibutsu is persistent after a reboot (this is also referred to as an "[untethered](/types-of-jailbreak/#untethered-jailbreaks)" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
 
-We will use the AltDeploy tool to install the Daibutsu jailbreak application to your iOS device for use in the next step.
+We will use the Sideloadly tool to install the Daibutsu jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
-- The latest version of [Daibutsu](https://etasonjb.tihmstar.net/)
-- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+Daibutsu is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
 
-![A screenshot of the AltDeploy application](/assets/images/altdeploy.png)
+- The latest version of [Daibutsu](https://dora2ios.web.app/daibutsu.html)
+- The latest version of [Sideloadly](https://sideloadly.io/)
+
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open AltDeploy
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Daibutsu `.ipa` file into AltDeploy
+1. Drag and drop the Daibutsu `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - This information is sent to Apple only
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
