@@ -17,14 +17,14 @@ Note that the h3lix jailbreak is not “persistent” (meaning it does not remai
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the h3lix jailbreak application to your device every 7 days from your computer.
 
-We will use iOS-App-Signer, Xcode, and a patcher script to install the application to your device.
+We will use Sideloadly and a patcher script to install the application to your device.
 
 ## Downloads
 
 - The latest version of [h3lix](https://h3lix.tihmstar.net/)
-- The latest version of [iOS-App-Signer](https://github.com/DanTheMan827/ios-app-signer/releases)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - Jackajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
-- A Mac with Xcode installed
+- A Mac
 
 ## Patching the application
 
@@ -38,24 +38,17 @@ We will use iOS-App-Signer, Xcode, and a patcher script to install the applicati
 
 You now have a patched h3lix ipa that you can sign
 
-## Signing the application
+## Installing the application
 
-1. Open Xcode and create a new application project called Test
-1. Click on the top instance of Test in the files sidebar
-1. Click on Test under Targets
-1. Click on Signing and Capabilities and follow the steps to create a signing certificate and enter your Apple ID when prompted
-1. Open iOS-App-Signer
-1. Click browse and choose the patched h3lix ipa we made earlier
-1. Your Apple ID will be in the Signing Certificate box, but if it isn't, select it from the dropdown list
-1. Change the Provisioning Profile option to the provisioning profile corresponding to your Xcode project name (this should be Test)
-1. Click start, then save, saying yes to overwriting any other files of the same name
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the h3lix `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
-## Sideloading the application
-
-1. Plug your device into your Mac and press trust if it prompts you
-2. In Xcode, click on Window in the global menu and select Devices and Simulators
-3. Select your device in the window
-4. Press the plus button under Installed Applications and select the h3lix ipa we made in the previous section
+The app will now install to your iOS device.
 
 ## Trusting the application
 

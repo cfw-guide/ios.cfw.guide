@@ -14,24 +14,24 @@ Note that the Pangu9 jailbreak is not “persistent” (meaning it does not rema
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the Pangu9 jailbreak application to your device every 7 days from your computer.
 
-We will use the AltDeploy tool to install the Pangu9 jailbreak application to your iOS device for use in the next step.
+We will use the Sideloadly tool to install the Pangu9 jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
 - The latest version of [Pangu9](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.og)_
-- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 
-![A screenshot of the AltDeploy application](/assets/images/altdeploy.png)
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open AltDeploy
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Pangu `.ipa` file into AltDeploy
+1. Drag and drop the Pangu9 `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - This information is sent to Apple only
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

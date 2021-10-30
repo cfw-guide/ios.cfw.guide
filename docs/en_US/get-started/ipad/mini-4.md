@@ -28,7 +28,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     !!!include(./docs/en_US/get-started/include/pangu933-2span)!!!
     !!!include(./docs/en_US/get-started/include/kok3shi-2span)!!!
-    !!!include(./docs/en_US/get-started/include/meridian-2span)!!!
+    !!!include(./docs/en_US/get-started/include/doubleh3lix-2span)!!!
     !!!include(./docs/en_US/get-started/include/electra-2span)!!!
     !!!include(./docs/en_US/get-started/include/chimera-a9-a10-a11-2span)!!!
     !!!include(./docs/en_US/get-started/include/odyssey-2span)!!!
