@@ -13,19 +13,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       description: 'A complete iOS modding guide, from stock to jailbroken.',
     },
   },
-
-	plugins: [
-		[
-			"@vuepress/plugin-search",
-			{
-				locales: {
-					"/": {
-						placeholder: "Search"
-					},
-				}
-			}
-		],
-	],
   
   themeConfig: {
     repo: 'cfw-guide/ios.cfw.guide',
