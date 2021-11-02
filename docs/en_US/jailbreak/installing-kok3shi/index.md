@@ -17,19 +17,19 @@ This jailbreak is in its early stages and therefore may not work as intended. Be
 ## Downloads
 
 - The latest version of [kok3shi](https://dora2ios.web.app/kokeshiJB.html)
-- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 
-![A screenshot of the AltDeploy application](/assets/images/altdeploy.png)
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open AltDeploy
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Kok3shi `.ipa` file into AltDeploy
+1. Drag and drop the Kok3shi `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - This information is sent to Apple only
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
