@@ -34,7 +34,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
     </tr>
     !!!include(./docs/en_US/get-started/include/pangu933)!!!
     !!!include(./docs/en_US/get-started/include/kok3shi)!!!
-    !!!include(./docs/en_US/get-started/include/meridian)!!!
+    !!!include(./docs/en_US/get-started/include/doubleh3lix)!!!
     !!!include(./docs/en_US/get-started/include/electra)!!!
     !!!include(./docs/en_US/get-started/include/chimera-a7-a8)!!!
   </tbody>

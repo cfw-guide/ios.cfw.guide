@@ -8,34 +8,34 @@ redirect_from:
   - /pn
 ---
 
-Phœnix is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5.
+Phœnix is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5 and 9.3.6.
 
 Note that the Phœnix jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the Phœnix jailbreak application to your device every 7 days from your computer.
 
-We will use the AltDeploy tool to install the Phœnix jailbreak application to your iOS device for use in the next step.
+We will use the Sideloadly tool to install the Phœnix jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-Phœnix is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+Phœnix is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
 - The latest version of [Phœnix](https://phoenixpwn.com/)
-- The latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 
-![A screenshot of the AltDeploy application](/assets/images/altdeploy.png)
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open AltDeploy
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Phœnix `.ipa` file into AltDeploy
+1. Drag and drop the Phœnix `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - This information is sent to Apple only
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
