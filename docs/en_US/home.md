@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: iOS Guide
+title: Home
 description: A complete iOS modding guide, from stock to jailbroken.
 permalink: /
 home: true
