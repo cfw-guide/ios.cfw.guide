@@ -8,7 +8,8 @@ redirect_from:
   - /restoring-to-14-3
   - /fr
 ---
-
+## Notes
+If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15 and are on an A12+ device, you will not be able to downgrade, as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.
 ## Requirements
 
 - Blobs saved for the version you want to restore to
@@ -49,7 +50,7 @@ redirect_from:
 3. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed: `su root -c 'dimentio [generator]'`
     
 1. When asked for a password, enter your root password
-    - By default, this is set to `alpine`
+    - By default, this is set to `alpine`, not your phone's password.
 1. Once the command executes, a lot of text should appear
 1. Near the end of the text, you should see the line `Set nonce to [generator]`
  
