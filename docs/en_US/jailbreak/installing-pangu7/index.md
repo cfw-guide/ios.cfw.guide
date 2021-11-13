@@ -40,6 +40,7 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 
 ## Windows
 
+- ::: danger
 
 You will bootloop if you jailbreak your device while in the dark
 
