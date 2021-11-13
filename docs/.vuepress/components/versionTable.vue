@@ -111,8 +111,8 @@ var jailbreak = {
     }
   },
   odysseyrain: {
-    text: "Odysseyra1n",
-    url: "odysseyra1n/",
+    text: "Installing Odysseyra1n",
+    url: "/installing-odysseyra1n/",
     0: {
       minVer: [14,4,0],
       maxVer: [14,8,1],
