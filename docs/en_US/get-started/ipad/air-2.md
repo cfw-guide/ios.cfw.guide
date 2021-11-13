@@ -18,7 +18,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<versionTable soc="8" :x="true" :minVer="[8,1,0]" :maxVer="[12,5,5]"/>
+<versionTable soc="8" :x="true" :minVer="[8,1,0]" :exclude="[[12,4,2],[12,4,3],[12,4,4],[12,4,5],[12,4,6],[12,4,7],[12,4,8],[12,4,9],[12,5,0],[12,5,1],[12,5,2],[12,5,3],[12,5,4],[12,5,5]]"/>
 
 ---
 
