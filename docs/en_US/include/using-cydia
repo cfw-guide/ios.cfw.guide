@@ -42,7 +42,7 @@ The repo should now be removed from Cydia.
 1. Tap the `Install` button at the top right-hand corner of your screen
 1. Confirm the installation
     - It may take some time for the tweak to install
-1. After it's finished, tap "[Restart Springboard]((/faq/#what-is-respringing))"
+1. After it's finished, tap "[Restart SpringBoard]((/faq/#what-is-respringing))"
     - The device should appear to reboot after this
     - Sometimes, the button might not say to respring, but you can tap the button anyway
 
