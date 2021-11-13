@@ -18,16 +18,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
-  !!!include(./docs/en_US/get-started/include/thead)!!!
-  <tbody>
-    <tr>
-      <td>14.5</td>
-      <td>!!!include(./docs/en_US/include/latestfw)!!!</td>
-      <td>--</td>
-    </tr>
-  </tbody>
-</table>
+<versionTable soc="14" :x="true" :minVer="[14,5,0]"/>
 
 ---
 

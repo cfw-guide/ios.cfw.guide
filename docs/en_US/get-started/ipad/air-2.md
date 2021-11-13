@@ -18,27 +18,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
-  !!!include(./docs/en_US/get-started/include/thead-2span)!!!
-  <tbody>
-    <tr>
-      <td>8.0</td>
-      <td>8.4</td>
-      <td colspan="2">Coming Soon</td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/update-to-latest-a8-2span)!!!
-    <tr>
-      <td>9.0</td>
-      <td>9.1</td>
-      <td colspan="2">Coming Soon</td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/pangu933-2span)!!!
-    !!!include(./docs/en_US/get-started/include/kok3shi-2span)!!!
-    !!!include(./docs/en_US/get-started/include/doubleh3lix-2span)!!!
-    !!!include(./docs/en_US/get-started/include/electra-2span)!!!
-    !!!include(./docs/en_US/get-started/include/chimera-a7-a8-2span)!!!
-  </tbody>
-</table>
+<versionTable soc="8" :x="true" :minVer="[8,1,0]" :maxVer="[12,5,5]"/>
 
 ---
 

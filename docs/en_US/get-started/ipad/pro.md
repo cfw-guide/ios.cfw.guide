@@ -19,33 +19,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
-  !!!include(./docs/en_US/get-started/include/thead-2span)!!!
-  <tbody>
-    <tr>
-      <td>9.1</td>
-      <td>9.1</td>
-      <td colspan="2">Coming Soon</td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/pangu933-2span)!!!
-    <tr>
-      <td>9.3.4</td>
-      <td>9.3.5</td>
-      <td colspan="2"><a href="/updating-to-15-0-2/">Updating to !!!include(./docs/en_US/include/latestfw)!!!</a></td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/doubleh3lix-2span)!!!
-    !!!include(./docs/en_US/get-started/include/electra-2span)!!!
-    !!!include(./docs/en_US/get-started/include/chimera-a9-a10-a11-2span)!!!
-    !!!include(./docs/en_US/get-started/include/odyssey-2span)!!!
-    !!!include(./docs/en_US/get-started/include/taurine-2span)!!!
-    !!!include(./docs/en_US/get-started/include/ora1n)!!!
-    <tr>
-      <td>15.0</td>
-      <td>!!!include(./docs/en_US/include/latestfw)!!!</td>
-      <td colspan="2">--</td>
-    </tr>
-  </tbody>
-</table>
+<versionTable soc="9" :x="true" :minVer="[9,1,0]"/>
 
 ---
 
