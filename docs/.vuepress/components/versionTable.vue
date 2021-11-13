@@ -16,13 +16,8 @@ var jailbreak = {
     },
     1: {
       minVer: [12,0,0],
-      maxVer: [12,4,1],
-      include: [9,10,11],
-    },
-    2: {
-      minVer: [12,0,0],
       maxVer: [12,5,5],
-      include: [7,8],
+      include: [7,8,9,10,11],
     }
   },
   daibutsu: {
