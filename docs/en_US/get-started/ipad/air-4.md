@@ -18,17 +18,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
-  !!!include(./docs/en_US/get-started/include/thead)!!!
-  <tbody>
-    !!!include(./docs/en_US/get-started/include/taurine)!!!
-    <tr>
-      <td>14.4</td>
-      <td>!!!include(./docs/en_US/include/latestfw)!!!</td>
-      <td>--</td>
-    </tr>
-  </tbody>
-</table>
+<versionTable soc="14" :minVer="[14,0,0]"/>
 
 ---
 

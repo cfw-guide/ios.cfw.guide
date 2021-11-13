@@ -19,32 +19,7 @@ Your device version can be found in the Settings application in `General` -> `Ab
 
 ## Version Table
 
-<table>
-  !!!include(./docs/en_US/get-started/include/thead)!!!
-  <tbody>
-    <tr>
-      <td>6.0.1</td>
-      <td>6.1.2</td>
-      <td>Coming Soon</td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/p0sixspwn)!!!
-    !!!include(./docs/en_US/get-started/include/evasi0n7)!!!
-    !!!include(./docs/en_US/get-started/include/pangu7)!!!
-    <tr>
-      <td>8.0</td>
-      <td>8.4</td>
-      <td>Coming Soon</td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/daibutsu)!!!
-    <tr>
-      <td>9.0</td>
-      <td>9.0.2</td>
-      <td>Coming Soon</td>
-    </tr>
-    !!!include(./docs/en_US/get-started/include/homedepot)!!!
-    !!!include(./docs/en_US/get-started/include/phoenix)!!!
-  </tbody>
-</table>
+<versionTable soc="5" :minVer="[6,0,1]" :maxVer="[9,3,6]"/>
 
 ---
 
