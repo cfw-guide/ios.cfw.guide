@@ -110,6 +110,15 @@ var jailbreak = {
       include: [8,9,10,11,12,13],
     }
   },
+  odysseyrain_a9x: {
+    text: "Installing Odysseyra1n (A9X)",
+    url: "/installing-odysseyra1n-a9x/",
+    0: {
+      minVer: [14,5,0],
+      maxVer: [14,8,1],
+      include: ['9x'],
+    }
+  },
   odysseyrain: {
     text: "Installing Odysseyra1n",
     url: "/installing-odysseyra1n/",
@@ -587,10 +596,14 @@ function getJailbreak(ver, property) {
     var maxVer = [0,0,0];
     for (var index in jailbreak[jb]) {
       if (!jailbreak[jb][index].hasOwnProperty('include')) continue;
-      const soc = parseInt(props.soc);
-      if (jailbreak[jb][index].include.includes(soc)) {
-        var minVer = jailbreak[jb][index].minVer;
-        var maxVer = jailbreak[jb][index].maxVer;
+      const soc = [parseInt(props.soc), props.soc + 'x'];
+      var loop = 1;
+      if (props.x) loop = 2;
+      for (var i = 0; i < loop; i++) {
+        if (jailbreak[jb][index].include.includes(soc[i])) {
+          var minVer = jailbreak[jb][index].minVer;
+          var maxVer = jailbreak[jb][index].maxVer;
+        }
       }
     }
     if ((ver >= minVer) && (ver <= maxVer))
