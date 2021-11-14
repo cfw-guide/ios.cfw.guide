@@ -11,15 +11,11 @@ soc: A9X
 
 ## Required Reading
 
-Different firmware versions will require different steps to jailbreak your iOS device. This page will help you find where to start.
-
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 9.2 to 9.3.3" row includes version 9.2, version 9.3.3, and all versions in-between.
-
-Your device version can be found in the Settings application in `General` -> `About`.
+<readingTable deviceOS="iPadOS" minVer="9.2" maxVer="9.3.3"/>
 
 ## Version Table
 
-<versionTable soc="9" :x="true" :minVer="[9,1,0]"/>
+<versionTable soc="9" :x="true" minVer="9.1"/>
 
 ---
 
