@@ -170,7 +170,7 @@ var jailbreak = {
     0: {
       minVer: [14,0,0],
       maxVer: [14,3,0],
-      include: [9,10,11,12,13,14],
+      include: [8,9,10,11,12,13,14],
     }
   },
   unc0ver: {
@@ -483,12 +483,12 @@ const props = defineProps({
     default: false,
   },
   minVer: {
-    type: Number,
-    default: [0,0,0],
+    type: String,
+    default: '0.0.0',
   },
   maxVer: {
-    type: Number,
-    default: [99,99,99],
+    type: String,
+    default: '99.99.99',
   },
   exclude: {
     type: Number,
@@ -523,8 +523,8 @@ function doesIncl(ver) {
 const getTable = computed(() => {
   const column = [15,15,70];
   const header = ['From', 'To', ''];
-  const minVerPos = findVersion(props.minVer);
-  var maxVerPos = findVersion(props.maxVer);
+  const minVerPos = findVersion(stringToVer(props.minVer));
+  var maxVerPos = findVersion(stringToVer(props.maxVer));
   if (!minVerPos) return;
   if (!maxVerPos) maxVerPos = version.length-1;
   
