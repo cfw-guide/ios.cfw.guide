@@ -407,19 +407,20 @@ const exclusion = {
     "10,0,0": 1,
     "10,0,3": 2,
     "10,3,4": 3,
-    "12,4,3": 4,
-    "12,4,4": 5,
-    "12,4,5": 6,
-    "12,4,6": 7,
-    "12,4,7": 8,
-    "12,4,8": 9,
-    "12,4,9": 10,
-    "12,5,0": 11,
-    "12,5,1": 12,
-    "12,5,2": 13,
-    "12,5,3": 14,
-    "12,5,4": 15,
-    "12,5,5": 16,
+    "12,4,2": 4,
+    "12,4,3": 5,
+    "12,4,4": 6,
+    "12,4,5": 7,
+    "12,4,6": 8,
+    "12,4,7": 9,
+    "12,4,8": 10,
+    "12,4,9": 11,
+    "12,5,0": 12,
+    "12,5,1": 13,
+    "12,5,2": 14,
+    "12,5,3": 15,
+    "12,5,4": 16,
+    "12,5,5": 17,
   },
   10: {
     "10,3,4": 0,
@@ -493,15 +494,28 @@ const props = defineProps({
     type: Number,
     default: [],
   },
+  include: {
+    type: Number,
+    default: [],
+  },
 })
 
 function doesExcl(ver) {
-  // Device-specific version exclusions
   if (props.exclude.length < 1) return;
   for (var i = 0; i < props.exclude.length; i++) {
     const verExcl = props.exclude[i];
     const exclBool = JSON.stringify(ver) === JSON.stringify(verExcl);
     if (exclBool) return exclBool;
+  }
+  return false;
+}
+
+function doesIncl(ver) {
+  if (props.include.length < 1) return;
+  for (var i = 0; i < props.include.length; i++) {
+    const verIncl = props.include[i];
+    const inclBool = JSON.stringify(ver) === JSON.stringify(verIncl);
+    if (inclBool) return inclBool;
   }
   return false;
 }
@@ -535,8 +549,11 @@ const getTable = computed(() => {
   for (var i = minVerPos; i <= maxVerPos; i++) {
     // Soc version exclusions
     if (exclusion.hasOwnProperty(props.soc))
-      if (exclusion[props.soc][version[i]] > -1) continue;
+      if (exclusion[props.soc][version[i]] > -1)
+        if (!doesIncl(version[i])) // Device specific version inclusions
+          continue;
       
+    // Device specific version exclusions
     if (doesExcl(version[i])) continue;
     jbMaxVerPos = i;
     
