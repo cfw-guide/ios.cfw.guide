@@ -5,7 +5,7 @@ description: Find out what jailbreaks you can use on your iPhone 3GS
 permalink: /get-started/iphone/3gs
 redirect_from:
   - /iphone-3gs
-soc: Samsung APL0298
+soc: APL0298
 ---
 
 ## Required Reading

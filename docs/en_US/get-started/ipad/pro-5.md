@@ -10,11 +10,11 @@ soc: M1
 
 ## Required Reading
 
-<readingTable deviceOS="iPadOS" minVer="14.5" maxVer="15.1"/>
+<readingTable deviceOS="iPadOS" minVer="14.6" maxVer="15.1"/>
 
 ## Version Table
 
-<versionTable soc="14" :x="true" minVer="14.5"/>
+<versionTable soc="M1" minVer="14.5"/>
 
 ---
 

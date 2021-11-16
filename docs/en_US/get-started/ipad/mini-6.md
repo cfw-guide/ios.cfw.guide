@@ -14,7 +14,7 @@ soc: A15
 
 ## Version Table
 
-<versionTable soc="15" minVer="15"/>
+<versionTable soc="A15" minVer="15"/>
 
 ---
 

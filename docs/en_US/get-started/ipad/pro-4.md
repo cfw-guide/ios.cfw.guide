@@ -14,7 +14,7 @@ soc: A12Z
 
 ## Version Table
 
-<versionTable soc="12" :x="true" minVer="13.4"/>
+<versionTable soc="A12Z" minVer="13.4"/>
 
 ---
 

@@ -12,12 +12,12 @@ var jailbreak = {
     0: {
       minVer: '12',
       maxVer: '12.1.2',
-      include: [12],
+      include: ['A12', 'A12X', 'A12Z'],
     },
     1: {
       minVer: '12',
       maxVer: '12.5.5',
-      include: [7,8,9,10,11],
+      include: ['A7', 'A8', 'A8X', 'A9', 'A9X', 'A10', 'A10X', 'A11'],
     }
   },
   daibutsu: {
@@ -26,7 +26,7 @@ var jailbreak = {
     0: {
       minVer: '8.4.1',
       maxVer: '8.4.1',
-      include: [5],
+      include: ['A5', 'A5X'],
     }
   },
   doubleh3lix: {
@@ -35,7 +35,7 @@ var jailbreak = {
     0: {
       minVer: '10',
       maxVer: '10.3.4',
-      include: [7,8,9],
+      include: ['A7', 'A8', 'A8X', 'A9', 'A9X'],
     }
   },
   electra: {
@@ -44,7 +44,7 @@ var jailbreak = {
     0: {
       minVer: '11',
       maxVer: '11.4.1',
-      include: [7,8,9,10,11],
+      include: ['A7', 'A8', 'A8X', 'A9', 'A9X', 'A10', 'A10X', 'A11'],
     }
   },
   etasonjb: {
@@ -53,7 +53,7 @@ var jailbreak = {
     0: {
       minVer: '8.4.1',
       maxVer: '8.4.1',
-      include: [6],
+      include: ['A6', 'A6X'],
     }
   },
   evasi0n7: {
@@ -62,7 +62,7 @@ var jailbreak = {
     0: {
       minVer: '7',
       maxVer: '7.0.6',
-      include: [4,5,6,7]
+      include: ['A4', 'A5', 'A5X', 'A6', 'A6X', 'A7'],
     }
   },
   h3lix: {
@@ -71,7 +71,7 @@ var jailbreak = {
     0: {
       minVer: '10',
       maxVer: '10.3.4',
-      include: [6],
+      include: ['A6', 'A6X'],
     }
   },
   homedepot: {
@@ -80,7 +80,7 @@ var jailbreak = {
     0: {
       minVer: '9.1',
       maxVer: '9.3.4',
-      include: [5,6],
+      include: ['A5', 'A5X', 'A6', 'A6X'],
     }
   },
   kok3shi: {
@@ -89,7 +89,7 @@ var jailbreak = {
     0: {
       minVer: '9.3.4',
       maxVer: '9.3.5',
-      include: [7,8]
+      include: ['A7', 'A8', 'A8X'],
     }
   },
   meridian: {
@@ -98,7 +98,7 @@ var jailbreak = {
     0: {
       minVer: '10',
       maxVer: '10.3.3',
-      include: [10],
+      include: ['A10', 'A10X'],
     }
   },
   odyssey: {
@@ -107,7 +107,7 @@ var jailbreak = {
     0: {
       minVer: '13',
       maxVer: '13.7',
-      include: [8,9,10,11,12,13],
+      include: ['A8', 'A8X', 'A9', 'A9X', 'A10', 'A10X', 'A11', 'A12', 'A12X', 'A12Z', 'A13'],
     }
   },
   odysseyrain_a9x: {
@@ -116,7 +116,7 @@ var jailbreak = {
     0: {
       minVer: '14.5',
       maxVer: '14.8.1',
-      include: ['9x'],
+      include: ['A9X'],
     }
   },
   odysseyrain: {
@@ -125,7 +125,7 @@ var jailbreak = {
     0: {
       minVer: '14.4',
       maxVer: '14.8.1',
-      include: [7,8,9,10,11],
+      include: ['A8X', 'A9', 'A9X', 'A10', 'A10X', 'A11'],
     }
   },
   p0sixspwn: {
@@ -134,7 +134,7 @@ var jailbreak = {
     0: {
       minVer: '6.1.3',
       maxVer: '6.1.6',
-      include: [3,4,5,6],
+      include: ["S5PC100", 'A4', 'A5', 'A5X', 'A6', 'A6X'],
     }
   },
   pangu7: {
@@ -143,7 +143,7 @@ var jailbreak = {
     0: {
       minVer: '7.1',
       maxVer: '7.1.2',
-      include: [4,5,6,7],
+      include: ['A4', 'A5', 'A5X', 'A6', 'A6X', 'A7'],
     }
   },
   pangu933: {
@@ -152,7 +152,7 @@ var jailbreak = {
     0: {
       minVer: '9.2',
       maxVer: '9.3.3',
-      include: [7,8,9],
+      include: ['A7', 'A8', 'A8X', 'A9', 'A9X'],
     }
   },
   phoenix: {
@@ -161,7 +161,7 @@ var jailbreak = {
     0: {
       minVer: '9.3.5',
       maxVer: '9.3.6',
-      include: [5,6],
+      include: ['A5', 'A5X', 'A6', 'A6X'],
     }
   },
   taurine: {
@@ -170,7 +170,7 @@ var jailbreak = {
     0: {
       minVer: '14',
       maxVer: '14.3',
-      include: [8,9,10,11,12,13,14],
+      include: ['A8', 'A8X', 'A9', 'A9X', 'A10', 'A10X', 'A11', 'A12', 'A12X', 'A12Z', 'A13', 'A14'],
     }
   },
   unc0ver: {
@@ -179,7 +179,7 @@ var jailbreak = {
     0: {
       minVer: '12.1.3',
       maxVer: '12.4.1',
-      include: [12],
+      include: ['A12', 'A12X', 'A12Z'],
     }
   },
   unc0ver_fugu14: {
@@ -188,7 +188,7 @@ var jailbreak = {
     0: {
       minVer: '14.4',
       maxVer: '14.5.1',
-      include: [12,13,14],
+      include: ['A12', 'A12X', 'A12Z', 'A13', 'A14', 'M1'],
     }
   },
   pangu9: {
@@ -199,7 +199,7 @@ var jailbreak = {
     0: {
       minVer: '9',
       maxVer: '9.1',
-      include: [7,8,9],
+      include: ['A7', 'A8', 'A8X', 'A9', 'A9X'],
     }
   },
   evasi0n: {
@@ -210,7 +210,7 @@ var jailbreak = {
     0: {
       minVer: '6',
       maxVer: '6.1.2',
-      include: [5,6],
+      include: ["A5", 'A5X', 'A6', 'A6X'],
     }
   },
   redsn0w: {
@@ -221,7 +221,7 @@ var jailbreak = {
     0: {
       minVer: '5',
       maxVer: '5.1.1',
-      include: [5],
+      include: ['A5', 'A5X'],
     }
   },
   taig: {
@@ -232,7 +232,7 @@ var jailbreak = {
     0: {
       minVer: '8',
       maxVer: '8.4',
-      include: [5,6,7,8],
+      include: ['A5', 'A5X', 'A6', 'A6X', 'A7', 'A8', 'A8X'],
     }
   }
 };
@@ -621,14 +621,10 @@ function getJailbreak(ver, property) {
     var maxVer = [0,0,0];
     for (var index in jailbreak[jb]) {
       if (!jailbreak[jb][index].hasOwnProperty('include')) continue;
-      const soc = [parseInt(props.soc), props.soc + 'x'];
-      var loop = 1;
-      if (props.x) loop = 2;
-      for (var i = 0; i < loop; i++) {
-        if (jailbreak[jb][index].include.includes(soc[i])) {
-          var minVer = stringToVer(jailbreak[jb][index].minVer);
-          var maxVer = stringToVer(jailbreak[jb][index].maxVer);
-        }
+      const soc = props.soc;
+      if (jailbreak[jb][index].include.includes(soc)) {
+        var minVer = stringToVer(jailbreak[jb][index].minVer);
+        var maxVer = stringToVer(jailbreak[jb][index].maxVer);
       }
     }
     if ((ver >= minVer) && (ver <= maxVer))

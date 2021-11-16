@@ -15,7 +15,7 @@ soc: A9X
 
 ## Version Table
 
-<versionTable soc="9" :x="true" minVer="9.1"/>
+<versionTable soc="A9X" minVer="9.1"/>
 
 ---
 

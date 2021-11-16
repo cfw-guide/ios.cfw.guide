@@ -15,7 +15,7 @@ soc: A5
 
 ## Version Table
 
-<versionTable soc="5" minVer="6.0.1" maxVer="9.3.6"/>
+<versionTable soc="A5" minVer="6.0.1" maxVer="9.3.6"/>
 
 ---
 
