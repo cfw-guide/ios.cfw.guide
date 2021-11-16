@@ -15,7 +15,7 @@ soc: A7
 
 ## Version Table
 
-<versionTable soc="7" minVer="7.0.3" maxVer="12.5.5"/>
+<versionTable soc="A7" minVer="7.0.3" maxVer="12.5.5"/>
 
 ---
 
