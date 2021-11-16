@@ -182,6 +182,15 @@ var jailbreak = {
       include: [12],
     }
   },
+  unc0ver_fugu14: {
+    text: "Installing unc0ver (Fugu14)",
+    url: "/installing-unc0ver-fugu14/",
+    0: {
+      minVer: [14,4,0],
+      maxVer: [14,5,1],
+      include: [12,13,14],
+    }
+  },
   pangu9: {
     text: "Pangu9",
     url: "https://web.archive.org/web/20170702115349/http://en.9.pangu.io/",
