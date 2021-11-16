@@ -563,6 +563,13 @@ const version = [
 ]
 
 const commonExcl = {
+  ios6: {
+    '6.0.2': 0,
+    '6.1.1': 1,
+    '6.1.4': 2,
+    '6.1.5': 3,
+    '6.1.6': 4,
+  },
   ios9: {
     "9.3.6": 0,
   },
@@ -590,11 +597,19 @@ const commonExcl = {
 }
 
 const exclusion = {
+  'A5': {
+    ...commonExcl.ios6,
+  },
+  'A5X': {
+    ...commonExcl.ios6,
+  },
   'A6': {
+    ...commonExcl.ios6,
     ...commonExcl.ios9,
     ...commonExcl.ios10,
   },
   'A6X': {
+    ...commonExcl.ios6,
     ...commonExcl.ios9,
     ...commonExcl.ios10,
   },
