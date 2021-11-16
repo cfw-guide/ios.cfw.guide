@@ -55,7 +55,7 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 1. Near the end of the text, you should see the line `Set nonce to [generator]`
  
 ### On Computer 
-1. Connect your iDevice to your compjuter
+1. Connect your iDevice to your computer
 1. Make sure that your computer is trusted by your device
     - Optionally, you can create a full backup of your device through iTunes or Finder
 1. Open FutureRestoreGUI on your computer
