@@ -181,12 +181,13 @@ var jailbreak = {
       maxVer: [12,4,1],
       include: [12],
     }
-  unc0ver-fugu14: {
+  },
+  unc0ver_fugu14: {
     text: "Installing unc0ver (Fugu14)",
     url: "/installing-unc0ver-fugu14/",
     0: {
-      minVer: [14.4.0],
-      maxVer: [14.5.1],
+      minVer: [14,4,0],
+      maxVer: [14,5,1],
       include: [12,13,14],
     }
   },
