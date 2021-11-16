@@ -472,6 +472,19 @@ export const en: SidebarConfig = {
     troubleshooting,
   ],
   
+  '/installing-unc0ver-fugu14/': [
+    getStarted,
+    {
+      text: 'unc0ver (Fugu14)',
+      children: [
+        '/installing-unc0ver-fugu14/',
+        '/installing-unc0ver-fugu14/using-cydia/',
+      ],
+    },
+    guides,
+    troubleshooting,
+  ],
+  
   '/installing-electra/': [
     getStarted,
     {

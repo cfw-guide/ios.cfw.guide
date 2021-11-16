@@ -10,7 +10,7 @@ redirect_from:
   - /uo-fugu14
 ---
 
-unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
+unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires an app to re-apply the exploit after a reboot.
 
 The Fugu14 method of unc0ver supports A12+ devices on iOS 14.4 to 14.5.1
 
@@ -73,5 +73,5 @@ If you wish to use a more modern package manager, continue to [Installing Sileo]
 :::
 
 ::: tip
-To learn how to use Cydia, continue to [Using Cydia](using-cydia)
+To learn how to use Cydia, continue to [Using Cydia](/using-cydia)
 :::
