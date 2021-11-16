@@ -10,13 +10,13 @@ var jailbreak = {
     text: "Installing Chimera",
     url: "/installing-chimera/",
     0: {
-      minVer: [12,0,0],
-      maxVer: [12,1,2],
+      minVer: '12',
+      maxVer: '12.1.2',
       include: [12],
     },
     1: {
-      minVer: [12,0,0],
-      maxVer: [12,5,5],
+      minVer: '12',
+      maxVer: '12.5.5',
       include: [7,8,9,10,11],
     }
   },
@@ -24,8 +24,8 @@ var jailbreak = {
     text: "Installing Daibutsu",
     url: "/installing-daibutsu/",
     0: {
-      minVer: [8,4,1],
-      maxVer: [8,4,1],
+      minVer: '8.4.1',
+      maxVer: '8.4.1',
       include: [5],
     }
   },
@@ -33,8 +33,8 @@ var jailbreak = {
     text: "Installing doubleh3lix",
     url: "/installing-doubleh3lix/",
     0: {
-      minVer: [10,0,0],
-      maxVer: [10,3,4],
+      minVer: '10',
+      maxVer: '10.3.4',
       include: [7,8,9],
     }
   },
@@ -42,8 +42,8 @@ var jailbreak = {
     text: "Installing Electra",
     url: "/installing-electra/",
     0: {
-      minVer: [11,0,0],
-      maxVer: [11,4,1],
+      minVer: '11',
+      maxVer: '11.4.1',
       include: [7,8,9,10,11],
     }
   },
@@ -51,8 +51,8 @@ var jailbreak = {
     text: "Installing EtasonJB",
     url: "/installing-etasonjb/",
     0: {
-      minVer: [8,4,1],
-      maxVer: [8,4,1],
+      minVer: '8.4.1',
+      maxVer: '8.4.1',
       include: [6],
     }
   },
@@ -60,8 +60,8 @@ var jailbreak = {
     text: "Installing Evasi0n7",
     url: "/installing-evasi0n7/",
     0: {
-      minVer: [7,0,0],
-      maxVer: [7,0,6],
+      minVer: '7',
+      maxVer: '7.0.6',
       include: [4,5,6,7]
     }
   },
@@ -69,8 +69,8 @@ var jailbreak = {
     text: "Installing h3lix",
     url: "/installing-h3lix/",
     0: {
-      minVer: [10,0,0],
-      maxVer: [10,3,4],
+      minVer: '10',
+      maxVer: '10.3.4',
       include: [6],
     }
   },
@@ -78,8 +78,8 @@ var jailbreak = {
     text: "Installing HomeDepot",
     url: "/installing-homedepot/",
     0: {
-      minVer: [9,1,0],
-      maxVer: [9,3,4],
+      minVer: '9.1',
+      maxVer: '9.3.4',
       include: [5,6],
     }
   },
@@ -87,8 +87,8 @@ var jailbreak = {
     text: "Installing Kok3shi",
     url: "/installing-kok3shi/",
     0: {
-      minVer: [9,3,4],
-      maxVer: [9,3,5],
+      minVer: '9.3.4',
+      maxVer: '9.3.5',
       include: [7,8]
     }
   },
@@ -96,8 +96,8 @@ var jailbreak = {
     text: "Using Meridian",
     url: "/installing-meridian/",
     0: {
-      minVer: [10,0,0],
-      maxVer: [10,3,3],
+      minVer: '10',
+      maxVer: '10.3.3',
       include: [10],
     }
   },
@@ -105,8 +105,8 @@ var jailbreak = {
     text: "Installing Odyssey",
     url: "/installing-odyssey/",
     0: {
-      minVer: [13,0,0],
-      maxVer: [13,7,0],
+      minVer: '13',
+      maxVer: '13.7',
       include: [8,9,10,11,12,13],
     }
   },
@@ -114,8 +114,8 @@ var jailbreak = {
     text: "Installing Odysseyra1n (A9X)",
     url: "/installing-odysseyra1n-a9x/",
     0: {
-      minVer: [14,5,0],
-      maxVer: [14,8,1],
+      minVer: '14.5',
+      maxVer: '14.8.1',
       include: ['9x'],
     }
   },
@@ -123,8 +123,8 @@ var jailbreak = {
     text: "Installing Odysseyra1n",
     url: "/installing-odysseyra1n/",
     0: {
-      minVer: [14,4,0],
-      maxVer: [14,8,1],
+      minVer: '14.4',
+      maxVer: '14.8.1',
       include: [7,8,9,10,11],
     }
   },
@@ -132,8 +132,8 @@ var jailbreak = {
     text: "Installing p0sixspwn",
     url: "/installing-p0sixspwn/",
     0: {
-      minVer: [6,1,3],
-      maxVer: [6,1,6],
+      minVer: '6.1.3',
+      maxVer: '6.1.6',
       include: [3,4,5,6],
     }
   },
@@ -141,8 +141,8 @@ var jailbreak = {
     text: "Installing Pangu7",
     url: "/installing-pangu7/",
     0: {
-      minVer: [7,1,0],
-      maxVer: [7,1,2],
+      minVer: '7.1',
+      maxVer: '7.1.2',
       include: [4,5,6,7],
     }
   },
@@ -150,8 +150,8 @@ var jailbreak = {
     text: "Installing Pangu933",
     url: "/installing-pangu933/",
     0: {
-      minVer: [9,2,0],
-      maxVer: [9,3,3],
+      minVer: '9.2',
+      maxVer: '9.3.3',
       include: [7,8,9],
     }
   },
@@ -159,8 +159,8 @@ var jailbreak = {
     text: "Installing Phœnix",
     url: "/installing-phoenix/",
     0: {
-      minVer: [9,3,5],
-      maxVer: [9,3,6],
+      minVer: '9.3.5',
+      maxVer: '9.3.6',
       include: [5,6],
     }
   },
@@ -168,8 +168,8 @@ var jailbreak = {
     text: "Installing Taurine",
     url: "/installing-taurine/",
     0: {
-      minVer: [14,0,0],
-      maxVer: [14,3,0],
+      minVer: '14',
+      maxVer: '14.3',
       include: [8,9,10,11,12,13,14],
     }
   },
@@ -177,8 +177,8 @@ var jailbreak = {
     text: "Installing unc0ver",
     url: "/installing-unc0ver/",
     0: {
-      minVer: [12,1,3],
-      maxVer: [12,4,1],
+      minVer: '12.1.3',
+      maxVer: '12.4.1',
       include: [12],
     }
   },
@@ -186,8 +186,8 @@ var jailbreak = {
     text: "Installing unc0ver (Fugu14)",
     url: "/installing-unc0ver-fugu14/",
     0: {
-      minVer: [14,4,0],
-      maxVer: [14,5,1],
+      minVer: '14.4',
+      maxVer: '14.5.1',
       include: [12,13,14],
     }
   },
@@ -197,8 +197,8 @@ var jailbreak = {
     target: '_blank',
     icon: '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>',
     0: {
-      minVer: [9,0,0],
-      maxVer: [9,1,0],
+      minVer: '9',
+      maxVer: '9.1',
       include: [7,8,9],
     }
   },
@@ -208,8 +208,8 @@ var jailbreak = {
     target: '_blank',
     icon: '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>',
     0: {
-      minVer: [6,0,0],
-      maxVer: [6,1,2],
+      minVer: '6',
+      maxVer: '6.1.2',
       include: [5,6],
     }
   },
@@ -219,8 +219,8 @@ var jailbreak = {
     target: '_blank',
     icon: '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>',
     0: {
-      minVer: [5,0,0],
-      maxVer: [5,1,1],
+      minVer: '5',
+      maxVer: '5.1.1',
       include: [5],
     }
   },
@@ -230,8 +230,8 @@ var jailbreak = {
     target: '_blank',
     icon: '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>',
     0: {
-      minVer: [8,0,0],
-      maxVer: [8,4,0],
+      minVer: '8',
+      maxVer: '8.4',
       include: [5,6,7,8],
     }
   }
@@ -626,8 +626,8 @@ function getJailbreak(ver, property) {
       if (props.x) loop = 2;
       for (var i = 0; i < loop; i++) {
         if (jailbreak[jb][index].include.includes(soc[i])) {
-          var minVer = jailbreak[jb][index].minVer;
-          var maxVer = jailbreak[jb][index].maxVer;
+          var minVer = stringToVer(jailbreak[jb][index].minVer);
+          var maxVer = stringToVer(jailbreak[jb][index].maxVer);
         }
       }
     }
