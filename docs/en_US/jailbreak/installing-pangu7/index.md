@@ -50,7 +50,6 @@ You will bootloop if you jailbreak your device while in the dark
 
 ### Downloads
 - Version 1.0-en of [Pangu](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/41UlRSyS) from the Legacy Jailbreak Archives
-- Version 0.3 of the [Pangu untether](http://apt.saurik.com/debs/io.pangu.axe7_0.3_iphoneos-arm.deb)
 
 ### Installing Pangu
 
@@ -69,17 +68,13 @@ You will bootloop if you jailbreak your device while in the dark
 
 1. Unlock your device and open Cydia
 1. Tap `Ignore (Temporary)`
-1. Open the Search tab and search for and install `Filza File Manager`
-1. Once it is installed, open Filza and open the settings by tapping on the cog in the bottom bar
-1. Scroll down and tap on `Enable WebDAV server`
-   - Make a note of URL next to `Listening`, it should look like `http://192.168.0.43:11111` or `http://10.0.0.43:11111`
-1. Navigate to the URL you noted above on the computer you downloaded the pangu untether onto
-2. Navigate to the `/var/mobile` folder in the website
-3.  Click on `Upload` and select the pangu untether deb
-4. On your device, go back into Filza's settings and disable WebDAV server
-5. Navigate to the `/var/mobile` folder in Filza and tap on the pangu deb you upload
-6. Tap on `Install`
-7. Reboot your device
+1. Open the Sources tab
+1. Tap `Edit` then `Add`
+1. Type in `http://cydia.kawaiizenbo.me:8080` and then tap `Add source` 
+1. Tap on the new source `KawaiiZenbo's Cydia repository`
+1. Tap on `System` then `Pangu 7.1-7.1.x Untether` 
+1. Tap `Install` then `Confirm`
+1. Reboot your device once the package is installed
 
 :::
 
