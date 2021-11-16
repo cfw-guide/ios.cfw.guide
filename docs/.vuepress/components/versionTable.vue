@@ -5,6 +5,176 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
+const props = defineProps({
+  soc: {
+    type: String,
+    required: true,
+  },
+  minVer: {
+    type: String,
+    default: '0.0.0',
+  },
+  maxVer: {
+    type: String,
+    default: '99.99.99',
+  },
+  exclude: {
+    type: Number,
+    default: [],
+  },
+  include: {
+    type: Number,
+    default: [],
+  },
+})
+
+function doesExcl(ver) {
+  if (props.exclude.length < 1) return;
+  for (var i = 0; i < props.exclude.length; i++) {
+    const verExcl = props.exclude[i];
+    const exclBool = ver === verExcl;
+    if (exclBool) return exclBool;
+  }
+  return false;
+}
+
+function doesIncl(ver) {
+  if (props.include.length < 1) return;
+  for (var i = 0; i < props.include.length; i++) {
+    const verIncl = props.include[i];
+    const inclBool = ver === verIncl;
+    if (inclBool) return inclBool;
+  }
+  return false;
+}
+
+const getTable = computed(() => {
+  const column = [15,15,70];
+  const header = ['From', 'To', ''];
+  const minVerPos = findVersion(props.minVer);
+  var maxVerPos = findVersion(props.maxVer);
+  if (minVerPos < 0) return;
+  if (maxVerPos < 0) maxVerPos = version.length-1;
+  
+  // Start table
+  var html = '<table>';
+    
+  // Columns
+  html += '<colgroup>';
+  for (var i = 0; i < column.length; i++) html += '<col style="width: ' + column[i] + '%;">';
+  html += '</colgroup>'
+  
+  // Headers
+  html += '<thead><tr>'
+  for (var i = 0; i < header.length; i++) html += '<th>' + header[i] + '</th>';
+  html += '</tr></thead>'
+  
+  // Rows
+  html += '<tbody>';
+  var jbLink;
+  var jbMinVerPos = minVerPos;
+  var jbMaxVerPos = minVerPos;
+  for (var i = minVerPos; i <= maxVerPos; i++) {
+    const v = version[i];
+    
+    // Soc version exclusions
+    if (exclusion.hasOwnProperty(props.soc))
+      if (exclusion[props.soc][v] > -1)
+        if (!doesIncl(v)) // Device specific version inclusions
+          continue;
+      
+    // Device specific version exclusions
+    if (doesExcl(v)) continue;
+    jbMaxVerPos = i;
+    
+    var oldJbLink = jbLink;
+    var oldJbMinVerPos = jbMinVerPos;
+    jbLink = getJailbreakLink(v);
+    if (jbLink == oldJbLink) {
+      var htmlToAdd = '<tr>';
+      htmlToAdd += '<td>' + version[jbMinVerPos] + '</td><td>' + version[jbMaxVerPos] + '</td>';
+      htmlToAdd += '<td>' + jbLink + '</td>'
+      htmlToAdd += '</tr>';
+      continue;
+    }
+    
+    if (htmlToAdd) html += htmlToAdd;
+    
+    jbMinVerPos = i;
+    jbMaxVerPos = i;
+    
+    htmlToAdd = '<tr>';
+    htmlToAdd += '<td>' + version[jbMinVerPos] + '</td><td>' + version[jbMaxVerPos] + '</td>';
+    htmlToAdd += '<td>' + jbLink + '</td>'
+    htmlToAdd += '</tr>';
+  }
+  
+  // Add final row in 
+  html += '<tr>';
+  html += '<td>' + version[jbMinVerPos] + '</td><td>' + version[maxVerPos] + '</td>';
+  html += '<td>' + jbLink + '</td>'
+  html += '</tr>';
+  
+  // Exit table
+  html += '</tbody></table>';
+  return html;
+});
+
+function verToString(ver) {
+  var str = ver[0];
+  if (ver[1] > 0) str += '.' + ver[1];
+  else str += '.0';
+  if (ver[2] > 0) str += '.' + ver[2];
+  return str;
+}
+
+function stringToVer(str) {
+  var ver = [0,0,0];
+  var strArr = str.split('.');
+  if ((strArr.length > 3) || (strArr.length < 1)) return -1;
+  for (var i = 0; i < strArr.length; i++) {
+    ver[i] = parseInt(strArr[i]);
+  }
+  return ver;
+}
+
+function getJailbreak(ver, property) {
+  for (var jb in jailbreak) {
+    var minVer = '0';
+    var maxVer = '0';
+    for (var index in jailbreak[jb]) {
+      if (!jailbreak[jb][index].hasOwnProperty('include')) continue;
+      const soc = props.soc;
+      if (jailbreak[jb][index].include.includes(soc)) {
+        var minVer = jailbreak[jb][index].minVer;
+        var maxVer = jailbreak[jb][index].maxVer;
+      }
+    }
+    if ((ver >= minVer) && (ver <= maxVer))
+      return jailbreak[jb][property]
+  }
+  return null
+}
+
+function getJailbreakLink(ver) {
+  const jb = {
+    text: getJailbreak(ver, 'text'),
+    url: getJailbreak(ver, 'url'),
+    target: getJailbreak(ver, 'target'),
+    icon: getJailbreak(ver, 'icon'),
+  };
+  if (jb.text == null) jb.text = '--';
+  if (jb.url == null) return jb.text;
+  if (jb.icon == null) jb.icon = ''
+  if (jb.target != null) jb.target = 'target="' + jb.target + '"';
+  return '<a href="' + jb.url + '"' + jb.target + '>' + jb.text + '</a>' + jb.icon;
+}
+
+function findVersion(v) {
+  v = verToString(stringToVer(v));
+  return version.indexOf(v);
+}
+
 var jailbreak = {
   chimera: {
     text: "Installing Chimera",
@@ -238,502 +408,237 @@ var jailbreak = {
 };
 
 const version = [
-  [0,0,0],
+  '0.0',
   
-  [5,0,0],
-  [5,0,1],
-  [5,1,0],
-  [5,1,1],
+  '5.0',
+  '5.0.1',
+  '5.1',
+  '5.1.1',
   
-  [6,0,0],
-  [6,0,1],
-  [6,0,2],
-  [6,1,0],
-  [6,1,1],
-  [6,1,2],
-  [6,1,3],
-  [6,1,4],
-  [6,1,5],
-  [6,1,6],
+  '6.0',
+  '6.0.1',
+  '6.0.2',
+  '6.1',
+  '6.1.1',
+  '6.1.2',
+  '6.1.3',
+  '6.1.4',
+  '6.1.5',
+  '6.1.6',
   
-  [7,0,0],
-  [7,0,1],
-  [7,0,2],
-  [7,0,3],
-  [7,0,4],
-  [7,0,5],
-  [7,0,6],
-  [7,1,0],
-  [7,1,1],
-  [7,1,2],
+  '7.0',
+  '7.0.1',
+  '7.0.2',
+  '7.0.3',
+  '7.0.4',
+  '7.0.5',
+  '7.0.6',
+  '7.1',
+  '7.1.1',
+  '7.1.2',
   
-  [8,0,0],
-  [8,0,1],
-  [8,0,2],
-  [8,1,0],
-  [8,1,1],
-  [8,1,2],
-  [8,1,3],
-  [8,2,0],
-  [8,3,0],
-  [8,4,0],
-  [8,4,1],
+  '8.0',
+  '8.0.1',
+  '8.0.2',
+  '8.1',
+  '8.1.1',
+  '8.1.2',
+  '8.1.3',
+  '8.2',
+  '8.3',
+  '8.4',
+  '8.4.1',
   
-  [9,0,0],
-  [9,0,1],
-  [9,0,2],
-  [9,1,0],
-  [9,2,0],
-  [9,2,1],
-  [9,3,0],
-  [9,3,1],
-  [9,3,2],
-  [9,3,3],
-  [9,3,4],
-  [9,3,5],
-  [9,3,6],
+  '9.0',
+  '9.0.1',
+  '9.0.2',
+  '9.1',
+  '9.2',
+  '9.2.1',
+  '9.3',
+  '9.3.1',
+  '9.3.2',
+  '9.3.3',
+  '9.3.4',
+  '9.3.5',
+  '9.3.6',
   
-  [10,0,0],
-  [10,0,1],
-  [10,0,2],
-  [10,0,3],
-  [10,1,0],
-  [10,1,1],
-  [10,2,0],
-  [10,2,1],
-  [10,3,0],
-  [10,3,1],
-  [10,3,2],
-  [10,3,3],
-  [10,3,4],
+  '10.0',
+  '10.0.1',
+  '10.0.2',
+  '10.0.3',
+  '10.1',
+  '10.1.1',
+  '10.2',
+  '10.2.1',
+  '10.3',
+  '10.3.1',
+  '10.3.2',
+  '10.3.3',
+  '10.3.4',
   
-  [11,0,0],
-  [11,0,1],
-  [11,0,2],
-  [11,0,3],
-  [11,1,0],
-  [11,1,1],
-  [11,1,2],
-  [11,2,1],
-  [11,2,2],
-  [11,2,5],
-  [11,2,6],
-  [11,3,0],
-  [11,3,1],
-  [11,4,0],
-  [11,4,1],
+  '11.0',
+  '11.0.1',
+  '11.0.2',
+  '11.0.3',
+  '11.1',
+  '11.1.1',
+  '11.1.2',
+  '11.2.1',
+  '11.2.2',
+  '11.2.5',
+  '11.2.6',
+  '11.3',
+  '11.3.1',
+  '11.4',
+  '11.4.1',
   
-  [12,0,0],
-  [12,0,1],
-  [12,1,0],
-  [12,1,1],
-  [12,1,2],
-  [12,1,3],
-  [12,1,4],
-  [12,2,0],
-  [12,3,0],
-  [12,3,1],
-  [12,3,2],
-  [12,4,0],
-  [12,4,1],
-  [12,4,2],
-  [12,4,3],
-  [12,4,4],
-  [12,4,5],
-  [12,4,6],
-  [12,4,7],
-  [12,4,8],
-  [12,4,9],
-  [12,5,0],
-  [12,5,1],
-  [12,5,2],
-  [12,5,3],
-  [12,5,4],
-  [12,5,5],
+  '12.0',
+  '12.0.1',
+  '12.1',
+  '12.1.1',
+  '12.1.2',
+  '12.1.3',
+  '12.1.4',
+  '12.2',
+  '12.3',
+  '12.3.1',
+  '12.3.2',
+  '12.4',
+  '12.4.1',
+  '12.4.2',
+  '12.4.3',
+  '12.4.4',
+  '12.4.5',
+  '12.4.6',
+  '12.4.7',
+  '12.4.8',
+  '12.4.9',
+  '12.5',
+  '12.5.1',
+  '12.5.2',
+  '12.5.3',
+  '12.5.4',
+  '12.5.5',
   
-  [13,0,0],
-  [13,1,0],
-  [13,1,1],
-  [13,1,2],
-  [13,1,3],
-  [13,2,0],
-  [13,2,1],
-  [13,2,2],
-  [13,2,3],
-  [13,3,0],
-  [13,3,1],
-  [13,4,0],
-  [13,4,1],
-  [13,5,0],
-  [13,5,1],
-  [13,6,0],
-  [13,6,1],
-  [13,7,0],
+  '13.0',
+  '13.1',
+  '13.1.1',
+  '13.1.2',
+  '13.1.3',
+  '13.2',
+  '13.2.1',
+  '13.2.2',
+  '13.2.3',
+  '13.3',
+  '13.3.1',
+  '13.4',
+  '13.4.1',
+  '13.5',
+  '13.5.1',
+  '13.6',
+  '13.6.1',
+  '13.7',
   
-  [14,0,0],
-  [14,0,1],
-  [14,1,0],
-  [14,2,0],
-  [14,3,0],
-  [14,4,0],
-  [14,4,1],
-  [14,4,2],
-  [14,5,0],
-  [14,5,1],
-  [14,6,0],
-  [14,7,0],
-  [14,7,1],
-  [14,8,0],
-  [14,8,1],
+  '14.0',
+  '14.0.1',
+  '14.1',
+  '14.2',
+  '14.3',
+  '14.4',
+  '14.4.1',
+  '14.4.2',
+  '14.5',
+  '14.5.1',
+  '14.6',
+  '14.7',
+  '14.7.1',
+  '14.8',
+  '14.8.1',
   
-  [15,0,0],
-  [15,0,1],
-  [15,0,2],
-  [15,1,0],
+  '15.0',
+  '15.0.1',
+  '15.0.2',
+  '15.1',
 ]
+
+const commonExcl = {
+  ios9: {
+    "9.3.6": 0,
+  },
+  ios10: {
+    "10.0": 0,
+    "10.0.3": 1,
+    "10.3.4": 2,
+  },
+  ios12: {
+    "12.4.2": 0,
+    "12.4.3": 1,
+    "12.4.4": 2,
+    "12.4.5": 3,
+    "12.4.6": 4,
+    "12.4.7": 5,
+    "12.4.8": 6,
+    "12.4.9": 7,
+    "12.5": 8,
+    "12.5.1": 9,
+    "12.5.2": 10,
+    "12.5.3": 11,
+    "12.5.4": 12,
+    "12.5.5": 13,
+  }
+}
 
 const exclusion = {
   'A6': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
   },
   'A6X': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
   },
   'A7': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
   },
   'A8': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
   },
   'A8X': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
   },
   'A9': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
-    "12,4,2": 4,
-    "12,4,3": 5,
-    "12,4,4": 6,
-    "12,4,5": 7,
-    "12,4,6": 8,
-    "12,4,7": 9,
-    "12,4,8": 10,
-    "12,4,9": 11,
-    "12,5,0": 12,
-    "12,5,1": 13,
-    "12,5,2": 14,
-    "12,5,3": 15,
-    "12,5,4": 16,
-    "12,5,5": 17,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
+    ...commonExcl.ios12,
   },
   'A9X': {
-    "9,3,6": 0,
-    "10,0,0": 1,
-    "10,0,3": 2,
-    "10,3,4": 3,
-    "12,4,2": 4,
-    "12,4,3": 5,
-    "12,4,4": 6,
-    "12,4,5": 7,
-    "12,4,6": 8,
-    "12,4,7": 9,
-    "12,4,8": 10,
-    "12,4,9": 11,
-    "12,5,0": 12,
-    "12,5,1": 13,
-    "12,5,2": 14,
-    "12,5,3": 15,
-    "12,5,4": 16,
-    "12,5,5": 17,
+    ...commonExcl.ios9,
+    ...commonExcl.ios10,
+    ...commonExcl.ios12,
   },
   'A10': {
-    "10,3,4": 0,
-    "12,4,2": 1,
-    "12,4,3": 2,
-    "12,4,4": 3,
-    "12,4,5": 4,
-    "12,4,6": 5,
-    "12,4,7": 6,
-    "12,4,8": 7,
-    "12,4,9": 8,
-    "12,5,0": 9,
-    "12,5,1": 10,
-    "12,5,2": 11,
-    "12,5,3": 12,
-    "12,5,4": 13,
-    "12,5,5": 14,
+    "10.3.4": 0,
+      ...commonExcl.ios12,
   },
   'A10X': {
-    "10,3,4": 0,
-    "12,4,2": 1,
-    "12,4,3": 2,
-    "12,4,4": 3,
-    "12,4,5": 4,
-    "12,4,6": 5,
-    "12,4,7": 6,
-    "12,4,8": 7,
-    "12,4,9": 8,
-    "12,5,0": 9,
-    "12,5,1": 10,
-    "12,5,2": 11,
-    "12,5,3": 12,
-    "12,5,4": 13,
-    "12,5,5": 14,
+    "10.3.4": 0,
+      ...commonExcl.ios12,
   },
   'A11': {
-    "12,4,2": 0,
-    "12,4,3": 1,
-    "12,4,4": 2,
-    "12,4,5": 3,
-    "12,4,6": 4,
-    "12,4,7": 5,
-    "12,4,8": 6,
-    "12,4,9": 7,
-    "12,5,0": 8,
-    "12,5,1": 9,
-    "12,5,2": 10,
-    "12,5,3": 11,
-    "12,5,4": 12,
-    "12,5,5": 13,
+    ...commonExcl.ios12,
   },
   'A12': {
-    "12,4,2": 0,
-    "12,4,3": 1,
-    "12,4,4": 2,
-    "12,4,5": 3,
-    "12,4,6": 4,
-    "12,4,7": 5,
-    "12,4,8": 6,
-    "12,4,9": 7,
-    "12,5,0": 8,
-    "12,5,1": 9,
-    "12,5,2": 10,
-    "12,5,3": 11,
-    "12,5,4": 12,
-    "12,5,5": 13,
+    ...commonExcl.ios12,
   },
   'A12X': {
-    "12,4,2": 0,
-    "12,4,3": 1,
-    "12,4,4": 2,
-    "12,4,5": 3,
-    "12,4,6": 4,
-    "12,4,7": 5,
-    "12,4,8": 6,
-    "12,4,9": 7,
-    "12,5,0": 8,
-    "12,5,1": 9,
-    "12,5,2": 10,
-    "12,5,3": 11,
-    "12,5,4": 12,
-    "12,5,5": 13,
+    ...commonExcl.ios12,
   },
   'A12Z': {
-    "12,4,2": 0,
-    "12,4,3": 1,
-    "12,4,4": 2,
-    "12,4,5": 3,
-    "12,4,6": 4,
-    "12,4,7": 5,
-    "12,4,8": 6,
-    "12,4,9": 7,
-    "12,5,0": 8,
-    "12,5,1": 9,
-    "12,5,2": 10,
-    "12,5,3": 11,
-    "12,5,4": 12,
-    "12,5,5": 13,
+    ...commonExcl.ios12,
   },
-}
-
-const props = defineProps({
-  soc: {
-    type: Number,
-    required: true,
-  },
-  x: {
-    type: Boolean,
-    default: false,
-  },
-  minVer: {
-    type: String,
-    default: '0.0.0',
-  },
-  maxVer: {
-    type: String,
-    default: '99.99.99',
-  },
-  exclude: {
-    type: Number,
-    default: [],
-  },
-  include: {
-    type: Number,
-    default: [],
-  },
-})
-
-function doesExcl(ver) {
-  if (props.exclude.length < 1) return;
-  for (var i = 0; i < props.exclude.length; i++) {
-    const verExcl = props.exclude[i];
-    const exclBool = JSON.stringify(ver) === JSON.stringify(verExcl);
-    if (exclBool) return exclBool;
-  }
-  return false;
-}
-
-function doesIncl(ver) {
-  if (props.include.length < 1) return;
-  for (var i = 0; i < props.include.length; i++) {
-    const verIncl = props.include[i];
-    const inclBool = JSON.stringify(ver) === JSON.stringify(verIncl);
-    if (inclBool) return inclBool;
-  }
-  return false;
-}
-
-const getTable = computed(() => {
-  const column = [15,15,70];
-  const header = ['From', 'To', ''];
-  const minVerPos = findVersion(stringToVer(props.minVer));
-  var maxVerPos = findVersion(stringToVer(props.maxVer));
-  if (!minVerPos) return;
-  if (!maxVerPos) maxVerPos = version.length-1;
-  
-  // Start table
-  var html = '<table>';
-    
-  // Columns
-  html += '<colgroup>';
-  for (var i = 0; i < column.length; i++) html += '<col style="width: ' + column[i] + '%;">';
-  html += '</colgroup>'
-  
-  // Headers
-  html += '<thead><tr>'
-  for (var i = 0; i < header.length; i++) html += '<th>' + header[i] + '</th>';
-  html += '</tr></thead>'
-  
-  // Rows
-  html += '<tbody>';
-  var jbLink;
-  var jbMinVerPos = minVerPos;
-  var jbMaxVerPos = minVerPos;
-  for (var i = minVerPos; i <= maxVerPos; i++) {
-    // Soc version exclusions
-    if (exclusion.hasOwnProperty(props.soc))
-      if (exclusion[props.soc][version[i]] > -1)
-        if (!doesIncl(version[i])) // Device specific version inclusions
-          continue;
-      
-    // Device specific version exclusions
-    if (doesExcl(version[i])) continue;
-    jbMaxVerPos = i;
-    
-    var oldJbLink = jbLink;
-    var oldJbMinVerPos = jbMinVerPos;
-    jbLink = getJailbreakLink(version[i]);
-    if (jbLink == oldJbLink) {
-      var htmlToAdd = '<tr>';
-      htmlToAdd += '<td>' + verToString(version[jbMinVerPos]) + '</td><td>' + verToString(version[jbMaxVerPos]) + '</td>';
-      htmlToAdd += '<td>' + jbLink + '</td>'
-      htmlToAdd += '</tr>';
-      continue;
-    }
-    
-    if (htmlToAdd) html += htmlToAdd;
-    
-    jbMinVerPos = i;
-    jbMaxVerPos = i;
-    
-    htmlToAdd = '<tr>';
-    htmlToAdd += '<td>' + verToString(version[jbMinVerPos]) + '</td><td>' + verToString(version[jbMaxVerPos]) + '</td>';
-    htmlToAdd += '<td>' + jbLink + '</td>'
-    htmlToAdd += '</tr>';
-  }
-  
-  // Add final row in 
-  html += '<tr>';
-  html += '<td>' + verToString(version[jbMinVerPos]) + '</td><td>' + verToString(version[maxVerPos]) + '</td>';
-  html += '<td>' + jbLink + '</td>'
-  html += '</tr>';
-  
-  // Exit table
-  html += '</tbody></table>';
-  return html;
-});
-
-function verToString(ver) {
-  var str = ver[0] + '.' + ver[1];
-  if (ver[2] > 0) str += '.' + ver[2];
-  return str;
-}
-
-function stringToVer(str) {
-  var ver = [0,0,0];
-  var strArr = str.split('.');
-  if ((strArr.length > 3) || (strArr.length < 1)) return -1;
-  for (var i = 0; i < strArr.length; i++) {
-    ver[i] = strArr[i];
-  }
-  return ver;
-}
-
-function getJailbreak(ver, property) {
-  for (var jb in jailbreak) {
-    var minVer = [0,0,0];
-    var maxVer = [0,0,0];
-    for (var index in jailbreak[jb]) {
-      if (!jailbreak[jb][index].hasOwnProperty('include')) continue;
-      const soc = props.soc;
-      if (jailbreak[jb][index].include.includes(soc)) {
-        var minVer = stringToVer(jailbreak[jb][index].minVer);
-        var maxVer = stringToVer(jailbreak[jb][index].maxVer);
-      }
-    }
-    if ((ver >= minVer) && (ver <= maxVer))
-      return jailbreak[jb][property]
-  }
-  return null
-}
-
-function getJailbreakLink(ver) {
-  const jb = {
-    text: getJailbreak(ver, 'text'),
-    url: getJailbreak(ver, 'url'),
-    target: getJailbreak(ver, 'target'),
-    icon: getJailbreak(ver, 'icon'),
-  };
-  if (jb.text == null) jb.text = '--';
-  if (jb.url == null) return jb.text;
-  if (jb.icon == null) jb.icon = ''
-  if (jb.target != null) jb.target = 'target="' + jb.target + '"';
-  return '<a href="' + jb.url + '"' + jb.target + '>' + jb.text + '</a>' + jb.icon;
-}
-
-var verHash = {};
-for (var i = 0; i < version.length; i++) {
-  verHash[version[i]] = i;
-}
-
-function findVersion(v) {
-  return parseInt(verHash[v]);
 }
 </script>
