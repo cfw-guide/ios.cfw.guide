@@ -560,6 +560,7 @@ const version = [
   '15.0.1',
   '15.0.2',
   '15.1',
+  '15.1.1',
 ]
 
 const commonExcl = {
