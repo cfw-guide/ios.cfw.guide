@@ -111,7 +111,7 @@ const getTable = computed(() => {
   
   // Add final row in 
   html += '<tr>';
-  html += '<td>' + version[jbMinVerPos] + '</td><td>' + version[maxVerPos] + '</td>';
+  html += '<td>' + version[jbMinVerPos] + '</td><td>' + version[jbMaxVerPos] + '</td>';
   html += '<td>' + jbLink + '</td>'
   html += '</tr>';
   
@@ -594,6 +594,9 @@ const commonExcl = {
     "12.5.3": 11,
     "12.5.4": 12,
     "12.5.5": 13,
+  },
+  ios15: {
+    "15.1.1": 0,
   }
 }
 
@@ -625,36 +628,57 @@ const exclusion = {
   'A8X': {
     ...commonExcl.ios9,
     ...commonExcl.ios10,
+    ...commonExcl.ios15,
   },
   'A9': {
     ...commonExcl.ios9,
     ...commonExcl.ios10,
     ...commonExcl.ios12,
+    ...commonExcl.ios15,
   },
   'A9X': {
     ...commonExcl.ios9,
     ...commonExcl.ios10,
     ...commonExcl.ios12,
+    ...commonExcl.ios15,
   },
   'A10': {
     "10.3.4": 0,
       ...commonExcl.ios12,
+      ...commonExcl.ios15,
   },
   'A10X': {
     "10.3.4": 0,
       ...commonExcl.ios12,
+      ...commonExcl.ios15,
   },
   'A11': {
     ...commonExcl.ios12,
+    ...commonExcl.ios15,
   },
   'A12': {
     ...commonExcl.ios12,
+    ...commonExcl.ios15,
   },
   'A12X': {
     ...commonExcl.ios12,
+    ...commonExcl.ios15,
   },
   'A12Z': {
     ...commonExcl.ios12,
+    ...commonExcl.ios15,
+  },
+  'A13': {
+    ...commonExcl.ios15,
+  },
+  'M1': {
+    ...commonExcl.ios15,
+  },
+  'A14': {
+    ...commonExcl.ios15,
+  },
+  'A15': {
+    ...commonExcl.ios15,
   },
 }
 </script>
