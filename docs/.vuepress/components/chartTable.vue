@@ -13,7 +13,7 @@
       </tr>
     </thead>
     <tbody>
-        <template v-for="majFw in iosVer"><template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
+        <template v-for="majFw in riosVer"><template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
           <tr v-if="v.devices.includes(d) || showAll">
             <td v-text="v.ver"/>
             <td v-text="v.build"/>
@@ -47,7 +47,7 @@ if (props.device == 'all') showAll = true;
 
 const deviceList = computed(() => require('./json/deviceList'));
 const jbList = require('./json/jailbreak');
-const iosVer = computed(() => { return {"0": require('./json/ios/1'), "1": require('./json/ios/2'),"2": require('./json/ios/3'),"3": require('./json/ios/4'),"4": require('./json/ios/5'),"5": require('./json/ios/6'),"6": require('./json/ios/7'),"7": require('./json/ios/8'),"8": require('./json/ios/9'),"9": require('./json/ios/10'),"10": require('./json/ios/11'),"11": require('./json/ios/12'),"12": require('./json/ios/13'),"13": require('./json/ios/14'),"14": require('./json/ios/15'),}});
+var iosVer = {"0": require('./json/ios/1'), "1": require('./json/ios/2'),"2": require('./json/ios/3'),"3": require('./json/ios/4'),"4": require('./json/ios/5'),"5": require('./json/ios/6'),"6": require('./json/ios/7'),"7": require('./json/ios/8'),"8": require('./json/ios/9'),"9": require('./json/ios/10'),"10": require('./json/ios/11'),"11": require('./json/ios/12'),"12": require('./json/ios/13'),"13": require('./json/ios/14'),"14": require('./json/ios/15'),};
 
 function getTools(ver, device) {
   var toolArr = [];
@@ -62,6 +62,20 @@ function getTools(ver, device) {
   }
   return toolArr;
 }
+
+function reverseObj(obj) {
+  var ret = {}
+  const objCount = Object.keys(obj).length;
+  for (var i = objCount - 1; i >= 0; i--) {
+    ret[objCount-1-i] = obj[i];
+  }
+  return ret;
+}
+
+var riosVer = reverseObj(iosVer);
+for (var a in riosVer) riosVer[a] = reverseObj(riosVer[a]);
+for (var a in riosVer) for (var b in riosVer[a]) riosVer[a][b] = reverseObj(riosVer[a][b]);
+for (var a in riosVer) for (var b in riosVer[a]) for (var c in riosVer[a][b]) riosVer[a][b][c] = reverseObj(riosVer[a][b][c]);
 
 const props = defineProps({
   device: { type: String, },
