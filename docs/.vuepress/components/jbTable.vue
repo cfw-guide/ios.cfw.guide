@@ -77,32 +77,34 @@ for (var d in jbDeviceList) getFwList(jbDeviceList[d]);
 function getFwList(device) {
   var ret = [];
   for (var compatList in jbList[jb]) {
-    if (!jbList[jb][compatList].hasOwnProperty('firmwares')) continue;
+    if (!(jbList[jb][compatList].hasOwnProperty('firmwares') || jbList[jb][compatList].hasOwnProperty('devices'))) continue
     const fwArr = jbList[jb][compatList].firmwares;
     for (var i = 0; i < fwArr.length; i++) {
       if (getVer(fwArr[i]).devices.includes(device))
-        ret.push(fwArr[i])
+        if (!ret.includes(fwArr[i]))
+          ret.push(fwArr[i])
     }
   }
   for (var i = 0; i < fwLists.length; i++) {
     var newArr = false;
-    if (fwLists[i].hasOwnProperty('firmwares') && fwLists[i].hasOwnProperty('devices')) {
-      for (var j in fwLists[i].firmwares[0]) {
-        if (fwLists[i].firmwares[0][j] != ret[j]) {
-          newArr = true;
-          continue;
-        }
-      }
-      if (!newArr) {
-        fwLists[i].devices.push(device);
-        return;
+    if (!(fwLists[i].hasOwnProperty('firmwares') || fwLists[i].hasOwnProperty('devices'))) continue
+    for (var j in fwLists[i].firmwares[0]) {
+      if (fwLists[i].firmwares[0][j] != ret[j]) {
+        newArr = true;
+        continue;
       }
     }
+    if (!newArr) {
+      fwLists[i].devices.push(device);
+      return;
+    }
   }
-  fwLists.push({
+  const obj = {
     devices: [device],
     firmwares: [ret]
-  })
+  }
+  fwLists.push(obj)
+  return fwLists
 }
 
 const props = defineProps({
