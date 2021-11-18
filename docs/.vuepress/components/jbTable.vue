@@ -1,7 +1,7 @@
 <template>
+  <h2>Compatibility Listing</h2>
   <template v-for="compatList in jbList[jb]">
     <template v-if="compatList.hasOwnProperty('firmwares') || compatList.hasOwnProperty('devices')">
-      <h2>Compatibility Listing</h2>
       <h3>Devices</h3>
       <ul>
         <li v-for="device in compatList.devices">
