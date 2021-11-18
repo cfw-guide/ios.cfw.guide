@@ -2,6 +2,7 @@
   "checkra1n": {
     "toolName": "checkra1n",
     "toolLink": "https://checkra.in/",
+    "guideLink": "/chart/checkra1n",
     "0": {
       "firmwares": [
         "16A366",
@@ -114,6 +115,7 @@
   "Taurine": {
     "toolName": "Taurine",
     "toolLink": "https://taurine.app/",
+    "guideLink": "/chart/taurine",
     "0": {
       "firmwares": [
         "18A373",
@@ -183,6 +185,7 @@
   "unc0ver": {
     "toolName": "unc0ver",
     "toolLink": "https://unc0ver.dev/",
+    "guideLink": "/chart/unc0ver",
     "0": {
       "firmwares": [
         "15A372",
@@ -414,6 +417,7 @@
   "Fugu14": {
     "toolName": "Fugu14",
     "toolLink": "https://github.com/LinusHenze/Fugu14",
+    "guideLink": "/chart/fugu14",
     "0": {
       "firmwares": [
         "18D52",
@@ -471,6 +475,7 @@
   "Odyssey": {
     "toolName": "Odyssey",
     "toolLink": "https://theodyssey.dev/",
+    "guideLink": "/chart/odyssey",
     "0": {
       "firmwares": [
         "16A577",
@@ -559,6 +564,7 @@
   "Fugu": {
     "toolName": "Fugu",
     "toolLink": "https://github.com/LinusHenze/Fugu",
+    "guideLink": "/chart/fugu",
     "0": {
       "firmwares": [
         "16A577",
@@ -597,6 +603,7 @@
   "Chimera": {
     "toolName": "Chimera",
     "toolLink": "https://chimera.coolstar.org/",
+    "guideLink": "/chart/chimera",
     "0": {
       "firmwares": [
         "16A366",
@@ -721,6 +728,7 @@
   "Electra": {
     "toolName": "Electra",
     "toolLink": "https://coolstar.org/electra/",
+    "guideLink": "/chart/electra",
     "0": {
       "firmwares": [
         "15A372",
@@ -796,11 +804,13 @@
     "0": {
       "firmwares": [
         "17B90"
-      ]
+      ],
+      "devices": []
     }
   },
   "unc0ver dark": {
     "toolName": "unc0ver dark",
+    "guideLink": "/chart/unc0ver-dark",
     "0": {
       "firmwares": [
         "15A372",
@@ -881,6 +891,7 @@
   },
   "rootlessJB4": {
     "toolName": "rootlessJB4",
+    "guideLink": "/chart/rootlessJB4",
     "0": {
       "firmwares": [
         "16A366",
@@ -941,6 +952,7 @@
   },
   "LiberiOS": {
     "toolName": "LiberiOS",
+    "guideLink": "/chart/liberios",
     "0": {
       "firmwares": [
         "15A372",
@@ -1013,6 +1025,7 @@
   },
   "to.panga": {
     "toolName": "to.panga",
+    "guideLink": "/chart/to-panga",
     "0": {
       "firmwares": [
         "15A372",
