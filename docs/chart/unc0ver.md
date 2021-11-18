@@ -1,5 +1,3 @@
 ---
 sidebar: false
 ---
-
-<chartTable/>

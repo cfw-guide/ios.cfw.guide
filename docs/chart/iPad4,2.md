@@ -1,4 +1,5 @@
 ---
+title: iPad Air (Cellular)
 sidebar: false
 ---
 
