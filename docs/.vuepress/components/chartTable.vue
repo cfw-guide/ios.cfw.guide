@@ -1,11 +1,18 @@
 <template>
   <table>
-    <tbody>
+    <colgroup>
+      <col span="1" style="width: 20%;">
+      <col span="1" style="width: 20%;">
+      <col span="1" style="width: 60%;">
+    </colgroup>
+    <thead>
       <tr>
         <th>Version</th>
         <th>Build</th>
         <th>Jailbreak</th>
       </tr>
+    </thead>
+    <tbody>
         <template v-for="majFw in iosVer"><template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
           <tr v-if="v.devices.includes(d)">
             <td v-text="v.ver"/>
