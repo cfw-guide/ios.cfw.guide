@@ -1,199 +1,506 @@
 {
-  "iphone": {
-    "2g"            : "iPhone1,1",
-    "3g"            : "iPhone1,2",
-    "__soc"         : "APL0098",
-    
-    "3gs"           : "iPhone2,1",
-    "__soc"         : "APL0298",
-    
-    "4-gsm"         : "iPhone3,1",
-    "4-2012"        : "iPhone3,2",
-    "4-cdma"        : "iPhone3,3",
-    "__soc"         : "A4",
-    
-    "4s"            : "iPhone4,1",
-    "__soc"         : "A5",
-    
-    "5-gsm"         : "iPhone5,1",
-    "5-global"      : "iPhone5,2",
-    "__soc"         : "A6",
-    
-    "5c-gsm"        : "iPhone5,3",
-    "5c-global"     : "iPhone5,4",
-    "__soc"         : "A6",
-    
-    "5s-gsm"        : "iPhone6,1",
-    "5s-global"     : "iPhone6,2",
-    "__soc"         : "A7",
-    
-    "6+"            : "iPhone7,1",
-    "6"             : "iPhone7,2",
-    "__soc"         : "A8",
-    
-    "6s"            : "iPhone8,1",
-    "6s+"           : "iPhone8,2",
-    "se"            : "iPhone8,4",
-    "__soc"         : "A9",
-    
-    "7-global"      : "iPhone9,1",
-    "7+-global"     : "iPhone9,2",
-    "7-gsm"         : "iPhone9,3",
-    "7+-gsm"        : "iPhone9,4",
-    "__soc"         : "A10",
-    
-    "8-global"      : "iPhone10,1",
-    "8+-global"     : "iPhone10,2",
-    "x-global"      : "iPhone10,3",
-    "8-gsm"         : "iPhone10,4",
-    "8+-gsm"        : "iPhone10,5",
-    "x-gsm"         : "iPhone10,6",
-    "__soc"         : "A11",
-    
-    "xs"            : "iPhone11,2",
-    "xs-max-china"  : "iPhone11,4",
-    "xs-max"        : "iPhone11,6",
-    "xr"            : "iPhone11,8",
-    "__soc"         : "A12",
-    
-    "11"            : "iPhone12,1",
-    "11-pro"        : "iPhone12,3",
-    "11-pro-max"    : "iPhone12,5",
-    "se-2020"       : "iPhone12,8",
-    "__soc"         : "A13",
-    
-    "12-mini"       : "iPhone13,1",
-    "12"            : "iPhone13,2",
-    "12-pro"        : "iPhone13,3",
-    "12-pro-max"    : "iPhone13,4",
-    "__soc"         : "A14",
-    
-    "13-pro"        : "iPhone14,2",
-    "13-pro-max"    : "iPhone14,3",
-    "13-mini"       : "iPhone14,4",
-    "13"            : "iPhone14,5",
-    "__soc"         : "A15"
+  "iPhone1,1": {
+    "name"  : "iPhone 2G",
+    "soc"   : "APL0098"
   },
-  "ipad": {
-    "1"                   : "iPad1,1",
-    "__soc"               : "A4",
-    
-    "2-wifi"              : "iPad2,1",
-    "2-gsm"               : "iPad2,2",
-    "2-cdma"              : "iPad2,3",
-    "2-2012"              : "iPad2,4",
-    "mini-wifi"           : "iPad2,5",
-    "mini-gsm"            : "iPad2,6",
-    "mini-global"         : "iPad2,7",
-    "__soc"               : "A5",
-    
-    "3-wifi"              : "iPad3,1",
-    "3-cdma"              : "iPad3,2",
-    "3-gsm"               : "iPad3,3",
-    "__soc"               : "A5X",
-    
-    "4-wifi"              : "iPad3,4",
-    "4-gsm"               : "iPad3,5",
-    "4-global"            : "iPad3,6",
-    "__soc"               : "A6X",
-    
-    "air-wifi"            : "iPad4,1",
-    "air-cell"            : "iPad4,2",
-    "air-china"           : "iPad4,3",
-    "mini-2-wifi"         : "iPad4,4",
-    "mini-2-cell"         : "iPad4,5",
-    "mini-2-china"        : "iPad4,6",
-    "__soc"               : "A7",
-    
-    "mini-3-wifi"         : "iPad4,7",
-    "mini-3-cell"         : "iPad4,8",
-    "mini-3-china"        : "iPad4,9",
-    "mini-4-wifi"         : "iPad5,1",
-    "mini-4-cell"         : "iPad5,2",
-    "__soc"               : "A8",
-    
-    "air-2-wifi"          : "iPad5,3",
-    "air-2-cell"          : "iPad5,4", 
-    "__soc"               : "A8X",
-    
-    "pro-9.7-wifi"        : "iPad6,3",
-    "pro-9.7-cell"        : "iPad6,4",
-    "pro-12.9-wifi"       : "iPad6,7",
-    "pro-12.9-cell"       : "iPad6,8",
-    "__soc"               : "A9X",
-    
-    "5-wifi"              : "iPad6,11",
-    "5-cell"              : "iPad6,12",
-    "__soc"               : "A9",
-    
-    "pro-2-12.9-wifi"     : "iPad7,1",
-    "pro-2-12.9-cell"     : "iPad7,2",
-    "pro-10.5-wifi"       : "iPad7,3",
-    "pro-10.5-cell"       : "iPad7,4",
-    "__soc"               : "A10X",
-    
-    "6-wifi"              : "iPad7,5",
-    "6-cell"              : "iPad7,6",
-    "7-wifi"              : "iPad7,11",
-    "7-cell"              : "iPad7,12",
-    "__soc"               : "A10",
-    
-    "pro-3-11-wifi"       : "iPad8,1",
-    "pro-3-11-wifi-1tb"   : "iPad8,2",
-    "pro-3-11-cell"       : "iPad8,3",
-    "pro-3-11-cell-1tb"   : "iPad8,4",
-    "pro-3-12.9-wifi"     : "iPad8,5",
-    "pro-3-12.9-wifi-1tb" : "iPad8,6",
-    "pro-3-12.9-cell"     : "iPad8,7",
-    "pro-3-12.9-cell-1tb" : "iPad8,8",
-    "__soc"               : "A12X",
-    
-    "pro-4-11-wifi"       : "iPad8,9",
-    "pro-4-11-cell"       : "iPad8,10",
-    "pro-4-12.9-wifi"     : "iPad8,11",
-    "pro-4-12.9-cell"     : "iPad8,12",
-    "__soc"               : "A12Z",
-    
-    "mini-5-wifi"         : "iPad11,1",
-    "mini-5-cell"         : "iPad11,2",
-    "air-3-wifi"          : "iPad11,3",
-    "air-3-cell"          : "iPad11,4",
-    "8-wifi"              : "iPad11,6",
-    "8-cell"              : "iPad11,7",
-    "__soc"               : "A12",
-    
-    "9-wifi"              : "iPad12,1",
-    "9-cell"              : "iPad12,2",
-    "__soc"               : "A13",
-    
-    "air-4-wifi"          : "iPad13,1",
-    "air-4-cell"          : "iPad13,2",
-    "__soc"               : "A14",
-    
-    "pro-5-11-wifi"       : "iPad13,4",
-    "pro-5-11-us"         : "iPad13,5",
-    "pro-5-11-cell"       : "iPad13,6",
-    "pro-5-11-china"      : "iPad13,7",
-    "pro-5-12.9-wifi"     : "iPad13,8",
-    "pro-5-12.9-us"       : "iPad13,9",
-    "pro-5-12.9-cell"     : "iPad13,10",
-    "pro-5-12.9-china"    : "iPad13,11",
-    "__soc"               : "M1",
-    
-    "mini-6-wifi"         : "iPad14,1",
-    "mini-6-cell"         : "iPad14,2",
-    "__soc"               : "A15"
+  "iPhone1,2": {
+    "name"  : "iPhone 3G",
+    "soc"   : "APL0098"
   },
-  "ipod": {
-    "1"     : "iPod1,1",
-    "2"     : "iPod2,1",
-    "3"     : "iPod3,1",
-    "4"     : "iPod4,1",
-    "5"     : "iPod5,1",
-    "__soc" : "A5",
-    "6"     : "iPod7,1",
-    "__soc" : "A8",
-    "7"     : "iPod9,1",
-    "__soc" : "A10"
+  "iPhone2,1": {
+    "name"  : "iPhone 3GS",
+    "soc"   : "APL0298"
+  },
+  "iPhone3,1": {
+    "name"  : "iPhone 4 (GSM)",
+    "soc"   : "A4"
+  },
+  "iPhone3,2": {
+    "name"  : "iPhone 4 (GSM / 2012)",
+    "soc"   : "A4"
+  },
+  "iPhone3,3": {
+    "name"  : "iPhone 4 (CDMA)",
+    "soc"   : "A4"
+  },
+  "iPhone4,1": {
+    "name"  : "iPhone 4S",
+    "soc"   : "A5"
+  },
+  "iPhone5,1": {
+    "name"  : "iPhone 5 (GSM)",
+    "soc"   : "A6"
+  },
+  "iPhone5,2": {
+    "name"  : "iPhone 5 (Global)",
+    "soc"   : "A6"
+  },
+  "iPhone5,3": {
+    "name"  : "iPhone 5C (GSM)",
+    "soc"   : "A6"
+  },
+  "iPhone5,4": {
+    "name"  : "iPhone 5C (Global)",
+    "soc"   : "A6"
+  },
+  "iPhone6,1": {
+    "name"  : "iPhone 5S (GSM)",
+    "soc"   : "A7"
+  },
+  "iPhone6,2": {
+    "name"  : "iPhone 5S (Global)",
+    "soc"   : "A7"
+  },
+  "iPhone7,1": {
+    "name"  : "iPhone 6+",
+    "soc"   : "A8"
+  },
+  "iPhone7,2": {
+    "name"  : "iPhone 6",
+    "soc"   : "A8"
+  },
+  "iPhone7,1": {
+    "name"  : "iPhone 6+",
+    "soc"   : "A8"
+  },
+  "iPhone7,2": {
+    "name"  : "iPhone 6",
+    "soc"   : "A8"
+  },
+  "iPhone8,1": {
+    "name"  : "iPhone 6S",
+    "soc"   : "A9"
+  },
+  "iPhone8,2": {
+    "name"  : "iPhone 6S+",
+    "soc"   : "A9"
+  },
+  "iPhone8,4": {
+    "name"  : "iPhone SE",
+    "soc"   : "A9"
+  },
+  "iPhone9,1": {
+    "name"  : "iPhone 7 (Global)",
+    "soc"   : "A10"
+  },
+  "iPhone9,2": {
+    "name"  : "iPhone 7+ (Global)",
+    "soc"   : "A10"
+  },
+  "iPhone9,3": {
+    "name"  : "iPhone 7 (GSM)",
+    "soc"   : "A10"
+  },
+  "iPhone9,4": {
+    "name"  : "iPhone 7+ (GSM)",
+    "soc"   : "A10"
+  },
+  "iPhone10,1": {
+    "name"  : "iPhone 8 (Global)",
+    "soc"   : "A11"
+  },
+  "iPhone10,2": {
+    "name"  : "iPhone 8+ (Global)",
+    "soc"   : "A11"
+  },
+  "iPhone10,3": {
+    "name"  : "iPhone X (Global)",
+    "soc"   : "A11"
+  },
+  "iPhone10,4": {
+    "name"  : "iPhone 8 (GSM)",
+    "soc"   : "A11"
+  },
+  "iPhone10,5": {
+    "name"  : "iPhone 8+ (GSM)",
+    "soc"   : "A11"
+  },
+  "iPhone10,6": {
+    "name"  : "iPhone 8+ (GSM)",
+    "soc"   : "A11"
+  },
+  "iPhone11,2": {
+    "name"  : "iPhone XS",
+    "soc"   : "A12"
+  },
+  "iPhone11,4": {
+    "name"  : "iPhone XS Max (China)",
+    "soc"   : "A12"
+  },
+  "iPhone11,6": {
+    "name"  : "iPhone XS Max",
+    "soc"   : "A12"
+  },
+  "iPhone11,8": {
+    "name"  : "iPhone XR",
+    "soc"   : "A12"
+  },
+  "iPhone12,1": {
+    "name"  : "iPhone 11",
+    "soc"   : "A13"
+  },
+  "iPhone12,3": {
+    "name"  : "iPhone 11 Pro",
+    "soc"   : "A13"
+  },
+  "iPhone12,5": {
+    "name"  : "iPhone 11 Pro Max",
+    "soc"   : "A13"
+  },
+  "iPhone12,8": {
+    "name"  : "iPhone SE (2020)",
+    "soc"   : "A13"
+  },
+  "iPhone13,1": {
+    "name"  : "iPhone 12 mini",
+    "soc"   : "A14"
+  },
+  "iPhone13,2": {
+    "name"  : "iPhone 12",
+    "soc"   : "A14"
+  },
+  "iPhone13,3": {
+    "name"  : "iPhone 12 Pro",
+    "soc"   : "A14"
+  },
+  "iPhone13,4": {
+    "name"  : "iPhone 12 Pro Max",
+    "soc"   : "A14"
+  },
+  "iPhone14,2": {
+    "name"  : "iPhone 13 Pro",
+    "soc"   : "A15"
+  },
+  "iPhone14,3": {
+    "name"  : "iPhone 13 Pro Max",
+    "soc"   : "A15"
+  },
+  "iPhone14,4": {
+    "name"  : "iPhone 13 mini",
+    "soc"   : "A15"
+  },
+  "iPhone14,5": {
+    "name"  : "iPhone 13",
+    "soc"   : "A15"
+  },
+  "iPad1,1": {
+    "name"  : "iPad 1",
+    "soc"   : "A4"
+  },
+  "iPad2,1": {
+    "name"  : "iPad 2 (WiFi)",
+    "soc"   : "A5"
+  },
+  "iPad2,2": {
+    "name"  : "iPad 2 (GSM)",
+    "soc"   : "A5"
+  },
+  "iPad2,3": {
+    "name"  : "iPad 2 (CDMA)",
+    "soc"   : "A5"
+  },
+  "iPad2,4": {
+    "name"  : "iPad 2 (Mid 2012)",
+    "soc"   : "A5"
+  },
+  "iPad2,5": {
+    "name"  : "iPad mini (WiFi)",
+    "soc"   : "A5"
+  },
+  "iPad2,6": {
+    "name"  : "iPad mini (GSM)",
+    "soc"   : "A5"
+  },
+  "iPad2,7": {
+    "name"  : "iPad mini (Global)",
+    "soc"   : "A5"
+  },
+  "iPad3,1": {
+    "name"  : "iPad 3 (WiFi)",
+    "soc"   : "A5X"
+  },
+  "iPad3,2": {
+    "name"  : "iPad 3 (CDMA)",
+    "soc"   : "A5X"
+  },
+  "iPad3,3": {
+    "name"  : "iPad 3 (GSM)",
+    "soc"   : "A5X"
+  },
+  "iPad3,4": {
+    "name"  : "iPad 4 (WiFi)",
+    "soc"   : "A6X"
+  },
+  "iPad3,5": {
+    "name"  : "iPad 4 (GSM)",
+    "soc"   : "A6X"
+  },
+  "iPad3,6": {
+    "name"  : "iPad 4 (Global)",
+    "soc"   : "A6X"
+  },
+  "iPad4,1": {
+    "name"  : "iPad Air (WiFi)",
+    "soc"   : "A7"
+  },
+  "iPad4,2": {
+    "name"  : "iPad Air (Cellular)",
+    "soc"   : "A7"
+  },
+  "iPad4,3": {
+    "name"  : "iPad Air (China)",
+    "soc"   : "A7"
+  },
+  "iPad4,4": {
+    "name"  : "iPad mini 2 (WiFi)",
+    "soc"   : "A7"
+  },
+  "iPad4,5": {
+    "name"  : "iPad mini 2 (Cellular)",
+    "soc"   : "A7"
+  },
+  "iPad4,6": {
+    "name"  : "iPad mini 2 (China)",
+    "soc"   : "A7"
+  },
+  "iPad4,7": {
+    "name"  : "iPad mini 3 (WiFi)",
+    "soc"   : "A8"
+  },
+  "iPad4,8": {
+    "name"  : "iPad mini 3 (Cellular)",
+    "soc"   : "A8"
+  },
+  "iPad4,9": {
+    "name"  : "iPad mini 3 (China)",
+    "soc"   : "A8"
+  },
+  "iPad5,1": {
+    "name"  : "iPad mini 4 (WiFi)",
+    "soc"   : "A8"
+  },
+  "iPad5,2": {
+    "name"  : "iPad mini 4 (Cellular)",
+    "soc"   : "A8"
+  },
+  "iPad5,3": {
+    "name"  : "iPad Air 2 (Wifi)",
+    "soc"   : "A8X"
+  },
+  "iPad5,4": {
+    "name"  : "iPad Air 2 (Cellular)",
+    "soc"   : "A8X"
+  },
+  "iPad6,3": {
+    "name"  : "iPad Pro (9.7-inch, WiFi)",
+    "soc"   : "A9X"
+  },
+  "iPad6,4": {
+    "name"  : "iPad Pro (9.7-inch, Cellular)",
+    "soc"   : "A9X"
+  },
+  "iPad6,7": {
+    "name"  : "iPad Pro (12.9-inch, WiFi)",
+    "soc"   : "A9X"
+  },
+  "iPad6,8": {
+    "name"  : "iPad Pro (12.9-inch, Cellular)",
+    "soc"   : "A9X"
+  },
+  "iPad6,11": {
+    "name"  : "iPad 5 (WiFi)",
+    "soc"   : "A9"
+  },
+  "iPad6,12": {
+    "name"  : "iPad 5 (Cellular)",
+    "soc"   : "A9"
+  },
+  "iPad7,1": {
+    "name"  : "iPad Pro 2 (12.9-inch, WiFi)",
+    "soc"   : "A10X"
+  },
+  "iPad7,2": {
+    "name"  : "iPad Pro 2 (12.9-inch, Cellular)",
+    "soc"   : "A10X"
+  },
+  "iPad7,3": {
+    "name"  : "iPad Pro 2 (10.5-inch, WiFi)",
+    "soc"   : "A10X"
+  },
+  "iPad7,4": {
+    "name"  : "iPad Pro 2 (10.5-inch, Cellular)",
+    "soc"   : "A10X"
+  },
+  "iPad7,5": {
+    "name"  : "iPad 6 (WiFi)",
+    "soc"   : "A10"
+  },
+  "iPad7,6": {
+    "name"  : "iPad 6 (Cellular)",
+    "soc"   : "A10"
+  },
+  "iPad7,11": {
+    "name"  : "iPad 7 (WiFi)",
+    "soc"   : "A10"
+  },
+  "iPad7,12": {
+    "name"  : "iPad 7 (Cellular)",
+    "soc"   : "A10"
+  },
+  "iPad8,1": {
+    "name"  : "iPad Pro 3 (11-inch, Wifi)",
+    "soc"   : "A12X"
+  },
+  "iPad8,2": {
+    "name"  : "iPad Pro 3 (11-inch, Wifi, 1TB Model)",
+    "soc"   : "A12X"
+  },
+  "iPad8,3": {
+    "name"  : "iPad Pro 3 (11-inch, Cellular)",
+    "soc"   : "A12X"
+  },
+  "iPad8,4": {
+    "name"  : "iPad Pro 3 (11-inch, Cellular, 1TB Model)",
+    "soc"   : "A12X"
+  },
+  "iPad8,5": {
+    "name"  : "iPad Pro 3 (12.9-inch, Wifi)",
+    "soc"   : "A12X"
+  },
+  "iPad8,6": {
+    "name"  : "iPad Pro 3 (12.9-inch, Wifi, 1TB Model)",
+    "soc"   : "A12X"
+  },
+  "iPad8,7": {
+    "name"  : "iPad Pro 3 (12.9-inch, Cellular)",
+    "soc"   : "A12X"
+  },
+  "iPad8,8": {
+    "name"  : "iPad Pro 3 (12.9-inch, Cellular, 1TB Model)",
+    "soc"   : "A12X"
+  },
+  "iPad8,9": {
+    "name"  : "iPad Pro 4 (11-inch, WiFi)",
+    "soc"   : "A12Z"
+  },
+  "iPad8,10": {
+    "name"  : "iPad Pro 4 (11-inch, Cellular)",
+    "soc"   : "A12Z"
+  },
+  "iPad8,11": {
+    "name"  : "iPad Pro 4 (12.9-inch, WiFi)",
+    "soc"   : "A12Z"
+  },
+  "iPad8,12": {
+    "name"  : "iPad Pro 4 (12.9-inch, Cellular)",
+    "soc"   : "A12Z"
+  },
+  "iPad11,1": {
+    "name"  : "iPad mini 5 (WiFi)",
+    "soc"   : "A12"
+  },
+  "iPad11,2": {
+    "name"  : "iPad mini 5 (Cellular)",
+    "soc"   : "A12"
+  },
+  "iPad11,3": {
+    "name"  : "iPad Air 3 (WiFi)",
+    "soc"   : "A12"
+  },
+  "iPad11,4": {
+    "name"  : "iPad Air 3 (Cellular)",
+    "soc"   : "A12"
+  },
+  "iPad11,6": {
+    "name"  : "iPad 8 (WiFi)",
+    "soc"   : "A12"
+  },
+  "iPad11,7": {
+    "name"  : "iPad 8 (Cellular)",
+    "soc"   : "A12"
+  },
+  "iPad12,1": {
+    "name"  : "iPad 9 (WiFi)",
+    "soc"   : "A13"
+  },
+  "iPad12,2": {
+    "name"  : "iPad 9 (Cellular)",
+    "soc"   : "A13"
+  },
+  "iPad13,1": {
+    "name"  : "iPad Air 4 (WiFi)",
+    "soc"   : "A14"
+  },
+  "iPad13,2": {
+    "name"  : "iPad Air 4 (Cellular)",
+    "soc"   : "A14"
+  },
+  "iPad13,4": {
+    "name"  : "iPad Pro 5 (11-inch, WiFi)",
+    "soc"   : "M1"
+  },
+  "iPad13,5": {
+    "name"  : "iPad Pro 5 (11-inch, US)",
+    "soc"   : "M1"
+  },
+  "iPad13,6": {
+    "name"  : "iPad Pro 5 (11-inch, Cellular)",
+    "soc"   : "M1"
+  },
+  "iPad13,7": {
+    "name"  : "iPad Pro 5 (11-inch, China)",
+    "soc"   : "M1"
+  },
+  "iPad13,8": {
+    "name"  : "iPad Pro 5 (12.9-inch, WiFi)",
+    "soc"   : "M1"
+  },
+  "iPad13,9": {
+    "name"  : "iPad Pro 5 (12.9-inch, US)",
+    "soc"   : "M1"
+  },
+  "iPad13,10": {
+    "name"  : "iPad Pro 5 (12.9-inch, Cellular)",
+    "soc"   : "M1"
+  },
+  "iPad13,11": {
+    "name"  : "iPad Pro 5 (12.9-inch, China)",
+    "soc"   : "M1"
+  },
+  "iPad14,1": {
+    "name"  : "iPad mini 6 (WiFi)",
+    "soc"   : "A15"
+  },
+  "iPad14,2": {
+    "name"  : "iPad mini 6 (Cellular)",
+    "soc"   : "A15"
+  },
+  "iPod1,1": {
+    "name"  : "iPod touch 1G",
+    "soc"   : "APL0098"
+  },
+  "iPod2,1": {
+    "name"  : "iPod touch 2G",
+    "soc"   : "APL0278"
+  },
+  "iPod3,1": {
+    "name"  : "iPod touch 3",
+    "soc"   : "APL2298"
+  },
+  "iPod4,1": {
+    "name"  : "iPod touch 4",
+    "soc"   : "A4"
+  },
+  "iPod5,1": {
+    "name"  : "iPod touch 5",
+    "soc"   : "A5"
+  },
+  "iPod7,1": {
+    "name"  : "iPod touch 6",
+    "soc"   : "A8"
+  },
+  "iPod9,1": {
+    "name"  : "iPod touch 7",
+    "soc"   : "A8"
   }
 }
