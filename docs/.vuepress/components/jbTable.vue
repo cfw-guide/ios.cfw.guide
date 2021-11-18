@@ -6,7 +6,8 @@
       <ul>
         <li v-for="device in compatList.devices">
           <a :href="device">
-            {{ deviceList[device].name }}
+            <template v-if="deviceList.hasOwnProperty(device)">{{ deviceList[device].name }}</template>
+            <template v-if="!deviceList.hasOwnProperty(device)">{{ device }}</template>
           </a>
         </li>
       </ul>
