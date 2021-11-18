@@ -1,4 +1,5 @@
 ---
+title: iPhone XR
 sidebar: false
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: iPad mini (WiFi)
 sidebar: false
 ---
 

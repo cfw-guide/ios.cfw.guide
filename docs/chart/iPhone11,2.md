@@ -1,4 +1,5 @@
 ---
+title: iPhone XS
 sidebar: false
 ---
 

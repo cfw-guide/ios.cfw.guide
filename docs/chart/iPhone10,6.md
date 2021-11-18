@@ -1,4 +1,5 @@
 ---
+title: iPhone X (GSM)
 sidebar: false
 ---
 
