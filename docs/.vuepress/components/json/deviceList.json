@@ -1,0 +1,199 @@
+{
+  "iphone": {
+    "2g"            : "iPhone1,1",
+    "3g"            : "iPhone1,2",
+    "__soc"         : "APL0098",
+    
+    "3gs"           : "iPhone2,1",
+    "__soc"         : "APL0298",
+    
+    "4-gsm"         : "iPhone3,1",
+    "4-2012"        : "iPhone3,2",
+    "4-cdma"        : "iPhone3,3",
+    "__soc"         : "A4",
+    
+    "4s"            : "iPhone4,1",
+    "__soc"         : "A5",
+    
+    "5-gsm"         : "iPhone5,1",
+    "5-global"      : "iPhone5,2",
+    "__soc"         : "A6",
+    
+    "5c-gsm"        : "iPhone5,3",
+    "5c-global"     : "iPhone5,4",
+    "__soc"         : "A6",
+    
+    "5s-gsm"        : "iPhone6,1",
+    "5s-global"     : "iPhone6,2",
+    "__soc"         : "A7",
+    
+    "6+"            : "iPhone7,1",
+    "6"             : "iPhone7,2",
+    "__soc"         : "A8",
+    
+    "6s"            : "iPhone8,1",
+    "6s+"           : "iPhone8,2",
+    "se"            : "iPhone8,4",
+    "__soc"         : "A9",
+    
+    "7-global"      : "iPhone9,1",
+    "7+-global"     : "iPhone9,2",
+    "7-gsm"         : "iPhone9,3",
+    "7+-gsm"        : "iPhone9,4",
+    "__soc"         : "A10",
+    
+    "8-global"      : "iPhone10,1",
+    "8+-global"     : "iPhone10,2",
+    "x-global"      : "iPhone10,3",
+    "8-gsm"         : "iPhone10,4",
+    "8+-gsm"        : "iPhone10,5",
+    "x-gsm"         : "iPhone10,6",
+    "__soc"         : "A11",
+    
+    "xs"            : "iPhone11,2",
+    "xs-max-china"  : "iPhone11,4",
+    "xs-max"        : "iPhone11,6",
+    "xr"            : "iPhone11,8",
+    "__soc"         : "A12",
+    
+    "11"            : "iPhone12,1",
+    "11-pro"        : "iPhone12,3",
+    "11-pro-max"    : "iPhone12,5",
+    "se-2020"       : "iPhone12,8",
+    "__soc"         : "A13",
+    
+    "12-mini"       : "iPhone13,1",
+    "12"            : "iPhone13,2",
+    "12-pro"        : "iPhone13,3",
+    "12-pro-max"    : "iPhone13,4",
+    "__soc"         : "A14",
+    
+    "13-pro"        : "iPhone14,2",
+    "13-pro-max"    : "iPhone14,3",
+    "13-mini"       : "iPhone14,4",
+    "13"            : "iPhone14,5",
+    "__soc"         : "A15"
+  },
+  "ipad": {
+    "1"                   : "iPad1,1",
+    "__soc"               : "A4",
+    
+    "2-wifi"              : "iPad2,1",
+    "2-gsm"               : "iPad2,2",
+    "2-cdma"              : "iPad2,3",
+    "2-2012"              : "iPad2,4",
+    "mini-wifi"           : "iPad2,5",
+    "mini-gsm"            : "iPad2,6",
+    "mini-global"         : "iPad2,7",
+    "__soc"               : "A5",
+    
+    "3-wifi"              : "iPad3,1",
+    "3-cdma"              : "iPad3,2",
+    "3-gsm"               : "iPad3,3",
+    "__soc"               : "A5X",
+    
+    "4-wifi"              : "iPad3,4",
+    "4-gsm"               : "iPad3,5",
+    "4-global"            : "iPad3,6",
+    "__soc"               : "A6X",
+    
+    "air-wifi"            : "iPad4,1",
+    "air-cell"            : "iPad4,2",
+    "air-china"           : "iPad4,3",
+    "mini-2-wifi"         : "iPad4,4",
+    "mini-2-cell"         : "iPad4,5",
+    "mini-2-china"        : "iPad4,6",
+    "__soc"               : "A7",
+    
+    "mini-3-wifi"         : "iPad4,7",
+    "mini-3-cell"         : "iPad4,8",
+    "mini-3-china"        : "iPad4,9",
+    "mini-4-wifi"         : "iPad5,1",
+    "mini-4-cell"         : "iPad5,2",
+    "__soc"               : "A8",
+    
+    "air-2-wifi"          : "iPad5,3",
+    "air-2-cell"          : "iPad5,4", 
+    "__soc"               : "A8X",
+    
+    "pro-9.7-wifi"        : "iPad6,3",
+    "pro-9.7-cell"        : "iPad6,4",
+    "pro-12.9-wifi"       : "iPad6,7",
+    "pro-12.9-cell"       : "iPad6,8",
+    "__soc"               : "A9X",
+    
+    "5-wifi"              : "iPad6,11",
+    "5-cell"              : "iPad6,12",
+    "__soc"               : "A9",
+    
+    "pro-2-12.9-wifi"     : "iPad7,1",
+    "pro-2-12.9-cell"     : "iPad7,2",
+    "pro-10.5-wifi"       : "iPad7,3",
+    "pro-10.5-cell"       : "iPad7,4",
+    "__soc"               : "A10X",
+    
+    "6-wifi"              : "iPad7,5",
+    "6-cell"              : "iPad7,6",
+    "7-wifi"              : "iPad7,11",
+    "7-cell"              : "iPad7,12",
+    "__soc"               : "A10",
+    
+    "pro-3-11-wifi"       : "iPad8,1",
+    "pro-3-11-wifi-1tb"   : "iPad8,2",
+    "pro-3-11-cell"       : "iPad8,3",
+    "pro-3-11-cell-1tb"   : "iPad8,4",
+    "pro-3-12.9-wifi"     : "iPad8,5",
+    "pro-3-12.9-wifi-1tb" : "iPad8,6",
+    "pro-3-12.9-cell"     : "iPad8,7",
+    "pro-3-12.9-cell-1tb" : "iPad8,8",
+    "__soc"               : "A12X",
+    
+    "pro-4-11-wifi"       : "iPad8,9",
+    "pro-4-11-cell"       : "iPad8,10",
+    "pro-4-12.9-wifi"     : "iPad8,11",
+    "pro-4-12.9-cell"     : "iPad8,12",
+    "__soc"               : "A12Z",
+    
+    "mini-5-wifi"         : "iPad11,1",
+    "mini-5-cell"         : "iPad11,2",
+    "air-3-wifi"          : "iPad11,3",
+    "air-3-cell"          : "iPad11,4",
+    "8-wifi"              : "iPad11,6",
+    "8-cell"              : "iPad11,7",
+    "__soc"               : "A12",
+    
+    "9-wifi"              : "iPad12,1",
+    "9-cell"              : "iPad12,2",
+    "__soc"               : "A13",
+    
+    "air-4-wifi"          : "iPad13,1",
+    "air-4-cell"          : "iPad13,2",
+    "__soc"               : "A14",
+    
+    "pro-5-11-wifi"       : "iPad13,4",
+    "pro-5-11-us"         : "iPad13,5",
+    "pro-5-11-cell"       : "iPad13,6",
+    "pro-5-11-china"      : "iPad13,7",
+    "pro-5-12.9-wifi"     : "iPad13,8",
+    "pro-5-12.9-us"       : "iPad13,9",
+    "pro-5-12.9-cell"     : "iPad13,10",
+    "pro-5-12.9-china"    : "iPad13,11",
+    "__soc"               : "M1",
+    
+    "mini-6-wifi"         : "iPad14,1",
+    "mini-6-cell"         : "iPad14,2",
+    "__soc"               : "A15"
+  },
+  "ipod": {
+    "1"     : "iPod1,1",
+    "2"     : "iPod2,1",
+    "3"     : "iPod3,1",
+    "4"     : "iPod4,1",
+    "5"     : "iPod5,1",
+    "__soc" : "A5",
+    "6"     : "iPod7,1",
+    "__soc" : "A8",
+    "7"     : "iPod9,1",
+    "__soc" : "A10"
+  }
+}
