@@ -1025,7 +1025,7 @@
   },
   "to.panga": {
     "toolName": "to.panga",
-    "guideLink": "/chart/to-panga",
+    "guideLink": "/chart/to.panga",
     "0": {
       "firmwares": [
         "15A372",
@@ -1099,6 +1099,7 @@
   "h3lix": {
     "toolName": "h3lix",
     "toolLink": "https://h3lix.tihmstar.net/",
+    "guideLink": "/chart/h3lix",
     "0": {
       "firmwares": [
         "14A403",
@@ -1120,24 +1121,7 @@
         "iPhone5,3",
         "iPhone5,4",
         "iPad3,5",
-        "iPad3,6"
-      ]
-    },
-    "1": {
-      "firmwares": [
-        "14A403",
-        "14A456",
-        "14B72",
-        "14B100",
-        "14B150",
-        "14C92",
-        "14D27",
-        "14E277",
-        "14E304",
-        "14F89",
-        "14G60"
-      ],
-      "devices": [
+        "iPad3,6",
         "iPad3,4"
       ]
     }
