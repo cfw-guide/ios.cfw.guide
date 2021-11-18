@@ -63,10 +63,6 @@
     "name"  : "iPhone 6+",
     "soc"   : "A8"
   },
-  "iPhone7,2": {
-    "name"  : "iPhone 6",
-    "soc"   : "A8"
-  },
   "iPhone8,1": {
     "name"  : "iPhone 6S",
     "soc"   : "A9"

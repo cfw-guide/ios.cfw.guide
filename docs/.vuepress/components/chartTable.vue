@@ -1,5 +1,5 @@
 <template>
-  <h2 v-text="deviceList[device || d].name"/>
+  <h2 v-text="deviceList[d].name"/>
   <table>
     <tbody>
       <tr>
@@ -8,7 +8,7 @@
         <th>Jailbreak</th>
       </tr>
         <template v-for="majFw in iosVer"><template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
-          <tr v-if="v.devices.includes(device || d)">
+          <tr v-if="v.devices.includes(d)">
             <td v-text="v.ver"/>
             <td v-text="v.build"/>
             <!--<td v-text="getJailbreak(v.build, device || d)"/>-->
@@ -35,6 +35,7 @@ d = d.split('/')
 d = d[d.length-1]
 d = d.split('.')
 d = d[d.length-2]
+if (props.device != null) d = props.device;
 
 const deviceList = computed(() => require('./json/deviceList'));
 const jbList = computed(() => require('./json/jailbreak'));

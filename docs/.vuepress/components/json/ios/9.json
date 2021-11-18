@@ -14,13 +14,13 @@
         "ver": "9.0.0",
         "build": "13A342",
         "released": "2015-09-16",
-        "devices": [ "iPhone7,2" ]
+        "devices": [ "iPhone8,1" ]
       },
       "2": {
         "ver": "9.0.0",
         "build": "13A343",
         "released": "2015-09-16",
-        "devices": [ "iPhone7,1" ]
+        "devices": [ "iPhone8,2" ]
       },
       "3": {
         "ver": "9.0.0",
@@ -142,8 +142,8 @@
         "build": "13A405",
         "released": "2015-09-23",
         "devices": [
-          "iPhone7,2",
-          "iPhone7,1"
+          "iPhone8,1",
+          "iPhone8,2"
         ]
       }
     },
@@ -167,8 +167,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPod5,1",
           "iPod7,1",
@@ -232,8 +232,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPod5,1",
           "iPod7,1",
@@ -306,8 +306,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPod5,1",
           "iPod7,1",
@@ -413,8 +413,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPad5,3",
           "iPad5,4",
@@ -493,8 +493,8 @@
         "build": "13E234",
         "released": "2016-03-21",
         "devices": [
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           "iPad6,3",
           "iPad6,4"
         ]
@@ -573,8 +573,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPhone8,4",
           
@@ -643,8 +643,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPhone8,4",
           
@@ -722,8 +722,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPhone8,4",
           
@@ -792,8 +792,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPhone8,4",
           
@@ -862,8 +862,8 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone8,1",
+          "iPhone8,2",
           
           "iPhone8,4",
           
