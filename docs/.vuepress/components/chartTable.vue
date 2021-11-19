@@ -13,7 +13,13 @@
       </tr>
     </thead>
     <tbody>
-        <template v-for="majFw in riosVer"><template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
+        <template v-for="majFw in riosVer">
+          <tr v-if="majFw != riosVer[0]">
+            <th colspan="3">
+              iOS {{ majFw[0][0][0].ver.split('.')[0] }}
+            </th>
+          </tr>
+          <template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
           <tr v-if="v.devices.includes(d) || showAll">
             <td v-text="v.ver"/>
             <td v-text="v.build"/>
@@ -25,7 +31,8 @@
               </template>
             </td>
           </tr>
-        </template></template></template></template>
+        </template></template></template>
+      </template>
     </tbody>
   </table>
 </template>
