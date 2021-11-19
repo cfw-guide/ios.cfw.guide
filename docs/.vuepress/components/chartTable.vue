@@ -57,15 +57,12 @@ var iosVer = {"0": require('./json/ios/1'), "1": require('./json/ios/2'),"2": re
 
 function getTools(ver, device) {
   var toolArr = [];
-  for (var tool in jbList) {
-    for (var compatList in jbList[tool]) {
-      if (jbList[tool][compatList].hasOwnProperty('firmwares') && jbList[tool][compatList].hasOwnProperty('devices')) {
-        if (jbList[tool][compatList].firmwares.includes(ver.build) && (jbList[tool][compatList].devices.includes(device) || showAll)) {
-          toolArr.push(jbList[tool]);
-        }
-      }
-    }
-  }
+  for (var tool in jbList)
+    for (var compatList in jbList[tool])
+      if (jbList[tool][compatList].hasOwnProperty('firmwares') && jbList[tool][compatList].hasOwnProperty('devices'))
+        if (jbList[tool][compatList].firmwares.includes(ver.build) && (jbList[tool][compatList].devices.includes(device) || showAll))
+          if (!toolArr.includes(jbList[tool]))
+            toolArr.push(jbList[tool]);
   return toolArr;
 }
 
