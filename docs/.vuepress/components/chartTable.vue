@@ -7,8 +7,8 @@
     </colgroup>
     <thead>
       <tr>
-        <th>Version</th>
         <th>Build</th>
+        <th>Version</th>
         <th>Jailbreak</th>
       </tr>
     </thead>
@@ -21,8 +21,8 @@
           </tr>-->
           <template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
           <tr v-if="v.devices.includes(d) || showAll">
-            <td v-text="v.ver"/>
             <td v-text="v.build"/>
+            <td v-text="v.ver"/>
             <td>
               <template v-for="tool in getTools(v, d)">
                 <a v-if="tool.url" :href="tool.url" >{{ tool.name }}</a>
