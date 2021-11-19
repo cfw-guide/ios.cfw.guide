@@ -469,7 +469,12 @@
         "build": "17B90",
         "released": "2019-10-30",
         "devices": [],
-        "__comments": "Homepod only"
+        "info": [
+          {
+            "name": "Notes",
+            "value": "Homepod only"
+          }
+        ]
       }
     },
     "2": {

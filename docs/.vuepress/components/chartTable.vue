@@ -25,8 +25,7 @@
             <td v-text="v.ver"/>
             <td>
               <template v-for="tool in getTools(v, d)">
-                <a v-if="tool.url" :href="tool.url" >{{ tool.name }}</a>
-                <template v-if="!(tool.url)">{{ tool.name }}</template>
+                <a :href="'/chart/jailbreak/' + tool.name + '.html'" >{{ tool.name }}</a>
                 <template v-if="tool != getTools(v, d)[getTools(v, d).length-1]">, </template>
               </template>
             </td>
