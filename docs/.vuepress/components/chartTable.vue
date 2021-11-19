@@ -21,7 +21,7 @@
           </tr>-->
           <template v-for="midFw in majFw"><template v-for="minFw in midFw"><template v-for="v in minFw">
           <tr v-if="v.devices.includes(d) || showAll">
-            <td v-text="v.build"/>
+            <td><a :href="'/chart/firmware/' + v.build">{{ v.build }}</a></td>
             <td v-text="v.ver"/>
             <td>
               <template v-for="tool in getTools(v, d)">
@@ -51,9 +51,9 @@ d = d[d.length-2]
 if (props.device != null) d = props.device;
 if (props.device == 'all') showAll = true;
 
-const deviceList = computed(() => require('./json/deviceList'));
-const jbList = require('./json/jailbreak');
-var iosVer = {"0": require('./json/ios/1'), "1": require('./json/ios/2'),"2": require('./json/ios/3'),"3": require('./json/ios/4'),"4": require('./json/ios/5'),"5": require('./json/ios/6'),"6": require('./json/ios/7'),"7": require('./json/ios/8'),"8": require('./json/ios/9'),"9": require('./json/ios/10'),"10": require('./json/ios/11'),"11": require('./json/ios/12'),"12": require('./json/ios/13'),"13": require('./json/ios/14'),"14": require('./json/ios/15'),};
+const deviceList = computed(() => require('../json/deviceList'));
+const jbList = require('../json/jailbreak');
+var iosVer = {"0": require('../json/ios/1'), "1": require('../json/ios/2'),"2": require('../json/ios/3'),"3": require('../json/ios/4'),"4": require('../json/ios/5'),"5": require('../json/ios/6'),"6": require('../json/ios/7'),"7": require('../json/ios/8'),"8": require('../json/ios/9'),"9": require('../json/ios/10'),"10": require('../json/ios/11'),"11": require('../json/ios/12'),"12": require('../json/ios/13'),"13": require('../json/ios/14'),"14": require('../json/ios/15'),};
 
 function getTools(ver, device) {
   var toolArr = [];
