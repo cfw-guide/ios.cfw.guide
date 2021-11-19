@@ -712,8 +712,28 @@
   },
   "Chimera": {
     "name": "Chimera",
-    "toolLink": "https://chimera.coolstar.org/",
     "url": "/chart/chimera",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "chimera.coolstar.org",
+        "url": "https://chimera.coolstar.org/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing Chimera",
+        "url": "/installing-chimera/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "12.0 to 12.5.5"
+      }
+    },
     "0": {
       "firmwares": [
         "16A366",
@@ -911,6 +931,16 @@
   "unc0ver dark": {
     "name": "unc0ver dark",
     "url": "/chart/unc0ver-dark",
+    "info": {
+      "0": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "1": {
+        "name": "Supported Firmwares",
+        "value": "11.0 to 12.1.2"
+      }
+    },
     "0": {
       "firmwares": [
         "15A372",
@@ -992,6 +1022,16 @@
   "rootlessJB4": {
     "name": "rootlessJB4",
     "url": "/chart/rootlessJB4",
+    "info": {
+      "0": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "1": {
+        "name": "Supported Firmwares",
+        "value": "12.0 to 12.1.2"
+      }
+    },
     "0": {
       "firmwares": [
         "16A366",
@@ -1053,6 +1093,16 @@
   "LiberiOS": {
     "name": "LiberiOS",
     "url": "/chart/liberios",
+    "info": {
+      "0": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "1": {
+        "name": "Supported Firmwares",
+        "value": "11.0 to 11.4.1"
+      }
+    },
     "0": {
       "firmwares": [
         "15A372",
@@ -1126,6 +1176,16 @@
   "to.panga": {
     "name": "to.panga",
     "url": "/chart/to.panga",
+    "info": {
+      "0": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "1": {
+        "name": "Supported Firmwares",
+        "value": "11.0 to 11.4.1"
+      }
+    },
     "0": {
       "firmwares": [
         "15A372",
@@ -1198,8 +1258,28 @@
   },
   "h3lix": {
     "name": "h3lix",
-    "toolLink": "https://h3lix.tihmstar.net/",
     "url": "/chart/h3lix",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "h3lix.tihmstar.net",
+        "url": "https://h3lix.tihmstar.net/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing h3lix",
+        "url": "/installing-h3lix/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "10.0 to 10.3.4"
+      }
+    },
     "0": {
       "firmwares": [
         "14A403",
