@@ -80,7 +80,7 @@ function getFwList(device) {
     if (!(jbList[jb][compatList].hasOwnProperty('firmwares') || jbList[jb][compatList].hasOwnProperty('devices'))) continue
     const fwArr = jbList[jb][compatList].firmwares;
     for (var i = 0; i < fwArr.length; i++) {
-      if (getVer(fwArr[i]).devices.includes(device))
+      if (getVer(fwArr[i]).devices.includes(device) && jbList[jb][compatList].devices.includes(device))
         if (!ret.includes(fwArr[i]))
           ret.push(fwArr[i])
     }
