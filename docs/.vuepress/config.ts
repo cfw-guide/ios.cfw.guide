@@ -30,7 +30,8 @@ export default defineUserConfig<DefaultThemeOptions>({
 			{
 				componentsDir: path.resolve(__dirname, './components')
 			}
-		]
+		],
+    require('./plugins/dynamicPages/lib/')
 	],
   
   themeConfig: {
