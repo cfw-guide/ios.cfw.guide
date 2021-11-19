@@ -3,6 +3,7 @@ lang: en_US
 title: Installing P0sixspwn
 description: Guide to installing P0sixspwn
 permalink: /installing-p0sixspwn
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /installing-posixpwn
   - /p0sixpwn
