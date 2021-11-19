@@ -1,7 +1,7 @@
 {
   "checkra1n": {
     "name": "checkra1n",
-    "url": "/chart/checkra1n",
+    "url": "/chart/jailbreak/checkra1n",
     "info": {
       "0": {
         "name": "Website",
@@ -134,7 +134,7 @@
   },
   "Taurine": {
     "name": "Taurine",
-    "url": "/chart/taurine",
+    "url": "/chart/jailbreak/taurine",
     "info": {
       "0": {
         "name": "Website",
@@ -224,7 +224,7 @@
   },
   "unc0ver": {
     "name": "unc0ver",
-    "url": "/chart/unc0ver",
+    "url": "/chart/jailbreak/unc0ver",
     "info": {
       "0": {
         "name": "Website",
@@ -481,7 +481,7 @@
   },
   "Fugu14": {
     "name": "Fugu14",
-    "url": "/chart/fugu14",
+    "url": "/chart/jailbreak/fugu14",
     "info": {
       "0": {
         "name": "Website",
@@ -554,7 +554,7 @@
   },
   "Odyssey": {
     "name": "Odyssey",
-    "url": "/chart/odyssey",
+    "url": "/chart/jailbreak/odyssey",
     "info": {
       "0": {
         "name": "Website",
@@ -663,7 +663,7 @@
   },
   "Fugu": {
     "name": "Fugu",
-    "url": "/chart/fugu",
+    "url": "/chart/jailbreak/fugu",
     "info": {
       "0": {
         "name": "Website",
@@ -717,7 +717,7 @@
   },
   "Chimera": {
     "name": "Chimera",
-    "url": "/chart/chimera",
+    "url": "/chart/jailbreak/chimera",
     "info": {
       "0": {
         "name": "Website",
@@ -853,7 +853,7 @@
   "Electra": {
     "name": "Electra",
     "toolLink": "https://coolstar.org/electra/",
-    "url": "/chart/electra",
+    "url": "/chart/jailbreak/electra",
     "0": {
       "firmwares": [
         "15A372",
@@ -935,7 +935,7 @@
   },
   "unc0ver dark": {
     "name": "unc0ver dark",
-    "url": "/chart/unc0ver-dark",
+    "url": "/chart/jailbreak/unc0ver-dark",
     "info": {
       "0": {
         "name": "Type",
@@ -1026,7 +1026,7 @@
   },
   "rootlessJB4": {
     "name": "rootlessJB4",
-    "url": "/chart/rootlessJB4",
+    "url": "/chart/jailbreak/rootlessJB4",
     "info": {
       "0": {
         "name": "Type",
@@ -1097,7 +1097,7 @@
   },
   "LiberiOS": {
     "name": "LiberiOS",
-    "url": "/chart/liberios",
+    "url": "/chart/jailbreak/liberios",
     "info": {
       "0": {
         "name": "Type",
@@ -1180,7 +1180,7 @@
   },
   "to.panga": {
     "name": "to.panga",
-    "url": "/chart/to.panga",
+    "url": "/chart/jailbreak/to.panga",
     "info": {
       "0": {
         "name": "Type",
@@ -1263,7 +1263,7 @@
   },
   "h3lix": {
     "name": "h3lix",
-    "url": "/chart/h3lix",
+    "url": "/chart/jailbreak/h3lix",
     "info": {
       "0": {
         "name": "Website",
