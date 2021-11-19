@@ -1,8 +1,28 @@
 {
   "checkra1n": {
-    "toolName": "checkra1n",
-    "toolLink": "https://checkra.in/",
-    "guideLink": "/chart/checkra1n",
+    "name": "checkra1n",
+    "url": "/chart/checkra1n",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "checkra.in",
+        "url": "https://checkra.in/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing Odysseyra1n",
+        "url": "/installing-odysseyra1n/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "12.0 to 14.8.1"
+      }
+    },
     "0": {
       "firmwares": [
         "16A366",
@@ -113,9 +133,29 @@
     }
   },
   "Taurine": {
-    "toolName": "Taurine",
-    "toolLink": "https://taurine.app/",
-    "guideLink": "/chart/taurine",
+    "name": "Taurine",
+    "url": "/chart/taurine",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "taurine.app",
+        "url": "https://taurine.app/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing Taurine",
+        "url": "/installing-taurine/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "14.0 to 14.3"
+      }
+    },
     "0": {
       "firmwares": [
         "18A373",
@@ -183,9 +223,29 @@
     }
   },
   "unc0ver": {
-    "toolName": "unc0ver",
-    "toolLink": "https://unc0ver.dev/",
-    "guideLink": "/chart/unc0ver",
+    "name": "unc0ver",
+    "url": "/chart/unc0ver",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "unc0ver.dev",
+        "url": "https://unc0ver.dev/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing unc0ver",
+        "url": "/installing-unc0ver/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "11.0 to 14.5.1"
+      }
+    },
     "0": {
       "firmwares": [
         "15A372",
@@ -415,9 +475,24 @@
     }
   },
   "Fugu14": {
-    "toolName": "Fugu14",
-    "toolLink": "https://github.com/LinusHenze/Fugu14",
-    "guideLink": "/chart/fugu14",
+    "name": "Fugu14",
+    "url": "/chart/fugu14",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "github.com/LinusHenze/Fugu14",
+        "url": "https://github.com/LinusHenze/Fugu14",
+        "external": true
+      },
+      "1": {
+        "name": "Type",
+        "value": "Untethered"
+      },
+      "2": {
+        "name": "Supported Firmwares",
+        "value": "14.4 to 14.5.1 (A12+)"
+      }
+    },
     "0": {
       "firmwares": [
         "18D52",
@@ -473,9 +548,29 @@
     }
   },
   "Odyssey": {
-    "toolName": "Odyssey",
-    "toolLink": "https://theodyssey.dev/",
-    "guideLink": "/chart/odyssey",
+    "name": "Odyssey",
+    "url": "/chart/odyssey",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "theodyssey.dev",
+        "url": "https://theodyssey.dev/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing Odyssey",
+        "url": "/installing-odyssey/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "13.0 to 13.7"
+      }
+    },
     "0": {
       "firmwares": [
         "16A577",
@@ -562,9 +657,24 @@
     }
   },
   "Fugu": {
-    "toolName": "Fugu",
-    "toolLink": "https://github.com/LinusHenze/Fugu",
-    "guideLink": "/chart/fugu",
+    "name": "Fugu",
+    "url": "/chart/fugu",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "github.com/LinusHenze/Fugu",
+        "url": "https://github.com/LinusHenze/Fugu",
+        "external": true
+      },
+      "1": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "2": {
+        "name": "Supported Firmwares",
+        "value": "13.0 to 13.5 (A10)"
+      }
+    },
     "0": {
       "firmwares": [
         "16A577",
@@ -601,9 +711,9 @@
     }
   },
   "Chimera": {
-    "toolName": "Chimera",
+    "name": "Chimera",
     "toolLink": "https://chimera.coolstar.org/",
-    "guideLink": "/chart/chimera",
+    "url": "/chart/chimera",
     "0": {
       "firmwares": [
         "16A366",
@@ -716,9 +826,9 @@
     }
   },
   "Electra": {
-    "toolName": "Electra",
+    "name": "Electra",
     "toolLink": "https://coolstar.org/electra/",
-    "guideLink": "/chart/electra",
+    "url": "/chart/electra",
     "0": {
       "firmwares": [
         "15A372",
@@ -790,7 +900,7 @@
     }
   },
   "Homepod only": {
-    "toolName": "Homepod only",
+    "name": "Homepod only",
     "0": {
       "firmwares": [
         "17B90"
@@ -799,8 +909,8 @@
     }
   },
   "unc0ver dark": {
-    "toolName": "unc0ver dark",
-    "guideLink": "/chart/unc0ver-dark",
+    "name": "unc0ver dark",
+    "url": "/chart/unc0ver-dark",
     "0": {
       "firmwares": [
         "15A372",
@@ -880,8 +990,8 @@
     }
   },
   "rootlessJB4": {
-    "toolName": "rootlessJB4",
-    "guideLink": "/chart/rootlessJB4",
+    "name": "rootlessJB4",
+    "url": "/chart/rootlessJB4",
     "0": {
       "firmwares": [
         "16A366",
@@ -941,8 +1051,8 @@
     }
   },
   "LiberiOS": {
-    "toolName": "LiberiOS",
-    "guideLink": "/chart/liberios",
+    "name": "LiberiOS",
+    "url": "/chart/liberios",
     "0": {
       "firmwares": [
         "15A372",
@@ -1014,8 +1124,8 @@
     }
   },
   "to.panga": {
-    "toolName": "to.panga",
-    "guideLink": "/chart/to.panga",
+    "name": "to.panga",
+    "url": "/chart/to.panga",
     "0": {
       "firmwares": [
         "15A372",
@@ -1087,9 +1197,9 @@
     }
   },
   "h3lix": {
-    "toolName": "h3lix",
+    "name": "h3lix",
     "toolLink": "https://h3lix.tihmstar.net/",
-    "guideLink": "/chart/h3lix",
+    "url": "/chart/h3lix",
     "0": {
       "firmwares": [
         "14A403",
