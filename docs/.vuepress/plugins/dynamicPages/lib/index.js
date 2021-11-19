@@ -42,7 +42,7 @@ module.exports = {
                 await createPage(app, {
                   path: '/chart/firmware/' + b.build + '.html',
                   frontmatter: {
-                    title: 'iOS' + b.ver + ' (' + b.build + ')',
+                    title: 'iOS ' + b.ver + ' (' + b.build + ')',
                     excerpt: 'Compatible jailbreaks for firmware version ' + b.ver,
                     sidebar: false
                   },
