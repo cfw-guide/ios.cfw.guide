@@ -72,7 +72,22 @@ for (var compatList in jbList[jb]) {
 }
 
 var fwLists = []
-for (var d in jbDeviceList) getFwList(jbDeviceList[d]);
+for (var d in jbDeviceList) {
+  var exclList = [
+    'iPad7,11',
+    'iPad7,12',
+    'iPad8,9',
+    'iPad8,10',
+    'iPad8,11',
+    'iPad8,12',
+    'iPad11,1',
+    'iPad11,2',
+    'iPad11,3',
+    'iPad11,4'
+  ]
+  //if (exclList.includes(jbDeviceList[d])) continue;
+  getFwList(jbDeviceList[d]);
+}
 
 function getFwList(device) {
   var ret = [];
@@ -99,12 +114,12 @@ function getFwList(device) {
       return;
     }
   }
+  if (ret == 0) return;
   const obj = {
     devices: [device],
     firmwares: [ret]
   }
   fwLists.push(obj)
-  return fwLists
 }
 
 const props = defineProps({

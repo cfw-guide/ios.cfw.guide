@@ -685,8 +685,6 @@
         "iPad7,4",
         "iPad7,5",
         "iPad7,6",
-        "iPad7,11",
-        "iPad7,12",
         "iPod7,1",
         "iPod9,1"
       ]
@@ -713,15 +711,7 @@
         "iPad8,5",
         "iPad8,6",
         "iPad8,7",
-        "iPad8,8",
-        "iPad8,9",
-        "iPad8,10",
-        "iPad8,11",
-        "iPad8,12",
-        "iPad11,1",
-        "iPad11,2",
-        "iPad11,3",
-        "iPad11,4"
+        "iPad8,8"
       ]
     }
   },
