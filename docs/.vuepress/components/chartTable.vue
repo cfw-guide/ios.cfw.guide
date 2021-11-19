@@ -1,4 +1,13 @@
 <template>
+  <p v-if="device != 'all'">
+    <template v-if="deviceList[device].hasOwnProperty('name')">Device: {{ deviceList[device].name }}</template>
+    <br v-if="deviceList[device].hasOwnProperty('name')">Identifier: {{ device }}
+    <template v-if="deviceList[device].hasOwnProperty('soc')"><br>SoC: {{ deviceList[device].soc }}</template>
+    <template v-if="deviceList[device].hasOwnProperty('arch')"><br>Architecture: {{ deviceList[device].arch }}</template>
+    <template v-if="deviceList[device].hasOwnProperty('model')"><br>Model<template v-if="deviceList[device].model.length > 1">s</template>: <template v-for="i in deviceList[device].model.length">{{ deviceList[device].model[i-1] }}<template v-if="i != deviceList[device].model.length">, </template></template></template>
+    <template v-if="deviceList[device].hasOwnProperty('released')"><br>Released: {{ deviceList[device].released }}</template>
+    <template v-if="deviceList[device].hasOwnProperty('discontinued')"><br>Discontinued: {{ deviceList[device].discontinued }}</template>
+  </p>
   <table>
     <colgroup>
       <col span="1" style="width: 15%;">
