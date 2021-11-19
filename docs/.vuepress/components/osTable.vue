@@ -5,6 +5,10 @@
     Build Number: {{ getFw(os).build }}<br>
     Released: {{ getFw(os).released }}
   </p>
+  <h2 v-if="getDeviceList(os).length > 0">Devices</h2>
+  <ul>
+    <li v-for="d in getDeviceList(os)"><a :href="'/chart/device/' + d">{{ deviceList[d].name }}</a></li>
+  </ul>
   <h2 v-if="getJailbreakList(os).length > 0">Jailbreaks</h2>
   <template v-for="i in getJailbreakList(os).length">
     <h3>{{ getJailbreakList(os)[i-1] }}</h3>
