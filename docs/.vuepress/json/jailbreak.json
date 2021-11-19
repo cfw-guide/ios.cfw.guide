@@ -1310,5 +1310,76 @@
         "iPad3,4"
       ]
     }
+  },
+  "doubleh3lix": {
+    "name": "doubleh3lix",
+    "url": "/chart/jailbreak/doubleh3lix",
+    "info": {
+      "0": {
+        "name": "Website",
+        "value": "doubleh3lix.tihmstar.net",
+        "url": "https://doubleh3lix.tihmstar.net/",
+        "external": true
+      },
+      "1": {
+        "name": "Guide",
+        "value": "Installing doubleh3lix",
+        "url": "/installing-doubleh3lix/"
+      },
+      "2": {
+        "name": "Type",
+        "value": "Semi-untethered"
+      },
+      "3": {
+        "name": "Supported Firmwares",
+        "value": "10.0 to 10.3.3"
+      }
+    },
+    "0": {
+      "firmwares": [
+        "14A403",
+        "14A456",
+        "14B72",
+        "14B100",
+        "14B150",
+        "14C92",
+        "14D27",
+        "14E277",
+        "14E304",
+        "14F89",
+        "14F90",
+        "14F91",
+        "14G60"
+      ],
+      "devices": [
+        "iPhone6,1",
+        "iPhone6,2",
+        "iPhone7,1",
+        "iPhone7,2",
+        "iPhone8,1",
+        "iPhone8,2",
+        "iPhone8,4",
+        "iPad4,1",
+        "iPad4,2",
+        "iPad4,3",
+        "iPad4,4",
+        "iPad4,5",
+        "iPad4,6",
+        "iPad4,7",
+        "iPad4,8",
+        "iPad4,9",
+        "iPad5,1",
+        "iPad5,2",
+        "iPad5,3",
+        "iPad5,4",
+        "iPad6,3",
+        "iPad6,4",
+        "iPad6,7",
+        "iPad6,8",
+        "iPad6,11",
+        "iPad6,12",
+        "iPod7,1"
+      ]
+    }
   }
 }
