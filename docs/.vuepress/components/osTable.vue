@@ -5,6 +5,11 @@
     Build Number: {{ getFw(os).build }}<br>
     Released: {{ getFw(os).released }}
   </p>
+  <p v-if="getFw(os).hasOwnProperty('info')">
+    <template v-for="info in getFw(os).info">
+      {{ info.name }}: {{ info.value }}<br v-if="getFw(os).info.length > 1">
+    </template>
+  </p>
   <h2 v-if="getDeviceList(os).length > 0">Devices</h2>
   <ul>
     <li v-for="d in getDeviceList(os)"><a :href="'/chart/device/' + d">{{ deviceList[d].name }}</a></li>
