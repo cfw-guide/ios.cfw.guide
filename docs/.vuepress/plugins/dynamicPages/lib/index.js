@@ -40,7 +40,7 @@ module.exports = {
                 await createPage(app, {
                   path: '/chart/firmware/' + b.build + '.html',
                   frontmatter: {
-                    title: b.ver,
+                    title: 'iOS' + b.ver + ' (' + b.build + ')',
                     sidebar: false
                   },
                   content: `<osTable os="` + b.build + `"/>`
