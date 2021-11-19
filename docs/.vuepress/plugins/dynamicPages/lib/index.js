@@ -12,7 +12,7 @@ module.exports = {
           path: '/chart/device/' + device + '.html',
           frontmatter: {
             title: deviceList[device].name,
-            excerpt: 'Compatible jailbreaks for ' + deviceList[device].name,
+            description: 'Compatible jailbreaks for ' + deviceList[device].name,
             sidebar: false
           },
           content: `<chartTable device="` + device + `"/>`
@@ -25,7 +25,7 @@ module.exports = {
           path: '/chart/jailbreak/' + jb + '.html',
           frontmatter: {
             title: jbList[jb].name,
-            excerpt: 'Compatible firmwares for ' + jbList[jb].name,
+            description: 'Compatible firmwares for ' + jbList[jb].name,
             sidebar: false
           },
           content: `<jbTable jb="` + jb + `"/>`
@@ -43,7 +43,7 @@ module.exports = {
                   path: '/chart/firmware/' + b.build + '.html',
                   frontmatter: {
                     title: 'iOS ' + b.ver + ' (' + b.build + ')',
-                    excerpt: 'Compatible jailbreaks for firmware version ' + b.ver,
+                    description: 'Compatible jailbreaks for firmware version ' + b.ver,
                     sidebar: false
                   },
                   content: `<osTable os="` + b.build + `"/>`
