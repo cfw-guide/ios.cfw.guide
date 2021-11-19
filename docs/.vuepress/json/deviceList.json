@@ -2,92 +2,144 @@
   "iPhone1,1": {
     "name"  : "iPhone 2G",
     "soc"   : "APL0098",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1203"],
+    "released"      : "2007-06-29",
+    "discontinued"  : "2008-07-15"
   },
   "iPhone1,2": {
     "name"  : "iPhone 3G",
     "soc"   : "APL0098",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1241", "A1324"],
+    "released"      : "2008-07-11",
+    "discontinued"  : "2010-06-07"
   },
   "iPhone2,1": {
     "name"  : "iPhone 3GS",
     "soc"   : "APL0298",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1303", "A1325"],
+    "released"      : "2009-06-19",
+    "discontinued"  : "2010-06-24"
   },
   "iPhone3,1": {
     "name"  : "iPhone 4 (GSM)",
     "soc"   : "A4",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1332"],
+    "released"      : "2010-06-24",
+    "discontinued"  : "2013-09-10"
   },
   "iPhone3,2": {
     "name"  : "iPhone 4 (GSM / 2012)",
     "soc"   : "A4",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "discontinued"  : "2013-09-10"
   },
   "iPhone3,3": {
     "name"  : "iPhone 4 (CDMA)",
     "soc"   : "A4",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1349"],
+    "released"      : "2011-02-10",
+    "discontinued"  : "2013-09-10"
   },
   "iPhone4,1": {
     "name"  : "iPhone 4S",
     "soc"   : "A5",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1387"],
+    "released"      : "2011-10-14",
+    "discontinued"  : "2013-09-20"
   },
   "iPhone5,1": {
     "name"  : "iPhone 5 (GSM)",
     "soc"   : "A6",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1428", "A1429"],
+    "released"      : "2012-09-21",
+    "discontinued"  : "2013-09-10"
   },
   "iPhone5,2": {
     "name"  : "iPhone 5 (Global)",
     "soc"   : "A6",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1429"],
+    "released"      : "2012-09-21",
+    "discontinued"  : "2013-09-10"
   },
   "iPhone5,3": {
     "name"  : "iPhone 5C (GSM)",
     "soc"   : "A6",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1456", "A1507", "A1516", "A1529", "A1532"],
+    "released"      : "2013-09-20",
+    "discontinued"  : "2015-09-09"
   },
   "iPhone5,4": {
     "name"  : "iPhone 5C (Global)",
     "soc"   : "A6",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1456", "A1507", "A1516", "A1529", "A1532"],
+    "released"      : "2013-09-20",
+    "discontinued"  : "2015-09-09"
   },
   "iPhone6,1": {
     "name"  : "iPhone 5S (GSM)",
     "soc"   : "A7",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1457", "A1518", "A1528", "A1530", "A1533"],
+    "released"      : "2013-09-20",
+    "discontinued"  : "2016-03-21"
   },
   "iPhone6,2": {
     "name"  : "iPhone 5S (Global)",
     "soc"   : "A7",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1453"],
+    "released"      : "2013-09-20",
+    "discontinued"  : "2016-03-21"
   },
   "iPhone7,1": {
     "name"  : "iPhone 6+",
     "soc"   : "A8",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1522", "A1524", "A1593"],
+    "released"      : "2014-09-14",
+    "discontinued"  : "2018-09-12"
   },
   "iPhone7,2": {
     "name"  : "iPhone 6",
     "soc"   : "A8",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1549", "A1586", "A1589"],
+    "released"      : "2014-09-14",
+    "discontinued"  : "2018-09-12"
   },
   "iPhone8,1": {
     "name"  : "iPhone 6S",
     "soc"   : "A9",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1633", "A1688", "A1700"],
+    "released"      : "2015-09-25",
+    "discontinued"  : "2018-09-12"
   },
   "iPhone8,2": {
     "name"  : "iPhone 6S+",
     "soc"   : "A9",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1634", "A1687", "A1699"],
+    "released"      : "2015-09-25",
+    "discontinued"  : "2018-09-12"
   },
   "iPhone8,4": {
     "name"  : "iPhone SE",
     "soc"   : "A9",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1662", "A1723", "A1724"],
+    "released"      : "2016-03-21",
+    "discontinued"  : "2018-09-12"
   },
   "iPhone9,1": {
     "name"  : "iPhone 7 (Global)",

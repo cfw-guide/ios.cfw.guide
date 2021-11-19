@@ -9,7 +9,7 @@ for (var device in deviceList) {
   page.push({
     path: '/chart/device/' + device + '.html',
     frontmatter: {
-      title: deviceList[device].name,
+      title: 'Firmware Chart (' + deviceList[device].name + ')',
       description: 'Compatible jailbreaks for ' + deviceList[device].name,
       sidebar: false
     },
