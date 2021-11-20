@@ -1,4 +1,4 @@
-{
+module.exports = {
   "checkra1n": {
     "name": "checkra1n",
     "info": {

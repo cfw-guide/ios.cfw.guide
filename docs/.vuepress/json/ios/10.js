@@ -1,34 +1,24 @@
-{
+module.exports = {
   "0": {
     "0": {
       "0": {
-        "ver": "9.0",
-        "build": "13A340",
-        "released": "2015-09-16",
+        "ver": "10.0",
+        "build": "13A346",
+        "released": "2016-09-13",
         "devices": [
-          "iPad5,1",
-          "iPad5,2"
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4"
         ]
-      },
-      "1": {
-        "ver": "9.0",
-        "build": "13A342",
-        "released": "2015-09-16",
-        "devices": [ "iPhone8,1" ]
-      },
-      "2": {
-        "ver": "9.0",
-        "build": "13A343",
-        "released": "2015-09-16",
-        "devices": [ "iPhone8,2" ]
-      },
-      "3": {
-        "ver": "9.0",
-        "build": "13A344",
-        "released": "2015-09-16",
+      }
+    },
+    "1": {
+      "0": {
+        "ver": "10.0.1",
+        "build": "14A403",
+        "released": "2016-09-13",
         "devices": [
-          "iPhone4,1",
-          
           "iPhone5,1",
           "iPhone5,2",
           
@@ -41,17 +31,16 @@
           "iPhone7,2",
           "iPhone7,1",
           
-          "iPod5,1",
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
           "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
           
           "iPad3,4",
           "iPad3,5",
@@ -64,9 +53,574 @@
           "iPad5,3",
           "iPad5,4",
           
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    },
+    "2": {
+      "0": {
+        "ver": "10.0.2",
+        "build": "14A456",
+        "released": "2016-09-23",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    },
+    "3": {
+      "0": {
+        "ver": "10.0.3",
+        "build": "14A551",
+        "released": "2016-10-17",
+        "devices": [
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4"
+        ]
+      }
+    }
+  },
+  "1": {
+    "0": {
+      "0": {
+        "ver": "10.1",
+        "build": "14B72",
+        "released": "2016-10-24",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      },
+      "1": {
+        "ver": "10.1",
+        "build": "14B72c",
+        "released": "2016-10-24",
+        "devices": [
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4"
+        ]
+      }
+    },
+    "1": {
+      "0": {
+        "ver": "10.1.1",
+        "build": "14B100",
+        "released": "2016-10-31",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      },
+      "1": {
+        "ver": "10.1.1",
+        "build": "14B150",
+        "released": "2016-11-09",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    }
+  },
+  "2": {
+    "0": {
+      "0": {
+        "ver": "10.2",
+        "build": "14C92",
+        "released": "2016-12-12",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    },
+    "1": {
+      "0": {
+        "ver": "10.2.1",
+        "build": "14D27",
+        "released": "2017-01-23",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad6,11",
+          "iPad6,12",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    }
+  },
+  "3": {
+    "0": {
+      "0": {
+        "ver": "10.3",
+        "build": "14E277",
+        "released": "2017-01-23",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad6,11",
+          "iPad6,12",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    },
+    "1": {
+      "0": {
+        "ver": "10.3.1",
+        "build": "14E304",
+        "released": "2017-04-03",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad6,11",
+          "iPad6,12",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
+          
+          "iPad4,4",
+          "iPad4,5",
+          "iPad4,6",
+          
+          "iPad4,7",
+          "iPad4,8",
+          "iPad4,9",
+          
+          "iPad5,1",
+          "iPad5,2"
+        ]
+      }
+    },
+    "2": {
+      "0": {
+        "ver": "10.3.2",
+        "build": "14F89",
+        "released": "2017-05-15",
+        "devices": [
+          "iPhone5,1",
+          "iPhone5,2",
+          
+          "iPhone5,3",
+          "iPhone5,4",
+          
+          "iPhone6,1",
+          "iPhone6,2",
+          
+          "iPhone7,2",
+          "iPhone7,1",
+          
+          "iPhone8,1",
+          "iPhone8,2",
+          "iPhone8,4",
+          
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
+          "iPod7,1",
+          
+          "iPad3,4",
+          "iPad3,5",
+          "iPad3,6",
+          
+          "iPad4,1",
+          "iPad4,2",
+          "iPad4,3",
+          
+          "iPad5,3",
+          "iPad5,4",
+          
+          "iPad6,3",
+          "iPad6,4",
+          
+          "iPad6,7",
+          "iPad6,8",
           
           "iPad4,4",
           "iPad4,5",
@@ -76,640 +630,44 @@
           "iPad4,8",
           "iPad4,9"
         ]
-      }
-    },
-    "1": {
-      "0": {
-        "ver": "9.0.1",
-        "build": "13A404",
-        "released": "2015-09-23",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
       },
       "1": {
-        "ver": "9.0.1",
-        "build": "13A405",
-        "released": "2015-09-23",
+        "ver": "10.3.2",
+        "build": "14F90",
+        "released": "2017-05-15",
         "devices": [
-          "iPhone8,1",
-          "iPhone8,2"
-        ]
-      }
-    },
-    "2": {
-      "0": {
-        "ver": "9.0.2",
-        "build": "13A452",
-        "released": "2015-09-30",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      }
-    }
-  },
-  "1": {
-    "0": {
-      "0": {
-        "ver": "9.1",
-        "build": "13B143",
-        "released": "2015-10-21",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      },
-      "1": {
-        "ver": "9.1",
-        "build": "13B144",
-        "released": "2015-11-17",
-        "devices": [
-          "iPad6,7",
-          "iPad6,8"
-        ]
-      }
-    }
-  },
-  "2": {
-    "0": {
-      "0": {
-        "ver": "9.2",
-        "build": "13C75",
-        "released": "2015-12-08",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,7",
-          "iPad6,8",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      }
-    },
-    "1": {
-      "0": {
-        "ver": "9.2.1",
-        "build": "13D15",
-        "released": "2016-01-19",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      },
-      "1": {
-        "ver": "9.2.1",
-        "build": "13D20",
-        "released": "2016-02-18",
-        "devices": [
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,7",
-          "iPad6,8"
-        ]
-      }
-    }
-  },
-  "3": {
-    "0": {
-      "0": {
-        "ver": "9.3",
-        "build": "13E233",
-        "released": "2016-03-21",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,7",
-          "iPad6,8",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      },
-      "1": {
-        "ver": "9.3",
-        "build": "13E234",
-        "released": "2016-03-21",
-        "devices": [
-          "iPhone8,1",
-          "iPhone8,2",
-          "iPad6,3",
-          "iPad6,4"
+          "iPad6,11",
+          "iPad6,12"
         ]
       },
       "2": {
-        "ver": "9.3",
-        "build": "13E236",
-        "released": "2016-03-25",
+        "ver": "10.3.2",
+        "build": "14F91",
+        "released": "2017-05-15",
         "devices": [
-          "iPad2,1",
-          "iPad2,2"
+          "iPad5,1",
+          "iPad5,2"
         ]
       },
       "3": {
-        "ver": "9.3",
-        "build": "13E237",
-        "released": "2016-03-28",
+        "ver": "10.3.2",
+        "build": "14F8089",
+        "released": "2017-05-15",
         "devices": [
-          "iPhone4,1",
+          "iPad7,3",
+          "iPad7,4",
           
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPod5,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6"
-        ]
-      }
-    },
-    "1": {
-      "0": {
-        "ver": "9.3.1",
-        "build": "13E238",
-        "released": "2016-03-31",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPhone8,4",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,3",
-          "iPad6,4",
-          "iPad6,7",
-          "iPad6,8",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      }
-    },
-    "2": {
-      "0": {
-        "ver": "9.3.2",
-        "build": "13F69",
-        "released": "2016-05-16",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPhone8,4",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,3",
-          "iPad6,4",
-          "iPad6,7",
-          "iPad6,8",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      },
-      "1": {
-        "ver": "9.3.2",
-        "build": "13F72",
-        "released": "2016-06-02",
-        "devices": [
-          "iPad6,3",
-          "iPad6,4"
+          "iPad7,1",
+          "iPad7,2"
         ]
       }
     },
     "3": {
       "0": {
-        "ver": "9.3.3",
-        "build": "13G34",
-        "released": "2016-07-18",
+        "ver": "10.3.3",
+        "build": "14G60",
+        "released": "2017-07-19",
         "devices": [
-          "iPhone4,1",
-          
           "iPhone5,1",
           "iPhone5,2",
           
@@ -724,24 +682,21 @@
           
           "iPhone8,1",
           "iPhone8,2",
-          
           "iPhone8,4",
           
-          "iPod5,1",
+          "iPhone9,1",
+          "iPhone9,2",
+          "iPhone9,3",
+          "iPhone9,4",
+          
           "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
           
           "iPad3,4",
           "iPad3,5",
           "iPad3,6",
+          
+          "iPad6,11",
+          "iPad6,12",
           
           "iPad4,1",
           "iPad4,2",
@@ -752,12 +707,15 @@
           
           "iPad6,3",
           "iPad6,4",
+          
+          "iPad7,3",
+          "iPad7,4",
+          
           "iPad6,7",
           "iPad6,8",
           
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
+          "iPad7,1",
+          "iPad7,2",
           
           "iPad4,4",
           "iPad4,5",
@@ -774,156 +732,15 @@
     },
     "4": {
       "0": {
-        "ver": "9.3.4",
-        "build": "13G35",
-        "released": "2016-08-04",
+        "ver": "10.3.4",
+        "build": "14G61",
+        "released": "2017-07-22",
         "devices": [
-          "iPhone4,1",
-          
           "iPhone5,1",
           "iPhone5,2",
           
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPhone8,4",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
           "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,3",
-          "iPad6,4",
-          "iPad6,7",
-          "iPad6,8",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      }
-    },
-    "5": {
-      "0": {
-        "ver": "9.3.5",
-        "build": "13G36",
-        "released": "2016-08-25",
-        "devices": [
-          "iPhone4,1",
-          
-          "iPhone5,1",
-          "iPhone5,2",
-          
-          "iPhone5,3",
-          "iPhone5,4",
-          
-          "iPhone6,1",
-          "iPhone6,2",
-          
-          "iPhone7,2",
-          "iPhone7,1",
-          
-          "iPhone8,1",
-          "iPhone8,2",
-          
-          "iPhone8,4",
-          
-          "iPod5,1",
-          "iPod7,1",
-          
-          "iPad2,1",
-          "iPad2,2",
-          "iPad2,3",
-          "iPad2,4",
-          
-          "iPad3,1",
-          "iPad3,2",
-          "iPad3,3",
-          
-          "iPad3,4",
-          "iPad3,5",
-          "iPad3,6",
-          
-          "iPad4,1",
-          "iPad4,2",
-          "iPad4,3",
-          
-          "iPad5,3",
-          "iPad5,4",
-          
-          "iPad6,3",
-          "iPad6,4",
-          "iPad6,7",
-          "iPad6,8",
-          
-          "iPad2,5",
-          "iPad2,6",
-          "iPad2,7",
-          
-          "iPad4,4",
-          "iPad4,5",
-          "iPad4,6",
-          
-          "iPad4,7",
-          "iPad4,8",
-          "iPad4,9",
-          
-          "iPad5,1",
-          "iPad5,2"
-        ]
-      }
-    },
-    "6": {
-      "0": {
-        "ver": "9.3.6",
-        "build": "13G37",
-        "released": "2019-07-22",
-        "devices": [
-          "iPhone4,1",
-          "iPad2,3",
-          "iPad3,2",
-          "iPad3,3",
-          "iPad2,6",
-          "iPad2,7"
+          "iPad3,6"
         ]
       }
     }
