@@ -1,0 +1,11 @@
+{
+  "name": "vuepress-dynamic-pages",
+  "version": "1.0.0",
+  "keywords": [
+    "vuepress-dynamic-pages"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ]
+}

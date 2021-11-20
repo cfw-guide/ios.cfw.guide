@@ -3,6 +3,7 @@ lang: en_US
 title: Installing EtasonJB
 description: Guide to installing etasonjb
 permalink: /installing-etasonjb
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /etasonjb
   - /es

@@ -3,6 +3,7 @@ lang: en_US
 title: Installing Kok3shi
 description: Guide to installing kok3shi
 permalink: /installing-kok3shi
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /kok3shi
   - /kokeshi

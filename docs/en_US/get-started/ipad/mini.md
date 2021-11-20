@@ -3,6 +3,7 @@ lang: en_US
 title: Firmware Selection (iPad Mini)
 description: Find out what jailbreaks you can use on your iPad Mini
 permalink: /get-started/ipad/mini
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /ipad-mini
   - /ipad-mini-1
