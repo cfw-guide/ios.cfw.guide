@@ -1,4 +1,4 @@
-{
+module.exports = {
   "iPhone1,1": {
     "name"  : "iPhone 2G",
     "soc"   : "APL0098",

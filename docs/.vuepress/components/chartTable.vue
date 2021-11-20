@@ -61,7 +61,7 @@ if (props.device == 'all') showAll = true;
 
 const deviceList = computed(() => require('../json/deviceList'));
 const jbList = require('../json/jailbreak');
-var iosVer = {"0": require('../json/ios/1'), "1": require('../json/ios/2'),"2": require('../json/ios/3'),"3": require('../json/ios/4'),"4": require('../json/ios/5'),"5": require('../json/ios/6'),"6": require('../json/ios/7'),"7": require('../json/ios/8'),"8": require('../json/ios/9'),"9": require('../json/ios/10'),"10": require('../json/ios/11'),"11": require('../json/ios/12'),"12": require('../json/ios/13'),"13": require('../json/ios/14'),"14": require('../json/ios/15'),};
+const iosVer = require('../json/ios');
 
 function getTools(ver, device) {
   var toolArr = [];
