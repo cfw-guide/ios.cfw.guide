@@ -63,11 +63,9 @@ module.exports = [
     ]
   },
   {
-    {
-      "ver": "1.1.5",
-      "build": "4B1",
-      "released": "2008-07-15",
-      "devices": [ "iPod1,1" ]
-    }
+    "ver": "1.1.5",
+    "build": "4B1",
+    "released": "2008-07-15",
+    "devices": [ "iPod1,1" ]
   }
 ]
