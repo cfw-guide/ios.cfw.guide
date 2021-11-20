@@ -14,10 +14,10 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
+          "iPhone7,2", // iPhone 6, A8
           
           "iPod5,1",
           
@@ -55,7 +55,7 @@ module.exports = {
         "ver": "8.0",
         "build": "12A366",
         "released": "2014-09-17",
-        "devices": [ "iPhone7,1" ]
+        "devices": [ "iPhone7,1" ] // iPhone 6+, A8
       }
     },
     "1": {
@@ -72,11 +72,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           
@@ -125,11 +125,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           
@@ -218,11 +218,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1"
         ]
@@ -242,8 +242,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -285,8 +285,8 @@ module.exports = {
         "build": "12B436",
         "released": "2014-11-17",
         "devices": [
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPad5,3",
           "iPad5,4",
@@ -311,11 +311,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           
@@ -367,11 +367,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           
@@ -425,11 +425,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           
@@ -523,10 +523,10 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
+          "iPhone7,2", // iPhone 6, A8
           "iPhone7,1"
         ]
       }
@@ -547,11 +547,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           "iPod7,1",
@@ -604,11 +604,11 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
-          "iPhone7,2",
-          "iPhone7,1",
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone7,1", // iPhone 6+, A8
           
           "iPod5,1",
           "iPod7,1",
