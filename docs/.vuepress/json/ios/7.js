@@ -43,7 +43,7 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
+          "iPhone6,1", // iPhone 5S (GSM), A7
           "iPhone6,2"
         ]
       }
@@ -57,7 +57,7 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
+          "iPhone6,1", // iPhone 5S (GSM), A7
           "iPhone6,2"
         ]
       }
@@ -80,8 +80,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -130,8 +130,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -180,8 +180,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -221,7 +221,7 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
+          "iPhone6,1", // iPhone 5S (GSM), A7
           "iPhone6,2"
         ]
       }
@@ -244,8 +244,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -294,8 +294,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -353,8 +353,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           
@@ -403,8 +403,8 @@ module.exports = {
           "iPhone5,3",
           "iPhone5,4",
           
-          "iPhone6,1",
-          "iPhone6,2",
+          "iPhone6,1", // iPhone 5S (GSM), A7
+          "iPhone6,2", // iPhone 5S (Global), A7
           
           "iPod5,1",
           

@@ -17,12 +17,12 @@ module.exports = {
         "build": "19A346",
         "released": "2021-09-20",
         "devices": [
-          "iPhone7,1",
-          "iPhone7,2",
-          "iPhone8,1",
-          "iPhone8,2",
-          "iPhone8,4",
-          "iPhone9,1",
+          "iPhone7,1", // iPhone 6+, A8
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone8,1", // iPhone 6S, A9
+          "iPhone8,2", // iPhone 6S+, A9
+          "iPhone8,4", // iPhone SE, A9
+          "iPhone9,1", // iPhone 7 (Global), A10
           "iPhone9,2",
           "iPhone9,3",
           "iPhone9,4",
@@ -108,12 +108,12 @@ module.exports = {
         "build": "19A348",
         "released": "2021-10-01",
         "devices": [
-          "iPhone7,1",
-          "iPhone7,2",
-          "iPhone8,1",
-          "iPhone8,2",
-          "iPhone8,4",
-          "iPhone9,1",
+          "iPhone7,1", // iPhone 6+, A8
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone8,1", // iPhone 6S, A9
+          "iPhone8,2", // iPhone 6S+, A9
+          "iPhone8,4", // iPhone SE, A9
+          "iPhone9,1", // iPhone 7 (Global), A10
           "iPhone9,2",
           "iPhone9,3",
           "iPhone9,4",
@@ -199,12 +199,12 @@ module.exports = {
         "build": "19A404",
         "released": "2021-10-11",
         "devices": [
-          "iPhone7,1",
-          "iPhone7,2",
-          "iPhone8,1",
-          "iPhone8,2",
-          "iPhone8,4",
-          "iPhone9,1",
+          "iPhone7,1", // iPhone 6+, A8
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone8,1", // iPhone 6S, A9
+          "iPhone8,2", // iPhone 6S+, A9
+          "iPhone8,4", // iPhone SE, A9
+          "iPhone9,1", // iPhone 7 (Global), A10
           "iPhone9,2",
           "iPhone9,3",
           "iPhone9,4",
@@ -292,12 +292,12 @@ module.exports = {
         "build": "19B74",
         "released": "2021-10-25",
         "devices": [
-          "iPhone7,1",
-          "iPhone7,2",
-          "iPhone8,1",
-          "iPhone8,2",
-          "iPhone8,4",
-          "iPhone9,1",
+          "iPhone7,1", // iPhone 6+, A8
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone8,1", // iPhone 6S, A9
+          "iPhone8,2", // iPhone 6S+, A9
+          "iPhone8,4", // iPhone SE, A9
+          "iPhone9,1", // iPhone 7 (Global), A10
           "iPhone9,2",
           "iPhone9,3",
           "iPhone9,4",
