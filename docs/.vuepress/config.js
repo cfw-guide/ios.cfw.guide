@@ -1,50 +1,28 @@
-import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
-const { path } = require('@vuepress/utils')
-import { navbar, sidebar } from './configs'
+const config = require("./configs");
+const path = require("path");
 
-export default defineUserConfig<DefaultThemeOptions>({
-  base: '/',
-  
+module.exports = {
   locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'iOS Guide',
-      description: 'A complete iOS modding guide, from stock to jailbroken.',
-    },
+    '/': config.en_US.locales
   },
 
 	plugins: [
 		[
-			"@vuepress/plugin-search",
-			{
+			"@vuepress/plugin-search", {
 				locales: {
-					"/": {
-						placeholder: "Search"
-					},
+					"/": {placeholder: config.en_US.search}
 				}
 			}
 		],
-		[
-			'@vuepress/register-components',
-			{
-				componentsDir: path.resolve(__dirname, './components')
-			}
-		],
-    require('./plugins/dynamicPages/lib/')
 	],
   
   themeConfig: {
     repo: 'cfw-guide/ios.cfw.guide',
     adTagOne: 'waldo-tag-8541',
     adTagTwo: 'waldo-tag-8542',
+    selectLanguageText: '<i class="fas fa-globe"/>',
     locales: {
-      '/': {
-        navbar: navbar.en,
-        sidebar: sidebar.en,
-        
-        discordNoticeText: "For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).",
-      },
+      '/': config.en_US.themeConfig
     },
   },
   
@@ -75,4 +53,4 @@ export default defineUserConfig<DefaultThemeOptions>({
   
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
-})
+};
