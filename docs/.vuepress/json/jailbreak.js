@@ -595,8 +595,6 @@ module.exports = {
         "17H35"
       ],
       "devices": [
-        "iPhone7,1", // iPhone 6+, A8
-        "iPhone7,2", // iPhone 6, A8
         "iPhone8,1", // iPhone 6S, A9
         "iPhone8,2", // iPhone 6S+, A9
         "iPhone8,4", // iPhone SE, A9
