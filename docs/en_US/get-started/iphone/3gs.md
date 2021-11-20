@@ -3,6 +3,7 @@ lang: en_US
 title: Firmware Selection (iPhone 3GS)
 description: Find out what jailbreaks you can use on your iPhone 3GS
 permalink: /get-started/iphone/3gs
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /iphone-3gs
 soc: APL0298
