@@ -1,13 +1,11 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
-
-export const getStarted: SidebarConfig = {
+const getStarted = {
   text: 'iOS Guide',
   children: [
     '/get-started/',
   ],
 }
 
-export const guides: SidebarConfig = {
+const guides = {
   text: 'Guides',
   children: [
     '/saving-blobs/',
@@ -20,7 +18,7 @@ export const guides: SidebarConfig = {
   ],
 }
 
-export const troubleshooting: SidebarConfig = {
+const troubleshooting = {
   text: 'Troubleshooting',
   children: [
     '/troubleshooting/',
@@ -33,7 +31,7 @@ export const troubleshooting: SidebarConfig = {
   ],
 }
 
-export const en: SidebarConfig = {
+module.exports = {
   '/': [
     getStarted,
     {
