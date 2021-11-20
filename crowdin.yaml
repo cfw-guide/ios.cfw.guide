@@ -1,0 +1,9 @@
+project_id_env: IOS_GUIDE_CROWDIN_ID
+api_token_env: CROWDIN_TOKEN
+preserve_hierarchy: true
+
+files:
+  - source: /docs/en_US/**/*.md
+    translation: /docs/%locale_with_underscore%/**/%original_file_name%
+  - source: /docs/.vuepress/configs/**/en_US.js
+    translation: /docs/.vuepress/configs/**/%locale_with_underscore%.js
