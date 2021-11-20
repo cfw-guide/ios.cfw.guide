@@ -2,6 +2,7 @@ const iosList = require('../../../../json/iosNew');
 var page = [];
 
 for (var i in iosList) {
+  const v = iosList[i];
   page.push({
     path: '/chart/firmware/' + iosList[i].build + '.html',
     frontmatter: {
