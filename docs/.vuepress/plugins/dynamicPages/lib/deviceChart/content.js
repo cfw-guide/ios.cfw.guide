@@ -65,7 +65,7 @@ function getDeviceTable(device, showAll) {
         
   for (var b in buildArr) {
     b = buildArr.length - b - 1 // Reverse list of firmwares
-    if (!buildArr[b].hasOwnProperty('ver')) continue;
+    //if (!buildArr[b].hasOwnProperty('ver')) continue;
     html += '<tr>'
     html += '<td><a href="' + fwPath + buildArr[b].build + '">' + buildArr[b].build + '</a></td>'
     html += '<td>' + buildArr[b].ver + '</td>'
