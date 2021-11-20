@@ -15,8 +15,6 @@ module.exports = [
     "build": "19A346",
     "released": "2021-09-20",
     "devices": [
-      
-      
       "iPhone8,1", // iPhone 6S, A9
       "iPhone8,2", // iPhone 6S+, A9
       "iPhone8,4", // iPhone SE, A9
@@ -104,8 +102,6 @@ module.exports = [
     "build": "19A348",
     "released": "2021-10-01",
     "devices": [
-      
-      
       "iPhone8,1", // iPhone 6S, A9
       "iPhone8,2", // iPhone 6S+, A9
       "iPhone8,4", // iPhone SE, A9
@@ -193,8 +189,6 @@ module.exports = [
     "build": "19A404",
     "released": "2021-10-11",
     "devices": [
-      
-      
       "iPhone8,1", // iPhone 6S, A9
       "iPhone8,2", // iPhone 6S+, A9
       "iPhone8,4", // iPhone SE, A9
@@ -282,8 +276,6 @@ module.exports = [
     "build": "19B74",
     "released": "2021-10-25",
     "devices": [
-      
-      
       "iPhone8,1", // iPhone 6S, A9
       "iPhone8,2", // iPhone 6S+, A9
       "iPhone8,4", // iPhone SE, A9
