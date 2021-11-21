@@ -1,27 +1,16 @@
-import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
-const { path } = require('@vuepress/utils')
-import { navbar, sidebar } from './configs'
+const config = require("./configs");
+const path = require("path");
 
-export default defineUserConfig<DefaultThemeOptions>({
-  base: '/',
-  
+module.exports = {
   locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'iOS Guide',
-      description: 'A complete iOS modding guide, from stock to jailbroken.',
-    },
+    '/': config.en_US.locales
   },
 
 	plugins: [
 		[
-			"@vuepress/plugin-search",
-			{
+			"@vuepress/plugin-search", {
 				locales: {
-					"/": {
-						placeholder: "Search"
-					},
+					"/": {placeholder: config.en_US.search}
 				}
 			}
 		],
@@ -30,20 +19,17 @@ export default defineUserConfig<DefaultThemeOptions>({
 			{
 				componentsDir: path.resolve(__dirname, './components')
 			}
-		]
+		],
+    require('./plugins/dynamicPages/lib/')
 	],
   
   themeConfig: {
     repo: 'cfw-guide/ios.cfw.guide',
     adTagOne: 'waldo-tag-8541',
     adTagTwo: 'waldo-tag-8542',
+    selectLanguageText: '<i class="fas fa-globe"/>',
     locales: {
-      '/': {
-        navbar: navbar.en,
-        sidebar: sidebar.en,
-        
-        discordNoticeText: "For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).",
-      },
+      '/': config.en_US.themeConfig
     },
   },
   
@@ -59,6 +45,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     [ 'meta', { name: 'msapplication-TileImage', content: '/assets/favicon/mstile-144x144.png' } ],
     [ 'meta', { name: 'msapplication-config', content: '/assets/favicon/browserconfig.xml' } ],
     [ 'meta', { name: 'theme-color', content: '#2E3440' } ],
+    [ 'link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
     ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8531.js'}],
     ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
     ['script', {src: '/assets/js/analytics.js'}],
@@ -74,4 +61,4 @@ export default defineUserConfig<DefaultThemeOptions>({
   
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
-})
+};

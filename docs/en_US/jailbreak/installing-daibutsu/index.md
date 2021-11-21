@@ -3,6 +3,7 @@ lang: en_US
 title: Installing Daibutsu
 description: Guide to installing Daibutsu
 permalink: /installing-daibutsu
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /Daibutsu
   - /es

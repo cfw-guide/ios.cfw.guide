@@ -10,11 +10,11 @@ soc: A11
 
 ## Required Reading
 
-<readingTable minVer="11.1" maxVer="11.4.1"/>
+<readingTable minVer="11.0.1" maxVer="11.4.1"/>
 
 ## Version Table
 
-<versionTable soc="A11" minVer="11.1"/>
+<versionTable soc="A11" minVer="11.0.1"/>
 
 ---
 
