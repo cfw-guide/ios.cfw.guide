@@ -3,6 +3,7 @@ lang: en_US
 title: Using JailbreakMe Saffron
 description: Guide to using JailbreakMe (Saffron)
 permalink: /using-jailbreakme-saffron
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /installing-jailbreakme-saffron
   - /installing-saffron

@@ -1,6 +1,4 @@
-import type { NavbarConfig } from '@vuepress/theme-default'
-
-export const en: NavbarConfig = [
+module.exports = [
   {
     text: 'Guides',
     children: [

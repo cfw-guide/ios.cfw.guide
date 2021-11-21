@@ -3,6 +3,7 @@ lang: en_US
 title: Installing Phœnix
 description: Guide to installing Phoenix
 permalink: /installing-phoenix
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 redirect_from:
   - /phoenix
   - /pn
