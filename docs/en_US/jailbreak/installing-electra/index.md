@@ -28,6 +28,7 @@ Electra is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The latest version of [Electra](https://coolstar.org/electra/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
