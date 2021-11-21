@@ -4,7 +4,7 @@ module.exports = [
     "build": "7A341",
     "released": "2009-06-17",
     "devices": [
-      "iPhone1,1" // iPhone
+      "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
       "iPod1,1", // iPod touch
@@ -16,7 +16,7 @@ module.exports = [
     "build": "7A400",
     "released": "2009-07-31",
     "devices": [
-      "iPhone1,1" // iPhone
+      "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
     ]
@@ -26,7 +26,7 @@ module.exports = [
     "build": "7C144",
     "released": "2009-09-09",
     "devices": [
-      "iPhone1,1" // iPhone
+      "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
     ]
@@ -54,7 +54,7 @@ module.exports = [
     "build": "7D11",
     "released": "2009-10-08",
     "devices": [
-      "iPhone1,1" // iPhone
+      "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
       "iPod1,1", // iPod touch
@@ -67,7 +67,7 @@ module.exports = [
     "build": "7E18",
     "released": "2010-10-02",
     "devices": [
-      "iPhone1,1" // iPhone
+      "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
       "iPod1,1", // iPod touch
