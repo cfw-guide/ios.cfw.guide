@@ -45,6 +45,7 @@ module.exports = {
     [ 'meta', { name: 'msapplication-TileImage', content: '/assets/favicon/mstile-144x144.png' } ],
     [ 'meta', { name: 'msapplication-config', content: '/assets/favicon/browserconfig.xml' } ],
     [ 'meta', { name: 'theme-color', content: '#2E3440' } ],
+    [ 'link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
     ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8531.js'}],
     ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
     ['script', {src: '/assets/js/analytics.js'}],
