@@ -1,5 +1,12 @@
 const jbPath = '/chart/jailbreak/'
-const fwPath =  '/chart/firmware/'
+const fwPath = '/chart/firmware/'
+const devicePath = '/chart/device/'
+
+const header = [
+  'Info',
+  'Related Devices',
+  'Table',
+]
 
 const infoHeader = [
   'Device',
@@ -43,7 +50,7 @@ function getDate(d) {
   return `${date[1]} ${date[2]}, ${date[0]}`
 }
 
-function getDeviceInfo(device, showAll) {
+function getDeviceInfo(device) {
   const d = device;
   if (!d || !deviceList.hasOwnProperty(d)) return '';
   
@@ -64,7 +71,9 @@ function getDeviceInfo(device, showAll) {
   
   if (infoArr[5]) infoArr[5] = getDate(infoArr[5]);
   
-  var html = '<p>'
+  var html = `<h2>${header[0]}</h2>`
+  
+  html += '<p>'
   for (var i in infoArr) if (infoArr[i]) {
     html += infoHeader[i] + ': ' + infoArr[i];
     if (infoArr[parseInt(i) + 1]) html += '<br>';
@@ -74,9 +83,33 @@ function getDeviceInfo(device, showAll) {
   return html;
 }
 
+function getRelatedDevices(device) {
+  const d = device;
+  var html = ''
+  
+  if (!d || !deviceList.hasOwnProperty(d)) return html
+  if (!deviceList[d].hasOwnProperty('related')) return html;
+  var relatedDevices = deviceList[d].related;
+  if (relatedDevices.length < 1) return html;
+  
+  html += `<h2>${header[1]}</h2>`;
+  
+  html += '<ul>'
+  for (var i in relatedDevices) {
+    if (relatedDevices[i] == d) continue;
+    html += `<li><a href="${devicePath}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
+  }
+  html += '</ul>'
+  
+  return html;
+}
+
 function getDeviceTable(device, showAll) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
+  
+  var title = `<h2>${header[2]}</h2>`;
+  if (showAll) title = '';
   
   var html = '';
   
@@ -102,6 +135,7 @@ function getDeviceTable(device, showAll) {
   }
   
   return `
+  ${title}
   <table>
     <colgroup>
       <col style="width: 15%">
@@ -110,13 +144,12 @@ function getDeviceTable(device, showAll) {
     </colgroup>
     <thead>
       <tr>
-        <th>` + tableHeader[0] + `</th>
-        <th>` + tableHeader[1] + `</th>
-        <th>` + tableHeader[2] + `</th>
+        <th>${tableHeader[0]}</th>
+        <th>${tableHeader[1]}</th>
+        <th>${tableHeader[2]}</th>
       </tr>
     </thead>
-    <tbody>` + html + `
-    </tbody>
+    <tbody>${html}</tbody>
   </table>
   `
 }
@@ -139,5 +172,5 @@ function getJailbreaks(os, d, showAll) {
 }
 
 module.exports = function(device, showAll) {
-  return getDeviceInfo(device, showAll) + getDeviceTable(device, showAll)
+  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll)
 }
