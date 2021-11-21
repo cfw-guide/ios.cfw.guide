@@ -145,62 +145,62 @@ module.exports = {
   "iPhone9,1": {
     "name"  : "iPhone 7 (CDMA)",
     "soc"   : "A10",
-    "arch"  : "64-bit"
-    "model"         : ["A1660", "A1779", "A1780"],
+    "arch"  : "64-bit",
+    "model"         : ["A1660", "A1779", "A1780"]
   },
   "iPhone9,2": {
     "name"  : "iPhone 7 Plus (CDMA)",
     "soc"   : "A10",
-    "arch"  : "64-bit"
-    "model"         : ["A1661", "A1785", "A1786"],
+    "arch"  : "64-bit",
+    "model"         : ["A1661", "A1785", "A1786"]
   },
   "iPhone9,3": {
     "name"  : "iPhone 7 (GSM)",
     "soc"   : "A10",
-    "arch"  : "64-bit"
-    "model"         : ["A1778"],
+    "arch"  : "64-bit",
+    "model"         : ["A1778"]
   },
   "iPhone9,4": {
     "name"  : "iPhone 7 Plus (GSM)",
     "soc"   : "A10",
-    "arch"  : "64-bit"
-    "model"         : ["A1784"],
+    "arch"  : "64-bit",
+    "model"         : ["A1784"]
   },
   "iPhone10,1": {
     "name"  : "iPhone 8 (CDMA)",
     "soc"   : "A11",
-    "arch"  : "64-bit"
-    "model"         : ["A1863", "A1906", "A1907"],
+    "arch"  : "64-bit",
+    "model"         : ["A1863", "A1906", "A1907"]
   },
   "iPhone10,2": {
     "name"  : "iPhone 8 Plus (CDMA)",
     "soc"   : "A11",
-    "arch"  : "64-bit"
-    "model"         : ["A1864", "A1898", "A1899"],
+    "arch"  : "64-bit",
+    "model"         : ["A1864", "A1898", "A1899"]
   },
   "iPhone10,3": {
     "name"  : "iPhone X (CDMA)",
     "soc"   : "A11",
-    "arch"  : "64-bit"
-    "model"         : ["A1865", "A1902"],
+    "arch"  : "64-bit",
+    "model"         : ["A1865", "A1902"]
   },
   "iPhone10,4": {
     "name"  : "iPhone 8 (GSM)",
     "soc"   : "A11",
-    "arch"  : "64-bit"
-    "model"         : ["A1905"],
+    "arch"  : "64-bit",
+    "model"         : ["A1905"]
   },
   "iPhone10,5": {
     "name"  : "iPhone 8 Plus (GSM)",
     "soc"   : "A11",
-    "arch"  : "64-bit"
-    "model"         : ["A1897"],
+    "arch"  : "64-bit",
+    "model"         : ["A1897"]
   },
   "iPhone10,6": {
     "name"  : "iPhone X (GSM)",
     "soc"   : "A11",
-    "arch"  : "64-bit"
-    "model"         : ["A1901"],
+    "arch"  : "64-bit",
+    "model"         : ["A1901"]
   },
   "iPhone11,2": {
     "name"  : "iPhone XS",
