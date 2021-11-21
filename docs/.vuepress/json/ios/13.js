@@ -1,7 +1,7 @@
 module.exports = [
   {
     "ver": "13.0",
-    "build": "16A577",
+    "build": "17A577",
     "released": "2019-09-19",
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
