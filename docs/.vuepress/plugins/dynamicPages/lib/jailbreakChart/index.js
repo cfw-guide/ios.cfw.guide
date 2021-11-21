@@ -3,13 +3,13 @@ var page = [];
 
 for (var jb in jbList) {
   page.push({
-    path: '/chart/jailbreak/' + jb + '.html',
+    path: '/chart/jailbreak/' + jbList[jb].name + '.html',
     frontmatter: {
       title: jbList[jb].name,
       description: 'Compatible firmwares for ' + jbList[jb].name,
       sidebar: false
     },
-    content: `<jbTable jb="` + jb + `"/>`
+    content: require('./content')(jbList[jb].name)
   })
 };
 

@@ -1,4 +1,4 @@
-const iosList = require('../../../../json/iosNew');
+const iosList = require('../../../../json/ios');
 var page = [];
 
 for (var i in iosList) {
@@ -10,7 +10,7 @@ for (var i in iosList) {
       description: 'Compatible jailbreaks for firmware version ' + iosList[i].ver,
       sidebar: false
     },
-    content: `<osTable os="` + iosList[i].build + `"/>`
+    content: require('./content')(iosList[i].build)
   })
 };
 
