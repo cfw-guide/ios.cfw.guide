@@ -21,6 +21,7 @@ We will use the Sideloadly tool to install the Pangu9 jailbreak application to y
 
 - The latest version of [Pangu9](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.org)_
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

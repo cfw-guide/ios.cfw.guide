@@ -19,6 +19,7 @@ This jailbreak is in its early stages and therefore may not work as intended. Be
 
 - The latest version of [kok3shi](https://dora2ios.web.app/kokeshiJB.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

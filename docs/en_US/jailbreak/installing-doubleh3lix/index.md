@@ -22,6 +22,7 @@ We will use the Sideloadly tool to install the doubleh3lix jailbreak application
 
 - The latest version of [doubleh3lix](https://doubleh3lix.tihmstar.net/ipa/doubleH3lix-RC8.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
