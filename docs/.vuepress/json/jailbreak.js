@@ -119,7 +119,7 @@ module.exports = [
           "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
           "iPad7,11", // iPad (7th generation) Wi-Fi, A10
           "iPad7,12", // iPad (7th generation) Wi-Fi + Cellular, A10
-          "iPod7,1", // iPod touch (7th generation), A8 // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8 // iPod touch (7th generation), A8
           "iPod9,1", // iPod touch (7th generation), A8
         ]
       }
@@ -404,7 +404,7 @@ module.exports = [
           "iPad13,9", // iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular with mmWave, M1
           "iPad13,10", // iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular, M1
           "iPad13,11", // iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular (China mainland), M1
-          "iPod7,1", // iPod touch (7th generation), A8 // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8 // iPod touch (7th generation), A8
           "iPod9,1", // iPod touch (7th generation), A8
         ]
       },
@@ -777,7 +777,7 @@ module.exports = [
           "iPad7,4", // iPad Pro 2 (10.5-inch) Wi-Fi + Cellular, A10X
           "iPad7,5", // iPad (6th generation) Wi-Fi, A10
           "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
-          "iPod7,1", // iPod touch (7th generation), A8 // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8 // iPod touch (7th generation), A8
           "iPod9,1", // iPod touch (7th generation), A8
         ]
       },
@@ -915,7 +915,7 @@ module.exports = [
           "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
           "iPad7,11", // iPad (7th generation) Wi-Fi, A10
           "iPad7,12", // iPad (7th generation) Wi-Fi + Cellular, A10
-          "iPod7,1", // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8
         ]
       }
     ]
@@ -981,7 +981,7 @@ module.exports = [
           "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
           "iPad7,11", // iPad (7th generation) Wi-Fi, A10
           "iPad7,12", // iPad (7th generation) Wi-Fi + Cellular, A10
-          "iPod7,1", // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8
         ]
       }
     ]
@@ -1059,7 +1059,7 @@ module.exports = [
           "iPad7,4", // iPad Pro 2 (10.5-inch) Wi-Fi + Cellular, A10X
           "iPad7,5", // iPad (6th generation) Wi-Fi, A10
           "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
-          "iPod7,1", // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8
         ]
       }
     ]
@@ -1137,7 +1137,7 @@ module.exports = [
           "iPad7,4", // iPad Pro 2 (10.5-inch) Wi-Fi + Cellular, A10X
           "iPad7,5", // iPad (6th generation) Wi-Fi, A10
           "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
-          "iPod7,1", // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8
         ]
       }
     ]
@@ -1248,7 +1248,7 @@ module.exports = [
           "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
           "iPad6,11", // iPad (5th generation) Wi-Fi, A9
           "iPad6,12", // iPad (5th generation) Wi-Fi + Cellular, A9
-          "iPod7,1", // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8
         ]
       }
     ]
@@ -1326,7 +1326,90 @@ module.exports = [
           "iPad7,2", // iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular, A10X
           "iPad7,3", // iPad Pro 2 (10.5-inch) Wi-Fi, A10X
           "iPad7,4", // iPad Pro 2 (10.5-inch) Wi-Fi + Cellular, A10X
-          "iPod7,1", // iPod touch (7th generation), A8
+          "iPod7,1", // iPod touch (6th generation), A8
+        ]
+      }
+    ]
+  },
+  {
+    "name": "extra_recipe",
+    "info": {
+      "firmwares": ["10.0","10.0.2"],
+      "soc": "A10"
+    },
+    "compatibility": [
+      {
+        "firmwares": [
+          "13A346", // 10.0, iPhone 7 and iPhone 7 Plus only
+          "14A403", // 10.0.1
+          "14A456", // 10.0.2
+        ],
+        "devices": [
+          "iPhone9,1", // iPhone 7 (Global), A10
+          "iPhone9,2", // iPhone 7 Plus (CDMA), A10
+          "iPhone9,3", // iPhone 7 (GSM), A10
+          "iPhone9,4", // iPhone 7 Plus (GSM), A10
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TotallyNotSpyware",
+    "info": {
+      "firmwares": ["10.0","10.3.3"]
+    },
+    "compatibility": [
+      {
+        "firmwares": [
+          "13A346", // 10.0, iPhone 7 and iPhone 7 Plus only
+          "14A403", // 10.0.1
+          "14A456", // 10.0.2
+          "14A551", // 10.0.3, iPhone 7 and iPhone 7 Plus only
+          "14B72", // 10.1
+          "14B72c", // 10.1, iPhone 7 and iPhone 7 Plus only
+          "14B100", // 10.1.1
+          "14B150", // 10.1.1
+          "14C92", // 10.2
+          "14D27", // 10.2.1
+          "14E277", // 10.3
+          "14E304", // 10.3.1
+          "14F89", // 10.3.2
+          "14F90", // 10.3.2, iPad (5th generation) only
+          "14F91", // 10.3.2, iPad mini 4 (Wi-Fi + Cellular) only
+          "14G60", // 10.3.3
+        ],
+        "devices": [
+          "iPhone6,1", // iPhone 5s (GSM), A7
+          "iPhone6,2", // iPhone 5s (Global), A7
+          "iPhone7,1", // iPhone 6 Plus, A8
+          "iPhone7,2", // iPhone 6, A8
+          "iPhone8,1", // iPhone 6s, A9
+          "iPhone8,2", // iPhone 6s Plus, A9
+          "iPhone8,4", // iPhone SE, A9
+          "iPhone9,1", // iPhone 7 (Global), A10
+          "iPhone9,2", // iPhone 7 Plus (CDMA), A10
+          "iPhone9,3", // iPhone 7 (GSM), A10
+          "iPhone9,4", // iPhone 7 Plus (GSM), A10
+          "iPad4,1", // iPad Air Wi-Fi, A7
+          "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
+          "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+          "iPad4,4", // iPad mini 2 Wi-Fi, A7
+          "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
+          "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+          "iPad4,7", // iPad mini 3 Wi-Fi, A8
+          "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
+          "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
+          "iPad5,1", // iPad mini 4 Wi-Fi, A8
+          "iPad5,2", // iPad mini 4 Wi-Fi + Cellular, A8
+          "iPad5,3", // iPad Air 2 Wi-Fi, A8X
+          "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
+          "iPad6,3", // iPad Pro (9.7-inch) Wi-Fi, A9X
+          "iPad6,4", // iPad Pro (9.7-inch) Wi-Fi + Cellular, A9X
+          "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
+          "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
+          "iPad6,11", // iPad (5th generation) Wi-Fi, A9
+          "iPad6,12", // iPad (5th generation) Wi-Fi + Cellular, A9
+          "iPod7,1", // iPod touch (6th generation), A8
         ]
       }
     ]

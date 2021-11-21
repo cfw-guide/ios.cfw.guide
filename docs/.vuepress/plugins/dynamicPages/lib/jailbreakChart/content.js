@@ -27,56 +27,56 @@ function getJbInfo(jb) {
   var html = '';
   jb = getJb(jb)
   
-  if (jb.hasOwnProperty('info')) {
-    const info = jb.info;
-    html += '<h2>' + header[0] + '</h2>'
-    html += '<p>'
+  if (!jb.hasOwnProperty('info')) return html;
+  
+  const info = jb.info;
+  html += '<h2>' + header[0] + '</h2>'
+  html += '<p>'
+  
+  var infoArr = []
+  
+  if (info.hasOwnProperty('website')) {
+    const website = info.website;
     
-    var infoArr = []
+    var target = '';
+    var icon = '';
+    if (website.hasOwnProperty('external')) {
+      if (website.external) {
+        target = 'target="_blank"';
+        icon = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>'
+      }
+    }
     
-    if (info.hasOwnProperty('website')) {
-      const website = info.website;
+    infoArr.push(`${infoHeader[0]}: <a href="${website.url}" ${target}>${website.name}</a>${icon}`)
+  }
+    
+  if (info.hasOwnProperty('guide')) {
+    for (var i in info.guide) {
+      const guide = info.guide[i];
+      
+      var guideText = infoHeader[1];
+      if (guide.hasOwnProperty('text')) guideText = guide.text
       
       var target = '';
       var icon = '';
-      if (website.hasOwnProperty('external')) {
-        if (website.external) {
+      if (guide.hasOwnProperty('external')) {
+        if (guide.external) {
           target = 'target="_blank"';
           icon = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>'
         }
       }
       
-      infoArr.push(`${infoHeader[0]}: <a href="${website.url}" ${target}>${website.name}</a>${icon}`)
+      infoArr.push(`${guideText}: <a href="${guide.url}" ${target}>${guide.name}</a>${icon}`)
     }
-    
-    if (info.hasOwnProperty('guide')) {
-      for (var i in info.guide) {
-        const guide = info.guide[i];
-        
-        var guideText = infoHeader[1];
-        if (guide.hasOwnProperty('text')) guideText = guide.text
-        
-        var target = '';
-        var icon = '';
-        if (guide.hasOwnProperty('external')) {
-          if (guide.external) {
-            target = 'target="_blank"';
-            icon = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>'
-          }
-        }
-        
-        infoArr.push(`${guideText}: <a href="${guide.url}" ${target}>${guide.name}</a>${icon}`)
-      }
-    }
-    
-    if (info.hasOwnProperty('type')) infoArr.push(`${infoHeader[2]}: ${info.type}`)
-    if (info.hasOwnProperty('firmwares')) infoArr.push(`${infoHeader[3]}: ${info.firmwares[0]} to ${info.firmwares[1]}`)
-    if (info.hasOwnProperty('soc')) infoArr.push(`${infoHeader[4]}: ${info.soc}`)
-    
-    for (var i in infoArr) {
-      html += infoArr[i];
-      if (infoArr[parseInt(i)+1]) html += '<br>'
-    }
+  }
+  
+  if (info.hasOwnProperty('type')) infoArr.push(`${infoHeader[2]}: ${info.type}`)
+  if (info.hasOwnProperty('firmwares')) infoArr.push(`${infoHeader[3]}: ${info.firmwares[0]} to ${info.firmwares[1]}`)
+  if (info.hasOwnProperty('soc')) infoArr.push(`${infoHeader[4]}: ${info.soc}`)
+  
+  for (var i in infoArr) {
+    html += infoArr[i];
+    if (infoArr[parseInt(i)+1]) html += '<br>'
   }
   
   html += '</p>'
