@@ -35,6 +35,7 @@ module.exports = {
     "name"  : "iPhone 4 (GSM, 2012)",
     "soc"   : "A4",
     "arch"  : "32-bit",
+    "model"         : ["A1332"],
     "discontinued"  : "2013-09-10"
   },
   "iPhone3,3": {
@@ -49,7 +50,7 @@ module.exports = {
     "name"  : "iPhone 4S",
     "soc"   : "A5",
     "arch"  : "32-bit",
-    "model"         : ["A1387"],
+    "model"         : ["A1387", "A1431"],
     "released"      : "2011-10-14",
     "discontinued"  : "2013-09-20"
   },
@@ -65,7 +66,7 @@ module.exports = {
     "name"  : "iPhone 5 (CDMA)",
     "soc"   : "A6",
     "arch"  : "32-bit",
-    "model"         : ["A1429"],
+    "model"         : ["A1429", "A1442"],
     "released"      : "2012-09-21",
     "discontinued"  : "2013-09-10"
   },
@@ -73,7 +74,7 @@ module.exports = {
     "name"  : "iPhone 5c (GSM)",
     "soc"   : "A6",
     "arch"  : "32-bit",
-    "model"         : ["A1456", "A1507", "A1516", "A1529", "A1532"],
+    "model"         : ["A1456", "A1532"],
     "released"      : "2013-09-20",
     "discontinued"  : "2015-09-09"
   },
@@ -81,7 +82,7 @@ module.exports = {
     "name"  : "iPhone 5c (CDMA)",
     "soc"   : "A6",
     "arch"  : "32-bit",
-    "model"         : ["A1456", "A1507", "A1516", "A1529", "A1532"],
+    "model"         : ["A1507", "A1516", "A1526", "A1529"],
     "released"      : "2013-09-20",
     "discontinued"  : "2015-09-09"
   },
@@ -89,7 +90,7 @@ module.exports = {
     "name"  : "iPhone 5s (GSM)",
     "soc"   : "A7",
     "arch"  : "64-bit",
-    "model"         : ["A1457", "A1518", "A1528", "A1530", "A1533"],
+    "model"         : ["A1453", "A1533"],
     "released"      : "2013-09-20",
     "discontinued"  : "2016-03-21"
   },
@@ -97,7 +98,7 @@ module.exports = {
     "name"  : "iPhone 5s (CDMA)",
     "soc"   : "A7",
     "arch"  : "64-bit",
-    "model"         : ["A1453"],
+    "model"         : ["A1457", "A1518", "A1528", "A1530"],
     "released"      : "2013-09-20",
     "discontinued"  : "2016-03-21"
   },
@@ -121,7 +122,7 @@ module.exports = {
     "name"  : "iPhone 6s",
     "soc"   : "A9",
     "arch"  : "64-bit",
-    "model"         : ["A1633", "A1688", "A1700"],
+    "model"         : ["A1633", "A1688", "A1691", "A1700"],
     "released"      : "2015-09-25",
     "discontinued"  : "2018-09-12"
   },
@@ -129,7 +130,7 @@ module.exports = {
     "name"  : "iPhone 6s Plus",
     "soc"   : "A9",
     "arch"  : "64-bit",
-    "model"         : ["A1634", "A1687", "A1699"],
+    "model"         : ["A1634", "A1687", "A1690", "A1699"],
     "released"      : "2015-09-25",
     "discontinued"  : "2018-09-12"
   },
@@ -145,51 +146,61 @@ module.exports = {
     "name"  : "iPhone 7 (CDMA)",
     "soc"   : "A10",
     "arch"  : "64-bit"
+    "model"         : ["A1660", "A1779", "A1780"],
   },
   "iPhone9,2": {
     "name"  : "iPhone 7 Plus (CDMA)",
     "soc"   : "A10",
     "arch"  : "64-bit"
+    "model"         : ["A1661", "A1785", "A1786"],
   },
   "iPhone9,3": {
     "name"  : "iPhone 7 (GSM)",
     "soc"   : "A10",
     "arch"  : "64-bit"
+    "model"         : ["A1778"],
   },
   "iPhone9,4": {
     "name"  : "iPhone 7 Plus (GSM)",
     "soc"   : "A10",
     "arch"  : "64-bit"
+    "model"         : ["A1784"],
   },
   "iPhone10,1": {
     "name"  : "iPhone 8 (CDMA)",
     "soc"   : "A11",
     "arch"  : "64-bit"
+    "model"         : ["A1863", "A1906", "A1907"],
   },
   "iPhone10,2": {
     "name"  : "iPhone 8 Plus (CDMA)",
     "soc"   : "A11",
     "arch"  : "64-bit"
+    "model"         : ["A1864", "A1898", "A1899"],
   },
   "iPhone10,3": {
     "name"  : "iPhone X (CDMA)",
     "soc"   : "A11",
     "arch"  : "64-bit"
+    "model"         : ["A1865", "A1902"],
   },
   "iPhone10,4": {
     "name"  : "iPhone 8 (GSM)",
     "soc"   : "A11",
     "arch"  : "64-bit"
+    "model"         : ["A1905"],
   },
   "iPhone10,5": {
     "name"  : "iPhone 8 Plus (GSM)",
     "soc"   : "A11",
     "arch"  : "64-bit"
+    "model"         : ["A1897"],
   },
   "iPhone10,6": {
     "name"  : "iPhone X (GSM)",
     "soc"   : "A11",
     "arch"  : "64-bit"
+    "model"         : ["A1901"],
   },
   "iPhone11,2": {
     "name"  : "iPhone XS",
