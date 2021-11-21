@@ -1,5 +1,9 @@
 module.exports = [
   {
+    text: 'Chart',
+    link: '/chart',
+  },
+  {
     text: 'Guides',
     children: [
       {
