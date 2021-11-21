@@ -4,11 +4,11 @@ module.exports = [
     "build": "7A341",
     "released": "2009-06-17",
     "devices": [
-      "iPhone1,1",
-      "iPhone1,2",
-      "iPhone2,1",
-      "iPod1,1",
-      "iPod2,1"
+      "iPhone1,1" // iPhone
+      "iPhone1,2", // iPhone 3G
+      "iPhone2,1", // iPhone 3GS
+      "iPod1,1", // iPod touch
+      "iPod2,1", // iPod touch (2nd generation)
     ]
   },
   {
@@ -16,9 +16,9 @@ module.exports = [
     "build": "7A400",
     "released": "2009-07-31",
     "devices": [
-      "iPhone1,1",
-      "iPhone1,2",
-      "iPhone2,1"
+      "iPhone1,1" // iPhone
+      "iPhone1,2", // iPhone 3G
+      "iPhone2,1", // iPhone 3GS
     ]
   },
   {
@@ -26,9 +26,9 @@ module.exports = [
     "build": "7C144",
     "released": "2009-09-09",
     "devices": [
-      "iPhone1,1",
-      "iPhone1,2",
-      "iPhone2,1"
+      "iPhone1,1" // iPhone
+      "iPhone1,2", // iPhone 3G
+      "iPhone2,1", // iPhone 3GS
     ]
   },
   {
@@ -36,28 +36,30 @@ module.exports = [
     "build": "7C145",
     "released": "2009-09-09",
     "devices": [
-      "iPod1,1",
-      "iPod2,1",
-      "iPod3,1"
+      "iPod1,1", // iPod touch
+      "iPod2,1", // iPod touch (2nd generation)
+      "iPod3,1", // iPod touch (3rd generation)
     ]
   },
   {
     "ver": "3.1.1",
     "build": "7C146",
     "released": "2009-09-17",
-    "devices": [ "iPod3,1" ]
+    "devices": [
+      "iPod3,1", // iPod touch (3rd generation)
+    ]
   },
   {
     "ver": "3.1.2",
     "build": "7D11",
     "released": "2009-10-08",
     "devices": [
-      "iPhone1,1",
-      "iPhone1,2",
-      "iPhone2,1",
-      "iPod1,1",
-      "iPod2,1",
-      "iPod3,1"
+      "iPhone1,1" // iPhone
+      "iPhone1,2", // iPhone 3G
+      "iPhone2,1", // iPhone 3GS
+      "iPod1,1", // iPod touch
+      "iPod2,1", // iPod touch (2nd generation)
+      "iPod3,1", // iPod touch (3rd generation)
     ]
   },
   {
@@ -65,30 +67,36 @@ module.exports = [
     "build": "7E18",
     "released": "2010-10-02",
     "devices": [
-      "iPhone1,1",
-      "iPhone1,2",
-      "iPhone2,1",
-      "iPod1,1",
-      "iPod2,1",
-      "iPod3,1"
+      "iPhone1,1" // iPhone
+      "iPhone1,2", // iPhone 3G
+      "iPhone2,1", // iPhone 3GS
+      "iPod1,1", // iPod touch
+      "iPod2,1", // iPod touch (2nd generation)
+      "iPod3,1", // iPod touch (3rd generation)
     ]
   },
   {
     "ver": "3.2",
     "build": "7B367",
     "released": "2010-04-03",
-    "devices": [ "iPad1,1" ]
+    "devices": [
+      "iPad1,1", // iPad
+    ]
   },
   {
     "ver": "3.2.1",
     "build": "7B405",
     "released": "2010-07-15",
-    "devices": [ "iPad1,1" ]
+    "devices": [
+      "iPad1,1", // iPad
+    ]
   },
   {
     "ver": "3.2.2",
     "build": "7B500",
     "released": "2010-07-15",
-    "devices": [ "iPad1,1" ]
+    "devices": [
+      "iPad1,1", // iPad
+    ]
   }
 ]
