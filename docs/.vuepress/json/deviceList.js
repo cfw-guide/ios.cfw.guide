@@ -62,7 +62,7 @@ module.exports = {
     "discontinued"  : "2013-09-10"
   },
   "iPhone5,2": {
-    "name"  : "iPhone 5 (Global)",
+    "name"  : "iPhone 5 (CDMA)",
     "soc"   : "A6",
     "arch"  : "32-bit",
     "model"         : ["A1429"],
@@ -78,7 +78,7 @@ module.exports = {
     "discontinued"  : "2015-09-09"
   },
   "iPhone5,4": {
-    "name"  : "iPhone 5c (Global)",
+    "name"  : "iPhone 5c (CDMA)",
     "soc"   : "A6",
     "arch"  : "32-bit",
     "model"         : ["A1456", "A1507", "A1516", "A1529", "A1532"],
@@ -94,7 +94,7 @@ module.exports = {
     "discontinued"  : "2016-03-21"
   },
   "iPhone6,2": {
-    "name"  : "iPhone 5s (Global)",
+    "name"  : "iPhone 5s (CDMA)",
     "soc"   : "A7",
     "arch"  : "64-bit",
     "model"         : ["A1453"],
@@ -134,7 +134,7 @@ module.exports = {
     "discontinued"  : "2018-09-12"
   },
   "iPhone8,4": {
-    "name"  : "iPhone SE (1st generation)",
+    "name"  : "iPhone SE",
     "soc"   : "A9",
     "arch"  : "64-bit",
     "model"         : ["A1662", "A1723", "A1724"],
@@ -142,12 +142,12 @@ module.exports = {
     "discontinued"  : "2018-09-12"
   },
   "iPhone9,1": {
-    "name"  : "iPhone 7 (Global)",
+    "name"  : "iPhone 7 (CDMA)",
     "soc"   : "A10",
     "arch"  : "64-bit"
   },
   "iPhone9,2": {
-    "name"  : "iPhone 7 Plus (Global)",
+    "name"  : "iPhone 7 Plus (CDMA)",
     "soc"   : "A10",
     "arch"  : "64-bit"
   },
@@ -162,17 +162,17 @@ module.exports = {
     "arch"  : "64-bit"
   },
   "iPhone10,1": {
-    "name"  : "iPhone 8 (Global)",
+    "name"  : "iPhone 8 (CDMA)",
     "soc"   : "A11",
     "arch"  : "64-bit"
   },
   "iPhone10,2": {
-    "name"  : "iPhone 8 Plus (Global)",
+    "name"  : "iPhone 8 Plus (CDMA)",
     "soc"   : "A11",
     "arch"  : "64-bit"
   },
   "iPhone10,3": {
-    "name"  : "iPhone X (Global)",
+    "name"  : "iPhone X (CDMA)",
     "soc"   : "A11",
     "arch"  : "64-bit"
   },
@@ -197,7 +197,7 @@ module.exports = {
     "arch"  : "64-bit"
   },
   "iPhone11,4": {
-    "name"  : "iPhone XS Max (China)",
+    "name"  : "iPhone XS Max (China mainland)",
     "soc"   : "A12",
     "arch"  : "64-bit"
   },
