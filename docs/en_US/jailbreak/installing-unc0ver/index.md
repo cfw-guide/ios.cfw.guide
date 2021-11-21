@@ -17,7 +17,7 @@ The tool is capable of jailbreaking nearly every iOS device on firmware version 
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](/resigning-apps) once every 7 days.
 
-We will use the AltStore tool to install the unc0ver jailbreak application to your iOS device for use in the next step.
+We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
@@ -27,25 +27,28 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa/)
   - Users on firmware version 12.5.5 should download the [latest version](https://unc0ver.dev)
-- The latest version of [AltStore](http://altstore.io/)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
-If you are running iOS 11.0 - 12.1.4, you will need to use [AltDeploy](resigning-apps#resign-with-a-mac-altdeploy)
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Download AltStore for your respective operating system
-1. Launch AltStore/AltServer
-    - On macOS, open the Mail app and open `Mail` -> `Preferencees` in the menu bar
-    - Click on the `General` tab, the `Manage Plug-ins`, check `AltPlugin` and apply
-1. Connect your iOS Device to your Mac or PC via USB
-1. Click AltStore/AltServer in the Menu Bar/System Tray
-1. Click Install AltStore
-    - Follow all onscreen prompts
-1. Open Settings and navigate to `General` -> `Device Management` and verify AltStore
-1. Download [unc0ver](https://github.com/pwn20wndstuff/Undecimus/releases) on your iOS Device and open the `.ipa` in AltStore
-    - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the unc0ver `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+
+The app will now install to your iOS device.
+
+## Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
 
 The unc0ver application can now be opened from home screen.
 
@@ -54,7 +57,7 @@ The unc0ver application can now be opened from home screen.
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the unc0ver application from your home screen immediately afterwards
-    - If unc0ver warns you that the app has been tampered with, reinstall unc0ver via AltStore
+    - If unc0ver warns you that the app has been tampered with, reinstall unc0ver via Sideloadly
 1. Open the settings menu and disable the `Disable Auto Updates` toggle
     - unc0ver disables Over-The-Air updates by default, however it's recommended to toggle this as it can cause issues when updating manually if not disabled
 1. Tap "Done"

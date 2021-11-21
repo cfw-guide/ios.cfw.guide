@@ -23,6 +23,7 @@ Daibutsu is currently signed at <a href="https://jailbreaks.app/legacy.html" tar
 
 - The latest version of [Daibutsu](https://dora2ios.web.app/daibutsu.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

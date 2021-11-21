@@ -24,6 +24,7 @@ Phœnix is currently signed at <a href="https://jailbreaks.app/legacy.html" targ
 
 - The latest version of [Phœnix](https://phoenixpwn.com/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
