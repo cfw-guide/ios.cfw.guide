@@ -91,5 +91,12 @@ module.exports = [
     "devices": [
       "iPod1,1", // iPod touch
     ],
-  }
+  },
+  {
+  	"ver": "1.2 beta",
+  	"build": "5A147p",
+  	"released": "2008-03-06",
+  	"devices": [],
+		"beta": true,
+  },
 ]

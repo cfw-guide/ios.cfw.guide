@@ -1,6 +1,7 @@
 const jbPath = '/chart/jailbreak/'
 const fwPath = '/chart/firmware/'
 const devicePath = '/chart/device/'
+const betaDevicePath = '/chart/beta/device'
 
 const header = [
   'Info',
@@ -83,7 +84,7 @@ function getDeviceInfo(device) {
   return html;
 }
 
-function getRelatedDevices(device) {
+function getRelatedDevices(device, showBeta) {
   const d = device;
   var html = ''
   
@@ -97,14 +98,16 @@ function getRelatedDevices(device) {
   html += '<ul>'
   for (var i in relatedDevices) {
     if (relatedDevices[i] == d) continue;
-    html += `<li><a href="${devicePath}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
+    var path = devicePath;
+    if (showBeta) path = betaDevicePath
+    html += `<li><a href="${path}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
   }
   html += '</ul>'
   
   return html;
 }
 
-function getDeviceTable(device, showAll) {
+function getDeviceTable(device, showAll, showBeta) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
   
@@ -115,9 +118,11 @@ function getDeviceTable(device, showAll) {
   
   var buildArr = [];
   for (var i in iosList)
-    if (iosList[i].hasOwnProperty('devices'))
-      if (iosList[i].devices.includes(d) || showAll)
-        buildArr.push(iosList[i])
+    if (iosList[i].hasOwnProperty('beta'))
+      if (!iosList[i].beta || showBeta)
+        if (iosList[i].hasOwnProperty('devices'))
+          if (iosList[i].devices.includes(d) || showAll)
+            buildArr.push(iosList[i])
         
   for (var b in buildArr) {
     b = buildArr.length - b - 1 // Reverse list of firmwares
@@ -171,6 +176,6 @@ function getJailbreaks(os, d, showAll) {
   return jbArr;
 }
 
-module.exports = function(device, showAll) {
-  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll)
+module.exports = function(device, showAll, showBeta) {
+  return getDeviceInfo(device) + getRelatedDevices(device, showBeta) + getDeviceTable(device, showAll, showBeta)
 }

@@ -1,5 +1,61 @@
 module.exports = [
   {
+    "ver": "5.0 beta",
+    "build": "9A5220p",
+    "released": "2011-06-07",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 beta 2",
+    "build": "9A5248d",
+    "released": "2011-06-24",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 beta 3",
+    "build": "9A5259f",
+    "released": "2011-07-11",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 beta 4",
+    "build": "9A5274d",
+    "released": "2011-07-22",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 beta 5",
+    "build": "9A5288d",
+    "released": "2011-08-06",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 beta 6",
+    "build": "9A5302b",
+    "released": "2011-08-19",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 beta 7",
+    "build": "9A5313e",
+    "released": "2011-08-31",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "5.0 GM",
+    "build": "9A334-GM",
+    "released": "2011-10-04",
+    "devices": [],
+    "beta": true,
+  },
+  {
     "ver": "5.0",
     "build": "9A334",
     "released": "2011-10-07",
@@ -16,6 +72,20 @@ module.exports = [
       "iPod3,1", // iPod touch (3rd generation)
       "iPod4,1", // iPod touch (4th generation)
     ],
+  },
+  {
+  	"ver": "5.0.1 beta",
+  	"build": "9A402",
+  	"released": "2011-11-02",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "5.0.1 beta 2",
+  	"build": "9A404",
+  	"released": "2011-11-04",
+  	"devices": [],
+		"beta": true,
   },
   {
     "ver": "5.0.1",
@@ -43,6 +113,27 @@ module.exports = [
     "devices": [
       "iPhone4,1", // iPhone 4S, A5
     ],
+  },
+  {
+  	"ver": "5.1 beta 2",
+  	"build": "9B5127",
+  	"released": "2011-12-12",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "5.1 beta 2",
+  	"build": "9B5127c",
+  	"released": "2011-12-12",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "5.1 beta 3",
+  	"build": "9B5141a",
+  	"released": "2012-01-09",
+  	"devices": [],
+		"beta": true,
   },
   {
     "ver": "5.1",

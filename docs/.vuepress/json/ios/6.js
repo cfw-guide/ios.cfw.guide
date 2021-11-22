@@ -1,5 +1,40 @@
 module.exports = [
   {
+    "ver": "6.0 beta",
+    "build": "10A5316k",
+    "released": "2012-06-11",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "6.0 beta 2",
+    "build": "10A5338d",
+    "released": "2012-06-25",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "6.0 beta 3",
+    "build": "10A5355d",
+    "released": "2012-07-16",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "6.0 beta 4",
+    "build": "10A5376e",
+    "released": "2012-08-06",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "6.0 GM",
+    "build": "10A403-GM",
+    "released": "2012-09-12",
+    "devices": [],
+    "beta": true,
+  },
+  {
     "ver": "6.0",
     "build": "10A403",
     "released": "2012-09-14",
@@ -130,6 +165,62 @@ module.exports = [
     ],
   },
   {
+  	"ver": "6.1 beta",
+  	"build": "10B5095f",
+  	"released": "2012-11-01",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 2",
+  	"build": "10B5105c",
+  	"released": "2012-11-12",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 3",
+  	"build": "10B5117b",
+  	"released": "2012-12-03",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 4",
+  	"build": "10B5126b",
+  	"released": "2012-12-17",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 5",
+  	"build": "10B141-GM",
+  	"released": "2013-01-26",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 5",
+  	"build": "10B142-GM",
+  	"released": "2013-01-26",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 5",
+  	"build": "10B143-GM",
+  	"released": "2013-01-26",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1 beta 5",
+  	"build": "10B144-GM",
+  	"released": "2013-01-26",
+  	"devices": [],
+		"beta": true,
+  },
+  {
     "ver": "6.1",
     "build": "10B141",
     "released": "2013-01-24",
@@ -184,6 +275,13 @@ module.exports = [
     ],
   },
   {
+  	"ver": "6.1.1 beta",
+  	"build": "10B311",
+  	"released": "2013-02-06",
+  	"devices": [],
+		"beta": true,
+  },
+  {
     "ver": "6.1.1",
     "build": "10B145",
     "released": "2013-02-08",
@@ -229,6 +327,20 @@ module.exports = [
       "iPad2,5", // iPad mini Wi-Fi + Cellular, A5
       "iPad2,5", // iPad mini Wi-Fi + Cellular (MM), A5
     ],
+  },
+  {
+  	"ver": "6.1.3 beta 2",
+  	"build": "10B318",
+  	"released": "2013-02-21",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "6.1.3 beta 2",
+  	"build": "10B318a",
+  	"released": "2013-02-21",
+  	"devices": [],
+		"beta": true,
   },
   {
     "ver": "6.1.3",

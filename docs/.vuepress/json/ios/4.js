@@ -1,5 +1,40 @@
 module.exports = [
   {
+    "ver": "4.0 beta",
+    "build": "8A230m",
+    "released": "2010-04-08",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "4.0 beta 2",
+    "build": "8A248c",
+    "released": "2010-04-20",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "4.0 beta 3",
+    "build": "8A260b",
+    "released": "2010-05-04",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "4.0 beta 4",
+    "build": "8A274b",
+    "released": "2010-05-18",
+    "devices": [],
+    "beta": true,
+  },
+  {
+    "ver": "4.0 GM",
+    "build": "8A293-GM",
+    "released": "2010-06-07",
+    "devices": [],
+    "beta": true,
+  },
+  {
     "ver": "4.0",
     "build": "8A293",
     "released": "2010-06-21",
@@ -37,6 +72,27 @@ module.exports = [
     ],
   },
   {
+  	"ver": "4.1 beta",
+  	"build": "8B5080c",
+  	"released": "2010-06-14",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.1 beta 2",
+  	"build": "8B5091b",
+  	"released": "2010-07-27",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.1 beta 3",
+  	"build": "8B5097d",
+  	"released": "2010-08-03",
+  	"devices": [],
+		"beta": true,
+  },
+  {
     "ver": "4.1",
     "build": "8B117",
     "released": "2010-09-08",
@@ -59,6 +115,48 @@ module.exports = [
     "devices": [
       "iPod4,1", // iPod touch (4th generation)
     ],
+  },
+  {
+  	"ver": "4.2 beta",
+  	"build": "8C5091e",
+  	"released": "2010-09-15",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.2 beta 2",
+  	"build": "8C5101c",
+  	"released": "2010-09-28",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.2 beta 3",
+  	"build": "8C5115c",
+  	"released": "2010-10-12",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.2 GM",
+  	"build": "8C134",
+  	"released": "2010-11-01",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.2 GM 2",
+  	"build": "8C134b",
+  	"released": "2010-11-18",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.2.1 GM",
+  	"build": "8C148-GM",
+  	"released": "2010-11-18",
+  	"devices": [],
+		"beta": true,
   },
   {
     "ver": "4.2.1",
@@ -136,6 +234,34 @@ module.exports = [
     "devices": [
       "iPhone3,3", // iPhone 4 (CDMA), A4
     ],
+  },
+  {
+  	"ver": "4.3 beta",
+  	"build": "8F5148b",
+  	"released": "2011-01-12",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.3 beta 2",
+  	"build": "8F5153d",
+  	"released": "2011-01-19",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.3 beta 3",
+  	"build": "8F5166b",
+  	"released": "2011-02-01",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "4.3 GM",
+  	"build": "8F190-GM",
+  	"released": "2011-03-03",
+  	"devices": [],
+		"beta": true,
   },
   {
     "ver": "4.3",
