@@ -286,15 +286,13 @@ module.exports = [
     "released": "2014-11-17",
 		"beta": false,
     "devices": [
-      "iPhone7,2", // iPhone 6, A8
       "iPhone7,1", // iPhone 6+, A8
-      
-      "iPad5,3",
-      "iPad5,4",
-      
+      "iPhone7,2", // iPhone 6, A8
       "iPad4,7",
       "iPad4,8",
-      "iPad4,9"
+      "iPad4,9",
+      "iPad5,3",
+      "iPad5,4",
     ]
   },
   {
@@ -304,52 +302,39 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1",
-      
       "iPhone5,1",
       "iPhone5,2",
-      
       "iPhone5,3",
       "iPhone5,4",
-      
       "iPhone6,1", // iPhone 5S (GSM), A7
       "iPhone6,2", // iPhone 5S (Global), A7
-      
-      "iPhone7,2", // iPhone 6, A8
       "iPhone7,1", // iPhone 6+, A8
-      
-      "iPod5,1",
-      
+      "iPhone7,2", // iPhone 6, A8
       "iPad2,1",
       "iPad2,2",
       "iPad2,3",
       "iPad2,4",
-      
-      "iPad3,1",
-      "iPad3,2",
-      "iPad3,3",
-      
-      "iPad3,4",
-      "iPad3,5",
-      "iPad3,6",
-      
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3",
-      
-      "iPad5,3",
-      "iPad5,4",
-      
       "iPad2,5",
       "iPad2,6",
       "iPad2,7",
-      
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3",
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6",
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3",
       "iPad4,4",
       "iPad4,5",
       "iPad4,6",
-      
       "iPad4,7",
       "iPad4,8",
-      "iPad4,9"
+      "iPad4,9",
+      "iPad5,3",
+      "iPad5,4",
+      "iPod5,1",
     ]
   },
   {
@@ -359,52 +344,39 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1",
-      
       "iPhone5,1",
       "iPhone5,2",
-      
       "iPhone5,3",
       "iPhone5,4",
-      
       "iPhone6,1", // iPhone 5S (GSM), A7
       "iPhone6,2", // iPhone 5S (Global), A7
-      
-      "iPhone7,2", // iPhone 6, A8
       "iPhone7,1", // iPhone 6+, A8
-      
-      "iPod5,1",
-      
+      "iPhone7,2", // iPhone 6, A8
       "iPad2,1",
       "iPad2,2",
       "iPad2,3",
       "iPad2,4",
-      
-      "iPad3,1",
-      "iPad3,2",
-      "iPad3,3",
-      
-      "iPad3,4",
-      "iPad3,5",
-      "iPad3,6",
-      
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3",
-      
-      "iPad5,3",
-      "iPad5,4",
-      
       "iPad2,5",
       "iPad2,6",
       "iPad2,7",
-      
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3",
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6",
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3",
       "iPad4,4",
       "iPad4,5",
       "iPad4,6",
-      
       "iPad4,7",
       "iPad4,8",
-      "iPad4,9"
+      "iPad4,9",
+      "iPad5,3",
+      "iPad5,4",
+      "iPod5,1",
     ]
   },
   {
@@ -449,52 +421,39 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1",
-      
       "iPhone5,1",
       "iPhone5,2",
-      
       "iPhone5,3",
       "iPhone5,4",
-      
       "iPhone6,1", // iPhone 5S (GSM), A7
       "iPhone6,2", // iPhone 5S (Global), A7
-      
-      "iPhone7,2", // iPhone 6, A8
       "iPhone7,1", // iPhone 6+, A8
-      
-      "iPod5,1",
-      
+      "iPhone7,2", // iPhone 6, A8
       "iPad2,1",
       "iPad2,2",
       "iPad2,3",
       "iPad2,4",
-      
-      "iPad3,1",
-      "iPad3,2",
-      "iPad3,3",
-      
-      "iPad3,4",
-      "iPad3,5",
-      "iPad3,6",
-      
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3",
-      
-      "iPad5,3",
-      "iPad5,4",
-      
       "iPad2,5",
       "iPad2,6",
       "iPad2,7",
-      
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3",
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6",
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3",
       "iPad4,4",
       "iPad4,5",
       "iPad4,6",
-      
       "iPad4,7",
       "iPad4,8",
       "iPad4,9"
+      "iPad5,3",
+      "iPad5,4",
+      "iPod5,1",
     ]
   },
   {
@@ -531,39 +490,31 @@ module.exports = [
     "released": "2015-04-08",
 		"beta": false,
     "devices": [
-      "iPod5,1",
-      
       "iPad2,1",
       "iPad2,2",
       "iPad2,3",
       "iPad2,4",
-      
-      "iPad3,1",
-      "iPad3,2",
-      "iPad3,3",
-      
-      "iPad3,4",
-      "iPad3,5",
-      "iPad3,6",
-      
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3",
-      
-      "iPad5,3",
-      "iPad5,4",
-      
       "iPad2,5",
       "iPad2,6",
       "iPad2,7",
-      
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3",
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6",
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3",
       "iPad4,4",
       "iPad4,5",
       "iPad4,6",
-      
       "iPad4,7",
       "iPad4,8",
-      "iPad4,9"
+      "iPad4,9",
+      "iPad5,3",
+      "iPad5,4",
+      "iPod5,1",
     ]
   },
   {
@@ -573,18 +524,14 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1",
-      
       "iPhone5,1",
       "iPhone5,2",
-      
       "iPhone5,3",
       "iPhone5,4",
-      
       "iPhone6,1", // iPhone 5S (GSM), A7
       "iPhone6,2", // iPhone 5S (Global), A7
-      
+      "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
-      "iPhone7,1"
     ]
   },
   {
@@ -622,53 +569,40 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1",
-      
       "iPhone5,1",
       "iPhone5,2",
-      
       "iPhone5,3",
       "iPhone5,4",
-      
       "iPhone6,1", // iPhone 5S (GSM), A7
       "iPhone6,2", // iPhone 5S (Global), A7
-      
+      "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
-      "iPhone7,1", // iPhone 6+, A8
-      
-      "iPod5,1",
-      "iPod7,1",
-      
       "iPad2,1",
       "iPad2,2",
       "iPad2,3",
       "iPad2,4",
-      
-      "iPad3,1",
-      "iPad3,2",
-      "iPad3,3",
-      
-      "iPad3,4",
-      "iPad3,5",
-      "iPad3,6",
-      
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3",
-      
-      "iPad5,3",
-      "iPad5,4",
-      
       "iPad2,5",
       "iPad2,6",
       "iPad2,7",
-      
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3",
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6",
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3",
       "iPad4,4",
       "iPad4,5",
       "iPad4,6",
-      
       "iPad4,7",
       "iPad4,8",
-      "iPad4,9"
+      "iPad4,9",
+      "iPad5,3",
+      "iPad5,4",
+      "iPod5,1",
+      "iPod7,1",
     ]
   },
   {
@@ -692,53 +626,40 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1",
-      
       "iPhone5,1",
       "iPhone5,2",
-      
       "iPhone5,3",
       "iPhone5,4",
-      
       "iPhone6,1", // iPhone 5S (GSM), A7
       "iPhone6,2", // iPhone 5S (Global), A7
-      
-      "iPhone7,2", // iPhone 6, A8
       "iPhone7,1", // iPhone 6+, A8
-      
-      "iPod5,1",
-      "iPod7,1",
-      
+      "iPhone7,2", // iPhone 6, A8
       "iPad2,1",
       "iPad2,2",
       "iPad2,3",
       "iPad2,4",
-      
-      "iPad3,1",
-      "iPad3,2",
-      "iPad3,3",
-      
-      "iPad3,4",
-      "iPad3,5",
-      "iPad3,6",
-      
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3",
-      
-      "iPad5,3",
-      "iPad5,4",
-      
       "iPad2,5",
       "iPad2,6",
       "iPad2,7",
-      
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3",
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6",
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3",
       "iPad4,4",
       "iPad4,5",
       "iPad4,6",
-      
       "iPad4,7",
       "iPad4,8",
-      "iPad4,9"
+      "iPad4,9",
+      "iPad5,3",
+      "iPad5,4",
+      "iPod5,1",
+      "iPod7,1",
     ]
   },
 ]
