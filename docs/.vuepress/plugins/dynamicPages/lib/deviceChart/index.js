@@ -11,6 +11,16 @@ page.push({
   content: require('./content')('', true)
 })
 
+page.push({
+  path: '/chart/beta.html',
+  frontmatter: {
+    title: 'Beta Firmware Chart',
+    description: 'iOS Jailbreak Beta Firmware Chart',
+    sidebar: false
+  },
+  content: require('./content')('', true, true)
+})
+
 for (var device in deviceList) {
   page.push({
     path: '/chart/device/' + device + '.html',
@@ -19,7 +29,17 @@ for (var device in deviceList) {
       description: 'Compatible jailbreaks for ' + deviceList[device].name,
       sidebar: false
     },
-    content: require('./content')(device, false)
+    content: require('./content')(device, false, false)
+  })
+  
+  page.push({
+    path: '/chart/beta/device/' + device + '.html',
+    frontmatter: {
+      title: 'Beta Firmware Chart (' + deviceList[device].name + ')',
+      description: 'Compatible jailbreaks for ' + deviceList[device].name,
+      sidebar: false
+    },
+    content: require('./content')(device, false, true)
   })
 };
 

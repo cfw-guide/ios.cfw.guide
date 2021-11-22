@@ -1,5 +1,47 @@
 module.exports = [
   {
+  	"ver": "3.0 beta",
+  	"build": "7A238j",
+  	"released": "2009-03-17",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.0 beta 2",
+  	"build": "7A259g",
+  	"released": "2009-03-31",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.0 beta 3",
+  	"build": "7A280f",
+  	"released": "2009-04-14",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.0 beta 4",
+  	"build": "7A300g",
+  	"released": "2009-04-28",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.0 beta 5",
+  	"build": "7A312g",
+  	"released": "2009-05-06",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.0 GM",
+  	"build": "7A341-GM",
+  	"released": "2009-06-08",
+  	"devices": [],
+		"beta": true,
+  },
+  {
     "ver": "3.0",
     "build": "7A341",
     "released": "2009-06-17",
@@ -22,6 +64,27 @@ module.exports = [
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
     ],
+  },
+  {
+  	"ver": "3.1 beta",
+  	"build": "7C97d",
+  	"released": "2009-06-30",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.1 beta 2",
+  	"build": "7C106c",
+  	"released": "2009-07-14",
+  	"devices": [],
+		"beta": true,
+  },
+  {
+  	"ver": "3.1 beta 3",
+  	"build": "7C116a",
+  	"released": "2009-07-27",
+  	"devices": [],
+		"beta": true,
   },
   {
     "ver": "3.1",
