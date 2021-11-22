@@ -50,11 +50,15 @@ function getBuildInfo(b) {
 
 function getBuildDevices(b) {
   var html = '';
-  const d = getBuild(b).devices
+  b = getBuild(b);
+  var d = [];
+  if (b.hasOwnProperty('devices')) d = b.devices;
   if (d.length < 1) return html;
   html += '<h2>' + header[1] + '</h2><ul>'
   for (var i in d) {
-    html += '<li><a href="' + devicePath + d[i] + '">' + deviceList[d[i]].name + '</a> <a target="_blank" href="https://ipsw.me/download/' + d[i] + '/' + b + '"><i class="fas fa-download"></i></a></li>'
+    var ipswLink = `https://ipsw.me/download/${d[i]}/${b.build}`;
+    if (b.hasOwnProperty('beta')) if (b.beta) 'https://www.theiphonewiki.com/wiki/Beta_Firmware'
+    html += `<li><a href="${devicePath}${d[i]}">${deviceList[d[i]].name}</a> <a target="_blank" href="${ipswLink}"><i class="fas fa-download"></i></a></li>`
   }
   html += '</ul>'
   return html;
