@@ -54,7 +54,7 @@ function getBuildDevices(b) {
   if (d.length < 1) return html;
   html += '<h2>' + header[1] + '</h2><ul>'
   for (var i in d) {
-    html += '<li><a href="' + devicePath + d[i] + '">' + deviceList[d[i]].name + '</a></li>'
+    html += '<li><a href="' + devicePath + d[i] + '">' + deviceList[d[i]].name + '</a> <a target="_blank" href="https://ipsw.me/download/' + d[i] + '/' + b + '"><i class="fas fa-download"></i></a></li>'
   }
   html += '</ul>'
   return html;
