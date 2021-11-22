@@ -14,5 +14,5 @@ module.exports = [
   ...require('./12.js'),
   ...require('./13.js'),
   ...require('./14.js'),
-  ...require('./15.js')
+  ...require('./15.js'),
 ]
