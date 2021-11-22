@@ -1354,7 +1354,7 @@ module.exports = [
     ]
   },
   {
-    "name": "TotallyNotSpyware",
+    "name": "Totally Not Spyware",
     "info": {
       "firmwares": ["10.0","10.3.3"]
     },
