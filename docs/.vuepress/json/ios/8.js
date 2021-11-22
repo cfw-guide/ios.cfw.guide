@@ -3,6 +3,7 @@ module.exports = [
     "ver": "8.0",
     "build": "12A365",
     "released": "2014-09-17",
+		"beta": false,
     "devices": [
       "iPhone4,1", // iPhone 4S, A5
       "iPhone5,1", // iPhone 5 (GSM), A6
@@ -35,20 +36,22 @@ module.exports = [
       "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
       "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
       "iPod5,1", // iPod touch (5th generation), A5
-    ]
+    ],
   },
   {
     "ver": "8.0",
     "build": "12A366",
     "released": "2014-09-17",
+		"beta": false,
     "devices": [
       "iPhone7,1", // iPhone 6 Plus, A8
-    ]
+    ],
   },
   {
     "ver": "8.0.1",
     "build": "12A402",
     "released": "2014-09-24",
+		"beta": false,
     "devices": [
       "iPhone4,1", // iPhone 4S, A5
       "iPhone5,1", // iPhone 5 (GSM), A6
@@ -82,12 +85,13 @@ module.exports = [
       "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
       "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
       "iPod5,1", // iPod touch (5th generation), A5
-    ]
+    ],
   },
   {
     "ver": "8.0.2",
     "build": "12A405",
     "released": "2014-09-26",
+		"beta": false,
     "devices": [
       "iPhone4,1", // iPhone 4S, A5
       "iPhone5,1", // iPhone 5 (GSM), A6
@@ -121,12 +125,13 @@ module.exports = [
       "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
       "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
       "iPod5,1", // iPod touch (5th generation), A5
-    ]
+    ],
   },
   {
     "ver": "8.1",
     "build": "12B410",
     "released": "2014-10-20",
+		"beta": false,
     "devices": [
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
@@ -152,12 +157,13 @@ module.exports = [
       "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
       "iPad5,3", // iPad Air 2 Wi-Fi, A8X
       "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
-    ]
+    ],
   },
   {
     "ver": "8.1",
     "build": "12B411",
     "released": "2014-10-20",
+		"beta": false,
     "devices": [
       "iPhone4,1", // iPhone 4S, A5
       "iPhone5,1", // iPhone 5 (GSM), A6
@@ -169,6 +175,6 @@ module.exports = [
       "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
       "iPod5,1", // iPod touch (5th generation), A5
-    ]
+    ],
   },
 ]

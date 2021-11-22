@@ -3,6 +3,7 @@ module.exports = [
     "ver": "13.0",
     "build": "17A577",
     "released": "2019-09-19",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -24,12 +25,13 @@ module.exports = [
       "iPhone12,1", // iPhone 11, A13
       "iPhone12,3", // iPhone 11 Pro, A13
       "iPhone12,5", // iPhone 11 Pro Max, A13
-    ]
+    ],
   },
   {
     "ver": "13.1",
     "build": "17A844",
     "released": "2019-09-24",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -82,12 +84,13 @@ module.exports = [
       "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
       "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.1.1",
     "build": "17A854",
     "released": "2019-09-27",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -140,12 +143,13 @@ module.exports = [
       "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
       "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.1.2",
     "build": "17A860",
     "released": "2019-09-30",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -193,24 +197,26 @@ module.exports = [
       "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
       "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.1.2",
     "build": "17A861",
     "released": "2019-09-30",
+		"beta": false,
     "devices": [
       "iPhone10,3", // iPhone X (CDMA), A11
       "iPhone10,6", // iPhone X (GSM), A11
       "iPhone11,2", // iPhone XS, A12
       "iPhone11,4", // iPhone XS Max (China mainland), A12
       "iPhone11,6", // iPhone XS Max, A12
-    ]
+    ],
   },
   {
     "ver": "13.1.3",
     "build": "17A878",
     "released": "2019-10-15",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -263,12 +269,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.2",
     "build": "17B84",
     "released": "2019-10-28",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -321,12 +328,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.2.2",
     "build": "17B102",
     "released": "2019-11-07",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -379,12 +387,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.2.3",
     "build": "17B111",
     "released": "2019-11-18",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -437,12 +446,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.3",
     "build": "17C54",
     "released": "2019-12-10",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -495,12 +505,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.3.1",
     "build": "17D50",
     "released": "2020-01-28",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -553,12 +564,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.4",
     "build": "17E255",
     "released": "2020-03-24",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -615,20 +627,22 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.4",
     "build": "17E8255",
     "released": "2020-04-15",
+		"beta": false,
     "devices": [
       "iPhone12,8", // iPhone SE (2nd generation), A13
-    ]
+    ],
   },
   {
     "ver": "13.4.1",
     "build": "17E262",
     "released": "2020-04-07",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -685,20 +699,22 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.4.1",
     "build": "17E8258",
     "released": "2020-04-23",
+		"beta": false,
     "devices": [
       "iPhone12,8", // iPhone SE (2nd generation), A13
-    ]
+    ],
   },
   {
     "ver": "13.5",
     "build": "17F75",
     "released": "2020-05-20",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -756,12 +772,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.5.1",
     "build": "17F80",
     "released": "2020-06-01",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -819,12 +836,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.6",
     "build": "17G68",
     "released": "2020-07-15",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -882,12 +900,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.6.1",
     "build": "17G80",
     "released": "2020-08-12",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -945,12 +964,13 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "13.7",
     "build": "17H35",
     "released": "2020-09-01",
+		"beta": false,
     "devices": [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
@@ -1008,6 +1028,6 @@ module.exports = [
         "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
         "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
         "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   }
 ]

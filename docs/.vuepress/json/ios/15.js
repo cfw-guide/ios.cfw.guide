@@ -3,17 +3,19 @@ module.exports = [
     "ver": "15.0",
     "build": "19A341",
     "released": "2021-09-24",
+		"beta": false,
     "devices": [
       "iPhone14,2", // iPhone 13 Pro, A15
       "iPhone14,3", // iPhone 13 Pro Max, A15
       "iPhone14,4", // iPhone 13 Pro mini, A15
       "iPhone14,5", // iPhone 13, A15
-    ]
+    ],
   },
   {
     "ver": "15.0",
     "build": "19A346",
     "released": "2021-09-20",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -95,12 +97,13 @@ module.exports = [
       "iPad14,1", // iPad mini (6th generation) Wi-Fi, A15
       "iPad14,2", // iPad mini (6th generation) Wi-Fi + Cellular, A15
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "15.0.1",
     "build": "19A348",
     "released": "2021-10-01",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -182,12 +185,13 @@ module.exports = [
       "iPad14,1", // iPad mini (6th generation) Wi-Fi, A15
       "iPad14,2", // iPad mini (6th generation) Wi-Fi + Cellular, A15
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "15.0.2",
     "build": "19A404",
     "released": "2021-10-11",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -269,12 +273,13 @@ module.exports = [
       "iPad14,1", // iPad mini (6th generation) Wi-Fi, A15
       "iPad14,2", // iPad mini (6th generation) Wi-Fi + Cellular, A15
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "15.1",
     "build": "19B74",
     "released": "2021-10-25",
+		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
       "iPhone8,2", // iPhone 6s Plus, A9
@@ -356,12 +361,13 @@ module.exports = [
       "iPad14,1", // iPad mini (6th generation) Wi-Fi, A15
       "iPad14,2", // iPad mini (6th generation) Wi-Fi + Cellular, A15
       "iPod9,1", // iPod touch (7th generation), A8
-    ]
+    ],
   },
   {
     "ver": "15.1.1",
     "build": "19B81",
     "released": "2021-11-17",
+		"beta": false,
     "devices": [
       "iPhone13,1", // iPhone 12 mini, A14,
       "iPhone13,2", // iPhone 12, A14
@@ -371,6 +377,6 @@ module.exports = [
       "iPhone14,3", // iPhone 13 Pro Max, A15
       "iPhone14,4", // iPhone 13 Pro mini, A15
       "iPhone14,5", // iPhone 13, A15
-    ]
+    ],
   }
 ]
