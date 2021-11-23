@@ -41,11 +41,11 @@ function getDate(d) {
 
 function getBuildInfo(b) {
   b = getBuild(b)
-  return `
-  <h2>` + header[0] + `</h2>
-  <p>` + infoHeader[0] + `: ` + b.ver + `
-  <br>` + infoHeader[1] + `: ` + b.build + `
-  <br>` + infoHeader[2] + `: ` + getDate(b.released) + `</p>`
+  var html = "## " + header[0] + "\n";
+  html += infoHeader[0] + ": " + b.ver + "\n"
+  html += infoHeader[1] + ": " + b.build + "\n"
+  html += infoHeader[2] + ": " + getDate(b.released) + "\n"
+  return html;
 }
 
 function isObject(objValue) {
@@ -101,15 +101,14 @@ function getBuildDevices(b) {
   var d = [];
   if (b.hasOwnProperty('devices')) d = getDeviceListFromBuild(b);
   if (d.length < 1) return html;
-  html += '<h2>' + header[1] + '</h2><ul>'
+  html += '## ' + header[1] + "\n"
   for (var i in d) {
     var device = getDeviceFromBuild(b, d[i]);
     var ipswLink = `https://ipsw.me/download/${device.identifier}/${b.build}`;
     if (b.hasOwnProperty('beta')) if (b.beta) ipswLink = 'https://www.theiphonewiki.com/wiki/Beta_Firmware';
     if (device.ipsw) ipswLink = device.ipsw;
-    html += `<li><a href="${devicePath}${device.identifier}">${deviceList[device.identifier].name}</a> <a target="_blank" href="${ipswLink}"><i class="fas fa-download"></i></a></li>`
+    html += "- [" + deviceList[device.identifier].name + "](" + devicePath + device.identifier + `) <a href="${ipswLink}"><i class="fas fa-download"></i></a>` + "\n";
   }
-  html += '</ul>'
   return html;
 }
 
@@ -166,15 +165,11 @@ function getJbHtml(os) {
   var html = ''
   if (jbArr.length < 1) return html;
   
-  html += '<h2>' + header[2] + '</h2>'
+  html += "## " + header[2] + "\n"
   for (var jb in jbArr) {
-    html += '<h3>' + jbArr[jb].name + ' <a href="' + jbPath + jbArr[jb].name + '"><i style="font-size: 17px" class="fas fa-link"></i></a></h3>';
+    html += "### " + jbArr[jb].name + " [<i style=\"font-size: 17px\" class=\"fas fa-link\"></i>](" + jbPath + jbArr[jb].name + ")\n";
     const devArr = getJbDevArr(jbArr[jb], os);
-    html += '<ul>'
-    for (var dev in devArr) {
-      html += '<li><a href="' + devicePath + devArr[dev] + '">' + deviceList[devArr[dev]].name + '</a></li>';
-    }
-    html += '</ul>'
+    for (var dev in devArr) html += "- [" + deviceList[devArr[dev]].name + "](" + devicePath + devArr[dev] + ")\n"
   }
   
   return html;

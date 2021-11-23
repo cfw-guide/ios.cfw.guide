@@ -72,14 +72,14 @@ function getDeviceInfo(device) {
   
   if (infoArr[5]) infoArr[5] = getDate(infoArr[5]);
   
-  var html = `<h2>${header[0]}</h2>`
+  var html = "## " + header[0] + "\n"
   
   html += '<p>'
   for (var i in infoArr) if (infoArr[i]) {
     html += infoHeader[i] + ': ' + infoArr[i];
     if (infoArr[parseInt(i) + 1]) html += '<br>';
   }
-  html += '</p>'
+  html += "</p>\n\n"
   
   return html;
 }
@@ -93,7 +93,7 @@ function getRelatedDevices(device) {
   var relatedDevices = deviceList[d].related;
   if (relatedDevices.length < 1) return html;
   
-  html += `<h2>${header[1]}</h2>`;
+  html += "## " + header[1] + "\n";
   
   html += '<ul>'
   for (var i in relatedDevices) {
@@ -101,7 +101,7 @@ function getRelatedDevices(device) {
     var path = devicePath;
     html += `<li><a href="${path}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
   }
-  html += '</ul>'
+  html += "</ul>\n\n"
   
   return html;
 }
@@ -130,7 +130,7 @@ function getDeviceTable(device, showAll) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
   
-  var title = `<h2>${header[2]}</h2>`;
+  var title = "## " + header[2] + "\n";
   if (showAll) title = '';
   
   var tableHtml = [];
