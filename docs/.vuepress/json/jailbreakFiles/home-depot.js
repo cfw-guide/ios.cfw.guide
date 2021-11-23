@@ -3,6 +3,7 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "12H321", // 8.4.1
         "13B143", // 9.1
         "13C75", // 9.2
         "13D15", // 9.2.1
@@ -27,9 +28,6 @@ module.exports = {
         "iPad2,5", // iPad mini Wi-Fi, A5
         "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
         "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
-        "iPad3,4", // iPad (4th generation) Wi-Fi, A6X
-        "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
-        "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
         "iPad3,1", // iPad (3rd generation) Wi-Fi, A5X
         "iPad3,2", // iPad (3rd generation) Wi-Fi + Cellular (VZ), A5X
         "iPad3,3", // iPad (3rd generation) Wi-Fi + Cellular, A5X
