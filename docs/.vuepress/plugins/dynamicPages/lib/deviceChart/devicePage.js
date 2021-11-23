@@ -1,8 +1,6 @@
 const devicePath = '/chart/device/'
 const deviceList = require('../../../../json/deviceList');
 
-const tocStr = 'Table of Contents';
-
 const header = [
   'iPhone',
   'iPad',
@@ -37,16 +35,11 @@ function getDevice(device) {
 function getHtml() {
   var html = '';
   
-  html += '<h2 id="' + tocStr.toLowerCase().replace(' ', '-') + '"><a class="header-anchor" href="#' + tocStr.toLowerCase().replace(' ', '-') + '" aria-hidden="true">#</a> ' + tocStr + '</h2><ul>'
-  for (var i in deviceArr) {
-    if (deviceArr[i].length < 1) continue;
-    html += '<li><a href="#' + header[i].toLowerCase().replace(' ', '-') + '">' + header[i] + '</a></li>'
-  }
-  html += '</ul>'
+  html += '[[toc]]\n'
   
   for (var i in deviceArr) {
     if (deviceArr[i].length < 1) continue;
-    html += '<h2 id="' + header[i].toLowerCase().replace(' ', '-') + '"><a class="header-anchor" href="#' + header[i].toLowerCase().replace(' ', '-') + '" aria-hidden="true">#</a> ' + header[i] + '</h2>'
+    html += '## ' + header[i] + '\n';
     for (var j = 0; j < tableCount[i]; j++) {
       html += '<table><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><thead><tr>'
       for (var k = 0; k < 3; k++) {
@@ -61,7 +54,7 @@ function getHtml() {
         }
         else html += '<td></td>';
       }
-      html += '</tr></tbody></table>'
+      html += "</tr></tbody></table>\n\n"
     }
   }
   
