@@ -156,7 +156,7 @@ function getDeviceTable(device, showAll) {
       b = buildArr[i].length - b - 1 // Reverse list of firmwares
       
       html += `<tr>`
-      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build + '</a></td>'
+      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build.replace('6-enterprise', '6-e') + '</a></td>'
       html += '<td>' + buildArr[i][b].ver + '</td>'
       
       html += '<td>'
