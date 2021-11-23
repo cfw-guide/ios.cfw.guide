@@ -3,6 +3,7 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "12H321", // 8.4.1
         "13A344", // 9.0
         "13A404", // 9.0.1
         "13A452", // 9.0.2
@@ -28,7 +29,6 @@ module.exports = {
         "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
         "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
         "iPod5,1", // iPod touch (5th generation), A5
-        "iPod7,1", // iPod touch (6th generation), A8
       ]
     },
   ]
