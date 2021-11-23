@@ -3,6 +3,16 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "10A403", // 6.0
+        "10A406", // 6.0, iPad mini and iPod touch 5 only
+        "10A523", // 6.0.1
+        "10A8426", // 6.0.1, iPad mini and iPad 4 only
+        "10B141", // 6.1
+        "10B142", // 6.1, iPhone 4s only
+        "10B145", // 6.1.1, iPhone 4S only
+        "10B146", // 6.1.2
+        "10B147", // 6.1.2, iPad mini only
+        "10B329", // 6.1.3
         "11A465", // 7.0
         "11A501", // 7.0.2
         "11B511", // 7.0.3
