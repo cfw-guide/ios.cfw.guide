@@ -127,41 +127,57 @@ function getDeviceListFromBuild(b) {
   return devArr;
 }
 
-function getDeviceTable(device, showAll, showBeta) {
+function getDeviceTable(device, showAll) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
   
   var title = `<h2>${header[2]}</h2>`;
   if (showAll) title = '';
   
-  var html = '';
+  var tableHtml = [];
   
-  var buildArr = [];
+  var buildArr = [[], []];
   for (var i in iosList)
     if (iosList[i].hasOwnProperty('beta'))
-      if (!iosList[i].beta || showBeta)
-        if (iosList[i].hasOwnProperty('devices'))
-          if (getDeviceListFromBuild(iosList[i]).includes(d) || showAll)
-            buildArr.push(iosList[i])
+      if (iosList[i].hasOwnProperty('devices'))
+        if (getDeviceListFromBuild(iosList[i]).includes(d) || showAll) {
+          if (iosList[i].hasOwnProperty('beta'))
+            if (iosList[i].beta) {
+              buildArr[1].push(iosList[i]);
+            }
+          else {
+            buildArr[0].push(iosList[i])
+            buildArr[1].push(iosList[i])
+          }
+        }
         
-  for (var b in buildArr) {
-    b = buildArr.length - b - 1 // Reverse list of firmwares
-    html += '<tr>'
-    html += '<td><a href="' + fwPath + buildArr[b].build + '">' + buildArr[b].build + '</a></td>'
-    html += '<td>' + buildArr[b].ver + '</td>'
-    html += '<td>'
-    var jbArr = getJailbreaks(buildArr[b].build, d, showAll)
-    for (var jb in jbArr) {
-      html += '<a href="' + jbPath + jbArr[jb].name + '">' + jbArr[jb].name + '</a>'
-      if (jbArr[parseInt(jb)+1]) html += ', '
+  for (var i in buildArr) {
+    var html = ''
+    for (var b in buildArr[i]) {
+      b = buildArr[i].length - b - 1 // Reverse list of firmwares
+      
+      html += `<tr>`
+      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build + '</a></td>'
+      html += '<td>' + buildArr[i][b].ver + '</td>'
+      
+      html += '<td>'
+      var jbArr = getJailbreaks(buildArr[i][b].build, d, showAll)
+      for (var jb in jbArr) {
+        html += `<a href="${jbPath}${jbArr[jb].name}">${jbArr[jb].name}</a>`
+        if (jbArr[parseInt(jb)+1]) html += ', '
+      }
+      html += '</td>'
+      html += '</tr>'
     }
-    html += '</td>'
-    html += '</tr>'
+    tableHtml.push(html);
   }
   
-  return `
-  ${title}
-  <table>
+  var tableClass = ['tableBetaClass', 'tableMainClass'];
+  
+  var switchButtons = "<p class=\"tableMainClass\"><a href=\"#\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: block; } .tableMainClass { display: none }`; document.head.appendChild(style)\">Show Beta Versions</a></p><p class=\"tableBetaClass\"><a href=\"#\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: block }`; document.head.appendChild(style)\">Hide Beta Versions</a></p>"
+  
+  tableHtml = `
+  <table class="${tableClass[0]}">
     <colgroup>
       <col style="width: 15%">
       <col style="width: 15%">
@@ -174,9 +190,27 @@ function getDeviceTable(device, showAll, showBeta) {
         <th>${tableHeader[2]}</th>
       </tr>
     </thead>
-    <tbody>${html}</tbody>
+    <tbody>${tableHtml[1]}</tbody>
+  </table>
+  
+  <table class="${tableClass[1]}">
+    <colgroup>
+      <col style="width: 15%">
+      <col style="width: 15%">
+      <col style="width: 70%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>${tableHeader[0]}</th>
+        <th>${tableHeader[1]}</th>
+        <th>${tableHeader[2]}</th>
+      </tr>
+    </thead>
+    <tbody>${tableHtml[0]}</tbody>
   </table>
   `
+  
+  return title + switchButtons + tableHtml
 }
 
 function getJailbreaks(os, d, showAll) {
@@ -197,5 +231,5 @@ function getJailbreaks(os, d, showAll) {
 }
 
 module.exports = function(device, showAll, showBeta) {
-  return getDeviceInfo(device) + getRelatedDevices(device, showBeta) + getDeviceTable(device, showAll, showBeta)
+  return getDeviceInfo(device) + getRelatedDevices(device, showBeta) + getDeviceTable(device, showAll);
 }
