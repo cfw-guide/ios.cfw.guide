@@ -2,7 +2,7 @@ const deviceList = require('../../../../json/deviceList');
 var page = [];
 
 page.push({
-  path: '/chart.html',
+  path: '/chart/index.html',
   frontmatter: {
     title: 'Firmware Chart',
     description: 'iOS Jailbreak Firmware Chart',
