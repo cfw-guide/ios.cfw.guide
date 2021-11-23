@@ -3,8 +3,6 @@ lang: en_US
 title: "Using Cydia"
 description: Guide to using Cydia
 permalink: /using-cydia
-redirect_from:
-  - /cydia
 ---
 
 ::: warning

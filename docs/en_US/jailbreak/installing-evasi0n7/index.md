@@ -4,10 +4,6 @@ title: Installing Evasi0n7
 description: Guide to installing Evasi0n7
 permalink: /installing-evasi0n7
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /evasi0n
-  - /evasion
-  - /evasi0n7
 ---
 
 Evasi0n is capable of jailbreaking all devices on iOS 7.0 to 7.0.6

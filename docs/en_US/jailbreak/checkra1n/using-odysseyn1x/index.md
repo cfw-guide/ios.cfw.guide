@@ -3,19 +3,6 @@ lang: en_US
 title: Using Odysseyn1x
 excerpt: Guide to installing checkra1n via Odysseyn1x
 permalink: /using-odysseyn1x
-redirect_from:
-  - /installing-odysseyn1x
-  - /using-odysseynix
-  - /odysseyn1x
-  - /odysseynix
-  - /using-bootra1n
-  - /using-bootrain
-  - /bootra1n
-  - /bootrain
-  - /using-checkn1x
-  - /using-checknix
-  - /checkn1x
-  - /checkn1x
 ---
 
 ::: warning

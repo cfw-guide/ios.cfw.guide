@@ -3,17 +3,6 @@ lang: en_US
 title: Installing Odysseyra1n
 description: Guide to installing Odysseyra1n
 permalink: /installing-odysseyra1n
-redirect_from:
-  - /ra1n
-  - /installing-odysseyrain
-  - /odysseyra1n
-  - /odysseyrain
-  - /or
-  - /installing-checkra1n
-  - /installing-checkrain
-  - /checkra1n
-  - /checkrain
-  - /cr
 ---
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!

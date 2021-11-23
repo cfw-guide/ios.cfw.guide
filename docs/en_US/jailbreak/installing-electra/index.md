@@ -3,9 +3,6 @@ lang: en_US
 title: Installing Electra
 description: Guide to installing Electra
 permalink: /installing-electra
-redirect_from:
-  - /electra
-  - /el
 ---
 
 Electra is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.

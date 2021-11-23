@@ -1,9 +1,6 @@
 ---
-title: Updating to 15.0.2
-permalink: /updating-to-15-0-2
-redirect_from:
-- /updating-to-15-0
-- /updating-to-15-0-1
+title: Updating to 15.1
+permalink: /updating-to-15-1
 ---
 
 ## Required Reading
