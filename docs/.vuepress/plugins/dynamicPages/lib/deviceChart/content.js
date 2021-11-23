@@ -107,6 +107,26 @@ function getRelatedDevices(device, showBeta) {
   return html;
 }
 
+function isObject(objValue) {
+  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
+}
+
+function getDeviceListFromBuild(b) {
+  var devArr = [];
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier')) {
+        devArr.push(b.devices[i].identifier)
+      }
+    } else {
+      devArr.push(b.devices[i])
+    }
+  }
+  
+  return devArr;
+}
+
 function getDeviceTable(device, showAll, showBeta) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
@@ -121,7 +141,7 @@ function getDeviceTable(device, showAll, showBeta) {
     if (iosList[i].hasOwnProperty('beta'))
       if (!iosList[i].beta || showBeta)
         if (iosList[i].hasOwnProperty('devices'))
-          if (iosList[i].devices.includes(d) || showAll)
+          if (getDeviceListFromBuild(iosList[i]).includes(d) || showAll)
             buildArr.push(iosList[i])
         
   for (var b in buildArr) {

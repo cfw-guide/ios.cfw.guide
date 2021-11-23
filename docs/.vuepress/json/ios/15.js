@@ -3,7 +3,108 @@ module.exports = [
     "ver": "15.0 beta",
     "build": "19A5261w",
     "released": "2021-06-07",
-    "devices": [],
+    "devices": [
+      {
+        "identifier": "iPhone8,1",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.7_15.0_19A5261w_Restore.ipsw",
+      },
+      {
+        "identifier": "iPhone8,2",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone8,4",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone9,1",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone9,2",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone9,3",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone9,4",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone10,1",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.7_P3_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone10,2",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone10,3",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone103iPhone106_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone10,4",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.7_P3_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone10,5",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone10,6",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone103iPhone106_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone11,2",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone11,4",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone11,6",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone11,8",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone118iPhone121_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone12,1",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone118iPhone121_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone12,3",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone12,5",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone12,8",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone128_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone13,1",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone131_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone13,2",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone132iPhone133_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone13,3",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone132iPhone133_15.0_19A5261w_Restore.ipsw"
+      },
+      {
+        "identifier": "iPhone13,4",
+        "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone134_15.0_19A5261w_Restore.ipsw"
+      },
+    ],
     "beta": true,
   },
   {
