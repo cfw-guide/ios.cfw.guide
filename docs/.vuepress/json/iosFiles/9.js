@@ -80,7 +80,7 @@ module.exports = [
     "released": "2015-09-16",
 		"beta": false,
     "devices": [
-      "iPhone8,2", // iPhone 6s Plus, A9 // iPhone 6s, A9
+      "iPhone8,2", // iPhone 6s Plus, A9 //
     ],
   },
   {
@@ -197,7 +197,7 @@ module.exports = [
       "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
       "iPhone8,1", // iPhone 6s, A9
-      "iPhone8,2", // iPhone 6s Plus, A9 // iPhone 6s+, A9
+      "iPhone8,2", // iPhone 6s Plus, A9
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
