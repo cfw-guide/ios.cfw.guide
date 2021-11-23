@@ -50,7 +50,7 @@ module.exports = {
         "iPad5,3", // iPad Air 2 Wi-Fi, A8X
         "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
         "iPod5,1", // iPod touch (5th generation), A5
-        "iPod7,1", // iPod touch (7th generation), A8
+        "iPod7,1", // iPod touch (6th generation), A8
       ]
     },
     {
@@ -80,7 +80,7 @@ module.exports = {
         "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
         "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
         "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
-        "iPod7,1", // iPod touch (7th generation), A8
+        "iPod7,1", // iPod touch (6th generation), A8
       ]
     }
   ]
