@@ -84,7 +84,7 @@ function getDeviceInfo(device) {
   return html;
 }
 
-function getRelatedDevices(device, showBeta) {
+function getRelatedDevices(device) {
   const d = device;
   var html = ''
   
@@ -99,7 +99,6 @@ function getRelatedDevices(device, showBeta) {
   for (var i in relatedDevices) {
     if (relatedDevices[i] == d) continue;
     var path = devicePath;
-    if (showBeta) path = betaDevicePath
     html += `<li><a href="${path}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
   }
   html += '</ul>'
@@ -230,6 +229,6 @@ function getJailbreaks(os, d, showAll) {
   return jbArr;
 }
 
-module.exports = function(device, showAll, showBeta) {
-  return getDeviceInfo(device) + getRelatedDevices(device, showBeta) + getDeviceTable(device, showAll);
+module.exports = function(device, showAll) {
+  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll);
 }
