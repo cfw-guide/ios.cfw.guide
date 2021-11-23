@@ -99,7 +99,7 @@ module.exports = [
       "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
@@ -168,7 +168,7 @@ module.exports = [
       "iPad5,3", // iPad Air 2 Wi-Fi, A8X
       "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -225,7 +225,7 @@ module.exports = [
       "iPad5,3", // iPad Air 2 Wi-Fi, A8X
       "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -314,7 +314,7 @@ module.exports = [
       "iPad5,3", // iPad Air 2 Wi-Fi, A8X
       "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -401,7 +401,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -456,7 +456,7 @@ module.exports = [
       "iPad5,1", // iPad mini 4 Wi-Fi, A8
       "iPad5,2", // iPad mini 4 Wi-Fi + Cellular, A8
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -468,7 +468,7 @@ module.exports = [
       "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
       "iPhone8,1", // iPhone 6s, A9
-      "iPhone8,2", // iPhone 6s Plus, A9 // iPhone 6s+, A9
+      "iPhone8,2", // iPhone 6s Plus, A9
       "iPad5,3", // iPad Air 2 Wi-Fi, A8X
       "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
@@ -582,7 +582,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -592,7 +592,7 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone8,1", // iPhone 6s, A9
-      "iPhone8,2", // iPhone 6s Plus, A9 // iPhone 6s+, A9
+      "iPhone8,2", // iPhone 6s Plus, A9
       "iPad6,3", // iPad Pro (9.7-inch) Wi-Fi, A9X
       "iPad6,4", // iPad Pro (9.7-inch) Wi-Fi + Cellular, A9X
     ],
@@ -603,8 +603,8 @@ module.exports = [
     "released": "2016-03-25",
 		"beta": false,
     "devices": [
-      "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
+      "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
     ],
   },
   {
@@ -691,7 +691,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -771,7 +771,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -835,7 +835,7 @@ module.exports = [
       "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
       "iPhone8,1", // iPhone 6s, A9
-      "iPhone8,2", // iPhone 6s Plus, A9 // iPhone 6s+, A9
+      "iPhone8,2", // iPhone 6s Plus, A9
       "iPhone8,4", // iPhone SE, A9
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
@@ -868,7 +868,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -920,7 +920,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
@@ -972,7 +972,7 @@ module.exports = [
       "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
       "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
       "iPod5,1", // iPod touch (5th generation), A5
-      "iPod7,1", // iPod touch (7th generation), A8
+      "iPod7,1", // iPod touch (6th generation), A8
     ],
   },
   {
