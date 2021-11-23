@@ -23,6 +23,7 @@ permalink: /site-navigation
 + [Installing Pangu7](/installing-pangu7)
 + [Installing Taurine](/installing-taurine)
 + [Installing unc0ver](/installing-unc0ver)
++ [Installing unc0ver (Fugu14)](/installing-unc0ver-fugu14)
 + [Using JailbreakMe Saffron](/using-jailbreakme-saffron)
 + [Using JailbreakMe Star](/using-jailbreakme-star)
 + [Using odysseyn1x](/using-odysseyn1x)
