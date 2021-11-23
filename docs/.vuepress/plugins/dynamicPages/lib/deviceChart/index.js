@@ -2,13 +2,23 @@ const deviceList = require('../../../../json/deviceList');
 var page = [];
 
 page.push({
-  path: '/chart/index.html',
+  path: '/chart.html',
   frontmatter: {
     title: 'Firmware Chart',
     description: 'iOS Jailbreak Firmware Chart',
     sidebar: false
   },
   content: require('./content')('', true)
+})
+
+page.push({
+  path: '/chart/device.html',
+  frontmatter: {
+    title: 'Device Chart',
+    description: 'iOS Jailbreak Device Chart',
+    sidebar: false
+  },
+  content: require('./devicePage')
 })
 
 for (var device in deviceList) {
@@ -19,7 +29,7 @@ for (var device in deviceList) {
       description: 'Compatible jailbreaks for ' + deviceList[device].name,
       sidebar: false
     },
-    content: require('./content')(device, false, false)
+    content: require('./content')(device, false)
   })
 };
 
