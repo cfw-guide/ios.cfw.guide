@@ -982,9 +982,9 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone4,1", // iPhone 4S, A5
-      "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
-      "iPad2,5", // iPad mini Wi-Fi + Cellular, A5
-      "iPad2,5", // iPad mini Wi-Fi + Cellular (MM), A5
+      "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), 
+      "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
+      "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
       "iPad3,2", // iPad (3rd generation) Wi-Fi + Cellular (VZ), A5X
       "iPad3,3", // iPad (3rd generation) Wi-Fi + Cellular, A5X
     ],
