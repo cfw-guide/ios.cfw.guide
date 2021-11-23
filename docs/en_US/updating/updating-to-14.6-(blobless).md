@@ -3,12 +3,6 @@ lang: en_US
 title: Updating to 14.6 (Blobless)
 description: Guide on updating to 14.6 without any blobs.
 permalink: /updating-to-14-6-(blobless)
-redirect_from:
-  - /updating-to-14-6
-  - /updating-to-14-5-(blobless)
-  - /updating-to-14-4-2-(blobless)
-  - /updating-to-14-4-(blobless)
-  - /updating-to-14-3-(blobless)
 ---
 
 ## Required Reading

@@ -3,9 +3,6 @@ lang: en_US
 title: Installing Chimera
 description: Guide to installing Chimera
 permalink: /installing-chimera
-redirect_from:
-  - /chimera
-  - /cm
 ---
 
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.

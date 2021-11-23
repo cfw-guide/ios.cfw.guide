@@ -4,11 +4,6 @@ title: Installing P0sixspwn
 description: Guide to installing P0sixspwn
 permalink: /installing-p0sixspwn
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /installing-posixpwn
-  - /p0sixpwn
-  - /posixpwn
-  - /p0
 ---
 
 P0sixspwn is capable of jailbreaking every iOS device on firmware version 6.1.3 up to 6.1.6

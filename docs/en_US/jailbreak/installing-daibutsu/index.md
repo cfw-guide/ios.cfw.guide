@@ -4,10 +4,6 @@ title: Installing Daibutsu
 description: Guide to installing Daibutsu
 permalink: /installing-daibutsu
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /Daibutsu
-  - /es
-  - /eta
 ---
 
 Daibutsu is capable of jailbreaking A5(X) iOS devices on firmware version 8.4.1.
