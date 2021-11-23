@@ -5,27 +5,27 @@ module.exports = [
     "released": "2021-06-07",
     "devices": [
       {
-        "identifier": "iPhone8,1",
+        "identifier": "iPhone8,1", // iPhone 6s, A9
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.7_15.0_19A5261w_Restore.ipsw",
       },
       {
-        "identifier": "iPhone8,2",
+        "identifier": "iPhone8,2", // iPhone 6s Plus, A9
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone8,4",
+        "identifier": "iPhone8,4", // iPhone SE, A9
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone9,1",
+        "identifier": "iPhone9,1", // iPhone 7 (CDMA), A10
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone9,2",
+        "identifier": "iPhone9,2", // iPhone 7 Plus (CDMA), A10
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone9,3",
+        "identifier": "iPhone9,3", // iPhone 7 Plus (GSM), A10
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.0_64bit_15.0_19A5261w_Restore.ipsw"
       },
       {
@@ -33,15 +33,15 @@ module.exports = [
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone10,1",
+        "identifier": "iPhone10,1", // iPhone 8 (CDMA), A11
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_4.7_P3_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone10,2",
+        "identifier": "iPhone10,2", // iPhone 8 Plus (CDMA), A11
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone_5.5_P3_15.0_19A5261w_Restore.ipsw"
       },
       {
-        "identifier": "iPhone10,3",
+        "identifier": "iPhone10,3", // iPhone X (CDMA), A11
         "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone103iPhone106_15.0_19A5261w_Restore.ipsw"
       },
       {

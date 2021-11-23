@@ -3,92 +3,146 @@ module.exports = [
     "ver": "12.0 beta",
     "build": "16A5288q",
     "released": "2018-06-04",
-    "devices": [],
     "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.7_12.0_16A5288q_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 2",
     "build": "16A5308e",
     "released": "2018-06-19",
-    "devices": [],
     "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-88010-20180618-A952F588-70E4-11E8-A959-6E1B8896EC1B/iPhone_4.7_12.0_16A5308e_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 3",
     "build": "16A5318d",
     "released": "2018-07-03",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92763-20180705-9A2F0BDE-7BA0-11E8-9B3D-4F72DA3C085A/iPhone_4.7_12.0_16A5318d_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 4",
     "build": "16A5327f",
     "released": "2018-07-17",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-95755-20180716-AD4B2766-8771-11E8-8865-3AADAFD6420E/iPhone_4.7_12.0_16A5327f_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 5",
     "build": "16A5339e",
     "released": "2018-07-30",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-97562-20180730-1AC713E2-927E-11E8-B299-506101208DCC/iPhone_4.0_64bit_12.0_16A5339e_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 6",
     "build": "16A5345f",
     "released": "2018-08-06",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-98670-20180806-37401D7E-96DA-11E8-BBD0-D28EFF4EAF9D/iPhone_4.0_64bit_12.0_16A5345f_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 7",
     "build": "16A5354b",
     "released": "2018-08-13",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/091-99897/E472F736-9CB7-11E8-A00A-B2DDA30B52A2/iPhone_4.0_64bit_12.0_16A5354b_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 8",
     "build": "16A5357b",
     "released": "2018-08-15",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-00353/097D32B4-9FD1-11E8-9115-E362DF4FC48E/iPhone_4.0_64bit_12.0_16A5357b_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 9",
     "build": "16A5362a",
     "released": "2018-08-20",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-00968/ADC7C46A-A305-11E8-B6C3-F826D945CB70/iPhone_4.0_64bit_12.0_16A5362a_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 10",
     "build": "16A5364a",
     "released": "2018-08-23",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-01920/19AC4B66-A661-11E8-8697-B62CBC2B0A7E/iPhone_4.0_64bit_12.0_16A5364a_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 11",
     "build": "16A5365b",
     "released": "2018-08-27",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-03281/FEDBF686-A829-11E8-BCA3-AC9CF8C47A36/iPhone_4.0_64bit_12.0_16A5365b_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 beta 12",
     "build": "16A5366a",
     "released": "2018-08-31",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-03595/B73B8B1E-ABF5-11E8-B874-C242F0B9A487/iPhone_4.0_64bit_12.0_16A5366a_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0 GM",
     "build": "16A366-GM",
     "released": "2018-09-12",
-    "devices": [],
-    "beta": true,
+    "devices": [
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9
+        "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63009/116F8BD8-AC8E-11E8-A3AF-9B7076D145D8/iPhone_4.0_64bit_12.0_16A366_Restore.ipsw",
+      },
+    ],
   },
   {
     "ver": "12.0",
