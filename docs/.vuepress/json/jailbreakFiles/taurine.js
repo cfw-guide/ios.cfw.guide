@@ -24,6 +24,8 @@ module.exports = {
         "18B92", // 14.2
         "18B111", // 14.2, iPhone 12 and 12 Pro only
         "18B121", // 14.2.1, iPhone 12 and 12 Pro only
+        "18C65", // 14.3 RC
+        "18C66-RC", // 14.3 RC 2
         "18C66", // 14.3
       ],
       "devices": [
