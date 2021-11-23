@@ -30,43 +30,22 @@ function getJbInfo(jb) {
   if (!jb.hasOwnProperty('info')) return html;
   
   const info = jb.info;
-  html += '<h2>' + header[0] + '</h2>'
-  html += '<p>'
+  html += '## ' + header[0] + "\n\n"
   
   var infoArr = []
   
   if (info.hasOwnProperty('website')) {
     const website = info.website;
-    
-    var target = '';
-    var icon = '';
-    if (website.hasOwnProperty('external')) {
-      if (website.external) {
-        target = 'target="_blank"';
-        icon = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>'
-      }
-    }
-    
-    infoArr.push(`${infoHeader[0]}: <a href="${website.url}" ${target}>${website.name}</a>${icon}`)
+    infoArr.push(`${infoHeader[0]}: [${website.name}](${website.url})`)
   }
     
   if (info.hasOwnProperty('guide')) {
     for (var i in info.guide) {
       const guide = info.guide[i];
-      
       var guideText = infoHeader[1];
       if (guide.hasOwnProperty('text')) guideText = guide.text
       
-      var target = '';
-      var icon = '';
-      if (guide.hasOwnProperty('external')) {
-        if (guide.external) {
-          target = 'target="_blank"';
-          icon = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>'
-        }
-      }
-      
-      infoArr.push(`${guideText}: <a href="${guide.url}" ${target}>${guide.name}</a>${icon}`)
+      infoArr.push(`${guideText}: [${guide.name}](${guide.url})`)
     }
   }
   
@@ -74,14 +53,9 @@ function getJbInfo(jb) {
   if (info.hasOwnProperty('firmwares')) infoArr.push(`${infoHeader[3]}: ${info.firmwares[0]} to ${info.firmwares[1]}`)
   if (info.hasOwnProperty('soc')) infoArr.push(`${infoHeader[4]}: ${info.soc}`)
   
-  for (var i in infoArr) {
-    html += infoArr[i];
-    if (infoArr[parseInt(i)+1]) html += '<br>'
-  }
+  for (var i in infoArr) html += infoArr[i] + '<br>';
   
-  html += '</p>'
-  
-  return html;
+  return html + "\n";
 }
 
 function getJb(jb) {
@@ -143,16 +117,12 @@ function getCompatListing(jb) {
     if (createNewObj) compatArr.push(obj)
   }
   
-  html += `<h2>${header[1]}</h2>`
+  html += "## " + header[1] + "\n";
   for (var i in compatArr) {
-    html += `<h3>${compatListHeader[0]}</h3>`
-    html += '<ul>'
-    for (var d in compatArr[i].devices) html += `<li><a href="${devicePath}${compatArr[i].devices[d]}">${deviceList[compatArr[i].devices[d]].name}</a></li>`
-    html += '</ul>'
-    html += `<h3>${compatListHeader[1]}</h3>`
-    html += '<ul>'
-    for (var fw in compatArr[i].firmwares) html += `<li>${getBuild(compatArr[i].firmwares[fw]).ver} (<a href="${fwPath}${compatArr[i].firmwares[fw]}">${compatArr[i].firmwares[fw]}</a>)</li>`
-    html += '</ul>'
+    html += "### " + compatListHeader[0] + "\n\n";
+    for (var d in compatArr[i].devices) html += "- [" + deviceList[compatArr[i].devices[d]].name + "](" + devicePath + compatArr[i].devices[d] + ")\n"
+    html += "### " + compatListHeader[1] + "\n\n";
+    for (var fw in compatArr[i].firmwares) html += "- " + getBuild(compatArr[i].firmwares[fw]).ver + " ([" + compatArr[i].firmwares[fw] + "](" + fwPath + compatArr[i].firmwares[fw] + "))\n"
   }
   
   return html;
