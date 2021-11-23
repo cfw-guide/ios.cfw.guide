@@ -7,10 +7,8 @@ module.exports = {
         "13G36", // 9.3.5
       ],
       "devices": [
-        "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6
-        "iPad2,5", // iPad mini Wi-Fi, A5
-        "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
+        "iPad2,4", // iPad 2 Wi-Fi (Mid 2012), A5
         "iPod5,1", // iPod touch (5th generation), A5
       ]
     },
