@@ -141,7 +141,27 @@ function getFwDevArr(jb, device) {
       if (getDeviceListFromBuild(v).includes(device)) ret.push(fwArr[i])
     }
   }
-  return ret;
+  
+  // This is a quick fix but is slow and bad
+  var finalRet = [];
+  if (jb.hasOwnProperty('compatibility')) {
+    const c = jb.compatibility;
+    for (var i in ret) {
+      for (var j in c) {
+        if (c[j].hasOwnProperty('devices')) {
+          if (c[j].devices.includes(device)) {
+            if (c[j].hasOwnProperty('firmwares')) {
+              if (c[j].firmwares.includes(ret[i])) {
+                finalRet.push(ret[i]);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  return finalRet;
 }
 
 function isObject(objValue) {
