@@ -8,7 +8,7 @@ module.exports = [
       },
       {
         text: 'Devices',
-        link: '/chart/devices.html'
+        link: '/chart/device.html'
       }
     ]
   },

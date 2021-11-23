@@ -43,7 +43,7 @@ function getHtml() {
     for (var j = 0; j < tableCount[i]; j++) {
       html += '<table><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><thead><tr>'
       for (var k = 0; k < 3; k++) {
-        if (deviceArr[i][j*3+k]) html += '<th>' + deviceArr[i][j*3+k].name + '</th>';
+        if (deviceArr[i][j*3+k]) html += '<th>' + deviceArr[i][j*3+k].name.replace('generation', 'gen') + '</th>';
         else html += '<th></th>';
       }
       html += '</tr></thead><tbody><tr>'
