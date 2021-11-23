@@ -156,8 +156,8 @@ function getDeviceTable(device, showAll) {
       b = buildArr[i].length - b - 1 // Reverse list of firmwares
       
       html += `<tr>`
-      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build.replace('6-enterprise', '6-e') + '</a></td>'
-      html += '<td>' + buildArr[i][b].ver + '</td>'
+      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build + '</a></td>'
+      html += '<td>' + buildArr[i][b].ver.replace('6-enterprise', '6-e') + '</td>'
       
       html += '<td>'
       var jbArr = getJailbreaks(buildArr[i][b].build, d, showAll)
@@ -174,6 +174,22 @@ function getDeviceTable(device, showAll) {
   var tableClass = ['tableBetaClass', 'tableMainClass'];
   
   var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">Show Beta Versions</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">Hide Beta Versions</a></p>"
+  
+  if(tableHtml[0] == tableHtml[1]) return title + `<table class="${tableClass[1]}">
+    <colgroup>
+      <col style="width: 15%">
+      <col style="width: 15%">
+      <col style="width: 70%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>${tableHeader[0]}</th>
+        <th>${tableHeader[1]}</th>
+        <th>${tableHeader[2]}</th>
+      </tr>
+    </thead>
+    <tbody>${tableHtml[0]}</tbody>
+  </table>`
   
   tableHtml = `
   <table class="${tableClass[0]}">

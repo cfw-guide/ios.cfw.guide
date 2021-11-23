@@ -42,8 +42,8 @@ function getDate(d) {
 function getBuildInfo(b) {
   b = getBuild(b)
   var html = "## " + header[0] + "\n";
-  html += infoHeader[0] + ": " + b.ver + "\n"
-  html += infoHeader[1] + ": " + b.build + "\n"
+  html += infoHeader[0] + ": " + b.ver + '<br>'
+  html += infoHeader[1] + ": " + b.build + '<br>'
   html += infoHeader[2] + ": " + getDate(b.released) + "\n"
   return html;
 }
