@@ -168,10 +168,30 @@ function getFwDevArr(jb, device) {
       if (!v.hasOwnProperty('build')) continue;
       if (v.build != fwArr[i]) continue;
       if (!v.hasOwnProperty('devices')) continue;
-      if (v.devices.includes(device)) ret.push(fwArr[i])
+      if (getDeviceListFromBuild(v).includes(device)) ret.push(fwArr[i])
     }
   }
   return ret;
+}
+
+function isObject(objValue) {
+  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
+}
+
+function getDeviceListFromBuild(b) {
+  var devArr = [];
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier')) {
+        devArr.push(b.devices[i].identifier)
+      }
+    } else {
+      devArr.push(b.devices[i])
+    }
+  }
+  
+  return devArr;
 }
 
 module.exports = function(jb) {

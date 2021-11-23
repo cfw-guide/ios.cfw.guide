@@ -48,17 +48,66 @@ function getBuildInfo(b) {
   <br>` + infoHeader[2] + `: ` + getDate(b.released) + `</p>`
 }
 
+function isObject(objValue) {
+  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
+}
+
+function getDeviceListFromBuild(b) {
+  var devArr = [];
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier')) {
+        devArr.push(b.devices[i].identifier)
+      }
+    } else {
+      devArr.push(b.devices[i])
+    }
+  }
+  
+  return devArr;
+}
+
+function getDeviceFromBuild(b, d) {
+  var devArr = getDeviceListFromBuild(b);
+  if (!devArr.includes(d)) return -1;
+  
+  var deviceObj = {
+    "identifier": "",
+    "ipsw": "",
+  }
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier') && b.devices[i].hasOwnProperty('ipsw')) {
+        if (b.devices[i].identifier == d) {
+          deviceObj.identifier = b.devices[i].identifier;
+          deviceObj.ipsw = b.devices[i].ipsw;
+        }
+      }
+    } else {
+      if (b.devices[i] == d) {
+        deviceObj.identifier = b.devices[i];
+      }
+    }
+  }
+  
+  return deviceObj;
+}
+
 function getBuildDevices(b) {
   var html = '';
   b = getBuild(b);
   var d = [];
-  if (b.hasOwnProperty('devices')) d = b.devices;
+  if (b.hasOwnProperty('devices')) d = getDeviceListFromBuild(b);
   if (d.length < 1) return html;
   html += '<h2>' + header[1] + '</h2><ul>'
   for (var i in d) {
-    var ipswLink = `https://ipsw.me/download/${d[i]}/${b.build}`;
-    if (b.hasOwnProperty('beta')) if (b.beta) 'https://www.theiphonewiki.com/wiki/Beta_Firmware'
-    html += `<li><a href="${devicePath}${d[i]}">${deviceList[d[i]].name}</a> <a target="_blank" href="${ipswLink}"><i class="fas fa-download"></i></a></li>`
+    var device = getDeviceFromBuild(b, d[i]);
+    var ipswLink = `https://ipsw.me/download/${device.identifier}/${b.build}`;
+    if (b.hasOwnProperty('beta')) if (b.beta) ipswLink = 'https://www.theiphonewiki.com/wiki/Beta_Firmware';
+    if (device.ipsw) ipswLink = device.ipsw;
+    html += `<li><a href="${devicePath}${device.identifier}">${deviceList[device.identifier].name}</a> <a target="_blank" href="${ipswLink}"><i class="fas fa-download"></i></a></li>`
   }
   html += '</ul>'
   return html;
@@ -107,7 +156,7 @@ function isDevCompatible(dev, os) {
   for (var i in iosList) {
     if (!iosList[i].hasOwnProperty('devices') || !iosList[i].hasOwnProperty('build')) continue;
     if (iosList[i].build != os) continue;
-    if (iosList[i].devices.includes(dev)) return true;
+    if (getDeviceListFromBuild(iosList[i]).includes(dev)) return true;
   }
   return false;
 }
