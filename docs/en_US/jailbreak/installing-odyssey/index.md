@@ -5,7 +5,7 @@ description: Guide to installing Odyssey
 permalink: /installing-odyssey
 ---
 
-Taurine is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
+Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
 
 The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 13.0 to 13.7.
 
