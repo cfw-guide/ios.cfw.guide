@@ -30,7 +30,7 @@ permalink: /site-navigation
 
 ## Miscellaneous
 
-+ [Removing unc0ver](/removing-unc0ver)
++ [Restoring Rootfs](/restoring-rootfs)
 + [Installing Sileo](/installing-sileo)
 + [Using Sileo](/using-sileo)
 + [Blocking Updates](/blocking-updates)
