@@ -13,6 +13,10 @@ Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](
 
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
+::: warning
+If you are already jailbroken with another jailbreak, make sure to properly [remove it](/restoring-rootfs) before proceeding.
+:::
+
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>

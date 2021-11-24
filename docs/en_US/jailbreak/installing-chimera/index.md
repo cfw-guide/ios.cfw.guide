@@ -18,7 +18,7 @@ If you have a newer device with an A12 SoC, such as the iPhone XS, you can only 
 :::
 
 ::: warning
-If you are already jailbroken with unc0ver, make sure to properly [remove it](/removing-unc0ver) before proceeding.
+If you are already jailbroken with another jailbreak (besides Odysseyra1n), make sure to properly [remove it](/restoring-rootfs) before proceeding.
 :::
 
 ## Downloads

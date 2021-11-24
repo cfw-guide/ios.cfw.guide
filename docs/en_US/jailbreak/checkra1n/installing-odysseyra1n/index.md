@@ -12,7 +12,7 @@ checkra1n is a tool capable of jailbreaking millions of iOS devices with the A7 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 ::: warning
-If you're migrating from unc0ver to Odysseyra1n, you must follow [Removing unc0ver](/removing-unc0ver) before proceeding.
+If you are already jailbroken with another jailbreak (besides Chimera, Odyssey, or Taurine), make sure to properly [remove it](/restoring-rootfs) before proceeding.
 :::
 
 On iOS 14: 

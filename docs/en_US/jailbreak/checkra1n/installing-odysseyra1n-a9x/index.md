@@ -18,7 +18,7 @@ If you are using an A9X device running iOS 14.4.2 or earlier, you should follow 
 :::
 
 ::: warning
-If you're migrating from unc0ver to Odysseyra1n, you must follow [Removing unc0ver](/removing-unc0ver) before proceeding.
+If you are already jailbroken with regular checkra1n, make sure to properly [remove it](/removing-checkra1n) before proceeding.
 :::
 
 ---
