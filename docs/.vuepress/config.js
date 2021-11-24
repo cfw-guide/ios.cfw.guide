@@ -1,6 +1,8 @@
 const config = require("./configs");
 const path = require("path");
 
+const iosList = require('./json/ios')
+
 module.exports = {
   locales: {
     '/': config.en_US.locales
@@ -21,6 +23,7 @@ module.exports = {
 			}
 		],
     require('./plugins/dynamicPages/lib/'),
+    require('./plugins/redirectPlugin/lib/'),
 	],
   
   themeConfig: {
