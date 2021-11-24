@@ -30,7 +30,7 @@ On iOS 14:
 
 ![A screenshot of the Odysseyn1x menu](/assets/images/Odysseyn1x.png)
 
-!!!include(./docs/en_US/jailbreak/checkra1n/include/unc0ver-migration.md)!!!
+<!--!!!include(./docs/en_US/jailbreak/checkra1n/include/unc0ver-migration.md)!!!-->
 
 ## Flashing Odysseyn1x
 
