@@ -11,7 +11,7 @@ The tool is compatible with jailbreaking devices on iOS versions from 11.0 to 11
 
 Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](/resigning-apps) once every 7 days.
 
-We will use Sideloadly to install the Taurine Electra application to your iOS device for use in the next step.
+We will use Sideloadly to install the Electra application to your iOS device for use in the next step.
 
 ::: warning
 If you are already jailbroken with unc0ver, make sure to properly [remove it](/removing-unc0ver) before proceeding.

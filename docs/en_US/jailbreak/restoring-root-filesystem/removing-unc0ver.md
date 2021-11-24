@@ -7,11 +7,7 @@ permalink: /removing-unc0ver
 
 Uninstalling a jailbreak isn't as simple as deleting the app. When you uninstall unc0ver, you need to go in the app and restore parts of the OS to how they were before your device was jailbroken.
 
-This guide is useful for people who want to install checkra1n, as it requires that unc0ver is removed first, or just people who want to unjailbreak their device.
-
-:::tip
-If you're proceeding to installing Odysseyra1n, we recommend making a system backup through iTunes or Finder (macOS Catalina and newer) after you remove unc0ver.
-:::
+This guide is useful for people who want to install regular checkra1n, Odysseyra1n, Electra, Chimera, Odyssey, or Taurine as it requires that unc0ver is removed first, or just people who want to unjailbreak their device.
 
 ## Uninstalling
 
