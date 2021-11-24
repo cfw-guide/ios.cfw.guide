@@ -31,8 +31,6 @@ On A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ su
 
 ![A screenshot of the Odysseyn1x menu](/assets/images/Odysseyn1x.png)
 
-<!--!!!include(./docs/en_US/jailbreak/checkra1n/include/unc0ver-migration.md)!!!-->
-
 ## Flashing Odysseyn1x
 
 1. Download and install balenaEtcher
