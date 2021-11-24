@@ -68,7 +68,7 @@ You will bootloop if you jailbreak your device while in the dark
 1. Tap `Ignore (Temporary)`
 1. Open the Sources tab
 1. Tap `Edit` then `Add`
-1. Type in `http://cydia.kawaiizenbo.me:8080` and then tap `Add source` 
+1. Type in `https://repo.kawaiizenbo.me` and then tap `Add source` 
 1. Tap on the new source `KawaiiZenbo's Cydia repository`
 1. Tap on `System` then `Pangu 7.1-7.1.x Untether` 
 1. Tap `Install` then `Confirm`
