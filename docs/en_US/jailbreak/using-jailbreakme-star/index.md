@@ -13,7 +13,32 @@ JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot an
 ## Running JailbreakMe Star
 
 1. Open Safari on your iOS device
-1. Go to the [jailbreakme.com](https://jailbreakme.com) website
+1. Go to the [jailbreakme.com](http://jailbreakme.com) website
 1. Slide to the right on "Slide to Jailbreak"
 
-After a couple of minutes, Cydia should be installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+After a couple of minutes, Cydia should be installed on your home screen.
+
+## Patching Cydia
+
+::: danger
+
+Skip these steps if you are on iOS 4 or higher
+
+:::
+
+::: tip
+
+1. Open Cydia and select `Developer (No Filters)`
+1. Wait for data to reload (May take a very long time, ensure device does not go to sleep)
+1. When prompted about essential upgrades, select `Complete Upgrade` (Again, ensure device does not go to sleep)
+1. Once done, tap `Close Cydia (Restart)`
+1. After Cydia has restarted, wait for it to reload data and **ignore any errors about untrusted server certificates**
+1. Go to the sources tab, tap `Edit`, then `Add`
+1. Type in `http://cydia.invoxiplaygames.uk/`, and wait until `Close` appears in the top righthand corner
+1. Tap on the newly added `IPG's Cydia Repo`, then tap `Tweaks`, then find `Cydia HTTPatch`
+1. Tap `Install`, then `Confirm`, then wait until `Close` appears in the top righthand corner
+1. Cydia will close, and should now be fully patched.
+
+:::
+
+You can now use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
