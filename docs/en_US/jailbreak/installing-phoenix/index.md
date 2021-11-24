@@ -4,9 +4,6 @@ title: Installing Phœnix
 description: Guide to installing Phoenix
 permalink: /installing-phoenix
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /phoenix
-  - /pn
 ---
 
 Phœnix is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5 and 9.3.6.
@@ -25,6 +22,7 @@ Phœnix is currently signed at <a href="https://jailbreaks.app/legacy.html" targ
 
 - The latest version of [Phœnix](https://phoenixpwn.com/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

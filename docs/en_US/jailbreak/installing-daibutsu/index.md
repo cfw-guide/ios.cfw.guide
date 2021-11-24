@@ -4,10 +4,6 @@ title: Installing Daibutsu
 description: Guide to installing Daibutsu
 permalink: /installing-daibutsu
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /Daibutsu
-  - /es
-  - /eta
 ---
 
 Daibutsu is capable of jailbreaking A5(X) iOS devices on firmware version 8.4.1.
@@ -24,6 +20,7 @@ Daibutsu is currently signed at <a href="https://jailbreaks.app/legacy.html" tar
 
 - The latest version of [Daibutsu](https://dora2ios.web.app/daibutsu.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

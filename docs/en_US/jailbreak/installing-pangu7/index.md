@@ -4,9 +4,6 @@ title: Installing Pangu7
 excerpt: Guide to installing Pangu7
 permalink: /installing-pangu7
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /pangu712
-  - /pangu7
 ---
 
 Pangu7 is capable of jailbreaking every iOS device on firmware version 7.1 up to 7.1.2.

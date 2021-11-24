@@ -3,9 +3,6 @@ lang: en_US
 title: Installing Chimera
 description: Guide to installing Chimera
 permalink: /installing-chimera
-redirect_from:
-  - /chimera
-  - /cm
 ---
 
 Chimera is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
@@ -32,6 +29,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

@@ -1,6 +1,7 @@
 const jbPath = '/chart/jailbreak/'
 const fwPath = '/chart/firmware/'
 const devicePath = '/chart/device/'
+const betaDevicePath = '/chart/beta/device'
 
 const header = [
   'Info',
@@ -71,14 +72,14 @@ function getDeviceInfo(device) {
   
   if (infoArr[5]) infoArr[5] = getDate(infoArr[5]);
   
-  var html = `<h2>${header[0]}</h2>`
+  var html = "## " + header[0] + "\n"
   
   html += '<p>'
   for (var i in infoArr) if (infoArr[i]) {
     html += infoHeader[i] + ': ' + infoArr[i];
     if (infoArr[parseInt(i) + 1]) html += '<br>';
   }
-  html += '</p>'
+  html += "</p>\n\n"
   
   return html;
 }
@@ -92,51 +93,89 @@ function getRelatedDevices(device) {
   var relatedDevices = deviceList[d].related;
   if (relatedDevices.length < 1) return html;
   
-  html += `<h2>${header[1]}</h2>`;
+  html += "## " + header[1] + "\n";
   
   html += '<ul>'
   for (var i in relatedDevices) {
     if (relatedDevices[i] == d) continue;
-    html += `<li><a href="${devicePath}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
+    var path = devicePath;
+    html += `<li><a href="${path}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
   }
-  html += '</ul>'
+  html += "</ul>\n\n"
   
   return html;
+}
+
+function isObject(objValue) {
+  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
+}
+
+function getDeviceListFromBuild(b) {
+  var devArr = [];
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier')) {
+        devArr.push(b.devices[i].identifier)
+      }
+    } else {
+      devArr.push(b.devices[i])
+    }
+  }
+  
+  return devArr;
 }
 
 function getDeviceTable(device, showAll) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
   
-  var title = `<h2>${header[2]}</h2>`;
+  var title = "## " + header[2] + "\n";
   if (showAll) title = '';
   
-  var html = '';
+  var tableHtml = [];
   
-  var buildArr = [];
+  var buildArr = [[], []];
   for (var i in iosList)
-    if (iosList[i].hasOwnProperty('devices'))
-      if (iosList[i].devices.includes(d) || showAll)
-        buildArr.push(iosList[i])
+    if (iosList[i].hasOwnProperty('beta'))
+      if (iosList[i].hasOwnProperty('devices'))
+        if (getDeviceListFromBuild(iosList[i]).includes(d) || showAll) {
+          if (iosList[i].hasOwnProperty('beta'))
+            if (iosList[i].beta) {
+              buildArr[1].push(iosList[i]);
+            }
+          else {
+            buildArr[0].push(iosList[i])
+            buildArr[1].push(iosList[i])
+          }
+        }
         
-  for (var b in buildArr) {
-    b = buildArr.length - b - 1 // Reverse list of firmwares
-    html += '<tr>'
-    html += '<td><a href="' + fwPath + buildArr[b].build + '">' + buildArr[b].build + '</a></td>'
-    html += '<td>' + buildArr[b].ver + '</td>'
-    html += '<td>'
-    var jbArr = getJailbreaks(buildArr[b].build, d, showAll)
-    for (var jb in jbArr) {
-      html += '<a href="' + jbPath + jbArr[jb].name + '">' + jbArr[jb].name + '</a>'
-      if (jbArr[parseInt(jb)+1]) html += ', '
+  for (var i in buildArr) {
+    var html = ''
+    for (var b in buildArr[i]) {
+      b = buildArr[i].length - b - 1 // Reverse list of firmwares
+      
+      html += `<tr>`
+      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build + '</a></td>'
+      html += '<td>' + buildArr[i][b].ver.replace('6-enterprise', '6-e') + '</td>'
+      
+      html += '<td>'
+      var jbArr = getJailbreaks(buildArr[i][b].build, d, showAll)
+      for (var jb in jbArr) {
+        html += `<a href="${jbPath}${jbArr[jb].name}">${jbArr[jb].name}</a>`
+        if (jbArr[parseInt(jb)+1]) html += ', '
+      }
+      html += '</td>'
+      html += '</tr>'
     }
-    html += '</td>'
-    html += '</tr>'
+    tableHtml.push(html);
   }
   
-  return `
-  ${title}
-  <table>
+  var tableClass = ['tableBetaClass', 'tableMainClass'];
+  
+  var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">Show Beta Versions</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">Hide Beta Versions</a></p>"
+  
+  if(tableHtml[0] == tableHtml[1]) return title + `<table class="${tableClass[1]}">
     <colgroup>
       <col style="width: 15%">
       <col style="width: 15%">
@@ -149,9 +188,44 @@ function getDeviceTable(device, showAll) {
         <th>${tableHeader[2]}</th>
       </tr>
     </thead>
-    <tbody>${html}</tbody>
+    <tbody>${tableHtml[0]}</tbody>
+  </table>`
+  
+  tableHtml = `
+  <table class="${tableClass[0]}">
+    <colgroup>
+      <col style="width: 15%">
+      <col style="width: 15%">
+      <col style="width: 70%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>${tableHeader[0]}</th>
+        <th>${tableHeader[1]}</th>
+        <th>${tableHeader[2]}</th>
+      </tr>
+    </thead>
+    <tbody>${tableHtml[1]}</tbody>
+  </table>
+  
+  <table class="${tableClass[1]}">
+    <colgroup>
+      <col style="width: 15%">
+      <col style="width: 15%">
+      <col style="width: 70%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>${tableHeader[0]}</th>
+        <th>${tableHeader[1]}</th>
+        <th>${tableHeader[2]}</th>
+      </tr>
+    </thead>
+    <tbody>${tableHtml[0]}</tbody>
   </table>
   `
+  
+  return title + switchButtons + tableHtml
 }
 
 function getJailbreaks(os, d, showAll) {
@@ -172,5 +246,5 @@ function getJailbreaks(os, d, showAll) {
 }
 
 module.exports = function(device, showAll) {
-  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll)
+  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll);
 }

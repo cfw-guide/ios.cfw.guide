@@ -3,8 +3,6 @@ lang: en-US
 title: "FAQ"
 description: Frequently asked questions on jailbroken devices.
 permalink: /faq
-redirect_from:
-  - help/faq
 ---
 
 ## What is jailbreaking?

@@ -41,22 +41,74 @@ function getDate(d) {
 
 function getBuildInfo(b) {
   b = getBuild(b)
-  return `
-  <h2>` + header[0] + `</h2>
-  <p>` + infoHeader[0] + `: ` + b.ver + `
-  <br>` + infoHeader[1] + `: ` + b.build + `
-  <br>` + infoHeader[2] + `: ` + getDate(b.released) + `</p>`
+  var html = "## " + header[0] + "\n";
+  html += infoHeader[0] + ": " + b.ver + '<br>'
+  html += infoHeader[1] + ": " + b.build + '<br>'
+  html += infoHeader[2] + ": " + getDate(b.released) + "\n"
+  return html;
+}
+
+function isObject(objValue) {
+  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
+}
+
+function getDeviceListFromBuild(b) {
+  var devArr = [];
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier')) {
+        devArr.push(b.devices[i].identifier)
+      }
+    } else {
+      devArr.push(b.devices[i])
+    }
+  }
+  
+  return devArr;
+}
+
+function getDeviceFromBuild(b, d) {
+  var devArr = getDeviceListFromBuild(b);
+  if (!devArr.includes(d)) return -1;
+  
+  var deviceObj = {
+    "identifier": "",
+    "ipsw": "",
+  }
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier') && b.devices[i].hasOwnProperty('ipsw')) {
+        if (b.devices[i].identifier == d) {
+          deviceObj.identifier = b.devices[i].identifier;
+          deviceObj.ipsw = b.devices[i].ipsw;
+        }
+      }
+    } else {
+      if (b.devices[i] == d) {
+        deviceObj.identifier = b.devices[i];
+      }
+    }
+  }
+  
+  return deviceObj;
 }
 
 function getBuildDevices(b) {
   var html = '';
-  const d = getBuild(b).devices
+  b = getBuild(b);
+  var d = [];
+  if (b.hasOwnProperty('devices')) d = getDeviceListFromBuild(b);
   if (d.length < 1) return html;
-  html += '<h2>' + header[1] + '</h2><ul>'
+  html += '## ' + header[1] + "\n"
   for (var i in d) {
-    html += '<li><a href="' + devicePath + d[i] + '">' + deviceList[d[i]].name + '</a></li>'
+    var device = getDeviceFromBuild(b, d[i]);
+    var ipswLink = `https://ipsw.me/download/${device.identifier}/${b.build}`;
+    if (b.hasOwnProperty('beta')) if (b.beta) ipswLink = 'https://www.theiphonewiki.com/wiki/Beta_Firmware';
+    if (device.ipsw) ipswLink = device.ipsw;
+    html += "- [" + deviceList[device.identifier].name + "](" + devicePath + device.identifier + `) <a href="${ipswLink}"><i class="fas fa-download"></i></a>` + "\n";
   }
-  html += '</ul>'
   return html;
 }
 
@@ -103,7 +155,7 @@ function isDevCompatible(dev, os) {
   for (var i in iosList) {
     if (!iosList[i].hasOwnProperty('devices') || !iosList[i].hasOwnProperty('build')) continue;
     if (iosList[i].build != os) continue;
-    if (iosList[i].devices.includes(dev)) return true;
+    if (getDeviceListFromBuild(iosList[i]).includes(dev)) return true;
   }
   return false;
 }
@@ -113,15 +165,11 @@ function getJbHtml(os) {
   var html = ''
   if (jbArr.length < 1) return html;
   
-  html += '<h2>' + header[2] + '</h2>'
+  html += "## " + header[2] + "\n"
   for (var jb in jbArr) {
-    html += '<h3>' + jbArr[jb].name + ' <a href="' + jbPath + jbArr[jb].name + '"><i style="font-size: 17px" class="fas fa-link"></i></a></h3>';
+    html += "### " + jbArr[jb].name + " [<i style=\"font-size: 17px\" class=\"fas fa-link\"></i>](" + jbPath + jbArr[jb].name + ")\n";
     const devArr = getJbDevArr(jbArr[jb], os);
-    html += '<ul>'
-    for (var dev in devArr) {
-      html += '<li><a href="' + devicePath + devArr[dev] + '">' + deviceList[devArr[dev]].name + '</a></li>';
-    }
-    html += '</ul>'
+    for (var dev in devArr) html += "- [" + deviceList[devArr[dev]].name + "](" + devicePath + devArr[dev] + ")\n"
   }
   
   return html;

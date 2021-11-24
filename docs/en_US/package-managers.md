@@ -3,8 +3,6 @@ lang: en-US
 title: "Package Managers"
 description: Information on the current package managers available to use
 permalink: /package-managers
-redirect_from:
-  - /pkgman
 ---
 
 After jailbreaking, you may be wondering what a package manager is, and why it's necessary to have one.

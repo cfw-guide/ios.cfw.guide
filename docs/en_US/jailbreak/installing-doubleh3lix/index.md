@@ -3,11 +3,6 @@ lang: en_US
 title: Installing doubleh3lix
 description: Guide to installing DoubleH3lix
 permalink: /installing-doubleh3lix
-redirect_from:
-  - /installing-doublehelix
-  - /doubleh3lix
-  - /doublehelix
-  - /dh
 ---
 
 doubleh3lix is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.
@@ -22,6 +17,7 @@ We will use the Sideloadly tool to install the doubleh3lix jailbreak application
 
 - The latest version of [doubleh3lix](https://doubleh3lix.tihmstar.net/ipa/doubleH3lix-RC8.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

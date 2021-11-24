@@ -1,5 +1,18 @@
 module.exports = [
   {
+    text: 'Chart',
+    children: [
+      {
+        text: 'Firmwares',
+        link: '/chart.html'
+      },
+      {
+        text: 'Devices',
+        link: '/chart/device.html'
+      }
+    ]
+  },
+  {
     text: 'Guides',
     children: [
       {

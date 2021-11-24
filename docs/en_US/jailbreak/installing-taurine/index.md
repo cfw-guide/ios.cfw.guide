@@ -3,9 +3,6 @@ lang: en_US
 title: Installing Taurine
 description: Guide to installing Taurine
 permalink: /installing-taurine
-redirect_from:
-  - /taurine
-  - /tr
 ---
 
 Taurine is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
@@ -28,6 +25,7 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The latest version of [Taurine](https://taurine.app)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
