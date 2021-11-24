@@ -4,10 +4,6 @@ title: Installing EtasonJB
 description: Guide to installing etasonjb
 permalink: /installing-etasonjb
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /etasonjb
-  - /es
-  - /eta
 ---
 
 EtasonJB is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.
@@ -20,6 +16,7 @@ We will use the Sideloadly tool to install the EtasonJB jailbreak application to
 
 - The latest version of [EtasonJB](https://etasonjb.tihmstar.net/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

@@ -3,8 +3,6 @@ lang: en_US
 title: "Installing Sileo"
 description: Guide to using Cydia
 permalink: /installing-sileo
-redirect_from:
-  - /install-sileo
 ---
 
 ## Introduction

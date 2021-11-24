@@ -4,11 +4,6 @@ title: Using JailbreakMe Saffron
 description: Guide to using JailbreakMe (Saffron)
 permalink: /using-jailbreakme-saffron
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /installing-jailbreakme-saffron
-  - /installing-saffron
-  - /saffron
-  - /jailbreakme-saffron
 ---
 
 JailbreakMe Saffron is capable of jailbreaking every device on 4.3.3, as well as all devices except the iPad 2 on 4.3 to 4.3.2 and the iPhone 4 (CDMA) from 4.2.6 to 4.2.8.

@@ -3,12 +3,6 @@ lang: en_US
 title: Installing h3lix
 description: Guide to installing H3lix
 permalink: /installing-h3lix
-redirect_from:
-  - /installing-helix
-  - /helix
-  - /h3lix
-  - /h3
-  - /he
 ---
 
 h3lix is capable of jailbreaking every 32bit iOS device on firmware version 10.0 up to 10.3.3.

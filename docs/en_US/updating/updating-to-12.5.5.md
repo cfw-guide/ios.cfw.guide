@@ -2,13 +2,6 @@
 lang: en_US
 title: Updating to 12.5.5
 permalink: /updating-to-12-5-5
-redirect_from:
-  - /updating-to-12-4-9
-  - /updating-to-12-5
-  - /updating-to-12-5-1
-  - /updating-to-12-5-2
-  - /updating-to-12-5-3
-  #- /updating-to-12-5-4
 ---
 
 ## Required Reading

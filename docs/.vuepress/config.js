@@ -20,7 +20,7 @@ module.exports = {
 				componentsDir: path.resolve(__dirname, './components')
 			}
 		],
-    require('./plugins/dynamicPages/lib/')
+    require('./plugins/dynamicPages/lib/'),
 	],
   
   themeConfig: {

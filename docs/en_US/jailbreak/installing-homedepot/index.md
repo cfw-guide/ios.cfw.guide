@@ -4,9 +4,6 @@ title: Installing HomeDepot
 description: Guide to installing HomeDepot
 permalink: /installing-homedepot
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /homedepot
-  - /hd
 ---
 
 HomeDepot is capable of jailbreaking every 32bit iOS device on firmware version 9.1 up to 9.3.4.
@@ -25,6 +22,7 @@ HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" ta
 
 - The latest version of [HomeDepot](http://wall.supplies/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

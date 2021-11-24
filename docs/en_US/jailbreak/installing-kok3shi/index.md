@@ -4,9 +4,6 @@ title: Installing Kok3shi
 description: Guide to installing kok3shi
 permalink: /installing-kok3shi
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /kok3shi
-  - /kokeshi
 ---
 
 Kok3shi is capable of jailbreaking the iPhone 5S and 6, iPad Air 1 and 2, iPad mini 2 - 4, and the 6th Generation iPod Touch on iOS 9.3 - 9.3.5. 
@@ -19,6 +16,7 @@ This jailbreak is in its early stages and therefore may not work as intended. Be
 
 - The latest version of [kok3shi](https://dora2ios.web.app/kokeshiJB.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

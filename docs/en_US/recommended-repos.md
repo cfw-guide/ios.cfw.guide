@@ -3,8 +3,6 @@ lang: en-US
 title: "Recommended Repos"
 description: Information on popular repositories for jailbreak tweaks
 permalink: /recommended-repos
-redirect_from:
-  - /repos
 ---
 
 After installing your jailbreak, you may want to install some repos ([repositories](faq#repos)). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!

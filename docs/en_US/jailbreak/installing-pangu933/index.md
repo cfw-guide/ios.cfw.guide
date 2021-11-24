@@ -4,9 +4,6 @@ title: Installing Pangu9
 description: Guide to installing Pangu933
 permalink: /installing-pangu933
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from:
-  - /pangu933
-  - /pangu9
 ---
 
 Pangu9 is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
@@ -21,6 +18,7 @@ We will use the Sideloadly tool to install the Pangu9 jailbreak application to y
 
 - The latest version of [Pangu9](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.org)_
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 

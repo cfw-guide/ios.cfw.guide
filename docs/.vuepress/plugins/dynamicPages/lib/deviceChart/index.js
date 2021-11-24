@@ -11,6 +11,16 @@ page.push({
   content: require('./content')('', true)
 })
 
+page.push({
+  path: '/chart/device.html',
+  frontmatter: {
+    title: 'Device Chart',
+    description: 'iOS Jailbreak Device Chart',
+    sidebar: false
+  },
+  content: require('./devicePage')
+})
+
 for (var device in deviceList) {
   page.push({
     path: '/chart/device/' + device + '.html',
