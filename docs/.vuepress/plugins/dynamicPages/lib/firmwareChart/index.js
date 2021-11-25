@@ -1,5 +1,5 @@
 const iosList = require('../../../../json/ios');
-const fwPath = '/chart/firmware'
+const fwPath = '/chart/firmware/'
 var page = [];
 
 var iosVerArr = []
