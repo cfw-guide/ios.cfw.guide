@@ -1,8 +1,9 @@
 module.exports = {
-  "name": "cherryflowerJB",
+  "name": "cherry flower JB",
   "compatibility": [
     {
       "firmwares": [
+        "10B350", // 6.1.4
         "13G36", // 9.3.5
       ],
       "devices": [
@@ -12,5 +13,14 @@ module.exports = {
         "iPhone5,4", // iPhone 5c (CDMA), A6
       ]
     },
+    {
+      "firmwares": [
+        "10B329", // 6.1.3
+      ],
+      "devices": [
+        "iPhone3,1", // iPhone 4 (GSM), A4
+        "iPhone4,1", // iPhone 4S, A5
+      ]
+    }
   ]
 }
