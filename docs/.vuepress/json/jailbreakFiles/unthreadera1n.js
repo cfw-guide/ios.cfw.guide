@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "unthredera1n",
+  "name": "unthreadera1n",
   "compatibility": [
     {
       "firmwares": [
