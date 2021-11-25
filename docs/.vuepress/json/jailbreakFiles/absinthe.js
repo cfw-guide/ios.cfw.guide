@@ -32,7 +32,7 @@ module.exports = {
     {
       "firmwares": [
         "9A405", // 5.0.1
-          "9B206", // 5.1.1
+        "9B206", // 5.1.1
       ],
       "devices": [
         "iPad2,1", // iPad 2 Wi-Fi, A5
