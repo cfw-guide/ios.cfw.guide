@@ -3,6 +3,7 @@ lang: en_US
 title: Removing checkra1n
 description: Guide to removing checkra1n
 permalink: /removing-checkra1n
+redirect_from: /removing-checkrain
 ---
 
 When you uninstall checkra1n, you need to go and restore parts of the OS to how they were before your device was jailbroken.

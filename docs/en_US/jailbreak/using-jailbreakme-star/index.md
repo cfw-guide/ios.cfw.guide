@@ -4,6 +4,7 @@ title: Using JailbreakMe Star
 description: Guide to using JailbreakMe (Star)
 permalink: /using-jailbreakme-star
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+redirect_from: /installing-jailbreakme-star
 ---
 
 JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to iOS 4.0.1 except for the iPad 1st Generation on iPhone OS 3.2.2.

@@ -3,6 +3,7 @@ lang: en_US
 title: Installing doubleh3lix
 description: Guide to installing DoubleH3lix
 permalink: /installing-doubleh3lix
+redirect_from: /installing-doublehelix
 ---
 
 doubleh3lix is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.

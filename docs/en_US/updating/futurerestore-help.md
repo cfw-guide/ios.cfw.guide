@@ -3,10 +3,7 @@ lang: en_US
 title: "FutureRestore issues Help"
 description: Provides solutions to some FR issues.
 permalink: /futurerestore-help
-redirect_from:
-  - /frhelp
-  - /futurerestorehelp
-  - /FutureRestoreHelp
+redirect_from: /futurerestorehelp
 ---
 
 ## Help page

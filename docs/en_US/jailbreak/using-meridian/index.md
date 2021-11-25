@@ -3,6 +3,7 @@ lang: en_US
 title: Using Meridian
 description: Guide to using Meridian
 permalink: /using-meridian
+redirect_from: /installing-meridian
 ---
 
 Meridian is capable of jailbreaking every 64-bit iOS device on firmware version 10.0 up to 10.3.3.

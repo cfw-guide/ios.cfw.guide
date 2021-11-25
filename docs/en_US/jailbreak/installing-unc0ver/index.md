@@ -3,6 +3,7 @@ lang: en_US
 title: Installing unc0ver
 description: Guide to installing unc0ver
 permalink: /installing-unc0ver
+redirect_from: /installing-uncover
 ---
 
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
