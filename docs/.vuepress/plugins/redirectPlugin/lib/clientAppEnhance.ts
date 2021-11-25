@@ -23,7 +23,8 @@ function redirects() {
       redObj.path.push(f.redirect_from)
     }
     
-    if (redObj.path == ['']) continue;
+    if (redObj.path.includes('')) continue;
+    if (redObj.redirect == '') continue;
     
     retArr.push(redObj);
   }
