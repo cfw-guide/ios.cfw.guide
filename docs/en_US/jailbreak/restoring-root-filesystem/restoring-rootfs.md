@@ -2,7 +2,7 @@
 lang: en_US
 title: Restoring Rootfs
 description: Guide to restoring the root filesystem of your jailbroken device
-permalink: /removing-unc0ver
+permalink: /restoring-rootfs
 ---
 
 Uninstalling a jailbreak isn't as simple as deleting the app or stuff similar to that nature. When you uninstall a jailbreak, you need to go and restore parts of the OS to how they were before your device was jailbroken.

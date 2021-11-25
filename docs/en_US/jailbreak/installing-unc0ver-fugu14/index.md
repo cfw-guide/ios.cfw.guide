@@ -3,6 +3,10 @@ lang: en_US
 title: Installing unc0ver (Fugu14)
 description: Guide to installing unc0ver with Fugu14
 permalink: /installing-unc0ver-fugu14
+redirect_from:
+  - /installing-uncover-fugu14
+  - /installing-unc0ver-(fugu14)
+  - /installing-uncover-(fugu14)
 ---
 
 unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires an app to re-apply the exploit after a reboot.

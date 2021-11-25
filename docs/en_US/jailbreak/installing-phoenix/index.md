@@ -4,6 +4,7 @@ title: Installing Phœnix
 description: Guide to installing Phoenix
 permalink: /installing-phoenix
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+redirect_from: /installing-phœnix
 ---
 
 Phœnix is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5 and 9.3.6.

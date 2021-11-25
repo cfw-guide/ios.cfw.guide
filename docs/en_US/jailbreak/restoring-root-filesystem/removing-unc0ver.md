@@ -3,6 +3,7 @@ lang: en_US
 title: Removing unc0ver
 description: Guide to removing unc0ver
 permalink: /removing-unc0ver
+redirect_from: /removing-uncover
 ---
 
 Uninstalling a jailbreak isn't as simple as deleting the app. When you uninstall unc0ver, you need to go in the app and restore parts of the OS to how they were before your device was jailbroken.
