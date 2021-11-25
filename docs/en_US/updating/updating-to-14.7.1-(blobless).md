@@ -3,6 +3,15 @@ lang: en_US
 title: Updating to 14.7.1 (Blobless)
 description: Guide on updating to 14.7.1 without any blobs.
 permalink: /updating-to-14-7-1-(blobless)
+redirect_from:
+  - /updating-to-14-3-(blobless)
+  - /updating-to-14-4-(blobless)
+  - /updating-to-14-4-1-(blobless)
+  - /updating-to-14-4-2-(blobless)
+  - /updating-to-14-5-(blobless)
+  - /updating-to-14-6-(blobless)
+  - /updating-to-14-7-(blobless)
+
 ---
 
 ## Required Reading

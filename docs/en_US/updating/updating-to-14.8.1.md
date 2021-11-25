@@ -2,6 +2,19 @@
 lang: en_US
 title: Updating to 14.8.1
 permalink: /updating-to-14-8-1
+redirect_from:
+  - /updating-to-14-2
+  - /updating-to-14-3
+  - /updating-to-14-4
+  - /updating-to-14-4-1
+  - /updating-to-14-4-2
+  - /updating-to-14-5
+  - /updating-to-14-5-1
+  - /updating-to-14-6
+  - /updating-to-14-7
+  - /updating-to-14-7-1
+  - /updating-to-14-8
+
 ---
 
 ## Required Reading
