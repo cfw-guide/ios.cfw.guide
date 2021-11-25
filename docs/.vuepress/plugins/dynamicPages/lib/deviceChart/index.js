@@ -27,6 +27,7 @@ for (var device in deviceList) {
     frontmatter: {
       title: 'Firmware Chart (' + deviceList[device].name + ')',
       description: 'Compatible jailbreaks for ' + deviceList[device].name,
+      redirect_from: '/' + device,
       sidebar: false
     },
     content: require('./content')(device, false)

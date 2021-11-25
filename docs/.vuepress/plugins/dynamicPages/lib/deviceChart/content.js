@@ -47,7 +47,7 @@ const jbList = require('../../../../json/jailbreak');
 function getDate(d) {
   var date = d.split('-');
   for (var i in date) date[i] = parseInt(date[i])
-  date[1] = month[date[1]]
+  date[1] = month[date[1]-1]
   return `${date[1]} ${date[2]}, ${date[0]}`
 }
 
