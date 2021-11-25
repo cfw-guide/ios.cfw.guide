@@ -1,7 +1,12 @@
 const config = require("./configs");
 const path = require("path");
+const fs = require("fs");
 
-const iosList = require('./json/ios')
+const mainObj = {
+  ios: require('./json/ios'),
+  jailbreak: require('./json/jailbreak'),
+  device: require('./json/deviceList')
+}
 
 module.exports = {
   locales: {
@@ -60,6 +65,12 @@ module.exports = {
   theme: path.resolve(__dirname, './vuepress-theme'),
   extendsMarkdown: (md) => {
       md.use(require('markdown-it-include'))
+  },
+  
+  onInitialized() {
+    fs.writeFile('./docs/.vuepress/public/main.json', JSON.stringify(mainObj), function (err) {
+      if (err) throw err;
+    });
   },
   
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),

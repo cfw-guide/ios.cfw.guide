@@ -9,7 +9,7 @@ for (var jb in jbList) {
     redirects.push(jbPath + 'phoenix')
   }
   page.push({
-    path: jbPathS + jbList[jb].name + '.html',
+    path: jbPath + jbList[jb].name + '.html',
     frontmatter: {
       title: jbList[jb].name,
       description: 'Compatible firmwares for ' + jbList[jb].name,
