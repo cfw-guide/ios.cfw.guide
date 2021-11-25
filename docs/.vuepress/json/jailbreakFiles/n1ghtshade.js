@@ -3,6 +3,16 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "10A405", // 6.0, iPhone 5 only
+        "10A407", // 6.0, iPad 4 only
+        "10A525", // 6.0.1, iPhone 5 only
+        "10A8426", // 6.0.1, iPad mini and iPad 4 only
+        "10A551", // 6.0.2, iPhone 5 only
+        "10B141", // 6.1
+        "10B143", // 6.1, iPhone 5 only
+        "10B146", // 6.1.2
+        "10B329", // 6.1.3
+        "10B350", // 6.1.4
         "11A465", // 7.0
         "11A466", // 7.0, iPhone 5c and iPhone 5s only
         "11A470a", // 7.0.1
