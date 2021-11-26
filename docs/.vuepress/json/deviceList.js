@@ -294,6 +294,7 @@ module.exports = {
     "name"  : "iPhone XS",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A1920", "A2097", "A2098", "A2099", "A2100"],
     "related" : [
       "iPhone11,4",
       "iPhone11,6",
@@ -303,6 +304,7 @@ module.exports = {
     "name"  : "iPhone XS Max (China mainland)",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A????"],
     "related" : [
       "iPhone11,2",
       "iPhone11,6",
@@ -312,6 +314,7 @@ module.exports = {
     "name"  : "iPhone XS Max",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A1921", "A2101", "A2102", "A2103", "A2104"],
     "related" : [
       "iPhone11,2",
       "iPhone11,4",
@@ -320,12 +323,14 @@ module.exports = {
   "iPhone11,8": {
     "name"  : "iPhone XR",
     "soc"   : "A12",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1984", "A2105", "A2106", "A2107", "A2108"],
   },
   "iPhone12,1": {
     "name"  : "iPhone 11",
     "soc"   : "A13",
     "arch"  : "64-bit",
+    "model"         : ["A2111", "A2221", "A2223"],
     "related" : [
       "iPhone12,3",
       "iPhone12,5",
@@ -335,6 +340,7 @@ module.exports = {
     "name"  : "iPhone 11 Pro",
     "soc"   : "A13",
     "arch"  : "64-bit",
+    "model"         : ["A2160", "A2215", "A2217"],
     "related" : [
       "iPhone12,1",
       "iPhone12,5",
@@ -344,6 +350,7 @@ module.exports = {
     "name"  : "iPhone 11 Pro Max",
     "soc"   : "A13",
     "arch"  : "64-bit",
+    "model"         : ["A2161", "A2218", "A2220"],
     "related" : [
       "iPhone12,1",
       "iPhone12,3",
@@ -352,12 +359,14 @@ module.exports = {
   "iPhone12,8": {
     "name"  : "iPhone SE (2nd generation)",
     "soc"   : "A13",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A2275", "A2296", "A2298"],
   },
   "iPhone13,1": {
     "name"  : "iPhone 12 mini",
     "soc"   : "A14",
     "arch"  : "64-bit",
+    "model"         : ["A2176", "A2398", "A2399", "A2400"],
     "related" : [
       "iPhone13,2",
       "iPhone13,3",
@@ -368,6 +377,7 @@ module.exports = {
     "name"  : "iPhone 12",
     "soc"   : "A14",
     "arch"  : "64-bit",
+    "model"         : ["A2172", "A2402", "A2403", "A2404"],
     "related" : [
       "iPhone13,1",
       "iPhone13,3",
@@ -378,6 +388,7 @@ module.exports = {
     "name"  : "iPhone 12 Pro",
     "soc"   : "A14",
     "arch"  : "64-bit",
+    "model"         : ["A2341", "A2406", "A2407", "A2408"],
     "related" : [
       "iPhone13,1",
       "iPhone13,2",
@@ -388,6 +399,7 @@ module.exports = {
     "name"  : "iPhone 12 Pro Max",
     "soc"   : "A14",
     "arch"  : "64-bit",
+    "model"         : ["A2342", "A2410", "A2411", "A2412"],
     "related" : [
       "iPhone13,1",
       "iPhone13,2",
@@ -398,6 +410,7 @@ module.exports = {
     "name"  : "iPhone 13 Pro",
     "soc"   : "A15",
     "arch"  : "64-bit",
+    "model"         : ["A2483", "A2636", "A2638", "A2639", "A2640"],
     "related" : [
       "iPhone14,3",
       "iPhone14,4",
@@ -408,6 +421,7 @@ module.exports = {
     "name"  : "iPhone 13 Pro Max",
     "soc"   : "A15",
     "arch"  : "64-bit",
+    "model"         : ["A2484", "A2641", "A2643", "A2644", "A2645"],
     "related" : [
       "iPhone14,2",
       "iPhone14,4",
@@ -418,6 +432,7 @@ module.exports = {
     "name"  : "iPhone 13 mini",
     "soc"   : "A15",
     "arch"  : "64-bit",
+    "model"         : ["A2481", "A2626", "A2628", "A2629", "A2630"],
     "related" : [
       "iPhone14,2",
       "iPhone14,3",
@@ -428,6 +443,7 @@ module.exports = {
     "name"  : "iPhone 13",
     "soc"   : "A15",
     "arch"  : "64-bit",
+    "model"         : ["A2482", "A2631", "A2633", "A2634", "A2635"],
     "related" : [
       "iPhone14,2",
       "iPhone14,3",
@@ -1252,36 +1268,43 @@ module.exports = {
   "iPod1,1": {
     "name"  : "iPod touch",
     "soc"   : "APL0098",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1213"],
   },
   "iPod2,1": {
     "name"  : "iPod touch (2nd generation)",
     "soc"   : "APL0278",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1288", "A1319"],
   },
   "iPod3,1": {
     "name"  : "iPod touch (3rd generation)",
     "soc"   : "APL2298",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1318"],
   },
   "iPod4,1": {
     "name"  : "iPod touch (4th generation)",
     "soc"   : "A4",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1367"],
   },
   "iPod5,1": {
     "name"  : "iPod touch (5th generation)",
     "soc"   : "A5",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1421", "A1509"],
   },
   "iPod7,1": {
     "name"  : "iPod touch (6th generation)",
     "soc"   : "A8",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A1574"],
   },
   "iPod9,1": {
     "name"  : "iPod touch (7th generation)",
     "soc"   : "A8",
-    "arch"  : "64-bit"
+    "arch"  : "64-bit",
+    "model"         : ["A2178"],
   }
 }
