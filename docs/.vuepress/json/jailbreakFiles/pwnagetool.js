@@ -3,6 +3,7 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "4A102", // 1.1.4
         "5A347", // 2.0
         "5B108", // 2.0.1
         "5C1", // 2.0.2

@@ -32,7 +32,7 @@ module.exports = [
     "released": "2007-09-14",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
+      "iPod1,1", // iPod touch
     ],
   },
   {
@@ -50,7 +50,7 @@ module.exports = [
     "released": "2007-09-27",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
+      "iPod1,1", // iPod
     ],
   },
   {
