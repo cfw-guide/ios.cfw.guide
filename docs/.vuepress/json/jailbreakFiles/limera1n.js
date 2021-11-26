@@ -3,6 +3,7 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "7B500", // 3.2.2, iPad only
         "8A293", // 4.0
         "8A306", // 4.0.1
         "8A400", // 4.0.2
