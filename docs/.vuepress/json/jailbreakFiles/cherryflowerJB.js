@@ -15,6 +15,7 @@ module.exports = {
     },
     {
       "firmwares": [
+        "8L1", // 4.3.5
         "10B329", // 6.1.3
       ],
       "devices": [
