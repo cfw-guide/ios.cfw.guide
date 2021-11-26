@@ -453,12 +453,14 @@ module.exports = {
   "iPad1,1": {
     "name"  : "iPad",
     "soc"   : "A4",
-    "arch"  : "32-bit"
+    "arch"  : "32-bit",
+    "model"         : ["A1219", "A1337"],
   },
   "iPad2,1": {
     "name"  : "iPad 2 Wi-Fi",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1395"],
     "related" : [
       "iPad2,1",
       "iPad2,2",
@@ -470,6 +472,7 @@ module.exports = {
     "name"  : "iPad 2 Wi-Fi + 3G (GSM)",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1396"],
     "related" : [
       "iPad2,1",
       "iPad2,2",
@@ -481,6 +484,7 @@ module.exports = {
     "name"  : "iPad 2 Wi-Fi + 3G (CDMA)",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1397"],
     "related" : [
       "iPad2,1",
       "iPad2,2",
@@ -492,6 +496,7 @@ module.exports = {
     "name"  : "iPad 2 Wi-Fi (Mid 2012)",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1395"],
     "related" : [
       "iPad2,1",
       "iPad2,2",
@@ -503,6 +508,7 @@ module.exports = {
     "name"  : "iPad mini Wi-Fi",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1432"],
     "related" : [
       "iPad2,5",
       "iPad2,6",
@@ -513,6 +519,7 @@ module.exports = {
     "name"  : "iPad mini Wi-Fi + Cellular",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1454"],
     "related" : [
       "iPad2,5",
       "iPad2,6",
@@ -523,6 +530,7 @@ module.exports = {
     "name"  : "iPad mini Wi-Fi + Cellular (MM)",
     "soc"   : "A5",
     "arch"  : "32-bit",
+    "model"         : ["A1455"],
     "related" : [
       "iPad2,5",
       "iPad2,6",
@@ -533,6 +541,7 @@ module.exports = {
     "name"  : "iPad (3rd generation) Wi-Fi",
     "soc"   : "A5X",
     "arch"  : "32-bit",
+    "model"         : ["A1416"],
     "related" : [
       "iPad3,1",
       "iPad3,2",
@@ -543,6 +552,7 @@ module.exports = {
     "name"  : "iPad (3rd generation) Wi-Fi + Cellular (VZ)",
     "soc"   : "A5X",
     "arch"  : "32-bit",
+    "model"         : ["A1403"],
     "related" : [
       "iPad3,1",
       "iPad3,2",
@@ -553,6 +563,7 @@ module.exports = {
     "name"  : "iPad (3rd generation) Wi-Fi + Cellular",
     "soc"   : "A5X",
     "arch"  : "32-bit",
+    "model"         : ["A1430"],
     "related" : [
       "iPad3,1",
       "iPad3,2",
@@ -563,6 +574,7 @@ module.exports = {
     "name"  : "iPad (4th generation) Wi-Fi",
     "soc"   : "A6X",
     "arch"  : "32-bit",
+    "model"         : ["A1458"],
     "related" : [
       "iPad3,4",
       "iPad3,5",
@@ -573,6 +585,7 @@ module.exports = {
     "name"  : "iPad (4th generation) Wi-Fi + Cellular",
     "soc"   : "A6X",
     "arch"  : "32-bit",
+    "model"         : ["A1459"],
     "related" : [
       "iPad3,4",
       "iPad3,5",
@@ -583,6 +596,7 @@ module.exports = {
     "name"  : "iPad (4th generation) Wi-Fi + Cellular (MM)",
     "soc"   : "A6X",
     "arch"  : "32-bit",
+    "model"         : ["A1460"],
     "related" : [
       "iPad3,4",
       "iPad3,5",
@@ -593,6 +607,7 @@ module.exports = {
     "name"  : "iPad Air Wi-Fi",
     "soc"   : "A7",
     "arch"  : "64-bit",
+    "model"         : ["A1474"],
     "related" : [
       "iPad4,1",
       "iPad4,2",
@@ -603,6 +618,7 @@ module.exports = {
     "name"  : "iPad Air Wi-Fi + Cellular",
     "soc"   : "A7",
     "arch"  : "64-bit",
+    "model"         : ["A1475"],
     "related" : [
       "iPad4,1",
       "iPad4,2",
@@ -613,6 +629,7 @@ module.exports = {
     "name"  : "iPad Air Wi-Fi + Cellular (TD-LTE)",
     "soc"   : "A7",
     "arch"  : "64-bit",
+    "model"         : ["A1476"],
     "related" : [
       "iPad4,1",
       "iPad4,2",
@@ -623,6 +640,7 @@ module.exports = {
     "name"  : "iPad mini 2 Wi-Fi",
     "soc"   : "A7",
     "arch"  : "64-bit",
+    "model"         : ["A1489"],
     "related" : [
       "iPad4,4",
       "iPad4,5",
@@ -633,6 +651,7 @@ module.exports = {
     "name"  : "iPad mini 2 Wi-Fi + Cellular",
     "soc"   : "A7",
     "arch"  : "64-bit",
+    "model"         : ["A1490"],
     "related" : [
       "iPad4,4",
       "iPad4,5",
@@ -643,6 +662,7 @@ module.exports = {
     "name"  : "iPad mini 2 Wi-Fi + Cellular (TD-LTE)",
     "soc"   : "A7",
     "arch"  : "64-bit",
+    "model"         : ["A1491"],
     "related" : [
       "iPad4,4",
       "iPad4,5",
@@ -653,6 +673,7 @@ module.exports = {
     "name"  : "iPad mini 3 Wi-Fi",
     "soc"   : "A8",
     "arch"  : "64-bit",
+    "model"         : ["A1599"],
     "related" : [
       "iPad4,7",
       "iPad4,8",
@@ -663,6 +684,7 @@ module.exports = {
     "name"  : "iPad mini 3 Wi-Fi + Cellular",
     "soc"   : "A8",
     "arch"  : "64-bit",
+    "model"         : ["A1600"],
     "related" : [
       "iPad4,7",
       "iPad4,8",
@@ -673,6 +695,7 @@ module.exports = {
     "name"  : "iPad mini 3 Wi-Fi + Cellular (TD-LTE)",
     "soc"   : "A8",
     "arch"  : "64-bit",
+    "model"         : ["A1601"],
     "related" : [
       "iPad4,7",
       "iPad4,8",
@@ -683,6 +706,7 @@ module.exports = {
     "name"  : "iPad mini 4 Wi-Fi",
     "soc"   : "A8",
     "arch"  : "64-bit",
+    "model"         : ["A1538"],
     "related" : [
       "iPad5,1",
       "iPad5,2",
@@ -692,6 +716,7 @@ module.exports = {
     "name"  : "iPad mini 4 Wi-Fi + Cellular",
     "soc"   : "A8",
     "arch"  : "64-bit",
+    "model"         : ["A1550"],
     "related" : [
       "iPad5,1",
       "iPad5,2",
@@ -701,6 +726,7 @@ module.exports = {
     "name"  : "iPad Air 2 Wi-Fi",
     "soc"   : "A8X",
     "arch"  : "64-bit",
+    "model"         : ["A1566"],
     "related" : [
       "iPad5,3",
       "iPad5,4",
@@ -710,6 +736,7 @@ module.exports = {
     "name"  : "iPad Air 2 Wi-Fi + Cellular",
     "soc"   : "A8X",
     "arch"  : "64-bit",
+    "model"         : ["A1567"],
     "related" : [
       "iPad5,3",
       "iPad5,4",
@@ -719,6 +746,7 @@ module.exports = {
     "name"  : "iPad Pro (9.7-inch) Wi-Fi",
     "soc"   : "A9X",
     "arch"  : "64-bit",
+    "model"         : ["A1673"],
     "related" : [
       "iPad6,3",
       "iPad6,4",
@@ -730,6 +758,7 @@ module.exports = {
     "name"  : "iPad Pro (9.7-inch) Wi-Fi + Cellular",
     "soc"   : "A9X",
     "arch"  : "64-bit",
+    "model"         : ["A1674"],
     "related" : [
       "iPad6,3",
       "iPad6,4",
@@ -741,6 +770,7 @@ module.exports = {
     "name"  : "iPad Pro (12.9-inch) Wi-Fi",
     "soc"   : "A9X",
     "arch"  : "64-bit",
+    "model"         : ["A1584"],
     "related" : [
       "iPad6,3",
       "iPad6,4",
@@ -752,6 +782,7 @@ module.exports = {
     "name"  : "iPad Pro (12.9-inch) Wi-Fi + Cellular",
     "soc"   : "A9X",
     "arch"  : "64-bit",
+    "model"         : ["A1652"],
     "related" : [
       "iPad6,3",
       "iPad6,4",
@@ -763,6 +794,7 @@ module.exports = {
     "name"  : "iPad (5th generation) Wi-Fi",
     "soc"   : "A9",
     "arch"  : "64-bit",
+    "model"         : ["A1822"],
     "related" : [
       "iPad6,11",
       "iPad6,12",
@@ -772,6 +804,7 @@ module.exports = {
     "name"  : "iPad (5th generation) Wi-Fi + Cellular",
     "soc"   : "A9",
     "arch"  : "64-bit",
+    "model"         : ["A1823"],
     "related" : [
       "iPad6,11",
       "iPad6,12",
@@ -781,6 +814,7 @@ module.exports = {
     "name"  : "iPad Pro (12.9-inch) (2nd generation) Wi-Fi",
     "soc"   : "A10X",
     "arch"  : "64-bit",
+    "model"         : ["A1670"],
     "related" : [
       "iPad7,1",
       "iPad7,2",
@@ -792,6 +826,7 @@ module.exports = {
     "name"  : "iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular",
     "soc"   : "A10X",
     "arch"  : "64-bit",
+    "model"         : ["A1671"],
     "related" : [
       "iPad7,1",
       "iPad7,2",
@@ -800,9 +835,10 @@ module.exports = {
     ]
   },
   "iPad7,3": {
-    "name"  : "iPad Pro 2 (10.5-inch) Wi-Fi",
+    "name"  : "iPad Pro (10.5-inch) Wi-Fi",
     "soc"   : "A10X",
     "arch"  : "64-bit",
+    "model"         : ["A1701"],
     "related" : [
       "iPad7,1",
       "iPad7,2",
@@ -811,9 +847,10 @@ module.exports = {
     ]
   },
   "iPad7,4": {
-    "name"  : "iPad Pro 2 (10.5-inch) Wi-Fi + Cellular",
+    "name"  : "iPad Pro (10.5-inch) Wi-Fi + Cellular",
     "soc"   : "A10X",
     "arch"  : "64-bit",
+    "model"         : ["A1709"],
     "related" : [
       "iPad7,1",
       "iPad7,2",
@@ -825,6 +862,7 @@ module.exports = {
     "name"  : "iPad (6th generation) Wi-Fi",
     "soc"   : "A10",
     "arch"  : "64-bit",
+    "model"         : ["A1893"],
     "related" : [
       "iPad7,5",
       "iPad7,6",
@@ -834,6 +872,7 @@ module.exports = {
     "name"  : "iPad (6th generation) Wi-Fi + Cellular",
     "soc"   : "A10",
     "arch"  : "64-bit",
+    "model"         : ["A1954"],
     "related" : [
       "iPad7,5",
       "iPad7,6",
@@ -843,6 +882,7 @@ module.exports = {
     "name"  : "iPad (7th generation) Wi-Fi",
     "soc"   : "A10",
     "arch"  : "64-bit",
+    "model"         : ["A2197"],
     "related" : [
       "iPad7,11",
       "iPad7,12",
@@ -852,6 +892,7 @@ module.exports = {
     "name"  : "iPad (7th generation) Wi-Fi + Cellular",
     "soc"   : "A10",
     "arch"  : "64-bit",
+    "model"         : ["A2198", "A2199", "A2299"],
     "related" : [
       "iPad7,11",
       "iPad7,12",
@@ -861,6 +902,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch Wi-Fi",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1980"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -876,6 +918,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch Wi-Fi (1TB)",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1980"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -891,6 +934,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch Wi-Fi + Cellular",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1934", "A1979", "A2013"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -906,6 +950,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch Wi-Fi + Cellular (1TB)",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1934", "A1979", "A2013"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -921,6 +966,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (3rd generation) Wi-Fi",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1876"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -936,6 +982,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB)",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1876"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -951,6 +998,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1895", "A1983", "A2014"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -966,6 +1014,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB)",
     "soc"   : "A12X",
     "arch"  : "64-bit",
+    "model"         : ["A1895", "A1983", "A2014"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -981,6 +1030,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (2nd generation) Wi-Fi",
     "soc"   : "A12Z",
     "arch"  : "64-bit",
+    "model"         : ["A2228"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -996,6 +1046,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (2nd generation) Wi-Fi + Cellular",
     "soc"   : "A12Z",
     "arch"  : "64-bit",
+    "model"         : ["A2068", "A2230". "A2231"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -1011,6 +1062,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (4th generation) Wi-Fi",
     "soc"   : "A12Z",
     "arch"  : "64-bit",
+    "model"         : ["A2229"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -1026,6 +1078,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (4th generation) Wi-Fi + Cellular",
     "soc"   : "A12Z",
     "arch"  : "64-bit",
+    "model"         : ["A2069", "A2232". "A2233"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -1041,6 +1094,7 @@ module.exports = {
     "name"  : "iPad mini (5th generation) Wi-Fi",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A2133"],
     "related" : [
       "iPad11,1",
       "iPad11,2",
@@ -1050,6 +1104,7 @@ module.exports = {
     "name"  : "iPad mini (5th generation) Wi-Fi + Cellular",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A2124", "A2125". "A2126"],
     "related" : [
       "iPad11,1",
       "iPad11,2",
@@ -1059,6 +1114,7 @@ module.exports = {
     "name"  : "iPad Air (3rd generation) Wi-Fi",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A2152"],
     "related" : [
       "iPad11,3",
       "iPad11,4",
@@ -1068,6 +1124,7 @@ module.exports = {
     "name"  : "iPad Air (3rd generation) Wi-Fi + Cellular",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A2123", "A2153". "A2154"],
     "related" : [
       "iPad11,3",
       "iPad11,4",
@@ -1077,6 +1134,7 @@ module.exports = {
     "name"  : "iPad (8th generation) Wi-Fi",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A2270"],
     "related" : [
       "iPad11,6",
       "iPad11,7",
@@ -1086,6 +1144,7 @@ module.exports = {
     "name"  : "iPad (8th generation) Wi-Fi + Cellular",
     "soc"   : "A12",
     "arch"  : "64-bit",
+    "model"         : ["A2428", "A2429". "A2430"],
     "related" : [
       "iPad11,6",
       "iPad11,7",
@@ -1095,6 +1154,7 @@ module.exports = {
     "name"  : "iPad (9th generation) Wi-Fi",
     "soc"   : "A13",
     "arch"  : "64-bit",
+    "model"         : ["A2602"],
     "related" : [
       "iPad12,1",
       "iPad12,2",
@@ -1104,6 +1164,7 @@ module.exports = {
     "name"  : "iPad (9th generation) Wi-Fi + Cellular",
     "soc"   : "A13",
     "arch"  : "64-bit",
+    "model"         : ["A2603", "A2604". "A2605"],
     "related" : [
       "iPad12,1",
       "iPad12,2",
@@ -1113,6 +1174,7 @@ module.exports = {
     "name"  : "iPad Air (4th generation) Wi-Fi",
     "soc"   : "A14",
     "arch"  : "64-bit",
+    "model"         : ["A2316"],
     "related" : [
       "iPad13,1",
       "iPad13,2",
@@ -1122,6 +1184,7 @@ module.exports = {
     "name"  : "iPad Air (4th generation) Wi-Fi + Cellular",
     "soc"   : "A14",
     "arch"  : "64-bit",
+    "model"         : ["A2072", "A2324". "A2325"],
     "related" : [
       "iPad13,1",
       "iPad13,2",
@@ -1131,6 +1194,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (3rd generation) Wi-Fi",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2377"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1146,6 +1210,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular with mmWave",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2301"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1161,6 +1226,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2459"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1176,6 +1242,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular (China mainland)",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2460"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1191,6 +1258,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (5th generation) Wi-Fi",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2378"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1206,6 +1274,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular with mmWave",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2379"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1221,6 +1290,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2461"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1236,6 +1306,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular (China mainland)",
     "soc"   : "M1",
     "arch"  : "64-bit",
+    "model"         : ["A2462"],
     "related" : [
       "iPad13,4",
       "iPad13,5",
@@ -1251,6 +1322,7 @@ module.exports = {
     "name"  : "iPad mini (6th generation) Wi-Fi",
     "soc"   : "A15",
     "arch"  : "64-bit",
+    "model"         : ["A2567"],
     "related" : [
       "iPad14,1",
       "iPad14,1",
@@ -1260,6 +1332,7 @@ module.exports = {
     "name"  : "iPad mini (6th generation) Wi-Fi + Cellular",
     "soc"   : "A15",
     "arch"  : "64-bit",
+    "model"         : ["A2568", "A2569"],
     "related" : [
       "iPad14,1",
       "iPad14,1",
