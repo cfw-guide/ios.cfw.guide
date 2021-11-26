@@ -3,6 +3,12 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "7A341", // 3.0
+        "7A400", // 3.0.1, iPhone only
+        "7C144", // 3.1, iPhone only
+        "7C145", // 3.1.1, iPod only
+        "7D11", // 3.1.2
+        "7E18", // 3.1.3
         "8A293", // 4.0
         "8A306", // 4.0.1
         "8A400", // 4.0.2
@@ -10,12 +16,19 @@ module.exports = {
         "8C148", // 4.2.1
       ],
       "devices": [
+        "iPhone1,1", // iPhone
         "iPhone1,2", // iPhone 3G
+        "iPod1,1", // iPod touch
         "iPod2,1", // iPod touch (2nd generation)
       ]
     },
     {
       "firmwares": [
+        "7A341", // 3.0
+        "7A400", // 3.0.1, iPhone only
+        "7C144", // 3.1, iPhone only
+        "7D11", // 3.1.2
+        "7E18", // 3.1.3
         "8F190", // 4.3
         "8G4", // 4.3.1
         "8H7", // 4.3.2
@@ -43,6 +56,13 @@ module.exports = {
     },
     {
       "firmwares": [
+        "7A341", // 3.0
+        "7A400", // 3.0.1, iPhone only
+        "7C144", // 3.1, iPhone only
+        "7C145", // 3.1.1, iPod only
+        "7C146", // 3.1.1, iPod touch 3 only
+        "7D11", // 3.1.2
+        "7E18", // 3.1.3
         "8B117", // 4.1
         "8B118", // 4.1, iPod touch 4 only
         "8C148", // 4.2.1
