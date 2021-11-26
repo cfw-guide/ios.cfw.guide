@@ -1046,7 +1046,7 @@ module.exports = {
     "name"  : "iPad Pro 11-inch (2nd generation) Wi-Fi + Cellular",
     "soc"   : "A12Z",
     "arch"  : "64-bit",
-    "model"         : ["A2068", "A2230". "A2231"],
+    "model"         : ["A2068", "A2230", "A2231"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -1078,7 +1078,7 @@ module.exports = {
     "name"  : "iPad Pro 12.9-inch (4th generation) Wi-Fi + Cellular",
     "soc"   : "A12Z",
     "arch"  : "64-bit",
-    "model"         : ["A2069", "A2232". "A2233"],
+    "model"         : ["A2069", "A2232", "A2233"],
     "related" : [
       "iPad8,1",
       "iPad8,2",
@@ -1104,7 +1104,7 @@ module.exports = {
     "name"  : "iPad mini (5th generation) Wi-Fi + Cellular",
     "soc"   : "A12",
     "arch"  : "64-bit",
-    "model"         : ["A2124", "A2125". "A2126"],
+    "model"         : ["A2124", "A2125", "A2126"],
     "related" : [
       "iPad11,1",
       "iPad11,2",
@@ -1124,7 +1124,7 @@ module.exports = {
     "name"  : "iPad Air (3rd generation) Wi-Fi + Cellular",
     "soc"   : "A12",
     "arch"  : "64-bit",
-    "model"         : ["A2123", "A2153". "A2154"],
+    "model"         : ["A2123", "A2153", "A2154"],
     "related" : [
       "iPad11,3",
       "iPad11,4",
@@ -1144,7 +1144,7 @@ module.exports = {
     "name"  : "iPad (8th generation) Wi-Fi + Cellular",
     "soc"   : "A12",
     "arch"  : "64-bit",
-    "model"         : ["A2428", "A2429". "A2430"],
+    "model"         : ["A2428", "A2429", "A2430"],
     "related" : [
       "iPad11,6",
       "iPad11,7",
@@ -1164,7 +1164,7 @@ module.exports = {
     "name"  : "iPad (9th generation) Wi-Fi + Cellular",
     "soc"   : "A13",
     "arch"  : "64-bit",
-    "model"         : ["A2603", "A2604". "A2605"],
+    "model"         : ["A2603", "A2604", "A2605"],
     "related" : [
       "iPad12,1",
       "iPad12,2",
@@ -1184,7 +1184,7 @@ module.exports = {
     "name"  : "iPad Air (4th generation) Wi-Fi + Cellular",
     "soc"   : "A14",
     "arch"  : "64-bit",
-    "model"         : ["A2072", "A2324". "A2325"],
+    "model"         : ["A2072", "A2324", "A2325"],
     "related" : [
       "iPad13,1",
       "iPad13,2",
