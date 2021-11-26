@@ -3,6 +3,7 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "7B500", // 3.2.2, iPad only
         "8B117", // 4.1
         "8B118", // 4.1, iPod touch 4 only
         "8C148", // 4.2.1
