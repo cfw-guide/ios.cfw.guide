@@ -3,6 +3,11 @@ module.exports = {
   "compatibility": [
     {
       "firmwares": [
+        "7A341", // 3.0
+        "7A400", // 3.0.1, iPhone only
+        "7C144", // 3.1, iPhone only
+        "7D11", // 3.1.2
+        "7E18", // 3.1.3
         "8A293", // 4.0
         "8A306", // 4.0.1
         "8A400", // 4.0.2
