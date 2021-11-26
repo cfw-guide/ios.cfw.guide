@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "greenp0ison",
+  "name": "greenpois0n",
   "compatibility": [
     {
       "firmwares": [
