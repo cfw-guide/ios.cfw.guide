@@ -114,7 +114,7 @@ function getBuildDevices(b) {
     }
     html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a> <a class="hoverElement" style="font-size: 14px; padding-left: 3px;" ${target} href="${ipswLink}"><i class="fas fa-download"></i></a></li>`
   }
-  html += "</ul>\n"
+  html += "</ul>\n\n"
   return html;
 }
 
