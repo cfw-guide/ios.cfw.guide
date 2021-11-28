@@ -120,6 +120,7 @@ function getBuildDevices(b) {
     html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a>${icon}</li>`
   }
   html += "</ul>\n\n"
+  return html;
 }
 
 function getBuild(b) {
