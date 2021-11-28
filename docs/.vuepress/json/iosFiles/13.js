@@ -859,7 +859,10 @@ module.exports = [
     "released": "2020-04-15",
 		"beta": false,
     "devices": [
-      "iPhone12,8", // iPhone SE (2nd generation), A13
+      {
+        "identifier": "iPhone12,8", // iPhone SE (2nd generation), A13
+        "ipsw": "",
+      },
     ],
   },
   {
