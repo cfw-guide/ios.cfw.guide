@@ -13,7 +13,11 @@ function getHtml(os) {
   for (const i in buildArr) {
     const b = buildArr[i];
     html += '## ' + b.build + " [<i style=\"font-size: 21px\" class=\"fas fa-link\"></i>](" + fwPath + b.build + ")\n";
-    for (const d in b.devices) html += `- [${deviceList[b.devices[d]].name}](${devicePath + b.devices[d]})\n`
+    for (const d in b.devices) {
+      var device = b.devices[d];
+      if (device.hasOwnProperty('identifier')) device = b.devices[d].identifier
+      html += `- [${deviceList[device].name}](${devicePath + device})\n`
+    }
   }
   return html;
 }
