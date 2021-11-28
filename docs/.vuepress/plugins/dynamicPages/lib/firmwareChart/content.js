@@ -105,17 +105,21 @@ function getBuildDevices(b) {
   html += '<ul>';
   for (var i in d) {
     var device = getDeviceFromBuild(b, d[i]);
-    var ipswLink = `https://ipsw.me/download/${device.identifier}/${b.build}`;
-    var target = 'target="_blank"'
-    if (b.hasOwnProperty('beta')) if (b.beta) ipswLink = 'https://www.theiphonewiki.com/wiki/Beta_Firmware';
+    var ipswLink = `https://api.ipsw.me/v4/ipsw/download/${device.identifier}/${b.build}`;
+    var target = ''
+    if (b.hasOwnProperty('beta')) if (b.beta) {
+      ipswLink = 'https://www.theiphonewiki.com/wiki/Beta_Firmware';
+      target = 'target="_blank"';
+    }
     if (device.ipsw) {
       ipswLink = device.ipsw;
       target = '';
     }
-    html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a> <a class="hoverElement" style="font-size: 14px; padding-left: 3px;" ${target} href="${ipswLink}"><i class="fas fa-download"></i></a></li>`
+    var icon = ` <a class="hoverElement" style="font-size: 14px; padding-left: 3px;" ${target} href="${ipswLink}"><i class="fas fa-download"></i></a>`;
+    if (device.ipsw = '') icon = '';
+    html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a>${icon}</li>`
   }
   html += "</ul>\n\n"
-  return html;
 }
 
 function getBuild(b) {
