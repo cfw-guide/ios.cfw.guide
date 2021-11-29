@@ -5,7 +5,7 @@ function redirects() {
   var retArr = [];
   for (var i in pages) {
     var redObj = {
-      path: [''],
+      path: [],
       redirect: ''
     };
     
@@ -23,8 +23,7 @@ function redirects() {
       redObj.path.push(f.redirect_from)
     }
     
-    if (redObj.path.includes('')) continue;
-    if (redObj.redirect == '') continue;
+    if (!redObj.path.length) continue;
     
     retArr.push(redObj);
   }
