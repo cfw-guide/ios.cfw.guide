@@ -1,7 +1,7 @@
 const header = [
   'Info',
   'Devices',
-  "Jailbreaks"
+  'Jailbreaks'
 ]
 
 const infoHeader = [
