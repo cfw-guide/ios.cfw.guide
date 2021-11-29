@@ -3,9 +3,9 @@ const jbPath = '/chart/jailbreak/';
 var page = [];
 
 for (var jb in jbList) {
-  var redirects = ['/' + jbList[jb].name];
+  var redirects = []; // = ['/' + jbList[jb].name];
   if (jbList[jb].name == 'Phœnix') {
-    redirects.push('/phoenix');
+    //redirects.push('/phoenix');
     redirects.push(jbPath + 'phoenix')
   }
   page.push({

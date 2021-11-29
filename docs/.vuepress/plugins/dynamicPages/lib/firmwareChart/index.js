@@ -15,7 +15,7 @@ for (var i in duplicateObjArr) if (duplicateObjArr[i] > 1) duplicateVerArr.push(
 for (var i in iosList) {
   const v = iosList[i];
   var redirects = '';
-  if (!duplicateVerArr.includes(v.ver)) redirects = ['/' + v.ver, fwPath + v.ver];
+  if (!duplicateVerArr.includes(v.ver)) redirects = [fwPath + v.ver];
   
   page.push({
     path: fwPath + v.build + '.html',
@@ -36,7 +36,7 @@ for (var i in duplicateVerArr) {
     frontmatter: {
       title: 'iOS ' + v,
       description: 'Firmware builds for version ' + v,
-      redirect_from: '/' + v,
+      //redirect_from: '/' + v,
       sidebar: false
     },
     content: require('./multipleFwPage')(v)
