@@ -13,13 +13,82 @@ function getHtml(os) {
   for (const i in buildArr) {
     const b = buildArr[i];
     html += '## ' + b.build + " [<i style=\"font-size: 21px\" class=\"fas fa-link\"></i>](" + fwPath + b.build + ")\n";
-    for (const d in b.devices) {
-      var device = b.devices[d];
-      if (device.hasOwnProperty('identifier')) device = b.devices[d].identifier
-      html += `- [${deviceList[device].name}](${devicePath + device})\n`
-    }
+    html += getBuildDevices(b);
   }
   return html;
+}
+
+function getBuildDevices(b) {
+  var html = '';
+  var d = [];
+  if (b.hasOwnProperty('devices')) d = getDeviceListFromBuild(b);
+  if (d.length < 1) return html;
+  html += '<ul>';
+  for (var i in d) {
+    var device = getDeviceFromBuild(b, d[i]);
+    var ipswLink = `https://api.ipsw.me/v4/ipsw/download/${device.identifier}/${b.build}`;
+    var target = ''
+    if (b.hasOwnProperty('beta')) if (b.beta) {
+      ipswLink = 'https://www.theiphonewiki.com/wiki/Beta_Firmware';
+      target = 'target="_blank"';
+    }
+    if (device.ipsw) {
+      ipswLink = device.ipsw;
+      target = '';
+    }
+    var icon = ` <a class="hoverElement" style="font-size: 14px; padding-left: 3px;" ${target} href="${ipswLink}"><i class="fas fa-download"></i></a>`;
+    if (device.ipsw == 'none') icon = '';
+    html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a>${icon}</li>`
+  }
+  html += "</ul>\n\n"
+  return html;
+}
+
+function isObject(objValue) {
+  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
+}
+
+function getDeviceListFromBuild(b) {
+  var devArr = [];
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier')) {
+        devArr.push(b.devices[i].identifier)
+      }
+    } else {
+      devArr.push(b.devices[i])
+    }
+  }
+  
+  return devArr;
+}
+
+function getDeviceFromBuild(b, d) {
+  var devArr = getDeviceListFromBuild(b);
+  if (!devArr.includes(d)) return -1;
+  
+  var deviceObj = {
+    "identifier": "",
+    "ipsw": "",
+  }
+  
+  for (var i in b.devices) {
+    if (isObject(b.devices[i])) {
+      if (b.devices[i].hasOwnProperty('identifier') && b.devices[i].hasOwnProperty('ipsw')) {
+        if (b.devices[i].identifier == d) {
+          deviceObj.identifier = b.devices[i].identifier;
+          deviceObj.ipsw = b.devices[i].ipsw;
+        }
+      }
+    } else {
+      if (b.devices[i] == d) {
+        deviceObj.identifier = b.devices[i];
+      }
+    }
+  }
+  
+  return deviceObj;
 }
 
 function getBuildArr(os) {
