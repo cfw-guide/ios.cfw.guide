@@ -861,7 +861,7 @@ module.exports = [
     "devices": [
       {
         "identifier": "iPhone12,8", // iPhone SE (2nd generation), A13
-        "ipsw": "",
+        "ipsw": "none",
       },
     ],
   },
