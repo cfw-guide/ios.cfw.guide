@@ -75,7 +75,10 @@ module.exports = [
       "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
       "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
       "iPad4,7", // iPad mini 3 Wi-Fi, A8
-      "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
+      {
+        "identifier": "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
+        "ipsw": "none"
+      },
       "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
       "iPod5,1", // iPod touch (5th generation), A5
     ],
@@ -125,7 +128,10 @@ module.exports = [
       "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
       "iPad4,7", // iPad mini 3 Wi-Fi, A8
       "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
-      "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
+      {
+        "identifier": "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
+        "ipsw": "none"
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ],
   },
@@ -272,11 +278,17 @@ module.exports = [
       "iPad4,4", // iPad mini 2 Wi-Fi, A7
       "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
       "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
-      "iPad4,7", // iPad mini 3 Wi-Fi, A8
+      {
+        "identifier": "iPad4,7", // iPad mini 3 Wi-Fi, A8
+        "ipsw": "none"
+      },
       "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
       "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
       "iPad5,3", // iPad Air 2 Wi-Fi, A8X
-      "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
+      {
+        "identifier": "iPad5,4", // iPad Air 2 Wi-Fi + Cellular, A8X
+        "ipsw": "none"
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ]
   },

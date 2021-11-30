@@ -305,10 +305,16 @@ module.exports = [
       "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
       "iPad4,1", // iPad Air Wi-Fi, A7
       "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
-      "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none"
+      },
       "iPad4,4", // iPad mini 2 Wi-Fi, A7
       "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
-      "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none"
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ],
   },

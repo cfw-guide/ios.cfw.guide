@@ -5,7 +5,10 @@ module.exports = [
     "released": "2007-06-29",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-3538.20070629.B7vXa/iPhone1,1_1.0_1A543a_Restore.ipsw"
+      }
     ],
   },
   {
@@ -14,7 +17,10 @@ module.exports = [
     "released": "2007-07-31",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-3614.20070731.Nt6Y7/iPhone1,1_1.0.1_1C25_Restore.ipsw"
+      }
     ],
   },
   {
@@ -23,7 +29,10 @@ module.exports = [
     "released": "2007-08-21",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-3823.20070821.vormd/iPhone1,1_1.0.2_1C28_Restore.ipsw"
+      }
     ],
   },
   {
@@ -32,7 +41,10 @@ module.exports = [
     "released": "2007-09-14",
 		"beta": false,
     "devices": [
-      "iPod1,1", // iPod touch
+      {
+        "identifier": "iPod1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3882.20070910.N8uyT/iPod1,1_1.1_3A101a_Restore.ipsw"
+      }
     ],
   },
   {
@@ -41,7 +53,10 @@ module.exports = [
     "released": "2007-09-27",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-3883.20070927.In76t/iPhone1,1_1.1.1_3A109a_Restore.ipsw"
+      }
     ],
   },
   {
@@ -50,7 +65,10 @@ module.exports = [
     "released": "2007-09-27",
 		"beta": false,
     "devices": [
-      "iPod1,1", // iPod
+      {
+        "identifier": "iPod1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw"
+      }
     ],
   },
   {
@@ -59,8 +77,14 @@ module.exports = [
     "released": "2007-11-12",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
-      "iPod1,1", // iPod touch
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-4037.20071107.5Bghn/iPhone1,1_1.1.2_3B48b_Restore.ipsw"
+      },
+      {
+        "identifier": "iPod1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-4036.20071107.9g3DF/iPod1,1_1.1.2_3B48b_Restore.ipsw"
+      }
     ],
   },
   {
@@ -69,8 +93,14 @@ module.exports = [
     "released": "2008-01-15",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
-      "iPod1,1", // iPod touch
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-4061.20080115.4Fvn7/iPhone1,1_1.1.3_4A93_Restore.ipsw"
+      },
+      {
+        "identifier": "iPod1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/061-4060.20080115.9Iuh5/iPod1,1_1.1.3_4A93_Restore.ipsw"
+      }
     ],
   },
   {
@@ -79,8 +109,14 @@ module.exports = [
     "released": "2008-02-26",
 		"beta": false,
     "devices": [
-      "iPhone1,1", // iPhone
-      "iPod1,1", // iPod touch
+      {
+        "identifier": "iPhone1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-4313.20080226.Sw39i/iPhone1,1_1.1.4_4A102_Restore.ipsw"
+      },
+      {
+        "identifier": "iPod1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-4312.20080226.Btu45/iPod1,1_1.1.4_4A102_Restore.ipsw"
+      }
     ],
   },
   {
@@ -89,7 +125,10 @@ module.exports = [
     "released": "2008-07-15",
 		"beta": false,
     "devices": [
-      "iPod1,1", // iPod touch
+      {
+        "identifier": "iPod1,1",
+        "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-4841.20080714.bgy8O/iPod1,1_1.1.5_4B1_Restore.ipsw"
+      }
     ],
   },
   {
