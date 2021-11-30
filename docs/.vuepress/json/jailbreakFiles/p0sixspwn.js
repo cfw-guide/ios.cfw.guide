@@ -1,5 +1,23 @@
 module.exports = {
-  "name": "evasi0n",
+  "name": "p0sixspwn",
+  "info": {
+    "website": {
+      "name": "ih8sn0w.com/p0sixspwn",
+      "url": "https://ih8sn0w.com/p0sixspwn.html",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Installing P0sixspwn",
+        "url": "/installing-p0sixspwn/"
+      }
+    ],
+    "latestVer": "1.0.8",
+    "color": "#c4c5cc",
+    "icon": "/assets/images/p0sixspwn.png",
+    "type": "Untethered",
+    "firmwares": ["6.1.3","6.1.6"]
+  },
   "compatibility": [
     {
       "firmwares": [

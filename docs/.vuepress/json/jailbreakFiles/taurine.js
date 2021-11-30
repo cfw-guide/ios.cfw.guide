@@ -12,6 +12,10 @@ module.exports = {
         "url": "/installing-taurine/"
       }
     ],
+    "latestVer": "1.1.1",
+    "color": "#6742cd",
+    "icon": "/assets/images/taurine.png",
+    "jailbreaksme.app": true,
     "type": "Semi-untethered",
     "firmwares": ["14.0","14.3"]
   },

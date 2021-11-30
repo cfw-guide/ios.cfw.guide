@@ -12,6 +12,10 @@ module.exports = {
         "url": "/installing-odyssey/"
       }
     ],
+    "latestVer": "1.4.1",
+    "color": "#faf4f7",
+    "icon": "/assets/images/odyssey.png",
+    "jailbreaksmeapp": true,
     "type": "Semi-untethered",
     "firmwares": ["13.0","13.7"]
   },
