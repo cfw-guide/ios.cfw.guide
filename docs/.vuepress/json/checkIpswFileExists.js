@@ -1,8 +1,25 @@
 const fs = require('fs');
 const request = require('request')
-const {ios} = require('../public/main.json');
+const iosPath = './iosFiles'
+
+var iosFiles = fs.readdirSync(iosPath).filter(file => file.endsWith('.js'));
+var ios = [];
+
+// Sort by integer, not by alphabet
+for (const file in iosFiles) iosFiles[file] = iosFiles[file].split('.')[0];
+iosFiles.sort(function(a, b) { return a - b; });
+for (const file in iosFiles) iosFiles[file] += '.js'
+
+for (const file in iosFiles) {
+  const jb = require(`${iosPath}/${iosFiles[file]}`)
+  for (var i in jb) {
+    ios.push(jb[i]);
+  }
+}
 
 var ret = [];
+
+console.log('Requesting ipsw.me API...')
 
 for (var i in ios) {
   const v = ios[i];
@@ -36,7 +53,10 @@ for (var i in ios) {
   
   for (const d in deviceList) {
     request(`https://api.ipsw.me/v4/ipsw/download/${deviceList[d]}/${v.build}`, function (error, response, body) {
-      if (!response) return;
+      if (!response) {
+        //console.log(`${v.build}, ${v.ver}, ${deviceList[d]}: No response`);
+        return;
+      }
       if (parseInt(response.statusCode) == 404) {
         if (ipswList[d] == 'none') return;
         console.log(`${v.build}, ${v.ver}, ${deviceList[d]}: Not found`)
@@ -45,6 +65,7 @@ for (var i in ios) {
       };
       if (ipswList[d] == 'none') {
         console.log(`${v.build}, ${v.ver}, ${deviceList[d]}: ${response.statusCode}`)
+        return;
       }
     });
   }
