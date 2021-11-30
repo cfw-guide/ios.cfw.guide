@@ -12,6 +12,10 @@ module.exports = {
         "url": "/installing-odysseyra1n/"
       }
     ],
+    "latestVer": "0.12.4",
+    "color": "#4d4d4d",
+    "icon": "/assets/images/checkra1n.png",
+    "notes": "Compatible with A7 - A11 devices. A11 devices on iOS 14 cannot use a passcode, Touch ID, Face ID, or Apple Pay in a jailbroken state.",
     "type": "Semi-tethered",
     "firmwares": ["12.0","14.8.1"]
   },
