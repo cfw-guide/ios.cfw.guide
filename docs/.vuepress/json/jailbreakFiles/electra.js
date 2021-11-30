@@ -12,6 +12,10 @@ module.exports = {
         "url": "/installing-electra/"
       }
     ],
+    "latestVer": "2.0",
+    "color": "#465868",
+    "icon": "/assets/images/electra.png",
+    "jailbreaksmeapp": true,
     "type": "Semi-untethered",
     "firmwares": ["11.0","11.4.1"]
   },
