@@ -176,7 +176,10 @@ module.exports = [
     "released": "2021-09-24",
 		"beta": false,
     "devices": [
-      "iPhone14,2", // iPhone 13 Pro, A15
+      {
+        "identifier": "iPhone14,2", // iPhone 13 Pro, A15
+        "ipsw": "none"
+      },
       "iPhone14,3", // iPhone 13 Pro Max, A15
       "iPhone14,4", // iPhone 13 Pro mini, A15
       "iPhone14,5", // iPhone 13, A15

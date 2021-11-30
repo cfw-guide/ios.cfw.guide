@@ -178,7 +178,7 @@ function getJbHtml(os) {
   
   html += "## " + header[2] + "\n"
   for (var jb in jbArr) {
-    html += "### " + jbArr[jb].name + " [<i style=\"font-size: 17px\" class=\"fas fa-link\"></i>](" + jbPath + jbArr[jb].name.replace(' ', '%20') + ")\n";
+    html += "### " + jbArr[jb].name + " [<i style=\"font-size: 17px\" class=\"fas fa-link\"></i>](" + jbPath + jbArr[jb].name.replace(' ', '%20').replace(' ', '%20') + ")\n";
     const devArr = getJbDevArr(jbArr[jb], os);
     for (var dev in devArr) html += "- [" + deviceList[devArr[dev]].name + "](" + devicePath + devArr[dev] + ")\n"
   }
