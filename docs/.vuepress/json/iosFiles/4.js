@@ -104,7 +104,10 @@ module.exports = [
       "iPod2,1", // iPod touch (2nd generation)
       "iPod3,1", // iPod touch (3rd generation)
       "iPod4,1", // iPod touch (4th generation)
-      "iPad1,1", // iPad
+      {
+        "identifier": "iPad1,1", // iPad
+        "ipsw": "none"
+      },
     ],
   },
   {
@@ -187,7 +190,10 @@ module.exports = [
     "released": "2011-01-11",
 		"beta": false,
     "devices": [
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none"
+      }
     ],
   },
   {
@@ -271,7 +277,10 @@ module.exports = [
     "devices": [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none",
+      },
       "iPod3,1", // iPod touch (3rd generation)
       "iPod4,1", // iPod touch (4th generation)
       "iPad1,1", // iPad
@@ -296,12 +305,18 @@ module.exports = [
     "devices": [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none",
+      },
       "iPad1,1", // iPad
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
-      "iPod3,1", // iPod touch (3rd generation)
+      {
+        "identifier": "iPod3,1", // iPod touch (3rd generation)
+        "ipsw": "none",
+      },
       "iPod4,1", // iPod touch (4th generation)
     ],
   },
@@ -313,10 +328,16 @@ module.exports = [
     "devices": [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none",
+      },
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
-      "iPod3,1", // iPod touch (3rd generation)
+      {
+        "identifier": "iPod3,1", // iPod touch (3rd generation)
+        "ipsw": "none",
+      },
       "iPod4,1", // iPod touch (4th generation)
       "iPad1,1", // iPad
     ],
@@ -338,13 +359,22 @@ module.exports = [
     "devices": [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none",
+      },
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
       "iPod3,1", // iPod touch (3rd generation)
-      "iPod4,1", // iPod touch (4th generation)
-      "iPad1,1", // iPad
+      {
+        "identifier": "iPod4,1", // iPod touch (4th generation)
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad1,1", // iPad
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -355,13 +385,22 @@ module.exports = [
     "devices": [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none",
+      },
       "iPad1,1", // iPad
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
-      "iPod3,1", // iPod touch (3rd generation)
-      "iPod4,1", // iPod touch (4th generation)
+      {
+        "identifier": "iPod3,1", // iPod touch (3rd generation)
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPod4,1", // iPod touch (4th generation)
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -372,12 +411,18 @@ module.exports = [
     "devices": [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
-      "iPhone3,3", // iPhone 4 (CDMA), A4
+      {
+        "identifier": "iPhone3,3", // iPhone 4 (CDMA), A4
+        "ipsw": "none",
+      },
       "iPad1,1", // iPad
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
-      "iPod3,1", // iPod touch (3rd generation)
+      {
+        "identifier": "iPod3,1", // iPod touch (3rd generation)
+        "ipsw": "none",
+      },
       "iPod4,1", // iPod touch (4th generation)
     ],
   }

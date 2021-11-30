@@ -191,8 +191,14 @@ module.exports = [
     "released": "2017-09-26",
 		"beta": false,
     "devices": [
-      "iPhone10,3", // iPhone X (CDMA), A11
-      "iPhone10,6", // iPhone X (GSM), A11
+      {
+        "identifier": "iPhone10,3", // iPhone X (CDMA), A11
+        "ipsw": "none"
+      },
+      {
+        "identifier": "iPhone10,6", // iPhone X (GSM), A11
+        "ipsw": "none"
+      },
     ],
   },
   {
@@ -912,7 +918,10 @@ module.exports = [
     "released": "2018-03-29",
 		"beta": false,
     "devices": [
-      "iPad7,5", // iPad (6th generation) Wi-Fi, A10
+      {
+        "identifier": "iPad7,5", // iPad (6th generation) Wi-Fi, A10
+        "ipsw": "none",
+      },
       "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
     ],
   },

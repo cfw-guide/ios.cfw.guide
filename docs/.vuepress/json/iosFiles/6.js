@@ -72,8 +72,14 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPad2,5", // iPad mini Wi-Fi, A5
-      "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
-      "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
+      {
+        "identifier": "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
+        "ipsw": "none",
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ],
   },
@@ -84,8 +90,14 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPad3,4", // iPad (4th generation) Wi-Fi, A6X
-      "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
-      "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
+      {
+        "identifier": "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -126,10 +138,16 @@ module.exports = [
     "released": "2012-10-29",
 		"beta": false,
     "devices": [
-      "iPad2,5", // iPad mini Wi-Fi, A5
+      {
+        "identifier": "iPad2,5", // iPad mini Wi-Fi, A5
+        "ipsw": "none",
+      },
       "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
       "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
-      "iPad3,4", // iPad (4th generation) Wi-Fi, A6X
+      {
+        "identifier": "iPad3,4", // iPad (4th generation) Wi-Fi, A6X
+        "ipsw": "none",
+      },
       "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
       "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
     ],
@@ -140,7 +158,10 @@ module.exports = [
     "released": "2012-12-13",
 		"beta": false,
     "devices": [
-      "iPad2,5", // iPad mini Wi-Fi, A5
+      {
+        "identifier": "iPad2,5", // iPad mini Wi-Fi, A5
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -159,7 +180,10 @@ module.exports = [
     "released": "2012-12-13",
 		"beta": false,
     "devices": [
-      "iPad2,5", // iPad mini Wi-Fi, A5
+      {
+        "identifier": "iPad2,5", // iPad mini Wi-Fi, A5
+        "ipsw": "none",
+      },
       "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
       "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
     ],
@@ -227,13 +251,19 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPhone2,1", // iPhone 3GS
+      {
+        "identifier": "iPhone3,2", // iPhone 4 (GSM, 2012), A4
+        "ipsw": "none",
+      },
       "iPhone3,3", // iPhone 4 (CDMA), A4
-      "iPhone3,2", // iPhone 4 (GSM, 2012), A4
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
       "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
       "iPad2,4", // iPad 2 Wi-Fi (Mid 2012), A5
-      "iPad2,5", // iPad mini Wi-Fi, A5
+      {
+        "identifier": "iPad2,5", // iPad mini Wi-Fi, A5
+        "ipsw": "none"
+      },
       "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
       "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
       "iPad3,1", // iPad (3rd generation) Wi-Fi, A5X
@@ -311,8 +341,14 @@ module.exports = [
       "iPad3,2", // iPad (3rd generation) Wi-Fi + Cellular (VZ), A5X
       "iPad3,3", // iPad (3rd generation) Wi-Fi + Cellular, A5X
       "iPad3,4", // iPad (4th generation) Wi-Fi, A6X
-      "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
-      "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
+      {
+        "identifier": "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
+        "ipsw": "none",
+      },
       "iPod5,1", // iPod touch (5th generation), A5
       "iPod4,1", // iPod touch (4th generation)
     ],
@@ -323,7 +359,10 @@ module.exports = [
     "released": "2013-01-24",
 		"beta": false,
     "devices": [
-      "iPad2,5", // iPad mini Wi-Fi, A5
+      {
+        "identifier": "iPad2,5", // iPad mini Wi-Fi, A5
+        "ipsw": "none",
+      },
       "iPad2,6", // iPad mini Wi-Fi + Cellular, A5
       "iPad2,7", // iPad mini Wi-Fi + Cellular (MM), A5
     ],

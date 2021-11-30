@@ -144,11 +144,17 @@ module.exports = [
       "iPhone2,1", // iPhone 3GS
       "iPhone3,1", // iPhone 4 (GSM), A4
       "iPhone3,3", // iPhone 4 (CDMA), A4
-      "iPhone4,1", // iPhone 4S, A5
+      {
+        "identifier": "iPhone4,1", // iPhone 4S, A5
+        "ipsw": "none",
+      },
       "iPad1,1", // iPad
       "iPad2,1", // iPad 2 Wi-Fi, A5
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
-      "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
+      {
+        "identifier": "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
+        "ipsw": "none",
+      },
       "iPad2,4", // iPad 2 Wi-Fi (Mid 2012), A5
       "iPad3,1", // iPad (3rd generation) Wi-Fi, A5X
       "iPad3,2", // iPad (3rd generation) Wi-Fi + Cellular (VZ), A5X

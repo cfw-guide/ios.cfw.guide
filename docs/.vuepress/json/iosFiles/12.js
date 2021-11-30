@@ -27,6 +27,7 @@ module.exports = [
     "ver": "12.0 beta 3",
     "build": "16A5318d",
     "released": "2018-07-03",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -38,6 +39,7 @@ module.exports = [
     "ver": "12.0 beta 4",
     "build": "16A5327f",
     "released": "2018-07-17",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -49,6 +51,7 @@ module.exports = [
     "ver": "12.0 beta 5",
     "build": "16A5339e",
     "released": "2018-07-30",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -60,6 +63,7 @@ module.exports = [
     "ver": "12.0 beta 6",
     "build": "16A5345f",
     "released": "2018-08-06",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -71,6 +75,7 @@ module.exports = [
     "ver": "12.0 beta 7",
     "build": "16A5354b",
     "released": "2018-08-13",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -82,6 +87,7 @@ module.exports = [
     "ver": "12.0 beta 8",
     "build": "16A5357b",
     "released": "2018-08-15",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -93,6 +99,7 @@ module.exports = [
     "ver": "12.0 beta 9",
     "build": "16A5362a",
     "released": "2018-08-20",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -104,6 +111,7 @@ module.exports = [
     "ver": "12.0 beta 10",
     "build": "16A5364a",
     "released": "2018-08-23",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -115,6 +123,7 @@ module.exports = [
     "ver": "12.0 beta 11",
     "build": "16A5365b",
     "released": "2018-08-27",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -126,6 +135,7 @@ module.exports = [
     "ver": "12.0 beta 12",
     "build": "16A5366a",
     "released": "2018-08-31",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -137,6 +147,7 @@ module.exports = [
     "ver": "12.0 GM",
     "build": "16A366-GM",
     "released": "2018-09-12",
+    "beta": true,
     "devices": [
       {
         "identifier": "iPhone8,1", // iPhone 6s, A9
@@ -195,14 +206,38 @@ module.exports = [
       "iPad7,4", // iPad Pro 2 (10.5-inch) Wi-Fi + Cellular, A10X
       "iPad7,5", // iPad (6th generation) Wi-Fi, A10
       "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
-      "iPad8,1", // iPad Pro 11-inch Wi-Fi, A12X
-      "iPad8,2", // iPad Pro 11-inch Wi-Fi (1TB), A12X
-      "iPad8,3", // iPad Pro 11-inch Wi-Fi + Cellular, A12X
-      "iPad8,4", // iPad Pro 11-inch Wi-Fi + Cellular (1TB), A12X
-      "iPad8,5", // iPad Pro 12.9-inch (3rd generation) Wi-Fi, A12X
-      "iPad8,6", // iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB), A12X
-      "iPad8,7", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular, A12X
-      "iPad8,8", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB), A12X
+      {
+        "identifier": "iPad8,1", // iPad Pro 11-inch Wi-Fi, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,2", // iPad Pro 11-inch Wi-Fi (1TB), A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,3", // iPad Pro 11-inch Wi-Fi + Cellular, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,4", // iPad Pro 11-inch Wi-Fi + Cellular (1TB), A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,5", // iPad Pro 12.9-inch (3rd generation) Wi-Fi, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,6", // iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB), A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,7", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,8", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB), A12X
+        "ipsw": "none",
+      },
       "iPod7,1", // iPod touch (7th generation), A8
     ],
   },
@@ -211,7 +246,12 @@ module.exports = [
     "build": "16A367",
     "released": "2018-10-26",
 		"beta": false,
-    "devices": [ "iPhone11,8" ],
+    "devices": [
+      {
+        "identifier": "iPhone11,8", // iPhone XR, A12
+        "ipsw": "none"
+      }
+    ],
   },
   {
     "ver": "12.0.1",
@@ -261,14 +301,38 @@ module.exports = [
       "iPad7,4", // iPad Pro 2 (10.5-inch) Wi-Fi + Cellular, A10X
       "iPad7,5", // iPad (6th generation) Wi-Fi, A10
       "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
-      "iPad8,1", // iPad Pro 11-inch Wi-Fi, A12X
-      "iPad8,2", // iPad Pro 11-inch Wi-Fi (1TB), A12X
-      "iPad8,3", // iPad Pro 11-inch Wi-Fi + Cellular, A12X
-      "iPad8,4", // iPad Pro 11-inch Wi-Fi + Cellular (1TB), A12X
-      "iPad8,5", // iPad Pro 12.9-inch (3rd generation) Wi-Fi, A12X
-      "iPad8,6", // iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB), A12X
-      "iPad8,7", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular, A12X
-      "iPad8,8", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB), A12X
+      {
+        "identifier": "iPad8,1", // iPad Pro 11-inch Wi-Fi, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,2", // iPad Pro 11-inch Wi-Fi (1TB), A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,3", // iPad Pro 11-inch Wi-Fi + Cellular, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,4", // iPad Pro 11-inch Wi-Fi + Cellular (1TB), A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,5", // iPad Pro 12.9-inch (3rd generation) Wi-Fi, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,6", // iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB), A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,7", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular, A12X
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad8,8", // iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB), A12X
+        "ipsw": "none",
+      },
       "iPod7,1", // iPod touch (7th generation), A8
     ],
   },
@@ -510,7 +574,10 @@ module.exports = [
       "iPhone11,4", // iPhone XS Max (China mainland), A12
       "iPhone11,6", // iPhone XS Max, A12
       "iPhone11,8", // iPhone XR, A12
-      "iPod7,1", // iPod touch (7th generation), A8
+      {
+        "identifier": "iPod7,1", // iPod touch (7th generation), A8
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -928,7 +995,10 @@ module.exports = [
     "released": "2019-05-28",
 		"beta": false,
     "devices": [
-      "iPod9,1", // iPod touch (7th generation), A8
+      {
+        "identifier": "iPod9,1", // iPod touch (7th generation), A8
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -1212,8 +1282,14 @@ module.exports = [
       "iPhone6,2", // iPhone 5s (CDMA), A7
       "iPhone7,1", // iPhone 6 Plus, A8
       "iPhone7,2", // iPhone 6, A8
-      "iPhone8,1", // iPhone 6s, A9 (Only had 12.4.2 for a brief amount of time)
-      "iPhone8,2", // iPhone 6s Plus, A9 (Only had 12.4.2 for a brief amount of time)
+      {
+        "identifier": "iPhone8,1", // iPhone 6s, A9 (Only had 12.4.2 for a brief amount of time)
+        "ipsw": "none"
+      },
+      {
+        "identifier": "iPhone8,2", // iPhone 6s Plus, A9 (Only had 12.4.2 for a brief amount of time)
+        "ipsw": "none"
+      },
       "iPad4,1", // iPad Air Wi-Fi, A7
       "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
       "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7

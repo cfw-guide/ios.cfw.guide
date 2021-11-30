@@ -764,7 +764,10 @@ module.exports = [
     "released": "2017-05-15",
 		"beta": false,
     "devices": [
-      "iPad5,1", // iPad mini 4 Wi-Fi, A8
+      {
+        "identifier": "iPad5,1", // iPad mini 4 Wi-Fi, A8
+        "ipsw": "none",
+      },
       "iPad5,2", // iPad mini 4 Wi-Fi + Cellular, A8
     ],
   },
