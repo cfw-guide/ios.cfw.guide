@@ -12,7 +12,9 @@ module.exports = {
         "url": "/installing-chimera/"
       }
     ],
-    "icon": "/assets/images/chimera.png"
+    "latestVer": "1.6.4",
+    "color": "#deeded",
+    "icon": "/assets/images/chimera.png",
     "notes": "A12 support is only available on iOS 12.0 - 12.1.2.",
     "type": "Semi-untethered",
     "firmwares": ["12.0","12.5.5"],
