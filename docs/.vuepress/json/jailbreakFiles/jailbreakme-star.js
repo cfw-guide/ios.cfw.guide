@@ -1,15 +1,29 @@
 module.exports = {
   "name": "JailbreakMe Star",
+  "info": {
+    "website": {
+      "name": "jailbreakme.com/star",
+      "url": "https://www.jailbreakme.com/star/",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Using JailbreakMe Star",
+        "url": "/using-jailbreakme-star/"
+      }
+    ],
+    "type": "Untethered",
+    "firmwares": ["3.1.2","4.0.1"]
+  },
   "compatibility": [
     {
       "firmwares": [
         "7D11", // 3.1.2
         "7E18", // 3.1.3
-        "8A293", // 4.0
-        "8A306", // 4.0.1
         "7B367", // 3.2, iPad only
         "7B405", // 3.2.1, iPad only
-        "7B500", // 3.2.2, iPad only
+        "8A293", // 4.0
+        "8A306", // 4.0.1
       ],
       "devices": [
         "iPhone1,1", // iPhone
