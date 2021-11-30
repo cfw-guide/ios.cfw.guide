@@ -82,10 +82,22 @@ module.exports = [
     "released": "2013-09-18",
 		"beta": false,
     "devices": [
-      "iPhone5,3", // iPhone 5c (GSM), A6
-      "iPhone5,4", // iPhone 5c (CDMA), A6
-      "iPhone6,1", // iPhone 5s (GSM), A7
-      "iPhone6,2", // iPhone 5s (GSM), A7
+      {
+        "identifier": "iPhone5,3", // iPhone 5c (GSM), A6
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPhone5,4", // iPhone 5c (CDMA), A6
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPhone6,1", // iPhone 5s (GSM), A7
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPhone6,2", // iPhone 5s (GSM), A7
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -129,12 +141,30 @@ module.exports = [
       "iPad3,4", // iPad (4th generation) Wi-Fi, A6X
       "iPad3,5", // iPad (4th generation) Wi-Fi + Cellular, A6X
       "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
-      "iPad4,1", // iPad Air Wi-Fi, A7
-      "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
-      "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
-      "iPad4,4", // iPad mini 2 Wi-Fi, A7
-      "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
-      "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,1", // iPad Air Wi-Fi, A7
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad4,4", // iPad mini 2 Wi-Fi, A7
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none",
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ],
   },
@@ -169,10 +199,16 @@ module.exports = [
       "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
       "iPad4,1", // iPad Air Wi-Fi, A7
       "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
-      "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none",
+      },
       "iPad4,4", // iPad mini 2 Wi-Fi, A7
       "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
-      "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none",
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ],
   },
@@ -207,10 +243,16 @@ module.exports = [
       "iPad3,6", // iPad (4th generation) Wi-Fi + Cellular (MM), A6X
       "iPad4,1", // iPad Air Wi-Fi, A7
       "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
-      "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none",
+      },
       "iPad4,4", // iPad mini 2 Wi-Fi, A7
       "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
-      "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+      {
+        "identifier": "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+        "ipsw": "none",
+      },
       "iPod5,1", // iPod touch (5th generation), A5
     ],
   },
@@ -220,9 +262,15 @@ module.exports = [
     "released": "2014-01-29",
 		"beta": false,
     "devices": [ 
-      "iPhone5,3", // iPhone 5c (GSM), A6
+      {
+        "identifier": "iPhone5,3", // iPhone 5c (GSM), A6
+        "ipsw": "none"
+      },
       "iPhone5,4", // iPhone 5c (CDMA), A6
-      "iPhone6,1", // iPhone 5s (GSM), A7
+      {
+        "identifier": "iPhone6,1", // iPhone 5s (GSM), A7
+        "ipsw": "none"
+      },
       "iPhone6,2", // iPhone 5s (GSM), A7
     ],
   },

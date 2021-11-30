@@ -604,7 +604,10 @@ module.exports = [
 		"beta": false,
     "devices": [
       "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
-      "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
+      {
+        "identifier": "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
+        "ipsw": "none",
+      },
     ],
   },
   {
@@ -621,8 +624,14 @@ module.exports = [
       "iPhone6,1", // iPhone 5s (GSM), A7
       "iPhone6,2", // iPhone 5s (CDMA), A7
       "iPad2,1", // iPad 2 Wi-Fi, A5
-      "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
-      "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
+      {
+        "identifier": "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
+        "ipsw": "none",
+      },
+      {
+        "identifier": "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
+        "ipsw": "none",
+      },
       "iPad2,4", // iPad 2 Wi-Fi (Mid 2012), A5
       "iPad2,5", // iPad mini Wi-Fi, A5
       "iPad2,6", // iPad mini Wi-Fi + Cellular, A5

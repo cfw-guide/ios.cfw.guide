@@ -1211,9 +1211,15 @@ module.exports = [
       "iPad11,3", // iPad Air (3rd generation) Wi-Fi, A12
       "iPad11,4", // iPad Air (3rd generation) Wi-Fi + Cellular, A12
       "iPad11,6", // iPad (8th generation) Wi-Fi, A12
-      "iPad11,7", // iPad (8th generation) Wi-Fi + Cellular, A12
+      {
+        "identifier": "iPad11,7", // iPad (8th generation) Wi-Fi + Cellular, A12
+        "ipsw": "none",
+      },
       "iPad13,1", // iPad Air (4th generation) Wi-Fi, A14
-      "iPad13,2", // iPad Air (4th generation) Wi-Fi + Cellular, A14
+      {
+        "identifier": "iPad13,2", // iPad Air (4th generation) Wi-Fi + Cellular, A14
+        "ipsw": "none",
+      },
       "iPad13,4", // iPad Pro 11-inch (3rd generation) Wi-Fi, M1
       "iPad13,5", // iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular with mmWave, M1
       "iPad13,6", // iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular, M1

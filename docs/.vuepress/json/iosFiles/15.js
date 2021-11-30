@@ -501,7 +501,10 @@ module.exports = [
       "iPhone9,2", // iPhone 7 Plus (CDMA), A10
       "iPhone9,3", // iPhone 7 (GSM), A10
       "iPhone9,4", // iPhone 7 Plus (GSM), A10
-      "iPhone10,1", // iPhone 8 (CDMA), A11
+      {
+        "identifier": "iPhone10,1", // iPhone 8 (CDMA), A11
+        "ipsw": "none"
+      },
       "iPhone10,2", // iPhone 8 Plus (CDMA), A11
       "iPhone10,3", // iPhone X (CDMA), A11
       "iPhone10,4", // iPhone 8 (GSM), A11

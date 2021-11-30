@@ -50,8 +50,14 @@ module.exports = [
       "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
-      "iPod1,1", // iPod touch
-      "iPod2,1", // iPod touch (2nd generation)
+      {
+        "identifier": "iPod1,1", // iPod touch
+        "ipsw": "none"
+      },
+      {
+        "identifier": "iPod2,1", // iPod touch (2nd generation)
+        "ipsw": "none"
+      },
     ],
   },
   {
@@ -103,8 +109,14 @@ module.exports = [
     "released": "2009-09-09",
 		"beta": false,
     "devices": [
-      "iPod1,1", // iPod touch
-      "iPod2,1", // iPod touch (2nd generation)
+      {
+        "identifier": "iPod1,1", // iPod touch
+        "ipsw": "none"
+      },
+      {
+        "identifier": "iPod2,1", // iPod touch (2nd generation)
+        "ipsw": "none"
+      },
       "iPod3,1", // iPod touch (3rd generation)
     ],
   },
@@ -126,8 +138,14 @@ module.exports = [
       "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
-      "iPod1,1", // iPod touch
-      "iPod2,1", // iPod touch (2nd generation)
+      {
+        "identifier": "iPod1,1", // iPod touch
+        "ipsw": "none"
+      },
+      {
+        "identifier": "iPod2,1", // iPod touch (2nd generation)
+        "ipsw": "none"
+      },
       "iPod3,1", // iPod touch (3rd generation)
     ],
   },
@@ -140,8 +158,14 @@ module.exports = [
       "iPhone1,1", // iPhone
       "iPhone1,2", // iPhone 3G
       "iPhone2,1", // iPhone 3GS
-      "iPod1,1", // iPod touch
-      "iPod2,1", // iPod touch (2nd generation)
+      {
+        "identifier": "iPod1,1", // iPod touch
+        "ipsw": "none"
+      },
+      {
+        "identifier": "iPod2,1", // iPod touch (2nd generation)
+        "ipsw": "none"
+      },
       "iPod3,1", // iPod touch (3rd generation)
     ],
   },
