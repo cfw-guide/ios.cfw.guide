@@ -1,5 +1,18 @@
 module.exports = {
   "name": "sockH3lix",
+  "info": {
+    "website": {
+      "name": "github.com/SongXiaoXi/sockH3lix",
+      "url": "https://github.com/SongXiaoXi/sockH3lix",
+      "external": true
+    },
+    "latestVer": "1.4",
+    "color": "#ffffff",
+    "icon": "/assets/images/sockh3lix.png",
+    "type": "Semi-untethered",
+    "firmwares": ["10.0","10.3.4"],
+    "notes": "A modified version of h3lix using the superior sock_port exploit."
+  },
   "compatibility": [
     {
       "firmwares": [

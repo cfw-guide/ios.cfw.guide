@@ -1,5 +1,23 @@
 module.exports = {
   "name": "evasi0n7",
+  "info": {
+    "website": {
+      "name": "theiphonewiki.com/wiki/Evasi0n7",
+      "url": "https://www.theiphonewiki.com/wiki/Evasi0n7",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Installing Evasi0n7",
+        "url": "/installing-evasi0n7/"
+      }
+    ],
+    "latestVer": "1.0.8",
+    "color": "#ffffff",
+    "icon": "/assets/images/evasi0n.png",
+    "type": "Untethered",
+    "firmwares": ["7.0","7.0.6"]
+  },
   "compatibility": [
     {
       "firmwares": [

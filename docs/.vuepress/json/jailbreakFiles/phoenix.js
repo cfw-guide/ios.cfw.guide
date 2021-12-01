@@ -1,5 +1,23 @@
 module.exports = {
   "name": "Phœnix",
+  "info": {
+    "website": {
+      "name": "phoenixpwn.com",
+      "url": "https://phoenixpwn.com/",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Installing Phœnix",
+        "url": "/installing-phoenix/"
+      }
+    ],
+    "latestVer": "v6",
+    "color": "#000000",
+    "icon": "/assets/images/phoenix.png",
+    "type": "Semi-untethered",
+    "firmwares": ["9.3.5","9.3.6"]
+  },
   "compatibility": [
     {
       "firmwares": [

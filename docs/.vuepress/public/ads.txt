@@ -1,4 +1,4 @@
-#ads.txt https://cemu.cfw.guide
+#ads.txt https://ios.cfw.guide
 
 google.com, pub-8267943526926430, DIRECT, f08c47fec0942fa0
 
