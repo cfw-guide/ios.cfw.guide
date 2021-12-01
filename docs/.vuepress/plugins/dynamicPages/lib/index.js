@@ -27,6 +27,6 @@ module.exports = {
   name: 'vuepress-dynamic-pages',
   async onInitialized(app) {
     getPkgManPages(app.pages);
-    for (const p in ret) app.pages.push(await createPage(app, ret[p]))
+    if (ret.length) for (const p in ret) if (ret[p].length) app.pages.push(await createPage(app, ret[p]))
   }
 }
