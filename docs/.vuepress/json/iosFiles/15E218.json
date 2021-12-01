@@ -1,0 +1,14 @@
+{
+  "version": "11.3",
+  "build": "15E218",
+  "released": "2018-03-29",
+  "beta": false,
+  "devices": {
+    "iPad7,5": {
+      "ipsw": "none"
+    },
+    "iPad7,6": {
+      "ipsw": "http://appldnld.apple.com/ios11.3/091-75531-201803029-6A1BF92C-2C61-11E8-8550-4BEB245B8CCE/iPad_7,5_iPad_7,6_11.3_15E218_Restore.ipsw"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": "6.1.2",
+  "build": "10B146",
+  "released": "2013-01-24",
+  "beta": false,
+  "devices": {
+    "iPhone2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0744.20130215.2E34r/iPhone2,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0722.20130215.BzrgV/iPhone3,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPhone3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0739.20130215.F654R/iPhone3,2_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPhone3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0726.20130215.Npal4/iPhone3,3_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0926.20130215.DaTe4/iPhone4,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0720.20130215.Xerg4/iPhone5,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0727.20130215.Prgt5/iPhone5,2_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0714.20130215.Mpsr2/iPad2,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0724.20130215.2D4rt/iPad2,2_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad2,3": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0708.20130215.Qm6q4/iPad2,3_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad2,4": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0750.20130215.Fb65t/iPad2,4_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0736.20130215.Wwft4/iPad3,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0710.20130215.Vfgst/iPad3,2_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0747.20130215.6994G/iPad3,3_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad3,4": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0734.20130215.543df/iPad3,4_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPad3,5": {
+      "ipsw": "none"
+    },
+    "iPad3,6": {
+      "ipsw": "none"
+    },
+    "iPod5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0731.20130215.At0tt/iPod5,1_6.1.2_10B146_Restore.ipsw"
+    },
+    "iPod4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0732.20130215.Mkmt5/iPod4,1_6.1.2_10B146_Restore.ipsw"
+    }
+  }
+}

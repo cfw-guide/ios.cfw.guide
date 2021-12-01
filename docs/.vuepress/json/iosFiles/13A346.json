@@ -1,0 +1,20 @@
+{
+  "version": "10.0",
+  "build": "13A346",
+  "released": "2016-09-13",
+  "beta": false,
+  "devices": {
+    "iPhone9,1": {
+      "ipsw": "none"
+    },
+    "iPhone9,2": {
+      "ipsw": "none"
+    },
+    "iPhone9,3": {
+      "ipsw": "none"
+    },
+    "iPhone9,4": {
+      "ipsw": "none"
+    }
+  }
+}

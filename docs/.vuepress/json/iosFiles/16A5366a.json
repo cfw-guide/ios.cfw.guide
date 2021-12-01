@@ -1,0 +1,11 @@
+{
+  "version": "12.0 beta 12",
+  "build": "16A5366a",
+  "released": "2018-08-31",
+  "beta": true,
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-03595/B73B8B1E-ABF5-11E8-B874-C242F0B9A487/iPhone_4.0_64bit_12.0_16A5366a_Restore.ipsw"
+    }
+  }
+}

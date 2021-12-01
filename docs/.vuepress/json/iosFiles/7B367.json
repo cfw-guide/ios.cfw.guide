@@ -1,0 +1,11 @@
+{
+  "version": "3.2",
+  "build": "7B367",
+  "released": "2010-04-03",
+  "beta": false,
+  "devices": {
+    "iPad1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPad/061-7987.20100403.mjiTr/iPad1,1_3.2_7B367_Restore.ipsw"
+    }
+  }
+}

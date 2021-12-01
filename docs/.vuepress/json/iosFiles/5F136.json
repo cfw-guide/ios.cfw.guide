@@ -1,0 +1,17 @@
+{
+  "version": "2.1",
+  "build": "5F136",
+  "released": "2008-09-12",
+  "beta": false,
+  "devices": {
+    "iPhone1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5202.20080909.gkbEj/iPhone1,1_2.1_5F136_Restore.ipsw"
+    },
+    "iPhone1,2": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5198.20080909.K3294/iPhone1,2_2.1_5F136_Restore.ipsw"
+    },
+    "iPod1,1": {
+      "ipsw": "none"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "9.0",
+  "build": "13A340",
+  "released": "2015-09-16",
+  "beta": false,
+  "devices": {
+    "iPad5,1": {
+      "ipsw": "http://appldnld.apple.com/ios9/031-07345-20150916-084E2B56-5735-11E5-BFC0-F7456DA99CB1/iPad5,1_9.0_13A340_Restore.ipsw"
+    },
+    "iPad5,2": {
+      "ipsw": "http://appldnld.apple.com/ios9/031-07347-20150916-084E188C-5735-11E5-ABEC-F5456DA99CB1/iPad5,2_9.0_13A340_Restore.ipsw"
+    }
+  }
+}

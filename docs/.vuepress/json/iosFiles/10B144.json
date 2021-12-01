@@ -1,0 +1,14 @@
+{
+  "version": "6.1",
+  "build": "10B144",
+  "released": "2013-01-24",
+  "beta": false,
+  "devices": {
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0682.20130128.mefc4/iPhone3,1_6.1_10B144_Restore.ipsw"
+    },
+    "iPod4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0688.20130128.omwy3/iPod4,1_6.1_10B144_Restore.ipsw"
+    }
+  }
+}

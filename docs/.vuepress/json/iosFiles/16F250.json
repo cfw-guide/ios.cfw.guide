@@ -1,0 +1,14 @@
+{
+  "version": "12.3.2",
+  "build": "16F250",
+  "released": "2019-06-10",
+  "beta": false,
+  "devices": {
+    "iPhone10,2": {
+      "ipsw": "http://updates-http.cdn-apple.com/2019SpringFCS/fullrestores/041-72090/BD757E14-887B-11E9-A5A8-CAD44C7D6DB9/iPhone_5.5_P3_12.3.2_16F250_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "http://updates-http.cdn-apple.com/2019SpringFCS/fullrestores/041-72090/BD757E14-887B-11E9-A5A8-CAD44C7D6DB9/iPhone_5.5_P3_12.3.2_16F250_Restore.ipsw"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "9.0.1",
+  "build": "13A405",
+  "released": "2015-09-23",
+  "beta": false,
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "http://appldnld.apple.com/ios9.0.1/058-29513-20150924-C5F1C6C4-613D-11E5-AF7E-CBB351D92A8C/iPhone8,1_9.0.1_13A405_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "http://appldnld.apple.com/ios9.0.1/058-21798-20150924-C5F24B9E-613D-11E5-B985-C9B351D92A8C/iPhone8,2_9.0.1_13A405_Restore.ipsw"
+    }
+  }
+}

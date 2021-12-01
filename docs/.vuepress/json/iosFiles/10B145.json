@@ -1,0 +1,11 @@
+{
+  "version": "6.1.1",
+  "build": "10B145",
+  "released": "2013-02-08",
+  "beta": false,
+  "devices": {
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-0723.20130211.Fcr43/iPhone4,1_6.1.1_10B145_Restore.ipsw"
+    }
+  }
+}

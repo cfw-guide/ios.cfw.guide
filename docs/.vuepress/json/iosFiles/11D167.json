@@ -1,0 +1,92 @@
+{
+  "version": "7.1",
+  "build": "11D167",
+  "released": "2014-03-10",
+  "beta": false,
+  "devices": {
+    "iPhone3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4333.20140310.ZXCj3/iPhone3,3_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4642.20140310.FFN31/iPhone4,1_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4323.20140310.gdKZa/iPhone5,1_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4537.20140310.4PCL5/iPhone5,2_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone5,3": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4631.20140310.6Gser/iPhone5,3_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone5,4": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4322.20140310.kOVha/iPhone5,4_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4716.20140310.F29df/iPhone6,1_7.1_11D167_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4452.20140310.Lv4Gr/iPhone6,2_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4388.20140310.ZA355/iPad2,1_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4484.20140310.CfrFr/iPad2,2_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,3": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4473.20140310.LwD2y/iPad2,3_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,4": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4674.20140310.DDB45/iPad2,4_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,5": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4412.20140310.90ybF/iPad2,5_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,6": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4470.20140310.Ca7EB/iPad2,6_7.1_11D167_Restore.ipsw"
+    },
+    "iPad2,7": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4341.20140310.KV4Gf/iPad2,7_7.1_11D167_Restore.ipsw"
+    },
+    "iPad3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4595.20140310.wmuef/iPad3,1_7.1_11D167_Restore.ipsw"
+    },
+    "iPad3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4439.20140310.W3GDf/iPad3,2_7.1_11D167_Restore.ipsw"
+    },
+    "iPad3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4615.20140310.HJvGp/iPad3,3_7.1_11D167_Restore.ipsw"
+    },
+    "iPad3,4": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4395.20140310.FnwaL/iPad3,4_7.1_11D167_Restore.ipsw"
+    },
+    "iPad3,5": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4572.20140310.BKHf2/iPad3,5_7.1_11D167_Restore.ipsw"
+    },
+    "iPad3,6": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4326.20140310.JBoD9/iPad3,6_7.1_11D167_Restore.ipsw"
+    },
+    "iPad4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4521.20140310.D2Ydl/iPad4,1_7.1_11D167_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4617.20140310.Siwgt/iPad4,2_7.1_11D167_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4538.20140310.AGJcG/iPad4,3_7.1_11D167_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4496.20140310.K932s/iPad4,4_7.1_11D167_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4374.20140310.R5Kv4/iPad4,5_7.1_11D167_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4370.20140310.CjAFs/iPad4,6_7.1_11D167_Restore.ipsw"
+    },
+    "iPod5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4542.20140310.CuCCW/iPod5,1_7.1_11D167_Restore.ipsw"
+    }
+  }
+}

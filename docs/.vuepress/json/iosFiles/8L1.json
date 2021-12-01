@@ -1,0 +1,35 @@
+{
+  "version": "4.3.5",
+  "build": "8L1",
+  "released": "2011-07-21",
+  "beta": false,
+  "devices": {
+    "iPhone2,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1965.20110721.gxUB5/iPhone2,1_4.3.5_8L1_Restore.ipsw"
+    },
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1966.20110721.V3Ufe/iPhone3,1_4.3.5_8L1_Restore.ipsw"
+    },
+    "iPhone3,3": {
+      "ipsw": "none"
+    },
+    "iPad1,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1957.20110721.6UHaN/iPad1,1_4.3.5_8L1_Restore.ipsw"
+    },
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1960.20110721.UsAO4/iPad2,1_4.3.5_8L1_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1961.20110721.zigyd/iPad2,2_4.3.5_8L1_Restore.ipsw"
+    },
+    "iPad2,3": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1962.20110721.rWxrf/iPad2,3_4.3.5_8L1_Restore.ipsw"
+    },
+    "iPod3,1": {
+      "ipsw": "none"
+    },
+    "iPod4,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1963.20110721.Huant/iPod4,1_4.3.5_8L1_Restore.ipsw"
+    }
+  }
+}

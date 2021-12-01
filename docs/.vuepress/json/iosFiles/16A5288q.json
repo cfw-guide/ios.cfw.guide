@@ -1,0 +1,11 @@
+{
+  "version": "12.0 beta",
+  "build": "16A5288q",
+  "released": "2018-06-04",
+  "beta": true,
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.7_12.0_16A5288q_Restore.ipsw"
+    }
+  }
+}

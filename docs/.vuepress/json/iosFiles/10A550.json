@@ -1,0 +1,11 @@
+{
+  "version": "6.0.2",
+  "build": "10A550",
+  "released": "2012-12-13",
+  "beta": false,
+  "devices": {
+    "iPad2,5": {
+      "ipsw": "none"
+    }
+  }
+}

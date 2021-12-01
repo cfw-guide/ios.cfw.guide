@@ -1,0 +1,14 @@
+{
+  "version": "6.0",
+  "build": "10A405",
+  "released": "2012-09-24",
+  "beta": false,
+  "devices": {
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7169.20120919.5Mial/iPhone5,1_6.0_10A405_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7171.20120919.doJ1e/iPhone5,2_6.0_10A405_Restore.ipsw"
+    }
+  }
+}

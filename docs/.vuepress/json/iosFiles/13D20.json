@@ -1,0 +1,32 @@
+{
+  "version": "9.2.1",
+  "build": "13D20",
+  "released": "2016-02-18",
+  "beta": false,
+  "devices": {
+    "iPhone7,1": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49406-20160217-4BB474F0-D44D-11E5-81C1-0352919DCAD8/iPhone7,1_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49382-20160217-4BB652A2-D44D-11E5-89B0-0552919DCAD8/iPhone7,2_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPhone8,1": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49377-20160217-4BB1908C-D44D-11E5-9900-0952919DCAD8/iPhone8,1_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49073-20160217-4BB05046-D44D-11E5-9D30-0852919DCAD8/iPhone8,2_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPad5,3": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-48986-20160217-4BB65360-D44D-11E5-89B0-0A52919DCAD8/iPad5,3_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPad5,4": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49408-20160217-4BB55C1C-D44D-11E5-8E17-0B52919DCAD8/iPad5,4_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPad6,7": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-48671-20160217-4BB46F46-D44D-11E5-8BAB-0052919DCAD8/iPad6,7_9.2.1_13D20_Restore.ipsw"
+    },
+    "iPad6,8": {
+      "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49308-20160217-4BADBB56-D44D-11E5-B486-0152919DCAD8/iPad6,8_9.2.1_13D20_Restore.ipsw"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": "3.0.1",
+  "build": "7A400",
+  "released": "2009-07-31",
+  "beta": false,
+  "devices": {
+    "iPhone1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-6974.20090731.Cf4Tg/iPhone1,1_3.0.1_7A400_Restore.ipsw"
+    },
+    "iPhone1,2": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-6972.20090731.Zx3Rr/iPhone1,2_3.0.1_7A400_Restore.ipsw"
+    },
+    "iPhone2,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-6976.20090731.Vgbt5/iPhone2,1_3.0.1_7A400_Restore.ipsw"
+    }
+  }
+}

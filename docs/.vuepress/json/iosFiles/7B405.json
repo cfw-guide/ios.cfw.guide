@@ -1,0 +1,11 @@
+{
+  "version": "3.2.1",
+  "build": "7B405",
+  "released": "2010-07-15",
+  "beta": false,
+  "devices": {
+    "iPad1,1": {
+      "ipsw": "http://appldnld.apple.com/iPad/061-8282.20100713.vgtgh/iPad1,1_3.2.1_7B405_Restore.ipsw"
+    }
+  }
+}

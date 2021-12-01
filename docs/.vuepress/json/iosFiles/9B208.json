@@ -1,0 +1,11 @@
+{
+  "version": "5.1.1",
+  "build": "9B208",
+  "released": "2012-04-25",
+  "beta": false,
+  "devices": {
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS5.1.1/041-6051.2012.0525.Cvby7/iPhone3,1_5.1.1_9B208_Restore.ipsw"
+    }
+  }
+}

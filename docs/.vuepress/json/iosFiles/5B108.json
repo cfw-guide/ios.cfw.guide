@@ -1,0 +1,17 @@
+{
+  "version": "2.0.1",
+  "build": "5B108",
+  "released": "2008-08-04",
+  "beta": false,
+  "devices": {
+    "iPhone1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5135.20080729.Vfgtr/iPhone1,1_2.0.1_5B108_Restore.ipsw"
+    },
+    "iPhone1,2": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5134.20080729.Q2W3E/iPhone1,2_2.0.1_5B108_Restore.ipsw"
+    },
+    "iPod1,1": {
+      "ipsw": "none"
+    }
+  }
+}

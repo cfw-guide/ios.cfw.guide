@@ -112,17 +112,7 @@ function isObject(objValue) {
 
 function getDeviceListFromBuild(b) {
   var devArr = [];
-  
-  for (var i in b.devices) {
-    if (isObject(b.devices[i])) {
-      if (b.devices[i].hasOwnProperty('identifier')) {
-        devArr.push(b.devices[i].identifier)
-      }
-    } else {
-      devArr.push(b.devices[i])
-    }
-  }
-  
+  for (const i in b.devices) devArr.push(i)
   return devArr;
 }
 
@@ -134,21 +124,16 @@ function getDeviceTable(device, showAll) {
   if (showAll) title = '';
   
   var tableHtml = [];
-  
   var buildArr = [[], []];
-  for (var i in iosList)
-    if (iosList[i].hasOwnProperty('beta'))
-      if (iosList[i].hasOwnProperty('devices'))
-        if (getDeviceListFromBuild(iosList[i]).includes(d) || showAll) {
-          if (iosList[i].hasOwnProperty('beta'))
-            if (iosList[i].beta) {
-              buildArr[1].push(iosList[i]);
-            }
-          else {
-            buildArr[0].push(iosList[i])
-            buildArr[1].push(iosList[i])
-          }
-        }
+  
+  for (const i in iosList) {
+    if (!iosList[i].hasOwnProperty('beta')) continue;
+    if (!iosList[i].hasOwnProperty('devices')) continue;
+    if (!getDeviceListFromBuild(iosList[i]).includes(d) && !showAll) continue;
+    
+    if (iosList[i].beta) buildArr[1].push(iosList[i]);
+    else for (const j in buildArr) buildArr[j].push(iosList[i])
+  }
         
   for (var i in buildArr) {
     var html = ''
@@ -157,7 +142,7 @@ function getDeviceTable(device, showAll) {
       
       html += `<tr>`
       html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build + '</a></td>'
-      html += '<td>' + buildArr[i][b].ver.replace('6-enterprise', '6-e') + '</td>'
+      html += '<td>' + buildArr[i][b].version.replace('6-enterprise', '6-e') + '</td>'
       
       html += '<td>'
       var jbArr = getJailbreaks(buildArr[i][b].build, d, showAll)

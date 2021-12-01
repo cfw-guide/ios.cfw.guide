@@ -1,0 +1,11 @@
+{
+  "version": "3.1.1",
+  "build": "7C146",
+  "released": "2009-09-17",
+  "beta": false,
+  "devices": {
+    "iPod3,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-7238.20090918.23GhT/iPod3,1_3.1.1_7C146_Restore.ipsw"
+    }
+  }
+}
