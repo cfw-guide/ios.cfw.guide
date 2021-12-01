@@ -309,490 +309,54 @@ module.exports = {
     },
   ],
   
-  '/installing-taurine/': [
-    getStarted,
-    {
-      text: 'Taurine',
-      children: [
-        '/installing-taurine/',
-        '/installing-taurine/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
+  ...jbSidebarObj,
+}
+
+const jbList = require('./jbList')
+var jbSidebarObj = {};
+for (const i in jbList) {
+  const jb = jbList[i];
+  var children = [];
+  if (jb.hasOwnProperty('children')) children = jb.children;
   
-  '/installing-odyssey/': [
-    getStarted,
-    {
-      text: 'Odyssey',
-      children: [
-        '/installing-odyssey/',
-        '/installing-odyssey/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
+  var link = [];
+  if (jb.hasOwnProperty('link')) link = jb.link;
   
-  '/updating-to-12-5-5/': [
-    getStarted,
-    {
-      text: 'Chimera',
-      children: [
-        '/updating-to-12-5-5/',
-        '/installing-chimera/',
-        '/installing-chimera/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-12-5-4-(blobless)/': [
-    getStarted,
-    {
-      text: 'Chimera',
-      children: [
+  if (jb.hasOwnProperty('updateLink')) {
+    for (const upd in jb.updateLink) {
+      var updText = jb.updateLink[upd];
+      var updLink = jb.updateLink[upd];
+      if (updText.hasOwnProperty('text')) updText = updText.text;
+      if (updLink.hasOwnProperty('link')) updLink = updLink.link;
+      
+      jbSidebarObj[updLink] = [
+        getStarted,
         {
-          text: 'Updating to 12.5.4',
-          link: '/updating-to-12-5-4-(blobless)/',
-        },
-        '/installing-chimera/',
-        '/installing-chimera/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-chimera/': [
-    getStarted,
-    {
-      text: 'Chimera',
-      children: [
-        '/installing-chimera/',
-        '/installing-chimera/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-odysseyra1n/': [
-    getStarted,
-    {
-      text: 'Odysseyra1n',
-      children: [
-        {
-          text: 'Installing Odysseyra1n',
-          link: '/installing-odysseyra1n/',
+          text: updText,
           children: [
-            {
-              text: 'macOS',
-              link: '/installing-odysseyra1n/macos/',
-            },
-            {
-              text: 'Linux',
-              link: '/installing-odysseyra1n/linux/',
-            },
-          ],
+            jb.updateLink[upd],
+            link,
+            ...children,
+            jb.link.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
+          ]
         },
-        '/installing-odysseyra1n/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
+        guides,
+        troubleshooting,
+      ]
+    }
+  }
   
-  '/installing-odysseyra1n-a9x/': [
+  jbSidebarObj[jb.link] = [
     getStarted,
     {
-      text: 'Odysseyra1n (A9X)',
+      text: jb.text,
       children: [
-        {
-          text: 'Installing Odysseyra1n (A9X)',
-          link: '/installing-odysseyra1n-a9x/',
-          children: [
-            {
-              text: 'macOS',
-              link: '/installing-odysseyra1n-a9x/macos/',
-            },
-            {
-              text: 'Linux',
-              link: '/installing-odysseyra1n-a9x/linux/',
-            },
-          ],
-        },
-        '/installing-odysseyra1n-a9x/using-sileo/',
-      ],
+        link,
+        ...children,
+        jb.link.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
+      ]
     },
     guides,
     troubleshooting,
-  ],
-  
-  '/using-odysseyn1x/': [
-    getStarted,
-    {
-      text: 'Odysseyn1x',
-      children: [
-        '/using-odysseyn1x/',
-        '/using-odysseyn1x/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/using-odysseyn1x-a9x/': [
-    getStarted,
-    {
-      text: 'Odysseyn1x (A9X)',
-      children: [
-        '/using-odysseyn1x-a9x/',
-        '/using-odysseyn1x-a9x/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-unc0ver/': [
-    getStarted,
-    {
-      text: 'unc0ver',
-      children: [
-        '/installing-unc0ver/',
-        '/installing-unc0ver/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-unc0ver-fugu14/': [
-    getStarted,
-    {
-      text: 'unc0ver (Fugu14)',
-      children: [
-        '/installing-unc0ver-fugu14/',
-        '/installing-unc0ver-fugu14/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-electra/': [
-    getStarted,
-    {
-      text: 'Electra',
-      children: [
-        '/installing-electra/',
-        '/installing-electra/using-sileo/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-doubleh3lix/': [
-    getStarted,
-    {
-      text: 'doubleh3lix',
-      children: [
-        '/installing-doubleh3lix/',
-        '/installing-doubleh3lix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-10-3-3/': [
-    getStarted,
-    {
-      text: 'Meridian',
-      children: [
-        '/updating-to-10-3-3/',
-        '/using-meridian/',
-        '/using-meridian/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/using-meridian/': [
-    getStarted,
-    {
-      text: 'Meridian',
-      children: [
-        '/using-meridian/',
-        '/using-meridian/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-pangu933/': [
-    getStarted,
-    {
-      text: 'Pangu933',
-      children: [
-        '/installing-pangu933/',
-        '/installing-pangu933/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-kok3shi/': [
-    getStarted,
-    {
-      text: 'Kok3shi',
-      children: [
-        '/installing-kok3shi/',
-        '/installing-kok3shi/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-pangu7/': [
-    getStarted,
-    {
-      text: 'Pangu7',
-      children: [
-        '/installing-pangu7/',
-        '/installing-pangu7/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-evasi0n7/': [
-    getStarted,
-    {
-      text: 'Evasi0n7',
-      children: [
-        '/installing-evasi0n7/',
-        '/installing-evasi0n7/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-10-3-4/': [
-    getStarted,
-    {
-      text: 'h3lix',
-      children: [
-        '/updating-to-10-3-4/',
-        '/installing-h3lix/',
-        '/installing-h3lix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-h3lix/': [
-    getStarted,
-    {
-      text: 'h3lix',
-      children: [
-        '/installing-h3lix/',
-        '/installing-h3lix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-9-3-5/': [
-    getStarted,
-    {
-      text: 'Phœnix',
-      children: [
-        '/updating-to-9-3-5/',
-        '/installing-phoenix/',
-        '/installing-phoenix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-9-3-5-ipsw/': [
-    getStarted,
-    {
-      text: 'Phœnix',
-      children: [
-        {
-          text: 'Updating to 9.3.5',
-          link: '/updating-to-9-3-5-ipsw/',
-        },
-        '/installing-phoenix/',
-        '/installing-phoenix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-9-3-6/': [
-    getStarted,
-    {
-      text: 'Phœnix',
-      children: [
-        '/updating-to-9-3-6/',
-        '/installing-phoenix/',
-        '/installing-phoenix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-9-3-6-ipsw/': [
-    getStarted,
-    {
-      text: 'Phœnix',
-      children: [
-        {
-          text: 'Updating to 9.3.6',
-          link: '/updating-to-9-3-6-ipsw/',
-        },
-        '/installing-phoenix/',
-        '/installing-phoenix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-phoenix/': [
-    getStarted,
-    {
-      text: 'Phœnix',
-      children: [
-        '/installing-phoenix/',
-        '/installing-phoenix/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-homedepot/': [
-    getStarted,
-    {
-      text: 'HomeDepot',
-      children: [
-        '/installing-homedepot/',
-        '/installing-homedepot/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-8-4-1/': [
-    getStarted,
-    {
-      text: 'EtasonJB',
-      children: [
-        '/updating-to-8-4-1/',
-        '/installing-etasonjb/',
-        '/installing-etasonjb/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-etasonjb/': [
-    getStarted,
-    {
-      text: 'EtasonJB',
-      children: [
-        '/installing-etasonjb/',
-        '/installing-etasonjb/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/updating-to-6-1-3/': [
-    getStarted,
-    {
-      text: 'p0sixspwn',
-      children: [
-        '/updating-to-6-1-3/',
-        '/installing-p0sixspwn/',
-        '/installing-p0sixspwn/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-p0sixspwn/': [
-    getStarted,
-    {
-      text: 'p0sixspwn',
-      children: [
-        '/installing-p0sixspwn/',
-        '/installing-p0sixspwn/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/installing-daibutsu/': [
-    getStarted,
-    {
-      text: 'p0sixspwn',
-      children: [
-        '/installing-p0sixspwn/',
-        '/installing-p0sixspwn/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/using-jailbreakme-saffron/': [
-    getStarted,
-    {
-      text: 'JailbreakMe Saffron',
-      children: [
-        '/using-jailbreakme-saffron/',
-        '/using-jailbreakme-saffron/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
-  
-  '/using-jailbreakme-star/': [
-    getStarted,
-    {
-      text: 'JailbreakMe Star',
-      children: [
-        '/using-jailbreakme-star/',
-        '/using-jailbreakme-star/using-cydia/',
-      ],
-    },
-    guides,
-    troubleshooting,
-  ],
+  ]
 }
