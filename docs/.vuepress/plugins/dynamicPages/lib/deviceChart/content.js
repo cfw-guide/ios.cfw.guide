@@ -42,6 +42,7 @@ const month = [
 
 const iosList = require('../../../../json/ios');
 const deviceList = require('../../../../json/deviceList');
+const deviceGroups = require('../../../../json/deviceGroups');
 const jbList = require('../../../../json/jailbreak');
 
 function getDate(d) {
@@ -84,23 +85,26 @@ function getDeviceInfo(device) {
   return html;
 }
 
-function getRelatedDevices(device) {
-  const d = device;
-  var html = ''
+function getRelatedDevices(d) {
+  var html = '';
+  if (!d || !deviceList.hasOwnProperty(d)) return html;
   
-  if (!d || !deviceList.hasOwnProperty(d)) return html
-  if (!deviceList[d].hasOwnProperty('related')) return html;
-  var relatedDevices = deviceList[d].related;
-  if (relatedDevices.length < 1) return html;
+  let devArr;
+  
+  for (const i in deviceGroups) {
+    if (!deviceGroups[i].hasOwnProperty('devices')) continue;
+    if (deviceGroups[i].devices.length < 2) continue;
+    if (deviceGroups[i].devices.includes(d)) devArr = deviceGroups[i].devices
+  }
+  
+  if (devArr == null) return html;
+  
+  devArr = devArr.filter(function(device) { return device != d } )
   
   html += "## " + header[1] + "\n";
   
   html += '<ul>'
-  for (var i in relatedDevices) {
-    if (relatedDevices[i] == d) continue;
-    var path = devicePath;
-    html += `<li><a href="${path}${relatedDevices[i]}">${deviceList[relatedDevices[i]].name}</a></li>`
-  }
+  for (const i in devArr) html += `<li><a href="${devicePath}${devArr[i]}">${deviceList[devArr[i]].name}</a></li>`
   html += "</ul>\n\n"
   
   return html;
