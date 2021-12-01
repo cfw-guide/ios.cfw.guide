@@ -23,4 +23,4 @@ soc: A7
 In boxes marked `--`, there is no jailbreak for that firmware version.
 :::
 
-!!!include(./docs/en_US/get-started/include/find-ios-version-ipad.md)!!!
+!!!include(./docs/en_US/devices/include/find-ios-version-ipad.md)!!!

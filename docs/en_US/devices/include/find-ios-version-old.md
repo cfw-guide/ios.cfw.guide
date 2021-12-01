@@ -1,4 +1,3 @@
-
 ## Finding your iOS version
 
 1. Open Settings

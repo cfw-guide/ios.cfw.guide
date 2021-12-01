@@ -1,4 +1,3 @@
-
 ## Finding your iPadOS version
 
 1. Open Settings
