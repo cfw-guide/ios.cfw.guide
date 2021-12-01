@@ -7,6 +7,7 @@ redirect_from:
   - /installing-odysseyrain
   - /installing-checkra1n
   - /installing-checkrain
+extra_contributors: stkc
 ---
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
