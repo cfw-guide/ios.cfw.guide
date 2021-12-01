@@ -67,7 +67,7 @@ module.exports = {
       md.use(require('markdown-it-include'))
   },
   
-  onGenerated(app) {
+  onPrepared(app) {
     fs.writeFile('./docs/.vuepress/public/main.json', JSON.stringify(mainObj), function (err) {
       if (err) throw err;
     });
