@@ -14,7 +14,10 @@ for (var jb in jbList) {
       title: jbList[jb].name,
       description: 'Compatible firmwares for ' + jbList[jb].name,
       redirect_from: redirects,
-      sidebar: false
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
     },
     content: require('./content')(jbList[jb].name)
   })
