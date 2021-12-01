@@ -18,6 +18,9 @@ function getPkgManPages(app) {
         lang: 'en_US',
         title: `Using ${fm.pkgman.replace(/^\w/, c => c.toUpperCase())}`,
         description: `Guide to using ${fm.pkgman.replace(/^\w/, c => c.toUpperCase())}`,
+        editLink: false,
+        lastUpdated: false,
+        contributors: false,
       },
       content: `!!!include(./docs/en_US/include/using-${fm.pkgman}.md)!!!`
     })

@@ -23,7 +23,10 @@ for (var i in iosList) {
       title: 'iOS ' + v.version + ' (' + v.build + ')',
       description: 'Compatible jailbreaks for firmware version ' + v.version,
       redirect_from: redirects,
-      sidebar: false
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
     },
     content: require('./content')(v.build)
   })
@@ -37,7 +40,10 @@ for (var i in duplicateVerArr) {
       title: 'iOS ' + v,
       description: 'Firmware builds for version ' + v,
       //redirect_from: '/' + v,
-      sidebar: false
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
     },
     content: require('./multipleFwPage')(v)
   })
