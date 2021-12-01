@@ -1,0 +1,57 @@
+---
+lang: en_US
+title: Installing Daibutsu
+description: Guide to installing Daibutsu
+permalink: /installing-daibutsu
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+pkgman: cydia
+---
+
+Daibutsu is capable of jailbreaking A5(X) iOS devices on firmware version 8.4.1.
+
+Unlike most modern jailbreaks, Daibutsu is persistent after a reboot (this is also referred to as an "[untethered](/types-of-jailbreak/#untethered-jailbreaks)" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
+
+We will use the Sideloadly tool to install the Daibutsu jailbreak application to your iOS device for use in the next step.
+
+## Downloads
+
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+Daibutsu is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
+
+- The latest version of [Daibutsu](https://dora2ios.web.app/daibutsu.html)
+- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
+
+## Installing the application
+
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the Daibutsu `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+
+The app will now install to your iOS device.
+
+## Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+The Daibutsu application can now be opened from home screen.
+
+## Running Daibutsu
+
+1. Open the Daibutsu application from your home screen
+1. Tap `Jailbreak`
+
+::: warning
+If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+:::
+
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
