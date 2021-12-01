@@ -5,6 +5,8 @@ description: Guide to installing HomeDepot
 permalink: /installing-homedepot
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
+extra_contributors:
+  - TheHacker894
 ---
 
 HomeDepot is capable of jailbreaking every 32bit iOS device on firmware version 9.1 up to 9.3.4.

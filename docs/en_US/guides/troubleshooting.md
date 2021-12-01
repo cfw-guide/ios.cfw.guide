@@ -3,6 +3,12 @@ lang: en_US
 title: "Troubleshooting"
 description: Fixing common issues on jailbroken devices.
 permalink: /troubleshooting
+extra_contributors:
+  - iCrazeiOS
+  - hopolapopola
+  - Tanbeer191
+  - TheHacker894
+  - raizo
 ---
 
 ## How to enter DFU mode

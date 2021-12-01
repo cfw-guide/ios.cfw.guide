@@ -3,6 +3,10 @@ lang: en-US
 title: "FAQ"
 description: Frequently asked questions on jailbroken devices.
 permalink: /faq
+extra_contributors:
+  - Tanbeer191
+  - TheHacker894
+  - BurritoSOFTWARE
 ---
 
 ## What is jailbreaking?

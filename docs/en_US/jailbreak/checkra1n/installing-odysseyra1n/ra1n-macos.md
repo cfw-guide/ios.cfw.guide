@@ -3,7 +3,10 @@ lang: en_US
 title: Installing Odysseyra1n (macOS)
 description: Guide to installing Odysseyra1n on macOS
 permalink: /installing-odysseyra1n/macos
-extra_contributors: stkc
+extra_contributors:
+  - stekc
+  - Tanbeer191
+  - TheHacker894
 ---
 
 ## Downloads

@@ -6,6 +6,11 @@ permalink: /futurerestore
 redirect_from:
   - /future-restore
   - /restoring-to-14-3
+extra_contributors:
+  - Serena
+  - Tanbeer191
+  - TheHacker894
+  - CoocooFroggy
 ---
 ## Notes
 If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15 and are on an A12+ device, you will not be able to downgrade, as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.

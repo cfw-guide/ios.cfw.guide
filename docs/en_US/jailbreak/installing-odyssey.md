@@ -4,6 +4,10 @@ title: Installing Odyssey
 description: Guide to installing Odyssey
 permalink: /installing-odyssey
 pkgman: sileo
+extra_contributors:
+  - TheHacker894
+  - hopolapopola
+  - raizo
 ---
 
 Odyssey is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.

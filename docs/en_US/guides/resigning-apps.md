@@ -3,6 +3,8 @@ lang: en_US
 title: "Resigning Apps"
 description: Guide to using resigning your apps with or without a computer
 permalink: /resigning-apps
+extra_contributors:
+  - TheHacker894
 ---
 
 ## Required Reading

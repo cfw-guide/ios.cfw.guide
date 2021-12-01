@@ -5,6 +5,9 @@ description: Guide to installing Pangu933
 permalink: /installing-pangu933
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
+extra_contributors:
+  - TheHacker894
+  - hopolapopola
 ---
 
 Pangu9 is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.

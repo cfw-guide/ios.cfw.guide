@@ -3,6 +3,12 @@ lang: en_US
 title: "Saving Blobs"
 excerpt: Guide to saving blobs to secure your ability to downgrade iOS in the future.
 permalink: /saving-blobs
+extra_contributors:
+  - TheHacker894
+  - airsquared
+  - hopolapopola
+  - wr3nch3000
+  - Tanbeer191
 ---
 
 This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. There are multiple methods below you can try. For unjailbroken devices, you will need to use the "Computer" method.

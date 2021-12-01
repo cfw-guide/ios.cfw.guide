@@ -5,6 +5,8 @@ description: Guide to installing Evasi0n7
 permalink: /installing-evasi0n7
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
+extra_contributors:
+  - hopolapopola
 ---
 
 Evasi0n is capable of jailbreaking all devices on iOS 7.0 to 7.0.6
