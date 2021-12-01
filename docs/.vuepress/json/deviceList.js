@@ -1032,14 +1032,10 @@ module.exports = {
     "arch"  : "arm64e",
     "model"         : ["A2228"],
     "related" : [
-      "iPad8,1",
-      "iPad8,2",
-      "iPad8,3",
-      "iPad8,4",
-      "iPad8,5",
-      "iPad8,6",
-      "iPad8,7",
-      "iPad8,8",
+      "iPad8,9",
+      "iPad8,10",
+      "iPad8,11",
+      "iPad8,12",
     ]
   },
   "iPad8,10": {
@@ -1048,14 +1044,10 @@ module.exports = {
     "arch"  : "arm64e",
     "model"         : ["A2068", "A2230", "A2231"],
     "related" : [
-      "iPad8,1",
-      "iPad8,2",
-      "iPad8,3",
-      "iPad8,4",
-      "iPad8,5",
-      "iPad8,6",
-      "iPad8,7",
-      "iPad8,8",
+      "iPad8,9",
+      "iPad8,10",
+      "iPad8,11",
+      "iPad8,12",
     ]
   },
   "iPad8,11": {
@@ -1064,14 +1056,10 @@ module.exports = {
     "arch"  : "arm64e",
     "model"         : ["A2229"],
     "related" : [
-      "iPad8,1",
-      "iPad8,2",
-      "iPad8,3",
-      "iPad8,4",
-      "iPad8,5",
-      "iPad8,6",
-      "iPad8,7",
-      "iPad8,8",
+      "iPad8,9",
+      "iPad8,10",
+      "iPad8,11",
+      "iPad8,12",
     ]
   },
   "iPad8,12": {
@@ -1080,14 +1068,10 @@ module.exports = {
     "arch"  : "arm64e",
     "model"         : ["A2069", "A2232", "A2233"],
     "related" : [
-      "iPad8,1",
-      "iPad8,2",
-      "iPad8,3",
-      "iPad8,4",
-      "iPad8,5",
-      "iPad8,6",
-      "iPad8,7",
-      "iPad8,8",
+      "iPad8,9",
+      "iPad8,10",
+      "iPad8,11",
+      "iPad8,12",
     ]
   },
   "iPad11,1": {
@@ -1325,7 +1309,7 @@ module.exports = {
     "model"         : ["A2567"],
     "related" : [
       "iPad14,1",
-      "iPad14,1",
+      "iPad14,2",
     ]
   },
   "iPad14,2": {
@@ -1335,7 +1319,7 @@ module.exports = {
     "model"         : ["A2568", "A2569"],
     "related" : [
       "iPad14,1",
-      "iPad14,1",
+      "iPad14,2",
     ]
   },
   "iPod1,1": {
