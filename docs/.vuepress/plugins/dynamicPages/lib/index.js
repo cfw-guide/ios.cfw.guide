@@ -1,14 +1,15 @@
 const { createPage } = require('@vuepress/core')
 
-var ret = [
+var pageList = [
   ...require('./deviceChart'),
   ...require('./firmwareChart'),
   ...require('./jailbreakChart'),
 ]
 
-function getPkgManPages(pages) {
-  for (const p in pages) {
-    const page = pages[p];
+function getPkgManPages(app) {
+  var ret = [];
+  for (const p in app.pages) {
+    const page = app.pages[p];
     const fm = page.frontmatter
     if (!fm.hasOwnProperty('pkgman')) continue;
     ret.push({
@@ -21,12 +22,15 @@ function getPkgManPages(pages) {
       content: `!!!include(./docs/en_US/include/using-${fm.pkgman}.md)!!!`
     })
   }
+  return ret;
 }
 
 module.exports = {
   name: 'vuepress-dynamic-pages',
   async onInitialized(app) {
-    //getPkgManPages(app.pages);
-    for (const p in ret) app.pages.push(await createPage(app, ret[p]))
+    for (const p in pageList) app.pages.push(await createPage(app, pageList[p]))
+    
+    const pkgManPages = getPkgManPages(app);
+    for (const p in pkgManPages) app.pages.push(await createPage(app, pkgManPages[p]))
   }
 }
