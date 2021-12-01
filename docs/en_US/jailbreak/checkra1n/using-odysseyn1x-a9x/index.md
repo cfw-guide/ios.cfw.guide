@@ -3,6 +3,7 @@ lang: en_US
 title: Using Odysseyn1x (A9X)
 description: Guide to installing checkra1n via Odysseyn1x on A9X devices
 permalink: /using-odysseyn1x-a9x
+extra_contributors: stkc
 ---
 
 ::: warning
