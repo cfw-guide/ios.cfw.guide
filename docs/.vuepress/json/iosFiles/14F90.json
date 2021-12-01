@@ -1,0 +1,14 @@
+{
+  "version": "10.3.2",
+  "build": "14F90",
+  "released": "2017-05-15",
+  "beta": false,
+  "devices": {
+    "iPad6,11": {
+      "ipsw": "http://appldnld.apple.com/ios10.3.2/091-12983-20170515-AA04DBB4-31C4-11E7-9F21-93D18FB7FE33/iPad_6,11_iPad_6,12_10.3.2_14F90_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "http://appldnld.apple.com/ios10.3.2/091-12983-20170515-AA04DBB4-31C4-11E7-9F21-93D18FB7FE33/iPad_6,11_iPad_6,12_10.3.2_14F90_Restore.ipsw"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "9.3.2",
+  "build": "13F72",
+  "released": "2016-06-02",
+  "beta": false,
+  "devices": {
+    "iPad6,3": {
+      "ipsw": "http://appldnld.apple.com/ios9.3.2/031-63513-20160531-52E11156-2665-11E6-8860-F0F5662719FC/iPad6,3_9.3.2_13F72_Restore.ipsw"
+    },
+    "iPad6,4": {
+      "ipsw": "http://appldnld.apple.com/ios9.3.2/031-63521-20160531-52E11160-2665-11E6-8860-F1F5662719FC/iPad6,4_9.3.2_13F72_Restore.ipsw"
+    }
+  }
+}

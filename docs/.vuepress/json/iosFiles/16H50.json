@@ -1,0 +1,50 @@
+{
+  "version": "12.5.4",
+  "build": "16H50",
+  "released": "2021-06-14",
+  "beta": false,
+  "devices": {
+    "iPhone6,1": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54188/5BD15EF8-7459-4DB6-A5F0-F819F0A32781/iPhone_4.0_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54188/5BD15EF8-7459-4DB6-A5F0-F819F0A32781/iPhone_4.0_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-53986/978CC61B-9F50-4443-852A-35D6E1985E9E/iPhone_5.5_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54236/BD2196BF-4620-4151-8D01-56B8F006C6E7/iPhone_4.7_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,1": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54123/288AF52D-BBBD-491F-A1E0-DBCCD8D8EB51/iPad_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54123/288AF52D-BBBD-491F-A1E0-DBCCD8D8EB51/iPad_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54123/288AF52D-BBBD-491F-A1E0-DBCCD8D8EB51/iPad_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54123/288AF52D-BBBD-491F-A1E0-DBCCD8D8EB51/iPad_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54123/288AF52D-BBBD-491F-A1E0-DBCCD8D8EB51/iPad_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54123/288AF52D-BBBD-491F-A1E0-DBCCD8D8EB51/iPad_64bit_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-53989/7544C994-1AC1-4EBB-ACE8-B0A104C10C21/iPad_64bit_TouchID_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-53989/7544C994-1AC1-4EBB-ACE8-B0A104C10C21/iPad_64bit_TouchID_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-53989/7544C994-1AC1-4EBB-ACE8-B0A104C10C21/iPad_64bit_TouchID_12.5.4_16H50_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-54180/F16E75A2-5C1C-48B2-A1BD-9651BEB066AC/iPodtouch_12.5.4_16H50_Restore.ipsw"
+    }
+  }
+}

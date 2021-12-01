@@ -1,0 +1,11 @@
+{
+  "version": "1.1.1",
+  "build": "3A110a",
+  "released": "2007-09-27",
+  "beta": false,
+  "devices": {
+    "iPod1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw"
+    }
+  }
+}

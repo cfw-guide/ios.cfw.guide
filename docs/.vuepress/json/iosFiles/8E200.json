@@ -1,0 +1,11 @@
+{
+  "version": "4.2.6",
+  "build": "8E200",
+  "released": "2011-01-27",
+  "beta": false,
+  "devices": {
+    "iPhone3,3": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0177.20110131.Pyvrz/iPhone3,3_4.2.6_8E200_Restore.ipsw"
+    }
+  }
+}

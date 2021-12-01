@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "build": "1A543a",
+  "released": "2007-06-29",
+  "beta": false,
+  "devices": {
+    "iPhone1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-3538.20070629.B7vXa/iPhone1,1_1.0_1A543a_Restore.ipsw"
+    }
+  }
+}

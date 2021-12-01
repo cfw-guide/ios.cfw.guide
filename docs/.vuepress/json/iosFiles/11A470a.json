@@ -1,0 +1,20 @@
+{
+  "version": "7.0.1",
+  "build": "11A470a",
+  "released": "2013-09-18",
+  "beta": false,
+  "devices": {
+    "iPhone5,3": {
+      "ipsw": "http://appldnld.apple.com/iOS7/031-0289.20130914.DoOPv/iPhone5,3_7.0.1_11A470a_Restore.ipsw"
+    },
+    "iPhone5,4": {
+      "ipsw": "http://appldnld.apple.com/iOS7/031-0292.20130914.rHLcE/iPhone5,4_7.0.1_11A470a_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7/031-0290.20130914.khyTp/iPhone6,1_7.0.1_11A470a_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7/031-0286.20130914.oNmiv/iPhone6,2_7.0.1_11A470a_Restore.ipsw"
+    }
+  }
+}

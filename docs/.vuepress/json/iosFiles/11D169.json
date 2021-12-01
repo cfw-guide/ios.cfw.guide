@@ -1,0 +1,14 @@
+{
+  "version": "7.1",
+  "build": "11D169",
+  "released": "2014-03-10",
+  "beta": false,
+  "devices": {
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4639.20140310.Pvdbt/iPhone3,1_7.1_11D169_Restore.ipsw"
+    },
+    "iPhone3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-4450.20140310.UeuCA/iPhone3,2_7.1_11D169_Restore.ipsw"
+    }
+  }
+}

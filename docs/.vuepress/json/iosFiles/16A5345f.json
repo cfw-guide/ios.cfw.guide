@@ -1,0 +1,11 @@
+{
+  "version": "12.0 beta 6",
+  "build": "16A5345f",
+  "released": "2018-08-06",
+  "beta": true,
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-98670-20180806-37401D7E-96DA-11E8-BBD0-D28EFF4EAF9D/iPhone_4.0_64bit_12.0_16A5345f_Restore.ipsw"
+    }
+  }
+}

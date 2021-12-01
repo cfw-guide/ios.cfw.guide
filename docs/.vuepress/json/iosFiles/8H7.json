@@ -1,0 +1,32 @@
+{
+  "version": "4.3.2",
+  "build": "8H7",
+  "released": "2011-04-12",
+  "beta": false,
+  "devices": {
+    "iPhone2,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0660.20110414.Gwed5/iPhone2,1_4.3.2_8H7_Restore.ipsw"
+    },
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0662.20110414.byQ84/iPhone3,1_4.3.2_8H7_Restore.ipsw"
+    },
+    "iPhone3,3": {
+      "ipsw": "none"
+    },
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0663.20110414.U7bTI/iPad2,1_4.3.2_8H7_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0664.20110414.39vUS/iPad2,2_4.3.2_8H7_Restore.ipsw"
+    },
+    "iPod3,1": {
+      "ipsw": "none"
+    },
+    "iPod4,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0666.20110414.3QvM1/iPod4,1_4.3.2_8H7_Restore.ipsw"
+    },
+    "iPad1,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-0661.20110414.W9Q8r/iPad1,1_4.3.2_8H7_Restore.ipsw"
+    }
+  }
+}

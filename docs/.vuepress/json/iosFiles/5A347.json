@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "build": "5A347",
+  "released": "2008-07-11",
+  "beta": false,
+  "devices": {
+    "iPhone1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-4956.20080710.V50OI/iPhone1,1_2.0_5A347_Restore.ipsw"
+    },
+    "iPhone1,2": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-4955.20080710.bgt53/iPhone1,2_2.0_5A347_Restore.ipsw"
+    },
+    "iPod1,1": {
+      "ipsw": "none"
+    }
+  }
+}

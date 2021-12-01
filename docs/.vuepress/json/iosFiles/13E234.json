@@ -1,0 +1,20 @@
+{
+  "version": "9.3",
+  "build": "13E234",
+  "released": "2016-03-21",
+  "beta": false,
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3/031-20814-20160321-50FF38D4-EAA8-11E5-AAA8-C479BD379832/iPhone8,1_9.3_13E234_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3/031-28376-20160321-51006FEC-EAA8-11E5-AEC6-D279BD379832/iPhone8,2_9.3_13E234_Restore.ipsw"
+    },
+    "iPad6,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3/031-20813-20160321-50FF2B1E-EAA8-11E5-A40C-C179BD379832/iPad6,3_9.3_13E234_Restore.ipsw"
+    },
+    "iPad6,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3/031-20816-20160321-50FFD67C-EAA8-11E5-AD85-C979BD379832/iPad6,4_9.3_13E234_Restore.ipsw"
+    }
+  }
+}

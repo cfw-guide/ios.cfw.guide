@@ -1,0 +1,47 @@
+{
+  "version": "6.0",
+  "build": "10A403",
+  "released": "2012-09-14",
+  "beta": false,
+  "devices": {
+    "iPhone2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7173.20120919.sDDMh/iPhone2,1_6.0_10A403_Restore.ipsw"
+    },
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7175.20120919.wvv7Y/iPhone3,1_6.0_10A403_Restore.ipsw"
+    },
+    "iPhone3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7177.20120919.xqoqs/iPhone3,2_6.0_10A403_Restore.ipsw"
+    },
+    "iPhone3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7179.20120919.bDw4g/iPhone3,3_6.0_10A403_Restore.ipsw"
+    },
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7181.20120919.lEuOK/iPhone4,1_6.0_10A403_Restore.ipsw"
+    },
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-0804.20120919.9SgHU/iPad2,1_6.0_10A403_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7165.20120919.eZTyh/iPad2,2_6.0_10A403_Restore.ipsw"
+    },
+    "iPad2,3": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7167.20120919.y2ard/iPad2,3_6.0_10A403_Restore.ipsw"
+    },
+    "iPad2,4": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-2187.20120919.vmGkW/iPad2,4_6.0_10A403_Restore.ipsw"
+    },
+    "iPad3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-3515.20120919.OYzOG/iPad3,1_6.0_10A403_Restore.ipsw"
+    },
+    "iPad3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7161.20120919.5CyjO/iPad3,2_6.0_10A403_Restore.ipsw"
+    },
+    "iPad3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-7163.20120919.19UEI/iPad3,3_6.0_10A403_Restore.ipsw"
+    },
+    "iPod4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-0807.20120919.soT6X/iPod4,1_6.0_10A403_Restore.ipsw"
+    }
+  }
+}

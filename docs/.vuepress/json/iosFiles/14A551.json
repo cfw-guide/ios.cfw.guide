@@ -1,0 +1,20 @@
+{
+  "version": "10.0.3",
+  "build": "14A551",
+  "released": "2016-10-17",
+  "beta": false,
+  "devices": {
+    "iPhone9,1": {
+      "ipsw": "http://appldnld.apple.com/ios10.0.3/031-86032-20161017-44144BD4-8FF1-11E6-89E1-F76A7FA31755/iPhone9,1_10.0.3_14A551_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "http://appldnld.apple.com/ios10.0.3/031-86027-20161017-44142CE4-8FF1-11E6-BB02-F66A7FA31755/iPhone9,2_10.0.3_14A551_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "http://appldnld.apple.com/ios10.0.3/031-86032-20161017-44144BD4-8FF1-11E6-89E1-F76A7FA31755/iPhone9,1_10.0.3_14A551_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "http://appldnld.apple.com/ios10.0.3/031-86027-20161017-44142CE4-8FF1-11E6-BB02-F66A7FA31755/iPhone9,2_10.0.3_14A551_Restore.ipsw"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.2",
+  "build": "1C28",
+  "released": "2007-08-21",
+  "beta": false,
+  "devices": {
+    "iPhone1,1": {
+      "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-3823.20070821.vormd/iPhone1,1_1.0.2_1C28_Restore.ipsw"
+    }
+  }
+}

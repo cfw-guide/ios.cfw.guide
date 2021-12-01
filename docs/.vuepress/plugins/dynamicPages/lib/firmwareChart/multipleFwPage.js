@@ -96,7 +96,7 @@ function getBuildArr(os) {
   for (var i in iosList) {
     const b = iosList[i];
     if (!b.hasOwnProperty('ver')) continue;
-    if (b.ver == os) retArr.push(b)
+    if (b.version == os) retArr.push(b)
   }
   return retArr;
 }

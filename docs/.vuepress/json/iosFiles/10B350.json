@@ -1,0 +1,14 @@
+{
+  "version": "6.1.4",
+  "build": "10B350",
+  "released": "2013-04-27",
+  "beta": false,
+  "devices": {
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-3403.20130502.Xerz1/iPhone5,1_6.1.4_10B350_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS6.1/091-3423.20130502.Tr3Lz/iPhone5,2_6.1.4_10B350_Restore.ipsw"
+    }
+  }
+}

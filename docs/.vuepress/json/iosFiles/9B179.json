@@ -1,0 +1,11 @@
+{
+  "version": "5.1",
+  "build": "9B179",
+  "released": "2012-02-29",
+  "beta": false,
+  "devices": {
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS5/041-1530.20120307.LDDac/iPhone4,1_5.1_9B179_Restore.ipsw"
+    }
+  }
+}

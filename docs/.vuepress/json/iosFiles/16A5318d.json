@@ -1,0 +1,11 @@
+{
+  "version": "12.0 beta 3",
+  "build": "16A5318d",
+  "released": "2018-07-03",
+  "beta": true,
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92763-20180705-9A2F0BDE-7BA0-11E8-9B3D-4F72DA3C085A/iPhone_4.7_12.0_16A5318d_Restore.ipsw"
+    }
+  }
+}

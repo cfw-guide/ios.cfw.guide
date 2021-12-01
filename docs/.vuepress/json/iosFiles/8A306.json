@@ -1,0 +1,17 @@
+{
+  "version": "4.0.1",
+  "build": "8A306",
+  "released": "2010-07-15",
+  "beta": false,
+  "devices": {
+    "iPhone1,2": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/061-8616.20100715.phnt4/iPhone1,2_4.0.1_8A306_Restore.ipsw"
+    },
+    "iPhone2,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/061-8618.20100715.Zapn4/iPhone2,1_4.0.1_8A306_Restore.ipsw"
+    },
+    "iPhone3,1": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/061-8619.20100715.4Pnsx/iPhone3,1_4.0.1_8A306_Restore.ipsw"
+    }
+  }
+}

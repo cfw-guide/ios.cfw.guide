@@ -1,0 +1,113 @@
+{
+  "version": "8.4.1",
+  "build": "12H321",
+  "released": "2015-08-13",
+  "beta": false,
+  "devices": {
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31129-20150812-751A3CB8-3C8F-11E5-A8A5-A91A3A53DB92/iPhone4,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31186-20150812-751D243C-3C8F-11E5-8E4F-B51A3A53DB92/iPhone5,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31065-20150812-7518F132-3C8F-11E5-A96A-A11A3A53DB92/iPhone5,2_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone5,3": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31126-20150812-751B1656-3C8F-11E5-8F6B-A71A3A53DB92/iPhone5,3_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone5,4": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-30941-20150812-7516948C-3C8F-11E5-B90B-951A3A53DB92/iPhone5,4_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31174-20150812-75196C52-3C8F-11E5-8C71-B31A3A53DB92/iPhone6,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31002-20150812-7517E210-3C8F-11E5-A4C6-991A3A53DB92/iPhone6,2_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31339-20150812-641E5DDA-3C90-11E5-A96C-AA1C3A53DB92/iPhone7,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31156-20150812-751889C2-3C8F-11E5-9F80-AB1A3A53DB92/iPhone7,2_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31231-20150812-751BEF2C-3C8F-11E5-94D1-BB1A3A53DB92/iPad2,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31288-20150812-4490750C-3C90-11E5-84FD-231C3A53DB92/iPad2,2_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,3": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31281-20150812-40590580-3C90-11E5-92A1-011C3A53DB92/iPad2,3_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,4": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31409-20150812-A5A8B962-3C90-11E5-97D3-C51D3A53DB92/iPad2,4_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,5": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31249-20150812-75235CC6-3C8F-11E5-848D-BE1A3A53DB92/iPad2,5_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,6": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31278-20150812-751FA1F8-3C8F-11E5-9856-BF1A3A53DB92/iPad2,6_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad2,7": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-30932-20150812-7516F936-3C8F-11E5-849C-911A3A53DB92/iPad2,7_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad3,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31361-20150812-6F176506-3C90-11E5-AE5F-D01C3A53DB92/iPad3,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad3,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-30995-20150812-7517C906-3C8F-11E5-AEB0-971A3A53DB92/iPad3,2_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad3,3": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31372-20150812-767B933A-3C90-11E5-9E13-FF1C3A53DB92/iPad3,3_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad3,4": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31234-20150812-751D30B2-3C8F-11E5-895A-BD1A3A53DB92/iPad3,4_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad3,5": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31092-20150812-7518CFB8-3C8F-11E5-B849-A51A3A53DB92/iPad3,5_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad3,6": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31187-20150812-751A8A7E-3C8F-11E5-B300-B71A3A53DB92/iPad3,6_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31311-20150812-53F5D078-3C90-11E5-8FFE-4A1C3A53DB92/iPad4,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31373-20150812-8A5431FA-3C90-11E5-B53D-511D3A53DB92/iPad4,2_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31066-20150812-7519FA1E-3C8F-11E5-BC5C-A31A3A53DB92/iPad4,3_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31035-20150812-7516931A-3C8F-11E5-BAB2-9F1A3A53DB92/iPad4,4_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31221-20150812-751B191C-3C8F-11E5-8DC4-B91A3A53DB92/iPad4,5_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-30939-20150812-75169356-3C8F-11E5-BAB2-931A3A53DB92/iPad4,6_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31166-20150812-7519DD40-3C8F-11E5-87ED-B11A3A53DB92/iPad4,7_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31019-20150812-75169310-3C8F-11E5-BAB2-9B1A3A53DB92/iPad4,8_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31157-20150812-7518D8FA-3C8F-11E5-B354-AD1A3A53DB92/iPad4,9_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad5,3": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31386-20150812-A4FC2602-3C90-11E5-B036-A21D3A53DB92/iPad5,3_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPad5,4": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31164-20150812-7519C21A-3C8F-11E5-937E-AF1A3A53DB92/iPad5,4_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPod5,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31324-20150812-5AAFE21E-3C90-11E5-BEE3-6A1C3A53DB92/iPod5,1_8.4.1_12H321_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.4.1/031-31024-20150812-751694AA-3C8F-11E5-B90B-9D1A3A53DB92/iPod7,1_8.4.1_12H321_Restore.ipsw"
+    }
+  }
+}

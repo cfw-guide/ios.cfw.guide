@@ -79,13 +79,6 @@ function getJbArr(jb, arr) {
   return retArr;
 }
 
-function getBuild(b) {
-  for (var i in iosList)
-    if (iosList[i].hasOwnProperty('build'))
-      if (iosList[i].build == b)
-        return iosList[i]
-}
-
 function getCompatListing(jb) {
   var html = '';
   jb = getJb(jb)
@@ -122,18 +115,25 @@ function getCompatListing(jb) {
     html += "### " + compatListHeader[0] + "\n\n";
     for (var d in compatArr[i].devices) html += "- [" + deviceList[compatArr[i].devices[d]].name + "](" + devicePath + compatArr[i].devices[d] + ")\n"
     html += "### " + compatListHeader[1] + "\n\n";
-    for (var fw in compatArr[i].firmwares) html += "- " + getBuild(compatArr[i].firmwares[fw]).ver + " ([" + compatArr[i].firmwares[fw] + "](" + fwPath + compatArr[i].firmwares[fw] + "))\n"
+    for (var fw in compatArr[i].firmwares) html += "- " + getBuild(compatArr[i].firmwares[fw]).version + " ([" + compatArr[i].firmwares[fw] + "](" + fwPath + compatArr[i].firmwares[fw] + "))\n"
   }
   
   return html;
+}
+
+function getBuild(b) {
+  for (var i in iosList)
+    if (iosList[i].hasOwnProperty('build'))
+      if (iosList[i].build == b)
+        return iosList[i]
 }
 
 function getFwDevArr(jb, device) {
   var ret = [];
   if (!getJbArr(jb, 'devices').includes(device)) return ret;
   var fwArr = getJbArr(jb, 'firmwares');
-  for (var i in fwArr) {
-    for (var j in iosList) {
+  for (const i in fwArr) {
+    for (const j in iosList) {
       const v = iosList[j];
       if (!v.hasOwnProperty('build')) continue;
       if (v.build != fwArr[i]) continue;
@@ -170,17 +170,7 @@ function isObject(objValue) {
 
 function getDeviceListFromBuild(b) {
   var devArr = [];
-  
-  for (var i in b.devices) {
-    if (isObject(b.devices[i])) {
-      if (b.devices[i].hasOwnProperty('identifier')) {
-        devArr.push(b.devices[i].identifier)
-      }
-    } else {
-      devArr.push(b.devices[i])
-    }
-  }
-  
+  for (var i in b.devices) devArr.push(i)
   return devArr;
 }
 

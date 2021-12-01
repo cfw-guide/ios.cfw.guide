@@ -1,0 +1,11 @@
+{
+  "version": "12.0",
+  "build": "16A367",
+  "released": "2018-10-26",
+  "beta": false,
+  "devices": {
+    "iPhone11,8": {
+      "ipsw": "none"
+    }
+  }
+}

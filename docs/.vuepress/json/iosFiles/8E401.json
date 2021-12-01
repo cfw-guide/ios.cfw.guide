@@ -1,0 +1,11 @@
+{
+  "version": "4.2.8",
+  "build": "8E401",
+  "released": "2011-05-02",
+  "beta": false,
+  "devices": {
+    "iPhone3,3": {
+      "ipsw": "http://appldnld.apple.com/iPhone4/041-1022.20110503.5g8k7/iPhone3,3_4.2.8_8E401_Restore.ipsw"
+    }
+  }
+}

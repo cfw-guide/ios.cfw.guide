@@ -1,0 +1,20 @@
+{
+  "version": "7.0",
+  "build": "11A466",
+  "released": "2013-09-18",
+  "beta": false,
+  "devices": {
+    "iPhone5,3": {
+      "ipsw": "none"
+    },
+    "iPhone5,4": {
+      "ipsw": "none"
+    },
+    "iPhone6,1": {
+      "ipsw": "none"
+    },
+    "iPhone6,2": {
+      "ipsw": "none"
+    }
+  }
+}

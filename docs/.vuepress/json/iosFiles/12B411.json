@@ -1,0 +1,38 @@
+{
+  "version": "8.1",
+  "build": "12B411",
+  "released": "2014-10-20",
+  "beta": false,
+  "devices": {
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09535.20141020.XaY73/iPhone4,1_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09568.20141020.2Dfj1/iPhone5,1_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09493.20141020.biBGk/iPhone5,2_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone5,3": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09534.20141020.Bs3EW/iPhone5,3_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone5,4": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09410.20141020.Jhv5W/iPhone5,4_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09563.20141020.HPieF/iPhone6,1_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09453.20141020.XRmMG/iPhone6,2_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09660.20141020.Zt4Uu/iPhone7,1_8.1_12B411_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09552.20141020.HUR2S/iPhone7,2_8.1_12B411_Restore.ipsw"
+    },
+    "iPod5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1/031-09646.20141020.ZWaD1/iPod5,1_8.1_12B411_Restore.ipsw"
+    }
+  }
+}
