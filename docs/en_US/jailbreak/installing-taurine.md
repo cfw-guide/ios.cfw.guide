@@ -3,6 +3,9 @@ lang: en_US
 title: Installing Taurine
 description: Guide to installing Taurine
 permalink: /installing-taurine
+redirect_from:
+  - /taurine
+  - /tr
 pkgman: sileo
 extra_contributors:
   - hopolapopola

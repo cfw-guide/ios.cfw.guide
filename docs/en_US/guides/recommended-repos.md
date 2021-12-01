@@ -3,6 +3,8 @@ lang: en-US
 title: "Recommended Repos"
 description: Information on popular repositories for jailbreak tweaks
 permalink: /recommended-repos
+redirect_from:
+  - /repos
 extra_contributors:
   - TheHacker894
 ---

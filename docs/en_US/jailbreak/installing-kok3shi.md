@@ -3,8 +3,11 @@ lang: en_US
 title: Installing Kok3shi
 description: Guide to installing kok3shi
 permalink: /installing-kok3shi
+redirect_from:
+  - /installing-kokeshi
+  - /kok3shi
+  - /kokeshi
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from: /installing-kokeshi
 pkgman: cydia
 extra_contributors:
   - TheHacker894

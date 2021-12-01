@@ -3,6 +3,8 @@ lang: en_US
 title: "Coolbooter"
 description: Guide to using Coolbooter to dualboot two different versions of iOS on your 32 bit device
 permalink: /using-coolbooter
+redirect_from:
+  - /coolbooter
 extra_contributors:
   - TheHacker894
 ---

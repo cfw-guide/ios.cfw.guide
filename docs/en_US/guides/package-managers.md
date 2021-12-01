@@ -3,6 +3,8 @@ lang: en-US
 title: "Package Managers"
 description: Information on the current package managers available to use
 permalink: /package-managers
+redirect_from:
+  - /pkgman
 extra_contributors:
   - TheHacker894
   - Tanbeer191
