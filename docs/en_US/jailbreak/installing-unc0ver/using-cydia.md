@@ -5,4 +5,4 @@ description: Guide to using Cydia
 permalink: /installing-unc0ver/using-cydia/
 ---
 
-!!!include(./docs/en_US/include/using-cydia)!!!
+!!!include(./docs/en_US/include/using-cydia.md)!!!
