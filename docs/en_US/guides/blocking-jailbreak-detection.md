@@ -3,6 +3,9 @@ lang: en-US
 title: "Blocking Jailbreak Detection"
 description: Bypassing and avoiding jailbreak detection.
 permalink: /blocking-jailbreak-detection
+extra_contributors:
+  - Absolucy
+  - TheHacker894
 ---
 
 ::: danger

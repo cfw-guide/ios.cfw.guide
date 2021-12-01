@@ -3,6 +3,8 @@ lang: en_US
 title: "Types of Jailbreak"
 description: Explanation on the different types of jailbreaks
 permalink: /types-of-jailbreak
+extra_contributors:
+  - Tanbeer191
 ---
 
 Not all jailbreaks work in the same way. This page will take you through each type of jailbreak and explain how they work.

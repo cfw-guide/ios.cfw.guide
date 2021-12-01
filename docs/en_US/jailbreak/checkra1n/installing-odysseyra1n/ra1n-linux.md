@@ -3,7 +3,10 @@ lang: en_US
 title: Installing Odysseyra1n (Linux)
 description: Guide to installing Odysseyra1n on linux
 permalink: /installing-odysseyra1n/linux
-extra_contributors: stkc
+extra_contributors:
+  - stekc
+  - Tanbeer191
+  - TheHacker894
 ---
 
 ::: warning

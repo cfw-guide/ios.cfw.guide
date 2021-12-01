@@ -3,7 +3,10 @@ lang: en_US
 title: Installing Odysseyra1n (A9X) (Linux)
 description: Guide to installing Odysseyra1n on linux
 permalink: /installing-odysseyra1n-a9x/linux
-extra_contributors: stkc
+extra_contributors:
+  - stekc
+  - Tanbeer191
+  - TheHacker894
 ---
 
 ::: warning

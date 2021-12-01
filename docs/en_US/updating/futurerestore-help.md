@@ -4,6 +4,9 @@ title: "FutureRestore issues Help"
 description: Provides solutions to some FR issues.
 permalink: /futurerestore-help
 redirect_from: /futurerestorehelp
+extra_contributors:
+  - Tanbeer191
+  - TheHacker894
 ---
 
 ## Help page

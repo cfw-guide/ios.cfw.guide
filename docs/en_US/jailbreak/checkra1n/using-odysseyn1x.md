@@ -3,7 +3,6 @@ lang: en_US
 title: Using Odysseyn1x
 excerpt: Guide to installing checkra1n via Odysseyn1x
 permalink: /using-odysseyn1x
-extra_contributors: stkc
 pkgman: sileo
 redirect_from:
   - /installing-odysseyn1x
@@ -12,6 +11,10 @@ redirect_from:
   - /using-bootrain
   - /using-checkn1x
   - /using-checknix
+  extra_contributors:
+    - stekc
+    - Tanbeer191
+    - TheHacker894
 ---
 
 ::: warning

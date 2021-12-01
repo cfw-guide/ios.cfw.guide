@@ -3,6 +3,8 @@ lang: en_US
 title: "Using Cydia"
 description: Guide to using Cydia
 permalink: /using-cydia
+extra_contributors:
+  - TheHacker894
 ---
 
 ::: warning

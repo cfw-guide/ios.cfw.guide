@@ -5,6 +5,8 @@ description: Guide to installing etasonjb
 permalink: /installing-etasonjb
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
+extra_contributors:
+  - TheHacker894
 ---
 
 EtasonJB is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.

@@ -4,7 +4,10 @@ title: Installing Odysseyra1n (A9X)
 description: Guide to installing Odysseyra1n on A9X devices
 permalink: /installing-odysseyra1n-a9x
 pkgman: sileo
-extra_contributors: stkc
+extra_contributors:
+  - stekc
+  - Tanbeer191
+  - TheHacker894
 ---
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
