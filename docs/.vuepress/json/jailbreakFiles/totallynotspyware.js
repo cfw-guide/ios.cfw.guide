@@ -1,6 +1,14 @@
 module.exports = {
   "name": "Totally Not Spyware",
   "info": {
+    "website": {
+      "name": "totally-not.spyware.lol",
+      "url": "https://totally-not.spyware.lol/",
+      "external": true
+    },
+    "color": "#e5c67c",
+    "icon": "/assets/images/totallynotspyware.png",
+    "type": "Semi-untethered",
     "firmwares": ["10.0","10.3.3"]
   },
   "compatibility": [

@@ -1,5 +1,17 @@
 module.exports = {
   "name": "redsn0w",
+  "info": {
+    "website": {
+      "name": "theiphonewiki.com/wiki/Redsn0w",
+      "url": "https://www.theiphonewiki.com/wiki/Redsn0w",
+      "external": true
+    },
+    "latestVer": "0.9.15b",
+    "color": "#2d95f7",
+    "icon": "/assets/images/redsn0w.png",
+    "type": "Untethered",
+    "firmwares": ["2.1.1","6.1.6"]
+  },
   "compatibility": [
     {
       "firmwares": [
