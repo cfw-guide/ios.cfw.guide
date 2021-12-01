@@ -8,10 +8,10 @@ redirect_from:
   - /installing-odysseyrain
   - /installing-checkra1n
   - /installing-checkrain
-  extra_contributors:
-    - stekc
-    - Tanbeer191
-    - TheHacker894
+extra_contributors:
+  - stekc
+  - Tanbeer191
+  - TheHacker894
 ---
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!

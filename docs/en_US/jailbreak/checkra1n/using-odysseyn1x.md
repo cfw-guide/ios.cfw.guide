@@ -11,10 +11,10 @@ redirect_from:
   - /using-bootrain
   - /using-checkn1x
   - /using-checknix
-  extra_contributors:
-    - stekc
-    - Tanbeer191
-    - TheHacker894
+extra_contributors:
+  - stekc
+  - Tanbeer191
+  - TheHacker894
 ---
 
 ::: warning
