@@ -5,4 +5,4 @@ description: Guide to using Sileo
 permalink: /installing-chimera/using-sileo
 ---
 
-!!!include(./docs/en_US/include/using-sileo)!!!
+!!!include(./docs/en_US/include/using-sileo.md)!!!
