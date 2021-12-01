@@ -3,7 +3,11 @@ lang: en_US
 title: Installing doubleh3lix
 description: Guide to installing DoubleH3lix
 permalink: /installing-doubleh3lix
-redirect_from: /installing-doublehelix
+redirect_from:
+  - /installing-doublehelix
+  - /doubleh3lix
+  - /doublehelix
+  - /dh
 pkgman: cydia
 extra_contributors:
   - TheHacker894

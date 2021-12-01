@@ -3,6 +3,8 @@ lang: en_US
 title: "Types of Jailbreak"
 description: Explanation on the different types of jailbreaks
 permalink: /types-of-jailbreak
+redirect_from:
+  - /jailbreaks
 extra_contributors:
   - Tanbeer191
 ---

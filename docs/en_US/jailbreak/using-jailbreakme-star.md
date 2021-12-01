@@ -3,8 +3,12 @@ lang: en_US
 title: Using JailbreakMe Star
 description: Guide to using JailbreakMe (Star)
 permalink: /using-jailbreakme-star
+redirect_from:
+  - /installing-jailbreakme-star
+  - /installing-star
+  - /star
+  - /jailbreakme-star
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from: /installing-jailbreakme-star
 pkgman: cydia
 ---
 

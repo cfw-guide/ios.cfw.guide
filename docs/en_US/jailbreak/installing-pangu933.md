@@ -3,6 +3,9 @@ lang: en_US
 title: Installing Pangu9
 description: Guide to installing Pangu933
 permalink: /installing-pangu933
+redirect_from:
+  - /pangu933
+  - /pangu9
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

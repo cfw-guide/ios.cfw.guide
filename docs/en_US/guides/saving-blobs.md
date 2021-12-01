@@ -3,6 +3,12 @@ lang: en_US
 title: "Saving Blobs"
 excerpt: Guide to saving blobs to secure your ability to downgrade iOS in the future.
 permalink: /saving-blobs
+redirect_from:
+  - /blobs
+  - /blob
+  - /save-blobs
+  - /save-blob
+  - /saving-blob
 extra_contributors:
   - TheHacker894
   - airsquared

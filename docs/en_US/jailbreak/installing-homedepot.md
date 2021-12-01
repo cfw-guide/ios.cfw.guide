@@ -3,6 +3,9 @@ lang: en_US
 title: Installing HomeDepot
 description: Guide to installing HomeDepot
 permalink: /installing-homedepot
+redirect_from:
+  - /homedepot
+  - /hd
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

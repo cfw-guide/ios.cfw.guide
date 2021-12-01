@@ -3,7 +3,10 @@ lang: en_US
 title: Using Meridian
 description: Guide to using Meridian
 permalink: /using-meridian
-redirect_from: /installing-meridian
+redirect_from:
+  - /installing-meridian
+  - /meridian
+  - /md
 pkgman: cydia
 extra_contributors:
   - TheHacker894

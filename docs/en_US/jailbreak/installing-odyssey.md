@@ -3,6 +3,9 @@ lang: en_US
 title: Installing Odyssey
 description: Guide to installing Odyssey
 permalink: /installing-odyssey
+redirect_from:
+  - /odyssey
+  - /od
 pkgman: sileo
 extra_contributors:
   - TheHacker894

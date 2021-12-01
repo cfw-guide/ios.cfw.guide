@@ -3,8 +3,12 @@ lang: en_US
 title: Installing Phœnix
 description: Guide to installing Phoenix
 permalink: /installing-phoenix
+redirect_from:
+  - /installing-phœnix
+  - /phœnix
+  - /phoenix
+  - /pn
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-redirect_from: /installing-phœnix
 pkgman: cydia
 extra_contributors:
   - TheHacker894

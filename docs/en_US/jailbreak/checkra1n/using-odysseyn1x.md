@@ -7,10 +7,16 @@ pkgman: sileo
 redirect_from:
   - /installing-odysseyn1x
   - /using-odysseynix
+  - /odysseyn1x
+  - /odysseynix
   - /using-bootra1n
   - /using-bootrain
+  - /bootra1n
+  - /bootrain
   - /using-checkn1x
   - /using-checknix
+  - /checkn1x
+  - /checkn1x
 extra_contributors:
   - stekc
   - Tanbeer191
