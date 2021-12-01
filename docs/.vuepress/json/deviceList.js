@@ -176,7 +176,7 @@ module.exports = {
     "name"  : "iPhone 8 Plus (CDMA)",
     "soc"   : "A11",
     "arch"  : "arm64",
-    "model"         : ["A1864", "A1898", "A1899
+    "model"         : ["A1864", "A1898", "A1899"],
   },
   "iPhone10,3": {
     "name"  : "iPhone X (CDMA)",
