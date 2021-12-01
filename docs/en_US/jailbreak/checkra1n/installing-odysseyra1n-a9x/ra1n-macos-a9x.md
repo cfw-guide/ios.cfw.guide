@@ -3,6 +3,7 @@ lang: en_US
 title: Installing Odysseyra1n (A9X) (macOS)
 description: Guide to installing Odysseyra1n on A9X devices
 permalink: /installing-odysseyra1n-a9x/macos
+extra_contributors: stkc
 ---
 
 ## Downloads (macOS)

@@ -3,6 +3,7 @@ lang: en_US
 title: Using Odysseyn1x
 excerpt: Guide to installing checkra1n via Odysseyn1x
 permalink: /using-odysseyn1x
+extra_contributors: stkc
 redirect_from:
   - /installing-odysseyn1x
   - /using-odysseynix
