@@ -31,6 +31,56 @@ const troubleshooting = {
   ],
 }
 
+
+const jbList = require('./jbList')
+var jbSidebarObj = {};
+for (const i in jbList) {
+  const jb = jbList[i];
+  var children = [];
+  if (jb.hasOwnProperty('children')) children = jb.children;
+  
+  var link = [];
+  if (jb.hasOwnProperty('link')) link = jb.link;
+  
+  if (jb.hasOwnProperty('updateLink')) {
+    for (const upd in jb.updateLink) {
+      var updText = jb.updateLink[upd];
+      var updLink = jb.updateLink[upd];
+      if (updText.hasOwnProperty('text')) updText = updText.text;
+      if (updLink.hasOwnProperty('link')) updLink = updLink.link;
+      
+      jbSidebarObj[updLink] = [
+        getStarted,
+        {
+          text: updText,
+          children: [
+            jb.updateLink[upd],
+            link,
+            ...children,
+            jb.link.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
+          ]
+        },
+        guides,
+        troubleshooting,
+      ]
+    }
+  }
+  
+  jbSidebarObj[jb.link] = [
+    getStarted,
+    {
+      text: jb.text,
+      children: [
+        link,
+        ...children,
+        jb.link.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
+      ]
+    },
+    guides,
+    troubleshooting,
+  ]
+}
+
 module.exports = {
   '/': [
     getStarted,
@@ -310,53 +360,4 @@ module.exports = {
   ],
   
   ...jbSidebarObj,
-}
-
-const jbList = require('./jbList')
-var jbSidebarObj = {};
-for (const i in jbList) {
-  const jb = jbList[i];
-  var children = [];
-  if (jb.hasOwnProperty('children')) children = jb.children;
-  
-  var link = [];
-  if (jb.hasOwnProperty('link')) link = jb.link;
-  
-  if (jb.hasOwnProperty('updateLink')) {
-    for (const upd in jb.updateLink) {
-      var updText = jb.updateLink[upd];
-      var updLink = jb.updateLink[upd];
-      if (updText.hasOwnProperty('text')) updText = updText.text;
-      if (updLink.hasOwnProperty('link')) updLink = updLink.link;
-      
-      jbSidebarObj[updLink] = [
-        getStarted,
-        {
-          text: updText,
-          children: [
-            jb.updateLink[upd],
-            link,
-            ...children,
-            jb.link.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
-          ]
-        },
-        guides,
-        troubleshooting,
-      ]
-    }
-  }
-  
-  jbSidebarObj[jb.link] = [
-    getStarted,
-    {
-      text: jb.text,
-      children: [
-        link,
-        ...children,
-        jb.link.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
-      ]
-    },
-    guides,
-    troubleshooting,
-  ]
 }
