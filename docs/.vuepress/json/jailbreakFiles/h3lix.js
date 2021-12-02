@@ -1,5 +1,6 @@
 module.exports = {
   "name": "h3lix",
+  "alias": "h3lix",
   "info": {
     "website": {
       "name": "h3lix.tihmstar.net",

@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "Seas0nPass",
+  "name": "xpwn",
   "info": {
     "website": {
       "name": "github.com/planetbeing/xpwn",

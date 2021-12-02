@@ -1,5 +1,6 @@
 module.exports = {
   "name": "p0insettia",
+  "alias": "poinsettia",
   "info": {
     "website": {
       "name": "dora2ios.web.app/p0insettia.html",

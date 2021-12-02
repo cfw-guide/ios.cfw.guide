@@ -1,5 +1,6 @@
 module.exports = {
-  "name": "jelbrekTime",
+  "name": "OverCl0ck",
+  "alias": "Overclock",
   "info": {
     "website": {
       "name": "github.com/PsychoTea/OverCl0ck",

@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Blackb0x",
+  "alias": "blackbox",
   "info": {
     "website": {
       "name": "github.com/NSSpiral/Blackb0x",

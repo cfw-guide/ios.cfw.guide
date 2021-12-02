@@ -1,5 +1,6 @@
 module.exports = {
   "name": "greenpois0n",
+  "alias": ["greenpoison", "greenp0ison", "greenp0is0n"],
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",

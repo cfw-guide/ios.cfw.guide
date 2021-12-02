@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Saïgon",
+  "alias": "saigon",
   "info": {
     "website": {
       "name": "iabem97.github.io/saigon_website (archive.org)",

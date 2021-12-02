@@ -1,5 +1,6 @@
 module.exports = {
   "name": "redsn0w Lite",
+  "alias": ["redsnow Lite", "redsn0w-Lite", "redsnow-Lite", "redsn0w_Lite", "redsnow_Lite", "redsn0wLite", "redsnowLite"],
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/Redsn0w_Lite",

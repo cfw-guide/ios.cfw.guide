@@ -1,5 +1,6 @@
 module.exports = {
   "name": "checkra1n",
+  "alias": ["checkrain", "odysseyra1n", "odysseyrain"],
   "info": {
     "website": {
       "name": "checkra.in",

@@ -1,5 +1,6 @@
 module.exports = {
   "name": "powdersn0w",
+  "alias": "powdersnow",
   "info": {
     "website": {
       "name": "dora2ios.web.app/konayuki/index.html",

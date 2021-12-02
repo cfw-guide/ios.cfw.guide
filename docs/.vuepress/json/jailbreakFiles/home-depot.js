@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Home Depot",
+  "alias": ["HomeDepot", "Home-Depot", "Home_Depot"],
   "info": {
     "website": {
       "name": "wall.supplies",
