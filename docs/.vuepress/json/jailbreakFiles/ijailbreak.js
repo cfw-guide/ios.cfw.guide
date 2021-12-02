@@ -1,6 +1,11 @@
 module.exports = {
   "name": "iJailbreak",
   "info": {
+    "website": {
+      "name": "code.google.com/archive/p/ijailbreak",
+      "url": "https://code.google.com/archive/p/ijailbreak/",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.1.1","1.1.4"]
   },

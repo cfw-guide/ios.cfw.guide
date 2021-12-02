@@ -1,6 +1,11 @@
 module.exports = {
   "name": "g0blin",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/G0blin",
+      "url": "https://www.theiphonewiki.com/wiki/G0blin",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["10.2","10.3.3"]
   },

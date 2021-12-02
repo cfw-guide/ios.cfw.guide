@@ -1,6 +1,11 @@
 module.exports = {
   "name": "unthredeh4il",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Unthredera1n#unthredeh4il",
+      "url": "https://www.theiphonewiki.com/wiki/Unthredera1n#unthredeh4il",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["4.2.6","5.1.1"]
   },

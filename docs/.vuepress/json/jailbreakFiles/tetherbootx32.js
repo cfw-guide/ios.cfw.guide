@@ -1,6 +1,11 @@
 module.exports = {
   "name": "tetherbootX32",
   "info": {
+    "website": {
+      "name": "dora2ios.web.app/tetherbootx32 (archive.org)",
+      "url": "https://web.archive.org/web/20210322151359/https://dora2ios.web.app/tetherbootx32/",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": "10.3.4",
     "soc": "A6",

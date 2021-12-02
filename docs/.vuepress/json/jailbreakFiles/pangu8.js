@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Pangu8",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Pangu8",
+      "url": "https://www.theiphonewiki.com/wiki/Pangu8",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["8.0","8.1"]
   },

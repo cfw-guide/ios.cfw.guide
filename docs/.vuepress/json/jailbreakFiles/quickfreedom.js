@@ -1,6 +1,11 @@
 module.exports = {
   "name": "QuickFreedom",
   "info": {
+    "website": {
+      "name": "ipodtouchfans.com/forums/showthread.php?t=155875 (archive.org)",
+      "url": "https://web.archive.org/web/20090314040712/http://ipodtouchfans.com/forums/showthread.php?t=155875",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": "2.2.1",
     "notes": "Only supports iPod touch (2nd generation)"

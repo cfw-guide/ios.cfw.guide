@@ -1,6 +1,11 @@
 module.exports = {
   "name": "redTool",
   "info": {
+    "website": {
+      "name": "ipodtouchfans.com/forums/showthread.php?t=152387 (archive.org)",
+      "url": "https://web.archive.org/web/20090310150001/http://www.ipodtouchfans.com/forums/showthread.php?t=152387",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": "2.2.1",
     "notes": "Only supports iPod touch (2nd generation)",

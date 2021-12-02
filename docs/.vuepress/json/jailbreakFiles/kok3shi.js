@@ -1,8 +1,14 @@
 module.exports = {
   "name": "kok3shi",
   "info": {
+    "website": {
+      "name": "dora2ios.web.app/kokeshiJB.html",
+      "url": "https://dora2ios.web.app/kokeshiJB.html",
+      "external": true
+    },
     "type": "Semi-untethered",
-    "firmwares": ["9.3","9.3.5"]
+    "firmwares": ["9.3","9.3.5"],
+    "notes": "Doesn't support A9 or A9X devices"
   },
   "compatibility": [
     {

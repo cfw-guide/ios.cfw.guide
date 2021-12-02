@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Soft Upgrade",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Soft_Upgrade",
+      "url": "https://www.theiphonewiki.com/wiki/Soft_Upgrade",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.1.3","1.1.4"],
   },

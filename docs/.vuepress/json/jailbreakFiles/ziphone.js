@@ -1,6 +1,11 @@
 module.exports = {
   "name": "ZiPhone",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/ZiPhone",
+      "url": "https://www.theiphonewiki.com/wiki/ZiPhone",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.1.3","1.1.5"]
   },

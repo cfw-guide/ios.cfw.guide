@@ -1,6 +1,11 @@
 module.exports = {
   "name": "sn0wbreeze",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Sn0wbreeze",
+      "url": "https://www.theiphonewiki.com/wiki/Sn0wbreeze",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["3.1.2","6.1.3"]
   },

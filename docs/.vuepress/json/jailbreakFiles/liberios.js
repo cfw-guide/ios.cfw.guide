@@ -1,6 +1,11 @@
 module.exports = {
   "name": "LiberiOS",
   "info": {
+    "website": {
+      "name": "newosxbook.com/liberios",
+      "url": "http://newosxbook.com/liberios/",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["11.0","11.4.1"]
   },

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "mach_portal",
   "info": {
+    "website": {
+      "name": "yalu.qwertyoruiop.com",
+      "url": "https://yalu.qwertyoruiop.com/",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["10.1","10.1.1"],
     "soc": "A9, A9X, A10, A10X"

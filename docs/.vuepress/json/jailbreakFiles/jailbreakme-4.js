@@ -1,6 +1,11 @@
 module.exports = {
   "name": "JailbreakMe 4",
   "info": {
+    "website": {
+      "name": "jailbreak.me",
+      "url": "https://jailbreak.me/",
+      "external": true
+    },
     "type": "(Safari) Semi-untethered",
     "firmwares": ["9.1","9.3.4"]
   },

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "TaiG",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/TaiG",
+      "url": "https://www.theiphonewiki.com/wiki/TaiG",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["8.0","8.4"]
   },

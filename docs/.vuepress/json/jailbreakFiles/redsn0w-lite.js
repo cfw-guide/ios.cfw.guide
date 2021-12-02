@@ -1,6 +1,11 @@
 module.exports = {
   "name": "redsn0w Lite",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Redsn0w_Lite",
+      "url": "https://www.theiphonewiki.com/wiki/Redsn0w_Lite",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": "2.1.1",
     "notes": "Only supports iPod touch (2nd generation)"

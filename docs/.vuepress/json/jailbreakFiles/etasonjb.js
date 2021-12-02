@@ -1,6 +1,17 @@
 module.exports = {
   "name": "etasonJB",
   "info": {
+    "website": {
+      "name": "etasonjb.tihmstar.net",
+      "url": "https://etasonjb.tihmstar.net/",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Installing EtasonJB",
+        "url": "/installing-etasonjb/"
+      }
+    ],
     "type": "Untethered",
     "firmwares": "8.4.1",
   },

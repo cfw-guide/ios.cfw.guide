@@ -1,7 +1,13 @@
 module.exports = {
   "name": "cherry flower JB",
   "info": {
+    "website": {
+      "name": "dora2ios.web.app/CFJB",
+      "url": "https://dora2ios.web.app/CFJB/",
+      "external": true
+    },
     "type": "Untethered",
+    "firmwares": ["4.3.5","6.1.3","6.1.4","9.3.5"]
   },
   "compatibility": [
     {

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "WinPwn",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/WinPwn",
+      "url": "https://www.theiphonewiki.com/wiki/WinPwn",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["2.0","2.0.2"]
   },

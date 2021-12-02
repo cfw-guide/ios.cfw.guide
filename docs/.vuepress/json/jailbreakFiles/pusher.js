@@ -1,6 +1,11 @@
 module.exports = {
   "name": "WinPwn",
   "info": {
+    "website": {
+      "name": "ripdev.com/pusher (archive.org)",
+      "url": "https://web.archive.org/web/20090204000703/http://ripdev.com/pusher/",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["2.0","2.2.1"],
     "notes": "Only supports iPhone and iPhone 3G",

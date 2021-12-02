@@ -1,6 +1,11 @@
 module.exports = {
   "name": "greengr4ss",
   "info": {
+    "website": {
+      "name": "ipodtouchfans.com/forums/showthread.php?t=155813 (archive.org)",
+      "url": "http://web.archive.org/web/20090314040717/http://www.ipodtouchfans.com/forums/showthread.php?t=155813",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": "2.2.1",
   },

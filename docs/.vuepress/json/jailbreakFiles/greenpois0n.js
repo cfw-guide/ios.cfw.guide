@@ -1,6 +1,11 @@
 module.exports = {
   "name": "greenpois0n",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
+      "url": "https://www.theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["4.1","4.2.6"],
     "notes": "Also compatible with iPhoneOS 3.2.2"

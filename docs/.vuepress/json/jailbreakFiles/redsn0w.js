@@ -1,7 +1,7 @@
 module.exports = {
   "name": "redsn0w",
   "info": {
-    "website": {
+    "wiki": {
       "name": "theiphonewiki.com/wiki/Redsn0w",
       "url": "https://www.theiphonewiki.com/wiki/Redsn0w",
       "external": true

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "to.panga",
   "info": {
+    "website": {
+      "name": "github.com/iabem97/topanga (archive.org)",
+      "url": "https://web.archive.org/web/20180321001836/https://github.com/iabem97/topanga",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["11.0","11.4.1"]
   },
