@@ -1,5 +1,8 @@
 module.exports = {
   "name": "kok3shi",
+  "info": {
+    "firmwares": ["9.3","9.3.5"]
+  },
   "compatibility": [
     {
       "firmwares": [

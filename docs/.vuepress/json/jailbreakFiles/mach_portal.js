@@ -1,5 +1,9 @@
 module.exports = {
   "name": "mach_portal",
+  "info": {
+    "firmwares": ["10.1","10.1.1"],
+    "soc": "A9, A9X, A10, A10X"
+  },
   "compatibility": [
     {
       "firmwares": [

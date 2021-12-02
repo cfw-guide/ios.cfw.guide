@@ -1,5 +1,8 @@
 module.exports = {
   "name": "AppSnapp",
+  "info": {
+    "firmwares": ["1.1.1","1.1.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

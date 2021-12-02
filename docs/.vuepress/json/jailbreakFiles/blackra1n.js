@@ -1,5 +1,8 @@
 module.exports = {
   "name": "blackra1n",
+  "info": {
+    "firmwares": ["3.1","3.1.3"]
+  },
   "compatibility": [
     {
       "firmwares": [

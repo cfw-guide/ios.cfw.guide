@@ -1,5 +1,10 @@
 module.exports = {
   "name": "powdersn0w",
+  "info": {
+    "firmwares": ["9.3.5","9.3.6"],
+    "soc": "A5, A6",
+    "notes": "Only supports specific devices, also supports 9.0.2",
+  },
   "compatibility": [
     {
       "firmwares": [

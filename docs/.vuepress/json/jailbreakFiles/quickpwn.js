@@ -1,5 +1,8 @@
 module.exports = {
   "name": "QuickPwn",
+  "info": {
+    "firmwares": ["2.0","2.2.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

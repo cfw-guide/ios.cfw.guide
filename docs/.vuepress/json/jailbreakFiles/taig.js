@@ -1,5 +1,8 @@
 module.exports = {
   "name": "TaiG",
+  "info": {
+    "firmwares": ["8.0","8.4"]
+  },
   "compatibility": [
     {
       "firmwares": [

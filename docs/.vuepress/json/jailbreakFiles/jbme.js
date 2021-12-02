@@ -1,5 +1,8 @@
 module.exports = {
   "name": "JBMe",
+  "info": {
+    "firmwares": ["9.3","9.3.3"]
+  },
   "compatibility": [
     {
       "firmwares": [

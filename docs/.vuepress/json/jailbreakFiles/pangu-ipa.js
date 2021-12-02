@@ -1,5 +1,8 @@
 module.exports = {
   "name": "Pangu IPA",
+  "info": {
+    "firmwares": ["9.2","9.3.3"]
+  },
   "compatibility": [
     {
       "firmwares": [

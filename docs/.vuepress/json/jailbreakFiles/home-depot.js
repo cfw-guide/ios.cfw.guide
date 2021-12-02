@@ -1,5 +1,9 @@
 module.exports = {
   "name": "Home Depot",
+  "info": {
+    "firmwares": ["9.1","9.3.4"],
+    "notes": "Also compatible with iOS 8.4.1"
+  },
   "compatibility": [
     {
       "firmwares": [

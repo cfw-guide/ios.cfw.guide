@@ -1,5 +1,8 @@
 module.exports = {
   "name": "iNdependence",
+  "info": {
+    "firmwares": ["1.0","1.1.4"]
+  },
   "compatibility": [
     {
       "firmwares": [

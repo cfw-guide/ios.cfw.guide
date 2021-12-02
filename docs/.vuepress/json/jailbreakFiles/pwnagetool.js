@@ -1,5 +1,9 @@
 module.exports = {
   "name": "PwnageTool",
+  "info": {
+    "firmwares": ["4.0","5.1.1"],
+    "notes": "Also supports iPhoneOS 1.1.4 and iPhoneOS 2.0 to 2.2.1",
+  },
   "compatibility": [
     {
       "firmwares": [

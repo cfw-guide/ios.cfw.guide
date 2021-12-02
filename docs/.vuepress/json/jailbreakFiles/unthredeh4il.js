@@ -1,5 +1,8 @@
 module.exports = {
   "name": "unthredeh4il",
+  "info": {
+    "firmwares": ["4.2.6","5.1.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

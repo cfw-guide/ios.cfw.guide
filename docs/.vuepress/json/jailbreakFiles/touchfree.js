@@ -1,5 +1,8 @@
 module.exports = {
   "name": "touchFree",
+  "info": {
+    "firmwares": ["1.1.2","1.1.2"]
+  },
   "compatibility": [
     {
       "firmwares": [

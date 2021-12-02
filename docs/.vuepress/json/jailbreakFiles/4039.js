@@ -1,5 +1,8 @@
 module.exports = {
   "name": "4039",
+  "info": {
+    "firmwares": ["1.1","1.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

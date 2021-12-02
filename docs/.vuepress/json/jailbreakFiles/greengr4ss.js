@@ -1,5 +1,8 @@
 module.exports = {
   "name": "greengr4ss",
+  "info": {
+    "firmwares": ["2.2.1","2.2.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

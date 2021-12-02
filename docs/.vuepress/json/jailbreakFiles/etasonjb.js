@@ -1,5 +1,8 @@
 module.exports = {
   "name": "etasonJB",
+  "info": {
+    "firmwares": ["8.4.1","8.4.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

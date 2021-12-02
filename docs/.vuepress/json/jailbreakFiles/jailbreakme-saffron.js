@@ -1,5 +1,8 @@
 module.exports = {
   "name": "JailbreakMe Saffron",
+  "info": {
+    "firmwares": ["4.2.6","4.3.3"]
+  },
   "compatibility": [
     {
       "firmwares": [

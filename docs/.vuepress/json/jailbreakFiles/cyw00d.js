@@ -1,5 +1,8 @@
 module.exports = {
   "name": "Cyw00d",
+  "info": {
+    "firmwares": ["2.2.1","2.2.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

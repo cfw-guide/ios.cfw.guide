@@ -1,5 +1,8 @@
 module.exports = {
   "name": "PPJailbreak",
+  "info": {
+    "firmwares": ["8.0","8.4"]
+  },
   "compatibility": [
     {
       "firmwares": [

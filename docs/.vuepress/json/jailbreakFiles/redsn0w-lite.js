@@ -1,5 +1,9 @@
 module.exports = {
   "name": "redsn0w Lite",
+  "info": {
+    "firmwares": ["2.1.1","2.1.1"],
+    "notes": "Only supports iPod touch (2nd generation)"
+  },
   "compatibility": [
     {
       "firmwares": [

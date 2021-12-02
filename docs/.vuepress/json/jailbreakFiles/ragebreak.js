@@ -1,5 +1,10 @@
 module.exports = {
   "name": "RageBreak",
+  "info": {
+    "firmwares": ["7.0","7.0.5"],
+    "soc": "A4",
+    "notes": "Only supports iPhone 4",
+  },
   "compatibility": [
     {
       "firmwares": [

@@ -1,5 +1,9 @@
 module.exports = {
   "name": "ipwndfu",
+  "info": {
+    "firmwares": ["3.0","6.1.6"],
+    "notes": "Only comptaible with iPhone 3GS and iPhone 4"
+  },
   "compatibility": [
     {
       "firmwares": [
