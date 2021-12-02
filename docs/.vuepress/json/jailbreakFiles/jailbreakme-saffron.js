@@ -8,7 +8,7 @@ module.exports = {
     },
     "wiki": {
       "name": "theiphonewiki.com/wiki/Saffron",
-      "url": "theiphonewiki.com/wiki/Saffron",
+      "url": "https://www.theiphonewiki.com/wiki/Saffron",
       "external": true,
     },
     "guide": [
