@@ -1,5 +1,9 @@
 module.exports = {
   "name": "purplera1n",
+  "info": {
+    "firmwares": ["3.0","3.0"],
+    "notes": "Only supports iPhone 3GS"
+  },
   "compatibility": [
     {
       "firmwares": [

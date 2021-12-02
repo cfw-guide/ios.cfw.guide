@@ -1,5 +1,8 @@
 module.exports = {
   "name": "WinPwn",
+  "info": {
+    "firmwares": ["2.0","2.0.2"]
+  },
   "compatibility": [
     {
       "firmwares": [

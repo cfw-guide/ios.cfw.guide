@@ -1,5 +1,8 @@
 module.exports = {
   "name": "Pangu",
+  "info": {
+    "firmwares": ["7.1","7.1.2"]
+  },
   "compatibility": [
     {
       "firmwares": [

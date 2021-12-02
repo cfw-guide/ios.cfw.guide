@@ -1,5 +1,9 @@
 module.exports = {
   "name": "Untetherizer",
+  "info": {
+    "firmwares": ["2.2.1","2.2.1"],
+    "notes": "Only supports iPod touch (2nd generation)"
+  },
   "compatibility": [
     {
       "firmwares": [

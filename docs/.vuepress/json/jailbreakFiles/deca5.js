@@ -1,5 +1,9 @@
 module.exports = {
   "name": "Deca5",
+  "info": {
+    "firmwares": ["5.0","7.1.2"],
+    "soc": "A5, A5X"
+  },
   "compatibility": [
     {
       "firmwares": [

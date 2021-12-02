@@ -1,5 +1,8 @@
 module.exports = {
   "name": "iDemocracy",
+  "info": {
+    "firmwares": ["1.1.1","1.1.4"]
+  },
   "compatibility": [
     {
       "firmwares": [

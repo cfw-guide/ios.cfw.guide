@@ -1,5 +1,8 @@
 module.exports = {
   "name": "limera1n",
+  "info": {
+    "firmwares": ["3.2.2","4.2.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

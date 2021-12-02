@@ -1,5 +1,9 @@
 module.exports = {
   "name": "WinPwn",
+  "info": {
+    "firmwares": ["2.0","2.2.1"],
+    "notes": "Only supports iPhone and iPhone 3G",
+  },
   "compatibility": [
     {
       "firmwares": [

@@ -1,5 +1,8 @@
 module.exports = {
   "name": "JailbreakMe 4",
+  "info": {
+    "firmwares": ["9.1","9.3.4"]
+  },
   "compatibility": [
     {
       "firmwares": [

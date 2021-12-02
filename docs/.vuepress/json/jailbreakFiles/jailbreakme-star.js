@@ -13,7 +13,8 @@ module.exports = {
       }
     ],
     "type": "Untethered",
-    "firmwares": ["3.1.2","4.0.1"]
+    "firmwares": ["3.1.2","4.0.1"],
+    "notes": "Not compatible with iPhoneOS 3.2.2"
   },
   "compatibility": [
     {

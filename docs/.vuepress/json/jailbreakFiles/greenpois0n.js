@@ -1,5 +1,9 @@
 module.exports = {
   "name": "greenpois0n",
+  "info": {
+    "firmwares": ["4.1","4.2.6"],
+    "notes": "Also compatible with iPhoneOS 3.2.2"
+  },
   "compatibility": [
     {
       "firmwares": [

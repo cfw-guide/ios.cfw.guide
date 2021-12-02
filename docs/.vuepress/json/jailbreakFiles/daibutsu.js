@@ -1,5 +1,8 @@
 module.exports = {
   "name": "daibutsu",
+  "info": {
+    "firmwares": ["8.4.1","9.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

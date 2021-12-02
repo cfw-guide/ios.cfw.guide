@@ -1,5 +1,8 @@
 module.exports = {
   "name": "Ac1dsn0w",
+  "info": {
+    "firmwares": ["5.0","5.0.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

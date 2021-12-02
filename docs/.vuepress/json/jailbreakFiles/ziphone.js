@@ -1,5 +1,8 @@
 module.exports = {
   "name": "ZiPhone",
+  "info": {
+    "firmwares": ["1.1.3","1.1.5"]
+  },
   "compatibility": [
     {
       "firmwares": [

@@ -1,5 +1,9 @@
 module.exports = {
   "name": "n1ghtshade",
+  "info": {
+    "firmwares": ["6.0","9.3.5"],
+    "soc": "A6, A6X"
+  },
   "compatibility": [
     {
       "firmwares": [

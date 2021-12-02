@@ -1,5 +1,8 @@
 module.exports = {
   "name": "iBrickr",
+  "info": {
+    "firmwares": ["1.0","1.0.2"]
+  },
   "compatibility": [
     {
       "firmwares": [

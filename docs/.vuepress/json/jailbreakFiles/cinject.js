@@ -1,5 +1,8 @@
 module.exports = {
   "name": "cinject",
+  "info": {
+    "firmwares": ["5.1.1","5.1.1"]
+  },
   "compatibility": [
     {
       "firmwares": [

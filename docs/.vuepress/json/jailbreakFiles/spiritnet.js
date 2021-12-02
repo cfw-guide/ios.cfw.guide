@@ -1,5 +1,8 @@
 module.exports = {
   "name": "SpiritNET",
+  "info": {
+    "firmwares": ["3.1.2","3.2"]
+  },
   "compatibility": [
     {
       "firmwares": [

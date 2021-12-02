@@ -8,7 +8,7 @@ module.exports = {
     },
     "type": "Semi-untethered",
     "firmwares": ["13.0","13.5"],
-    "soc": "A10"
+    "soc": "A10, A10X"
   },
   "compatibility": [
     {
@@ -47,7 +47,7 @@ module.exports = {
         "iPad7,6", // iPad (6th generation) Wi-Fi + Cellular, A10
         "iPad7,11", // iPad (7th generation) Wi-Fi, A10
         "iPad7,12", // iPad (7th generation) Wi-Fi + Cellular, A10
-        "iPod9,1", // iPod touch (7th generation), A8
+        "iPod9,1", // iPod touch (7th generation), A10
       ]
     }
   ]
