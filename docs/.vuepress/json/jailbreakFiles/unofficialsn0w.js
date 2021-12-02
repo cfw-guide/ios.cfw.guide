@@ -1,6 +1,6 @@
 module.exports = {
-  "name": "Cyw00d",
-  "alias": ["cywood", "cyw0od", "cywo0d"],
+  "name": "unofficialsn0w",
+  "alias": ["unofficialsnow", "cyw00d","cywood", "cyw0od", "cywo0d"],
   "info": {
     "website": {
       "name": "ipodtouchfans.com/forums/showthread.php?t=138578 (archive.org)",
