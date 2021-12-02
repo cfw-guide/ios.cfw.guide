@@ -1,6 +1,11 @@
 module.exports = {
   "name": "cinject",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Cinject",
+      "url": "https://www.theiphonewiki.com/wiki/Cinject",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": "5.1.1",
   },

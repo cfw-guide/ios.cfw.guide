@@ -1,6 +1,11 @@
 module.exports = {
   "name": "n1ghtshade",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/N1ghtshade+",
+      "url": "https://www.theiphonewiki.com/wiki/N1ghtshade",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["6.0","9.3.5"],
     "soc": "A6, A6X"

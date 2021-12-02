@@ -1,6 +1,11 @@
 module.exports = {
   "name": "orangesn0w",
   "info": {
+    "website": {
+      "name": "sites.google.com/site/iostechhelping/ios/downloads",
+      "url": "https://sites.google.com/site/iostechhelping/ios/downloads",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["7.1 beta","7.1 beta"],
     "soc": "A4",

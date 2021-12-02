@@ -1,6 +1,11 @@
 module.exports = {
   "name": "QuickPwn",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/QuickPwn",
+      "url": "https://www.theiphonewiki.com/wiki/QuickPwn",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["2.0","2.2.1"]
   },

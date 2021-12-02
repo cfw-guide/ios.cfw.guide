@@ -1,6 +1,11 @@
 module.exports = {
   "name": "daibutsu",
   "info": {
+    "website": {
+      "name": "github.com/dora2-iOS/daibutsu",
+      "url": "https://github.com/dora2-iOS/daibutsu",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["8.4.1","9.1"]
   },

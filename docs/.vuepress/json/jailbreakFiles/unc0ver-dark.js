@@ -1,6 +1,11 @@
 module.exports = {
   "name": "unc0ver dark",
   "info": {
+    "website": {
+      "name": "dark.diatr.us",
+      "url": "https://dark.diatr.us/",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["11.0","12.1.2"]
   },

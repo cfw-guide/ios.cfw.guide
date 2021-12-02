@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Yalu",
   "info": {
+    "website": {
+      "name": "yalu.qwertyoruiop.com",
+      "url": "https://yalu.qwertyoruiop.com/",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["10.0.1","10.2"]
   },

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "AppSnapp",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/AppSnapp",
+      "url": "https://www.theiphonewiki.com/wiki/AppSnapp",
+      "external": true
+    },
     "type": "(Safari) Untethered",
     "firmwares": "1.1.1",
   },

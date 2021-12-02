@@ -1,6 +1,11 @@
 module.exports = {
   "name": "powdersn0w",
   "info": {
+    "website": {
+      "name": "dora2ios.web.app/konayuki/index.html",
+      "url": "https://dora2ios.web.app/konayuki/index.html",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["9.3.5","9.3.6"],
     "soc": "A5, A6",

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "blackra1n",
   "info": {
+    "website": {
+      "name": "http://www.blackra1n.com/",
+      "url": "blackra1n.com",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["3.1","3.1.3"]
   },

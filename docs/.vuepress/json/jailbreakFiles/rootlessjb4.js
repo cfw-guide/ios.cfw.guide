@@ -1,6 +1,11 @@
 module.exports = {
   "name": "rootlessJB4",
   "info": {
+    "website": {
+      "name": "github.com/BrandonPlank/rootlessJB4",
+      "url": "https://github.com/BrandonPlank/rootlessJB4",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["12.0","12.1.2"]
   },

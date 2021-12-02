@@ -1,6 +1,11 @@
 module.exports = {
   "name": "p0insettia",
   "info": {
+    "website": {
+      "name": "dora2ios.web.app/p0insettia.html",
+      "url": "https://dora2ios.web.app/p0insettia.html",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": "10.3.4",
     "soc": "A6",

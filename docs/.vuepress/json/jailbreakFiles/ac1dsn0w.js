@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Ac1dsn0w",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Ac1dSn0w",
+      "url": "https://www.theiphonewiki.com/wiki/Ac1dSn0w",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["5.0","5.0.1"]
   },

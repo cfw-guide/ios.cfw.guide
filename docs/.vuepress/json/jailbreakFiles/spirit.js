@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Spirit",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Spirit",
+      "url": "https://www.theiphonewiki.com/wiki/Spirit",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["3.1.2","3.2"]
   },

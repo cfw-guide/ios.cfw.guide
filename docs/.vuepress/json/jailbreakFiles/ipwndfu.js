@@ -1,9 +1,14 @@
 module.exports = {
   "name": "ipwndfu",
   "info": {
+    "website": {
+      "name": "github.com/axi0mX/ipwndfu",
+      "url": "https://github.com/axi0mX/ipwndfu/",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["3.0","6.1.6"],
-    "notes": "Only comptaible with iPhone 3GS and iPhone 4"
+    "notes": "Only compatible with iPhone 3GS (3.0 to 6.1.6) and iPhone 4 (5.1.1)"
   },
   "compatibility": [
     {

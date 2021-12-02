@@ -1,6 +1,11 @@
 module.exports = {
   "name": "iLiberty+",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/ILiberty+",
+      "url": "https://www.theiphonewiki.com/wiki/ILiberty%2B",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.0","1.1.5"]
   },

@@ -1,6 +1,16 @@
 module.exports = {
   "name": "Pangu933",
   "info": {
+    "website": {
+      "name": "en.pangu.io/help.html (archive.org)",
+      "url": "https://web.archive.org/web/20211114002150/http://en.pangu.io/help.html",
+      "external": true
+    },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Pangu9",
+      "url": "https://www.theiphonewiki.com/wiki/Pangu9#Pangu9_for_iOS_9.2_-_9.3.3",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["9.2","9.3.3"]
   },

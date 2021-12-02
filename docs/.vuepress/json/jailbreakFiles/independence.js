@@ -1,6 +1,11 @@
 module.exports = {
   "name": "iNdependence",
   "info": {
+    "website": {
+      "name": "code.google.com/archive/p/independence",
+      "url": "https://code.google.com/archive/p/independence/",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.0","1.1.4"]
   },

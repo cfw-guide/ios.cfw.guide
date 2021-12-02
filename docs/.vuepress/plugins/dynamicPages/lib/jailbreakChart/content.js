@@ -10,6 +10,7 @@ const compatListHeader = [
 
 const infoHeader = [
   'Website',
+  'Wiki',
   'Guide',
   'Type',
   'Supported Firmwares',
@@ -34,28 +35,32 @@ function getJbInfo(jb) {
   
   var infoArr = []
   
-  if (info.hasOwnProperty('website')) {
-    const website = info.website;
-    infoArr.push(`${infoHeader[0]}: [${website.name}](${website.url})`)
-  }
+  if (info.hasOwnProperty('website')) infoArr.push(`${infoHeader[0]}: [${info.website.name}](${info.website.url})`)
+  if (info.hasOwnProperty('wiki')) infoArr.push(`${infoHeader[1]}: [${info.wiki.name}](${info.wiki.url})`)
     
   if (info.hasOwnProperty('guide')) {
     for (var i in info.guide) {
       const guide = info.guide[i];
-      var guideText = infoHeader[1];
+      var guideText = infoHeader[2];
       if (guide.hasOwnProperty('text')) guideText = guide.text
       
       infoArr.push(`${guideText}: [${guide.name}](${guide.url})`)
     }
   }
   
-  if (info.hasOwnProperty('type')) infoArr.push(`${infoHeader[2]}: ${info.type}`)
+  if (info.hasOwnProperty('type')) infoArr.push(`${infoHeader[3]}: ${info.type}`)
+  
   if (info.hasOwnProperty('firmwares')) {
     var fwStr = info.firmwares;
-    if (Array.isArray(fwStr)) fwStr = fwStr[0] + ' to ' + fwStr[1];
-    infoArr.push(infoHeader[3] + ': ' + fwStr)
+    if (Array.isArray(fwStr)) {
+      if (fwStr.length < 2) fwStr = fwStr;
+      else if (fwStr.length > 2) fwStr = fwStr.join(', ');
+      else fwStr = fwStr[0] + ' to ' + fwStr[1];
+    }
+    infoArr.push(infoHeader[4] + ': ' + fwStr)
   }
-  if (info.hasOwnProperty('soc')) infoArr.push(`${infoHeader[4]}: ${info.soc}`)
+  
+  if (info.hasOwnProperty('soc')) infoArr.push(`${infoHeader[5]}: ${info.soc}`)
   
   for (var i in infoArr) html += infoArr[i] + '<br>';
   

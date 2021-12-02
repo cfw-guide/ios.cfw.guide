@@ -1,6 +1,11 @@
 module.exports = {
   "name": "limera1n",
   "info": {
+    "website": {
+      "name": "limera1n.com",
+      "url": "http://limera1n.com/",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["3.2.2","4.2.1"]
   },

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "extra_recipe",
   "info": {
+    "website": {
+      "name": "yalu.qwertyoruiop.com",
+      "url": "https://yalu.qwertyoruiop.com/",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["10.0","10.0.2"],
     "soc": "A10"

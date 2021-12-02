@@ -4,7 +4,12 @@ module.exports = {
     "website": {
       "name": "jailbreakme.com",
       "url": "https://www.jailbreakme.com/",
-      "external": true
+      "external": true,
+    },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Saffron",
+      "url": "theiphonewiki.com/wiki/Saffron",
+      "external": true,
     },
     "guide": [
       {

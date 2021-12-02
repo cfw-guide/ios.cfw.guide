@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Breezy",
   "info": {
+    "website": {
+      "name": "code.google.com/archive/p/pxl/wikis/Breezy.wiki",
+      "url": "https://code.google.com/archive/p/pxl/wikis/Breezy.wiki",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.0.0","1.0.2"]
   },

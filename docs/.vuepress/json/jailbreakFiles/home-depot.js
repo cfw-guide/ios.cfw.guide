@@ -1,6 +1,17 @@
 module.exports = {
   "name": "Home Depot",
   "info": {
+    "website": {
+      "name": "wall.supplies",
+      "url": "http://wall.supplies/",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Installing HomeDepot",
+        "url": "/installing-homedepot/"
+      }
+    ],
     "type": "Semi-untethered",
     "firmwares": ["9.1","9.3.4"],
     "notes": "Untethered through add-on package, also compatible with iOS 8.4.1"

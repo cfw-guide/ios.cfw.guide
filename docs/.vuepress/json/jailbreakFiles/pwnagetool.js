@@ -1,6 +1,11 @@
 module.exports = {
   "name": "PwnageTool",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/PwnageTool",
+      "url": "https://www.theiphonewiki.com/wiki/PwnageTool",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["4.0","5.1.1"],
     "notes": "Also supports iPhoneOS 1.1.4 and iPhoneOS 2.0 to 2.2.1",

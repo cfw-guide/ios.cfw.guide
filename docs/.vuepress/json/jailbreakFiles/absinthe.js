@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Absinthe",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Absinthe",
+      "url": "https://www.theiphonewiki.com/wiki/Absinthe",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["5.0","5.1.1"]
   },

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "Deca5",
   "info": {
+    "website": {
+      "name": "github.com/zzanehip/Deca5",
+      "url": "https://github.com/zzanehip/Deca5",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["5.0","7.1.2"],
     "soc": "A5, A5X"

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "iDemocracy",
   "info": {
+    "website": {
+      "name": "code.google.com/archive/p/idemocracy",
+      "url": "https://code.google.com/archive/p/idemocracy/",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.1.1","1.1.4"]
   },

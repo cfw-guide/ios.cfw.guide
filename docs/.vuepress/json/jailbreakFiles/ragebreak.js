@@ -1,6 +1,11 @@
 module.exports = {
   "name": "RageBreak",
   "info": {
+    "website": {
+      "name": "ragemasta.com/jb.html (archive.org)",
+      "url": "https://web.archive.org/web/20140216122014/http://ragemasta.com/jb.html",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["7.0","7.0.5"],
     "soc": "A4",

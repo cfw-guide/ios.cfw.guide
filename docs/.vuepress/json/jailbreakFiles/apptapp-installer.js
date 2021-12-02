@@ -1,6 +1,11 @@
 module.exports = {
   "name": "AppTapp Installer",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/AppTapp_Installer",
+      "url": "https://www.theiphonewiki.com/wiki/AppTapp_Installer",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.0.0","1.0.2"]
   },

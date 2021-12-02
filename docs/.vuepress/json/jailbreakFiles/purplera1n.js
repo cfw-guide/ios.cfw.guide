@@ -1,6 +1,11 @@
 module.exports = {
   "name": "purplera1n",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Purplera1n",
+      "url": "https://www.theiphonewiki.com/wiki/Purplera1n",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": "3.0",
     "notes": "Only supports iPhone 3GS"

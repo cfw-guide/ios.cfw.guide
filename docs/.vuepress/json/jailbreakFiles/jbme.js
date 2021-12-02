@@ -1,6 +1,11 @@
 module.exports = {
   "name": "JBMe",
   "info": {
+    "website": {
+      "name": "jbme.qwertyoruiop.com",
+      "url": "https://jbme.qwertyoruiop.com/",
+      "external": true
+    },
     "type": "(Safari) Semi-untethered",
     "firmwares": ["9.3","9.3.3"]
   },

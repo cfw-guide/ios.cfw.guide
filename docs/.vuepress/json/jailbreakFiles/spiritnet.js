@@ -1,6 +1,11 @@
 module.exports = {
   "name": "SpiritNET",
   "info": {
+    "website": {
+      "name": "invoxiplaygames.uk/projects/spiritnet",
+      "url": "https://invoxiplaygames.uk/projects/spiritnet/",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["3.1.2","3.2"]
   },
