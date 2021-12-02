@@ -1,6 +1,7 @@
 module.exports = {
   "name": "touchFree",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.1.2","1.1.2"]
   },
   "compatibility": [

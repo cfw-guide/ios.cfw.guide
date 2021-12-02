@@ -1,6 +1,7 @@
 module.exports = {
-  "name": "Pangu IPA",
+  "name": "Pangu933",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["9.2","9.3.3"]
   },
   "compatibility": [

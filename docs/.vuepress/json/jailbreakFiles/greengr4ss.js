@@ -1,6 +1,7 @@
 module.exports = {
   "name": "greengr4ss",
   "info": {
+    "type": "Untethered",
     "firmwares": ["2.2.1","2.2.1"]
   },
   "compatibility": [

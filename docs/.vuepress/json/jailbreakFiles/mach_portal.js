@@ -1,6 +1,7 @@
 module.exports = {
   "name": "mach_portal",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["10.1","10.1.1"],
     "soc": "A9, A9X, A10, A10X"
   },

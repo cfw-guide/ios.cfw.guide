@@ -1,6 +1,7 @@
 module.exports = {
   "name": "JailbreakMe 4",
   "info": {
+    "type": "(Safari) Semi-untethered",
     "firmwares": ["9.1","9.3.4"]
   },
   "compatibility": [

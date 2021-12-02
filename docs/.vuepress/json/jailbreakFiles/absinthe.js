@@ -1,6 +1,7 @@
 module.exports = {
   "name": "Absinthe",
   "info": {
+    "type": "Untethered",
     "firmwares": ["5.0","5.1.1"]
   },
   "compatibility": [

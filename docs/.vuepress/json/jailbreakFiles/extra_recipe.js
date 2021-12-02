@@ -1,6 +1,7 @@
 module.exports = {
   "name": "extra_recipe",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["10.0","10.0.2"],
     "soc": "A10"
   },

@@ -8,7 +8,7 @@ module.exports = {
     },
     "color": "#e5c67c",
     "icon": "/assets/images/totallynotspyware.png",
-    "type": "Semi-untethered",
+    "type": "(Safari) Semi-untethered",
     "firmwares": ["10.0","10.3.3"]
   },
   "compatibility": [

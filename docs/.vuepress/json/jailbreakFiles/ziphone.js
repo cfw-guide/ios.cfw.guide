@@ -1,6 +1,7 @@
 module.exports = {
   "name": "ZiPhone",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.1.3","1.1.5"]
   },
   "compatibility": [

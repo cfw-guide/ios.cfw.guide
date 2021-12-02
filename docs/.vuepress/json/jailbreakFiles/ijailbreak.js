@@ -1,6 +1,7 @@
 module.exports = {
   "name": "iJailbreak",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.1.1","1.1.4"]
   },
   "compatibility": [

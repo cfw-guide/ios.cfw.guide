@@ -1,6 +1,7 @@
 module.exports = {
   "name": "iBrickr",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.0","1.0.2"]
   },
   "compatibility": [

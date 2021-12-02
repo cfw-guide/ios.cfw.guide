@@ -1,6 +1,7 @@
 module.exports = {
   "name": "orangesn0w",
   "info": {
+    "type": "Tethered",
     "firmwares": ["7.1 beta","7.1 beta"],
     "soc": "A4",
     "notes": "iPhone 4 only",

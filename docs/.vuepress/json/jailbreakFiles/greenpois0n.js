@@ -1,6 +1,7 @@
 module.exports = {
   "name": "greenpois0n",
   "info": {
+    "type": "Untethered",
     "firmwares": ["4.1","4.2.6"],
     "notes": "Also compatible with iPhoneOS 3.2.2"
   },

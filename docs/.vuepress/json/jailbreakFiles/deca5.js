@@ -1,6 +1,7 @@
 module.exports = {
   "name": "Deca5",
   "info": {
+    "type": "Tethered",
     "firmwares": ["5.0","7.1.2"],
     "soc": "A5, A5X"
   },

@@ -1,6 +1,7 @@
 module.exports = {
   "name": "kok3shi",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["9.3","9.3.5"]
   },
   "compatibility": [

@@ -1,6 +1,7 @@
 module.exports = {
   "name": "iDemocracy",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.1.1","1.1.4"]
   },
   "compatibility": [

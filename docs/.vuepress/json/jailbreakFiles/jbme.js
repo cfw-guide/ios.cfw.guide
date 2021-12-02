@@ -1,6 +1,7 @@
 module.exports = {
   "name": "JBMe",
   "info": {
+    "type": "(Safari) Semi-untethered",
     "firmwares": ["9.3","9.3.3"]
   },
   "compatibility": [

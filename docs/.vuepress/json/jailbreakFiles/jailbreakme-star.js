@@ -12,7 +12,7 @@ module.exports = {
         "url": "/using-jailbreakme-star/"
       }
     ],
-    "type": "Untethered",
+    "type": "(Safari) Untethered",
     "firmwares": ["3.1.2","4.0.1"],
     "notes": "Not compatible with iPhoneOS 3.2.2"
   },

@@ -1,6 +1,7 @@
 module.exports = {
   "name": "WinPwn",
   "info": {
+    "type": "Untethered",
     "firmwares": ["2.0","2.0.2"]
   },
   "compatibility": [
