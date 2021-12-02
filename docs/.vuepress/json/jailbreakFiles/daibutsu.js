@@ -1,6 +1,7 @@
 module.exports = {
   "name": "daibutsu",
   "info": {
+    "type": "Untethered",
     "firmwares": ["8.4.1","9.1"]
   },
   "compatibility": [

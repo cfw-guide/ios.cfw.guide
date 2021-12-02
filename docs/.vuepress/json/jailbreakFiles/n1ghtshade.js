@@ -1,6 +1,7 @@
 module.exports = {
   "name": "n1ghtshade",
   "info": {
+    "type": "Tethered",
     "firmwares": ["6.0","9.3.5"],
     "soc": "A6, A6X"
   },

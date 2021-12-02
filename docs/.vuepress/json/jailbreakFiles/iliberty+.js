@@ -1,6 +1,7 @@
 module.exports = {
   "name": "iLiberty+",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.0","1.1.5"]
   },
   "compatibility": [

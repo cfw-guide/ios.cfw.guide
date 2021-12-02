@@ -1,6 +1,7 @@
 module.exports = {
   "name": "TaiG",
   "info": {
+    "type": "Untethered",
     "firmwares": ["8.0","8.4"]
   },
   "compatibility": [

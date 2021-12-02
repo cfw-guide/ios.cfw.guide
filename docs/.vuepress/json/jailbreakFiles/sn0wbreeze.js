@@ -1,6 +1,7 @@
 module.exports = {
   "name": "sn0wbreeze",
   "info": {
+    "type": "Untethered",
     "firmwares": ["3.1.2","6.1.3"]
   },
   "compatibility": [

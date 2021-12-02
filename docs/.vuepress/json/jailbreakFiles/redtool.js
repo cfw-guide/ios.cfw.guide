@@ -1,6 +1,7 @@
 module.exports = {
   "name": "redTool",
   "info": {
+    "type": "Untethered",
     "firmwares": ["2.2.1","2.2.1"],
     "notes": "Only supports iPod touch (2nd generation)",
   },

@@ -1,6 +1,7 @@
 module.exports = {
   "name": "purplera1n",
   "info": {
+    "type": "Untethered",
     "firmwares": ["3.0","3.0"],
     "notes": "Only supports iPhone 3GS"
   },

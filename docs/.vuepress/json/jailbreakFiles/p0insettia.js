@@ -1,6 +1,7 @@
 module.exports = {
   "name": "p0insettia",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["10.3.4","10.3.4"],
     "soc": "A6",
     "notes": "iPhone 5 only",

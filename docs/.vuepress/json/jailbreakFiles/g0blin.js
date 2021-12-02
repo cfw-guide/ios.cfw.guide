@@ -1,6 +1,7 @@
 module.exports = {
   "name": "g0blin",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["10.2","10.3.3"]
   },
   "compatibility": [

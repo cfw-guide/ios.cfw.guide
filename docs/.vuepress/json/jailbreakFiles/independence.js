@@ -1,6 +1,7 @@
 module.exports = {
   "name": "iNdependence",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.0","1.1.4"]
   },
   "compatibility": [

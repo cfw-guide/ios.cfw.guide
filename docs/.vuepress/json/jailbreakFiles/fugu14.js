@@ -6,7 +6,7 @@ module.exports = {
       "url": "https://github.com/LinusHenze/Fugu14",
       "external": true
     },
-    "type": "Semi-untethered",
+    "type": "Untethered",
     "firmwares": ["14.4","14.5.1"],
     "soc": "A12+"
   },

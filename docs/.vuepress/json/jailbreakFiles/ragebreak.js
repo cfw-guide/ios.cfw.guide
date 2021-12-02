@@ -1,6 +1,7 @@
 module.exports = {
   "name": "RageBreak",
   "info": {
+    "type": "Tethered",
     "firmwares": ["7.0","7.0.5"],
     "soc": "A4",
     "notes": "Only supports iPhone 4",

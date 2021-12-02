@@ -1,6 +1,7 @@
 module.exports = {
   "name": "Breezy",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.0.0","1.0.2"]
   },
   "compatibility": [

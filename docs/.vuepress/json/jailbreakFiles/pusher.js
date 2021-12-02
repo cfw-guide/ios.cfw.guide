@@ -1,6 +1,7 @@
 module.exports = {
   "name": "WinPwn",
   "info": {
+    "type": "Untethered",
     "firmwares": ["2.0","2.2.1"],
     "notes": "Only supports iPhone and iPhone 3G",
   },

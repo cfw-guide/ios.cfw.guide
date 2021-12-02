@@ -1,6 +1,18 @@
 module.exports = {
   "name": "JailbreakMe Saffron",
   "info": {
+    "website": {
+      "name": "jailbreakme.com",
+      "url": "https://www.jailbreakme.com/",
+      "external": true
+    },
+    "guide": [
+      {
+        "name": "Using JailbreakMe Saffron",
+        "url": "/using-jailbreakme-saffron/"
+      }
+    ],
+    "type": "(Safari) Untethered",
     "firmwares": ["4.2.6","4.3.3"]
   },
   "compatibility": [

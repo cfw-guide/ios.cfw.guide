@@ -1,5 +1,8 @@
 module.exports = {
   "name": "cherry flower JB",
+  "info": {
+    "type": "Untethered",
+  },
   "compatibility": [
     {
       "firmwares": [

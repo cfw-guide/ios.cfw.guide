@@ -1,6 +1,7 @@
 module.exports = {
   "name": "Pangu",
   "info": {
+    "type": "Untethered",
     "firmwares": ["7.1","7.1.2"]
   },
   "compatibility": [

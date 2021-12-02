@@ -1,6 +1,7 @@
 module.exports = {
   "name": "limera1n",
   "info": {
+    "type": "Untethered",
     "firmwares": ["3.2.2","4.2.1"]
   },
   "compatibility": [

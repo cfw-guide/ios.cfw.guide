@@ -8,8 +8,8 @@ module.exports = {
     },
     "guide": [
       {
-        "name": "Installing Meridian",
-        "url": "/installing-meridian/"
+        "name": "Using Meridian",
+        "url": "/using-meridian/"
       }
     ],
     "type": "Semi-untethered",

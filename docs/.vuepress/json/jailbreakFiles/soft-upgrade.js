@@ -1,6 +1,7 @@
 module.exports = {
   "name": "Soft Upgrade",
   "info": {
+    "type": "Untethered",
     "firmwares": ["1.1.3","1.1.4"],
   },
   "compatibility": [

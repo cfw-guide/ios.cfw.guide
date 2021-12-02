@@ -1,8 +1,9 @@
 module.exports = {
   "name": "Home Depot",
   "info": {
+    "type": "Semi-untethered",
     "firmwares": ["9.1","9.3.4"],
-    "notes": "Also compatible with iOS 8.4.1"
+    "notes": "Untethered through add-on package, also compatible with iOS 8.4.1"
   },
   "compatibility": [
     {

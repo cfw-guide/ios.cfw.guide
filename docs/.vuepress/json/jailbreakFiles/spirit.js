@@ -1,6 +1,7 @@
 module.exports = {
   "name": "Spirit",
   "info": {
+    "type": "Untethered",
     "firmwares": ["3.1.2","3.2"]
   },
   "compatibility": [
