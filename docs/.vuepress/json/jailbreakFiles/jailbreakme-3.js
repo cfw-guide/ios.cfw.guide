@@ -1,6 +1,6 @@
 module.exports = {
-  "name": "JailbreakMe Saffron",
-  "alias": ["JailbreakMeSaffron", "JailbreakMe-Saffron", "JailbreakMe_Saffron"],
+  "name": "JailbreakMe 3.0",
+  "alias": ["JailbreakMe-3.0", "JailbreakMe_3.0", "JailbreakMe3.0", "JailbreakMe 3", "JailbreakMe-3", "JailbreakMe_3", "JailbreakMe3", "JailbreakMe Saffron", "JailbreakMeSaffron", "JailbreakMe-Saffron", "JailbreakMe_Saffron"],
   "info": {
     "website": {
       "name": "jailbreakme.com",
