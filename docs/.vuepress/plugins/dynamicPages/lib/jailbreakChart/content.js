@@ -50,7 +50,11 @@ function getJbInfo(jb) {
   }
   
   if (info.hasOwnProperty('type')) infoArr.push(`${infoHeader[2]}: ${info.type}`)
-  if (info.hasOwnProperty('firmwares')) infoArr.push(`${infoHeader[3]}: ${info.firmwares[0]} to ${info.firmwares[1]}`)
+  if (info.hasOwnProperty('firmwares')) {
+    var fwStr = info.firmwares;
+    if (Array.isArray(fwStr)) fwStr = fwStr[0] + ' to ' + fwStr[1];
+    infoArr.push(infoHeader[3] + ': ' + fwStr)
+  }
   if (info.hasOwnProperty('soc')) infoArr.push(`${infoHeader[4]}: ${info.soc}`)
   
   for (var i in infoArr) html += infoArr[i] + '<br>';

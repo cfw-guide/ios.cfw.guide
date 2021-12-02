@@ -2,11 +2,7 @@ const config = require("./configs");
 const path = require("path");
 const fs = require("fs");
 
-const mainObj = {
-  ios: require('./json/ios'),
-  jailbreak: require('./json/jailbreak'),
-  device: require('./json/deviceList')
-}
+const mainObj = { ios: require('./json/ios'), jailbreak: require('./json/jailbreak'), device: require('./json/deviceList') }
 
 module.exports = {
   locales: {
