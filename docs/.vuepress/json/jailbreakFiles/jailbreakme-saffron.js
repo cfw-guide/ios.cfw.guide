@@ -1,5 +1,6 @@
 module.exports = {
   "name": "JailbreakMe Saffron",
+  "alias": ["JailbreakMeSaffron", "JailbreakMe-Saffron", "JailbreakMe_Saffron"],
   "info": {
     "website": {
       "name": "jailbreakme.com",

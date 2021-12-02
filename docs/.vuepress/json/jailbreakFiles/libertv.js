@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "jelbrekTime",
+  "name": "LiberTV",
   "info": {
     "website": {
       "name": "newosxbook.com/libertv",

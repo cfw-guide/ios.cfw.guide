@@ -1,5 +1,6 @@
 module.exports = {
   "name": "greengr4ss",
+  "alias": "greengrass",
   "info": {
     "website": {
       "name": "ipodtouchfans.com/forums/showthread.php?t=155813 (archive.org)",

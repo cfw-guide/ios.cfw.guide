@@ -1,5 +1,6 @@
 module.exports = {
   "name": "to.panga",
+  "alias": "topanga",
   "info": {
     "website": {
       "name": "github.com/iabem97/topanga (archive.org)",

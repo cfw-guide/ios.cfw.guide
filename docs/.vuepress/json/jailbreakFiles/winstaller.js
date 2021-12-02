@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "Seas0nPass",
+  "name": "wiNstaller",
   "info": {
     "website": {
       "name": "code.google.com/archive/p/winstaller",

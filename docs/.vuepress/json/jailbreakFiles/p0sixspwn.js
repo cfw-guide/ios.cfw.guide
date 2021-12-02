@@ -1,5 +1,6 @@
 module.exports = {
   "name": "p0sixspwn",
+  "alias": "posixspwn",
   "info": {
     "website": {
       "name": "ih8sn0w.com/p0sixspwn",

@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Deca5",
+  "alias": "decaf",
   "info": {
     "website": {
       "name": "github.com/zzanehip/Deca5",

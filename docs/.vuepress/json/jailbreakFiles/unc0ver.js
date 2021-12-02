@@ -1,5 +1,6 @@
 module.exports = {
   "name": "unc0ver",
+  "alias": "uncover",
   "info": {
     "website": {
       "name": "unc0ver.dev",

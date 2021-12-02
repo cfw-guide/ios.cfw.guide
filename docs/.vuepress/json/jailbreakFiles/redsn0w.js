@@ -1,5 +1,6 @@
 module.exports = {
   "name": "redsn0w",
+  "alias": "redsnow",
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/Redsn0w",

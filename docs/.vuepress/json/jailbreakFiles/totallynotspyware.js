@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Totally Not Spyware",
+  "alias": ["tns", "TotallyNotSpyware", "Totally-Not-Spyware", "Totally_Not_Spyware"],
   "info": {
     "website": {
       "name": "totally-not.spyware.lol",

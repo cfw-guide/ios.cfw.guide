@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "jelbrekTime",
+  "name": "Patchstick",
   "info": {
     "wiki": {
       "name": "wiki.awkwardtv.org/wiki/Patchstick",

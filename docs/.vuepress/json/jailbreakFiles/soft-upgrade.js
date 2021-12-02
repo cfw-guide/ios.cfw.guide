@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Soft Upgrade",
+  "alias": ["SoftUpgrade", "Soft_Upgrade", "Soft-Upgrade"],
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/Soft_Upgrade",

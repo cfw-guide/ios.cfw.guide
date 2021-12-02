@@ -1,5 +1,6 @@
 module.exports = {
   "name": "mach_portal",
+  "alias": ["machportal", "mach-portal", "mach%20portal"],
   "info": {
     "website": {
       "name": "yalu.qwertyoruiop.com",

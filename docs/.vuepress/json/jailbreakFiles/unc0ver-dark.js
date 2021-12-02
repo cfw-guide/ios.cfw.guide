@@ -1,5 +1,6 @@
 module.exports = {
   "name": "unc0ver dark",
+  "alias": ["uncover dark", "unc0ver-dark", "uncover-dark", "unc0ver_dark", "uncover_dark"],
   "info": {
     "website": {
       "name": "dark.diatr.us",

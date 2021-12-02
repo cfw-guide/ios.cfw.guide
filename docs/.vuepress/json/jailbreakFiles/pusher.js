@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "WinPwn",
+  "name": "Pusher",
   "info": {
     "website": {
       "name": "ripdev.com/pusher (archive.org)",

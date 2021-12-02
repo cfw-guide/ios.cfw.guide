@@ -1,5 +1,6 @@
 module.exports = {
   "name": "extra_recipe",
+  "alias": ["extrarecipe", "extra-recipe"],
   "info": {
     "website": {
       "name": "yalu.qwertyoruiop.com",

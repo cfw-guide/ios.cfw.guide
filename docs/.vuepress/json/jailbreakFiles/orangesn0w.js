@@ -1,5 +1,6 @@
 module.exports = {
   "name": "orangesn0w",
+  "alias": "orangesnow",
   "info": {
     "website": {
       "name": "sites.google.com/site/iostechhelping/ios/downloads",
