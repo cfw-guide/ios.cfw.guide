@@ -2,7 +2,7 @@ module.exports = {
   "name": "cinject",
   "info": {
     "type": "Untethered",
-    "firmwares": ["5.1.1","5.1.1"]
+    "firmwares": "5.1.1",
   },
   "compatibility": [
     {

@@ -2,7 +2,7 @@ module.exports = {
   "name": "AppSnapp",
   "info": {
     "type": "(Safari) Untethered",
-    "firmwares": ["1.1.1","1.1.1"]
+    "firmwares": "1.1.1",
   },
   "compatibility": [
     {
