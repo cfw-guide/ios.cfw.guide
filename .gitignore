@@ -5,3 +5,5 @@ dist
 package-lock.json
 yarn.lock
 yarn-error.log
+docs/.vuepress/public/main.json
+docs/.vuepress/public/pages.json
