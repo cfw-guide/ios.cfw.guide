@@ -1,6 +1,6 @@
 module.exports = {
   "name": "AppTapp Installer",
-  "alias": ["AppTappInstaller", "AppTapp-Installer"],
+  "alias": ["AppTappInstaller", "AppTapp-Installer", "AppTapp_Installer"],
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/AppTapp_Installer",
