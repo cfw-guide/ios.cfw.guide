@@ -13,6 +13,12 @@ module.exports = {
       "url": "https://www.theiphonewiki.com/wiki/kok3shi",
       "external": true
     },
+    "guide": [
+      {
+        "name": "Installing kok3shi",
+        "url": "/installing-kok3shi/"
+      }
+    ],
     "type": "Semi-untethered",
     "firmwares": ["9.3","9.3.5"],
     "notes": "Doesn't support A9 or A9X devices"
