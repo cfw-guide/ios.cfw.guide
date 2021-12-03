@@ -17,7 +17,34 @@ module.exports = {
       {
         "name": "Installing Odysseyra1n",
         "url": "/installing-odysseyra1n/"
-      }
+      },
+      {
+        "name": "Installing Odysseyra1n (A9X)",
+        "url": "/installing-odysseyra1n-a9x/",
+        "firmwares": [
+          "18E199", // 14.5
+          "18E212", // 14.5.1
+          "18F71", // 14.6 RC
+          "18F72-RC", // 14.6 RC 2
+          "18F72", // 14.6
+          "18G5023c", // 14.7 beta
+          "18G5033e", // 14.7 beta 2
+          "18G5042c", // 14.7 beta 3
+          "18G5052d", // 14.7 beta 4
+          "18G5063a", // 14.7 beta 5
+          "18G68", // 14.7 RC
+          "18G69", // 14.7
+          "18G82", // 14.7.1
+          "18H17", // 14.8
+          "18H107", // 14.8.1
+        ],
+        "devices": [
+          "iPad6,3", // iPad Pro (9.7-inch) Wi-Fi, A9X
+          "iPad6,4", // iPad Pro (9.7-inch) Wi-Fi + Cellular, A9X
+          "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
+          "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
+        ],
+      },
     ],
     "latestVer": "0.12.4",
     "color": "#4d4d4d",
