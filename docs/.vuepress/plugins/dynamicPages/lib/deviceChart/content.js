@@ -9,6 +9,8 @@ const header = [
   'Table',
 ]
 
+const groupHeader = 'Grouped Devices';
+
 const infoHeader = [
   'Device',
   'Identifier',
@@ -58,25 +60,33 @@ function getDate(d) {
   return `${date[1]} ${date[2]}, ${date[0]}`
 }
 
-function getDeviceInfo(device) {
+function getDeviceInfo(device, groupTable) {
   const d = device;
   if (!d || !deviceList.hasOwnProperty(d)) return '';
-  
-  var modelList = '';
-  for (var i in deviceList[d].model) {
-    modelList += deviceList[d].model[i];
-    if (deviceList[d].model[parseInt(i) + 1]) modelList += ', ';
-  }
   
   var infoArr = [
     deviceList[d].name,
     d,
     deviceList[d].soc,
     deviceList[d].arch,
-    modelList,
+    deviceList[d].model,
     deviceList[d].released
   ];
   
+  if (groupTable) {
+    var devGroup = deviceGroups.filter(function(x) { return x.devices.includes(d) });
+    if (devGroup.length < 1) return '';
+    if (Array.isArray(devGroup) && devGroup.length == 1) devGroup = devGroup[0];
+    
+    infoArr[0] = devGroup.name;
+    infoArr[1] = devGroup.devices.join(', ');
+    
+    for (const dev in devGroup.devices)
+      infoArr[4].concat(deviceList[devGroup.devices[dev]].model);
+    infoArr[4].filter(function(elem, index, self) { return index === self.indexOf(elem); })
+  };
+  
+  if (infoArr[4]) infoArr[4] = infoArr[4].join(', ');
   if (infoArr[5]) infoArr[5] = getDate(infoArr[5]);
   
   var html = "## " + header[0] + "\n"
@@ -91,7 +101,7 @@ function getDeviceInfo(device) {
   return html;
 }
 
-function getRelatedDevices(d) {
+function getRelatedDevices(d, groupTable) {
   var html = '';
   if (!d || !deviceList.hasOwnProperty(d)) return html;
   
@@ -105,9 +115,9 @@ function getRelatedDevices(d) {
   
   if (devArr == null) return html;
   
-  devArr = devArr.filter(function(device) { return device != d } )
+  if (!groupTable) devArr = devArr.filter(function(device) { return device != d } )
   
-  html += "## " + header[1] + "\n";
+  html += "## " + (groupTable) ? groupHeader : header[1] + "\n";
   
   html += '<ul>'
   for (const i in devArr) html += `<li><a href="${devicePath}${devArr[i]}">${deviceList[devArr[i]].name}</a></li>`
@@ -126,9 +136,18 @@ function getDeviceListFromBuild(b) {
   return devArr;
 }
 
-function getDeviceTable(device, showAll, maxDisplayed, simplifyTable) {
+function getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
+  
+  var deviceGroup = [];
+  var deviceGroupDevArr = [];
+  
+  if (groupTable && !showAll) {
+    deviceGroup = deviceGroups.filter(function(x) { return x.devices.includes(d) });
+    for (const i in deviceGroup) for (const j in deviceGroup[i].devices)
+      deviceGroupDevArr.push(deviceGroup[i].devices[j]);
+  }
   
   var title = "## " + header[2] + "\n";
   if (showAll) title = '';
@@ -139,7 +158,15 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable) {
   for (const i in iosList) {
     if (!iosList[i].hasOwnProperty('beta')) continue;
     if (!iosList[i].hasOwnProperty('devices')) continue;
-    if (!getDeviceListFromBuild(iosList[i]).includes(d) && !showAll) continue;
+    
+    const devList = getDeviceListFromBuild(iosList[i]);
+    
+    if (!showAll) {
+      if (groupTable && deviceGroup.length) {
+        if (!devList.some(r => deviceGroupDevArr.includes(r))) continue;
+      }
+      else if (!devList.includes(d)) continue;
+    }
     
     if (iosList[i].beta) buildArr[1].push(iosList[i]);
     else for (const j in buildArr) buildArr[j].push(iosList[i])
@@ -150,7 +177,13 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable) {
     var jbObjArr = [];
     
     for (const b in buildArr[i]) {
-      const getJb = getJailbreaks(buildArr[i][b].build, d, showAll);
+      var getJb = getJailbreaks(buildArr[i][b].build, d, showAll);
+      
+      if (groupTable) {
+        for (const device in deviceGroup.devices) getJb.concat(getJailbreaks(buildArr[i][b].build, device, showAll));
+        getJb = getJb.filter(function(elem, index, self) { return index === self.indexOf(elem); })
+      }
+      
       var jbArr = getJb;
       
       if (maxDisplayed > -1) {
@@ -301,6 +334,6 @@ function getJailbreaks(os, d, showAll) {
   return jbArr;
 }
 
-module.exports = function(device, showAll) {
-  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll, -1, false);
+module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
+  return getDeviceInfo(device, groupTable) + getRelatedDevices(device, groupTable) + getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable);
 }
