@@ -48,7 +48,7 @@ for (var device in deviceList) {
 
 for (const i in deviceGroups) {
   const d = deviceGroups[i];
-  const url = d.name.replace(' ', '-');
+  const url = d.name.replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-');
   page.push({
     path: '/chart/device/' + url + '.html',
     frontmatter: {
