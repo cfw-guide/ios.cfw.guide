@@ -179,8 +179,10 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable
     for (const b in buildArr[i]) {
       var getJb = getJailbreaks(buildArr[i][b].build, d, showAll);
       
-      if (groupTable) {
-        for (const device in deviceGroup.devices) getJb.concat(getJailbreaks(buildArr[i][b].build, device, showAll));
+      if (groupTable && Array.isArray(deviceGroup) && deviceGroup.length == 1) {
+        for (const device in deviceGroup[0].devices) {
+          getJb = getJb.concat(getJailbreaks(buildArr[i][b].build, deviceGroup[0].devices[device], showAll));
+        }
         getJb = getJb.filter(function(elem, index, self) { return index === self.indexOf(elem); })
       }
       
