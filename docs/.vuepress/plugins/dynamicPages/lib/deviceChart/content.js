@@ -183,11 +183,7 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable) {
           continue;
         }
         
-        oldObj = {
-          from: obj.version,
-          to: oldObj.to,
-          jbArr: obj.jbArr,
-        };
+        oldObj.from = obj.version;
         
         simpleJbObjArr[simpleJbObjArr.length - 1] = oldObj;
       }
