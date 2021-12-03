@@ -117,7 +117,8 @@ function getRelatedDevices(d, groupTable) {
   
   if (!groupTable) devArr = devArr.filter(function(device) { return device != d } )
   
-  html += "## " + (groupTable) ? groupHeader : header[1] + "\n";
+  const h = (groupTable) ? groupHeader : header[1]
+  html += "## " + h + "\n";
   
   html += '<ul>'
   for (const i in devArr) html += `<li><a href="${devicePath}${devArr[i]}">${deviceList[devArr[i]].name}</a></li>`
