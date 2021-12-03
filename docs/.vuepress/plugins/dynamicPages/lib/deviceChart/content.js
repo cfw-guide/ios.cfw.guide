@@ -267,8 +267,8 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable
           
           const guideObj = t.jbGuideObj;
           if (guideObj) {
-            url = guideObj.url;
-            name = guideObj.name;
+            if (guideObj.url) url = guideObj.url;
+            if (guideObj.name) name = guideObj.name;
           }
           
           return `<a href="${url}">${name}</a>`
