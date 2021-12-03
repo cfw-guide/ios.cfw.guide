@@ -7,6 +7,12 @@ module.exports = {
       "url": "https://github.com/dora2-iOS/daibutsu",
       "external": true
     },
+    "guide": [
+      {
+        "name": "Installing daibutsu",
+        "url": "/installing-daibutsu/"
+      }
+    ],
     "type": "Untethered",
     "firmwares": ["8.4.1","9.1"]
   },
