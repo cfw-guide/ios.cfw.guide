@@ -3,5 +3,12 @@
   "build": "15A372-GM",
   "released": "2017-09-12",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone10,3": {
+      "ipsw": "none"
+    },
+    "iPhone10,6": {
+      "ipsw": "none"
+    }
+  }
 }
