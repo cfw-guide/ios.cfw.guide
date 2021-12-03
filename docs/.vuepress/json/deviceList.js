@@ -212,7 +212,7 @@ module.exports = {
     "name"  : "iPhone XS Max (China mainland)",
     "soc"   : "A12",
     "arch"  : "arm64e",
-    "model"         : ["Unknown"],
+    "model"         : ["A2103"],
   },
   "iPhone11,6": {
     "name"  : "iPhone XS Max",
