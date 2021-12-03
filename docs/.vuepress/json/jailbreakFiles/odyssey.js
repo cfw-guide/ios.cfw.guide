@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://theodyssey.dev/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Odyssey",
+      "url": "https://www.theiphonewiki.com/wiki/Odyssey",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing Odyssey",

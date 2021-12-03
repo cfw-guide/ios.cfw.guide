@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://jbme.qwertyoruiop.com/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Jbme",
+      "url": "https://www.theiphonewiki.com/wiki/Jbme",
+      "external": true
+    },
     "type": "(Safari) Semi-untethered",
     "firmwares": ["9.3","9.3.3"]
   },

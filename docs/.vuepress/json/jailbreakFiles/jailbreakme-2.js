@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://www.jailbreakme.com/star/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Star",
+      "url": "https://www.theiphonewiki.com/wiki/Star",
+      "external": true
+    },
     "guide": [
       {
         "name": "Using JailbreakMe Star",

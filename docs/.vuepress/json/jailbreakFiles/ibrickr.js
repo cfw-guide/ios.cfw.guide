@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://www.theiphonewiki.com/wiki/IBrickr",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/iBrickr",
+      "url": "https://www.theiphonewiki.com/wiki/iBrickr",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.0","1.0.2"]
   },

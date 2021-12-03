@@ -1,9 +1,14 @@
 module.exports = {
   "name": "n1ghtshade",
-  "alias": "meridian",
+  "alias": "nightshade",
   "info": {
+    "website": {
+      "name": "github.com/synackuk/n1ghtshade",
+      "url": "https://github.com/synackuk/n1ghtshade",
+      "external": true
+    },
     "wiki": {
-      "name": "theiphonewiki.com/wiki/N1ghtshade+",
+      "name": "theiphonewiki.com/wiki/N1ghtshade",
       "url": "https://www.theiphonewiki.com/wiki/N1ghtshade",
       "external": true
     },

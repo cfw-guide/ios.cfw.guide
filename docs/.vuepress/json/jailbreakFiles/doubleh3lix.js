@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://doubleh3lix.tihmstar.net/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/DoubleH3lix",
+      "url": "https://www.theiphonewiki.com/wiki/DoubleH3lix",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing doubleh3lix",

@@ -6,6 +6,11 @@ module.exports = {
       "url": "http://newosxbook.com/liberios/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/LiberiOS",
+      "url": "https://www.theiphonewiki.com/wiki/LiberiOS",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["11.0","11.4.1"]
   },

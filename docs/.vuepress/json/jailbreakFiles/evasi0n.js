@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://www.theiphonewiki.com/wiki/Evasi0n",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Evasi0n",
+      "url": "https://www.theiphonewiki.com/wiki/Evasi0n",
+      "external": true
+    },
     "latestVer": "1.5.3",
     "color": "#ffffff",
     "icon": "/assets/images/evasi0n.png",

@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://unc0ver.dev/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Unc0ver",
+      "url": "https://www.theiphonewiki.com/wiki/Unc0ver",
+      "external": true
+    },
     "guide": [
       {
         "text": "Guide (11.0 to 14.3)",

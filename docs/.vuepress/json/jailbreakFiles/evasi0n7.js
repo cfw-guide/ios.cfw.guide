@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://www.theiphonewiki.com/wiki/Evasi0n7",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Evasi0n7",
+      "url": "https://www.theiphonewiki.com/wiki/Evasi0n7",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing Evasi0n7",

@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://checkra.in/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/checkra1n",
+      "url": "https://www.theiphonewiki.com/wiki/checkra1n",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing Odysseyra1n",

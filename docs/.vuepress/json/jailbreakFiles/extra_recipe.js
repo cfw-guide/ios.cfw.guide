@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://yalu.qwertyoruiop.com/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Yalu",
+      "url": "https://www.theiphonewiki.com/wiki/Yalu",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["10.0","10.0.2"],
     "soc": "A10"

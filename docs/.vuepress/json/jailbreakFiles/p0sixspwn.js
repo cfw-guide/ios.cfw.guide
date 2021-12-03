@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://ih8sn0w.com/p0sixspwn.html",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/p0sixspwn",
+      "url": "https://www.theiphonewiki.com/wiki/p0sixspwn",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing P0sixspwn",

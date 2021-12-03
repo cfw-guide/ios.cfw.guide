@@ -6,5 +6,10 @@ module.exports = {
       "url": "http://newosxbook.com/libertv/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/LiberTV",
+      "url": "https://www.theiphonewiki.com/wiki/LiberTV",
+      "external": true
+    },
   },
 }

@@ -1,6 +1,11 @@
 module.exports = {
   "name": "PPJailbreak",
   "info": {
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/PPJailbreak",
+      "url": "https://www.theiphonewiki.com/wiki/PPJailbreak",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["8.0","8.4"]
   },

@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://dora2ios.web.app/kokeshiJB.html",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/kok3shi",
+      "url": "https://www.theiphonewiki.com/wiki/kok3shi",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["9.3","9.3.5"],
     "notes": "Doesn't support A9 or A9X devices"

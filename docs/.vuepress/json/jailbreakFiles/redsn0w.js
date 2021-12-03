@@ -2,6 +2,11 @@ module.exports = {
   "name": "redsn0w",
   "alias": "redsnow",
   "info": {
+    "website": {
+      "name": "sites.google.com/a/iphone-dev.com/files/home",
+      "url": "https://sites.google.com/a/iphone-dev.com/files/home/",
+      "external": true
+    },
     "wiki": {
       "name": "theiphonewiki.com/wiki/Redsn0w",
       "url": "https://www.theiphonewiki.com/wiki/Redsn0w",
