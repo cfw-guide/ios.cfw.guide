@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Meridian",
+  "priority": 2,
   "info": {
     "website": {
       "name": "meridian.sparkes.zone",

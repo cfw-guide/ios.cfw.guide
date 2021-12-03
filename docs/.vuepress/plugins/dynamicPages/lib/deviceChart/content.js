@@ -25,6 +25,12 @@ const tableHeader = [
   'Jailbreak'
 ]
 
+const simpleTableHeader = [
+  'From',
+  'To',
+  'Jailbreak'
+]
+
 const month = [
   'January',
   'February',
@@ -120,7 +126,7 @@ function getDeviceListFromBuild(b) {
   return devArr;
 }
 
-function getDeviceTable(device, showAll) {
+function getDeviceTable(device, showAll, maxDisplayed, simplifyTable) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
   
@@ -138,24 +144,87 @@ function getDeviceTable(device, showAll) {
     if (iosList[i].beta) buildArr[1].push(iosList[i]);
     else for (const j in buildArr) buildArr[j].push(iosList[i])
   }
-        
-  for (var i in buildArr) {
-    var html = ''
-    for (var b in buildArr[i]) {
-      b = buildArr[i].length - b - 1 // Reverse list of firmwares
+  
+  for (const i in buildArr) {
+    buildArr[i].reverse();
+    var jbObjArr = [];
+    
+    for (const b in buildArr[i]) {
+      const getJb = getJailbreaks(buildArr[i][b].build, d, showAll);
+      var jbArr = getJb;
       
-      html += `<tr>`
-      html += '<td><a href="' + fwPath + buildArr[i][b].build + '">' + buildArr[i][b].build + '</a></td>'
-      html += '<td>' + buildArr[i][b].version.replace('6-enterprise', '6-e') + '</td>'
-      
-      html += '<td>'
-      var jbArr = getJailbreaks(buildArr[i][b].build, d, showAll)
-      for (var jb in jbArr) {
-        html += `<a href="${jbPath}${jbArr[jb].name}">${jbArr[jb].name}</a>`
-        if (jbArr[parseInt(jb)+1]) html += ', '
+      if (maxDisplayed > -1) {
+        var jbArr = getJb.filter(function(x) { return x.hasOwnProperty('priority') });
+        if (jbArr.length == 0) jbArr = getJb;
+        jbArr = jbArr.sort(function(a,b) { return a.priority - b.priority });
+        jbArr = jbArr.slice(0, maxDisplayed);
       }
-      html += '</td>'
-      html += '</tr>'
+      
+      jbObjArr.push({
+        build: buildArr[i][b].build,
+        buildURL: fwPath + buildArr[i][b].build,
+        version: buildArr[i][b].version.replace('6-enterprise', '6-e'),
+        jbArr: jbArr,
+      })
+    }
+    
+    if (simplifyTable) {
+      var simpleJbObjArr = [];
+      for (const i in jbObjArr) {
+        const obj = jbObjArr[i];
+        var oldObj = simpleJbObjArr[simpleJbObjArr.length - 1];
+        
+        if ((i == 0) || (JSON.stringify(obj.jbArr) != JSON.stringify(oldObj.jbArr))) {
+          simpleJbObjArr.push({
+            from: obj.version,
+            to: obj.version,
+            jbArr: obj.jbArr,
+          })
+          continue;
+        }
+        
+        oldObj = {
+          from: obj.version,
+          to: oldObj.to,
+          jbArr: obj.jbArr,
+        };
+        
+        simpleJbObjArr[simpleJbObjArr.length - 1] = oldObj;
+      }
+    };
+    
+    var html = '';
+    if (simplifyTable) {
+      for (const i in simpleJbObjArr) {
+        var t = simpleJbObjArr[i];
+        html += `<tr>`;
+        html += `<td>${t.from}</td>`;
+        html += `<td>${t.to}</td>`;
+        
+        html += `<td>${t.jbArr.map(function(x) {
+          var url = jbPath + x.name;
+          var name = x.name;
+          
+          if (x.hasOwnProperty('info')) if (x.info.hasOwnProperty('guide')) {
+            const guideObj = x.info.guide[0];
+            if (guideObj.hasOwnProperty('url')) url = guideObj.url;
+            if (guideObj.hasOwnProperty('name')) name = guideObj.name;
+          }
+          
+          return `<a href="${url}">${name}</a>`
+        }).join(', ')}</td>`;
+        
+        html += '</tr>';
+      }
+    } else {
+      for (const i in jbObjArr) {
+        var t = jbObjArr[i];
+        html += `<tr>`;
+        html += `<td><a href="${t.buildURL}">${t.build}</a></td>`;
+        html += `<td>${t.version}</td>`;
+        html += `<td>${t.jbArr.map(function(x) { return `<a href="${jbPath}${x.name}">${x.name}</a>` }).join(', ')}</td>`;
+        html += '</tr>';
+      }
     }
     tableHtml.push(html);
   }
@@ -163,6 +232,8 @@ function getDeviceTable(device, showAll) {
   const tableClass = ['tableBetaClass', 'tableMainClass'];
   const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>This list is incomplete. If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href="https://discord.gg/QBj8pBa" target="_blank">Discord</a><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>.</p></div>`
   var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">Show Beta Versions</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">Hide Beta Versions</a></p>"
+  var head = tableHeader;
+  if (simplifyTable) head = simpleTableHeader;
   
   if(tableHtml[0] == tableHtml[1]) return title + `<table class="${tableClass[1]}">
     <colgroup>
@@ -172,9 +243,9 @@ function getDeviceTable(device, showAll) {
     </colgroup>
     <thead>
       <tr>
-        <th>${tableHeader[0]}</th>
-        <th>${tableHeader[1]}</th>
-        <th>${tableHeader[2]}</th>
+        <th>${head[0]}</th>
+        <th>${head[1]}</th>
+        <th>${head[2]}</th>
       </tr>
     </thead>
     <tbody>${tableHtml[0]}</tbody>
@@ -189,9 +260,9 @@ function getDeviceTable(device, showAll) {
     </colgroup>
     <thead>
       <tr>
-        <th>${tableHeader[0]}</th>
-        <th>${tableHeader[1]}</th>
-        <th>${tableHeader[2]}</th>
+        <th>${head[0]}</th>
+        <th>${head[1]}</th>
+        <th>${head[2]}</th>
       </tr>
     </thead>
     <tbody>${tableHtml[1]}</tbody>
@@ -205,9 +276,9 @@ function getDeviceTable(device, showAll) {
     </colgroup>
     <thead>
       <tr>
-        <th>${tableHeader[0]}</th>
-        <th>${tableHeader[1]}</th>
-        <th>${tableHeader[2]}</th>
+        <th>${head[0]}</th>
+        <th>${head[1]}</th>
+        <th>${head[2]}</th>
       </tr>
     </thead>
     <tbody>${tableHtml[0]}</tbody>
@@ -235,5 +306,5 @@ function getJailbreaks(os, d, showAll) {
 }
 
 module.exports = function(device, showAll) {
-  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll);
+  return getDeviceInfo(device) + getRelatedDevices(device) + getDeviceTable(device, showAll, -1, false);
 }

@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Odyssey",
+  "priority": 0,
   "info": {
     "website": {
       "name": "theodyssey.dev",

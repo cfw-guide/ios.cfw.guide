@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Electra",
+  "priority": 0,
   "info": {
     "website": {
       "name": "coolstar.org/electra",

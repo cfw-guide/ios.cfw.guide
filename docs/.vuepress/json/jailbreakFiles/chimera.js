@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Chimera",
+  "priority": 0,
   "info": {
     "website": {
       "name": "chimera.coolstar.org",

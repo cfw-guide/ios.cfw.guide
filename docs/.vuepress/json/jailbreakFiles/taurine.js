@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Taurine",
+  "priority": 0,
   "info": {
     "website": {
       "name": "taurine.app",
