@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://taurine.app/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Taurine",
+      "url": "https://www.theiphonewiki.com/wiki/Taurine",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing Taurine",

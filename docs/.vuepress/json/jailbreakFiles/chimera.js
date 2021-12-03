@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://chimera.coolstar.org/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Chimera",
+      "url": "https://www.theiphonewiki.com/wiki/Chimera",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing Chimera",

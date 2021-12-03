@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://github.com/LinusHenze/Fugu14",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Fugu14",
+      "url": "https://www.theiphonewiki.com/wiki/Fugu14",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["14.4","14.5.1"],
     "soc": "A12+"

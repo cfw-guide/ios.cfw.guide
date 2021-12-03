@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://totally-not.spyware.lol/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/TotallyNotSpyware",
+      "url": "https://www.theiphonewiki.com/wiki/TotallyNotSpyware",
+      "external": true
+    },
     "color": "#e5c67c",
     "icon": "/assets/images/totallynotspyware.png",
     "type": "(Safari) Semi-untethered",

@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://phoenixpwn.com/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Phœnix",
+      "url": "https://www.theiphonewiki.com/wiki/Phœnix",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing Phœnix",

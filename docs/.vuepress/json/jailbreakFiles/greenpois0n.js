@@ -2,6 +2,11 @@ module.exports = {
   "name": "greenpois0n",
   "alias": ["greenpoison", "greenp0ison", "greenp0is0n"],
   "info": {
+    "website": {
+      "name": "greenpois0n.com/downloads (archive.org)",
+      "url": "https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/",
+      "external": true
+    },
     "wiki": {
       "name": "theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
       "url": "https://www.theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",

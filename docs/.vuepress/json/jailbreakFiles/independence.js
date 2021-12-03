@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://code.google.com/archive/p/independence/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/INdependence",
+      "url": "https://www.theiphonewiki.com/wiki/INdependence",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["1.0","1.1.4"]
   },

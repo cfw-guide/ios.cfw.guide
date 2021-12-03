@@ -7,6 +7,11 @@ module.exports = {
       "url": "http://wall.supplies/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Home_Depot",
+      "url": "https://www.theiphonewiki.com/wiki/Home_Depot",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing HomeDepot",

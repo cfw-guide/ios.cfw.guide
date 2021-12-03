@@ -7,5 +7,10 @@ module.exports = {
       "url": "https://nito.tv/downloads",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Backr00m",
+      "url": "https://www.theiphonewiki.com/wiki/Backr00m",
+      "external": true
+    },
   },
 }

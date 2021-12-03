@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://meridian.sparkes.zone/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Meridian",
+      "url": "https://www.theiphonewiki.com/wiki/Meridian",
+      "external": true
+    },
     "guide": [
       {
         "name": "Using Meridian",

@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://github.com/LinusHenze/Fugu",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Fugu",
+      "url": "https://www.theiphonewiki.com/wiki/Fugu",
+      "external": true
+    },
     "type": "Semi-untethered",
     "firmwares": ["13.0","13.5"],
     "soc": "A10, A10X"

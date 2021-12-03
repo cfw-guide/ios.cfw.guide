@@ -1,13 +1,19 @@
 module.exports = {
   "name": "Absinthe",
   "info": {
+    "website": {
+      "name": "greenpois0n.com/downloads (archive.org)",
+      "url": "https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/",
+      "external": true
+    },
     "wiki": {
       "name": "theiphonewiki.com/wiki/Absinthe",
       "url": "https://www.theiphonewiki.com/wiki/Absinthe",
       "external": true
     },
     "type": "Untethered",
-    "firmwares": ["5.0","5.1.1"]
+    "firmwares": ["5.0","5.1.1"],
+    "soc": "A4, A5, A5X",
   },
   "compatibility": [
     {

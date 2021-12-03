@@ -7,6 +7,11 @@ module.exports = {
       "url": "blackra1n.com",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Blackra1n",
+      "url": "https://www.theiphonewiki.com/wiki/Blackra1n",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": ["3.1","3.1.3"]
   },

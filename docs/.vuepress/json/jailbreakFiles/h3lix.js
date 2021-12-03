@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://h3lix.tihmstar.net/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/h3lix",
+      "url": "https://www.theiphonewiki.com/wiki/h3lix",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing h3lix",

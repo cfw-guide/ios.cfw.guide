@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://pastebin.com/cJMVL3Ce",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/4039",
+      "url": "https://www.theiphonewiki.com/wiki/4039",
+      "external": true
+    },
     "type": "Tethered",
     "firmwares": "1.1",
   },

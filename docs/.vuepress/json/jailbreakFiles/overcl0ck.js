@@ -7,5 +7,10 @@ module.exports = {
       "url": "https://github.com/PsychoTea/OverCl0ck",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Overcl0ck",
+      "url": "https://www.theiphonewiki.com/wiki/Overcl0ck",
+      "external": true
+    },
   },
 }

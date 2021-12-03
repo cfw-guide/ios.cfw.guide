@@ -6,6 +6,11 @@ module.exports = {
       "url": "https://etasonjb.tihmstar.net/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/EtasonJB",
+      "url": "https://www.theiphonewiki.com/wiki/EtasonJB",
+      "external": true
+    },
     "guide": [
       {
         "name": "Installing EtasonJB",

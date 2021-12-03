@@ -7,6 +7,11 @@ module.exports = {
       "url": "http://limera1n.com/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/Limera1n",
+      "url": "https://www.theiphonewiki.com/wiki/Limera1n",
+      "external": true
+    },
     "type": "Untethered",
     "firmwares": ["3.2.2","4.2.1"]
   },

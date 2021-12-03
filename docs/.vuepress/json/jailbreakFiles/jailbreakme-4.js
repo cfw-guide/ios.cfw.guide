@@ -7,6 +7,11 @@ module.exports = {
       "url": "https://jailbreak.me/",
       "external": true
     },
+    "wiki": {
+      "name": "theiphonewiki.com/wiki/JailbreakMe_4.0",
+      "url": "https://www.theiphonewiki.com/wiki/JailbreakMe_4.0",
+      "external": true
+    },
     "type": "(Safari) Semi-untethered",
     "firmwares": ["9.1","9.3.4"]
   },
