@@ -50,7 +50,7 @@ for (const i in deviceGroups) {
   const d = deviceGroups[i];
   const url = d.name.replace(' ', '-');
   page.push({
-    path: '/chart/device/simple/' + url + '.html',
+    path: '/chart/device/' + url + '.html',
     frontmatter: {
       title: 'Firmware Chart (' + d.name + ')',
       description: 'Compatible jailbreaks for ' + d.name,
