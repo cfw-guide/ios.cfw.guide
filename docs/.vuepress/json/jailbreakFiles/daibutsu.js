@@ -1,5 +1,6 @@
 module.exports = {
   "name": "daibutsu",
+  "priority": 2,
   "info": {
     "website": {
       "name": "github.com/dora2-iOS/daibutsu",

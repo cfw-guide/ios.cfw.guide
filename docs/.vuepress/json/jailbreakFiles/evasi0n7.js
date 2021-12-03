@@ -1,6 +1,7 @@
 module.exports = {
   "name": "evasi0n7",
   "alias": "evasion7",
+  "priority": 0,
   "info": {
     "website": {
       "name": "theiphonewiki.com/wiki/Evasi0n7",
