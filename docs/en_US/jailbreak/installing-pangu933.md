@@ -1,6 +1,6 @@
 ---
 lang: en_US
-title: Installing Pangu9
+title: Installing Pangu933
 description: Guide to installing Pangu933
 permalink: /installing-pangu933
 redirect_from:

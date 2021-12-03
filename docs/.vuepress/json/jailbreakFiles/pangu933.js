@@ -12,6 +12,12 @@ module.exports = {
       "url": "https://www.theiphonewiki.com/wiki/Pangu9#Pangu9_for_iOS_9.2_-_9.3.3",
       "external": true
     },
+    "guide": [
+      {
+        "name": "Installing Pangu933",
+        "url": "/installing-pangu933/"
+      }
+    ],
     "type": "Semi-untethered",
     "firmwares": ["9.2","9.3.3"]
   },

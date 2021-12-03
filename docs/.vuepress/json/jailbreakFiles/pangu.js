@@ -8,6 +8,12 @@ module.exports = {
       "url": "https://www.theiphonewiki.com/wiki/Pangu",
       "external": true
     },
+    "guide": [
+      {
+        "name": "Installing Pangu7",
+        "url": "/installing-pangu7/"
+      }
+    ],
     "type": "Untethered",
     "firmwares": ["7.1","7.1.2"]
   },
