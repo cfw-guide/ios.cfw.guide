@@ -44,14 +44,13 @@ function getJailbreaks(os, d, showAll) {
 }
 
 module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
-  const d = device;
-  if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
+  if ((!device || !deviceList.hasOwnProperty(device)) && !showAll) return;
   
   var deviceGroup = [];
   var deviceGroupDevArr = [device];
-  
+
   if (groupTable && !showAll) {
-    deviceGroup = deviceGroups.filter(function(x) { return x.devices.includes(d) });
+    deviceGroup = deviceGroups.filter(function(x) { return x.devices.includes(device)});
     for (const i in deviceGroup) for (const j in deviceGroup[i].devices)
       deviceGroupDevArr.push(deviceGroup[i].devices[j]);
   }
@@ -69,100 +68,22 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
       if (groupTable && deviceGroup.length) {
         if (!devList.some(r => deviceGroupDevArr.includes(r))) continue;
       }
-      else if (!devList.includes(d)) continue;
+      else if (!devList.includes(device)) continue;
     }
     
     if (iosList[i].beta) buildArr[1].push(iosList[i]);
     else for (const j in buildArr) buildArr[j].push(iosList[i])
   }
   
+  var tableArr = require('./getTableArr')(device, showAll, maxDisplayed, simplifyTable, groupTable);
+  
   for (const i in buildArr) {
-    buildArr[i].reverse();
-    var jbObjArr = [];
-    
-    for (const b in buildArr[i]) {
-      var getJb = getJailbreaks(buildArr[i][b].build, d, showAll);
-      
-      if (groupTable && Array.isArray(deviceGroup) && deviceGroup.length == 1) {
-        for (const device in deviceGroup[0].devices) {
-          getJb = getJb.concat(getJailbreaks(buildArr[i][b].build, deviceGroup[0].devices[device], showAll));
-        }
-        getJb = getJb.filter(function(elem, index, self) { return index === self.indexOf(elem); })
-      }
-      
-      var jbArr = getJb;
-      
-      if (maxDisplayed > -1) {
-        var jbArr = getJb.filter(function(x) { return x.hasOwnProperty('priority') });
-        if (jbArr.length == 0) jbArr = getJb;
-        jbArr = jbArr.sort(function(a,b) { return a.priority - b.priority });
-        jbArr = jbArr.slice(0, maxDisplayed);
-      };
-      
-      var jbGuideObj = {name: '', url: ''};
-      
-      if (simplifyTable) {
-        jbGuideObj = {};
-        for (const j in jbArr) {
-          if (!jbArr[j].hasOwnProperty('info')) continue;
-          if (!jbArr[j].info.hasOwnProperty('guide')) continue;
-          
-          const guide = jbArr[j].info.guide;
-          var ret = guide[0];
-          
-          for (const a in guide) {
-            if (!guide[a].hasOwnProperty('devices') && !guide[a].hasOwnProperty('firmwares')) continue;
-            if (
-              guide[a].devices.some(r => deviceGroupDevArr.includes(r)) &&
-              guide[a].firmwares.includes(buildArr[i][b].build)
-            ) {
-              ret = guide[a];
-              break;
-            }
-          }
-          
-          jbGuideObj = ret;
-        }
-      };
-      
-      jbObjArr.push({
-        build: buildArr[i][b].build,
-        buildURL: fwPath + buildArr[i][b].build,
-        version: buildArr[i][b].version.replace('6-enterprise', '6-e'),
-        jbArr: jbArr,
-        jbGuideObj: jbGuideObj,
-      })
-    }
-    
-    if (simplifyTable) {
-      var simpleJbObjArr = [];
-      for (const i in jbObjArr) {
-        const obj = jbObjArr[i];
-        var oldObj = simpleJbObjArr[simpleJbObjArr.length - 1];
-        
-        if ((i == 0) || (JSON.stringify(obj.jbArr) != JSON.stringify(oldObj.jbArr) || (JSON.stringify(obj.jbGuideObj) != JSON.stringify(oldObj.jbGuideObj)))) {
-          simpleJbObjArr.push({
-            fromBuild: obj.build,
-            from: obj.version,
-            toBuild: obj.build,
-            to: obj.version,
-            jbArr: obj.jbArr,
-            jbGuideObj: obj.jbGuideObj,
-          })
-          continue;
-        }
-        
-        oldObj.from = obj.version;
-        oldObj.fromBuild = obj.build;
-        
-        simpleJbObjArr[simpleJbObjArr.length - 1] = oldObj;
-      }
-    };
+    var jbObjArr = tableArr[i]
     
     var html = '';
     if (simplifyTable) {
-      for (const i in simpleJbObjArr) {
-        var t = simpleJbObjArr[i];
+      for (const i in jbObjArr) {
+        var t = jbObjArr[i];
         html += `<tr>`;
         html += `<td>${t.from}</td>`;
         html += `<td>${t.to}</td>`;
@@ -214,5 +135,5 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   
   if(tableHtml[0] == tableHtml[1]) return tableArr[0];
   
-  return switchButtons + betaTip + tableArr.join('')
+  return switchButtons + betaTip + tableArr.join('');
 }
