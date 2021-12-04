@@ -5,6 +5,7 @@ description: Guide to using Coolbooter to dualboot two different versions of iOS
 permalink: /using-coolbooter
 redirect_from:
   - /coolbooter
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 extra_contributors:
   - TheHacker894
 ---
@@ -43,7 +44,3 @@ This guide will require that you are already jailbroken on a supported device li
 1. When prompted to lock your device, lock it
 
 To reboot back into your main version of iOS, reboot.
-
-::: tip
-If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb) for support.
-:::
