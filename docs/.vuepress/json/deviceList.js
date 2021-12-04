@@ -1,6 +1,6 @@
 module.exports = {
   "iPhone1,1": {
-    "name"  : "iPhone 2G",
+    "name"  : "iPhone",
     "soc"   : "APL0098",
     "arch"  : "armv6",
     "type"  : "iPhone",
