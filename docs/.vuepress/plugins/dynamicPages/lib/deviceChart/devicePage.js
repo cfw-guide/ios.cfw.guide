@@ -1,25 +1,37 @@
 const devicePath = '/chart/device/'
 const deviceList = require('../../../../json/deviceList');
+const deviceGroups = require('../../../../json/deviceGroups');
 
-const header = [
-  'iPhone',
-  'iPad',
-  'iPod'
-]
+const header = {
+  iPhone: 'iPhone',
+  iPad: 'iPad',
+  mini: 'iPad mini',
+  Pro: 'iPad Pro',
+  Air: 'iPad Air',
+  iPod: 'iPod'
+}
 
-const deviceId = [
-  'iPhone',
-  'iPad',
-  'iPod'
-]
+function getDeviceArr(typeArr) {
+  var deviceArr = [];
+  for (const i in typeArr) {
+    deviceArr.push([]);
+    for (const d in deviceGroups) {
+      if (deviceList[deviceGroups[d].devices[0]].type == typeArr[i]) {
+        deviceArr[i].push(deviceGroups[d]);
+      }
+    }
+    deviceArr[i].reverse()
+  }
+  
+  return deviceArr;
+}
 
-var deviceArr = [[], [], []]
-var tableCount = [];
-for (var i in deviceId) {
-  for (var d in deviceList) if (d.startsWith(deviceId[i]))
-    deviceArr[i].push(deviceList[d]);
-  deviceArr[i].reverse()
-  tableCount.push(parseInt(deviceArr[i].length / 3) + !!(deviceArr[i].length % 3))
+function getTableCount(typeArr, deviceArr) {
+  var tableCount = [];
+  for (const i in typeArr) {
+    tableCount.push(parseInt(deviceArr[i].length / 3) + !!(deviceArr[i].length % 3))
+  }
+  return tableCount;
 }
 
 function getDevice(device) {
@@ -32,14 +44,17 @@ function getDevice(device) {
   return ret;
 }
 
-function getHtml() {
+function getHtml(typeArr) {
   var html = '';
   
-  html += '[[toc]]\n'
+  if (typeArr.length > 1) html += '[[toc]]\n';
   
-  for (var i in deviceArr) {
+  var deviceArr = getDeviceArr(typeArr);
+  var tableCount = getTableCount(typeArr, deviceArr);
+  
+  for (const i in deviceArr) {
     if (deviceArr[i].length < 1) continue;
-    html += '## ' + header[i] + '\n';
+    html += '## ' + header[typeArr[i]] + '\n';
     for (var j = 0; j < tableCount[i]; j++) {
       html += '<table><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><thead><tr>'
       for (var k = 0; k < 3; k++) {
@@ -49,8 +64,7 @@ function getHtml() {
       html += '</tr></thead><tbody><tr>'
       for (var k = 0; k < 3; k++) {
         if (deviceArr[i][j*3+k]) {
-          const device = getDevice(deviceArr[i][j*3+k]);
-          html += '<td><a href="' + devicePath + device + '"><img src="https://ipsw.me/assets/devices/' + device + '.png" alt="" width="50%"></a></td>';
+          html += '<td><a href="' + devicePath + deviceArr[i][j*3+k].name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + deviceArr[i][j*3+k].devices[0] + '.png" alt="" width="50%"></a></td>';
         }
         else html += '<td></td>';
       }
@@ -61,4 +75,6 @@ function getHtml() {
   return html;
 }
 
-module.exports = getHtml();
+module.exports = function(typeArr) {
+  return getHtml(typeArr);
+}

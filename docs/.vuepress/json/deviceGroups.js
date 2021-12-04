@@ -1,6 +1,6 @@
 module.exports = [
   {
-    name: "iPhone",
+    name: "iPhone 2G",
     devices: [
       "iPhone1,1",
     ],
@@ -144,7 +144,7 @@ module.exports = [
     ],
   },
   {
-    name: "iPad",
+    name: "iPad 1",
     devices: [
       "iPad1,1",
     ],
@@ -284,30 +284,45 @@ module.exports = [
     ],
   },
   {
-    name: "iPad Pro",
+    name: "iPad Pro (9.7-inch)",
     devices: [
       "iPad6,3",
       "iPad6,4",
+    ],
+  },
+  {
+    name: "iPad Pro (12.7-inch)",
+    devices: [
       "iPad6,7",
       "iPad6,8",
     ],
   },
   {
-    name: "iPad Pro (2nd generation)",
+    name: "iPad Pro (12.9-inch) (2nd generation)",
     devices: [
       "iPad7,1",
       "iPad7,2",
+    ],
+  },
+  {
+    name: "iPad Pro (10.5-inch)",
+    devices: [
       "iPad7,3",
       "iPad7,4",
     ],
   },
   {
-    name: "iPad Pro (3rd generation)",
+    name: "iPad Pro 11-inch",
     devices: [
       "iPad8,1",
       "iPad8,2",
       "iPad8,3",
       "iPad8,4",
+    ],
+  },
+  {
+    name: "iPad Pro 12.9-inch (3rd generation)",
+    devices: [
       "iPad8,5",
       "iPad8,6",
       "iPad8,7",
@@ -315,21 +330,31 @@ module.exports = [
     ],
   },
   {
-    name: "iPad Pro (4th generation)",
+    name: "iPad Pro 11-inch (2nd generation)",
     devices: [
       "iPad8,9",
       "iPad8,10",
+    ],
+  },
+  {
+    name: "iPad Pro 12.9-inch (4th generation)",
+    devices: [
       "iPad8,11",
       "iPad8,12",
     ],
   },
   {
-    name: "iPad Pro (5th generation)",
+    name: "iPad Pro 11-inch (3rd generation)",
     devices: [
       "iPad13,4",
       "iPad13,5",
       "iPad13,6",
       "iPad13,7",
+    ],
+  },
+  {
+    name: "iPad Pro 12.9-inch (5th generation)",
+    devices: [
       "iPad13,8",
       "iPad13,9",
       "iPad13,10",
