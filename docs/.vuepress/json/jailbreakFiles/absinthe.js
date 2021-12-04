@@ -1,5 +1,6 @@
 module.exports = {
   "name": "Absinthe",
+  "priority": 0,
   "info": {
     "website": {
       "name": "greenpois0n.com/downloads (archive.org)",
