@@ -249,7 +249,7 @@ module.exports = {
     "soc"   : "A12",
     "arch"  : "arm64e",
     "type"  : "iPhone",
-    "model"         : ["A1921", "A2101", "A2102", "A2103", "A2104"],
+    "model"         : ["A1921", "A2101", "A2102", "A2104"],
   },
   "iPhone11,8": {
     "name"  : "iPhone XR",
@@ -627,7 +627,7 @@ module.exports = {
     "soc"   : "A10",
     "arch"  : "arm64",
     "type"  : "iPad",
-    "model"         : ["A2198", "A2199", "A2299"],
+    "model"         : ["A2198", "A2199", "A2200"],
   },
   "iPad8,1": {
     "name"  : "iPad Pro 11-inch Wi-Fi",
