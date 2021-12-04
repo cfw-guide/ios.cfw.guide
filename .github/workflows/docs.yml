@@ -25,7 +25,6 @@ jobs:
           node-version: '14'
           
       - name: Increase memory to 8GB
-        run: NODE_OPTIONS="--max-old-space-size=8192"
 
       # install dependencies if the cache did not hit
       - name: Install dependencies
@@ -34,7 +33,9 @@ jobs:
 
       # run build script
       - name: Build VuePress site
-        run: yarn docs:build
+        run: |
+          NODE_OPTIONS="--max-old-space-size=8192"
+          yarn docs:build
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
