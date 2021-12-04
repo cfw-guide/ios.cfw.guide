@@ -1,5 +1,10 @@
 module.exports = [
   {
+    text: 'Absinthe',
+    link: '/installing-absinthe/',
+    pkgman: 'cydia',
+  },
+  {
     text: 'Taurine',
     link: '/installing-taurine/',
     pkgman: 'sileo',
@@ -82,6 +87,11 @@ module.exports = [
   {
     text: 'doubleh3lix',
     link: '/installing-doubleh3lix/',
+    pkgman: 'cydia',
+  },
+  {
+    text: 'sockH3lix',
+    link: '/installing-sockh3lix/',
     pkgman: 'cydia',
   },
   {
