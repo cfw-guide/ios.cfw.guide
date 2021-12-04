@@ -8,7 +8,21 @@ module.exports = [
       },
       {
         text: 'Devices',
-        link: '/chart/device.html'
+        link: '/chart/device.html',
+        children: [
+          {
+            text: 'iPhone',
+            link: '/chart/device/iPhone.html',
+          },
+          {
+            text: 'iPad',
+            link: '/chart/device/iPad.html',
+          },
+          {
+            text: 'iPod',
+            link: '/chart/device/iPod.html',
+          },
+        ]
       }
     ]
   },

@@ -30,11 +30,8 @@ module.exports = {
     {
       "firmwares": [
         "16A366", // 12.0
-        "16A367", // 12.0, iPhone XR only
         "16A404", // 12.0.1
         "16B92", // 12.1
-        "16B93", // 12.1, iPhone XR only
-        "16B94", // 12.1, iPhone XR only
         "16C50", // 12.1.1
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
@@ -113,9 +110,12 @@ module.exports = {
     {
       "firmwares": [
         "16A366", // 12.0
+        "16A367", // 12.0, iPhone XR only
         "16A404", // 12.0.1
         "16A405", // 12.0.1, iPhone XS, iPhone XS Max and iPhone XR only
         "16B92", // 12.1
+        "16B93", // 12.1, iPhone XR only
+        "16B94", // 12.1, iPhone XR only
         "16C50", // 12.1.1
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
