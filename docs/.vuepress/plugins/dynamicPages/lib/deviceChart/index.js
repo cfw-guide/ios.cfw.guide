@@ -13,7 +13,7 @@ page.push({
     lastUpdated: false,
     contributors: false,
   },
-  content: require('./content')('', true, -1, false, false)
+  content: require('./deviceTable')('', true, -1, false, false)
 })
 
 // Device listing
@@ -50,7 +50,7 @@ for (var device in deviceList) {
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./content')(device, false, -1, false, false)
+    content: require('./deviceTable')(device, false, -1, false, false)
   })
 };
 
@@ -67,7 +67,7 @@ for (const i in deviceGroups) {
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./content')(d.devices[0], false, 1, true, true)
+    content: require('./deviceTable')(d.devices[0], false, 1, true, true)
   })
 }
 
