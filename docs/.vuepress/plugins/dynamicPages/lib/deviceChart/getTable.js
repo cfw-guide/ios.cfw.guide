@@ -1,25 +1,12 @@
+const iosList = require('../../../../json/ios');
+const deviceList = require('../../../../json/deviceList');
+const deviceGroups = require('../../../../json/deviceGroups');
+const jbList = require('../../../../json/jailbreak');
+
 const jbPath = '/chart/jailbreak/'
 const fwPath = '/chart/firmware/'
 const devicePath = '/chart/device/'
 const betaDevicePath = '/chart/beta/device'
-
-const header = [
-  'Info',
-  'Related Devices',
-  'Table',
-]
-
-const groupHeader = 'Grouped Devices';
-
-const infoHeader = [
-  'Device',
-  'Identifier',
-  'SoC',
-  'Arch',
-  'Model',
-  'Released',
-  'Discontinued'
-];
 
 const tableHeader = [
   'Build',
@@ -33,110 +20,30 @@ const simpleTableHeader = [
   'Jailbreak'
 ]
 
-const month = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December'
-]
-
-const iosList = require('../../../../json/ios');
-const deviceList = require('../../../../json/deviceList');
-const deviceGroups = require('../../../../json/deviceGroups');
-const jbList = require('../../../../json/jailbreak');
-
-function getDate(d) {
-  var date = d.split('-');
-  for (var i in date) date[i] = parseInt(date[i])
-  date[1] = month[date[1]-1]
-  return `${date[1]} ${date[2]}, ${date[0]}`
-}
-
-function getDeviceInfo(device, groupTable) {
-  const d = device;
-  if (!d || !deviceList.hasOwnProperty(d)) return '';
-  
-  var infoArr = [
-    deviceList[d].name,
-    d,
-    deviceList[d].soc,
-    deviceList[d].arch,
-    deviceList[d].model,
-    deviceList[d].released
-  ];
-  
-  if (groupTable) {
-    var devGroup = deviceGroups.filter(function(x) { return x.devices.includes(d) });
-    if (devGroup.length < 1) return '';
-    if (Array.isArray(devGroup) && devGroup.length == 1) devGroup = devGroup[0];
-    
-    infoArr[0] = devGroup.name;
-    infoArr[1] = devGroup.devices.join(', ');
-    
-    for (const dev in devGroup.devices) infoArr[4] = infoArr[4].concat(deviceList[devGroup.devices[dev]].model);
-    infoArr[4] = infoArr[4].filter(function(elem, index, self) { return index === self.indexOf(elem); })
-  };
-  
-  if (infoArr[4]) infoArr[4] = infoArr[4].join(', ');
-  if (infoArr[5]) infoArr[5] = getDate(infoArr[5]);
-  
-  var html = "## " + header[0] + "\n"
-  
-  html += '<p>'
-  for (var i in infoArr) if (infoArr[i]) {
-    html += infoHeader[i] + ': ' + infoArr[i];
-    if (infoArr[parseInt(i) + 1]) html += '<br>';
-  }
-  html += "</p>\n\n"
-  
-  return html;
-}
-
-function getRelatedDevices(d, groupTable) {
-  var html = '';
-  if (!d || !deviceList.hasOwnProperty(d)) return html;
-  
-  let devArr;
-  
-  for (const i in deviceGroups) {
-    if (!deviceGroups[i].hasOwnProperty('devices')) continue;
-    if (deviceGroups[i].devices.length < 2) continue;
-    if (deviceGroups[i].devices.includes(d)) devArr = deviceGroups[i].devices
-  }
-  
-  if (devArr == null) return html;
-  
-  if (!groupTable) devArr = devArr.filter(function(device) { return device != d } )
-  
-  const h = (groupTable) ? groupHeader : header[1]
-  html += "## " + h + "\n";
-  
-  html += '<ul>'
-  for (const i in devArr) html += `<li><a href="${devicePath}${devArr[i]}">${deviceList[devArr[i]].name}</a></li>`
-  html += "</ul>\n\n"
-  
-  return html;
-}
-
-function isObject(objValue) {
-  return objValue && typeof objValue === 'object' && objValue.constructor === Object && !Array.isArray(objValue) && objValue != null;
-}
-
 function getDeviceListFromBuild(b) {
   var devArr = [];
   for (const i in b.devices) devArr.push(i)
   return devArr;
 }
 
-function getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable) {
+function getJailbreaks(os, d, showAll) {
+  var jbArr = [];
+  for (var i in jbList) {
+    var jb = jbList[i];
+    if (!jb.hasOwnProperty('compatibility')) continue;
+    for (var j in jb.compatibility) {
+      if (!jb.compatibility[j].hasOwnProperty('firmwares') || !jb.compatibility[j].hasOwnProperty('devices')) continue;
+      var devArr = jb.compatibility[j].devices;
+      var fwArr = jb.compatibility[j].firmwares;
+      if (fwArr.includes(os) && (devArr.includes(d) || showAll))
+        if (!jbArr.includes(jb))
+          jbArr.push(jb)
+    }
+  }
+  return jbArr;
+}
+
+module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
   const d = device;
   if ((!d || !deviceList.hasOwnProperty(d)) && !showAll) return;
   
@@ -148,9 +55,6 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable
     for (const i in deviceGroup) for (const j in deviceGroup[i].devices)
       deviceGroupDevArr.push(deviceGroup[i].devices[j]);
   }
-  
-  var title = "## " + header[2] + "\n";
-  if (showAll) title = '';
   
   var tableHtml = [];
   var buildArr = [[], []];
@@ -297,76 +201,18 @@ function getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable
   var head = tableHeader;
   if (simplifyTable) head = simpleTableHeader;
   
-  if(tableHtml[0] == tableHtml[1]) return title + `<table class="${tableClass[1]}">
-    <colgroup>
-      <col style="width: 15%">
-      <col style="width: 15%">
-      <col style="width: 70%">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>${head[0]}</th>
-        <th>${head[1]}</th>
-        <th>${head[2]}</th>
-      </tr>
-    </thead>
-    <tbody>${tableHtml[0]}</tbody>
-  </table>`
-  
-  tableHtml = `
-  <table class="${tableClass[0]}">
-    <colgroup>
-      <col style="width: 15%">
-      <col style="width: 15%">
-      <col style="width: 70%">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>${head[0]}</th>
-        <th>${head[1]}</th>
-        <th>${head[2]}</th>
-      </tr>
-    </thead>
-    <tbody>${tableHtml[1]}</tbody>
-  </table>
-  
-  <table class="${tableClass[1]}">
-    <colgroup>
-      <col style="width: 15%">
-      <col style="width: 15%">
-      <col style="width: 70%">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>${head[0]}</th>
-        <th>${head[1]}</th>
-        <th>${head[2]}</th>
-      </tr>
-    </thead>
-    <tbody>${tableHtml[0]}</tbody>
-  </table>
-  `
-  
-  return title + switchButtons + betaTip + tableHtml
-}
-
-function getJailbreaks(os, d, showAll) {
-  var jbArr = [];
-  for (var i in jbList) {
-    var jb = jbList[i];
-    if (!jb.hasOwnProperty('compatibility')) continue;
-    for (var j in jb.compatibility) {
-      if (!jb.compatibility[j].hasOwnProperty('firmwares') || !jb.compatibility[j].hasOwnProperty('devices')) continue;
-      var devArr = jb.compatibility[j].devices;
-      var fwArr = jb.compatibility[j].firmwares;
-      if (fwArr.includes(os) && (devArr.includes(d) || showAll))
-        if (!jbArr.includes(jb))
-          jbArr.push(jb)
-    }
+  var tableArr = [];
+  for (var i = 0; i < 2; i++) {
+    tableArr.push(
+    `<table class="${tableClass[1 - i]}">
+      <colgroup><col style="width: 15%"><col style="width: 15%"><col style="width: 70%"></colgroup>
+      <thead><tr><th>${head.join('</th><th>')}</th></tr></thead>
+      <tbody>${tableHtml[i]}</tbody>
+    </table>`
+    )
   }
-  return jbArr;
-}
-
-module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
-  return getDeviceInfo(device, groupTable) + getRelatedDevices(device, groupTable) + getDeviceTable(device, showAll, maxDisplayed, simplifyTable, groupTable);
+  
+  if(tableHtml[0] == tableHtml[1]) return tableArr[0];
+  
+  return switchButtons + betaTip + tableArr.join('')
 }
