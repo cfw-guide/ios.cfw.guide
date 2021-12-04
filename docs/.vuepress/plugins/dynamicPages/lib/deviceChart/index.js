@@ -38,6 +38,67 @@ for (const i in types) {
   })
 }
 
+page.push({
+  path: '/get-started/iPhone',
+  frontmatter: {
+    title: 'Device Selection (iPhone)',
+    description: 'Find out what jailbreaks you can use on your iPhone',
+    sidebar: false,
+    editLink: false,
+    lastUpdated: false,
+    contributors: false,
+  },
+  content: `## Required Reading
+  
+  Different iPhones will require different steps to jailbreak your iOS device. This page will help you find where to start.
+  
+  Please select what model of iPhone you have below.
+  
+  ::: tip
+  Note that all "Plus", "Max", "Pro" and "mini" models of iPhones are functionally identical to the regular models.
+  :::
+  
+  ${require('./devicePage')(['iPhone'], '/get-started/')}`
+})
+
+page.push({
+  path: '/get-started/iPad',
+  frontmatter: {
+    title: 'Device Selection (iPad)',
+    description: 'Find out what jailbreaks you can use on your iPad',
+    sidebar: false,
+    editLink: false,
+    lastUpdated: false,
+    contributors: false,
+  },
+  content: `## Required Reading
+  
+  Different iPads will require different steps to jailbreak your iOS device. This page will help you find where to start.
+  
+  Please select what model of iPad you have below.
+  
+  ${require('./devicePage')(['iPad','mini','Pro','Air'], '/get-started/')}`
+})
+
+page.push({
+  path: '/get-started/iPod',
+  frontmatter: {
+    title: 'Device Selection (iPod)',
+    description: 'Find out what jailbreaks you can use on your iPod',
+    sidebar: false,
+    editLink: false,
+    lastUpdated: false,
+    contributors: false,
+  },
+  content: `## Required Reading
+  
+  Different iPods will require different steps to jailbreak your iOS device. This page will help you find where to start.
+  
+  Please select what model of iPod you have below.
+  
+  ${require('./devicePage')(['iPod'], '/get-started/')}`
+})
+
 for (var device in deviceList) {
   // Device specific charts
   page.push({
@@ -67,7 +128,7 @@ for (const i in deviceGroups) {
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./deviceTable')(d.devices[0], false, 1, true, true)
+    content: require('./deviceTable')(d.devices[0], false, -1, false, false)
   })
   
   page.push({

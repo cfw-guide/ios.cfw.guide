@@ -22,9 +22,9 @@ Please select what kind of device you have below.
   </thead>
   <tbody>
     <tr>
-      <td><a href="iphone/"><img src="/assets/images/iphone12pro.png" alt="iPhone" width="50%"></a></td>
-      <td><a href="ipad/"><img src="/assets/images/iPad8,9.png" alt="iPad" width="50%"></a></td>
-      <td><a href="ipod/"><img src="/assets/images/iPod9,1.png" alt="iPod" width="50%"></a></td>
+      <td><a href="iPhone/"><img src="/assets/images/iphone12pro.png" alt="iPhone" width="50%"></a></td>
+      <td><a href="iPad/"><img src="/assets/images/iPad8,9.png" alt="iPad" width="50%"></a></td>
+      <td><a href="iPod/"><img src="/assets/images/iPod9,1.png" alt="iPod" width="50%"></a></td>
     </tr>
   </tbody>
 </table>

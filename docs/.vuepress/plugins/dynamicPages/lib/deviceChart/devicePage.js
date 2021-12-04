@@ -44,7 +44,7 @@ function getDevice(device) {
   return ret;
 }
 
-function getHtml(typeArr) {
+function getHtml(typeArr, path) {
   var html = '';
   
   if (typeArr.length > 1) html += '[[toc]]\n';
@@ -54,7 +54,7 @@ function getHtml(typeArr) {
   
   for (const i in deviceArr) {
     if (deviceArr[i].length < 1) continue;
-    html += '## ' + header[typeArr[i]] + '\n';
+    if (typeArr.length > 1) html += '## ' + header[typeArr[i]] + '\n';
     for (var j = 0; j < tableCount[i]; j++) {
       html += '<table><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><thead><tr>'
       for (var k = 0; k < 3; k++) {
@@ -64,8 +64,9 @@ function getHtml(typeArr) {
       html += '</tr></thead><tbody><tr>'
       for (var k = 0; k < 3; k++) {
         const d = deviceArr[i][j*3+k];
+        const p = path || devicePath;
         if (d) {
-          html += '<td><a href="' + devicePath + d.name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + d.devices[0] + '.png" alt="" width="50%"></a></td>';
+          html += '<td><a href="' + p + d.name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + d.devices[0] + '.png" alt="" width="50%"></a></td>';
         }
         else html += '<td></td>';
       }
@@ -76,6 +77,6 @@ function getHtml(typeArr) {
   return html;
 }
 
-module.exports = function(typeArr) {
-  return getHtml(typeArr);
+module.exports = function(typeArr, path) {
+  return getHtml(typeArr, path);
 }
