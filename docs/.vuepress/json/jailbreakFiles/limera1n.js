@@ -1,6 +1,7 @@
 module.exports = {
   "name": "limera1n",
   "alias": "limerain",
+  "priority": 3,
   "info": {
     "website": {
       "name": "limera1n.com",
