@@ -153,25 +153,69 @@ module.exports = {
         "15G5074a", // 11.4.1 beta 4
         "15G5077a", // 11.4.1 beta 5
         "15G77", // 11.4.1
+        "16A366-GM", // 12.0 GM
+        "16A5288q", // 12.0 beta
+        "16A5308e", // 12.0 beta 2
+        "16A5318d", // 12.0 beta 3
+        "16A5327f", // 12.0 beta 4
+        "16A5339e", // 12.0 beta 5
+        "16A5345f", // 12.0 beta 6
+        "16A5354b", // 12.0 beta 7
+        "16A5357b", // 12.0 beta 8
+        "16A5362a", // 12.0 beta 9
+        "16A5364a", // 12.0 beta 10
+        "16A5365b", // 12.0 beta 11
+        "16A5366a", // 12.0 beta 12
         "16A366", // 12.0
         "16A367", // 12.0, iPhone XR only
         "16A404", // 12.0.1
         "16A405", // 12.0.1, iPhone XS, iPhone XS Max and iPhone XR only
+        "16B5059d", // 12.1 beta
+        "16B5068i", // 12.1 beta 2
+        "16B5077c", // 12.1 beta 3
+        "16B5084a", // 12.1 beta 4
+        "16B5089b", // 12.1 beta 5
         "16B92", // 12.1
         "16B93", // 12.1, iPhone XR only
         "16B94", // 12.1, iPhone XR only
+        "16C5036c", // 12.1.1 beta
+        "16C5043b", // 12.1.1 beta 2
+        "16C5050a", // 12.1.1 beta 3
         "16C50", // 12.1.1
+        "16D5024a", // 12.1.2 beta
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
+        "16D5032a", // 12.1.3 beta 2
+        "16D5037a", // 12.1.3 beta 3
+        "16D5039a", // 12.1.3 beta 4
         "16D39", // 12.1.3
         "16D40", // 12.1.3, iPhone XS, iPhone XS Max, iPhone XR and iPad Pro (3rd generation) only
         "16D57", // 12.1.4
+        "16E5181f", // 12.2 beta
+        "16E5191d", // 12.2 beta 2
+        "16E5201e", // 12.2 beta 3
+        "16E5212f", // 12.2 beta 4
+        "16E5223a", // 12.2 beta 5
+        "16E5227a", // 12.2 beta 6
         "16E227", // 12.2
+        "16F5117h", // 12.3 beta
+        "16F5129d", // 12.3 beta 2
+        "16F5139e", // 12.3 beta 3
+        "16F5148a", // 12.3 beta 4
+        "16F5155a", // 12.3 beta 5
+        "16F5156a", // 12.3 beta 6
         "16F156", // 12.3
         "16F8155", // 12.3, iPod touch (7th generation) only
         "16F203", // 12.3.1
         "16F8202", // 12.3.1, iPod touch (7th generation) only
         "16F250", // 12.3.2
+        "16G5027g", // 12.4 beta
+        "16G5027i", // 12.4 beta 2
+        "16G5038d", // 12.4 beta 3
+        "16G5046d", // 12.4 beta 4
+        "16G5056d", // 12.4 beta 5
+        "16G5069a", // 12.4 beta 6
+        "16G5077a", // 12.4 beta 7
         "16G77", // 12.4
         "16G102", // 12.4.1
         "16G114", // 12.4.2
