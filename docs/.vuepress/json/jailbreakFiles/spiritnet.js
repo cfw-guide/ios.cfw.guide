@@ -1,5 +1,6 @@
 module.exports = {
   "name": "SpiritNET",
+  "priority": 1,
   "info": {
     "website": {
       "name": "invoxiplaygames.uk/projects/spiritnet",

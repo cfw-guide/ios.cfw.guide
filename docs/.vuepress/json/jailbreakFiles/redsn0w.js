@@ -1,6 +1,7 @@
 module.exports = {
   "name": "redsn0w",
   "alias": "redsnow",
+  "priority": 2,
   "info": {
     "website": {
       "name": "sites.google.com/a/iphone-dev.com/files/home",
