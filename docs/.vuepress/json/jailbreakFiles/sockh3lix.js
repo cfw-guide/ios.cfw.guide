@@ -18,7 +18,7 @@ module.exports = {
     "color": "#ffffff",
     "icon": "/assets/images/sockh3lix.png",
     "type": "Semi-untethered",
-    "firmwares": ["10.0","10.3.4"],
+    "firmwares": ["10.0", "10.3.4"],
     "notes": "A modified version of h3lix using the superior sock_port exploit."
   },
   "compatibility": [
@@ -71,6 +71,7 @@ module.exports = {
     {
       "firmwares": [
         "14G61", // 10.3.4
+        "14G60", // 10.3.3
       ],
       "devices": [
         "iPhone5,1", // iPhone 5 (GSM), A6
