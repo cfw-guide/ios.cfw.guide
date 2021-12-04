@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing sockH3lix
 description: Guide to installing sockH3lix
-permalink: /installing-sockH3lix
+permalink: /installing-sockh3lix
 redirect_from:
   - /installing-sockhelix
   - /sockhelix
