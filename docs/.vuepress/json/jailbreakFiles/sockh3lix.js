@@ -1,6 +1,7 @@
 module.exports = {
   "name": "sockH3lix",
   "alias": "sockHelix",
+  "priority": 0,
   "info": {
     "website": {
       "name": "github.com/SongXiaoXi/sockH3lix",
