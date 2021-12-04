@@ -1,6 +1,7 @@
 module.exports = {
   "name": "iLiberty+",
   "alias": ["iLiberty", "iLibertyPlus"],
+  "priority": 0,
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/ILiberty+",
