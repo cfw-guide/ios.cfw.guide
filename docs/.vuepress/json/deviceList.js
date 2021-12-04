@@ -1,6 +1,6 @@
 module.exports = {
   "iPhone1,1": {
-    "name"  : "iPhone (1st generation)",
+    "name"  : "iPhone 2G",
     "soc"   : "APL0098",
     "arch"  : "armv6",
     "type"  : "iPhone",
@@ -343,7 +343,7 @@ module.exports = {
     "model"         : ["A2482", "A2631", "A2633", "A2634", "A2635"],
   },
   "iPad1,1": {
-    "name"  : "iPad (1st generation)",
+    "name"  : "iPad",
     "soc"   : "A4",
     "arch"  : "armv7",
     "type"  : "iPad",
@@ -378,21 +378,21 @@ module.exports = {
     "model"         : ["A1395"],
   },
   "iPad2,5": {
-    "name"  : "iPad mini (1st generation) Wi-Fi",
+    "name"  : "iPad mini Wi-Fi",
     "soc"   : "A5",
     "arch"  : "armv7",
     "type"  : "mini",
     "model"         : ["A1432"],
   },
   "iPad2,6": {
-    "name"  : "iPad mini (1st generation) Wi-Fi + Cellular",
+    "name"  : "iPad mini Wi-Fi + Cellular",
     "soc"   : "A5",
     "arch"  : "armv7",
     "type"  : "mini",
     "model"         : ["A1454"],
   },
   "iPad2,7": {
-    "name"  : "iPad mini (1st generation) Wi-Fi + Cellular (MM)",
+    "name"  : "iPad mini Wi-Fi + Cellular (MM)",
     "soc"   : "A5",
     "arch"  : "armv7",
     "type"  : "mini",
@@ -441,21 +441,21 @@ module.exports = {
     "model"         : ["A1460"],
   },
   "iPad4,1": {
-    "name"  : "iPad Air (1st generation) Wi-Fi",
+    "name"  : "iPad Air Wi-Fi",
     "soc"   : "A7",
     "arch"  : "arm64",
     "type"  : "Air",
     "model"         : ["A1474"],
   },
   "iPad4,2": {
-    "name"  : "iPad Air (1st generation) Wi-Fi + Cellular",
+    "name"  : "iPad Air Wi-Fi + Cellular",
     "soc"   : "A7",
     "arch"  : "arm64",
     "type"  : "Air",
     "model"         : ["A1475"],
   },
   "iPad4,3": {
-    "name"  : "iPad Air (1st generation) Wi-Fi + Cellular (TD-LTE)",
+    "name"  : "iPad Air Wi-Fi + Cellular (TD-LTE)",
     "soc"   : "A7",
     "arch"  : "arm64",
     "type"  : "Air",
@@ -854,7 +854,7 @@ module.exports = {
     "model"         : ["A2568", "A2569"],
   },
   "iPod1,1": {
-    "name"  : "iPod touch (first generation)",
+    "name"  : "iPod touch (1st generation)",
     "soc"   : "APL0098",
     "arch"  : "armv6",
     "type"  : "iPod",
