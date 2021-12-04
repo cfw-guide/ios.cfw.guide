@@ -1,5 +1,6 @@
 module.exports = {
   "name": "JailbreakMe AppSnapp",
+  "priority": 0,
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/AppSnapp",
