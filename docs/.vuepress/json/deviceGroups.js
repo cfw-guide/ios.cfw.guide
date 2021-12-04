@@ -67,7 +67,7 @@ module.exports = [
     ],
   },
   {
-    name: "iPhone SE",
+    name: "iPhone SE (1st generation)",
     devices: [
       "iPhone8,4",
     ],
@@ -291,7 +291,7 @@ module.exports = [
     ],
   },
   {
-    name: "iPad Pro (12.7-inch)",
+    name: "iPad Pro (12.7-inch) (1st generation)",
     devices: [
       "iPad6,7",
       "iPad6,8",
@@ -312,7 +312,7 @@ module.exports = [
     ],
   },
   {
-    name: "iPad Pro 11-inch",
+    name: "iPad Pro 11-inch (1st generation)",
     devices: [
       "iPad8,1",
       "iPad8,2",
@@ -362,7 +362,7 @@ module.exports = [
     ],
   },
   {
-    name: "iPod touch",
+    name: "iPod touch (1st generation)",
     devices: [
       "iPod1,1",
     ],
