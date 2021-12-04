@@ -21,20 +21,22 @@ P0sixspwn is an [untethered](/types-of-jailbreak/#untethered-jailbreaks) jailbre
 
 ## Downloads
 
-- Computer running macOS 10.12.X or older or Windows 7 (Windows 10 on Compatibility Mode may also work. Wine will not work.)
+- Computer running macOS 10.12.X or older or Windows XP or newer. Wine will not work.
 - The latest version of [P0sixspwn](https://ih8sn0w.com/p0sixspwn.html)
-- iTunes version 11.1.5 or earlier (Google is your friend)
+- iTunes version 11.1.5 if on Windows
+  - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
+  - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 
 ## Installing the application
 
 1. Unzip P0sixspwn
 1. Run P0sixspwn
     - Right click and click `Open` on macOS
-    - Run P0sixspwn as Administrator on Windows. You'll need to run it in Compatibility Mode on for Windows 7 if you're on Windows 10)
+    - Run P0sixspwn as Administrator on Windows (You'll need to run it in Compatibility Mode on for Windows 7 if you're on Windows 10 or later)
 1. Connect your iOS Device over to USB to your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Click `Jailbreak` on P0sixspwn
-    - Follow all onscreen prompts to put your device in DFU mode
+    - Jailbreaking may take a while, please be patient and do not let your computer go to sleep mode
 
 ::: tip
 Be sure to use an MFI-certified 30-pin or lightning connector for highest chances of success
