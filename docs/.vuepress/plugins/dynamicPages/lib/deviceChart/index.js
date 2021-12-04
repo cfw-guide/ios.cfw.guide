@@ -70,7 +70,7 @@ for (const i in deviceGroups) {
     content: require('./deviceTable')(d.devices[0], false, 1, true, true)
   })
   
-  /*page.push({
+  page.push({
     path: '/get-started/' + url + '.html',
     frontmatter: {
       title: 'Firmware Selection (' + d.name + ')',
@@ -81,7 +81,7 @@ for (const i in deviceGroups) {
       contributors: false,
     },
     content: require('./get-started')(d.devices[0], false, 1, true, true)
-  })*/
+  })
 }
 
 module.exports = page;
