@@ -20,6 +20,8 @@ module.exports = {
       "firmwares": [
         "17A5492t", // 13.0 beta
         "17A5508m", // 13.0 beta 2
+        "17A5522f", // 13.0 beta 3
+        "17A5522g", // 13.0 beta 3
         "17A5534f", // 13.0 beta 4
         "17A5547d", // 13.0 beta 5
         "17A5556d", // 13.0 beta 6
