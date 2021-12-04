@@ -8,6 +8,12 @@ module.exports = {
       "url": "https://github.com/SongXiaoXi/sockH3lix",
       "external": true
     },
+    "guide": [
+      {
+        "name": "Installing sockH3lix",
+        "url": "/installing-sockh3lix/"
+      }
+    ],
     "latestVer": "1.4",
     "color": "#ffffff",
     "icon": "/assets/images/sockh3lix.png",
