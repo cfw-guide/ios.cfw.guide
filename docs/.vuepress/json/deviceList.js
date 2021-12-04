@@ -152,7 +152,7 @@ module.exports = {
     "discontinued"  : "2018-09-12",
   },
   "iPhone8,4": {
-    "name"  : "iPhone SE",
+    "name"  : "iPhone SE (1st generation)",
     "soc"   : "A9",
     "arch"  : "arm64",
     "type"  : "iPhone",
