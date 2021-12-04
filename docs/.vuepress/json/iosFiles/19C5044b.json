@@ -3,5 +3,93 @@
   "build": "19C5044b",
   "released": "2021-11-16",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31788/2D81A4A7-8AAF-431F-A9B3-794F2C36056F/iPhone_4.7_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31869/254219BE-211F-4471-9028-96DFC5E82BAE/iPhone_5.5_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31749/B6702D8A-14EF-4FFC-AF89-6AE17E980208/iPhone_4.0_64bit_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31694/60FD4DE0-37B6-47D2-AA96-91E7939E6095/iPhone_4.7_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31833/7703B29A-E33C-4E98-A3EB-D1A521A835AC/iPhone_5.5_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31694/60FD4DE0-37B6-47D2-AA96-91E7939E6095/iPhone_4.7_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31833/7703B29A-E33C-4E98-A3EB-D1A521A835AC/iPhone_5.5_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone10,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31694/60FD4DE0-37B6-47D2-AA96-91E7939E6095/iPhone_4.7_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31833/7703B29A-E33C-4E98-A3EB-D1A521A835AC/iPhone_5.5_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone10,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-32078/14536A90-A967-4360-8328-6466E8480CD0/iPhone10,3,iPhone10,6_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone10,4": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31694/60FD4DE0-37B6-47D2-AA96-91E7939E6095/iPhone_4.7_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31833/7703B29A-E33C-4E98-A3EB-D1A521A835AC/iPhone_5.5_P3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone10,6": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-32078/14536A90-A967-4360-8328-6466E8480CD0/iPhone10,3,iPhone10,6_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone11,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31744/7031E715-451E-4C98-B29D-0DD7AD9D8CB8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone11,4": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31744/7031E715-451E-4C98-B29D-0DD7AD9D8CB8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone11,6": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31744/7031E715-451E-4C98-B29D-0DD7AD9D8CB8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone11,8": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31999/1FB2CFC7-2D0F-444C-9DC1-64BC4AFB2D13/iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone12,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31999/1FB2CFC7-2D0F-444C-9DC1-64BC4AFB2D13/iPhone11,8,iPhone12,1_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone12,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31744/7031E715-451E-4C98-B29D-0DD7AD9D8CB8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone12,5": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31744/7031E715-451E-4C98-B29D-0DD7AD9D8CB8/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone12,8": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31950/6E0EF4AD-65BF-4169-93B4-0B15CF130E3B/iPhone12,8_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone13,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31990/F841AABF-CEDA-4F62-B888-6C7F053396B5/iPhone13,1_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone13,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31692/227D4397-DF24-4F53-860B-3BE2F702674E/iPhone13,2,iPhone13,3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone13,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31692/227D4397-DF24-4F53-860B-3BE2F702674E/iPhone13,2,iPhone13,3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone13,4": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31736/C09ADC90-11BF-430D-A040-D9FDFC7C99CC/iPhone13,4_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone14,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-32095/95C89A3C-4140-46A6-8879-6736DA7255E6/iPhone14,2_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone14,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-32053/A618DEC5-5A4C-430F-A878-1D22DD1EB97A/iPhone14,3_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone14,4": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-32020/7D49137B-D961-421C-9E34-2CA4FAAA5E2A/iPhone14,4_15.2_19C5044b_Restore.ipsw"
+    },
+    "iPhone14,5": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-31981/89583F65-6063-430F-95E0-94EE1B0865DB/iPhone14,5_15.2_19C5044b_Restore.ipsw"
+    }
+  }
 }
