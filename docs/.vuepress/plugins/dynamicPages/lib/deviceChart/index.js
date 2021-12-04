@@ -69,6 +69,19 @@ for (const i in deviceGroups) {
     },
     content: require('./deviceTable')(d.devices[0], false, 1, true, true)
   })
+  
+  /*page.push({
+    path: '/get-started/' + url + '.html',
+    frontmatter: {
+      title: 'Firmware Selection (' + d.name + ')',
+      description: 'Find out what jailbreaks you can use on your ' + d.name,
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
+    },
+    content: require('./get-started')(d.devices[0], false, 1, true, true)
+  })*/
 }
 
 module.exports = page;

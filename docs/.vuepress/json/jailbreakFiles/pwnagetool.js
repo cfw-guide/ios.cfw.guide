@@ -1,6 +1,6 @@
 module.exports = {
   "name": "PwnageTool",
-  "priority": 0,
+  "priority": 3,
   "info": {
     "wiki": {
       "name": "theiphonewiki.com/wiki/PwnageTool",

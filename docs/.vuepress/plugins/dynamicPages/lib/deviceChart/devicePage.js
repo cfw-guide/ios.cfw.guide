@@ -63,8 +63,9 @@ function getHtml(typeArr) {
       }
       html += '</tr></thead><tbody><tr>'
       for (var k = 0; k < 3; k++) {
-        if (deviceArr[i][j*3+k]) {
-          html += '<td><a href="' + devicePath + deviceArr[i][j*3+k].name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + deviceArr[i][j*3+k].devices[0] + '.png" alt="" width="50%"></a></td>';
+        const d = deviceArr[i][j*3+k];
+        if (d) {
+          html += '<td><a href="' + devicePath + d.name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + d.devices[0] + '.png" alt="" width="50%"></a></td>';
         }
         else html += '<td></td>';
       }

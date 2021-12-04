@@ -1,6 +1,7 @@
 module.exports = {
   "name": "greenpois0n",
   "alias": ["greenpoison", "greenp0ison", "greenp0is0n"],
+  "priority": 1,
   "info": {
     "website": {
       "name": "greenpois0n.com/downloads (archive.org)",
