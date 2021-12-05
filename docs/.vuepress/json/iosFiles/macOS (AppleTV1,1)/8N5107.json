@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "build": "8N5107",
+  "beta": false,
+  "devices": {
+    "AppleTV1,1": {
+      "ipsw": "none"
+    }
+  }
+}
