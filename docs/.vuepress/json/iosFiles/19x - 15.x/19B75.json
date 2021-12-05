@@ -3,5 +3,12 @@
   "build": "19B75",
   "released": "2021-10-21",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPad14,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FCSFall/fullrestores/002-24632/1583BD38-83C8-438D-BC62-E223FFD9F49E/iPad_Fall_2021_15.1_19B75_Restore.ipsw"
+    },
+    "iPad14,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FCSFall/fullrestores/002-24632/1583BD38-83C8-438D-BC62-E223FFD9F49E/iPad_Fall_2021_15.1_19B75_Restore.ipsw"
+    }
+  }
 }
