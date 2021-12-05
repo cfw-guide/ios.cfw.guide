@@ -68,8 +68,10 @@ function getDeviceInfo(device, groupTable) {
     infoArr[0] = devGroup.name;
     infoArr[1] = devGroup.devices.join(', ');
     
-    for (const dev in devGroup.devices) infoArr[4] = infoArr[4].concat(deviceList[devGroup.devices[dev]].model);
-    infoArr[4] = infoArr[4].filter(function(elem, index, self) { return index === self.indexOf(elem); })
+    if (infoArr[4]) {
+      for (const dev in devGroup.devices) infoArr[4] = infoArr[4].concat(deviceList[devGroup.devices[dev]].model);
+      infoArr[4] = infoArr[4].filter(function(elem, index, self) { return index === self.indexOf(elem); })
+    }
   };
   
   if (infoArr[4]) infoArr[4] = infoArr[4].join(', ');
