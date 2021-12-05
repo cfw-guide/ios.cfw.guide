@@ -403,4 +403,41 @@ module.exports = [
       "iPod9,1",
     ],
   },
+  {
+    name: "Apple TV (1st generation)",
+    devices: [
+      "AppleTV1,1",
+    ],
+  },
+  {
+    name: "Apple TV (2nd generation)",
+    devices: [
+      "AppleTV2,1",
+    ],
+  },
+  {
+    name: "Apple TV (3rd generation)",
+    devices: [
+      "AppleTV3,1",
+      "AppleTV3,2",
+    ],
+  },
+  {
+    name: "Apple TV (4th generation)",
+    devices: [
+      "AppleTV5,3",
+    ],
+  },
+  {
+    name: "Apple TV 4K (1st generation)",
+    devices: [
+      "AppleTV6,2",
+    ],
+  },
+  {
+    name: "Apple TV 4K (2nd generation)",
+    devices: [
+      "AppleTV11,1",
+    ],
+  },
 ]
