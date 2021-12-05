@@ -8,9 +8,9 @@ Cydia is a package manager that has been used since the start of jailbreaking in
 
 ![A picture of an iPhone running Cydia](/assets/images/cydia_picture.jpg)
 
-[Tweaks](/faq/#what-are-tweaks) are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".
+<p><router-link to="/faq/#what-are-tweaks">Tweaks</router-link> are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".</p>
 
-[Repositories](/faq/#what-s-a-repo) are essentially databases that contain lots of tweaks for you to install. When you add repos to Cydia, you will be able to install the tweaks on it, and look for them using the search function.
+<p><router-link to="/faq/#what-s-a-repo">Repositories</router-link> are essentially databases that contain lots of tweaks for you to install. When you add repos to Cydia, you will be able to install the tweaks on it, and look for them using the search function.</p>
 
 This guide will show you how you can install and uninstall tweaks, and add different repos.
 
@@ -42,7 +42,7 @@ The repo should now be removed from Cydia.
 1. Tap the `Install` button at the top right-hand corner of your screen
 1. Confirm the installation
     - It may take some time for the tweak to install
-1. After it's finished, tap "[Restart SpringBoard]((/faq/#what-is-respringing))"
+1. After it's finished, tap "<router-link to="/faq/#what-is-respringing">Restart SpringBoard</router-link>"
     - The device should appear to reboot after this
     - Sometimes, the button might not say to Restart SpringBoard, but you can tap the button anyway
 
@@ -56,7 +56,7 @@ The tweak should now be installed to your device and will be active whenever you
 1. Tap `Remove`
 1. Confirm the uninstallation
     - It may take some time for the tweak to install
-1. After it's finished, tap "[Restart SpringBoard]((/faq/#what-is-respringing))"
+1. After it's finished, tap "<router-link to="/faq/#what-is-respringing">Restart SpringBoard</router-link>"
     - The device should appear to reboot after this
     - Sometimes, the button might not say to Restart SpringBoard, but you can tap the button anyway
 

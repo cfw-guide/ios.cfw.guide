@@ -48,7 +48,7 @@ This jailbreak works by running the exploit through an app on the device itself.
 
 Due to the nature of how the exploit is applied, these jailbreaks are easily removable through their respective app.
 
-A few examples of semi-untethered jailbreaks include [Taurine](installing-taurine), [unc0ver](installing-unc0ver), and [Odyssey](installing-odyssey).
+A few examples of semi-untethered jailbreaks include <router-link to="/installing-taurine">Taurine</router-link>, <router-link to="/installing-unc0ver">unc0ver</router-link>, and <router-link to="/installing-odyssey">Odyssey</router-link>.
 
 ### Semi-Tethered Jailbreaks
 ---
@@ -59,7 +59,7 @@ Semi-tethered jailbreaks are very similar to semi-untethered jailbreaks, however
 
 Due to requiring a computer to rejailbreak after every reboot, most choose to use a semi-untethered jailbreak instead.
 
-An example of a semi-tethered jailbreak is [Odysseyra1n](installing-odysseyra1n).
+An example of a semi-tethered jailbreak is <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link>.
 
 ### Tethered Jailbreaks
 ---

@@ -1,1 +1,1 @@
-Odysseyra1n is a [semi-tethered jailbreak](/types-of-jailbreak/#semi-tethered-jailbreaks), meaning it requires a PC to re-apply the exploit after a reboot. Click the link to learn more.
+Odysseyra1n is a <router-link to="/types-of-jailbreak/#semi-tethered-jailbreaks">semi-tethered jailbreak</router-link>, meaning it requires a PC to re-apply the exploit after a reboot. Click the link to learn more.

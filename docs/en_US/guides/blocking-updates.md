@@ -17,7 +17,7 @@ This will take you through installing the iOS 14 "tvOS profile" to block updates
 ## Installing the tvOS profile
 
 1. Set your device date in `Settings > General > Date and Time` to the 31st of March or earlier
-2. Click [this link](https://gginin.de/jb/no_ota.html) in your device's browser
+2. Open [gginin.de/jb/no_ota.html](https://gginin.de/jb/no_ota.html) in your device's browser
    - If you get a "Your Clock Is Set Incorrectly" error, click "Show details", then "visit this website"
 3. Select "iOS 14" from the list of options
 4. Select "Allow" if prompted

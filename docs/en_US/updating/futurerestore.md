@@ -77,4 +77,4 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 1. Click Next to navigate to the controls menu
 1. Click `Start Futurerestore`
 
-If you experience any issues during the Process, look in the [FutureRestore help page](https://ios.cfw.guide/FutureRestoreHelp), if you still can't find a solution, ask in the #futurerestore-help channel on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC)
+If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #futurerestore-help channel on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).

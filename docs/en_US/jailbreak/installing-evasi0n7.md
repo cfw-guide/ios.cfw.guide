@@ -40,4 +40,4 @@ If your device has been OTA updated to its current version of iOS 7, you may enc
 1. Once your phone has rebooted once, open the Evasi0n app on your home screen
 1. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
 
-Once you see your lock screen, you should be jailbroken. Cydia will be on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+Once you see your lock screen, you should be jailbroken. Cydia will be on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

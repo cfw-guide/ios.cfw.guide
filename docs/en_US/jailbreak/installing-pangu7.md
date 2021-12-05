@@ -84,5 +84,5 @@ You will bootloop if you jailbreak your device while in the dark
 
 ----
 
-Once you see your lock screen, you will be jailbroken with a fixed untether package that will no longer cause bootloops while in the dark. You can now use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+Once you see your lock screen, you will be jailbroken with a fixed untether package that will no longer cause bootloops while in the dark. You can now use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 

@@ -23,7 +23,9 @@ This will take you through the process of saving blobs which are required if you
 
 shshd is a tweak used for automatic blob saving. Once you have it installed, you won't need to worry about manually saving blobs as it handles it all in the background. You must be jailbroken to use shshd. If you aren't jailbroken, follow [Saving blobs with TSS Saver Website](#saving-blobs-with-tss-saver-website).
 
-shshd is only compatible with Procursus-based jailbreaks, such as Taurine/Odyssey/Chimera/Odysseyra1n. If you're using unc0ver or checkra1n, follow [Saving blobs with TSS Saver App](#saving-blobs-with-tss-saver-app).
+::: warning
+shshd is only compatible with Procursus-based jailbreaks, such as Taurine, Odyssey, Chimera and Odysseyra1n. If you're using unc0ver or checkra1n, follow [Saving blobs with TSS Saver App](#saving-blobs-with-tss-saver-app).
+:::
 
 1. Open your package manager
 1. Search for the `shshd` package
@@ -44,7 +46,7 @@ You shouldn't need to run shshd manually, but it can be run through a terminal.
 
 The TSS Saver app can be installed on jailbroken devices and allows you to save your blobs easily with the tap of a button. If you aren't jailbroken, follow [Saving blobs with TSS Saver Website](#saving-blobs-with-tss-saver-website) instead.
 
-1. Add [repo.1conan.com](https://repo.1conan.com/) to your sources in your preferred [package manager](/package-managers)
+1. Add [repo.1conan.com](https://repo.1conan.com/) to your sources in your preferred <router-link to="/package-managers">package manager</router-link>
 1. Download and install TSS Saver
     - If you're using unc0ver on iOS 14, also download and install `libkrw`
     - If you're using Taurine on iOS 14. also download and install `libkernrw`
@@ -69,7 +71,7 @@ A12+ users must be jailbroken to use the TSS Saver Website, as it requires grabb
 ### Saving blobs (All Devices)
 1. Connect your iOS Device to your Mac or PC
 1. Open iTunes or Finder
-    - Windows users must download the [normal version](https://www.apple.com/itunes/) NOT the Windows Store version
+    - Windows users must download the [normal version](https://www.apple.com/itunes/), NOT the Windows Store version
 1. Navigate to the device summary page
 1. Click the Serial Number field twice
     - This should change to show your ECID number
@@ -77,7 +79,7 @@ A12+ users must be jailbroken to use the TSS Saver Website, as it requires grabb
 1. Open the [TSS Saver Website](https://tsssaver.1conan.com/v2/)
 1. Input your device ECID
 1. Select your Device
-    - iPhone 6S, 6S Plus, and iPhone SE users will need to get their board configuration by [downloading this app](https://itunes.apple.com/us/app/ax-cpu/id1048174418?mt=8)
+    - iPhone 6S, 6S Plus, and iPhone SE users will need to get their board configuration by downloading [AX-CPU](https://itunes.apple.com/us/app/ax-cpu/id1048174418?mt=8) from the App Store
     - A12+ users will need to input ApNonce and Generator pair
 1. Click Submit
 
@@ -137,7 +139,7 @@ If you *updated* using a computer, your blobs will be "Update" blobs, and **can 
 
 ### Save Onboard Blobs
 
-1. Add the [https://apt.arx8x.net](https://apt.arx8x.net) repo to your favorite [package manager](package-managers)
+1. Add the [https://apt.arx8x.net](https://apt.arx8x.net) repo to your preferred <router-link to="/package-managers">package manager</router-link>
 2. Download the Tweak `System Info`
 ![](https://imgur.com/a/g8XZPrM)
 3. After downloading System Info, open Settings and navigate to `General > About` 

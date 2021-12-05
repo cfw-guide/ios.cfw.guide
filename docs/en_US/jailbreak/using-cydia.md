@@ -10,7 +10,7 @@ extra_contributors:
 ---
 
 ::: warning
-Cydia is incredibly outdated. If you are using a modern jailbreak on iOS 11 or newer, consider using [Sileo](/installing-sileo)
+Cydia is incredibly outdated. If you are using a modern jailbreak on iOS 11 or newer, consider using <router-link to="/installing-sileo">Sileo</router-link>
 :::
 
 !!!include(./docs/en_US/include/using-cydia.md)!!!

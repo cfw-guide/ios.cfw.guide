@@ -51,7 +51,7 @@ Recovery Mode is a protection built-in to your device that allows the user to co
 
 ## What is DFU mode?
 
-DFU mode is a way you can interact with your iOS device without loading the operating system or boot loader. It stands for Device Firmware Upgrade. It's functionally different from recovery mode and is generally intended as a last resort in case things seriously go wrong on your device, however we can use it with [Odysseyra1n](installing-odysseyra1n) to jailbreak your device instead. Entering DFU mode can only be done on device as it is part of the phone itself.
+DFU mode is a way you can interact with your iOS device without loading the operating system or boot loader. It stands for Device Firmware Upgrade. It's functionally different from recovery mode and is generally intended as a last resort in case things seriously go wrong on your device, however we can use it with <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link> to jailbreak your device instead. Entering DFU mode can only be done on device as it is part of the phone itself.
 
 ## What can I do once jailbroken?
 

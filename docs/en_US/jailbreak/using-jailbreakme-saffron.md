@@ -22,4 +22,4 @@ JailbreakMe Saffron is an untethered jailbreak meaning that it survives a reboot
 1. Go to the [jailbreakme.com](https://jailbreakme.com) website
 1. Tap "Install"
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

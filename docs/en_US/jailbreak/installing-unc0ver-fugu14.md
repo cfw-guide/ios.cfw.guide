@@ -10,7 +10,7 @@ redirect_from:
   - /installing-uncover-(fugu14)
 ---
 
-unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires an app to re-apply the exploit after a reboot.
+unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 The Fugu14 method of unc0ver supports A12+ devices on iOS 14.4 to 14.5.1
 
@@ -37,7 +37,7 @@ We will use the AltStore tool to allow us to set everything up to be able to jai
 1. Download [unc0ver](https://unc0ver.dev) on your iOS Device and open the `.ipa` in AltStore
     - Make sure your iOS Device and Mac or PC are connected to the same WiFi network
 1. Once the `.ipa` installs, you should see a prompt that the jailbreak requires untethering, tap `Install Untethered Jailbreak`
-    - If you don't see this prompt after installing the `.ipa`, your device/version combination is incompatible, and you should return to [Get Started](/get-started).
+    - If you don't see this prompt after installing the `.ipa`, your device/version combination is incompatible, and you should return to <router-link to="/get-started">Get Started</router-link>.
 1. AltStore will install a placeholder application, once this completes, tap `Open Placeholder`
 1. Tap `Setup Fugu14`, then once the process completes, tap `OK`
 1. Re-open AltStore
@@ -63,15 +63,11 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 :::
 
 ::: warning
-If you receive the error `rootFS already mounted, delete the OTA update`, read the [Troubleshooting](/troubleshooting/#rootfs-already-mounted) page
+If you receive the error `rootFS already mounted, delete the OTA update`, read the <router-link to="/troubleshooting/#rootfs-already-mounted">Troubleshooting</router-link> page
 :::
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
 ::: tip
-If you wish to use a more modern package manager, continue to [Installing Sileo](/installing-sileo)
-:::
-
-::: tip
-To learn how to use Cydia, continue to [Using Cydia](/using-cydia)
+If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
 :::
