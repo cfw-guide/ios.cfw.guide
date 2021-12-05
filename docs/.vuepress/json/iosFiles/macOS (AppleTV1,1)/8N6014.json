@@ -1,0 +1,10 @@
+{
+  "version": "3.0.2",
+  "build": "8N6014",
+  "beta": false,
+  "devices": {
+    "AppleTV1,1": {
+      "ipsw": "http://mesu.apple.com/data/OS/061-7495.20100210.TAVfr/2Z694-6013-013.dmg"
+    },
+  }
+}
