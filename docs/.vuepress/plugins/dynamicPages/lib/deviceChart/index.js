@@ -17,11 +17,11 @@ page.push({
 })
 
 // Device listing
-var types = [['iPhone'], ['iPad','mini','Pro','Air'], ['iPod']]
+var types = [['iPhone'], ['iPad','mini','Pro','Air'], ['iPod'], ['TV'], ['Watch']]
 types = [[...types[0],...types[1],...types[2]]].concat(types);
 const title = ['',' (iPhone)',' (iPad)',' (iPod)'];
-const description = ['device','iPhone','iPad','iPod'];
-const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html']
+const description = ['device','iPhone','iPad','iPod','Apple TV','Apple Watch'];
+const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html', '/AppleTV.html', '/AppleWatch.html']
 
 for (const i in types) {
   page.push({
@@ -34,7 +34,7 @@ for (const i in types) {
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./devicePage')(types[i])
+    content: require('./devicePage')(types[i], '/chart/device/', true)
   })
 }
 
