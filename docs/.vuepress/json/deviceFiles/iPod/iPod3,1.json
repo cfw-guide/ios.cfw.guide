@@ -1,0 +1,10 @@
+{
+  "name": "iPod touch (3rd generation)",
+  "identifier": "iPod3,1",
+  "soc": "APL2298",
+  "arch": "armv7",
+  "type": "iPod",
+  "model": [
+    "A1318"
+  ]
+}

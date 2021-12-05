@@ -1,0 +1,10 @@
+{
+  "name": "Apple TV (3rd generation, Rev A)",
+  "identifier": "AppleTV3,2",
+  "soc": "A5",
+  "arch": "armv7",
+  "type": "TV",
+  "model": [
+    "A1469"
+  ]
+}

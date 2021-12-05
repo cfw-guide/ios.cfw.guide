@@ -1,0 +1,10 @@
+{
+  "name": "iPad (4th generation) Wi-Fi + Cellular (MM)",
+  "identifier": "iPad3,6",
+  "soc": "A6X",
+  "arch": "armv7s",
+  "type": "iPad",
+  "model": [
+    "A1460"
+  ]
+}

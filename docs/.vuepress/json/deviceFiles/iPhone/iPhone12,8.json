@@ -1,0 +1,12 @@
+{
+  "name": "iPhone SE (2nd generation)",
+  "identifier": "iPhone12,8",
+  "soc": "A13",
+  "arch": "arm64e",
+  "type": "iPhone",
+  "model": [
+    "A2275",
+    "A2296",
+    "A2298"
+  ]
+}

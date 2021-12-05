@@ -1,0 +1,10 @@
+{
+  "name": "Apple TV HD (4th generation)",
+  "identifier": "AppleTV5,3",
+  "soc": "A8",
+  "arch": "arm64",
+  "type": "TV",
+  "model": [
+    "A1625"
+  ]
+}

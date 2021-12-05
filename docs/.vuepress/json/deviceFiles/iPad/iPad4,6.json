@@ -1,0 +1,10 @@
+{
+  "name": "iPad mini 2 Wi-Fi + Cellular (TD-LTE)",
+  "identifier": "iPad4,6",
+  "soc": "A7",
+  "arch": "arm64",
+  "type": "mini",
+  "model": [
+    "A1491"
+  ]
+}

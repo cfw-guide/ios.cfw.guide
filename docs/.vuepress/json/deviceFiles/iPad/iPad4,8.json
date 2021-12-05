@@ -1,0 +1,10 @@
+{
+  "name": "iPad mini 3 Wi-Fi + Cellular",
+  "identifier": "iPad4,8",
+  "soc": "A8",
+  "arch": "arm64",
+  "type": "mini",
+  "model": [
+    "A1600"
+  ]
+}

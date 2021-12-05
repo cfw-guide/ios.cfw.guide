@@ -1,0 +1,9 @@
+{
+  "name": "Apple Watch (1st generation)",
+  "type": "Watch",
+  "order": 0,
+  "devices": [
+    "Watch1,1",
+    "Watch1,2"
+  ]
+}

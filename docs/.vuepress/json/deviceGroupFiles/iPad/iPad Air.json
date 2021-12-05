@@ -1,0 +1,10 @@
+{
+  "name": "iPad Air",
+  "type": "Air",
+  "order": 0,
+  "devices": [
+    "iPad4,1",
+    "iPad4,2",
+    "iPad4,3"
+  ]
+}

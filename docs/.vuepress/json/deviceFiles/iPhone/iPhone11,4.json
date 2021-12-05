@@ -1,0 +1,10 @@
+{
+  "name": "iPhone XS Max (China mainland)",
+  "identifier": "iPhone11,4",
+  "soc": "A12",
+  "arch": "arm64e",
+  "type": "iPhone",
+  "model": [
+    "A2103"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "iPhone 12",
+  "identifier": "iPhone13,2",
+  "soc": "A14",
+  "arch": "arm64e",
+  "type": "iPhone",
+  "model": [
+    "A2172",
+    "A2402",
+    "A2403",
+    "A2404"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "iPod touch (1st generation)",
+  "identifier": "iPod1,1",
+  "soc": "APL0098",
+  "arch": "armv6",
+  "type": "iPod",
+  "model": [
+    "A1213"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Apple TV (1st generation)",
+  "identifier": "AppleTV1,1",
+  "soc": "Pentium M",
+  "arch": "x86",
+  "type": "TV",
+  "model": [
+    "A1218"
+  ]
+}

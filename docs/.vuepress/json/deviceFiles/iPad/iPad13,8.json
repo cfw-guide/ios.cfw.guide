@@ -1,0 +1,10 @@
+{
+  "name": "iPad Pro 12.9-inch (5th generation) Wi-Fi",
+  "identifier": "iPad13,8",
+  "soc": "M1",
+  "arch": "arm64e",
+  "type": "Pro",
+  "model": [
+    "A2378"
+  ]
+}

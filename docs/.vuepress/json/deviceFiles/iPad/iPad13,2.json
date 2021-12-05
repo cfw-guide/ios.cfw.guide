@@ -1,0 +1,12 @@
+{
+  "name": "iPad Air (4th generation) Wi-Fi + Cellular",
+  "identifier": "iPad13,2",
+  "soc": "A14",
+  "arch": "arm64e",
+  "type": "Air",
+  "model": [
+    "A2072",
+    "A2324",
+    "A2325"
+  ]
+}

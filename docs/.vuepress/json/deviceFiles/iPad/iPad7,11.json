@@ -1,0 +1,10 @@
+{
+  "name": "iPad (7th generation) Wi-Fi",
+  "identifier": "iPad7,11",
+  "soc": "A10",
+  "arch": "arm64",
+  "type": "iPad",
+  "model": [
+    "A2197"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "iPod touch (5th generation)",
+  "identifier": "iPod5,1",
+  "soc": "A5",
+  "arch": "armv7",
+  "type": "iPod",
+  "model": [
+    "A1421",
+    "A1509"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "iPad mini (5th generation) Wi-Fi",
+  "identifier": "iPad11,1",
+  "soc": "A12",
+  "arch": "arm64e",
+  "type": "mini",
+  "model": [
+    "A2133"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "iPad mini 3 Wi-Fi + Cellular (TD-LTE)",
+  "identifier": "iPad4,9",
+  "soc": "A8",
+  "arch": "arm64",
+  "type": "mini",
+  "model": [
+    "A1601"
+  ]
+}

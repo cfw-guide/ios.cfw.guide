@@ -1,0 +1,12 @@
+{
+  "name": "iPad Pro 12.9-inch (4th generation) Wi-Fi + Cellular",
+  "identifier": "iPad8,12",
+  "soc": "A12Z",
+  "arch": "arm64e",
+  "type": "Pro",
+  "model": [
+    "A2069",
+    "A2232",
+    "A2233"
+  ]
+}

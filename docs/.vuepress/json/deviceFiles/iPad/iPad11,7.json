@@ -1,0 +1,12 @@
+{
+  "name": "iPad (8th generation) Wi-Fi + Cellular",
+  "identifier": "iPad11,7",
+  "soc": "A12",
+  "arch": "arm64e",
+  "type": "iPad",
+  "model": [
+    "A2428",
+    "A2429",
+    "A2430"
+  ]
+}

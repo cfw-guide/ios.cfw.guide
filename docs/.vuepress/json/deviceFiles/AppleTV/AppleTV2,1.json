@@ -1,0 +1,10 @@
+{
+  "name": "Apple TV (2nd generation)",
+  "identifier": "AppleTV2,1",
+  "soc": "A4",
+  "arch": "armv7",
+  "type": "TV",
+  "model": [
+    "A1378"
+  ]
+}

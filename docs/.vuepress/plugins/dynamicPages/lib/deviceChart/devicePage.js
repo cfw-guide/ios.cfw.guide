@@ -18,7 +18,7 @@ function getDeviceArr(typeArr) {
   for (const i in typeArr) {
     deviceArr.push([]);
     for (const d in deviceGroups) {
-      if (deviceList[deviceGroups[d].devices[0]].type == typeArr[i]) {
+      if (deviceGroups[d].type == typeArr[i]) {
         deviceArr[i].push(deviceGroups[d]);
       }
     }
@@ -57,6 +57,10 @@ function getHtml(typeArr, path, toc) {
   for (const i in deviceArr) {
     if (deviceArr[i].length < 1) continue;
     if (typeArr.length > 1) html += '## ' + header[typeArr[i]] + '\n';
+    
+    deviceArr[i].sort(function(a,b) { return a.order - b.order })
+    deviceArr[i].reverse()
+    
     for (var j = 0; j < tableCount[i]; j++) {
       html += '<table><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><thead><tr>'
       for (var k = 0; k < 3; k++) {

@@ -1,0 +1,14 @@
+{
+  "name": "iPhone 6",
+  "identifier": "iPhone7,2",
+  "soc": "A8",
+  "arch": "arm64",
+  "type": "iPhone",
+  "released": "2014-09-14",
+  "discontinued": "2018-09-12",
+  "model": [
+    "A1549",
+    "A1586",
+    "A1589"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "iPad Pro 11-inch (1st generation) Wi-Fi + Cellular",
+  "identifier": "iPad8,3",
+  "soc": "A12X",
+  "arch": "arm64e",
+  "type": "Pro",
+  "model": [
+    "A1934",
+    "A1979",
+    "A2013"
+  ]
+}

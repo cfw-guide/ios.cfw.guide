@@ -1,0 +1,14 @@
+{
+  "name": "iPhone SE (1st generation)",
+  "identifier": "iPhone8,4",
+  "soc": "A9",
+  "arch": "arm64",
+  "type": "iPhone",
+  "released": "2016-03-21",
+  "discontinued": "2018-09-12",
+  "model": [
+    "A1662",
+    "A1723",
+    "A1724"
+  ]
+}

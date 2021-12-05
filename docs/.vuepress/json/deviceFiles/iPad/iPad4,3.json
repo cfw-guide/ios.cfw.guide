@@ -1,0 +1,10 @@
+{
+  "name": "iPad Air Wi-Fi + Cellular (TD-LTE)",
+  "identifier": "iPad4,3",
+  "soc": "A7",
+  "arch": "arm64",
+  "type": "Air",
+  "model": [
+    "A1476"
+  ]
+}

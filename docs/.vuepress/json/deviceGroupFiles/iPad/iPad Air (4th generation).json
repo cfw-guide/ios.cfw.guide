@@ -1,0 +1,9 @@
+{
+  "name": "iPad Air (4th generation)",
+  "type": "Air",
+  "order": 3,
+  "devices": [
+    "iPad13,1",
+    "iPad13,2"
+  ]
+}

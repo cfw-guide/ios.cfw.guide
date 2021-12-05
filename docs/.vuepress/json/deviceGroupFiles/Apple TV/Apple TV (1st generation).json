@@ -1,0 +1,8 @@
+{
+  "name": "Apple TV (1st generation)",
+  "type": "TV",
+  "order": 0,
+  "devices": [
+    "AppleTV1,1"
+  ]
+}

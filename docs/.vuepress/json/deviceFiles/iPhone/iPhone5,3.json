@@ -1,0 +1,13 @@
+{
+  "name": "iPhone 5c (GSM)",
+  "identifier": "iPhone5,3",
+  "soc": "A6",
+  "arch": "armv7s",
+  "type": "iPhone",
+  "released": "2013-09-20",
+  "discontinued": "2015-09-09",
+  "model": [
+    "A1456",
+    "A1532"
+  ]
+}

@@ -1,12 +1,36 @@
 const fs = require('fs');
-const curPath = './docs/.vuepress/json/'
-const jbPath = './jailbreakFiles'
-const jbFiles = fs.readdirSync(curPath + jbPath).filter(file => file.endsWith('.js'));
-const jbArr = [];
+const path = require('path');
+const p = 'docs/.vuepress/json/jailbreakFiles'
 
-for (const file in jbFiles) {
-  const jb = require(`${jbPath}/${jbFiles[file]}`)
-  jbArr.push(jb);
+function getAllFiles(dirPath, arrayOfFiles) {
+  files = fs.readdirSync(dirPath)
+
+  arrayOfFiles = arrayOfFiles || []
+
+  files.forEach(function(file) {
+    if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+      arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+    } else {
+      arrayOfFiles.push(path.join(dirPath, "/", file))
+    }
+  })
+
+  return arrayOfFiles
 }
 
-module.exports = jbArr;
+var jailbreakFiles = [];
+jailbreakFiles = getAllFiles(p, jailbreakFiles)
+jailbreakFiles = jailbreakFiles.filter(file => file.endsWith('.json'));
+jailbreakFiles = jailbreakFiles.map(function(x) {
+  const filePathStr = x.split(path.sep)
+  const pathStrLength = p.split('/').length - 1;
+  
+  return filePathStr.splice(pathStrLength, filePathStr.length).join(path.sep)
+})
+var jailbreakArr = [];
+
+for (const file in jailbreakFiles) {
+  jailbreakArr.push(require('.' + path.sep + jailbreakFiles[file]));
+}
+
+module.exports = jailbreakArr;

@@ -1,0 +1,15 @@
+{
+  "name": "iPhone 5s (CDMA)",
+  "identifier": "iPhone6,2",
+  "soc": "A7",
+  "arch": "arm64",
+  "type": "iPhone",
+  "released": "2013-09-20",
+  "discontinued": "2016-03-21",
+  "model": [
+    "A1457",
+    "A1518",
+    "A1528",
+    "A1530"
+  ]
+}
