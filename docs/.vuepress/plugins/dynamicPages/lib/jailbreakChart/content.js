@@ -124,7 +124,7 @@ function getCompatListing(jb) {
     html += "### " + compatListHeader[0] + "\n\n";
     for (var d in compatArr[i].devices) html += `- <router-link to="${devicePath + compatArr[i].devices[d]}">${deviceList[compatArr[i].devices[d]].name}</router-link> \n`
     html += "### " + compatListHeader[1] + "\n\n";
-    for (var fw in compatArr[i].firmwares) html += `- ${getBuild(compatArr[i].firmwares[fw]).version} (<router-link to="${fwPath + compatArr[i].firmwares[fw]}">${compatArr[i].firmwares[fw]}</router-link>)`
+    for (var fw in compatArr[i].firmwares) html += `- ${getBuild(compatArr[i].firmwares[fw]).version} (<router-link to="${fwPath + compatArr[i].firmwares[fw]}">${compatArr[i].firmwares[fw]}</router-link>) \n`
   }
   
   return html;
