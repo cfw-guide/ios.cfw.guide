@@ -132,7 +132,7 @@ for (const i in deviceGroups) {
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./deviceTable')(d.devices[0], false, -1, false, false)
+    content: require('./deviceTable')(d.devices[0], false, -1, false, true)
   })
   
   page.push({
