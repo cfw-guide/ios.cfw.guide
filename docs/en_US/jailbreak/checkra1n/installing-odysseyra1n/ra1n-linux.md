@@ -28,7 +28,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
     - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
     - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` and follow all onscreen prompts
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](/faq/#what-is-dfu-mode), click `Start` to begin
+1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
 

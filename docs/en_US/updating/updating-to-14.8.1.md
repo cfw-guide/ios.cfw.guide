@@ -53,7 +53,3 @@ Only follow this if you've installed update blocking in the past.
 1. Tap `General` -> `Software Update`
     - Ensure that the version you are updating to is 14.8.1
 1. Download and install the update
-
-::: tip
-Continue to [Installing Odysseyra1n](installing-odysseyra1n)
-:::

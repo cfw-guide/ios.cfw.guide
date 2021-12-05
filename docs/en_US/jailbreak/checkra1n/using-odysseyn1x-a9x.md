@@ -21,7 +21,7 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 ::: tip
-If you are using an A9X device running iOS 14.4.2 or earlier, you should follow [Installing Odysseyra1n](installing-odysseyra1n) and use checkra1n version 0.12.2 instead.
+If you are using an A9X device running iOS 14.4.2 or earlier, you should follow <router-link to="/using-odysseyn1x">Using Odysseyn1x</router-link> and use checkra1n version 0.12.2 instead.
 :::
 
 On A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode. It is possible to use a custom version of Odysseyn1x, however, to work around this.
@@ -55,7 +55,7 @@ On A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ su
 ## Running checkra1n
 
 1. Once you have loaded odysseyn1x, select `checkra1n (A9X)`
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](/faq/#what-is-dfu-mode), click `Start` to begin
+1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device reboots to a black screen
 1. Once your device boots, you can quit checkra1n, but do not shut down your computer
 

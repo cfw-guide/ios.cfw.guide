@@ -11,13 +11,15 @@ pkgman: cydia
 
 Absinthe is capable of jailbreaking every iOS device on firmware version 5.1.1 and A5 devices (iPhone 4S, iPad 2) on firmware versions 5.0 and 5.0.1
 
-Absinthe is an [untethered](/types-of-jailbreak/#untethered-jailbreaks) jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
+Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered</router-link> jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
 
 ## Downloads
 
 - Computer running macOS 10.12.X or older or Windows XP or newer. Wine will not work.
 - The latest version of [Absinthe](https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/)
-- iTunes version 11.1.5 if on Windows. [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe), [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
+- iTunes version 11.1.5 if on Windows
+  - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
+  - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 
 ## Installing the application
 
@@ -36,4 +38,4 @@ Be sure to use an MFI-certified 30-pin or lightning connector for highest chance
 
 Your iOS Device should now be jailbroken.
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

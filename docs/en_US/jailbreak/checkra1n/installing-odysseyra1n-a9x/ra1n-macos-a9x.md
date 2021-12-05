@@ -26,7 +26,7 @@ If you're using an M1 Mac, you will be prompted during the process to unplug and
     - Keep note of where you extract this
 1. Open a terminal and run checkra1n in CLI mode by using `/Applications/checkra1n.app/Contents/MacOS/checkra1n -c -k [path to PongoConsolidated.bin]`
 1. Plug your iOS device into your computer
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](/faq/#what-is-dfu-mode), click `Start` to begin
+1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
 

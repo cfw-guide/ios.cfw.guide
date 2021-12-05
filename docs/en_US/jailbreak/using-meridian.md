@@ -16,7 +16,7 @@ Meridian is capable of jailbreaking every 64-bit iOS device on firmware version 
 
 Note that the Meridian jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
-If you are using a device with a headphone jack we strongly recommend you follow our [Installing doubleh3lix](/installing-doubleh3lix) guide for 64-bit devices instead.
+If you are using a device with a headphone jack we strongly recommend you follow our <router-link to="/installing-doubleh3lix">Installing doubleh3lix</router-link> guide for 64-bit devices instead.
 
 ## Running Meridian
 
@@ -30,4 +30,4 @@ Meridian will now install the temporary jailbreak on your device.
 Tap `Share` -> `Add to home screen` for easier access to Meridian.
 :::
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

@@ -15,7 +15,7 @@ extra_contributors:
 
 doubleh3lix is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.
 
-Note that the doubleh3lix jailbreak is [not “persistent”](/types-of-jailbreak/#semi-untethered-jailbreaks) (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
+Note that the doubleh3lix jailbreak is <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">not “persistent”</router-link> (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the doubleh3lix jailbreak application to your device every 7 days from your computer.
 
@@ -59,4 +59,4 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 {:.notice--danger}
 :::
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

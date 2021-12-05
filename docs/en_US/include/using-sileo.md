@@ -6,9 +6,9 @@ This page is optional, but helpful if you are unfamiliar with jailbreaking.
 
 Sileo is a modern package manager that has a redesigned UI made to fit with iOS 11 and above. It's the App Store for all the tweaks and themes available for your device.
 
-[Tweaks](/faq/#what-are-tweaks) are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".
+<p><router-link to="/faq/#what-are-tweaks">Tweaks</router-link> are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".</p>
 
-[Repositories](/faq/#what-s-a-repo) are essentially databases that contain lots of tweaks for you to install. When you add repos to Sileo, you will be able to install the tweaks on it, and look for them using the search function.
+<p><router-link to="/faq/#what-s-a-repo">Repositories</router-link> are essentially databases that contain lots of tweaks for you to install. When you add repos to Sileo, you will be able to install the tweaks on it, and look for them using the search function.</p>
 
 This guide will show you how you can install and uninstall tweaks, and add different repos.
 
@@ -40,7 +40,7 @@ The repo should now be removed from Sileo.
     - A bar labeled "Queued" should appear at the bottom of your screen
 1. Tap on the bar and press "Confirm"
     - It may take some time for the tweak to install
-1. After it's finished, tap "[Respring]((/faq/#what-is-respringing))"
+1. After it's finished, tap "<router-link to="/faq/#what-is-respringing">Respring</router-link>"
     - The device should appear to reboot after this
     - Sometimes, the button might not say to respring, but you can tap the button anyway
 
@@ -55,12 +55,12 @@ The tweak should now be installed to your device and will be active whenever you
     - A bar labeled "Queued" should appear at the bottom of your screen
 1. Tap on the bar and press "Confirm"
     - It may take some time for the tweak to install
-1. After it's finished, tap "Respring"
+1. After it's finished, tap "<router-link to="/faq/#what-is-respringing">Respring</router-link>"
     - The device should appear to reboot after this
     - Sometimes, the button might not say to respring, but you can tap the button anyway
     
 After respringing, the tweak should now be uninstalled.
 
 ::: tip
-If you run into errors installing or removing packages, read the [Troubleshooting](/troubleshooting/#fixing-package-installation-errors-on-sileo) page
+If you run into errors installing or removing packages, read the <router-link to="/troubleshooting/#fixing-package-installation-errors-on-sileo">Troubleshooting</router-link> page
 :::

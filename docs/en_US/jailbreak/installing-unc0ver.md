@@ -14,16 +14,16 @@ extra_contributors:
   - TheHacker894
 ---
 
-unc0ver is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
+unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
 
 The tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
 
-Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](/resigning-apps) once every 7 days.
+Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
 ::: warning
-If you are already jailbroken with another jailbreak, make sure to properly [remove it](/restoring-rootfs) before proceeding.
+If you are already jailbroken with another jailbreak, make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
 :::
 
 ## Downloads
@@ -33,7 +33,7 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The 5.3.1 version of [unc0ver](https://unc0ver.dev/downloads/5.3.1/72004596b31ba3eae886ac6cc781725879d3b7a4/unc0ver_5.3.1.ipa)
-  - Users on firmware versions 12.4.9 - 12.5.4, 13.5.1 - 13.7, and 14.0 - 14.3 should download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa) instead
+  - Users on firmware versions 12.4.9 - 12.5.4, 13.5.1 - 14.3 should download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa) instead
   - Users on firmware version 12.5.5 should download the latest version of [unc0ver](https://unc0ver.dev) instead
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
@@ -79,15 +79,11 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 :::
 
 ::: warning
-If you receive the error `rootFS already mounted, delete the OTA update`, read the [Troubleshooting](/troubleshooting/#rootfs-already-mounted) page
+If you receive the error `rootFS already mounted, delete the OTA update`, read the <router-link to="/troubleshooting/#rootfs-already-mounted">Troubleshooting</router-link> page
 :::
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
 ::: tip
-If you wish to use a more modern package manager, and are on iOS 12.0 or higher, continue to [Installing Sileo](/installing-sileo)
-:::
-
-::: tip
-To learn how to use Cydia, continue to [Using Cydia](using-cydia)
+If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
 :::

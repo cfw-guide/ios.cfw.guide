@@ -47,4 +47,4 @@ Skip these steps if you are on iOS 4 or higher
 
 :::
 
-You can now use Cydia to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You can now use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

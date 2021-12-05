@@ -11,16 +11,16 @@ extra_contributors:
   - hopolapopola
 ---
 
-Taurine is a [semi-untethered jailbreak](/types-of-jailbreak/#semi-untethered-jailbreaks), meaning it requires a app to re-apply the exploit after a reboot.
+Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
 
 The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 14.0 to 14.3.
 
-Due to how semi-untethered jailbreaks work, the app will need to be [re-signed](/resigning-apps) once every 7 days.
+Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the Taurine jailbreak application to your iOS device for use in the next step.
 
 ::: warning
-If you are already jailbroken with another jailbreak (besides Odysseyra1n), make sure to properly [remove it](/restoring-rootfs) before proceeding.
+If you are already jailbroken with another jailbreak (besides Odysseyra1n), make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
 :::
 
 ## Downloads
@@ -70,10 +70,10 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 :::
 
 ::: warning
-If you receive the error `ERR_Jailbreak`, `ERR_Already_Jailbroken` or `ERR_KernRW` read the Taurine/Odyssey section on the [Troubleshooting](/troubleshooting/#common-errors-on-odyssey-and-taurine) page
+If you receive the error `ERR_Jailbreak`, `ERR_Already_Jailbroken` or `ERR_TFP0` read the Taurine/Odyssey section on the <router-link to="/troubleshooting/#common-errors-on-odyssey-and-taurine">Troubleshooting</router-link> page.
 :::
 
-You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install [tweaks](/faq/#what-are-tweaks), themes and more.
+You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
 ## Installing necessary software
 

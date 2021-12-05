@@ -10,25 +10,25 @@ Uninstalling a jailbreak isn't as simple as deleting the app or stuff similar to
 Depending on the jailbreak you are using, you will need to go through different steps to be able to remove your jailbreak.
 
 :::tip
-If you're trying to remove unc0ver, follow [Removing unc0ver](/removing-unc0ver)
+If you're trying to remove unc0ver, follow <router-link to="/removing-unc0ver">Removing unc0ver</router-link>
 :::
 
 :::tip
-If you're trying to remove checkra1n, follow [Removing checkra1n](/removing-checkra1n)
+If you're trying to remove checkra1n, follow <router-link to="/removing-checkra1n">Removing checkra1n</router-link>
 :::
 
 :::tip
-If you're trying to remove Odysseyra1n, follow [Removing Odysseyra1n](/removing-odysseyra1n)
+If you're trying to remove Odysseyra1n, follow <router-link to="/removing-odysseyra1n">Removing Odysseyra1n</router-link>
 :::
 
 :::tip
-If you're trying to remove Chimera, follow [Removing Chimera](/removing-chimera)
+If you're trying to remove Chimera, follow <router-link to="/removing-chimera">Removing Chimera</router-link>
 :::
 
 :::tip
-If you're trying to remove Odyssey, follow [Removing Odyssey](/removing-odyssey)
+If you're trying to remove Odyssey, follow <router-link to="/removing-odyssey">Removing Odyssey</router-link>
 :::
 
 :::tip
-If you're trying to remove Taurine, follow [Removing Taurine](/removing-taurine)
+If you're trying to remove Taurine, follow <router-link to="/removing-taurine">Removing Taurine</router-link>
 :::

@@ -29,7 +29,7 @@ If you're using an M1 Mac and are attempting to jailbreak on A7 device or an A9X
     - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` -> `Next` on checkra1n
     - Your device will be put into recovery mode automatically
-1. You will now be presented with instructions in how to reboot your device into [DFU mode](/faq/#what-is-dfu-mode), click `Start` to begin
+1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
 1. After this, checkra1n should automatically install
 

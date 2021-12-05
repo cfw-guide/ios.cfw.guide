@@ -58,7 +58,7 @@ You need a pre-existing jailbreak installed to use this method.
 
 ## Troubleshooting
 
-If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to [installing Odysseyra1n](/installing-odysseyra1n).
+If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to <router-link to="/installing-odysseyra1n">installing Odysseyra1n</router-link>.
 
 ### "iOS is up to date"
 
@@ -70,7 +70,7 @@ If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.
 ### "Unable to check for updates"
 
 1. Restore rootFS through your jailbreak
-1. Install and open the [unc0ver](/installing-unc0ver) application
+1. Install and open the <router-link to="/installing-unc0ver">unc0ver</router-link> application
 1. Turn off "Disable updates"
 1. Re-jailbreak using unc0ver
 

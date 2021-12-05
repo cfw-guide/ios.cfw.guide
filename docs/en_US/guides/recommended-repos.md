@@ -9,7 +9,7 @@ extra_contributors:
   - TheHacker894
 ---
 
-After installing your jailbreak, you may want to install some repos ([repositories](faq#repos)). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!
+After installing your jailbreak, you may want to install some repos (<router-link to="/faq#repos">repositories</router-link>). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!
 
 ## BigBoss
 

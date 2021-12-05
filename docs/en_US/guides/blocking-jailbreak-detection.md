@@ -26,18 +26,18 @@ Blocking jailbreak detection can stop you from accessing photos and other files 
 Now, we'll go through each tweak that can be used to minimize jailbreak detection. Some apps, however, cannot be patched and will not work when jailbroken, regardless of the content below. Other apps may need bypasses made specifically for them.
 ## Tweaks
 
-- [A-Bypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/&package=com.rpgfarm.a-bypass) ([repo.co.kr](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/))
-- [Liberty Lite (Beta)](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/&package=com.ryleyangus.libertylite.beta) ([ryleyangus.com/repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/))
-- [Choicy](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/&package=com.opa334.choicy) ([opa334.github.io](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/))
+- [A-Bypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/&package=com.rpgfarm.a-bypass) (<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.co.kr/">repo.co.kr</a>)
+- [Liberty Lite (Beta)](cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/&package=com.ryleyangus.libertylite.beta) (<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ryleyangus.com/repo/">ryleyangus.com/repo</a>)
+- [Choicy](cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/&package=com.opa334.choicy) (<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://opa334.github.io/">opa334.github.io</a>)
 - Libhooker Configurator (available on the Odyssey repo)
-- [KernBypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.ichitaso.com/&package=jp.akusio.kernbypass-unofficial) ([cydia.ichitaso.com](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.ichitaso.com/))
-- [vnodebypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xsf1re.kr/&package=kr.xsf1re.vnodebypass) ([repo.xsf1re.kr](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xsf1re.kr/))
+- [KernBypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.ichitaso.com/&package=jp.akusio.kernbypass-unofficial) (<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.ichitaso.com/">cydia.ichitaso.com</a>)
+- [vnodebypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xsf1re.kr/&package=kr.xsf1re.vnodebypass) (<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xsf1re.kr/">repo.xsf1re.kr</a>)
 
 ::: tip
 Choicy is available on the default BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
 :::
 
-There is other software available for hiding jailbreak, such as [Shadow](sileo://package/me.jjolano.shadow) ([ios.jjolano.me](sileo://source/https://ios.jjolano.me/)), however we'll only be covering the above tweaks in this guide.
+There is other software available for hiding jailbreak, such as [Shadow](sileo://package/me.jjolano.shadow) (<a href="sileo://source/https://ios.jjolano.me/">ios.jjolano.me</a>), however we'll only be covering the above tweaks in this guide.
 
 ## Installation
 
@@ -49,8 +49,7 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 ## A-Bypass
 
 ::: tip
-According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as [Chimera](installing-chimera), [Odyssey](installing-odyssey), [odysseyra1n](checkra1n/installing-odysseyra1n), and [Taurine](installing-taurine)  
-It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
+According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, and <router-link to="/installing-taurine">Taurine</router-link>. It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
 :::
 
 1. Open the Settings application
@@ -74,7 +73,7 @@ This is the best option for users wanting to use Snapchat on their jailbroken de
 :::
 
 ::: tip
-If you use a libhooker-based jailbreak, such as [Chimera](installing-chimera), [Odyssey](installing-odyssey), [odysseyra1n](checkra1n/installing-odysseyra1n), or [Taurine](installing-taurine), then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
+If you use a libhooker-based jailbreak, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, or <router-link to="/installing-taurine">Taurine</router-link>, then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
 :::
 
 1. Open the Settings application
