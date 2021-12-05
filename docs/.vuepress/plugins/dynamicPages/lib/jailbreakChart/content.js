@@ -44,7 +44,7 @@ function getJbInfo(jb) {
       var guideText = infoHeader[2];
       if (guide.hasOwnProperty('text')) guideText = guide.text
       
-      infoArr.push(`${guideText}: [${guide.name}](${guide.url})`)
+      infoArr.push(`${guideText}: <router-link to="${guide.url}">${guide.name}</router-link> \n`)
     }
   }
   
@@ -122,9 +122,9 @@ function getCompatListing(jb) {
   html += "## " + header[1] + "\n";
   for (var i in compatArr) {
     html += "### " + compatListHeader[0] + "\n\n";
-    for (var d in compatArr[i].devices) html += "- [" + deviceList[compatArr[i].devices[d]].name + "](" + devicePath + compatArr[i].devices[d] + ")\n"
+    for (var d in compatArr[i].devices) html += `- <router-link to="${devicePath + compatArr[i].devices[d]}">${deviceList[compatArr[i].devices[d]].name}</router-link> \n`
     html += "### " + compatListHeader[1] + "\n\n";
-    for (var fw in compatArr[i].firmwares) html += "- " + getBuild(compatArr[i].firmwares[fw]).version + " ([" + compatArr[i].firmwares[fw] + "](" + fwPath + compatArr[i].firmwares[fw] + "))\n"
+    for (var fw in compatArr[i].firmwares) html += `- ${getBuild(compatArr[i].firmwares[fw]).version} (<router-link to="${fwPath + compatArr[i].firmwares[fw]}">${compatArr[i].firmwares[fw]}</router-link>)`
   }
   
   return html;
