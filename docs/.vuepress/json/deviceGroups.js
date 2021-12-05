@@ -423,7 +423,7 @@ module.exports = [
     ],
   },
   {
-    name: "Apple TV (4th generation)",
+    name: "Apple TV HD",
     devices: [
       "AppleTV5,3",
     ],
