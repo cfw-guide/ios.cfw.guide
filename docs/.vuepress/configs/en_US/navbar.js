@@ -22,6 +22,14 @@ module.exports = [
             text: 'iPod',
             link: '/chart/device/iPod.html',
           },
+          {
+            text: 'Apple TV',
+            link: '/chart/device/AppleTV.html',
+          },
+          {
+            text: 'Apple Watch',
+            link: '/chart/device/AppleWatch.html',
+          },
         ]
       }
     ]
