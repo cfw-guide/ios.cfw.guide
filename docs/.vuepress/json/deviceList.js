@@ -931,7 +931,7 @@ module.exports = {
     model: ["A1469"],
   },
   "AppleTV5,3": {
-    name: "Apple TV HD (4th generation)",
+    name: "Apple TV HD",
     soc: "A8",
     arch: "arm64",
     type: "TV",
