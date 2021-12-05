@@ -8,7 +8,9 @@ const header = {
   mini: 'iPad mini',
   Pro: 'iPad Pro',
   Air: 'iPad Air',
-  iPod: 'iPod'
+  iPod: 'iPod',
+  TV: 'Apple TV',
+  Watch: 'Apple Watch',
 }
 
 function getDeviceArr(typeArr) {
