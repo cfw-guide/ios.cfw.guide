@@ -93,6 +93,15 @@
     },
     "iPod5,1": {
       "ipsw": "http://appldnld.apple.com/iOS7/031-1792.20131114.P3wE4/iPod5,1_7.0.4_11B554a_Restore.ipsw"
+    },
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8/031-07202.20140917.tF6Fs/AppleTV2,1_6.2.1_11D258_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021/ios/001-92157-20210409-83508A08-0FA7-48CA-ADEF-FB36139BC388/AppleTV3,1_8.4.3_12H923_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://updates-http.cdn-apple.com/2020/tvos/001-77041-20201209-B0114EE7-A0DB-4C9B-840B-F7710F961842/AppleTV3,2_8.4.3_12H914_Restore.ipsw"
     }
   }
 }
