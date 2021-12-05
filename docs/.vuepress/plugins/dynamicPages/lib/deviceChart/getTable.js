@@ -76,6 +76,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   }
   
   var tableArr = require('./getTableArr')(device, showAll, maxDisplayed, simplifyTable, groupTable);
+  if (tableArr[0].length < 1 && tableArr[1].length < 1) return '';
   
   for (const i in buildArr) {
     var jbObjArr = tableArr[i]
