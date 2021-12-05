@@ -1,0 +1,11 @@
+{
+  "name": "Apple Watch Series 4",
+  "type": "Watch",
+  "order": 4,
+  "devices": [
+    "Watch4,1",
+    "Watch4,2",
+    "Watch4,3",
+    "Watch4,4"
+  ]
+}

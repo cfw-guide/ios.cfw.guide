@@ -1,0 +1,8 @@
+{
+  "name": "iPhone 2G",
+  "type": "iPhone",
+  "order": 0,
+  "devices": [
+    "iPhone1,1"
+  ]
+}

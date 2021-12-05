@@ -1,0 +1,9 @@
+{
+  "name": "iPad (5th generation)",
+  "type": "iPad",
+  "order": 4,
+  "devices": [
+    "iPad6,11",
+    "iPad6,12"
+  ]
+}

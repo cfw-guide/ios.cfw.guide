@@ -1,0 +1,10 @@
+{
+  "name": "Apple TV 4K (2nd generation)",
+  "identifier": "AppleTV11,1",
+  "soc": "A12",
+  "arch": "arm64e",
+  "type": "TV",
+  "model": [
+    "A2169"
+  ]
+}

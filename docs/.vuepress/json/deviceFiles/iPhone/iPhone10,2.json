@@ -1,0 +1,12 @@
+{
+  "name": "iPhone 8 Plus (CDMA)",
+  "identifier": "iPhone10,2",
+  "soc": "A11",
+  "arch": "arm64",
+  "type": "iPhone",
+  "model": [
+    "A1864",
+    "A1898",
+    "A1899"
+  ]
+}

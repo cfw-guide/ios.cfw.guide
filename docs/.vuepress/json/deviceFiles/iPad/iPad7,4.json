@@ -1,0 +1,10 @@
+{
+  "name": "iPad Pro (10.5-inch) Wi-Fi + Cellular",
+  "identifier": "iPad7,4",
+  "soc": "A10X",
+  "arch": "arm64",
+  "type": "Pro",
+  "model": [
+    "A1709"
+  ]
+}

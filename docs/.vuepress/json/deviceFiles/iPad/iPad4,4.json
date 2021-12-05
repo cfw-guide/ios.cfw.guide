@@ -1,0 +1,10 @@
+{
+  "name": "iPad mini 2 Wi-Fi",
+  "identifier": "iPad4,4",
+  "soc": "A7",
+  "arch": "arm64",
+  "type": "mini",
+  "model": [
+    "A1489"
+  ]
+}

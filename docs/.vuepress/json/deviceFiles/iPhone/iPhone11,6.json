@@ -1,0 +1,13 @@
+{
+  "name": "iPhone XS Max",
+  "identifier": "iPhone11,6",
+  "soc": "A12",
+  "arch": "arm64e",
+  "type": "iPhone",
+  "model": [
+    "A1921",
+    "A2101",
+    "A2102",
+    "A2104"
+  ]
+}

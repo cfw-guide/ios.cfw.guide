@@ -1,0 +1,11 @@
+{
+  "name": "iPhone 8",
+  "type": "iPhone",
+  "order": 12,
+  "devices": [
+    "iPhone10,1",
+    "iPhone10,2",
+    "iPhone10,4",
+    "iPhone10,5"
+  ]
+}

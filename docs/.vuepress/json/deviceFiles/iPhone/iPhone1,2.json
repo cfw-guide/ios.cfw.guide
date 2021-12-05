@@ -1,0 +1,13 @@
+{
+  "name": "iPhone 3G",
+  "identifier": "iPhone1,2",
+  "soc": "APL0098",
+  "arch": "armv6",
+  "type": "iPhone",
+  "released": "2008-07-11",
+  "discontinued": "2010-06-07",
+  "model": [
+    "A1241",
+    "A1324"
+  ]
+}

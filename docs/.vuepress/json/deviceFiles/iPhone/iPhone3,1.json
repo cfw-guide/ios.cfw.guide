@@ -1,0 +1,12 @@
+{
+  "name": "iPhone 4 (GSM)",
+  "identifier": "iPhone3,1",
+  "soc": "A4",
+  "arch": "armv7",
+  "type": "iPhone",
+  "released": "2010-06-24",
+  "discontinued": "2013-09-10",
+  "model": [
+    "A1332"
+  ]
+}

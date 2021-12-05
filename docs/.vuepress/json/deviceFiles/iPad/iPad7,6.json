@@ -1,0 +1,10 @@
+{
+  "name": "iPad (6th generation) Wi-Fi + Cellular",
+  "identifier": "iPad7,6",
+  "soc": "A10",
+  "arch": "arm64",
+  "type": "iPad",
+  "model": [
+    "A1954"
+  ]
+}

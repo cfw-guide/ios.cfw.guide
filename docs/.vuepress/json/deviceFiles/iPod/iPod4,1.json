@@ -1,0 +1,10 @@
+{
+  "name": "iPod touch (4th generation)",
+  "identifier": "iPod4,1",
+  "soc": "A4",
+  "arch": "armv7",
+  "type": "iPod",
+  "model": [
+    "A1367"
+  ]
+}

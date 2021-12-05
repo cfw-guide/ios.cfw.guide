@@ -1,0 +1,10 @@
+{
+  "name": "iPad (4th generation) Wi-Fi",
+  "identifier": "iPad3,4",
+  "soc": "A6X",
+  "arch": "armv7s",
+  "type": "iPad",
+  "model": [
+    "A1458"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "iPad Air 2 Wi-Fi",
+  "identifier": "iPad5,3",
+  "soc": "A8X",
+  "arch": "arm64",
+  "type": "Air",
+  "model": [
+    "A1566"
+  ]
+}

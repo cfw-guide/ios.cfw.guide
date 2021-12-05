@@ -1,0 +1,10 @@
+{
+  "name": "iPod touch (7th generation)",
+  "identifier": "iPod9,1",
+  "soc": "A8",
+  "arch": "arm64",
+  "type": "iPod",
+  "model": [
+    "A2178"
+  ]
+}

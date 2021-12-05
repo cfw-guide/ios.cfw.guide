@@ -1,0 +1,9 @@
+{
+  "name": "Apple Watch Series 2 (42mm)",
+  "identifier": "Watch2,4",
+  "type": "Watch",
+  "model": [
+    "A1758",
+    "A1817"
+  ]
+}

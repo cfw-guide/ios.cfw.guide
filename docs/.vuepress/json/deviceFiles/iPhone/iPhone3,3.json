@@ -1,0 +1,12 @@
+{
+  "name": "iPhone 4 (CDMA)",
+  "identifier": "iPhone3,3",
+  "soc": "A4",
+  "arch": "armv7",
+  "type": "iPhone",
+  "released": "2011-02-10",
+  "discontinued": "2013-09-10",
+  "model": [
+    "A1349"
+  ]
+}

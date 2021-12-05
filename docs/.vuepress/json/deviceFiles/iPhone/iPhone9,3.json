@@ -1,0 +1,10 @@
+{
+  "name": "iPhone 7 (GSM)",
+  "identifier": "iPhone9,3",
+  "soc": "A10",
+  "arch": "arm64",
+  "type": "iPhone",
+  "model": [
+    "A1778"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "iPad Pro 12.9-inch (3rd generation)",
+  "type": "Pro",
+  "order": 4,
+  "devices": [
+    "iPad8,5",
+    "iPad8,6",
+    "iPad8,7",
+    "iPad8,8"
+  ]
+}

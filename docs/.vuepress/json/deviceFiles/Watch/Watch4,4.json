@@ -1,0 +1,9 @@
+{
+  "name": "Apple Watch Series 4 (44mm, LTE)",
+  "identifier": "Watch4,4",
+  "type": "Watch",
+  "model": [
+    "A1976",
+    "A2008"
+  ]
+}

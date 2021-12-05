@@ -1,0 +1,14 @@
+{
+  "name": "iPhone 13 Pro Max",
+  "identifier": "iPhone14,3",
+  "soc": "A15",
+  "arch": "arm64e",
+  "type": "iPhone",
+  "model": [
+    "A2484",
+    "A2641",
+    "A2643",
+    "A2644",
+    "A2645"
+  ]
+}

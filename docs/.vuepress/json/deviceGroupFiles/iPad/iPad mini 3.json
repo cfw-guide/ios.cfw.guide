@@ -1,0 +1,10 @@
+{
+  "name": "iPad mini 3",
+  "type": "mini",
+  "order": 2,
+  "devices": [
+    "iPad4,7",
+    "iPad4,8",
+    "iPad4,9"
+  ]
+}

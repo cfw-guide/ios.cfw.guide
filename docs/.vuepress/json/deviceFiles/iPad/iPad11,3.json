@@ -1,0 +1,10 @@
+{
+  "name": "iPad Air (3rd generation) Wi-Fi",
+  "identifier": "iPad11,3",
+  "soc": "A12",
+  "arch": "arm64e",
+  "type": "Air",
+  "model": [
+    "A2152"
+  ]
+}

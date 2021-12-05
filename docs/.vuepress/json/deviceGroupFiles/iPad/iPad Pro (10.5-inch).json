@@ -1,0 +1,9 @@
+{
+  "name": "iPad Pro (10.5-inch)",
+  "type": "Pro",
+  "order": 3,
+  "devices": [
+    "iPad7,3",
+    "iPad7,4"
+  ]
+}
