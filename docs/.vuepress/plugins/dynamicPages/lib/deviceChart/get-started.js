@@ -71,6 +71,7 @@ function getFindVersion(deviceType, minFw) {
 
 module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
   const tableArr = require('./getTableArr')(device, showAll, maxDisplayed, simplifyTable, groupTable)[0];
+  if (!tableArr.length) return '';
   var from = tableArr[0].from;
   var to = tableArr[0].to;
   
