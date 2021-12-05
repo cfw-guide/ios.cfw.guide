@@ -3,8 +3,7 @@
   "build": "18E5140j",
   "released": "2021-02-01",
   "beta": true,
-  "devices": {
-    "iPhone8,1": {
+  "devices": {"iPhone8,1": {
       "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-02914/AC00C305-BB5A-469D-953D-ACC56B362FC6/iPhone_4.7_14.5_18E5140j_Restore.ipsw"
     },
     "iPhone8,2": {
@@ -90,6 +89,18 @@
     },
     "iPad7,6": {
       "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-02873/6A09D861-4A31-4254-9EBC-DE9B7F1D7061/iPad_64bit_TouchID_ASTC_14.5_18E5140j_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-03041/C28D507E-C42B-4DE4-9CE2-2BD63E6CEB5B/iPad_Educational_14.5_18E5140j_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-03041/C28D507E-C42B-4DE4-9CE2-2BD63E6CEB5B/iPad_Educational_14.5_18E5140j_Restore.ipsw"
+    },
+    "iPad11,6": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-02896/20A3641E-7D9B-4E99-AA26-A13E4E9EBEB7/iPad_Educational_2020_14.5_18E5140j_Restore.ipsw"
+    },
+    "iPad11,7": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/071-02896/20A3641E-7D9B-4E99-AA26-A13E4E9EBEB7/iPad_Educational_2020_14.5_18E5140j_Restore.ipsw"
     }
   }
 }
