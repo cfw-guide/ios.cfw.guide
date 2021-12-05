@@ -24,6 +24,8 @@ const description = ['device','iPhone','iPad','iPod','Apple TV','Apple Watch'];
 const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html', '/AppleTV.html', '/AppleWatch.html']
 
 for (const i in types) {
+  var contentsHeader = '';
+  if (types[i].length > 1) contentsHeader = '## Contents \n\n';
   page.push({
     path: '/chart/device' + path[i],
     frontmatter: {
@@ -34,7 +36,7 @@ for (const i in types) {
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./devicePage')(types[i], '/chart/device/', true)
+    content: contentsHeader + require('./devicePage')(types[i], '/chart/device/', true)
   })
 }
 
