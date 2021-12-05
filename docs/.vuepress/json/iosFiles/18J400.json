@@ -1,0 +1,11 @@
+{
+  "version": "14.0.1",
+  "build": "18J400",
+  "released": "2020-09-24",
+  "beta": false,
+  "devices": {
+    "AppleTV5,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-21018/44074CDE-BB78-4AFB-A928-BF05CD304FF6/AppleTV5,3_14.7_18M60_Restore.ipsw"
+    }
+  }
+}
