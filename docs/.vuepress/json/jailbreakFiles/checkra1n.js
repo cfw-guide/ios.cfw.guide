@@ -284,6 +284,15 @@ module.exports = {
         "iPhone10,4", // iPhone 8 (GSM), A11
         "iPhone10,5", // iPhone 8 Plus (GSM), A11
         "iPhone10,6", // iPhone X (GSM), A11
+        "iPad4,1", // iPad Air Wi-Fi, A7
+        "iPad4,2", // iPad Air Wi-Fi + Cellular, A7
+        "iPad4,3", // iPad Air Wi-Fi + Cellular (TD-LTE), A7
+        "iPad4,4", // iPad mini 2 Wi-Fi, A7
+        "iPad4,5", // iPad mini 2 Wi-Fi + Cellular, A7
+        "iPad4,6", // iPad mini 2 Wi-Fi + Cellular (TD-LTE), A7
+        "iPad4,7", // iPad mini 3 Wi-Fi, A8
+        "iPad4,8", // iPad mini 3 Wi-Fi + Cellular, A8
+        "iPad4,9", // iPad mini 3 Wi-Fi + Cellular (TD-LTE), A8
         "iPad5,1", // iPad mini 4 Wi-Fi, A8
         "iPad5,2", // iPad mini 4 Wi-Fi + Cellular, A8
         "iPad5,3", // iPad Air 2 Wi-Fi, A8X
