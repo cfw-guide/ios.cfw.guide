@@ -15,6 +15,12 @@ module.exports = {
     "type": "Untethered",
     "firmwares": ["5.0","5.1.1"],
     "soc": "A4, A5, A5X",
+    }
+    "guide": [
+      {
+        "name": "Installing Absinthe",
+        "url": "/installing-absinthe/"
+      }
   },
   "compatibility": [
     {
