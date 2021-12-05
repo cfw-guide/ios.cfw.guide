@@ -440,4 +440,79 @@ module.exports = [
       "AppleTV11,1",
     ],
   },
+  {
+    name: "Apple Watch (1st generation)",
+    devices: [
+      "Watch1,1",
+      "Watch1,2",
+    ],
+  },
+  {
+    name: "Apple Watch Series 1",
+    devices: [
+      "Watch2,6",
+      "Watch2,7",
+    ],
+  },
+  {
+    name: "Apple Watch Series 2",
+    devices: [
+      "Watch2,3",
+      "Watch2,4",
+    ],
+  },
+  {
+    name: "Apple Watch Series 3",
+    devices: [
+      "Watch3,1",
+      "Watch3,2",
+      "Watch3,3",
+      "Watch3,4",
+    ],
+  },
+  {
+    name: "Apple Watch Series 4",
+    devices: [
+      "Watch4,1",
+      "Watch4,2",
+      "Watch4,3",
+      "Watch4,4",
+    ],
+  },
+  {
+    name: "Apple Watch Series 5",
+    devices: [
+      "Watch5,1",
+      "Watch5,2",
+      "Watch5,3",
+      "Watch5,4",
+    ],
+  },
+  {
+    name: "Apple Watch SE",
+    devices: [
+      "Watch5,9",
+      "Watch5,10",
+      "Watch5,11",
+      "Watch5,12",
+    ],
+  },
+  {
+    name: "Apple Watch Series 6",
+    devices: [
+      "Watch6,1",
+      "Watch6,2",
+      "Watch6,3",
+      "Watch6,4",
+    ],
+  },
+  {
+    name: "Apple Watch Series 7",
+    devices: [
+      "Watch7,1",
+      "Watch7,2",
+      "Watch7,3",
+      "Watch7,4",
+    ],
+  },
 ]
