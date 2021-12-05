@@ -78,6 +78,12 @@
     },
     "iPad7,6": {
       "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPad_Educational_14.0_18A5301v_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPad_Educational_14.0_18A5301v_Restore.ipsw"
     }
   }
 }

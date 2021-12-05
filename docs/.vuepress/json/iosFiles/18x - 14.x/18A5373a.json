@@ -78,6 +78,12 @@
     },
     "iPad7,6": {
       "ipsw": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45577/826204DF-FBAF-498D-BA91-639CE04B7905/iPad_64bit_TouchID_ASTC_14.0_18A5373a_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45652/ABBF1820-667A-4C53-A4BE-6E7C4FEC153F/iPad_Educational_14.0_18A5373a_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/001-45652/ABBF1820-667A-4C53-A4BE-6E7C4FEC153F/iPad_Educational_14.0_18A5373a_Restore.ipsw"
     }
   }
 }

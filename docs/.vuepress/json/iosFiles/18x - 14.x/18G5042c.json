@@ -90,6 +90,18 @@
     },
     "iPad7,6": {
       "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-54880/5B9BE364-665C-4481-93F0-FB66469C1A75/iPad_64bit_TouchID_ASTC_14.7_18G5042c_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-54764/4B476D01-F7CB-4219-BEE0-27021627F9A7/iPad_Educational_14.7_18G5042c_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-54764/4B476D01-F7CB-4219-BEE0-27021627F9A7/iPad_Educational_14.7_18G5042c_Restore.ipsw"
+    },
+    "iPad11,6": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-54873/05878F0E-C82D-4648-A906-5D649EAB2F59/iPad_Educational_2020_14.7_18G5042c_Restore.ipsw"
+    },
+    "iPad11,7": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-54873/05878F0E-C82D-4648-A906-5D649EAB2F59/iPad_Educational_2020_14.7_18G5042c_Restore.ipsw"
     }
   }
 }
