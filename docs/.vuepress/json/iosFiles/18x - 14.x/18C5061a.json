@@ -78,6 +78,18 @@
     },
     "iPhone13,4": {
       "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-84514/6A65DE1B-B9C2-4BDE-B943-F69435FF44BC/iPhone13,4_14.3_18C5061a_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-84363/DBE1FF88-0B87-4D39-A340-A70E630DF106/iPad_64bit_TouchID_ASTC_14.3_18C5061a_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-84363/DBE1FF88-0B87-4D39-A340-A70E630DF106/iPad_64bit_TouchID_ASTC_14.3_18C5061a_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-84363/DBE1FF88-0B87-4D39-A340-A70E630DF106/iPad_64bit_TouchID_ASTC_14.3_18C5061a_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/001-84363/DBE1FF88-0B87-4D39-A340-A70E630DF106/iPad_64bit_TouchID_ASTC_14.3_18C5061a_Restore.ipsw"
     }
   }
 }

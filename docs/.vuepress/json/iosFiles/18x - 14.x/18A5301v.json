@@ -66,6 +66,18 @@
     },
     "iPhone12,8": {
       "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone128_14.0_18A5301v_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
     }
   }
 }
