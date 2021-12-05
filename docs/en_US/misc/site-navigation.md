@@ -6,52 +6,52 @@ permalink: /site-navigation
 
 ## Jailbreaks
 
-+ [Installing Odysseyra1n](/installing-odysseyra1n)
-+ [Using odysseyn1x](/using-odysseyn1x)
-+ [Installing unc0ver (Fugu14)](/installing-unc0ver-fugu14)
-+ [Installing Taurine](/installing-taurine)
-+ [Installing unc0ver](/installing-unc0ver)
-+ [Installing Odyssey](/installing-odyssey)
-+ [Installing Chimera](/installing-chimera)
-+ [Installing Electra](/installing-electra)
-+ [Using Meridian](/using-meridian)
-+ [Installing doubleh3lix](/installing-doubleh3lix)
-+ [Installing h3lix](/installing-h3lix)
-+ [Installing Phœnix](/installing-phoenix)
-+ [Installing Pangu9](/installing-pangu933)
-+ [Installing HomeDepot](/installing-homedepot)
-+ [Installing EtasonJB](/installing-etasonjb)
-+ [Installing Pangu7](/installing-pangu7)
-+ [Installing evasi0n7](/installing-evasi0n7)
-+ [Installing P0sixspwn](/installing-p0sixspwn)
-+ [Using JailbreakMe Saffron](/using-jailbreakme-saffron)
-+ [Using JailbreakMe Star](/using-jailbreakme-star)
++ <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
++ <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
++ <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
++ <router-link to="/installing-taurine">Installing Taurine</router-link>
++ <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
++ <router-link to="/installing-odyssey">Installing Odyssey</router-link>
++ <router-link to="/installing-chimera">Installing Chimera</router-link>
++ <router-link to="/installing-electra">Installing Electra</router-link>
++ <router-link to="/using-meridian">Using Meridian</router-link>
++ <router-link to="/installing-doubleh3lix">Installing doubleh3lix</router-link>
++ <router-link to="/installing-h3lix">Installing h3lix</router-link>
++ <router-link to="/installing-phoenix">Installing Phœnix</router-link>
++ <router-link to="/installing-pangu933">Installing Pangu9</router-link>
++ <router-link to="/installing-homedepot">Installing HomeDepot</router-link>
++ <router-link to="/installing-etasonjb">Installing EtasonJB</router-link>
++ <router-link to="/installing-pangu7">Installing Pangu7</router-link>
++ <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
++ <router-link to="/installing-p0sixspwn">Installing P0sixspwn</router-link>
++ <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
++ <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
 
 ## Miscellaneous
 
-+ [Restoring Rootfs](/restoring-rootfs)
-+ [Installing Sileo](/installing-sileo)
-+ [Using Sileo](/using-sileo)
-+ [Blocking Updates](/blocking-updates)
-+ [FutureRestore](/futurerestore)
-+ [Updating to 15.1](/updating-to-15-1)
-+ [Updating to 14.7.1 (Blobless)](/updating-to-14-7-1-(blobless))
-+ [Updating to 14.8.1](/updating-to-14-8.1)
-+ [Updating to 12.5.4 (Blobless)](/updating-to-12-5-4-(blobless))
-+ [Updating to 12.5.5](/updating-to-12-5-5)
-+ [Package Managers](/package-managers)
-+ [Types of Jailbreak](/types-of-jailbreak)
-+ [Recommended Repos](/recommended-repos)
-+ [Resigning Apps](/resigning-apps)
-+ [Using Cydia](/using-cydia)
-+ [Using Coolbooter](/using-coolbooter)
-+ [FutureRestore](/futurerestore-help)
++ <router-link to="/restoring-rootfs">Restoring Rootfs</router-link>
++ <router-link to="/installing-sileo">Installing Sileo</router-link>
++ <router-link to="/using-sileo">Using Sileo</router-link>
++ <router-link to="/blocking-updates">Blocking Updates</router-link>
++ <router-link to="/futurerestore">FutureRestore</router-link>
++ <router-link to="/updating-to-15-1">Updating to 15.1</router-link>
++ <router-link to="/updating-to-14-7-1-(blobless)">Updating to 14.7.1 (Blobless)</router-link>
++ <router-link to="/updating-to-14-8.1">Updating to 14.8.1</router-link>
++ <router-link to="/updating-to-12-5-4-(blobless)">Updating to 12.5.4 (Blobless)</router-link>
++ <router-link to="/updating-to-12-5-5">Updating to 12.5.5</router-link>
++ <router-link to="/package-managers">Package Managers</router-link>
++ <router-link to="/types-of-jailbreak">Types of Jailbreak</router-link>
++ <router-link to="/recommended-repos">Recommended Repos</router-link>
++ <router-link to="/resigning-apps">Resigning Apps</router-link>
++ <router-link to="/using-cydia">Using Cydia</router-link>
++ <router-link to="/using-coolbooter">Using Coolbooter</router-link>
++ <router-link to="/futurerestore-help">FutureRestore</router-link>
 
 ## ios.cfw.guide
 
-+ [Home](/)
-+ [Get Started](/get-started)
-+ [FAQ](/faq)
-+ [Troubleshooting](/troubleshooting)
-+ [Credits](/credits)
-+ [Donations](/donations)
++ <router-link to="/">Home</router-link>
++ <router-link to="/get-started">Get Started</router-link>
++ <router-link to="/faq">FAQ</router-link>
++ <router-link to="/troubleshooting">Troubleshooting</router-link>
++ <router-link to="/credits">Credits</router-link>
++ <router-link to="/donations">Donations</router-link>

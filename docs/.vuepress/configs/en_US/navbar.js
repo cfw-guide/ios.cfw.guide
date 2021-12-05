@@ -84,10 +84,6 @@ module.exports = [
         link: '/credits/',
       },
       {
-        text: 'Source',
-        link: 'https://github.com/cfw-guide/ios.cfw.guide/',
-      },
-      {
         text: 'Site Navigation',
         link: '/site-navigation/',
       },
