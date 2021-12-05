@@ -98,7 +98,7 @@ function getBuildDevices(b) {
     }
     var icon = ` <a class="hoverElement" style="font-size: 14px; padding-left: 3px;" ${target} href="${ipswLink}"><i class="fas fa-download"></i></a>`;
     if (device.ipsw == 'none') icon = '';
-    html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a>${icon}</li>`
+    html += `<li class="showOnHover"><router-link to="${devicePath + device.identifier}">${deviceList[device.identifier].name}</router-link>${icon}</li>`
   }
   html += "</ul>\n\n"
   return html;
@@ -159,9 +159,9 @@ function getJbHtml(os) {
   
   html += "## " + header[2] + "\n"
   for (var jb in jbArr) {
-    html += "### " + jbArr[jb].name + " [<i style=\"font-size: 17px\" class=\"fas fa-link\"></i>](" + jbPath + jbArr[jb].name.replace(/ /g, '%20') + ")\n";
+    html += `### ${jbArr[jb].name} <router-link to="${jbPath + jbArr[jb].name.replace(/ /g, '%20')}"><i style=\"font-size: 17px\" class=\"fas fa-link\"></i></router-link> \n`
     const devArr = getJbDevArr(jbArr[jb], os);
-    for (var dev in devArr) html += "- [" + deviceList[devArr[dev]].name + "](" + devicePath + devArr[dev] + ")\n"
+    for (var dev in devArr) html += `- <router-link to="${devicePath + devArr[dev]}">${deviceList[devArr[dev]].name}</router-link> \n`
   }
   
   return html;

@@ -12,7 +12,7 @@ function getHtml(os) {
   const buildArr = getBuildArr(os);
   for (const i in buildArr) {
     const b = buildArr[i];
-    html += '## ' + b.build + " [<i style=\"font-size: 21px\" class=\"fas fa-link\"></i>](" + fwPath + b.build + ")\n";
+    html += `## ${b.build} <router-link to="${fwPath + b.build}"><i style=\"font-size: 21px\" class=\"fas fa-link\"></i></router-link> \n`
     html += getBuildDevices(b);
   }
   return html;
@@ -38,7 +38,7 @@ function getBuildDevices(b) {
     }
     var icon = ` <a class="hoverElement" style="font-size: 14px; padding-left: 3px;" ${target} href="${ipswLink}"><i class="fas fa-download"></i></a>`;
     if (device.ipsw == 'none') icon = '';
-    html += `<li class="showOnHover"><a href="${devicePath + device.identifier}">${deviceList[device.identifier].name}</a>${icon}</li>`
+    html += `<li class="showOnHover"><router-link to="${devicePath + device.identifier}">${deviceList[device.identifier].name}</router-link>${icon}</li>`
   }
   html += "</ul>\n\n"
   return html;
