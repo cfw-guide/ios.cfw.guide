@@ -89,7 +89,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
         html += `<td>${t.from}</td>`;
         html += `<td>${t.to}</td>`;
         
-        html += `<td>${t.jbArr.map(function(x) {
+        const finalJbHtml = t.jbArr.map(function(x) {
           var url = jbPath + x.name;
           var name = x.name;
           
@@ -100,17 +100,20 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
           }
           
           return `<router-link to="${url}">${name}</router-link>`
-        }).join(', ')}</td>`;
+        }).join(', ');
+        
+        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : '--'}</td>`;
         
         html += '</tr>';
       }
     } else {
       for (const i in jbObjArr) {
         var t = jbObjArr[i];
+        const finalJbHtml = t.jbArr.map(function(x) { return `<router-link to="${jbPath}${x.name}">${x.name}</router-link>` }).join(', ');
         html += `<tr>`;
         html += `<td><router-link to="${t.buildURL}">${t.build}</router-link></td>`;
         html += `<td>${t.version}</td>`;
-        html += `<td>${t.jbArr.map(function(x) { return `<router-link to="${jbPath}${x.name}">${x.name}</router-link>` }).join(', ')}</td>`;
+        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : '--'}</td>`;
         html += '</tr>';
       }
     }
@@ -118,6 +121,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   }
   
   const tableClass = ['tableBetaClass', 'tableMainClass'];
+  const noJbTip = `<div class="custom-container tip"><p>For fields marked "--", there is no jailbreak for that version.</p></div>`
   const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href="https://discord.gg/QBj8pBa" target="_blank">Discord</a><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>.</p></div>`
   var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">Show Beta Versions</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">Hide Beta Versions</a></p>"
   var head = tableHeader;
@@ -134,7 +138,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
     )
   }
   
-  if(tableHtml[0] == tableHtml[1]) return tableArr[0];
+  if(tableHtml[0] == tableHtml[1]) return noJbTip + tableArr[0];
   
-  return switchButtons + betaTip + tableArr.join('');
+  return switchButtons + betaTip + noJbTip + tableArr.join('');
 }
