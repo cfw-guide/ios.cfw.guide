@@ -41,11 +41,12 @@ function getDate(d) {
 
 function getBuildInfo(b) {
   b = getBuild(b)
-  var html = "## " + header[0] + "\n";
-  html += infoHeader[0] + ": " + b.version + '<br>'
-  html += infoHeader[1] + ": " + b.build + '<br>'
-  if (b.hasOwnProperty('released')) html += infoHeader[2] + ": " + getDate(b.released)
-  return html + '\n';
+  var head = "## " + header[0] + "\n";
+  var arr = [];
+  arr.push(infoHeader[0] + ": " + b.version)
+  arr.push(infoHeader[1] + ": " + b.build)
+  if (b.hasOwnProperty('released')) arr.push(infoHeader[2] + ": " + getDate(b.released))
+  return head + arr.join('<br>') + '\n';
 }
 
 function isObject(objValue) {
