@@ -1,19 +1,35 @@
 const fs = require('fs');
-const curPath = './docs/.vuepress/json/'
-const iosPath = './iosFiles'
+const path = require('path');
+const p = 'docs/.vuepress/json/iosFiles'
 
-var iosFiles = fs.readdirSync(curPath + iosPath).filter(file => file.endsWith('.json'));
+function getAllFiles(dirPath, arrayOfFiles) {
+  files = fs.readdirSync(dirPath)
+
+  arrayOfFiles = arrayOfFiles || []
+
+  files.forEach(function(file) {
+    if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+      arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+    } else {
+      arrayOfFiles.push(path.join(dirPath, "/", file))
+    }
+  })
+
+  return arrayOfFiles
+}
+
+var iosFiles = [];
+iosFiles = getAllFiles(p, iosFiles)
+iosFiles = iosFiles.filter(file => file.endsWith('.json'));
+iosFiles = iosFiles.map(function(x) {
+  const filePathStr = x.split(path.sep)
+  const pathStrLength = p.split('/').length - 1;
+  
+  return filePathStr.splice(pathStrLength, filePathStr.length).join(path.sep)
+})
 var iosArr = [];
 
-// Sort by integer, not by alphabet
-/*for (const file in iosFiles) iosFiles[file] = iosFiles[file].split('.')[0];
-iosFiles.sort(function(a, b) { return a - b; });
-for (const file in iosFiles) iosFiles[file] += '.js'*/
-
-for (const file in iosFiles) {
-  const jb = require(`${iosPath}/${iosFiles[file]}`)
-  iosArr.push(jb);
-}
+for (const file in iosFiles) iosArr.push(require('.' + path.sep + iosFiles[file]));
 
 iosArr.sort(function (a, b) {
   a = a.version.split(' ')[0].split('.')
