@@ -4,6 +4,18 @@
   "released": "2020-04-29",
   "beta": true,
   "devices": {
+    "iPhone6,1": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05622/521796C4-DB4D-4540-A45A-10CE62BA317C/iPhone_4.0_64bit_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05622/521796C4-DB4D-4540-A45A-10CE62BA317C/iPhone_4.0_64bit_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05596/5DC3F692-B290-4AD5-AC69-AAFDE22ECE62/iPhone_5.5_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05593/6687E0BF-4D63-407C-B67B-7929C9EBC052/iPhone_4.7_13.5_17F5054h_Restore.ipsw"
+    },
     "iPhone8,1": {
       "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05593/6687E0BF-4D63-407C-B67B-7929C9EBC052/iPhone_4.7_13.5_17F5054h_Restore.ipsw"
     },
@@ -43,11 +55,23 @@
     "iPhone10,6": {
       "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05539/703C6D50-FE6F-4F35-BA91-30912DB69D2F/iPhone10,3,iPhone10,6_13.5_17F5054h_Restore.ipsw"
     },
+    "iPhone11,2": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05614/2CAA0739-27DA-4B0F-B688-71D7EF2C3DB5/iPhone11,2,iPhone11,6,iPhone12,3,iPhone12,5_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPhone11,6": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05614/2CAA0739-27DA-4B0F-B688-71D7EF2C3DB5/iPhone11,2,iPhone11,6,iPhone12,3,iPhone12,5_13.5_17F5054h_Restore.ipsw"
+    },
     "iPhone11,8": {
       "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05576/1A5F26F0-00B6-4BA5-9C69-8488AB7F31C9/iPhone11,8,iPhone12,1_13.5_17F5054h_Restore.ipsw"
     },
     "iPhone12,1": {
       "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05576/1A5F26F0-00B6-4BA5-9C69-8488AB7F31C9/iPhone11,8,iPhone12,1_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPhone12,3": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05614/2CAA0739-27DA-4B0F-B688-71D7EF2C3DB5/iPhone11,2,iPhone11,6,iPhone12,3,iPhone12,5_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPhone12,5": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05614/2CAA0739-27DA-4B0F-B688-71D7EF2C3DB5/iPhone11,2,iPhone11,6,iPhone12,3,iPhone12,5_13.5_17F5054h_Restore.ipsw"
     },
     "iPhone12,8": {
       "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05633/7F09D555-B3AC-4C7A-A781-092D9BF9459B/iPhone12,8_13.5_17F5054h_Restore.ipsw"
@@ -63,6 +87,12 @@
     },
     "iPad7,6": {
       "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05641/CBE8B58C-8258-4D9B-A330-C5CED430C9C2/iPad_64bit_TouchID_ASTC_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05682/50866C18-AB93-438C-B3BD-770BB9F2941B/iPad_Educational_13.5_17F5054h_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://updates.cdn-apple.com/auto/fullrestores/001-05682/50866C18-AB93-438C-B3BD-770BB9F2941B/iPad_Educational_13.5_17F5054h_Restore.ipsw"
     }
   }
 }

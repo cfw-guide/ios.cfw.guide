@@ -4,6 +4,18 @@
   "released": "2019-08-07",
   "beta": true,
   "devices": {
+    "iPhone6,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97772/A66B2C0C-B79A-11E9-A899-2943E938C8A1/iPhone_4.0_64bit_13.0_17A5556d_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97772/A66B2C0C-B79A-11E9-A899-2943E938C8A1/iPhone_4.0_64bit_13.0_17A5556d_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97669/7925C556-B798-11E9-A94B-A629E938C8A1/iPhone_5.5_13.0_17A5556d_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97794/025DB660-B79B-11E9-915B-8047E938C8A1/iPhone_4.7_13.0_17A5556d_Restore.ipsw"
+    },
     "iPhone8,1": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97794/025DB660-B79B-11E9-915B-8047E938C8A1/iPhone_4.7_13.0_17A5556d_Restore.ipsw"
     },
@@ -42,6 +54,15 @@
     },
     "iPhone10,6": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97640/253DBDA6-B79B-11E9-8CAD-B349E938C8A1/iPhone10,3,iPhone10,6_13.0_17A5556d_Restore.ipsw"
+    },
+    "iPhone11,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97716/B45B94A4-B79B-11E9-8B29-F24EE938C8A1/iPhone11,2,iPhone11,6_13.0_17A5556d_Restore.ipsw"
+    },
+    "iPhone11,6": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97716/B45B94A4-B79B-11E9-8B29-F24EE938C8A1/iPhone11,2,iPhone11,6_13.0_17A5556d_Restore.ipsw"
+    },
+    "iPhone11,8": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97813/C384B1DC-B79A-11E9-BEB9-4544E938C8A1/iPhone11,8_13.0_17A5556d_Restore.ipsw"
     },
     "iPad6,11": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-97689/5C7A8646-B79B-11E9-837A-804CE938C8A1/iPad_64bit_TouchID_ASTC_13.0_17A5556d_Restore.ipsw"
