@@ -90,6 +90,36 @@
     },
     "iPhone14,5": {
       "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40135/730A1696-3C31-44DB-BE23-4A5FB5FDCE92/iPhone14,5_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40187/E91639BC-B202-4D72-90CE-65E44B049865/iPad_64bit_TouchID_ASTC_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40187/E91639BC-B202-4D72-90CE-65E44B049865/iPad_64bit_TouchID_ASTC_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40187/E91639BC-B202-4D72-90CE-65E44B049865/iPad_64bit_TouchID_ASTC_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40187/E91639BC-B202-4D72-90CE-65E44B049865/iPad_64bit_TouchID_ASTC_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40386/1C1B549F-291C-4A51-AFB8-F59AAD6ED3CA/iPad_10.2_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40386/1C1B549F-291C-4A51-AFB8-F59AAD6ED3CA/iPad_10.2_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad11,6": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40252/A9B513C7-1D81-4814-96BB-48A5A30EB3DE/iPad_10.2_2020_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad11,7": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40252/A9B513C7-1D81-4814-96BB-48A5A30EB3DE/iPad_10.2_2020_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad12,1": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40263/24350927-D439-47F9-A449-C64C6EC6EDC8/iPad_10.2_2021_15.2_19C5050b_Restore.ipsw"
+    },
+    "iPad12,2": {
+      "ipsw": "https://updates.cdn-apple.com/2021FallSeed/fullrestores/002-40263/24350927-D439-47F9-A449-C64C6EC6EDC8/iPad_10.2_2021_15.2_19C5050b_Restore.ipsw"
     }
   }
 }

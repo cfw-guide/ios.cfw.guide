@@ -78,6 +78,30 @@
     },
     "iPhone13,4": {
       "ipsw": "https://download.developer.apple.com/WWDC_2021/iOS_15_beta/iPhone134_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_64bit_TouchID_ASTC_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_64bit_TouchID_ASTC_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_64bit_TouchID_ASTC_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_64bit_TouchID_ASTC_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad7,11": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_10.2_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad7,12": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_10.2_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad11,6": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_10.2_2020_15.0_19A5261w_Restore.ipsw"
+    },
+    "iPad11,7": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2021/iPadOS_15_beta/iPad_10.2_2020_15.0_19A5261w_Restore.ipsw"
     }
   }
 }
