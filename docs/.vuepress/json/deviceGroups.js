@@ -363,57 +363,39 @@ module.exports = [
   },
   {
     name: "iPod touch (1st generation)",
-    devices: [
-      "iPod1,1",
-    ],
+    devices: [ "iPod1,1", ],
   },
   {
     name: "iPod touch (2nd generation)",
-    devices: [
-      "iPod2,1",
-    ],
+    devices: [ "iPod2,1", ],
   },
   {
     name: "iPod touch (3rd generation)",
-    devices: [
-      "iPod3,1",
-    ],
+    devices: [ "iPod3,1", ],
   },
   {
     name: "iPod touch (4th generation)",
-    devices: [
-      "iPod4,1",
-    ],
+    devices: [ "iPod4,1", ],
   },
   {
     name: "iPod touch (5th generation)",
-    devices: [
-      "iPod5,1",
-    ],
+    devices: [ "iPod5,1", ],
   },
   {
     name: "iPod touch (6th generation)",
-    devices: [
-      "iPod7,1",
-    ],
+    devices: [ "iPod7,1", ],
   },
   {
     name: "iPod touch (7th generation)",
-    devices: [
-      "iPod9,1",
-    ],
+    devices: [ "iPod9,1", ],
   },
   {
     name: "Apple TV (1st generation)",
-    devices: [
-      "AppleTV1,1",
-    ],
+    devices: [ "AppleTV1,1", ],
   },
   {
     name: "Apple TV (2nd generation)",
-    devices: [
-      "AppleTV2,1",
-    ],
+    devices: [ "AppleTV2,1", ],
   },
   {
     name: "Apple TV (3rd generation)",
@@ -423,22 +405,16 @@ module.exports = [
     ],
   },
   {
-    name: "Apple TV HD",
-    devices: [
-      "AppleTV5,3",
-    ],
+    name: "Apple TV HD (4th generation)",
+    devices: [ "AppleTV5,3", ],
   },
   {
     name: "Apple TV 4K (1st generation)",
-    devices: [
-      "AppleTV6,2",
-    ],
+    devices: [ "AppleTV6,2", ],
   },
   {
     name: "Apple TV 4K (2nd generation)",
-    devices: [
-      "AppleTV11,1",
-    ],
+    devices: [ "AppleTV11,1", ],
   },
   {
     name: "Apple Watch (1st generation)",
