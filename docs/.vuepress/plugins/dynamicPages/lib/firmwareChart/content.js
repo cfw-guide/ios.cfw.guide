@@ -44,8 +44,8 @@ function getBuildInfo(b) {
   var html = "## " + header[0] + "\n";
   html += infoHeader[0] + ": " + b.version + '<br>'
   html += infoHeader[1] + ": " + b.build + '<br>'
-  if (b.hasOwnProperty('released')) html += infoHeader[2] + ": " + getDate(b.released) + "\n"
-  return html;
+  if (b.hasOwnProperty('released')) html += infoHeader[2] + ": " + getDate(b.released)
+  return html + '\n';
 }
 
 function isObject(objValue) {
