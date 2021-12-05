@@ -3,35 +3,29 @@ module.exports = [
     text: 'Chart',
     children: [
       {
-        text: 'Firmwares',
-        link: '/chart.html'
+        text: 'iPhone',
+        link: '/chart/device/iPhone.html',
       },
       {
-        text: 'Devices',
-        link: '/chart/device.html',
-        children: [
-          {
-            text: 'iPhone',
-            link: '/chart/device/iPhone.html',
-          },
-          {
-            text: 'iPad',
-            link: '/chart/device/iPad.html',
-          },
-          {
-            text: 'iPod',
-            link: '/chart/device/iPod.html',
-          },
-          {
-            text: 'Apple TV',
-            link: '/chart/device/AppleTV.html',
-          },
-          {
-            text: 'Apple Watch',
-            link: '/chart/device/AppleWatch.html',
-          },
-        ]
-      }
+        text: 'iPad',
+        link: '/chart/device/iPad.html',
+      },
+      {
+        text: 'iPod',
+        link: '/chart/device/iPod.html',
+      },
+      {
+        text: 'Apple TV',
+        link: '/chart/device/AppleTV.html',
+      },
+      {
+        text: 'Apple Watch',
+        link: '/chart/device/AppleWatch.html',
+      },
+      {
+        text: 'All firmwares',
+        link: '/chart.html',
+      },
     ]
   },
   {
