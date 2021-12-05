@@ -3,5 +3,63 @@
   "build": "17F5044d",
   "released": "2020-04-15",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96150/7814754D-DE0A-49A1-BE89-C3412790A3C0/iPhone_4.7_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96157/B60A155D-DD34-4A99-B273-D16EC5779606/iPhone_5.5_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96278/DC7264EF-4C07-4164-998D-F482F580CC29/iPhone_4.0_64bit_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96203/5BB354A1-D52C-40E1-AF69-D874307255BE/iPhone_4.7_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96309/7B318B7D-7161-4B01-9B82-90C24E4D849E/iPhone_5.5_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96203/5BB354A1-D52C-40E1-AF69-D874307255BE/iPhone_4.7_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96309/7B318B7D-7161-4B01-9B82-90C24E4D849E/iPhone_5.5_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone10,1": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96203/5BB354A1-D52C-40E1-AF69-D874307255BE/iPhone_4.7_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96309/7B318B7D-7161-4B01-9B82-90C24E4D849E/iPhone_5.5_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone10,3": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96283/6EE9E332-3EAE-478C-AD5D-3AD5A0E97E0C/iPhone10,3,iPhone10,6_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone10,4": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96203/5BB354A1-D52C-40E1-AF69-D874307255BE/iPhone_4.7_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96309/7B318B7D-7161-4B01-9B82-90C24E4D849E/iPhone_5.5_P3_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone10,6": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96283/6EE9E332-3EAE-478C-AD5D-3AD5A0E97E0C/iPhone10,3,iPhone10,6_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone11,8": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96148/FF6533A3-32ED-4AC8-9B4F-482A11738A07/iPhone11,8,iPhone12,1_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPhone12,1": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96148/FF6533A3-32ED-4AC8-9B4F-482A11738A07/iPhone11,8,iPhone12,1_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96314/7ECC1C98-663F-48F9-A00A-7FFE6BD94E95/iPad_64bit_TouchID_ASTC_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96314/7ECC1C98-663F-48F9-A00A-7FFE6BD94E95/iPad_64bit_TouchID_ASTC_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96314/7ECC1C98-663F-48F9-A00A-7FFE6BD94E95/iPad_64bit_TouchID_ASTC_13.4.5_17F5044d_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://updates.cdn-apple.com/2020WinterSeed/fullrestores/061-96314/7ECC1C98-663F-48F9-A00A-7FFE6BD94E95/iPad_64bit_TouchID_ASTC_13.4.5_17F5044d_Restore.ipsw"
+    }
+  }
 }
