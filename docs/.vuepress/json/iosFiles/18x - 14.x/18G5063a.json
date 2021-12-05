@@ -78,6 +78,18 @@
     },
     "iPhone13,4": {
       "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-66686/8E14DB7E-031C-4F9D-870E-47E7B7BF5B58/iPhone13,4_14.7_18G5063a_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-66477/88CCB5A8-8FA2-46E3-B964-0D880B25E1DC/iPad_64bit_TouchID_ASTC_14.7_18G5063a_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-66477/88CCB5A8-8FA2-46E3-B964-0D880B25E1DC/iPad_64bit_TouchID_ASTC_14.7_18G5063a_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-66477/88CCB5A8-8FA2-46E3-B964-0D880B25E1DC/iPad_64bit_TouchID_ASTC_14.7_18G5063a_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://updates.cdn-apple.com/2021SpringSeed/fullrestores/071-66477/88CCB5A8-8FA2-46E3-B964-0D880B25E1DC/iPad_64bit_TouchID_ASTC_14.7_18G5063a_Restore.ipsw"
     }
   }
 }
