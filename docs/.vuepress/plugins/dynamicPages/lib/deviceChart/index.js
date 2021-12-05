@@ -58,7 +58,7 @@ page.push({
   Note that all "Plus", "Max", "Pro" and "mini" models of iPhones are functionally identical to the regular models.
   :::
   
-  ${require('./devicePage')(['iPhone'], '/get-started/')}`
+  ${require('./devicePage')(['iPhone'], '/get-started/', false)}`
 })
 
 page.push({
@@ -71,13 +71,17 @@ page.push({
     lastUpdated: false,
     contributors: false,
   },
-  content: `## Required Reading
+  content: `## Contents
+  
+  [[toc]]
+  
+  ## Required Reading
   
   Different iPads will require different steps to jailbreak your iOS device. This page will help you find where to start.
   
   Please select what model of iPad you have below.
   
-  ${require('./devicePage')(['iPad','mini','Pro','Air'], '/get-started/')}`
+  ${require('./devicePage')(['iPad','mini','Pro','Air'], '/get-started/', false)}`
 })
 
 page.push({
@@ -96,7 +100,7 @@ page.push({
   
   Please select what model of iPod you have below.
   
-  ${require('./devicePage')(['iPod'], '/get-started/')}`
+  ${require('./devicePage')(['iPod'], '/get-started/', false)}`
 })
 
 for (var device in deviceList) {
