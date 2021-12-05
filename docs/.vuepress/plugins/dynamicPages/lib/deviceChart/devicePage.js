@@ -44,10 +44,10 @@ function getDevice(device) {
   return ret;
 }
 
-function getHtml(typeArr, path) {
+function getHtml(typeArr, path, toc) {
   var html = '';
   
-  if (typeArr.length > 1) html += '[[toc]]\n';
+  if (typeArr.length > 1 && toc) html += '[[toc]]\n';
   
   var deviceArr = getDeviceArr(typeArr);
   var tableCount = getTableCount(typeArr, deviceArr);
@@ -77,6 +77,6 @@ function getHtml(typeArr, path) {
   return html;
 }
 
-module.exports = function(typeArr, path) {
-  return getHtml(typeArr, path);
+module.exports = function(typeArr, path, toc) {
+  return getHtml(typeArr, path, toc);
 }
