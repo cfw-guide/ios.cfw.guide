@@ -29,7 +29,9 @@ In order to use Evasi0n, you will need a Windows computer running Windows 7 or n
 ## Installing Evasi0n7
 
 ::: warning
+
 If your device has been OTA updated to its current version of iOS 7, you may encounter a bootloop
+
 :::
 
 1. Open the `patched-with-ipg-link-evasi0n7.exe` file

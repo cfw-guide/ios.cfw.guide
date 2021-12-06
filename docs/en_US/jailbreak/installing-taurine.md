@@ -20,7 +20,9 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 We will use Sideloadly to install the Taurine jailbreak application to your iOS device for use in the next step.
 
 ::: warning
+
 If you are already jailbroken with another jailbreak (besides Odysseyra1n), make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
+
 :::
 
 ## Downloads
@@ -66,11 +68,15 @@ The Taurine application can now be opened from home screen.
 If you restored rootFS, go back to step 1 and repeat this section.
 
 ::: tip
+
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
+
 :::
 
 ::: warning
+
 If you receive the error `ERR_Jailbreak`, `ERR_Already_Jailbroken` or `ERR_TFP0` read the Taurine/Odyssey section on the <router-link to="/troubleshooting/#common-errors-on-odyssey-and-taurine">Troubleshooting</router-link> page.
+
 :::
 
 You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

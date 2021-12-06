@@ -63,7 +63,9 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 ## What should I know before starting?
 
 ::: danger
+
 Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
+
 :::
 
 - It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss

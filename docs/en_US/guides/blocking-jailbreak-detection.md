@@ -12,7 +12,9 @@ extra_contributors:
 ---
 
 ::: danger
+
 We do not recommend using banking apps on a jailbroken device. Use a separate secure device to access your bank account.
+
 :::
 
 Many apps, which rely on security, will have algorithms to detect and block jailbroken users from using the app. This includes banking apps, some online videogames (e.g. Pokemon Go, Mario Kart Tour) and other privacy focused apps such as Snapchat.
@@ -20,7 +22,9 @@ Many apps, which rely on security, will have algorithms to detect and block jail
 This is great from a security standpoint, as a jailbroken device is much more likely to become compromised compared to stock iOS. This can cause an issue, however, when some of us just want to use the apps we need to use.
 
 ::: danger
+
 Blocking jailbreak detection can stop you from accessing photos and other files while in selected applications.
+
 :::
 
 Now, we'll go through each tweak that can be used to minimize jailbreak detection. Some apps, however, cannot be patched and will not work when jailbroken, regardless of the content below. Other apps may need bypasses made specifically for them.
@@ -34,7 +38,9 @@ Now, we'll go through each tweak that can be used to minimize jailbreak detectio
 - [vnodebypass](cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xsf1re.kr/&package=kr.xsf1re.vnodebypass) (<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.xsf1re.kr/">repo.xsf1re.kr</a>)
 
 ::: tip
+
 Choicy is available on the default BigBoss repo, however we recommend adding the developer's repo to ensure you have the most up-to-date version.
+
 :::
 
 There is other software available for hiding jailbreak, such as [Shadow](sileo://package/me.jjolano.shadow) (<a href="sileo://source/https://ios.jjolano.me/">ios.jjolano.me</a>), however we'll only be covering the above tweaks in this guide.
@@ -49,7 +55,9 @@ There is other software available for hiding jailbreak, such as [Shadow](sileo:/
 ## A-Bypass
 
 ::: tip
+
 According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, and <router-link to="/installing-taurine">Taurine</router-link>. It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
+
 :::
 
 1. Open the Settings application
@@ -69,11 +77,15 @@ According to the tweak's author, A-Bypass works better on libhooker-based jailbr
 ## Choicy
 
 ::: tip
+
 This is the best option for users wanting to use Snapchat on their jailbroken device.
+
 :::
 
 ::: tip
+
 If you use a libhooker-based jailbreak, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, or <router-link to="/installing-taurine">Taurine</router-link>, then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
+
 :::
 
 1. Open the Settings application
@@ -89,7 +101,9 @@ If you use a libhooker-based jailbreak, such as <router-link to="/installing-chi
 ## libhooker configurator
 
 ::: warning
+
 This only works on libhooker-based jailbreaks! If you use a Substrate or Substitute based jailbreak, such as checkra1n or unc0ver, then this *will not work*, and you should use [Choicy](#choicy) instead!
+
 :::
 
 1. Open the `libhooker` application
@@ -103,15 +117,21 @@ This only works on libhooker-based jailbreaks! If you use a Substrate or Substit
 ## KernBypass (iOS 12.0 - 14.2)
 
 ::: tip
+
 This is the best option for users wanting to use Nintendo apps (Mario Kart Tour, Animal Crossing: Pocket Camp, etc) and Pokemon GO on their jailbroken device.
+
 :::
 
 ::: warning
+
 KernBypass will not work on iOS 14 using unc0ver. Look into [vnodebypass](#vnodebypass) instead.
+
 :::
 
 ::: danger
+
 KernBypass is a kernel tweak. Do not install on unsupported devices, use it at your own risk.
+
 :::
 
 1. Open the Settings application
@@ -122,11 +142,15 @@ KernBypass is a kernel tweak. Do not install on unsupported devices, use it at y
 ## vnodebypass
 
 ::: tip
+
 vnodebypass is similar to KernBypass in regards to what it can bypass, but be aware that while it is active, you will lose access to your tweaks!
+
 :::
 
 ::: danger
+
 vnodebypass is a kernel tweak. Do not install on unsupported devices, use it at your own risk.
+
 :::
 
 1. If you are on iOS 14, ensure that `libkrw` 1.1.0 or later is installed. It is available in the default Elucubratus repository, if you are using unc0ver or checkra1n.

@@ -39,7 +39,9 @@ P0sixspwn is an [untethered](/types-of-jailbreak/#untethered-jailbreaks) jailbre
     - Jailbreaking may take a while, please be patient and do not let your computer go to sleep mode
 
 ::: tip
+
 Be sure to use an MFI-certified 30-pin or lightning connector for highest chances of success
+
 :::
 
 Your iOS Device should now be jailbroken.

@@ -19,7 +19,9 @@ extra_contributors:
 ## Installing checkra1n
 
 ::: tip
+
 If you're using an M1 Mac and are attempting to jailbreak on A7 device or an A9X (not A9) to A10(X) device, you will be prompted during the process to unplug and replug the device and will need to do so.
+
 :::
 
 1. Open checkra1n on your computer

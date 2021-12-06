@@ -16,7 +16,9 @@ extra_contributors:
 Kok3shi is capable of jailbreaking the iPhone 5S and 6, iPad Air 1 and 2, iPad mini 2 - 4, and the 6th Generation iPod Touch on iOS 9.3 - 9.3.5. 
 
 ::: warning
+
 This jailbreak is in its early stages and therefore may not work as intended. Be sure to back up your iOS Device.
+
 :::
 
 ## Downloads
@@ -53,7 +55,9 @@ The Kok3shi application can now be opened from home screen.
 1. Tap `Jailbreak`
 
 ::: warning
+
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

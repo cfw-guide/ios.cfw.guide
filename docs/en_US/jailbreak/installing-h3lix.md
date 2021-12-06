@@ -67,11 +67,15 @@ The h3lix application can now be opened from home screen.
 1. Tap "Jailbreak"
 
 ::: tip
+
 If the app displays `Uicache Failed!` this means the signing process was not done properly and you should double check you followed the steps above properly
+
 :::
 
 ::: warning
+
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

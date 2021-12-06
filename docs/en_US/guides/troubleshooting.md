@@ -73,7 +73,9 @@ Once the restore rootfs successfully completes, try jailbreaking again.
 1. Press the Jailbreak button.
 
 ::: tip
+
 Jailbreaks are hardly ever 100% successful, you may need to re-attempt running the jailbreak multiple times
+
 :::
 
 ## Common Errors on unc0ver
@@ -115,7 +117,9 @@ If this doesn't fix it, or there is no update downloaded, you may need to downlo
     - This may take several attempts, keep trying until it works
 
 ::: tip
+
 If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg/jb) for support.
+
 :::
 
 ## Fixing package installation errors on Sileo
@@ -166,7 +170,9 @@ This error indicates that the developer of the tweak you are trying to install/r
 1. Tap `Get`
 
 ::: tip
+
 Some developers in the Jailbreak community put a call to the wrong shell in their installation/removal scripts. Until April 2021, most Jailbreaks pointed `/bin/sh` to `/bin/bash` so developers were able to use `#!/bin/sh` to indicate which shell to use even if they use Bash features. In April 2021, Procursus, which runs on Chimera, Odyssey, Taurine, and Odysseyra1n, changed to a different, higher performance shell. This broke these incorrectly formatted scripts.
+
 :::
 
 ### Exec format error
@@ -190,5 +196,6 @@ This error indicates that the developer of the tweak you are trying to install/r
 1. Try installing the tweak causing an error again
 
 ::: tip
+
 In May 2021, Procursus attempted to migrate to a version of dpkg that no longer handles this install error, as developers should have included the `#!/bin/sh` or `#!/bin/bash` calls in their scripts. At the time of writing, the lead developer of Procursus has created a patch, `libiosexec`, that re-adds this error handling. If you still encounter this error, you may not have updated for a while.
 :::

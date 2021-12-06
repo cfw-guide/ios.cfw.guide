@@ -26,17 +26,23 @@ This is achieved by simply updating through the Settings application normally. B
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
 ::: danger
+
 Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 on iOS 14.8.1.
+
 :::
 
 ::: warning
+
 A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.8.1. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+
 :::
 
 ## Removing Profiles
 
 ::: tip
+
 Only follow this if you've installed update blocking in the past.
+
 :::
 
 1. Open the Settings application

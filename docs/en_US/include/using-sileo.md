@@ -1,7 +1,9 @@
 ## Required Reading
 
 ::: tip
+
 This page is optional, but helpful if you are unfamiliar with jailbreaking.
+
 :::
 
 Sileo is a modern package manager that has a redesigned UI made to fit with iOS 11 and above. It's the App Store for all the tweaks and themes available for your device.
@@ -62,5 +64,7 @@ The tweak should now be installed to your device and will be active whenever you
 After respringing, the tweak should now be uninstalled.
 
 ::: tip
+
 If you run into errors installing or removing packages, read the <router-link to="/troubleshooting/#fixing-package-installation-errors-on-sileo">Troubleshooting</router-link> page
+
 :::

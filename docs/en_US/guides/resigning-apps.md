@@ -26,7 +26,9 @@ Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. App
 ## Resign with a Mac (AltDeploy)
 
 ::: warning
+
 AltDeploy has not been optimized for newer versions of macOS. You may experience incompatibility issues.
+
 :::
 
 1. Download and Install the latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
@@ -38,7 +40,9 @@ AltDeploy has not been optimized for newer versions of macOS. You may experience
 ## Resign With Computer (AltStore/AltServer)
 
 ::: tip
+
 AltServer is only compatible with iOS 12.2 and newer.
+
 :::
 
 1. Download the latest versions [AltServer](http://altstore.io/), [iTunes](https://www.apple.com/itunes/download/win32) if on Windows, and [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
@@ -57,7 +61,9 @@ AltServer is only compatible with iOS 12.2 and newer.
 ## Resign Without a Computer (AltDaemon)
 
 ::: tip
+
 AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
+
 :::
 
 AltDaemon allows AltStore to automatically re-sign these applications, without needing to connect to a computer running AltServer over local network.
@@ -70,7 +76,9 @@ AltDaemon allows AltStore to automatically re-sign these applications, without n
 ## Resign Without a Computer (ReProvision Reborn)
 
 ::: tip
+
 ReProvision Reborn is compatible with iOS 9 and newer
+
 :::
 
 1. Add the Packix Repo to your preferred package manager ([repo.packix.com](https://repo.packix.com/))

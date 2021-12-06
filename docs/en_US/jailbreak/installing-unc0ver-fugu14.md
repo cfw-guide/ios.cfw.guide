@@ -59,15 +59,20 @@ We will use the AltStore tool to allow us to set everything up to be able to jai
 1. Tap "Jailbreak"
 
 ::: tip
+
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
+
 :::
 
 ::: warning
+
 If you receive the error `rootFS already mounted, delete the OTA update`, read the <router-link to="/troubleshooting/#rootfs-already-mounted">Troubleshooting</router-link> page
+
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
 ::: tip
+
 If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
 :::
