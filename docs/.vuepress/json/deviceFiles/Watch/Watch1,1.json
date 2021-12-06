@@ -1,6 +1,8 @@
 {
-  "name": "Apple Watch (38mm) (1st generation)",
+  "name": "Apple Watch (1st generation) (38mm)",
   "identifier": "Watch1,1",
+  "soc": "S1",
+  "arch": "armv7",
   "type": "Watch",
   "model": [
     "A1553"
