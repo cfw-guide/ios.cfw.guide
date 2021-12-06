@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 5 (GPS, 40mm)",
   "identifier": "Watch5,1",
+  "soc": "S5",
+  "arch": "arm64e",
   "type": "Watch",
   "model": [
     "A2092"
