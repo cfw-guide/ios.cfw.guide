@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 1 (38mm)",
   "identifier": "Watch2,6",
+  "soc": "S1P",
+  "arch": "armv7",
   "type": "Watch",
   "model": [
     "A1802"
