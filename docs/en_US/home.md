@@ -22,6 +22,10 @@ For complete guides to homebrew and custom firmware for other devices, check out
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 :::
 
+::: tip
+We are currently looking for translators for the guide, if you are interested in translating the guide, go to [Crowdin](https://crowdin.com/project/ioscfwguide)
+:::
+
 ## What is jailbreaking?
 
 Jailbreaking is a term used to describe the process that allows you to truly unlock the potential of your iOS device. Apple's mobile operating system is known for its security and that's partly because of how locked-down it is. Jailbreaking your device will allow you to break those restrictions and customize your device to how you like it.
