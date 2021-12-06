@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 2 (42mm)",
   "identifier": "Watch2,4",
+  "soc": "S2",
+  "arch": "armv7",
   "type": "Watch",
   "model": [
     "A1758",
