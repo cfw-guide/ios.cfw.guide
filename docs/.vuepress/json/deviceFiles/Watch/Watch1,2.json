@@ -2,7 +2,7 @@
   "name": "Apple Watch (1st generation) (42mm)",
   "identifier": "Watch1,2",
   "soc": "S1",
-  "arch": "armv7",
+  "arch": "armv7k",
   "type": "Watch",
   "model": [
     "A1554"
