@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 6 (GPS, 40mm)",
   "identifier": "Watch6,1",
+  "soc": "S6",
+  "arch": "arm64e",
   "type": "Watch",
   "model": [
     "A2291"
