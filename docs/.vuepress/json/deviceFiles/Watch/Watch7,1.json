@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 7 (GPS, 41mm)",
   "identifier": "Watch7,1",
+  "soc": "S7",
+  "arch": "arm64e",
   "type": "Watch",
   "model": [
     "A2473"
