@@ -19,7 +19,7 @@ module.exports = {
       }
     ],
     "type": "Untethered",
-    "firmwares": ["5.0","5.1.1"],
+    "firmwares": ["5.0", "5.1.1"],
     "soc": "A4, A5, A5X",
   },
   "compatibility": [
@@ -46,6 +46,7 @@ module.exports = {
         "9A334", // 5.0
         "9A405", // 5.0.1
         "9A406", // 5.0.1, iPhone 4S only
+        "9B206", // 5.1.1
       ],
       "devices": [
         "iPhone4,1", // iPhone 4S, A5
@@ -59,7 +60,8 @@ module.exports = {
       "devices": [
         "iPad2,1", // iPad 2 Wi-Fi, A5
         "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
+        "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
       ]
     }
   ]
-}
+};
