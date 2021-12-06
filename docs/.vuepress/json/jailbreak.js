@@ -33,5 +33,4 @@ for (const file in jailbreakFiles) {
   jailbreakArr.push(require('.' + path.sep + jailbreakFiles[file]));
 }
 
-console.log(jailbreakArr)
 module.exports = jailbreakArr;
