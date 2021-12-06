@@ -20,7 +20,7 @@ function getAllFiles(dirPath, arrayOfFiles) {
 
 var jailbreakFiles = [];
 jailbreakFiles = getAllFiles(p, jailbreakFiles)
-jailbreakFiles = jailbreakFiles.filter(file => file.endsWith('.json'));
+jailbreakFiles = jailbreakFiles.filter(file => file.endsWith('.js'));
 jailbreakFiles = jailbreakFiles.map(function(x) {
   const filePathStr = x.split(path.sep)
   const pathStrLength = p.split('/').length - 1;
@@ -33,4 +33,5 @@ for (const file in jailbreakFiles) {
   jailbreakArr.push(require('.' + path.sep + jailbreakFiles[file]));
 }
 
+console.log(jailbreakArr)
 module.exports = jailbreakArr;
