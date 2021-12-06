@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 3 (GPS + Cellular, 42mm)",
   "identifier": "Watch3,2",
+  "soc": "S3",
+  "arch": "armv7k",
   "type": "Watch",
   "model": [
     "A1861",
