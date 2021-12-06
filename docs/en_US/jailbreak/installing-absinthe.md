@@ -38,6 +38,4 @@ Be sure to use an MFI-certified 30-pin or lightning connector for highest chance
 
 :::
 
-Your iOS Device should now be jailbroken.
-
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
