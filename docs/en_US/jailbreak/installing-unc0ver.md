@@ -23,7 +23,9 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
 ::: warning
+
 If you are already jailbroken with another jailbreak, make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
+
 :::
 
 ## Downloads
@@ -75,15 +77,20 @@ The unc0ver application can now be opened from home screen.
 1. Tap "Jailbreak"
 
 ::: tip
+
 If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
+
 :::
 
 ::: warning
+
 If you receive the error `rootFS already mounted, delete the OTA update`, read the <router-link to="/troubleshooting/#rootfs-already-mounted">Troubleshooting</router-link> page
+
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
 ::: tip
+
 If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
 :::

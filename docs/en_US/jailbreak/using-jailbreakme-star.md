@@ -32,8 +32,6 @@ Skip these steps if you are on iOS 4 or higher
 
 :::
 
-::: tip
-
 1. Open Cydia and select `Developer (No Filters)`
 1. Wait for data to reload (May take a very long time, ensure device does not go to sleep)
 1. When prompted about essential upgrades, select `Complete Upgrade` (Again, ensure device does not go to sleep)
@@ -44,7 +42,5 @@ Skip these steps if you are on iOS 4 or higher
 1. Tap on the newly added `IPG's Cydia Repo`, then tap `Tweaks`, then find `Cydia HTTPatch`
 1. Tap `Install`, then `Confirm`, then wait until `Close` appears in the top righthand corner
 1. Cydia will close, and should now be fully patched.
-
-:::
 
 You can now use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

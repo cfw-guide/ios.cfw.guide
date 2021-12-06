@@ -19,7 +19,9 @@ extra_contributors:
 ## Installing checkra1n
 
 ::: tip
+
 If you're using an M1 Mac, you will be prompted during the process to unplug and replug the device and will need to do so.
+
 :::
 
 1. Open the `pongoOS.zip` file, navigate to `PongoConsolidated.bin`, then extract it.

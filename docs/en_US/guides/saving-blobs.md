@@ -24,7 +24,9 @@ This will take you through the process of saving blobs which are required if you
 shshd is a tweak used for automatic blob saving. Once you have it installed, you won't need to worry about manually saving blobs as it handles it all in the background. You must be jailbroken to use shshd. If you aren't jailbroken, follow [Saving blobs with TSS Saver Website](#saving-blobs-with-tss-saver-website).
 
 ::: warning
+
 shshd is only compatible with Procursus-based jailbreaks, such as Taurine, Odyssey, Chimera and Odysseyra1n. If you're using unc0ver or checkra1n, follow [Saving blobs with TSS Saver App](#saving-blobs-with-tss-saver-app).
+
 :::
 
 1. Open your package manager
@@ -104,11 +106,15 @@ Ensure your device is unlocked and connected to your computer throughout this pr
 Your device will reboot into recovery mode multiple times. When you reboot into normal OS mode, unlock your iOS device.
 
 ::: danger
+
 If you get stuck in recovery mode, try using the "Exit Recovery Mode" option from the "Help" menu in blobsaver.
+
 :::
 
 ::: tip
+
 These values can be reused at any time to save blobs whether or not you're jailbroken.
+
 :::
 
 ### Saving blobs

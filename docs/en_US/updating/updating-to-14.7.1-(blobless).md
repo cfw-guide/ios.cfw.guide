@@ -19,15 +19,21 @@ redirect_from:
 While iOS firmware version 14.7.1 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on December 11th, 2021**.
 
 ::: danger
+
 Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.7.1.
+
 :::
 
 ::: warning
+
 A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.7.1. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+
 :::
 
 ::: tip
+
 You need a pre-existing jailbreak installed to use this method.
+
 :::
 
 ## Preparing

@@ -20,11 +20,15 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 We will use Sideloadly to install the Chimera jailbreak application to your iOS device for use in the next step.
 
 ::: warning
+
 If you have a newer device with an A12 SoC, such as the iPhone XS, you can only use Chimera on iOS 12.0 - 12.1.2.
+
 :::
 
 ::: warning
+
 If you are already jailbroken with another jailbreak (besides Odysseyra1n), make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
+
 :::
 
 ## Downloads
@@ -74,7 +78,9 @@ The Chimera application can now be opened from home screen.
     - If it automatically reboots or crashes and the jailbreak is not installed, wait 1-2 minutes, then try again.
 
 ::: warning
+
 If that app or your device continually crashes/restarts unexpectedly and the jailbreak isn't installed despite the above steps, attempt to put the device in a freezer for that 1-2 minute period.
+
 :::
 
 You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

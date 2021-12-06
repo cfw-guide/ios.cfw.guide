@@ -12,7 +12,9 @@ redirect_from:
 This guide will allow you to install Sileo while using unc0ver, allowing you to take advantage of most of the benefits of Sileo while using unc0ver.
 
 ::: warning
+
 It is highly recommended to switch to <router-link to="/installing-taurine">Taurine</router-link> (iOS 14), <router-link to="/installing-odyssey">Odyssey</router-link> (iOS 13), <router-link to="/installing-chimera">Chimera</router-link> (iOS 12), or <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link> if possible, for the best experience using Sileo.
+
 :::
 
 ## Adding GetSileo
@@ -40,9 +42,12 @@ It is highly recommended to switch to <router-link to="/installing-taurine">Taur
 Sileo should now be installed onto your device.
 
 ::: danger
+
 Attempting to delete Cydia from your device after installing Sileo may cause issues with your jailbreak.
+
 :::
 
 ::: tip
+
 Continue to <router-link to="/using-sileo">Using Sileo</router-link>
 :::

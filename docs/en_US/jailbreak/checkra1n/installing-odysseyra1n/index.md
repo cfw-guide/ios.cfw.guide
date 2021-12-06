@@ -28,7 +28,9 @@ checkra1n is a tool capable of jailbreaking millions of iOS devices with the A7 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 ::: warning
+
 If you are already jailbroken with another jailbreak (besides Chimera, Odyssey, or Taurine), make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
+
 :::
 
 On iOS 14: 

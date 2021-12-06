@@ -9,7 +9,9 @@ extra_contributors:
 ---
 
 ::: warning
+
 This method will not work if you're on iOS 13 or older.
+
 :::
 
 This will take you through installing the iOS 14 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
@@ -40,7 +42,9 @@ Your device should no longer receive software updates. You can confirm this by g
 If you want to update your system again, follow the following steps to remove update blocking.
 
 ::: danger
+
 By removing update blocking, you may update to a higher firmware, and be unable to jailbreak.
+
 :::
 
 1. Open the Settings application

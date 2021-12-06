@@ -22,7 +22,9 @@ If you have installed update blocking via tvOS Beta profiles, you must first rem
 ## Removing Profiles
 
 ::: tip
+
 Only follow this if you have installed update blocking in the past.
+
 :::
 
 1. Open the Settings application

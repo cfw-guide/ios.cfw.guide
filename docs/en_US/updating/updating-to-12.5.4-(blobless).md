@@ -11,11 +11,15 @@ redirect_from: /updating-to-12-5-4
 While iOS firmware version 12.5.4 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on December 21st, 2021**.
 
 ::: danger
+
 This method only works if you are on a 64-bit device that is not supported by iOS 13.
+
 :::
 
 ::: tip
+
 You need a pre-existing jailbreak installed to use this method.
+
 :::
 
 ## Preparing

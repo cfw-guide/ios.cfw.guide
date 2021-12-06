@@ -15,15 +15,21 @@ header:
 ---
 
 ::: tip
+
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
+
 :::
 
 ::: tip
+
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
+
 :::
 
 ::: tip
+
 We are currently looking for translators for the guide, if you are interested in translating the guide, go to [Crowdin](https://crowdin.com/project/ioscfwguide)
+
 :::
 
 ## What is jailbreaking?
@@ -58,7 +64,9 @@ Tweaks are typically software packages that can be installed to your device whic
 ## What should I know before starting?
 
 ::: danger
+
 Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
+
 :::
 
 - It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss

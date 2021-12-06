@@ -10,7 +10,9 @@ extra_contributors:
 ---
 
 ::: warning
+
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
+
 :::
 
 ## Downloads (Linux)

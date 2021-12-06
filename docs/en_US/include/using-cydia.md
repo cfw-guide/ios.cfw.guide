@@ -1,7 +1,9 @@
 ## Required Reading
 
 ::: tip
+
 This page is optional, but helpful if you are unfamiliar with jailbreaking.
+
 :::
 
 Cydia is a package manager that has been used since the start of jailbreaking in 2008. It can be used to install tweaks and themes.

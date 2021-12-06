@@ -27,7 +27,9 @@ If you are using a device with a headphone jack we strongly recommend you follow
 Meridian will now install the temporary jailbreak on your device.
 
 ::: tip
+
 Tap `Share` -> `Add to home screen` for easier access to Meridian.
+
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

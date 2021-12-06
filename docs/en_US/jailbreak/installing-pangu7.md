@@ -22,6 +22,7 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 
 ::: tip
 
+
 ### Downloads
 
 - Version 1.2.0 of [Pangu](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/Fo8ihCJa) from the Legacy Jailbreak Archives
@@ -40,17 +41,21 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 1. Wait a little while and your device will reboot one more time
 
 
+
 :::
 
 ## Windows
 
 ::: danger
 
+
 You will bootloop if you jailbreak your device while in the dark
+
 
 :::
 
 ::: tip
+
 
 ### Downloads
 - Version 1.0-en of [Pangu](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/41UlRSyS) from the Legacy Jailbreak Archives
@@ -79,6 +84,7 @@ You will bootloop if you jailbreak your device while in the dark
 1. Tap on `System` then `Pangu 7.1-7.1.x Untether` 
 1. Tap `Install` then `Confirm`
 1. Reboot your device once the package is installed
+
 
 :::
 

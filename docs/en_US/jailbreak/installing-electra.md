@@ -20,7 +20,9 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 We will use Sideloadly to install the Electra application to your iOS device for use in the next step.
 
 ::: warning
+
 If you are already jailbroken with unc0ver, make sure to properly [remove it](/removing-unc0ver) before proceeding.
+
 :::
 
 ## Downloads
@@ -61,7 +63,9 @@ The Electra application can now be opened from home screen.
 1. Tap "Jailbreak"
 
 ::: warning
+
 If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+
 :::
 
 You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

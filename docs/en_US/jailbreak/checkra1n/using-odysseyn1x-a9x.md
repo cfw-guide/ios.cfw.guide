@@ -11,7 +11,9 @@ extra_contributors:
 ---
 
 ::: warning
+
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
+
 :::
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
@@ -21,7 +23,9 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 ::: tip
+
 If you are using an A9X device running iOS 14.4.2 or earlier, you should follow <router-link to="/using-odysseyn1x">Using Odysseyn1x</router-link> and use checkra1n version 0.12.2 instead.
+
 :::
 
 On A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode. It is possible to use a custom version of Odysseyn1x, however, to work around this.
