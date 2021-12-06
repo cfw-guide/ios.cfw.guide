@@ -60,13 +60,23 @@ function getDeviceInfo(device, groupTable) {
     deviceList[d].released
   ];
   
-  if (groupTable) {
+  if (groupTable) { 
     var devGroup = deviceGroups.filter(function(x) { return x.devices.includes(d) });
     if (devGroup.length < 1) return '';
     if (Array.isArray(devGroup) && devGroup.length == 1) devGroup = devGroup[0];
     
     infoArr[0] = devGroup.name;
-    infoArr[1] = devGroup.devices.join(', ');
+    infoArr[1] = devGroup.devices;
+    
+    if (infoArr[1]) {
+      if (infoArr[1].length <= 5) infoArr[1] = infoArr[1].join(', ');
+      else {
+        var tempArr = infoArr[1];
+        const firstThreeDevices = tempArr.splice(0, 3).join(', ');
+        const restOfTheDevices = tempArr.join(', ');
+        infoArr[1] = `${firstThreeDevices}, <a id="clickToShowDevices" title="Show more" onclick="getElementById('extraDevices').style.display = 'inline'; getElementById('clickToShowDevices').style.display = 'none';" style="cursor: pointer;">...</a><div id="extraDevices" style="display: none;">${restOfTheDevices}</div>`
+      }
+    }
     
     if (infoArr[4]) {
       for (const dev in devGroup.devices) infoArr[4] = infoArr[4].concat(deviceList[devGroup.devices[dev]].model);
@@ -74,7 +84,15 @@ function getDeviceInfo(device, groupTable) {
     }
   };
   
-  if (infoArr[4]) infoArr[4] = infoArr[4].join(', ');
+  if (infoArr[4]) {
+    if (infoArr[4].length <= 5) infoArr[4] = infoArr[4].join(', ');
+    else {
+      var tempArr = infoArr[4];
+      const firstThreeModels = tempArr.splice(0, 3).join(', ');
+      const restOfTheModels = tempArr.join(', ');
+      infoArr[4] = `${firstThreeModels}, <a id="clickToShowModels" title="Show more" onclick="getElementById('extraModels').style.display = 'inline'; getElementById('clickToShowModels').style.display = 'none';" style="cursor: pointer;">...</a><div id="extraModels" style="display: none;">${restOfTheModels}</div>`
+    }
+  }
   if (infoArr[5]) infoArr[5] = getDate(infoArr[5]);
   
   var html = "";
