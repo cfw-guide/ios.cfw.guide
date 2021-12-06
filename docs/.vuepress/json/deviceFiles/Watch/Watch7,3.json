@@ -1,6 +1,8 @@
 {
   "name": "Apple Watch Series 7 (GPS + Cellular, 41mm)",
   "identifier": "Watch7,3",
+  "soc": "S7",
+  "arch": "arm64e",
   "type": "Watch",
   "model": [
     "A2475",
