@@ -1,33 +1,34 @@
 module.exports = {
-  "name": "Taurine",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "taurine.app",
-      "url": "https://taurine.app/",
-      "external": true
+  name: "Taurine",
+  priority: 0,
+  info: {
+    website: {
+      name: "taurine.app",
+      url: "https://taurine.app/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Taurine",
-      "url": "https://www.theiphonewiki.com/wiki/Taurine",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Taurine",
+      url: "https://www.theiphonewiki.com/wiki/Taurine",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Taurine",
-        "url": "/installing-taurine/"
+        name: "Installing Taurine",
+        url: "/installing-taurine/",
+        pkgman: "sileo",
       }
     ],
-    "latestVer": "1.1.1",
-    "color": "#6742cd",
-    "icon": "/assets/images/taurine.png",
-    "jailbreaksme.app": true,
-    "type": "Semi-untethered",
-    "firmwares": ["14.0","14.3"]
+    latestVer: "1.1.1",
+    color: "#6742cd",
+    icon: "/assets/images/taurine.png",
+    jailbreaksmeapp: true,
+    type: "Semi-untethered",
+    firmwares: ["14.0","14.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "18A5301v", // 14.0 beta
         "18A5319i", // 14.0 beta 2
         "18A5332f", // 14.0 beta 3
@@ -57,7 +58,7 @@ module.exports = {
         "18C66-RC", // 14.3 RC 2
         "18C66", // 14.3
       ],
-      "devices": [
+      devices: [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
         "iPhone8,4", // iPhone SE, A9

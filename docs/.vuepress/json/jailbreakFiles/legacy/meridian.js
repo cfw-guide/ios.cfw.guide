@@ -1,29 +1,36 @@
 module.exports = {
-  "name": "Meridian",
-  "priority": 3,
-  "info": {
-    "website": {
-      "name": "meridian.sparkes.zone",
-      "url": "https://meridian.sparkes.zone/",
-      "external": true
+  name: "Meridian",
+  priority: 3,
+  info: {
+    website: {
+      name: "meridian.sparkes.zone",
+      url: "https://meridian.sparkes.zone/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Meridian",
-      "url": "https://www.theiphonewiki.com/wiki/Meridian",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Meridian",
+      url: "https://www.theiphonewiki.com/wiki/Meridian",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Using Meridian",
-        "url": "/using-meridian/"
+        name: "Using Meridian",
+        url: "/using-meridian/",
+        pkgman: "cydia",
+        updateLink: [
+          {
+            text: 'Updating to 10.3.3',
+            link: '/updating-to-10-3-3/'
+          }
+        ],
       }
     ],
-    "type": "Semi-untethered",
-    "firmwares": ["10.0","10.3.3"]
+    type: "Semi-untethered",
+    firmwares: ["10.0","10.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13A346", // 10.0, iPhone 7 and iPhone 7 Plus only
         "14A403", // 10.0.1
         "14A456", // 10.0.2
@@ -42,7 +49,7 @@ module.exports = {
         "14F8089", // 10.3.2, iPad Pro 10.5-inch and iPad Pro 12.9-inch (2nd generation) only
         "14G60", // 10.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

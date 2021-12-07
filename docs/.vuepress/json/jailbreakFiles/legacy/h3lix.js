@@ -1,33 +1,40 @@
 module.exports = {
-  "name": "h3lix",
-  "alias": "h3lix",
-  "priority": 1,
-  "info": {
-    "website": {
-      "name": "h3lix.tihmstar.net",
-      "url": "https://h3lix.tihmstar.net/",
-      "external": true
+  name: "h3lix",
+  alias: "h3lix",
+  priority: 1,
+  info: {
+    website: {
+      name: "h3lix.tihmstar.net",
+      url: "https://h3lix.tihmstar.net/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/h3lix",
-      "url": "https://www.theiphonewiki.com/wiki/h3lix",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/h3lix",
+      url: "https://www.theiphonewiki.com/wiki/h3lix",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing h3lix",
-        "url": "/installing-h3lix/"
+        name: "Installing h3lix",
+        url: "/installing-h3lix/",
+        pkgman: "cydia",
+        updateLink: [
+          {
+            text: 'Updating to 10.3.4',
+            link: '/updating-to-10-3-4/'
+          }
+        ],
       }
     ],
-    "latestVer": "RC6",
-    "color": "#ffffff",
-    "icon": "/assets/images/evasi0n.png",
-    "type": "Semi-untethered",
-    "firmwares": ["10.0","10.3.4"]
+    latestVer: "RC6",
+    color: "#ffffff",
+    icon: "/assets/images/evasi0n.png",
+    type: "Semi-untethered",
+    firmwares: ["10.0","10.3.4"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "14A403", // 10.0.1
         "14A456", // 10.0.2
         "14B72", // 10.1
@@ -41,7 +48,7 @@ module.exports = {
         "14G60", // 10.3.3
         "14G61", // 10.3.4
       ],
-      "devices": [
+      devices: [
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6
         "iPhone5,3", // iPhone 5c (GSM), A6

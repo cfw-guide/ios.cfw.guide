@@ -1,30 +1,31 @@
 module.exports = {
-  "name": "doubleh3lix",
-  "alias": "doublehelix",
-  "priority": 2,
-  "info": {
-    "website": {
-      "name": "doubleh3lix.tihmstar.net",
-      "url": "https://doubleh3lix.tihmstar.net/",
-      "external": true
+  name: "doubleh3lix",
+  alias: "doublehelix",
+  priority: 2,
+  info: {
+    website: {
+      name: "doubleh3lix.tihmstar.net",
+      url: "https://doubleh3lix.tihmstar.net/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/DoubleH3lix",
-      "url": "https://www.theiphonewiki.com/wiki/DoubleH3lix",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/DoubleH3lix",
+      url: "https://www.theiphonewiki.com/wiki/DoubleH3lix",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing doubleh3lix",
-        "url": "/installing-doubleh3lix/"
+        name: "Installing doubleh3lix",
+        url: "/installing-doubleh3lix/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Semi-untethered",
-    "firmwares": ["10.0","10.3.3"]
+    type: "Semi-untethered",
+    firmwares: ["10.0","10.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "14A403", // 10.0.1
         "14A456", // 10.0.2
         "14B72", // 10.1
@@ -39,7 +40,7 @@ module.exports = {
         "14F91", // 10.3.2, iPad mini 4 (Wi-Fi + Cellular) only
         "14G60", // 10.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

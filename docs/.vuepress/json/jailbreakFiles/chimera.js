@@ -1,34 +1,45 @@
 module.exports = {
-  "name": "Chimera",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "chimera.coolstar.org",
-      "url": "https://chimera.coolstar.org/",
-      "external": true
+  name: "Chimera",
+  priority: 0,
+  info: {
+    website: {
+      name: "chimera.coolstar.org",
+      url: "https://chimera.coolstar.org/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Chimera",
-      "url": "https://www.theiphonewiki.com/wiki/Chimera",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Chimera",
+      url: "https://www.theiphonewiki.com/wiki/Chimera",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Chimera",
-        "url": "/installing-chimera/"
+        name: "Installing Chimera",
+        url: "/installing-chimera/",
+        pkgman: "sileo",
+        updateLink: [
+          {
+            text: 'Updating to 12.5.5',
+            link: '/updating-to-12-5-5/'
+          },
+          {
+            text: 'Updating to 12.5.4',
+            link: '/updating-to-12-5-4-(blobless)/'
+          }
+        ]
       }
     ],
-    "latestVer": "1.6.4",
-    "color": "#deeded",
-    "icon": "/assets/images/chimera.png",
-    "notes": "A12 support is only available on iOS 12.0 - 12.1.2.",
-    "jailbreaksmeapp": true,
-    "type": "Semi-untethered",
-    "firmwares": ["12.0","12.5.5"],
+    latestVer: "1.6.4",
+    color: "#deeded",
+    icon: "/assets/images/chimera.png",
+    notes: "A12 support is only available on iOS 12.0 - 12.1.2.",
+    jailbreaksmeapp: true,
+    type: "Semi-untethered",
+    firmwares: ["12.0","12.5.5"],
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "16A366-GM", // 12.0 GM
         "16A5288q", // 12.0 beta
         "16A5308e", // 12.0 beta 2
@@ -108,7 +119,7 @@ module.exports = {
         "16H50", // 12.5.4
         "16H62", // 12.5.5
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8
@@ -156,7 +167,7 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "16A366-GM", // 12.0 GM
         "16A5288q", // 12.0 beta
         "16A5308e", // 12.0 beta 2
@@ -190,7 +201,7 @@ module.exports = {
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
       ],
-      "devices": [
+      devices: [
         "iPhone11,2", // iPhone XS, A12
         "iPhone11,4", // iPhone XS Max (China mainland), A12
         "iPhone11,6", // iPhone XS Max, A12

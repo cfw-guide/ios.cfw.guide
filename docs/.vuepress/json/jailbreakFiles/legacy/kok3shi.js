@@ -1,31 +1,32 @@
 module.exports = {
-  "name": "kok3shi",
-  "alias": ["kokeshi", "kok3shiJB", "kokeshiJB"],
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "dora2ios.web.app/kokeshiJB.html",
-      "url": "https://dora2ios.web.app/kokeshiJB.html",
-      "external": true
+  name: "kok3shi",
+  alias: ["kokeshi", "kok3shiJB", "kokeshiJB"],
+  priority: 0,
+  info: {
+    website: {
+      name: "dora2ios.web.app/kokeshiJB.html",
+      url: "https://dora2ios.web.app/kokeshiJB.html",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/kok3shi",
-      "url": "https://www.theiphonewiki.com/wiki/kok3shi",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/kok3shi",
+      url: "https://www.theiphonewiki.com/wiki/kok3shi",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing kok3shi",
-        "url": "/installing-kok3shi/"
+        name: "Installing kok3shi",
+        url: "/installing-kok3shi/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Semi-untethered",
-    "firmwares": ["9.3","9.3.5"],
-    "notes": "Doesn't support A9 or A9X devices"
+    type: "Semi-untethered",
+    firmwares: ["9.3","9.3.5"],
+    notes: "Doesn't support A9 or A9X devices"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13E233", // 9.3
         "13E237", // 9.3
         "13E238", // 9.3.1
@@ -34,7 +35,7 @@ module.exports = {
         "13G35", // 9.3.4
         "13G36", // 9.3.5
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (CDMA), A7
         "iPhone7,1", // iPhone 6 Plus, A8

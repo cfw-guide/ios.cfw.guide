@@ -1,33 +1,34 @@
 module.exports = {
-  "name": "evasi0n7",
-  "alias": "evasion7",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "theiphonewiki.com/wiki/Evasi0n7",
-      "url": "https://www.theiphonewiki.com/wiki/Evasi0n7",
-      "external": true
+  name: "evasi0n7",
+  alias: "evasion7",
+  priority: 0,
+  info: {
+    website: {
+      name: "theiphonewiki.com/wiki/Evasi0n7",
+      url: "https://www.theiphonewiki.com/wiki/Evasi0n7",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Evasi0n7",
-      "url": "https://www.theiphonewiki.com/wiki/Evasi0n7",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Evasi0n7",
+      url: "https://www.theiphonewiki.com/wiki/Evasi0n7",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Evasi0n7",
-        "url": "/installing-evasi0n7/"
+        name: "Installing Evasi0n7",
+        url: "/installing-evasi0n7/",
+        pkgman: "cydia",
       }
     ],
-    "latestVer": "1.0.8",
-    "color": "#ffffff",
-    "icon": "/assets/images/evasi0n.png",
-    "type": "Untethered",
-    "firmwares": ["7.0","7.0.6"]
+    latestVer: "1.0.8",
+    color: "#ffffff",
+    icon: "/assets/images/evasi0n.png",
+    type: "Untethered",
+    firmwares: ["7.0","7.0.6"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "11A465", // 7.0
         "11A466", // 7.0, iPhone 5c and iPhone 5s only
         "11A470a", // 7.0.1
@@ -37,7 +38,7 @@ module.exports = {
         "11B601", // 7.0.5
         "11B651", // 7.0.6
       ],
-      "devices": [
+      devices: [
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,2", // iPhone 4 (GSM, 2012), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4

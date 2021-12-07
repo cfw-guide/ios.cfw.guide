@@ -1,37 +1,56 @@
 module.exports = {
-  "name": "Phœnix",
-  "alias": "Phoenix",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "phoenixpwn.com",
-      "url": "https://phoenixpwn.com/",
-      "external": true
+  name: "Phœnix",
+  alias: "Phoenix",
+  priority: 0,
+  info: {
+    website: {
+      name: "phoenixpwn.com",
+      url: "https://phoenixpwn.com/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Phœnix",
-      "url": "https://www.theiphonewiki.com/wiki/Phœnix",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Phœnix",
+      url: "https://www.theiphonewiki.com/wiki/Phœnix",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Phœnix",
-        "url": "/installing-phoenix/"
+        name: "Installing Phœnix",
+        url: "/installing-phoenix/",
+        pkgman: "cydia",
+        updateLink: [
+          {
+            text: 'Updating to 9.3.5',
+            link: '/updating-to-9-3-5/'
+          },
+          {
+            text: 'Updating to 9.3.5 (IPSW)',
+            link: '/updating-to-9-3-5-ipsw/'
+          },
+          {
+            text: 'Updating to 9.3.6',
+            link: '/updating-to-9-3-6/'
+          },
+          {
+            text: 'Updating to 9.3.6 (IPSW)',
+            link: '/updating-to-9-3-6-ipsw/'
+          },
+        ],
       }
     ],
-    "latestVer": "v6",
-    "color": "#000000",
-    "icon": "/assets/images/phoenix.png",
-    "type": "Semi-untethered",
-    "firmwares": ["9.3.5","9.3.6"]
+    latestVer: "v6",
+    color: "#000000",
+    icon: "/assets/images/phoenix.png",
+    type: "Semi-untethered",
+    firmwares: ["9.3.5","9.3.6"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13G36", // 9.3.5
         "13G37", // 9.3.6
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6

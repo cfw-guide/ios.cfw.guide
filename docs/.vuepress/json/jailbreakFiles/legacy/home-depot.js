@@ -1,31 +1,32 @@
 module.exports = {
-  "name": "Home Depot",
-  "alias": ["HomeDepot", "Home-Depot", "Home_Depot"],
-  "priority": 1,
-  "info": {
-    "website": {
-      "name": "wall.supplies",
-      "url": "http://wall.supplies/",
-      "external": true
+  name: "Home Depot",
+  alias: ["HomeDepot", "Home-Depot", "Home_Depot"],
+  priority: 1,
+  info: {
+    website: {
+      name: "wall.supplies",
+      url: "http://wall.supplies/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Home_Depot",
-      "url": "https://www.theiphonewiki.com/wiki/Home_Depot",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Home_Depot",
+      url: "https://www.theiphonewiki.com/wiki/Home_Depot",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing HomeDepot",
-        "url": "/installing-homedepot/"
+        name: "Installing HomeDepot",
+        url: "/installing-homedepot/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Semi-untethered",
-    "firmwares": ["9.1","9.3.4"],
-    "notes": "Untethered through add-on package, also compatible with iOS 8.4.1"
+    type: "Semi-untethered",
+    firmwares: ["9.1","9.3.4"],
+    notes: "Untethered through add-on package, also compatible with iOS 8.4.1"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "12H321", // 8.4.1
         "13B143", // 9.1
         "13C75", // 9.2
@@ -38,7 +39,7 @@ module.exports = {
         "13G34", // 9.3.3
         "13G35", // 9.3.4
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6

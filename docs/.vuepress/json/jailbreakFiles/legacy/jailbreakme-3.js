@@ -1,30 +1,32 @@
 module.exports = {
-  "name": "JailbreakMe 3.0",
-  "alias": ["JailbreakMe-3.0", "JailbreakMe_3.0", "JailbreakMe3.0", "JailbreakMe 3", "JailbreakMe-3", "JailbreakMe_3", "JailbreakMe3", "JailbreakMe Saffron", "JailbreakMeSaffron", "JailbreakMe-Saffron", "JailbreakMe_Saffron"],
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "jailbreakme.com",
-      "url": "https://www.jailbreakme.com/",
-      "external": true,
+  name: "JailbreakMe 3.0",
+  alias: ["JailbreakMe-3.0", "JailbreakMe_3.0", "JailbreakMe3.0", "JailbreakMe 3", "JailbreakMe-3", "JailbreakMe_3", "JailbreakMe3", "JailbreakMe Saffron", "JailbreakMeSaffron", "JailbreakMe-Saffron", "JailbreakMe_Saffron"],
+  priority: 0,
+  info: {
+    website: {
+      name: "jailbreakme.com",
+      url: "https://www.jailbreakme.com/",
+      external: true,
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Saffron",
-      "url": "https://www.theiphonewiki.com/wiki/Saffron",
-      "external": true,
+    wiki: {
+      name: "theiphonewiki.com/wiki/Saffron",
+      url: "https://www.theiphonewiki.com/wiki/Saffron",
+      external: true,
     },
-    "guide": [
+    guide: [
       {
-        "name": "Using JailbreakMe Saffron",
-        "url": "/using-jailbreakme-saffron/"
+        name: "Using JailbreakMe Saffron",
+        url: "/using-jailbreakme-saffron/",
+        sidebarName: "JailbreakMe Saffron",
+        pkgman: "cydia",
       }
     ],
-    "type": "(Safari) Untethered",
-    "firmwares": ["4.2.6","4.3.3"]
+    type: "(Safari) Untethered",
+    firmwares: ["4.2.6","4.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "8E200", // 4.2.6, iPhone 4 (CDMA) only
         "8E303", // 4.2.7, iPhone 4 (CDMA) only
         "8E401", // 4.2.8, iPhone 4 (CDMA) only
@@ -33,7 +35,7 @@ module.exports = {
         "8H7", // 4.3.2
         "8J2", // 4.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4
@@ -43,10 +45,10 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "8J2", // 4.3.3
       ],
-      "devices": [
+      devices: [
         "iPad2,1", // iPad 2 Wi-Fi, A5
         "iPad2,2", // iPad 2 Wi-Fi + 3G (GSM), A5
         "iPad2,3", // iPad 2 Wi-Fi + 3G (CDMA), A5
