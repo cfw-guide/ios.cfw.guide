@@ -4,8 +4,65 @@
   "released": "2018-06-04",
   "beta": true,
   "devices": {
+    "iPad4,4": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad5,1": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad5,2": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_ASTC_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_ASTC_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_ASTC_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPad_64bit_TouchID_ASTC_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPhone10,1": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.7_P3_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPhone10,4": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.7_P3_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.0_64bit_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.0_64bit_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.7_12.0_16A5288q_Restore.ipsw"
+    },
     "iPhone8,1": {
       "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.7_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPhone_4.0_64bit_12.0_16A5288q_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPodtouch_12.0_16A5288q_Restore.ipsw"
     }
   }
 }

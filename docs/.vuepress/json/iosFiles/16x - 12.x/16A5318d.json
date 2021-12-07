@@ -4,8 +4,74 @@
   "released": "2018-07-03",
   "beta": true,
   "devices": {
+    "iPad4,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92860-20180705-9A440714-7BA0-11E8-B74B-5872DA3C085A/iPad_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92860-20180705-9A440714-7BA0-11E8-B74B-5872DA3C085A/iPad_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92860-20180705-9A440714-7BA0-11E8-B74B-5872DA3C085A/iPad_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92860-20180705-9A440714-7BA0-11E8-B74B-5872DA3C085A/iPad_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92860-20180705-9A440714-7BA0-11E8-B74B-5872DA3C085A/iPad_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92860-20180705-9A440714-7BA0-11E8-B74B-5872DA3C085A/iPad_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92858-20180705-9A3E687C-7BA0-11E8-A42E-5672DA3C085A/iPad_64bit_TouchID_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92858-20180705-9A3E687C-7BA0-11E8-A42E-5672DA3C085A/iPad_64bit_TouchID_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92858-20180705-9A3E687C-7BA0-11E8-A42E-5672DA3C085A/iPad_64bit_TouchID_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad5,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92858-20180705-9A3E687C-7BA0-11E8-A42E-5672DA3C085A/iPad_64bit_TouchID_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPad5,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92858-20180705-9A3E687C-7BA0-11E8-A42E-5672DA3C085A/iPad_64bit_TouchID_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone10,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92758-20180705-9A40809E-7BA0-11E8-8384-4C72DA3C085A/iPhone_4.7_P3_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92914-20180705-9A3C014A-7BA0-11E8-BBA4-5B72DA3C085A/iPhone_5.5_P3_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone10,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92758-20180705-9A40809E-7BA0-11E8-8384-4C72DA3C085A/iPhone_4.7_P3_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92914-20180705-9A3C014A-7BA0-11E8-BBA4-5B72DA3C085A/iPhone_5.5_P3_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92718-20180705-9A326478-7BA0-11E8-9023-4B72DA3C085A/iPhone_4.0_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92718-20180705-9A326478-7BA0-11E8-9023-4B72DA3C085A/iPhone_4.0_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92763-20180705-9A2F0BDE-7BA0-11E8-9B3D-4F72DA3C085A/iPhone_4.7_12.0_16A5318d_Restore.ipsw"
+    },
     "iPhone8,1": {
       "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92763-20180705-9A2F0BDE-7BA0-11E8-9B3D-4F72DA3C085A/iPhone_4.7_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92718-20180705-9A326478-7BA0-11E8-9023-4B72DA3C085A/iPhone_4.0_64bit_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92914-20180705-9A3C014A-7BA0-11E8-BBA4-5B72DA3C085A/iPhone_5.5_P3_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92914-20180705-9A3C014A-7BA0-11E8-BBA4-5B72DA3C085A/iPhone_5.5_P3_12.0_16A5318d_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-92853-20180705-9A4235BA-7BA0-11E8-8FF7-5572DA3C085A/iPodtouch_12.0_16A5318d_Restore.ipsw"
     }
   }
 }

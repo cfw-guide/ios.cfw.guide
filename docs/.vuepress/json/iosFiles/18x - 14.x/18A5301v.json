@@ -4,86 +4,17 @@
   "released": "2020-06-22",
   "beta": true,
   "devices": {
-    "iPhone8,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_4.7_14.0__18A5301v_Restore.ipsw"
+    "iPad6,3": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPadPro_9.7_14.0_18A5301v_Restore.ipsw"
     },
-    "iPhone8,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_5.5_14.0_18A5301v_Restore.ipsw"
+    "iPad6,4": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPadPro_9.7_14.0_18A5301v_Restore.ipsw"
     },
-    "iPhone8,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_4.0_64bit_14.0_18A5301v_Restore.ipsw"
+    "iPad6,7": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPadPro_12.9_14.0_18A5301v_Restore.ipsw"
     },
-    "iPhone9,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_4.7_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone9,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_5.5_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone9,3": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_4.7_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone9,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_5.5_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone10,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_4.7_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone10,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_5.5_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone10,3": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone103iPhone106_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone10,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_4.7_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone10,5": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone_5.5_P3_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone10,6": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone103iPhone106_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone11,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone11,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone11,6": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone11,8": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone118iPhone121_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone12,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone118iPhone121_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone12,3": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone12,5": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone112iPhone114iPhone116iPhone123iPhone125_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPhone12,8": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iOS_14_beta/iPhone128_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPad6,11": {
-      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPad6,12": {
-      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPad7,5": {
-      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPad7,6": {
-      "ipsw": "https://download.developer.apple.com/WWDC_2020/iPadOS_14_beta/iPad_64bit_TouchID_ASTC_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPad7,11": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPad_Educational_14.0_18A5301v_Restore.ipsw"
-    },
-    "iPad7,12": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPad_Educational_14.0_18A5301v_Restore.ipsw"
+    "iPad6,8": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPadPro_12.9_14.0_18A5301v_Restore.ipsw"
     }
   }
 }

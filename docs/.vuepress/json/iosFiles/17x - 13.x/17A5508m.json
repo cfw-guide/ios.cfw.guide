@@ -4,38 +4,89 @@
   "released": "2019-06-17",
   "beta": true,
   "devices": {
-    "iPhone6,1": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75095/4F4CF3B2-8F89-11E9-8E67-C4E87219D28F/iPhone_4.0_64bit_13.0_17A5508m_Restore.ipsw"
+    "iPad11,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75122/8007ABD8-8F83-11E9-910F-E5A6533945F4/iPad_Spring_2019_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone6,2": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75095/4F4CF3B2-8F89-11E9-8E67-C4E87219D28F/iPhone_4.0_64bit_13.0_17A5508m_Restore.ipsw"
+    "iPad11,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75122/8007ABD8-8F83-11E9-910F-E5A6533945F4/iPad_Spring_2019_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone7,1": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75155/7A4C3166-8F86-11E9-AA22-D91698744963/iPhone_5.5_13.0_17A5508m_Restore.ipsw"
+    "iPad11,3": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75122/8007ABD8-8F83-11E9-910F-E5A6533945F4/iPad_Spring_2019_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone7,2": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75201/931E2448-8F85-11E9-8141-C65FC710FB17/iPhone_4.7_13.0_17A5508m_Restore.ipsw"
+    "iPad11,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75122/8007ABD8-8F83-11E9-910F-E5A6533945F4/iPad_Spring_2019_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone8,1": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75201/931E2448-8F85-11E9-8141-C65FC710FB17/iPhone_4.7_13.0_17A5508m_Restore.ipsw"
+    "iPad5,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75159/402454DC-8F86-11E9-BBAB-88857BFF6A56/iPad_64bit_TouchID_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone8,2": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75155/7A4C3166-8F86-11E9-AA22-D91698744963/iPhone_5.5_13.0_17A5508m_Restore.ipsw"
+    "iPad5,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75159/402454DC-8F86-11E9-BBAB-88857BFF6A56/iPad_64bit_TouchID_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone8,4": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75095/4F4CF3B2-8F89-11E9-8E67-C4E87219D28F/iPhone_4.0_64bit_13.0_17A5508m_Restore.ipsw"
+    "iPad5,3": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75159/402454DC-8F86-11E9-BBAB-88857BFF6A56/iPad_64bit_TouchID_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone9,1": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75009/49B7BD70-8F88-11E9-9C48-AB83B3BE89AA/iPhone_4.7_P3_13.0_17A5508m_Restore.ipsw"
+    "iPad5,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75159/402454DC-8F86-11E9-BBAB-88857BFF6A56/iPad_64bit_TouchID_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone9,2": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75210/BB6E73F0-8F88-11E9-9EB4-A57152D9EEF6/iPhone_5.5_P3_13.0_17A5508m_Restore.ipsw"
+    "iPad6,11": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone9,3": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75009/49B7BD70-8F88-11E9-9C48-AB83B3BE89AA/iPhone_4.7_P3_13.0_17A5508m_Restore.ipsw"
+    "iPad6,12": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone9,4": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75210/BB6E73F0-8F88-11E9-9EB4-A57152D9EEF6/iPhone_5.5_P3_13.0_17A5508m_Restore.ipsw"
+    "iPad6,3": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75100/5A2E7372-8F85-11E9-8E46-925CAFDD1872/iPadPro_9.7_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad6,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75100/5A2E7372-8F85-11E9-8E46-925CAFDD1872/iPadPro_9.7_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad6,7": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75019/AFB562E2-8F85-11E9-961B-BE2D8F8A928F/iPadPro_12.9_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad6,8": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75019/AFB562E2-8F85-11E9-961B-BE2D8F8A928F/iPadPro_12.9_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75087/06A058D4-8F84-11E9-B2BB-BACDFFE4102C/iPad_Pro_HFR_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad7,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75087/06A058D4-8F84-11E9-B2BB-BACDFFE4102C/iPad_Pro_HFR_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad7,3": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75087/06A058D4-8F84-11E9-B2BB-BACDFFE4102C/iPad_Pro_HFR_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad7,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75087/06A058D4-8F84-11E9-B2BB-BACDFFE4102C/iPad_Pro_HFR_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,3": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,5": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,6": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,7": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPad8,8": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75044/7FD67158-8F83-11E9-A1AF-C8C9C667E865/iPad_Fall_2018_13.0_17A5508m_Restore.ipsw"
     },
     "iPhone10,1": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75009/49B7BD70-8F88-11E9-9C48-AB83B3BE89AA/iPhone_4.7_P3_13.0_17A5508m_Restore.ipsw"
@@ -61,20 +112,29 @@
     "iPhone11,6": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75098/AD0F48A0-8F85-11E9-8715-EB3D8DEA0A58/iPhone11,2,iPhone11,6_13.0_17A5508m_Restore.ipsw"
     },
-    "iPhone11,8": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75025/D373EB0E-8F85-11E9-BA72-C651B58EBC2E/iPhone11,8_13.0_17A5508m_Restore.ipsw"
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75201/931E2448-8F85-11E9-8141-C65FC710FB17/iPhone_4.7_13.0_17A5508m_Restore.ipsw"
     },
-    "iPad6,11": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
+    "iPhone8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75155/7A4C3166-8F86-11E9-AA22-D91698744963/iPhone_5.5_13.0_17A5508m_Restore.ipsw"
     },
-    "iPad6,12": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
+    "iPhone8,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75095/4F4CF3B2-8F89-11E9-8E67-C4E87219D28F/iPhone_4.0_64bit_13.0_17A5508m_Restore.ipsw"
     },
-    "iPad7,5": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
+    "iPhone9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75009/49B7BD70-8F88-11E9-9C48-AB83B3BE89AA/iPhone_4.7_P3_13.0_17A5508m_Restore.ipsw"
     },
-    "iPad7,6": {
-      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75185/426D394C-8F87-11E9-852D-DA76F431E4A7/iPad_64bit_TouchID_ASTC_13.0_17A5508m_Restore.ipsw"
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75210/BB6E73F0-8F88-11E9-9EB4-A57152D9EEF6/iPhone_5.5_P3_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75009/49B7BD70-8F88-11E9-9C48-AB83B3BE89AA/iPhone_4.7_P3_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75210/BB6E73F0-8F88-11E9-9EB4-A57152D9EEF6/iPhone_5.5_P3_13.0_17A5508m_Restore.ipsw"
+    },
+    "iPod9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-75125/DE952E3C-8F88-11E9-AF1F-B34DE19F2288/iPodtouch_7_13.0_17A5508m_Restore.ipsw"
     }
   }
 }

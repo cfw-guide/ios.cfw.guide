@@ -4,77 +4,44 @@
   "released": "2019-06-03",
   "beta": true,
   "devices": {
-    "iPhone6,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.0_64bit_13.0_17A5492t_Restore.ipsw"
+    "iPad11,1": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Spring_2019_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone6,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.0_64bit_13.0_17A5492t_Restore.ipsw"
+    "iPad11,2": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Spring_2019_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone7,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_5.5_13.0_17A5492t_Restore.ipsw"
+    "iPad11,3": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Spring_2019_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone7,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.7_13.0_17A5492t_Restore.ipsw"
+    "iPad11,4": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Spring_2019_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone8,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.7_13.0_17A5492t_Restore.ipsw"
+    "iPad8,1": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone8,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_5.5_13.0_17A5492t_Restore.ipsw"
+    "iPad8,2": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone8,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.0_64bit_13.0_17A5492t_Restore.ipsw"
+    "iPad8,3": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone9,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.7_P3_13.0_17A5492t_Restore.ipsw"
+    "iPad8,4": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone9,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_5.5_P3_13.0_17A5492t_Restore.ipsw"
+    "iPad8,5": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone9,3": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.7_P3_13.0_17A5492t_Restore.ipsw"
+    "iPad8,6": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone9,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_5.5_P3_13.0_17A5492t_Restore.ipsw"
+    "iPad8,7": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone10,1": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.7_P3_13.0_17A5492t_Restore.ipsw"
+    "iPad8,8": {
+      "ipsw": "https://download.developer.apple.com/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw"
     },
-    "iPhone10,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_5.5_P3_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone10,3": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone103iPhone106_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone10,4": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_4.7_P3_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone10,5": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone_5.5_P3_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone10,6": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone103iPhone106_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone11,2": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone112iPhone116_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone11,6": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone112iPhone116_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPhone11,8": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPhone118_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPad6,11": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_64bit_TouchID_ASTC_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPad6,12": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_64bit_TouchID_ASTC_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPad7,5": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_64bit_TouchID_ASTC_13.0_17A5492t_Restore.ipsw"
-    },
-    "iPad7,6": {
-      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_64bit_TouchID_ASTC_13.0_17A5492t_Restore.ipsw"
+    "iPod9,1": {
+      "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPodtouch_13.0_17A5492t_Restore.ipsw"
     }
   }
 }

@@ -3,5 +3,123 @@
   "build": "15D5059a",
   "released": "2018-01-17",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPad4,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60514-20180117-2BA16BE8-F834-11E7-AE53-299FADB23389/iPad_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60514-20180117-2BA16BE8-F834-11E7-AE53-299FADB23389/iPad_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60514-20180117-2BA16BE8-F834-11E7-AE53-299FADB23389/iPad_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60514-20180117-2BA16BE8-F834-11E7-AE53-299FADB23389/iPad_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60514-20180117-2BA16BE8-F834-11E7-AE53-299FADB23389/iPad_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60514-20180117-2BA16BE8-F834-11E7-AE53-299FADB23389/iPad_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad5,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad5,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad5,3": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad5,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60532-20180117-2B9BDC46-F834-11E7-8E8F-2D9FADB23389/iPad_64bit_TouchID_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad6,3": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60584-20180117-2B9F16E0-F834-11E7-BA2D-329FADB23389/iPadPro_9.7_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad6,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60584-20180117-2B9F16E0-F834-11E7-BA2D-329FADB23389/iPadPro_9.7_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad6,7": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60521-20180117-2B9FBE06-F834-11E7-B4C7-2B9FADB23389/iPadPro_12.9_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad6,8": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60521-20180117-2B9FBE06-F834-11E7-B4C7-2B9FADB23389/iPadPro_12.9_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad7,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60623-20180117-2BA33478-F834-11E7-B1F5-359FADB23389/iPad_Pro_HFR_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad7,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60623-20180117-2BA33478-F834-11E7-B1F5-359FADB23389/iPad_Pro_HFR_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad7,3": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60623-20180117-2BA33478-F834-11E7-B1F5-359FADB23389/iPad_Pro_HFR_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPad7,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60623-20180117-2BA33478-F834-11E7-B1F5-359FADB23389/iPad_Pro_HFR_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone10,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60485-20180117-2B9D1EEE-F834-11E7-8A5F-219FADB23389/iPhone_4.7_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone10,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60620-20180117-2BA56C7A-F834-11E7-8753-349FADB23389/iPhone_5.5_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone10,3": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60615-20180117-2BA2D92E-F834-11E7-94A8-339FADB23389/iPhone10,6_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone10,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60485-20180117-2B9D1EEE-F834-11E7-8A5F-219FADB23389/iPhone_4.7_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60620-20180117-2BA56C7A-F834-11E7-8753-349FADB23389/iPhone_5.5_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone10,6": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60615-20180117-2BA2D92E-F834-11E7-94A8-339FADB23389/iPhone10,6_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60583-20180117-2BA9F952-F834-11E7-BF30-319FADB23389/iPhone_4.0_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60583-20180117-2BA9F952-F834-11E7-BF30-319FADB23389/iPhone_4.0_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60488-20180117-2B9DE64E-F834-11E7-B7C1-239FADB23389/iPhone_5.5_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60498-20180117-2BA1BF12-F834-11E7-8D47-259FADB23389/iPhone_4.7_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone8,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60498-20180117-2BA1BF12-F834-11E7-8D47-259FADB23389/iPhone_4.7_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60488-20180117-2B9DE64E-F834-11E7-B7C1-239FADB23389/iPhone_5.5_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60583-20180117-2BA9F952-F834-11E7-BF30-319FADB23389/iPhone_4.0_64bit_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone9,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60485-20180117-2B9D1EEE-F834-11E7-8A5F-219FADB23389/iPhone_4.7_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60620-20180117-2BA56C7A-F834-11E7-8753-349FADB23389/iPhone_5.5_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60485-20180117-2B9D1EEE-F834-11E7-8A5F-219FADB23389/iPhone_4.7_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60620-20180117-2BA56C7A-F834-11E7-8753-349FADB23389/iPhone_5.5_P3_11.0_11.2.5_15D5059a_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "http://appldnld.apple.com/ios11.2.5seed/091-60505-20180117-2BA241DA-F834-11E7-9372-279FADB23389/iPodtouch_11.2.5_15D5059a_Restore.ipsw"
+    }
+  }
 }

@@ -3,5 +3,36 @@
   "build": "15G5054c",
   "released": "2018-05-30",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83494-20180530-08587732-5F61-11E8-B371-004D52160102/iPhone_5.5_P3_11.0_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone10,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83426-20180530-085582E8-5F61-11E8-9C8C-F84C52160102/iPhone10,3,iPhone10,6_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83494-20180530-08587732-5F61-11E8-B371-004D52160102/iPhone_5.5_P3_11.0_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone10,6": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83426-20180530-085582E8-5F61-11E8-9C8C-F84C52160102/iPhone10,3,iPhone10,6_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83542-20180530-0855AA98-5F61-11E8-A676-054D52160102/iPhone_5.5_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83542-20180530-0855AA98-5F61-11E8-A676-054D52160102/iPhone_5.5_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83531-20180530-08570E38-5F61-11E8-B637-024D52160102/iPhone_4.7_P3_11.0_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83494-20180530-08587732-5F61-11E8-B371-004D52160102/iPhone_5.5_P3_11.0_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83531-20180530-08570E38-5F61-11E8-B637-024D52160102/iPhone_4.7_P3_11.0_11.4.1_15G5054c_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-83494-20180530-08587732-5F61-11E8-B371-004D52160102/iPhone_5.5_P3_11.0_11.4.1_15G5054c_Restore.ipsw"
+    }
+  }
 }
