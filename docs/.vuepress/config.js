@@ -4,17 +4,37 @@ const fs = require("fs");
 
 const mainObj = { ios: require('./json/ios'), jailbreak: require('./json/jailbreak'), device: require('./json/deviceList') }
 
+const localePath = {
+  en_US: '/',
+}
+
+const locales = {
+  [localePath.en_US]: config.en_US.locales
+}
+
+const themeConfigLocales = {
+  [localePath.en_US]: config.en_US.themeConfig
+}
+
+const searchLocales = {
+  [localePath.en_US]: { placeholder: config.en_US.search }
+}
+
 module.exports = {
-  locales: {
-    '/': config.en_US.locales
+  locales: locales,
+  
+  themeConfig: {
+    repo: 'cfw-guide/ios.cfw.guide',
+    adTagOne: 'waldo-tag-8541',
+    adTagTwo: 'waldo-tag-8542',
+    selectLanguageText: '<i class="fas fa-globe"/>',
+    locales: themeConfigLocales,
   },
 
 	plugins: [
 		[
 			"@vuepress/plugin-search", {
-				locales: {
-					"/": {placeholder: config.en_US.search}
-				}
+				locales: searchLocales,
 			}
 		],
 		[
@@ -23,19 +43,9 @@ module.exports = {
 				componentsDir: path.resolve(__dirname, './components')
 			}
 		],
-    require('./plugins/dynamicPages/lib/'),
+    require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
     require('./plugins/redirectPlugin/lib/'),
 	],
-  
-  themeConfig: {
-    repo: 'cfw-guide/ios.cfw.guide',
-    adTagOne: 'waldo-tag-8541',
-    adTagTwo: 'waldo-tag-8542',
-    selectLanguageText: '<i class="fas fa-globe"/>',
-    locales: {
-      '/': config.en_US.themeConfig
-    },
-  },
   
   head: [
     [ 'link', { rel: 'apple-touch-icon', sizes: "180x180", href: '/assets/favicon/apple-touch-icon.png' } ],

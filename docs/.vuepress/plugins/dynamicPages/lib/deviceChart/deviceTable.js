@@ -3,12 +3,7 @@ const fwPath = '/chart/firmware/'
 const devicePath = '/chart/device/'
 const betaDevicePath = '/chart/beta/device'
 
-const header = {
-  info: 'Info',
-  related: 'Related Devices',
-  grouped: 'Grouped Devices',
-  table: 'Table',
-};
+const deviceTableStr = themeLocale.chart.deviceTable;
 
 const infoHeader = [
   'Device',
@@ -133,15 +128,15 @@ function getRelatedDevices(d, groupTable) {
 module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
   const retArr = [
     {
-      title: header.info,
+      title: deviceTableStr.info.title,
       content: getDeviceInfo(device, groupTable),
     },
     {
-      title: (groupTable) ? header.grouped : header.related,
+      title: (groupTable) ? deviceTableStr.grouped.title : deviceTableStr.related.title,
       content: getRelatedDevices(device, groupTable),
     },
     {
-      title: header.table,
+      title: deviceTableStr.table.title,
       content: require('./getTable')(device, showAll, maxDisplayed, simplifyTable, groupTable),
     },
   ]
