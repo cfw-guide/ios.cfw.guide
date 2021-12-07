@@ -1,27 +1,27 @@
 module.exports = {
-  "name": "redsn0w",
-  "alias": "redsnow",
-  "priority": 2,
-  "info": {
-    "website": {
-      "name": "sites.google.com/a/iphone-dev.com/files/home",
-      "url": "https://sites.google.com/a/iphone-dev.com/files/home/",
-      "external": true
+  name: "redsn0w",
+  alias: "redsnow",
+  priority: 2,
+  info: {
+    website: {
+      name: "sites.google.com/a/iphone-dev.com/files/home",
+      url: "https://sites.google.com/a/iphone-dev.com/files/home/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Redsn0w",
-      "url": "https://www.theiphonewiki.com/wiki/Redsn0w",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Redsn0w",
+      url: "https://www.theiphonewiki.com/wiki/Redsn0w",
+      external: true
     },
-    "latestVer": "0.9.15b",
-    "color": "#2d95f7",
-    "icon": "/assets/images/redsn0w.png",
-    "type": "Untethered",
-    "firmwares": ["2.1.1","6.1.6"]
+    latestVer: "0.9.15b",
+    color: "#2d95f7",
+    icon: "/assets/images/redsn0w.png",
+    type: "Untethered",
+    firmwares: ["2.1.1","6.1.6"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "5H11a", // 2.2.1, iPod touch (2nd gen) only
         "7A341", // 3.0
         "7A400", // 3.0.1, iPhone only
@@ -35,7 +35,7 @@ module.exports = {
         "8B117", // 4.1
         "8C148", // 4.2.1
       ],
-      "devices": [
+      devices: [
         "iPhone1,1", // iPhone
         "iPhone1,2", // iPhone 3G
         "iPod1,1", // iPod touch
@@ -43,7 +43,7 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "7A341", // 3.0
         "7A400", // 3.0.1, iPhone only
         "7C144", // 3.1, iPhone only
@@ -70,12 +70,12 @@ module.exports = {
         "10B400", // 6.1.5
         "10B500", // 6.1.6
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "7A341", // 3.0
         "7A400", // 3.0.1, iPhone only
         "7C144", // 3.1, iPhone only
@@ -112,7 +112,7 @@ module.exports = {
         "10B400", // 6.1.5
         "10B500", // 6.1.6
       ],
-      "devices": [
+      devices: [
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,2", // iPhone 4 (GSM, 2012), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4
@@ -122,12 +122,12 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "9A405", // 5.0.1
         "9A406", // 5.0.1, iPhone 4S only
         "9B206", // 5.1.1
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
       ]
     }

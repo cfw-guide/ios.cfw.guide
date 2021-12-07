@@ -1,18 +1,18 @@
 module.exports = {
-  "name": "unc0ver dark",
-  "alias": ["uncover dark", "unc0ver-dark", "uncover-dark", "unc0ver_dark", "uncover_dark"],
-  "info": {
-    "website": {
-      "name": "dark.diatr.us",
-      "url": "https://dark.diatr.us/",
-      "external": true
+  name: "unc0ver dark",
+  alias: ["uncover dark", "unc0ver-dark", "uncover-dark", "unc0ver_dark", "uncover_dark"],
+  info: {
+    website: {
+      name: "dark.diatr.us",
+      url: "https://dark.diatr.us/",
+      external: true
     },
-    "type": "Semi-untethered",
-    "firmwares": ["11.0","12.1.2"]
+    type: "Semi-untethered",
+    firmwares: ["11.0","12.1.2"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "15A372-GM", // 11.0 GM
         "15A5278f", // 11.0 beta
         "15A5304i", // 11.0 beta 2
@@ -110,7 +110,7 @@ module.exports = {
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

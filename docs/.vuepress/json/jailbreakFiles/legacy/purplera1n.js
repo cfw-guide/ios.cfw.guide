@@ -1,22 +1,22 @@
 module.exports = {
-  "name": "purplera1n",
-  "alias": "purplerain",
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Purplera1n",
-      "url": "https://www.theiphonewiki.com/wiki/Purplera1n",
-      "external": true
+  name: "purplera1n",
+  alias: "purplerain",
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/Purplera1n",
+      url: "https://www.theiphonewiki.com/wiki/Purplera1n",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": "3.0",
-    "notes": "Only supports iPhone 3GS"
+    type: "Untethered",
+    firmwares: "3.0",
+    notes: "Only supports iPhone 3GS"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "7A341", // 3.0
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
       ]
     }

@@ -1,23 +1,23 @@
 module.exports = {
-  "name": "Pangu9",
-  "priority": 3,
-  "info": {
-    "website": {
-      "name": "en.9.pangu.io (archive.org)",
-      "url": "https://web.archive.org/web/20170702115349/http://en.9.pangu.io/",
-      "external": true
+  name: "Pangu9",
+  priority: 3,
+  info: {
+    website: {
+      name: "en.9.pangu.io (archive.org)",
+      url: "https://web.archive.org/web/20170702115349/http://en.9.pangu.io/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Pangu9",
-      "url": "https://www.theiphonewiki.com/wiki/Pangu9",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Pangu9",
+      url: "https://www.theiphonewiki.com/wiki/Pangu9",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["9.0","9.0.2"]
+    type: "Untethered",
+    firmwares: ["9.0","9.0.2"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13A340", // 9.0, iPad mini 4 only
         "13A342", // 9.0, iPhone 6s (non-Plus) only
         "13A343", // 9.0, iPhone 6s Plus only
@@ -26,7 +26,7 @@ module.exports = {
         "13A405", // 9.0.1, iPhone 6s only
         "13A452", // 9.0.2
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6
@@ -69,11 +69,11 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "13B143", // 9.1
         "13B144", // 9.1, iPad Pro (12.9-inch) only
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (CDMA), A7
         "iPhone7,1", // iPhone 6 Plus, A8

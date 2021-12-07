@@ -1,30 +1,30 @@
 module.exports = {
-  "name": "mach_portal",
-  "alias": ["machportal", "mach-portal", "mach%20portal"],
-  "info": {
-    "website": {
-      "name": "yalu.qwertyoruiop.com",
-      "url": "https://yalu.qwertyoruiop.com/",
-      "external": true
+  name: "mach_portal",
+  alias: ["machportal", "mach-portal", "mach%20portal"],
+  info: {
+    website: {
+      name: "yalu.qwertyoruiop.com",
+      url: "https://yalu.qwertyoruiop.com/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Yalu",
-      "url": "https://www.theiphonewiki.com/wiki/Yalu",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Yalu",
+      url: "https://www.theiphonewiki.com/wiki/Yalu",
+      external: true
     },
-    "type": "Semi-untethered",
-    "firmwares": ["10.1","10.1.1"],
-    "soc": "A9, A9X, A10, A10X"
+    type: "Semi-untethered",
+    firmwares: ["10.1","10.1.1"],
+    soc: "A9, A9X, A10, A10X"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "14B72", // 10.1
         "14B72c", // 10.1, iPhone 7 and iPhone 7 Plus only
         "14B100", // 10.1.1
         "14B150", // 10.1.1
       ],
-      "devices": [
+      devices: [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
         "iPhone8,4", // iPhone SE, A9

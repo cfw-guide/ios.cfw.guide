@@ -1,24 +1,24 @@
 module.exports = {
-  "name": "n1ghtshade",
-  "alias": "nightshade",
-  "info": {
-    "website": {
-      "name": "github.com/synackuk/n1ghtshade",
-      "url": "https://github.com/synackuk/n1ghtshade",
-      "external": true
+  name: "n1ghtshade",
+  alias: "nightshade",
+  info: {
+    website: {
+      name: "github.com/synackuk/n1ghtshade",
+      url: "https://github.com/synackuk/n1ghtshade",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/N1ghtshade",
-      "url": "https://www.theiphonewiki.com/wiki/N1ghtshade",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/N1ghtshade",
+      url: "https://www.theiphonewiki.com/wiki/N1ghtshade",
+      external: true
     },
-    "type": "Tethered",
-    "firmwares": ["6.0","9.3.5"],
-    "soc": "A6, A6X"
+    type: "Tethered",
+    firmwares: ["6.0","9.3.5"],
+    soc: "A6, A6X"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "10A405", // 6.0, iPhone 5 only
         "10A407", // 6.0, iPad 4 only
         "10A525", // 6.0.1, iPhone 5 only
@@ -66,7 +66,7 @@ module.exports = {
         "13G35", // 9.3.4
         "13G36", // 9.3.5
       ],
-      "devices": [
+      devices: [
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6
         "iPhone5,3", // iPhone 5c (GSM), A6

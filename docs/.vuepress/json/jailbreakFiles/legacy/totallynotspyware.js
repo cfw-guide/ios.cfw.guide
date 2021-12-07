@@ -1,25 +1,25 @@
 module.exports = {
-  "name": "Totally Not Spyware",
-  "alias": ["tns", "TotallyNotSpyware", "Totally-Not-Spyware", "Totally_Not_Spyware"],
-  "info": {
-    "website": {
-      "name": "totally-not.spyware.lol",
-      "url": "https://totally-not.spyware.lol/",
-      "external": true
+  name: "Totally Not Spyware",
+  alias: ["tns", "TotallyNotSpyware", "Totally-Not-Spyware", "Totally_Not_Spyware"],
+  info: {
+    website: {
+      name: "totally-not.spyware.lol",
+      url: "https://totally-not.spyware.lol/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/TotallyNotSpyware",
-      "url": "https://www.theiphonewiki.com/wiki/TotallyNotSpyware",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/TotallyNotSpyware",
+      url: "https://www.theiphonewiki.com/wiki/TotallyNotSpyware",
+      external: true
     },
-    "color": "#e5c67c",
-    "icon": "/assets/images/totallynotspyware.png",
-    "type": "(Safari) Semi-untethered",
-    "firmwares": ["10.0","10.3.3"]
+    color: "#e5c67c",
+    icon: "/assets/images/totallynotspyware.png",
+    type: "(Safari) Semi-untethered",
+    firmwares: ["10.0","10.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13A346", // 10.0, iPhone 7 and iPhone 7 Plus only
         "14A403", // 10.0.1
         "14A456", // 10.0.2
@@ -37,7 +37,7 @@ module.exports = {
         "14F91", // 10.3.2, iPad mini 4 (Wi-Fi + Cellular) only
         "14G60", // 10.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

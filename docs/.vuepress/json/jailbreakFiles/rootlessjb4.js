@@ -1,17 +1,17 @@
 module.exports = {
-  "name": "rootlessJB4",
-  "info": {
-    "website": {
-      "name": "github.com/BrandonPlank/rootlessJB4",
-      "url": "https://github.com/BrandonPlank/rootlessJB4",
-      "external": true
+  name: "rootlessJB4",
+  info: {
+    website: {
+      name: "github.com/BrandonPlank/rootlessJB4",
+      url: "https://github.com/BrandonPlank/rootlessJB4",
+      external: true
     },
-    "type": "Semi-untethered",
-    "firmwares": ["12.0","12.1.2"]
+    type: "Semi-untethered",
+    firmwares: ["12.0","12.1.2"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "16A366-GM", // 12.0 GM
         "16A5288q", // 12.0 beta
         "16A5308e", // 12.0 beta 2
@@ -41,7 +41,7 @@ module.exports = {
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

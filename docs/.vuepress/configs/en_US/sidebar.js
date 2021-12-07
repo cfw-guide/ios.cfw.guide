@@ -91,8 +91,6 @@ for (const i in jbList) {
   }
 }
 
-console.log(jbSidebarObj)
-
 module.exports = {
   '/': [
     getStarted,
