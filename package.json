@@ -19,6 +19,6 @@
     },
     "scripts": {
         "docs:dev": "vuepress dev docs",
-        "docs:build": "NODE_OPTIONS=--max_old_space_size=16384 vuepress build docs"
+        "docs:build": "vuepress build docs"
     }
 }
