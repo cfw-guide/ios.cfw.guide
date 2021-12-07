@@ -77,7 +77,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
         html += `<td>${t.to}</td>`;
         
         const finalJbHtml = t.jbArr.map(function(x) {
-          var url = jbPath + x.name;
+          var url = jbPath + x.name + '.html';
           var name = x.name;
           
           const guideObj = t.jbGuideObj;
@@ -96,7 +96,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
     } else {
       for (const i in jbObjArr) {
         var t = jbObjArr[i];
-        const finalJbHtml = t.jbArr.map(function(x) { return `<router-link to="${jbPath}${x.name}">${x.name}</router-link>` }).join(', ');
+        const finalJbHtml = t.jbArr.map(function(x) { return `<router-link to="${jbPath}${x.name}.html">${x.name}</router-link>` }).join(', ');
         html += `<tr>`;
         html += `<td><router-link to="${t.buildURL}">${t.build}</router-link></td>`;
         html += `<td>${t.version}</td>`;
