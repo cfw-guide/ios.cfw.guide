@@ -1,33 +1,34 @@
 module.exports = {
-  "name": "Electra",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "coolstar.org/electra",
-      "url": "https://coolstar.org/electra",
-      "external": true
+  name: "Electra",
+  priority: 0,
+  info: {
+    website: {
+      name: "coolstar.org/electra",
+      url: "https://coolstar.org/electra",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Electra",
-      "url": "https://www.theiphonewiki.com/wiki/Electra",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Electra",
+      url: "https://www.theiphonewiki.com/wiki/Electra",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Electra",
-        "url": "/installing-electra/"
+        name: "Installing Electra",
+        url: "/installing-electra/",
+        pkgman: "sileo",
       }
     ],
-    "latestVer": "2.0",
-    "color": "#465868",
-    "icon": "/assets/images/electra.png",
-    "jailbreaksmeapp": true,
-    "type": "Semi-untethered",
-    "firmwares": ["11.0","11.4.1"]
+    latestVer: "2.0",
+    color: "#465868",
+    icon: "/assets/images/electra.png",
+    jailbreaksmeapp: true,
+    type: "Semi-untethered",
+    firmwares: ["11.0","11.4.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "15A372-GM", // 11.0 GM
         "15A5278f", // 11.0 beta
         "15A5304i", // 11.0 beta 2
@@ -97,7 +98,7 @@ module.exports = {
         "15G5077a", // 11.4.1 beta 5
         "15G77", // 11.4.1
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

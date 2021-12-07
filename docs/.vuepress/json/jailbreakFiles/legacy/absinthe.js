@@ -1,35 +1,36 @@
 module.exports = {
-  "name": "Absinthe",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "greenpois0n.com/downloads (archive.org)",
-      "url": "https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/",
-      "external": true
+  name: "Absinthe",
+  priority: 0,
+  info: {
+    website: {
+      name: "greenpois0n.com/downloads (archive.org)",
+      url: "https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Absinthe",
-      "url": "https://www.theiphonewiki.com/wiki/Absinthe",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Absinthe",
+      url: "https://www.theiphonewiki.com/wiki/Absinthe",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Absinthe",
-        "url": "/installing-absinthe/"
+        name: "Installing Absinthe",
+        url: "/installing-absinthe/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Untethered",
-    "firmwares": ["5.0", "5.1.1"],
-    "soc": "A4, A5, A5X",
+    type: "Untethered",
+    firmwares: ["5.0", "5.1.1"],
+    soc: "A4, A5, A5X",
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "9A405", // 5.0.1
         "9B206", // 5.1.1
         "9B208", // 5.1.1, iPhone 4 (GSM) only
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4
@@ -46,13 +47,13 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "9A334", // 5.0
         "9A405", // 5.0.1
         "9A406", // 5.0.1, iPhone 4S only
         "9B206", // 5.1.1
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
       ]
     },

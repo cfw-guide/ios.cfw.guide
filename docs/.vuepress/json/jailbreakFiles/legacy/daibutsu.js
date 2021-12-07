@@ -1,31 +1,32 @@
 module.exports = {
-  "name": "daibutsu",
-  "priority": 2,
-  "info": {
-    "website": {
-      "name": "github.com/dora2-iOS/daibutsu",
-      "url": "https://github.com/dora2-iOS/daibutsu",
-      "external": true
+  name: "daibutsu",
+  priority: 2,
+  info: {
+    website: {
+      name: "github.com/dora2-iOS/daibutsu",
+      url: "https://github.com/dora2-iOS/daibutsu",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing daibutsu",
-        "url": "/installing-daibutsu/"
+        name: "Installing daibutsu",
+        url: "/installing-daibutsu/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Untethered",
-    "firmwares": ["8.4.1","9.1"]
+    type: "Untethered",
+    firmwares: ["8.4.1","9.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "12H321", // 8.4.1
         "13A344", // 9.0
         "13A404", // 9.0.1
         "13A452", // 9.0.2
         "13B143", // 9.1
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6

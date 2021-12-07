@@ -1,23 +1,23 @@
 module.exports = {
-  "name": "JailbreakMe 4.0",
-  "alias": ["JailbreakMe-4.0", "JailbreakMe_4.0", "JailbreakMe4.0", "JailbreakMe 4", "JailbreakMe-4", "JailbreakMe_4", "JailbreakMe4"],
-  "info": {
-    "website": {
-      "name": "jailbreak.me",
-      "url": "https://jailbreak.me/",
-      "external": true
+  name: "JailbreakMe 4.0",
+  alias: ["JailbreakMe-4.0", "JailbreakMe_4.0", "JailbreakMe4.0", "JailbreakMe 4", "JailbreakMe-4", "JailbreakMe_4", "JailbreakMe4"],
+  info: {
+    website: {
+      name: "jailbreak.me",
+      url: "https://jailbreak.me/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/JailbreakMe_4.0",
-      "url": "https://www.theiphonewiki.com/wiki/JailbreakMe_4.0",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/JailbreakMe_4.0",
+      url: "https://www.theiphonewiki.com/wiki/JailbreakMe_4.0",
+      external: true
     },
-    "type": "(Safari) Semi-untethered",
-    "firmwares": ["9.1","9.3.4"]
+    type: "(Safari) Semi-untethered",
+    firmwares: ["9.1","9.3.4"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13B143", // 9.1
         "13C75", // 9.2
         "13D15", // 9.2.1
@@ -29,7 +29,7 @@ module.exports = {
         "13G34", // 9.3.3
         "13G35", // 9.3.4
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6

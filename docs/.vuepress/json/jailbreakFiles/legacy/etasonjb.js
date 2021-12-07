@@ -1,32 +1,33 @@
 module.exports = {
-  "name": "etasonJB",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "etasonjb.tihmstar.net",
-      "url": "https://etasonjb.tihmstar.net/",
-      "external": true
+  name: "etasonJB",
+  priority: 0,
+  info: {
+    website: {
+      name: "etasonjb.tihmstar.net",
+      url: "https://etasonjb.tihmstar.net/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/EtasonJB",
-      "url": "https://www.theiphonewiki.com/wiki/EtasonJB",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/EtasonJB",
+      url: "https://www.theiphonewiki.com/wiki/EtasonJB",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing EtasonJB",
-        "url": "/installing-etasonjb/"
+        name: "Installing EtasonJB",
+        url: "/installing-etasonjb/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Untethered",
-    "firmwares": "8.4.1",
+    type: "Untethered",
+    firmwares: "8.4.1",
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "12H321", // 8.4.1
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6

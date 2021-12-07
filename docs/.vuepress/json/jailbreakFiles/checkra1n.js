@@ -1,27 +1,39 @@
 module.exports = {
-  "name": "checkra1n",
-  "alias": ["checkrain", "odysseyra1n", "odysseyrain"],
-  "priority": 2,
-  "info": {
-    "website": {
-      "name": "checkra.in",
-      "url": "https://checkra.in/",
-      "external": true
+  name: "checkra1n",
+  alias: ["checkrain", "odysseyra1n", "odysseyrain"],
+  priority: 2,
+  info: {
+    website: {
+      name: "checkra.in",
+      url: "https://checkra.in/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/checkra1n",
-      "url": "https://www.theiphonewiki.com/wiki/checkra1n",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/checkra1n",
+      url: "https://www.theiphonewiki.com/wiki/checkra1n",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Odysseyra1n",
-        "url": "/installing-odysseyra1n/"
+        name: "Installing Odysseyra1n",
+        url: "/installing-odysseyra1n/",
+        pkgman: 'sileo',
+        sidebarChildren: [
+          {
+            text: 'macOS',
+            link: '/installing-odysseyra1n/macos/',
+          },
+          {
+            text: 'Linux',
+            link: '/installing-odysseyra1n/linux/',
+          },
+        ],
       },
       {
-        "name": "Installing Odysseyra1n (A9X)",
-        "url": "/installing-odysseyra1n-a9x/",
-        "firmwares": [
+        name: "Installing Odysseyra1n (A9X)",
+        url: "/installing-odysseyra1n-a9x/",
+        pkgman: 'sileo',
+        firmwares: [
           "18E5140j", // 14.5 beta
           "18E5140k", // 14.5 beta
           "18E5154f", // 14.5 beta 2
@@ -52,24 +64,34 @@ module.exports = {
           "18H17", // 14.8
           "18H107", // 14.8.1
         ],
-        "devices": [
+        devices: [
           "iPad6,3", // iPad Pro (9.7-inch) Wi-Fi, A9X
           "iPad6,4", // iPad Pro (9.7-inch) Wi-Fi + Cellular, A9X
           "iPad6,7", // iPad Pro (12.9-inch) Wi-Fi, A9X
           "iPad6,8", // iPad Pro (12.9-inch) Wi-Fi + Cellular, A9X
         ],
+        sidebarChildren: [
+          {
+            text: 'macOS',
+            link: '/installing-odysseyra1n-a9x/macos/',
+          },
+          {
+            text: 'Linux',
+            link: '/installing-odysseyra1n-a9x/linux/',
+          },
+        ],
       },
     ],
-    "latestVer": "0.12.4",
-    "color": "#4d4d4d",
-    "icon": "/assets/images/checkra1n.png",
-    "notes": "Compatible with A7 - A11 devices. A11 devices on iOS 14 cannot use a passcode, Touch ID, Face ID, or Apple Pay in a jailbroken state.",
-    "type": "Semi-tethered",
-    "firmwares": ["12.0","14.8.1"]
+    latestVer: "0.12.4",
+    color: "#4d4d4d",
+    icon: "/assets/images/checkra1n.png",
+    notes: "Compatible with A7 - A11 devices. A11 devices on iOS 14 cannot use a passcode, Touch ID, Face ID, or Apple Pay in a jailbroken state.",
+    type: "Semi-tethered",
+    firmwares: ["12.0","14.8.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "16A366-GM", // 12.0 GM
         "16A5288q", // 12.0 beta
         "16A5308e", // 12.0 beta 2
@@ -266,7 +288,7 @@ module.exports = {
         "18H17", // 14.8
         "18H107", // 14.8.1
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

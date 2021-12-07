@@ -1,29 +1,30 @@
 module.exports = {
-  "name": "Pangu933",
-  "priority": 1,
-  "info": {
-    "website": {
-      "name": "en.pangu.io/help.html (archive.org)",
-      "url": "https://web.archive.org/web/20211114002150/http://en.pangu.io/help.html",
-      "external": true
+  name: "Pangu933",
+  priority: 1,
+  info: {
+    website: {
+      name: "en.pangu.io/help.html (archive.org)",
+      url: "https://web.archive.org/web/20211114002150/http://en.pangu.io/help.html",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Pangu9",
-      "url": "https://www.theiphonewiki.com/wiki/Pangu9#Pangu9_for_iOS_9.2_-_9.3.3",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Pangu9",
+      url: "https://www.theiphonewiki.com/wiki/Pangu9#Pangu9_for_iOS_9.2_-_9.3.3",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Pangu933",
-        "url": "/installing-pangu933/"
+        name: "Installing Pangu933",
+        url: "/installing-pangu933/",
+        pkgman: "cydia",
       }
     ],
-    "type": "Semi-untethered",
-    "firmwares": ["9.2","9.3.3"]
+    type: "Semi-untethered",
+    firmwares: ["9.2","9.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13C75", // 9.2
         "13D15", // 9.2.1
         "13D20", // 9.2.1, iPhone 6, 6s, iPad Air 2, Pro (12-inch) only
@@ -35,7 +36,7 @@ module.exports = {
         "13F72", // 9.3.2, iPad Pro (9.7-inch) only
         "13G34", // 9.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (CDMA), A7
         "iPhone7,1", // iPhone 6 Plus, A8

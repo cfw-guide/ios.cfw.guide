@@ -1,29 +1,30 @@
 module.exports = {
-  "name": "sockH3lix",
-  "alias": "sockHelix",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "github.com/SongXiaoXi/sockH3lix",
-      "url": "https://github.com/SongXiaoXi/sockH3lix",
-      "external": true
+  name: "sockH3lix",
+  alias: "sockHelix",
+  priority: 0,
+  info: {
+    website: {
+      name: "github.com/SongXiaoXi/sockH3lix",
+      url: "https://github.com/SongXiaoXi/sockH3lix",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing sockH3lix",
-        "url": "/installing-sockh3lix/"
+        name: "Installing sockH3lix",
+        url: "/installing-sockh3lix/",
+        pkgman: "cydia",
       }
     ],
-    "latestVer": "1.4",
-    "color": "#ffffff",
-    "icon": "/assets/images/sockh3lix.png",
-    "type": "Semi-untethered",
-    "firmwares": ["10.0", "10.3.4"],
-    "notes": "A modified version of h3lix using the superior sock_port exploit."
+    latestVer: "1.4",
+    color: "#ffffff",
+    icon: "/assets/images/sockh3lix.png",
+    type: "Semi-untethered",
+    firmwares: ["10.0", "10.3.4"],
+    notes: "A modified version of h3lix using the superior sock_port exploit."
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "14A403", // 10.0.1
         "14A456", // 10.0.2
         "14B72", // 10.1
@@ -38,7 +39,7 @@ module.exports = {
         "14F91", // 10.3.2, iPad mini 4 (Wi-Fi + Cellular) only
         "14G60", // 10.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8
@@ -69,11 +70,11 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "14G61", // 10.3.4
         "14G60", // 10.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6
       ]

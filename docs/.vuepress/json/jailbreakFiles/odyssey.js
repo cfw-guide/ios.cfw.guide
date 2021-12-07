@@ -1,33 +1,34 @@
 module.exports = {
-  "name": "Odyssey",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "theodyssey.dev",
-      "url": "https://theodyssey.dev/",
-      "external": true
+  name: "Odyssey",
+  priority: 0,
+  info: {
+    website: {
+      name: "theodyssey.dev",
+      url: "https://theodyssey.dev/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Odyssey",
-      "url": "https://www.theiphonewiki.com/wiki/Odyssey",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Odyssey",
+      url: "https://www.theiphonewiki.com/wiki/Odyssey",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing Odyssey",
-        "url": "/installing-odyssey/"
+        name: "Installing Odyssey",
+        url: "/installing-odyssey/",
+        pkgman: "sileo",
       }
     ],
-    "latestVer": "1.4.1",
-    "color": "#faf4f7",
-    "icon": "/assets/images/odyssey.png",
-    "jailbreaksmeapp": true,
-    "type": "Semi-untethered",
-    "firmwares": ["13.0","13.7"]
+    latestVer: "1.4.1",
+    color: "#faf4f7",
+    icon: "/assets/images/odyssey.png",
+    jailbreaksmeapp: true,
+    type: "Semi-untethered",
+    firmwares: ["13.0","13.7"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "17A5492t", // 13.0 beta
         "17A5508m", // 13.0 beta 2
         "17A5522f", // 13.0 beta 3
@@ -91,7 +92,7 @@ module.exports = {
         "17H33", // 13.7 beta
         "17H35", // 13.7
       ],
-      "devices": [
+      devices: [
         "iPhone8,1", // iPhone 6s, A9
         "iPhone8,2", // iPhone 6s Plus, A9
         "iPhone8,4", // iPhone SE, A9

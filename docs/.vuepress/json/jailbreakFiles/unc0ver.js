@@ -1,29 +1,31 @@
 module.exports = {
-  "name": "unc0ver",
-  "alias": "uncover",
-  "priority": 1,
-  "info": {
-    "website": {
-      "name": "unc0ver.dev",
-      "url": "https://unc0ver.dev/",
-      "external": true
+  name: "unc0ver",
+  alias: "uncover",
+  priority: 1,
+  info: {
+    website: {
+      name: "unc0ver.dev",
+      url: "https://unc0ver.dev/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Unc0ver",
-      "url": "https://www.theiphonewiki.com/wiki/Unc0ver",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Unc0ver",
+      url: "https://www.theiphonewiki.com/wiki/Unc0ver",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "text": "Guide (11.0 to 14.3)",
-        "name": "Installing unc0ver",
-        "url": "/installing-unc0ver/"
+        text: "Guide (11.0 to 14.3)",
+        name: "Installing unc0ver",
+        url: "/installing-unc0ver/",
+        pkgman: "cydia",
       },
       {
-        "text": "Guide (14.4 to 14.5.1)",
-        "name": "Installing unc0ver (Fugu14)",
-        "url": "/installing-unc0ver-fugu14/",
-        "firmwares": [
+        text: "Guide (14.4 to 14.5.1)",
+        name: "Installing unc0ver (Fugu14)",
+        url: "/installing-unc0ver-fugu14/",
+        pkgman: "cydia",
+        firmwares: [
           "18D5030e", // 14.4 beta
           "18D5043d", // 14.4 beta 2
           "18D52-RC", // 14.4 RC
@@ -43,7 +45,7 @@ module.exports = {
           "18E199", // 14.5
           "18E212", // 14.5.1
         ],
-        "devices": [
+        devices: [
           "iPhone11,2", // iPhone XS, A12
           "iPhone11,4", // iPhone XS Max (China mainland), A12
           "iPhone11,6", // iPhone XS Max, A12
@@ -87,17 +89,17 @@ module.exports = {
         ],
       },
     ],
-    "latestVer": "7.0.2",
-    "color": "#111111",
-    "icon": "/assets/images/unc0ver.png",
-    "notes": "iOS 14.4 - 14.5.1 support is only available on A12+ devices",
-    "jailbreaksmeapp": true,
-    "type": "Semi-untethered",
-    "firmwares": ["11.0","14.5.1"]
+    latestVer: "7.0.2",
+    color: "#111111",
+    icon: "/assets/images/unc0ver.png",
+    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices",
+    jailbreaksmeapp: true,
+    type: "Semi-untethered",
+    firmwares: ["11.0","14.5.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "15A372-GM", // 11.0 GM
         "15A5278f", // 11.0 beta
         "15A5304i", // 11.0 beta 2
@@ -336,7 +338,7 @@ module.exports = {
         "18C66-RC", // 14.3 RC 2
         "18C66", // 14.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8
@@ -426,7 +428,7 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "18D5030e", // 14.4 beta
         "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC
@@ -446,7 +448,7 @@ module.exports = {
         "18E199", // 14.5
         "18E212", // 14.5.1
       ],
-      "devices": [
+      devices: [
         "iPhone11,2", // iPhone XS, A12
         "iPhone11,4", // iPhone XS Max (China mainland), A12
         "iPhone11,6", // iPhone XS Max, A12

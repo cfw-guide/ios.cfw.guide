@@ -1,39 +1,46 @@
 module.exports = {
-  "name": "p0sixspwn",
-  "alias": "posixspwn",
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "ih8sn0w.com/p0sixspwn",
-      "url": "https://ih8sn0w.com/p0sixspwn.html",
-      "external": true
+  name: "p0sixspwn",
+  alias: "posixspwn",
+  priority: 0,
+  info: {
+    website: {
+      name: "ih8sn0w.com/p0sixspwn",
+      url: "https://ih8sn0w.com/p0sixspwn.html",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/p0sixspwn",
-      "url": "https://www.theiphonewiki.com/wiki/p0sixspwn",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/p0sixspwn",
+      url: "https://www.theiphonewiki.com/wiki/p0sixspwn",
+      external: true
     },
-    "guide": [
+    guide: [
       {
-        "name": "Installing P0sixspwn",
-        "url": "/installing-p0sixspwn/"
+        name: "Installing P0sixspwn",
+        url: "/installing-p0sixspwn/",
+        pkgman: "cydia",
+        updateLink: [
+          {
+            text: 'Updating to 6.1.3',
+            link: '/updating-to-6-1-3/'
+          },
+        ],
       }
     ],
-    "latestVer": "1.0.8",
-    "color": "#c4c5cc",
-    "icon": "/assets/images/p0sixspwn.png",
-    "type": "Untethered",
-    "firmwares": ["6.1.3","6.1.6"]
+    latestVer: "1.0.8",
+    color: "#c4c5cc",
+    icon: "/assets/images/p0sixspwn.png",
+    type: "Untethered",
+    firmwares: ["6.1.3","6.1.6"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "10B329", // 6.1.3
         "10B350", // 6.1.4
         "10B400", // 6.1.5
         "10B500", // 6.1.6
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,2", // iPhone 4 (GSM, 2012), A4
