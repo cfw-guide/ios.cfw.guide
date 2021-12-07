@@ -1,22 +1,22 @@
 module.exports = {
-  "name": "Spirit",
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Spirit",
-      "url": "https://www.theiphonewiki.com/wiki/Spirit",
-      "external": true
+  name: "Spirit",
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/Spirit",
+      url: "https://www.theiphonewiki.com/wiki/Spirit",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["3.1.2","3.2"]
+    type: "Untethered",
+    firmwares: ["3.1.2","3.2"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "7D11", // 3.1.2
         "7E18", // 3.1.3
         "7B367", // 3.2, iPad only
       ],
-      "devices": [
+      devices: [
         "iPhone1,1", // iPhone
         "iPhone1,2", // iPhone 3G
         "iPhone2,1", // iPhone 3GS

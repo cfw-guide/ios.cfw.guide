@@ -1,22 +1,22 @@
 module.exports = {
-  "name": "JBMe",
-  "info": {
-    "website": {
-      "name": "jbme.qwertyoruiop.com",
-      "url": "https://jbme.qwertyoruiop.com/",
-      "external": true
+  name: "JBMe",
+  info: {
+    website: {
+      name: "jbme.qwertyoruiop.com",
+      url: "https://jbme.qwertyoruiop.com/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Jbme",
-      "url": "https://www.theiphonewiki.com/wiki/Jbme",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Jbme",
+      url: "https://www.theiphonewiki.com/wiki/Jbme",
+      external: true
     },
-    "type": "(Safari) Semi-untethered",
-    "firmwares": ["9.3","9.3.3"]
+    type: "(Safari) Semi-untethered",
+    firmwares: ["9.3","9.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "13E233", // 9.3
         "13E234", // 9.3, iPhone 6s, iPad Pro (9.7-inch) only
         "13E237", // 9.3
@@ -25,7 +25,7 @@ module.exports = {
         "13F72", // 9.3.2, iPad Pro (9.7-inch) only
         "13G34", // 9.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (CDMA), A7
         "iPhone7,1", // iPhone 6 Plus, A8

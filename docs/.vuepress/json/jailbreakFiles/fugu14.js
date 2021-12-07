@@ -1,23 +1,23 @@
 module.exports = {
-  "name": "Fugu14",
-  "info": {
-    "website": {
-      "name": "github.com/LinusHenze/Fugu14",
-      "url": "https://github.com/LinusHenze/Fugu14",
-      "external": true
+  name: "Fugu14",
+  info: {
+    website: {
+      name: "github.com/LinusHenze/Fugu14",
+      url: "https://github.com/LinusHenze/Fugu14",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Fugu14",
-      "url": "https://www.theiphonewiki.com/wiki/Fugu14",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Fugu14",
+      url: "https://www.theiphonewiki.com/wiki/Fugu14",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["14.4","14.5.1"],
-    "soc": "A12+"
+    type: "Untethered",
+    firmwares: ["14.4","14.5.1"],
+    soc: "A12+"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "18D5030e", // 14.4 beta
         "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC
@@ -37,7 +37,7 @@ module.exports = {
         "18E199", // 14.5
         "18E212", // 14.5.1
       ],
-      "devices": [
+      devices: [
         "iPhone11,2", // iPhone XS, A12
         "iPhone11,4", // iPhone XS Max (China mainland), A12
         "iPhone11,6", // iPhone XS Max, A12

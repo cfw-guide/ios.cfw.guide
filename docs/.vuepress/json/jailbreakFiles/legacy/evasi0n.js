@@ -1,27 +1,27 @@
 module.exports = {
-  "name": "evasi0n",
-  "alias": ["evasion", "evasi0n6", "evasion6"],
-  "priority": 0,
-  "info": {
-    "website": {
-      "name": "theiphonewiki.com/wiki/Evasi0n",
-      "url": "https://www.theiphonewiki.com/wiki/Evasi0n",
-      "external": true
+  name: "evasi0n",
+  alias: ["evasion", "evasi0n6", "evasion6"],
+  priority: 0,
+  info: {
+    website: {
+      name: "theiphonewiki.com/wiki/Evasi0n",
+      url: "https://www.theiphonewiki.com/wiki/Evasi0n",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Evasi0n",
-      "url": "https://www.theiphonewiki.com/wiki/Evasi0n",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Evasi0n",
+      url: "https://www.theiphonewiki.com/wiki/Evasi0n",
+      external: true
     },
-    "latestVer": "1.5.3",
-    "color": "#ffffff",
-    "icon": "/assets/images/evasi0n.png",
-    "type": "Untethered",
-    "firmwares": ["6.0","6.1.2"]
+    latestVer: "1.5.3",
+    color: "#ffffff",
+    icon: "/assets/images/evasi0n.png",
+    type: "Untethered",
+    firmwares: ["6.0","6.1.2"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "10A403", // 6.0
         "10A405", // 6.0, iPhone 5 only
         "10A406", // 6.0, iPad mini and iPod touch 5 only
@@ -40,7 +40,7 @@ module.exports = {
         "10B146", // 6.1.2
         "10B147", // 6.1.2, iPad mini only
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,2", // iPhone 4 (GSM, 2012), A4

@@ -1,22 +1,22 @@
 module.exports = {
-  "name": "Ac1dsn0w",
-  "alias": ["acidsnow", "ac1dsnow", "acidsn0w"],
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Ac1dSn0w",
-      "url": "https://www.theiphonewiki.com/wiki/Ac1dSn0w",
-      "external": true
+  name: "Ac1dsn0w",
+  alias: ["acidsnow", "ac1dsnow", "acidsn0w"],
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/Ac1dSn0w",
+      url: "https://www.theiphonewiki.com/wiki/Ac1dSn0w",
+      external: true
     },
-    "type": "Tethered",
-    "firmwares": ["5.0","5.0.1"]
+    type: "Tethered",
+    firmwares: ["5.0","5.0.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "9A334", // 5.0
         "9A405", // 5.0.1
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4
@@ -25,10 +25,10 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "9A405", // 5.0.1
       ],
-      "devices": [
+      devices: [
         "iPod3,1", // iPod touch (3rd generation)
       ]
     }

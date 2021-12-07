@@ -1,17 +1,17 @@
 module.exports = {
-  "name": "QuickPwn",
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/QuickPwn",
-      "url": "https://www.theiphonewiki.com/wiki/QuickPwn",
-      "external": true
+  name: "QuickPwn",
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/QuickPwn",
+      url: "https://www.theiphonewiki.com/wiki/QuickPwn",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["2.0","2.2.1"]
+    type: "Untethered",
+    firmwares: ["2.0","2.2.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "5A347", // 2.0
         "5B108", // 2.0.1
         "5C1", // 2.0.2
@@ -20,7 +20,7 @@ module.exports = {
         "5G77a", // 2.2, iPod touch (2nd gen) only
         "5H11", // 2.2.1
       ],
-      "devices": [
+      devices: [
         "iPhone1,1", // iPhone
         "iPod1,1", // iPod touch
         "iPod2,1", // iPod touch (2nd generation)

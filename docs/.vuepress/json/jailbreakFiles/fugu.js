@@ -1,23 +1,23 @@
 module.exports = {
-  "name": "Fugu",
-  "info": {
-    "website": {
-      "name": "github.com/LinusHenze/Fugu",
-      "url": "https://github.com/LinusHenze/Fugu",
-      "external": true
+  name: "Fugu",
+  info: {
+    website: {
+      name: "github.com/LinusHenze/Fugu",
+      url: "https://github.com/LinusHenze/Fugu",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Fugu",
-      "url": "https://www.theiphonewiki.com/wiki/Fugu",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Fugu",
+      url: "https://www.theiphonewiki.com/wiki/Fugu",
+      external: true
     },
-    "type": "Semi-untethered",
-    "firmwares": ["13.0","13.5"],
-    "soc": "A10, A10X"
+    type: "Semi-untethered",
+    firmwares: ["13.0","13.5"],
+    soc: "A10, A10X"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "17A5492t", // 13.0 beta
         "17A5508m", // 13.0 beta 2
         "17A5522f", // 13.0 beta 3
@@ -70,7 +70,7 @@ module.exports = {
         "17F75-GM", // 13.5 GM
         "17F75", // 13.5
       ],
-      "devices": [
+      devices: [
         "iPhone9,1", // iPhone 7 (Global), A10
         "iPhone9,2", // iPhone 7 Plus (CDMA), A10
         "iPhone9,3", // iPhone 7 (GSM), A10

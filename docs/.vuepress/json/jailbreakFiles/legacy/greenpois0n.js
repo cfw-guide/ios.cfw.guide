@@ -1,32 +1,32 @@
 module.exports = {
-  "name": "greenpois0n",
-  "alias": ["greenpoison", "greenp0ison", "greenp0is0n"],
-  "priority": 1,
-  "info": {
-    "website": {
-      "name": "greenpois0n.com/downloads (archive.org)",
-      "url": "https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/",
-      "external": true
+  name: "greenpois0n",
+  alias: ["greenpoison", "greenp0ison", "greenp0is0n"],
+  priority: 1,
+  info: {
+    website: {
+      name: "greenpois0n.com/downloads (archive.org)",
+      url: "https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
-      "url": "https://www.theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
+      url: "https://www.theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["4.1","4.2.6"],
-    "notes": "Also compatible with iPhoneOS 3.2.2"
+    type: "Untethered",
+    firmwares: ["4.1","4.2.6"],
+    notes: "Also compatible with iPhoneOS 3.2.2"
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "7B500", // 3.2.2, iPad only
         "8B117", // 4.1
         "8B118", // 4.1, iPod touch 4 only
         "8C148", // 4.2.1
         "8E200", // 4.2.6, iPhone 4 (CDMA) only
       ],
-      "devices": [
+      devices: [
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4
         "iPod2,1", // iPod touch (2nd generation)
@@ -36,10 +36,10 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "8C148a", // 4.2.1, iPhone 3GS only
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
       ]
     }

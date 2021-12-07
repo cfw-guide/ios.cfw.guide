@@ -1,27 +1,27 @@
 module.exports = {
-  "name": "sn0wbreeze",
-  "alias": "snowbreeze",
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Sn0wbreeze",
-      "url": "https://www.theiphonewiki.com/wiki/Sn0wbreeze",
-      "external": true
+  name: "sn0wbreeze",
+  alias: "snowbreeze",
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/Sn0wbreeze",
+      url: "https://www.theiphonewiki.com/wiki/Sn0wbreeze",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["3.1.2","6.1.3"]
+    type: "Untethered",
+    firmwares: ["3.1.2","6.1.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "7D11", // 3.1.2
         "7E18", // 3.1.3
       ],
-      "devices": [
+      devices: [
         "iPhone1,1", // iPhone
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "7D11", // 3.1.2
         "7E18", // 3.1.3
         "8A293", // 4.0
@@ -30,13 +30,13 @@ module.exports = {
         "8B117", // 4.1
         "8C148", // 4.2.1
       ],
-      "devices": [
+      devices: [
         "iPhone1,2", // iPhone 3G
         "iPod2,1", // iPod touch (2nd generation)
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "7D11", // 3.1.2
         "7E18", // 3.1.3
         "8A293", // 4.0
@@ -51,12 +51,12 @@ module.exports = {
         "9A334", // 5.0
         "9A405", // 5.0.1
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "8A293", // 4.0
         "8A306", // 4.0.1
         "8A400", // 4.0.2
@@ -81,7 +81,7 @@ module.exports = {
         "10B146", // 6.1.2
         "10B329", // 6.1.3
       ],
-      "devices": [
+      devices: [
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,2", // iPhone 4 (GSM, 2012), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4
@@ -89,7 +89,7 @@ module.exports = {
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "7D11", // 3.1.2
         "7E18", // 3.1.3
         "8A293", // 4.0
@@ -112,13 +112,13 @@ module.exports = {
         "10B146", // 6.1.2
         "10B329", // 6.1.3
       ],
-      "devices": [
+      devices: [
         "iPod3,1", // iPod touch (3rd generation)
         "iPod4,1", // iPod touch (4th generation)
       ]
     },
     {
-      "firmwares": [
+      firmwares: [
         "7B367", // 3.2, iPad only
         "7B405", // 3.2.1, iPad only
         "7B500", // 3.2.2, iPad only
@@ -132,7 +132,7 @@ module.exports = {
         "9A405", // 5.0.1
         "9B206", // 5.1.1
       ],
-      "devices": [
+      devices: [
         "iPad1,1", // iPad
       ]
     },

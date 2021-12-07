@@ -1,17 +1,17 @@
 module.exports = {
-  "name": "Pangu8",
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Pangu8",
-      "url": "https://www.theiphonewiki.com/wiki/Pangu8",
-      "external": true
+  name: "Pangu8",
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/Pangu8",
+      url: "https://www.theiphonewiki.com/wiki/Pangu8",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["8.0","8.1"]
+    type: "Untethered",
+    firmwares: ["8.0","8.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "12A365", // 8.0
         "12A366", // 8.0, iPhone 6 Plus only
         "12A402", // 8.0.1
@@ -19,7 +19,7 @@ module.exports = {
         "12B410", // 8.1, iPad only
         "12B411", // 8.1, iPhone and iPod only
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6

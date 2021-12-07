@@ -1,18 +1,18 @@
 module.exports = {
-  "name": "g0blin",
-  "alias": "goblin",
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/G0blin",
-      "url": "https://www.theiphonewiki.com/wiki/G0blin",
-      "external": true
+  name: "g0blin",
+  alias: "goblin",
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/G0blin",
+      url: "https://www.theiphonewiki.com/wiki/G0blin",
+      external: true
     },
-    "type": "Semi-untethered",
-    "firmwares": ["10.2","10.3.3"]
+    type: "Semi-untethered",
+    firmwares: ["10.2","10.3.3"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "14C92", // 10.2
         "14D27", // 10.2.1
         "14E277", // 10.3
@@ -22,7 +22,7 @@ module.exports = {
         "14F91", // 10.3.2, iPad mini 4 (Wi-Fi + Cellular) only
         "14G60", // 10.3.3
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

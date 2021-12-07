@@ -1,26 +1,26 @@
 module.exports = {
-  "name": "cinject",
-  "info": {
-    "website": {
-      "name": "sites.google.com/a/iphone-dev.com/files/home",
-      "url": "https://sites.google.com/a/iphone-dev.com/files/home/",
-      "external": true
+  name: "cinject",
+  info: {
+    website: {
+      name: "sites.google.com/a/iphone-dev.com/files/home",
+      url: "https://sites.google.com/a/iphone-dev.com/files/home/",
+      external: true
     },
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/Cinject",
-      "url": "https://www.theiphonewiki.com/wiki/Cinject",
-      "external": true
+    wiki: {
+      name: "theiphonewiki.com/wiki/Cinject",
+      url: "https://www.theiphonewiki.com/wiki/Cinject",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": "5.1.1",
+    type: "Untethered",
+    firmwares: "5.1.1",
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "9B206", // 5.1.1
         "9B208", // 5.1.1, iPhone 4 (GSM) only
       ],
-      "devices": [
+      devices: [
         "iPhone2,1", // iPhone 3GS
         "iPhone3,1", // iPhone 4 (GSM), A4
         "iPhone3,3", // iPhone 4 (CDMA), A4

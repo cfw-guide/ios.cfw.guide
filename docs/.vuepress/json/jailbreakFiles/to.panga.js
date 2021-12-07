@@ -1,18 +1,18 @@
 module.exports = {
-  "name": "to.panga",
-  "alias": "topanga",
-  "info": {
-    "website": {
-      "name": "github.com/iabem97/topanga (archive.org)",
-      "url": "https://web.archive.org/web/20180321001836/https://github.com/iabem97/topanga",
-      "external": true
+  name: "to.panga",
+  alias: "topanga",
+  info: {
+    website: {
+      name: "github.com/iabem97/topanga (archive.org)",
+      url: "https://web.archive.org/web/20180321001836/https://github.com/iabem97/topanga",
+      external: true
     },
-    "type": "Semi-untethered",
-    "firmwares": ["11.0","11.4.1"]
+    type: "Semi-untethered",
+    firmwares: ["11.0","11.4.1"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "15A372-GM", // 11.0 GM
         "15A5278f", // 11.0 beta
         "15A5304i", // 11.0 beta 2
@@ -82,7 +82,7 @@ module.exports = {
         "15G5077a", // 11.4.1 beta 5
         "15G77", // 11.4.1
       ],
-      "devices": [
+      devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
         "iPhone6,2", // iPhone 5s (Global), A7
         "iPhone7,1", // iPhone 6 Plus, A8

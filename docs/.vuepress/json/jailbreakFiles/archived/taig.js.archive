@@ -1,18 +1,18 @@
 module.exports = {
-  "name": "TaiG",
-  "priority": 0,
-  "info": {
-    "wiki": {
-      "name": "theiphonewiki.com/wiki/TaiG",
-      "url": "https://www.theiphonewiki.com/wiki/TaiG",
-      "external": true
+  name: "TaiG",
+  priority: 0,
+  info: {
+    wiki: {
+      name: "theiphonewiki.com/wiki/TaiG",
+      url: "https://www.theiphonewiki.com/wiki/TaiG",
+      external: true
     },
-    "type": "Untethered",
-    "firmwares": ["8.0","8.4"]
+    type: "Untethered",
+    firmwares: ["8.0","8.4"]
   },
-  "compatibility": [
+  compatibility: [
     {
-      "firmwares": [
+      firmwares: [
         "12A365", // 8.0
         "12A366", // 8.0, iPhone 6 Plus only
         "12A402", // 8.0.1
@@ -28,7 +28,7 @@ module.exports = {
         "12F70", // 8.3, iPhone only
         "12H143", // 8.4
       ],
-      "devices": [
+      devices: [
         "iPhone4,1", // iPhone 4S, A5
         "iPhone5,1", // iPhone 5 (GSM), A6
         "iPhone5,2", // iPhone 5 (CDMA), A6
