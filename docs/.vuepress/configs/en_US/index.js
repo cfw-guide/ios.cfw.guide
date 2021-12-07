@@ -21,6 +21,7 @@ module.exports = {
     discordNoticeText: "For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).",
       
     navbar: require('./navbar'),
-    sidebar: require('./sidebar')
+    sidebar: require('./sidebar'),
+    chart: require('./chart'),
   }
 };
