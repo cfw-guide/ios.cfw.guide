@@ -1,14 +1,11 @@
-const tableHeader = [
-  'Build',
-  'Version',
-  'Jailbreak'
-]
+const deviceChartStr = themeLocale.chart.deviceChart;
 
-const simpleTableHeader = [
-  'From',
-  'To',
-  'Jailbreak'
-]
+String.prototype.format = function(vars) {
+    let temp = this;
+    for(let item in vars)
+        temp = temp.replace("${" + item + "}", vars[item]);
+    return temp;
+}
 
 function getDeviceListFromBuild(b) {
   var devArr = [];
@@ -111,11 +108,11 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   }
   
   const tableClass = ['tableBetaClass', 'tableMainClass'];
-  const noJbTip = `<div class="custom-container tip"><p>For fields marked "--", there is no jailbreak for that version.</p></div>`
-  const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href="https://discord.gg/QBj8pBa" target="_blank">Discord</a><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>.</p></div>`
-  var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">Show Beta Versions</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">Hide Beta Versions</a></p>"
-  var head = tableHeader;
-  if (simplifyTable) head = simpleTableHeader;
+  const noJbTip = `<div class="custom-container tip"><p>${deviceChartStr.table.noJbTip}</p></div>`
+  const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>${deviceChartStr.table.betaTip.format({extLinkSvg: extLinkSvg})}</p></div>`
+  var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">" + deviceChartStr.table.showBetaVersions + "</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">" + deviceChartStr.table.hideBetaVersions + "</a></p>"
+  var head = deviceChartStr.table.tableHeader;
+  if (simplifyTable) head = deviceChartStr.table.simpleTableHeader;
   
   var tableArr = [];
   for (var i = 0; i < 2; i++) {

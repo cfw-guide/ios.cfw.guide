@@ -1,13 +1,4 @@
-const header = {
-  iPhone: 'iPhone',
-  iPad: 'iPad',
-  mini: 'iPad mini',
-  Pro: 'iPad Pro',
-  Air: 'iPad Air',
-  iPod: 'iPod',
-  TV: 'Apple TV',
-  Watch: 'Apple Watch',
-}
+const deviceChartStr = themeLocale.chart.deviceChart;
 
 function getDeviceArr(typeArr) {
   var deviceArr = [];
@@ -52,7 +43,7 @@ function getHtml(typeArr, path, toc) {
   
   for (const i in deviceArr) {
     if (deviceArr[i].length < 1) continue;
-    if (typeArr.length > 1) html += '## ' + header[typeArr[i]] + '\n';
+    if (typeArr.length > 1) html += '## ' + deviceChartStr.devices[typeArr[i]] + '\n';
     
     deviceArr[i].sort(function(a,b) { return a.order - b.order })
     deviceArr[i].reverse()

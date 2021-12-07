@@ -1,4 +1,4 @@
-const deviceTableStr = themeLocale.chart.deviceTable;
+const deviceChartStr = themeLocale.chart.deviceChart;
 
 function getDeviceInfo(device, groupTable) {
   if (!device || !deviceList.hasOwnProperty(device)) return ''
@@ -57,7 +57,7 @@ function getDeviceInfo(device, groupTable) {
   }
   
   var infoHtmlArr = []
-  for (const i in infoObj) infoHtmlArr.push(deviceTableStr.info[i] + ' ' + infoObj[i])
+  for (const i in infoObj) infoHtmlArr.push(deviceChartStr.info[i] + ' ' + infoObj[i])
   
   return `<p>${infoHtmlArr.join('<br>')}</p> \n\n`
 }
@@ -88,15 +88,15 @@ function getRelatedDevices(d, groupTable) {
 module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTable) {
   const retArr = [
     {
-      title: deviceTableStr.info.title,
+      title: deviceChartStr.info.title,
       content: getDeviceInfo(device, groupTable),
     },
     {
-      title: (groupTable) ? deviceTableStr.grouped.title : deviceTableStr.related.title,
+      title: (groupTable) ? deviceChartStr.grouped.title : deviceChartStr.related.title,
       content: getRelatedDevices(device, groupTable),
     },
     {
-      title: deviceTableStr.table.title,
+      title: deviceChartStr.table.title,
       content: require('./getTable')(device, showAll, maxDisplayed, simplifyTable, groupTable),
     },
   ]
