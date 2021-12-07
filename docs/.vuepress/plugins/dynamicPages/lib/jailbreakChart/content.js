@@ -101,6 +101,7 @@ function getCompatListing(jb) {
     }
     
     for (var i in compatArr) {
+      if (!getBuild(compatArr[i].firmwares[fw]).beta && getBuild(compatArr[i].firmwares[fw]).build != '11D5099e')
       if (!compatArr[i].hasOwnProperty('firmwares') && !compatArr[i].hasOwnProperty('devices')) continue;
       if (compatArr[i].firmwares.toString() == obj.firmwares.toString()) {
         if (!compatArr[i].devices.includes(devArr[d])) {
