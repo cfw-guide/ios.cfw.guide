@@ -25,13 +25,6 @@ const month = [
   'December'
 ]
 
-const devicePath = '/chart/device/'
-const jbPath = '/chart/jailbreak/'
-
-const iosList = require('../../../../json/ios');
-const deviceList = require('../../../../json/deviceList');
-const jbList = require('../../../../json/jailbreak');
-
 function getDate(d) {
   var date = d.split('-');
   for (var i in date) date[i] = parseInt(date[i])
@@ -45,7 +38,7 @@ function getBuildInfo(b) {
   var arr = [];
   arr.push(infoHeader[0] + ": " + b.version)
   arr.push(infoHeader[1] + ": " + b.build)
-  if (b.hasOwnProperty('released')) arr.push(infoHeader[2] + ": " + getDate(b.released))
+  if (b.hasOwnProperty('released')) arr.push(infoHeader[2] + ": " + new Intl.DateTimeFormat(localeLang.replace('_', '-'), { dateStyle: 'full' }).format(new Date(b.released)))
   return head + arr.join('<br>') + '\n';
 }
 

@@ -1,24 +1,8 @@
-const config = require("./configs");
-const path = require("path");
-const fs = require("fs");
+const { localePath, locales, themeConfigLocales, searchLocales } = require("./i18n")
+const path = require("path")
+const fs = require("fs")
 
 const mainObj = { ios: require('./json/ios'), jailbreak: require('./json/jailbreak'), device: require('./json/deviceList') }
-
-const localePath = {
-  en_US: '/',
-}
-
-const locales = {
-  [localePath.en_US]: config.en_US.locales
-}
-
-const themeConfigLocales = {
-  [localePath.en_US]: config.en_US.themeConfig
-}
-
-const searchLocales = {
-  [localePath.en_US]: { placeholder: config.en_US.search }
-}
 
 module.exports = {
   locales: locales,
@@ -75,13 +59,13 @@ module.exports = {
   
   onPrepared(app) {
     fs.writeFile('./docs/.vuepress/public/main.json', JSON.stringify(mainObj), function (err) {
-      if (err) throw err;
-    });
+      if (err) throw err
+    })
     fs.writeFile('./docs/.vuepress/public/pages.json', JSON.stringify(app.pages), function (err) {
-      if (err) throw err;
-    });
+      if (err) throw err
+    })
   },
   
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
-};
+}
