@@ -1,5 +1,10 @@
 const { createPage } = require('@vuepress/core')
 
+global.iosList = require('../../../json/ios');
+global.deviceList = require('../../../json/deviceList');
+global.deviceGroups = require('../../../json/deviceGroups');
+global.jbList = require('../../../json/jailbreak');
+
 module.exports = function(themeLocale, localePath) {
   global.themeLocale = themeLocale;
   
