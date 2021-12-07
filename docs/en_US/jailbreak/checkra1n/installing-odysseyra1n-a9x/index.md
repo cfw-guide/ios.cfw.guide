@@ -33,6 +33,6 @@ If you are already jailbroken with regular checkra1n, make sure to properly <rou
 ---
 
 Please select your operating system:
-- <router-link to="/installing-odysseyra1n/macos-a9x">macOS</router-link>
-- <router-link to="/installing-odysseyra1n/linux-a9x">Linux</router-link>
-- <router-link to="/using-odysseyn1x-a9x">Windows (Odysseyn1x)</router-link>
+- <router-link to="/installing-odysseyra1n-a9x/macos/">macOS</router-link>
+- <router-link to="/installing-odysseyra1n-a9x/linux/">Linux</router-link>
+- <router-link to="/using-odysseyn1x-a9x/">Windows (Odysseyn1x)</router-link>

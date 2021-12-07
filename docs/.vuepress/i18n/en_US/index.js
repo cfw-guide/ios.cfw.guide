@@ -18,7 +18,7 @@ module.exports = {
   	toggleDarkMode: "Toggle dark mode",
   	toggleSidebar: "Toggle sidebar",
     
-    discordNoticeText: "For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).",
+    discordNoticeText: "For support in English, ask for help on the r/Jailbreak <a href=\"https://discord.gg/jb\" target=\"_blank\">Discord Server</a>.",
       
     navbar: require('./navbar'),
     sidebar: require('./sidebar'),

@@ -5,6 +5,7 @@ const fs = require("fs")
 const mainObj = { ios: require('./json/ios'), jailbreak: require('./json/jailbreak'), device: require('./json/deviceList') }
 
 module.exports = {
+  bundler: '@vuepress/bundler-vite',
   locales: locales,
   
   themeConfig: {

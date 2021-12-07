@@ -40,6 +40,6 @@ On iOS 14:
 ---
 
 Please select your operating system:
-- <router-link to="/installing-odysseyra1n/macos">macOS</router-link>
-- <router-link to="/installing-odysseyra1n/linux">Linux</router-link>
-- <router-link to="/using-odysseyn1x">Windows (Odysseyn1x)</router-link>
+- <router-link to="/installing-odysseyra1n/macos/">macOS</router-link>
+- <router-link to="/installing-odysseyra1n/linux/">Linux</router-link>
+- <router-link to="/using-odysseyn1x/">Windows (Odysseyn1x)</router-link>
