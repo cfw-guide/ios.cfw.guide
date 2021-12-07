@@ -11,7 +11,7 @@ header:
   overlay_filter: 0.3
   overlay_color: 1a1d24
   cta_label: "Get Started"
-  cta_url: /get-started/
+  cta_url: /get-started
 ---
 
 ::: tip

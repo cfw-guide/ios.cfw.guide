@@ -22,9 +22,9 @@ Please select what kind of device you have below.
   </thead>
   <tbody>
     <tr>
-      <td><router-link to="iPhone"><img src="/assets/images/iphone12pro.png" alt="iPhone" style="width: 50%;"></router-link></td>
-      <td><router-link to="iPad"><img src="/assets/images/iPad8,9.png" alt="iPad" style="width: 70%;"></router-link></td>
-      <td><router-link to="iPod"><img src="/assets/images/iPod9,1.png" alt="iPod" style="width: 50%;"></router-link></td>
+      <td><router-link to="/get-started/iPhone"><img src="/assets/images/iphone12pro.png" alt="iPhone" style="width: 50%;"></router-link></td>
+      <td><router-link to="/get-started/iPad"><img src="/assets/images/iPad8,9.png" alt="iPad" style="width: 70%;"></router-link></td>
+      <td><router-link to="/get-started/iPod"><img src="/assets/images/iPod9,1.png" alt="iPod" style="width: 50%;"></router-link></td>
     </tr>
   </tbody>
 </table>
