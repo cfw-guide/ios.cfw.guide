@@ -101,7 +101,6 @@ function getCompatListing(jb) {
     }
     
     for (var i in compatArr) {
-      if (!getBuild(compatArr[i].firmwares[fw]).beta && getBuild(compatArr[i].firmwares[fw]).build != '11D5099e')
       if (!compatArr[i].hasOwnProperty('firmwares') && !compatArr[i].hasOwnProperty('devices')) continue;
       if (compatArr[i].firmwares.toString() == obj.firmwares.toString()) {
         if (!compatArr[i].devices.includes(devArr[d])) {
@@ -118,7 +117,11 @@ function getCompatListing(jb) {
     html += "### " + compatListHeader[0] + "\n\n";
     for (var d in compatArr[i].devices) html += `- <router-link to="${devicePath + compatArr[i].devices[d]}">${deviceList[compatArr[i].devices[d]].name}</router-link> \n`
     html += "### " + compatListHeader[1] + "\n\n";
-    for (var fw in compatArr[i].firmwares) html += `- ${getBuild(compatArr[i].firmwares[fw]).version} (<router-link to="${fwPath + compatArr[i].firmwares[fw]}">${compatArr[i].firmwares[fw]}</router-link>) \n`
+    for (var fw in compatArr[i].firmwares) {
+      var b = getBuild(compatArr[i].firmwares[fw])
+      if (!b.beta && b.build != '11D5099e')
+      html += `- ${b.version} (<router-link to="${fwPath + compatArr[i].firmwares[fw]}">${compatArr[i].firmwares[fw]}</router-link>) \n`
+    }
   }
   
   return html;
