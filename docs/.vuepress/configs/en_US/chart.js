@@ -2,7 +2,8 @@ module.exports = {
   deviceTable: {
     info: {
       title: "Info",
-      device: "Device:",
+      name: "Device:",
+      identifier: "Identifier:",
       soc: "SoC:",
       arch: "Arch:",
       model: "Model:",
