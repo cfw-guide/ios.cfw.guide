@@ -1,7 +1,3 @@
-const devicePath = '/chart/device/'
-const deviceList = require('../../../../json/deviceList');
-const deviceGroups = require('../../../../json/deviceGroups');
-
 const header = {
   iPhone: 'iPhone',
   iPad: 'iPad',

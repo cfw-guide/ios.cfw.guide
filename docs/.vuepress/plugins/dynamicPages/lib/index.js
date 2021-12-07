@@ -5,10 +5,15 @@ global.deviceList = require('../../../json/deviceList');
 global.deviceGroups = require('../../../json/deviceGroups');
 global.jbList = require('../../../json/jailbreak');
 
+global.jbPath = '/chart/jailbreak/'
+global.fwPath = '/chart/firmware/'
+global.devicePath = '/chart/device/'
+
 module.exports = function(themeLocale, localePath) {
   global.themeLocale = themeLocale;
   
   for (const i in localePath) {
+    global.localeLang = i;
     global.themeLocale = themeLocale[localePath[i]];
     
     var pageList = [

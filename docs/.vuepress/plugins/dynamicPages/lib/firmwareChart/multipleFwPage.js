@@ -1,8 +1,3 @@
-const iosList = require('../../../../json/ios');
-const deviceList = require('../../../../json/deviceList');
-const fwPath = '/chart/firmware/'
-const devicePath = '/chart/device/'
-
 function openStr(os) {
   return `There are multiple builds for firmware version ${os}. Please select the build that you want to view below.\n\n`
 }

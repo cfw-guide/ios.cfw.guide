@@ -1,5 +1,3 @@
-const deviceList = require('../../../../json/deviceList');
-const deviceGroups = require('../../../../json/deviceGroups');
 var page = [];
 
 // Main chart

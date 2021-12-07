@@ -17,13 +17,6 @@ const infoHeader = [
   'SoC'
 ]
 
-const devicePath = '/chart/device/'
-const fwPath = '/chart/firmware/'
-
-const iosList = require('../../../../json/ios');
-const deviceList = require('../../../../json/deviceList');
-const jbList = require('../../../../json/jailbreak');
-
 function getJbInfo(jb) {
   var html = '';
   jb = getJb(jb)

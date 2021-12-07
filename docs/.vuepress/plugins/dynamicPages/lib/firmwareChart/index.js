@@ -1,5 +1,3 @@
-const iosList = require('../../../../json/ios');
-const fwPath = '/chart/firmware/'
 var page = [];
 
 // Find duplicates

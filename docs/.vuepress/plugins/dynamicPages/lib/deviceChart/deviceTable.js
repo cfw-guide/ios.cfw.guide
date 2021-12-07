@@ -1,31 +1,4 @@
-const jbPath = '/chart/jailbreak/'
-const fwPath = '/chart/firmware/'
-const devicePath = '/chart/device/'
-const betaDevicePath = '/chart/beta/device'
-
-const deviceTableStr = themeLocale.chart.deviceTable
-
-const month = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December'
-]
-
-function getDate(d) {
-  var date = d.split('-')
-  for (var i in date) date[i] = parseInt(date[i])
-  date[1] = month[date[1]-1]
-  return `${date[1]} ${date[2]}, ${date[0]}`
-}
+const deviceTableStr = themeLocale.chart.deviceTable;
 
 function getDeviceInfo(device, groupTable) {
   if (!device || !deviceList.hasOwnProperty(device)) return ''
@@ -36,8 +9,8 @@ function getDeviceInfo(device, groupTable) {
     'soc',
     'arch',
     'model',
-    'released',
-    'discontinued',
+    //'released',
+    //'discontinued',
   ]
   
   var dev = deviceList[device]
@@ -74,7 +47,7 @@ function getDeviceInfo(device, groupTable) {
   
   if (infoObj.model) {
     if (!Array.isArray(infoObj.model)) infoObj.model = [infoObj.model]
-    if (infoObj.model <= 5) infoObj.model = infoObj.model.join(', ')
+    if (infoObj.model.length <= 5) infoObj.model = infoObj.model.join(', ')
     else {
       var tempArr = infoObj.model
       const firstThreeModels = tempArr.slice(0, 3).join(', ')

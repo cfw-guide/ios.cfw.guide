@@ -1,5 +1,3 @@
-const jbList = require('../../../../json/jailbreak');
-const jbPath = '/chart/jailbreak/';
 var page = [];
 
 for (const i in jbList) {
