@@ -4,8 +4,134 @@
   "released": "2018-09-12",
   "beta": true,
   "devices": {
-    "iPhone8,1": {
+    "iPad4,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63023/11A39400-AC8E-11E8-A499-81BC17F6848C/iPad_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63023/11A39400-AC8E-11E8-A499-81BC17F6848C/iPad_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63023/11A39400-AC8E-11E8-A499-81BC17F6848C/iPad_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63023/11A39400-AC8E-11E8-A499-81BC17F6848C/iPad_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63023/11A39400-AC8E-11E8-A499-81BC17F6848C/iPad_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63023/11A39400-AC8E-11E8-A499-81BC17F6848C/iPad_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad5,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad5,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad5,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad5,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63139/11A3DDE8-AC8E-11E8-BBBB-EAD81D048BD9/iPad_64bit_TouchID_12.0_16A366_Restore.ipsw"
+    },
+    "iPad6,11": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-77699/118FEE96-AC8E-11E8-B8E7-F6A8415063F8/iPad_64bit_TouchID_ASTC_12.0_16A366_Restore.ipsw"
+    },
+    "iPad6,12": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-77699/118FEE96-AC8E-11E8-B8E7-F6A8415063F8/iPad_64bit_TouchID_ASTC_12.0_16A366_Restore.ipsw"
+    },
+    "iPad6,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63166/11A02C16-AC8E-11E8-8517-DF16F89DBF7B/iPadPro_9.7_12.0_16A366_Restore.ipsw"
+    },
+    "iPad6,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63166/11A02C16-AC8E-11E8-8517-DF16F89DBF7B/iPadPro_9.7_12.0_16A366_Restore.ipsw"
+    },
+    "iPad6,7": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62871/118D5BA4-AC8E-11E8-AFC2-A753C7CC9026/iPadPro_12.9_12.0_16A366_Restore.ipsw"
+    },
+    "iPad6,8": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62871/118D5BA4-AC8E-11E8-AFC2-A753C7CC9026/iPadPro_12.9_12.0_16A366_Restore.ipsw"
+    },
+    "iPad7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62921/11701D1E-AC8E-11E8-A4EB-C9640A3A3D87/iPad_Pro_HFR_12.0_16A366_Restore.ipsw"
+    },
+    "iPad7,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62921/11701D1E-AC8E-11E8-A4EB-C9640A3A3D87/iPad_Pro_HFR_12.0_16A366_Restore.ipsw"
+    },
+    "iPad7,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62921/11701D1E-AC8E-11E8-A4EB-C9640A3A3D87/iPad_Pro_HFR_12.0_16A366_Restore.ipsw"
+    },
+    "iPad7,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62921/11701D1E-AC8E-11E8-A4EB-C9640A3A3D87/iPad_Pro_HFR_12.0_16A366_Restore.ipsw"
+    },
+    "iPad7,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-77699/118FEE96-AC8E-11E8-B8E7-F6A8415063F8/iPad_64bit_TouchID_ASTC_12.0_16A366_Restore.ipsw"
+    },
+    "iPad7,6": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-77699/118FEE96-AC8E-11E8-B8E7-F6A8415063F8/iPad_64bit_TouchID_ASTC_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone10,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63070/11855120-AC8E-11E8-8110-D73611761120/iPhone_4.7_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62838/11998604-AC8E-11E8-907D-813265B0C5AC/iPhone_5.5_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone10,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63369/11933E2A-AC8E-11E8-9CF3-C6BCB65C09D5/iPhone10,3,iPhone10,6_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone10,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63070/11855120-AC8E-11E8-8110-D73611761120/iPhone_4.7_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62838/11998604-AC8E-11E8-907D-813265B0C5AC/iPhone_5.5_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone10,6": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63369/11933E2A-AC8E-11E8-9CF3-C6BCB65C09D5/iPhone10,3,iPhone10,6_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone6,1": {
       "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63009/116F8BD8-AC8E-11E8-A3AF-9B7076D145D8/iPhone_4.0_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63009/116F8BD8-AC8E-11E8-A3AF-9B7076D145D8/iPhone_4.0_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63220/11676EA8-AC8E-11E8-B3C7-D85EDF907439/iPhone_5.5_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63349/11824778-AC8E-11E8-BB8D-A9E922766E04/iPhone_4.7_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone8,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63349/11824778-AC8E-11E8-BB8D-A9E922766E04/iPhone_4.7_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63220/11676EA8-AC8E-11E8-B3C7-D85EDF907439/iPhone_5.5_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63009/116F8BD8-AC8E-11E8-A3AF-9B7076D145D8/iPhone_4.0_64bit_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63070/11855120-AC8E-11E8-8110-D73611761120/iPhone_4.7_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62838/11998604-AC8E-11E8-907D-813265B0C5AC/iPhone_5.5_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-63070/11855120-AC8E-11E8-8110-D73611761120/iPhone_4.7_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62838/11998604-AC8E-11E8-907D-813265B0C5AC/iPhone_5.5_P3_12.0_16A366_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62942/117CFD40-AC8E-11E8-9643-BCDC62B531BE/iPodtouch_12.0_16A366_Restore.ipsw"
     }
   }
 }

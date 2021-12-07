@@ -3,5 +3,18 @@
   "build": "15F5061e",
   "released": "2018-05-01",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-81976-20180501-D622DD52-4B15-11E8-93EA-6390D9D45F13/iPhone_5.5_P3_11.0_11.4_15F5061e_Restore.ipsw"
+    },
+    "iPhone10,3": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-81979-20180501-D6259B8C-4B15-11E8-A9F3-6490D9D45F13/iPhone10,3,iPhone10,6_11.4_15F5061e_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-81976-20180501-D622DD52-4B15-11E8-93EA-6390D9D45F13/iPhone_5.5_P3_11.0_11.4_15F5061e_Restore.ipsw"
+    },
+    "iPhone10,6": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-81979-20180501-D6259B8C-4B15-11E8-A9F3-6490D9D45F13/iPhone10,3,iPhone10,6_11.4_15F5061e_Restore.ipsw"
+    }
+  }
 }

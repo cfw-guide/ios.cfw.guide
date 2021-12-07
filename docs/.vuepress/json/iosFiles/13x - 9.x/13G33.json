@@ -3,5 +3,138 @@
   "build": "13G33",
   "released": "2016-06-29",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPad2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64698-20160629-A1DAB90A-3CBE-11E6-97F8-7EEEC2777EA3/iPad2,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad2,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64841-20160629-F7882D40-3CC0-11E6-8FDA-92F6C2777EA3/iPad2,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad2,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64778-20160629-A2151E50-3CBF-11E6-870A-9BF2C2777EA3/iPad2,3_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad2,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64763-20160629-4E9B71D4-3CBF-11E6-9AAC-E6F1C2777EA3/iPad2,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad2,5": {
+      "ipsw": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-64712-20160629-A1ED0CB8-3CBE-11E6-B785-88EEC2777EA3/iPad2,5_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad2,6": {
+      "ipsw": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-64748-20160629-A1EAE366-3CBE-11E6-A852-97EEC2777EA3/iPad2,6_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad2,7": {
+      "ipsw": "https://secure-appldnld.apple.com/iOS9.3.3Seed/031-64808-20160629-3BD2E5C2-3CC0-11E6-ACE0-22F5C2777EA3/iPad2,7_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64713-20160629-A1E84DEA-3CBE-11E6-8F35-8AEEC2777EA3/iPad3,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64769-20160629-6A5B770C-3CBF-11E6-8909-17F2C2777EA3/iPad3,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad3,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64741-20160629-A1F1E3A0-3CBE-11E6-B392-95EEC2777EA3/iPad3,3_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad3,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64814-20160629-CA216150-3CC0-11E6-B2F9-DAF5C2777EA3/iPad3,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad3,5": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64716-20160629-A1F18F22-3CBE-11E6-A165-8DEEC2777EA3/iPad3,5_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad3,6": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64792-20160629-15978D18-3CC0-11E6-8F15-8CF4C2777EA3/iPad3,6_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64736-20160629-A1E62132-3CBE-11E6-A402-93EEC2777EA3/iPad4,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64770-20160629-95DF1A0A-3CBF-11E6-B32F-53F2C2777EA3/iPad4,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64685-20160629-A1DA9E8E-3CBE-11E6-A389-77EEC2777EA3/iPad4,3_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64679-20160629-A1D3B416-3CBE-11E6-B55F-71EEC2777EA3/iPad4,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,5": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64688-20160629-A1D8DB44-3CBE-11E6-9320-7BEEC2777EA3/iPad4,5_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,6": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64838-20160629-DD7A2CB4-3CC0-11E6-9056-41F6C2777EA3/iPad4,6_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,7": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64693-20160629-A1D9669A-3CBE-11E6-830B-7CEEC2777EA3/iPad4,7_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,8": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64804-20160629-3448AD1E-3CC0-11E6-B4A1-ECF4C2777EA3/iPad4,8_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad4,9": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64669-20160629-A1D69F50-3CBE-11E6-AE89-6DEEC2777EA3/iPad4,9_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64788-20160629-07560752-3CC0-11E6-A3C1-1CF4C2777EA3/iPad5,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64683-20160629-A1D69424-3CBE-11E6-B1D7-75EEC2777EA3/iPad5,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad5,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64844-20160629-1FF56068-3CC1-11E6-9804-DEF6C2777EA3/iPad5,3_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad5,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64719-20160629-A1E7FE8A-3CBE-11E6-9181-8EEEC2777EA3/iPad5,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad6,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64802-20160629-1F67AC38-3CC0-11E6-9DDE-BFF4C2777EA3/iPad6,3_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad6,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64759-20160629-A1F102AA-3CBE-11E6-B17A-98EEC2777EA3/iPad6,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad6,7": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64686-20160629-A1DBB968-3CBE-11E6-81B8-79EEC2777EA3/iPad6,7_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPad6,8": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64674-20160629-A1D4B438-3CBE-11E6-B81F-6FEEC2777EA3/iPad6,8_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone4,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64813-20160629-A6583C9E-3CC0-11E6-9534-99F5C2777EA3/iPhone4,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64721-20160629-A1F06084-3CBE-11E6-94F2-91EEC2777EA3/iPhone5,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone5,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64705-20160629-A1DE9AC0-3CBE-11E6-BE30-85EEC2777EA3/iPhone5,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone5,3": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64837-20160629-CD9153C2-3CC0-11E6-AD95-F6F5C2777EA3/iPhone5,3_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone5,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64812-20160629-83A39CF2-3CC0-11E6-9B87-51F5C2777EA3/iPhone5,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone6,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64709-20160629-A1E8EBEC-3CBE-11E6-B6DD-87EEC2777EA3/iPhone6,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone6,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64787-20160629-EBB5C6F4-3CBF-11E6-884D-B9F3C2777EA3/iPhone6,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone7,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64746-20160629-A1E5CCA0-3CBE-11E6-B8D5-96EEC2777EA3/iPhone7,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone7,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64701-20160629-A1DE36CA-3CBE-11E6-BDBF-83EEC2777EA3/iPhone7,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone8,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64789-20160629-0BDB8194-3CC0-11E6-9908-36F4C2777EA3/iPhone8,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64699-20160629-A1DD5C0A-3CBE-11E6-9F59-81EEC2777EA3/iPhone8,2_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64760-20160629-A1EB3082-3CBE-11E6-BC26-99EEC2777EA3/iPhone8,4_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPod5,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64682-20160629-A1D58944-3CBE-11E6-B40C-73EEC2777EA3/iPod5,1_9.3.3_13G33_Restore.ipsw"
+    },
+    "iPod7,1": {
+      "ipsw": "http://appldnld.apple.com/iOS9.3.3Seed/031-64779-20160629-B24642F4-3CBF-11E6-A3CD-C6F2C2777EA3/iPod7,1_9.3.3_13G33_Restore.ipsw"
+    }
+  }
 }

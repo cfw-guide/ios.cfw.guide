@@ -3,5 +3,18 @@
   "build": "14B72c-GM",
   "released": "2016-10-19",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone9,1": {
+      "ipsw": "http://appldnld.apple.com/ios10.1seed/031-86295-20161024-355FB886-9572-11E6-AD65-066E80A31755/iPhone_7_10.1_14B72c_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "http://appldnld.apple.com/ios10.1seed/031-86287-20161024-355F73B2-9572-11E6-B967-056E80A31755/iPhone_7Plus_10.1_14B72c_Restore.ipsw"
+    },
+    "iPhone9,3": {
+      "ipsw": "http://appldnld.apple.com/ios10.1seed/031-86295-20161024-355FB886-9572-11E6-AD65-066E80A31755/iPhone_7_10.1_14B72c_Restore.ipsw"
+    },
+    "iPhone9,4": {
+      "ipsw": "http://appldnld.apple.com/ios10.1seed/031-86287-20161024-355F73B2-9572-11E6-B967-056E80A31755/iPhone_7Plus_10.1_14B72c_Restore.ipsw"
+    }
+  }
 }

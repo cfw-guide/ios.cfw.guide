@@ -3,5 +3,12 @@
   "build": "15F5037c",
   "released": "2018-04-02",
   "beta": true,
-  "devices": {}
+  "devices": {
+    "iPhone7,1": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-74070-20180402-53445238-337A-11E8-A6D1-C792B7B039C2/iPhone_5.5_11.4_15F5037c_Restore.ipsw"
+    },
+    "iPhone8,2": {
+      "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-74070-20180402-53445238-337A-11E8-A6D1-C792B7B039C2/iPhone_5.5_11.4_15F5037c_Restore.ipsw"
+    }
+  }
 }
