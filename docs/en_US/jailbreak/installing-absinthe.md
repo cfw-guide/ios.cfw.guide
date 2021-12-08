@@ -34,7 +34,7 @@ Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 ::: tip
 
-Be sure to use an MFI-certified 30-pin or lightning connector for highest chances of success
+Be sure to use an MFI-certified 30-pin connector for highest chances of success
 
 :::
 
