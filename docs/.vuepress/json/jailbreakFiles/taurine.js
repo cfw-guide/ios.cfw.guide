@@ -21,7 +21,7 @@ module.exports = {
     ],
     latestVer: "1.1.1",
     color: "#6742cd",
-    icon: "/assets/images/taurine.png",
+    icon: "/assets/images/jb-icons/taurine.png",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
     firmwares: ["14.0","14.3"]

@@ -17,7 +17,7 @@ module.exports = {
     ],
     latestVer: "1.4",
     color: "#ffffff",
-    icon: "/assets/images/sockh3lix.png",
+    icon: "/assets/images/jb-icons/sockh3lix.png",
     type: "Semi-untethered",
     firmwares: ["10.0", "10.3.4"],
     notes: "A modified version of h3lix using the superior sock_port exploit."
