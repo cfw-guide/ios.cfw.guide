@@ -5,7 +5,6 @@ const fs = require("fs")
 const mainObj = { ios: require('./json/ios'), jailbreak: require('./json/jailbreak'), device: require('./json/deviceList') }
 
 module.exports = {
-  bundler: '@vuepress/bundler-vite',
   locales: locales,
   
   themeConfig: {
@@ -65,6 +64,22 @@ module.exports = {
     fs.writeFile('./docs/.vuepress/public/pages.json', JSON.stringify(app.pages), function (err) {
       if (err) throw err
     })
+  },
+  
+  bundler: '@vuepress/bundler-vite',
+  bundlerConfig: {
+    build: {
+      chunkSizeWarningLimit:1500,
+      rollupOptions: {
+        output:{
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+                return id.toString().split('node_modules/')[1].split('/')[0].toString();
+            }
+          }
+        }
+      }
+    }
   },
   
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
