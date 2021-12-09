@@ -7,5 +7,31 @@
     "iPhone13,2",
     "iPhone13,3",
     "iPhone13,4"
-  ]
+  ],
+  "subgroups": {
+    {
+      "name": "iPhone 12",
+      "type": "iPhone",
+      "order": 0,
+      "devices": [ "iPhone13,2" ]
+    },
+    {
+      "name": "iPhone 12 mini",
+      "type": "iPhone",
+      "order": 1,
+      "devices": [ "iPhone13,1" ]
+    },
+    {
+      "name": "iPhone 12 Pro",
+      "type": "iPhone",
+      "order": 2,
+      "devices": [ "iPhone13,3" ]
+    },
+    {
+      "name": "iPhone 12 Pro Max",
+      "type": "iPhone",
+      "order": 3,
+      "devices": [ "iPhone13,4" ]
+    }
+  }
 }
