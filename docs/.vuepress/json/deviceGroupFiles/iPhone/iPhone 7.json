@@ -15,8 +15,8 @@
       "order": 0,
       "devices": [
         "iPhone9,1",
-        "iPhone9,3",
-      ],
+        "iPhone9,3"
+      ]
     },
     {
       "name": "iPhone 7 Plus",
@@ -24,8 +24,8 @@
       "order": 1,
       "devices": [
         "iPhone9,2",
-        "iPhone9,4",
-      ],
+        "iPhone9,4"
+      ]
     }
   ]
 }

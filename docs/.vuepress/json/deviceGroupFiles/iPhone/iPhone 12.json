@@ -8,7 +8,7 @@
     "iPhone13,3",
     "iPhone13,4"
   ],
-  "subgroups": {
+  "subgroups": [
     {
       "name": "iPhone 12",
       "type": "iPhone",
@@ -33,5 +33,5 @@
       "order": 3,
       "devices": [ "iPhone13,4" ]
     }
-  }
+  ]
 }
