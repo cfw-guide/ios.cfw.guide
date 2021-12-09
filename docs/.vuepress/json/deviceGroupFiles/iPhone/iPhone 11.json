@@ -6,5 +6,25 @@
     "iPhone12,1",
     "iPhone12,3",
     "iPhone12,5"
+  ],
+  "subgroups": [
+    {
+      "name": "iPhone 11",
+      "type": "iPhone",
+      "order": 0,
+      "devices": [ "iPhone12,1" ]
+    },
+    {
+      "name": "iPhone 11 Pro",
+      "type": "iPhone",
+      "order": 1,
+      "devices": [ "iPhone12,3" ]
+    },
+    {
+      "name": "iPhone 11 Pro Max",
+      "type": "iPhone",
+      "order": 2,
+      "devices": [ "iPhone12,5" ]
+    }
   ]
 }

@@ -7,5 +7,25 @@
     "iPhone10,2",
     "iPhone10,4",
     "iPhone10,5"
+  ],
+  "subgroups": [
+    {
+      "name": "iPhone 8",
+      "type": "iPhone",
+      "order": 0,
+      "devices": [
+        "iPhone10,1",
+        "iPhone10,4",
+      ]
+    },
+    {
+      "name": "iPhone 8 Plus",
+      "type": "iPhone",
+      "order": 1,
+      "devices": [
+        "iPhone10,2",
+        "iPhone10,5"
+      ]
+    }
   ]
 }
