@@ -11,6 +11,44 @@ extra_contributors:
   - raizo
 ---
 
+## Bootloops and respring loops
+
+### Respring Loops
+
+A respring loop is a symptom of an incompatible tweak(s), causing the device to be stuck in resprings while in a jailbroken state. 
+
+While there is no easy way to diagnose what causes a respring loop, the most likely culprit is your most recently installed/updated tweak being incompatible with your iOS version or another tweak.
+
+#### Semi-untethered jailbreaks
+
+:::tip
+A semi-untethered jailbreak is a jailbreak that needs an app or website in order to jailbreak after a reboot.
+:::
+
+In order to escape the respring loop, [force reboot your device](#How-to-exit-dfu-mode). Once you've booted back up, use your jailbreak of choice and disable tweak injection from the jailbreak settings. Once you've jailbroken, you should be able to access your package manager and remove your most recent tweak or your last tweak setting change that may have caused the respring loop. 
+
+In a worst case scenario, where you cannot diagnose or fix the issue, ask for support in the [r/jailbreak discord server](https://discord.gg/jb) or restore rootFS.
+
+#### Untethered jailbreaks
+
+:::tip
+A untethered jailbreak is a jailbreak that persists after a reboot
+:::
+
+A respring loop on an untethered jailbreak is very easy to confuse with a bootloop, since even restarting your device will keep you in the respring loop.
+
+In order to escape a potential respring loop, you must [forcefully reboot](#How-to-exit-dfu-mode) your device and hold Volume Up, as the timing varies depending on jailbreaks, your best bet is to hold Volume Up until you've booted into iOS. 
+
+Even after you've attempted to do this multiple times, you may find that you cannot boot into iOS while holding volume up; you may be in a [bootloop](#Bootloops). 
+
+### Bootloops
+
+A bootloop is an unrecoverable error caused by either corrupted system files or a hardware failure. While much rarer in modern iOS versions, it is still possible to bootloop your device through accidental or intentional means. 
+
+A bootloop can be diagnosed by looking for a constant re-occuring Apple logo, even after you've forcefully rebooted your device. 
+
+In order to escape from a bootloop, you must DFU restore your device. 
+
 ## How to enter DFU mode
 
 #### For devices with a real home button (iPhone 6s and below):
