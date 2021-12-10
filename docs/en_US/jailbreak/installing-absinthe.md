@@ -21,6 +21,8 @@ Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
   - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
   - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 
+![A screenshot of Absinthe (Windows)](/assets/images/absinthe-win.png)
+
 ## Installing the application
 
 1. Unzip Absinthe

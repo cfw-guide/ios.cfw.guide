@@ -10,6 +10,8 @@ redirect_from:
   - /jailbreakme-star
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
+extra_contributors:
+  - KawaiiZenbo
 ---
 
 JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to iOS 4.0.1 except for the iPad 1st Generation on iPhone OS 3.2.2.
