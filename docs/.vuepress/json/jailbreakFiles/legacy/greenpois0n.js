@@ -1,6 +1,6 @@
 module.exports = {
   name: "greenpois0n",
-  alias: ["greenpoison", "greenp0ison", "greenp0is0n"],
+  alias: ["greenpoison", "greenpois0n", "greenp0is0n"],
   priority: 1,
   info: {
     website: {
@@ -15,8 +15,8 @@ module.exports = {
     },
     guide: [
       {
-        name: "Installing GreenP0ison",
-        url: "/installing-greenp0ison/",
+        name: "Installing greenpois0n",
+        url: "/installing-greenpois0n/",
         pkgman: "cydia",
       }
     ],
