@@ -5,5 +5,19 @@
   "devices": [
     "iPhone7,1",
     "iPhone7,2"
+  ],
+  "subgroups": [
+    {
+      "name": "iPhone 6",
+      "type": "iPhone",
+      "order": 0,
+      "devices": [ "iPhone7,2" ]
+    },
+    {
+      "name": "iPhone 6 Plus",
+      "type": "iPhone",
+      "order": 1,
+      "devices": [ "iPhone7,2" ]
+    }
   ]
 }

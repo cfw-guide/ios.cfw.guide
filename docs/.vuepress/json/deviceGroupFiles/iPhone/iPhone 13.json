@@ -1,11 +1,37 @@
 {
   "name": "iPhone 13",
   "type": "iPhone",
-  "order": 18,
+  "order": 19,
   "devices": [
     "iPhone14,2",
     "iPhone14,3",
     "iPhone14,4",
     "iPhone14,5"
+  ],
+  "subgroups": [
+    {
+      "name": "iPhone 13",
+      "type": "iPhone",
+      "order": 0,
+      "devices": [ "iPhone14,5" ]
+    },
+    {
+      "name": "iPhone 13 mini",
+      "type": "iPhone",
+      "order": 1,
+      "devices": [ "iPhone14,4" ]
+    },
+    {
+      "name": "iPhone 13 Pro",
+      "type": "iPhone",
+      "order": 2,
+      "devices": [ "iPhone14,2" ]
+    },
+    {
+      "name": "iPhone 13 Pro Max",
+      "type": "iPhone",
+      "order": 3,
+      "devices": [ "iPhone14,3" ]
+    }
   ]
 }

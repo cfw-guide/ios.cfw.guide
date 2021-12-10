@@ -15,7 +15,7 @@ module.exports = {
     },
     latestVer: "1.5.3",
     color: "#ffffff",
-    icon: "/assets/images/evasi0n.png",
+    icon: "/assets/images/jb-icons/evasi0n.png",
     type: "Untethered",
     firmwares: ["6.0","6.1.2"]
   },

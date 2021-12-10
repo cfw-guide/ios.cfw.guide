@@ -91,7 +91,7 @@ module.exports = {
     ],
     latestVer: "7.0.2",
     color: "#111111",
-    icon: "/assets/images/unc0ver.png",
+    icon: "/assets/images/jb-icons/unc0ver.png",
     notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
