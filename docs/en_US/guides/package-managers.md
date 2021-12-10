@@ -15,11 +15,11 @@ After jailbreaking, you may be wondering what a package manager is, and why it's
 
 ## What is a package manager?
 
-Package managers are in some ways like an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Most jailbreaks come pre-packaged with a package manager called Cydia.
+Package managers are APT frontends, or more simply, an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Different jailbreaks come bundled with different package managers by default, but the most popular is Cydia.
 
 ### Sileo
 
-Sileo is a relatively new Package Manager maintained by [Amy](https://twitter.com/elihwyma). It's used to download and install jailbreak tweaks, similar to package managers listed below. Sileo prides itself with its superior performance, modern design, and general QOL improvements.
+[Sileo](https://getsileo.app/) is a Package Manager maintained by [Amy](https://twitter.com/elihwyma) for iOS 11 and above. Sileo prides itself on its Swift-based design, fast performance, and general QOL improvements, such as proper iPad support.
 
 Sileo is installed by default on Electra, Chimera, Odyssey, Taurine, and Odysseyra1n. Sileo is also downloadable through checkra1n as well as unc0ver on iOS 12.0 and higher.
 
@@ -27,20 +27,21 @@ URL: [`https://getsileo.app/`](https://getsileo.app/)
 
 ### Cydia
 
-Cydia has been around almost as long as jailbreaking iOS devices has. It's the package manager that's historically been at the front of every jailbreak, however has since been abandoned by its creator. It now recieves very scarce updates, and due to its age and traditional style, it may not appeal to newer users as much as a package manager like Sileo might do, and suffers from a lot of "Quality of Life" issues.
+Cydia is a package manager that has long been considered the face of jailbreaking, being the package manager of choice for most jailbreaks. [Saurik](https://twitter.com/saurik), the original creator of Cydia, has stopped maintaining the project, but in recent years [Sam Bingner](https://twitter.com/sbingner) has updated the software for modern devices and iOS versions.
 
-Cydia is included by default using unc0ver and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
+Cydia is included by default in unc0ver, checkra1n and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
 
 ### Installer 5
 
-Installer is an even older package manager than Cydia, however the newest release features an updated modern design with dozens of customization options available to choose from.
+Installer, developed by Nullriver Software was among the very first package managers available for iOS, being the package manager of choice during the earlier years of iOS jailbreaking. After the release of iPhone OS 2, the software was broken and Cydia overtook it as the most used package manager.
 
-If you don't like Sileo, but still want a modern design, this is a great choice.
+After many revival attempts over the years, Installer 5 was finally released to the public in 2019 by the AppTapp Team. It features an updated modern design with dozens of customization options available to choose from.
 
 URL: [`https://apptapp.me/repo/`](https://apptapp.me/repo/)
 
 ### Zebra
 
-Zebra is the newest of the bunch, and provides a snappier experience on older devices. It's able to refresh sources far quicker than Cydia, which it takes its design inspiration from. The design may not be as flashy as some of the other managers in this list, but it's a great alternative for ageing hardware.
+Zebra is a more recent package manager, providing support for iOS 9 and above. It is open source, and features a much more familar user interface for Cydia users compared to other package managers. 
+
 
 URL: [`https://getzbra.com/`](https://getzbra.com/)

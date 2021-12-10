@@ -13,7 +13,7 @@ module.exports = {
       external: true
     },
     color: "#e5c67c",
-    icon: "/assets/images/totallynotspyware.png",
+    icon: "/assets/images/jb-icons/totallynotspyware.png",
     type: "(Safari) Semi-untethered",
     firmwares: ["10.0","10.3.3"]
   },

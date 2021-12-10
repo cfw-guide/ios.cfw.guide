@@ -28,7 +28,7 @@ module.exports = {
     ],
     latestVer: "RC6",
     color: "#ffffff",
-    icon: "/assets/images/evasi0n.png",
+    icon: "/assets/images/jb-icons/evasi0n.png",
     type: "Semi-untethered",
     firmwares: ["10.0","10.3.4"]
   },

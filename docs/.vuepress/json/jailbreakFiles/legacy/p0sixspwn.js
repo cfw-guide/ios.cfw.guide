@@ -28,7 +28,7 @@ module.exports = {
     ],
     latestVer: "1.0.8",
     color: "#c4c5cc",
-    icon: "/assets/images/p0sixspwn.png",
+    icon: "/assets/images/jb-icons/p0sixspwn.png",
     type: "Untethered",
     firmwares: ["6.1.3","6.1.6"]
   },

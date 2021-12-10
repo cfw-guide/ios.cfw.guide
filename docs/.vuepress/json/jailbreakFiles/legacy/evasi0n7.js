@@ -22,7 +22,7 @@ module.exports = {
     ],
     latestVer: "1.0.8",
     color: "#ffffff",
-    icon: "/assets/images/evasi0n.png",
+    icon: "/assets/images/jb-icons/evasi0n.png",
     type: "Untethered",
     firmwares: ["7.0","7.0.6"]
   },

@@ -40,7 +40,7 @@ module.exports = {
     ],
     latestVer: "v6",
     color: "#000000",
-    icon: "/assets/images/phoenix.png",
+    icon: "/assets/images/jb-icons/phoenix.png",
     type: "Semi-untethered",
     firmwares: ["9.3.5","9.3.6"]
   },

@@ -31,7 +31,7 @@ module.exports = {
     ],
     latestVer: "1.6.4",
     color: "#deeded",
-    icon: "/assets/images/chimera.png",
+    icon: "/assets/images/jb-icons/chimera.png",
     notes: "A12 support is only available on iOS 12.0 - 12.1.2.",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
