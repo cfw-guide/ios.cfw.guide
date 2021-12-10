@@ -27,6 +27,8 @@ P0sixspwn is an [untethered](/types-of-jailbreak/#untethered-jailbreaks) jailbre
   - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
   - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 
+![A screenshot of P0sixspwn (Windows)](/assets/images/p0sixspwn-win.png)
+
 ## Installing the application
 
 1. Unzip P0sixspwn

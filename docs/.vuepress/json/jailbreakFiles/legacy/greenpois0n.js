@@ -13,8 +13,15 @@ module.exports = {
       url: "https://www.theiphonewiki.com/wiki/Greenpois0n_(jailbreak)",
       external: true
     },
+    guide: [
+      {
+        name: "Installing GreenP0ison",
+        url: "/installing-greenp0ison/",
+        pkgman: "cydia",
+      }
+    ],
     type: "Untethered",
-    firmwares: ["4.1","4.2.6"],
+    firmwares: ["4.1", "4.2.6"],
     notes: "Also compatible with iPhoneOS 3.2.2"
   },
   compatibility: [
@@ -37,6 +44,7 @@ module.exports = {
     },
     {
       firmwares: [
+        "8B117", // 4.1
         "8C148a", // 4.2.1, iPhone 3GS only
       ],
       devices: [
@@ -44,4 +52,4 @@ module.exports = {
       ]
     }
   ]
-}
+};
