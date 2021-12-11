@@ -16,7 +16,7 @@ greenpois0n is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">u
 ## Downloads
 
 - Computer running macOS 10.11.X or older or Windows XP - 8.1. Wine will not work.
-- [Green](https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/)
+- [greenpois0n](https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/)
   - Choose RC6.1 if on iOS 4.2.1 or 4.2.6
   - Choose RC4 if on iOS 4.1
 - iTunes version 10.7 if on Windows
