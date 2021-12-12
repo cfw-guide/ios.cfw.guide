@@ -8,7 +8,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["3.1.2","6.1.3"]
+    firmwares: ["3.1.2","6.1.3"],
+    latestVer: "2.9.14",
+    color: "#b9e8fb",
+    icon: "/assets/images/jb-icons/sn0wbreeze.png",
   },
   compatibility: [
     {

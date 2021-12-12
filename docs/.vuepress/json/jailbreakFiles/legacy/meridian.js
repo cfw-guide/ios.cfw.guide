@@ -26,7 +26,10 @@ module.exports = {
       }
     ],
     type: "Semi-untethered",
-    firmwares: ["10.0","10.3.3"]
+    firmwares: ["10.0","10.3.3"],
+    latestVer: "0.9-007",
+    color: "#077a9e",
+    icon: "/assets/images/jb-icons/meridian.png",
   },
   compatibility: [
     {

@@ -15,7 +15,10 @@ module.exports = {
       }
     ],
     type: "Untethered",
-    firmwares: ["8.4.1"]
+    firmwares: ["8.4.1"],
+    latestVer: "1.2.1",
+    color: "#f6b0f6",
+    icon: "/assets/images/jb-icons/daibutsu.png",
   },
   compatibility: [
     {

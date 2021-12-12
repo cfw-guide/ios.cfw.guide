@@ -9,7 +9,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["1.0","1.1.5"]
+    firmwares: ["1.0","1.1.5"],
+    latestVer: "1.3.0.113 (Windows)\n1.6_RC3 (OS X)",
+    color: "#ffffff",
+    icon: "/assets/images/jb-icons/iliberty.png",
   },
   compatibility: [
     {
