@@ -2,7 +2,6 @@ const deviceChartStr = themeLocale.chart.deviceChart;
 function getDeviceArr(typeArr) {
   var deviceArr = [];
   for (const i in typeArr) {
-    if (JSON.stringify(typeArr) == '["iPad","mini","Pro","Air"]') console.log(typeArr[i])
     deviceArr.push([]);
     for (const d in deviceGroups) {
       if (deviceGroups[d].type == 'iPad') {
