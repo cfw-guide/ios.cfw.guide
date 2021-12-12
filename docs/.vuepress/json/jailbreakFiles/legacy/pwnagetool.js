@@ -10,6 +10,9 @@ module.exports = {
     type: "Untethered",
     firmwares: ["4.0","5.1.1"],
     notes: "Also supports iPhoneOS 1.1.4 and iPhoneOS 2.0 to 2.2.1",
+    latestVer: "5.1.1",
+    color: "#d0cfd1",
+    icon: "/assets/images/jb-icons/pwnagetool.png",
   },
   compatibility: [
     {

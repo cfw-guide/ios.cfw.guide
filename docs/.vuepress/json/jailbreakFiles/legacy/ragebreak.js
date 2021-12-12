@@ -10,6 +10,9 @@ module.exports = {
     firmwares: ["7.0","7.0.5"],
     soc: "A4",
     notes: "Only supports iPhone 4",
+    latestVer: "121",
+    color: "#0794f7",
+    icon: "/assets/images/jb-icons/ragebreak.png",
   },
   compatibility: [
     {

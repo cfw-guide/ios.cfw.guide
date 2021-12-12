@@ -9,6 +9,9 @@ module.exports = {
     type: "Untethered",
     firmwares: "2.2.1",
     notes: "Only supports iPod touch (2nd generation)",
+    latestVer: "1.0",
+    color: "#dc5f60",
+    icon: "/assets/images/jb-icons/redtool.png",
   },
   compatibility: [
     {

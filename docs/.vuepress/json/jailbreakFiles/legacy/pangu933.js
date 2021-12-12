@@ -20,7 +20,10 @@ module.exports = {
       }
     ],
     type: "Semi-untethered",
-    firmwares: ["9.2","9.3.3"]
+    firmwares: ["9.2","9.3.3"],
+    latestVer: "1.3.2 (Windows)\n1.1.1 (macOS)\n1.0.0 (Apple TV 4)",
+    color: "#ffffff",
+    icon: "/assets/images/jb-icons/pangu9.png",
   },
   compatibility: [
     {

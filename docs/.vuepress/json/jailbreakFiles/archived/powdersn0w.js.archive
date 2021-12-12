@@ -11,6 +11,9 @@ module.exports = {
     firmwares: ["9.3.5","9.3.6"],
     soc: "A5, A6",
     notes: "Only supports specific devices, also supports 9.0.2",
+    latestVer: "2.0b3",
+    color: "#f6b0f6",
+    icon: "/assets/images/jb-icons/powdersn0w.png",
   },
   compatibility: [
     {

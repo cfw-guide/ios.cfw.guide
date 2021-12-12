@@ -7,7 +7,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["3.1.2","3.2"]
+    firmwares: ["3.1.2","3.2"],
+    latestVer: "1.0",
+    color: "#c3cae8",
+    icon: "/assets/images/jb-icons/spirit.png",
   },
   compatibility: [
     {

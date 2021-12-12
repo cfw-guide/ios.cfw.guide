@@ -12,7 +12,10 @@ module.exports = {
       external: true
     },
     type: "Semi-untethered",
-    firmwares: ["10.0.1","10.2"]
+    firmwares: ["10.0.1","10.2"],
+    latestVer: "yalu102",
+    color: "#4b4b4b",
+    icon: "/assets/images/jb-icons/yalu.png",
   },
   compatibility: [
     {

@@ -7,7 +7,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["2.0","2.2.1"]
+    firmwares: ["2.0","2.2.1"],
+    latestVer: "3.0 Beta 3",
+    color: "#dc5f60",
+    icon: "/assets/images/jb-icons/quickpwn.png",
   },
   compatibility: [
     {

@@ -12,5 +12,10 @@ module.exports = {
       url: "https://www.theiphonewiki.com/wiki/Saïgon",
       external: true
     },
+    latestVer: "Beta 3",
+    color: "#3c3b3c",
+    icon: "/assets/images/jb-icons/saigon.png",
+    type: "Semi-untethered",
+    firmwares: "10.2.1",
   },
 }

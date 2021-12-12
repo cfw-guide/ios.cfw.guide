@@ -14,7 +14,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["3.2.2","4.2.1"]
+    firmwares: ["3.2.2","4.2.1"],
+    latestVer: "RC1b",
+    color: "#bcdfa4",
+    icon: "/assets/images/jb-icons/limera1n.png",
   },
   compatibility: [
     {

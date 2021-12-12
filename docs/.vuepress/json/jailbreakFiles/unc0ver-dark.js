@@ -10,6 +10,8 @@ module.exports = {
     type: "Semi-untethered",
     firmwares: ["11.0","12.1.2"],
     latestVer: "1.2.3",
+    color: "#000000",
+    icon: "/assets/images/jb-icons/unc0ver-dark.png",
   },
   compatibility: [
     {

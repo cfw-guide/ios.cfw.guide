@@ -8,7 +8,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["4.2.6","5.1.1"]
+    firmwares: ["4.2.6","5.1.1"],
+    latestVer: "1.0",
+    color: "#ed9121",
+    icon: "/assets/images/jb-icons/unthredeh4il.png",
   },
   compatibility: [
     {

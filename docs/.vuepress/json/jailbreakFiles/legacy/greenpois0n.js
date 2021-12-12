@@ -22,7 +22,10 @@ module.exports = {
     ],
     type: "Untethered",
     firmwares: ["4.1", "4.2.6"],
-    notes: "Also compatible with iPhoneOS 3.2.2"
+    notes: "Also compatible with iPhoneOS 3.2.2",
+    latestVer: "RC6",
+    color: "#5f7d5d",
+    icon: "/assets/images/jb-icons/greenpois0n.png",
   },
   compatibility: [
     {
