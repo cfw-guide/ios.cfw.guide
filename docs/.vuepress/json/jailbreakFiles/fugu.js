@@ -13,7 +13,8 @@ module.exports = {
     },
     type: "Semi-untethered",
     firmwares: ["13.0","13.5"],
-    soc: "A10, A10X"
+    soc: "A10, A10X",
+    latestVer: "0.4",
   },
   compatibility: [
     {

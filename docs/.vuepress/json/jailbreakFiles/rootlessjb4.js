@@ -7,7 +7,8 @@ module.exports = {
       external: true
     },
     type: "Semi-untethered",
-    firmwares: ["12.0","12.1.2"]
+    firmwares: ["12.0","12.1.2"],
+    latestVer: "2.1",
   },
   compatibility: [
     {

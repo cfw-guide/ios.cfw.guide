@@ -8,7 +8,7 @@ module.exports = {
       external: true
     },
     type: "Semi-untethered",
-    firmwares: ["11.0","11.4.1"]
+    firmwares: ["11.0","11.1.2"]
   },
   compatibility: [
     {
@@ -40,47 +40,6 @@ module.exports = {
         "15B101", // 11.1, iPad Pro (12.9-inch) (2nd generation) and iPad Pro (10.5-inch) only
         "15B150", // 11.1.1
         "15B202", // 11.1.2
-        "15C5092b", // 11.2 beta
-        "15C5097d", // 11.2 beta 2
-        "15C5107a", // 11.2 beta 3
-        "15C5110b", // 11.2 beta 4
-        "15C5111a", // 11.2 beta 5
-        "15C114-GM", // 11.2 beta 6
-        "15C114", // 11.2
-        "15C153", // 11.2.1
-        "15C202", // 11.2.2
-        "15D5037e", // 11.2.5 beta
-        "15D5046b", // 11.2.5 beta 2
-        "15D5049a", // 11.2.5 beta 3
-        "15D5054a", // 11.2.5 beta 4
-        "15D5057a", // 11.2.5 beta 5
-        "15D5059a", // 11.2.5 beta 6
-        "15D60-GM", // 11.2.5 beta 7
-        "15D60", // 11.2.5
-        "15D100", // 11.2.6
-        "15E5167f", // 11.3 beta
-        "15E5178f", // 11.3 beta 2
-        "15E5189f", // 11.3 beta 3
-        "15E5201e", // 11.3 beta 4
-        "15E5211a", // 11.3 beta 5
-        "15E5216a", // 11.3 beta 6
-        "15E216", // 11.3
-        "15E218", // 11.3, iPad (6th generation) Wifi + Cellular only
-        "15E302", // 11.3.1
-        "15F5037c", // 11.4 beta
-        "15F5049c", // 11.4 beta 2
-        "15F5061d", // 11.4 beta 3
-        "15F5061e", // 11.4 beta 3
-        "15F5071a", // 11.4 beta 4
-        "15F5077a", // 11.4 beta 5
-        "15F5079a", // 11.4 beta 6
-        "15F79", // 11.4
-        "15G5054c", // 11.4.1 beta
-        "15G5063b", // 11.4.1 beta 2
-        "15G5072a", // 11.4.1 beta 3
-        "15G5074a", // 11.4.1 beta 4
-        "15G5077a", // 11.4.1 beta 5
-        "15G77", // 11.4.1
       ],
       devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
