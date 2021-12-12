@@ -81,7 +81,4 @@ module.exports = {
       }
     }
   },
-  
-	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
-	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
 }
