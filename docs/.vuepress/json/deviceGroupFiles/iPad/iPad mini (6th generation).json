@@ -1,6 +1,7 @@
 {
   "name": "iPad mini (6th generation)",
-  "type": "mini",
+  "type": "iPad",
+	"subtype": "mini",
   "order": 5,
   "devices": [
     "iPad14,1",

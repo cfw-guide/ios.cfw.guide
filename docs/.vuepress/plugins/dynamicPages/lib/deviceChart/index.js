@@ -15,8 +15,8 @@ page.push({
 })
 
 // Device listing
-var types = [['iPhone'], ['iPad','mini','Pro','Air'], ['iPod'], ['TV'], ['Watch']]
-types = [[...types[0],...types[1],...types[2],...types[3],...types[4]]].concat(types);
+var types = ['iPhone', 'iPad', 'iPod', 'TV', 'Watch']
+types = [types].concat(types.map(t => [t]));
 const title = ['',' (iPhone)',' (iPad)',' (iPod)',' (Apple TV)',' (Apple Watch)'];
 const description = ['device','iPhone','iPad','iPod','Apple TV','Apple Watch'];
 const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html', '/AppleTV.html', '/AppleWatch.html']

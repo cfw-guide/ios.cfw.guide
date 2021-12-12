@@ -1,6 +1,7 @@
 {
   "name": "iPad (5th generation)",
   "type": "iPad",
+  "subtype": "iPad",
   "order": 4,
   "devices": [
     "iPad6,11",

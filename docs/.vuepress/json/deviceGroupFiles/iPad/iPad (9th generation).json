@@ -1,6 +1,7 @@
 {
   "name": "iPad (9th generation)",
   "type": "iPad",
+  "subtype": "iPad",
   "order": 8,
   "devices": [
     "iPad12,1",
