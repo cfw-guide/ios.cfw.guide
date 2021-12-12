@@ -1,6 +1,7 @@
 {
   "name": "iPad 2",
   "type": "iPad",
+  "subtype": "iPad",
   "order": 1,
   "devices": [
     "iPad2,1",

@@ -1,6 +1,7 @@
 {
   "name": "iPad mini 4",
-  "type": "mini",
+  "type": "iPad",
+	"subtype": "mini",
   "order": 3,
   "devices": [
     "iPad5,1",

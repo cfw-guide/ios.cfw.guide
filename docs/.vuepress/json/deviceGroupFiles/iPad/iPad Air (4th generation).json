@@ -1,6 +1,7 @@
 {
   "name": "iPad Air (4th generation)",
-  "type": "Air",
+  "type": "iPad",
+  "subtype": "Air",
   "order": 3,
   "devices": [
     "iPad13,1",
