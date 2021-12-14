@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Updating to 14.7.1 (Blobless)
-description: Guide on updating to 14.7.1 without any blobs.
-permalink: /updating-to-14-7-1-(blobless)
+title: Updating to 14.8 (Blobless)
+description: Guide on updating to 14.8 without any blobs.
+permalink: /updating-to-14-8-(blobless)
 redirect_from:
   - /updating-to-14-3-(blobless)
   - /updating-to-14-4-(blobless)
@@ -11,22 +11,23 @@ redirect_from:
   - /updating-to-14-5-(blobless)
   - /updating-to-14-6-(blobless)
   - /updating-to-14-7-(blobless)
+  - /updating-to-14-7-1-(blobless)
 
 ---
 
 ## Required Reading
 
-While iOS firmware version 14.7.1 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on December 11th, 2021**.
+While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on December 19th, 2021**.
 
 ::: danger
 
-Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.7.1.
+Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8.
 
 :::
 
 ::: warning
 
-A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.7.1. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.8. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 :::
 
@@ -47,20 +48,20 @@ You need a pre-existing jailbreak installed to use this method.
 1. Your device should now be in supervision mode
     - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
-1. After installing the profile, 14.7.1 should show up in the Settings app as an update
+1. After installing the profile, 14.8 should show up in the Settings app as an update
 1. Restart your device
 1. Open your current jailbreak and enable restoring rootFS
     - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
-## Updating to 14.7.1
+## Updating to 14.8
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-    - Ensure that the version you are updating to is 14.7.1
+    - Ensure that the version you are updating to is 14.8
 1. Download and install the update
-1. Once updated, remove the 14.7.1 update certificate through Settings
+1. Once updated, remove the 14.8 update certificate through Settings
 
 ## Troubleshooting
 

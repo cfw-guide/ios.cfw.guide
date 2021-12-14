@@ -34,8 +34,8 @@ permalink: /site-navigation
 + <router-link to="/using-sileo">Using Sileo</router-link>
 + <router-link to="/blocking-updates">Blocking Updates</router-link>
 + <router-link to="/futurerestore">FutureRestore</router-link>
-+ <router-link to="/updating-to-15-1">Updating to 15.1</router-link>
-+ <router-link to="/updating-to-14-7-1-(blobless)">Updating to 14.7.1 (Blobless)</router-link>
++ <router-link to="/updating-to-15-2">Updating to 15.2</router-link>
++ <router-link to="/updating-to-14-8-(blobless)">Updating to 14.8 (Blobless)</router-link>
 + <router-link to="/updating-to-14-8.1">Updating to 14.8.1</router-link>
 + <router-link to="/updating-to-12-5-4-(blobless)">Updating to 12.5.4 (Blobless)</router-link>
 + <router-link to="/updating-to-12-5-5">Updating to 12.5.5</router-link>
