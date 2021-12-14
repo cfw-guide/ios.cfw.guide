@@ -11,6 +11,7 @@ function redirects() {
     
     const f = pages[i].frontmatter;
     if (!f.hasOwnProperty('redirect_from')) continue;
+    if (f.redirect_from == null) continue
     redObj.redirect = pages[i].path
     
     if (Array.isArray(f.redirect_from)) {
