@@ -12,6 +12,8 @@ module.exports = {
     adTagOne: 'waldo-tag-8541',
     adTagTwo: 'waldo-tag-8542',
     selectLanguageText: '<i class="fas fa-globe"/>',
+    logo: '/assets/images/logo.png',
+    logoDark: '/assets/images/logo_dark.png',
     locales: themeConfigLocales,
   },
 
