@@ -1,6 +1,7 @@
 {
   "name": "iPad Pro (9.7-inch)",
-  "type": "Pro",
+  "type": "iPad",
+	"subtype": "Pro",
   "order": 1,
   "devices": [
     "iPad6,3",

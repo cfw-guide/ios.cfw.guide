@@ -1,10 +1,11 @@
 ---
-title: Updating to 15.1
-permalink: /updating-to-15-1
+title: Updating to 15.2
+permalink: /updating-to-15-2
 redirect_from:
   - /updating-to-15-0
   - /updating-to-15-0-1
   - /updating-to-15-0-2
+  - /updating-to-15-1
 
 ---
 
@@ -31,10 +32,10 @@ Only follow this if you've installed update blocking in the past.
     - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to {% include latestfw %}
+## Updating to !!!include(./docs/en_US/include/latestfw)!!!
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-    - Ensure that the version you are updating to is {% include latestfw %}
+    - Ensure that the version you are updating to is !!!include(./docs/en_US/include/latestfw)!!!
 1. Download and install the update

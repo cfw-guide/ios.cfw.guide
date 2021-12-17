@@ -1,6 +1,7 @@
 {
   "name": "iPad Pro 12.9-inch (5th generation)",
-  "type": "Pro",
+  "type": "iPad",
+	"subtype": "Pro",
   "order": 8,
   "devices": [
     "iPad13,8",

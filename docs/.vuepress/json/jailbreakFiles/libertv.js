@@ -11,5 +11,6 @@ module.exports = {
       url: "https://www.theiphonewiki.com/wiki/LiberTV",
       external: true
     },
+    latestVer: "1.1",
   },
 }

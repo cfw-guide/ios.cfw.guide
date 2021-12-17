@@ -1,6 +1,7 @@
 {
   "name": "iPad (8th generation)",
   "type": "iPad",
+  "subtype": "iPad",
   "order": 7,
   "devices": [
     "iPad11,6",

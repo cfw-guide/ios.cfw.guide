@@ -9,7 +9,10 @@ module.exports = {
     },
     type: "Untethered",
     firmwares: "3.0",
-    notes: "Only supports iPhone 3GS"
+    notes: "Only supports iPhone 3GS",
+    latestVer: "RC2a",
+    color: "#9775df",
+    icon: "/assets/images/jb-icons/purplera1n.png",
   },
   compatibility: [
     {

@@ -7,7 +7,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["1.0.0","1.0.2"]
+    firmwares: ["1.0.0","1.0.2"],
+    latestVer: "20070908",
+    color: "#000000",
+    icon: "/assets/images/jb-icons/breezy.png",
   },
   compatibility: [
     {

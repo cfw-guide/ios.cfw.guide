@@ -1,11 +1,14 @@
 const deviceChartStr = themeLocale.chart.deviceChart;
-
 function getDeviceArr(typeArr) {
   var deviceArr = [];
   for (const i in typeArr) {
     deviceArr.push([]);
     for (const d in deviceGroups) {
-      if (deviceGroups[d].type == typeArr[i]) {
+      if (deviceGroups[d].type == 'iPad') {
+        if (deviceGroups[d].subtype == typeArr[i]) {
+          deviceArr[i].push(deviceGroups[d]);
+        }
+      } else if (deviceGroups[d].type == typeArr[i]) {
         deviceArr[i].push(deviceGroups[d]);
       }
     }
@@ -37,6 +40,7 @@ function getHtml(typeArr, path, toc) {
   var html = '';
   
   if (typeArr.length > 1 && toc) html += '[[toc]]\n';
+  if (typeArr.includes('iPad')) typeArr = typeArr.concat(['mini', 'Pro', 'Air'])
   
   var deviceArr = getDeviceArr(typeArr);
   var tableCount = getTableCount(typeArr, deviceArr);

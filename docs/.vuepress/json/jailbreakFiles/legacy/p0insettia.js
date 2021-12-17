@@ -11,6 +11,9 @@ module.exports = {
     firmwares: "10.3.4",
     soc: "A6",
     notes: "iPhone 5 only",
+    latestVer: "1.0 beta 1",
+    color: "#f6b0f6",
+    icon: "/assets/images/jb-icons/p0insettia.png",
   },
   compatibility: [
     {

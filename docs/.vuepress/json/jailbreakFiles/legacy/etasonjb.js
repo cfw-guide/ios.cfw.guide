@@ -1,6 +1,6 @@
 module.exports = {
   name: "etasonJB",
-  priority: 0,
+  priority: 1,
   info: {
     website: {
       name: "etasonjb.tihmstar.net",
@@ -27,6 +27,9 @@ module.exports = {
     ],
     type: "Untethered",
     firmwares: "8.4.1",
+    latestVer: "RC5",
+    color: "#2e8bec",
+    icon: "/assets/images/jb-icons/etasonjb.png",
   },
   compatibility: [
     {

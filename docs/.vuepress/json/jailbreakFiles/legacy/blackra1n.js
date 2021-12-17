@@ -3,7 +3,7 @@ module.exports = {
   alias: "blackrain",
   info: {
     website: {
-      name: "http://www.blackra1n.com/",
+      name: "blackra1n.com",
       url: "http://www.blackra1n.com",
       external: true
     },
@@ -13,7 +13,10 @@ module.exports = {
       external: true
     },
     type: "Tethered",
-    firmwares: ["3.1","3.1.3"]
+    firmwares: ["3.1","3.1.3"],
+    latestVer: "RC3",
+    color: "#000000",
+    icon: "/assets/images/jb-icons/blackra1n.png",
   },
   compatibility: [
     {
