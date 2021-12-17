@@ -76,9 +76,7 @@ In order to escape from a bootloop, you must DFU restore your device.
 1. Release the Power button but keep holding down the Volume Down button for another 5 seconds
 
 ::: warning
-
-Take note that USB-C to Lightning cables are not capable of entering DFU mode. In this case, you need to use a USB-A to Lightning cable.
-
+If you are using a USB-C to Lightning cable, you will likely run into issues. If you do run into issues, you should use a USB-A to Lightning cable to follow these steps instead.
 :::
 
 ## How to exit DFU mode
