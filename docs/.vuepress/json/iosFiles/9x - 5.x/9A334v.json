@@ -5,7 +5,7 @@
   "beta": false,
   "devices": {
     "AppleTV2,1": {
-      "ipsw": "http://appldnld.apple.com/iOS8/031-07202.20140917.tF6Fs/AppleTV2,1_6.2.1_11D258_Restore.ipsw"
+      "ipsw": "http://appldnld.apple.com/AppleTV/061-9621.20111012.Vgijx/AppleTV2,1_4.4_9A334v_Restore.ipsw"
     }
   }
 }
