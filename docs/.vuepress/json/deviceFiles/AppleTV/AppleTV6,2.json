@@ -1,8 +1,31 @@
 {
   "name": "Apple TV 4K (1st generation)",
   "identifier": "AppleTV6,2",
-  "soc": "A10X",
+  "status": "Supported",
+  "year": 2017,
+  "soc": "Apple A10X",
+  "bootrom": "3135.0.0.2.3",
+  "internal_soc": "T7000",
   "arch": "arm64",
+  "cpu_name": "Hurricane (x3) + Zephyr (x3)",
+  "cpu_cores": "6",
+  "cpu_clock": 2360,
+  "ram_amount": 3072,
+  "ram_speed": 1600,
+  "ram_type": "LPDDR4",
+  "data_width": "64-bit",
+  "l1_cache": "64K/64K",
+  "l2_cache": "8M",
+  "gpu": "PowerVR GT7600 Plus",
+  "gpu_cores": 12,
+  "gpu_clock": 1000,
+  "externaldisplay": "2160p60",
+  "connectors": "HDMI",
+  "headphone_jack": false,
+  "storage": [
+    "32GB",
+    "64GB"
+  ],
   "type": "TV",
   "model": [
     "A1842"

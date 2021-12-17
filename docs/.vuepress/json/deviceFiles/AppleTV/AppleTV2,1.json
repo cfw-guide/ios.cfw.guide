@@ -1,8 +1,30 @@
 {
   "name": "Apple TV (2nd generation)",
   "identifier": "AppleTV2,1",
-  "soc": "A4",
+  "status": "Obsolete",
+  "year": 2010,
+  "soc": "Apple A4",
+  "bootrom": "574.4",
+  "internal_soc": "S5L8930",
   "arch": "armv7",
+  "cpu_name": "ARM Cortex-A8",
+  "cpu_cores": "1",
+  "cpu_clock": 800,
+  "ram_amount": 256,
+  "ram_speed": 200,
+  "ram_type": "LPDDR",
+  "data_width": "32-bit",
+  "l1_cache": "32K/32K",
+  "l2_cache": "512K",
+  "gpu": "PowerVR SGX535",
+  "gpu_cores": 1,
+  "gpu_clock": 200,
+  "externaldisplay": "720p60",
+  "connectors": "HDMI, Optical",
+  "headphone_jack": false,
+  "storage": [
+    "8GB"
+  ],
   "type": "TV",
   "model": [
     "A1378"
