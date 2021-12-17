@@ -2,6 +2,7 @@
 lang: en_US
 title: "Site Navigation"
 permalink: /site-navigation
+sidebar: false
 ---
 
 ## Jailbreaks
