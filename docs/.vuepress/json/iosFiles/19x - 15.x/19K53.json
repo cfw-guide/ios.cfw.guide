@@ -1,0 +1,17 @@
+{
+  "version": "15.2",
+  "build": "19K53",
+  "released": "2021-12-13",
+  "beta": false,
+  "devices": {
+    "AppleTV5,3": {
+      "ipsw": "https://updates.cdn-apple.com/2021FCSWinter/fullrestores/002-42259/7287E730-2149-4393-BE1A-88EE3D032CF6/AppleTV5,3_15.2_19K53_Restore.ipsw"
+    },
+    "AppleTV6,2": {
+      "ipsw": "none"
+    },
+    "AppleTV11,1": {
+      "ipsw": "none"
+    }
+  }
+}
