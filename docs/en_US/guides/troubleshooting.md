@@ -37,7 +37,7 @@ extra_contributors:
 1. Hold down the Power button and the Volume Down button for immediately after for 5 seconds
 1. Release the Power button but keep holding down the Volume Down button for another 5 seconds
 
-::: tip
+::: warning
 
 Take note that USB-C to Lightning cables are not capable of entering DFU mode. In this case, you need to use a USB-A to Lightning cable.
 
