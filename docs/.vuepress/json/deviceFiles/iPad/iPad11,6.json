@@ -19,6 +19,7 @@
   "gpu": "Apple-designed GPU",
   "gpu_cores": 4,
   "gpu_clock": 1125,
+  "neural_cores": 8,
   "internaldisplay_x": 2160,
   "internaldisplay_y": 1620,
   "internaldisplay_ppi": 264,
