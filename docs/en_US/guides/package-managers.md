@@ -19,7 +19,7 @@ Package managers are APT frontends, or more simply, an App Store for tweaks. The
 
 ### Sileo
 
-[Sileo](https://getsileo.app/) is a Package Manager maintained by [Amy](https://twitter.com/elihwyma) for iOS 11 and above. Sileo prides itself on its Swift-based design, fast performance, and general QOL improvements over Cydia, such as proper iPad support.
+[Sileo](https://getsileo.app/) is a Package Manager maintained by [Amy](https://twitter.com/elihwyma) for iOS 11 and above. Sileo prides itself on its Swift-based design, fast performance, and general QOL improvements, such as proper iPad support.
 
 Sileo is installed by default on Electra, Chimera, Odyssey, Taurine, and Odysseyra1n. Sileo is also downloadable through checkra1n as well as unc0ver on iOS 12.0 and higher.
 
@@ -27,9 +27,7 @@ URL: [`https://getsileo.app/`](https://getsileo.app/)
 
 ### Cydia
 
-Cydia is a package manager that has long been considered the face of jailbreaking, being the package manager of choice for most jailbreaks. [Saurik](https://twitter.com/saurik), the original creator of Cydia, has stopped maintaining the project, but in recent years [Sam Bingner](https://twitter.com/sbingner) has updated the software for modern devices and iOS versions. 
-
-It now receives very scarce updates, and due to its age and traditional style, it may not appeal to newer users as much as other package managers do. Many quality of life improvements from newer package managers are not present in Cydia, due to prioritising legacy support over improvements. 
+Cydia is a package manager that has long been considered the face of jailbreaking, being the package manager of choice for most jailbreaks. [Saurik](https://twitter.com/saurik), the original creator of Cydia, has stopped maintaining the project, but in recent years [Sam Bingner](https://twitter.com/sbingner) has updated the software for modern devices and iOS versions.
 
 Cydia is included by default in unc0ver, checkra1n and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
 
