@@ -5,10 +5,10 @@
   "beta": false,
   "devices": {
     "AppleTV3,1": {
-      "ipsw": "http://updates-http.cdn-apple.com/2021/ios/001-92157-20210409-83508A08-0FA7-48CA-ADEF-FB36139BC388/AppleTV3,1_8.4.3_12H923_Restore.ipsw"
+      "ipsw": "http://updates-http.cdn-apple.com/2019/tvos/061-00124-44C62A96-A04F-4F25-8BC9-B3FF5293D347/AppleTV3,1_8.4.3_12H876_Restore.ipsw"
     },
     "AppleTV3,2": {
-      "ipsw": "http://updates-http.cdn-apple.com/2020/tvos/001-77041-20201209-B0114EE7-A0DB-4C9B-840B-F7710F961842/AppleTV3,2_8.4.3_12H914_Restore.ipsw"
+      "ipsw": "http://updates-http.cdn-apple.com/2019/tvos/061-00127-20190924-FC366B34-EB36-4943-8A0E-0A24E7815D7C/AppleTV3,2_8.4.3_12H876_Restore.ipsw"
     }
   }
 }
