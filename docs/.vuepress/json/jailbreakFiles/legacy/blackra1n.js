@@ -4,7 +4,7 @@ module.exports = {
   info: {
     website: {
       name: "http://www.blackra1n.com/",
-      url: "blackra1n.com",
+      url: "http://www.blackra1n.com",
       external: true
     },
     wiki: {
