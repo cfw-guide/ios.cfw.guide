@@ -3,8 +3,8 @@ module.exports = {
   alias: "blackrain",
   info: {
     website: {
-      name: "http://www.blackra1n.com/",
-      url: "http://www.blackra1n.com/",
+      name: "blackra1n.com",
+      url: "http://www.blackra1n.com",
       external: true
     },
     wiki: {
