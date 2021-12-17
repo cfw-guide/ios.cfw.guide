@@ -26,7 +26,7 @@ extra_contributors:
 1. Hold down both the Side button and Volume Down button.
 1. After 8 seconds, release the Side button while continuing to hold down the Volume Down button.
 
-#### For devices without a home button, iPhone 8/8+, iPad Air 5 and iPad Mini 6:
+#### For devices without a home button, iPhone 8/8+, iPad Air 3 and iPad Mini 5:
 
 1. Power on your iPhone/iPad if it's not on already
 1. Connect it to your computer with your cable
@@ -36,6 +36,12 @@ extra_contributors:
 1. Release the Power button
 1. Hold down the Power button and the Volume Down button for immediately after for 5 seconds
 1. Release the Power button but keep holding down the Volume Down button for another 5 seconds
+
+::: tip
+
+Take note that USB-C to Lightning cables are not capable of entering DFU mode. In this case, you need to use a USB-A to Lightning cable.
+
+:::
 
 ## How to exit DFU mode
 
@@ -47,7 +53,7 @@ Hold the Home button and the Lock button until the device reboots.
 
 Hold down the Side button and Volume Down button until the device reboots.
 
-#### For devices without a home button, iPhone 8/8+, iPad Air 5 and iPad Mini 6:
+#### For devices without a home button, iPhone 8/8+, iPad Air 3 and iPad Mini 5:
 
 1. Quick-press the Volume Up button 
 2. Quick-press the Volume Down button
