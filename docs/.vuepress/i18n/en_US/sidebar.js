@@ -97,11 +97,12 @@ module.exports = {
     {
       text: 'Jailbreaking',
       children: [
+        '/installing-odysseyra1n/',
+        '/using-odysseyn1x/',
+        '/installing-unc0ver-fugu14/',
         '/installing-taurine/',
         '/installing-odyssey/',
         '/installing-chimera/',
-        '/installing-odysseyra1n/',
-        '/using-odysseyn1x/',
       ],
     },
     {

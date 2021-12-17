@@ -5,7 +5,10 @@
   "beta": false,
   "devices": {
     "AppleTV5,3": {
-      "ipsw": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-21018/44074CDE-BB78-4AFB-A928-BF05CD304FF6/AppleTV5,3_14.7_18M60_Restore.ipsw"
+      "ipsw": "http://appldnld.apple.com/tvos11.3/091-45726-201803029-8EA84462-2B9E-11E8-936C-EE5C04115E15/AppleTV5,3_11.3_15L211_Restore.ipsw"
+    },
+    "AppleTV6,2": {
+      "ipsw": "none"
     }
   }
 }

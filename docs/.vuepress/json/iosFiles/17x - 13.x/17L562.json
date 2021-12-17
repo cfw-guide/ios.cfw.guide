@@ -1,11 +1,14 @@
 {
-  "version": "13.5",
+  "version": "13.4.5",
   "build": "17L562",
   "released": "2020-05-20",
   "beta": false,
   "devices": {
     "AppleTV5,3": {
-      "ipsw": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-21018/44074CDE-BB78-4AFB-A928-BF05CD304FF6/AppleTV5,3_14.7_18M60_Restore.ipsw"
+      "ipsw": "http://updates-http.cdn-apple.com/2020SpringFCS/fullrestores/061-72609/C5665D36-7FEF-415C-9AF4-7BCE5CE56BEA/AppleTV5,3_13.4.5_17L562_Restore.ipsw"
+    },
+    "AppleTV6,2": {
+      "ipsw": "none"
     }
   }
 }
