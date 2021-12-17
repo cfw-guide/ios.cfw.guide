@@ -9,6 +9,9 @@ module.exports = {
     },
     type: "Untethered",
     firmwares: ["4.3.4","5.1.1"],
+    latestVer: "1.0",
+    color: "#dc5f60",
+    icon: "/assets/images/jb-icons/unthreadera1n.png",
   },
   compatibility: [
     {

@@ -8,7 +8,10 @@ module.exports = {
     },
     type: "Untethered",
     firmwares: "2.2.1",
-    notes: "Only supports iPod touch (2nd generation)"
+    notes: "Only supports iPod touch (2nd generation)",
+    latestVer: "200Beta",
+    color: "#3c3b3c",
+    icon: "/assets/images/jb-icons/quickfreedom.png",
   },
   compatibility: [
     {

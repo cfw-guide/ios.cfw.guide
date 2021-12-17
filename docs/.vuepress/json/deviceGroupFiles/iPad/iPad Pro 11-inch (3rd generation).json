@@ -1,6 +1,7 @@
 {
   "name": "iPad Pro 11-inch (3rd generation)",
-  "type": "Pro",
+  "type": "iPad",
+	"subtype": "Pro",
   "order": 9,
   "devices": [
     "iPad13,4",

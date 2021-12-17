@@ -8,7 +8,11 @@ module.exports = {
       external: true
     },
     type: "Semi-untethered",
-    firmwares: ["10.2","10.3.3"]
+    firmwares: ["10.2","10.3.3"],
+    latestVer: "RC2",
+    color: "#8105f3",
+    icon: "/assets/images/jb-icons/g0blin.png",
+    notes: "Abandoned and superceded by doubleh3lix"
   },
   compatibility: [
     {

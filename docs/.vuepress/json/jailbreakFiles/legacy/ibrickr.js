@@ -12,7 +12,12 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["1.0","1.0.2"]
+    firmwares: ["1.0","1.0.2"],
+    type: "Semi-untethered",
+    firmwares: ["10.0","10.3.3"],
+    latestVer: "v0.91",
+    color: "#d08f74",
+    icon: "/assets/images/jb-icons/ibrickr.png",
   },
   compatibility: [
     {

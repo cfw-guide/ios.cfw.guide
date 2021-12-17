@@ -12,7 +12,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["1.0","1.1.4"]
+    firmwares: ["1.0","1.1.4"],
+    latestVer: "1.4",
+    color: "#000000",
+    icon: "/assets/images/jb-icons/independence.png",
   },
   compatibility: [
     {

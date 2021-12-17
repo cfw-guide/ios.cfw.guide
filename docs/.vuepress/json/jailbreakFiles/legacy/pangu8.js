@@ -7,7 +7,10 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: ["8.0","8.1"]
+    firmwares: ["8.0","8.1"],
+    latestVer: "1.2.1 (Windows)\n1.0.0 (macOS)",
+    color: "#ffffff",
+    icon: "/assets/images/jb-icons/pangu8.png",
   },
   compatibility: [
     {

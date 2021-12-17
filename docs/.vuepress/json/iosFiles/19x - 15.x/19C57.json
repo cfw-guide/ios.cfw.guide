@@ -1,0 +1,20 @@
+{
+  "version": "15.2",
+  "build": "19C57",
+  "released": "2021-12-13",
+  "beta": false,
+  "devices": {
+    "iPhone14,2": {
+      "ipsw": "none"
+    },
+    "iPhone14,3": {
+      "ipsw": "none"
+    },
+    "iPhone14,4": {
+      "ipsw": "none"
+    },
+    "iPhone14,5": {
+      "ipsw": "none"
+    }
+  }
+}

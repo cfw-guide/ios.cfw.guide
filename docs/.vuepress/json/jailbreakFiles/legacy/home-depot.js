@@ -1,7 +1,7 @@
 module.exports = {
   name: "Home Depot",
   alias: ["HomeDepot", "Home-Depot", "Home_Depot"],
-  priority: 1,
+  priority: 2,
   info: {
     website: {
       name: "wall.supplies",
@@ -21,8 +21,11 @@ module.exports = {
       }
     ],
     type: "Semi-untethered",
-    firmwares: ["9.1","9.3.4"],
-    notes: "Untethered through add-on package, also compatible with iOS 8.4.1"
+    firmwares: ["9.1", "9.3.4"],
+    notes: "Untethered through add-on package, also compatible with iOS 8.4.1",
+    latestVer: "1.1 beta 1",
+    color: "#ba8eb6",
+    icon: "/assets/images/jb-icons/homedepot.png",
   },
   compatibility: [
     {

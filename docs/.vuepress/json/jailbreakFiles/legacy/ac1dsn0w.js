@@ -8,7 +8,10 @@ module.exports = {
       external: true
     },
     type: "Tethered",
-    firmwares: ["5.0","5.0.1"]
+    firmwares: ["5.0","5.0.1"],
+    latestVer: "Beta 2",
+    color: "#ffffff",
+    icon: "/assets/images/jb-icons/ac1dsn0w.png",
   },
   compatibility: [
     {

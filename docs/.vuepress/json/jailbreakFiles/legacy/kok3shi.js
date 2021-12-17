@@ -22,7 +22,10 @@ module.exports = {
     ],
     type: "Semi-untethered",
     firmwares: ["9.3","9.3.5"],
-    notes: "Doesn't support A9 or A9X devices"
+    notes: "Doesn't support A9 or A9X devices",
+    latestVer: "1.0 beta 2",
+    color: "#c279a0",
+    icon: "/assets/images/jb-icons/kok3shi.png",
   },
   compatibility: [
     {

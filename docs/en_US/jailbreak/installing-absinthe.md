@@ -21,6 +21,8 @@ Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
   - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
   - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 
+![A screenshot of Absinthe (Windows)](/assets/images/absinthe-win.png)
+
 ## Installing the application
 
 1. Unzip Absinthe
@@ -34,7 +36,7 @@ Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 ::: tip
 
-Be sure to use an MFI-certified 30-pin or lightning connector for highest chances of success
+Be sure to use an MFI-certified 30-pin connector for highest chances of success
 
 :::
 

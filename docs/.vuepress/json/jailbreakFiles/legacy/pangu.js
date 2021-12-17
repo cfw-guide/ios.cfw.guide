@@ -16,7 +16,10 @@ module.exports = {
       }
     ],
     type: "Untethered",
-    firmwares: ["7.1","7.1.2"]
+    firmwares: ["7.1","7.1.2"],
+    latestVer: "1.2.1 (Windows)\n1.2.0 (macOS)",
+    color: "#ffffff",
+    icon: "/assets/images/jb-icons/pangu.png",
   },
   compatibility: [
     {
