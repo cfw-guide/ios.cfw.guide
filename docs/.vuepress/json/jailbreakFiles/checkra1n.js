@@ -106,25 +106,20 @@ module.exports = {
         "16A5365b", // 12.0 beta 11
         "16A5366a", // 12.0 beta 12
         "16A366", // 12.0
-        "16J364", // 12.0, AppleTV
         "16A404", // 12.0.1
-        "16J380", // 12.0.1, AppleTV
         "16B5059d", // 12.1 beta
         "16B5068i", // 12.1 beta 2
         "16B5077c", // 12.1 beta 3
         "16B5084a", // 12.1 beta 4
         "16B5089b", // 12.1 beta 5
         "16B92", // 12.1
-        "16J602", // 12.1, AppleTV
         "16C5036c", // 12.1.1 beta
         "16C5043b", // 12.1.1 beta 2
         "16C5050a", // 12.1.1 beta 3
         "16C50", // 12.1.1
-        "16K45", // 12.1.1, AppleTV
         "16D5024a", // 12.1.2 beta
         "16C101", // 12.1.2, iPhones only
         "16C104", // 12.1.2, iPhones only
-        "16K534", // 12.1.2, AppleTV
         "16D5032a", // 12.1.3 beta 2
         "16D5037a", // 12.1.3 beta 3
         "16D5039a", // 12.1.3 beta 4
@@ -137,8 +132,6 @@ module.exports = {
         "16E5223a", // 12.2 beta 5
         "16E5227a", // 12.2 beta 6
         "16E227", // 12.2
-        "16L226", // 12.2, AppleTV
-        "16L250", // 12.2.1, AppleTV
         "16F5117h", // 12.3 beta
         "16F5129d", // 12.3 beta 2
         "16F5139e", // 12.3 beta 3
@@ -147,7 +140,6 @@ module.exports = {
         "16F5156a", // 12.3 beta 6
         "16F156", // 12.3
         "16F8155", // 12.3, iPod touch (7th generation) only
-        "16M153", // 12.3, AppleTV
         "16F203", // 12.3.1
         "16F8202", // 12.3.1, iPod touch (7th generation) only
         "16F250", // 12.3.2
@@ -159,9 +151,7 @@ module.exports = {
         "16G5069a", // 12.4 beta 6
         "16G5077a", // 12.4 beta 7
         "16G77", // 12.4
-        "16M568", // 12.4, AppleTV
         "16G102", // 12.4.1
-        "16M600", // 12.4.1, AppleTV
         "16G114", // 12.4.2
         "16G130", // 12.4.3
         "16G140", // 12.4.4
@@ -187,7 +177,6 @@ module.exports = {
         "17A5572a", // 13.0 beta 8
         "17A577-GM", // 13.0 GM
         "17A577", // 13.0
-        "17J586", // 13.0, AppleTV
         "17A5821e", // 13.1 beta
         "17A5831c", // 13.1 beta 2
         "17A5837a", // 13.1 beta 3
@@ -203,7 +192,6 @@ module.exports = {
         "17B5077a", // 13.2 beta 3
         "17B5084a", // 13.2 beta 4
         "17B84", // 13.2
-        "17K82", // 13.2, AppleTV
         "17B102", // 13.2.2
         "17B111", // 13.2.3
         "17C5032d", // 13.3 beta
@@ -211,12 +199,10 @@ module.exports = {
         "17C5046a", // 13.3 beta 3
         "17C5053a", // 13.3 beta 4
         "17C54", // 13.3
-        "17K449", // 13.3, AppleTV
         "17D5026c", // 13.3.1 beta
         "17D5044a", // 13.3.1 beta 2
         "17D5050a", // 13.3.1 beta 3
         "17D50", // 13.3.1
-        "17K795", // 13.3.1, AppleTV
         "17E5223h", // 13.4 beta
         "17E5233g", // 13.4 beta 2
         "17E5241d", // 13.4 beta 3
@@ -224,17 +210,13 @@ module.exports = {
         "17E5255a", // 13.4 beta 5
         "17E255-GM", // 13.4 beta 6
         "17E255", // 13.4
-        "17L256", // 13.4, AppleTV
         "17E262", // 13.4.1
         "17F5034c", // 13.4.5 beta
         "17F5044d", // 13.4.5 beta 2
-        "17L570", // 13.4.6, AppleTV
-        "17M61", // 13.4.8, AppleTV
         "17F5054h", // 13.5 beta 3
         "17F5065a", // 13.5 beta 4
         "17F75-GM", // 13.5 GM
         "17F75", // 13.5
-        "17L562", // 13.5, AppleTV
         "17F80", // 13.5.1
         "17G5035d", // 13.5.5 beta
         "17G5045c", // 13.6 beta 2
@@ -254,10 +236,7 @@ module.exports = {
         "18A5373a", // 14.0 beta 8
         "18A373-GM", // 14.0 GM
         "18A373", // 14.0
-        "18J386", // 14.0, AppleTV
         "18A393", // 14.0.1
-        "18J400", // 14.0.1, AppleTV
-        "18J411", // 14.0.2, AppleTV
         "18A8395-GM", // 14.1 GM
         "18A8395", // 14.1
         "18B5052h", // 14.2 beta
@@ -267,19 +246,16 @@ module.exports = {
         "18B5083a", // 14.2 beta 4
         "18B91", // 14.2 RC
         "18B92", // 14.2
-        "18K57", // 14.2, AppleTV
         "18C5044f", // 14.3 beta
         "18C5054c", // 14.3 beta 2
         "18C5061a", // 14.3 beta 3
         "18C65", // 14.3 RC
         "18C66-RC", // 14.3 RC 2
         "18C66", // 14.3
-        "18K561", // 14.3, AppleTV
         "18D5030e", // 14.4 beta
         "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC
         "18D52", // 14.4
-        "18K802", // 14.4, AppleTV
         "18D61", // 14.4.1
         "18D70", // 14.4.2
         "18E5140j", // 14.5 beta
@@ -293,7 +269,6 @@ module.exports = {
         "18E5199a", // 14.5 beta 8
         "18E199-RC", // 14.5 RC
         "18E199", // 14.5
-        "18L204", // 14.5, AppleTV
         "18E212", // 14.5.1
         "18F5046e", // 14.6 beta
         "18F5046f", // 14.6 beta
@@ -302,7 +277,6 @@ module.exports = {
         "18F71", // 14.6 RC
         "18F72-RC", // 14.6 RC 2
         "18F72", // 14.6
-        "18L569", // 14.6, AppleTV
         "18G5023c", // 14.7 beta
         "18G5033e", // 14.7 beta 2
         "18G5042c", // 14.7 beta 3
@@ -310,10 +284,37 @@ module.exports = {
         "18G5063a", // 14.7 beta 5
         "18G68", // 14.7 RC
         "18G69", // 14.7
-        "18M60", // 14.7, AppleTV
         "18G82", // 14.7.1
         "18H17", // 14.8
         "18H107", // 14.8.1
+
+        "16J364", // 12.0, AppleTV
+        "16J380", // 12.0.1, AppleTV
+        "16J602", // 12.1, AppleTV
+        "16K45", // 12.1.1, AppleTV
+        "16K534", // 12.1.2, AppleTV
+        "16L226", // 12.2, AppleTV
+        "16L250", // 12.2.1, AppleTV
+        "16M153", // 12.3, AppleTV
+        "16M568", // 12.4, AppleTV
+        "16M600", // 12.4.1, AppleTV
+        "17J586", // 13.0, AppleTV
+        "17K82", // 13.2, AppleTV
+        "17K449", // 13.3, AppleTV
+        "17K795", // 13.3.1, AppleTV
+        "17L256", // 13.4, AppleTV
+        "17L562", // 13.4.5, AppleTV
+        "17L570", // 13.4.6, AppleTV
+        "17M61", // 13.4.8, AppleTV
+        "18J386", // 14.0, AppleTV
+        "18J400", // 14.0.1, AppleTV
+        "18J411", // 14.0.2, AppleTV
+        "18K57", // 14.2, AppleTV
+        "18K561", // 14.3, AppleTV
+        "18K802", // 14.4, AppleTV
+        "18L204", // 14.5, AppleTV
+        "18L569", // 14.6, AppleTV
+        "18M60", // 14.7, AppleTV
       ],
       devices: [
         "iPhone6,1", // iPhone 5s (GSM), A7
@@ -362,6 +363,7 @@ module.exports = {
         "iPad7,12", // iPad (7th generation) Wi-Fi + Cellular, A10
         "iPod7,1", // iPod touch (6th generation), A8
         "iPod9,1", // iPod touch (7th generation), A10
+
         "AppleTV5,3", // Apple TV HD (4th generation), A8
         "AppleTV6,2", // Apple TV 4K (1st generation), A10X
       ]
