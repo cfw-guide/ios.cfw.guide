@@ -29,8 +29,8 @@ module.exports = {
 				componentsDir: path.resolve(__dirname, './components')
 			}
 		],
-    //require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
-    //require('./plugins/redirectPlugin/lib/'),
+    require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
+    require('./plugins/redirectPlugin/lib/'),
 	],
   
   head: [
