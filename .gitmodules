@@ -1,0 +1,3 @@
+[submodule "docs/.vuepress/vuepress-theme"]
+	path = docs/.vuepress/vuepress-theme
+	url = https://github.com/cfw-guide/vuepress-theme
