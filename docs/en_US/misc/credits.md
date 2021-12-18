@@ -49,7 +49,7 @@ permalink: /credits
     </div>
     <div class="user">
       <h3>MasterOfMike</h3>
-      <a class="social-icon" href="https://twitter.com/TheNameOfMike" target="_blank">
+      <a class="social-icon" href="https://twitter.com/MasterMike88" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>
       <a class="social-icon" href="https://github.com/TheMasterOfMike" target="_blank">
