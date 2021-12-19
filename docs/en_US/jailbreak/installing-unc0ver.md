@@ -22,6 +22,12 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
+::: tip
+
+If you are looking for the guide on how to use unc0ver on A12+ devices on firmware versions 14.4 to 14.5.1, continue to <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
+
+:::
+
 ::: warning
 
 If you are already jailbroken with another jailbreak, make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
