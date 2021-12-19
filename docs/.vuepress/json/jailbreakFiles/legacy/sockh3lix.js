@@ -13,6 +13,12 @@ module.exports = {
         name: "Installing sockH3lix",
         url: "/installing-sockh3lix/",
         pkgman: "cydia",
+        updateLink: [
+          {
+            text: 'Updating to 10.3.4',
+            link: '/updating-to-10-3-4/'
+          }
+        ],
       }
     ],
     latestVer: "1.4",

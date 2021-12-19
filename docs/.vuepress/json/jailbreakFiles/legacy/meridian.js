@@ -17,12 +17,6 @@ module.exports = {
         name: "Using Meridian",
         url: "/using-meridian/",
         pkgman: "cydia",
-        updateLink: [
-          {
-            text: 'Updating to 10.3.3',
-            link: '/updating-to-10-3-3/'
-          }
-        ],
       }
     ],
     type: "Semi-untethered",

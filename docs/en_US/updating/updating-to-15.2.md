@@ -1,4 +1,5 @@
 ---
+lang: en_US
 title: Updating to 15.2
 permalink: /updating-to-15-2
 redirect_from:

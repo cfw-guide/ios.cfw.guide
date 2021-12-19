@@ -18,12 +18,6 @@ module.exports = {
         name: "Installing h3lix",
         url: "/installing-h3lix/",
         pkgman: "cydia",
-        updateLink: [
-          {
-            text: 'Updating to 10.3.4',
-            link: '/updating-to-10-3-4/'
-          }
-        ],
       }
     ],
     latestVer: "RC6",

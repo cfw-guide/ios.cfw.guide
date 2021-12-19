@@ -25,7 +25,7 @@ module.exports = {
     {
       firmwares: [
         "11D167", // 7.1
-        "11D169", // 7.1, iPhone 4 (GSM) and iPhone (GSM, 2012) only
+        "11D169", // 7.1, iPhone 4 (GSM) and iPhone 4 (GSM, 2012) only
         "11D201", // 7.1.1
         "11D257", // 7.1.2
       ],

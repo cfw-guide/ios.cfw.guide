@@ -14,6 +14,7 @@ extra_contributors:
 ---
 ## Notes
 If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15 and are on an A12+ device, you will not be able to downgrade, as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.
+
 ## Requirements
 
 - Blobs saved for the version you want to restore to

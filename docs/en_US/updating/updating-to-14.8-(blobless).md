@@ -2,22 +2,13 @@
 lang: en_US
 title: Updating to 14.8 (Blobless)
 description: Guide on updating to 14.8 without any blobs.
-permalink: /updating-to-14-8-(blobless)
+permalink: /updating-to-14-8-(blobless-alternate)
 redirect_from:
-  - /updating-to-14-3-(blobless)
-  - /updating-to-14-4-(blobless)
-  - /updating-to-14-4-1-(blobless)
-  - /updating-to-14-4-2-(blobless)
-  - /updating-to-14-5-(blobless)
-  - /updating-to-14-6-(blobless)
-  - /updating-to-14-7-(blobless)
-  - /updating-to-14-7-1-(blobless)
-
 ---
 
 ## Required Reading
 
-While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on December 19th, 2021**.
+While iOS firmware version 14.8 is unsigned, it's still possible to update to it from firmware versions 14.5 to 14.7.1 and use Odysseyra1n. However, this method will **expire on January 24th, 2021**.
 
 ::: danger
 

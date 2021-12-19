@@ -6,7 +6,7 @@ permalink: /updating-to-9-3-6
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware versions 9.0 to 9.0.2 on 32-bit devices. However devices such as the iPhone 4S, can update to 9.3.6 and use the Phœnix jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware versions 8.1.1 to 8.4 on 32-bit devices. However, some devices, such as the iPhone 4S, can update to 9.3.6 and use the Phœnix jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 9.3.6, we can easily update to the desired firmware version, due to the age of the devices.
 

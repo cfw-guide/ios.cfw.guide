@@ -1,15 +1,16 @@
 ---
 lang: en_US
-title: Updating to 15.0 (Blobless)
-description: Guide on updating to 15.0 without any blobs.
-permalink: /updating-to-15-0-(blobless)
+title: Updating to 15.0.2 (Blobless)
+description: Guide on updating to 15.0.2 without any blobs.
+permalink: /updating-to-15-0-2-(blobless)
 redirect_from:
+  - /updating-to-15-0-(blobless)
 
 ---
 
 ## Required Reading
 
-While iOS firmware version 15.0 is unsigned, it's still possible to update to it from a lower firmware version and wait for a jailbreak. However, this method will **expire on December 30th, 2021**.
+While iOS firmware version 15.0.2 is unsigned, it's still possible to update to it from a lower firmware version and wait for a jailbreak. However, this method will **expire on January 23rd, 2022**.
 
 ::: tip
 
@@ -28,20 +29,20 @@ You need a pre-existing jailbreak installed to use this method.
 1. Your device should now be in supervision mode
     - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
-1. After installing the profile, 15.0 should show up in the Settings app as an update
+1. After installing the profile, 15.0.2 should show up in the Settings app as an update
 1. Restart your device
 1. Open your current jailbreak and enable restoring rootFS
     - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
-## Updating to 15.0
+## Updating to 15.0.2
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-    - Ensure that the version you are updating to is 15.0
+    - Ensure that the version you are updating to is 15.0.2
 1. Download and install the update
-1. Once updated, remove the 15.0 update certificate through Settings
+1. Once updated, remove the 15.0.2 update certificate through Settings
 
 ## Troubleshooting
 

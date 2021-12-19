@@ -3,7 +3,8 @@ lang: en_US
 title: Updating to 12.5.4 (Blobless)
 description: Guide on updating to 12.5.4 without any blobs.
 permalink: /updating-to-12-5-4-(blobless)
-redirect_from: /updating-to-12-5-4
+redirect_from:
+  - /updating-to-12-5-4
 ---
 
 ## Required Reading
