@@ -22,6 +22,7 @@ sidebar: false
 + <router-link to="/installing-phoenix">Installing Phœnix</router-link>
 + <router-link to="/installing-pangu933">Installing Pangu9</router-link>
 + <router-link to="/installing-homedepot">Installing HomeDepot</router-link>
++ <router-link to="/installing-daibutsu">Installing daibutsu</router-link>
 + <router-link to="/installing-etasonjb">Installing EtasonJB</router-link>
 + <router-link to="/installing-pangu7">Installing Pangu7</router-link>
 + <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
