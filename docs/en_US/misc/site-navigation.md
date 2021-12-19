@@ -45,7 +45,7 @@ sidebar: false
 + <router-link to="/resigning-apps">Resigning Apps</router-link>
 + <router-link to="/using-cydia">Using Cydia</router-link>
 + <router-link to="/using-coolbooter">Using Coolbooter</router-link>
-+ <router-link to="/futurerestore-help">FutureRestore</router-link>
++ <router-link to="/futurerestore-help">FutureRestore Help</router-link>
 
 ## 'Updating' Pages
 
