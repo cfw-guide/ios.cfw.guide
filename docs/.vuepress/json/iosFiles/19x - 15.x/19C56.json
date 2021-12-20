@@ -1,8 +1,8 @@
 {
-  "version": "15.2 RC",
+  "version": "15.2",
   "build": "19C56",
-  "released": "2021-12-07",
-  "beta": true,
+  "released": "2021-12-13",
+  "beta": false,
   "devices": {
     "iPad11,1": {
       "ipsw": "none"
@@ -206,18 +206,6 @@
       "ipsw": "none"
     },
     "iPhone13,4": {
-      "ipsw": "none"
-    },
-    "iPhone14,2": {
-      "ipsw": "none"
-    },
-    "iPhone14,3": {
-      "ipsw": "none"
-    },
-    "iPhone14,4": {
-      "ipsw": "none"
-    },
-    "iPhone14,5": {
       "ipsw": "none"
     },
     "iPhone8,1": {
