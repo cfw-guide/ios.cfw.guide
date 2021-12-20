@@ -1,0 +1,23 @@
+{
+    "name": "HomePod mini",
+    "identifier": "AudioAccessory5,1",
+    "status": "Supported",
+    "year": 2020,
+    "soc": "Apple S5",
+    "bootrom": "3988.0.0.2.12",
+    "internal_soc": "T8006",
+    "arch": "arm64",
+    "cpu_cores": 2,
+    "data_width": "64-bit",
+    "internaldisplay_x": 340,
+    "internaldisplay_y": 272,
+    "internaldisplay_type": "LED Matrix",
+    "connectors": "Internal",
+    "headphone_jack": false,
+    "storage": [
+      "16GB"
+    ],
+    "model": [
+      "A2374"
+    ]
+  }
