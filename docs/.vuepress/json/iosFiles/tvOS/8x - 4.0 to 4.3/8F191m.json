@@ -1,0 +1,12 @@
+{
+  "version": "4.2",
+  "iosVersion": "4.3",
+  "build": "8F191m",
+  "released": "2011-03-07",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/061-9584.20110308.Cxdew/AppleTV2,1_4.3_8F191m_Restore.ipsw"
+    }
+  }
+}

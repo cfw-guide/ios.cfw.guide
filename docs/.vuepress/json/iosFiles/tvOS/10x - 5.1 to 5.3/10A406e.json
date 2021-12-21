@@ -1,0 +1,15 @@
+{
+  "version": "5.1",
+  "iosVersion": "6.0",
+  "build": "10A406e",
+  "released": "2012-09-21",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-0803.20120924.LOop5/AppleTV2,1_5.1_10A406e_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-4043.20120924.ClUd5/AppleTV3,1_5.1_10A406e_Restore.ipsw"
+    }
+  }
+}

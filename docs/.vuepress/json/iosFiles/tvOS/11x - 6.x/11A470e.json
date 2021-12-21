@@ -1,0 +1,18 @@
+{
+  "version": "6.0",
+  "iosVersion": "7.0.1",
+  "build": "11A470e",
+  "released": "2013-09-20",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/031-0397.20130919.4ovPq/AppleTV2,1_6.0_11A470e_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/031-0405.20130919.DgLvd/AppleTV3,1_6.0_11A470e_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/031-0406.20130919.AZNiA/AppleTV3,2_6.0_11A470e_Restore.ipsw"
+    }
+  }
+}

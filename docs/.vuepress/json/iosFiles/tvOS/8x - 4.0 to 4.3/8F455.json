@@ -1,0 +1,12 @@
+{
+  "version": "4.3",
+  "iosVersion": "4.3",
+  "build": "8F455",
+  "released": "2011-07-28",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-0895.20110728.TcF4T/AppleTV2,1_4.3_8F455_Restore.ipsw"
+    }
+  }
+}

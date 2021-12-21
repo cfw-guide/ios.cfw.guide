@@ -1,0 +1,15 @@
+{
+  "version": "7.7",
+  "iosVersion": "8.4.6",
+  "build": "12H923",
+  "released": "2021-04-26",
+  "beta": false,
+  "devices": {
+    "AppleTV3,1": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021/ios/001-92157-20210409-83508A08-0FA7-48CA-ADEF-FB36139BC388/AppleTV3,1_8.4.3_12H923_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://updates-http.cdn-apple.com/2021/ios/001-92170-20210409-DF2D0CCF-9F04-4AD1-852F-574A99C21B5C/AppleTV3,2_8.4.3_12H923_Restore.ipsw"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "7.2",
+  "iosVersion": "8.3",
+  "build": "12F69-TV",
+  "released": "2015-04-08",
+  "beta": false,
+  "devices": {
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.3/031-14765-20150408-4298A52C-D8B7-11E4-83B8-C61A90F2D2C2/AppleTV3,1_7.1_12F69_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.3/031-14801-20150408-42992F42-D8B7-11E4-9F0A-CE1A90F2D2C2/AppleTV3,2_7.1_12F69_Restore.ipsw"
+    }
+  }
+}
