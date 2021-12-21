@@ -6,7 +6,7 @@ permalink: /installing-homedepot
 redirect_from:
   - /homedepot
   - /hd
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
 pkgman: cydia
 extra_contributors:
   - TheHacker894
