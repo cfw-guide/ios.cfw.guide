@@ -8,7 +8,7 @@ redirect_from:
   - /updating-to-12-5-1
   - /updating-to-12-5-2
   - /updating-to-12-5-3
-
+  - /updating-to-12-5-4
 ---
 
 ## Required Reading
