@@ -34,6 +34,12 @@ If you are already jailbroken with another jailbreak, make sure to properly <rou
 
 :::
 
+::: warning
+
+unc0ver on 14.6 to 14.8 only supports A12 and A13 iPhone's.
+
+:::
+
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
@@ -42,7 +48,7 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The 5.3.1 version of [unc0ver](https://unc0ver.dev/downloads/5.3.1/72004596b31ba3eae886ac6cc781725879d3b7a4/unc0ver_5.3.1.ipa)
   - Users on firmware versions 12.4.9 - 12.5.4, 13.5.1 - 14.3 should download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa) instead
-  - Users on firmware version 12.5.5 should download the latest version of [unc0ver](https://unc0ver.dev) instead
+  - Users on firmware version 12.5.5 or using A12 or A13 iPhone's on 14.6 to 14.8 should download the latest version of [unc0ver](https://unc0ver.dev) instead
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 

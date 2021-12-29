@@ -15,7 +15,7 @@ module.exports = {
     },
     guide: [
       {
-        text: "Guide (11.0 to 14.3)",
+        text: "Guide (11.0 to 14.8)",
         name: "Installing unc0ver",
         url: "/installing-unc0ver/",
         pkgman: "cydia",
@@ -89,10 +89,10 @@ module.exports = {
         ],
       },
     ],
-    latestVer: "7.0.2",
+    latestVer: "8.0.0",
     color: "#111111",
     icon: "/assets/images/jb-icons/unc0ver.png",
-    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices",
+    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices and iOS 14.6 to 14.8 support only available on A12 and A13 iPhone's",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
     firmwares: ["11.0","14.5.1"]
@@ -429,6 +429,12 @@ module.exports = {
     },
     {
       firmwares: [
+        "18C5044f", // 14.3 beta
+        "18C5054c", // 14.3 beta 2
+        "18C5061a", // 14.3 beta 3
+        "18C65", // 14.3 RC
+        "18C66-RC", // 14.3 RC 2
+        "18C66", // 14.3
         "18D5030e", // 14.4 beta
         "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC

@@ -17,11 +17,11 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n. However, this method will **expire on January 9th, 2022**.
+While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 9th, 2022**.
 
 ::: danger
 
-Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8.
+Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, and unc0ver only supports A12 and A13 iPhone's on 14.8.
 
 :::
 
@@ -65,7 +65,7 @@ You need a pre-existing jailbreak installed to use this method.
 
 ## Troubleshooting
 
-If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to <router-link to="/installing-odysseyra1n">installing Odysseyra1n</router-link>.
+If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to either <router-link to="/installing-odysseyra1n">installing Odysseyra1n</router-link> or <router-link to="/installing-unc0ver">installing unc0ver</router-link>.
 
 ### "iOS is up to date"
 
