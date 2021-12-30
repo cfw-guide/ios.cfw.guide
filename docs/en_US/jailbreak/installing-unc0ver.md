@@ -36,7 +36,7 @@ If you are already jailbroken with another jailbreak, make sure to properly <rou
 
 ::: warning
 
-unc0ver on 14.6 to 14.8 only supports A12 and A13 iPhone's.
+unc0ver on firmware versions 14.6 to 14.8 only supports A12 and A13 iPhone's.
 
 :::
 

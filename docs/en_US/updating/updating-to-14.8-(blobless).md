@@ -21,7 +21,7 @@ While iOS firmware version 14.8 is unsigned, it's still possible to update to it
 
 ::: danger
 
-Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, and unc0ver only supports A12 and A13 iPhone's on 14.8.
+Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, and unc0ver only supports A12 and A13 iPhone's on iOS 14.8.
 
 :::
 
@@ -50,7 +50,7 @@ You need a pre-existing jailbreak installed to use this method.
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
 1. After installing the profile, 14.8 should show up in the Settings app as an update
 1. Restart your device
-1. Open your current jailbreak and enable restoring rootFS
+1. Open your current jailbreak and enable `Restore RootFS`
     - This will remove all tweaks and other jailbreak related data
 1. Tap the button to jailbreak your device
 
@@ -65,7 +65,7 @@ You need a pre-existing jailbreak installed to use this method.
 
 ## Troubleshooting
 
-If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to either <router-link to="/installing-odysseyra1n">installing Odysseyra1n</router-link> or <router-link to="/installing-unc0ver">installing unc0ver</router-link>.
+If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to either <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> or <router-link to="/installing-unc0ver">Installing unc0ver</router-link>.
 
 ### "iOS is up to date"
 
