@@ -52,6 +52,7 @@ sidebar: false
 + <router-link to="/updating-to-15-2">Updating to 15.2</router-link>
 + <router-link to="/updating-to-14-8-(blobless)">Updating to 14.8 (Blobless)</router-link>
 + <router-link to="/updating-to-12-5-5">Updating to 12.5.5</router-link>
++ <router-link to="/updating-to-12-5-4-(blobless)">Updating to 12.5.4 (Blobless)</router-link>
 + <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 + <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>
 + <router-link to="/updating-to-9-3-6">Updating to 9.3.6</router-link>

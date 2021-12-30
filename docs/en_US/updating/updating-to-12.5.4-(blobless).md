@@ -8,7 +8,7 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 12.5.4 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on December 21st, 2021**.
+While iOS firmware version 12.5.4 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on January 9th, 2021**.
 
 ::: danger
 
