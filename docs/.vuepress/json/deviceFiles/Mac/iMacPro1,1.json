@@ -1,0 +1,10 @@
+{
+  "name": "iMac Pro (2017)",
+  "identifier": "iMacPro1,1",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A1862"
+  ]
+}

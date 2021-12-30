@@ -28,7 +28,7 @@
   "internaldisplay_type": "Retina",
   "externaldisplay": "3160p60",
   "connectors": "Internal, HDMI, USB-C",
-  "headphone_jack": false,
+  "headphone_jack": true,
   "storage": [
     "256GB",
     "512GB",

@@ -28,7 +28,7 @@
   "internaldisplay_type": "Liquid Retina XDR",
   "externaldisplay": "3x3160p60 + 1x2160p60",
   "connectors": "Internal, HDMI, USB-C",
-  "headphone_jack": false,
+  "headphone_jack": true,
   "storage": [
     "512GB",
     "1024GB",

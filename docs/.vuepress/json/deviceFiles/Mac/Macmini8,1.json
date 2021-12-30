@@ -1,0 +1,10 @@
+{
+  "name": "Mac mini (2018)",
+  "identifier": "Macmini8,1",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A1993"
+  ]
+}

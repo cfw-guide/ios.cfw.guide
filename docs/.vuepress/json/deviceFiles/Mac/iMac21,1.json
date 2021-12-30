@@ -1,0 +1,42 @@
+{
+  "name": "iMac (24-inch, M1, 2021)",
+  "identifier": "iMac21,1",
+  "status": "Supported",
+  "year": 2021,
+  "soc": "Apple M1",
+  "bootrom": "5540.0.0.400.2",
+  "internal_soc": "T8103",
+  "arch": "arm64e",
+  "cpu_name": "Firestorm (x4) + Icestorm (x4)",
+  "cpu_cores": 8,
+  "cpu_clock": 3200,
+  "ram_amount": 8192,
+  "ram_speed": 4266,
+  "ram_type": "LPDDR4X",
+  "data_width": "64-bit",
+  "l1_cache": "192K/128K",
+  "l2_cache": "12M",
+  "slc_cache": "16M",
+  "gpu": "Apple-designed GPU",
+  "gpu_cores": 8,
+  "gpu_clock": 1278,
+  "neural_cores": 16,
+  "internaldisplay_x": 4480,
+  "internaldisplay_y": 2520,
+  "internaldisplay_ppi": 218,
+  "internaldisplay_size": 13.3,
+  "internaldisplay_type": "Retina 4.5K",
+  "externaldisplay": "3160p60",
+  "connectors": "Internal, HDMI, USB-C",
+  "headphone_jack": true,
+  "storage": [
+    "256GB",
+    "512GB",
+    "1024GB",
+    "2048GB"
+  ],
+  "type": "Mac",
+  "model": [
+    "A2438"
+  ]
+}

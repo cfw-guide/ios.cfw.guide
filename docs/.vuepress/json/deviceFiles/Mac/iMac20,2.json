@@ -1,0 +1,10 @@
+{
+  "name": "iMac (Retina 5K, 27-inch, 2020)",
+  "identifier": "iMac20,2",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A2115"
+  ]
+}

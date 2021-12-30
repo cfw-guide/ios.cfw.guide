@@ -1,0 +1,10 @@
+{
+  "name": "MacBook Air (Retina, 13-inch, 2018)",
+  "identifier": "MacBookAir8,1",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A1932"
+  ]
+}
