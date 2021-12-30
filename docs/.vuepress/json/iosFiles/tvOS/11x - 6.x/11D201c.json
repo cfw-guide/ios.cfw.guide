@@ -1,0 +1,18 @@
+{
+  "version": "6.1.1",
+  "iosVersion": "7.1.1",
+  "build": "11D201c",
+  "released": "2014-04-22",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-01311.20140422.EaugX/AppleTV2,1_6.1.1_11D201c_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-01429.20140422.xMMUT/AppleTV3,1_6.1.1_11D201c_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-01465.20140422.a3J6p/AppleTV3,2_6.1.1_11D201c_Restore.ipsw"
+    }
+  }
+}

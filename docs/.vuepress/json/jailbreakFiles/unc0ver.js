@@ -15,13 +15,13 @@ module.exports = {
     },
     guide: [
       {
-        text: "Guide (11.0 to 14.3)",
+        text: "Guide (11.0 to 14.3/14.6 to 14.8)",
         name: "Installing unc0ver",
         url: "/installing-unc0ver/",
         pkgman: "cydia",
       },
       {
-        text: "Guide (14.4 to 14.5.1)",
+        text: "Guide (14.3 to 14.5.1)",
         name: "Installing unc0ver (Fugu14)",
         url: "/installing-unc0ver-fugu14/",
         pkgman: "cydia",
@@ -89,13 +89,13 @@ module.exports = {
         ],
       },
     ],
-    latestVer: "7.0.2",
+    latestVer: "8.0.1",
     color: "#111111",
     icon: "/assets/images/jb-icons/unc0ver.png",
-    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices",
+    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices and iOS 14.6 to 14.8 support only available on A12 and A13 iPhone's",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
-    firmwares: ["11.0","14.5.1"]
+    firmwares: ["11.0","14.8"]
   },
   compatibility: [
     {
@@ -429,6 +429,12 @@ module.exports = {
     },
     {
       firmwares: [
+        "18C5044f", // 14.3 beta
+        "18C5054c", // 14.3 beta 2
+        "18C5061a", // 14.3 beta 3
+        "18C65", // 14.3 RC
+        "18C66-RC", // 14.3 RC 2
+        "18C66", // 14.3
         "18D5030e", // 14.4 beta
         "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC
@@ -491,5 +497,35 @@ module.exports = {
         "iPad13,11", // iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular (China mainland), M1
       ]
     },
+    {
+      firmwares: [
+        "18F5046f", // 14.6 beta
+        "18F5055b", // 14.6 beta 2
+        "18F5065a", // 14.6 beta 3
+        "18F71", // 14.6 RC
+        "18F72-RC", // 14.6 RC 2
+        "18F72", // 14.6
+        "18G5023c", // 14.7 beta
+        "18G5033e", // 14.7 beta 2
+        "18G5042c", // 14.7 beta 3
+        "18G5052d", // 14.7 beta 4
+        "18G5063a", // 14.7 beta 5
+        "18G68", // 14.7 RC
+        "18G69", // 14.7
+        "18G82", // 14.7.1
+        "18H17", // 14.8
+        
+    ],
+      devices: [
+        "iPhone11,2", // iPhone XS, A12
+        "iPhone11,4", // iPhone XS Max (China mainland), A12
+        "iPhone11,6", // iPhone XS Max, A12
+        "iPhone11,8", // iPhone XR, A12
+        "iPhone12,1", // iPhone 11, A13
+        "iPhone12,3", // iPhone 11 Pro, A13
+        "iPhone12,5", // iPhone 11 Pro Max, A13
+        "iPhone12,8", // iPhone SE (2nd generation), A13
+      ]
+    }
   ]
 }

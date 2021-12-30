@@ -17,12 +17,6 @@ module.exports = {
         name: "Installing EtasonJB",
         url: "/installing-etasonjb/",
         pkgman: "cydia",
-        updateLink: [
-          {
-            text: 'Updating to 8.4.1',
-            link: '/updating-to-8-4-1/'
-          },
-        ],
       }
     ],
     type: "Untethered",

@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "@vuepress/bundler-vite": "^2.0.0-beta.27",
+        "@vuepress/bundler-vite": "2.0.0-beta.27",
         "yarn": "^1.22.17"
     },
     "name": "ios.cfw.guide",
@@ -10,12 +10,12 @@
     "author": "emiyl <me@emiyl.com>",
     "license": "MIT",
     "devDependencies": {
-        "@vue/component-compiler-utils": "^3.3.0",
-        "@vuepress/plugin-register-components": "^2.0.0-beta.27",
-        "@vuepress/plugin-search": "^2.0.0-beta.26",
-        "@vuepress/shared-utils": "^1.8.2",
+        "@vue/component-compiler-utils": "3.3.0",
+        "@vuepress/plugin-register-components": "2.0.0-beta.27",
+        "@vuepress/plugin-search": "2.0.0-beta.27",
+        "@vuepress/shared-utils": "1.8.2",
         "markdown-it-include": "^2.0.0",
-        "vuepress": "^2.0.0-beta.26"
+        "vuepress": "2.0.0-beta.27"
     },
     "scripts": {
         "docs:dev": "vuepress dev docs",

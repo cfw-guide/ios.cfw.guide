@@ -18,6 +18,12 @@ module.exports = {
   compatibility: [
     {
       firmwares: [
+        "18C5044f", // 14.3 beta
+        "18C5054c", // 14.3 beta 2
+        "18C5061a", // 14.3 beta 3
+        "18C65", // 14.3 RC
+        "18C66-RC", // 14.3 RC 2
+        "18C66", // 14.3
         "18D5030e", // 14.4 beta
         "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC

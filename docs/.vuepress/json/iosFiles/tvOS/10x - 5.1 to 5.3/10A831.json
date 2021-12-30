@@ -1,0 +1,15 @@
+{
+  "version": "5.1.1",
+  "iosVsersion": "6.0.1",
+  "build": "10A831",
+  "released": "2012-11-26",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-7275.20121128.qw234/AppleTV2,1_5.1.1_10A831_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-7274.20121228.Avt45/AppleTV3,1_5.1.1_10A831_Restore.ipsw"
+    }
+  }
+}

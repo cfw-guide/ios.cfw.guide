@@ -1,0 +1,18 @@
+{
+  "version": "5.2",
+  "iosVersion": "6.1",
+  "build": "10B144b",
+  "released": "2013-01-25",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-6474.20130128.Cnnew/AppleTV2,1_5.2_10B144b_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-5903.20130128.aswe4/AppleTV3,1_5.2_10B144b_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-6472.20130128.dUtpr/AppleTV3,2_5.2_10B144b_Restore.ipsw"
+    }
+  }
+}

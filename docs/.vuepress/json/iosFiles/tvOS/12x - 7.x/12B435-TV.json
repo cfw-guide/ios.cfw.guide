@@ -1,0 +1,15 @@
+{
+  "version": "7.0.2",
+  "iosVersion": "8.1.1",
+  "build": "12B435-TV",
+  "released": "2014-11-17",
+  "beta": false,
+  "devices": {
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1.1/031-10021.20141117.MMEwU/AppleTV3,1_7.0.2_12B435_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS8.1.1/031-10067.20141117.3p1i6/AppleTV3,2_7.0.2_12B435_Restore.ipsw"
+    }
+  }
+}

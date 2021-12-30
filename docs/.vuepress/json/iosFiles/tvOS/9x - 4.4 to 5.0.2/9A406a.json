@@ -1,0 +1,12 @@
+{
+  "version": "4.4.4",
+  "iosVersion": "5.0.1",
+  "build": "9A406a",
+  "released": "2011-12-14",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-3539.20111215.EQTW8/AppleTV2,1_4.4.4_9A406a_Restore.ipsw"
+    }
+  }
+}

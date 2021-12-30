@@ -62,8 +62,13 @@ The TSS Saver website allows you to save your device's blobs by entering in some
 A12+ users must be jailbroken to use the TSS Saver Website, as it requires grabbing the ApNonce and Generator pair. If you aren't jailbroken, follow [Saving blobs with blobsaver](#saving-blobs-with-blobsaver)
 
 ### Getting Generator and ApNonce (Jailbroken A12+ only)
-1. If you are using unc0ver on iOS 14, install libkrw
-1. If you are using Taurine on iOS 14, install libkernrw
+
+::: tip
+
+If you are using unc0ver or Taurine on iOS 14, install libkrw or libkernrw respectively.
+
+:::
+
 1. Open a Terminal app and run `sudo dimentio > dimentio.txt`
     - Alternatively, you can get your Generator and ApNonce from the Generator tab in TSS Saver App
 1. Go to /var/mobile in Filza and open dimentio.txt

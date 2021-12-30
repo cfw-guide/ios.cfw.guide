@@ -12,7 +12,7 @@ redirect_from:
 
 unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-The Fugu14 method of unc0ver supports A12+ devices on iOS 14.4 to 14.5.1
+The Fugu14 method of unc0ver supports A12+ devices on iOS 14.3 to 14.5.1
 
 We will use the AltStore tool to allow us to set everything up to be able to jailbreak.
 

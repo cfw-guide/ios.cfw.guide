@@ -10,7 +10,9 @@ Uninstalling a jailbreak isn't as simple as deleting the app. When you uninstall
 This guide is useful for people who want to install regular checkra1n or unc0ver, as it requires that Taurine is removed first, or just people who want to unjailbreak their device.
 
 :::tip
+
 If you're proceeding to installing Odysseyra1n, you do not need to follow this guide, for Taurine and Odysseyra1n are intercompatible with each other, and can both be used at the same time.
+
 :::
 
 ## Uninstalling

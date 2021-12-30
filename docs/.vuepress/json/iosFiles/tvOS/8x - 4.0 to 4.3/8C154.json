@@ -1,0 +1,12 @@
+{
+  "version": "4.1.1",
+  "iosVersion": "4.2.1",
+  "build": "8C154",
+  "released": "2010-12-13",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/061-9978.20101214.gmabr/AppleTV2,1_4.2.1_8C154_Restore.ipsw"
+    }
+  }
+}

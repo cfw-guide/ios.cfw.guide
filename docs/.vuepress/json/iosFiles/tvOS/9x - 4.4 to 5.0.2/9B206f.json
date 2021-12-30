@@ -1,0 +1,15 @@
+{
+  "version": "5.0.1",
+  "iosVersion": "5.1.1",
+  "build": "9B206f",
+  "released": "2012-05-10",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-4348.20120510.Axdep/AppleTV2,1_5.0_9B206f_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/AppleTV/041-4350.20120510.Tvfr4/AppleTV3,1_5.0_9B206f_Restore.ipsw"
+    }
+  }
+}

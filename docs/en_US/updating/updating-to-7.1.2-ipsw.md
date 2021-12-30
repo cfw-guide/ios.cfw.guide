@@ -1,6 +1,6 @@
 ---
 lang: en_US
-title: Updating to 7.1.2 using iTunes/Finder
+title: Updating to 7.1.2 (iTunes/Finder)
 permalink: /updating-to-7-1-2-ipsw
 ---
 

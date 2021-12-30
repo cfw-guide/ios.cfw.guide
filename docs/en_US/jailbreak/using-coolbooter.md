@@ -5,7 +5,7 @@ description: Guide to using Coolbooter to dualboot two different versions of iOS
 permalink: /using-coolbooter
 redirect_from:
   - /coolbooter
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
 extra_contributors:
   - TheHacker894
 ---

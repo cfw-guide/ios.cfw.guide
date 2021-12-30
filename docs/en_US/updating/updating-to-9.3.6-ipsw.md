@@ -1,6 +1,6 @@
 ---
 lang: en_US
-title: Updating to 9.3.6 using iTunes/Finder
+title: Updating to 9.3.6 (iTunes/Finder)
 permalink: /updating-to-9-3-6-ipsw
 ---
 

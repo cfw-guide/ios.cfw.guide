@@ -1,0 +1,18 @@
+{
+  "version": "6.2",
+  "iosVersion": "7.1.2",
+  "build": "11D257c",
+  "released": "2014-06-30",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-04317.20140630.2qAFy/AppleTV2,1_6.2_11D257c_Restore.ipsw"
+    },
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-04312.20140630.bTHzT/AppleTV3,1_6.2_11D257c_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/iOS7.1/031-04308.20140630.epLLm/AppleTV3,2_6.2_11D257c_Restore.ipsw"
+    }
+  }
+}

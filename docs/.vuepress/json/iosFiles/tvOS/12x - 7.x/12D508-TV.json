@@ -1,0 +1,15 @@
+{
+  "version": "7.1",
+  "iosVersion": "8.2",
+  "build": "12D508-TV",
+  "released": "2015-03-09",
+  "beta": false,
+  "devices": {
+    "AppleTV3,1": {
+      "ipsw": "http://appldnld.apple.com/ios8.2/031-06595-20150309-AEA8E822-C1FF-11E4-B722-13823780E501/AppleTV3,1_7.1_12D508_Restore.ipsw"
+    },
+    "AppleTV3,2": {
+      "ipsw": "http://appldnld.apple.com/ios8.2/031-06605-20150309-BF438052-C1FF-11E4-984E-B4823780E501/AppleTV3,2_7.1_12D508_Restore.ipsw"
+    }
+  }
+}

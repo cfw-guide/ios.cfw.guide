@@ -16,15 +16,27 @@ extra_contributors:
 
 unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
 
-The tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
+The tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.8, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
 
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
+::: tip
+
+If you are looking for the guide on how to use unc0ver on A12+ devices on firmware versions 14.4 to 14.5.1, continue to <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
+
+:::
+
 ::: warning
 
 If you are already jailbroken with another jailbreak, make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
+
+:::
+
+::: warning
+
+unc0ver on firmware versions 14.6 to 14.8 only supports A12 and A13 iPhone's.
 
 :::
 
@@ -36,7 +48,7 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The 5.3.1 version of [unc0ver](https://unc0ver.dev/downloads/5.3.1/72004596b31ba3eae886ac6cc781725879d3b7a4/unc0ver_5.3.1.ipa)
   - Users on firmware versions 12.4.9 - 12.5.4, 13.5.1 - 14.3 should download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa) instead
-  - Users on firmware version 12.5.5 should download the latest version of [unc0ver](https://unc0ver.dev) instead
+  - Users on firmware version 12.5.5 or using A12 or A13 iPhone's on 14.6 to 14.8 should download the latest version of [unc0ver](https://unc0ver.dev) instead
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
