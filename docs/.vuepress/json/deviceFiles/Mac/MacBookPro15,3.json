@@ -1,0 +1,10 @@
+{
+  "name": "MacBook Pro (15-inch, 2018-2019)",
+  "identifier": "MacBookPro15,3",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A1990"
+  ]
+}

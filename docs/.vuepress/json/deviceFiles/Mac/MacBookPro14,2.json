@@ -1,0 +1,10 @@
+{
+  "name": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+  "identifier": "MacBookPro14,2",
+  "soc": "T1",
+  "arch": "armv7",
+  "type": "Mac",
+  "model": [
+    "A1706"
+  ]
+}

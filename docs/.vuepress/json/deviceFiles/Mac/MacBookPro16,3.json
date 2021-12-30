@@ -1,0 +1,10 @@
+{
+  "name": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+  "identifier": "MacBookPro16,3",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A2289"
+  ]
+}

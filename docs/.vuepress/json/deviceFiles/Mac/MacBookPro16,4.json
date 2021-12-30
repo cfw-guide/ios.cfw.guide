@@ -1,0 +1,10 @@
+{
+  "name": "MacBook Pro (16-inch, 2019)",
+  "identifier": "MacBookPro16,4",
+  "soc": "T2",
+  "arch": "arm64",
+  "type": "Mac",
+  "model": [
+    "A2141"
+  ]
+}

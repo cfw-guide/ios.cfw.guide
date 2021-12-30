@@ -1,0 +1,43 @@
+{
+  "name": "MacBook Pro (14-inch, 2021)",
+  "identifier": "MacBookPro18,3",
+  "status": "Supported",
+  "year": 2020,
+  "soc": "Apple M1 Pro",
+  "bootrom": "5756.0.0.100.52",
+  "internal_soc": "T6000",
+  "arch": "arm64e",
+  "cpu_name": "Firestorm (x8) + Icestorm (x2)",
+  "cpu_cores": 10,
+  "cpu_clock": 3200,
+  "ram_amount": 16384,
+  "ram_speed": 6400,
+  "ram_type": "LPDDR5",
+  "data_width": "64-bit",
+  "l1_cache": "192K/128K",
+  "l2_cache": "24M",
+  "slc_cache": "32M",
+  "gpu": "Apple-designed GPU",
+  "gpu_cores": 14,
+  "gpu_clock": 1278,
+  "neural_cores": 16,
+  "internaldisplay_x": 3024,
+  "internaldisplay_y": 1964,
+  "internaldisplay_ppi": 254,
+  "internaldisplay_size": 14.2,
+  "internaldisplay_type": "Liquid Retina XDR",
+  "externaldisplay": "2x3160p60",
+  "connectors": "Internal, HDMI, USB-C",
+  "headphone_jack": false,
+  "storage": [
+    "512GB",
+    "1024GB",
+    "2048GB",
+    "4096GB",
+    "8192GB"
+  ],
+  "type": "Mac",
+  "model": [
+    "A2442"
+  ]
+}
