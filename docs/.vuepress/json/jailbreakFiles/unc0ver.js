@@ -1,7 +1,7 @@
 module.exports = {
   name: "unc0ver",
   alias: "uncover",
-  priority: 1,
+  priority: 2,
   info: {
     website: {
       name: "unc0ver.dev",
@@ -26,6 +26,12 @@ module.exports = {
         url: "/installing-unc0ver-fugu14/",
         pkgman: "cydia",
         firmwares: [
+          "18C5044f", // 14.3 beta
+          "18C5054c", // 14.3 beta 2
+          "18C5061a", // 14.3 beta 3
+          "18C65", // 14.3 RC
+          "18C66-RC", // 14.3 RC 2
+          "18C66", // 14.3
           "18D5030e", // 14.4 beta
           "18D5043d", // 14.4 beta 2
           "18D52-RC", // 14.4 RC
@@ -428,6 +434,7 @@ module.exports = {
       ]
     },
     {
+      priority: 0,
       firmwares: [
         "18C5044f", // 14.3 beta
         "18C5054c", // 14.3 beta 2

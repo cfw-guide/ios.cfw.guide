@@ -1,7 +1,7 @@
 module.exports = {
   name: "checkra1n",
   alias: ["checkrain", "odysseyra1n", "odysseyrain"],
-  priority: 2,
+  priority: 3,
   info: {
     website: {
       name: "checkra.in",
