@@ -50,9 +50,8 @@ You need a pre-existing jailbreak installed to use this method.
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
 1. After installing the profile, 14.8 should show up in the Settings app as an update
 1. Restart your device
-1. Open your current jailbreak and enable `Restore RootFS`
-    - This will remove all tweaks and other jailbreak related data
-1. Tap the button to jailbreak your device
+1. Open your current jailbreak and restore rootfs
+    - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use.
 
 ## Updating to 14.8
 
