@@ -37,10 +37,6 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
     - This will usually already be there on newer jailbreaks
 1. Download and install dimentio
 1. Download and install NewTerm2
-1. If you're on iOS 14.0 or above:
-    - Install `libkernrw` if you're using Taurine
-    - Install `libkrw` if you're using unc0ver
-    - checkra1n/odysseyra1n users don't need to install anything extra
 
 ## Setting nonce
 
