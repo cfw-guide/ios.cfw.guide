@@ -27,7 +27,7 @@ In order to use Evasi0n, you will need a Windows computer running Windows XP or 
 
 1. Extract the zip to a convenient location e.g. your Downloads folder
 2. Open the evasi0n application
-3. Plug your device into your computer and trust the computer on device when prompted
+3. Plug your device into your computer
 4. In Evasi0n, click "Jailbreak"
 5. Once your phone has rebooted once, open the Evasi0n app on your home screen as prompted by the evasi0n desktop application
 6. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
