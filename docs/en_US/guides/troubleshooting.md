@@ -160,6 +160,15 @@ If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg
 
 :::
 
+### Not being able to rejailbreak or restore rootfs in unc0ver after using tweaks such as Batchomatic or IAmLazy
+
+Being able to fix this issue if you end up in this state depends on your iOS version:
+
+- If you are on iOS versions at or below 14.3 (excluding if you're on 11.x or are A12(X) 12.1.3-12.4.1), follow another jailbreak's <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> that is supported on your device/version combination.
+- If you are on iOS versions 14.4 to 14.5.1, attempt to restore rootfs in the Fugu14 app
+- If you are either on iOS versions 14.6 to 14.8, or in the group excluded from the first group, your only options are to wait for another jailbreak, wait for an unc0ver update which fixes this issue, or to DFU Restore to the latest iOS version and lose your ability to jailbreak for the forseeable future
+
+
 ## Fixing package installation errors on Sileo
 
 For the purposes of this troubleshooting section, we are assuming you are running Sileo on Taurine/Odyssey/Odysseyra1n.

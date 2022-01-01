@@ -74,3 +74,7 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to more malware and other security issues after jailbreaking compared to if you were in a non-jailbroken state
 - Your device warranty will become void after jailbreaking until it is restored to an un-jailbroken state, which is easy to do
+
+## Should I use tweaks such as Batchomatic or IAmLazy
+
+You should **not** use these tweaks, due to the fact that they tend to cause issues and instability within your jailbreaking setup.
