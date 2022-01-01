@@ -37,7 +37,7 @@ To fix this:
 
 ## Device ApNonce doesn't match APTicket nonce
 
-This error means that you have not set your generator on your device to that of the blob. In order to solve this problem, follow the `Setting nonce` part of the <router-link to="/futurerestore-help">FutureRestore page</router-link>
+This error means that you have not set your generator on your device to that of the blob. In order to solve this problem, follow the `Setting nonce` part of the <router-link to="/futurerestore">FutureRestore page</router-link>
 
 ## SEP Firmware is not being signed
 
