@@ -10,6 +10,7 @@ redirect_from:
 extra_contributors:
   - Tanbeer191
   - TheHacker894
+  - Serena
 ---
 
 ## Help page
@@ -36,33 +37,7 @@ To fix this:
 
 ## Device ApNonce doesn't match APTicket nonce
 
-This error means that you have not set your generator on your device to that of the blob. In order to solve this problem:
-
-### Getting Started
-
-1. Open your package manager on your jailbroken iDevice
-1. Add [repo.1conan.com](https://repo.1conan.com) to your sources
-1. Add [repo.chariz.com](https://repo.chariz.com) to your sources
-    - This will usually already be there on newer jailbreaks
-1. Download and install dimentio
-1. Download and install NewTerm2
-
-### Setting nonce
-
-1. Open your blob in a text editor and search for `generator`
-![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
-   - This should be a `0x` followed by 16 characters, which will be a combination of letters and numbers.
-1. Note that value down. This is your generator.
-
-**NOTE:** If there is no generator value, try to remember which jailbreak you were using at the time of saving blobs. If you were using unc0ver, your generator is most likely `0x1111111111111111`, and if you were using Chimera/Odyssey/Taurine, your generator is most likely `0xbd34a880be0b53f3`.
-
-3. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed: `su root -c 'dimentio [generator]'`
-    
-1. When asked for a password, enter your root password
-    - By default, this is set to `alpine`
-1. Once the command executes, a lot of text should appear
-1. Near the end of the text, you should see the line `Set nonce to [generator]`
-1. Run FutureRestore again. This issue should now be resolved.
+This error means that you have not set your generator on your device to that of the blob. In order to solve this problem, follow the `Setting nonce` part of the <router-link to="/futurerestore-help">FutureRestore page</router-link>
 
 ## SEP Firmware is not being signed
 
