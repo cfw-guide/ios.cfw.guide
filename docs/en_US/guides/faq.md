@@ -71,4 +71,4 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 
 ## Should I use tweaks such as Batchomatic or IAmLazy
 
-You should **not** use these tweaks, due to the fact that they tend to cause issues and instability within your jailbreaking setup.
+You should **not** use these tweaks, due to the fact that they tend to cause issues and instability within your jailbreaking setup. Instead, if you're switching between jailbreaks or updating to a newer iOS version, make a text based tweaklist and then manually reinstall them.
