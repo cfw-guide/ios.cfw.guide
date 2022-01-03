@@ -41,8 +41,8 @@ You need a pre-existing jailbreak installed to use this method.
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
 1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repo: `https://myxxdev.github.io/`
-1. Search and install the `MyBloXX` package
+1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://sharerepo.stkc.win/?repo=https://cydia.ichitaso.com/)
+1. Search and install the `SupervisedEnabler` package
     - There are multiple version; pick the one corresponding to your current iOS version
 1. Tap `Restart Springboard`
 1. Your device should now be in supervision mode
