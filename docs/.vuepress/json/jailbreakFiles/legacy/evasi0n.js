@@ -13,6 +13,13 @@ module.exports = {
       url: "https://www.theiphonewiki.com/wiki/Evasi0n",
       external: true
     },
+    guide: [
+      {
+        name: "Installing Evasi0n6",
+        url: "/installing-evasi0n6/",
+        pkgman: "cydia",
+      }
+    ],
     latestVer: "1.5.3",
     color: "#ffffff",
     icon: "/assets/images/jb-icons/evasi0n.png",
