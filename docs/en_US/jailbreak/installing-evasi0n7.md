@@ -4,8 +4,7 @@ title: Installing Evasi0n7
 description: Guide to installing Evasi0n7
 permalink: /installing-evasi0n7
 redirect_from:
-  - /evasi0n
-  - /evasion
+  - /evasion7
   - /evasi0n7
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
 pkgman: cydia
@@ -37,7 +36,7 @@ If your device has been OTA updated to its current version of iOS 7, you may enc
 1. Open the `patched-with-ipg-link-evasi0n7.exe` file
    - If you're using a 5S/5C on 7.0, it'll be called `ONLY_5c_7.0_evasi0n7.exe`
 1. Plug your device into your computer and trust the computer on device when prompted
-1. In Evasion7, click "Jailbreak"
+1. In Evasi0n7, click "Jailbreak"
    - It may take a moment for the required files to download
 1. Once your phone has rebooted once, open the Evasi0n app on your home screen
 1. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
