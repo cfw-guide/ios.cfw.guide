@@ -18,7 +18,7 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 ## Requirements
 
 - Blobs saved for the version you want to restore to
-- a jailbroken device
+- A jailbroken device
 
 ## Downloads
 
