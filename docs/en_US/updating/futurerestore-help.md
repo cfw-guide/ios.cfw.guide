@@ -10,7 +10,6 @@ redirect_from:
 extra_contributors:
   - Tanbeer191
   - TheHacker894
-  - Serena
 ---
 
 ## Help page
