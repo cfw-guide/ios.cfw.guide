@@ -57,7 +57,7 @@ You need a pre-existing jailbreak installed to use this method.
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-    - Ensure that the version you are updating to is 14.8 **NOT 14.8.1**
+    - Ensure that the version you are updating to is 14.8
 1. Download and install the update
 1. Once updated, remove the 14.8 update certificate through Settings
 
