@@ -41,12 +41,11 @@ You need a pre-existing jailbreak installed to use this method.
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
 1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repo: `https://myxxdev.github.io/`
-1. Search and install the `MyBloXX` package
-    - There are multiple version; pick the one corresponding to your current iOS version
+1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://sharerepo.stkc.win/?repo=https://cydia.ichitaso.com/)
+1. Search and install the `SupervisedEnabler` package
 1. Tap `Restart Springboard`
 1. Your device should now be in supervision mode
-    - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
+    - You can check by going into the settings app and there should be a message at the top indicating so. If there isn't, try reinstalling `SuperviseEnabler`
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
 1. After installing the profile, 14.8 should show up in the Settings app as an update
 1. Restart your device
