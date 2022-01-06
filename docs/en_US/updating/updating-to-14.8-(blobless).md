@@ -17,7 +17,7 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 9th, 2022**.
+While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 9th, 2022** (time listed in UTC 00:00).
 
 ::: danger
 
@@ -27,7 +27,7 @@ Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, 
 
 ::: warning
 
-A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.8. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.8. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 :::
 
@@ -41,11 +41,11 @@ You need a pre-existing jailbreak installed to use this method.
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
 1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://sharerepo.stkc.win/?repo=https://cydia.ichitaso.com/)
+1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://cydia.ichitaso.com/)
 1. Search and install the `SupervisedEnabler` package
 1. Tap `Restart Springboard`
-1. Your device should now be in supervision mode
-    - You can check by going into the settings app and there should be a message at the top indicating so. If there isn't, try reinstalling `SuperviseEnabler`
+1. Your device should now be supervised
+    - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
 1. After installing the profile, 14.8 should show up in the Settings app as an update
 1. Restart your device
@@ -61,9 +61,13 @@ You need a pre-existing jailbreak installed to use this method.
 1. Download and install the update
 1. Once updated, remove the 14.8 update certificate through Settings
 
-## Troubleshooting
+::: tip
 
-If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to either <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> or <router-link to="/installing-unc0ver">Installing unc0ver</router-link>.
+If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked and you're on a compatible device, move on to either <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link> or <router-link to="/installing-unc0ver">unc0ver</router-link> (depending on your device).
+
+:::
+
+## Troubleshooting
 
 ### "iOS is up to date"
 

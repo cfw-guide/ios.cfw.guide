@@ -8,7 +8,7 @@ redirect_from:
 
 ## Required Reading
 
-While iOS firmware version 12.5.4 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on January 9th, 2021**.
+While iOS firmware version 12.5.4 is unsigned, it's still possible to update to it from a lower firmware version and use Chimera. However, this method will **expire on January 9th, 2021** (time listed in UTC 00:00).
 
 ::: danger
 
@@ -26,12 +26,11 @@ You need a pre-existing jailbreak installed to use this method.
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
 1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repo: `https://myxxdev.github.io/`
-1. Search and install the `MyBloXX` package
-    - There are multiple version; pick the one corresponding to your current iOS version
+1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://cydia.ichitaso.com/)
+1. Search and install the `SupervisedEnabler` package
 1. Tap `Restart Springboard`
-1. Your device should now be in supervision mode
-    - If it's not, go into MyBloXX settings and enable it manually by tapping "Enable Supervision Spoofing"
+1. Your device should now be supervised
+    - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into iOS, navigate to this webpage and click this link to install the [update profile](https://cdn.discordapp.com/attachments/688122358107603013/829323445200355359/90_Day_Delay.mobileconfig)
 1. After installing the profile, 12.5.4 should show up in the Settings app as an update
 1. Restart your device
@@ -47,9 +46,13 @@ You need a pre-existing jailbreak installed to use this method.
 1. Download and install the update
 1. Once updated, remove the 12.5.4 update certificate through Settings
 
-## Troubleshooting
+::: tip
 
 If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. If it worked, move on to <router-link to="/installing-chimera">Chimera</router-link>.
+
+:::
+
+## Troubleshooting
 
 ### "iOS is up to date"
 
