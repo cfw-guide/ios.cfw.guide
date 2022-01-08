@@ -39,7 +39,7 @@ By removing update blocking, you may unintentionally update to a higher firmware
 1. Open the Settings application
 1. Go to `General` -> `Profile`
   - This may also be called `Profile and Device Management`
-1. Tap on the tvOS Beta Profile
+3. Tap on the tvOS Beta Profile
 1. Tap "Remove Downloaded Profile"
 
 Your device should now be able to update again.
