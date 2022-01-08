@@ -84,7 +84,7 @@ module.exports = {
     latestVer: "8.0.2",
     color: "#111111",
     icon: "/assets/images/jb-icons/unc0ver.png",
-    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices and iOS 14.6 to 14.8 support only available on A12 and A13 iPhone's",
+    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices with Fugu14 (Betas are not supported). iOS 14.6 to 14.8 support only available on A12 and A13 iPhone's.",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
     firmwares: ["11.0","14.8"]
