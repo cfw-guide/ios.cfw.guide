@@ -17,6 +17,12 @@ redirect_from:
 
 ## Required Reading
 
+::: danger
+
+This method only works on iOS versions 14.5 to 14.7.1
+
+:::
+
 While iOS firmware version 14.8 is unsigned, it's still possible to update to it from firmware versions 14.5 to 14.7.1 and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 24th, 2022** (time listed in UTC 00:00).
 
 ::: danger
