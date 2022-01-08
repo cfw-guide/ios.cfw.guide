@@ -2,7 +2,7 @@
 lang: en_US
 title: Updating to 14.8 (Blobless)
 description: Guide on updating to 14.8 without any blobs.
-permalink: /updating-to-14-8-(blobless)
+permalink: /updating-to-14-8-(blobless-alternate)
 redirect_from:
   - /updating-to-14-3-(blobless)
   - /updating-to-14-4-(blobless)
@@ -12,16 +12,16 @@ redirect_from:
   - /updating-to-14-6-(blobless)
   - /updating-to-14-7-(blobless)
   - /updating-to-14-7-1-(blobless)
-  - /updating-to-14-8
+  - /updating-to-14-8-(blobless)
 ---
 
 ## Required Reading
 
-While iOS firmware version 14.8 is unsigned, it's still possible to update to it from a lower firmware version and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 9th, 2022** (time listed in UTC 00:00).
+While iOS firmware version 14.8 is unsigned, it's still possible to update to it from firmware versions 14.5 to 14.7.1 and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 24th, 2022** (time listed in UTC 00:00).
 
 ::: danger
 
-Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, and unc0ver only supports A12 and A13 iPhone's on iOS 14.8.
+Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, and unc0ver only supports A12 and A13 iPhone's on iOS 14.8. A special method is needed for Odysseyra1n on A9X devices, which is detailed at <router-link to="/installing-odysseyra1n-a9x">Installing Odysseyra1n (A9X)</router-link>
 
 :::
 
