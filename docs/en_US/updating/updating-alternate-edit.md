@@ -9,7 +9,7 @@ permalink: /updating-alternate-edit
 
 This guide will take you through updating to a higher, unsigned firmware version using an edited alternate update profile. These profiles are unsupported on iOS versions below 14.5, however using a jailbreak, it's possible to trick the device into thinking it's supported on any firmware version.
 
-At the time of writing, you can use this method to update to 14.8, even though it's unsigned.
+At the time of writing, you can use this method to update to 14.8, even though it's unsigned. This will expire on **January 24th, 2022** (time listed in UTC 00:00).
 
 ::: warning
 
