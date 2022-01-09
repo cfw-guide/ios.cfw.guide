@@ -44,6 +44,10 @@ module.exports = [
         link: '/blocking-jailbreak-detection/',
       },
       {
+        text: 'Updating (Blobless)',
+        link: '/updating-(blobless)/',
+      },
+      {
         text: 'FutureRestore',
         link: '/futurerestore/',
       },
