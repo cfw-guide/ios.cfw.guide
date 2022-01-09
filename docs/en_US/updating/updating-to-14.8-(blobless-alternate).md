@@ -17,15 +17,21 @@ redirect_from:
 
 ## Required Reading
 
-::: danger
+While iOS firmware version 14.8 is unsigned, it's still possible to update to it from firmware versions 14.5 to 14.7.1 and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 24th, 2022** (time listed in UTC 00:00).
 
-This method only works on iOS versions 14.5 to 14.7.1
+::: tip
+
+This method is only compatible for firmware version 14.5 to 14.7.1. If you are on an older firmware version, follow [Updating (Blobless, Alternate Edit)](/updating-alternate-edit).
 
 :::
 
-While iOS firmware version 14.8 is unsigned, it's still possible to update to it from firmware versions 14.5 to 14.7.1 and use Odysseyra1n or unc0ver (depending on your device). However, this method will **expire on January 24th, 2022** (time listed in UTC 00:00).
+::: warning
 
-::: danger
+This guide requires a jailbreak. If you don't have a jailbreak installed, navigate to [Get Started](/get-started) to install a jailbreak.
+
+:::
+
+::: warning
 
 Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, and unc0ver only supports A12 and A13 iPhone's on iOS 14.8. A special method is needed for Odysseyra1n on A9X devices, which is detailed at <router-link to="/installing-odysseyra1n-a9x">Installing Odysseyra1n (A9X)</router-link>
 
@@ -34,12 +40,6 @@ Odysseyra1n only fully supports A8(X), A9, A10(X), and A11 devices on iOS 14.8, 
 ::: warning
 
 A11 devices do not allow you to use SEP functionality in a jailbroken state with Odysseyra1n on iOS 14.8. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay.
-
-:::
-
-::: tip
-
-You need a pre-existing jailbreak installed to use this method.
 
 :::
 
@@ -56,7 +56,7 @@ You need a pre-existing jailbreak installed to use this method.
 1. After installing the profile, 14.8 should show up in the Settings app as an update
 1. Restart your device
 1. Open your current jailbreak and restore rootfs
-    - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use.
+    - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
 
 ## Updating to 14.8
 
