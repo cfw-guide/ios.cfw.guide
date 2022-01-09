@@ -34,7 +34,7 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 ::: tip
 
-You must have a jailbreak to follow these instructions. For unjailbroken users, follow [guides.stkc.win/delayota](https://guides.stkc.win/delayota/) instead.
+You must have a jailbreak to follow these instructions. For unjailbroken devices, follow [guides.stkc.win/delayota](https://guides.stkc.win/delayota/) instead.
 
 :::
 
