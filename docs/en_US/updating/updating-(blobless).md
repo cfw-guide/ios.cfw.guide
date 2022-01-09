@@ -48,7 +48,6 @@ You must have a jailbreak to follow these instructions. For unjailbroken devices
 1. Your device should now be supervised
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into your device, navigate to this webpage
-1. Tap the following link and install the [Beta Profile](https://cydia.ichitaso.com/no-ota15.mobileconfig)
 1. Tap a version below to install its respective update profile:
     - [14.8](/assets/files/delay_14_8_alternate.mobileconfig)
     - [15.0.2](/assets/files/delay_15_0_2.mobileconfig)
@@ -69,6 +68,7 @@ If you are updating to 15.0.2 or using another non-"alternative" profile, you ca
 
 :::
 
+1. Tap the following link and install the [Beta Profile](https://cydia.ichitaso.com/no-ota15.mobileconfig)
 1. Open your [package manager](/package-managers) and install the [Filza](https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp) file manager
 1. Open the Filza app and navigate to `/Library/Managed Preferences/mobile`
 1. Open the `com.apple.MobileAsset.plist` file
