@@ -39,8 +39,8 @@ This method is only useful for firmware version 14.5 and below. If you are on a 
 ## Editing the profile
 
 1. Open your [package manager](/package-managers) and install the [Filza](https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp) file manager
-1. Open the Filza app and navigate to `/Library/Managed Preferences`
-1. Open the `mobilecom.apple.MobileAsset.plist` file
+1. Open the Filza app and navigate to `/Library/Managed Preferences/mobile`
+1. Open the `com.apple.MobileAsset.plist` file
 1. Set `MobileAssetAssetAudience` to `c724cb61-e974-42d3-a911-ffd4dce11eda`
 1. Reboot your device
     - Alternatively, run `launchctl reboot userspace` in a terminal to run a userspace reboot
