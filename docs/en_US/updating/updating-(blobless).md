@@ -115,6 +115,12 @@ If the update was successful, continue to <router-link to="/get-started">Get Sta
 
 ## Troubleshooting
 
+::: tip
+
+If you needed to use OTAEnabler, and you needed to modify the Beta Profile in previous steps, you'll need to repeat that section after using OTAEnabler.
+
+:::
+
 ### "iOS is up to date"
 
 1. Remove any beta profiles installed
