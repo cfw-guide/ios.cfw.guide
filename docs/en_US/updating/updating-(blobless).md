@@ -74,10 +74,19 @@ If you are updating to 15.0.2 or using another non-"alternative" profile, you ca
 1. Open the `com.apple.MobileAsset.plist` file
 1. Set `MobileAssetAssetAudience` to `c724cb61-e974-42d3-a911-ffd4dce11eda`
 
+## Restoring rootFS
+
+1. Open the Settings application
+1. Tap `General` -> `Software Update`
+1. Ensure that the version displayed is either 14.8 or 15.0.2
+    - **Do not** update yet, we will do this later
+    - If you are installing a different firmware version, make sure that the version matches the intended version instead
+1. Open your current jailbreak and restore rootFS
+    - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
+1. Reboot your device
+
 ## Updating your firmware version
 
-1. Reboot your device
-    - Alternatively, run `launchctl reboot userspace` in a terminal to run a userspace reboot
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
