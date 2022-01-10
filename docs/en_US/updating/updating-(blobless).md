@@ -51,7 +51,8 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 1. Tap a version below to install its respective update profile:
     - [14.8](/assets/files/delay_14_8_alternate.mobileconfig)
     - [15.0.2](/assets/files/delay_15_0_2.mobileconfig)
-    - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
+
+For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
 ## Editing the profile
 
