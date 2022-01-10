@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Updating (Blobless)
+title: Updating (Blobless) (Advanced)
 description: Guide on updating to unsigned firmwares without any blobs.
 permalink: /updating-(blobless-advanced)
 extra_contributors:
