@@ -71,7 +71,7 @@ If you are updating to 15.0.2 or using another non-"alternative" profile, you ca
 1. Tap the following link and install the [Beta Profile](https://cydia.ichitaso.com/no-ota15.mobileconfig)
 1. When prompted, restart your device
 1. Re-apply your jailbreak
-1. Open your [package manager](/package-managers) and install the [Filza](https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp) file manager
+1. Open your <router-link to="/package-managers">package manager</router-link> and install the [Filza](https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp) file manager
 1. Open the Filza app and navigate to `/Library/Managed Preferences/mobile`
 1. Open the `com.apple.MobileAsset.plist` file
 1. Set `MobileAssetAssetAudience` to `c724cb61-e974-42d3-a911-ffd4dce11eda`
@@ -103,7 +103,13 @@ If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.
 
 ::: tip
 
-If the update was successful, continue to [Get Started](/get-started) to jailbreak your device.
+To remove supervision after updating, either jailbreak and then reinstall then uninstall SupervisedEnabler, or erase all content and settings and restore a backup made prior to becoming supervised.
+
+:::
+
+::: tip
+
+If the update was successful, continue to <router-link to="/get-started">Get Started</router-link> to jailbreak your device.
 
 :::
 
