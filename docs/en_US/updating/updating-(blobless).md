@@ -73,6 +73,8 @@ If you are updating to 15.0.2 or using another non-"alternative" profile, you ca
 1. Open the Filza app and navigate to `/Library/Managed Preferences/mobile`
 1. Open the `com.apple.MobileAsset.plist` file
 1. Set `MobileAssetAssetAudience` to `c724cb61-e974-42d3-a911-ffd4dce11eda`
+1. Reboot your device
+    - Alternatively, run `launchctl reboot userspace` in a terminal to run a userspace reboot
 
 ## Restoring rootFS
 
