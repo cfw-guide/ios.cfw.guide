@@ -58,13 +58,7 @@ For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://d
 
 ::: tip
 
-If you are currently on 14.5 or higher, you can skip this.
-
-:::
-
-::: tip
-
-If you are updating to 15.0.2 or using another non-"alternative" profile, you can skip this.
+If you are currently on 14.5 or higher, you are updating to 15.0.2, **or** using another non-"alternative" profile, you can skip this section.
 
 :::
 
@@ -97,7 +91,7 @@ If you are updating to 15.0.2 or using another non-"alternative" profile, you ca
 1. Ensure that the version you are updating to is either 14.8 or 15.0.2
     - If you are installing a different firmware version, make sure that the version matches the intended version instead
 1. Download and install the update
-1. Once updated, remove the update certificate and beta profile through Settings
+1. Once updated, remove the update profile and (if applicable) the beta profile through Settings
 
 If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. 
 
