@@ -21,8 +21,10 @@ While there is no easy way to diagnose what causes a respring loop, the most lik
 
 #### Semi-untethered jailbreaks
 
-:::tip
+::: tip
+
 A semi-untethered jailbreak is a jailbreak that needs an app or website in order to jailbreak after a reboot.
+
 :::
 
 In order to escape the respring loop, [force reboot your device](#How-to-exit-dfu-mode). Once you've booted back up, use your jailbreak of choice and disable tweak injection from the jailbreak settings. Once you've jailbroken, you should be able to access your package manager and remove your most recent tweak or your last tweak setting change that may have caused the respring loop. 
@@ -31,8 +33,10 @@ In a worst case scenario, where you cannot diagnose or fix the issue, ask for su
 
 #### Untethered jailbreaks
 
-:::tip
+::: tip
+
 A untethered jailbreak is a jailbreak that persists after a reboot
+
 :::
 
 A respring loop on an untethered jailbreak is very easy to confuse with a bootloop, since even restarting your device will keep you in the respring loop.
@@ -245,4 +249,5 @@ This error indicates that the developer of the tweak you are trying to install/r
 ::: tip
 
 In May 2021, Procursus attempted to migrate to a version of dpkg that no longer handles this install error, as developers should have included the `#!/bin/sh` or `#!/bin/bash` calls in their scripts. At the time of writing, the lead developer of Procursus has created a patch, `libiosexec`, that re-adds this error handling. If you still encounter this error, you may not have updated for a while.
+
 :::
