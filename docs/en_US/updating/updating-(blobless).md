@@ -51,8 +51,7 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 1. Tap a version below to install its respective update profile:
     - [14.8](/assets/files/delay_14_8_alternate.mobileconfig)
     - [15.0.2](/assets/files/delay_15_0_2.mobileconfig)
-
-For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
+    - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
 ## Editing the profile
 
@@ -76,9 +75,8 @@ If you are currently on 14.5 or higher, you are updating to 15.0.2, **or** using
 
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-1. Ensure that the version displayed is either 14.8 or 15.0.2
+1. Ensure that the version displayed is the version you are intending to update to
     - **Do not** update yet, we will do this later
-    - If you are installing a different firmware version, make sure that the version matches the intended version instead
 1. Open your current jailbreak and restore rootFS
     - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
 1. Reboot your device
@@ -88,8 +86,7 @@ If you are currently on 14.5 or higher, you are updating to 15.0.2, **or** using
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-1. Ensure that the version you are updating to is either 14.8 or 15.0.2
-    - If you are installing a different firmware version, make sure that the version matches the intended version instead
+1. Ensure that the version displayed is the version you are intending to update to
 1. Download and install the update
 1. Once updated, remove the update profile and (if applicable) the beta profile through Settings
 
