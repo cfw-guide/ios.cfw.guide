@@ -69,6 +69,8 @@ If you are updating to 15.0.2 or using another non-"alternative" profile, you ca
 :::
 
 1. Tap the following link and install the [Beta Profile](https://cydia.ichitaso.com/no-ota15.mobileconfig)
+1. When prompted, restart your device
+1. Re-apply your jailbreak
 1. Open your [package manager](/package-managers) and install the [Filza](https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp) file manager
 1. Open the Filza app and navigate to `/Library/Managed Preferences/mobile`
 1. Open the `com.apple.MobileAsset.plist` file
