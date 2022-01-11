@@ -64,7 +64,7 @@ For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://d
 
 ::: tip
 
-If you are currently on 14.5 or higher, you are updating to 15.0.2, **or** using another non-"alternative" profile, you can skip this section.
+If you are currently on 14.5 or higher, updating to 15.0.2, **or** using another non-"alternative" profile, you can skip this section.
 
 :::
 
