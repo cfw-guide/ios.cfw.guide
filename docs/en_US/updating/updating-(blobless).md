@@ -38,6 +38,12 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 
 :::
 
+::: danger
+
+If you are on iOS 13, you will likely run into issues trying to go to iOS 14.8.
+
+:::
+
 ## Preparing
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
