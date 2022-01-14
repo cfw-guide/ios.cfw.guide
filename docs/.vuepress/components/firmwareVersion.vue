@@ -5,6 +5,33 @@
     <div v-html="buildStr.format({ buildId: frontmatter.build.build })"/>
     <div v-if="getReleasedDate != -1" v-html="releasedStr.format({releasedTime: getReleasedDate})"/>
   </p>
+
+  <h2 v-if="jailbreakArr.length > 0" v-html="jailbreaksHeader"/>
+  <ul>
+    <li v-for="(jb, index) in jailbreakArr" :key="jb" :id="`liJb-${jb.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
+      <input type="checkbox" :id="`toggleListJb-${jb.name.replace(/ /g, '-')}`">
+      <i class="fas fa-chevron-right chevron chevronPoint clickToHide"/>
+      <i class="fas fa-chevron-down chevron chevronPoint clickToShow displayNone"/>
+      <a v-html="jb.name"/>
+      
+      <template v-if="jbDevArr[index].length > 0">
+        <div class="hoverElement" style="display: inline;">
+          <i class="fas fa-circle ml-" style="font-size: 0.3rem; opacity: 0.5; vertical-align: middle; margin-left: 2em; margin-right: 2em;"/>
+          <label :for="`toggleListJb-${jb.name.replace(/ /g, '-')}`"><a style="cursor: pointer;" :id="`toggleShowJb-${jb.name.replace(/ /g, '-')}`" v-html="showDevStr" v-on:click="toggleShowJb(jb.name.replace(/ /g, '-'))"/></label>
+        </div>
+        <div class="custom-container tip clickToShow">
+          <p>
+            <ul>
+              <li class="showOnHover" style="list-style-type: disc" v-for="d in jbDevArr[index]" :key="d">
+                <a :href="d.url" v-html="d.name"/>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </template>
+    </li>
+  </ul>
+
   <h2 v-if="devGroupArr.length > 0" v-html="devicesHeader"/>
   <ul>
     <li v-for="g in devGroupArr" :key="g" :id="`liDev-${g.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
@@ -40,31 +67,6 @@
             <span style="font-weight: 500;">{{ downloadStr }}</span>
           </a>
         </span>
-      </template>
-    </li>
-  </ul>
-  <h2 v-if="jailbreakArr.length > 0" v-html="jailbreaksHeader"/>
-  <ul>
-    <li v-for="(jb, index) in jailbreakArr" :key="jb" :id="`liJb-${jb.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
-      <input type="checkbox" :id="`toggleListJb-${jb.name.replace(/ /g, '-')}`">
-      <i class="fas fa-chevron-right chevron chevronPoint clickToHide"/>
-      <i class="fas fa-chevron-down chevron chevronPoint clickToShow displayNone"/>
-      <a v-html="jb.name"/>
-      
-      <template v-if="jbDevArr[index].length > 0">
-        <div class="hoverElement" style="display: inline;">
-          <i class="fas fa-circle ml-" style="font-size: 0.3rem; opacity: 0.5; vertical-align: middle; margin-left: 2em; margin-right: 2em;"/>
-          <label :for="`toggleListJb-${jb.name.replace(/ /g, '-')}`"><a style="cursor: pointer;" :id="`toggleShowJb-${jb.name.replace(/ /g, '-')}`" v-html="showDevStr" v-on:click="toggleShowJb(jb.name.replace(/ /g, '-'))"/></label>
-        </div>
-        <div class="custom-container tip clickToShow">
-          <p>
-            <ul>
-              <li class="showOnHover" style="list-style-type: disc" v-for="d in jbDevArr[index]" :key="d">
-                <a :href="d.url" v-html="d.name"/>
-              </li>
-            </ul>
-          </p>
-        </div>
       </template>
     </li>
   </ul>
