@@ -9,8 +9,8 @@
   <ul>
     <li v-for="g in devGroupArr" :key="g" :id="`liDev-${g.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
       <input type="checkbox" :id="`toggleListDev-${g.name.replace(/ /g, '-')}`">
-      <i class="fas fa-chevron-right chevron chevronPoint clickToHide"/>
-      <i class="fas fa-chevron-down chevron chevronPoint clickToShow"/>
+      <i class="clickToHide fas fa-chevron-right chevron chevronPoint"/>
+      <i class="clickToShow fas fa-chevron-down chevron chevronPoint"/>
       <a :href="g.url" v-html="g.name"/>
 
       <template v-if="g.devices.length > 1">
@@ -48,7 +48,7 @@
     <li v-for="(jb, index) in jailbreakArr" :key="jb" :id="`liJb-${jb.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
       <input type="checkbox" :id="`toggleListJb-${jb.name.replace(/ /g, '-')}`">
       <i class="fas fa-chevron-right chevron chevronPoint clickToHide"/>
-      <i class="fas fa-chevron-down chevron chevronPoint clickToShow"/>
+      <i class="fas fa-chevron-down chevron chevronPoint clickToShow displayNone"/>
       <a v-html="jb.name"/>
       
       <template v-if="jbDevArr[index].length > 0">
@@ -95,7 +95,7 @@ export default {
       devicesHeader: 'Devices',
       showMoreStr: 'Show More',
       showLessStr: 'Show Less',
-      downloadStr: 'Download',
+      downloadStr: 'Download IPSW',
 
       jailbreaksHeader: 'Jailbreaks',
       showDevStr: 'Show Devices',
@@ -246,6 +246,11 @@ export default {
 
 .showOnHover .hoverElement {
   opacity: 0;
+  display: none !important;
+}
+
+.displayNone {
+  display: none !important;
 }
 
 .showOnHover:hover .hoverElement {
@@ -253,10 +258,12 @@ export default {
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 100ms;
+  display: inline !important;
 }
 
 .hoverElement:hover {
   opacity: 1 !important;
+  display: inline !important;
 }
 
 input[type=checkbox]{
@@ -265,10 +272,10 @@ input[type=checkbox]{
   opacity: 0;
 }
 
-.clickToShow { display: none; }
-.clickToHide { display: block; }
-.clickToHideInline { display: inline; }
-input:checked ~ .clickToHide { display: none; }
-input:checked ~ .clickToShow { display: block; }
-input:checked ~ .clickToShowInline { display: inline; }
+.clickToShow { display: none !important; }
+.clickToHide { display: block !important; }
+.clickToHideInline { display: inline !important; }
+input:checked ~ .clickToHide { display: none !important; }
+input:checked ~ .clickToShow { display: block !important; }
+input:checked ~ .clickToShowInline { display: inline !important; }
 </style>
