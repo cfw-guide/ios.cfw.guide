@@ -30,6 +30,7 @@ module.exports = {
 			}
 		],
     require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
+    require('./plugins/newDynamicPages/lib/'),
     require('./plugins/redirectPlugin/lib/'),
 	],
   
