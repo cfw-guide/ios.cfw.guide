@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Updating to 14.8 (Dallas)
-description: Guide on updating to unsigned firmwares without any blobs.
+description: Guide on updating to 14.8 using the Dallas tweak
 permalink: /updating-to-14-8-(dallas)
 redirect_from:
   - /dallas
@@ -84,7 +84,7 @@ As the Dallas tweak redirects update searches to a different server, they will b
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-1. Ensure that the version displayed is the version you are intending to update to
+1. Ensure that the version displayed is iOS 14.8
 1. Download and install the update
 
 ::: tip
