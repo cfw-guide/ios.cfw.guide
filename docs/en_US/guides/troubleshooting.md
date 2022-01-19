@@ -21,8 +21,10 @@ While there is no easy way to diagnose what causes a respring loop, the most lik
 
 #### Semi-untethered jailbreaks
 
-:::tip
+::: tip
+
 A semi-untethered jailbreak is a jailbreak that needs an app or website in order to jailbreak after a reboot.
+
 :::
 
 In order to escape the respring loop, [force reboot your device](#How-to-exit-dfu-mode). Once you've booted back up, use your jailbreak of choice and disable tweak injection from the jailbreak settings. Once you've jailbroken, you should be able to access your package manager and remove your most recent tweak or your last tweak setting change that may have caused the respring loop. 
@@ -31,8 +33,10 @@ In a worst case scenario, where you cannot diagnose or fix the issue, ask for su
 
 #### Untethered jailbreaks
 
-:::tip
+::: tip
+
 A untethered jailbreak is a jailbreak that persists after a reboot
+
 :::
 
 A respring loop on an untethered jailbreak is very easy to confuse with a bootloop, since even restarting your device will keep you in the respring loop.
@@ -160,6 +164,15 @@ If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg
 
 :::
 
+### Not being able to rejailbreak or restore rootfs in unc0ver after using tweaks such as Batchomatic or IAmLazy
+
+Your ability to fix this issue if you end up in this state depends on your iOS version:
+
+- If you are on iOS versions at or below 14.3 (excluding if you're on 11.x or are A12(X) 12.1.3-12.4.1), follow another jailbreak's <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> that is supported on your device/version combination.
+- If you are on iOS versions 14.4 to 14.5.1, attempt to restore rootfs in the Fugu14 app
+- If you are either on iOS versions 14.6 to 14.8, or in the group excluded from the first group, your only options are to wait for another jailbreak, wait for an unc0ver update which fixes this issue, or to DFU Restore to the latest iOS version and lose your ability to jailbreak for the forseeable future
+
+
 ## Fixing package installation errors on Sileo
 
 For the purposes of this troubleshooting section, we are assuming you are running Sileo on Taurine/Odyssey/Odysseyra1n.
@@ -236,4 +249,5 @@ This error indicates that the developer of the tweak you are trying to install/r
 ::: tip
 
 In May 2021, Procursus attempted to migrate to a version of dpkg that no longer handles this install error, as developers should have included the `#!/bin/sh` or `#!/bin/bash` calls in their scripts. At the time of writing, the lead developer of Procursus has created a patch, `libiosexec`, that re-adds this error handling. If you still encounter this error, you may not have updated for a while.
+
 :::

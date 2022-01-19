@@ -18,8 +18,7 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 ## Requirements
 
 - Blobs saved for the version you want to restore to
-- A jailbroken iDevice
-- A computer with at least 8 gigabytes of available space (not including the ipsw)
+- A jailbroken device
 
 ## Downloads
 
@@ -33,14 +32,8 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 
 1. Open your package manager on your jailbroken iDevice
 1. Add [repo.1conan.com](https://repo.1conan.com) to your sources
-1. Add [repo.chariz.com](https://repo.chariz.com) to your sources
-    - This will usually already be there on newer jailbreaks
 1. Download and install dimentio
 1. Download and install NewTerm2
-1. If you're on iOS 14.0 or above:
-    - Install `libkernrw` if you're using Taurine
-    - Install `libkrw` if you're using unc0ver
-    - checkra1n/odysseyra1n users don't need to install anything extra
 
 ## Setting nonce
 
@@ -66,14 +59,14 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 1. Open FutureRestoreGUI on your computer
     - If prompted by Windows Defender or other anti-virus software, allow the program to run - it’s safe
 1. When opening FutureRestoreGUI, you should be greeted by this menu:
-![image](https://user-images.githubusercontent.com/48022799/126875170-142c9d15-8bd3-420e-bd59-18a6df8fc6eb.png)
+![image](https://user-images.githubusercontent.com/48022799/147845013-73dbda5b-500d-4f5a-ae51-3751d9268fe6.png)
 
 1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
 ** Note:** For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
-1. If you are upgrading or restoring to the same version the device is on, you may enable `Preserve Data` to keep data, however do not use this when downgrading. Especially when downgrading from 14.5 to a lower version, as that will result in a recovery loop.
+1. If you are not downgrading, then it is safe to enable `Preserve Data` in the options menu in order to keep data. However using it while downgrading may be dangerous
 1. Do not enable `AP Nonce Collision` on any modern devices
 1. Click Next to navigate to the controls menu
 1. Click `Start Futurerestore`

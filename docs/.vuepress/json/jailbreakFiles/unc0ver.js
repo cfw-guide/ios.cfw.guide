@@ -1,7 +1,7 @@
 module.exports = {
   name: "unc0ver",
   alias: "uncover",
-  priority: 1,
+  priority: 2,
   info: {
     website: {
       name: "unc0ver.dev",
@@ -26,21 +26,13 @@ module.exports = {
         url: "/installing-unc0ver-fugu14/",
         pkgman: "cydia",
         firmwares: [
-          "18D5030e", // 14.4 beta
-          "18D5043d", // 14.4 beta 2
+          "18C65", // 14.3 RC
+          "18C66-RC", // 14.3 RC 2
+          "18C66", // 14.3
           "18D52-RC", // 14.4 RC
           "18D52", // 14.4
           "18D61", // 14.4.1
           "18D70", // 14.4.2
-          "18E5140j", // 14.5 beta
-          "18E5140k", // 14.5 beta
-          "18E5154f", // 14.5 beta 2
-          "18E5164h", // 14.5 beta 3
-          "18E5178a", // 14.5 beta 4
-          "18E5186a", // 14.5 beta 5
-          "18E5194a", // 14.5 beta 6
-          "18E5198a", // 14.5 beta 7
-          "18E5199a", // 14.5 beta 8
           "18E199-RC", // 14.5 RC
           "18E199", // 14.5
           "18E212", // 14.5.1
@@ -89,10 +81,10 @@ module.exports = {
         ],
       },
     ],
-    latestVer: "8.0.1",
+    latestVer: "8.0.2",
     color: "#111111",
     icon: "/assets/images/jb-icons/unc0ver.png",
-    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices and iOS 14.6 to 14.8 support only available on A12 and A13 iPhone's",
+    notes: "iOS 14.4 - 14.5.1 support is only available on A12+ devices with Fugu14 (Betas are not supported). iOS 14.6 to 14.8 support only available on A12 and A13 iPhone's.",
     jailbreaksmeapp: true,
     type: "Semi-untethered",
     firmwares: ["11.0","14.8"]
@@ -428,28 +420,15 @@ module.exports = {
       ]
     },
     {
+      priority: 0,
       firmwares: [
-        "18C5044f", // 14.3 beta
-        "18C5054c", // 14.3 beta 2
-        "18C5061a", // 14.3 beta 3
         "18C65", // 14.3 RC
         "18C66-RC", // 14.3 RC 2
         "18C66", // 14.3
-        "18D5030e", // 14.4 beta
-        "18D5043d", // 14.4 beta 2
         "18D52-RC", // 14.4 RC
         "18D52", // 14.4
         "18D61", // 14.4.1
         "18D70", // 14.4.2
-        "18E5140j", // 14.5 beta
-        "18E5140k", // 14.5 beta
-        "18E5154f", // 14.5 beta 2
-        "18E5164h", // 14.5 beta 3
-        "18E5178a", // 14.5 beta 4
-        "18E5186a", // 14.5 beta 5
-        "18E5194a", // 14.5 beta 6
-        "18E5198a", // 14.5 beta 7
-        "18E5199a", // 14.5 beta 8
         "18E199-RC", // 14.5 RC
         "18E199", // 14.5
         "18E212", // 14.5.1

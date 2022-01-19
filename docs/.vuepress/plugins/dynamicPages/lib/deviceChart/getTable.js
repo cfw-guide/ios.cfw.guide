@@ -110,6 +110,9 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   const tableClass = ['tableBetaClass', 'tableMainClass'];
   const noJbTip = `<div class="custom-container tip"><p>${deviceChartStr.table.noJbTip}</p></div>`
   const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>${deviceChartStr.table.betaTip.format({extLinkSvg: extLinkSvg})}</p></div>`
+  var showMore = ''
+  if (simplifyTable) showMore = `<a href="/chart/device/${deviceGroup[0].name.replace(/ /g, '-')}.html">Show more</a>`
+
   var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">" + deviceChartStr.table.showBetaVersions + "</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">" + deviceChartStr.table.hideBetaVersions + "</a></p>"
   var head = deviceChartStr.table.tableHeader;
   if (simplifyTable) head = deviceChartStr.table.simpleTableHeader;
@@ -125,7 +128,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
     )
   }
   
-  if(tableHtml[0] == tableHtml[1]) return noJbTip + tableArr[0];
+  if(tableHtml[0] == tableHtml[1]) return noJbTip + tableArr[0] + showMore
   
-  return switchButtons + betaTip + noJbTip + tableArr.join('');
+  return switchButtons + betaTip + noJbTip + tableArr.join('') + showMore
 }

@@ -62,15 +62,13 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 
 ## What should I know before starting?
 
-::: danger
-
-Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
-
-:::
-
 - It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss
 - If no issues occur during installation, you will be jailbroken without any data loss
 - Keep the device plugged into to a power source or keep the battery fairly charged, so that any unexpected power off can be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to more malware and other security issues after jailbreaking compared to if you were in a non-jailbroken state
 - Your device warranty will become void after jailbreaking until it is restored to an un-jailbroken state, which is easy to do
+
+## Should I use tweaks such as Batchomatic or IAmLazy
+
+You should **not** use these tweaks, due to the fact that they tend to cause issues and instability within your jailbreaking setup. Instead, if you're switching between jailbreaks or updating to a newer iOS version, make a text based tweaklist and then manually reinstall them.

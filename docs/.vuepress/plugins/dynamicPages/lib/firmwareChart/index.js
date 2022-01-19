@@ -33,7 +33,7 @@ function getOsStr(v) {
   return 'iOS';
 }
 
-for (var i in iosList) {
+/*for (var i in iosList) {
   const v = iosList[i];
   var redirects = '';
   if (!duplicateVerArr.includes(v.version)) redirects = [fwPath + v.version];
@@ -51,10 +51,11 @@ for (var i in iosList) {
     },
     content: require('./content')(v.build)
   })
-};
+};*/
 
-for (var i in duplicateVerArr) {
+/*for (var i in duplicateVerArr) {
   const v = duplicateVerArr[i];
+  console.log(v)
   page.push({
     path: fwPath + v + '.html',
     frontmatter: {
@@ -68,6 +69,6 @@ for (var i in duplicateVerArr) {
     },
     content: require('./multipleFwPage')(v)
   })
-}
+}*/
 
 module.exports = page;
