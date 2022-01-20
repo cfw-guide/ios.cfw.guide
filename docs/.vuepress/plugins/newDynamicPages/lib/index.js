@@ -42,7 +42,8 @@ function getOsStr(v) {
 }
 
 var pageList = [];
-for (const i in iosList) {
+
+for (var i in iosList) {
   pageList.push({
     path: `${fwPath}${iosList[i].build}.html`,
     frontmatter: {
@@ -51,6 +52,23 @@ for (const i in iosList) {
       layout: 'chartLayout',
       chartType: 'firmware',
       build: iosList[i],
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
+    }
+  })
+}
+
+for (var jb in jbList) {
+  pageList.push({
+    path: `${jbPath}${jbList[jb].name.replace(/ /g, '-')}.html`,
+    frontmatter: {
+      title: jbList[jb].name,
+      description: `Compatible firmwares for ${jbList[jb].name}`,
+      layout: 'chartLayout',
+      chartType: 'jailbreak',
+      jailbreak: jbList[jb],
       sidebar: false,
       editLink: false,
       lastUpdated: false,

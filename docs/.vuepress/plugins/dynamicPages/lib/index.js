@@ -20,8 +20,6 @@ module.exports = function(themeLocale, localePath) {
     
     var pageList = [
       ...require('./deviceChart'),
-      ...require('./firmwareChart'),
-      ...require('./jailbreakChart'),
     ]
 
     function getPkgManPages(app) {
