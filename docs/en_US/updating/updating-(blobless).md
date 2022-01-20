@@ -40,7 +40,7 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 
 ::: danger
 
-If you are on iOS 13, you will likely run into issues trying to go to iOS 14.8.
+If you are on iOS 13.7 or lower, are trying to get to iOS 14.8, and run into issues trying to get 14.8 to show up, follow <router-link to="/updating-to-14-8-(dallas)">Updating to 14.8 (Dallas)</router-link>
 
 :::
 
