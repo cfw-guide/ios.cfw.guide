@@ -149,6 +149,7 @@ export default {
         var fwArr = []
         for (var i in x.firmwares) for (var f in x.firmwares[i]) if (!fwArr.includes(x.firmwares[i][f])) {
           const fw = json.ios.filter(b => b.build == x.firmwares[i][f])[0]
+          if (!fw) continue
           if (fw.beta) continue
           fwArr.push(fw)
         }
