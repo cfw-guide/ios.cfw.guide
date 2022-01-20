@@ -12,7 +12,7 @@ module.exports = {
       external: true
     },
     type: "Tethered",
-    firmwares: "1.1",
+    firmwares: ["1.1","1.1"],
   },
   compatibility: [
     {

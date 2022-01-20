@@ -16,6 +16,6 @@ module.exports = {
     color: "#3c3b3c",
     icon: "/assets/images/jb-icons/saigon.png",
     type: "Semi-untethered",
-    firmwares: "10.2.1",
+    firmwares: ["10.2.1","10.2.1"],
   },
 }

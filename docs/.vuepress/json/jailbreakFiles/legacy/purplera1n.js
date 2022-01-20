@@ -8,7 +8,7 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: "3.0",
+    firmwares: ["3.0","3.0"],
     notes: "Only supports iPhone 3GS",
     latestVer: "RC2a",
     color: "#9775df",

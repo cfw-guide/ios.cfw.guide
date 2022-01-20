@@ -7,7 +7,7 @@ module.exports = {
       external: true
     },
     type: "(Safari) Untethered",
-    firmwares: "1.1.1",
+    firmwares: ["1.1.1","1.1.1"],
   },
   compatibility: [
     {

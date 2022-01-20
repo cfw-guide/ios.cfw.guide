@@ -8,7 +8,7 @@ module.exports = {
       external: true
     },
     type: "Semi-untethered",
-    firmwares: "10.3.4",
+    firmwares: ["10.3.4","10.3.4"],
     soc: "A6",
     notes: "iPhone 5 only",
     latestVer: "1.0 beta 1",

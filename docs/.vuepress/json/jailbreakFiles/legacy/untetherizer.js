@@ -7,7 +7,7 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: "2.2.1",
+    firmwares: ["2.2.1","2.2.1"],
     notes: "Only supports iPod touch (2nd generation)",
     latestVer: "1.1",
     color: "#000000",

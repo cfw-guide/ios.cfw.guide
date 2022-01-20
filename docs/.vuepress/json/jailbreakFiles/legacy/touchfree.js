@@ -7,7 +7,7 @@ module.exports = {
       external: true
     },
     type: "Untethered",
-    firmwares: "1.1.2",
+    firmwares: ["1.1.2","1.1.2"],
   },
   compatibility: [
     {

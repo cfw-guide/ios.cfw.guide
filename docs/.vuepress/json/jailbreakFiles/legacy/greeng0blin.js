@@ -9,7 +9,7 @@ module.exports = {
     },
     type: "Semi-untethered",
     latestVer: "1.1",
-    firmwares: "10.2.2"
+    firmwares: ["10.2.2","10.2.2"]
   },
   compatibility: [
     {

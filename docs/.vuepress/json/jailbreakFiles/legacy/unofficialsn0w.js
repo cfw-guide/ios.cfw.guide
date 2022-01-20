@@ -8,7 +8,7 @@ module.exports = {
       external: true
     },
     type: "Tethered",
-    firmwares: "2.2.1",
+    firmwares: ["2.2.1","2.2.1"],
   },
   compatibility: [
     {

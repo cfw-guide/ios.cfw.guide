@@ -7,7 +7,7 @@ module.exports = {
       external: true
     },
     type: "Tethered",
-    firmwares: "10.3.4",
+    firmwares: ["10.3.4","10.3.4"],
     soc: "A6",
     notes: "Only supports iPhone 5",
   },

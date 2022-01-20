@@ -1,7 +1,7 @@
 <template>
   <h2 v-if="infoData.length > 0" v-html="infoHeader"/>
   <p><div v-for="i in infoData" :key="i" v-html="i"/></p>
-  <h2 v-html="compatibilityHeader"/>
+  <h2 v-if="getDeviceList.length > 0" v-html="compatibilityHeader"/>
   <ul>
     <li v-for="g in getDeviceList" :key="g" :id="`liCompat-${g.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
       <input type="checkbox" :id="`toggleListCompat-${g.name.replace(/ /g, '-')}`">
@@ -119,6 +119,7 @@ export default {
     },
     supportedFw() {
       const firmwares = this.frontmatter.jailbreak.info.firmwares
+      if (!firmwares) return
       if (firmwares[0] == firmwares[1]) return this.supportedStrSingle.format({ ver: firmwares[0] })
       else return this.supportedStr.format({ ver0: firmwares[0], ver1: firmwares[1]})
     },
