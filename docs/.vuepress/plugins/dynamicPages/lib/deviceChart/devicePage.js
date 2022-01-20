@@ -63,7 +63,7 @@ function getHtml(typeArr, path, toc) {
         const d = deviceArr[i][j*3+k];
         const p = path || devicePath;
         if (d) {
-          html += '<td><router-link to="' + p + d.name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + d.devices[0] + '.png" alt="" style="width: 50%;"></router-link></td>';
+          html += '<td><router-link to="' + p + d.name.replace(/ /g, '-') + '"><img src="https://ipsw.me/assets/devices/' + d.devices[0] + '.png" alt="' + d.name + '" loading="lazy" style="width: 50%;"></router-link></td>';
         }
         else html += '<td></td>';
       }
