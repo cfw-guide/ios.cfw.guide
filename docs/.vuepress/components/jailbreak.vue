@@ -102,6 +102,7 @@ export default {
     },
     guideLink() {
       var gStr = this.guideStr
+      if (!this.frontmatter.jailbreak.info.guide) return []
       return this.frontmatter.jailbreak.info.guide.map(function (g) {
         if (!g || (!g.url && g.name)) return
         if (!g.url) return g.name
