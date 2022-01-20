@@ -12,7 +12,7 @@
       <input type="checkbox" :id="`toggleListJb-${jb.name.replace(/ /g, '-')}`">
       <i class="fas fa-chevron-right chevron chevronPoint clickToHide"/>
       <i class="fas fa-chevron-down chevron chevronPoint clickToShow displayNone"/>
-      <a v-html="jb.name"/>
+      <a v-html="jb.name" :href="`${jailbreakPath}${jb.name}.html`"/>
       
       <template v-if="jbDevArr[index].length > 0">
         <div class="hoverElement" style="display: inline;">
@@ -87,6 +87,7 @@ export default {
   data() {
     return {
       devicePath: '/chart/device/',
+      jailbreakPath: '/chart/jailbreak/',
       timeLocale: 'en-US',
 
       infoHeader: 'Info',
