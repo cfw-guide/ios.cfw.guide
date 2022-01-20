@@ -162,8 +162,7 @@ export default {
       })
       devList = devList.map(function (x) {
         x.devices = x.devices.map(d => json.device[d])
-        if (x.hasOwnProperty('subgroups'))
-          x.subgroups = x.subgroups.map(g => g.devices.map(d => json.device[d]))
+        //if (x.hasOwnProperty('subgroups')) x.subgroups = x.subgroups.map(g => g.devices.map(d => json.device[d]))
         return x
       })
       return devList
