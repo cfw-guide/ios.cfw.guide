@@ -144,7 +144,9 @@ export default {
         }
       }
       devList = devList.map(function (x) {
-        x.firmwares = x.devices.map(function(d) {
+        const dev = x.devices
+        if (!dev) return
+        x.firmwares = dev.map(function(d) {
           var ret = []
           const fwList = compat.filter(c => c.devices.includes(d)).map(f => f.firmwares)
           for (var i in fwList) for (var f in fwList[i]) if (!ret.includes(fwList[i][f])) ret.push(fwList[i][f])
