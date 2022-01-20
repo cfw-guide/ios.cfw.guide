@@ -40,7 +40,7 @@ function getHtml(typeArr, path, toc) {
   var html = '';
   
   if (typeArr.length > 1 && toc) html += '[[toc]]\n';
-  if (typeArr.includes('iPad')) typeArr = typeArr.concat(['mini', 'Pro', 'Air'])
+  if (typeArr.includes('iPad') && !(typeArr.includes('mini') && typeArr.includes('Pro') && typeArr.includes('Air'))) typeArr = typeArr.concat(['mini', 'Pro', 'Air'])
   
   var deviceArr = getDeviceArr(typeArr);
   var tableCount = getTableCount(typeArr, deviceArr);
