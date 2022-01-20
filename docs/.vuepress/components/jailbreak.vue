@@ -135,12 +135,16 @@ export default {
     getDeviceList() {
       const compat = this.frontmatter.jailbreak.compatibility
       var devList = []
-      for (var i in compat) for (var d in compat[i].devices) {
-        const dev = compat[i].devices[d]
-        var retg = json.groups.filter(g => g.devices.includes(dev))[0]
-        if (!devList.includes(retg)) devList.push(retg)
+      for (var i in compat) {
+        if (!compat[i].hasOwnProperty('devices')) return
+        for (var d in compat[i].devices) {
+          const dev = compat[i].devices[d]
+          var retg = json.groups.filter(g => g.devices.includes(dev))[0]
+          if (!devList.includes(retg)) devList.push(retg)
+        }
       }
       devList = devList.map(function (x) {
+        if (!x.hasOwnProperty('devices')) return x
         x.firmwares = x.devices.map(function(d) {
           var ret = []
           const fwList = compat.filter(c => c.devices.includes(d)).map(f => f.firmwares)
@@ -158,6 +162,7 @@ export default {
         return x
       })
       devList = devList.map(function (x) {
+        if (!x.hasOwnProperty('devices')) return x
         x.devices = x.devices.map(d => json.device[d])
         if (x.hasOwnProperty('subgroups'))
           x.subgroups = x.subgroups.map(g => g.devices.map(d => json.device[d]))
@@ -169,6 +174,7 @@ export default {
       const compat = this.frontmatter.jailbreak.compatibility
       var devObj = {}
       this.getDeviceList.map(function(x) {
+        if (!x.hasOwnProperty('devices')) return x
         for (var d in x.devices) {
           const dev = x.devices[d].identifier
           devObj[dev] = {}
