@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       devicePath: '/chart/device/',
-      firmwarePath: '/chart/firmware',
+      firmwarePath: '/chart/firmware/',
 
       infoHeader: 'Info',
       websiteStr: 'Website: ${websiteLink}',
