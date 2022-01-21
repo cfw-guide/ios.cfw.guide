@@ -1,7 +1,7 @@
 <template>
   <h2 v-if="infoData.length > 0" v-html="infoHeader"/>
   <p><div v-for="i in infoData" :key="i" v-html="i"/></p>
-  <h2 v-if="getDeviceList.length > 0" v-html="compatibilityHeader"/>
+  <template v-if="getDeviceList"><h2 v-if="getDeviceList.length > 0" v-html="compatibilityHeader"/></template>
   <ul>
     <li v-for="g in getDeviceList" :key="g" :id="`liCompat-${g.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
       <input type="checkbox" :id="`toggleListCompat-${g.name.replace(/ /g, '-')}`">
@@ -17,11 +17,11 @@
         <table>
           <tr>
             <th v-html="versionStr"/>
-            <th v-for="d in g.devices" :key="d" v-html="d.name"/>
+            <th v-for="d in g.devices" :key="d" v-html="devices[d].name"/>
           </tr>
           <tr v-for="fw in g.firmwares.reverse()" :key="fw">
             <td>{{fw.version}} (<a v-html="fw.build" :href="`${firmwarePath}${fw.build}.html`"/>)</td>
-            <td v-for="d in g.devices" :key="d" v-html="getCompat[d.identifier][fw.build] ? compatibleStr : notCompatibleStr"/>
+            <td v-for="d in g.devices" :key="d" v-html="getCompat[d][fw.build] ? compatibleStr : notCompatibleStr"/>
           </tr>
         </table>
       </div>
@@ -64,6 +64,7 @@ export default {
       notCompatibleStr: 'Not compatible',
       
       frontmatter: usePageFrontmatter(),
+      devices: json.device,
     }
   },
   methods: {
@@ -171,12 +172,6 @@ export default {
         return x
       })
 
-      devList = devList.map(function (x) {
-        x.devices = x.devices.map(d => json.device[d])
-        //if (x.hasOwnProperty('subgroups')) x.subgroups = x.subgroups.map(g => g.devices.map(d => json.device[d]))
-        return x
-      })
-
       return devList
     },
     getCompat() {
@@ -184,7 +179,7 @@ export default {
       var devObj = {}
       this.getDeviceList.map(function(x) {
         for (var d in x.devices) {
-          const dev = x.devices[d].identifier
+          const dev = x.devices[d]
           devObj[dev] = {}
           for (var fw in x.firmwares) {
             const firmware = x.firmwares[fw].build
