@@ -133,7 +133,7 @@ export default {
       ].filter(i => i)
     },
     getDeviceList() {
-      const compat = this.frontmatter.jailbreak.compatibility
+      const compat = this.frontmatter.jailbreak['compatibility']
       if (!compat) return
 
       var devList = []
