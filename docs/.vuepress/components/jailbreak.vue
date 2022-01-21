@@ -135,6 +135,7 @@ export default {
     getDeviceList() {
       const compat = this.frontmatter.jailbreak.compatibility
       if (!compat) return
+
       var devList = []
       for (var i in compat) {
         for (var d in compat[i].devices) {
@@ -143,9 +144,11 @@ export default {
           if (!devList.includes(retg)) devList.push(retg)
         }
       }
+
       devList = devList.map(function (x) {
         const dev = x.devices
         if (!dev) return
+
         x.firmwares = dev.map(function(d) {
           var ret = []
           const fwList = compat.filter(function(c) {
@@ -153,8 +156,10 @@ export default {
             else return c.devices.includes(d)
           }).map(f => f.firmwares)
           for (var i in fwList) for (var f in fwList[i]) if (!ret.includes(fwList[i][f])) ret.push(fwList[i][f])
+
           return ret
         })
+
         var fwArr = []
         for (var i in x.firmwares) for (var f in x.firmwares[i]) if (!fwArr.includes(x.firmwares[i][f])) {
           const fw = json.ios.filter(b => b.build == x.firmwares[i][f])[0]
@@ -165,11 +170,13 @@ export default {
         x.firmwares = fwArr
         return x
       })
+
       devList = devList.map(function (x) {
         x.devices = x.devices.map(d => json.device[d])
         //if (x.hasOwnProperty('subgroups')) x.subgroups = x.subgroups.map(g => g.devices.map(d => json.device[d]))
         return x
       })
+
       return devList
     },
     getCompat() {
