@@ -12,18 +12,15 @@ extra_contributors:
 
 ## Required Reading
 
-Devices on 13.7 or lower sometimes have issues with the Beta Profile + Delay Profile way of updating to 14.8 (in that 14.8 doesn't show up). Using a tweak known as Dallas, however, this issue can be avoided.
+While iOS 14.8 is unsigned, it can still be updated to for an unknown amount of time using the `Dallas` tweak.
 
 ::: warning
 
-We don't recommend following this unless both of the following is true:
-
-- You have tried the method at <router-link to="/updating-(blobless)">Updating (Blobless)</router-link> and are unable to get iOS 14.8 to show up.
-- Your device has a jailbreak on 14.8 - which can be confirmed at the <router-link to="/get-started">Get Started</router-link> page.
+We don't recommend following this unless your device has a jailbreak on 14.8 - which can be confirmed at the <router-link to="/get-started">Get Started</router-link> page
 
 :::
 
-You have until **January 24th, 2022** (in UTC 00:00) to do this to go to 14.8.
+You have a limited amount of time to do this to go to 14.8.
 
 ::: tip
 
@@ -31,9 +28,9 @@ You must be jailbroken to follow these instructions.
 
 :::
 
-::: tip
+::: warning
 
-Assuming you previously attempted the regular blobless method for 14.8, remove all delay and beta profiles prior to following this method.
+If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
 
 :::
 

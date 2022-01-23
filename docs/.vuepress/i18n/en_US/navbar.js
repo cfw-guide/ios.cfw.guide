@@ -48,6 +48,10 @@ module.exports = [
         link: '/updating-(blobless)/',
       },
       {
+        text: 'Updating to 14.8 (Dallas)',
+        link: '/updating-to-14-8-(dallas)/',
+      },
+      {
         text: 'FutureRestore',
         link: '/futurerestore/',
       },

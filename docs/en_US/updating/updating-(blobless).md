@@ -27,7 +27,7 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **14.8** -  January 24th, 2022
+- **14.8.1** -  March 13th, 2022
 - **15.1 (iPhone 12/13 series)** -  February 15th, 2022
 - **15.1 (All other devices)** - March 13th, 2022
 
@@ -39,9 +39,9 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 
 :::
 
-::: danger
+::: tip
 
-If you are on iOS 13.7 or lower, are trying to get to iOS 14.8, and run into issues trying to get 14.8 to show up, follow <router-link to="/updating-to-14-8-(dallas)">Updating to 14.8 (Dallas)</router-link>
+If you are trying to go to iOS 14.8, follow <router-link to="/updating-to-14-8-(dallas)">Updating to 14.8 (Dallas)</router-link>
 
 :::
 
@@ -56,10 +56,9 @@ If you are on iOS 13.7 or lower, are trying to get to iOS 14.8, and run into iss
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into your device, navigate to this webpage
 1. Tap a version below to install its respective update profile:
-    - [14.8](/assets/files/delay_14_8_alternate.mobileconfig)
-    - [15.0.2](/assets/files/delay_15_0_2.mobileconfig)
-
-For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
+    - [14.8.1](/assets/files/delay_14_8_1_alternate.mobileconfig)
+    - [15.1](/assets/files/delay_15_1.mobileconfig)
+    - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
 ## Editing the profile
 
