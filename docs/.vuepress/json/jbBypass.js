@@ -56,7 +56,6 @@ appFiles = appFiles.map(function(f) {
 
 var ret = {}
 appFiles.map(function(f) {
-  console.log(f)
   ret[f.name] = f
 })
 
