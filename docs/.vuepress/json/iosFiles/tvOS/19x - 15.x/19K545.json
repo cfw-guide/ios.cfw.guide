@@ -1,0 +1,17 @@
+{
+  "version": "15.3 RC",
+  "build": "19K545",
+  "released": "2022-01-20",
+  "beta": true,
+  "devices": {
+    "AppleTV5,3": {
+      "ipsw": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/002-21436/D7FEF02C-F1B7-4DF4-86AB-C6589121532C/AppleTV5,3_15.3_19K545_Restore.ipsw"
+    },
+    "AppleTV6,2": {
+      "ipsw": "none"
+    },
+    "AppleTV11,1": {
+      "ipsw": "none"
+    }
+  }
+}
