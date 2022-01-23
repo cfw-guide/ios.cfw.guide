@@ -1,0 +1,11 @@
+{
+  "name": "Amex United Kingdom",
+  "bundleId": "uk.co.americanexpress.amexservice",
+  "uri": "https://apps.apple.com/gb/app/amex-united-kingdom/id399021772",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/93/95/fc/9395fca0-a1ec-9677-6878-b99f4950ce73/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

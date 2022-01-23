@@ -1,0 +1,12 @@
+{
+  "name": "SC Mobile Hong Kong",
+  "bundleId": "com.sc.breezehk",
+  "uri": "https://apps.apple.com/hk/app/sc-mobile-hong-kong/id445795688?l=en",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/33/68/75/336875c0-9a7b-7ea5-7f3e-248c39ef915c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass",
+      "notes": "Exercise caution when using kernel-level bypasses. App constantly shows alerts that the device is jailbroken."
+    }
+  ]
+}

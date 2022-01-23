@@ -1,0 +1,12 @@
+{
+  "name": "Liv. Young",
+  "bundleId": "me.liv.young.ios",
+  "uri": "https://apps.apple.com/us/app/liv-young/id1596368488",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/49/e6/7b/49e67b99-ff1c-6c90-e990-c37b2f63a7c5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow",
+      "notes": "Apply the recommended settings from the guide and enable `Lockdown Mode`."
+    }
+  ]
+}

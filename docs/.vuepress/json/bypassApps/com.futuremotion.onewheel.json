@@ -1,0 +1,11 @@
+{
+  "name": "Onewheel",
+  "bundleId": "com.futuremotion.onewheel",
+  "uri": "https://apps.apple.com/us/app/onewheel/id946642160",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/4d/0c/41/4d0c41f7-64d8-aeec-57db-74bb1ad28bf5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "FlyJB X"
+    }
+  ]
+}

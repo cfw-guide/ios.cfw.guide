@@ -1,0 +1,11 @@
+{
+  "name": "FedMobile",
+  "bundleId": "in.co.federalbank.fedmobile",
+  "uri": "https://itunes.apple.com/us/app/fedmobile/id1027354100",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/a4/00/93/a4009327-b0fb-9b72-e36d-444eb301afca/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Banks Patch"
+    }
+  ]
+}

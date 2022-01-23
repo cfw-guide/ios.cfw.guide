@@ -1,0 +1,14 @@
+{
+  "name": "Rabobank",
+  "bundleId": "nl.Rabobank.Bankieren",
+  "uri": "https://apps.apple.com/vn/app/rabobank/id346790636?l=vi",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/c0/26/25/c026252b-2859-c73c-57f5-38d7c27255c1/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Choicy"
+    },
+    {
+      "name": "libhooker-configurator"
+    }
+  ]
+}

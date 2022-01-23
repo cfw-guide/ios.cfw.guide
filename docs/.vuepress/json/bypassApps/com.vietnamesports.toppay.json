@@ -1,0 +1,11 @@
+{
+  "name": "ShopeePay",
+  "bundleId": "com.vietnamesports.toppay",
+  "uri": "https://apps.apple.com/vn/app/v%C3%AD-shopeepay/id1032301823",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/03/e6/68/03e668ad-d0f4-97c6-c983-08190ce4c91d/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Citrix Workspace",
+  "bundleId": "com.citrix.ReceiveriPad",
+  "uri": "https://apps.apple.com/us/app/citrix-workspace/id363501921",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/08/fc/4f/08fc4fb6-fdef-8f48-2eec-77838fda6884/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

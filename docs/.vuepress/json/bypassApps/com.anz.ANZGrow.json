@@ -1,0 +1,11 @@
+{
+  "name": "ANZ Australia",
+  "bundleId": "com.anz.ANZGrow",
+  "uri": "https://apps.apple.com/au/app/anz-australia/id870929663",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/61/6f/7b616ffe-c451-ed0a-2ebf-cb6d99b1f07a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

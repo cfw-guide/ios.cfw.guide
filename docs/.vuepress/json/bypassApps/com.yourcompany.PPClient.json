@@ -1,0 +1,11 @@
+{
+  "name": "PayPal",
+  "bundleId": "com.yourcompany.PPClient",
+  "uri": "https://apps.apple.com/us/app/paypal-send-shop-manage/id283646709",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/a0/52/cf/a052cf00-ddcb-d98f-88bb-7b85fc19ea77/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "USAA Mobile",
+  "bundleId": "com.usaa.UsaaMobile",
+  "uri": "https://apps.apple.com/us/app/usaa-mobile/id312325565",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/37/10/ec3710fe-bae6-c4d0-2c77-565af2bce3ec/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "USAABP"
+    }
+  ]
+}

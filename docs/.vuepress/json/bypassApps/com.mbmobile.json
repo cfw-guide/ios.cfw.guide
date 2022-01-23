@@ -1,0 +1,11 @@
+{
+  "name": "MB Bank",
+  "bundleId": "com.mbmobile",
+  "uri": "https://apps.apple.com/vn/app/mb-bank/id1205807363",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/9b/6f/ed/9b6fed33-c628-134e-1e30-4b12c3f61e23/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

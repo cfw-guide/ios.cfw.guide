@@ -1,0 +1,14 @@
+{
+  "name": "TouchBanking",
+  "bundleId": "com.fiserv.touchbankingasp",
+  "uri": "https://apps.apple.com/us/app/touchbanking/id386678211",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d6/9a/87/d69a874c-4a93-c544-d738-72ede102e703/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "FISVBP"
+    }
+  ]
+}

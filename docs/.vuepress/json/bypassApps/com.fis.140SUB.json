@@ -1,0 +1,11 @@
+{
+  "name": "BOH Mobile Banking",
+  "bundleId": "com.fis.140SUB",
+  "uri": "https://apps.apple.com/us/app/boh-mobile-banking/id500266693",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/04/dc/3b/04dc3ba9-a7de-58a4-2b46-36f51664f7c8/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

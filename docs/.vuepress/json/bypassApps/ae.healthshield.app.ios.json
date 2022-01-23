@@ -1,0 +1,11 @@
+{
+  "name": "ALHOSN UAE",
+  "bundleId": "ae.healthshield.app.ios",
+  "uri": "https://apps.apple.com/us/app/alhosn-uae/id1505380329",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/71/3a/f4/713af4e1-9746-0cee-abef-e39680723c3f/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

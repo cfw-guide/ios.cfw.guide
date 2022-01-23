@@ -1,0 +1,14 @@
+{
+  "name": "Capital One Mobile",
+  "bundleId": "com.capitalone.enterprisemobilebanking",
+  "uri": "https://apps.apple.com/us/app/capital-one-mobile/id407558537",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/62/68/82/6268826c-756f-f046-6120-4d8906f13165/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Choicy"
+    },
+    {
+      "name": "libhooker-configurator"
+    }
+  ]
+}

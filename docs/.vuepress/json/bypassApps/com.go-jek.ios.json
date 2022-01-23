@@ -1,0 +1,11 @@
+{
+  "name": "Gojek",
+  "bundleId": "com.go-jek.ios",
+  "uri": "https://apps.apple.com/sg/app/gojek/id944875099",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/3e/4d/28/3e4d284a-61e5-f1ec-f408-feec48717fe8/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "GojekEnabler"
+    }
+  ]
+}

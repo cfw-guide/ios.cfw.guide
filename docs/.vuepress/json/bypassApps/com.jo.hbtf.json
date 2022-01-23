@@ -1,0 +1,15 @@
+{
+  "name": "HBTF New Mobile Banking",
+  "bundleId": "com.jo.hbtf",
+  "uri": "https://apps.apple.com/us/app/hbtf-new-mobile-banking/id1467891225",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/56/a7/0b56a735-cd27-c249-250a-49722256eff5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Hestia",
+      "notes": "Enable Compatibility Mode, dlopen patches and Image Check Patches or else app will crash."
+    }
+  ]
+}

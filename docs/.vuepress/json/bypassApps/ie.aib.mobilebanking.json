@@ -1,0 +1,11 @@
+{
+  "name": "AIB Mobile",
+  "bundleId": "ie.aib.mobilebanking",
+  "uri": "https://apps.apple.com/ie/app/aib-mobile/id468042881",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/6f/18/2b/6f182b73-7cac-bf30-f6e3-3e48563f69d9/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

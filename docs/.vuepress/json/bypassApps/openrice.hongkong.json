@@ -1,0 +1,11 @@
+{
+  "name": "OpenRice",
+  "bundleId": "openrice.hongkong",
+  "uri": "https://apps.apple.com/us/app/openrice/id310663323",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/8f/3e/8e8f3e10-c0ff-2d74-6a08-49091be9a2c2/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "FlyJB"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "guide": "https://bypass.beerpsi.me/#/tools/tweaks?id=shadow",
+  "repository": {
+    "uri": "https://beerpsi.me/sharerepo/?repo=https://apt.thebigboss.org/repofiles/cydia"
+  },
+  "name": "HideJB"
+}

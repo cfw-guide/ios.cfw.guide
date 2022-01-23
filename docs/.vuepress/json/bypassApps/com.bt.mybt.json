@@ -1,0 +1,12 @@
+{
+  "name": "My BT",
+  "bundleId": "com.bt.mybt",
+  "uri": "https://apps.apple.com/gb/app/my-bt/id979618672",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/3e/df/85/3edf8587-b160-9c12-c55c-66015e4b7521/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "MyBT Patch",
+      "notes": "Use AppStore++ ([repo](https://beerpsi.me/sharerepo/?repo=https://beerpsi.me/sharerepo/?repo=https://cokepokes.github.io)) to downgrade."
+    }
+  ]
+}

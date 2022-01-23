@@ -24,7 +24,6 @@ jailbreakFiles = jailbreakFiles.filter(file => file.endsWith('.js'));
 jailbreakFiles = jailbreakFiles.map(function(x) {
   const filePathStr = x.split(path.sep)
   const pathStrLength = p.split('/').length - 1;
-  
   return filePathStr.splice(pathStrLength, filePathStr.length).join(path.sep)
 })
 var jailbreakArr = [];

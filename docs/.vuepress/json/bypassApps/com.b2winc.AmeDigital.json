@@ -1,0 +1,11 @@
+{
+  "name": "Ame Digital",
+  "bundleId": "com.b2winc.AmeDigital",
+  "uri": "https://apps.apple.com/us/app/ame-digital/id1371680463",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/06/58/08/06580894-2810-9d8b-57c0-aec81516ca42/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

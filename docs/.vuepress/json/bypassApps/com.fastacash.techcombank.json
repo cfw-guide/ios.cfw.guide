@@ -1,0 +1,15 @@
+{
+  "name": "F@st Mobile",
+  "aliases": [
+    "Fast Mobile",
+    "Techcombank"
+  ],
+  "bundleId": "com.fastacash.techcombank",
+  "uri": "https://apps.apple.com/us/app/f-st-mobile/id931883425",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/67/63/4d/67634d1e-2712-187c-1374-25c571de8c14/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "TCBNoJB"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ABC News",
+  "bundleId": "com.abcnews.ABCNews",
+  "uri": "https://apps.apple.com/us/app/abc-news/id300255638",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/71/31/83/71318352-8f17-4067-6f4b-cedea274bc48/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Looks like jailbreak detection has been removed from the app; however, raise an issue on GitHub if you find any trouble."
+    }
+  ]
+}

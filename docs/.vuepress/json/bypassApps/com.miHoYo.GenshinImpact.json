@@ -1,0 +1,11 @@
+{
+  "name": "Genshin Impact",
+  "bundleId": "com.miHoYo.GenshinImpact",
+  "uri": "https://apps.apple.com/us/app/genshin-impact/id1517783697",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/54/bf/c4/54bfc415-f101-02c4-8c0e-84adc745dc5a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "GenshinJailbreakBypass"
+    }
+  ]
+}

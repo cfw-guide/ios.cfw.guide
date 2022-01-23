@@ -1,0 +1,12 @@
+{
+  "name": "Ronin Wallet",
+  "bundleId": "com.skymavis.Genesis",
+  "uri": "https://apps.apple.com/us/app/ronin-wallet/id1592675001",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/c4/c2/da/c4c2dafe-f2eb-f0a7-f27a-888188658865/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Hestia",
+      "notes": "Compatibility Mode **must** be **enabled** for Hestia to work."
+    }
+  ]
+}

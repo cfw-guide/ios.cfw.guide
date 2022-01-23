@@ -1,0 +1,7 @@
+{
+  "notes": "Downgrade the app to the specified version.",
+  "repository": {
+    "uri": "https://beerpsi.me/sharerepo/?repo=https://cokepokes.github.io"
+  },
+  "name": "AppStore++"
+}

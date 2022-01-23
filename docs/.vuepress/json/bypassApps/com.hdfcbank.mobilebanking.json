@@ -1,0 +1,14 @@
+{
+  "name": "HDFC Bank",
+  "bundleId": "com.hdfcbank.mobilebanking",
+  "uri": "https://apps.apple.com/us/app/hdfc-bank-mobilebanking/id515891771",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c1/aa/ef/c1aaef09-9439-8161-dabe-5a280fcf3c5c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

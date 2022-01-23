@@ -1,0 +1,14 @@
+{
+  "name": "MyMo by GSB",
+  "bundleId": "com.gsb.mobilife.MyMo",
+  "uri": "https://apps.apple.com/us/app/mymo-by-gsb-mobile-banking/id987047466",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/0d/0e/d6/0d0ed61d-22c2-840a-5314-20d1d7838d54/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

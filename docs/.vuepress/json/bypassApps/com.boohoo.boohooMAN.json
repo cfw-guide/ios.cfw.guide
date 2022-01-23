@@ -1,0 +1,14 @@
+{
+  "name": "boohooMAN",
+  "bundleId": "com.boohoo.boohooMAN",
+  "uri": "https://apps.apple.com/us/app/boohooman-mens-fashion/id1297017901",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/4a/34/7a/4a347a5f-b43b-1519-d428-1b2c7b22554e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

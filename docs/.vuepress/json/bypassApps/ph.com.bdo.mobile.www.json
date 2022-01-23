@@ -1,0 +1,11 @@
+{
+  "name": "BDO Digital Banking",
+  "bundleId": "ph.com.bdo.mobile.www",
+  "uri": "https://apps.apple.com/ph/app/bdo-digital-banking/id673015230",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/c8/58/87/c8588707-5a48-003a-fbc3-075576ec6afc/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

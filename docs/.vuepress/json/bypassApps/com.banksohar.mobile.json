@@ -1,0 +1,11 @@
+{
+  "name": "Sohar International",
+  "bundleId": "com.banksohar.mobile",
+  "uri": "https://apps.apple.com/us/app/sohar-international-mobile-app/id1116127121",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/5e/53/68/5e536849-b5c7-62af-33e0-e77be7600ea0/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CorTrust Mobiliti",
+  "bundleId": "com.cortrust.mobile",
+  "uri": "https://apps.apple.com/us/app/cortrust-mobiliti/id943218305",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bd/28/f8/bd28f8e7-6e21-e3bf-623b-13cf873056c4/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "FISVBP"
+    }
+  ]
+}

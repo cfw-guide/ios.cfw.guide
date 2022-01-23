@@ -1,0 +1,17 @@
+{
+  "name": "Service NSW",
+  "bundleId": "com.rta.myRTA",
+  "uri": "https://apps.apple.com/au/app/service-nsw/id577283433",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/4a/29/9b/4a299b7d-3112-cbdc-d6f4-9854c1b53656/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

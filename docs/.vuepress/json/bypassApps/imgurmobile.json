@@ -1,0 +1,14 @@
+{
+  "name": "Imgur",
+  "bundleId": "imgurmobile",
+  "uri": "https://apps.apple.com/us/app/imgur-funny-meme-gif-maker/id639881495",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/95/77/7e/95777efd-97f5-ab7b-cca2-650ba2f34b01/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Choicy"
+    },
+    {
+      "name": "libhooker-configurator"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ADIB Mobile Banking App",
+  "bundleId": "com.adib.mobilebanking",
+  "uri": "https://apps.apple.com/us/app/adib-mobile-banking-app/id1128180440",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/f3/83/5d/f3835d49-128e-3571-8007-12bdc26f4af5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "League Of Legends: Wild Rift",
+  "bundleId": "com.riotgames.league.wildrift",
+  "uri": "https://apps.apple.com/us/app/league-of-legends-wild-rift/id1480616990",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/f1/43/c5/f143c5a4-0921-252d-cc2a-05175ffd71c5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

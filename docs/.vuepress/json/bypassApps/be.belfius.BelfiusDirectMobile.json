@@ -1,0 +1,11 @@
+{
+  "name": "Belfius Mobile",
+  "bundleId": "be.belfius.BelfiusDirectMobile",
+  "uri": "https://apps.apple.com/be/app/belfius-mobile-banking-app/id572835707",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/e4/61/33/e46133a2-e074-99ce-9fa0-2273a16c7f05/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Disables Face ID/Touch ID but works"
+    }
+  ]
+}

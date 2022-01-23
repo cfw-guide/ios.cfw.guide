@@ -1,0 +1,11 @@
+{
+  "name": "BBVA México",
+  "bundleId": "com.bancomer.bbva.bancomermovil",
+  "uri": "https://apps.apple.com/us/app/bbva-m%C3%A9xico-bancomer-m%C3%B3vil/id374824226",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/3a/56/57/3a565783-de90-8849-7d39-48621eb25c9b/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Warning but lets you use it"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Teriyaki Madness",
+  "bundleId": "com.teriyaki.app",
+  "uri": "https://apps.apple.com/us/app/teriyaki-madness/id1369843913",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/d2/1a/e8/d21ae8c5-185c-9f50-291b-2f53eae2d763/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

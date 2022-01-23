@@ -1,0 +1,11 @@
+{
+  "name": "first direct",
+  "bundleId": "com.firstdirect.bankingonthego",
+  "uri": "https://apps.apple.com/gb/app/first-direct/id405905004",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/42/44/14/424414f9-6b01-5fcd-7994-f7be870bf630/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

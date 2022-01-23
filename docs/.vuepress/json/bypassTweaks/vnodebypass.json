@@ -1,0 +1,8 @@
+{
+  "guide": "https://bypass.beerpsi.me/#/tools/kernel-level?id=vnodebypass",
+  "notes": "Exercise caution when using kernel-level bypasses.",
+  "repository": {
+    "uri": "https://beerpsi.me/sharerepo/?repo=https://cydia.ichitaso.com"
+  },
+  "name": "vnodebypass"
+}

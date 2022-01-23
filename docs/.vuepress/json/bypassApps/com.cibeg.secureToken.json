@@ -1,0 +1,11 @@
+{
+  "name": "CIB OTP Token",
+  "bundleId": "com.cibeg.secureToken",
+  "uri": "https://apps.apple.com/eg/app/cib-otp-token/id1074048518",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/48/e8/40/48e840c5-020c-71bd-90d0-e800b21ea76e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

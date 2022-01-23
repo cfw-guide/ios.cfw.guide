@@ -1,0 +1,11 @@
+{
+  "name": "Best Buy Connect",
+  "bundleId": "com.bestbuy.connectapp.byod.appstore",
+  "uri": "https://apps.apple.com/us/app/best-buy-connect/id1577419496",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/b4/af/34/b4af3492-d8ac-9fb5-bb9f-c272875dcbf6/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Best Buy has an internal version of this app that supposedly has jailbreak detection. In our testing, the app store variant simply doesn't have it."
+    }
+  ]
+}

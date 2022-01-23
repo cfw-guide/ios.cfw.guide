@@ -1,0 +1,8 @@
+{
+  "guide": "https://bypass.beerpsi.me/#/tools/kernel-level?id=kernbypass",
+  "notes": "iOS 12.0 - 14.2. Exercise caution when using kernel-level bypasses.",
+  "repository": {
+    "uri": "https://repo.xsf1re.kr"
+  },
+  "name": "KernBypass"
+}

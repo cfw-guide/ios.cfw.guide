@@ -1,0 +1,11 @@
+{
+  "name": "ESS 41 - Reflexis One",
+  "bundleId": "com.reflexisinc.dasess.4110",
+  "uri": "https://apps.apple.com/us/app/ess-41-reflexis-one/id1473943383",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/4c/55/f8/4c55f8f6-ba5e-cd28-bce5-ad4aa65d4003/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

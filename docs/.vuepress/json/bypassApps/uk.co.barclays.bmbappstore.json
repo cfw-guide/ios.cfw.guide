@@ -1,0 +1,12 @@
+{
+  "name": "Barclays",
+  "bundleId": "uk.co.barclays.bmbappstore",
+  "uri": "https://apps.apple.com/gb/app/barclays/id536248734",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/e6/ce/78/e6ce7860-3302-b001-a98c-0e2fa99e54eb/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "BarclaysPwn",
+      "notes": "Use AppStore++ ([repo](https://beerpsi.me/sharerepo/?repo=https://cokepokes.github.io)) to downgrade."
+    }
+  ]
+}

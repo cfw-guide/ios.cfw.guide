@@ -1,0 +1,12 @@
+{
+  "name": "Google Pay",
+  "bundleId": "com.google.paisa",
+  "uri": "https://apps.apple.com/us/app/google-pay-save-pay-manage/id1193357041",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1c/cb/53/1ccb5360-695a-6bd5-488b-12b1994c9945/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass",
+      "notes": "Remember to enable tweak injection for `!ABypass2`."
+    }
+  ]
+}

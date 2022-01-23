@@ -1,0 +1,15 @@
+{
+  "name": "Grand Summoners",
+  "bundleId": "jp.goodsmile.grandsummonersglobal",
+  "uri": "https://apps.apple.com/us/app/grand-summoners/id1329917539",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/69/f2/b869f233-6240-2553-6c8e-08c7148a6115/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Hestia",
+      "notes": "Keep dlopen patches and compatibility mode disabled. Enable Image Check Patches, else app will crash."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Tangerine Mobile Banking",
+  "bundleId": "ca.tangerine.clients.banking",
+  "uri": "https://apps.apple.com/ca/app/tangerine-mobile-banking/id847844097",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/8e/47/c6/8e47c67b-8859-eae4-7956-cf679458116e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "comdirect photoTAN App",
+  "bundleId": "de.comdirect.phototan",
+  "uri": "https://apps.apple.com/us/app/comdirect-phototan-app/id623841273",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/56/8b/4b/568b4bb6-730b-3eb8-08b2-efb1b5903e81/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

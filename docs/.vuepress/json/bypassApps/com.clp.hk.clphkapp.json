@@ -1,0 +1,11 @@
+{
+  "name": "CLP HK",
+  "bundleId": "com.clp.hk.clphkapp",
+  "uri": "https://apps.apple.com/us/app/clp-hk/id450725907",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/7e/c0/dc/7ec0dcdc-1f9c-8d23-9082-25cbbcae94ac/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "FlyJB"
+    }
+  ]
+}

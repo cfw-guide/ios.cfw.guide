@@ -1,0 +1,11 @@
+{
+  "name": "Gympass",
+  "bundleId": "com.gympass.gympass",
+  "uri": "https://apps.apple.com/id/app/gympass/id703761434?l=vi",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/2a/1b/bd/2a1bbdf3-2ac3-7ff6-be7e-fc8c5120f549/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Gympass JB Bypass"
+    }
+  ]
+}

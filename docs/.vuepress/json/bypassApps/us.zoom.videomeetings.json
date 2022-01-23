@@ -1,0 +1,11 @@
+{
+  "name": "Zoom",
+  "bundleId": "us.zoom.videomeetings",
+  "uri": "https://apps.apple.com/us/app/zoom-cloud-meetings/id546505307",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/d5/10/df/d510df4d-aca4-266a-0d95-1c80b5fba42c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Zoom JB Bypass"
+    }
+  ]
+}

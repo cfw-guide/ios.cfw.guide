@@ -1,0 +1,12 @@
+{
+  "name": "HSBC UK Mobile Banking",
+  "bundleId": "uk.co.hsbc.hsbcukmobilebanking",
+  "uri": "https://apps.apple.com/gb/app/hsbc-uk-mobile-banking/id1220329065",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/06/75/4f/06754f2d-ec34-5590-fbaf-f17ea59b1f23/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass",
+      "notes": "Exercise caution when using kernel-level bypasses. Only works on libhooker-based jailbreaks (e.g Taurine). Even with vnodebypass, jailbreak detection trips, but you can keep using the app."
+    }
+  ]
+}

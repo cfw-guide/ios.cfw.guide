@@ -1,0 +1,11 @@
+{
+  "name": "LG ThinQ",
+  "bundleId": "com.lgeha.nuts",
+  "uri": "https://apps.apple.com/us/app/lg-thinq/id993504342",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/c5/72/e7/c572e711-4ac5-39a8-7342-b8e93ad3e243/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

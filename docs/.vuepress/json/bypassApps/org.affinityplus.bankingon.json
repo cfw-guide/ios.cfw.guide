@@ -1,0 +1,11 @@
+{
+  "name": "Affinity Plus Mobile Banking",
+  "bundleId": "org.affinityplus.bankingon",
+  "uri": "https://apps.apple.com/us/app/affinity-plus-mobile-banking/id1298145292",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/bb/b7/80/bbb78059-6c63-5a52-b614-6c4d1a7eb1a8/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

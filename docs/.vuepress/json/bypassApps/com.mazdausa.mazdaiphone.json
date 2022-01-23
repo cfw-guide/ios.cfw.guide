@@ -1,0 +1,11 @@
+{
+  "name": "MyMazda",
+  "bundleId": "com.mazdausa.mazdaiphone",
+  "uri": "https://apps.apple.com/us/app/mymazda/id451886367",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/9e/09/74/9e0974bf-7952-3263-a72f-f4e4f8e591f5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

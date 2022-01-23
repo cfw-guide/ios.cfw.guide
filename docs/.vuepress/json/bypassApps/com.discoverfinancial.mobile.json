@@ -1,0 +1,11 @@
+{
+  "name": "Discover Mobile",
+  "bundleId": "com.discoverfinancial.mobile",
+  "uri": "https://apps.apple.com/us/app/discover-mobile/id338010821",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/d7/40/e6/d740e616-1f95-532f-aff1-7cb38ca39040/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "HideJB"
+    }
+  ]
+}

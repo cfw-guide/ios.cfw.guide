@@ -1,0 +1,11 @@
+{
+  "name": "Dragalia Lost",
+  "bundleId": "com.nintendo.zaga",
+  "uri": "https://apps.apple.com/us/app/dragalia-lost/id1352230941",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ce/41/a0/ce41a0b8-308b-dbeb-9e31-a47243ee3efd/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Global TV",
+  "bundleId": "com.canwest.GlobalVideo",
+  "uri": "https://apps.apple.com/ca/app/global-tv/id404050595",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/ac/f2/b1/acf2b176-1513-a4fd-abf2-9e91ad809ccc/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

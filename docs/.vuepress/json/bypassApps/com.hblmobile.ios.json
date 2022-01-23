@@ -1,0 +1,11 @@
+{
+  "name": "HBL Mobile",
+  "bundleId": "com.hblmobile.ios",
+  "uri": "https://apps.apple.com/pk/app/hbl-mobile/id1123585628",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/c6/a1/2f/c6a12f05-4cee-5847-dd4d-42397ee62827/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

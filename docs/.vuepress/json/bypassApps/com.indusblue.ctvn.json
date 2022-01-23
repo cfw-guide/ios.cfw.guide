@@ -1,0 +1,11 @@
+{
+  "name": "CTV News",
+  "bundleId": "com.indusblue.ctvn",
+  "uri": "https://apps.apple.com/us/app/ctv-news/id427789951?l=vi",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8c/2b/e3/8c2be3c1-2549-f553-c292-89eeb2d67669/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

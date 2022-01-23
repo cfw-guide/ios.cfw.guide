@@ -1,0 +1,11 @@
+{
+  "name": "Call of Duty: Mobile",
+  "bundleId": "com.activision.callofduty.shooter",
+  "uri": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/56/46/1a/56461a0c-c699-ae66-0acc-2441aaa5e177/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

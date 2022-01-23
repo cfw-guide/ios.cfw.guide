@@ -1,0 +1,11 @@
+{
+  "name": "Royal Caribbean International",
+  "bundleId": "com.rccl.royalcaribbean",
+  "uri": "https://apps.apple.com/us/app/royal-caribbean-international/id1260728016",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/90/92/a7/9092a7de-6398-8f74-a1b1-c25c0e26a1a2/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

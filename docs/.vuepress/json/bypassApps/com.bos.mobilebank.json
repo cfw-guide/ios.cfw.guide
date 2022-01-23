@@ -1,0 +1,11 @@
+{
+  "name": "Bank of Scotland Mobile Bank",
+  "bundleId": "com.bos.mobilebank",
+  "uri": "https://apps.apple.com/gb/app/bank-of-scotland-mobile-bank/id485728109",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/fa/ec/23/faec237c-cac7-5e71-6cf6-5657ba1a7a0f/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

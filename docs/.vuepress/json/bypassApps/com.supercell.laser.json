@@ -1,0 +1,14 @@
+{
+  "name": "Brawl Stars",
+  "bundleId": "com.supercell.laser",
+  "uri": "https://apps.apple.com/us/app/brawl-stars/id1229016807",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/5c/bc/9f/5cbc9f2b-9e9e-2285-3080-335100d7423e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Choicy"
+    },
+    {
+      "name": "libhooker-configurator"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "HondaLink",
+  "bundleId": "com.honda.hondalink.connect",
+  "uri": "https://apps.apple.com/us/app/hondalink/id750465030",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/35/51/7c/35517cbd-478b-01bd-07a2-65823842b1d7/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Hestia",
+      "notes": "Disable Compatibility Mode and dlopen patches or else app will crash."
+    }
+  ]
+}

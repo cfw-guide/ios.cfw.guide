@@ -1,0 +1,11 @@
+{
+  "name": "CardValet",
+  "bundleId": "com.fiserv.cardvalet",
+  "uri": "https://apps.apple.com/us/app/cardvalet/id849898083",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/3b/13/30/3b1330b7-aacd-64e5-bc52-175a8cf22025/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

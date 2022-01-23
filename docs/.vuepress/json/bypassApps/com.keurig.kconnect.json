@@ -1,0 +1,11 @@
+{
+  "name": "Keurig",
+  "bundleId": "com.keurig.kconnect",
+  "uri": "https://apps.apple.com/us/app/id1200578231",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/3c/56/31/3c563112-daef-3fdc-aff1-5a0f96129b99/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

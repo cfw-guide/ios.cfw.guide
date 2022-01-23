@@ -1,0 +1,11 @@
+{
+  "name": "Evil Hunter Tycoon",
+  "bundleId": "com.superplanet.evilhunter",
+  "uri": "https://apps.apple.com/us/app/evil-hunter-tycoon-nonstop/id1493512288",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/7f/4b/ed/7f4bedbb-3045-79d5-fa8d-3b022e9ba97c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "App uses AppGuard which there are currently no bypasses for."
+    }
+  ]
+}

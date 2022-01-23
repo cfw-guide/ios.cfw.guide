@@ -1,0 +1,11 @@
+{
+  "name": "SBI Card",
+  "bundleId": "com.ge.capital.sbiapp.SBI",
+  "uri": "https://apps.apple.com/in/app/sbi-card/id694549848",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/fb/04/02/fb040211-a793-c7bf-b0ec-db109d83f53a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

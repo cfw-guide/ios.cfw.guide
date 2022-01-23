@@ -1,0 +1,15 @@
+{
+  "name": "Uconnect",
+  "bundleId": "com.fcagroup.us.nguaa",
+  "uri": "https://apps.apple.com/us/app/uconnect/id1229236724",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/ce/7d/38/ce7d388c-fc44-4a49-0a82-ec1eac74ff80/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "UconnectBypass"
+    },
+    {
+      "name": "Flex 3 Beta",
+      "notes": "Repo link is for Flex 3 Beta itself. [Patch link](http://getflex.co/patch/Uconnect-Jailbreak-Bypass/app/Uconnect/id/47138)"
+    }
+  ]
+}

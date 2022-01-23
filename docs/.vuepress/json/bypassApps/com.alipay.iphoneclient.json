@@ -1,0 +1,11 @@
+{
+  "name": "Alipay",
+  "bundleId": "com.alipay.iphoneclient",
+  "uri": "https://apps.apple.com/us/app/alipay-simplify-your-life/id333206289",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/74/be/91/74be91e1-e57a-ccde-be65-691011fcb5ff/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

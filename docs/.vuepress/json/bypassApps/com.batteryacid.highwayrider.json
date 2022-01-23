@@ -1,0 +1,11 @@
+{
+  "name": "Highway Rider",
+  "bundleId": "com.batteryacid.highwayrider",
+  "uri": "https://apps.apple.com/us/app/highway-rider/id494833223",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/a7/4b/e5/a74be594-0d4c-1e8b-23fb-c74c3b0ff42f/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Warning popup but lets you use it"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "boohoo",
+  "bundleId": "com.boohoo.app",
+  "uri": "https://apps.apple.com/us/app/boohoo-clothing-shop/id1018236462",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/35/0c/ea/350cea59-2730-2d55-7165-83b3f2356e39/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

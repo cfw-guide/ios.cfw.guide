@@ -1,0 +1,11 @@
+{
+  "name": "All 4",
+  "bundleId": "uk.co.channel4.ios.4od",
+  "uri": "https://apps.apple.com/gb/app/all-4-watch-live-on-demand/id432494037",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/8a/4f/7d8a4fc5-7a1e-f3c3-3b3b-239e4d5e17ba/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

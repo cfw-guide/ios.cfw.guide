@@ -1,0 +1,15 @@
+{
+  "name": "TikTok",
+  "bundleId": "com.zhiliaoapp.musically",
+  "uri": "https://apps.apple.com/us/app/tiktok/id835599320",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/66/6f/e2666f4d-98be-2116-9455-11c13c14b72f/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "AppStore++",
+      "notes": "Downgrade the app to the specified version."
+    }
+  ]
+}

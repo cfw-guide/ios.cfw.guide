@@ -1,0 +1,11 @@
+{
+  "name": "C6 Bank",
+  "bundleId": "br.com.c6bank.app",
+  "uri": "https://apps.apple.com/br/app/c6-bank-cart%C3%A3o-conta-e-mais/id1463463143",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/0b/c8/db/0bc8dba3-5426-e3fe-8907-119a44f00528/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

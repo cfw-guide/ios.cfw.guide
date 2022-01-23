@@ -1,0 +1,11 @@
+{
+  "name": "SmartWallet",
+  "bundleId": "br.com.coinbr.smartwallet",
+  "uri": "https://apps.apple.com/us/app/smartwallet/id1302270848",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/2b/10/65/2b1065d8-fdac-3f97-fed0-85a4ce398774/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

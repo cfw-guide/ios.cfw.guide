@@ -1,0 +1,11 @@
+{
+  "name": "8 Ball Pool",
+  "bundleId": "com.miniclip.8ballpoolmult",
+  "uri": "https://apps.apple.com/us/app/8-ball-pool/id543186831",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/33/81/96/3381967f-7878-b103-5530-7776c97591d5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

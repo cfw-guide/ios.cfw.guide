@@ -1,0 +1,11 @@
+{
+  "name": "Beforepay",
+  "bundleId": "au.com.cheq",
+  "uri": "https://apps.apple.com/au/app/beforepay-pay-on-demand/id1478582360",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/b6/d3/5b/b6d35b75-e444-f854-2410-a57f3797652c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

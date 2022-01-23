@@ -1,0 +1,11 @@
+{
+  "name": "Geon App",
+  "bundleId": "com.geonnetwork.geon",
+  "uri": "https://apps.apple.com/us/app/geon-app/id1326822819",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/cd/ea/87/cdea87b6-2638-027a-5482-7bd621dfa90f/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Absher",
+  "bundleId": "gov.moi.absher",
+  "uri": "https://apps.apple.com/us/app/absher-%D8%A3%D8%A8%D8%B4%D8%B1/id1004966456",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/82/97/b7/8297b742-9e86-b228-41bb-dcef218ea151/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Hestia",
+      "notes": "Disable `Compatibility Mode` and dlopen patches, or else app will crash."
+    }
+  ]
+}

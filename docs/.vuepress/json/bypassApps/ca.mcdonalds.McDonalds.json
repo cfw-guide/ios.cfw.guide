@@ -1,0 +1,11 @@
+{
+  "name": "McDonald's Canada",
+  "bundleId": "ca.mcdonalds.McDonalds",
+  "uri": "https://apps.apple.com/ca/app/mcdonalds-canada/id375695000",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/49/a2/aa/49a2aab3-afa7-a455-1cd8-953c74838524/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

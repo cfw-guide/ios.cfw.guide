@@ -1,0 +1,11 @@
+{
+  "name": "PREMIER Credit Card",
+  "bundleId": "com.firstpremier.premiercard",
+  "uri": "https://apps.apple.com/us/app/premier-credit-card/id1476775662",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/40/19/7a/40197aa4-8697-5f74-1ee7-f440144d65d4/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "PREMIER Credit Card JB Bypass"
+    }
+  ]
+}

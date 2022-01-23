@@ -1,0 +1,18 @@
+{
+  "name": "Gemini: Buy Bitcoin & Crypto",
+  "bundleId": "com.gemini.ios",
+  "uri": "https://apps.apple.com/us/app/gemini-buy-bitcoin-and-crypto/id1408914447",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/77/9c/ae/779cae7c-e43a-0b02-c2a7-303b5e01a9f3/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Hestia",
+      "notes": "Keep dlopen patches disabled."
+    }
+  ]
+}

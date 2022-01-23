@@ -1,0 +1,17 @@
+{
+  "name": "Hot Slide",
+  "bundleId": "com.tapcheer.hotslide",
+  "uri": "https://apps.apple.com/us/app/hot-slide/id1332599245",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/14/74/d6/1474d674-326a-bef8-3851-296710dec8fb/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "FlyJB"
+    },
+    {
+      "notes": "Use BOTH Shadow and FlyJB"
+    }
+  ]
+}

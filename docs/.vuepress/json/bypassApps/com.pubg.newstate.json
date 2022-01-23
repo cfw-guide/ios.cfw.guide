@@ -1,0 +1,11 @@
+{
+  "name": "PUBG: NEW STATE",
+  "bundleId": "com.pubg.newstate",
+  "uri": "https://apps.apple.com/us/app/pubg-new-state/id1542727626",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/b0/1b/7d/b01b7d5a-4dcf-bf33-d83a-3b42bba9be07/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "PUBG JB Bypass"
+    }
+  ]
+}

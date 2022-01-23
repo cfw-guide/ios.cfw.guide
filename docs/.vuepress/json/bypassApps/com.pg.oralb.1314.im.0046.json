@@ -1,0 +1,11 @@
+{
+  "name": "Oral-B",
+  "bundleId": "com.pg.oralb.1314.im.0046",
+  "uri": "https://apps.apple.com/us/app/oral-b/id698092608",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/8a/7d/42/8a7d424b-5ba9-2588-911a-809cfde5d545/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Looks like jailbreak detection has been removed from the app; however, raise an issue on GitHub if you find any trouble."
+    }
+  ]
+}

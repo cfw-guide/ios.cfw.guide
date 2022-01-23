@@ -1,0 +1,11 @@
+{
+  "name": "FNB Direct",
+  "bundleId": "com.fnbpa.mobile",
+  "uri": "https://apps.apple.com/us/app/fnb-direct/id524987109",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/ce/98/8e/ce988ee5-2d8e-2f23-900f-36342ee75898/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

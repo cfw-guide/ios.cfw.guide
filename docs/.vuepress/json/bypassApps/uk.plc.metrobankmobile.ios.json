@@ -1,0 +1,11 @@
+{
+  "name": "Metro Bank",
+  "bundleId": "uk.plc.metrobankmobile.ios",
+  "uri": "https://apps.apple.com/gb/app/metro-bank/id1175525592",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/37/0d/11370df2-41c1-2136-4740-ba9ca7bf6caa/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

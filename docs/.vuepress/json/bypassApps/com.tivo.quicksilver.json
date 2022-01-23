@@ -1,0 +1,11 @@
+{
+  "name": "TiVo",
+  "bundleId": "com.tivo.quicksilver",
+  "uri": "https://apps.apple.com/us/app/tivo/id401673976",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/e1/27/4a/e1274a3f-440b-8b9d-8542-d18b7a5b1174/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "App doesn't seem to have jailbreak detection."
+    }
+  ]
+}

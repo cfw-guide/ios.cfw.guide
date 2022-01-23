@@ -1,0 +1,14 @@
+{
+  "name": "SCB Easy",
+  "bundleId": "com.scb.iphone",
+  "uri": "https://apps.apple.com/us/app/scb-easy/id568388474",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/01/b8/7f/01b87fbe-35a0-e9e7-69cb-6d015da30620/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

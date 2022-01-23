@@ -1,0 +1,11 @@
+{
+  "name": "NBE Mobile",
+  "bundleId": "com.nbe.mBanking",
+  "uri": "https://apps.apple.com/us/app/nbe-mobile/id1486145357",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/13/fa/2b/13fa2b92-24c6-14ea-e3b2-0e37e5e4cbbd/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

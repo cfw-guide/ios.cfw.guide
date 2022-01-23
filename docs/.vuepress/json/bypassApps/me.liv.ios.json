@@ -1,0 +1,12 @@
+{
+  "name": "Liv. UAE",
+  "bundleId": "me.liv.ios",
+  "uri": "https://apps.apple.com/us/app/liv-uae-digital-bank/id1231846103",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/17/11/32/17113241-306f-828e-9d62-6af01d2c0325/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow",
+      "notes": "Apply the recommended settings from the guide and enable `Lockdown Mode`."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Inter",
+  "bundleId": "br.com.intermedium",
+  "uri": "https://apps.apple.com/us/app/inter-abrir-conta-digital/id839711154",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/23/e4/11/23e41172-8e35-1ec8-fde4-64b0a9a23718/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Hestia",
+      "notes": "Compatibility Mode <strong>must</strong> be <strong>disabled</strong> for Hestia to work"
+    },
+    {
+      "name": "InteJB",
+      "notes": "Compatibility Mode <strong>must</strong> be <strong>disabled</strong> for Hestia to work"
+    }
+  ]
+}

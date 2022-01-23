@@ -1,0 +1,12 @@
+{
+  "name": "Liv. KSA",
+  "bundleId": "sa.liv.ios",
+  "uri": "https://apps.apple.com/us/app/liv-ksa-digital-banking/id1494691974",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/d0/46/41/d04641a5-9718-6bda-2d38-1e886be615a8/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow",
+      "notes": "Apply the recommended settings from the guide and enable `Lockdown Mode`."
+    }
+  ]
+}

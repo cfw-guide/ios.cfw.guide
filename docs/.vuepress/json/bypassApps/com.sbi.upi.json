@@ -1,0 +1,12 @@
+{
+  "name": "BHIM SBI Pay",
+  "bundleId": "com.sbi.upi",
+  "uri": "https://apps.apple.com/us/app/bhim-sbipay/id1342240155",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/99/34/b0/9934b097-dd8f-e1ba-1eae-3d2a2a77d5c6/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow",
+      "notes": "Lockdown Mode must be enabled."
+    }
+  ]
+}

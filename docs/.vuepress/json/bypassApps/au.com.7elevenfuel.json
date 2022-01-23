@@ -1,0 +1,11 @@
+{
+  "name": "My 7-Eleven",
+  "bundleId": "au.com.7elevenfuel",
+  "uri": "https://apps.apple.com/au/app/my-7-eleven/id1032594453",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/07/7c/a7/077ca7b9-9795-febc-e386-24c43b2e889b/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

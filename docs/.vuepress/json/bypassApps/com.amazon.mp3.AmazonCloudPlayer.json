@@ -1,0 +1,11 @@
+{
+  "name": "Amazon Music",
+  "bundleId": "com.amazon.mp3.AmazonCloudPlayer",
+  "uri": "https://apps.apple.com/us/app/amazon-music-songs-podcasts/id510855668",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/48/6c/bd/486cbde4-74a3-ffcc-f7d3-a98f5ceab5bb/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Xbox",
+  "bundleId": "com.microsoft.smartglass",
+  "uri": "https://apps.apple.com/us/app/xbox/id736179781",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/6c/a5/0f/6ca50ff2-ce80-f3a9-cc62-b8a71c403461/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

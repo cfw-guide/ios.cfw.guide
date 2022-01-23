@@ -1,0 +1,14 @@
+{
+  "name": "PhonePe",
+  "bundleId": "com.phonepe.PhonePeApp",
+  "uri": "https://apps.apple.com/in/app/phonepe-recharge-investment/id1170055821",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/1e/c0/09/1ec00968-e40c-640e-1ed5-8c2720408836/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ALEXBANK Mobile Banking",
+  "bundleId": "hr.asseco.ios.intesa.isbd.mbanking.alex",
+  "uri": "https://apps.apple.com/eg/app/alexbank-mobile-banking/id1246718290",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/35/8d/9e/358d9ef7-5dd5-895b-957d-443d0f713eee/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

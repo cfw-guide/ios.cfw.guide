@@ -1,0 +1,14 @@
+{
+  "name": "UKG Dimensions",
+  "bundleId": "com.kronos.dimensions.phone",
+  "uri": "https://apps.apple.com/us/app/ukg-dimensions/id1321967136",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/a2/64/1d/a2641d0b-12bc-e4c6-6ac3-31ef2777a96e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "WFDBP"
+    }
+  ]
+}

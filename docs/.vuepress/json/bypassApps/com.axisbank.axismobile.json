@@ -1,0 +1,11 @@
+{
+  "name": "Axis Bank Mobile Banking",
+  "bundleId": "com.axisbank.axismobile",
+  "uri": "https://apps.apple.com/in/app/axis-bank-mobile-banking/id699582556",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/ca/b6/0d/cab60d5d-326a-9b06-c3c3-d960b6292cd2/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Axis Bank Patch"
+    }
+  ]
+}

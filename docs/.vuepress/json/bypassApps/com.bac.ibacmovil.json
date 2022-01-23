@@ -1,0 +1,19 @@
+{
+  "name": "Banca Móvil BAC Credomatic",
+  "bundleId": "com.bac.ibacmovil",
+  "uri": "https://apps.apple.com/us/app/banca-m%C3%B3vil-bac-credomatic/id465508552",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/50/da/75/50da7582-34c1-e2e0-e31f-17b6ce09cea5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    },
+    {
+      "name": "Shadow",
+      "notes": "Enable `Lockdown Mode` as well after following the instructions in the guide."
+    },
+    {
+      "name": "Hestia",
+      "notes": "Enable `Lockdown Mode` as well after following the instructions in the guide.\nEnable `Compatbility Mode` and dlopen patches, disable Image Check Patches, or else app with crash."
+    }
+  ]
+}

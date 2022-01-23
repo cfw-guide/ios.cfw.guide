@@ -1,0 +1,11 @@
+{
+  "name": "ING Italia",
+  "bundleId": "it.ingdirect.ingdirectitalia",
+  "uri": "https://apps.apple.com/us/app/ing-italia/id583924672",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/3a/bc/ca/3abcca2d-4eac-c1b5-f8b4-df4b4f35c864/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Warning popup but lets you use it"
+    }
+  ]
+}

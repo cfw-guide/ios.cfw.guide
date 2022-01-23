@@ -1,0 +1,14 @@
+{
+  "name": "MobiKwik",
+  "bundleId": "com.mobikwik",
+  "uri": "https://apps.apple.com/us/app/mobikwik-recharge-bill-pay/id600002523",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/6a/1f/ea6a1f4e-ca09-6df0-0c03-614ceaa72328/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

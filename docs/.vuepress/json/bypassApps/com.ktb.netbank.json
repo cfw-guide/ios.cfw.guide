@@ -1,0 +1,11 @@
+{
+  "name": "Krungthai NEXT",
+  "bundleId": "com.ktb.netbank",
+  "uri": "https://apps.apple.com/us/app/krungthai-next/id436753378",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/94/de/27/94de27ea-98c2-5d97-686b-8129effbfba6/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

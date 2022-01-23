@@ -1,0 +1,14 @@
+{
+  "name": "Pro Camera by Moment",
+  "bundleId": "co.momentlens.moment",
+  "uri": "https://apps.apple.com/us/app/pro-camera-by-moment/id927098908",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/df/b0/33/dfb03311-29a7-1240-20dd-8cf2ded7d864/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Choicy"
+    },
+    {
+      "name": "libhooker-configurator"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Ziggo GO",
+  "bundleId": "com.upc.horizon.GO.ziggogo",
+  "uri": "https://apps.apple.com/nl/app/ziggo-go/id1156417365",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/00/43/ab/0043abd8-37de-a873-aab7-eb1dbe65221a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

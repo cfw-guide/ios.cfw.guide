@@ -1,0 +1,12 @@
+{
+  "name": "Emirates NBD",
+  "bundleId": "emiratesnbd.atmlocator",
+  "uri": "https://apps.apple.com/ae/app/emirates-nbd/id505092748",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/50/f0/37/50f03788-f258-8208-6713-81111b8c2134/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow",
+      "notes": "Apply the recommended settings from the guide and enable `Lockdown Mode`. Keep the beta toggles disabled."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "IndusMobile",
+  "bundleId": "com.fss.IndusMobile",
+  "uri": "https://apps.apple.com/in/app/indusmobile-digital-banking/id499499672",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/2e/d2/b9/2ed2b95d-8668-639c-41f0-742c4b2e27f1/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "BMO Mobile Banking",
+  "bundleId": "com.bmo.mbanking",
+  "uri": "https://apps.apple.com/ca/app/bmo-mobile-banking/id429080319",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/54/3a/f6/543af641-23e6-893c-5ac2-d195744bf905/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

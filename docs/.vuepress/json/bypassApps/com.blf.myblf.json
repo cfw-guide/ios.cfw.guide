@@ -1,0 +1,17 @@
+{
+  "name": "My BLF",
+  "bundleId": "com.blf.myblf",
+  "uri": "https://apps.apple.com/us/app/my-blf/id486351899",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/2c/51/60/2c516053-4507-5ae0-0870-1a5f8223fda8/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Banks Patch"
+    }
+  ]
+}

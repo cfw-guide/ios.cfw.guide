@@ -1,0 +1,11 @@
+{
+  "name": "Jyske Bank",
+  "bundleId": "dk.jyskebank.drb",
+  "uri": "https://apps.apple.com/us/app/jyske-bank/id1489702000",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/f2/39/0f/f2390f60-cb9e-f6fa-4bb2-96eb463547f5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Jyske Bank JB Bypass"
+    }
+  ]
+}

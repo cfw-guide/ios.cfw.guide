@@ -1,0 +1,11 @@
+{
+  "name": "NBK Mobile Banking",
+  "bundleId": "com.nbk.mobilegateway.NBK",
+  "uri": "https://apps.apple.com/us/app/nbk-mobile-banking/id451107234",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/35/c6/8b35c622-7d45-344f-ebe2-60c5a78348b4/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "NBKJB"
+    }
+  ]
+}

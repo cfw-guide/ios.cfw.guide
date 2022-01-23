@@ -1,0 +1,14 @@
+{
+  "name": "Bank Audi",
+  "bundleId": "com.mobikick.pinpay.audimobile2",
+  "uri": "https://apps.apple.com/us/app/bank-audi/id846028926",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/c8/4d/a1/c84da1cc-c0f6-66fc-2e6d-0862f7fec488/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Banks Patch"
+    },
+    {
+      "notes": "Detection isn't triggered until login."
+    }
+  ]
+}

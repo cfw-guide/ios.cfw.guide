@@ -1,0 +1,14 @@
+{
+  "name": "OSN",
+  "bundleId": "com.osn.go",
+  "uri": "https://apps.apple.com/us/app/osn-streaming-app/id862390640",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/fb/1f/90/fb1f9033-40f4-9cc1-0218-9395c2fdfd20/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

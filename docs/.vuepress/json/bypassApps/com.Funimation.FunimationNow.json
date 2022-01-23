@@ -1,0 +1,11 @@
+{
+  "name": "Funimation",
+  "bundleId": "com.Funimation.FunimationNow",
+  "uri": "https://apps.apple.com/us/app/funimation/id1075603018",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2e/73/52/2e73524f-8ba7-32a9-0893-1b3b815ec8e1/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Funimation JB Bypass"
+    }
+  ]
+}

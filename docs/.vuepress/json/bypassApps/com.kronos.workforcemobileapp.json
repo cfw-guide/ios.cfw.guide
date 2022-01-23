@@ -1,0 +1,11 @@
+{
+  "name": "UKG Workforce Central",
+  "bundleId": "com.kronos.workforcemobileapp",
+  "uri": "https://apps.apple.com/us/app/ukg-workforce-central/id404059113",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/60/13/66/601366d9-74a7-427c-f844-9e3318e2853c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

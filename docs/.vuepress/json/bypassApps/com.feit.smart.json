@@ -1,0 +1,11 @@
+{
+  "name": "Feit Electric",
+  "bundleId": "com.feit.smart",
+  "uri": "https://apps.apple.com/us/app/feit-electric/id1333066476",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c1/5b/ac/c15bacca-fb58-e947-3602-5c2345380324/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Warning but lets you use it"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Marcus",
+  "bundleId": "com.marcus.ios",
+  "uri": "https://apps.apple.com/us/app/marcus-save-borrow-invest/id1489511701",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/df/4f/b9/df4fb903-5e45-2d7d-2fd4-7a0a0e20dc22/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

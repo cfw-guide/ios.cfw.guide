@@ -1,0 +1,11 @@
+{
+  "name": "Tuya Smart",
+  "bundleId": "com.tuya.smart",
+  "uri": "https://apps.apple.com/us/app/tuya-smart/id1034649547",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/9f/f8/b89ff80e-384e-21ff-6aca-f9585178467e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Warning popup but lets you use it"
+    }
+  ]
+}

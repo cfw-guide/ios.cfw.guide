@@ -1,0 +1,11 @@
+{
+  "name": "Chase Mobile",
+  "bundleId": "com.chase",
+  "uri": "https://apps.apple.com/us/app/chase-mobile-bank-invest/id298867247",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/83/3b/30/833b3058-f9da-a591-296e-00304e36a6fc/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "My Ooredoo Kuwait",
+  "bundleId": "com.wataniya.wataniyakuwait",
+  "uri": "https://apps.apple.com/us/app/my-ooredoo-kuwait/id549770639",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/0c/04/7a/0c047a1f-4e54-b783-8387-29959d7c21c5/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Hestia"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

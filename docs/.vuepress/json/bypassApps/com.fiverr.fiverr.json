@@ -1,0 +1,11 @@
+{
+  "name": "Fiverr",
+  "bundleId": "com.fiverr.fiverr",
+  "uri": "https://apps.apple.com/us/app/fiverr-freelance-services/id346080608",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/60/70/07/607007ca-a647-5701-2f7e-da5babc5dc59/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Philips Sonicare",
+  "bundleId": "com.philips.ph.hw.ohc.sonicare",
+  "uri": "https://apps.apple.com/us/app/philips-sonicare/id1047099766",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/bb/7c/16/bb7c16ed-ac2a-663b-5f3b-10fd4a50ff17/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    },
+    {
+      "name": "Choicy"
+    },
+    {
+      "name": "libhooker-configurator"
+    },
+    {
+      "notes": "Use Choicy **or** libhooker-configurator to allow injection for only `zzzzzLiberty`"
+    }
+  ]
+}

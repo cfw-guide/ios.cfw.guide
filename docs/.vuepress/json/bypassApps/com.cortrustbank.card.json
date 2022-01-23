@@ -1,0 +1,17 @@
+{
+  "name": "CorTrust Bank Smartcard",
+  "bundleId": "com.cortrustbank.card",
+  "uri": "https://apps.apple.com/us/app/cortrust-bank-smartcard/id1569414568",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/96/46/a6/9646a654-5b2a-2483-b451-482f6456d66f/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Hestia"
+    }
+  ]
+}

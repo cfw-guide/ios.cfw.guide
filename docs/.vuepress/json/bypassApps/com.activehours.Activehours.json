@@ -1,0 +1,11 @@
+{
+  "name": "Earnin",
+  "bundleId": "com.activehours.Activehours",
+  "uri": "https://apps.apple.com/us/app/earnin-get-cash-before-payday/id723815926",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/36/d7/ea/36d7eab4-129d-a74f-69f1-c1a4fdd61eda/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass"
+    }
+  ]
+}

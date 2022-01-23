@@ -1,0 +1,12 @@
+{
+  "name": "Uber - Driver",
+  "bundleId": "com.ubercab.UberPartner",
+  "uri": "https://apps.apple.com/us/app/uber-driver-drive-deliver/id1131342792",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/20/82/10/20821045-39c8-697d-f068-788cc1701f7d/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "vnodebypass",
+      "notes": "Exercise caution when using kernel-level bypasses."
+    }
+  ]
+}

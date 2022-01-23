@@ -1,0 +1,14 @@
+{
+  "name": "Amazon Chime",
+  "bundleId": "com.amazon.chime",
+  "uri": "https://apps.apple.com/us/app/amazon-chime/id1183436022",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/e3/cb/fb/e3cbfb6c-3761-d59f-fa47-568f1399532e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}

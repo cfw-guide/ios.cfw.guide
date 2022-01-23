@@ -1,0 +1,11 @@
+{
+  "name": "DIRECTV",
+  "bundleId": "com.directv.DTViPhone",
+  "uri": "https://apps.apple.com/us/app/directv/id307386350",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/1d/00/2e/1d002e7f-dadf-1530-9e3e-7bdb9050b132/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "DIRECTV JB Bypass"
+    }
+  ]
+}

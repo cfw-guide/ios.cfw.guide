@@ -1,0 +1,11 @@
+{
+  "name": "Southwest Airlines",
+  "bundleId": "com.southwest.iphoneprod",
+  "uri": "https://apps.apple.com/us/app/southwest-airlines/id344542975",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/df/1b/14/df1b148d-cad2-d9d9-40f2-d43e4bf7df8b/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Hestia"
+    }
+  ]
+}

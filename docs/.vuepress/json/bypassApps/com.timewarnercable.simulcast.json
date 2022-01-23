@@ -1,0 +1,21 @@
+{
+  "name": "Spectrum TV",
+  "bundleId": "com.timewarnercable.simulcast",
+  "uri": "https://apps.apple.com/us/app/spectrum-tv/id420455839",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/2c/bf/46/2cbf4646-e7a1-df1e-0880-ab72b7d02e8e/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    },
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Shadow"
+    },
+    {
+      "name": "Hestia",
+      "notes": "Disable dlopen patches, Compatibility Mode and Image Check Patches or else the app will crash."
+    }
+  ]
+}

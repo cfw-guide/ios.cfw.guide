@@ -1,0 +1,11 @@
+{
+  "name": "StubHub",
+  "bundleId": "com.stubhub.stubhub",
+  "uri": "https://apps.apple.com/us/app/stubhub-event-tickets/id366562751",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/1d/a3/b6/1da3b6fb-48ae-f510-f961-2759df78bb1a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

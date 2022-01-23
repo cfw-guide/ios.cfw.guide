@@ -1,0 +1,11 @@
+{
+  "name": "Animal Crossing: Pocket Camp",
+  "bundleId": "com.nintendo.zaca",
+  "uri": "https://apps.apple.com/us/app/animal-crossing-pocket-camp/id1179915619",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/f1/a2/f2/f1a2f2a7-8829-358c-d191-ad1440ed8dba/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "FlyJB"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "AASTOCKS M+ Mobile",
+  "bundleId": "com.aastocks.app1",
+  "uri": "https://apps.apple.com/hk/app/aastocks-m-mobile/id368726182",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/76/6d/f4766d05-2f00-40ef-180f-4215b95b0e43/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "FlyJB"
+    }
+  ]
+}

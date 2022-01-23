@@ -1,0 +1,11 @@
+{
+  "name": "Olive Garden Italian Kitchen",
+  "bundleId": "com.darden.mobile.olivegarden",
+  "uri": "https://apps.apple.com/us/app/olive-garden-italian-kitchen/id1067313166",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ae/09/40/ae0940d9-3bce-5dd9-daee-17fc84b53720/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

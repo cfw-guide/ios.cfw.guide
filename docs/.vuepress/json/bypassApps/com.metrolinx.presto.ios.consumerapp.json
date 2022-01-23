@@ -1,0 +1,11 @@
+{
+  "name": "PRESTO",
+  "bundleId": "com.metrolinx.presto.ios.consumerapp",
+  "uri": "https://apps.apple.com/ca/app/presto/id1437927882",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/8d/03/b3/8d03b388-77ca-f266-a2dc-e491dd4610ce/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "PRESTO JB Bypass"
+    }
+  ]
+}

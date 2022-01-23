@@ -1,0 +1,15 @@
+{
+  "name": "Tesco Clubcard",
+  "bundleId": "com.tesco.TescoClubcard",
+  "uri": "https://apps.apple.com/gb/app/tesco-clubcard/id351841850",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/63/e6/19/63e61984-cc71-e66a-6e81-b35ad6ca6131/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    },
+    {
+      "name": "HideJB",
+      "notes": "Disable the \"plus more beta\" option in HideJB"
+    }
+  ]
+}

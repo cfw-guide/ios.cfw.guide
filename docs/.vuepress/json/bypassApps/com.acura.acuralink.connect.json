@@ -1,0 +1,11 @@
+{
+  "name": "Acuralink",
+  "bundleId": "com.acura.acuralink.connect",
+  "uri": "https://apps.apple.com/us/app/acuralink/id610964308",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3e/23/bc/3e23bc00-5931-bc2c-cb64-dd67d67501e3/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Shadow"
+    }
+  ]
+}

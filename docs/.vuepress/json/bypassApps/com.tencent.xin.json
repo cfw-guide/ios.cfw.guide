@@ -1,0 +1,11 @@
+{
+  "name": "WeChat",
+  "bundleId": "com.tencent.xin",
+  "uri": "https://apps.apple.com/us/app/wechat/id414478124",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e5/d2/99/e5d29907-96d0-874b-9368-5d2972655f29/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

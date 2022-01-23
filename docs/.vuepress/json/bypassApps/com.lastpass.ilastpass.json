@@ -1,0 +1,11 @@
+{
+  "name": "LastPass",
+  "bundleId": "com.lastpass.ilastpass",
+  "uri": "https://apps.apple.com/us/app/lastpass-password-manager/id324613447",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/60/99/f1/6099f1dd-288b-5723-f9ee-13e9effb7e2c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "Warning popup but lets you use it"
+    }
+  ]
+}

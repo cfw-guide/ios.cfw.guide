@@ -1,0 +1,11 @@
+{
+  "name": "BTS WORLD",
+  "bundleId": "com.netmarble.btsw",
+  "uri": "https://apps.apple.com/us/app/bts-world/id1435577798",
+  "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/99/e1/61/99e161cc-130c-1f50-b7ce-93068c4cf8c3/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
+}

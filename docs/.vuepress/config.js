@@ -2,7 +2,13 @@ const { localePath, locales, themeConfigLocales, searchLocales } = require("./i1
 const path = require("path")
 const fs = require("fs")
 
-const mainObj = { ios: require('./json/ios'), jailbreak: require('./json/jailbreak'), device: require('./json/deviceList'), groups: require('./json/deviceGroups') }
+const mainObj = {
+  ios: require('./json/ios'),
+  jailbreak: require('./json/jailbreak'),
+  device: require('./json/deviceList'),
+  groups: require('./json/deviceGroups'),
+  bypass: require('./json/jbBypass')
+}
 
 module.exports = {
   locales: locales,

@@ -1,0 +1,11 @@
+{
+  "name": "AFL Live Official App",
+  "bundleId": "com.telstra.afl.2011",
+  "uri": "https://apps.apple.com/au/app/afl-live-official-app/id415427158",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/a7/01/19/a7011967-842c-74a4-9074-c1f4b9dcc70a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)"
+    }
+  ]
+}

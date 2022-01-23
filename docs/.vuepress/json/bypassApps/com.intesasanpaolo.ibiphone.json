@@ -1,0 +1,12 @@
+{
+  "name": "Intesa Sanpaolo Mobile",
+  "bundleId": "com.intesasanpaolo.ibiphone",
+  "uri": "https://apps.apple.com/us/app/intesa-sanpaolo-mobile/id597360475",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/1c/3b/de/1c3bdee5-c571-3a86-1ba0-2a2bcca3336c/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)",
+      "notes": "Use Choicy **or** libhooker-configurator to allow injection for only `zzzzzLiberty`"
+    }
+  ]
+}

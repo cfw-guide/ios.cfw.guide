@@ -1,0 +1,12 @@
+{
+  "name": "Hang Seng Personal Banking",
+  "bundleId": "com.hangseng.rbmobileapp",
+  "uri": "https://apps.apple.com/hk/app/hang-seng-personal-banking/id1039256353?l=en",
+  "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/03/bd/37/03bd37af-cf98-3b98-a6d1-6dd3d0c16803/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "Liberty Lite (Beta)",
+      "notes": "Use AppStore++ ([repo](https://beerpsi.me/sharerepo/?repo=https://beerpsi.me/sharerepo/?repo=https://cokepokes.github.io)) to downgrade.\nRequires further workarounds noted [here](https://bypass.beerpsi.me/#/special-workarounds.md?id=hang-seng-personal-banking)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "BURGER KING App",
+  "bundleId": "com.emn8.mobilem8.native.bkrewards",
+  "uri": "https://apps.apple.com/us/app/burger-king-app/id638323895",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/a3/9e/34/a39e34df-7466-f111-6eba-fe304146791a/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "notes": "App doesn't appear to have any detection."
+    }
+  ]
+}
