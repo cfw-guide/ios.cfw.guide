@@ -103,7 +103,7 @@ page.push({
   ${require('./devicePage')(['iPod'], '/get-started/', false)}`
 })
 
-for (var device in deviceList) {
+/*for (var device in deviceList) {
   // Device specific charts
   page.push({
     path: '/chart/device/' + device + '.html',
@@ -117,7 +117,7 @@ for (var device in deviceList) {
     },
     content: require('./deviceTable')(device, false, -1, false, false)
   })
-};
+};*/
 
 for (const i in deviceGroups) {
   const d = deviceGroups[i];

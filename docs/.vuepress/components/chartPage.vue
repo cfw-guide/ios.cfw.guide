@@ -12,6 +12,7 @@
       
       <firmwareVersion v-if="chartType == 'firmware'"/>
       <jailbreak v-if="chartType == 'jailbreak'"/>
+      <device v-if="chartType == 'device'"/>
       
       <div v-if="adTagTwo && adsBool" style="text-align: center;">
           <div :id="adTagTwo"></div>
@@ -34,6 +35,7 @@ import { useThemeLocaleData } from '../vuepress-theme/lib/client/composables'
 
 import firmwareVersion from './firmwareVersion.vue'
 import jailbreak from './jailbreak.vue'
+import device from './device.vue'
 
 const themeLocale = useThemeLocaleData()
 

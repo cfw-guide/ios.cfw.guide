@@ -77,6 +77,24 @@ for (var jb in jbList) {
   })
 }
 
+for (var d in deviceList) {
+  pageList.push({
+    path: `${devicePath}${d}.html`,
+    frontmatter: {
+      title: `Firmware Chart (${deviceList[d].name})`,
+      description: `Find out what jailbreaks you can use on your ${deviceList[d].name}`,
+      layout: 'chartLayout',
+      chartType: 'device',
+      device: deviceList[d],
+      group: null,
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false
+    }
+  })
+}
+
 module.exports = function() {
   return {
     name: 'vuepress-new-dynamic-pages',
