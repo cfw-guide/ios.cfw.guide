@@ -2,21 +2,19 @@
 lang: en-US
 title: Updating to 14.8 (Dallas)
 description: Guide on updating to 14.8 using the Dallas tweak
-permalink: /updating-to-14-8-(dallas)
+permalink: /updating-(dallas)
 redirect_from:
-  - /dallas
-  - /updating-(dallas)
+  #- /dallas
+  #- /updating-(dallas)
 extra_contributors:
   - DhinakG
 ---
 
 ## Required Reading
 
-While iOS 14.8 is unsigned, it can still be updated to for an unknown amount of time using the `Dallas` tweak.
-
 ::: warning
 
-We don't recommend following this unless your device has a jailbreak on 14.8 - which can be confirmed at the <router-link to="/get-started">Get Started</router-link> page
+This method is now dead, and this page is being kept for when Dallas receives an update to allow for non-14.8 usage
 
 :::
 

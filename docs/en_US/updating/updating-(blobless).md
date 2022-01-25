@@ -17,6 +17,7 @@ redirect_from:
   - /updating-to-14-8-(blobless-alternate)
   - /updating-to-15-0-2-(blobless)
   - /updating-alternate-edit
+  - /updating-to-14-8-(dallas)
 ---
 
 ## Required Reading
@@ -36,12 +37,6 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 ::: tip
 
 You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-(blobless-advanced)">Updating (Blobless) (Advanced)</router-link> instead.
-
-:::
-
-::: tip
-
-If you are trying to go to iOS 14.8, follow <router-link to="/updating-to-14-8-(dallas)">Updating to 14.8 (Dallas)</router-link>
 
 :::
 
