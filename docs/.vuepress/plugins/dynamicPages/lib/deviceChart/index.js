@@ -1,18 +1,4 @@
-var page = [];
-
-// Main chart
-page.push({
-  path: '/chart.html',
-  frontmatter: {
-    title: 'Firmware Chart',
-    description: 'iOS Jailbreak Firmware Chart',
-    sidebar: false,
-    editLink: false,
-    lastUpdated: false,
-    contributors: false,
-  },
-  content: require('./deviceTable')('', true, -1, false, false)
-})
+var page = []
 
 // Device listing
 var types = ['iPhone', 'iPad', 'iPod', 'TV', 'Watch']

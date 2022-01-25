@@ -20,7 +20,7 @@
       </tr>
       <template v-for="fw in getFwArr" :key="fw">
         <tr v-if="!fw.beta || (fw.beta && showBeta)">
-          <td><a v-html="fw.build" :href="firmwarePath + fw.build + '.html'"/></td>
+          <td><a v-html="fw.build.replace('-RC','').replace('-GM','')" :href="firmwarePath + fw.build + '.html'"/></td>
           <td v-html="fw.version"/>
           <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
           <td v-else v-html="noJbStr"/>
@@ -103,6 +103,7 @@ export default {
       else return this.modelStr.format({ model: deviceModel.join(', ') })
     },
     infoData() {
+      if (!this.frontmatter.device && !this.frontmatter.group) return []
       return [
         this.deviceName,
         this.deviceIdentifier,
@@ -120,7 +121,8 @@ export default {
       // If frontmatter has group, use that group
       if (this.frontmatter.group) group = this.frontmatter.group
       // If frontmatter does not have group, grab group from list
-      else group = json.groups.filter(x => x.devices.includes(this.frontmatter.device.identifier))[0]
+      else if (this.frontmatter.device) group = json.groups.filter(x => x.devices.includes(this.frontmatter.device.identifier))[0]
+      else return []
 
       // Check if group is valid
       if (!group) return
@@ -136,30 +138,36 @@ export default {
     },
     getFwArr() {
       var devArr
+      var noDevice = false
       if (this.frontmatter.group) devArr = this.groupedDevices.map(x => x.identifier)
-      else devArr = [this.frontmatter.device.identifier]
-      var fwArr = []
-      for (var d in devArr) {
-        var devFwArr = this.firmwares.filter(function(x) {
-          if (!x.hasOwnProperty('devices')) return 0
-          else return Object.keys(x.devices).includes(devArr[d])
-        })
-        devFwArr.map(function(x) { if (!fwArr.includes(x)) fwArr.push(x) })
+      else if (this.frontmatter.device) devArr = [this.frontmatter.device.identifier]
+      else noDevice = true
+      
+      var fwArr
+
+      if (noDevice) fwArr = this.firmwares
+      else {
+        fwArr = []
+        for (var d in devArr) {
+          var devFwArr = this.firmwares.filter(function(x) {
+            if (!x.hasOwnProperty('devices')) return 0
+            else return Object.keys(x.devices).includes(devArr[d])
+          })
+          devFwArr.map(function(x) { if (!fwArr.includes(x)) fwArr.push(x) })
+        }
       }
 
       var jbList = this.jailbreaks
       for (var f in fwArr) {
         var jbArr = []
         const fw = fwArr[f]
-        for (var d in devArr) {
-          for (var jb in jbList) {
-            if (!jbList[jb].hasOwnProperty('compatibility')) continue
-            for (var c in jbList[jb].compatibility) {
-              if (!jbList[jb].compatibility[c].firmwares.includes(fw.build)) continue
-              if (!jbList[jb].compatibility[c].devices.includes(devArr[d])) continue
-              if (jbArr.includes(jbList[jb])) continue
-              jbArr.push(jbList[jb])
-            }
+        for (var jb in jbList) {
+          if (!jbList[jb].hasOwnProperty('compatibility')) continue
+          for (var c in jbList[jb].compatibility) {
+            if (!jbList[jb].compatibility[c].firmwares.includes(fw.build)) continue
+            if (!noDevice) if (!jbList[jb].compatibility[c].devices.some(r=> devArr[d].includes(r))) continue
+            if (jbArr.includes(jbList[jb])) continue
+            jbArr.push(jbList[jb])
           }
         }
 

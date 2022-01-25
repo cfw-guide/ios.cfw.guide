@@ -95,6 +95,20 @@ for (var d in deviceList) {
   })
 }
 
+pageList.push({
+  path: '/chart.html',
+  frontmatter: {
+    title: 'Firmware Chart',
+    description: 'iOS Jailbreak Firmware Chart',
+    layout: 'chartLayout',
+    chartType: 'device',
+    sidebar: false,
+    editLink: false,
+    lastUpdated: false,
+    contributors: false,
+  }
+})
+
 module.exports = function() {
   return {
     name: 'vuepress-new-dynamic-pages',
@@ -103,6 +117,6 @@ module.exports = function() {
     },
     onPrepared: async (app) => {
       await app.writeTemp('main.js', `export default ${JSON.stringify(bigJson)}`)
-    },
+    }
   }
 }
