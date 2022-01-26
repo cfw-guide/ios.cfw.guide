@@ -1,0 +1,248 @@
+{
+  "version": "15.3 RC",
+  "build": "19D49",
+  "released": "2022-01-26",
+  "beta": true,
+  "devices": {
+    "iPad11,1": {
+      "ipsw": ""
+    },
+    "iPad11,2": {
+      "ipsw": ""
+    },
+    "iPad11,3": {
+      "ipsw": ""
+    },
+    "iPad11,4": {
+      "ipsw": ""
+    },
+    "iPad11,6": {
+      "ipsw": ""
+    },
+    "iPad11,7": {
+      "ipsw": ""
+    },
+    "iPad12,1": {
+      "ipsw": ""
+    },
+    "iPad12,2": {
+      "ipsw": ""
+    },
+    "iPad13,1": {
+      "ipsw": ""
+    },
+    "iPad13,10": {
+      "ipsw": ""
+    },
+    "iPad13,11": {
+      "ipsw": ""
+    },
+    "iPad13,2": {
+      "ipsw": ""
+    },
+    "iPad13,4": {
+      "ipsw": ""
+    },
+    "iPad13,5": {
+      "ipsw": ""
+    },
+    "iPad13,6": {
+      "ipsw": ""
+    },
+    "iPad13,7": {
+      "ipsw": ""
+    },
+    "iPad13,8": {
+      "ipsw": ""
+    },
+    "iPad13,9": {
+      "ipsw": ""
+    },
+    "iPad14,1": {
+      "ipsw": ""
+    },
+    "iPad14,2": {
+      "ipsw": ""
+    },
+    "iPad5,1": {
+      "ipsw": ""
+    },
+    "iPad5,2": {
+      "ipsw": ""
+    },
+    "iPad5,3": {
+      "ipsw": ""
+    },
+    "iPad5,4": {
+      "ipsw": ""
+    },
+    "iPad6,11": {
+      "ipsw": ""
+    },
+    "iPad6,12": {
+      "ipsw": ""
+    },
+    "iPad6,3": {
+      "ipsw": ""
+    },
+    "iPad6,4": {
+      "ipsw": ""
+    },
+    "iPad6,7": {
+      "ipsw": ""
+    },
+    "iPad6,8": {
+      "ipsw": ""
+    },
+    "iPad7,1": {
+      "ipsw": ""
+    },
+    "iPad7,11": {
+      "ipsw": ""
+    },
+    "iPad7,12": {
+      "ipsw": ""
+    },
+    "iPad7,2": {
+      "ipsw": ""
+    },
+    "iPad7,3": {
+      "ipsw": ""
+    },
+    "iPad7,4": {
+      "ipsw": ""
+    },
+    "iPad7,5": {
+      "ipsw": ""
+    },
+    "iPad7,6": {
+      "ipsw": ""
+    },
+    "iPad8,1": {
+      "ipsw": ""
+    },
+    "iPad8,10": {
+      "ipsw": ""
+    },
+    "iPad8,11": {
+      "ipsw": ""
+    },
+    "iPad8,12": {
+      "ipsw": ""
+    },
+    "iPad8,2": {
+      "ipsw": ""
+    },
+    "iPad8,3": {
+      "ipsw": ""
+    },
+    "iPad8,4": {
+      "ipsw": ""
+    },
+    "iPad8,5": {
+      "ipsw": ""
+    },
+    "iPad8,6": {
+      "ipsw": ""
+    },
+    "iPad8,7": {
+      "ipsw": ""
+    },
+    "iPad8,8": {
+      "ipsw": ""
+    },
+    "iPad8,9": {
+      "ipsw": ""
+    },
+    "iPhone10,1": {
+      "ipsw": ""
+    },
+    "iPhone10,2": {
+      "ipsw": ""
+    },
+    "iPhone10,3": {
+      "ipsw": ""
+    },
+    "iPhone10,4": {
+      "ipsw": ""
+    },
+    "iPhone10,5": {
+      "ipsw": ""
+    },
+    "iPhone10,6": {
+      "ipsw": ""
+    },
+    "iPhone11,2": {
+      "ipsw": ""
+    },
+    "iPhone11,4": {
+      "ipsw": ""
+    },
+    "iPhone11,6": {
+      "ipsw": ""
+    },
+    "iPhone11,8": {
+      "ipsw": ""
+    },
+    "iPhone12,1": {
+      "ipsw": ""
+    },
+    "iPhone12,3": {
+      "ipsw": ""
+    },
+    "iPhone12,5": {
+      "ipsw": ""
+    },
+    "iPhone12,8": {
+      "ipsw": ""
+    },
+    "iPhone13,1": {
+      "ipsw": ""
+    },
+    "iPhone13,2": {
+      "ipsw": ""
+    },
+    "iPhone13,3": {
+      "ipsw": ""
+    },
+    "iPhone13,4": {
+      "ipsw": ""
+    },
+    "iPhone14,2": {
+      "ipsw": ""
+    },
+    "iPhone14,3": {
+      "ipsw": ""
+    },
+    "iPhone14,4": {
+      "ipsw": ""
+    },
+    "iPhone14,5": {
+      "ipsw": ""
+    },
+    "iPhone8,1": {
+      "ipsw": ""
+    },
+    "iPhone8,2": {
+      "ipsw": ""
+    },
+    "iPhone8,4": {
+      "ipsw": ""
+    },
+    "iPhone9,1": {
+      "ipsw": ""
+    },
+    "iPhone9,2": {
+      "ipsw": ""
+    },
+    "iPhone9,3": {
+      "ipsw": ""
+    },
+    "iPhone9,4": {
+      "ipsw": ""
+    },
+    "iPod9,1": {
+      "ipsw": ""
+    }
+  }
+}
