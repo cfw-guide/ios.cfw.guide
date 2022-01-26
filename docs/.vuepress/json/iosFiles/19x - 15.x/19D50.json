@@ -1,8 +1,8 @@
 {
-  "version": "15.3 RC",
-  "build": "19D49",
+  "version": "15.3",
+  "build": "19D50",
   "released": "2022-01-26",
-  "beta": true,
+  "beta": false,
   "devices": {
     "iPad11,1": {
       "ipsw": ""
