@@ -25,7 +25,7 @@ Because you do not currently have a jailbreak (or you choose not to jailbreak fo
 
 ::: warning
 
-If your device is not jailbroken, you must be on iOS versions 14.5 to 14.7.1 to use the 14.8.1 profile.
+If your device is not jailbroken, you must be on iOS versions 14.5 to 14.8 to use the 14.8.1 profile.
 
 :::
 
