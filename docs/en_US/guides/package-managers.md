@@ -43,5 +43,14 @@ URL: [`https://apptapp.me/repo/`](https://apptapp.me/repo/)
 
 Zebra is a more recent package manager, providing support for iOS 9 and above. It is open source, and features a much more familar user interface for Cydia users compared to other package managers. 
 
-
 URL: [`https://getzbra.com/`](https://getzbra.com/)
+
+<!--
+### Saily
+
+Saily is an extremely recent package manager released in September of 2021, which provides support for iOS 13 and above.
+
+We don't recommend this package manager currently due to the following:
+- It has violated licenses of other package managers (such as Sileo) and continues to do so.
+- It can sometimes cause issues with dpkg, which can lead to you needing to restore rootfs, or, in the worst case scenario (if using unc0ver on iOS versions 14.6 to 14.8) being unable to rejailbreak or restore rootfs at all, and, therefore, putting you into a state where you will not be able to jailbreak at all.
+-->
