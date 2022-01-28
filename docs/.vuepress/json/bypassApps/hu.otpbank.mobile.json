@@ -3,5 +3,9 @@
   "bundleId": "hu.otpbank.mobile",
   "uri": "https://apps.apple.com/hu/app/otp-bank-hu/id1403268557",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d7/f8/59/d7f85903-c26d-6060-a3b8-98c6f19a25d2/source/512x512bb.jpg",
-  "bypasses": null
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    }
+  ]
 }
