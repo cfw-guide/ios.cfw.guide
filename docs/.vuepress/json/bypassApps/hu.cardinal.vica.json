@@ -1,0 +1,17 @@
+{
+  "name": "ViCA",
+  "bundleId": "hu.cardinal.vica",
+  "uri": "https://apps.apple.com/hu/app/vica/id821510523",
+  "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/38/7f/65/387f65be-896c-0fd3-7d6d-b1417cb39f80/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "A-Bypass"
+    },
+    {
+      "name": "Liberty Lite (Beta)"
+    },
+    {
+      "name": "Shadow"
+    }
+  ]
+}
