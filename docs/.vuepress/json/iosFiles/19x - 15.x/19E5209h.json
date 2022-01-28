@@ -4,115 +4,79 @@
   "released": "2022-01-27",
   "beta": true,
   "devices": {
-    "iPad11,1": {
-      "ipsw": "none"
-    },
-    "iPad11,2": {
-      "ipsw": "none"
-    },
-    "iPad11,3": {
-      "ipsw": "none"
-    },
-    "iPad11,4": {
-      "ipsw": "none"
-    },
-    "iPad11,6": {
-      "ipsw": "none"
-    },
-    "iPad11,7": {
-      "ipsw": "none"
-    },
-    "iPad12,1": {
-      "ipsw": "none"
-    },
     "iPad12,2": {
       "ipsw": "none"
     },
     "iPad13,1": {
       "ipsw": "none"
     },
-    "iPad13,10": {
-      "ipsw": "none"
-    },
-    "iPad13,11": {
-      "ipsw": "none"
-    },
-    "iPad13,2": {
-      "ipsw": "none"
-    },
-    "iPad13,4": {
-      "ipsw": "none"
-    },
-    "iPad13,5": {
-      "ipsw": "none"
-    },
-    "iPad13,6": {
-      "ipsw": "none"
-    },
-    "iPad13,7": {
-      "ipsw": "none"
-    },
-    "iPad13,8": {
-      "ipsw": "none"
-    },
-    "iPad13,9": {
-      "ipsw": "none"
-    },
-    "iPad14,1": {
-      "ipsw": "none"
-    },
-    "iPad14,2": {
-      "ipsw": "none"
-    },
-    "iPad5,1": {
-      "ipsw": "none"
-    },
-    "iPad5,2": {
-      "ipsw": "none"
-    },
-    "iPad5,3": {
-      "ipsw": "none"
-    },
-    "iPad5,4": {
-      "ipsw": "none"
-    },
-    "iPad6,11": {
-      "ipsw": "none"
-    },
-    "iPad6,12": {
-      "ipsw": "none"
-    },
-    "iPad6,3": {
-      "ipsw": "none"
-    },
-    "iPad6,4": {
+    "iPad11,6": {
       "ipsw": "none"
     },
     "iPad6,7": {
       "ipsw": "none"
     },
-    "iPad6,8": {
+    "iPad13,5": {
       "ipsw": "none"
     },
-    "iPad7,1": {
+    "iPad6,3": {
       "ipsw": "none"
     },
-    "iPad7,11": {
+    "iPad13,7": {
       "ipsw": "none"
     },
-    "iPad7,12": {
+    "iPad13,6": {
+      "ipsw": "none"
+    },
+    "iPad12,1": {
+      "ipsw": "none"
+    },
+    "iPad11,1": {
+      "ipsw": "none"
+    },
+    "iPad13,4": {
+      "ipsw": "none"
+    },
+    "iPad11,7": {
+      "ipsw": "none"
+    },
+    "iPad5,3": {
+      "ipsw": "none"
+    },
+    "iPad11,3": {
+      "ipsw": "none"
+    },
+    "iPad6,12": {
+      "ipsw": "none"
+    },
+    "iPad11,4": {
+      "ipsw": "none"
+    },
+    "iPad5,2": {
+      "ipsw": "none"
+    },
+    "iPad13,10": {
+      "ipsw": "none"
+    },
+    "iPad6,4": {
+      "ipsw": "none"
+    },
+    "iPad11,2": {
+      "ipsw": "none"
+    },
+    "iPad6,11": {
       "ipsw": "none"
     },
     "iPad7,2": {
       "ipsw": "none"
     },
-    "iPad7,3": {
+    "iPad14,1": {
       "ipsw": "none"
     },
-    "iPad7,4": {
+    "iPad13,2": {
       "ipsw": "none"
     },
-    "iPad7,5": {
+    "iPad13,9": {
       "ipsw": "none"
     },
     "iPad7,6": {
@@ -121,128 +85,164 @@
     "iPad8,1": {
       "ipsw": "none"
     },
+    "iPad8,5": {
+      "ipsw": "none"
+    },
+    "iPad7,4": {
+      "ipsw": "none"
+    },
+    "iPad7,5": {
+      "ipsw": "none"
+    },
+    "iPad7,12": {
+      "ipsw": "none"
+    },
+    "iPad13,11": {
+      "ipsw": "none"
+    },
+    "iPad5,4": {
+      "ipsw": "none"
+    },
+    "iPad8,12": {
+      "ipsw": "none"
+    },
+    "iPad7,3": {
+      "ipsw": "none"
+    },
+    "iPad7,1": {
+      "ipsw": "none"
+    },
+    "iPad8,2": {
+      "ipsw": "none"
+    },
     "iPad8,10": {
       "ipsw": "none"
     },
     "iPad8,11": {
       "ipsw": "none"
     },
-    "iPad8,12": {
-      "ipsw": "none"
-    },
-    "iPad8,2": {
-      "ipsw": "none"
-    },
     "iPad8,3": {
-      "ipsw": "none"
-    },
-    "iPad8,4": {
-      "ipsw": "none"
-    },
-    "iPad8,5": {
-      "ipsw": "none"
-    },
-    "iPad8,6": {
-      "ipsw": "none"
-    },
-    "iPad8,7": {
-      "ipsw": "none"
-    },
-    "iPad8,8": {
-      "ipsw": "none"
-    },
-    "iPad8,9": {
-      "ipsw": "none"
-    },
-    "iPhone10,1": {
-      "ipsw": "none"
-    },
-    "iPhone10,2": {
-      "ipsw": "none"
-    },
-    "iPhone10,3": {
-      "ipsw": "none"
-    },
-    "iPhone10,4": {
-      "ipsw": "none"
-    },
-    "iPhone10,5": {
       "ipsw": "none"
     },
     "iPhone10,6": {
       "ipsw": "none"
     },
-    "iPhone11,2": {
-      "ipsw": "none"
+    "iPhone10,1": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59320/22C361CF-96FA-4045-9BDD-D1F51A5AAB28/iPhone_4.7_P3_15.4_19E5209h_Restore.ipsw"
     },
-    "iPhone11,4": {
-      "ipsw": "none"
-    },
-    "iPhone11,6": {
-      "ipsw": "none"
-    },
-    "iPhone11,8": {
-      "ipsw": "none"
-    },
-    "iPhone12,1": {
-      "ipsw": "none"
-    },
-    "iPhone12,3": {
-      "ipsw": "none"
-    },
-    "iPhone12,5": {
-      "ipsw": "none"
-    },
-    "iPhone12,8": {
-      "ipsw": "none"
-    },
-    "iPhone13,1": {
-      "ipsw": "none"
-    },
-    "iPhone13,2": {
-      "ipsw": "none"
-    },
-    "iPhone13,3": {
+    "iPhone14,2": {
       "ipsw": "none"
     },
     "iPhone13,4": {
       "ipsw": "none"
     },
-    "iPhone14,2": {
+    "iPhone10,3": {
       "ipsw": "none"
     },
-    "iPhone14,3": {
+    "iPad6,8": {
       "ipsw": "none"
     },
-    "iPhone14,4": {
+    "iPad8,8": {
+      "ipsw": "none"
+    },
+    "iPhone11,8": {
+      "ipsw": "none"
+    },
+    "iPhone9,4": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59334/804CCC1A-FB21-48D0-9F98-16C2C2E91BF3/iPhone_5.5_P3_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPad5,1": {
+      "ipsw": "none"
+    },
+    "iPad8,4": {
       "ipsw": "none"
     },
     "iPhone14,5": {
       "ipsw": "none"
     },
-    "iPhone8,1": {
+    "iPad8,7": {
+      "ipsw": "none"
+    },
+    "iPhone12,1": {
       "ipsw": "none"
     },
     "iPhone8,2": {
       "ipsw": "none"
     },
-    "iPhone8,4": {
+    "iPhone10,4": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59320/22C361CF-96FA-4045-9BDD-D1F51A5AAB28/iPhone_4.7_P3_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPhone13,2": {
       "ipsw": "none"
     },
-    "iPhone9,1": {
+    "iPhone10,2": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59334/804CCC1A-FB21-48D0-9F98-16C2C2E91BF3/iPhone_5.5_P3_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPhone11,6": {
       "ipsw": "none"
     },
-    "iPhone9,2": {
+    "iPhone14,4": {
       "ipsw": "none"
     },
-    "iPhone9,3": {
+    "iPhone12,3": {
       "ipsw": "none"
     },
-    "iPhone9,4": {
+    "iPad7,11": {
+      "ipsw": "none"
+    },
+    "iPhone13,1": {
+      "ipsw": "none"
+    },
+    "iPhone12,5": {
+      "ipsw": "none"
+    },
+    "iPhone11,4": {
+      "ipsw": "none"
+    },
+    "iPhone14,3": {
+      "ipsw": "none"
+    },
+    "iPad14,2": {
+      "ipsw": "none"
+    },
+    "iPhone11,2": {
+      "ipsw": "none"
+    },
+    "iPad13,8": {
+      "ipsw": "none"
+    },
+    "iPhone13,3": {
+      "ipsw": "none"
+    },
+    "iPad8,6": {
       "ipsw": "none"
     },
     "iPod9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59224/726A5A70-28B5-4775-961D-CAFC0AFF75F4/iPodtouch_7_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPad8,9": {
       "ipsw": "none"
+    },
+    "iPhone9,1": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59320/22C361CF-96FA-4045-9BDD-D1F51A5AAB28/iPhone_4.7_P3_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPhone8,4": {
+      "ipsw": "none"
+    },
+    "iPhone12,8": {
+      "ipsw": "none"
+    },
+    "iPhone8,1": {
+      "ipsw": "none"
+    },
+    "iPhone9,3": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59320/22C361CF-96FA-4045-9BDD-D1F51A5AAB28/iPhone_4.7_P3_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPhone10,5": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59334/804CCC1A-FB21-48D0-9F98-16C2C2E91BF3/iPhone_5.5_P3_15.4_19E5209h_Restore.ipsw"
+    },
+    "iPhone9,2": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59334/804CCC1A-FB21-48D0-9F98-16C2C2E91BF3/iPhone_5.5_P3_15.4_19E5209h_Restore.ipsw"
     }
   }
 }
