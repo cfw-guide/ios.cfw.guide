@@ -1,0 +1,11 @@
+{
+  "name": "Mario Kart Tour",
+  "bundleId": "com.nintendo.zaka",
+  "uri": "https://apps.apple.com/us/app/mario-kart-tour/id1293634699",
+  "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/f2/1f/55/f21f55a1-ee5d-ad1c-7be3-1af6349abaf9/source/512x512bb.jpg",
+  "bypasses": [
+    {
+      "name": "MKTBypass"
+    }
+  ]
+}
