@@ -16,5 +16,7 @@
     "iPhone14,5": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "19C57"
 }

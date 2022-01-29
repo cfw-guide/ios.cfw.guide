@@ -184,5 +184,7 @@
     "iPod9,1": {
       "ipsw": "http://updates-http.cdn-apple.com/2019SummerFCS/fullrestores/041-86558/9E266F46-A743-11E9-8004-80A17F91B182/iPodtouch_7_12.4_16G77_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16G77"
 }

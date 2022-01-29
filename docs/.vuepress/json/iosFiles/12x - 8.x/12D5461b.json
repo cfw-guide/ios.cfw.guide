@@ -3,5 +3,7 @@
   "build": "12D5461b",
   "released": "2015-01-12",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12D5461b"
 }

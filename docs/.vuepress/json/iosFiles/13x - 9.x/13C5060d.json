@@ -3,5 +3,7 @@
   "build": "13C5060d",
   "released": "2015-11-03",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "13C5060d"
 }

@@ -8,5 +8,7 @@
     "AppleTV2,1": {
       "ipsw": "http://appldnld.apple.com/AppleTV/041-2995.20111024.Tfscw/AppleTV2,1_4.4.2_9A336a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "9A336a"
 }

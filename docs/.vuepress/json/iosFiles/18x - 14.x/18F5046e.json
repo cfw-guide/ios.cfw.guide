@@ -3,5 +3,7 @@
   "build": "18F5046e",
   "released": "2021-04-22",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "18F5046e"
 }

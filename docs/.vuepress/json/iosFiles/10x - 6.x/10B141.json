@@ -55,5 +55,7 @@
     "iPod5,1": {
       "ipsw": "http://appldnld.apple.com/iOS6.1/041-6488.20130128.L3etg/iPod5,1_6.1_10B141_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10B141"
 }

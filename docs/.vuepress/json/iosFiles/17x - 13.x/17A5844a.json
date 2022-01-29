@@ -136,5 +136,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/061-14010/2DAFDC42-D8BD-11E9-8468-CA23C8931DF2/iPodtouch_7_13.1_17A5844a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17A5844a"
 }

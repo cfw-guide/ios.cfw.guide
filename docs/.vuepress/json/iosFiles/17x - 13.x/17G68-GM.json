@@ -1,6 +1,6 @@
 {
   "version": "13.6 GM",
-  "build": "17G68-GM",
+  "build": "17G68",
   "released": "2020-07-09",
   "beta": true,
   "devices": {
@@ -172,5 +172,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2020SummerSeed/fullrestores/061-92883/79D66197-2FF8-4670-8A95-B32593AEB74B/iPodtouch_7_13.6_17G68_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17G68-GM"
 }

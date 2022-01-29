@@ -70,5 +70,7 @@
     "iPod7,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16C101"
 }

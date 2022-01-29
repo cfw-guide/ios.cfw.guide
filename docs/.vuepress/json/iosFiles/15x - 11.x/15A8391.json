@@ -10,5 +10,7 @@
     "iPhone10,6": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15A8391"
 }

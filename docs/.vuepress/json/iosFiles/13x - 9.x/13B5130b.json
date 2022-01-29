@@ -3,5 +3,7 @@
   "build": "13B5130b",
   "released": "2015-09-30",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "13B5130b"
 }

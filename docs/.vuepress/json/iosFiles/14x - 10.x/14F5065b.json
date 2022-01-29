@@ -97,5 +97,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios10.3seeds/091-04079-20170328-598BC84E-10B0-11E7-8CD6-5C8500A0ED6C/iPodtouch_10.3.2_14F5065b_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14F5065b"
 }

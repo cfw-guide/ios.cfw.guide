@@ -133,5 +133,7 @@
     "iPod7,1": {
       "ipsw": "http://updates-http.cdn-apple.com/2018/ios/091-75174-20180709-813DC24C-7C1C-11E8-8E10-B15B544C24EB/iPodtouch_11.4.1_15G77_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15G77"
 }

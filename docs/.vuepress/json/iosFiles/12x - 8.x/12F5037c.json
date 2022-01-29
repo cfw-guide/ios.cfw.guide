@@ -3,5 +3,7 @@
   "build": "12F5037c",
   "released": "2015-02-23",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12F5037c"
 }

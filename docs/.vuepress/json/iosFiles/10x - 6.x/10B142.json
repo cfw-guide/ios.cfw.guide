@@ -7,5 +7,7 @@
     "iPhone4,1": {
       "ipsw": "http://appldnld.apple.com/iOS6.1/041-5902.20130128.bhyt6/iPhone4,1_6.1_10B142_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10B142"
 }

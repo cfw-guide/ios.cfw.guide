@@ -7,5 +7,7 @@
     "iPod2,1": {
       "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-5863.20090127.rt56K/iPod2,1_2.2.1_5H11a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5H11a"
 }

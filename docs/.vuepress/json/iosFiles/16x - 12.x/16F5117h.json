@@ -3,5 +3,7 @@
   "build": "16F5117h",
   "released": "2019-03-27",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "16F5117h"
 }

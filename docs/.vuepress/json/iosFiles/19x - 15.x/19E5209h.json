@@ -244,5 +244,7 @@
     "iPhone9,2": {
       "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59334/804CCC1A-FB21-48D0-9F98-16C2C2E91BF3/iPhone_5.5_P3_15.4_19E5209h_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "19E5209h"
 }

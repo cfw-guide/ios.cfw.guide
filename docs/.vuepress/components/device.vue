@@ -14,14 +14,12 @@
     <p><a v-html="(showBeta) ? hideBetaStr : showBetaStr" id="betaToggle" style="cursor: pointer;" v-on:click="showBeta = !showBeta"/></p>
     <table>
       <tr>
-        <th v-html="buildStr"/>
         <th v-html="versionStr"/>
         <th v-html="jailbreakStr"/>
       </tr>
       <template v-for="fw in getFwArr" :key="fw">
         <tr v-if="!fw.beta || (fw.beta && showBeta)">
-          <td><a v-html="fw.build.replace('-RC','').replace('-GM','')" :href="firmwarePath + fw.build + '.html'"/></td>
-          <td v-html="fw.version"/>
+          <td><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
           <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
           <td v-else v-html="noJbStr"/>
         </tr>
@@ -164,7 +162,7 @@ export default {
         for (var jb in jbList) {
           if (!jbList[jb].hasOwnProperty('compatibility')) continue
           for (var c in jbList[jb].compatibility) {
-            if (!jbList[jb].compatibility[c].firmwares.includes(fw.build)) continue
+            if (!jbList[jb].compatibility[c].firmwares.includes(fw.uniqueBuild)) continue
             if (!noDevice) if (!jbList[jb].compatibility[c].devices.some(r=> devArr[d].includes(r))) continue
             if (jbArr.includes(jbList[jb])) continue
             jbArr.push(jbList[jb])

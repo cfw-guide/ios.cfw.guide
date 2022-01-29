@@ -10,5 +10,7 @@
     "iPhone5,2": {
       "ipsw": "http://appldnld.apple.com/iOS6/041-4272.20121217.Zsw29/iPhone5,2_6.0.2_10A551_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A551"
 }

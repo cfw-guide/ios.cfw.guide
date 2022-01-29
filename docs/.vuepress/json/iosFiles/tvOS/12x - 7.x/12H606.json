@@ -11,5 +11,7 @@
     "AppleTV3,2": {
       "ipsw": "http://appldnld.apple.com/tvOS7.2.1/031-84121-20161212-123095D6-B59A-11E6-A84D-CE194F99B54B/AppleTV3,2_8.4.2_12H606_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "12H606"
 }

@@ -31,5 +31,7 @@
     "iPhone7,2": {
       "ipsw": "http://appldnld.apple.com/ios8.3/058-14372-20150408-6F9D0D48-DAEB-11E4-B32A-926C90F2D2C2/iPhone7,2_8.3_12F70_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "12F70"
 }

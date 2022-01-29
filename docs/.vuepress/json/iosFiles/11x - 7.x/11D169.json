@@ -10,5 +10,7 @@
     "iPhone3,2": {
       "ipsw": "http://appldnld.apple.com/iOS7.1/031-4450.20140310.UeuCA/iPhone3,2_7.1_11D169_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "11D169"
 }

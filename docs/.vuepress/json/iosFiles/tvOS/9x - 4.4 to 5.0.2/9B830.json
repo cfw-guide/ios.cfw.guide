@@ -11,5 +11,7 @@
     "AppleTV3,1": {
       "ipsw": "http://appldnld.apple.com/AppleTV/041-4361.20120605.grjot/AppleTV3,1_5.0.2_9B830_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "9B830"
 }

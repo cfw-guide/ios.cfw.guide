@@ -7,5 +7,7 @@
     "iPhone8,2": {
       "ipsw": "http://appldnld.apple.com/ios9/031-07346-20150916-084E177E-5735-11E5-A6F7-F9456DA99CB1/iPhone8,2_9.0_13A343_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13A343"
 }

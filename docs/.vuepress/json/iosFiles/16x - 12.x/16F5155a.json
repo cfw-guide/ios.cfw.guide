@@ -10,5 +10,7 @@
     "iPad6,8": {
       "ipsw": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-60310/06C7FC12-6F73-11E9-AD36-2F25B6DDD32B/iPadPro_12.9_12.3_16F5155a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16F5155a"
 }

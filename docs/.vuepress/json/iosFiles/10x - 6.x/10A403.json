@@ -43,5 +43,7 @@
     "iPod4,1": {
       "ipsw": "http://appldnld.apple.com/iOS6/Restore/041-0807.20120919.soT6X/iPod4,1_6.0_10A403_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A403"
 }

@@ -3,5 +3,7 @@
   "build": "11D5099e",
   "released": "2013-11-18",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "11D5099e"
 }

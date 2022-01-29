@@ -3,5 +3,7 @@
   "build": "5A258f",
   "released": "2008-04-23",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5A258f"
 }

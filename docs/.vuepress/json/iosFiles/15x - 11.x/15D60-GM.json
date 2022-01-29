@@ -1,6 +1,6 @@
 {
   "version": "11.2.5 beta 7",
-  "build": "15D60-GM",
+  "build": "15D60",
   "released": "2018-01-19",
   "beta": true,
   "devices": {
@@ -121,5 +121,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios11.2.5/091-61946-20180122-2A119562-FC96-11E7-9CB7-EC82E70393C2/iPodtouch_11.2.5_15D60_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15D60-GM"
 }

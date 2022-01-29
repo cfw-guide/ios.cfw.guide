@@ -3,5 +3,7 @@
   "build": "5A292g",
   "released": "2008-05-28",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5A292g"
 }

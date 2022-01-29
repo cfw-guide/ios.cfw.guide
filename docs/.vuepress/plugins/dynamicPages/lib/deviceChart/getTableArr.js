@@ -57,11 +57,11 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
     var jbObjArr = [];
     
     for (var b in buildArr[i]) {
-      var getJb = getJailbreaks(buildArr[i][b].build, device, showAll)
+      var getJb = getJailbreaks(buildArr[i][b].uniqueBuild, device, showAll)
       
       if (groupTable && Array.isArray(deviceGroup) && deviceGroup.length == 1) {
         for (var dev in deviceGroup[0].devices) {
-          getJb = getJb.concat(getJailbreaks(buildArr[i][b].build, deviceGroup[0].devices[dev], showAll));
+          getJb = getJb.concat(getJailbreaks(buildArr[i][b].uniqueBuild, deviceGroup[0].devices[dev], showAll));
         }
         getJb = getJb.filter(function(elem, index, self) { return index === self.indexOf(elem); })
       }
@@ -74,10 +74,10 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
           var xp = x.priority
           var yp = y.priority
 
-          var compatList = x.compatibility.filter(c => c.hasOwnProperty('priority')).filter(c => c.firmwares.includes(buildArr[i][b].build)).filter(c => c.devices.includes(device))[0]
+          var compatList = x.compatibility.filter(c => c.hasOwnProperty('priority')).filter(c => c.firmwares.includes(buildArr[i][b].uniqueBuild)).filter(c => c.devices.includes(device))[0]
           if (compatList) xp = compatList.priority
 
-          compatList = y.compatibility.filter(c => c.hasOwnProperty('priority')).filter(c => c.firmwares.includes(buildArr[i][b].build)).filter(c => c.devices.includes(device))[0]
+          compatList = y.compatibility.filter(c => c.hasOwnProperty('priority')).filter(c => c.firmwares.includes(buildArr[i][b].uniqueBuild)).filter(c => c.devices.includes(device))[0]
           if (compatList) yp = compatList.priority
 
           return xp - yp
@@ -100,7 +100,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
             if (!guide[a].hasOwnProperty('devices') && !guide[a].hasOwnProperty('firmwares')) continue;
             if (
               guide[a].devices.some(r => deviceGroupDevArr.includes(r)) &&
-              guide[a].firmwares.includes(buildArr[i][b].build)
+              guide[a].firmwares.includes(buildArr[i][b].uniqueBuild)
             ) {
               ret = guide[a];
               break;
@@ -113,19 +113,19 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
       
       jbObjArr.push({
         build: buildArr[i][b].build,
-        buildURL: fwPath + buildArr[i][b].build,
+        buildURL: fwPath + buildArr[i][b].uniqueBuild,
         version: buildArr[i][b].version.replace('6-enterprise', '6-e'),
         jbArr: jbArr,
         jbGuideObj: jbGuideObj,
       })
     }
   
-    if (!simplifyTable) retArr.push(jbObjArr);
+    if (!simplifyTable) retArr.push(jbObjArr)
     else {
-      var simpleJbObjArr = [];
+      var simpleJbObjArr = []
       for (var i in jbObjArr) {
-        const obj = jbObjArr[i];
-        var oldObj = simpleJbObjArr[simpleJbObjArr.length - 1];
+        const obj = jbObjArr[i]
+        var oldObj = simpleJbObjArr[simpleJbObjArr.length - 1]
         
         if ((i == 0) || (JSON.stringify(obj.jbArr) != JSON.stringify(oldObj.jbArr) || (JSON.stringify(obj.jbGuideObj) != JSON.stringify(oldObj.jbGuideObj)))) {
           simpleJbObjArr.push({
@@ -136,18 +136,18 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
             jbArr: obj.jbArr,
             jbGuideObj: obj.jbGuideObj,
           })
-          continue;
+          continue
         }
         
-        oldObj.from = obj.version;
-        oldObj.fromBuild = obj.build;
+        oldObj.from = obj.version
+        oldObj.fromBuild = obj.build
         
-        simpleJbObjArr[simpleJbObjArr.length - 1] = oldObj;
+        simpleJbObjArr[simpleJbObjArr.length - 1] = oldObj
       }
       
-      retArr.push(simpleJbObjArr);
+      retArr.push(simpleJbObjArr)
     }
   }
   
-  return retArr;
+  return retArr
 };

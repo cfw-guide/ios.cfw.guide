@@ -16,5 +16,7 @@
     "iPhone11,8": {
       "ipsw": "http://updates-http.cdn-apple.com/2018FallFCS/fullrestores/041-11757/CCFBD4D4-C7FE-11E8-A302-D9128EFD1A7F/iPhone11,8_12.0.1_16A405_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16A405"
 }

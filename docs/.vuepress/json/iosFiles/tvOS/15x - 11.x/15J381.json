@@ -10,5 +10,7 @@
     "AppleTV6,2": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "tvOS",
+  "uniqueBuild": "15J381"
 }

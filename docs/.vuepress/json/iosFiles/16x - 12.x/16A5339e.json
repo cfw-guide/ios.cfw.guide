@@ -61,5 +61,7 @@
     "iPod7,1": {
       "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-97423-20180730-1AC60E2A-927E-11E8-92C3-436101208DCC/iPodtouch_12.0_16A5339e_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16A5339e"
 }

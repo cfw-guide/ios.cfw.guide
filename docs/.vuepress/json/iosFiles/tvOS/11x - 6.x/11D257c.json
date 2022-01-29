@@ -14,5 +14,7 @@
     "AppleTV3,2": {
       "ipsw": "http://appldnld.apple.com/iOS7.1/031-04308.20140630.epLLm/AppleTV3,2_6.2_11D257c_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "11D257c"
 }

@@ -14,5 +14,7 @@
     "AppleTV3,2": {
       "ipsw": "http://appldnld.apple.com/AppleTV/031-0406.20130919.AZNiA/AppleTV3,2_6.0_11A470e_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "11A470e"
 }

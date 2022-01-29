@@ -16,5 +16,7 @@
     "iPhone10,5": {
       "ipsw": "http://appldnld.apple.com/ios11.0.1/091-34306-20170926-F9EFB76E-9F4E-11E7-8B20-65376B179ABE/iPhone10,5_11.0.1_15A403_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15A403"
 }

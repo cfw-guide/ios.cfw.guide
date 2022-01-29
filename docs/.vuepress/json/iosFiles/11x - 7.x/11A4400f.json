@@ -3,5 +3,7 @@
   "build": "11A4400f",
   "released": "2013-06-24",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "11A4400f"
 }

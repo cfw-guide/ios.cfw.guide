@@ -118,5 +118,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios11.3seed/091-53360-20180123-6FA964ED-92DA-44A1-A122-6DD8AC464FE9/iPod7%2C1_11.3_15E5167f_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15E5167f"
 }

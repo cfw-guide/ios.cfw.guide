@@ -8,5 +8,7 @@
     "AppleTV2,1": {
       "ipsw": "http://appldnld.apple.com/AppleTV/061-9978.20101214.gmabr/AppleTV2,1_4.2.1_8C154_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "8C154"
 }

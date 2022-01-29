@@ -3,5 +3,7 @@
   "build": "7C106c",
   "released": "2009-07-14",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7C106c"
 }

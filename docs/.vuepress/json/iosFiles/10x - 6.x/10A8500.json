@@ -13,5 +13,7 @@
     "iPad2,7": {
       "ipsw": "http://appldnld.apple.com/iOS6/041-9154.20121217.Nestg/iPad2,7_6.0.2_10A8500_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A8500"
 }

@@ -11,5 +11,7 @@
     "AppleTV3,2": {
       "ipsw": "http://appldnld.apple.com/tvOS7.2.1/031-51865-20160222-FB060B6E-D725-11E5-877A-8985919DCAD8/AppleTV3,2_8.4.1_12H523_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "12H523"
 }

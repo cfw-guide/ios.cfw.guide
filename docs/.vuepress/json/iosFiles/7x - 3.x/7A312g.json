@@ -3,5 +3,7 @@
   "build": "7A312g",
   "released": "2009-05-06",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7A312g"
 }

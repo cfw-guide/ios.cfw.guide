@@ -3,5 +3,7 @@
   "build": "10A5376e",
   "released": "2012-08-06",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "10A5376e"
 }

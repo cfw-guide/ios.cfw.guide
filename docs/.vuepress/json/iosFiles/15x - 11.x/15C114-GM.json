@@ -1,6 +1,6 @@
 {
   "version": "11.2 beta 6",
-  "build": "15C114-GM",
+  "build": "15C114",
   "released": "2017-12-01",
   "beta": true,
   "devices": {
@@ -121,5 +121,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios11.2/091-51607-20171206-BA0D6AD0-D5F7-11E7-B7C0-32B9DC24E03F/iPodtouch_11.2_15C114_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15C114-GM"
 }

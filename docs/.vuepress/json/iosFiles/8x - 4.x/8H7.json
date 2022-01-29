@@ -28,5 +28,7 @@
     "iPad1,1": {
       "ipsw": "http://appldnld.apple.com/iPhone4/041-0661.20110414.W9Q8r/iPad1,1_4.3.2_8H7_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8H7"
 }

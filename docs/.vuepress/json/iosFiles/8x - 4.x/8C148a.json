@@ -7,5 +7,7 @@
     "iPhone2,1": {
       "ipsw": "http://appldnld.apple.com/iPhone4/061-9895.20101122.Cdew2/iPhone2,1_4.2.1_8C148a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8C148a"
 }

@@ -46,5 +46,7 @@
     "iPod4,1": {
       "ipsw": "http://appldnld.apple.com/iOS5.1.1/041-4298.20120427.Tzr8w/iPod4,1_5.1.1_9B206_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "9B206"
 }

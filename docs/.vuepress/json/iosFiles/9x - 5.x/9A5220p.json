@@ -3,5 +3,7 @@
   "build": "9A5220p",
   "released": "2011-06-07",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "9A5220p"
 }

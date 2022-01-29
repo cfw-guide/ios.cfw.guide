@@ -3,5 +3,7 @@
   "build": "12H304",
   "released": "2015-07-14",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12H304"
 }

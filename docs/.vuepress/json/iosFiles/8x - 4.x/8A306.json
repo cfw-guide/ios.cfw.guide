@@ -13,5 +13,7 @@
     "iPhone3,1": {
       "ipsw": "http://appldnld.apple.com/iPhone4/061-8619.20100715.4Pnsx/iPhone3,1_4.0.1_8A306_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8A306"
 }

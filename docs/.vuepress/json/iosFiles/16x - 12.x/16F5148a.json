@@ -172,5 +172,7 @@
     "iPod7,1": {
       "ipsw": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-57920/F6C1617C-687A-11E9-9912-D96277A6FCC2/iPodtouch_12.3_16F5148a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16F5148a"
 }

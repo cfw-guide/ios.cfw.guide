@@ -20,8 +20,8 @@
             <th v-for="d in g.devices" :key="d" v-html="devices[d].name"/>
           </tr>
           <tr v-for="fw in g.firmwares.reverse()" :key="fw">
-            <td>{{fw.version}} (<a v-html="fw.build" :href="`${firmwarePath}${fw.build}.html`"/>)</td>
-            <td v-for="d in g.devices" :key="d" v-html="getCompat[d][fw.build] ? compatibleStr : notCompatibleStr"/>
+            <td>{{fw.version}} (<a v-html="fw.build" :href="`${firmwarePath}${fw.uniqueBuild}.html`"/>)</td>
+            <td v-for="d in g.devices" :key="d" v-html="getCompat[d][fw.uniqueBuild] ? compatibleStr : notCompatibleStr"/>
           </tr>
         </table>
       </div>
@@ -163,7 +163,7 @@ export default {
 
         var fwArr = []
         for (var i in x.firmwares) for (var f in x.firmwares[i]) if (!fwArr.includes(x.firmwares[i][f])) {
-          const fw = json.ios.filter(b => b.build == x.firmwares[i][f])[0]
+          const fw = json.ios.filter(b => b.uniqueBuild == x.firmwares[i][f])[0]
           if (!fw) continue
           if (fw.beta) continue
           if (fwArr.includes(fw)) continue
@@ -183,7 +183,7 @@ export default {
           const dev = x.devices[d]
           devObj[dev] = {}
           for (var fw in x.firmwares) {
-            const firmware = x.firmwares[fw].build
+            const firmware = x.firmwares[fw].uniqueBuild
             for (var i in compat) {
               devObj[dev][firmware] = 0
               if (compat[i].firmwares.includes(firmware) && compat[i].devices.includes(dev)) {

@@ -3,5 +3,7 @@
   "build": "10B318a",
   "released": "2013-02-21",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "10B318a"
 }

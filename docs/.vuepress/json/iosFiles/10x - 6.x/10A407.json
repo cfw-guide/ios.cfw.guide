@@ -13,5 +13,7 @@
     "iPad3,6": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A407"
 }

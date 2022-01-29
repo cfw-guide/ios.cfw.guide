@@ -34,5 +34,7 @@
     "iPod4,1": {
       "ipsw": "http://appldnld.apple.com/iPhone4/061-9622.20111012.Evry3/iPod4,1_5.0_9A334_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "9A334"
 }

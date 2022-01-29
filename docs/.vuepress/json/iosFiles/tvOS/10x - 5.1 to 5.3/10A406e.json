@@ -11,5 +11,7 @@
     "AppleTV3,1": {
       "ipsw": "http://appldnld.apple.com/AppleTV/041-4043.20120924.ClUd5/AppleTV3,1_5.1_10A406e_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "10A406e"
 }

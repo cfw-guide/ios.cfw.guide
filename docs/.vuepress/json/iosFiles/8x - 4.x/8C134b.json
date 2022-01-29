@@ -3,5 +3,7 @@
   "build": "8C134b",
   "released": "2010-11-18",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8C134b"
 }

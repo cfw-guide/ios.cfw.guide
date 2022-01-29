@@ -3,5 +3,7 @@
   "build": "11D5134c",
   "released": "2014-01-20",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "11D5134c"
 }

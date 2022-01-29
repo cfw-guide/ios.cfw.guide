@@ -7,5 +7,7 @@
     "iPhone3,3": {
       "ipsw": "http://appldnld.apple.com/iPhone4/041-0614.20110414.B47xa/iPhone3,3_4.2.7_8E303_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8E303"
 }

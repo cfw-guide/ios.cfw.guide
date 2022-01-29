@@ -175,5 +175,7 @@
     "iPhone9,4": {
       "ipsw": "https://updates.cdn-apple.com/2019SpringSeed/fullrestores/041-66110/ECD74846-78AD-11E9-86A1-D87FC78DD5E5/iPhone_5.5_P3_12.4_16G5027i_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16G5027i"
 }

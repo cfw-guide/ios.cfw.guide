@@ -10,5 +10,7 @@
     "iPad2,3": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13E236"
 }

@@ -3,5 +3,7 @@
   "build": "10A5338d",
   "released": "2012-06-25",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "10A5338d"
 }

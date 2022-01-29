@@ -64,5 +64,7 @@
     "iPod7,1": {
       "ipsw": "https://download.developer.apple.com/WWDC_2017/iOS_and_tvOS_IPSWs_for_Jun_4_2018_Seed/iPodtouch_12.0_16A5288q_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16A5288q"
 }

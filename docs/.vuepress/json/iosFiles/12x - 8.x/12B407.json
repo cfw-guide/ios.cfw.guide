@@ -3,5 +3,7 @@
   "build": "12B407",
   "released": "2014-10-07",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12B407"
 }

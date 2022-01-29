@@ -244,5 +244,7 @@
     "iPod9,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "19C63"
 }

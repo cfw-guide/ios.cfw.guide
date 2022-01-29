@@ -3,5 +3,7 @@
   "build": "12A4331d",
   "released": "2014-07-21",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12A4331d"
 }

@@ -7,5 +7,7 @@
     "AppleTV5,3": {
       "ipsw": "http://appldnld.apple.com/tvos10.2/031-52186-20170320-71EFBAE0-0B37-11E7-804A-A4A7FF9FED6C/AppleTV5,3_10.2_14W265_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "tvOS",
+  "uniqueBuild": "14W265"
 }

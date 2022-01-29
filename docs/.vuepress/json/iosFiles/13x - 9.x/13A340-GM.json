@@ -1,6 +1,6 @@
 {
   "version": "9.0 GM",
-  "build": "13A340-GM",
+  "build": "13A340",
   "released": "2015-09-09",
   "beta": true,
   "devices": {
@@ -76,5 +76,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios9/031-07354-20150916-3fa49076-525e-11e5-b6cc-0a8c6ca99cb1/ipod7,1_9.0_13a340_restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13A340-GM"
 }

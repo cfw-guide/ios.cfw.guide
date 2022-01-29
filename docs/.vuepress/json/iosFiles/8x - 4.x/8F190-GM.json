@@ -1,7 +1,9 @@
 {
   "version": "4.3 GM",
-  "build": "8F190-GM",
+  "build": "8F190",
   "released": "2011-03-03",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8F190-GM"
 }

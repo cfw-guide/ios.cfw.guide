@@ -7,5 +7,7 @@
     "iPod4,1": {
       "ipsw": "http://appldnld.apple.com/iPhone4/061-9344.20100922.Urgt43/iPod4,1_4.1_8B118_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8B118"
 }

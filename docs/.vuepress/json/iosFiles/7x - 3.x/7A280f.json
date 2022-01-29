@@ -3,5 +3,7 @@
   "build": "7A280f",
   "released": "2009-04-14",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7A280f"
 }

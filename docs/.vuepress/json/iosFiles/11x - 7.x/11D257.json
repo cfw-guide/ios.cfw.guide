@@ -94,5 +94,7 @@
     "iPod5,1": {
       "ipsw": "http://appldnld.apple.com/iOS7.1/031-4800.20140627.37lE1/iPod5,1_7.1.2_11D257_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "11D257"
 }

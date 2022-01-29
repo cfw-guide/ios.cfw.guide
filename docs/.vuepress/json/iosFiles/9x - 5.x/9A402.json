@@ -3,5 +3,7 @@
   "build": "9A402",
   "released": "2011-11-02",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "9A402"
 }

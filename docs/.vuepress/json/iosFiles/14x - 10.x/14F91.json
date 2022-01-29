@@ -10,5 +10,7 @@
     "iPad5,2": {
       "ipsw": "http://appldnld.apple.com/ios10.3.2/091-13108-20170515-DF949FEE-327D-11E7-8E86-4A622DBC0DB3/iPad_64bit_TouchID_10.3.2_14F91_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14F91"
 }

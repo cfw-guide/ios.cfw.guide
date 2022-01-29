@@ -97,5 +97,7 @@
     "iPad5,4": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "12B435"
 }

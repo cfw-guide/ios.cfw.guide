@@ -7,5 +7,7 @@
     "iPhone12,8": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17E8255"
 }

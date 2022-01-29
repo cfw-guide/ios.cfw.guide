@@ -67,5 +67,7 @@
     "iPhone11,8": {
       "ipsw": "http://updates-http.cdn-apple.com/2018FallFCS/fullrestores/041-28423/A2A34FBA-02EA-11E9-9249-C288D1D0D650/iPhone11,8_12.1.2_16C104_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16C104"
 }

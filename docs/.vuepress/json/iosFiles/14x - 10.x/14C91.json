@@ -25,5 +25,7 @@
     "iPhone5,4": {
       "ipsw": "http://appldnld.apple.com/ios10.2seed/031-93638-20161205-1C67E392-BA4A-11E6-B941-BC66E47229E1/iPhone_4.0_32bit_10.2_14C91_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14C91"
 }

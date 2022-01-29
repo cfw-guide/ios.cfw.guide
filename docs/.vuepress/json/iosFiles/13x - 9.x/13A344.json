@@ -109,5 +109,7 @@
     "iPad5,4": {
       "ipsw": "http://appldnld.apple.com/ios9/031-24750-20150916-2CFBC9DA-5678-11E5-B600-DFF76CA99CB1/iPad5,4_9.0_13A344_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13A344"
 }

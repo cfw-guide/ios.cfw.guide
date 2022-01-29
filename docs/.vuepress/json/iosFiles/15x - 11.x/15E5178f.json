@@ -118,5 +118,7 @@
     "iPhone9,4": {
       "ipsw": "http://appldnld.apple.com/ios11.3seed/091-64325-20180206-430DEDD0-333C-466C-B3E9-54A046678166/iPhone9,4,iPhone9,2,iPhone10,5,iPhone10,2_11.3_15E5178f_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15E5178f"
 }

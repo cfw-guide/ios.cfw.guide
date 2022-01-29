@@ -7,5 +7,7 @@
     "iPhone12,8": {
       "ipsw": "http://updates-http.cdn-apple.com/2020SpringFCS/fullrestores/061-95978/54ED926A-AF63-4377-BEC4-F371ADA9D816/iPhone12,8_13.4.1_17E8258_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17E8258"
 }

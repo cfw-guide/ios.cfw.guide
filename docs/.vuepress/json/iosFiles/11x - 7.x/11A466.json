@@ -16,5 +16,7 @@
     "iPhone6,2": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "11A466"
 }

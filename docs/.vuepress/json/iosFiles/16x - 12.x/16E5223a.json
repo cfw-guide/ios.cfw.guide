@@ -3,5 +3,7 @@
   "build": "16E5223a",
   "released": "2019-03-11",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "16E5223a"
 }

@@ -16,5 +16,7 @@
     "iPad6,8": {
       "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2020/iPadOS_14_beta/iPadPro_12.9_14.0_18A5301v_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iPadOS",
+  "uniqueBuild": "18A5301v"
 }

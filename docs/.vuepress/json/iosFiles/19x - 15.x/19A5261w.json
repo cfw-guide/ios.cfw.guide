@@ -3,5 +3,7 @@
   "build": "19A5261w",
   "released": "2021-06-07",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "19A5261w"
 }

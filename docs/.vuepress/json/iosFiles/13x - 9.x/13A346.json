@@ -16,5 +16,7 @@
     "iPhone9,4": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13A346"
 }

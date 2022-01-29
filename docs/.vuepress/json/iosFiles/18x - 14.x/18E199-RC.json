@@ -1,6 +1,6 @@
 {
   "version": "14.5 RC",
-  "build": "18E199-RC",
+  "build": "18E199",
   "released": "2021-04-20",
   "beta": true,
   "devices": {
@@ -196,5 +196,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-17687/4BC545B1-756F-4E37-B647-A84D0AABD735/iPodtouch_7_14.5_18E199_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18E199-RC"
 }

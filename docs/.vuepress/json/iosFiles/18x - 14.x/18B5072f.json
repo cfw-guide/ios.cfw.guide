@@ -172,5 +172,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2020FallSeed/fullrestores/001-54642/165C9F7C-E24D-4B48-9DB0-550E6BD381C9/iPodtouch_7_14.2_18B5072f_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18B5072f"
 }

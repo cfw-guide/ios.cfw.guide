@@ -121,5 +121,7 @@
     "iPhone9,4": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/041-93549/06C667D0-AEF7-11E9-9C8A-DFA4B1CD1797/iPhone_5.5_P3_13.0_17A5547d_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17A5547d"
 }

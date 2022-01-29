@@ -166,5 +166,7 @@
     "iPod7,1": {
       "ipsw": "https://updates.cdn-apple.com/2018FallSeed/fullrestores/041-24757/D0D08D5A-E786-11E8-80BA-1A9D55D8F596/iPodtouch_12.1.1_16C5050a_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16C5050a"
 }

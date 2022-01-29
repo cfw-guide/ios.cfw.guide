@@ -181,5 +181,7 @@
     "iPod7,1": {
       "ipsw": "http://updates-http.cdn-apple.com/2019SpringFCS/fullrestores/091-78768/ECF62014-499F-11E9-AE8B-E24576CE070F/iPodtouch_12.2_16E227_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16E227"
 }

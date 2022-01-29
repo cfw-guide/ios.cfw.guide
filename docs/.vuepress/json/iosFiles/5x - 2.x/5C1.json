@@ -13,5 +13,7 @@
     "iPod1,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5C1"
 }

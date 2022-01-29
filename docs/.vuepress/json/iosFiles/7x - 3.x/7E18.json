@@ -22,5 +22,7 @@
     "iPod3,1": {
       "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPhone/061-7473.20100202.4i44t/iPod3,1_3.1.3_7E18_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7E18"
 }

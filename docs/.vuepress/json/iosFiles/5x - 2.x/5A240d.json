@@ -3,5 +3,7 @@
   "build": "5A240d",
   "released": "2008-04-08",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5A240d"
 }

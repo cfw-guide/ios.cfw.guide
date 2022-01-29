@@ -1,7 +1,9 @@
 {
   "version": "7.1 GM",
-  "build": "11D169-GM",
+  "build": "11D169",
   "released": "2014-03-10",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "11D169-GM"
 }

@@ -7,5 +7,7 @@
     "iPad1,1": {
       "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPad/061-7987.20100403.mjiTr/iPad1,1_3.2_7B367_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7B367"
 }

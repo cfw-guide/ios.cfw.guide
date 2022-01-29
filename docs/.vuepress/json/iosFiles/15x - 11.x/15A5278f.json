@@ -3,5 +3,7 @@
   "build": "15A5278f",
   "released": "2017-06-05",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "15A5278f"
 }

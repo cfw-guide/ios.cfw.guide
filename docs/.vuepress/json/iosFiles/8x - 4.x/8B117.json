@@ -25,5 +25,7 @@
     "iPad1,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8B117"
 }

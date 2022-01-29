@@ -3,5 +3,7 @@
   "build": "13A4254v",
   "released": "2015-06-08",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "13A4254v"
 }

@@ -3,5 +3,7 @@
   "build": "5A225c",
   "released": "2008-03-27",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5A225c"
 }

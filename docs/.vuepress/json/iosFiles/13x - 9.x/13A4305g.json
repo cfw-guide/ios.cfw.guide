@@ -3,5 +3,7 @@
   "build": "13A4305g",
   "released": "2015-07-21",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "13A4305g"
 }

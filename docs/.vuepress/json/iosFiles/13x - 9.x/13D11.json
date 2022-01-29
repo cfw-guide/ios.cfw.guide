@@ -3,5 +3,7 @@
   "build": "13D11",
   "released": "2015-12-16",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "13D11"
 }

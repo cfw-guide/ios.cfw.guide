@@ -3,5 +3,7 @@
   "build": "5A147p",
   "released": "2008-03-06",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5A147p"
 }

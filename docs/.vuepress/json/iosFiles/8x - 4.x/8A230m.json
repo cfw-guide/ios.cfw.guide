@@ -3,5 +3,7 @@
   "build": "8A230m",
   "released": "2010-04-08",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8A230m"
 }

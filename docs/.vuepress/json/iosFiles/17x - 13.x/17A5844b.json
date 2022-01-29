@@ -10,5 +10,7 @@
     "iPhone12,5": {
       "ipsw": "https://updates.cdn-apple.com/2019SummerSeed/fullrestores/061-18138/FD208352-DA1E-11E9-B1BA-D839301CD3DF/iPhone12,3,iPhone12,5_13.1_17A5844b_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17A5844b"
 }

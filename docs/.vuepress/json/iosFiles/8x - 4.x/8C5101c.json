@@ -3,5 +3,7 @@
   "build": "8C5101c",
   "released": "2010-09-28",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8C5101c"
 }

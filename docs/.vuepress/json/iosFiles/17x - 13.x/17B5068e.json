@@ -148,5 +148,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2019FallSeed/fullrestores/061-28561/9EE45D92-EA2F-11E9-B0DD-90BDE8626143/iPodtouch_7_13.2_17B5068e_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17B5068e"
 }

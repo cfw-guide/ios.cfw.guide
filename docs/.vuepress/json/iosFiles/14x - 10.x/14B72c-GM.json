@@ -1,6 +1,6 @@
 {
   "version": "10.1 beta 5",
-  "build": "14B72c-GM",
+  "build": "14B72c",
   "released": "2016-10-19",
   "beta": true,
   "devices": {
@@ -16,5 +16,7 @@
     "iPhone9,4": {
       "ipsw": "http://appldnld.apple.com/ios10.1seed/031-86287-20161024-355F73B2-9572-11E6-B967-056E80A31755/iPhone_7Plus_10.1_14B72c_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14B72c-GM"
 }

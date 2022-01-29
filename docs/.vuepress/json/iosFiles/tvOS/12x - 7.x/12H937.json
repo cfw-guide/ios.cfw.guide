@@ -11,5 +11,7 @@
     "AppleTV3,2": {
       "ipsw": "https://updates.cdn-apple.com/2021/tvos/071-52935-20210917-450E306C-1332-4DCD-8601-563ED30A918D/AppleTV3,2_8.4.3_12H937_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "12H937"
 }

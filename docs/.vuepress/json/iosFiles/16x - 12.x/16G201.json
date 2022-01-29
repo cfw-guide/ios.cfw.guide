@@ -46,5 +46,7 @@
     "iPod7,1": {
       "ipsw": "http://updates-http.cdn-apple.com/2020SummerFCS/fullrestores/001-11127/28D2C71E-87E7-433F-8316-9C6BFD7B65E3/iPodtouch_12.4.8_16G201_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16G201"
 }

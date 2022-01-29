@@ -1,6 +1,6 @@
 {
   "version": "13.5 GM",
-  "build": "17F75-GM",
+  "build": "17F75",
   "released": "2020-05-18",
   "beta": true,
   "devices": {
@@ -172,5 +172,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2020SpringFCS/fullrestores/061-71862/C3A3F63A-A600-4FED-8EEA-844B65D4E021/iPodtouch_7_13.5_17F75_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17F75-GM"
 }

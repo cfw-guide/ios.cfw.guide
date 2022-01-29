@@ -16,5 +16,7 @@
     "iPhone10,6": {
       "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-81979-20180501-D6259B8C-4B15-11E8-A9F3-6490D9D45F13/iPhone10,3,iPhone10,6_11.4_15F5061e_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15F5061e"
 }

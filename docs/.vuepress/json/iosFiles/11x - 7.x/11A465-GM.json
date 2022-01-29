@@ -1,7 +1,9 @@
 {
   "version": "7.0 GM",
-  "build": "11A465-GM",
+  "build": "11A465",
   "released": "2013-09-10",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "11A465-GM"
 }

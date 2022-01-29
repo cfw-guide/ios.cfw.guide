@@ -37,5 +37,7 @@
     "iPhone6,2": {
       "ipsw": "http://appldnld.apple.com/ios9/031-07344-20150916-6ae3262a-525f-11e5-b84e-6c8f6ca99cb1/iphone6,2_9.0_13a341_restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13A341"
 }

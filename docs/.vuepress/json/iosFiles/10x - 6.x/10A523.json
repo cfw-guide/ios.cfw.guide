@@ -46,5 +46,7 @@
     "iPod5,1": {
       "ipsw": "http://appldnld.apple.com/iOS6/041-7438.20121101.Usre4/iPod5,1_6.0.1_10A523_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A523"
 }

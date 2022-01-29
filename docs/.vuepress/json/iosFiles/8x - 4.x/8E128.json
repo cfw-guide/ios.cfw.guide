@@ -7,5 +7,7 @@
     "iPhone3,3": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8E128"
 }

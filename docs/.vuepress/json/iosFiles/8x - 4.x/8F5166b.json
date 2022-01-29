@@ -3,5 +3,7 @@
   "build": "8F5166b",
   "released": "2011-02-01",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8F5166b"
 }

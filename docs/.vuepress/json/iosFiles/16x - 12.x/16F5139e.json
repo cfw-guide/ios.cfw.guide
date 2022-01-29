@@ -3,5 +3,7 @@
   "build": "16F5139e",
   "released": "2019-04-22",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "16F5139e"
 }

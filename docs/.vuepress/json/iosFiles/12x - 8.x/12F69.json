@@ -79,5 +79,7 @@
     "iPod5,1": {
       "ipsw": "http://appldnld.apple.com/ios8.3/031-14952-20150408-2379BA68-D8B8-11E4-9A04-C21C90F2D2C2/iPod5,1_8.3_12F69_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "12F69"
 }

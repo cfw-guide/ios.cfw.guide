@@ -10,5 +10,7 @@
     "iPad6,4": {
       "ipsw": "http://appldnld.apple.com/ios9.3.2/031-63521-20160531-52E11160-2665-11E6-8860-F1F5662719FC/iPad6,4_9.3.2_13F72_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13F72"
 }

@@ -14,5 +14,7 @@
     "AppleTV3,2": {
       "ipsw": "http://appldnld.apple.com/AppleTV/031-0457.20130923.8n2FL/AppleTV3,2_6.0_11A502_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "11A502"
 }

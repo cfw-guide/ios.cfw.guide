@@ -3,5 +3,7 @@
   "build": "5F90",
   "released": "2008-07-24",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5F90"
 }

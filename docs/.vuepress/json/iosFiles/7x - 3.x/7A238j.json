@@ -3,5 +3,7 @@
   "build": "7A238j",
   "released": "2009-03-17",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7A238j"
 }

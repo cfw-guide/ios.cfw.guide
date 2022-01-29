@@ -1,6 +1,6 @@
 {
   "version": "10.2.1 beta 4",
-  "build": "14D27-GM",
+  "build": "14D27",
   "released": "2017-01-12",
   "beta": true,
   "devices": {
@@ -112,5 +112,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios10.2.1seed/031-96702-20170112-61539B5E-D81D-11E6-A2F4-EA01D55B5B9D/iPodtouch_10.2.1_14D27_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14D27-GM"
 }

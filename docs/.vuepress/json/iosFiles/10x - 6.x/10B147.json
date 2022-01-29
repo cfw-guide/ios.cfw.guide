@@ -13,5 +13,7 @@
     "iPad2,7": {
       "ipsw": "http://appldnld.apple.com/iOS6.1/091-0730.20130215.Acsit/iPad2,7_6.1.2_10B147_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10B147"
 }

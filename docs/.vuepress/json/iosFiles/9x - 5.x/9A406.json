@@ -7,5 +7,7 @@
     "iPhone4,1": {
       "ipsw": "http://appldnld.apple.com/iPhone4//041-3417.20111215.Slnt4/iPhone4,1_5.0.1_9A406_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "9A406"
 }

@@ -3,5 +3,7 @@
   "build": "5A331",
   "released": "2008-06-09",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5A331"
 }

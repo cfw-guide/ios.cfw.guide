@@ -3,5 +3,7 @@
   "build": "10B5095f",
   "released": "2012-11-01",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "10B5095f"
 }

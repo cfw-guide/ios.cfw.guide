@@ -3,5 +3,7 @@
   "build": "5G29",
   "released": "2008-09-25",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5G29"
 }

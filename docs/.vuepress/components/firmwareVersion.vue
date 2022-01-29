@@ -200,7 +200,7 @@ export default {
       return groupArr;
     },
     jailbreakArr() {
-      const build = this.currentBuild.build
+      const build = this.currentBuild.uniqueBuild
       return json.jailbreak.filter(function(jb) {
         for (var c in jb.compatibility) {
           if (jb.compatibility[c].firmwares.includes(build))
@@ -212,7 +212,7 @@ export default {
     jbDevArr() {
       const jailbreakArr = this.jailbreakArr
       const devArr = this.devArr
-      const build = this.currentBuild.build
+      const build = this.currentBuild.uniqueBuild
       var retArr = []
       for (var jb in jailbreakArr) {
         var compat = jailbreakArr[jb].compatibility

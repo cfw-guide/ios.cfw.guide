@@ -43,5 +43,7 @@
     "iPod9,1": {
       "ipsw": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPodtouch_13.0_17A5492t_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "17A5492t"
 }

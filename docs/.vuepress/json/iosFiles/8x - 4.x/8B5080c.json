@@ -3,5 +3,7 @@
   "build": "8B5080c",
   "released": "2010-06-14",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8B5080c"
 }

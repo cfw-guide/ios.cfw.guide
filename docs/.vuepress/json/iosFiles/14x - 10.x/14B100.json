@@ -112,5 +112,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios10.1.1/031-88360-20161109-4C53406C-A503-11E6-842E-3CAEF9858D7F/iPodtouch_10.1.1_14B150_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14B100"
 }

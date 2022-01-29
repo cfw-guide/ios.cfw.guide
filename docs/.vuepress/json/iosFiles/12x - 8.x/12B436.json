@@ -25,5 +25,7 @@
     "iPad5,4": {
       "ipsw": "http://appldnld.apple.com/iOS8.1.1/031-12361.20141117.Whste/iPad5,4_8.1.1_12B436_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "12B436"
 }

@@ -40,5 +40,7 @@
     "iPad8,8": {
       "ipsw": "http://updates-http.cdn-apple.com/2019WinterFCS/fullrestores/041-31149/BFED73A6-18D0-11E9-ACBA-1FE56784396E/iPad_Fall_2018_12.1.3_16D40_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16D40"
 }

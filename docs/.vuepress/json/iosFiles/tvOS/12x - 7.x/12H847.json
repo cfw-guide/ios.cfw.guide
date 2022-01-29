@@ -11,5 +11,7 @@
     "AppleTV3,2": {
       "ipsw": "http://updates-http.cdn-apple.com/2019/tvos/041-62816-56ACC183-47FA-4558-956C-7FDB13A60ADA/AppleTV3,2_8.4.2_12H847_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "12H847"
 }

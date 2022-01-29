@@ -3,5 +3,7 @@
   "build": "12H4125a",
   "released": "2015-06-09",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12H4125a"
 }

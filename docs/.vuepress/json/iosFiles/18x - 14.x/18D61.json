@@ -196,5 +196,7 @@
     "iPod9,1": {
       "ipsw": "http://updates-http.cdn-apple.com/2021WinterFCS/fullrestores/071-12631/1A51E4A8-FF3E-4AAA-B84A-C5487D939BC7/iPodtouch_7_14.4.1_18D61_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18D61"
 }

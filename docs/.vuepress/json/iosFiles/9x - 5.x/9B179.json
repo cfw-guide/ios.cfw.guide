@@ -7,5 +7,7 @@
     "iPhone4,1": {
       "ipsw": "http://appldnld.apple.com/iOS5/041-1530.20120307.LDDac/iPhone4,1_5.1_9B179_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "9B179"
 }

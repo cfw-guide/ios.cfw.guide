@@ -10,5 +10,7 @@
     "iPhone8,2": {
       "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-74070-20180402-53445238-337A-11E8-A6D1-C792B7B039C2/iPhone_5.5_11.4_15F5037c_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15F5037c"
 }

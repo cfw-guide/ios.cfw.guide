@@ -1,6 +1,6 @@
 {
   "version": "12.0 GM",
-  "build": "16A366-GM",
+  "build": "16A366",
   "released": "2018-09-12",
   "beta": true,
   "devices": {
@@ -133,5 +133,7 @@
     "iPod7,1": {
       "ipsw": "https://updates.cdn-apple.com/2018FallFCS/fullrestores/091-62942/117CFD40-AC8E-11E8-9643-BCDC62B531BE/iPodtouch_12.0_16A366_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16A366-GM"
 }

@@ -127,5 +127,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios11.2.2/091-58233-20170108-B8467F48-F0C8-11E7-9552-6A2D869EB6BD/iPodtouch_11.2.2_15C202_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15C202"
 }

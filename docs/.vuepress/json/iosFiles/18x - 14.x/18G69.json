@@ -220,5 +220,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2021SummerFCS/fullrestores/071-71166/C7EE8EC4-55A8-48AC-A4EC-93BE91F6E45F/iPodtouch_7_14.7_18G69_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18G69"
 }

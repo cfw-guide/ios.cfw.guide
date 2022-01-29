@@ -121,5 +121,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/iOS9.3/031-28419-20160321-88AD419E-EAA9-11E5-9ACA-137DBD379832/iPod7,1_9.3_13E233_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13E233"
 }

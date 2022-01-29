@@ -3,5 +3,7 @@
   "build": "7C97d",
   "released": "2009-06-30",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7C97d"
 }

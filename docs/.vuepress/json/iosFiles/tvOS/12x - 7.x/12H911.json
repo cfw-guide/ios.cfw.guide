@@ -11,5 +11,7 @@
     "AppleTV3,2": {
       "ipsw": "http://updates-http.cdn-apple.com/2020/tvos/001-48396-20201029-4E3C6B94-2514-4DAE-9029-132F699D715C/AppleTV3,2_8.4.3_12H911_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "12H911"
 }

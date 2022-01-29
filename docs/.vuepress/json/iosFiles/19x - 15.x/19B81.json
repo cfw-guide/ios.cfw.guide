@@ -28,5 +28,7 @@
     "iPhone14,5": {
       "ipsw": "https://updates.cdn-apple.com/2021FallFCS/fullrestores/002-34718/591DB3FA-9100-4B75-B107-A3CDA12F2337/iPhone14,5_15.1.1_19B81_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "19B81"
 }

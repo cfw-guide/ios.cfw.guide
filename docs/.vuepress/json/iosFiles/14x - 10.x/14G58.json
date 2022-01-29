@@ -28,5 +28,7 @@
     "iPad6,12": {
       "ipsw": "http://appldnld.apple.com/ios10.3.3seeds/091-03866-20170705-F7B9FCAA-5DF6-11E7-9716-076D00BA0AE3/iPad_6,11_iPad_6,12_10.3.3_14G58_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14G58"
 }

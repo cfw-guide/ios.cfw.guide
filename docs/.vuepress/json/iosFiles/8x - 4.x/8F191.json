@@ -13,5 +13,7 @@
     "iPad2,3": {
       "ipsw": "http://appldnld.apple.com/iPhone4/041-0334.20110311Plgt5/iPad2,3_4.3_8F191_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8F191"
 }

@@ -3,5 +3,7 @@
   "build": "9A5313e",
   "released": "2011-08-31",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "9A5313e"
 }

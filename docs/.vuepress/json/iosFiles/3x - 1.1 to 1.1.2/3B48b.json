@@ -10,5 +10,7 @@
     "iPod1,1": {
       "ipsw": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-4036.20071107.9g3DF/iPod1,1_1.1.2_3B48b_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "3B48b"
 }

@@ -16,5 +16,7 @@
     "iPhone9,4": {
       "ipsw": "http://appldnld.apple.com/ios10.1/031-86292-20161024-EAE6CD2E-9550-11E6-8F8D-9E6680A31755/iPhone_7Plus_10.1_14B72c_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14B72c"
 }

@@ -3,5 +3,7 @@
   "build": "5F108",
   "released": "2008-08-06",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "5F108"
 }

@@ -1,6 +1,6 @@
 {
   "version": "14.6 RC 2",
-  "build": "18F72-RC",
+  "build": "18F72",
   "released": "2021-05-21",
   "beta": true,
   "devices": {
@@ -220,5 +220,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2021SpringFCS/fullrestores/071-44788/B5644920-829A-4CAC-AEA7-5F1D7408FB8F/iPodtouch_7_14.6_18F72_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18F72-RC"
 }

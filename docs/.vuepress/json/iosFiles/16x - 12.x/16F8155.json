@@ -7,5 +7,7 @@
     "iPod9,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16F8155"
 }

@@ -1,7 +1,9 @@
 {
   "version": "6.1 beta 5",
-  "build": "10B141-GM",
+  "build": "10B141",
   "released": "2013-01-26",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "10B141-GM"
 }

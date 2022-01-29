@@ -76,5 +76,7 @@
     "iPhone9,4": {
       "ipsw": "https://updates.cdn-apple.com/2018/iosseed/091-98649-20180806-373CB080-96DA-11E8-BF81-D08EFF4EAF9D/iPhone_5.5_P3_12.0_16A5345f_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "16A5345f"
 }

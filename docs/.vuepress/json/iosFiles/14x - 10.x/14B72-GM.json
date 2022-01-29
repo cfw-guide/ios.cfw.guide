@@ -1,6 +1,6 @@
 {
   "version": "10.1 beta 4",
-  "build": "14B72-GM",
+  "build": "14B72",
   "released": "2016-10-17",
   "beta": true,
   "devices": {
@@ -100,5 +100,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios10.1seed/031-85840-20161012-53628418-8FCC-11E6-86FB-1B4C7FA31755/iPodtouch_10.1_14B72_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14B72-GM"
 }

@@ -1,0 +1,13 @@
+{
+  "version": "4.1.1",
+  "build": "8C152",
+  "released": "2010-12-13",
+  "beta": false,
+  "devices": {
+    "AppleTV2,1": {
+      "ipsw": "https://secure-appldnld.apple.com/AppleTV/061-9937.20101208.tvff4/AppleTV2,1_4.2.1_8C152_Restore.ipsw"
+    }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "8C152"
+}

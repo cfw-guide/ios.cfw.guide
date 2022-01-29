@@ -3,5 +3,7 @@
   "build": "12D445d",
   "released": "2014-12-10",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "12D445d"
 }

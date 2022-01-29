@@ -7,5 +7,7 @@
     "AppleTV5,3": {
       "ipsw": "http://appldnld.apple.com/tvos9.0/031-24288-20151028-1BE4479A-7DDC-11E5-BDEE-974E5942017F/AppleTV5,3_9.0_13T396_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "Apple TV Software",
+  "uniqueBuild": "13T396"
 }

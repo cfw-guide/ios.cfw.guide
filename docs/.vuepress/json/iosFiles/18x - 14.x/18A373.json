@@ -172,5 +172,7 @@
     "iPod9,1": {
       "ipsw": "http://updates-http.cdn-apple.com/2020SummerFCS/fullrestores/001-46564/2263B4BD-8B1A-45CF-85F6-51D205C3DF66/iPodtouch_7_14.0_18A373_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18A373"
 }

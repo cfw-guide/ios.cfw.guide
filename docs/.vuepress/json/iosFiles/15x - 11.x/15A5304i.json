@@ -91,5 +91,7 @@
     "iPod7,1": {
       "ipsw": "http://appldnld.apple.com/ios11.0seeds/091-19531-20170621-CA815460-55D4-11E7-9E9C-06B5C244ED54/iPodtouch_11.0_15A5304i_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "15A5304i"
 }

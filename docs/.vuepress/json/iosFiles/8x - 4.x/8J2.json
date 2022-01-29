@@ -31,5 +31,7 @@
     "iPad1,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8J2"
 }

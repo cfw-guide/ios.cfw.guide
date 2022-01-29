@@ -7,5 +7,7 @@
     "iPad2,3": {
       "ipsw": "http://appldnld.apple.com/iPhone4/041-0665.20110414.MbwVr/iPad2,3_4.3.2_8H8_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "8H8"
 }

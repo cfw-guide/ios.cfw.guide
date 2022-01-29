@@ -3,5 +3,7 @@
   "build": "13A4293f",
   "released": "2015-07-08",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "13A4293f"
 }

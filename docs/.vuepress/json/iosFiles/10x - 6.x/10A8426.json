@@ -22,5 +22,7 @@
     "iPad3,6": {
       "ipsw": "http://appldnld.apple.com//iOS6/041-5482.20121209.479Gv/iPad3,6_6.0.1_10A8426_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A8426"
 }

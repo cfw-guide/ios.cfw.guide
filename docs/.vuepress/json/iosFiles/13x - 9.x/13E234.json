@@ -16,5 +16,7 @@
     "iPad6,4": {
       "ipsw": "http://appldnld.apple.com/iOS9.3/031-20816-20160321-50FFD67C-EAA8-11E5-AD85-C979BD379832/iPad6,4_9.3_13E234_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13E234"
 }

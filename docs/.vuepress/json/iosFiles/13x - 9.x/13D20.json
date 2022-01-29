@@ -28,5 +28,7 @@
     "iPad6,8": {
       "ipsw": "http://appldnld.apple.com/ios9.2.1/031-49308-20160217-4BADBB56-D44D-11E5-B486-0152919DCAD8/iPad6,8_9.2.1_13D20_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "13D20"
 }

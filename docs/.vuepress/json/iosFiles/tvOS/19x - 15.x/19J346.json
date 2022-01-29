@@ -13,5 +13,7 @@
     "AppleTV11,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "tvOS",
+  "uniqueBuild": "19J346"
 }

@@ -3,5 +3,7 @@
   "build": "8B5091b",
   "released": "2010-07-27",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "8B5091b"
 }

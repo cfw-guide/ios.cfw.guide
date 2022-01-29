@@ -244,5 +244,7 @@
     "iPod9,1": {
       "ipsw": "https://updates.cdn-apple.com/2022FCSWinter/fullrestores/002-55767/793E5D53-BFA7-46E9-AC5E-8005185C0D86/iPodtouch_7_15.3_19D49_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "19D49"
 }

@@ -19,5 +19,7 @@
     "iPod2,1": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iPhoneOS",
+  "uniqueBuild": "7A341"
 }

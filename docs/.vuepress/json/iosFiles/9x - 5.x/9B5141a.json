@@ -3,5 +3,7 @@
   "build": "9B5141a",
   "released": "2012-01-09",
   "beta": true,
-  "devices": {}
+  "devices": {},
+  "osStr": "iOS",
+  "uniqueBuild": "9B5141a"
 }

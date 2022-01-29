@@ -76,5 +76,7 @@
     "iPad5,4": {
       "ipsw": "http://appldnld.apple.com/iOS8.1/031-08977.20141020.ShyDN/iPad5,4_8.1_12B410_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "12B410"
 }

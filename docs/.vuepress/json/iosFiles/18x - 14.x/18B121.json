@@ -16,5 +16,7 @@
     "iPhone13,4": {
       "ipsw": "http://updates-http.cdn-apple.com/2020FallFCS/fullrestores/001-83359/ED24E536-93A8-456A-98A9-24E3153707C1/iPhone13,4_14.2.1_18B121_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "18B121"
 }

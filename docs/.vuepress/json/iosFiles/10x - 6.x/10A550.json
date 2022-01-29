@@ -7,5 +7,7 @@
     "iPad2,5": {
       "ipsw": "none"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "10A550"
 }

@@ -16,5 +16,7 @@
     "iPad7,4": {
       "ipsw": "http://appldnld.apple.com/ios10.3.2/031-95065-20170605-1DBF8E5A-4002-11E7-AE8A-8CF52C6174CC/iPad_7,3_iPad_7,4_10.3.2_14F8089_Restore.ipsw"
     }
-  }
+  },
+  "osStr": "iOS",
+  "uniqueBuild": "14F8089"
 }
