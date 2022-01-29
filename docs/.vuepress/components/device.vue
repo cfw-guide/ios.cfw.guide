@@ -1,5 +1,5 @@
 <template>
-  <template v-if="Object.keys(this.frontmatter.device).length != Object.keys(devices).length">
+  <template v-if="Object.keys(frontmatter.device).length != Object.keys(devices).length">
     <h2 v-html="infoHeader" v-if="infoData.length > 0"/>
     <p>
       <div v-for="i in infoData" :key="i" v-html="i"/>
@@ -16,7 +16,7 @@
     <p>
       <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
       <label for="showBetaCheckbox">{{ showBetaStr }}</label>
-      <template v-if="Object.keys(this.frontmatter.device).length == Object.keys(devices).length">
+      <template v-if="Object.keys(frontmatter.device).length == Object.keys(devices).length">
         <br>
         <input type="checkbox" v-model="showiOS" id="showiOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
         <label for="showiOSCheckbox">{{ showiOSStr }}</label>
