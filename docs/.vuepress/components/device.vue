@@ -102,9 +102,10 @@ export default {
   },
   computed: {
     deviceName() {
-      if (this.frontmatter.name) return this.deviceStr.format({ dev: this.frontmatter.name })
+      const fm = this.frontmatter
+      if (fm.name) return this.deviceStr.format({ dev: fm.name })
 
-      var deviceList = this.frontmatter.device
+      var deviceList = fm.device
       if (!deviceList) return
       deviceList = deviceList.map(x => this.devices[x])
 
@@ -112,7 +113,8 @@ export default {
       if (deviceNameArr.length > 0) return this.deviceStr.format({ dev: deviceNameArr.join(', ') })
     },
     deviceIdentifier() {
-      var deviceList = this.frontmatter.device
+      const fm = this.frontmatter
+      var deviceList = fm.device
       if (!deviceList) return
       deviceList = deviceList.map(x => this.devices[x])
       
@@ -120,7 +122,8 @@ export default {
       if (deviceIdentifierArr.length > 0) return this.identStr.format({ ident: deviceIdentifierArr.join(', ') })
     },
     deviceSoc() {
-      var deviceList = this.frontmatter.device
+      const fm = this.frontmatter
+      var deviceList = fm.device
       if (!deviceList) return
       deviceList = deviceList.map(x => this.devices[x])
       
@@ -128,7 +131,8 @@ export default {
       if (deviceSocArr.length > 0) return this.socStr.format({ soc: deviceSocArr.join(', ')})
     },
     deviceArch() {
-      var deviceList = this.frontmatter.device
+      const fm = this.frontmatter
+      var deviceList = fm.device
       if (!deviceList) return
       deviceList = deviceList.map(x => this.devices[x])
       
@@ -136,7 +140,8 @@ export default {
       if (deviceArchArr.length > 0) return this.archStr.format({ arch: deviceArchArr.join(', ')})
     },
     deviceModel() {
-      var deviceList = this.frontmatter.device
+      const fm = this.frontmatter
+      var deviceList = fm.device
       if (!deviceList) return
       deviceList = deviceList.map(x => this.devices[x])
       
@@ -144,7 +149,8 @@ export default {
       if (deviceModelArr.length > 0) return this.modelStr.format({ model: deviceModelArr.join(', ') })
     },
     infoData() {
-      if (!this.frontmatter.device && !this.frontmatter.group) return []
+      const fm = this.frontmatter
+      if (!fm.device && !fm.group) return []
       return [
         this.deviceName,
         this.deviceIdentifier,
@@ -154,14 +160,16 @@ export default {
       ].filter(i => i)
     },
     groupHeader() {
-      if (this.frontmatter.device.length == 1) return this.relatedHeader
+      const fm = this.frontmatter
+      if (fm.device.length == 1) return this.relatedHeader
       else return this.groupedHeader
     },
     groupedDevices() {
+      const fm = this.frontmatter
       var group = []
-      if (this.frontmatter.device.length < 1) return
-      else if (this.frontmatter.device.length == 1) group = json.groups.filter(x => x.devices.includes(this.frontmatter.device[0]))[0]
-      else group = { "devices": [...this.frontmatter.device] }
+      if (fm.device.length < 1) return
+      else if (fm.device.length == 1) group = json.groups.filter(x => x.devices.includes(fm.device[0]))[0]
+      else group = { "devices": [...fm.device] }
 
       // Check if group is valid
       if (!group) return
@@ -170,13 +178,14 @@ export default {
       var devArr = group.devices
       if (devArr.length < 1) return
       // Remove current device from related devices
-      if (this.frontmatter.device.length == 1) devArr = devArr.filter(x => x != this.frontmatter.device[0])
+      if (fm.device.length == 1) devArr = devArr.filter(x => x != fm.device[0])
       // Grab device data
       devArr = devArr.map(d => this.devices[d])
       return devArr
     },
     getFwArr() {
-      var devArr = this.frontmatter.device
+      const fm = this.frontmatter
+      var devArr = fm.device
 
       var fwArr = []
       for (var d in devArr) {
