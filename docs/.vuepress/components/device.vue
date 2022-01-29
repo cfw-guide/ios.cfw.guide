@@ -1,24 +1,41 @@
 <template>
-  <h2 v-html="infoHeader" v-if="infoData.length > 0"/>
-  <p>
-    <div v-for="i in infoData" :key="i" v-html="i"/>
-  </p>
-  <h2 v-html="groupHeader" v-if="groupedDevices.length > 0"/>
-  <ul>
-    <li v-for="d in groupedDevices" :key="d">
-      <a v-html="d.name" :href="devicePath + d.identifier + '.html'"/>
-    </li>
-  </ul>
+  <template v-if="Object.keys(this.frontmatter.device).length != Object.keys(devices).length">
+    <h2 v-html="infoHeader" v-if="infoData.length > 0"/>
+    <p>
+      <div v-for="i in infoData" :key="i" v-html="i"/>
+    </p>
+    <h2 v-html="groupHeader" v-if="groupedDevices.length > 0"/>
+    <ul>
+      <li v-for="d in groupedDevices" :key="d">
+        <a v-html="d.name" :href="devicePath + d.identifier + '.html'"/>
+      </li>
+    </ul>
+  </template>
   <template v-if="getFwArr.length > 0">
     <h2 v-html="tableHeader"/>
-    <p><a v-html="(showBeta) ? hideBetaStr : showBetaStr" id="betaToggle" style="cursor: pointer;" v-on:click="showBeta = !showBeta"/></p>
-    <table>
+    <p>
+      <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+      <label for="showBetaCheckbox">{{ showBetaStr }}</label>
+      <template v-if="Object.keys(this.frontmatter.device).length == Object.keys(devices).length">
+        <br>
+        <input type="checkbox" v-model="showiOS" id="showiOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+        <label for="showiOSCheckbox">{{ showiOSStr }}</label>
+        <br>
+        <input type="checkbox" v-model="showtvOS" id="showtvOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+        <label for="showtvOSCheckbox">{{ showtvOSStr }}</label>
+      </template>
+    </p>
+    <table v-if="showtvOS || showiOS">
       <tr>
         <th v-html="versionStr"/>
         <th v-html="jailbreakStr"/>
       </tr>
       <template v-for="fw in getFwArr" :key="fw">
-        <tr v-if="!fw.beta || (fw.beta && showBeta)">
+        <tr v-if="(
+          ((fw.istvOS && showtvOS) ||
+          (!fw.istvOS && showiOS)) &&
+          (!fw.beta || (fw.beta && showBeta))
+        )">
           <td><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
           <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
           <td v-else v-html="noJbStr"/>
@@ -37,6 +54,13 @@ String.prototype.format = function(vars) {
   for (let item in vars)
     temp = temp.replace("${" + item + "}", vars[item]);
   return temp
+}
+
+function removeNullAndDuplicatesAndSort(r) {
+  r = r.filter(x => x)
+  r = [...new Set(r)]
+  r = r.sort((a,b) => a - b)
+  return r
 }
 
 export default {
@@ -58,9 +82,9 @@ export default {
       groupedHeader: 'Grouped Devices',
 
       tableHeader: 'Version Table',
-      showBetaStr: 'Show Beta Versions',
-      hideBetaStr: 'Hide Beta Versions',
-      noJbStr: 'For fields marked "--", there is no jailbreak for that version.',
+      showBetaStr: 'Show beta versions',
+      showiOSStr: 'Show iOS versions',
+      showtvOSStr: 'Show AppleTV versions',
 
       buildStr: 'Build',
       versionStr: 'Version',
@@ -68,6 +92,8 @@ export default {
       noJbStr: 'N/A',
 
       showBeta: false,
+      showtvOS: true,
+      showiOS: true,
       frontmatter: usePageFrontmatter(),
       devices: json.device,
       firmwares: json.ios,
@@ -76,29 +102,46 @@ export default {
   },
   computed: {
     deviceName() {
-      const deviceName = this.frontmatter.device.name
-      if (!deviceName) return
-      else return this.deviceStr.format({ dev: deviceName })
+      if (this.frontmatter.name) return this.deviceStr.format({ dev: this.frontmatter.name })
+
+      var deviceList = this.frontmatter.device
+      if (!deviceList) return
+      deviceList = deviceList.map(x => this.devices[x])
+
+      const deviceNameArr = removeNullAndDuplicatesAndSort(deviceList.map(x => x.name))
+      if (deviceNameArr.length > 0) return this.deviceStr.format({ dev: deviceNameArr.join(', ') })
     },
     deviceIdentifier() {
-      const deviceIdentifier = this.frontmatter.device.identifier
-      if (!deviceIdentifier) return
-      else return this.identStr.format({ ident: deviceIdentifier })
+      var deviceList = this.frontmatter.device
+      if (!deviceList) return
+      deviceList = deviceList.map(x => this.devices[x])
+      
+      const deviceIdentifierArr = removeNullAndDuplicatesAndSort(deviceList.map(x => x.identifier))
+      if (deviceIdentifierArr.length > 0) return this.identStr.format({ ident: deviceIdentifierArr.join(', ') })
     },
     deviceSoc() {
-      const deviceSoc = this.frontmatter.device.soc
-      if (!deviceSoc) return
-      else return this.socStr.format({ soc: deviceSoc })
+      var deviceList = this.frontmatter.device
+      if (!deviceList) return
+      deviceList = deviceList.map(x => this.devices[x])
+      
+      const deviceSocArr = removeNullAndDuplicatesAndSort(deviceList.map(x => x.soc))
+      if (deviceSocArr.length > 0) return this.socStr.format({ soc: deviceSocArr.join(', ')})
     },
     deviceArch() {
-      const deviceArch = this.frontmatter.device.arch
-      if (!deviceArch) return
-      else return this.archStr.format({ arch: deviceArch })
+      var deviceList = this.frontmatter.device
+      if (!deviceList) return
+      deviceList = deviceList.map(x => this.devices[x])
+      
+      const deviceArchArr = removeNullAndDuplicatesAndSort(deviceList.map(x => x.arch))
+      if (deviceArchArr.length > 0) return this.archStr.format({ arch: deviceArchArr.join(', ')})
     },
     deviceModel() {
-      const deviceModel = this.frontmatter.device.model
-      if (!deviceModel) return
-      else return this.modelStr.format({ model: deviceModel.join(', ') })
+      var deviceList = this.frontmatter.device
+      if (!deviceList) return
+      deviceList = deviceList.map(x => this.devices[x])
+      
+      const deviceModelArr = removeNullAndDuplicatesAndSort(deviceList.map(x => x.model.join(', ')))
+      if (deviceModelArr.length > 0) return this.modelStr.format({ model: deviceModelArr.join(', ') })
     },
     infoData() {
       if (!this.frontmatter.device && !this.frontmatter.group) return []
@@ -111,16 +154,14 @@ export default {
       ].filter(i => i)
     },
     groupHeader() {
-      if (this.frontmatter.group == null) return this.relatedHeader
+      if (this.frontmatter.device.length == 1) return this.relatedHeader
       else return this.groupedHeader
     },
     groupedDevices() {
-      var group
-      // If frontmatter has group, use that group
-      if (this.frontmatter.group) group = this.frontmatter.group
-      // If frontmatter does not have group, grab group from list
-      else if (this.frontmatter.device) group = json.groups.filter(x => x.devices.includes(this.frontmatter.device.identifier))[0]
-      else return []
+      var group = []
+      if (this.frontmatter.device.length < 1) return
+      else if (this.frontmatter.device.length == 1) group = json.groups.filter(x => x.devices.includes(this.frontmatter.device[0]))[0]
+      else group = { "devices": [...this.frontmatter.device] }
 
       // Check if group is valid
       if (!group) return
@@ -129,30 +170,21 @@ export default {
       var devArr = group.devices
       if (devArr.length < 1) return
       // Remove current device from related devices
-      if (this.frontmatter.group == null) devArr = devArr.filter(x => x != this.frontmatter.device.identifier)
+      if (this.frontmatter.device.length == 1) devArr = devArr.filter(x => x != this.frontmatter.device[0])
       // Grab device data
       devArr = devArr.map(d => this.devices[d])
       return devArr
     },
     getFwArr() {
-      var devArr
-      var noDevice = false
-      if (this.frontmatter.group) devArr = this.groupedDevices.map(x => x.identifier)
-      else if (this.frontmatter.device) devArr = [this.frontmatter.device.identifier]
-      else noDevice = true
-      
-      var fwArr
+      var devArr = this.frontmatter.device
 
-      if (noDevice) fwArr = this.firmwares
-      else {
-        fwArr = []
-        for (var d in devArr) {
-          var devFwArr = this.firmwares.filter(function(x) {
-            if (!x.hasOwnProperty('devices')) return 0
-            else return Object.keys(x.devices).includes(devArr[d])
-          })
-          devFwArr.map(function(x) { if (!fwArr.includes(x)) fwArr.push(x) })
-        }
+      var fwArr = []
+      for (var d in devArr) {
+        var devFwArr = this.firmwares.filter(function(x) {
+          if (!x.hasOwnProperty('devices')) return 0
+          else return Object.keys(x.devices).includes(devArr[d])
+        })
+        devFwArr.map(function(x) { if (!fwArr.includes(x)) fwArr.push(x) })
       }
 
       var jbList = this.jailbreaks
@@ -163,7 +195,6 @@ export default {
           if (!jbList[jb].hasOwnProperty('compatibility')) continue
           for (var c in jbList[jb].compatibility) {
             if (!jbList[jb].compatibility[c].firmwares.includes(fw.uniqueBuild)) continue
-            if (!noDevice) if (!jbList[jb].compatibility[c].devices.some(r=> devArr[d].includes(r))) continue
             if (jbArr.includes(jbList[jb])) continue
             jbArr.push(jbList[jb])
           }
@@ -172,6 +203,51 @@ export default {
         jbArr = jbArr.sort((a,b) => a.priority - b.priority)
         fwArr[f].jailbreakArr = jbArr
       }
+
+      fwArr = fwArr.map(function(x) {
+        x.istvOS = (x.osStr == 'tvOS' || x.osStr == 'Apple TV Software')
+        return x
+      })
+
+      fwArr = fwArr.sort(function(a,b) {
+        function versionCompare(v1, v2, options) {
+          var lexicographical = options && options.lexicographical,
+              zeroExtend = options && options.zeroExtend,
+              v1parts = v1.split('.'),
+              v2parts = v2.split('.')
+
+          function isValidPart(x) {
+            return (lexicographical ? /^\d+[A-Za-z]*$/ : /^\d+$/).test(x)
+          }
+
+          if (!v1parts.every(isValidPart) || !v2parts.every(isValidPart)) return NaN
+
+          if (zeroExtend) {
+            while (v1parts.length < v2parts.length) v1parts.push("0");
+            while (v2parts.length < v1parts.length) v2parts.push("0");
+          }
+
+          if (!lexicographical) {
+            v1parts = v1parts.map(Number);
+            v2parts = v2parts.map(Number);
+          }
+
+          for (var i = 0; i < v1parts.length; ++i) {
+            if (v2parts.length == i) return 1
+            if (v1parts[i] == v2parts[i]) continue
+            else if (v1parts[i] > v2parts[i]) return 1
+            else return -1
+          }
+
+          if (v1parts.length != v2parts.length) return -1
+          return 0;
+        }
+
+        const aFw = a.version.split(' ')[0]
+        const bFw = b.version.split(' ')[0]
+
+        return versionCompare(aFw, bFw)
+      })
 
       return fwArr.reverse()
     }
@@ -196,10 +272,6 @@ export default {
   display: none !important;
 }
 
-.displayNone {
-  display: none !important;
-}
-
 .showOnHover:hover .hoverElement {
   opacity: 0.3;
   transition-property: opacity;
@@ -212,17 +284,4 @@ export default {
   opacity: 1 !important;
   display: inline !important;
 }
-
-input[type=checkbox]{
-  position: absolute;
-  left: -9999px;
-  opacity: 0;
-}
-
-.clickToShow { display: none !important; }
-.clickToHide { display: block !important; }
-.clickToHideInline { display: inline !important; }
-input:checked ~ .clickToHide { display: none !important; }
-input:checked ~ .clickToShow { display: block !important; }
-input:checked ~ .clickToShowInline { display: inline !important; }
 </style>

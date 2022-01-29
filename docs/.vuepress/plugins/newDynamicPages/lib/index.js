@@ -60,8 +60,25 @@ for (var d in deviceList) {
       description: `Find out what jailbreaks you can use on your ${deviceList[d].name}`,
       layout: 'chartLayout',
       chartType: 'device',
-      device: deviceList[d],
-      group: null,
+      device: [d],
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false
+    }
+  })
+}
+
+for (var g in deviceGroups) {
+  pageList.push({
+    path: `${devicePath}${deviceGroups[g].name.replace(/ /g,'-')}.html`,
+    frontmatter: {
+      title: `Firmware Chart (${deviceGroups[g].name})`,
+      description: `Find out what jailbreaks you can use on your ${deviceGroups[g].name}`,
+      layout: 'chartLayout',
+      chartType: 'device',
+      device: deviceGroups[g].devices,
+      name: deviceGroups[g].name,
       sidebar: false,
       editLink: false,
       lastUpdated: false,
@@ -77,6 +94,7 @@ pageList.push({
     description: 'iOS Jailbreak Firmware Chart',
     layout: 'chartLayout',
     chartType: 'device',
+    device: Object.keys(deviceList),
     sidebar: false,
     editLink: false,
     lastUpdated: false,

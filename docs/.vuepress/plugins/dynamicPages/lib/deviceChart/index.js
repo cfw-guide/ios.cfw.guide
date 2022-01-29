@@ -108,7 +108,7 @@ page.push({
 for (const i in deviceGroups) {
   const d = deviceGroups[i];
   const url = d.name.replace(/ /g, '-');
-  page.push({
+  /*page.push({
     path: '/chart/device/' + url + '.html',
     frontmatter: {
       title: 'Firmware Chart (' + d.name + ')',
@@ -119,7 +119,7 @@ for (const i in deviceGroups) {
       contributors: false,
     },
     content: require('./deviceTable')(d.devices[0], false, -1, false, true)
-  })
+  })*/
   
   page.push({
     path: '/get-started/' + url + '.html',
