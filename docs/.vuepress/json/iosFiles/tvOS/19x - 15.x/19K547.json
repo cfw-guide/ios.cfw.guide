@@ -4,7 +4,7 @@
   "build": "19K547",
   "uniqueBuild": "19K547",
   "released": "2022-01-26",
-  "beta": true,
+  "beta": false,
   "devices": {
     "AppleTV5,3": {
       "ipsw": "https://updates.cdn-apple.com/2022WinterFCS/fullrestores/002-56658/4D53FF52-33F9-4078-8BA1-5FF58BECC43E/AppleTV5,3_15.3_19K547_Restore.ipsw"
