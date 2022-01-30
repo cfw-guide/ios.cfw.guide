@@ -18,10 +18,8 @@ module.exports = function(themeLocale, localePath) {
     global.localeLang = i;
     global.themeLocale = themeLocale[localePath[i]];
     
-    var pageList = [
-      ...require('./deviceChart'),
-    ]
-
+    var pageList = require('./deviceChart')
+    
     function getPkgManPages(app) {
       var ret = [];
       for (const p in app.pages) {

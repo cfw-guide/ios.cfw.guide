@@ -53,21 +53,22 @@ function getOsStr(v) {
   })
 };*/
 
-/*for (var i in duplicateVerArr) {
-  const v = duplicateVerArr[i];
-  console.log(v)
+/*for (var i in iosList) {
+  const v = iosList[i]
+  if (iosList.filter(x => x.osStr == 'iPhoneOS' || x.osStr == 'iOS' || x.osStr == 'iPadOS').filter(x => x.version == v.version).length == 1) continue
+  console.log(v.version)
+
   page.push({
-    path: fwPath + v + '.html',
+    path: fwPath + v.version + '.html',
     frontmatter: {
-      title: 'iOS ' + v,
-      description: 'Firmware builds for version ' + v,
-      //redirect_from: '/' + v,
+      title: [v.getOsStr, v.version].join(' '),
+      description: 'Firmware builds for version ' + v.version,
       sidebar: false,
       editLink: false,
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./multipleFwPage')(v)
+    content: require('./multipleFwPage')(v.version)
   })
 }*/
 

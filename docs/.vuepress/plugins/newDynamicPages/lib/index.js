@@ -36,6 +36,13 @@ for (var i in iosList) {
 }
 
 for (var jb in jbList) {
+  var redirects = []
+  if (jbList[jb].hasOwnProperty('alias')) {
+    redirects = jb.alias
+    if (!Array.isArray(redirects)) redirects = [redirects]
+    redirects = redirects.map(x=> jbPath + x)
+  }
+
   pageList.push({
     path: `${jbPath}${jbList[jb].name.replace(/ /g, '-')}.html`,
     frontmatter: {
@@ -44,6 +51,7 @@ for (var jb in jbList) {
       layout: 'chartLayout',
       chartType: 'jailbreak',
       jailbreak: jbList[jb],
+      redirect_from: redirects,
       sidebar: false,
       editLink: false,
       lastUpdated: false,
