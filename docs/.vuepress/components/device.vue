@@ -14,16 +14,17 @@
   <template v-if="getFwArr.length > 0">
     <h2 v-html="tableHeader"/>
     <p>
-      <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
-      <label for="showBetaCheckbox">{{ showBetaStr }}</label>
-      <template v-if="Object.keys(frontmatter.device).length == Object.keys(devices).length">
-        <br>
+      <div v-if="getFwArr.filter(x => x.beta).length > 1">
+        <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+        <label for="showBetaCheckbox">{{ showBetaStr }}</label>
+      </div>
+      <div v-if="Object.keys(frontmatter.device).length == Object.keys(devices).length">
         <input type="checkbox" v-model="showiOS" id="showiOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
         <label for="showiOSCheckbox">{{ showiOSStr }}</label>
         <br>
         <input type="checkbox" v-model="showtvOS" id="showtvOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
         <label for="showtvOSCheckbox">{{ showtvOSStr }}</label>
-      </template>
+      </div>
     </p>
     <table v-if="showtvOS || showiOS">
       <tr>
@@ -36,7 +37,7 @@
           (!fw.istvOS && showiOS)) &&
           (!fw.beta || (fw.beta && showBeta))
         )">
-          <td><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
+          <td><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="1 || getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
           <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
           <td v-else v-html="noJbStr"/>
         </tr>
