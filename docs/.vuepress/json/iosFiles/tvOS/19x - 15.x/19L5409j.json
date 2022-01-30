@@ -1,0 +1,19 @@
+{
+  "osStr": "tvOS",
+  "version": "15.4 beta",
+  "build": "19L5409j",
+  "uniqueBuild": "19L5409j",
+  "released": "2022-01-27",
+  "beta": true,
+  "devices": {
+    "AppleTV5,3": {
+      "ipsw": "https://updates.cdn-apple.com/2022WinterSeed/fullrestores/002-59997/F1A7C07A-A148-44C7-B5B2-46870BE8E53C/AppleTV5,3_15.4_19L5409j_Restore.ipsw"
+    },
+    "AppleTV6,2": {
+      "ipsw": "none"
+    },
+    "AppleTV11,1": {
+      "ipsw": "none"
+    }
+  }
+}

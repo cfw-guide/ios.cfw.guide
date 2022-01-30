@@ -1,6 +1,8 @@
 {
+  "osStr": "tvOS",
   "version": "15.3 RC",
   "build": "19K545",
+  "uniqueBuild": "19K545",
   "released": "2022-01-20",
   "beta": true,
   "devices": {
@@ -13,7 +15,5 @@
     "AppleTV11,1": {
       "ipsw": "none"
     }
-  },
-  "osStr": "tvOS",
-  "uniqueBuild": "19K545"
+  }
 }
