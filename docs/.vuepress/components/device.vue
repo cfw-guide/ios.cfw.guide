@@ -94,6 +94,7 @@ export default {
       showBeta: false,
       showtvOS: true,
       showiOS: true,
+
       frontmatter: usePageFrontmatter(),
       devices: json.device,
       firmwares: json.ios,
@@ -218,44 +219,55 @@ export default {
         return x
       })
 
-      fwArr = fwArr.sort(function(a,b) {
-        function versionCompare(v1, v2, options) {
-          var lexicographical = options && options.lexicographical,
-              zeroExtend = options && options.zeroExtend,
-              v1parts = v1.split('.'),
-              v2parts = v2.split('.')
+      function versionCompare(v1, v2, options) {
+        var lexicographical = options && options.lexicographical,
+            zeroExtend = options && options.zeroExtend,
+            v1parts = v1.split('.'),
+            v2parts = v2.split('.')
 
-          function isValidPart(x) {
-            return (lexicographical ? /^\d+[A-Za-z]*$/ : /^\d+$/).test(x)
-          }
-
-          if (!v1parts.every(isValidPart) || !v2parts.every(isValidPart)) return NaN
-
-          if (zeroExtend) {
-            while (v1parts.length < v2parts.length) v1parts.push("0");
-            while (v2parts.length < v1parts.length) v2parts.push("0");
-          }
-
-          if (!lexicographical) {
-            v1parts = v1parts.map(Number);
-            v2parts = v2parts.map(Number);
-          }
-
-          for (var i = 0; i < v1parts.length; ++i) {
-            if (v2parts.length == i) return 1
-            if (v1parts[i] == v2parts[i]) continue
-            else if (v1parts[i] > v2parts[i]) return 1
-            else return -1
-          }
-
-          if (v1parts.length != v2parts.length) return -1
-          return 0;
+        function isValidPart(x) {
+          return (lexicographical ? /^\d+[A-Za-z]*$/ : /^\d+$/).test(x)
         }
 
-        const aFw = a.version.split(' ')[0]
-        const bFw = b.version.split(' ')[0]
+        if (!v1parts.every(isValidPart) || !v2parts.every(isValidPart)) return NaN
 
-        return versionCompare(aFw, bFw)
+        if (zeroExtend) {
+          while (v1parts.length < v2parts.length) v1parts.push("0");
+          while (v2parts.length < v1parts.length) v2parts.push("0");
+        }
+
+        if (!lexicographical) {
+          v1parts = v1parts.map(Number);
+          v2parts = v2parts.map(Number);
+        }
+
+        for (var i = 0; i < v1parts.length; ++i) {
+          if (v2parts.length == i) return 1
+          if (v1parts[i] == v2parts[i]) continue
+          else if (v1parts[i] > v2parts[i]) return 1
+          else return -1
+        }
+
+        if (v1parts.length != v2parts.length) return -1
+        return 0;
+      }
+
+      fwArr = fwArr.sort(function(a,b) {
+        function getVerStr(x) { return x.version.split(' ')[0] }
+        const compVerStr = versionCompare(getVerStr(a), getVerStr(b))
+        if (compVerStr != 0) return compVerStr
+        else {
+          const verInclGM   = [a.version.includes('GM'), b.version.includes('GM')]
+          const verInclBeta = [a.version.includes('beta'), b.version.includes('beta')]
+          const verInclRC   = [a.version.includes('RC'), b.version.includes('RC')]
+          const beta        = [a.beta, b.beta]
+          
+          if (beta[1] - beta[0] != 0) return beta[1] - beta[0]
+          else if (verInclRC[0] - verInclRC[1] != 0) return verInclRC[0] - verInclRC[1]
+          else if (verInclGM[0] - verInclGM[1] != 0) return verInclGM[0] - verInclGM[1]
+          else if (verInclBeta[0] - verInclBeta[1] != 0) return verInclBeta[0] - verInclBeta[1]
+        }
+        return 0
       })
 
       return fwArr.reverse()
