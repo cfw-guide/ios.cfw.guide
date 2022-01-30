@@ -85,7 +85,7 @@ export default {
       tableHeader: 'Version Table',
       showBetaStr: 'Show beta versions',
       showiOSStr: 'Show iOS versions',
-      showtvOSStr: 'Show AppleTV versions',
+      showtvOSStr: 'Show tvOS versions',
 
       buildStr: 'Build',
       versionStr: 'Version',
