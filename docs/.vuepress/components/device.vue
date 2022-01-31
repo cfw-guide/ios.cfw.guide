@@ -11,6 +11,7 @@
       </li>
     </ul>
   </template>
+  <input type="text" v-model="reverseSorting" style="display:none;">
   <template v-if="getFwArr.length > 0">
     <h2 v-html="tableHeader"/>
     <ul class="tableOptionsWrapper">
@@ -46,9 +47,11 @@
         </div>
       </li>
       <li>
-        <div class="chartDropdown" v-on:click="reverseSorting = !reverseSorting">
-          <i class="fas fa-sort"></i>
-          {{ sortStr }}
+        <div class="chartDropdown">
+          <button v-on:click="reverseSorting = !reverseSorting">
+            <i class="fas fa-sort"></i>
+            {{ sortStr }}
+          </button>
         </div>
       </li>
     </ul>
@@ -57,7 +60,7 @@
         <th v-html="versionStr"/>
         <th v-html="jailbreakStr"/>
       </tr>
-      <template v-for="fw in (reverseSorting) ? getFwArr.reverse() : getFwArr" :key="fw">
+      <template v-for="fw in fwArr" :key="fw">
         <tr v-if="(
           (
             (fw.istvOS && showtvOS) ||
@@ -132,6 +135,7 @@ export default {
       showiOS: true,
 
       reverseSorting: true,
+      fwArr: undefined,
 
       frontmatter: usePageFrontmatter(),
       devices: json.device,
@@ -235,6 +239,8 @@ export default {
         devFwArr.map(function(x) { if (!fwArr.includes(x)) fwArr.push(x) })
       }
 
+      if (devArr.length == this.devices.length) fwArr = this.firmwares
+
       var jbList = this.jailbreaks
       for (var f in fwArr) {
         var jbArr = []
@@ -310,6 +316,19 @@ export default {
 
       return fwArr
     }
+  },
+  watch: {
+    reverseSorting: function (bool) {
+      const fw = this.getFwArr
+      this.fwArr = fw.reverse()
+    },
+    fwArr: function (val) {
+      this.result = val
+    }
+  },
+  created() {
+    this.fwArr = this.getFwArr
+    if (this.reverseSorting) this.fwArr = this.fwArr.reverse()
   }
 }
 </script>
@@ -382,5 +401,17 @@ export default {
 
 .tableOptionsWrapper li {
   list-style-type: none;
+}
+
+.chartDropdown button {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+  padding: inherit;
 }
 </style>
