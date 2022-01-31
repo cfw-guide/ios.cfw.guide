@@ -28,6 +28,10 @@
               <label for="showBuildNumCheckbox">{{ showBuildNumStr }}</label>
             </li>
             <li class="dropdown-item" style="padding: 0em 1em">
+              <input type="checkbox" v-model="showVersion" id="showVersionCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+              <label for="showVersionCheckbox">{{ showVersionStr }}</label>
+            </li>
+            <li class="dropdown-item" style="padding: 0em 1em">
               <input type="checkbox" v-model="showJailbreak" id="showJailbreakCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
               <label for="showJailbreakCheckbox">{{ showJailbreakStr }}</label>
             </li>
@@ -71,7 +75,7 @@
     <table>
       <tr>
         <th v-html="buildStr" v-if="showBuildNum"/>
-        <th v-html="versionStr"/>
+        <th v-html="versionStr" v-if="showVersion"/>
         <th v-html="jailbreakStr" v-if="showJailbreak"/>
         <th v-html="releaseDateStr" v-if="showReleaseDate"/>
       </tr>
@@ -87,8 +91,10 @@
         )">
           <td v-if="showBuildNum"><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.build}}</a></td>
 
-          <td v-if="!showBuildNum"><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
-          <td v-else>{{fw.osStr}} {{fw.version}}</td>
+          <template v-if="showVersion">
+            <td v-if="!showBuildNum"><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
+            <td v-else>{{fw.osStr}} {{fw.version}}</td>
+          </template>
           
           <template v-if="showJailbreak">
             <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
@@ -146,6 +152,7 @@ export default {
       showtvOSStr: 'Show tvOS versions',
 
       showBuildNumStr: 'Show build numbers',
+      showVersionStr: 'Show version numbers',
       showJailbreakStr: 'Show jailbreaks',
       showReleaseDateStr: 'Show release date',
 
@@ -164,6 +171,7 @@ export default {
       showiOS: true,
 
       showBuildNum: false,
+      showVersion: true,
       showJailbreak: true,
       showReleaseDate: false,
 
