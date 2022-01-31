@@ -13,29 +13,59 @@
   </template>
   <template v-if="getFwArr.length > 0">
     <h2 v-html="tableHeader"/>
-    <p>
-      <div v-if="getFwArr.filter(x => x.beta).length > 1">
-        <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
-        <label for="showBetaCheckbox">{{ showBetaStr }}</label>
-      </div>
-      <div v-if="Object.keys(frontmatter.device).length == Object.keys(devices).length">
-        <input type="checkbox" v-model="showiOS" id="showiOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
-        <label for="showiOSCheckbox">{{ showiOSStr }}</label>
-        <br>
-        <input type="checkbox" v-model="showtvOS" id="showtvOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
-        <label for="showtvOSCheckbox">{{ showtvOSStr }}</label>
-      </div>
-    </p>
-    <table v-if="showtvOS || showiOS">
+    <ul class="tableOptionsWrapper">
+      <li class="showOnHover" v-if="getFwArr.filter(x => x.beta).length > 1 || Object.keys(frontmatter.device).length == Object.keys(devices).length">
+        <div class="chartDropdown">
+          <i class="fas fa-filter"></i>
+          {{ filterStr }}
+          <span class="arrow down"></span>
+        </div>
+        <div class="hoverElement chartDropdownBox opaqueHover">
+          <ul>
+            <template v-if="getFwArr.filter(x => x.beta).length > 1">
+              <li class="dropdown-item" style="padding: 0em 1em">
+                <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+                <label for="showBetaCheckbox">{{ showBetaStr }}</label>
+              </li>
+              <li class="dropdown-item" style="padding: 0em 1em">
+                <input type="checkbox" v-model="showStable" id="showStableCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+                <label for="showStableCheckbox">{{ showStableStr }}</label>
+              </li>
+            </template>
+            <template v-if="Object.keys(frontmatter.device).length == Object.keys(devices).length">
+              <li class="dropdown-item" style="padding: 0em 1em">
+                <input type="checkbox" v-model="showiOS" id="showiOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+                <label for="showiOSCheckbox">{{ showiOSStr }}</label>
+              </li>
+              <li class="dropdown-item" style="padding: 0em 1em">
+                <input type="checkbox" v-model="showtvOS" id="showtvOSCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+                <label for="showtvOSCheckbox">{{ showtvOSStr }}</label>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="chartDropdown" v-on:click="reverseSorting = !reverseSorting">
+          <i class="fas fa-sort"></i>
+          {{ sortStr }}
+        </div>
+      </li>
+    </ul>
+    <table>
       <tr>
         <th v-html="versionStr"/>
         <th v-html="jailbreakStr"/>
       </tr>
-      <template v-for="fw in getFwArr" :key="fw">
+      <template v-for="fw in (reverseSorting) ? getFwArr.reverse() : getFwArr" :key="fw">
         <tr v-if="(
-          ((fw.istvOS && showtvOS) ||
-          (!fw.istvOS && showiOS)) &&
-          (!fw.beta || (fw.beta && showBeta))
+          (
+            (fw.istvOS && showtvOS) ||
+            (!fw.istvOS && showiOS)
+          ) && (
+            (fw.beta && showBeta) ||
+            (!fw.beta && showStable)
+          )
         )">
           <td><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
           <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
@@ -84,6 +114,7 @@ export default {
 
       tableHeader: 'Version Table',
       showBetaStr: 'Show beta versions',
+      showStableStr: 'Show stable versions',
       showiOSStr: 'Show iOS versions',
       showtvOSStr: 'Show tvOS versions',
 
@@ -92,9 +123,15 @@ export default {
       jailbreakStr: 'Jailbreak',
       noJbStr: 'N/A',
 
+      filterStr: 'Filter',
+      sortStr: 'Sort',
+
       showBeta: false,
+      showStable: true,
       showtvOS: true,
       showiOS: true,
+
+      reverseSorting: true,
 
       frontmatter: usePageFrontmatter(),
       devices: json.device,
@@ -271,7 +308,7 @@ export default {
         return 0
       })
 
-      return fwArr.reverse()
+      return fwArr
     }
   }
 }
@@ -302,8 +339,48 @@ export default {
   display: inline !important;
 }
 
+.showOnHover:hover .opaqueHover {
+  opacity: 1 !important;
+}
+
 .hoverElement:hover {
   opacity: 1 !important;
   display: inline !important;
+}
+
+.chartDropdown {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.chartDropdownBox {
+  position: absolute;
+  height: auto !important;
+  box-sizing: border-box;
+  background-color: var(--c-bg-navbar);
+  border: 1px solid var(--c-border);
+  border-bottom-color: var(--c-border-dark);
+  text-align: left;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  top: auto;
+  padding: 1.5em 0.8em 1.5em 0em;
+}
+
+.chartDropdownBox li {
+  list-style-type: none;
+  float: none !important;
+  margin: 0 !important;
+}
+
+.tableOptionsWrapper li {
+  float: left;
+  margin: 0.2em 1.3em 1em 0em;
+}
+
+.tableOptionsWrapper li {
+  list-style-type: none;
 }
 </style>
