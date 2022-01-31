@@ -15,7 +15,7 @@
   <template v-if="getFwArr.length > 0">
     <h2 v-html="tableHeader"/>
     <ul class="tableOptionsWrapper">
-      <li class="showOnHover" v-if="getFwArr.filter(x => x.beta).length > 1 || Object.keys(frontmatter.device).length == Object.keys(devices).length">
+      <li class="showOnHover">
         <div class="chartDropdown">
           <i class="fas fa-filter"></i>
           {{ filterStr }}
@@ -23,6 +23,19 @@
         </div>
         <div class="hoverElement chartDropdownBox opaqueHover">
           <ul>
+            <li class="dropdown-item" style="padding: 0em 1em">
+              <input type="checkbox" v-model="showBuildNum" id="showBuildNumCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+              <label for="showBuildNumCheckbox">{{ showBuildNumStr }}</label>
+            </li>
+            <li class="dropdown-item" style="padding: 0em 1em">
+              <input type="checkbox" v-model="showJailbreak" id="showJailbreakCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+              <label for="showJailbreakCheckbox">{{ showJailbreakStr }}</label>
+            </li>
+            <li class="dropdown-item" style="padding: 0em 1em">
+              <input type="checkbox" v-model="showReleaseDate" id="showReleaseDateCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
+              <label for="showReleaseDateCheckbox">{{ showReleaseDateStr }}</label>
+            </li>
+            <hr v-if="getFwArr.filter(x => x.beta).length > 1 || Object.keys(frontmatter.device).length == Object.keys(devices).length">
             <template v-if="getFwArr.filter(x => x.beta).length > 1">
               <li class="dropdown-item" style="padding: 0em 1em">
                 <input type="checkbox" v-model="showBeta" id="showBetaCheckbox" style="position: static; left: 0px; opacity: 1; margin-right: .5em;">
@@ -57,8 +70,10 @@
     </ul>
     <table>
       <tr>
+        <th v-html="buildStr" v-if="showBuildNum"/>
         <th v-html="versionStr"/>
-        <th v-html="jailbreakStr"/>
+        <th v-html="jailbreakStr" v-if="showJailbreak"/>
+        <th v-html="releaseDateStr" v-if="showReleaseDate"/>
       </tr>
       <template v-for="fw in fwArr" :key="fw">
         <tr v-if="(
@@ -70,9 +85,17 @@
             (!fw.beta && showStable)
           )
         )">
-          <td><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
-          <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
-          <td v-else v-html="noJbStr"/>
+          <td v-if="showBuildNum"><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.build}}</a></td>
+
+          <td v-if="!showBuildNum"><a :href="firmwarePath + fw.uniqueBuild + '.html'">{{fw.osStr}} {{fw.version}} <span v-if="getFwArr.filter(x => x.version == fw.version && x.osStr == fw.osStr).length > 1">({{fw.build}})</span></a></td>
+          <td v-else>{{fw.osStr}} {{fw.version}}</td>
+          
+          <template v-if="showJailbreak">
+            <td v-if="fw.jailbreakArr.length > 0"><span v-for="(jb, index) in fw.jailbreakArr" :key="jb"><a :href="jailbreakPath + jb.name.replace(/ /g, '-') + '.html'" v-html="jb.name"/><span v-if="index+1 < fw.jailbreakArr.length">, </span></span></td>
+            <td v-else v-html="noJbStr"/>
+          </template>
+          
+          <td v-if="showReleaseDate">{{fw.released}}</td>
         </tr>
       </template>
     </table>
@@ -116,14 +139,20 @@ export default {
       groupedHeader: 'Grouped Devices',
 
       tableHeader: 'Version Table',
+
       showBetaStr: 'Show beta versions',
       showStableStr: 'Show stable versions',
       showiOSStr: 'Show iOS versions',
       showtvOSStr: 'Show tvOS versions',
 
+      showBuildNumStr: 'Show build numbers',
+      showJailbreakStr: 'Show jailbreaks',
+      showReleaseDateStr: 'Show release date',
+
       buildStr: 'Build',
       versionStr: 'Version',
       jailbreakStr: 'Jailbreak',
+      releaseDateStr: 'Released',
       noJbStr: 'N/A',
 
       filterStr: 'Filter',
@@ -133,6 +162,10 @@ export default {
       showStable: true,
       showtvOS: true,
       showiOS: true,
+
+      showBuildNum: false,
+      showJailbreak: true,
+      showReleaseDate: false,
 
       reverseSorting: true,
       fwArr: undefined,
