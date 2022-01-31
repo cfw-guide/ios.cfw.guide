@@ -1,7 +1,0 @@
-{
-  "notes": "Only works with Cydia Substrate/Substitute (checkra1n/unc0ver), not libhooker.",
-  "repository": {
-    "uri": "https://beerpsi.me/sharerepo/?repo=https://repo.sx-pokego.xyz"
-  },
-  "name": "SxBypass"
-}

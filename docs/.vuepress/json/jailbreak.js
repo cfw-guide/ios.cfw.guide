@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const p = 'docs/.vuepress/json/jailbreakFiles'
+const p = 'docs/.vuepress/json/appledb/jailbreakFiles'
 
 function getAllFiles(dirPath, arrayOfFiles) {
   files = fs.readdirSync(dirPath)
@@ -23,7 +23,7 @@ jailbreakFiles = getAllFiles(p, jailbreakFiles)
 jailbreakFiles = jailbreakFiles.filter(file => file.endsWith('.js'));
 jailbreakFiles = jailbreakFiles.map(function(x) {
   const filePathStr = x.split(path.sep)
-  const pathStrLength = p.split('/').length - 1;
+  const pathStrLength = p.split('/').length - 2
   return filePathStr.splice(pathStrLength, filePathStr.length).join(path.sep)
 })
 var jailbreakArr = [];

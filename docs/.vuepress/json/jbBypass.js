@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const appPath = 'docs/.vuepress/json/bypassApps'
-const tweakPath = 'docs/.vuepress/json/bypassTweaks'
+const appPath = 'docs/.vuepress/json/appledb/bypassApps'
+const tweakPath = 'docs/.vuepress/json/appledb/bypassTweaks'
 
 function getAllFiles(dirPath, arrayOfFiles) {
   files = fs.readdirSync(dirPath)
@@ -21,7 +21,7 @@ function requireFiles(p) {
   fileArr = getAllFiles(p, fileArr).filter(f => f.endsWith('.json'))
   fileArr = fileArr.map(function(x) {
     const filePathStr = x.split(path.sep)
-    const pathStrLength = p.split('/').length - 1;
+    const pathStrLength = p.split('/').length - 2
     return filePathStr.splice(pathStrLength, filePathStr.length).join(path.sep)
   })
   var retArr = []

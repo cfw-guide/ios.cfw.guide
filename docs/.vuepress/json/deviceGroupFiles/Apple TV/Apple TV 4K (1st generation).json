@@ -1,8 +1,0 @@
-{
-  "name": "Apple TV 4K (1st generation)",
-  "type": "TV",
-  "order": 4,
-  "devices": [
-    "AppleTV6,2"
-  ]
-}

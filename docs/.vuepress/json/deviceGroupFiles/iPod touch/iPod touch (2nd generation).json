@@ -1,8 +1,0 @@
-{
-  "name": "iPod touch (2nd generation)",
-  "type": "iPod",
-  "order": 1,
-  "devices": [
-    "iPod2,1"
-  ]
-}

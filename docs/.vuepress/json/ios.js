@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const p = 'docs/.vuepress/json/iosFiles'
+const p = 'docs/.vuepress/json/appledb/iosFiles'
 
 function getAllFiles(dirPath, arrayOfFiles) {
   files = fs.readdirSync(dirPath)
@@ -23,7 +23,7 @@ iosFiles = getAllFiles(p, iosFiles)
 iosFiles = iosFiles.filter(file => file.endsWith('.json'));
 iosFiles = iosFiles.map(function(x) {
   const filePathStr = x.split(path.sep)
-  const pathStrLength = p.split('/').length - 1;
+  const pathStrLength = p.split('/').length - 2
   
   return filePathStr.splice(pathStrLength, filePathStr.length).join(path.sep)
 })
