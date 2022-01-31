@@ -239,7 +239,7 @@ export default {
         devFwArr.map(function(x) { if (!fwArr.includes(x)) fwArr.push(x) })
       }
 
-      if (devArr.length == this.devices.length) fwArr = this.firmwares
+      if (devArr.length == Object.keys(this.devices).length) fwArr = this.firmwares
 
       var jbList = this.jailbreaks
       for (var f in fwArr) {
