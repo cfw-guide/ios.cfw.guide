@@ -290,6 +290,7 @@ export default {
           if (!jbList[jb].hasOwnProperty('compatibility')) continue
           for (var c in jbList[jb].compatibility) {
             if (!jbList[jb].compatibility[c].firmwares.includes(fw.uniqueBuild)) continue
+            if (!jbList[jb].compatibility[c].devices.some(r=> devArr.includes(r))) continue
             if (jbArr.includes(jbList[jb])) continue
             jbArr.push(jbList[jb])
           }
