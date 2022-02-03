@@ -2,7 +2,7 @@
   <main class="page">
     <slot name="top" />
 
-    <div class="theme-default-content">
+    <div class="home">
       <h1>{{ pageTitle }}</h1>
       <div class="custom-container tip" v-if="discordNoticeText" v-html="discordNoticeText"/>
       
