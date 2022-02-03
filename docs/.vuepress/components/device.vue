@@ -77,7 +77,7 @@
         <th v-html="buildStr" v-if="showBuildNum"/>
         <th v-html="versionStr" v-if="showVersion"/>
         <th v-html="jailbreakStr" v-if="showJailbreak"/>
-        <th v-html="releaseDateStr" v-if="showReleaseDate"/>
+        <th v-html="releaseDateStr" v-if="showReleaseDate" style="width: 15%;"/>
       </tr>
       <template v-for="fw in fwArr" :key="fw">
         <tr v-if="(
