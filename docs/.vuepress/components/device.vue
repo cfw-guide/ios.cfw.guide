@@ -356,6 +356,13 @@ export default {
         return 0
       })
 
+      const timeLocale = this.timeLocale
+      fwArr = fwArr.map(function(x) {
+        if (!x.hasOwnProperty('released')) return x
+        x.released = new Intl.DateTimeFormat(timeLocale, { dateStyle: 'medium'}).format(new Date(x.released))
+        return x
+      })
+
       return fwArr
     }
   },
