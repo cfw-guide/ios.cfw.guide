@@ -24,7 +24,7 @@ module.exports = [
       },
       {
         text: 'All firmwares',
-        link: '/chart.html',
+        link: '/chart',
       },
     ]
   },
