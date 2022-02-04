@@ -7,7 +7,7 @@ const title = ['',' (iPhone)',' (iPad)',' (iPod)',' (Apple TV)',' (Apple Watch)'
 const description = ['device','iPhone','iPad','iPod','Apple TV','Apple Watch'];
 const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html', '/AppleTV.html', '/AppleWatch.html']
 
-for (const i in types) {
+/*for (const i in types) {
   var contentsHeader = '';
   if (types[i].length > 1) contentsHeader = '## Contents \n\n';
   page.push({
@@ -22,7 +22,7 @@ for (const i in types) {
     },
     content: contentsHeader + require('./devicePage')(types[i], '/chart/device/', true)
   })
-}
+}*/
 
 page.push({
   path: '/get-started/iPhone',
