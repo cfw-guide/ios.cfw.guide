@@ -4,27 +4,33 @@ module.exports = [
     children: [
       {
         text: 'iPhone',
-        link: '/chart/device/iPhone.html',
+        link: 'https://appledb.dev/device/iPhone.html',
+        hideExtern: true
       },
       {
         text: 'iPad',
-        link: '/chart/device/iPad.html',
+        link: 'https://appledb.dev/device/iPad.html',
+        hideExtern: true
       },
       {
         text: 'iPod',
-        link: '/chart/device/iPod.html',
+        link: 'https://appledb.dev/device/iPod.html',
+        hideExtern: true
       },
       {
         text: 'Apple TV',
-        link: '/chart/device/AppleTV.html',
+        link: 'https://appledb.dev/device/AppleTV.html',
+        hideExtern: true
       },
       {
         text: 'Apple Watch',
-        link: '/chart/device/AppleWatch.html',
+        link: 'https://appledb.dev/device/AppleWatch.html',
+        hideExtern: true
       },
       {
         text: 'All firmwares',
-        link: '/chart',
+        link: 'https://appledb.dev',
+        hideExtern: true
       },
     ]
   },
