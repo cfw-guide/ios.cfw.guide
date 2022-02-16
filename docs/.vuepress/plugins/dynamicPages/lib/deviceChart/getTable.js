@@ -89,7 +89,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
           return `<router-link to="${url}">${name}</router-link>`
         }).join(', ');
         
-        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : '--'}</td>`;
+        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : 'N/A'}</td>`;
         
         html += '</tr>';
       }
