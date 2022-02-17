@@ -100,7 +100,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
         html += `<tr>`;
         html += `<td><router-link to="${t.buildURL}">${t.build}</router-link></td>`;
         html += `<td>${t.version}</td>`;
-        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : '--'}</td>`;
+        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : 'N/A'}</td>`;
         html += '</tr>';
       }
     }
