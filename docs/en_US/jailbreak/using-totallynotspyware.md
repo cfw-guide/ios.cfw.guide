@@ -39,10 +39,10 @@ Should you run into issues with this method for any reason, you can attempt to u
 1. Go to the [https://totally-not.spyware.lol/](https://totally-not.spyware.lol/) website
 1. Slide, left to right, on the `Slide for Spyware` slider
 1. Once you see the `Spyware announcement` prompt, press `noot noot`
-  - If the device reboots without prompting this, try again.
+   - If the device reboots without prompting this, try again.
 1. You'll recieve a prompt asking you to choose between jailbreaking with Meridian or jailbreaking with doubleH3lix, what option you should select depends on your device
-  - If your device is an A7-A9(X) device, you *should* select doubleh3lix.
-  - If your device is an A10(X) device, the only option which works is to select Meridian.
+   - If your device is an A7-A9(X) device, you *should* select doubleh3lix.
+   - If your device is an A10(X) device, the only option which works is to select Meridian.
 1. After selecting what you wish to jailbreak with, press `OK`
 
 TotallyNotSpyware will now install the temporary jailbreak on your device. 
