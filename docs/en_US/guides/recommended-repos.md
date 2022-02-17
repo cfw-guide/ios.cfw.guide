@@ -23,11 +23,11 @@ Chariz is another repo that comes default with many jailbreak installations. It 
 
 URL: [`https://repo.chariz.com/`](https://repo.chariz.com/)
 
-## Packix
+## Havoc
 
-Packix is another repo with over a thousand packages available for download. It offers a wide range of themes and tweaks to install and is certainly an essential for your device.
+Havoc is another repo with over a thousand packages available for download. It offers a wide range of themes and tweaks to install and is certainly an essential for your device.
 
-URL: [`https://repo.packix.com/`](https://repo.packix.com/)
+URL: [`https://havoc.app/`](https://havoc.app/)
 
 ## SparkDev
 
