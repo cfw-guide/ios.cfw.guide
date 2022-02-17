@@ -1,19 +1,22 @@
 ---
 lang: en_US
 title: Installing doubleh3lix
-description: Guide to installing DoubleH3lix
-permalink: /installing-doubleh3lix
+description: Guide to installing doubleH3lix via Sideloading
+permalink: /installing-doubleh3lix-(ipa)
 redirect_from:
-  - /installing-doublehelix
-  - /doubleh3lix
-  - /doublehelix
-  - /dh
+  - /installing-doubleh3lix-ipa
 pkgman: cydia
 extra_contributors:
   - TheHacker894
 ---
 
-doubleh3lix is capable of jailbreaking every 64bit iOS device with a headphone jack on firmware version 10.0 up to 10.3.3.
+::: warning
+
+This guide is mainly designed to be a fallback should you, for any reason, run into issues doing <router-link to="/using-tns">TotallyNotSpyware</router-link>. In most cases, TotallyNotSpyware is generally easier and better than manually installing doubleh3lix.
+
+:::
+
+doubleh3lix is capable of jailbreaking every A7 to A9(X) device on firmware versions 10.0 to 10.3.3.
 
 Note that the doubleh3lix jailbreak is <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">not “persistent”</router-link> (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 

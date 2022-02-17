@@ -38,6 +38,6 @@ Only follow this if you've installed update blocking in the past.
 
 If you are on a 32-bit device (such as an iPhone 5C), continue to <router-link to="/installing-h3lix">Installing h3lix</router-link>.
 
-If you are on a 64-bit device (such as an iPhone 5S) you can either continue to either <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link> or <router-link to="/updating-to-12-5-5">Update to 12.5.5</router-link>.
+If you are on a 64-bit device (such as an iPhone 5S) you can either continue to either <router-link to="/using-tns">Using TotallyNotSpyware</router-link> or <router-link to="/updating-to-12-5-5">Update to 12.5.5</router-link>.
 
 :::
