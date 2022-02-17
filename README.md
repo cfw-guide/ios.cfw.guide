@@ -12,6 +12,7 @@ This requires the following installed to your system:
 To test the website locally, simply run the following commands:
 ```
 git clone https://github.com/ios.cfw.guide.git --recursive
+cd ios.cfw.guide
 yarn install
 yarn docs:dev
 ```
