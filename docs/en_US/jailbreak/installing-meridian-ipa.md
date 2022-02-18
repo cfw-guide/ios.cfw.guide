@@ -16,7 +16,7 @@ This guide is mainly designed to be a fallback should you, for any reason, run i
 
 :::
 
-Meridian is capable of jailbreaking every A7 to A9(X) device on firmware versions 10.0 to 10.3.3.
+Meridian is capable of jailbreaking every A7 to A10(X) device on firmware versions 10.0 to 10.3.3.
 
 Note that the Meridian jailbreak is <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">not “persistent”</router-link> (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
