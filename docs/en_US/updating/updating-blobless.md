@@ -30,7 +30,7 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
 - **14.8.1** -  March 13th, 2022
-- **15.1 (All other devices)** - March 13th, 2022
+- **15.1 (All devices excluding iPhone 12/13 series)** - March 13th, 2022
 - **15.1.1 (iPhone 12/13 series)** -  March 13th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
