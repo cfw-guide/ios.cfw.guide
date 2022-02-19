@@ -120,6 +120,13 @@ Jailbreaks are hardly ever 100% successful, you may need to re-attempt running t
 
 :::
 
+## Common Issues on Taurine/Odyssey/Chimera
+
+### Sileo not appearing upon initially jailbreaking on Chimera 1.6.1 or Taurine 1.1.2
+
+- If you are having this issue on Chimera, get the [latest version of Chimera](https://chimera.coolstar.org/)
+- If you are having this issue on Taurine, get the [1.1.1 version of Taurine](https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa)
+
 ## Common Errors on unc0ver
 
 ### rootFS already mounted
