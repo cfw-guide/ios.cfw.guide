@@ -2,7 +2,7 @@
 lang: en-US
 title: Updating (Blobless)
 description: Guide on updating to unsigned firmwares without any blobs.
-permalink: /updating-(blobless)
+permalink: /updating-blobless
 redirect_from:
   - /updating-to-12-5-5-(blobless)
   - /updating-to-14-3-(blobless)
@@ -18,6 +18,7 @@ redirect_from:
   - /updating-to-15-0-2-(blobless)
   - /updating-alternate-edit
   - /updating-to-14-8-(dallas)
+  - /updating-(blobless)
 ---
 
 ## Required Reading
