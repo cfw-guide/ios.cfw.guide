@@ -77,16 +77,17 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
         html += `<td>${t.to}</td>`;
         
         const finalJbHtml = t.jbArr.map(function(x) {
-          var url = jbPath + x.name + '.html';
+          var url = appledbPath + jbPath + x.name + '.html';
           var name = x.name;
           
           const guideObj = t.jbGuideObj;
           if (guideObj) {
             if (guideObj.url) url = guideObj.url;
             if (guideObj.name) name = guideObj.name;
+            return `<router-link to="${url}">${name}</router-link>`
           }
           
-          return `<router-link to="${url}">${name}</router-link>`
+          return `<a href="${url}" target="_blank">${name}</a>`
         }).join(', ');
         
         html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : 'N/A'}</td>`;
