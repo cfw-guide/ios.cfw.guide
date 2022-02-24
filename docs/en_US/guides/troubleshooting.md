@@ -95,7 +95,7 @@ Hold down the Side button and Volume Down button until the device reboots.
 2. Quick-press the Volume Down button
 3. Hold down the Side button until the device reboots.
 
-## Common Errors on Odyssey and Taurine
+## Common Errors on Chimera, Odyssey, and Taurine
 
 ### ERR_Jailbreak
 This is caused by you having used a previous jailbreak. To solve this, you need to restore rootfs:
@@ -119,6 +119,11 @@ Once the restore rootfs successfully completes, try jailbreaking again.
 Jailbreaks are hardly ever 100% successful, you may need to re-attempt running the jailbreak multiple times
 
 :::
+
+### Sileo not appearing upon initially jailbreaking on Chimera 1.6.1 or Taurine 1.1.2
+
+- If you are having this issue on Chimera, get the [latest version of Chimera](https://chimera.coolstar.org/)
+- If you are having this issue on Taurine, get the [1.1.1 version of Taurine](https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa)
 
 ## Common Errors on unc0ver
 

@@ -15,10 +15,11 @@ sidebar: false
 + <router-link to="/installing-odyssey">Installing Odyssey</router-link>
 + <router-link to="/installing-chimera">Installing Chimera</router-link>
 + <router-link to="/installing-electra">Installing Electra</router-link>
-+ <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
-+ <router-link to="/using-meridian">Using Meridian</router-link>
-+ <router-link to="/installing-doubleh3lix">Installing doubleh3lix</router-link>
++ <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
 + <router-link to="/installing-h3lix">Installing h3lix</router-link>
++ <router-link to="/installing-doubleh3lix-ipa">Installing doubleh3lix</router-link>
++ <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
++ <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
 + <router-link to="/installing-phoenix">Installing Phœnix</router-link>
 + <router-link to="/installing-pangu933">Installing Pangu9</router-link>
 + <router-link to="/installing-homedepot">Installing HomeDepot</router-link>
@@ -27,6 +28,7 @@ sidebar: false
 + <router-link to="/installing-pangu7">Installing Pangu7</router-link>
 + <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 + <router-link to="/installing-p0sixspwn">Installing P0sixspwn</router-link>
++ <router-link to="/installing-evasi0n6">Installing evasi0n6</router-link>
 + <router-link to="/installing-absinthe">Installing Absinthe</router-link>
 + <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
 + <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
@@ -49,9 +51,9 @@ sidebar: false
 
 ## 'Updating' Pages
 
-+ <router-link to="/updating-(blobless)">Updating (Blobless)</router-link>
-+ <router-link to="/updating-(blobless-advanced)">Updating (Blobless) (Advanced)</router-link>
-+ <router-link to="/updating-to-15-2">Updating to 15.2</router-link>
++ <router-link to="/updating-blobless">Updating (Blobless)</router-link>
++ <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
++ <router-link to="/updating-to-15-3-1">Updating to 15.3.1</router-link>
 + <router-link to="/updating-to-12-5-5">Updating to 12.5.5</router-link>
 + <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 + <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>

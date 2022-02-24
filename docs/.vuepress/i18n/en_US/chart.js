@@ -26,7 +26,7 @@ module.exports = {
       ],
       showBetaVersions: "Show Beta Versions",
       hideBetaVersions: "Hide Beta Versions",
-      noJbTip: "For fields marked \"--\", there is no jailbreak for that version.",
+      noJbTip: "For fields marked \"N/A\", there is no jailbreak for that version.",
       betaTip: "If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href=\"https://discord.gg/QBj8pBa\" target=\"_blank\">Discord</a>${extLinkSvg}"
     },
     devices: {

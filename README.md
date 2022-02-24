@@ -11,19 +11,16 @@ This requires the following installed to your system:
 
 To test the website locally, simply run the following commands:
 ```
+git clone https://github.com/ios.cfw.guide.git --recursive
+cd ios.cfw.guide
 yarn install
-```
-to install all packages required by the website (VuePress v2 and plugins), then
-```
 yarn docs:dev
 ```
 to build the Markdown files into HTML and start a testing webserver on http://127.0.0.1:8080.
 
 ## Building the site
 
-Follow the steps above, but run `yarn docs:build` instead at the final step. This can take considerable time and requires a lot of memory (~11GB). Once complete, the output will be stored at /docs/.vuepress/dist.
-
-You will need to increase the maximum node.js memory allocation. This can be done by setting `NODE_OPTIONS=--max_old_space_size=16384` to set to 16GB.
+Follow the steps above, but run `yarn docs:build` instead at the final step. Once complete, the output will be stored at `/docs/.vuepress/dist`.
 
 ## Translating
 

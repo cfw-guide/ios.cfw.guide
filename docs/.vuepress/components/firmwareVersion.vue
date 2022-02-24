@@ -33,11 +33,14 @@
   </ul>
 
   <h2 v-if="devGroupArr.length > 0" v-html="devicesHeader"/>
-  <ul>
-    <li v-for="g in devGroupArr" :key="g" :id="`liDev-${g.name.replace(/ /g, '-')}`" style="list-style-type: none;" class="showOnHover">
-      <input type="checkbox" :id="`toggleListDev-${g.name.replace(/ /g, '-')}`">
-      <i class="clickToHide fas fa-chevron-right chevron chevronPoint"/>
-      <i class="clickToShow fas fa-chevron-down chevron chevronPoint"/>
+  <ul :style="(devGroupArr.filter(x=>x.devices.length > 1).length > 0) ? 'list-style-type: none' : ''">
+    <li v-for="g in devGroupArr" :key="g" :id="`liDev-${g.name.replace(/ /g, '-')}`" class="showOnHover">
+      <template v-if="devGroupArr.filter(x=>x.devices.length > 1).length > 0">
+        <input type="checkbox" :id="`toggleListDev-${g.name.replace(/ /g, '-')}`">
+        <i class="clickToHide fas fa-chevron-right chevron chevronPoint"/>
+        <i class="clickToShow fas fa-chevron-down chevron chevronPoint"/>
+      </template>
+
       <a :href="g.url" v-html="g.name"/>
 
       <template v-if="g.devices.length > 1">
@@ -50,7 +53,7 @@
             <ul>
               <li class="showOnHover" style="list-style-type: disc" v-for="d in g.devices" :key="d">
                 <a :href="d.url" v-html="d.name"/>
-                <a v-if="d.ipsw != 'none'" class="hoverElement" :href="d.ipsw">
+                <a v-if="d.ipsw != 'none' && d.ipsw" class="hoverElement" :href="d.ipsw">
                   <i class="fas fa-download chevron" style="margin-left: 0.8em; margin-right: 0.5em;"/>
                   <span style="font-weight: 500;" v-html="downloadStr"/>
                 </a>
@@ -60,7 +63,7 @@
         </div>
       </template>
       <template v-else>
-        <span v-if="g.devices[0].ipsw != 'none'" class="hoverElement">
+        <span v-if="g.devices[0].ipsw != 'none' && g.devices[0].ipsw" class="hoverElement">
           <i class="fas fa-circle ml-" style="font-size: 0.3rem; opacity: 0.5; vertical-align: middle; margin-left: 2em; margin-right: 2em;"/>
           <a :href="g.devices[0].ipsw">
             <i class="fas fa-download" style="margin-right: 0.5em;"></i>

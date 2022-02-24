@@ -29,15 +29,8 @@ module.exports = {
 				locales: searchLocales,
 			}
 		],
-		[
-			'@vuepress/register-components',
-			{
-				componentsDir: path.resolve(__dirname, './components')
-			}
-		],
     require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
-    require('./plugins/newDynamicPages/lib/'),
-    require('./plugins/redirectPlugin/lib/'),
+    require('./plugins/redirectPlugin/lib/')
 	],
   
   head: [
@@ -64,15 +57,6 @@ module.exports = {
   theme: path.resolve(__dirname, './vuepress-theme'),
   extendsMarkdown: (md) => {
       md.use(require('markdown-it-include'))
-  },
-  
-  onPrepared(app) {
-    fs.writeFile('./docs/.vuepress/public/main.json', JSON.stringify(mainObj), function (err) {
-      if (err) throw err
-    })
-    fs.writeFile('./docs/.vuepress/public/pages.json', JSON.stringify(app.pages), function (err) {
-      if (err) throw err
-    })
   },
   
   bundler: '@vuepress/bundler-vite',

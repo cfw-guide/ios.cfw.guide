@@ -77,7 +77,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
         html += `<td>${t.to}</td>`;
         
         const finalJbHtml = t.jbArr.map(function(x) {
-          var url = jbPath + x.name + '.html';
+          var url = appledbPath + '/jailbreak/' + x.name + '.html';
           var name = x.name;
           
           const guideObj = t.jbGuideObj;
@@ -86,10 +86,11 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
             if (guideObj.name) name = guideObj.name;
           }
           
-          return `<router-link to="${url}">${name}</router-link>`
+          if (url.includes(appledbPath)) return `<a href="${url}" target="_blank">${name}</a>`
+          else return `<router-link to="${url}">${name}</router-link>`
         }).join(', ');
         
-        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : '--'}</td>`;
+        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : 'N/A'}</td>`;
         
         html += '</tr>';
       }
@@ -100,7 +101,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
         html += `<tr>`;
         html += `<td><router-link to="${t.buildURL}">${t.build}</router-link></td>`;
         html += `<td>${t.version}</td>`;
-        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : '--'}</td>`;
+        html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : 'N/A'}</td>`;
         html += '</tr>';
       }
     }
@@ -111,7 +112,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   const noJbTip = `<div class="custom-container tip"><p>${deviceChartStr.table.noJbTip}</p></div>`
   const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>${deviceChartStr.table.betaTip.format({extLinkSvg: extLinkSvg})}</p></div>`
   var showMore = ''
-  if (simplifyTable) showMore = `<a href="/chart/device/${deviceGroup[0].name.replace(/ /g, '-')}.html">Show more</a>`
+  if (simplifyTable) showMore = `<a href="${appledbPath}/device/${deviceGroup[0].name.replace(/ /g, '-')}.html" target="_blank">Show more</a>`
 
   var switchButtons = "<p class=\"tableMainClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: table; } .tableMainClass { display: none }`; document.head.appendChild(style)\">" + deviceChartStr.table.showBetaVersions + "</a></p><p class=\"tableBetaClass\"><a style=\"cursor:pointer;\" onclick=\"const style = document.createElement('style'); style.innerHTML = `.tableBetaClass { display: none; } .tableMainClass { display: table }`; document.head.appendChild(style)\">" + deviceChartStr.table.hideBetaVersions + "</a></p>"
   var head = deviceChartStr.table.tableHeader;
