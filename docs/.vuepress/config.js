@@ -2,21 +2,17 @@ const { localePath, locales, themeConfigLocales, searchLocales } = require("./i1
 const path = require("path")
 const fs = require("fs")
 
-const mainObj = {
-  ios: require('./json/ios'),
-  jailbreak: require('./json/jailbreak'),
-  device: require('./json/deviceList'),
-  groups: require('./json/deviceGroups'),
-  bypass: require('./json/jbBypass')
-}
+const adArr = [
+  { slot: '/22046652915/ios-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743068301-0' },
+  { slot: '/22046652915/ios-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743126051-0' }
+]
 
 module.exports = {
   locales: locales,
   
   themeConfig: {
     repo: 'cfw-guide/ios.cfw.guide',
-    adTagOne: 'waldo-tag-8541',
-    adTagTwo: 'waldo-tag-8542',
+    adArr: adArr,
     selectLanguageText: '<i class="fas fa-globe"/>',
     logo: '/assets/images/logo.png',
     logoDark: '/assets/images/logo_dark.png',
@@ -52,6 +48,7 @@ module.exports = {
     ['script', {src: '/assets/js/if_jailbreaksapp_signed.js'}],
     ['script', {src: '/assets/js/show_if_windows.js'}],
     ['script', {src: '/assets/js/hide.js'}],
+    require('./plugins/createAdScript/lib/')(adArr)
   ],
 
   theme: path.resolve(__dirname, './vuepress-theme'),
