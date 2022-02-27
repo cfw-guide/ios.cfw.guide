@@ -9,7 +9,7 @@ discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak
 pkgman: cydia
 ---
 
-PwnageTool is capable of jailbreaking Pre-A5 devices on iOS 1.1.4 to 5.1.1 (though support heavily varies)
+PwnageTool is capable of jailbreaking pre-A5 devices on iOS 1.1.4 to 5.1.1 - although support heavily varies.
 
 PwnageTool is an untethered jailbreak, meaning that it persists after reboot, so once it's installed you will not have to reinstall it unless you erase your device.
 
