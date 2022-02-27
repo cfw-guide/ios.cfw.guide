@@ -16,7 +16,7 @@ PwnageTool is an untethered jailbreak, meaning that it persists after reboot, so
 In order to use PwnageTool, you will need a Mac running macOS Mavericks or earlier.
 
 
-![A screenshot of PwnageTool](/assets/images/pwnagetool.jpeg)
+![A screenshot of PwnageTool](/assets/images/pwnagetool.png)
 
 ## Downloads
 

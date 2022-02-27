@@ -27,7 +27,7 @@ In order to use limera1n, you will need a Windows computer running Windows 8 or 
 
 :::
 
-![A screenshot of limera1n](/assets/images/limera1n.jpeg)
+![A screenshot of limera1n](/assets/images/limera1n.png)
 
 ## Downloads
 
