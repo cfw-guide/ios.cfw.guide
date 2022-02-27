@@ -1,8 +1,8 @@
 ---
 lang: en-US
-title: Updating to 14.8 (Dallas)
-description: Guide on updating to 14.8 using the Dallas tweak
-permalink: /updating-(dallas)
+title: Updating (Dallas)
+description: Guide on updating using the Dallas tweak
+permalink: /updating-dallas
 redirect_from:
   #- /dallas
   #- /updating-(dallas)
