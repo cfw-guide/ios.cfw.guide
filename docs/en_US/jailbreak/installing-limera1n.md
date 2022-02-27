@@ -31,7 +31,7 @@ In order to use limera1n, you will need a Windows computer running Windows 8 or 
 3. Plug your device into your computer
 4. In limera1n, click "make it ra1n"
 5. Your device should enter recovery mode. Follow the instructions limera1n tells you.
-5. Once your phone has rebooted once, open the limera1n app on your home screen, and choose to install Cydia.
-6. Reboot your device again.
+6. Once your phone has rebooted once, open the limera1n app on your home screen, and choose to install Cydia.
+7. Reboot your device again.
 
 Once you see your lock screen, you should be jailbroken. Cydia will be on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
