@@ -3,10 +3,10 @@ lang: en_US
 title: Installing PwnageTool
 description: Guide to installing PwnageTool
 permalink: /installing-pwnagetool
+redirect_from:
+  - /pwnagetool
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
-extra_contributors:
-  - zachary7829
 ---
 
 PwnageTool is capable of jailbreaking Pre-A5 devices on iOS 1.1.4 to 5.1.1 (though support heavily varies)

@@ -4,6 +4,8 @@ title: Installing limera1n
 description: Guide to installing limera1n
 permalink: /installing-limera1n
 redirect_from:
+  - /installing-limerain
+  - /limera1n
   - /limerain
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
