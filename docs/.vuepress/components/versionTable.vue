@@ -361,6 +361,24 @@ var jailbreak = {
       include: ['A12', 'A12X', 'A12Z', 'A13', 'A14', 'M1'],
     }
   },
+  limera1n: {
+    text: "Installing limera1n",
+    url: "/installing-limera1n/",
+    0: {
+      minVer: '4.0.2',
+      maxVer: '4.0.2',
+      include: ['APL0298', 'APL2298', 'A4'],
+    }
+  },
+  PwnageTool: {
+    text: "Installing PwnageTool",
+    url: "/installing-pwnagetool/",
+    0: {
+      minVer: '2.0',
+      maxVer: '2.2.1',
+      include: ['APL0098'],
+    }
+  },
   pangu9: {
     text: "Pangu9",
     url: "https://web.archive.org/web/20170702115349/http://en.9.pangu.io/",
