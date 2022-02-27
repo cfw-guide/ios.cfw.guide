@@ -37,7 +37,7 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 ::: tip
 
-You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-(blobless-advanced)">Updating (Blobless) (Advanced)</router-link> instead.
+You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.
 
 :::
 

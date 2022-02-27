@@ -5,6 +5,7 @@ global.deviceList = require('../../../json/deviceList');
 global.deviceGroups = require('../../../json/deviceGroups');
 global.jbList = require('../../../json/jailbreak');
 
+global.appledbPath = 'https://appledb.dev'
 global.jbPath = '/chart/jailbreak/'
 global.fwPath = '/chart/firmware/'
 global.devicePath = '/chart/device/'
