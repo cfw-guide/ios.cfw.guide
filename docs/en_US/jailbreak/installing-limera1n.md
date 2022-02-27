@@ -11,12 +11,21 @@ extra_contributors:
   - zachary7829
 ---
 
-limera1n is capable of jailbreaking A4 devices on iOS 3.2.2 to 4.1
+limera1n is capable of jailbreaking A4 devices and the iPhone 3GS and iPod Touch 3rd Generation on iOS 4.0 to 4.1, as well as the iPad 1st Generation on 3.2.2
 
-limera1n is an untethered jailbreak, meaning that it persists after reboot, so once it's installed you will not have to reinstall it unless you erase your device. (Note: on iOS versions other than 4.0-4.1, limera1n is a tethered jailbreak, meaning that you will be unable to reboot your device until you rejailbreak it. For this reason it's recommended that if you're on a iOS version other than 4.0-4.1, we'd recommend trying a different tool)
+limera1n is an untethered jailbreak in most cases, meaning that it persists after reboot, so once it's installed you will not have to reinstall it unless you erase your device. 
+
+::: tip
+
+For iPad 1st Generations on 3.2.2, we recommend you use <router-link to="/installing-greenpois0n">greenpois0n</router-link> instead, as limera1n on 3.2.2 is a tethered jailbreak.
+
+:::
+
+::: tip
 
 In order to use limera1n, you will need a Windows computer running Windows 8 or earlier, or macOS Mojave or earlier.
 
+:::
 
 ![A screenshot of limera1n](/assets/images/limera1n.jpeg)
 
