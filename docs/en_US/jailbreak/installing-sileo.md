@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: "Installing Sileo"
-description: Guide to using Cydia
+description: Guide to installing Sileo on checkra1n and unc0ver
 permalink: /installing-sileo
 redirect_from:
   - /install-sileo
