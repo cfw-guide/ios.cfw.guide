@@ -35,6 +35,12 @@ This has a time limit, however. You will only be able to update to the following
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
+::: danger
+
+If you trying to go to iOS 15.1 or 15.1.1, you will likely run into issues.
+
+:::
+
 ::: tip
 
 You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.

@@ -23,6 +23,12 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 Because you do not currently have a jailbreak (or you choose not to jailbreak for any reason), you'll have to use advanced methods, involving things such as resetting all contents and settings, to be able to update.
 
+::: danger
+
+If you trying to go to iOS 15.1 or 15.1.1, you will likely run into issues.
+
+:::
+
 ::: warning
 
 If your device is not able to be jailbroken, you must be on iOS versions 14.5 to 14.8 to use the 14.8.1 profile.
