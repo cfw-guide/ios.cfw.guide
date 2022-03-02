@@ -16,9 +16,13 @@ Due to certain issues regarding the normal blobless method, in order to Delay OT
 
 ::: tip
 
-You must meet the following criteria in order to use Dallas:
-  - You must be able to jailbreak your device 
-  - You must be able to install packages and profiles onto your device
+If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
+
+:::
+
+::: warning
+
+This method expires on March 13th, 2022 (UTC 00:00) for iOS 14.8.1 and 15.1.
 
 :::
 
@@ -28,19 +32,15 @@ If you are trying to go to 15.1, this method does not work for iPhone 12 or iPho
 
 :::
 
-::: warning
+## Requirements
 
-You have until around March 13th, 2022, in UTC 00:00 time, to follow this method for both 14.8.1 and 15.1.
+- A device you are able to jailbreak and install packages to
+    - Check [Get Started](get-started) if you are unsure
+- A backup of your device through iCloud
 
-:::
+## Instructions
 
-::: warning
-
-If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
-
-:::
-
-## Preparing
+### Supervising your device
 
 ::: tip
 
@@ -48,19 +48,18 @@ If you are supervised from attempting the normal blobless method at an earlier t
 
 :::
 
-1. Plug your iDevice into your computer and make a backup through iTunes or Finder
-1. Launch your current jailbreak
+1. Launch your current jailbreak and jailbreak your device
 1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://cydia.ichitaso.com/)
 1. Search and install the `SupervisedEnabler` package
 1. Your device should now be supervised
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 
 
-## Installing Dallas
+### Installing Dallas
 
 ::: tip
 
-As the Dallas tweak redirects update searches to a different server, they will be able to see your IP address. However, it is never actually used for anything malicious.
+The Dallas tweak redirects update searches to a different server. As such, the owners of the server will be able to view your IP address. This is normal, however if you are uncomfortable with this, do not proceed.
 
 :::
 
@@ -86,7 +85,7 @@ As the Dallas tweak redirects update searches to a different server, they will b
 1. Tap "Install" again twice to confirm
 1. Reboot your device when prompted
 
-## Restoring rootFS
+### Restoring rootFS
 
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
@@ -98,34 +97,40 @@ As the Dallas tweak redirects update searches to a different server, they will b
     - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
 1. Reboot your device
 
-## Updating your firmware version
+### Updating your firmware version
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-1. Ensure that the version displayed is the iOS version you desire to update to
+1. Ensure that the version displayed is the version that you want to update to
 1. Download and install the update
 
-## Removing Dallas profiles
+### Removing Dallas profiles
 
 1. Open the Settings application after updating to version you desired to update to
 1. Go to `General` if not already there, then `Profiles and Device Management`
 1. Tap on both profiles, and tap `Remove Profile`
     - Enter your passcode if asked
 
-::: tip
+## Removing supervision
 
-After updating and removing Dallas profiles, if you went to iOS 15.1 you have two ways to move forward:
-  - Erase All Content and Settings in the settings app, and restore a backup made prior to jailbreaking and prior to supervising
-  - Stay supervised, and wait for a jailbreak to become available for iOS 15.1
+After updating and removing Dallas profiles, your device will remain supervised. Being in a supervised state means that a message will display in Settings, showing that your device is supervised.
 
-If you went to iOS 14.8.1, ignore this tip unless you are unable to jailbreak on 14.8.1.
+If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall aps on your device.
+
+For most users, staying in a supervised state won't be an issue. Users on software version 14.8.1 may be able to [jailbreak](get-started) and remove the supervised state.
+
+If you are on 15.1, or otherwise unable to jailbreak, it is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
+
+::: danger
+
+If you restore a backup made in a jailbroken state from **iTunes/Finder**, you may encounter severe issues, such as bootloops.
 
 :::
 
-::: tip
+::: warning
 
-If the update was successful, continue to <router-link to="/get-started">Get Started</router-link> to jailbreak your device.
+If you restore a backup made in a jailbroken state from **iCloud**, you may encounter false-positive flagging of jailbreak detection. 
 
 :::
 
