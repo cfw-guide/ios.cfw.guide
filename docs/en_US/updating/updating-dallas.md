@@ -65,7 +65,9 @@ As the Dallas tweak redirects update searches to a different server, they will b
 :::
 
 1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repo: [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
+1. Open your preferred package manager and add the following repos:
+    - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
+    - [https://repo.cadoth.net](https://repo.cadoth.net)
 1. Search and install the `Dallas` package
 1. Tap `Restart Springboard`
 1. Go to [https://dhinakg.github.io/dallas](https://dhinakg.github.io/dallas) on your device
