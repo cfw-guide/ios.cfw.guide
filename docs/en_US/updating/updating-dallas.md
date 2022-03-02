@@ -24,13 +24,13 @@ You must meet the following criteria in order to use Dallas:
 
 ::: danger
 
-This method does not work for iPhone 12 or iPhone 13 series devices. (This includes Pro, Max, and Mini versions of those devices).
+If you are trying to go to 15.1, this method does not work for iPhone 12 or iPhone 13 series devices. (This includes Pro, Max, and Mini versions of those devices).
 
 :::
 
 ::: warning
 
-You have until around March 13th, 2022, in UTC 00:00 time, to follow this method.
+You have until around March 13th, 2022, in UTC 00:00 time, to follow this method for both 14.8.1 and 15.1.
 
 :::
 
