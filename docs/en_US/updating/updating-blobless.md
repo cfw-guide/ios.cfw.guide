@@ -56,7 +56,7 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 1. Launch your current jailbreak
 1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://cydia.ichitaso.com/)
 1. Search and install the `SupervisedEnabler` package
-1. Tap `Restart Springboard`
+1. Reboot your device
 1. Your device should now be supervised
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into your device, navigate to this webpage
