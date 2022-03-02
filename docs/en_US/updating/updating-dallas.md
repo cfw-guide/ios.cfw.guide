@@ -4,8 +4,8 @@ title: Updating to 15.1 (Dallas)
 description: Guide on updating to 15.1 using the Dallas tweak
 permalink: /updating-dallas
 redirect_from:
-  - /dallas
-  - /updating-(dallas)
+  #- /dallas
+  #- /updating-(dallas)
 extra_contributors:
   - DhinakG
 ---
