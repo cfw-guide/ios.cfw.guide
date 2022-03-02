@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Updating (Dallas)
-description: Guide on updating using the Dallas tweak
+title: Updating to 15.1 (Dallas)
+description: Guide on updating to 15.1 using the Dallas tweak
 permalink: /updating-dallas
 redirect_from:
   #- /dallas
@@ -12,17 +12,19 @@ extra_contributors:
 
 ## Required Reading
 
-::: warning
-
-This method is now dead, and this page is being kept for when Dallas receives an update to allow for non-14.8 usage
-
-:::
-
-You have a limited amount of time to do this to go to 14.8.
+Due to certain issues regarding the normal blobless method, in order to Delay OTA to 15.1, you have to use the Dallas tweak and its profiles to be able to go to iOS 15.1.
 
 ::: tip
 
-You must be jailbroken to follow these instructions.
+You must meet the following criteria in order to go to 15.1:
+- You must be able to jailbreak your device 
+- You must be able to install packages and profiles onto your device
+
+:::
+
+::: danger
+
+This method does not work for iPhone 12 or iPhone 13 series of device. (This includes Pro, Max, and Mini versions of those devices).
 
 :::
 
