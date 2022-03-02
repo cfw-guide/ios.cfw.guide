@@ -69,7 +69,7 @@ As the Dallas tweak redirects update searches to a different server, they will b
     - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
     - [https://repo.cadoth.net](https://repo.cadoth.net)
 1. Search and install the `Dallas` package
-1. Tap `Restart Springboard`
+1. Tap `Reboot Device`
 1. Go to [https://dhinakg.github.io/dallas](https://dhinakg.github.io/dallas) on your device
 1. Install the Dallas Enabler profile completely, then install the profile for the version you want to update to
     - Make sure to completely install Dallas Enabler, then completely install the other profile
