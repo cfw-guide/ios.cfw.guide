@@ -39,6 +39,10 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 If you trying to go to iOS 15.1 or 15.1.1, you will likely run into issues.
 
+If you're trying to go to 15.1, follow <router-link to="/updating-dallas">Updating to 15.1 (Dallas)</router-link>.
+
+If you're trying to go to 15.1.1, there is no solution.
+
 :::
 
 ::: tip
@@ -67,7 +71,7 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 
 ::: tip
 
-If you are currently on 14.5 or higher, updating to 15.1, **or** using another non-"alternative" profile, you can skip this section.
+If you are currently on 14.5 or higher, updating to 15.1 or later, **or** using another non-"alternative" profile, you can skip this section.
 
 :::
 
