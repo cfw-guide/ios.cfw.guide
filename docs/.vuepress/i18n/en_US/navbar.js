@@ -18,6 +18,14 @@ module.exports = [
         text: 'FutureRestore',
         link: '/futurerestore/',
       },
+      {
+        text: 'Updating (Dallas)',
+        link: '/updating-dallas/',
+      },
+      {
+        text: 'Updating (Blobless)',
+        link: '/updating-blobless/',
+      },
     ],
   },
   {

@@ -39,10 +39,9 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 If you trying to go to iOS 15.1 or 15.1.1, you will likely run into issues.
 
-<!--If you're trying to go to 15.1, follow <router-link to="/updating-dallas">Updating to 15.1 (Dallas)</router-link>.
+If you're trying to go to 15.1, follow <router-link to="/updating-dallas">Updating to 15.1 (Dallas)</router-link>.
 
 If you're trying to go to 15.1.1, there is no solution.
--->
 :::
 
 ::: tip

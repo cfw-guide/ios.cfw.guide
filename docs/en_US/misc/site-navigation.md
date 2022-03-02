@@ -52,6 +52,7 @@ sidebar: false
 
 ## 'Updating' Pages
 
++ <router-link to="/updating-dallas">Updating (Dallas)</router-link>
 + <router-link to="/updating-blobless">Updating (Blobless)</router-link>
 + <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
 + <router-link to="/updating-to-15-3-1">Updating to 15.3.1</router-link>
