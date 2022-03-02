@@ -71,9 +71,20 @@ As the Dallas tweak redirects update searches to a different server, they will b
 1. Search and install the `Dallas` package
 1. Tap `Reboot Device`
 1. Go to [https://dhinakg.github.io/dallas](https://dhinakg.github.io/dallas) on your device
-1. Install the Dallas Enabler profile completely, then install the profile for the version you want to update to
-    - Make sure to completely install Dallas Enabler, then completely install the other profile
-1. After installing both profiles, reboot your device
+1. Tap on "Dallas Enabler" to download the profile
+1. Tap "Allow" when prompted
+1. Open the Settings app
+1. Go to `General` -> `Profiles & Device Management` -> `Dallas Enabler`
+1. Tap "Install" in the top right corner and enter your passcode if prompted
+1. Tap "Install" again twice to confirm
+1. Go back to your web browser
+1. Under "Version Profiles", tap the version that you want to update to
+1. Tap "Allow" when prompted
+1. Open the Settings app
+1. Go to `General` -> `Profiles & Device Management` -> `Dallas - [VERSION]`
+1. Tap "Install" in the top right corner and enter your passcode if prompted
+1. Tap "Install" again twice to confirm
+1. Reboot your device when prompted
 
 ## Restoring rootFS
 
