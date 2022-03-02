@@ -92,7 +92,8 @@ As the Dallas tweak redirects update searches to a different server, they will b
 1. Tap `General` -> `Software Update`
 1. Ensure that the version displayed is iOS version you desire to update to
     - **Do not** update yet, we will do this shortly
-    - If it says something along the lines of "You are up to date", the server used for Dallas is offline, wait for it to go back online.
+    - Ensure that the version displayed is the version that you want to update to
+    - If it says that your device is up to date, the server used for Dallas is offline; wait for it to go back online
 1. Open your current jailbreak and restore rootFS
     - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
 1. Reboot your device
