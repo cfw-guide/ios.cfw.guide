@@ -30,6 +30,12 @@ This method does not work for iPhone 12 or iPhone 13 series devices. (This inclu
 
 ::: warning
 
+You have until around March 13th, 2022, in UTC 00:00 time, to follow this method.
+
+:::
+
+::: warning
+
 If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
 
 :::
