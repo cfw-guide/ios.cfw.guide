@@ -52,7 +52,6 @@ If you are supervised from attempting the normal blobless method at an earlier t
 1. Launch your current jailbreak
 1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://cydia.ichitaso.com/)
 1. Search and install the `SupervisedEnabler` package
-1. Tap `Restart Springboard`
 1. Your device should now be supervised
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 
