@@ -125,7 +125,7 @@ The Dallas tweak redirects update searches to a different server. As such, the o
 
 After updating and removing Dallas profiles, your device will remain supervised. Being in a supervised state means that a message will display in Settings, showing that your device is supervised.
 
-If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall aps on your device.
+If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall apps on your device.
 
 For most users, staying in a supervised state won't be an issue. Users on software version 14.8.1 may be able to [jailbreak](get-started) and remove the supervised state.
 
