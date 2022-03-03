@@ -12,7 +12,7 @@ extra_contributors:
 
 ## Required Reading
 
-Due to certain issues regarding the normal blobless method, in order to Delay OTA to 15.1, you have to use the Dallas tweak and its profiles to be able to go to iOS 15.1. If you wish, you can also use the Dallas method to go to iOS 14.8.1 as well
+To save effort over the normal blobless method for iOS 14.8.1 on devices running 14.4.2 or lower, you can use the Dallas tweak and profiles to update to iOS 14.8.1. If you wish, you can also use the Dallas method to go to iOS 15.1 as well
 
 ::: tip
 

@@ -25,7 +25,17 @@ Because you do not currently have a jailbreak (or you choose not to jailbreak fo
 
 ::: danger
 
-If you trying to go to iOS 15.1 or 15.1.1, you will likely run into issues.
+If you trying to go to iOS 15.1.1, you will likely run into issues, there is no solution for those issues.
+
+:::
+
+::: danger
+
+Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
+
+  - 14.8.1: September 20th, 2021
+  - 15.1: December 13th, 2021
+  - 15.1.1: December 13th, 2021
 
 :::
 

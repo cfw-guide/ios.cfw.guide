@@ -37,12 +37,24 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 ::: danger
 
-If you trying to go to iOS 15.1 or 15.1.1, you will likely run into issues.
+If you trying to go to iOS 15.1.1, you will likely run into issues. If you run into these issues, there is no solution.
 
-If you're trying to go to 15.1, follow <router-link to="/updating-dallas">Updating to 15.1 (Dallas)</router-link>.
-
-If you're trying to go to 15.1.1, there is no solution.
 :::
+
+::: danger
+
+Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
+
+  - 14.8.1: September 20th, 2021
+  - 15.1: December 13th, 2021
+  - 15.1.1: December 13th, 2021
+
+:::
+
+::: tip
+
+If you are trying to update to iOS 14.8.1, you need to be on iOS 14.5 to 14.8. If you are on iOS 14.4.2 or lower, follow <router-link to="/updating-dallas">Updating (Dallas)</router-link> instead.
+
 
 ::: tip
 
@@ -65,24 +77,6 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
     - [15.1](/assets/files/delay_15_1.mobileconfig)
     - [15.1.1](/assets/files/delay_15_1_1.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
-
-## Editing the profile
-
-::: tip
-
-If you are currently on 14.5 or higher, updating to 15.1 or later, **or** using another non-"alternative" profile, you can skip this section.
-
-:::
-
-1. Tap the following link and install the [Beta Profile](https://cydia.ichitaso.com/no-ota15.mobileconfig)
-1. When prompted, restart your device
-1. Re-apply your jailbreak
-1. Open your <router-link to="/package-managers">package manager</router-link> and install the [Filza](https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp) file manager
-1. Open the Filza app and navigate to `/Library/Managed Preferences/mobile`
-1. Open the `com.apple.MobileAsset.plist` file
-1. Set `MobileAssetAssetAudience` to `c724cb61-e974-42d3-a911-ffd4dce11eda`
-1. Reboot your device
-    - Alternatively, run `launchctl reboot userspace` in a terminal to run a userspace reboot
 
 ## Restoring rootFS
 
