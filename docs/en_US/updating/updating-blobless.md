@@ -55,6 +55,7 @@ Depending on your target iOS version, you won't be able to do this if you future
 
 If you are trying to update to iOS 14.8.1, you need to be on iOS 14.5 to 14.8. If you are on iOS 14.4.2 or lower, follow <router-link to="/updating-dallas">Updating (Dallas)</router-link> instead.
 
+:::
 
 ::: tip
 
