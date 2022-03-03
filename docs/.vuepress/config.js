@@ -26,12 +26,6 @@ module.exports = {
 				locales: searchLocales,
 			}
 		],
-		[
-			'@vuepress/register-components',
-			{
-				componentsDir: path.resolve(__dirname, './components')
-			}
-		],
     require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
     require('./plugins/redirectPlugin/lib/')
 	],
