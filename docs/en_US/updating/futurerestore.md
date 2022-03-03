@@ -61,8 +61,7 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 1. When opening FutureRestoreGUI, you should be greeted by this menu:
 ![image](https://user-images.githubusercontent.com/48022799/147845013-73dbda5b-500d-4f5a-ae51-3751d9268fe6.png)
 
-1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-** Note:** For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
+1. Click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button to fetch the latest beta version of FutureRestore
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
