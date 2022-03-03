@@ -20,6 +20,15 @@ If you previously attempted the regular blobless method, remove all delay and be
 
 :::
 
+::: danger
+
+Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
+
+14.8.1: September 20th, 2021
+15.1: December 13th, 2021
+
+:::
+
 ::: warning
 
 This method expires on March 13th, 2022 (UTC 00:00) for iOS 14.8.1 and 15.1.
