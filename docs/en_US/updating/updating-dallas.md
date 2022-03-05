@@ -44,7 +44,7 @@ If you are trying to go to 15.1, this method does not work for iPhone 12 or iPho
 ## Requirements
 
 - A device you are able to jailbreak and install packages to
-    - Check [Get Started](get-started) if you are unsure
+    - Check <router-link to="/get-started">Get Started</router-link> if you are unsure
 - A backup of your device through iCloud
 
 ## Instructions
