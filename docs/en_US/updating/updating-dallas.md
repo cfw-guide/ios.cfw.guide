@@ -6,6 +6,7 @@ permalink: /updating-dallas
 redirect_from:
   - /dallas
   - /updating-(dallas)
+  - /updating-Dallas
 extra_contributors:
   - DhinakG
 ---
