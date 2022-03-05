@@ -91,6 +91,7 @@ The Dallas tweak redirects update searches to a different server. As such, the o
 1. Tap "Allow" when prompted
 1. Open the Settings app
 1. Go to `General` -> `Profiles & Device Management` -> `Dallas - [VERSION]`
+    - If you receive an error, make sure that you are currently jailbroken
 1. Tap "Install" in the top right corner and enter your passcode if prompted
 1. Tap "Install" again twice to confirm
 1. Reboot your device when prompted
