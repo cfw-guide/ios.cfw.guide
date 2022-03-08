@@ -4,6 +4,7 @@ function getDeviceArr(typeArr) {
   for (const i in typeArr) {
     deviceArr.push([]);
     for (const d in deviceGroups) {
+      if (deviceGroups[d].hideiOSCFW) continue
       if (deviceGroups[d].type == 'iPad') {
         if (deviceGroups[d].subtype == typeArr[i]) {
           deviceArr[i].push(deviceGroups[d]);
@@ -14,8 +15,6 @@ function getDeviceArr(typeArr) {
     }
     deviceArr[i].reverse()
   }
-
-  deviceArr = deviceArr.filter(x => !x.hideiOSCFW)
   
   return deviceArr;
 }
