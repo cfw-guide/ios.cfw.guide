@@ -1,9 +1,11 @@
 ---
 lang: en_US
-title: Using Odysseyn1x (A9X)
+title: Using Odysseyn1x (A8X/A9X)
 description: Guide to installing checkra1n via Odysseyn1x on A9X devices
-permalink: /using-odysseyn1x-a9x
+permalink: /using-odysseyn1x-a8x-a9x
 pkgman: sileo
+redirect_from:
+  - /using-odysseyn1x-a9x
 extra_contributors:
   - stekc
   - Tanbeer191
@@ -24,16 +26,17 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 
 ::: tip
 
-If you are using an A9X device running iOS 14.4.2 or earlier, you should follow <router-link to="/using-odysseyn1x">Using Odysseyn1x</router-link> and use checkra1n version 0.12.2 instead.
+If you are using an A8X or A9X device running iOS 14.4.2 or earlier, you should follow <router-link to="/using-odysseyn1x">Using Odysseyn1x</router-link> and use checkra1n version 0.12.2 instead.
 
 :::
 
-On A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode. It is possible to use a custom version of Odysseyn1x, however, to work around this.
+On A8X and A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 14.5+ support) without the use of a custom pongoOS and checkra1n in CLI mode. It is possible to use a custom version of Odysseyn1x, however, to work around this.
 
 ## Requirements
 
 - 256MB or greater USB Drive
 - The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-2)
+    - While it says "for A9X" and there are various mentions of only A9X within the program, this was before A8X devices were found to have similar issues
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [balenaEtcher](https://www.balena.io/etcher/)

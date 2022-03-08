@@ -9,6 +9,8 @@ sidebar: false
 
 + <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
 + <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
++ <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
++ <router-link to="/using-odysseyn1x-a8x-a9x">Using odysseyn1x (A8X/A9X)</router-link>
 + <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
 + <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
 + <router-link to="/installing-taurine">Installing Taurine</router-link>
@@ -30,7 +32,9 @@ sidebar: false
 + <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 + <router-link to="/installing-p0sixspwn">Installing P0sixspwn</router-link>
 + <router-link to="/installing-evasi0n6">Installing evasi0n6</router-link>
++ <router-link to="/installing-pwnagetool">Installing PwnageTool</router-link>
 + <router-link to="/installing-absinthe">Installing Absinthe</router-link>
++ <router-link to="/installing-limera1n">Installing limera1n</router-link>
 + <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
 + <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 + <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>

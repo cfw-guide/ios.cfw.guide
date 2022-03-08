@@ -1,15 +1,23 @@
 ---
 lang: en_US
-title: Installing Odysseyra1n (A9X) (macOS)
-description: Guide to installing Odysseyra1n on A9X devices
-permalink: /installing-odysseyra1n-a9x/macos
+title: Installing Odysseyra1n (A8X/A9X) (Linux)
+description: Guide to installing Odysseyra1n on linux
+permalink: /installing-odysseyra1n-a8x-a9x/linux
+redirect_from:
+  - /installing-odysseyra1n-a9x/linux
 extra_contributors:
   - stekc
   - Tanbeer191
   - TheHacker894
 ---
 
-## Downloads (macOS)
+::: warning
+
+If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
+
+:::
+
+## Downloads (Linux)
 
 - The latest release of [checkra1n](https://checkra.in)
 - The custom version of [pongoOS](https://github.com/checkra1n/BugTracker/files/6429930/Pongo.zip)
@@ -18,15 +26,9 @@ extra_contributors:
 
 ## Installing checkra1n
 
-::: tip
-
-If you're using an M1 Mac, you will be prompted during the process to unplug and replug the device and will need to do so.
-
-:::
-
 1. Open the `pongoOS.zip` file, navigate to `PongoConsolidated.bin`, then extract it.
     - Keep note of where you extract this
-1. Open a terminal and run checkra1n in CLI mode by using `/Applications/checkra1n.app/Contents/MacOS/checkra1n -c -k [path to PongoConsolidated.bin]`
+1. Run the `checkra1n` binary in CLI mode using this custom pongoOS in the terminal using `sudo checkra1n -c -k [path to PongoConsolidated.bin]`
 1. Plug your iOS device into your computer
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
@@ -40,8 +42,9 @@ To install Odysseyra1n, <u>do not</u> open the checkra1n app and install Cydia. 
 
 1. Open the terminal app on your computer
 1. Ensure that your computer is trusted by your device
-1. Install "homebrew" by pasting and executing the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-1. Install "iproxy" by pasting and executing the following command: `brew install libusbmuxd`
+1. Install "iproxy" by pasting and executing the following command:
+    - Ubuntu/Debian: `sudo apt install libusbmuxd-tools`
+    - Arch Linux: `pacman -S libusbmuxd`
 1. Install the Odysseyra1n script by pasting and executing the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/end-of-page.md)!!!

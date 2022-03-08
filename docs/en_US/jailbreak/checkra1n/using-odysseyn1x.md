@@ -36,14 +36,14 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 On iOS 14: 
-- Odysseyra1n is only fully supported on A8(X), A9, A10(X), and A11 devices. A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A9X devices on 14.5 to 14.8.1, which is detailed at [Using Odysseyn1x (A9X)](/using-odysseyn1x-a9x).
+- Odysseyra1n is only fully supported on A8, A9, A10(X), and A11 devices. A8X and A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A8X and A9X devices on 14.5 to 14.8.1, which is detailed at [Using Odysseyn1x (A9X)](/using-odysseyn1x-a9x).
 -  A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 ## Requirements
 
 - 256MB or greater USB Drive
 - The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases)
-    - If you are on an A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
+    - If you are on an A8X or A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [balenaEtcher](https://www.balena.io/etcher/)
@@ -69,9 +69,9 @@ On iOS 14:
 ## Running checkra1n
 
 1. Once you have loaded odysseyn1x, select `checkra1n`
-    - If you're on A11, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
+    - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
     - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
-    - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
+    - If you're on an A8X or A9X device and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device reboots to a black screen
