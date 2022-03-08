@@ -32,7 +32,9 @@ sidebar: false
 + <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 + <router-link to="/installing-p0sixspwn">Installing P0sixspwn</router-link>
 + <router-link to="/installing-evasi0n6">Installing evasi0n6</router-link>
++ <router-link to="/installing-pwnagetool">Installing PwnageTool</router-link>
 + <router-link to="/installing-absinthe">Installing Absinthe</router-link>
++ <router-link to="/installing-limera1n">Installing limera1n</router-link>
 + <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
 + <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 + <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
