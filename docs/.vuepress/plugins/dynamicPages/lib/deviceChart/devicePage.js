@@ -14,6 +14,8 @@ function getDeviceArr(typeArr) {
     }
     deviceArr[i].reverse()
   }
+
+  deviceArr = deviceArr.filter(x => !x.hideiOSCFW)
   
   return deviceArr;
 }
