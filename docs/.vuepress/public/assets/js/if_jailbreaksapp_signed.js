@@ -10,15 +10,13 @@ function waitForElm(selector) {
                 resolve(document.querySelector(selector));
                 observer.disconnect();
             }
-        }
-        );
+        });
 
         observer.observe(document.body, {
             childList: true,
             subtree: true
         });
-    }
-    );
+    });
 }
 
 waitForElm('#ifJailbreaksAppSigned').then(function(elm) {
@@ -28,7 +26,5 @@ waitForElm('#ifJailbreaksAppSigned').then(function(elm) {
         if (body.status == "Signed") {
             hideIf.display = "block";
         }
-    }
-    );
-}
-);
+    });
+});
