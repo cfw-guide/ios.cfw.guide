@@ -48,4 +48,10 @@ iosArr.sort(function (a, b) {
   a.length == b.length ? 0: (a.length < b.length ? -1 : 1);
 })
 
+iosArr = iosArr.map(function(x) {
+  if (!x.uniqueBuild) x.uniqueBuild = x.build
+  if (!x.beta) x.beta = false
+  return x
+})
+
 module.exports = iosArr;
