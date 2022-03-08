@@ -129,7 +129,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
     )
   }
   
-  if(tableHtml[0] == tableHtml[1]) return noJbTip + tableArr[0] + showMore
+  /*if(tableHtml[0] == tableHtml[1])*/ return noJbTip + tableArr[0] + showMore
   
   return switchButtons + betaTip + noJbTip + tableArr.join('') + showMore
 }
