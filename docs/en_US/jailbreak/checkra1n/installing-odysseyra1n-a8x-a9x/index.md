@@ -1,9 +1,11 @@
 ---
 lang: en_US
-title: Installing Odysseyra1n (A9X)
-description: Guide to installing Odysseyra1n on A9X devices
-permalink: /installing-odysseyra1n-a9x
+title: Installing Odysseyra1n (A8X/A9X)
+description: Guide to installing Odysseyra1n on A8X and A9X devices
+permalink: /installing-odysseyra1n-a8x-a9x
 pkgman: sileo
+redirect_from:
+  - /installing-odysseyra1n-a9x
 extra_contributors:
   - stekc
   - Tanbeer191
@@ -16,11 +18,11 @@ checkra1n is a tool capable of jailbreaking millions of iOS devices with the A7 
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
-On A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5 to 14.8.1 support) without the use of a custom pongoOS and checkra1n in CLI mode.
+On A8X and A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5 to 14.8.1 support) without the use of a custom pongoOS and checkra1n in CLI mode.
 
 ::: tip
 
-If you are using an A9X device running iOS 14.4.2 or earlier, you should follow <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> and use checkra1n version 0.12.2 instead.
+If you are using an A8X or A9X device running iOS 14.4.2 or earlier, you should follow <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> and use checkra1n version 0.12.2 instead.
 
 :::
 

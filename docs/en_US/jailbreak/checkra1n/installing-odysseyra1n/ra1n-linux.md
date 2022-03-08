@@ -18,7 +18,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ## Downloads (Linux)
 
 - The latest release of [checkra1n](https://checkra.in)
-  - If you are on an A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
+  - If you are on an A8X or A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
 
 ![A screenshot of the checkra1n application](/assets/images/checkra1n.png)
 
@@ -26,9 +26,9 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
     - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
-    - If you're on A11, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
+    - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
     - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
-    - If you're on A9X and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
+    - If you're on an A8X or A9X device and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
