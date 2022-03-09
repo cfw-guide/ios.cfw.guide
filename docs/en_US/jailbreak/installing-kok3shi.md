@@ -7,7 +7,7 @@ redirect_from:
   - /installing-kokeshi
   - /kok3shi
   - /kokeshi
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - TheHacker894
@@ -23,7 +23,7 @@ This jailbreak is in its early stages and therefore may not work as intended. Be
 
 ## Downloads
 
-- The latest version of [kok3shi](https://dora2ios.web.app/kokeshiJB.html)
+- The latest version of [kok3shi](https://web.archive.org/web/20210601000000*/https://github.com/dora2-iOS/KOKESHIDOLL_PUBLIC/releases/download/1.0/kok3shi_v1.0b2.ipa) (archive.org)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
