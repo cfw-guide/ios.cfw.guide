@@ -11,7 +11,8 @@ const guides = {
     '/saving-blobs/',
     '/resigning-apps/',
     '/blocking-jailbreak-detection/',
-    '/updating-(blobless)/',
+    '/updating-blobless/',
+    '/updating-dallas/',
     {
       text: 'FutureRestore',
       link:'/futurerestore/',
