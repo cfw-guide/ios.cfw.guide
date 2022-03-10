@@ -39,7 +39,7 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 
 ::: danger
 
-If you're using unc0ver on iOS 14.6-14.8. you cannot use dimentio as libkrw isn't functioning. You should set your generator from unc0ver's settings instead.
+If you're using unc0ver on iOS 14.6-14.8, you cannot use dimentio as libkrw isn't functioning. You should set your generator from unc0ver's settings instead.
 
 :::
 
