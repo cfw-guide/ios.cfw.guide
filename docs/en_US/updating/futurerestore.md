@@ -7,7 +7,6 @@ redirect_from:
   - /future-restore
   - /restoring-to-14-3
 extra_contributors:
-  - Serena
   - Tanbeer191
   - TheHacker894
   - CoocooFroggy
