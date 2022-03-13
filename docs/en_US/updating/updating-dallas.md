@@ -13,7 +13,7 @@ extra_contributors:
 
 ## Required Reading
 
-To save effort over the normal blobless method for iOS 14.8.1 on devices running 14.4.2 or lower, you can use the Dallas tweak and profiles to update to iOS 14.8.1. If you wish, you can also use the Dallas method to go to iOS 15.1 as well
+If you wish to go to iOS 14.8.1 or iOS 15.1, you must follow this method in order to update to those versions.
 
 ::: tip
 
@@ -23,7 +23,7 @@ If you previously attempted the regular blobless method, remove all delay and be
 
 ::: warning
 
-This method expires on March 13th, 2022 (UTC 00:00) for iOS 14.8.1 and 15.1.
+This method will expire in an extremely short amount of time.
 
 :::
 

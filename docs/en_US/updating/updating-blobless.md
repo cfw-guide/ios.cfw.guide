@@ -37,7 +37,7 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 ::: danger
 
-If you trying to go to iOS 15.1.1, you will likely run into issues. If you run into these issues, there is no solution.
+If you are looking for iOS 14.8.1 or iOS 15.1, you must follow <router-link to="/updating-dallas">Updating (Dallas)</router-link>.
 
 :::
 
@@ -45,15 +45,7 @@ If you trying to go to iOS 15.1.1, you will likely run into issues. If you run i
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 14.8.1: September 20th, 2021
-  - 15.1: December 13th, 2021
-  - 15.1.1: December 13th, 2021
-
-:::
-
-::: tip
-
-If you are trying to update to iOS 14.8.1, you need to be on iOS 14.5 to 14.8. If you are on iOS 14.4.2 or lower, follow <router-link to="/updating-dallas">Updating (Dallas)</router-link> instead.
+  - 15.2: January 12th, 2022
 
 :::
 
@@ -74,9 +66,7 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into your device, navigate to this webpage
 1. Tap a version below to install its respective update profile:
-    - [14.8.1](/assets/files/delay_14_8_1_alternate.mobileconfig)
-    - [15.1](/assets/files/delay_15_1.mobileconfig)
-    - [15.1.1](/assets/files/delay_15_1_1.mobileconfig)
+    - [15.2](/assets/files/delay_15_2.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
 ## Restoring rootFS
