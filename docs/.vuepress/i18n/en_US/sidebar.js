@@ -12,7 +12,7 @@ const guides = {
     '/resigning-apps/',
     '/blocking-jailbreak-detection/',
     '/updating-blobless/',
-    '/updating-dallas/',
+    //'/updating-dallas/',
     {
       text: 'FutureRestore',
       link:'/futurerestore/',

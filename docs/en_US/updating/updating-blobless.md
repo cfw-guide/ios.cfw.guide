@@ -29,17 +29,11 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **14.8.1** -  March 13th, 2022
-- **15.1 (All devices excluding iPhone 12/13 series)** - March 13th, 2022
-- **15.1.1 (iPhone 12/13 series)** -  March 13th, 2022
+- **15.2** - April 14th, 2022
+- **15.2.1** - April 26th, 2022
+- **15.3** - May 11th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
-
-::: danger
-
-If you are looking for iOS 14.8.1 or iOS 15.1, you must follow <router-link to="/updating-dallas">Updating (Dallas)</router-link>.
-
-:::
 
 ::: danger
 
