@@ -31,7 +31,7 @@ If you are already jailbroken with another jailbreak (besides Odysseyra1n), make
 Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The 1.1.1 version of [Taurine](https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa)
+- The latest version of [Taurine](https://taurine.app/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
