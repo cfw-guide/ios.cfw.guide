@@ -31,7 +31,7 @@ module.exports = {
     },
     devices: {
       iPhone: "iPhone",
-      iPad: "iPad",
+      Base: "iPad",
       mini: "iPad mini",
       Pro: "iPad Pro",
       Air: "iPad Air",

@@ -67,7 +67,7 @@ page.push({
   
   Please select what model of iPad you have below.
   
-  ${require('./devicePage')(['iPad','mini','Pro','Air'], '/get-started/', false)}`
+  ${require('./devicePage')(['Base','mini','Pro','Air'], '/get-started/', false)}`
 })
 
 page.push({
