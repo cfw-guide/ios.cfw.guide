@@ -36,6 +36,12 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 
 ## Setting nonce
 
+::: danger
+
+If you're using unc0ver on iOS 14.6-14.8, you cannot use dimentio as libkrw isn't functioning. You should set your generator from unc0ver's settings instead.
+
+:::
+
 1. Open your blob in a text editor and search for `generator`
    ![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
 
@@ -61,7 +67,7 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
 ![image](https://user-images.githubusercontent.com/48022799/147845013-73dbda5b-500d-4f5a-ae51-3751d9268fe6.png)
 
 1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-** Note:** For A14 and WiFi only-iPad users, you will need to click the `Settings` button and press `Futurerestore beta`, then click the `Download FutureRestore` button.
+** Note:** If your device supports iOS 15 or is a WiFi only-iPad, you will need to click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. This version of futurerestore **requires** macOS or Linux.
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
