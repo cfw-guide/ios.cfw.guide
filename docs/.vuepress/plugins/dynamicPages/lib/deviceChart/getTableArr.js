@@ -100,7 +100,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
             if (!guide[a].hasOwnProperty('devices') && !guide[a].hasOwnProperty('firmwares')) continue;
             if (
               guide[a].devices.some(r => deviceGroupDevArr.includes(r)) &&
-              guide[a].firmwares.includes(buildArr[i][b].uniqueBuild)
+              (!guide[a].firmwares || guide[a].firmwares.includes(buildArr[i][b].uniqueBuild))
             ) {
               ret = guide[a];
               break;
