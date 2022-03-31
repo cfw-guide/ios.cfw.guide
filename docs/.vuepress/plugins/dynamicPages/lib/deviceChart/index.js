@@ -5,7 +5,7 @@ var types = ['iPhone', 'iPad', 'iPod']
 types = [types].concat(types.map(t => [t]));
 const title = ['',' (iPhone)',' (iPad)',' (iPod)'];
 const description = ['device','iPhone','iPad','iPod'];
-const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html']
+const path = ['.html', '/select-iphone.html', '/select-ipad.html', '/select-ipod.html']
 
 /*for (const i in types) {
   var contentsHeader = '';
@@ -25,7 +25,7 @@ const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html']
 }*/
 
 page.push({
-  path: '/get-started/iPhone',
+  path: '/get-started/select-iphone',
   frontmatter: {
     title: 'Device Selection (iPhone)',
     description: 'Find out what jailbreaks you can use on your iPhone',
@@ -48,7 +48,7 @@ page.push({
 })
 
 page.push({
-  path: '/get-started/iPad',
+  path: '/get-started/select-ipad',
   frontmatter: {
     title: 'Device Selection (iPad)',
     description: 'Find out what jailbreaks you can use on your iPad',
@@ -71,7 +71,7 @@ page.push({
 })
 
 page.push({
-  path: '/get-started/iPod',
+  path: '/get-started/select-ipod',
   frontmatter: {
     title: 'Device Selection (iPod)',
     description: 'Find out what jailbreaks you can use on your iPod',
