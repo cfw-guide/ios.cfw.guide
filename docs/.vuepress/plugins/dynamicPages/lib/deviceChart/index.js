@@ -1,11 +1,11 @@
 var page = []
 
 // Device listing
-var types = ['iPhone', 'iPad', 'iPod', 'TV', 'Watch']
+var types = ['iPhone', 'iPad', 'iPod']
 types = [types].concat(types.map(t => [t]));
-const title = ['',' (iPhone)',' (iPad)',' (iPod)',' (Apple TV)',' (Apple Watch)'];
-const description = ['device','iPhone','iPad','iPod','Apple TV','Apple Watch'];
-const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html', '/AppleTV.html', '/AppleWatch.html']
+const title = ['',' (iPhone)',' (iPad)',' (iPod)'];
+const description = ['device','iPhone','iPad','iPod'];
+const path = ['.html', '/iPhone.html', '/iPad.html', '/iPod.html']
 
 /*for (const i in types) {
   var contentsHeader = '';
@@ -67,7 +67,7 @@ page.push({
   
   Please select what model of iPad you have below.
   
-  ${require('./devicePage')(['Base','mini','Pro','Air'], '/get-started/', false)}`
+  ${require('./devicePage')(['iPad','iPad Air','iPad mini','iPad Pro'], '/get-started/', false)}`
 })
 
 page.push({

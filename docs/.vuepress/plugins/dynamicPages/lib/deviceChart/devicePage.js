@@ -5,13 +5,7 @@ function getDeviceArr(typeArr) {
     deviceArr.push([]);
     for (const d in deviceGroups) {
       if (deviceGroups[d].hideiOSCFW) continue
-      if (deviceGroups[d].type == 'iPad') {
-        if (deviceGroups[d].subtype == typeArr[i]) {
-          deviceArr[i].push(deviceGroups[d]);
-        }
-      } else if (deviceGroups[d].type == typeArr[i]) {
-        deviceArr[i].push(deviceGroups[d]);
-      }
+      else if (deviceGroups[d].type == typeArr[i]) deviceArr[i].push(deviceGroups[d])
     }
     deviceArr[i].reverse()
   }
@@ -41,14 +35,13 @@ function getHtml(typeArr, path, toc) {
   var html = '';
   
   if (typeArr.length > 1 && toc) html += '[[toc]]\n';
-  if (typeArr.includes('Base') && !(typeArr.includes('mini') && typeArr.includes('Pro') && typeArr.includes('Air'))) typeArr = typeArr.concat(['mini', 'Pro', 'Air'])
   
   var deviceArr = getDeviceArr(typeArr);
   var tableCount = getTableCount(typeArr, deviceArr);
   
   for (const i in deviceArr) {
     if (deviceArr[i].length < 1) continue;
-    if (typeArr.length > 1) html += '## ' + deviceChartStr.devices[typeArr[i]] + '\n';
+    if (typeArr.length > 1) html += '## ' + typeArr[i] + '\n';
     
     deviceArr[i].sort(function(a,b) { return a.order - b.order })
     deviceArr[i].reverse()
