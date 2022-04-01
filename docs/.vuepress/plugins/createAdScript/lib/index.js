@@ -14,7 +14,7 @@ if (adScript__size) {
   googletag.cmd.push(function() {
     googletag.defineSlot(adScript__slot, adScript__size, adScript__id).addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
-    googletag.ZenableServices();
+    googletag.enableServices();
   });
 }`
   })
