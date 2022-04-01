@@ -101,8 +101,6 @@ module.exports = {
       children: [
         '/installing-odysseyra1n/',
         '/installing-unc0ver/',
-        '/installing-unc0ver-fugu14/',
-        '/installing-taurine/',
         '/installing-chimera/',
       ],
     },
