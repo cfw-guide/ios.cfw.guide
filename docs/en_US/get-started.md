@@ -3,6 +3,8 @@ lang: en-US
 title: Get Started
 description: Find out what jailbreaks you can use on your iOS Device
 permalink: /get-started
+extra_contributors:
+  - DhinakG
 ---
 
 ## Required Reading
@@ -22,9 +24,9 @@ Please select what kind of device you have below.
   </thead>
   <tbody>
     <tr>
-      <td><router-link to="/get-started/select-iphone"><img src="/assets/images/iPhone14,6.png" alt="iPhone" style="width: 50%;"></router-link></td>
-      <td><router-link to="/get-started/select-ipad"><img src="/assets/images/iPad13,16.png" alt="iPad" style="width: 70%;"></router-link></td>
-      <td><router-link to="/get-started/select-ipod"><img src="/assets/images/iPod9,1.png" alt="iPod" style="width: 50%;"></router-link></td>
+      <td><router-link to="/get-started/select-iphone"><img src="/assets/images/device/iPhone14,6.png" alt="iPhone" style="width: 50%;"></router-link></td>
+      <td><router-link to="/get-started/select-ipad"><img src="/assets/images/device/iPad13,16.png" alt="iPad" style="width: 70%;"></router-link></td>
+      <td><router-link to="/get-started/select-ipod"><img src="/assets/images/device/iPod9,1.png" alt="iPod" style="width: 50%;"></router-link></td>
     </tr>
   </tbody>
 </table>
