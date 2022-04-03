@@ -1,7 +1,7 @@
 ## ios.cfw.guide
 A complete iOS modding guide, from stock to jailbroken.
 
-https://ios.cfw.guide
+https://ios.cfw.guide/
 
 ## Running the site locally
 
