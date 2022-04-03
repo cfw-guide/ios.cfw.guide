@@ -14,7 +14,7 @@ extra_contributors:
   - hopolapopola
 ---
 
-h3lix is capable of jailbreaking every 32bit iOS device on firmware version 10.0 up to 10.3.3.
+h3lix is capable of jailbreaking every 32bit iOS device on firmware version 10.0 up to 10.3.4.
 
 Note that the h3lix jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -32,7 +32,7 @@ We will use Sideloadly and a patcher script to install the application to your d
 
 - The latest version of [h3lix](https://h3lix.tihmstar.net/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- Jackajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
+- Jakeajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
 
 ## Patching the application
 
