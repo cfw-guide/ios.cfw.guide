@@ -22,12 +22,17 @@ Due to how custom applications are installed to the device, in most cases you wi
 
 We will use Sideloadly and a patcher script to install the application to your device.
 
+::: danger
+
+**This tool requires a Mac**. If you do not have a Mac, and are on an iPhone 5 on 10.3.3 or 10.3.4, you may be able to follow <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link> instead. Do note however that some people may run into issues with tweaks loading with sockh3lix.
+
+:::
+
 ## Downloads
 
 - The latest version of [h3lix](https://h3lix.tihmstar.net/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - Jackajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
-- A Mac
 
 ## Patching the application
 
