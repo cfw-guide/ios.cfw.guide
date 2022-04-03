@@ -45,6 +45,12 @@ Depending on your target iOS version, you won't be able to do this if you future
 
 ::: tip
 
+If you are looking for 14.8.1, you must follow <router-link to="/updating-dallas">Updating (Dallas)</router-link> instead.
+
+:::
+
+::: tip
+
 You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.
 
 :::
