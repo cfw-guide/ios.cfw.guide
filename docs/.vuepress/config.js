@@ -4,8 +4,8 @@ const path = require("path")
 const fs = require("fs")
 
 const adArr = [
-  { slot: '/22046652915/ios-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743068301-0' },
-  { slot: '/22046652915/ios-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743126051-0' }
+  { slot: '/22046652915/ios-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072738332-0' },
+  { slot: '/22046652915/ios-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072779561-0' }
 ]
 
 module.exports = {
