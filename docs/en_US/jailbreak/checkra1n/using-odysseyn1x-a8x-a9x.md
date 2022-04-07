@@ -35,7 +35,7 @@ On A8X and A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 
 ## Requirements
 
 - 256MB or greater USB Drive
-- The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-2)
+- The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-4)
     - While it says "for A9X" and there are various mentions of only A9X within the program, this was before A8X devices were found to have similar issues
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
