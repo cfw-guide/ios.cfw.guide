@@ -22,27 +22,36 @@ Due to how custom applications are installed to the device, in most cases you wi
 
 We will use Sideloadly and a patcher script to install the application to your device.
 
-::: danger
-
-**This tool requires a Mac**. If you do not have a Mac, and are on an iPhone 5 on 10.3.3 or 10.3.4, you may be able to follow <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link> instead. Do note however that some people may run into issues with tweaks loading with sockh3lix.
-
-:::
-
 ## Downloads
 
 - The latest version of [h3lix](https://h3lix.tihmstar.net/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- Jakeajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
+- macOS and Linux: Jakeajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
+- Windows: [winh3lixpatcher](https://github.com/kawaiizenbo/winh3lixpatcher/releases)
 
 ## Patching the application
 
-1. Open the Terminal application
+::: tip
+
+### macOS and Linux
+
+1. Open your Terminal application
 1. Change directory to the folder where you saved the script and h3lix.ipa files
    - If you saved them to Downloads, this would be `cd ~/Downloads`
 1. Type `./patch.sh` in the terminal
 1. Drag and drop the h3lix `.ipa` file into the terminal
 1. Type "h3lix.ipa"
 1. Press Enter
+
+:::
+
+::: tip
+
+### Windows
+
+1. Drag the h3lix ipa onto the winh3lixpatcher.exe file
+
+:::
 
 You now have a patched h3lix ipa that you can sign
 
@@ -73,7 +82,7 @@ The h3lix application can now be opened from home screen.
 
 ::: tip
 
-If the app displays `Uicache Failed!` this means the signing process was not done properly and you should double check you followed the steps above properly
+If the app displays `Uicache Failed!` this means the patching process was not done properly and you should double check you followed the steps above properly
 
 :::
 
