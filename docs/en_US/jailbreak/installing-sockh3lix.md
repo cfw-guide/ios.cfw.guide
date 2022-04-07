@@ -26,7 +26,7 @@ We will use Sideloadly to install the application to your device.
 
 ::: warning
 
-iPhone 5's using this jailbreak may run into an issue where tweaks will not load properly. If this happens and you own a Mac, you should try restoring your device, then jailbreaking with <router-link to="/installing-h3lix">Installing h3lix</router-link> instead.
+iPhone 5's using this jailbreak may run into an issue where tweaks will not load properly. If this happens, you should try restoring your device, then jailbreaking with <router-link to="/installing-h3lix">Installing h3lix</router-link> instead.
 
 :::
 
