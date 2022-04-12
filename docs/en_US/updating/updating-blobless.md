@@ -29,9 +29,9 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.2** - April 14th, 2022
 - **15.2.1** - April 26th, 2022
 - **15.3** - May 11th, 2022
+- **15.3.1** - June 12th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -39,7 +39,9 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 15.2: January 12th, 2022
+  - 15.2.1: January 26th, 2022
+  - 15.3: February 10th, 2022
+  - 15.3.1: March 14th, 2022
 
 :::
 
@@ -66,7 +68,7 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
     - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
 1. Once you're back into your device, navigate to this webpage
 1. Tap a version below to install its respective update profile:
-    - [15.2](/assets/files/delay_15_2.mobileconfig)
+    - [15.2.1](/assets/files/delay_15_2_1.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
 ## Restoring rootFS
