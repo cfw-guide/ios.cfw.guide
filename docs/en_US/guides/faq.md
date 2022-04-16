@@ -69,6 +69,29 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 - You may be vulnerable to more malware and other security issues after jailbreaking compared to if you were in a non-jailbroken state
 - Your device warranty will become void after jailbreaking until it is restored to an un-jailbroken state, which is easy to do
 
+## What is a blob?
+
+A blob is a file containing a special key specifically for that one device to allow downgrading to a specific firmware. 
+
+Blobs are like golden tickets, but instead a digital signature made by Apple that was saved at the time when the signing window was open. If you possess one (or many), keep them safe.
+
+## How do blobs work?
+
+Blobs can be used in a program named `futurerestore`, to restore to a firmware, provided the SEP (Secure Enclave Processor) firmware and the Baseband firmware are compatible with the target iOS version.
+
+Even though blobs may become incompatible for use of restoring at the current time, it is still advised to save them, in case an opportunity is made available which allows for their usage.
+
+## Can I save them now?
+
+There are two sets of blobs which can be saved at the current time:
+
+- Versions currently signed by Apple
+- The version you are currently on
+
+Note that saving blobs for the version you are currently on is dependent on whether or not you have a jailbreak, and may or may not be usable depending on the device you have and how you got to the version you are on at that time.
+
+To see all the possible methods of saving blobs, follow the <router-link to="/saving-blobs">Saving Blobs</router-link> guide.
+
 ## Should I use tweaks such as Batchomatic or IAmLazy
 
 You should **not** use these tweaks, due to the fact that they tend to cause issues and instability within your jailbreaking setup. Instead, if you're switching between jailbreaks or updating to a newer iOS version, make a text based tweaklist and then manually reinstall them.
