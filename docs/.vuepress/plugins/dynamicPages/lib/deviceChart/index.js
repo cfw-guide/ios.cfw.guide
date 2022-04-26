@@ -41,7 +41,7 @@ page.push({
   Please select what model of iPhone you have below.
   
   ::: tip
-  Note that all "Plus", "Max", "Pro" and "mini" models of iPhones are functionally identical to the regular models.
+  Note that all "Plus", "Max" and "mini" models of iPhones are functionally identical to the regular models.
   :::
   
   ${require('./devicePage')(['iPhone'], '/get-started/', false)}`
