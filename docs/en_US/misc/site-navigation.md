@@ -23,6 +23,7 @@ sidebar: false
 + <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
 + <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
 + <router-link to="/installing-phoenix">Installing Phœnix</router-link>
++ <router-link to="/installing-p0laris">Installing p0laris</router-link>
 + <router-link to="/installing-kok3shi">Installing kok3shi</router-link>
 + <router-link to="/installing-pangu933">Installing Pangu9</router-link>
 + <router-link to="/installing-homedepot">Installing HomeDepot</router-link>
