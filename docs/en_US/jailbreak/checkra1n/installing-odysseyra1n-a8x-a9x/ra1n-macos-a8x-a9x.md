@@ -26,6 +26,14 @@ If you're using an M1 Mac and are using an A9X device, you will be prompted duri
 
 :::
 
+::: warning
+
+If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
+
+If you do have issues, get a USB-A to Lightning cable and, if necessary, also get a USB-C to USB-A adapter.
+
+:::
+
 1. Open the `pongoOS.zip` file, navigate to `PongoConsolidated.bin`, then extract it.
     - Keep note of where you extract this
 1. Open a terminal and run checkra1n in CLI mode by using `/Applications/checkra1n.app/Contents/MacOS/checkra1n -c -k [path to PongoConsolidated.bin]`

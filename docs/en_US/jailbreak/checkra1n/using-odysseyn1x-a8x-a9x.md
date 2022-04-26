@@ -61,6 +61,14 @@ On A8X and A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 
 
 ## Running checkra1n
 
+::: warning
+
+If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
+
+If you do have issues, get a USB-A to Lightning cable and, if necessary, also get a USB-C to USB-A adapter.
+
+:::
+
 1. Once you have loaded odysseyn1x, select `checkra1n (A9X)`
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device reboots to a black screen

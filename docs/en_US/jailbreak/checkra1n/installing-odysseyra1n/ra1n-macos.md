@@ -24,6 +24,14 @@ If you're using an M1 Mac and are attempting to jailbreak on A7 device or an A9X
 
 :::
 
+::: warning
+
+If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
+
+If you do have issues, get a USB-A to Lightning cable and, if necessary, also get a USB-C to USB-A adapter.
+
+:::
+
 1. Open checkra1n on your computer
 1. Plug your iOS device into your computer
     - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs

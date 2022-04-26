@@ -17,6 +17,14 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
+::: warning
+
+If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
+
+If you do have issues, get a USB-A to Lightning cable and, if necessary, also get a USB-C to USB-A adapter.
+
+:::
+
 ## Downloads (Linux)
 
 - The latest release of [checkra1n](https://checkra.in)
