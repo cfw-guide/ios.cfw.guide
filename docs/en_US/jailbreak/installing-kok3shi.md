@@ -13,17 +13,17 @@ extra_contributors:
   - TheHacker894
 ---
 
-Kok3shi is capable of jailbreaking the iPhone 5S and 6, iPad Air 1 and 2, iPad mini 2 - 4, and the 6th Generation iPod Touch on iOS 9.3 - 9.3.5. 
+Kok3shi is capable of jailbreaking A7 and A8(X) devices on iOS 9.3 - 9.3.5, as well as 32-bit devices on 9.3.5/9.3.6. 
 
 ::: warning
 
-This jailbreak is in its early stages and therefore may not work as intended. Be sure to back up your iOS Device.
+32-bit device support on 9.3.5/9.3.6 is experimental. We recommend using <router-link to="/installing-phoenix">Phoenix</router-link> instead
 
 :::
 
 ## Downloads
 
-- The latest version of [kok3shi](https://web.archive.org/web/20210601000000*/https://github.com/dora2-iOS/KOKESHIDOLL_PUBLIC/releases/download/1.0/kok3shi_v1.0b2.ipa) (archive.org)
+- The latest version of [kok3shi](https://dora2ios.github.io/download/kokeshi/kok3shidoll_v2.1.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
