@@ -9,7 +9,22 @@ discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak
 pkgman: cydia
 ---
 
-Daibutsu is capable of jailbreaking A5(X) iOS devices on firmware version 8.4.1.
+Daibutsu is capable of jailbreaking most A5(X) iOS devices on firmware version 8.4.1.
+
+::: warning
+
+Daibutsu only supports iPad 2's that were made in 2012 or later.
+
+In case you don't know if it's an eligible iPad, the following should be true:
+- It is a WiFi-Only iPad 2
+- It is a 16GB iPad 2
+
+If it is a 16GB WiFi-Only iPad 2, you should check Settings -> General -> About -> Legal -> RF Exposure
+- If it mentions "iPad2,4" in the URL mentioned in the page, it is a supported device
+
+If it is a cellular iPad 2, or a 32/64GB iPad 2, or if checking the URL does not say it's an iPad2,4, it is not a supported device, and you should follow <router-link to="/installing-etasonJB">etasonJB</router-link> instead.
+
+:::
 
 Unlike most modern jailbreaks, Daibutsu is persistent after a reboot (this is also referred to as an "[untethered](/types-of-jailbreak/#untethered-jailbreaks)" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
 
