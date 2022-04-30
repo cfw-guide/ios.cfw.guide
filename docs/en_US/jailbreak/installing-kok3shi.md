@@ -23,7 +23,7 @@ Kok3shi is capable of jailbreaking A7 and A8(X) devices on iOS 9.3 - 9.3.5, as w
 
 ## Downloads
 
-- The latest version of [kok3shi](https://dora2ios.github.io/download/kokeshi/kok3shidoll_v2.1.ipa)
+- The latest version of [kok3shi](https://dora2ios.web.app/kokeshiJB.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
