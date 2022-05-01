@@ -13,11 +13,13 @@ extra_contributors:
   - TheHacker894
 ---
 
-Kok3shi is capable of jailbreaking A7 and A8(X) devices on iOS 9.3 - 9.3.5, as well as 32-bit devices on 9.3.5/9.3.6. 
+Kok3shi is capable of jailbreaking A7 to A9(X) devices on 9.3 to 9.3.5, as well as 32-bit devices on 9.3.5/9.3.6
 
 ::: warning
 
-32-bit device support on 9.3.5/9.3.6 is experimental. We recommend using <router-link to="/installing-phoenix">Phoenix</router-link> instead
+32-bit device support on 9.3.5/9.3.6 is experimental. We recommend using <router-link to="/installing-phoenix">Phoenix</router-link> instead.
+
+As well, A9(X) support is also untested, we recommend backing up your data before proceeding.
 
 :::
 
