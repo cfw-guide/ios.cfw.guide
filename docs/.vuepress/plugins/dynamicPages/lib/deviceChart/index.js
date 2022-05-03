@@ -1,7 +1,7 @@
 var page = []
 
 // Device listing
-var types = ['iPhone', 'iPad', 'iPod']
+var types = ['iPhone', 'iPad', 'iPod touch']
 types = [types].concat(types.map(t => [t]));
 const title = ['',' (iPhone)',' (iPad)',' (iPod)'];
 const description = ['device','iPhone','iPad','iPod'];
@@ -86,7 +86,7 @@ page.push({
   
   Please select what model of iPod you have below.
   
-  ${require('./devicePage')(['iPod'], '/get-started/', false)}`
+  ${require('./devicePage')(['iPod touch'], '/get-started/', false)}`
 })
 
 /*for (var device in deviceList) {
