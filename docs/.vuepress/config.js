@@ -2,7 +2,7 @@ const { localePath, locales, themeConfigLocales, searchLocales } = require("./i1
 const container = require('markdown-it-container')
 const { path, fs } = require('@vuepress/utils')
 const { searchPlugin } = require('@vuepress/plugin-search')
-const { localTheme } = require('./theme')
+const { localTheme } = require('../../emiyl-theme')
 
 module.exports = {
   locales: locales,

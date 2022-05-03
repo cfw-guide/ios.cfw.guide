@@ -7,7 +7,7 @@ home: true
 actions:
   - text: Get Started
     link: get-started
-    type: primary
+    type: secondary
 heroImage: https://ios.cfw.guide/assets/images/splash-taurine.png
 heroFilter: 0.3
 ---
