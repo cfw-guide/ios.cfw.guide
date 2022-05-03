@@ -23,6 +23,12 @@ As well, A9(X) support is also untested, we recommend backing up your data befor
 
 :::
 
+::: warning
+
+There are known issues where the iPhone 6S does not work on iOS 9.3.4/9.3.5, while you should still try anyways, do note that if it fails, there is no other jailbreak available for the 6S on 9.3.4 and 9.3.5.
+
+:::
+
 ## Downloads
 
 - The latest version of [kok3shi](https://dora2ios.web.app/kokeshiJB.html)
