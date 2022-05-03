@@ -1,8 +1,13 @@
 (function (window) {
     {
-        const hideOS     = document.querySelector('.hide--os').style;
-        const hideMobile = document.querySelector('.hide--mobile').style;
-        const plat       = navigator.platform
+        const osQuery     = document.querySelector('.hide--os');
+        const mobileQuery = document.querySelector('.hide--mobile');
+
+        if (!osQuery || !mobileQuery) return
+
+        const hideOS      = document.querySelector('.hide--os').style;
+        const hideMobile  = document.querySelector('.hide--mobile').style;
+        const plat        = navigator.platform
 
         if (!plat) {
             hideOS.display     = "none";

@@ -24,6 +24,7 @@
       break;
     }
     var div = document.getElementById("hide_os");
+    if (!div) return
     if (os == "Windows") {
     	div.style.display = "block";
     }

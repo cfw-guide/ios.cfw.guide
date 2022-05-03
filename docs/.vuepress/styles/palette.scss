@@ -1,0 +1,24 @@
+:root {
+    --c-brand: #30bcd5;
+    --c-tip: #30bcd5;
+
+    --c-bg: #f6f6f6;
+    --c-bg-light: #f0f0f0;
+}
+
+html.dark {
+    --c-brand: #30bcd5;
+
+    --c-tip: #3992a3;
+    --c-warning: #ceab00;
+    --c-warning-bg: var(--c-tip-bg);
+    --c-warning-title: #ceac03;
+    --c-warning-text: var(--c-text);
+    --c-warning-text-accent: #dbca79;
+    --c-danger: #97424a;
+    --c-danger-bg: var(--c-tip-bg);
+    --c-danger-title: #610000;
+    --c-danger-text: var(--c-text);
+    --c-danger-text-accent: #e96e6e;
+    --c-details-bg: #323843;
+}
