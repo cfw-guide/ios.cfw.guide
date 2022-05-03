@@ -3,6 +3,7 @@ import HomeContent from '@theme/HomeContent.vue'
 import HomeFeatures from '@theme/HomeFeatures.vue'
 import HomeFooter from '@theme/HomeFooter.vue'
 import HomeHero from '@theme/HomeHero.vue'
+
 </script>
 
 <template>
@@ -12,7 +13,20 @@ import HomeHero from '@theme/HomeHero.vue'
     <main class="home">
         <HomeFeatures />
         <HomeContent />
-        <div id='div-gpt-ad-1651592248700-0' style='min-width: 320px; min-height: 50px;' v-html="`<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1651592248700-0'); });</script>`"/>
+        <div v-html="`
+            <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8267943526926430'
+                crossorigin='anonymous'></script>
+            <!-- Ad Unit 0 -->
+            <ins class='adsbygoogle'
+                style='display:block'
+                data-ad-client='ca-pub-8267943526926430'
+                data-ad-slot='1237978719'
+                data-ad-format='auto'
+                data-full-width-responsive='true'></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        `"/>
         <HomeFooter />
     </main>
 </template>
