@@ -2,7 +2,14 @@ const { createPage } = require('@vuepress/core')
 
 global.iosList = require('../../../json/ios');
 global.deviceList = require('../../../json/deviceList');
-global.deviceGroups = require('../../../json/deviceGroups');
+global.deviceGroups = require('../../../json/deviceGroups').filter(x => {
+  return x.type.includes('iPad') ||
+    x.type == 'iPod touch' ||
+    x.type == 'iPhone' ||
+    x.type == 'Apple TV' || 
+    x.type == 'Apple Watch' ||
+    x.type == 'HomePod'
+});
 global.jbList = require('../../../json/jailbreak');
 
 global.appledbPath = 'https://appledb.dev'
