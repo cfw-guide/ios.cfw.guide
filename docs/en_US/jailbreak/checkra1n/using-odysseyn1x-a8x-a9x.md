@@ -8,6 +8,8 @@ redirect_from:
   - /using-odysseyn1x-a9x
 extra_contributors:
   - stekc
+  - flower
+  - bbaovanc
   - Tanbeer191
   - TheHacker894
 ---
@@ -34,30 +36,33 @@ On A8X and A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 
 
 ## Requirements
 
-- 256MB or greater USB Drive
+- A 256MB or greater USB Drive
+    - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
 - The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-4)
     - While it says "for A9X" and there are various mentions of only A9X within the program, this was before A8X devices were found to have similar issues
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
-- [balenaEtcher](https://www.balena.io/etcher/)
+- [Ventoy](https://github.com/ventoy/Ventoy/releases)
 
 ![A screenshot of the Odysseyn1x menu](/assets/images/Odysseyn1x.png)
 
-## Flashing Odysseyn1x
+## Installing Ventoy
 
-1. Download and install balenaEtcher
-1. Click `Flash from file`
-1. Select the odysseyn1x `.iso` file
-1. Click `Select target`
-1. Select the USB drive you would like to boot from
+1. Download and extract the contents of the `Ventoy.zip` file
+1. Insert your USB drive if you have not already done so, and open the `Ventoy2Disk.exe` file
+1. Select the USB drive you would like to boot Odysseyn1x from
     - This USB drive will be completely erased
     - Ensure you back up all important data beforehand
-1. Click `Flash!`
+1. Click `Install` and confirm that you are ok erasing the USB drive
     - Do not remove your USB Drive until the process has completed
-1. Once the flashing has completed, reboot your computer
-1. Go into your BIOS settings and disable Secure Boot, then enter the boot picker and select your USB Drive to boot from
+1. Once it has installed, copy the Odysseyn1x iso file that you downloaded onto the USB drive
+
+## Booting Odysseyn1x
+
+1. Reboot, and then go into your BIOS settings and disable Secure Boot, then enter the boot picker and select your USB Drive to boot from
     - This is different for every computer
     - Search your PC or motherboard brand to find out how to get to your BIOS settings if you are unsure
+1. Press enter once you see the Ventoy screen to boot into Odysseyn1x
 
 ## Running checkra1n
 
