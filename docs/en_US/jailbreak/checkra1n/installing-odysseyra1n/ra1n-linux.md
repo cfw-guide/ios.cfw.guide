@@ -32,6 +32,12 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 ## Installing checkra1n
 
+checkra1n provides native support to machines running a Debian-based distro (e.g Ubuntu). It's
+recommended that you follow [specific instructions](https://checkra.in/linux) provided by the
+checkra1n team themselves.
+
+However, if that doesn't work, attempt the following
+
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
     - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
     - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
