@@ -48,7 +48,7 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 1. Move the checkra1n binary which is downloaded to `/usr/local/bin`
     - This can be done by doing the following:
-      - enter `Ctrl` + `Alt` + `T`
+      - press `Ctrl` + `Alt` + `T`
       - run `shell`
       - run `mv ~/Downloads/checkra1n /usr/local/bin/`
 1. Run the following command in terminal: `sudo mount -o remount,exec /tmp`
