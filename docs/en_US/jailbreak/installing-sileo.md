@@ -9,7 +9,7 @@ redirect_from:
 
 ## Introduction
 
-This guide will allow you to install Sileo while using unc0ver, allowing you to take advantage of most of the benefits of Sileo while using unc0ver.
+This guide will allow you to install Sileo while using unc0ver or regular checkra1n, allowing you to take advantage of most of the benefits of Sileo while using unc0ver.
 
 ::: warning
 
