@@ -1,7 +1,7 @@
 ---
 lang: en_US
-title: "Resigning Apps"
-description: Guide to using resigning your apps with or without a computer
+title: "Sideloading Apps"
+description: Guide to using sideloading and resigning your apps with or without a computer
 permalink: /resigning-apps
 redirect_from:
   - /resign
@@ -21,23 +21,29 @@ extra_contributors:
 
 ## Required Reading
 
-Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. Apps sideloaded with a regular Apple ID will expire after 7 days or 365 days with a Developer Apple ID. After that period, you will no longer be able to open that app to re-jailbreak.
+Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. Apps sideloaded with a regular Apple ID will expire after 7 days (or 365 days with a Developer Apple ID). After that period, you will no longer be able to open that app to re-jailbreak.
 
-## Resign with a Mac (AltDeploy)
+## Sideloading apps
 
-::: warning
+### Sideload using Sideloadly
 
-AltDeploy has not been optimized for newer versions of macOS. You may experience incompatibility issues.
+::: tip
+
+Sideloadly is compatible with iOS 7 and newer.
 
 :::
 
-1. Download and Install the latest version of [AltDeploy](https://github.com/pixelomer/AltDeploy/releases)
-1. Connect your iOS Device to  your Mac via USB
-1. Choose the IPA file you want to sideload
-    - Follow all onscreen prompts
-1. Open Settings and navigate to `General` -> `Device Management` and verify the app you sideloaded
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the `.ipa` file of your choice into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
-## Resign With Computer (AltStore/AltServer)
+### Sideload using AltStore
+
+<!--I will add AltStore 1.5 soon don't worry-->
 
 ::: tip
 
@@ -58,7 +64,22 @@ AltServer is only compatible with iOS 12.2 and newer.
 1. Download your desired IPA file and open it in AltStore on your iOS Device.
     - Make sure your iOS Device and Mac or Windows PC are connected to the same WiFi network
 
-## Resign Without a Computer (AltDaemon)
+## Resigning Apps
+
+### Resigning using Reprovision Reborn
+
+::: tip
+
+ReProvision Reborn is compatible with iOS 9 and newer
+
+:::
+
+1. Add the Havoc Repo to your preferred package manager ([havoc.app](https://havoc.app/))
+1. Install Reprovison Reborn
+1. Open Reprovision Reborn and follow all onscreen prompts
+    - You will be asked to enter your AppleID. This is only sent to Apple and no one else.
+
+### Resigning using AltDaemon
 
 ::: tip
 
@@ -72,16 +93,3 @@ AltDaemon allows AltStore to automatically re-sign these applications, without n
 1. Download and install the "AltDaemon" tweak
 1. Close your package manager
 1. Sign any apps that are about to expire
-
-## Resign Without a Computer (ReProvision Reborn)
-
-::: tip
-
-ReProvision Reborn is compatible with iOS 9 and newer
-
-:::
-
-1. Add the Packix Repo to your preferred package manager ([repo.packix.com](https://repo.packix.com/))
-1. Install Reprovison Reborn
-1. Open Reprovision Reborn and follow all onscreen prompts
-    - You will be asked to enter your AppleID. This is only sent to Apple and no one else.
