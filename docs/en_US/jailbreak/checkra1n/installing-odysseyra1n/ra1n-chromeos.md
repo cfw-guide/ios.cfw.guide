@@ -2,7 +2,9 @@
 lang: en_US
 title: Installing checkra1n (ChromeOS)
 description: Guide to installing checkra1n on ChromeOS
-permalink: /installing-checkra1n/chromeos
+permalink: /installing-checkra1n-chromeos
+redirect_from:
+  - /installing-checkra1n/chromeos
 extra_contributors:
   - DhinakG
   - Tanbeer191
