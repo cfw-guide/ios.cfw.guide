@@ -2,7 +2,7 @@
 lang: en_US
 title: "Sideloading Apps"
 description: Guide to using sideloading and resigning your apps with or without a computer
-permalink: /resigning-apps
+permalink: /sideloading-apps
 redirect_from:
   - /resign
   - /resigning
@@ -15,7 +15,10 @@ redirect_from:
   - /reprovision
   - /repro
   - /reprovision-reborn
+  - /sideloadly
+  - /resigning-apps
 extra_contributors:
+  - flower
   - TheHacker894
 ---
 
@@ -89,7 +92,7 @@ AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
 
 AltDaemon allows AltStore to automatically re-sign these applications, without needing to connect to a computer running AltServer over local network.
 
-1. Add the Dynastic repository to your package manager ([repo.dynastic.co](https://repo.dynastic.co/))
+1. Add the Dynastic repository to your package manager ([repo.chariz.com](https://repo.chariz.com/))
 1. Download and install the "AltDaemon" tweak
 1. Close your package manager
 1. Sign any apps that are about to expire
