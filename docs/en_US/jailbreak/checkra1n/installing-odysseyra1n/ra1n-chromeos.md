@@ -47,7 +47,12 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 ## Allowing checkra1n to run
 
 1. Move the checkra1n binary which is downloaded to `/usr/local/bin`
+    - This can be done by doing the following:
+      - Ctrl + Alt + T (launch crosh)
+      - run shell (to launch bash)
+      - mv ~/Downloads/checkra1n /usr/local/bin/
 1. Run the following command in terminal: `sudo mount -o remount,exec /tmp`
+    - You'll need to do this every single time you reboot your ChromeOS device
 1. Every time you need to jailbreak in ChromeOS, you need to plug in your device, and enter Recovery Mode manually.
 
 ## Installing checkra1n
