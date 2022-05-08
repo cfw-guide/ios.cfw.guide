@@ -8,7 +8,7 @@ redirect_from:
   - /using-odysseyn1x-a9x
 extra_contributors:
   - stekc
-  - flower
+  - flowerible
   - bbaovanc
   - Tanbeer191
   - TheHacker894

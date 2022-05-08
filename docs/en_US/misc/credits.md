@@ -84,6 +84,7 @@ If I forgot you here, contact me and I'll add your name.
   + kawaiizenbo
   + Vaishnav Santhosh (DeathKnight)
   + TheAlphaStream
-  + Flower
+  + Flowerible
   + zachary7829
+  + Bbaovanc
 </pre>
