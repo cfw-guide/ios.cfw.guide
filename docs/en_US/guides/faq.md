@@ -95,3 +95,18 @@ To see all the possible methods of saving blobs, follow the <router-link to="/sa
 ## Should I use tweaks such as Batchomatic or IAmLazy
 
 You should **not** use these tweaks, due to the fact that they tend to cause issues and instability within your jailbreaking setup. Instead, if you're switching between jailbreaks or updating to a newer iOS version, make a text based tweaklist and then manually reinstall them.
+
+## What is the latest iOS version with a jailbreak for my 64-bit device
+
+While this can be easily figured out by checking <router-link to="/get-started">Get Started</router-link>, in case you don't want to go through get started, here is the following information:
+
+**A7 iPads**: iOS 12.5.5 (via Odysseyra1n, Chimera, or unc0ver)
+**A7/A8 iPhones**: iOS 12.5.5 (via Odysseyra1n, Chimera, or unc0ver)
+**iPod Touch (6th Generation)**: iOS 12.5.5 (via Odysseyra1n, Chimera, or unc0ver)
+**A8(X)-A10(X) iPads**: iPadOS 14.8.1 (via Odysseyra1n)
+**A9-A11 iPhones**: iOS 14.8.1 (via Odysseyra1n)
+**A12/A13 iPhones**: iOS 14.8 (via unc0ver)
+**A12-A14/M1 iPads**: iPadOS 14.5.1 (via unc0ver)
+**A14 iPhones**: iOS 14.5.1 (via unc0ver)
+
+Note that iOS 15 does not have a jailbreak, which also inherently means no A15 device has a jailbreak currently.
