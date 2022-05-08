@@ -9,7 +9,7 @@ const guides = {
   text: 'Guides',
   children: [
     '/saving-blobs/',
-    '/resigning-apps/',
+    '/sideloading-apps/',
     '/blocking-jailbreak-detection/',
     '/updating-blobless/',
     //'/updating-dallas/',
