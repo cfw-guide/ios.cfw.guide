@@ -37,7 +37,7 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 :::
 
-## Downloads (Linux)
+## Downloads (ChromeOS)
 
 - The latest release of [checkra1n](https://checkra.in)
   - If you are on an A8X or A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
