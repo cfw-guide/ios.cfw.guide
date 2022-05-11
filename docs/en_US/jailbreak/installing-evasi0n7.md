@@ -29,7 +29,7 @@ In order to use Evasi0n, you will need a Windows computer running Windows 7 or n
 
 ::: warning
 
-If your device has been OTA updated to its current version of iOS 7, you may encounter a bootloop
+If your device has been OTA updated to its current version of iOS 7, you may encounter a bootloop or face other errors with attemping to jailbreak.
 
 :::
 
