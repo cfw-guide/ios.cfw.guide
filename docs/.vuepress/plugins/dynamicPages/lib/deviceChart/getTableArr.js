@@ -1,9 +1,3 @@
-function getDeviceListFromBuild(b) {
-  var devArr = [];
-  for (var i in b.devices) devArr.push(i)
-  return devArr;
-}
-
 function getJailbreaks(os, d, showAll) {
   var jbArr = [];
   for (var i in jbList) {
@@ -35,9 +29,9 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   
   for (var i in iosList) {
     if (!iosList[i].hasOwnProperty('beta')) continue;
-    if (!iosList[i].hasOwnProperty('devices')) continue;
+    if (!iosList[i].hasOwnProperty('deviceMap')) continue;
     
-    const devList = getDeviceListFromBuild(iosList[i]);
+    const devList = iosList[i].deviceMap
     
     if (!showAll) {
       if (groupTable && deviceGroup.length) {
