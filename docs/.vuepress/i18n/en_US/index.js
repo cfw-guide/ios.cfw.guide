@@ -19,6 +19,7 @@ module.exports = {
   	toggleSidebar: "Toggle sidebar",
     
     discordNoticeText: "For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).",
+    repoLabel: '<i class="fab fa-github"></i>',
       
     navbar: require('./navbar'),
     sidebar: require('./sidebar'),
