@@ -38,3 +38,11 @@ Please select your operating system:
 - <router-link to="/installing-odysseyra1n-a8x-a9x/macos/">macOS</router-link>
 - <router-link to="/installing-odysseyra1n-a8x-a9x/linux/">Linux</router-link>
 - <router-link to="/using-odysseyn1x-a8x-a9x/">Windows (Odysseyn1x)</router-link>
+
+::: danger
+
+If you have a ChromeOS device, you can attempt to follow <router-link to="/installing-checkra1n-chromeos-a8x-a9x">Installing checkra1n (A8X/A9X) (ChromeOS)</router-link>, however, do note that it is not recommended because:
+  - It is impossible to use Odysseyra1n in a reliable manner, meaning you have to use regular checkra1n instead
+  - It requires a lot of extra steps to run in the first place
+
+:::
