@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Installing Odysseyra1n (A8X/A9X) (Linux)
-description: Guide to installing Odysseyra1n on linux
+description: Guide to installing Odysseyra1n on Linux on A8X and A9X devices
 permalink: /installing-odysseyra1n-a8x-a9x/linux
 redirect_from:
   - /installing-odysseyra1n-a9x/linux

@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Installing checkra1n (A8X/A9X) (ChromeOS)
-description: Guide to installing checkra1n on ChromeOS
+description: Guide to installing checkra1n on ChromeOS on A8X and A9X devices
 permalink: /installing-checkra1n-chromeos-a8x-a9x
 redirect_from:
   - /installing-checkra1n/chromeos/a8x-a9x
@@ -59,7 +59,7 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 1. Open the `pongoOS.zip` file, navigate to `PongoConsolidated.bin`, then extract it.
     - Keep note of where you extract this
-1. Run the `checkra1n` binary in CLI mode using this custom pongoOS in the terminal using `sudo checkra1n -c -k [path to PongoConsolidated.bin]`
+1. Run the `checkra1n` binary in CLI mode using this custom pongoOS in the terminal using `TERM=linux sudo checkra1n -c -k [path to PongoConsolidated.bin]`
 1. Plug your iOS device into your computer
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen

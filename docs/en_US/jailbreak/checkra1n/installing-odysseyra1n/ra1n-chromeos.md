@@ -57,8 +57,8 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 ## Installing checkra1n
 
-1. Run the `checkra1n` binary in the terminal using `./checkra1n`
-    - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
+1. Run the `checkra1n` binary in the terminal using `TERM=linux sudo checkra1n`
+    - You may need to run `sudo chmod a+x /usr/local/bin/checkra1n` if the binary doesn't run
     - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
     - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
     - If you're on an A8X or A9X device and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
