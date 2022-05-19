@@ -13,8 +13,6 @@ extra_contributors:
 
 ## Required Reading
 
-If you wish to go to iOS 14.8.1, you must follow this method in order to update to those versions.
-
 ::: tip
 
 If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
@@ -23,15 +21,7 @@ If you previously attempted the regular blobless method, remove all delay and be
 
 ::: warning
 
-This method will expire in an extremely short amount of time.
-
-:::
-
-::: danger
-
-Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
-
-  - 14.8.1: September 20th, 2021
+This page now only exists as a placeholder until newer iOS versions are implemented
 
 :::
 
@@ -124,9 +114,9 @@ After updating and removing Dallas profiles, your device will remain supervised.
 - Activation lock will be disabled, potentially making your device accessible by thieves (FindMy will still work however)
 - If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall apps on your device
 
-For most users, staying in a supervised state won't be an issue. Users on software version 14.8.1 may be able to <router-link to="/get-started">jailbreak</router-link> and remove the supervised state.
+Note that, for most users, staying in a supervised state won't be an issue.
 
-If you are unable to jailbreak, it is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
+It is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
 
 ::: danger
 
