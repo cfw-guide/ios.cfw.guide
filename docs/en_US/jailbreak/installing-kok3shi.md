@@ -19,14 +19,6 @@ Kok3shi is capable of jailbreaking A7 to A9(X) devices on 9.3 to 9.3.5, as well 
 
 32-bit device support on 9.3.5/9.3.6 is experimental. We recommend using <router-link to="/installing-phoenix">Phoenix</router-link> instead.
 
-As well, A9(X) support is also untested, we recommend backing up your data before proceeding.
-
-:::
-
-::: warning
-
-There are known issues where the iPhone 6S does not work on iOS 9.3.4/9.3.5, while you should still try anyways, do note that if it fails, there is no other jailbreak available for the 6S on 9.3.4 and 9.3.5.
-
 :::
 
 ## Downloads
