@@ -81,4 +81,5 @@ You should now be jailbroken with Cydia installed on your home screen. You can u
 ::: tip
 
 If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
+
 :::
