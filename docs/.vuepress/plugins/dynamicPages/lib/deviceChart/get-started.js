@@ -1,6 +1,17 @@
 const deviceChartStr = themeLocale.chart.deviceChart
 const getStartedStr = deviceChartStr.getStarted
 
+const deviceStrings = {
+  iPhone: "iPhone",
+  Base: "iPad",
+  mini: "iPad mini",
+  Pro: "iPad Pro",
+  Air: "iPad Air",
+  iPod: "iPod",
+  TV: "Apple TV",
+  Watch: "Apple Watch",
+}
+
 String.prototype.format = function(vars) {
     let temp = this
     for(let item in vars)
@@ -13,7 +24,7 @@ function getMajFw(fwStr) {
 }
 
 function getDeviceType(deviceType) {
-  if (deviceType == deviceChartStr.devices.mini || deviceType == deviceChartStr.devices.Air || deviceType == deviceChartStr.devices.Pro) return deviceChartStr.devices.iPad
+  if (deviceType == deviceStrings.mini || deviceType == deviceStrings.Air || deviceType == deviceStrings.Pro) return deviceStrings.iPad
   return deviceType
 }
 

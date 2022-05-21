@@ -1,45 +1,21 @@
 module.exports = {
   deviceChart: {
-    info: {
-      title: "Info",
-      name: "Device:",
-      identifier: "Identifier:",
-      soc: "SoC:",
-      arch: "Arch:",
-      model: "Model:",
-      released: "Released:",
-      discontinued: "Discontinued:"
-    },
-    related: { title: "Related Devices" },
-    grouped: { title: "Grouped Devices" },
-    table: {
-      title: "Version Table",
-      tableHeader: [
-        "Build",
-        "Version",
-        "Jailbreak",
-      ],
-      simpleTableHeader: [
-        "From",
-        "To",
-        "Jailbreak",
-      ],
-      showBetaVersions: "Show Beta Versions",
-      hideBetaVersions: "Hide Beta Versions",
-      noJbTip: "For fields marked \"N/A\", there is no jailbreak for that version.",
-      betaTip: "If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href=\"https://discord.gg/QBj8pBa\" target=\"_blank\">Discord</a>${extLinkSvg}"
-    },
-    devices: {
-      iPhone: "iPhone",
-      Base: "iPad",
-      mini: "iPad mini",
-      Pro: "iPad Pro",
-      Air: "iPad Air",
-      iPod: "iPod",
-      TV: "Apple TV",
-      Watch: "Apple Watch",
+    deviceSelection: {
+      pageTitle: "Device Selection (${deviceType})",
+      description: "Find out what jailbreaks you can use on your ${deviceType}",
+      requiredReading: {
+        title: "Required Reading",
+        content: [
+          "Different ${deviceType}s will require different steps to jailbreak your ${osStr} device. This page will help you find where to start.",
+          "Please select what model of ${deviceType} you have below."
+        ]
+      },
+      iPhoneNotice: "Note that all \"Plus\", \"Max\" and \"mini\" models of iPhones are functionally identical to the regular models."
     },
     getStarted: {
+      pageTitle: "Firmware Selection (${device})",
+      description: "Find out what jailbreaks you can use on your ${device}.",
+      toc: "Contents",
       requiredReading: {
         title: "Required Reading",
         content: [
@@ -66,6 +42,23 @@ module.exports = {
           ipadOld: "/assets/images/find-version-ipad-old.jpg",
         },
       }
-    }
+    },
+    table: {
+      title: "Version Table",
+      tableHeader: [
+        "Build",
+        "Version",
+        "Jailbreak",
+      ],
+      simpleTableHeader: [
+        "From",
+        "To",
+        "Jailbreak",
+      ],
+      showBetaVersions: "Show Beta Versions",
+      hideBetaVersions: "Hide Beta Versions",
+      noJbTip: "For fields marked \"N/A\", there is no jailbreak for that version.",
+      betaTip: "If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href=\"https://discord.gg/QBj8pBa\" target=\"_blank\">Discord</a>${extLinkSvg}"
+    },
   },
 }
