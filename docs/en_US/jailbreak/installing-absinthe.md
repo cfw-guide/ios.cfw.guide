@@ -15,11 +15,8 @@ Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 ## Downloads
 
-- Computer running macOS 10.12.X or older or Windows XP or newer. Wine will not work.
+- Computer running macOS 10.12.X or older or Windows XP or newer with iTunes installed. Wine will not work.
 - The latest version of [Absinthe](https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/)
-- iTunes version 11.1.5 if on Windows
-  - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
-  - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 
 ![A screenshot of Absinthe (Windows)](/assets/images/absinthe-win.png)
 
