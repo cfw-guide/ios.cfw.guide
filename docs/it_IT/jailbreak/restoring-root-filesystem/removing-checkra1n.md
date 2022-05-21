@@ -2,7 +2,7 @@
 lang: it_IT
 title: Rimuovere checkra1n
 description: Guida alla rimozione di checkra1n
-permalink: /removing-checkra1n
+permalink: /it_IT/removing-checkra1n
 redirect_from: /removing-checkrain
 ---
 

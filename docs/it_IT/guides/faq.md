@@ -2,7 +2,7 @@
 lang: it-IT
 title: "FAQ"
 description: Domande frequenti sui dispositivi Jailbroken.
-permalink: /faq
+permalink: /it_IT/faq
 redirect_from:
   - /help/faq
 extra_contributors:
@@ -53,7 +53,7 @@ La Modalità di Recupero è una protezione integrata per il dispositivo che cons
 
 ### Che cos’è la modalità DFU?
 
-La modalità DFU è un modo per interagire con il dispositivo iOS senza caricare il sistema operativo o il boot loader. Sta per Device Firmware Upgrade. È funzionalmente diverso dalla modalità di recupero ed è generalmente inteso come ultima risorsa nel caso in cui le cose vadano seriamente male sul tuo dispositivo, tuttavia possiamo usarlo con <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link> per eseguire il jailbreak sul tuo dispositivo. Entrare in modalità DFU è possibile solo sul dispositivo in quanto fa parte del telefono stesso.
+La modalità DFU è un modo per interagire con il dispositivo iOS senza caricare il sistema operativo o il boot loader. Sta per Device Firmware Upgrade. È funzionalmente diverso dalla modalità di recupero ed è generalmente inteso come ultima risorsa nel caso in cui le cose vadano seriamente male sul tuo dispositivo, tuttavia possiamo usarlo con <router-link to="/it_IT/installing-odysseyra1n">Odysseyra1n</router-link> per eseguire il jailbreak sul tuo dispositivo. Entrare in modalità DFU è possibile solo sul dispositivo in quanto fa parte del telefono stesso.
 
 ### Cosa posso fare una volta eseguito il Jailbreak?
 
@@ -94,7 +94,7 @@ Ci sono due tipi di blobs che possono essere salvati al momento attuale:
 
 Nota che salvare le blobs per la versione su cui sei attualmente dipende dal fatto che tu abbia o meno un jailbreak, e può o non può essere utilizzabile a seconda del dispositivo che si dispone e come è stata installata la versione sulla quale si è in quel momento.
 
-Per vedere tutti i metodi possibili per salvare le blobs, segui la guida per <router-link to="/saving-blobs">Salvare i Blobs</router-link> .
+Per vedere tutti i metodi possibili per salvare le blobs, segui la guida per <router-link to="/it_IT/saving-blobs">Salvare i Blobs</router-link> .
 
 ## Domande relative ai tweak
 
@@ -106,7 +106,7 @@ Dovresti **non** utilizzare questi tweak, a causa del fatto che tendono a causar
 
 ### Qual è l'ultima versione iOS con un jailbreak per il mio dispositivo a 64 bit
 
-Ciò può essere facilmente capito controllando <router-link to="/get-started">Cominciamo!</router-link>, nel caso in cui non si voglia passare per Cominciamo!, ecco le seguenti informazioni:
+Ciò può essere facilmente capito controllando <router-link to="/it_IT/get-started">Cominciamo!</router-link>, nel caso in cui non si voglia passare per Cominciamo!, ecco le seguenti informazioni:
 
 - **iPad A7**: iOS 12.5.5 (via Odysseyra1n, Chimera, o unc0ver)
 - **iPhone A7/A8**: iOS 12.5.5 (via Odysseyra1n, Chimera, o unc0ver)

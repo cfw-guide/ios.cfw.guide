@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: "Donazioni"
-permalink: /donations
+permalink: /it_IT/donations
 ---
 
 <div style="text-align: center; padding: 1em;">

@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 9.3.5
-permalink: /updating-to-9-3-5
+permalink: /it_IT/updating-to-9-3-5
 ---
 
 ## Lettura Necessaria

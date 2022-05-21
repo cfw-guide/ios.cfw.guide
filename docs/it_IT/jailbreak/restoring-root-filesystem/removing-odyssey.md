@@ -2,7 +2,7 @@
 lang: it_IT
 title: Rimuovere Odyssey
 description: Guida alla rimozione di Odyssey
-permalink: /removing-odyssey
+permalink: /it_IT/removing-odyssey
 ---
 
 Disinstallare un jailbreak non è semplice come eliminare l'app. Quando si disinstalla Odyssey, è necessario ripristinare delle parti del sistema operativo a come erano prima che il dispositivo fosse jailbreakkato.

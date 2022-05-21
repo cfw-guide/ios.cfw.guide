@@ -2,7 +2,7 @@
 lang: it_IT
 title: limera1n
 description: Guida all'installazione di limera1n
-permalink: /installing-limera1n
+permalink: /it_IT/installing-limera1n
 redirect_from:
   - /installing-limerain
   - /limera1n
@@ -17,7 +17,7 @@ limera1n è un jailbreak untethered, persiste dopo il riavvio, quindi una volta 
 
 ::: tip
 
-Per iPad prima generazione su 3.2.2, si consiglia di utilizzare <router-link to="/installing-greenpois0n">greenpois0n</router-link> invece, siccome limera1n su 3.2.2 è un jailbreak tethered.
+Per iPad prima generazione su 3.2.2, si consiglia di utilizzare <router-link to="/it_IT/installing-greenpois0n">greenpois0n</router-link> invece, siccome limera1n su 3.2.2 è un jailbreak tethered.
 
 :::
 
@@ -44,4 +44,4 @@ Per utilizzare limera1n, è necessario un computer Windows che esegue Windows 8 
 1. Una volta che il dispositivo è stato riavviato una volta, apri l'app limera1n sulla home screen e scegli di installare Cydia.
 1. Riavvia il dispositivo
 
-Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

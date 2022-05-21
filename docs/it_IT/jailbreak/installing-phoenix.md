@@ -2,7 +2,7 @@
 lang: it_IT
 title: Phoenix
 description: Guida per l’installazione di Phoenix
-permalink: /installing-phoenix
+permalink: /it_IT/installing-phoenix
 redirect_from:
   - /installing-phœnix
   - /phœnix
@@ -67,4 +67,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

@@ -2,7 +2,7 @@
 lang: it_IT
 title: Evasi0n7
 description: Guida per l’installazione di Evasi0n7
-permalink: /installing-evasi0n7
+permalink: /it_IT/installing-evasi0n7
 redirect_from:
   - /evasion7
   - /evasi0n7
@@ -41,4 +41,4 @@ Se il dispositivo è stato aggiornato tramite OTA alla sua versione corrente di 
 1. Una volta che il telefono è stato riavviato una volta, apri l'app Evasi0n sulla home screen
 1. Una volta riavviato il telefono nuovamente, sblocca il tuo dispositivo. Evasi0n riavvierà il dispositivo un'ultima volta e vedrai il logo di evasi0n sul tuo telefono mentre si avvia
 
-Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

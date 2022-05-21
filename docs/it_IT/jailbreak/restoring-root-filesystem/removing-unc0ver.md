@@ -2,7 +2,7 @@
 lang: it_IT
 title: Rimuovere unc0ver
 description: Guida alla rimozione di unc0ver
-permalink: /removing-unc0ver
+permalink: /it_IT/removing-unc0ver
 redirect_from: /removing-uncover
 ---
 

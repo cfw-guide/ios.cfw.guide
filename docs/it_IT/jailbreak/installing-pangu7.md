@@ -2,7 +2,7 @@
 lang: it_IT
 title: Pangu7
 excerpt: Guida per l’installazione di Pangu7
-permalink: /installing-pangu7
+permalink: /it_IT/installing-pangu7
 redirect_from:
   - /pangu712
   - /pangu7
@@ -92,5 +92,5 @@ Ti imbatterai in un bootloop se esegui il jailbreak del tuo dispositivo mentre s
 
 ----
 
-Una volta che vedi la schermata di blocco, sarai jailbroken con un pacchetto fixato che non causerà più i bootloop mentre sei al buio. Adesso puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Una volta che vedi la schermata di blocco, sarai jailbroken con un pacchetto fixato che non causerà più i bootloop mentre sei al buio. Adesso puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
 

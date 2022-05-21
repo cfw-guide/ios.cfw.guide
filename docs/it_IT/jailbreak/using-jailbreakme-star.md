@@ -2,7 +2,7 @@
 lang: it_IT
 title: JailbreakMe Star
 description: Guida all'utilizzo di JailbreakMe (Star)
-permalink: /using-jailbreakme-star
+permalink: /it_IT/using-jailbreakme-star
 redirect_from:
   - /installing-jailbreakme-star
   - /installing-star
@@ -43,4 +43,4 @@ Salta questi passaggi se sei su iOS 4 o superiore
 1. Clicca su `Install`, poi, `Confirm`, e aspetta che `Close` appaia in alto a destra
 1. Cydia si chiuderà, e ora dovrebbe essere completamente patchata.
 
-Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

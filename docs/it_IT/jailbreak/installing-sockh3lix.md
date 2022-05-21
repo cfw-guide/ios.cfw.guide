@@ -2,7 +2,7 @@
 lang: it_IT
 title: sockH3lix
 description: Guida per l’installazione di sockH3lix
-permalink: /installing-sockh3lix
+permalink: /it_IT/installing-sockh3lix
 redirect_from:
   - /installing-sockhelix
   - /sockhelix
@@ -26,7 +26,7 @@ Utilizzeremo Sideloadly per installare l’applicazione sul dispositivo.
 
 ::: warning
 
-Gli iPhone 5 che usano questo jailbreak potrebbero riscontrare un problema dove i tweak non funzionano correttamente. Se questo accade, dovresti provare a ripristinare il dispositivo, poi esegui il jailbreak con <router-link to="/installing-h3lix">h3lix</router-link> .
+Gli iPhone 5 che usano questo jailbreak potrebbero riscontrare un problema dove i tweak non funzionano correttamente. Se questo accade, dovresti provare a ripristinare il dispositivo, poi esegui il jailbreak con <router-link to="/it_IT/installing-h3lix">h3lix</router-link> .
 
 :::
 
@@ -67,4 +67,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

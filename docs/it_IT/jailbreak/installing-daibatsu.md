@@ -2,7 +2,7 @@
 lang: it_IT
 title: Daibutsu
 description: Guida per l’installazione di Daibutsu
-permalink: /installing-daibutsu
+permalink: /it_IT/installing-daibutsu
 redirect_from:
   - /daibutsu
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
@@ -22,7 +22,7 @@ Nel caso in cui non si sappia se è un iPad idoneo, dovrebbe essere vero quanto 
 Se si tratta di un iPad 2 16GB solo WiFi, è necessario controllare Impostazioni -> Generali -> Note legali e formative -> Esposizione a RF
 - Se menziona "iPad2,4" nell'URL della pagina, è un dispositivo supportato
 
-Se si tratta di un iPad 2 Cellular 2, o un iPad 2 32/64GB, o se l'URL controllato non dice che è un iPad2,4, non è un dispositivo supportato, e dovresti usare <router-link to="/installing-etasonJB">EtasonJB</router-link> .
+Se si tratta di un iPad 2 Cellular 2, o un iPad 2 32/64GB, o se l'URL controllato non dice che è un iPad2,4, non è un dispositivo supportato, e dovresti usare <router-link to="/it_IT/installing-etasonJB">EtasonJB</router-link> .
 
 :::
 
@@ -73,4 +73,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Tipi di Jailbreak"
 description: Spiegazione sui diversi tipi di Jailbreak
-permalink: /types-of-jailbreak
+permalink: /it_IT/types-of-jailbreak
 redirect_from:
   - /jailbreaks
 extra_contributors:
@@ -48,7 +48,7 @@ Questo jailbreak funziona eseguendo l'exploit attraverso un'app sul dispositivo 
 
 A causa della natura di come l'exploit viene applicato, questi jailbreak sono facilmente rimovibili attraverso la loro rispettiva app.
 
-Alcuni esempi di jailbreak semi-untethered includono <router-link to="/installing-taurine">Taurine</router-link>, <router-link to="/installing-unc0ver">unc0ver</router-link>, e <router-link to="/installing-odyssey">Odyssey</router-link>.
+Alcuni esempi di jailbreak semi-untethered includono <router-link to="/it_IT/installing-taurine">Taurine</router-link>, <router-link to="/it_IT/installing-unc0ver">unc0ver</router-link>, e <router-link to="/it_IT/installing-odyssey">Odyssey</router-link>.
 
 ### Jailbreak semi-Tethered
 ---
@@ -59,7 +59,7 @@ I jailbreak semi-tethered sono molto simili ai jailbreak semi-untethered, tuttav
 
 A causa della necessità di un computer per ri-eseguire il jailbreak dopo ogni riavvio, la maggior parte sceglie invece di utilizzare un jailbreak semi-untethered.
 
-Un esempio di un jailbreak semi-tethered è <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link>.
+Un esempio di un jailbreak semi-tethered è <router-link to="/it_IT/installing-odysseyra1n">Odysseyra1n</router-link>.
 
 ### Jailbreak Tethered
 ---

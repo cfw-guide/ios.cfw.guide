@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Usare Sileo"
 description: Guida all'utilizzo di Sileo
-permalink: /using-sileo
+permalink: /it_IT/using-sileo
 redirect_from:
   - /sileo
 extra_contributors:

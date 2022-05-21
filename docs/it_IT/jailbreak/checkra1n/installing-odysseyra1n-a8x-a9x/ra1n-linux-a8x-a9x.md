@@ -2,7 +2,7 @@
 lang: it_IT
 title: Odysseyra1n (A8X/A9X) (Linux)
 description: Guida all'installazione di Odysseyra1n su dispositivi A8X e A9X su Linux
-permalink: /installing-odysseyra1n-a8x-a9x/linux
+permalink: /it_IT/installing-odysseyra1n-a8x-a9x/linux
 redirect_from:
   - /installing-odysseyra1n-a9x/linux
 extra_contributors:
@@ -38,7 +38,7 @@ In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche u
     - Prendi nota di dove lo estrai
 1. Esegui il file binary di `checkra1n` in modalità CLI usando la versione modificata di pongoOS nel terminale utilizzando `sudo checkra1n -c -k [path to PongoConsolidated.bin]`
 1. Collega il tuo dispositivo iOS al computer
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Dopo ciò, checkra1n dovrebbe installarsi automaticamente
 

@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 9.3.6
-permalink: /updating-to-9-3-6
+permalink: /it_IT/updating-to-9-3-6
 ---
 
 ## Lettura Necessaria

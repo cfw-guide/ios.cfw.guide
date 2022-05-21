@@ -2,7 +2,7 @@
 lang: it_IT
 title: Absinthe
 description: Guida per l’installazione di Absinthe
-permalink: /installing-absinthe
+permalink: /it_IT/installing-absinthe
 redirect_from:
   - /absinthe
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
@@ -11,7 +11,7 @@ pkgman: cydia
 
 Absinthe è in grado di eseguire il jailbreak di ogni dispositivo iOS sulle versioni del firmware 5.1.1 e dei dispositivi A5 (iPhone 4S, iPad 2) sulle versioni del firmware 5.0 e 5.0.1
 
-Absinthe è un <router-link to="/types-of-jailbreak/#untethered-jailbreaks">jailbreak</router-link> untethered, sopravvive ad un riavvio e può causare un bootloop permanente se qualcosa va storto. Se ti imbatti in un bootloop, ripristina il dispositivo tramite iTunes, Finder (macOS Catalina e successivo) o FutureRestore
+Absinthe è un <router-link to="/it_IT/types-of-jailbreak/#untethered-jailbreaks">jailbreak</router-link> untethered, sopravvive ad un riavvio e può causare un bootloop permanente se qualcosa va storto. Se ti imbatti in un bootloop, ripristina il dispositivo tramite iTunes, Finder (macOS Catalina e successivo) o FutureRestore
 
 ## Download
 
@@ -40,4 +40,4 @@ Assicurati di utilizzare un connettore certificato MFI a 30 pin per probabilità
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

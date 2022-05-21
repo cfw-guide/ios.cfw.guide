@@ -2,7 +2,7 @@
 lang: it_IT
 title: Chimera
 description: Guida per l’installazione di Chimera
-permalink: /installing-chimera
+permalink: /it_IT/installing-chimera
 redirect_from:
   - /chimera
   - /cm
@@ -11,11 +11,11 @@ extra_contributors:
   - TheHacker894
 ---
 
-Chimera è un <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
+Chimera è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
 Chimera è in grado di eseguire il jailbreak di tutti i dispositivi su iOS 12.0-12.1.2 e dei dispositivi A7-A11 su iOS 12.0-12.5.5.
 
-A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
+A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/it_IT/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
 
 Utilizzeremo Sideloadly per installare l'app di Chimera sul tuo dispositivo iOS nello step successivo.
 
@@ -27,7 +27,7 @@ Se possiedi un dispositivo con un SoC A12, come l’iPhone XS, puoi usare Chimer
 
 ::: warning
 
-Se attualmente hai eseguito il jailbreak tramite un altro tool (escluso Odysseyra1n), assicurati di <router-link to="/restoring-rootfs">rimuoverlo correttamente</router-link> prima di proseguire.
+Se attualmente hai eseguito il jailbreak tramite un altro tool (escluso Odysseyra1n), assicurati di <router-link to="/it_IT/restoring-rootfs">rimuoverlo correttamente</router-link> prima di proseguire.
 
 :::
 
@@ -83,4 +83,4 @@ Se l’app od il dispositivo continua a crashare/riavviarsi inaspettatamente ed 
 
 :::
 
-Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

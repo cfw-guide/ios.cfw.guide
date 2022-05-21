@@ -2,7 +2,7 @@
 lang: it_IT
 title: Evasi0n6
 description: Guida per l’installazione di Evasi0n6
-permalink: /installing-evasi0n6
+permalink: /it_IT/installing-evasi0n6
 redirect_from:
   - /evasion6
   - /evasi0n6
@@ -32,4 +32,4 @@ Per utilizzare Evasi0n, è necessario un computer Windows che esegue Windows XP 
 1. Una volta che il telefono è stato riavviato una volta, apri l'app Evasi0n sulla home screen come richiesto dall'applicazione desktop di evasi0n
 1. Una volta riavviato il telefono, sblocca il tuo dispositivo. Evasi0n riavvierà il dispositivo un'ultima volta e vedrai il logo di evasi0n sul tuo telefono mentre si avvia
 
-Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

@@ -2,7 +2,7 @@
 lang: it_IT
 title: checkra1n (A8X/A9X) (ChromeOS)
 description: Guida all'installazione di checkra1n su ChromeOS sui dispositivi A9X e A8X
-permalink: /installing-checkra1n-chromeos-a8x-a9x
+permalink: /it_IT/installing-checkra1n-chromeos-a8x-a9x
 redirect_from:
   - /installing-checkra1n/chromeos/a8x-a9x
 extra_contributors:
@@ -61,7 +61,7 @@ Devi aver abilitato la modalità sviluppatore sul tuo dispositivo ChromeOS per s
     - Prendi nota di dove lo estrai
 1. Esegui il file binary di `checkra1n` in modalità CLI usando la versione modificata di pongoOS nel terminale utilizzando `TERM=linux sudo checkra1n -c -k [percorso di PongoConsolidated.bin]`
 1. Collega il tuo dispositivo iOS al computer
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Dopo ciò, checkra1n dovrebbe installarsi automaticamente
 
@@ -69,10 +69,10 @@ Il tuo dispositivo iOS dovrebbe adesso riavviarsi.
 
 Dopo l'avvio del dispositivo, apri l'app checkra1n e installa Cydia.
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi, pacchetti e altro ancora.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi, pacchetti e altro ancora.
 
 ::: tip
 
-Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/installing-sileo">Installare Sileo</router-link>
+Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/it_IT/installing-sileo">Installare Sileo</router-link>
 
 :::

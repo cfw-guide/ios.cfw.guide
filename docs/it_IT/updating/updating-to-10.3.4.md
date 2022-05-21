@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 10.3.4
-permalink: /updating-to-10-3-4
+permalink: /it_IT/updating-to-10-3-4
 ---
 
 ## Lettura Necessaria

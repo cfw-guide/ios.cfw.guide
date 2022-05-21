@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 12.5.5
-permalink: /updating-to-12-5-5
+permalink: /it_IT/updating-to-12-5-5
 redirect_from:
   - /updating-to-12-4-9
   - /updating-to-12-5

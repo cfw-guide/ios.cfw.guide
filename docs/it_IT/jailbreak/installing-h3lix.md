@@ -2,7 +2,7 @@
 lang: it_IT
 title: h3lix
 description: Guida per l’installazione di h3lix
-permalink: /installing-h3lix
+permalink: /it_IT/installing-h3lix
 redirect_from:
   - /installing-helix
   - /helix
@@ -92,4 +92,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

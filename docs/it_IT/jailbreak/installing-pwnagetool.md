@@ -2,7 +2,7 @@
 lang: it_IT
 title: PwnageTool
 description: Guida per l’installazione di PwnageTool
-permalink: /installing-pwnagetool
+permalink: /it_IT/installing-pwnagetool
 redirect_from:
   - /pwnagetool
 discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
@@ -44,4 +44,4 @@ Per utilizzare PwnageTool, è necessario un Mac che esegue macOS Mavericks o pre
 1. Segui le istruzioni di PwnageTool per entrare in modalità DFU
 1. Apri iTunes e ripristina con il file `.ipsw` creato da PwnageTool
 
-Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Una volta che vedi la schermata di blocco, dovresti essere jailbroken. Cydia sarà sulla tua home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

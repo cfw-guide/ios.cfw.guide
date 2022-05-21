@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 7.1.2 (iTunes/Finder)
-permalink: /updating-to-7-1-2-ipsw
+permalink: /it_IT/updating-to-7-1-2-ipsw
 ---
 
 ## Lettura Necessaria

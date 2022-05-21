@@ -2,7 +2,7 @@
 lang: it_IT
 title: checkra1n (ChromeOS)
 description: Guida all'installazione di checkra1n su ChromeOS
-permalink: /installing-checkra1n-chromeos
+permalink: /it_IT/installing-checkra1n-chromeos
 redirect_from:
   - /installing-checkra1n/chromeos
 extra_contributors:
@@ -63,7 +63,7 @@ Devi aver abilitato la modalità sviluppatore sul tuo dispositivo ChromeOS per s
     - Se sei su iOS 14.6 o successivo, dovrai andare su `Options` e abilitare l'opzione `Allow Untested Versions`
     - Se sei su un dispositivo A8X o A9X con ios 14.4-14.4.2, dovrai andare su `Options` e abilitare l'opzionse `Allow Untested Versions`
 1. Clicca `Start` e segui le istruzioni a schermo
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Dopo ciò, checkra1n dovrebbe installarsi automaticamente
 
@@ -71,10 +71,10 @@ Il tuo dispositivo iOS dovrebbe adesso riavviarsi.
 
 Dopo l'avvio del dispositivo, apri l'app checkra1n e installa Cydia.
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi, pacchetti e altro ancora.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi, pacchetti e altro ancora.
 
 ::: tip
 
-Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/installing-sileo">Installare Sileo</router-link>
+Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/it_IT/installing-sileo">Installare Sileo</router-link>
 
 :::

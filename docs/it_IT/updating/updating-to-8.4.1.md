@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 8.4.1
-permalink: /updating-to-8-4-1
+permalink: /it_IT/updating-to-8-4-1
 ---
 
 ## Lettura Necessaria
@@ -35,8 +35,8 @@ Segui questo solo se hai installato il blocco degli aggiornamenti in passato.
 
 ::: tip
 
-Se si è su un dispositivo A5(X) (come l'iPad 3a generazione), è possibile continuare con entrambi <router-link to="/installing-daibutsu">Daibutsu</router-link>, <router-link to="/updating-to-9-3-5">Aggiornare a 9.3.5</router-link>, o <router-link to="/updating-to-9-3-6">Aggiornare a 9.3.6</router-link>.
+Se si è su un dispositivo A5(X) (come l'iPad 3a generazione), è possibile continuare con entrambi <router-link to="/it_IT/installing-daibutsu">Daibutsu</router-link>, <router-link to="/it_IT/updating-to-9-3-5">Aggiornare a 9.3.5</router-link>, o <router-link to="/it_IT/updating-to-9-3-6">Aggiornare a 9.3.6</router-link>.
 
-Se sei su un dispositivo A6(X) (come l'iPad 4a generazione), puoi continuare con entrambi <router-link to="/installing-etasonJB">EtasonJB</router-link>, <router-link to="/updating-to-10-3-3">Aggiornare a 10.3.3</router-link>, o <router-link to="/updating-to-10-3-4">Aggiornare a 10.3.4</router-link>.
+Se sei su un dispositivo A6(X) (come l'iPad 4a generazione), puoi continuare con entrambi <router-link to="/it_IT/installing-etasonJB">EtasonJB</router-link>, <router-link to="/it_IT/updating-to-10-3-3">Aggiornare a 10.3.3</router-link>, o <router-link to="/it_IT/updating-to-10-3-4">Aggiornare a 10.3.4</router-link>.
 
 :::

@@ -10,9 +10,9 @@ Cydia è un package manager che è stato utilizzato dall'inizio del jailbreaking
 
 ![Un'immagine di un iPhone che esegue Cydia](/assets/images/cydia_picture.jpg)
 
-<p><router-link to="/faq/#what-are-tweaks">I tweak</router-link> sono piccole modifiche per cambiare l'aspetto e/o la sensazione del tuo dispositivo. È possibile trovare tweak sulle repository, generalmente denominate "repo".</p>
+<p><router-link to="/it_IT/faq/#what-are-tweaks">I tweak</router-link> sono piccole modifiche per cambiare l'aspetto e/o la sensazione del tuo dispositivo. È possibile trovare tweak sulle repository, generalmente denominate "repo".</p>
 
-<p><router-link to="/faq/#what-s-a-repo">Le repository</router-link> sono essenzialmente database che contengono un sacco di tweak da installare. Quando si aggiungono delle repo su Cydia, sarà possibile installare tweak su di esso, e cercarli utilizzando la funzione di ricerca.</p>
+<p><router-link to="/it_IT/faq/#what-s-a-repo">Le repository</router-link> sono essenzialmente database che contengono un sacco di tweak da installare. Quando si aggiungono delle repo su Cydia, sarà possibile installare tweak su di esso, e cercarli utilizzando la funzione di ricerca.</p>
 
 Questa guida vi mostrerà come è possibile installare e disinstallare tweak, e aggiungere diverse repo.
 
@@ -44,7 +44,7 @@ La repo dovrebbe ora essere rimossa da Cydia.
 1. Tocca il pulsante `Installa` nell'angolo in alto a destra dello schermo
 1. Conferma l'installazione
     - Potrebbe essere necessario un certo po' per l'installazione del tweak
-1. Dopo che è finito, tocca "<router-link to="/faq/#what-is-respringing">Riavvia SpringBoard</router-link>"
+1. Dopo che è finito, tocca "<router-link to="/it_IT/faq/#what-is-respringing">Riavvia SpringBoard</router-link>"
     - Dopo ciò il dispositivo sembrerà riavviarsi
     - A volte, sul pulsante può non apparire la scritta riavvia SpringBoard, ma è possibile cliccare comunque il pulsante
 
@@ -58,7 +58,7 @@ Il tweak dovrebbe ora essere installato sul dispositivo e sarà attivo ogni volt
 1. Clicca su `Rimuovi`
 1. Conferma la disinstallazione
     - Potrebbe essere necessario un certo po' per la disinstallazione del tweak
-1. Dopo che è finita, clicca "<router-link to="/faq/#what-is-respringing">Riavvia SpringBoard</router-link>"
+1. Dopo che è finita, clicca "<router-link to="/it_IT/faq/#what-is-respringing">Riavvia SpringBoard</router-link>"
     - Dopo ciò il dispositivo sembrerà riavviarsi
     - A volte, sul pulsante può non apparire la scritta riavvia SpringBoard, ma è possibile cliccare comunque il pulsante
 

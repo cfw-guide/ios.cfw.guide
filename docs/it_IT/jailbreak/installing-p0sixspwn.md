@@ -2,7 +2,7 @@
 lang: it_IT
 title: P0sixspwn
 description: Guida per l’installazione di P0sixspwn
-permalink: /installing-p0sixspwn
+permalink: /it_IT/installing-p0sixspwn
 redirect_from:
   - /installing-posixpwn
   - /p0sixpwn
@@ -46,4 +46,4 @@ Assicurati di utilizzare un connettore certificato MFI a 30 pin o lightning per 
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

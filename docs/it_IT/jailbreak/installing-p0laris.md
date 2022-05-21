@@ -2,7 +2,7 @@
 lang: it_IT
 title: p0laris
 description: Guida per l'installazione di p0laris
-permalink: /installing-p0laris
+permalink: /it_IT/installing-p0laris
 redirect_from:
   - /p0laris
   - /polaris
@@ -63,4 +63,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

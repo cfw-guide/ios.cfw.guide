@@ -2,7 +2,7 @@
 lang: it_IT
 title: JailbreakMe Saffron
 description: Guida all'utilizzo di JailbreakMe (Saffron)
-permalink: /using-jailbreakme-saffron
+permalink: /it_IT/using-jailbreakme-saffron
 redirect_from:
   - /installing-jailbreakme-saffron
   - /installing-saffron
@@ -22,4 +22,4 @@ JailbreakMe Saffron è un jailbreak untethered, sopravvive ad un riavvio e può 
 1. Visita il sito [jailbreakme.com](https://jailbreakme.com)
 1. Premi su "Install"
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

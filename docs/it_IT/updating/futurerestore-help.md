@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Aiuto con FutureRestore"
 description: Soluzioni ad alcuni problemi di FR.
-permalink: /futurerestore-help
+permalink: /it_IT/futurerestore-help
 redirect_from:
   - /frhelp
   - /futurerestorehelp
@@ -35,7 +35,7 @@ Questo è un errore comune nella quale potresti imbatterti durante l'utilizzo di
 
 ## Device ApNonce doesn't match APTicket nonce
 
-Questo errore significa che il generator impostato sul dispositivo non corrisponde a quello del blob. Per risolvere questo problema, segui la parte `Impostare il nonce` sulla <router-link to="/futurerestore">pagina di FutureRestore</router-link>
+Questo errore significa che il generator impostato sul dispositivo non corrisponde a quello del blob. Per risolvere questo problema, segui la parte `Impostare il nonce` sulla <router-link to="/it_IT/futurerestore">pagina di FutureRestore</router-link>
 
 ## SEP Firmware is not being signed
 

@@ -2,7 +2,7 @@
 lang: it_IT
 title: Meridian
 description: Guida all'installazione di Meridian tramite Sideload
-permalink: /installing-meridian-(ipa)
+permalink: /it_IT/installing-meridian-(ipa)
 redirect_from:
   - /installing-meridian-ipa
 pkgman: cydia
@@ -12,13 +12,13 @@ extra_contributors:
 
 ::: warning
 
-Questa è una guida alternativa progettata in caso riscontrassi problemi con <router-link to="/using-tns">TotallyNotSpyware</router-link>. Nella maggior parte dei casi, TotallyNotSpyware è generalmente migliore e più semplice rispetto ad installare manualmente Meridian.
+Questa è una guida alternativa progettata in caso riscontrassi problemi con <router-link to="/it_IT/using-tns">TotallyNotSpyware</router-link>. Nella maggior parte dei casi, TotallyNotSpyware è generalmente migliore e più semplice rispetto ad installare manualmente Meridian.
 
 :::
 
 Meridian è in grado di eseguire il jailbreak di tutti dispositivi A7-A10(X) con una versione del firmware 10.0-10.3.3.
 
-Tieni a mente che il jailbreak di Meridian non <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">è persistente</router-link> (non rimane installato dopo un riavvio). Sarà necessario ri-eseguire l’exploit dopo ogni riavvio. Ti verrà spiegato come fare.
+Tieni a mente che il jailbreak di Meridian non <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">è persistente</router-link> (non rimane installato dopo un riavvio). Sarà necessario ri-eseguire l’exploit dopo ogni riavvio. Ti verrà spiegato come fare.
 
 A causa di come le app di terze parti vengono installate sul dispositivo, nella maggior parte dei casi dovrai reinstallare l’app di Meridia sul tuo dispositivo ogni 7 giorni tramite un computer.
 
@@ -63,4 +63,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

@@ -1,4 +1,4 @@
-Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi, pacchetti e altro ancora.
+Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi, pacchetti e altro ancora.
 
 Prima di poter iniziare l'installazione di qualsiasi altra cosa, è necessario prima installare alcuni pacchetti necessari.
 
