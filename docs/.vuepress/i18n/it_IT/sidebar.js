@@ -48,7 +48,7 @@ const troubleshooting = {
   ]
 };
 module.exports = {
-  '/': [
+  '/it_IT/': [
     getStarted,
     jailbreaking,
     pkgman,
