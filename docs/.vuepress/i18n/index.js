@@ -3,6 +3,10 @@ const config = {
 		path: '/',
 		content: require('./en_US'),
 	},
+	it_IT: {
+		path: '/it_IT/',
+		content: require('./it_IT'),
+	},
 }
 
 var localePath = {}
