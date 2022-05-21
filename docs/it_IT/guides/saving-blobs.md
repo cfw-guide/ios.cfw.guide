@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Salvataggio Blobs"
 excerpt: Guida al salvataggio dei blobs per ottenere la capacità di eseguire un downgrade di iOS in futuro.
-permalink: /saving-blobs
+permalink: /it_IT/saving-blobs
 redirect_from:
   - /blobs
   - /blob
@@ -48,7 +48,7 @@ Non dovresti aver bisogno di eseguire shshd manualmente, ma può essere eseguito
 
 L'app TSS Saver può essere installata su dispositivi jailbroken e consente di salvare facilmente i tuoi blobs solamente con un clic. Se non sei jailbroken, segui [Salvare i blobs con il sito web di TSS Saver](#saving-blobs-with-tss-saver-website).
 
-1. Aggiungi [repo.1conan.com](https://repo.1conan.com/) alle sorgenti nel tuo <router-link to="/package-managers">gestore di pacchetti preferito</router-link>
+1. Aggiungi [repo.1conan.com](https://repo.1conan.com/) alle sorgenti nel tuo <router-link to="/it_IT/package-managers">gestore di pacchetti preferito</router-link>
 1. Scarica e installa TSS Saver
     - Se stai usando unc0ver su iOS 14, scarica e installa anche `libkrw`
     - Se stai usando Taurine su iOS 14, scarica e installa `libkernrw`
@@ -150,7 +150,7 @@ Se hai *aggiornato* usando un computer, i tuoi blobs saranno "Update" blobs, e p
 
 ### Salvare i Blobs Onboard
 
-1. Aggiungi la repo [https://apt.arx8x.net](https://apt.arx8x.net) sul tuo <router-link to="/package-managers">gestore di pacchetti preferito</router-link>
+1. Aggiungi la repo [https://apt.arx8x.net](https://apt.arx8x.net) sul tuo <router-link to="/it_IT/package-managers">gestore di pacchetti preferito</router-link>
 2. Scarica il Tweak `System Info` ![](https://imgur.com/a/g8XZPrM)
 3. Dopo aver scaricato System Info, apri le Impostazioni e vai su `Generali > Info`
 4. Scorri verso il basso fino a `ECID`

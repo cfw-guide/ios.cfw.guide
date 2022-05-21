@@ -2,7 +2,7 @@
 lang: it_IT
 title: Odyssey
 description: Guida per l'installazione di Odyssey
-permalink: /installing-odyssey
+permalink: /it_IT/installing-odyssey
 redirect_from:
   - /odyssey
   - /od
@@ -13,17 +13,17 @@ extra_contributors:
   - raizo
 ---
 
-Odyssey è un <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
+Odyssey è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
 Il tool è compatibile con dispositivi su versioni di iOS/iPadOS 13.0-13.7.
 
-A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
+A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/it_IT/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
 
 Utilizzeremo Sideloadly per installare l'app di Odyssey sul tuo dispositivo iOS nello step successivo.
 
 ::: warning
 
-Se attualmente hai eseguito il jailbreak tramite un altro tool (escluso Odysseyra1n), assicurati di <router-link to="/restoring-rootfs">rimuoverlo correttamente</router-link> prima di proseguire.
+Se attualmente hai eseguito il jailbreak tramite un altro tool (escluso Odysseyra1n), assicurati di <router-link to="/it_IT/restoring-rootfs">rimuoverlo correttamente</router-link> prima di proseguire.
 
 :::
 
@@ -74,8 +74,8 @@ Se sul dispositivo l’app, crasha/si riavvia inaspettatamente ed il jailbreak n
 
 ::: warning
 
-Se ricevi l'errore `ERR_Jailbreak`, `ERR_Already_Jailbroken` o `ERR_TFP0` leggi la sezione Taurine/Odyssey <router-link to="/troubleshooting/#common-errors-on-odyssey-and-taurine">sulla</router-link> pagina di TroubleShooting.
+Se ricevi l'errore `ERR_Jailbreak`, `ERR_Already_Jailbroken` o `ERR_TFP0` leggi la sezione Taurine/Odyssey <router-link to="/it_IT/troubleshooting/#common-errors-on-odyssey-and-taurine">sulla</router-link> pagina di TroubleShooting.
 
 :::
 
-Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

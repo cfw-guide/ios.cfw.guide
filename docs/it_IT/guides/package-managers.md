@@ -2,7 +2,7 @@
 lang: it-IT
 title: "Gestori di pacchetti"
 description: Informazioni sui gestori di pacchetti attualmente disponibili da utilizzare
-permalink: /package-managers
+permalink: /it_IT/package-managers
 redirect_from:
   - /pkgman
 extra_contributors:

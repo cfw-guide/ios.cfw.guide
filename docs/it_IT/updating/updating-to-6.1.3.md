@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 6.1.3
-permalink: /updating-to-6-1-3
+permalink: /it_IT/updating-to-6-1-3
 ---
 
 ## Lettura Necessaria
@@ -36,6 +36,6 @@ Segui questo solo se hai installato il blocco degli aggiornamenti in passato.
 
 ::: tip
 
-Se vuoi, invece di usare p0sixspwn, puoi continuare con <router-link to="/updating-to-8-4-1">Aggiornare a 8.4.1</router-link>
+Se vuoi, invece di usare p0sixspwn, puoi continuare con <router-link to="/it_IT/updating-to-8-4-1">Aggiornare a 8.4.1</router-link>
 
 :::

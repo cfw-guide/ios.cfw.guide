@@ -2,7 +2,7 @@
 lang: it-IT
 title: Aggiornare (Dallas)
 description: Guida all'aggiornamento utilizzando il tweak Dallas
-permalink: /updating-dallas
+permalink: /it_IT/updating-dallas
 redirect_from:
   - /dallas
   - /updating-(dallas)
@@ -28,7 +28,7 @@ Questa pagina ora esiste solo come segnaposto fino a quando le versioni più rec
 ## Requisiti
 
 - Un dispositivo alla quale è possibile eseguire il jailbreak e installarci pacchetti
-    - Controlla <router-link to="/get-started">Cominciamo!</router-link> se non sei sicuro
+    - Controlla <router-link to="/it_IT/get-started">Cominciamo!</router-link> se non sei sicuro
 - Un backup del dispositivo tramite iCloud
 
 ## Istruzioni
@@ -88,7 +88,7 @@ Il tweak Dallas reindirizza le ricerche di aggiornamento a un server diverso. I 
     - Assicurati che la versione visualizzata sia la versione alla quale desideri aggiornare
     - Se dice che il dispositivo è aggiornato, il server utilizzato per Dallas è offline; attendi che torni online
 1. Apri il tuo jailbreak attuale e ripristina il rootFS
-    - Se hai bisogno di una guida dettagliata su come ripristinare il rootfs, segui <router-link to="/restoring-rootfs">Ripristinare il RootFS</router-link> e seleziona il jailbreak che usi attualmente
+    - Se hai bisogno di una guida dettagliata su come ripristinare il rootfs, segui <router-link to="/it_IT/restoring-rootfs">Ripristinare il RootFS</router-link> e seleziona il jailbreak che usi attualmente
 1. Riavvia il dispositivo
 
 ### Aggiornare la versione del firmware
@@ -143,7 +143,7 @@ Se hai bisogno di usare OTAEnabler per qualsiasi motivo, dovrai rimuoverlo e poi
 Prova ad usare [OTAEnabler](https://repo.cadoth.net/), se non funziona, segui i passaggi qui sotto:
 
 1. Ripristina il rootFS attraverso il tuo jailbreak
-1. Installa e apri <router-link to="/installing-unc0ver">l'applicazione</router-link> di unc0ver
+1. Installa e apri <router-link to="/it_IT/installing-unc0ver">l'applicazione</router-link> di unc0ver
 1. Disattiva "Disable updates"
 1. Ri-esegui il jailbreak usando unc0ver
 

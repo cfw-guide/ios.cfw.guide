@@ -2,7 +2,7 @@
 lang: it_IT
 title: unc0ver
 description: Guida per l'installazione di unc0ver
-permalink: /installing-unc0ver
+permalink: /it_IT/installing-unc0ver
 redirect_from:
   - /installing-uncover
   - /unc0ver
@@ -14,23 +14,23 @@ extra_contributors:
   - TheHacker894
 ---
 
-unc0ver è un <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
+unc0ver è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
 Questo tool è in grado di eseguire il Jailbreak su quasi tutti i dispositivi iOS su una versione del firmware che va da 11.0 a 14.8, tuttavia, lo utilizzeremo solo per eseguire il jailbreak in dispositivi la quale non è disponibile un'opzione più semplice.
 
-A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
+A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/it_IT/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
 
 Utilizzeremo Sideloadly per installare l'app di unc0ver sul tuo dispositivo iOS nello step successivo.
 
 ::: tip
 
-Se stai cercando una guida per usare unc0ver su dispositivi A12+ con una versione di iOS 14.4-14.5.1, continua con <router-link to="/installing-unc0ver-fugu14">unc0ver (Fugu14)</router-link>
+Se stai cercando una guida per usare unc0ver su dispositivi A12+ con una versione di iOS 14.4-14.5.1, continua con <router-link to="/it_IT/installing-unc0ver-fugu14">unc0ver (Fugu14)</router-link>
 
 :::
 
 ::: warning
 
-Se attualmente hai eseguito il jailbreak tramite un altro tool, assicurati di <router-link to="/restoring-rootfs">rimuoverlo correttamente</router-link> prima di proseguire.
+Se attualmente hai eseguito il jailbreak tramite un altro tool, assicurati di <router-link to="/it_IT/restoring-rootfs">rimuoverlo correttamente</router-link> prima di proseguire.
 
 :::
 
@@ -96,14 +96,14 @@ Se sul dispositivo l’app, crasha/si riavvia inaspettatamente ed il jailbreak n
 
 ::: warning
 
-Se ricevi l’errore `rootFS already mounted, elimina l’aggiornamento OTA`, leggi la <router-link to="/troubleshooting/#rootfs-already-mounted">Pagina di</router-link> Troubleshooting
+Se ricevi l’errore `rootFS already mounted, elimina l’aggiornamento OTA`, leggi la <router-link to="/it_IT/troubleshooting/#rootfs-already-mounted">Pagina di</router-link> Troubleshooting
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
 
 ::: tip
 
-Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/installing-sileo">Installazione Sileo</router-link>
+Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/it_IT/installing-sileo">Installazione Sileo</router-link>
 
 :::

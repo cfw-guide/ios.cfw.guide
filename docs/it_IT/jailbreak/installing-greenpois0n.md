@@ -2,7 +2,7 @@
 lang: it_IT
 title: greenpois0n
 description: Guida per l’installazione di greenpois0n
-permalink: /installing-greenpois0n
+permalink: /it_IT/installing-greenpois0n
 redirect_from:
   - /greenpois0n
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
@@ -11,7 +11,7 @@ pkgman: cydia
 
 greenpois0n è in grado di eseguire il jailbreak di ogni dispositivo iOS tranne l'iPhone 3G sulle versioni del firmware 4.1, 4.2.1, e 4.2.6, e nemmeno l'iPad 1a generazione sulla versione 3.2.2
 
-greenpois0n è un <router-link to="/types-of-jailbreak/#untethered-jailbreaks">jailbreak</router-link> untethered, sopravvive ad un riavvio e può causare un bootloop permanente se qualcosa va storto. Se ti imbatti in un bootloop, ripristina il dispositivo tramite iTunes, Finder (macOS Catalina e successivo) o FutureRestore
+greenpois0n è un <router-link to="/it_IT/types-of-jailbreak/#untethered-jailbreaks">jailbreak</router-link> untethered, sopravvive ad un riavvio e può causare un bootloop permanente se qualcosa va storto. Se ti imbatti in un bootloop, ripristina il dispositivo tramite iTunes, Finder (macOS Catalina e successivo) o FutureRestore
 
 ## Download
 
@@ -48,4 +48,4 @@ Assicurati di utilizzare un connettore certificato MFI a 30 pin per probabilità
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

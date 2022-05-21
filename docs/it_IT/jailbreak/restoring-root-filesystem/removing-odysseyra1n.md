@@ -2,7 +2,7 @@
 lang: it_IT
 title: Rimuovere Odysseyra1n
 description: Guida alla rimozione di Odysseyra1n
-permalink: /removing-odysseyra1n
+permalink: /it_IT/removing-odysseyra1n
 redirect_from: /removing-odysseyrain
 ---
 

@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Riconoscimenti"
 description: Crediti per il sito web e l'autore
-permalink: /credits
+permalink: /it_IT/credits
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">

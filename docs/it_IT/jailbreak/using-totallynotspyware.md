@@ -2,7 +2,7 @@
 lang: it_IT
 title: TotallyNotSpyware
 description: Guida all'utilizzo di TotallyNotSpyware
-permalink: /using-tns
+permalink: /it_IT/using-tns
 redirect_from:
   - /using-totallynotspyware
   - /installing-tns
@@ -29,7 +29,7 @@ Tieni a mente che il jailbreak di TotallyNotSpyware non è “persistente” (no
 
 ::: warning
 
-Se per qualsiasi motivo si verificano problemi con questo metodo è possibile tentare di utilizzare <router-link to="/installing-doubleh3lix-(ipa)">doubleh3lix</router-link> se sei su un dispositivo A7-A9(X) o <router-link to="/installing-meridian-(ipa)">Meridian</router-link> se sei su un dispositivo A10(X).
+Se per qualsiasi motivo si verificano problemi con questo metodo è possibile tentare di utilizzare <router-link to="/it_IT/installing-doubleh3lix-(ipa)">doubleh3lix</router-link> se sei su un dispositivo A7-A9(X) o <router-link to="/it_IT/installing-meridian-(ipa)">Meridian</router-link> se sei su un dispositivo A10(X).
 
 :::
 
@@ -55,4 +55,4 @@ Tocca `Condividi` -> `Aggiungi alla schermata Home` per un accesso facilitato a 
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

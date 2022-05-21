@@ -2,7 +2,7 @@
 lang: it-IT
 title: Aggiornare (Blobless)
 description: Guida all'aggiornamento a firmware non firmati senza alcun blob.
-permalink: /updating-blobless
+permalink: /it_IT/updating-blobless
 redirect_from:
   - /updating-to-12-5-5-(blobless)
   - /updating-to-14-3-(blobless)
@@ -47,7 +47,7 @@ A seconda della versione iOS di destinazione, non sarà possibile farlo se hai u
 
 ::: tip
 
-Devi avere un jailbreak per seguire queste istruzioni. Se non riesci a fare il jailbreak, segui <router-link to="/updating-blobless-advanced">Aggiornare (Blobless) (Avanzato)</router-link> .
+Devi avere un jailbreak per seguire queste istruzioni. Se non riesci a fare il jailbreak, segui <router-link to="/it_IT/updating-blobless-advanced">Aggiornare (Blobless) (Avanzato)</router-link> .
 
 :::
 
@@ -72,7 +72,7 @@ Devi avere un jailbreak per seguire queste istruzioni. Se non riesci a fare il j
 1. Assicurati che la versione visualizzata sia la versione alla quale desisderi aggiornare
     - **Non aggiornare** ancora, lo faremo più tardi
 1. Apri il tuo jailbreak attuale e ripristina il rootFS
-    - Se hai bisogno di una guida dettagliata su come ripristinare il rootfs, segui <router-link to="/restoring-rootfs">Ripristinare il RootFS</router-link> e seleziona il jailbreak che usi attualmente
+    - Se hai bisogno di una guida dettagliata su come ripristinare il rootfs, segui <router-link to="/it_IT/restoring-rootfs">Ripristinare il RootFS</router-link> e seleziona il jailbreak che usi attualmente
 1. Riavvia il dispositivo
 
 ## Aggiornare la versione del firmware
@@ -94,7 +94,7 @@ Per rimuovere la supervisione dopo l'aggiornamento, esegui il jailbreak e quindi
 
 ::: tip
 
-Se l'aggiornamento ha avuto successo, continua con <router-link to="/get-started">Cominciamo!</router-link> per eseguire il jailbreak sul tuo dispositivo.
+Se l'aggiornamento ha avuto successo, continua con <router-link to="/it_IT/get-started">Cominciamo!</router-link> per eseguire il jailbreak sul tuo dispositivo.
 
 :::
 
@@ -116,7 +116,7 @@ Se hai dovuto utilizzare OTAEnabler e hai dovuto modificare il Profilo Beta nei 
 ### "Impossibile controllare gli aggiornamenti"
 
 1. Ripristina il rootFS attraverso il tuo jailbreak
-1. Installa e apri <router-link to="/installing-unc0ver">l'applicazione</router-link> di unc0ver
+1. Installa e apri <router-link to="/it_IT/installing-unc0ver">l'applicazione</router-link> di unc0ver
 1. Disattiva "Disable updates"
 1. Ri-esegui il jailbreak usando unc0ver
 

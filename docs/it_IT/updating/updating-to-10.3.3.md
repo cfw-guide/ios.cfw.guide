@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 10.3.3
-permalink: /updating-to-10-3-3
+permalink: /it_IT/updating-to-10-3-3
 ---
 
 ## Lettura Necessaria
@@ -36,8 +36,8 @@ Segui questo solo se hai installato il blocco degli aggiornamenti in passato.
 
 ::: tip
 
-Se si è su un dispositivo a 32 bit (come un iPhone 5C), continua con <router-link to="/installing-h3lix">h3lix</router-link>.
+Se si è su un dispositivo a 32 bit (come un iPhone 5C), continua con <router-link to="/it_IT/installing-h3lix">h3lix</router-link>.
 
-Se si è su un dispositivo a 64 bit (come un iPhone 5S), continua con <router-link to="/using-tns">TotallyNotSpyware</router-link> o <router-link to="/updating-to-12-5-5">Aggiornare a 12.5.5</router-link>.
+Se si è su un dispositivo a 64 bit (come un iPhone 5S), continua con <router-link to="/it_IT/using-tns">TotallyNotSpyware</router-link> o <router-link to="/it_IT/updating-to-12-5-5">Aggiornare a 12.5.5</router-link>.
 
 :::

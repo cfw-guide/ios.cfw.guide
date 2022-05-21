@@ -4,28 +4,28 @@ module.exports = [
         children: [
             {
                 text: 'Salvataggio Blobs',
-                link: '/saving-blobs/'
+                link: '/it_IT/saving-blobs/'
             },
             {
                 text: 'Re-Signare le App',
-                link: '/resigning-apps/'
+                link: '/it_IT/resigning-apps/'
             },
             {
                 text: 'Jailbreak Detection',
-                link: '/blocking-jailbreak-detection/'
+                link: '/it_IT/blocking-jailbreak-detection/'
             },
             {
                 text: 'FutureRestore',
-                link: '/futurerestore/'
+                link: '/it_IT/futurerestore/'
             },
             /*
       {
         text: 'Updating (Dallas)',
-        link: '/updating-dallas/',
+        link: '/it_IT/updating-dallas/',
       },*/
             {
                 text: 'Aggiornare (Blobless)',
-                link: '/updating-blobless/'
+                link: '/it_IT/updating-blobless/'
             }
         ]
     },
@@ -34,23 +34,23 @@ module.exports = [
         children: [
             {
                 text: 'FAQ',
-                link: '/faq/'
+                link: '/it_IT/faq/'
             },
             {
                 text: 'Pagina di',
-                link: '/troubleshooting/'
+                link: '/it_IT/troubleshooting/'
             },
             {
                 text: 'Repo Consigliate',
-                link: '/recommended-repos/'
+                link: '/it_IT/recommended-repos/'
             },
             {
                 text: 'Tipi di Jailbreak',
-                link: '/types-of-jailbreak/'
+                link: '/it_IT/types-of-jailbreak/'
             },
             {
                 text: 'Gestori di pacchetti',
-                link: '/package-managers/'
+                link: '/it_IT/package-managers/'
             }
         ]
     },
@@ -59,15 +59,15 @@ module.exports = [
         children: [
             {
                 text: 'Donazioni',
-                link: '/donations/'
+                link: '/it_IT/donations/'
             },
             {
                 text: 'Riconoscimenti',
-                link: '/credits/'
+                link: '/it_IT/credits/'
             },
             {
                 text: 'Struttura del Sito',
-                link: '/site-navigation/'
+                link: '/it_IT/site-navigation/'
             }
         ]
     },

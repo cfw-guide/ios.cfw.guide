@@ -2,7 +2,7 @@
 lang: it_IT
 title: unc0ver (Fugu14)
 description: Guida all'installazione di unc0ver con Fugu14
-permalink: /installing-unc0ver-fugu14
+permalink: /it_IT/installing-unc0ver-fugu14
 pkgman: cydia
 redirect_from:
   - /installing-uncover-fugu14
@@ -10,13 +10,13 @@ redirect_from:
   - /installing-uncover-(fugu14)
 ---
 
-unc0ver è un <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
+unc0ver è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
 Il metodo di unc0ver con Fugu14 supporta i dispositivi A12+ su iOS 14.3-14.5.1
 
 ::: danger
 
-Il metodo di unc0ver con Fugu14 non supporta le versioni beta di iOS. Se sei su una qualsiasi delle beta di iOS 14.3, segui <router-link to="/installing-taurine">Taurine</router-link>. Se si è su 14.4 beta o 14.5 beta, non si può eseguire il jailbreak e quindi non si può procedere ulteriormente.
+Il metodo di unc0ver con Fugu14 non supporta le versioni beta di iOS. Se sei su una qualsiasi delle beta di iOS 14.3, segui <router-link to="/it_IT/installing-taurine">Taurine</router-link>. Se si è su 14.4 beta o 14.5 beta, non si può eseguire il jailbreak e quindi non si può procedere ulteriormente.
 
 :::
 
@@ -43,7 +43,7 @@ Utilizzeremo il tool di AltStore che ci permetterà di impostare tutto per poter
 1. Scarica [unc0ver](https://unc0ver.dev) sul tuo dispositivo iOS e aprine il file `.ipa` su AltStore
     - Assicurati che il tuo dispositivo iOS e il Mac o PC siano collegati alla stessa rete Wi-Fi
 1. Una volta che il file `.ipa` viene installato, dovresti vedere un prompt che ti comunica che il jailbreak richiede un untethering, clicca su `Install Untethered Jailbreak`
-    - Se non vedi questo prompt dopo aver installato il `.ipa`, il tuo dispositivo/versione è incompatibile e dovresti tornare a <router-link to="/get-started">Cominciamo!</router-link>.
+    - Se non vedi questo prompt dopo aver installato il `.ipa`, il tuo dispositivo/versione è incompatibile e dovresti tornare a <router-link to="/it_IT/get-started">Cominciamo!</router-link>.
 1. AltStore installerà un'applicazione "segnaposto", una volta completata, tocca `Open Placeholder`
 1. Premi `Setup Fugu14`, poi una volta completato il processo, premi `OK`
 1. Riapri AltStore
@@ -72,14 +72,14 @@ Se sul dispositivo l’app, crasha/si riavvia inaspettatamente ed il jailbreak n
 
 ::: warning
 
-Se ricevi l’errore `rootFS already mounted, elimina l’aggiornamento OTA`, leggi la <router-link to="/troubleshooting/#rootfs-already-mounted">pagina di Risoluzione problemi</router-link> .
+Se ricevi l’errore `rootFS already mounted, elimina l’aggiornamento OTA`, leggi la <router-link to="/it_IT/troubleshooting/#rootfs-already-mounted">pagina di Risoluzione problemi</router-link> .
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
 
 ::: tip
 
-Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/installing-sileo">Installare Sileo</router-link>
+Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/it_IT/installing-sileo">Installare Sileo</router-link>
 
 :::

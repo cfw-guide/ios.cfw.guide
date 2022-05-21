@@ -2,7 +2,7 @@
 lang: it_IT
 title: Odysseyra1n (Linux)
 description: Guida all'installazione di Odysseyra1n su Linux
-permalink: /installing-odysseyra1n/linux
+permalink: /it_IT/installing-odysseyra1n/linux
 extra_contributors:
   - stekc
   - Tanbeer191
@@ -44,7 +44,7 @@ checkra1n fornisce supporto nativo alle macchine che eseguono una distribuzione 
     - Se sei su iOS 14.6 o successivo, dovrai andare su `Options` e abilitare l'opzione `Allow Untested Versions`
     - Se sei su un dispositivo A8X o A9X con ios 14.4-14.4.2, dovrai andare su `Options` e abilitare l'opzionse `Allow Untested Versions`
 1. Clicca `Start` e segui le istruzioni a schermo
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Dopo ciò, checkra1n dovrebbe installarsi automaticamente
 

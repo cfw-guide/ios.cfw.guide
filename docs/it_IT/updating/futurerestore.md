@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Ripristinare con i blobs utilizzando FutureRestore"
 description: Guida all'utilizzo di FutureRestore per ripristinare il dispositivo
-permalink: /futurerestore
+permalink: /it_IT/futurerestore
 redirect_from:
   - /future-restore
   - /restoring-to-14-3
@@ -73,4 +73,4 @@ Se stai usando unc0ver su iOS 14.6-14.8, non puoi usare dimentio siccome libkrw 
 1. Fai clic su Next per passare al menu Controls
 1. Clicca `Start Futurerestore`
 
-Se si verificano problemi durante il processo, controlla la <router-link to="/futurerestore-help">pagina di aiuto di Futurerestore</router-link>, se ancora non riesci a trovare una soluzione, chiedi aiuto nel canale #futurerestore-help sul [Server Discord](https://discord.gg/9apvC4C3CC) di r/jailbreak.
+Se si verificano problemi durante il processo, controlla la <router-link to="/it_IT/futurerestore-help">pagina di aiuto di Futurerestore</router-link>, se ancora non riesci a trovare una soluzione, chiedi aiuto nel canale #futurerestore-help sul [Server Discord](https://discord.gg/9apvC4C3CC) di r/jailbreak.

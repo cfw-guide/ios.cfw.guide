@@ -1,7 +1,7 @@
 ---
 lang: it_IT
 title: Aggiornare a 15.5
-permalink: /updating-to-15-5
+permalink: /it_IT/updating-to-15-5
 redirect_from:
   - /updating-to-15-0
   - /updating-to-15-0-1

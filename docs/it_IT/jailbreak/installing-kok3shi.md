@@ -2,7 +2,7 @@
 lang: it_IT
 title: Kok3shi
 description: Guida per l’installazione di Kok3shi
-permalink: /installing-kok3shi
+permalink: /it_IT/installing-kok3shi
 redirect_from:
   - /installing-kokeshi
   - /kok3shi
@@ -17,7 +17,7 @@ Kok3shi è in grado di eseguire il jailbreak dei dispositivi A7-A9(X) su 9.3-9.3
 
 ::: warning
 
-Il supporto per i dispositivi a 32 bit su 9.3.5/9.3.6 è sperimentale. Si consiglia di utilizzare <router-link to="/installing-phoenix">Phoenix</router-link> .
+Il supporto per i dispositivi a 32 bit su 9.3.5/9.3.6 è sperimentale. Si consiglia di utilizzare <router-link to="/it_IT/installing-phoenix">Phoenix</router-link> .
 
 :::
 
@@ -60,4 +60,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

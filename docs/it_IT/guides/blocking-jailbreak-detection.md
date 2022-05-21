@@ -2,7 +2,7 @@
 lang: it-IT
 title: "Bloccare il Rilevamento del Jailbreak"
 description: Bypassare ed evitare il rilevamento del jailbreak.
-permalink: /blocking-jailbreak-detection
+permalink: /it_IT/blocking-jailbreak-detection
 redirect_from:
   - /blocking
   - /jailbreak-detection
@@ -56,7 +56,7 @@ C'è un altro software disponibile per nascondere il jailbreak, come [Shadow](si
 
 ::: tip
 
-Secondo l'autore del tweak, A-Bypass funziona meglio sui jailbreak basati su libhooker, come <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, e <router-link to="/installing-taurine">Taurine</router-link>. Tuttavia funziona lo stesso sui jailbreak basati su Substrate/Substitute, come checkra1n e unc0ver.
+Secondo l'autore del tweak, A-Bypass funziona meglio sui jailbreak basati su libhooker, come <router-link to="/it_IT/installing-chimera">Chimera</router-link>, <router-link to="/it_IT/installing-odyssey">Odyssey</router-link>, <router-link to="/it_IT/installing-odysseyra1n">odysseyra1n</router-link>, e <router-link to="/it_IT/installing-taurine">Taurine</router-link>. Tuttavia funziona lo stesso sui jailbreak basati su Substrate/Substitute, come checkra1n e unc0ver.
 
 :::
 
@@ -84,7 +84,7 @@ Questa è l'opzione migliore per gli utenti che vogliono utilizzare Snapchat sul
 
 ::: tip
 
-Se si utilizza un jailbreak basato su libhooker, come <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, o <router-link to="/installing-taurine">Taurine</router-link>, allora [libhooker configurator](#libhooker-configurator) svolge la stessa funzione di Choicy, ma è nativamente integrato in libhooker.
+Se si utilizza un jailbreak basato su libhooker, come <router-link to="/it_IT/installing-chimera">Chimera</router-link>, <router-link to="/it_IT/installing-odyssey">Odyssey</router-link>, <router-link to="/it_IT/installing-odysseyra1n">odysseyra1n</router-link>, o <router-link to="/it_IT/installing-taurine">Taurine</router-link>, allora [libhooker configurator](#libhooker-configurator) svolge la stessa funzione di Choicy, ma è nativamente integrato in libhooker.
 
 :::
 

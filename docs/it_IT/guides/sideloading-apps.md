@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Sideloadare le App"
 description: Guida all'utilizzo del sideloading e al re-sign delle app con o senza computer
-permalink: /sideloading-apps
+permalink: /it_IT/sideloading-apps
 redirect_from:
   - /resign
   - /resigning

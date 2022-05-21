@@ -2,14 +2,14 @@
 lang: it-IT
 title: "Repo Consigliate"
 description: Informazioni sui repository popolari per i tweak
-permalink: /recommended-repos
+permalink: /it_IT/recommended-repos
 redirect_from:
   - /repos
 extra_contributors:
   - TheHacker894
 ---
 
-Dopo aver installato il jailbreak, potresti voler installare alcune repo (<router-link to="/faq#repos">repository</router-link>). È possibile utilizzare queste per installare più tweak sul dispositivo. Per iniziare, ecco un elenco di alcune repo consigliate. Molte di queste potrebbero già essere installate sul tuo dispositivo!
+Dopo aver installato il jailbreak, potresti voler installare alcune repo (<router-link to="/it_IT/faq#repos">repository</router-link>). È possibile utilizzare queste per installare più tweak sul dispositivo. Per iniziare, ecco un elenco di alcune repo consigliate. Molte di queste potrebbero già essere installate sul tuo dispositivo!
 
 ## BigBoss
 

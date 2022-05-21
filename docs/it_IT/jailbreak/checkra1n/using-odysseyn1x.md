@@ -2,7 +2,7 @@
 lang: it_IT
 title: Odysseyn1x
 excerpt: Guida all'installazione di checkra1n tramite Odysseyn1x
-permalink: /using-odysseyn1x
+permalink: /it_IT/using-odysseyn1x
 pkgman: sileo
 redirect_from:
   - /installing-odysseyn1x
@@ -86,7 +86,7 @@ In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche u
     - Se sei su iOS 14.6 o successivo, dovrai andare su `Options` e abilitare l'opzione `Allow Untested Versions`
     - Se sei su un dispositivo A8X o A9X con ios 14.4-14.4.2, dovrai andare su `Options` e abilitare l'opzionse `Allow Untested Versions`
 1. Clicca `Start` e segui le istruzioni a schermo
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Una volta che il dispositivo si avvia, è possibile uscire da checkra1n, ma non spegnere il computer
 

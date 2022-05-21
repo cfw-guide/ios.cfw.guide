@@ -2,7 +2,7 @@
 lang: it_IT
 title: Rimuovere Chimera
 description: Guida alla rimozione di Chimera
-permalink: /removing-chimera
+permalink: /it_IT/removing-chimera
 ---
 
 Disinstallare un jailbreak non è semplice come eliminare l'app. Quando si disinstalla Chimera, è necessario ripristinare delle parti del sistema operativo a come erano prima che il dispositivo fosse jailbreakkato.

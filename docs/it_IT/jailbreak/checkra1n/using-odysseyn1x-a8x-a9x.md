@@ -2,7 +2,7 @@
 lang: it_IT
 title: Odysseyn1x (A8X/A9X)
 description: Guida all'installazione di checkra1n tramite Odysseyn1x sui dispositivi A9X e A8X
-permalink: /using-odysseyn1x-a8x-a9x
+permalink: /it_IT/using-odysseyn1x-a8x-a9x
 pkgman: sileo
 redirect_from:
   - /using-odysseyn1x-a9x
@@ -28,7 +28,7 @@ Odysseyn1x è una distro Linux avviabile tramite live-booting che consente di es
 
 ::: tip
 
-Se utilizzi un dispositivo A8X o A9X con iOS 14.4.2 o precedente, è necessario seguire la guida di <router-link to="/using-odysseyn1x">Odysseyn1x</router-link> e usare la versione 0.12.2 di checkra1n.
+Se utilizzi un dispositivo A8X o A9X con iOS 14.4.2 o precedente, è necessario seguire la guida di <router-link to="/it_IT/using-odysseyn1x">Odysseyn1x</router-link> e usare la versione 0.12.2 di checkra1n.
 
 :::
 
@@ -75,7 +75,7 @@ In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche u
 :::
 
 1. Una volta caricato odysseyn1x, seleziona `checkra1n (A9X)`
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Una volta che il dispositivo si avvia, è possibile uscire da checkra1n, ma non spegnere il computer
 

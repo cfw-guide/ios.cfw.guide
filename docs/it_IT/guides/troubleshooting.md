@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Risoluzione problemi"
 description: Risolvere i problemi comuni su dispositivi Jailbroken.
-permalink: /troubleshooting
+permalink: /it_IT/troubleshooting
 extra_contributors:
   - iCrazeiOS
   - hopolapopola
@@ -173,7 +173,7 @@ Se non funziona, chiedi supporto sul [server Discord di r/Jailbreak](https://dis
 
 La tua possibilità di risolvere questo problema dipende dalla tua versione di iOS:
 
-- Se sei su iOS 14.3 o inferiore (tranne se sei su 11.x o su A12(X) con 12.1.3-12.4.1), segui un'altra guida per ripristinare <router-link to="/restoring-rootfs">il RootFS</router-link> che sia supportata dal tuo dispositivo/versione di ios.
+- Se sei su iOS 14.3 o inferiore (tranne se sei su 11.x o su A12(X) con 12.1.3-12.4.1), segui un'altra guida per ripristinare <router-link to="/it_IT/restoring-rootfs">il RootFS</router-link> che sia supportata dal tuo dispositivo/versione di ios.
 - Se sei su iOS 14.4-14.5.1, prova a ripristinare il rootfs nell'app di Fugu14
 - Se sei su iOS 14.6-14.8, 11.x o su A12(X) con 12.1.3-12.4.1, le tue opzioni sono quelle di attendere un aggiornamento di unc0ver che risolva questo problema, o ripristinare il dispositivo in modalità DFU all'ultima versione di iOS e perdere la capacità di eseguire il jailbreak fino a quando non ne uscirà uno
 

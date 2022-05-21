@@ -2,7 +2,7 @@
 lang: it-IT
 title: Inizio
 description: Una guida completa per il modding di iOS, da stock a jailbroken.
-permalink: /
+permalink: /it_IT
 home: true
 actions:
   - 

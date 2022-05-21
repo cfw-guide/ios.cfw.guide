@@ -2,7 +2,7 @@
 lang: it_IT
 title: Pangu933
 description: Guida per l’installazione di Pangu933
-permalink: /installing-pangu933
+permalink: /it_IT/installing-pangu933
 redirect_from:
   - /pangu933
   - /pangu9
@@ -65,4 +65,4 @@ Se il dispositivo crasha o si riavvia inaspettatamente ed il jailbreak non viene
 
 :::
 
-Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi utilizzare Cydia per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweaks</router-link>, temi e altro.

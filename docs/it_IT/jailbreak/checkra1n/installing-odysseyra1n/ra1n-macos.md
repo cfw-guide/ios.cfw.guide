@@ -2,7 +2,7 @@
 lang: it_IT
 title: Odysseyra1n (macOS)
 description: Guida all'installazione di Odysseyra1n su macOS
-permalink: /installing-odysseyra1n/macos
+permalink: /it_IT/installing-odysseyra1n/macos
 extra_contributors:
   - stekc
   - Tanbeer191
@@ -39,7 +39,7 @@ In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche u
     - Se sei su un dispositivo A8X o A9X con ios 14.4-14.4.2, dovrai andare su `Options` e abilitare l'opzionse `Allow Untested Versions`
 1. Clicca su `Start` -> `Next` su checkra1n
     - Il tuo dispositivo verrà messo in modalità di recupero automaticamente
-1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
+1. Adesso ti verranno illustrate delle istruzioni per riavviare il tuo dispositivo in <router-link to="/it_IT/faq/#what-is-dfu-mode">modalità DFU</router-link>, clicca `Start` per iniziare
     - Segui le istruzione finché il tuo dispositivo non mostra uno schermo nero
 1. Dopo ciò, checkra1n dovrebbe installarsi automaticamente
 

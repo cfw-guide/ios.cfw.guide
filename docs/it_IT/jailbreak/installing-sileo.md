@@ -2,7 +2,7 @@
 lang: it_IT
 title: "Installare Sileo"
 description: Guida all'installazione di Sileo su checkra1n e unc0ver
-permalink: /installing-sileo
+permalink: /it_IT/installing-sileo
 redirect_from:
   - /install-sileo
 ---
@@ -13,7 +13,7 @@ Questa guida ti permetterà di installare Sileo durante l'utilizzo di unc0ver o 
 
 ::: warning
 
-È altamente consigliato passare a <router-link to="/installing-taurine">Taurine</router-link> (iOS 14), <router-link to="/installing-odyssey">Odyssey</router-link> (iOS 13), <router-link to="/installing-chimera">Chimera</router-link> (iOS 12), o <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link> se possibile, per una migliore esperienza con Sileo.
+È altamente consigliato passare a <router-link to="/it_IT/installing-taurine">Taurine</router-link> (iOS 14), <router-link to="/it_IT/installing-odyssey">Odyssey</router-link> (iOS 13), <router-link to="/it_IT/installing-chimera">Chimera</router-link> (iOS 12), o <router-link to="/it_IT/installing-odysseyra1n">Odysseyra1n</router-link> se possibile, per una migliore esperienza con Sileo.
 
 :::
 
@@ -49,4 +49,4 @@ Tentare di eliminare Cydia dal dispositivo dopo l'installazione di Sileo può ca
 
 ::: tip
 
-Continua con <router-link to="/using-sileo">Usare Sileo</router-link> :::
+Continua con <router-link to="/it_IT/using-sileo">Usare Sileo</router-link> :::

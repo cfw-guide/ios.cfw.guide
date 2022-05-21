@@ -2,7 +2,7 @@
 lang: it_IT
 title: Electra
 description: Guida per installare Electra
-permalink: /installing-electra
+permalink: /it_IT/installing-electra
 redirect_from:
   - /electra
   - /el
@@ -11,11 +11,11 @@ extra_contributors:
   - TheHacker894
 ---
 
-Electra è un <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
+Electra è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
 Il tool è compatibile con dispositivi su versioni iOS da 11.0 a 11.4.1.
 
-A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
+A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/it_IT/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
 
 Utilizzeremo Sideloadly per installare l'app di Electra sul tuo dispositivo iOS nello step successivo.
 
@@ -68,4 +68,4 @@ Se sul dispositivo l’app, crasha/si riavvia inaspettatamente ed il jailbreak n
 
 :::
 
-Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/faq/#what-are-tweaks">tweak</router-link>, temi e altro.
+Adesso dovresti essere jailbroken con Sileo installato nella home screen. Puoi utilizzare Sileo per installare <router-link to="/it_IT/faq/#what-are-tweaks">tweak</router-link>, temi e altro.

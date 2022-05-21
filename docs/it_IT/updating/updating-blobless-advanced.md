@@ -2,7 +2,7 @@
 lang: it-IT
 title: Aggiornare (Blobless) (Avanzato)
 description: Guida all'aggiornamento a firmware non firmati senza alcun blob.
-permalink: /updating-blobless-advanced
+permalink: /it_IT/updating-blobless-advanced
 extra_contributors:
   - flowerible
 ---
@@ -110,7 +110,7 @@ Se l'aggiornamento è andato a buon fine, continua con [Cominciamo!](/get-starte
 ### "Impossibile controllare gli aggiornamenti"
 
 1. Ripristina il rootFS attraverso il tuo jailbreak
-1. Installa e apri <router-link to="/installing-unc0ver">l'applicazione</router-link> di unc0ver
+1. Installa e apri <router-link to="/it_IT/installing-unc0ver">l'applicazione</router-link> di unc0ver
 1. Disattiva "Disable updates"
 1. Ri-esegui il jailbreak usando unc0ver
 

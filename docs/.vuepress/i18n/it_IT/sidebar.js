@@ -11,7 +11,7 @@ const guides = {
     '/updating-blobless/',
     {
       text: 'FutureRestore',
-      link: '/futurerestore/'
+      link: '/it_IT/futurerestore/'
     }
   ]
 };
@@ -20,7 +20,7 @@ const pkgman = {
   children: [
     {
       text: 'Spiegazione',
-      link: '/package-managers/'
+      link: '/it_IT/package-managers/'
     },
     '/using-sileo/',
     '/using-cydia/',
