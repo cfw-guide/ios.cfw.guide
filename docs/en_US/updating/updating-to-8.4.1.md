@@ -8,7 +8,7 @@ permalink: /updating-to-8-4-1
 
 Unfortunately, there is currently no jailbreak available for firmware version 5.1 on A5(X) devices. However, some devices, such as the iPad 3rd Generation, can update to 8.4.1 and use an available jailbreak instead.
 
-This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 8.4.1, we can easily update to the desired firmware version, due to the age of their curremt firmware version.
+This is achieved by simply updating through the Settings application normally. Because the latest available OTA version for their current firmware on these devices is 8.4.1, we can easily update to the desired firmware version, due to the age of their current firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
