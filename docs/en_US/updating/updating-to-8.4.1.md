@@ -37,6 +37,6 @@ Only follow this if you've installed an update-blocking profile in the past.
 
 If you are on an A5(X) device (such as the iPad 3rd Generation), you can continue to either <router-link to="/installing-daibutsu">Installing daibutsu</router-link>, <router-link to="/updating-to-9-3-5">Update to 9.3.5</router-link>, or <router-link to="/updating-to-9-3-6">Update to 9.3.6</router-link>.
 
-If you are on an A6(X) device (such as the iPad 4th Generation), you can continue to either <router-link to="/installing-etasonJB">Installing EtasonJB</router-link>, <router-link to="/updating-to-9-3-5">Update to 9.3.5</router-link>, or <router-link to="/updating-to-9-3-6">Update to 9.3.6</router-link>.
+If you are on an A6(X) device (such as the iPad 4th Generation), you can continue to either <router-link to="/installing-etasonJB">Installing EtasonJB</router-link>, <router-link to="/updating-to-10-3-3">Update to 10.3.3</router-link>, or <router-link to="/updating-to-10-3-4">Update to 10.3.4</router-link>.
 
 :::
