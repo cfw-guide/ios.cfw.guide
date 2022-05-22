@@ -67,7 +67,7 @@ export default {
             }
             return {
                 min: this.tableArr[0].from,
-                max: this.tableArr[1].to
+                max: this.tableArr[0].to
             }
         },
         latestOs() {
