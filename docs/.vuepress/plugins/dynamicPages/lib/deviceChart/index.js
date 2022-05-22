@@ -1,7 +1,3 @@
-const deviceChartStr = themeLocale.chart.deviceChart
-
-var page = []
-
 String.prototype.format = function(vars) {
     let temp = this
     for(let item in vars)
@@ -46,80 +42,70 @@ function getOsStr(deviceType, fwStr) {
   return ret
 }
 
-page.push({
-  path: '/get-started/select-iphone',
-  frontmatter: {
-    title: deviceChartStr.deviceSelection.pageTitle.format({ deviceType: 'iPhone' }),
-    description: deviceChartStr.deviceSelection.description.format({ deviceType: 'iPhone' }),
-    sidebar: false,
-    editLink: false,
-    lastUpdated: false,
-    contributors: false,
-  },
-  content: `## ${deviceChartStr.deviceSelection.requiredReading.title}
-  
-  ${deviceChartStr.deviceSelection.requiredReading.content.map(x => x.format({ deviceType: 'iPhone', osStr: 'iOS'})).join("\n\n")}
-  
-  ::: tip
-  ${deviceChartStr.deviceSelection.iPhoneNotice}
-  :::
-  
-  ${require('./devicePage')(['iPhone'], '/get-started/', false)}`
-})
+module.exports = function(themeLocale, localePath, localePathPrefix) {
+  let pageArr = []
 
-page.push({
-  path: '/get-started/select-ipad',
-  frontmatter: {
-    title: deviceChartStr.deviceSelection.pageTitle.format({ deviceType: 'iPad' }),
-    description: deviceChartStr.deviceSelection.description.format({ deviceType: 'iPad' }),
-    sidebar: false,
-    editLink: false,
-    lastUpdated: false,
-    contributors: false,
-  },
-  content: `## ${deviceChartStr.deviceSelection.toc}
-  
-  [[toc]]
-  
-  ## ${deviceChartStr.deviceSelection.requiredReading.title}
-  
-  ${deviceChartStr.deviceSelection.requiredReading.content.map(x => x.format({ deviceType: 'iPad', osStr: 'iPadOS'})).join("\n\n")}
-  
-  ${require('./devicePage')(['iPad','iPad Air','iPad mini','iPad Pro'], '/get-started/', false)}`
-})
+  global.themeLocale = themeLocale
+  global.localePath = localePath
+  global.localePathPrefix = localePathPrefix
 
-page.push({
-  path: '/get-started/select-ipod',
-  frontmatter: {
-    title: deviceChartStr.deviceSelection.pageTitle.format({ deviceType: 'iPod' }),
-    description: deviceChartStr.deviceSelection.description.format({ deviceType: 'iPod' }),
-    sidebar: false,
-    editLink: false,
-    lastUpdated: false,
-    contributors: false,
-  },
-  content: `## ## ${deviceChartStr.deviceSelection.requiredReading.title}
-  
-  ${deviceChartStr.deviceSelection.requiredReading.content.map(x => x.format({ deviceType: 'iPod', osStr: 'iOS'})).join("\n\n")}
-  
-  ${require('./devicePage')(['iPod touch'], '/get-started/', false)}`
-})
+  const deviceChartStr = themeLocale.chart.deviceChart
 
-for (const i in deviceGroups) {
-  const d = deviceGroups[i];
-  const url = d.name.replace(/ /g, '-');
-  page.push({
-    path: '/get-started/' + url + '.html',
+  pageArr.push({
+    path: localePathPrefix + '/get-started/select-iphone',
     frontmatter: {
-      title: deviceChartStr.getStarted.pageTitle.format({ device: d.name }),
-      description: deviceChartStr.getStarted.description.format({ device: d.name }),
+      title: deviceChartStr.deviceSelection.pageTitle.format({ deviceType: 'iPhone' }),
+      description: deviceChartStr.deviceSelection.description.format({ deviceType: 'iPhone' }),
       sidebar: false,
       editLink: false,
       lastUpdated: false,
       contributors: false,
     },
-    content: require('./get-started')(d.devices[0], false, 1, true, true)
+    content: `## ${deviceChartStr.deviceSelection.requiredReading.title}\n\n${deviceChartStr.deviceSelection.requiredReading.content.map(x => x.format({ deviceType: 'iPhone', osStr: 'iOS'})).join("\n\n")}\n\n::: tip\n${deviceChartStr.deviceSelection.iPhoneNotice}\n:::\n\n${require('./devicePage')(['iPhone'], '/get-started/', false)}`
   })
-}
+  
+  pageArr.push({
+    path: localePathPrefix + '/get-started/select-ipad',
+    frontmatter: {
+      title: deviceChartStr.deviceSelection.pageTitle.format({ deviceType: 'iPad' }),
+      description: deviceChartStr.deviceSelection.description.format({ deviceType: 'iPad' }),
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
+    },
+    content: `## ${deviceChartStr.deviceSelection.toc}\n\n[[toc]]\n\n## ${deviceChartStr.deviceSelection.requiredReading.title}\n\n${deviceChartStr.deviceSelection.requiredReading.content.map(x => x.format({ deviceType: 'iPad', osStr: 'iPadOS'})).join("\n\n")}\n\n${require('./devicePage')(['iPad','iPad Air','iPad mini','iPad Pro'], '/get-started/', false)}`
+  })
+  
+  pageArr.push({
+    path: localePathPrefix + '/get-started/select-ipod',
+    frontmatter: {
+      title: deviceChartStr.deviceSelection.pageTitle.format({ deviceType: 'iPod' }),
+      description: deviceChartStr.deviceSelection.description.format({ deviceType: 'iPod' }),
+      sidebar: false,
+      editLink: false,
+      lastUpdated: false,
+      contributors: false,
+    },
+    content: `## ${deviceChartStr.deviceSelection.requiredReading.title}\n\n${deviceChartStr.deviceSelection.requiredReading.content.map(x => x.format({ deviceType: 'iPod', osStr: 'iOS'})).join("\n\n")}\n\n${require('./devicePage')(['iPod touch'], '/get-started/', false)}`
+  })
+  
+  for (const i in deviceGroups) {
+    const d = deviceGroups[i];
+    const url = d.name.replace(/ /g, '-');
+    pageArr.push({
+      path: localePathPrefix + '/get-started/' + url + '.html',
+      frontmatter: {
+        title: deviceChartStr.getStarted.pageTitle.format({ device: d.name }),
+        description: deviceChartStr.getStarted.description.format({ device: d.name }),
+        sidebar: false,
+        editLink: false,
+        lastUpdated: false,
+        contributors: false,
+      },
+      content: require('./get-started')(d.devices[0], false, 1, true, true)
+    })
+  }
 
-module.exports = page;
+  return pageArr
+}

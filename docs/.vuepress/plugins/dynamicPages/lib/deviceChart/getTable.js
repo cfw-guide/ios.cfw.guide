@@ -81,7 +81,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
           }
           
           if (url.includes(appledbPath)) return `<a href="${url}" target="_blank">${name}</a>`
-          else return `<router-link to="${url}">${name}</router-link>`
+          else return `<router-link to="${localePathPrefix + url}">${name}</router-link>`
         }).join(', ');
         
         html += `<td>${(finalJbHtml.length > 0) ? finalJbHtml : 'N/A'}</td>`;

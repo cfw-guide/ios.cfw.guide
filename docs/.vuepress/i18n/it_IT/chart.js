@@ -3,6 +3,7 @@ module.exports = {
     deviceSelection: {
       pageTitle: 'Selezione Del Dispositivo (${deviceType})',
       description: 'Scopri quali jailbreak puoi usare sul tuo ${deviceType}',
+      toc: 'Contenuti',
       requiredReading: {
         title: 'Lettura Necessaria',
         content: [
@@ -15,7 +16,6 @@ module.exports = {
     getStarted: {
       pageTitle: 'Selezione del Firmware (${device})',
       description: 'Scopri quali jailbreak puoi usare sul tuo ${device}.',
-      toc: 'Contenuti',
       requiredReading: {
         title: 'Lettura Necessaria',
         content: [
