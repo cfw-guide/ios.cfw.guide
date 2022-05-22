@@ -79,6 +79,7 @@ const deviceGroups = require('../../../json/deviceGroups')
 
     let latestFw = osArr.filter(y => y.deviceMap.some(r => x.devices.includes(r)))[0]
     x.latestFw = [[latestFw.osStr, latestFw.version].join(' ')]
+    x.latestOsStr = latestFw.osStr
 
     return x
 })

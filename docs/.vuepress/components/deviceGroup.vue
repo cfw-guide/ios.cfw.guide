@@ -1,7 +1,8 @@
 <template>
-    <p v-for="s in introStr" :key="s">{{ s }}</p>
+    <h2>{{ themeLocaleData.requiredReading.title }}</h2>
+    <p v-for="s in themeLocaleData.requiredReading.content" :key="s">{{ s.format({ deviceType: fm.group[0].type, osStr: fm.group[0].latestOsStr }) }}</p>
 
-    <div v-if="fm.type == 'iPhone'" class="custom-container tip"><p>{{iPhoneNote}}</p></div>
+    <div v-if="fm.type == 'iPhone'" class="custom-container tip"><p>{{ themeLocaleData.iPhoneNotice }}</p></div>
 
     <template v-for="dev in deviceArr" :key="dev"><template v-for="url in [`${localePathPrefix}/get-started/${dev.name.fdn()}.html`]" :key="url">
         <div class="flexWrapper">
@@ -37,6 +38,7 @@
 <script>
 import { usePageFrontmatter } from '@vuepress/client'
 import { useDarkMode } from '@vuepress/theme-default/lib/client/composables'
+import { useThemeLocaleData } from '@vuepress/theme-default/lib/client/composables'
 
 String.prototype.fdn = function() {
   return this
@@ -66,7 +68,8 @@ export default {
             viewDeviceStr: 'View more',
             iPhoneNote: 'Note that all "Plus", "Max" and "mini" models of iPhones are functionally identical to the regular models.',
             fm: usePageFrontmatter(),
-            isDarkMode: useDarkMode()
+            isDarkMode: useDarkMode(),
+            themeLocaleData: useThemeLocaleData().value.chart.deviceChart.deviceSelection,
         }
     },
     computed: {
@@ -74,11 +77,6 @@ export default {
             const lang = this.fm.lang
             if (lang == 'en_US') return ''
             return `/${lang}`
-        },
-        introStr() {
-            return [
-                `Please select what model of ${this.fm.type} you have below.`
-            ]
         },
         deviceArr() {
             return this.fm.group
