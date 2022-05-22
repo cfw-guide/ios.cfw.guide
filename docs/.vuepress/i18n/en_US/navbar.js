@@ -7,8 +7,8 @@ module.exports = [
         link: '/saving-blobs/',
       },
       {
-        text: 'Resigning Apps',
-        link: '/resigning-apps/',
+        text: 'Sideloading Apps',
+        link: '/sideloading-apps/',
       },
       {
         text: 'Jailbreak Detection',
