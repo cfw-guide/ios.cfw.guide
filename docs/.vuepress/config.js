@@ -36,6 +36,8 @@ module.exports = {
     ['script', {src: '/assets/js/hide.js'}]
   ],
 
+  shouldPrefetch: false,
+
   extendsMarkdown: (md) => {
     md.use(require('markdown-it-include'))
 
