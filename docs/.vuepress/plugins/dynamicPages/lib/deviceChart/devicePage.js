@@ -49,7 +49,9 @@ function getHtml(typeArr, path, toc) {
     for (var j = 0; j < tableCount[i]; j++) {
       html += '<table><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><thead><tr>'
       for (var k = 0; k < 3; k++) {
-        if (deviceArr[i][j*3+k]) html += '<th>' + deviceArr[i][j*3+k].name.replace('generation', 'gen') + '</th>';
+        const d = deviceArr[i][j*3+k];
+        const p = path || devicePath;
+        if (d) html += '<th><router-link to="' + localePathPrefix + p + d.name.replace(/ /g, '-') + '">' + deviceArr[i][j*3+k].name.replace('generation', 'gen') + '</router-link></th>';
         else html += '<th></th>';
       }
       html += '</tr></thead><tbody><tr>'
@@ -57,7 +59,7 @@ function getHtml(typeArr, path, toc) {
         const d = deviceArr[i][j*3+k];
         const p = path || devicePath;
         if (d) {
-          html += '<td><router-link to="' + p + d.name.replace(/ /g, '-') + '"><img src="https://img.appledb.dev/device@256/' + d.devices[0] + '/0.png" alt="' + d.name + '" loading="lazy" style="width: 50%;"></router-link></td>';
+          html += '<td><router-link to="' + localePathPrefix + p + d.name.replace(/ /g, '-') + '"><img src="https://img.appledb.dev/device@256/' + d.devices[0] + '/0.png" alt="' + d.name + '" loading="lazy" style="width: 50%;"></router-link></td>';
         }
         else html += '<td></td>';
       }
