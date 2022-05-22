@@ -15,7 +15,7 @@ module.exports = {
     selectLanguageAriaLabel: 'Seleziona lingua',
     toggleDarkMode: 'Attiva tema scuro',
     toggleSidebar: 'Attiva/Disattiva barra laterale',
-    discordNoticeText: 'Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](https://discord.gg/jb).',
+    discordNoticeText: 'Per supporto in inglese, chiedi aiuto sul r/Jailbreak [Discord Server](https://discord.gg/jb).',
     repoLabel: '<i class="fab fa-github"></i>',
     navbar: require('./navbar'),
     sidebar: require('./sidebar'),
