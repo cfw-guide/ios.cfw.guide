@@ -23,10 +23,10 @@
                         {{ i.replace('...','') }}
                         <a v-if="i.includes('...')" :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a>
                     </li>
-                    <li><router-link :to="url">{{ this.themeLocaleData.info.showMore }}</router-link></li>
+                    <li><router-link :to="url">{{ themeLocaleData.info.showMore }}</router-link></li>
                 </ul>
                 <ul class="devReleased infoList" style="position: relative; top: 9em;">
-                    <li v-if="dev.released">{{ this.themeLocaleData.info.released.format({ released: dev.released.slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
+                    <li v-if="dev.released">{{ themeLocaleData.info.released.format({ released: dev.released.slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
                 </ul>
             </div>
         </div>
