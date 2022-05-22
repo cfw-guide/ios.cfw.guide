@@ -19,6 +19,7 @@ module.exports = {
 	plugins: [
     searchPlugin({locales: searchLocales}),
     require('./plugins/dynamicPages/lib/'),
+    require('./plugins/dynamicPages.old/lib/'),
     require('./plugins/redirectPlugin/lib/'),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),

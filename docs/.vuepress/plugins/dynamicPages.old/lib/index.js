@@ -21,11 +21,6 @@ global.extLinkSvg = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/sv
 
 module.exports = function(themeLocale, localePath) {
   let pageList = []
-  
-  for (const i in localePath) {
-    let localePathPrefix = (i != 'en_US') ? `/${i}` : ''
-    pageList.push(...require('./deviceChart')(themeLocale[localePath[i]], localePath, localePathPrefix))
-  }
     
   function getPkgManPages(app) {
     var ret = [];
@@ -53,8 +48,6 @@ module.exports = function(themeLocale, localePath) {
   return {
     name: 'vuepress-dynamic-pages',
     async onInitialized(app) {
-      for (const p in pageList) app.pages.push(await createPage(app, pageList[p]))
-      
       const pkgManPages = getPkgManPages(app);
       for (const p in pkgManPages) app.pages.push(await createPage(app, pkgManPages[p]))
     }
