@@ -103,7 +103,7 @@ module.exports = function(device, showAll, maxDisplayed, simplifyTable, groupTab
   }
   
   const tableClass = ['tableBetaClass', 'tableMainClass'];
-  const noJbTip = `<div class="custom-container tip"><p>${deviceChartStr.table.noJbTip}</p></div>`
+  const noJbTip = tableHtml[0].includes('N/A') ? `<div class="custom-container tip"><p>${deviceChartStr.table.noJbTip}</p></div>` : ''
   const betaTip = `<div class="custom-container tip ${tableClass[0]}"><p>${deviceChartStr.table.betaTip.format({extLinkSvg: extLinkSvg})}</p></div>`
   var showMore = ''
   if (simplifyTable) showMore = `<a href="${appledbPath}/device/${deviceGroup[0].name.replace(/ /g, '-')}.html" target="_blank">Show more</a>`
