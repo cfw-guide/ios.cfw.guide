@@ -3,7 +3,6 @@ module.exports = {
     deviceSelection: {
       pageTitle: "Device Selection (${deviceType})",
       description: "Find out what jailbreaks you can use on your ${deviceType}",
-      toc: "Contents",
       requiredReading: {
         title: "Required Reading",
         content: [
@@ -14,6 +13,17 @@ module.exports = {
       iPhoneNotice: "Note that all \"Plus\", \"Max\" and \"mini\" models of iPhones are functionally identical to the regular models."
     },
     getStarted: {
+      pageTitle: "Get Started",
+      description: "Find out what jailbreaks you can use on your iOS Device",
+      requiredReading: {
+        title: "Required Reading",
+        content: [
+          "Different devices will require different steps to jailbreak your iOS device. This page will help you find where to start.",
+          "Please select what kind of device you have below."
+        ]
+      }
+    },
+    firmwareSelection: {
       pageTitle: "Firmware Selection (${device})",
       description: "Find out what jailbreaks you can use on your ${device}.",
       requiredReading: {
@@ -30,10 +40,7 @@ module.exports = {
           old: "Version",
           new: "Software Version",
         },
-        instructions: [
-          "Open the Settings application",
-          "Navigate to `General` -> `About` -> `${verStr}`",
-        ],
+        instructions: "1. Open the Settings application\n1. Navigate to `General\` -> `About` -> `${verStr}`",
         image: {
           altText: "Finding iOS version on an ${deviceType}",
           iphone: "/assets/images/find-version.jpg",
@@ -46,11 +53,6 @@ module.exports = {
     table: {
       title: "Version Table",
       tableHeader: [
-        "Build",
-        "Version",
-        "Jailbreak",
-      ],
-      simpleTableHeader: [
         "From",
         "To",
         "Jailbreak",
@@ -58,7 +60,7 @@ module.exports = {
       showBetaVersions: "Show Beta Versions",
       hideBetaVersions: "Hide Beta Versions",
       noJbTip: "For fields marked \"N/A\", there is no jailbreak for that version.",
-      betaTip: "If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href=\"https://discord.gg/QBj8pBa\" target=\"_blank\">Discord</a>${extLinkSvg}"
+      showMore: "Show more"
     },
   },
 }

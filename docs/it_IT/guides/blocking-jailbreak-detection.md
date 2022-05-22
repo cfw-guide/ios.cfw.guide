@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: "Bloccare il Rilevamento del Jailbreak"
 description: Bypassare ed evitare il rilevamento del jailbreak.
 permalink: /it_IT/blocking-jailbreak-detection

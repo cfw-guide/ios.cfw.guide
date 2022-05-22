@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: "Repo Consigliate"
 description: Informazioni sui repository popolari per i tweak
 permalink: /it_IT/recommended-repos

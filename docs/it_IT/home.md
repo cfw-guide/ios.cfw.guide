@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: Inizio
 description: Una guida completa per il modding di iOS, da stock a jailbroken.
 permalink: /it_IT

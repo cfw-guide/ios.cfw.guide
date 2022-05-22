@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en_US
 title: Updating (Dallas)
 description: Guide on updating using the Dallas tweak
 permalink: /updating-dallas

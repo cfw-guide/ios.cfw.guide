@@ -1,7 +1,7 @@
 module.exports = {
   search: 'Cerca',
   locales: {
-    lang: 'it-IT',
+    lang: 'it_IT',
     title: 'Guida per iOS',
     description: 'Una guida completa per il modding di iOS, da stock a jailbroken.'
   },

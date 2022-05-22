@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: "Gestori di pacchetti"
 description: Informazioni sui gestori di pacchetti attualmente disponibili da utilizzare
 permalink: /it_IT/package-managers

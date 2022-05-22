@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: Aggiornare (Dallas)
 description: Guida all'aggiornamento utilizzando il tweak Dallas
 permalink: /it_IT/updating-dallas

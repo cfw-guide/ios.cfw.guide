@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: Bloccare gli aggiornamenti
 description: Come bloccare gli aggiornamenti sul tuo dispositivo iOS o iPadOS.
 permalink: /it_IT/blocking-updates

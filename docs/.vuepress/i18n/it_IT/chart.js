@@ -3,7 +3,6 @@ module.exports = {
     deviceSelection: {
       pageTitle: 'Selezione Del Dispositivo (${deviceType})',
       description: 'Scopri quali jailbreak puoi usare sul tuo ${deviceType}',
-      toc: 'Contenuti',
       requiredReading: {
         title: 'Lettura Necessaria',
         content: [
@@ -14,6 +13,17 @@ module.exports = {
       iPhoneNotice: 'Nota che tutti i modelli "Plus", "Max" e "mini" di iPhone sono funzionalmente identici ai modelli normali.'
     },
     getStarted: {
+      pageTitle: "Cominciamo!",
+      description: "Scopri quali jailbreak puoi usare sul tuo Dispositivo iOS",
+      requiredReading: {
+        title: "Lettura Necessaria",
+        content: [
+          "Dispositivi differenti richiederanno passaggi differenti per eseguire il Jailbreak del tuo dispositivo iOS. Questa pagina ti aiuterà a capire da dove iniziare.",
+          "Seleziona che tipo di dispositivo possiedi."
+        ]
+      }
+    },
+    firmwareSelection: {
       pageTitle: 'Selezione del Firmware (${device})',
       description: 'Scopri quali jailbreak puoi usare sul tuo ${device}.',
       requiredReading: {
@@ -30,10 +40,7 @@ module.exports = {
           old: 'Versione',
           new: 'Versione del Software'
         },
-        instructions: [
-          'Apri l\'app Impostazioni',
-          'Entra in `Generali` -> `Info` -> `${verStr}`'
-        ],
+        instructions: "1. Apri l'app Impostazioni\n1. Entra in `Generali` -> `Info` -> `${verStr}`",
         image: {
           altText: 'Trovare la versione di iOS su ${deviceType}',
           iphone: '/assets/images/find-version.jpg',
@@ -46,11 +53,6 @@ module.exports = {
     table: {
       title: 'Tabella Versioni',
       tableHeader: [
-        'Build',
-        'Versione ',
-        'Jailbreak'
-      ],
-      simpleTableHeader: [
         'Da',
         'A',
         'Jailbreak'
@@ -58,7 +60,7 @@ module.exports = {
       showBetaVersions: 'Mostra Versioni Beta',
       hideBetaVersions: 'Nascondi Versioni Beta',
       noJbTip: 'Per i campi contrassegnati con "N/A", non c\'è nessun jailbreak per quella versione.',
-      betaTip: 'Se hai qualche informazione sulla compatibilità del jailbreak con le versioni beta, facci sapere su <a href="https://discord.gg/QBj8pBa" target="_blank">Discord</a>${extLinkSvg}'
+      showMore: "Show more"
     }
   }
 };

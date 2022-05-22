@@ -1,5 +1,5 @@
 ---
-lang: it-IT
+lang: it_IT
 title: Aggiornare (Blobless)
 description: Guida all'aggiornamento a firmware non firmati senza alcun blob.
 permalink: /it_IT/updating-blobless

@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en_US
 title: "FAQ"
 description: Frequently asked questions on jailbroken devices.
 permalink: /faq

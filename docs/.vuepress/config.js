@@ -2,6 +2,7 @@ const { localePath, locales, themeConfigLocales, searchLocales } = require("./i1
 const container = require('markdown-it-container')
 const { path, fs } = require('@vuepress/utils')
 const { searchPlugin } = require('@vuepress/plugin-search')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 const { localTheme } = require('../../emiyl-theme')
 
 module.exports = {
@@ -17,8 +18,11 @@ module.exports = {
 
 	plugins: [
     searchPlugin({locales: searchLocales}),
-    require('./plugins/dynamicPages/lib/')(themeConfigLocales, localePath),
-    require('./plugins/redirectPlugin/lib/')
+    require('./plugins/dynamicPages/lib/'),
+    require('./plugins/redirectPlugin/lib/'),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
 	],
   
   head: [

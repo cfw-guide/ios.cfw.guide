@@ -1,62 +1,106 @@
 const { createPage } = require('@vuepress/core')
+const { path, fs } = require('@vuepress/utils')
 
-global.iosList = require('../../../json/ios');
-global.deviceList = require('../../../json/deviceList');
-global.deviceGroups = require('../../../json/deviceGroups').filter(x => {
-  return x.type.includes('iPad') ||
-    x.type == 'iPod touch' ||
-    x.type == 'iPhone' ||
-    x.type == 'Apple TV' || 
-    x.type == 'Apple Watch' ||
-    x.type == 'HomePod'
-});
-global.jbList = require('../../../json/jailbreak');
+const allowedOsStrings = [
+    'iOS',
+    'iPhoneOS',
+    'iPadOS'
+]
 
-global.appledbPath = 'https://appledb.dev'
-global.jbPath = '/chart/jailbreak/'
-global.fwPath = '/chart/firmware/'
-global.devicePath = '/chart/device/'
+const deviceGroups = require('./getDeviceGroups')
+const typeArr = Array.from(new Set(deviceGroups.map(x => x.type)))
 
-global.extLinkSvg = '<svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>'
+const iosArr = require('../../../json/ios')
+.filter(x => allowedOsStrings.includes(x.osStr) && !x.beta)
 
-module.exports = function(themeLocale, localePath) {
-  let pageList = []
-  
-  for (const i in localePath) {
-    let localePathPrefix = (i != 'en_US') ? `/${i}` : ''
-    pageList.push(...require('./deviceChart')(themeLocale[localePath[i]], localePath, localePathPrefix))
-  }
-    
-  function getPkgManPages(app) {
-    var ret = [];
-    for (const p in app.pages) {
-      const page = app.pages[p];
-      const fm = page.frontmatter
-      let localePathPrefix = (fm.lang != 'en_US') ? `/${fm.lang}` : ''
-      if (!fm.hasOwnProperty('pkgman')) continue;
-      ret.push({
-        path: localePathPrefix + page.path.replace('index.html', '').replace('.html','\/') + `using-${fm.pkgman}.html`,
+const jailbreakArr = require('../../../json/jailbreak')
+
+const i18n = require('../../../i18n')
+const locales = i18n.locales
+
+String.prototype.format = function(vars) {
+    let temp = this;
+    for (let item in vars)
+        temp = temp.replace("${" + item + "}", vars[item]);
+    return temp
+}
+
+let pageList = []
+
+for (const deviceGroup of deviceGroups) {
+    const filteredOsArr = iosArr.filter(x => x.deviceMap.some(r => deviceGroup.devices.includes(r))).reverse()
+    const filteredJailbreakArr = jailbreakArr.filter(x => {
+        if (!x.compatibility) return false
+        const compat = x.compatibility.map(y => 
+            y.firmwares.some(r => filteredOsArr.map(x => x.build).includes(r)) &&
+            y.devices.some(r => deviceGroup.devices.includes(r))
+        ).filter(x => x)
+        return (compat.length) ? true : false
+    }).sort((a,b) => a.priority - b.priority)
+
+    for (const localePath in locales) {
+        const firmwareSelectionStr = i18n.themeConfigLocales[localePath].chart.deviceChart.firmwareSelection
+        pageList.push({
+            path: `${localePath}get-started/${deviceGroup.name.replace(/ /g,'-')}.html`,
+            frontmatter: {
+                lang: locales[localePath].lang,
+                title: firmwareSelectionStr.pageTitle.format({ device: deviceGroup.name }),
+                description: firmwareSelectionStr.description.format({ device: deviceGroup.name }),
+                chartType: 'device',
+                name: deviceGroup.name,
+                devType: deviceGroup.type,
+                devArr: deviceGroup.devices,
+                osArr: filteredOsArr,
+                jbArr: filteredJailbreakArr,
+                sidebar: false,
+                editLink: false,
+                lastUpdated: false,
+                contributors: false
+            }
+        })
+    }
+}
+
+for (const localePath in locales) {
+    const deviceSelectionStr = i18n.themeConfigLocales[localePath].chart.deviceChart.deviceSelection
+    for (const type of typeArr) pageList.push({
+        path: `${localePath}get-started/select-${type.toLowerCase().replace(/ /g,'-')}`,
         frontmatter: {
-          lang: fm.lang,
-          title: `Using ${fm.pkgman.replace(/^\w/, c => c.toUpperCase())}`,
-          description: `Guide to using ${fm.pkgman.replace(/^\w/, c => c.toUpperCase())}`,
-          editLink: false,
-          lastUpdated: false,
-          contributors: false,
-        },
-        content: `!!!include(./docs/${fm.lang}/include/using-${fm.pkgman}.md)!!!`
-      })
-    }
-    return ret;
-  }
+            lang: locales[localePath].lang,
+            title: deviceSelectionStr.pageTitle.format({ deviceType: type }),
+            description: deviceSelectionStr.description.format({ deviceType: type }),
+            chartType: 'deviceGroup',
+            widePage: true,
+            type: type,
+            group: deviceGroups.filter(x => x.type == type),
+            sidebar: false,
+            editLink: false,
+            lastUpdated: false,
+            contributors: false,
+        }
+    })
 
-  return {
-    name: 'vuepress-dynamic-pages',
-    async onInitialized(app) {
-      for (const p in pageList) app.pages.push(await createPage(app, pageList[p]))
-      
-      const pkgManPages = getPkgManPages(app);
-      for (const p in pkgManPages) app.pages.push(await createPage(app, pkgManPages[p]))
+    const getStartedStr = i18n.themeConfigLocales[localePath].chart.deviceChart.getStarted
+    pageList.push({
+        path: `${localePath}get-started/`,
+        frontmatter: {
+            lang: locales[localePath].lang,
+            title: getStartedStr.pageTitle,
+            description: getStartedStr.description,
+            chartType: 'deviceGroupList',
+            groupList: deviceGroups,
+            editLink: false,
+            lastUpdated: false,
+            contributors: false,
+        }
+    })
+}
+
+module.exports = function() {
+    return {
+        name: 'vuepress-new-dynamic-pages',
+        async onInitialized(app) {
+            for (const p in pageList) app.pages.push(await createPage(app, pageList[p]))
+        }
     }
-  }
 }

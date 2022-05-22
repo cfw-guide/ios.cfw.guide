@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en_US
 title: "Recommended Repos"
 description: Information on popular repositories for jailbreak tweaks
 permalink: /recommended-repos

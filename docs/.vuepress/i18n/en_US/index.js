@@ -2,7 +2,7 @@ module.exports = {
   search: 'Search',
   
   locales: {
-    lang: 'en-US',
+    lang: 'en_US',
     title: 'iOS Guide',
     description: 'A complete iOS modding guide, from stock to jailbroken.',
   },
