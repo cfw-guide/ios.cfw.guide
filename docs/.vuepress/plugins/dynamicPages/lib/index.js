@@ -13,7 +13,10 @@ const typeArr = Array.from(new Set(deviceGroups.map(x => x.type)))
 const iosArr = require('../../../json/ios')
 .filter(x => allowedOsStrings.includes(x.osStr) && !x.beta)
 
-const jailbreakArr = require('../../../json/jailbreak')
+const jailbreakArr = require('../../../json/jailbreak').map(x => {
+    if (!x.hasOwnProperty('priority')) x.priority = 9999
+    return x
+})
 
 const i18n = require('../../../i18n')
 const locales = i18n.locales

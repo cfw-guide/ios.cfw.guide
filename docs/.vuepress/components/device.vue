@@ -107,7 +107,7 @@ export default {
                         y.devices.some(r => devArr.includes(r))
                     ).filter(x => x)
                     return (compat.length) ? true : false
-                })[0]
+                }).sort((a,b) => a.priority > b.priority)[0]
 
                 let retJb = {}
                 if (!jb) retJb.name = 'N/A'
@@ -118,6 +118,7 @@ export default {
                 }
 
                 if (jb && jb.info && jb.info.guide) {
+
                     let guideObj = jb.info.guide.filter(x => {
                         if (x.hasOwnProperty('firmwares') || x.hasOwnProperty('devices')) {
                             const fwCheck = x.hasOwnProperty('firmwares') ? x.firmwares.includes(os.build) : true
@@ -125,7 +126,13 @@ export default {
                             return fwCheck && devCheck
                         }
                         else return true
-                    })[0]
+                    }).sort((a,b) => {
+                        const check = [a,b].map(x => x.hasOwnProperty('firmwares') && x.hasOwnProperty('devices'))
+                        if (check[0] < check[1]) return 1
+                        if (check[0] > check[1]) return -1
+                        return 0
+                    })
+                    guideObj = guideObj[0]
                     if (guideObj.name && guideObj.url) retJb = {
                         name: guideObj.name,
                         url: guideObj.url,
