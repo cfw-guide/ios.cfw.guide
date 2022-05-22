@@ -1,14 +1,14 @@
 const getStarted = {
   text: 'Guida per iOS',
-  children: ['/get-started/']
+  children: ['/it_IT/get-started/']
 };
 const guides = {
   text: 'Guide',
   children: [
-    '/saving-blobs/',
-    '/sideloading-apps/',
-    '/blocking-jailbreak-detection/',
-    '/updating-blobless/',
+    '/it_IT/saving-blobs/',
+    '/it_IT/sideloading-apps/',
+    '/it_IT/blocking-jailbreak-detection/',
+    '/it_IT/updating-blobless/',
     {
       text: 'FutureRestore',
       link: '/it_IT/futurerestore/'
@@ -22,25 +22,25 @@ const pkgman = {
       text: 'Spiegazione',
       link: '/it_IT/package-managers/'
     },
-    '/using-sileo/',
-    '/using-cydia/',
-    '/recommended-repos/'
+    '/it_IT/using-sileo/',
+    '/it_IT/using-cydia/',
+    '/it_IT/recommended-repos/'
   ]
 };
 const jailbreaking = {
   text: 'Jailbreaking',
   children: [
-    '/installing-odysseyra1n/',
-    '/installing-unc0ver/',
-    '/installing-chimera/'
+    '/it_IT/installing-odysseyra1n/',
+    '/it_IT/installing-unc0ver/',
+    '/it_IT/installing-chimera/'
   ]
 };
 const troubleshooting = {
   text: 'Risoluzione Problemi',
   children: [
-    '/troubleshooting/',
-    '/faq/',
-    '/types-of-jailbreak/',
+    '/it_IT/troubleshooting/',
+    '/it_IT/faq/',
+    '/it_IT/types-of-jailbreak/',
     {
       text: 'Discord',
       link: 'https://discord.gg/jb'
