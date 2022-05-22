@@ -15,7 +15,7 @@ Dopo aver installato il jailbreak, potresti voler installare alcune repo (<route
 
 Una repo default nella maggior parte dei gestori di pacchetti, Big Boss è una delle repo più grandi, con migliaia di tweak e modifiche da installare. È una repo essenziale su cui si basa la maggior parte dei jailbreaker.
 
-URL: ``http://apt.thebigboss.org/repofiles/cydia/
+URL: `http://apt.thebigboss.org/repofiles/cydia/`
 
 ## Chariz
 
