@@ -10,7 +10,14 @@ module.exports = {
           'Qui sotto seleziona quale modello di ${deviceType} possiedi.'
         ]
       },
-      iPhoneNotice: 'Nota che tutti i modelli "Plus", "Max" e "mini" di iPhone sono funzionalmente identici ai modelli normali.'
+      iPhoneNotice: 'Nota che tutti i modelli "Plus", "Max" e "mini" di iPhone sono funzionalmente identici ai modelli normali.',
+      info: {
+        soc: "SoC: ${soc}",
+        arch: "Architettura: ${arch}",
+        latestFw: "Ultima versione: ${latestFw}",
+        released: "Rilasciato il ${released}",
+        showMore: "Mostra altro"
+      }
     },
     getStarted: {
       pageTitle: "Cominciamo!",
@@ -60,7 +67,7 @@ module.exports = {
       showBetaVersions: 'Mostra Versioni Beta',
       hideBetaVersions: 'Nascondi Versioni Beta',
       noJbTip: 'Per i campi contrassegnati con "N/A", non c\'è nessun jailbreak per quella versione.',
-      showMore: "Show more"
+      showMore: "Mostra altro"
     }
   }
 };

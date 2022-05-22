@@ -10,7 +10,14 @@ module.exports = {
           "Please select what model of ${deviceType} you have below."
         ]
       },
-      iPhoneNotice: "Note that all \"Plus\", \"Max\" and \"mini\" models of iPhones are functionally identical to the regular models."
+      iPhoneNotice: "Note that all \"Plus\", \"Max\" and \"mini\" models of iPhones are functionally identical to the regular models.",
+      info: {
+        soc: "SoC: ${soc}",
+        arch: "Architecture: ${arch}",
+        latestFw: "Latest version: ${latestFw}",
+        released: "Released on ${released}",
+        showMore: "Show more"
+      }
     },
     getStarted: {
       pageTitle: "Get Started",

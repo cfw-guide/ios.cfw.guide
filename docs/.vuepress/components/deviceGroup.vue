@@ -23,10 +23,10 @@
                         {{ i.replace('...','') }}
                         <a v-if="i.includes('...')" :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a>
                     </li>
-                    <li><router-link :to="url">{{ viewDeviceStr }}</router-link></li>
+                    <li><router-link :to="url">{{ this.themeLocaleData.info.showMore }}</router-link></li>
                 </ul>
                 <ul class="devReleased infoList" style="position: relative; top: 9em;">
-                    <li v-if="dev.released">{{ releasedOn.format({ released: dev.released.slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
+                    <li v-if="dev.released">{{ this.themeLocaleData.info.released.format({ released: dev.released.slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
                 </ul>
             </div>
         </div>
@@ -59,13 +59,6 @@ String.prototype.format = function(vars) {
 export default {
     data() {
         return {
-            labels: {
-                soc: "SoC: ${soc}",
-                arch: "Architecture: ${arch}",
-                latestFw: "Latest version: ${latestFw}",
-            },
-            releasedOn: "Released on ${released}",
-            viewDeviceStr: 'View more',
             iPhoneNote: 'Note that all "Plus", "Max" and "mini" models of iPhones are functionally identical to the regular models.',
             fm: usePageFrontmatter(),
             isDarkMode: useDarkMode(),
@@ -82,6 +75,11 @@ export default {
             return this.fm.group
         },
         infoObj() {
+            let labels = {
+                soc: this.themeLocaleData.info.soc,
+                arch: this.themeLocaleData.info.arch,
+                latestFw: this.themeLocaleData.info.latestFw,
+            }
             let o = {}
             for (const dev of this.deviceArr) {
                 let attr = ['soc','arch','latestFw']
@@ -94,7 +92,7 @@ export default {
 
                 o[dev.name] = []
                 for (const i of attr) if (i.value && i.value != '') {
-                    let ret = this.labels[i.type].format({ [i.type]: i.value.slice(0,3).join(', ') })
+                    let ret = labels[i.type].format({ [i.type]: i.value.slice(0,3).join(', ') })
                     if (i.value.length > 3) ret += ', ...'
                     o[dev.name].push(ret)
                 }

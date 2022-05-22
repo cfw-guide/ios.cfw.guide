@@ -25,12 +25,11 @@ module.exports = function(themeLocale, localePath) {
   function getPkgManPages(app) {
     var ret = [];
     for (const p in app.pages) {
-      const page = app.pages[p];
+      const page = app.pages[p]
       const fm = page.frontmatter
-      let localePathPrefix = (fm.lang != 'en_US') ? `/${fm.lang}` : ''
-      if (!fm.hasOwnProperty('pkgman')) continue;
+      if (!fm.hasOwnProperty('pkgman')) continue
       ret.push({
-        path: localePathPrefix + page.path.replace('index.html', '').replace('.html','\/') + `using-${fm.pkgman}.html`,
+        path: page.path.replace('index.html', '').replace('.html','\/') + `using-${fm.pkgman}.html`,
         frontmatter: {
           lang: fm.lang,
           title: `Using ${fm.pkgman.replace(/^\w/, c => c.toUpperCase())}`,
