@@ -28,7 +28,7 @@ String.prototype.format = function(vars) {
 let pageList = []
 
 for (const deviceGroup of deviceGroups) {
-    const filteredOsArr = iosArr.filter(x => x.deviceMap.some(r => deviceGroup.devices.includes(r))).reverse()
+    const filteredOsArr = iosArr.filter(x => x.deviceMap.some(r => deviceGroup.devices.includes(r)))
     const filteredJailbreakArr = jailbreakArr.filter(x => {
         if (!x.compatibility) return false
         const compat = x.compatibility.map(y => 
