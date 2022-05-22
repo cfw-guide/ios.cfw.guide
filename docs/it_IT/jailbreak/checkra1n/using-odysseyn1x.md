@@ -5,18 +5,18 @@ excerpt: Guida all'installazione di checkra1n tramite Odysseyn1x
 permalink: /it_IT/using-odysseyn1x
 pkgman: sileo
 redirect_from:
-  - /installing-odysseyn1x
-  - /using-odysseynix
-  - /odysseyn1x
-  - /odysseynix
-  - /using-bootra1n
-  - /using-bootrain
-  - /bootra1n
-  - /bootrain
-  - /using-checkn1x
-  - /using-checknix
-  - /checkn1x
-  - /checkn1x
+  - /it_IT/installing-odysseyn1x
+  - /it_IT/using-odysseynix
+  - /it_IT/odysseyn1x
+  - /it_IT/odysseynix
+  - /it_IT/using-bootra1n
+  - /it_IT/using-bootrain
+  - /it_IT/bootra1n
+  - /it_IT/bootrain
+  - /it_IT/using-checkn1x
+  - /it_IT/using-checknix
+  - /it_IT/checkn1x
+  - /it_IT/checkn1x
 extra_contributors:
   - stekc
   - flowerible

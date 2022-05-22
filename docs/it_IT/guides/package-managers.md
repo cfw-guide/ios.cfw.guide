@@ -4,7 +4,7 @@ title: "Gestori di pacchetti"
 description: Informazioni sui gestori di pacchetti attualmente disponibili da utilizzare
 permalink: /it_IT/package-managers
 redirect_from:
-  - /pkgman
+  - /it_IT/pkgman
 extra_contributors:
   - TheHacker894
   - Tanbeer191

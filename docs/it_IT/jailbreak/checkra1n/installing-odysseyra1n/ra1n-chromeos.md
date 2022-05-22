@@ -4,7 +4,7 @@ title: checkra1n (ChromeOS)
 description: Guida all'installazione di checkra1n su ChromeOS
 permalink: /it_IT/installing-checkra1n-chromeos
 redirect_from:
-  - /installing-checkra1n/chromeos
+  - /it_IT/installing-checkra1n/chromeos
 extra_contributors:
   - DhinakG
   - Tanbeer191

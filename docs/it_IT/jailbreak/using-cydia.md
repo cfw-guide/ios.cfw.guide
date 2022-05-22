@@ -4,7 +4,7 @@ title: "Usare Cydia"
 description: Guida all'utilizzo di Cydia
 permalink: /it_IT/using-cydia
 redirect_from:
-  - /cydia
+  - /it_IT/cydia
 extra_contributors:
   - TheHacker894
 ---

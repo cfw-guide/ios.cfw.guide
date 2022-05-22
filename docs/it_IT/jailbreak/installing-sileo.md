@@ -4,7 +4,7 @@ title: "Installare Sileo"
 description: Guida all'installazione di Sileo su checkra1n e unc0ver
 permalink: /it_IT/installing-sileo
 redirect_from:
-  - /install-sileo
+  - /it_IT/install-sileo
 ---
 
 ## Introduzione

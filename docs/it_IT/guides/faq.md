@@ -4,7 +4,7 @@ title: "FAQ"
 description: Domande frequenti sui dispositivi Jailbroken.
 permalink: /it_IT/faq
 redirect_from:
-  - /help/faq
+  - /it_IT/help/faq
 extra_contributors:
   - Tanbeer191
   - TheHacker894

@@ -4,11 +4,11 @@ title: "Salvataggio Blobs"
 excerpt: Guida al salvataggio dei blobs per ottenere la capacità di eseguire un downgrade di iOS in futuro.
 permalink: /it_IT/saving-blobs
 redirect_from:
-  - /blobs
-  - /blob
-  - /save-blobs
-  - /save-blob
-  - /saving-blob
+  - /it_IT/blobs
+  - /it_IT/blob
+  - /it_IT/save-blobs
+  - /it_IT/save-blob
+  - /it_IT/saving-blob
 extra_contributors:
   - TheHacker894
   - airsquared

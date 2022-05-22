@@ -4,8 +4,8 @@ title: "Ripristinare con i blobs utilizzando FutureRestore"
 description: Guida all'utilizzo di FutureRestore per ripristinare il dispositivo
 permalink: /it_IT/futurerestore
 redirect_from:
-  - /future-restore
-  - /restoring-to-14-3
+  - /it_IT/future-restore
+  - /it_IT/restoring-to-14-3
 extra_contributors:
   - Tanbeer191
   - TheHacker894

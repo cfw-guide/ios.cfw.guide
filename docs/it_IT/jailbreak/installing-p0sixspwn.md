@@ -4,10 +4,10 @@ title: P0sixspwn
 description: Guida per l’installazione di P0sixspwn
 permalink: /it_IT/installing-p0sixspwn
 redirect_from:
-  - /installing-posixpwn
-  - /p0sixpwn
-  - /posixpwn
-  - /p0
+  - /it_IT/installing-posixpwn
+  - /it_IT/p0sixpwn
+  - /it_IT/posixpwn
+  - /it_IT/p0
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

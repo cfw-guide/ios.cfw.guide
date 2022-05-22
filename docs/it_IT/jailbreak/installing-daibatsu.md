@@ -4,7 +4,7 @@ title: Daibutsu
 description: Guida per l’installazione di Daibutsu
 permalink: /it_IT/installing-daibutsu
 redirect_from:
-  - /daibutsu
+  - /it_IT/daibutsu
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---

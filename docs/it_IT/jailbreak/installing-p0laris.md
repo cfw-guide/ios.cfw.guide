@@ -4,8 +4,8 @@ title: p0laris
 description: Guida per l'installazione di p0laris
 permalink: /it_IT/installing-p0laris
 redirect_from:
-  - /p0laris
-  - /polaris
+  - /it_IT/p0laris
+  - /it_IT/polaris
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

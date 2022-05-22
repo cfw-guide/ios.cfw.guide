@@ -4,7 +4,7 @@ title: Meridian
 description: Guida all'installazione di Meridian tramite Sideload
 permalink: /it_IT/installing-meridian-(ipa)
 redirect_from:
-  - /installing-meridian-ipa
+  - /it_IT/installing-meridian-ipa
 pkgman: cydia
 extra_contributors:
   - TheHacker894

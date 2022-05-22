@@ -5,9 +5,9 @@ description: Guida all'installazione di unc0ver con Fugu14
 permalink: /it_IT/installing-unc0ver-fugu14
 pkgman: cydia
 redirect_from:
-  - /installing-uncover-fugu14
-  - /installing-unc0ver-(fugu14)
-  - /installing-uncover-(fugu14)
+  - /it_IT/installing-uncover-fugu14
+  - /it_IT/installing-unc0ver-(fugu14)
+  - /it_IT/installing-uncover-(fugu14)
 ---
 
 unc0ver è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.

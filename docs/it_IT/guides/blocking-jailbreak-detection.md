@@ -4,8 +4,8 @@ title: "Bloccare il Rilevamento del Jailbreak"
 description: Bypassare ed evitare il rilevamento del jailbreak.
 permalink: /it_IT/blocking-jailbreak-detection
 redirect_from:
-  - /blocking
-  - /jailbreak-detection
+  - /it_IT/blocking
+  - /it_IT/jailbreak-detection
 extra_contributors:
   - Absolucy
   - TheHacker894

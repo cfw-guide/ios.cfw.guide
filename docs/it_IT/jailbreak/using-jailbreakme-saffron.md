@@ -4,10 +4,10 @@ title: JailbreakMe Saffron
 description: Guida all'utilizzo di JailbreakMe (Saffron)
 permalink: /it_IT/using-jailbreakme-saffron
 redirect_from:
-  - /installing-jailbreakme-saffron
-  - /installing-saffron
-  - /saffron
-  - /jailbreakme-saffron
+  - /it_IT/installing-jailbreakme-saffron
+  - /it_IT/installing-saffron
+  - /it_IT/saffron
+  - /it_IT/jailbreakme-saffron
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---

@@ -5,7 +5,7 @@ description: Guida all'installazione di Odysseyra1n su dispositivi A8X e A9X
 permalink: /it_IT/installing-odysseyra1n-a8x-a9x
 pkgman: sileo
 redirect_from:
-  - /installing-odysseyra1n-a9x
+  - /it_IT/installing-odysseyra1n-a9x
 extra_contributors:
   - stekc
   - Tanbeer191

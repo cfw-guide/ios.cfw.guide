@@ -4,7 +4,7 @@ title: doubleH3lix
 description: Guida all'installazione di doubleh3lix tramite Sideload
 permalink: /it_IT/installing-doubleh3lix-(ipa)
 redirect_from:
-  - /installing-doubleh3lix-ipa
+  - /it_IT/installing-doubleh3lix-ipa
 pkgman: cydia
 extra_contributors:
   - TheHacker894

@@ -4,9 +4,9 @@ title: Aggiornare (Dallas)
 description: Guida all'aggiornamento utilizzando il tweak Dallas
 permalink: /it_IT/updating-dallas
 redirect_from:
-  - /dallas
-  - /updating-(dallas)
-  - /updating-Dallas
+  - /it_IT/dallas
+  - /it_IT/updating-(dallas)
+  - /it_IT/updating-Dallas
 extra_contributors:
   - DhinakG
 ---

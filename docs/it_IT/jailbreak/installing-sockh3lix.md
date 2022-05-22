@@ -4,11 +4,11 @@ title: sockH3lix
 description: Guida per l’installazione di sockH3lix
 permalink: /it_IT/installing-sockh3lix
 redirect_from:
-  - /installing-sockhelix
-  - /sockhelix
-  - /sockh3lix
-  - /sh3
-  - /she
+  - /it_IT/installing-sockhelix
+  - /it_IT/sockhelix
+  - /it_IT/sockh3lix
+  - /it_IT/sh3
+  - /it_IT/she
 pkgman: cydia
 extra_contributors:
   - hopolapopola

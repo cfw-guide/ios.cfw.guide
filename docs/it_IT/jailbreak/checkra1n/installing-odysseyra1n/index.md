@@ -5,16 +5,16 @@ description: Guida all'installazione di Odysseyra1n
 permalink: /it_IT/installing-odysseyra1n
 pkgman: sileo
 redirect_from:
-  - /ra1n
-  - /installing-odysseyrain
-  - /odysseyra1n
-  - /odysseyrain
-  - /or
-  - /installing-checkra1n
-  - /installing-checkrain
-  - /checkra1n
-  - /checkrain
-  - /cr
+  - /it_IT/ra1n
+  - /it_IT/installing-odysseyrain
+  - /it_IT/odysseyra1n
+  - /it_IT/odysseyrain
+  - /it_IT/or
+  - /it_IT/installing-checkra1n
+  - /it_IT/installing-checkrain
+  - /it_IT/checkra1n
+  - /it_IT/checkrain
+  - /it_IT/cr
 extra_contributors:
   - stekc
   - Tanbeer191

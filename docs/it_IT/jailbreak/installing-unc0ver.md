@@ -4,11 +4,11 @@ title: unc0ver
 description: Guida per l'installazione di unc0ver
 permalink: /it_IT/installing-unc0ver
 redirect_from:
-  - /installing-uncover
-  - /unc0ver
-  - /uncover
-  - /u0
-  - /uo
+  - /it_IT/installing-uncover
+  - /it_IT/unc0ver
+  - /it_IT/uncover
+  - /it_IT/u0
+  - /it_IT/uo
 pkgman: cydia
 extra_contributors:
   - TheHacker894

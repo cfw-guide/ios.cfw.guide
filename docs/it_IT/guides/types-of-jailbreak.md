@@ -4,7 +4,7 @@ title: "Tipi di Jailbreak"
 description: Spiegazione sui diversi tipi di Jailbreak
 permalink: /it_IT/types-of-jailbreak
 redirect_from:
-  - /jailbreaks
+  - /it_IT/jailbreaks
 extra_contributors:
   - Tanbeer191
 ---

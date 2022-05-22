@@ -4,19 +4,19 @@ title: "Sideloadare le App"
 description: Guida all'utilizzo del sideloading e al re-sign delle app con o senza computer
 permalink: /it_IT/sideloading-apps
 redirect_from:
-  - /resign
-  - /resigning
-  - /altstore
-  - /altdaemon
-  - /altserver
-  - /altdeploy
-  - /sideload
-  - /sideloading
-  - /reprovision
-  - /repro
-  - /reprovision-reborn
-  - /sideloadly
-  - /resigning-apps
+  - /it_IT/resign
+  - /it_IT/resigning
+  - /it_IT/altstore
+  - /it_IT/altdaemon
+  - /it_IT/altserver
+  - /it_IT/altdeploy
+  - /it_IT/sideload
+  - /it_IT/sideloading
+  - /it_IT/reprovision
+  - /it_IT/repro
+  - /it_IT/reprovision-reborn
+  - /it_IT/sideloadly
+  - /it_IT/resigning-apps
 extra_contributors:
   - flower
   - TheHacker894

@@ -4,7 +4,7 @@ title: PwnageTool
 description: Guida per l’installazione di PwnageTool
 permalink: /it_IT/installing-pwnagetool
 redirect_from:
-  - /pwnagetool
+  - /it_IT/pwnagetool
 discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---

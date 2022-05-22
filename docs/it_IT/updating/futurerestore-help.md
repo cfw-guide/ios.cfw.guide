@@ -4,9 +4,9 @@ title: "Aiuto con FutureRestore"
 description: Soluzioni ad alcuni problemi di FR.
 permalink: /it_IT/futurerestore-help
 redirect_from:
-  - /frhelp
-  - /futurerestorehelp
-  - /FutureRestoreHelp
+  - /it_IT/frhelp
+  - /it_IT/futurerestorehelp
+  - /it_IT/FutureRestoreHelp
 extra_contributors:
   - Tanbeer191
   - TheHacker894

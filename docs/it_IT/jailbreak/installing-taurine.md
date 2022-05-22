@@ -4,8 +4,8 @@ title: Taurine
 description: Guida per l’installazione di Taurine
 permalink: /it_IT/installing-taurine
 redirect_from:
-  - /taurine
-  - /tr
+  - /it_IT/taurine
+  - /it_IT/tr
 pkgman: sileo
 extra_contributors:
   - hopolapopola

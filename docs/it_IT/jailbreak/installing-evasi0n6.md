@@ -4,8 +4,8 @@ title: Evasi0n6
 description: Guida per l’installazione di Evasi0n6
 permalink: /it_IT/installing-evasi0n6
 redirect_from:
-  - /evasion6
-  - /evasi0n6
+  - /it_IT/evasion6
+  - /it_IT/evasi0n6
 discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

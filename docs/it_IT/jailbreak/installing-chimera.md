@@ -4,8 +4,8 @@ title: Chimera
 description: Guida per l’installazione di Chimera
 permalink: /it_IT/installing-chimera
 redirect_from:
-  - /chimera
-  - /cm
+  - /it_IT/chimera
+  - /it_IT/cm
 pkgman: sileo
 extra_contributors:
   - TheHacker894

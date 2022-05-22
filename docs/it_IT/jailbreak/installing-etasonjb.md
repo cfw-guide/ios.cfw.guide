@@ -4,9 +4,9 @@ title: EtasonJB
 description: Guida per l’installazione di etasonjb
 permalink: /it_IT/installing-etasonjb
 redirect_from:
-  - /etasonjb
-  - /es
-  - /eta
+  - /it_IT/etasonjb
+  - /it_IT/es
+  - /it_IT/eta
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

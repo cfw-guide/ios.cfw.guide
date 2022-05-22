@@ -4,7 +4,7 @@ title: "Usare Sileo"
 description: Guida all'utilizzo di Sileo
 permalink: /it_IT/using-sileo
 redirect_from:
-  - /sileo
+  - /it_IT/sileo
 extra_contributors:
   - TheHacker894
   - hopolapopola

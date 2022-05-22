@@ -4,7 +4,7 @@ title: "Coolbooter"
 description: Guida all'utilizzo di Coolbooter per eseguire il dualboot di due diverse versioni di iOS sul tuo dispositivo a 32 bit
 permalink: /it_IT/using-coolbooter
 redirect_from:
-  - /coolbooter
+  - /it_IT/coolbooter
 discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 extra_contributors:
   - TheHacker894

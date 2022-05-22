@@ -4,11 +4,11 @@ title: h3lix
 description: Guida per l’installazione di h3lix
 permalink: /it_IT/installing-h3lix
 redirect_from:
-  - /installing-helix
-  - /helix
-  - /h3lix
-  - /h3
-  - /he
+  - /it_IT/installing-helix
+  - /it_IT/helix
+  - /it_IT/h3lix
+  - /it_IT/h3
+  - /it_IT/he
 pkgman: cydia
 extra_contributors:
   - hopolapopola

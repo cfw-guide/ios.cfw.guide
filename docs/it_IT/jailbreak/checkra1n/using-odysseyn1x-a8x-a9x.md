@@ -5,7 +5,7 @@ description: Guida all'installazione di checkra1n tramite Odysseyn1x sui disposi
 permalink: /it_IT/using-odysseyn1x-a8x-a9x
 pkgman: sileo
 redirect_from:
-  - /using-odysseyn1x-a9x
+  - /it_IT/using-odysseyn1x-a9x
 extra_contributors:
   - stekc
   - flowerible

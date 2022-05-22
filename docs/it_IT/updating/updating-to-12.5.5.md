@@ -3,12 +3,12 @@ lang: it_IT
 title: Aggiornare a 12.5.5
 permalink: /it_IT/updating-to-12-5-5
 redirect_from:
-  - /updating-to-12-4-9
-  - /updating-to-12-5
-  - /updating-to-12-5-1
-  - /updating-to-12-5-2
-  - /updating-to-12-5-3
-  - /updating-to-12-5-4
+  - /it_IT/updating-to-12-4-9
+  - /it_IT/updating-to-12-5
+  - /it_IT/updating-to-12-5-1
+  - /it_IT/updating-to-12-5-2
+  - /it_IT/updating-to-12-5-3
+  - /it_IT/updating-to-12-5-4
 ---
 
 ## Lettura Necessaria

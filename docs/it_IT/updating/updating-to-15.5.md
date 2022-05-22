@@ -3,14 +3,14 @@ lang: it_IT
 title: Aggiornare a 15.5
 permalink: /it_IT/updating-to-15-5
 redirect_from:
-  - /updating-to-15-0
-  - /updating-to-15-0-1
-  - /updating-to-15-0-2
-  - /updating-to-15-1
-  - /updating-to-15-2
-  - /updating-to-15-2-1
-  - /updating-to-15-3-1
-  - /updating-to-15-4-1
+  - /it_IT/updating-to-15-0
+  - /it_IT/updating-to-15-0-1
+  - /it_IT/updating-to-15-0-2
+  - /it_IT/updating-to-15-1
+  - /it_IT/updating-to-15-2
+  - /it_IT/updating-to-15-2-1
+  - /it_IT/updating-to-15-3-1
+  - /it_IT/updating-to-15-4-1
 ---
 
 ## Lettura Necessaria

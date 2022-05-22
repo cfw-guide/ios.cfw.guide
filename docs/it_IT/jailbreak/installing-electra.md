@@ -4,8 +4,8 @@ title: Electra
 description: Guida per installare Electra
 permalink: /it_IT/installing-electra
 redirect_from:
-  - /electra
-  - /el
+  - /it_IT/electra
+  - /it_IT/el
 pkgman: sileo
 extra_contributors:
   - TheHacker894

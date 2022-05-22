@@ -4,8 +4,8 @@ title: Pangu7
 excerpt: Guida per l’installazione di Pangu7
 permalink: /it_IT/installing-pangu7
 redirect_from:
-  - /pangu712
-  - /pangu7
+  - /it_IT/pangu712
+  - /it_IT/pangu7
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

@@ -4,8 +4,8 @@ title: Odyssey
 description: Guida per l'installazione di Odyssey
 permalink: /it_IT/installing-odyssey
 redirect_from:
-  - /odyssey
-  - /od
+  - /it_IT/odyssey
+  - /it_IT/od
 pkgman: sileo
 extra_contributors:
   - TheHacker894

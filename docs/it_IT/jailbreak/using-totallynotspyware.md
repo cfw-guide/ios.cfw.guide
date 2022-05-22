@@ -4,20 +4,20 @@ title: TotallyNotSpyware
 description: Guida all'utilizzo di TotallyNotSpyware
 permalink: /it_IT/using-tns
 redirect_from:
-  - /using-totallynotspyware
-  - /installing-tns
-  - /installing-totallynotspyware
-  - /totallynotspyware
-  - /tns
-  - /installing-doubleh3lix
-  - /installing-doublehelix
-  - /doubleh3lix
-  - /doublehelix
-  - /dh
-  - /using-meridian
-  - /installing-meridian
-  - /meridian
-  - /md
+  - /it_IT/using-totallynotspyware
+  - /it_IT/installing-tns
+  - /it_IT/installing-totallynotspyware
+  - /it_IT/totallynotspyware
+  - /it_IT/tns
+  - /it_IT/installing-doubleh3lix
+  - /it_IT/installing-doublehelix
+  - /it_IT/doubleh3lix
+  - /it_IT/doublehelix
+  - /it_IT/dh
+  - /it_IT/using-meridian
+  - /it_IT/installing-meridian
+  - /it_IT/meridian
+  - /it_IT/md
 pkgman: cydia
 extra_contributors:
   - TheHacker894

@@ -4,8 +4,8 @@ title: Evasi0n7
 description: Guida per l’installazione di Evasi0n7
 permalink: /it_IT/installing-evasi0n7
 redirect_from:
-  - /evasion7
-  - /evasi0n7
+  - /it_IT/evasion7
+  - /it_IT/evasi0n7
 discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:

@@ -4,7 +4,7 @@ title: "Repo Consigliate"
 description: Informazioni sui repository popolari per i tweak
 permalink: /it_IT/recommended-repos
 redirect_from:
-  - /repos
+  - /it_IT/repos
 extra_contributors:
   - TheHacker894
 ---

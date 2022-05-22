@@ -4,21 +4,21 @@ title: Aggiornare (Blobless)
 description: Guida all'aggiornamento a firmware non firmati senza alcun blob.
 permalink: /it_IT/updating-blobless
 redirect_from:
-  - /updating-to-12-5-5-(blobless)
-  - /updating-to-14-3-(blobless)
-  - /updating-to-14-4-(blobless)
-  - /updating-to-14-4-1-(blobless)
-  - /updating-to-14-4-2-(blobless)
-  - /updating-to-14-5-(blobless)
-  - /updating-to-14-6-(blobless)
-  - /updating-to-14-7-(blobless)
-  - /updating-to-14-7-1-(blobless)
-  - /updating-to-14-8-(blobless)
-  - /updating-to-14-8-(blobless-alternate)
-  - /updating-to-15-0-2-(blobless)
-  - /updating-alternate-edit
-  - /updating-to-14-8-(dallas)
-  - /updating-(blobless)
+  - /it_IT/updating-to-12-5-5-(blobless)
+  - /it_IT/updating-to-14-3-(blobless)
+  - /it_IT/updating-to-14-4-(blobless)
+  - /it_IT/updating-to-14-4-1-(blobless)
+  - /it_IT/updating-to-14-4-2-(blobless)
+  - /it_IT/updating-to-14-5-(blobless)
+  - /it_IT/updating-to-14-6-(blobless)
+  - /it_IT/updating-to-14-7-(blobless)
+  - /it_IT/updating-to-14-7-1-(blobless)
+  - /it_IT/updating-to-14-8-(blobless)
+  - /it_IT/updating-to-14-8-(blobless-alternate)
+  - /it_IT/updating-to-15-0-2-(blobless)
+  - /it_IT/updating-alternate-edit
+  - /it_IT/updating-to-14-8-(dallas)
+  - /it_IT/updating-(blobless)
 ---
 
 ## Lettura Necessaria

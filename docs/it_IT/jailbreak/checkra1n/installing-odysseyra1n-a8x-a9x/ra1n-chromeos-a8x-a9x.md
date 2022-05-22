@@ -4,7 +4,7 @@ title: checkra1n (A8X/A9X) (ChromeOS)
 description: Guida all'installazione di checkra1n su ChromeOS sui dispositivi A9X e A8X
 permalink: /it_IT/installing-checkra1n-chromeos-a8x-a9x
 redirect_from:
-  - /installing-checkra1n/chromeos/a8x-a9x
+  - /it_IT/installing-checkra1n/chromeos/a8x-a9x
 extra_contributors:
   - DhinakG
   - Tanbeer191
