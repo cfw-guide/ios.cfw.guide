@@ -18,7 +18,7 @@ module.exports = {
         released: "Rilasciato il ${released}",
         showMore: "Mostra altro"
       },
-      dateStyles: {
+      dateStyles: { // Don't translate this bit, just ask me (emiyl) to handle it
         yearOnly: { year: 'numeric'},
         yearAndMonth: { dateStyle: 'long'},
         yearMonthAndDay: { dateStyle: 'long'}
@@ -53,7 +53,7 @@ module.exports = {
           new: 'Versione del Software'
         },
         instructions: "1. Apri l'app Impostazioni\n1. Entra in `Generali` -> `Info` -> `${verStr}`",
-        image: {
+        image: { // For translating, you can take an identical screenshot of these images in the language that you're translating to
           altText: 'Trovare la versione di iOS su ${deviceType}',
           iphone: '/assets/images/find-version.jpg',
           ipad: '/assets/images/find-version-ipad.jpg',
