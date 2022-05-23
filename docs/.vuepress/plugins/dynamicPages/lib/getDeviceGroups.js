@@ -55,7 +55,7 @@ const deviceGroups = require('../../../json/deviceGroups')
 .map(x => {
     const devices = x.devices.map(y => deviceList[y])
 
-    let released = Array.from(new Set(
+    x.released = Array.from(new Set(
         devices
         .map(y => y.released)
         .filter(y => y)
@@ -68,11 +68,11 @@ const deviceGroups = require('../../../json/deviceGroups')
         if (a > b) return 1
         return 0
     })
-    if (released.join() != '') x.released = released.map(y => {
+    /*if (released.join() != '') x.released = released.map(y => {
         const releasedArr = y.split('-')
         const dateStyleArr = [{ year: 'numeric'}, { dateStyle: 'medium'}, { dateStyle: 'medium'}]
         return new Intl.DateTimeFormat('en-US', dateStyleArr[releasedArr.length-1]).format(new Date(y))
-    })
+    })*/
 
     x.soc = Array.from(new Set(devices.map(y => y.soc).filter(y => y).flat()))
     x.arch = Array.from(new Set(devices.map(y => y.arch).filter(y => y).flat()))

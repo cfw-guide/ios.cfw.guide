@@ -8,7 +8,7 @@ actions:
   - text: Get Started
     link: get-started
     type: secondary
-heroImage: https://ios.cfw.guide/assets/images/splash-taurine.png
+heroImage: /assets/images/splash-taurine.png
 heroFilter: 0.3
 ---
 

@@ -9,7 +9,7 @@ actions:
     text: Cominciamo!
     link: get-started
     type: secondario
-heroImage: https://ios.cfw.guide/assets/images/splash-taurine.png
+heroImage: /assets/images/splash-taurine.png
 heroFilter: 0.3
 ---
 

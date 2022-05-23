@@ -26,7 +26,7 @@
                     <li><router-link :to="url">{{ themeLocaleData.info.showMore }}</router-link></li>
                 </ul>
                 <ul class="devReleased infoList" style="position: relative; top: 9em;">
-                    <li v-if="dev.released">{{ themeLocaleData.info.released.format({ released: dev.released.slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
+                    <li v-if="released[dev.name]">{{ themeLocaleData.info.released.format({ released: released[dev.name].slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
                 </ul>
             </div>
         </div>
@@ -73,6 +73,18 @@ export default {
         },
         deviceArr() {
             return this.fm.group
+        },
+        released() {
+            let retObj = {}
+            for (const dev of this.deviceArr) {
+                let released = dev.released
+                if (released.join() != '') retObj[dev.name] = released.map(y => {
+                    const releasedArr = y.split('-')
+                    const dateStyleArr = [{ year: 'numeric'}, { dateStyle: 'medium'}, { dateStyle: 'medium'}]
+                    return new Intl.DateTimeFormat(this.fm.lang.replace(/_/g,'-'), dateStyleArr[releasedArr.length-1]).format(new Date(y))
+                })
+            }
+            return retObj
         },
         infoObj() {
             let labels = {
