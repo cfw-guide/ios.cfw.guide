@@ -17,6 +17,11 @@ module.exports = {
         latestFw: "Latest version: ${latestFw}",
         released: "Released on ${released}",
         showMore: "Show more"
+      },
+      dateStyles: {
+        yearOnly: { year: 'numeric'},
+        yearAndMonth: { dateStyle: 'medium'},
+        yearMonthAndDay: { dateStyle: 'medium'}
       }
     },
     getStarted: {

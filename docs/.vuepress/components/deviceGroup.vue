@@ -80,7 +80,7 @@ export default {
                 let released = dev.released
                 if (released.join() != '') retObj[dev.name] = released.map(y => {
                     const releasedArr = y.split('-')
-                    const dateStyleArr = [{ year: 'numeric'}, { dateStyle: 'medium'}, { dateStyle: 'medium'}]
+                    const dateStyleArr = [this.themeLocaleData.dateStyles.yearOnly, this.themeLocaleData.dateStyles.yearAndMonth, this.themeLocaleData.dateStyles.yearMonthAndDay]
                     return new Intl.DateTimeFormat(this.fm.lang.replace(/_/g,'-'), dateStyleArr[releasedArr.length-1]).format(new Date(y))
                 })
             }
