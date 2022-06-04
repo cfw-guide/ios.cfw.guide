@@ -10,6 +10,8 @@ extra_contributors:
   - DhinakG
   - Tanbeer191
   - TheHacker894
+  - zachary7829
+  - stekc
 ---
 
 ::: warning
