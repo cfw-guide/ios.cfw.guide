@@ -1,10 +1,11 @@
 ---
 lang: en_US
-title: Installing checkra1n (A8X/A9X) (ChromeOS)
-description: Guide to installing checkra1n on ChromeOS on A8X and A9X devices
-permalink: /installing-checkra1n-chromeos-a8x-a9x
+title: Installing Odysseyra1n (A8X/A9X) (ChromeOS)
+description: Guide to installing Odysseyra1n on ChromeOS on A8X and A9X devices
+permalink: /installing-odysseyra1n-chromeos-a8x-a9x
 redirect_from:
   - /installing-checkra1n/chromeos/a8x-a9x
+  - /installing-checkra1n-chromeos-a8x-a9x
 extra_contributors:
   - DhinakG
   - Tanbeer191
@@ -67,12 +68,19 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 Your iOS device should now reboot.
 
-After the device boots, open the checkra1n app and install Cydia.
+## The Odysseyra1n script
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes, packages and more.
+1. Open this page (ios.cfw.guide/installing-odysseyra1n-chromeos-a8x-a9x) on your device by typing this URL into Safari
+1. Click on [this hyperlink](https://www.icloud.com/shortcuts/8d4e206d568d4aadb624b2a6191a3771) on your device, and press `Get Shortcut
+    - If needed, download the Shortcuts app.
+1. When prompted, choose `Open`
+1. If necessary, press the `Procursus Bootstraper` icon, then press the Play icon.
+1. Press OK to any prompts which do come up
 
 ::: tip
 
-If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
+If prompted about an untrusted shortcut, run another shortcut, then open `Settings`, go to `Shortcuts`, and then toggle `Allow Untrusted Shortcuts`
 
 :::
+
+You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes, packages and more.

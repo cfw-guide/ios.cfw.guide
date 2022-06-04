@@ -41,8 +41,5 @@ Please select your operating system:
 
 ::: danger
 
-If you have a ChromeOS device, you can attempt to follow <router-link to="/installing-checkra1n-chromeos-a8x-a9x">Installing checkra1n (A8X/A9X) (ChromeOS)</router-link>, however, do note that it is not recommended because:
-  - It is impossible to use Odysseyra1n in a reliable manner, meaning you have to use regular checkra1n instead
-  - It requires a lot of extra steps to run in the first place
-
+If you have a ChromeOS device, you can attempt to follow <router-link to="/installing-odysseyra1n-chromeos-a8x-a9x">Installing Odysseyra1n (A8X/A9X) (ChromeOS)</router-link>, however, do note that it is not recommended due to the fact that it is both more time-consuming and more prone to user error.
 :::

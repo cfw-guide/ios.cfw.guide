@@ -81,6 +81,12 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 ## The Odysseyra1n script
 
+::: tip
+
+If you would prefer to do so, instead of running the script on your computer, you can run the Odysseyra1n script using the [shortcut](https://www.icloud.com/shortcuts/8d4e206d568d4aadb624b2a6191a3771) by opening this page on your device and then clicking the shortcut hyperlink.
+
+:::
+
 The following steps only need to be performed once and are optional but highly recommended for a smoother experience and modern bootstrap.
 
 1. Unlock your device

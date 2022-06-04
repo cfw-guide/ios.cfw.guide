@@ -48,6 +48,12 @@ To install Odysseyra1n, <u>do not</u> open the checkra1n app and install Cydia. 
 
 ## The Odysseyra1n script
 
+::: tip
+
+If you would prefer to do so, instead of running the script on your computer, you can run the Odysseyra1n script using the [shortcut](https://www.icloud.com/shortcuts/8d4e206d568d4aadb624b2a6191a3771) by opening this page on your device and then clicking the shortcut hyperlink.
+
+:::
+
 1. Open the terminal app on your computer
 1. Ensure that your computer is trusted by your device
 1. Install "iproxy" by pasting and executing the following command:
