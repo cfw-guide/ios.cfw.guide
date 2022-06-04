@@ -38,8 +38,7 @@ On A8X and A9X devices, it is not possible to use Odysseyn1x 2.14 (required for 
 
 - A 256MB or greater USB Drive
     - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
-- The latest version of [Odysseyn1x for A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-4)
-    - While it says "for A9X" and there are various mentions of only A9X within the program, this was before A8X devices were found to have similar issues
+- The latest version of [Odysseyn1x for A8X/A9X](https://github.com/asdfugil/checkn1x_a9x_kerninfo_pongoOS/releases/tag/14.5-a9x-6)
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)
@@ -74,7 +73,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 :::
 
-1. Once you have loaded odysseyn1x, select `checkra1n (A9X)`
+1. Once you have loaded odysseyn1x, select `checkra1n (A8X/A9X)`
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device reboots to a black screen
 1. Once your device boots, you can quit checkra1n, but do not shut down your computer
