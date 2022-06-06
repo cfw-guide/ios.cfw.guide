@@ -12,7 +12,7 @@ extra_contributors:
   - TheHacker894
 ---
 
-p0laris is capable of jailbreaking 32bit iOS devices on firmware version 9.3.5 and 9.3.6.
+p0laris is capable of jailbreaking A5(X) devices on firmware versions 9.3.5 and 9.3.6.
 
 Note that the p0laris jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
