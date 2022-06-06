@@ -26,6 +26,18 @@ extra_contributors:
 
 Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. Apps sideloaded with a regular Apple ID will expire after 7 days (or 365 days with a Developer Apple ID). After that period, you will no longer be able to open that app to re-jailbreak.
 
+::: danger
+
+If you are using an iOS 16 beta, you will need to take extra steps beforehand to open sideloaded apps:
+
+1. Open Settings
+1. Go to Privacy & Security and find the `Developer Mode` entry
+1. Toggle Developer Mode on, then press `Reboot`
+1. After the device reboots, unlock it, and confirm that you want to enable Developer Mode
+  - If you have a passcode enabled, you'll need to enter it.
+
+:::
+
 ## Sideloading apps
 
 ### Sideload using Sideloadly
