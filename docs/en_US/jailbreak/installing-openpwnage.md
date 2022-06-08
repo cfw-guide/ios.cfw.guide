@@ -23,7 +23,7 @@ We will use the Sideloadly tool to install the openpwnage jailbreak application 
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-p0laris is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+openpwnage is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
 - The latest version of [openpwnage](https://github.com/zachary7829/openpwnage)
