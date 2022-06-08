@@ -50,7 +50,7 @@ The app will now install to your iOS device.
     - Depending on your iOS version, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The p0laris application can now be opened from home screen.
+The openpwnage application can now be opened from home screen.
 
 ## Running openpwnage
 
