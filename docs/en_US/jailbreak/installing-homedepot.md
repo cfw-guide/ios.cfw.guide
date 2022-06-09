@@ -65,4 +65,19 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 
 :::
 
+## Untethering
+
+This is an optional step which allows the jailbreak to run automatically when your device is booted. This means that you won't have to re-jailbreak through the HomeDepot app after your device is turned off.
+
+You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-homedepot/using-cydia.html) first, before returning to this page.
+
+1. Open the Cydia application
+1. Check the "Sources" tab and ensure "tihmstar's beta repo" is added
+    - If you can't find it, tap `Edit` -> `+` and enter `repo.tihmstar.net`
+1. Open the "Search" tab and enter "UntetherHomeDepot"
+1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
+1. Confirm the installation
+
+Once finished, you will be prompted to reboot your device.
+
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
