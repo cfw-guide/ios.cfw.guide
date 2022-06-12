@@ -6,7 +6,7 @@ permalink: /updating-to-7-1-2-ipsw
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware version 4.2.5 on iPhone 4 (CDMA) devices. However, this device can update to 7.1.2 and jailbreak with a method not currently present on the guide.
+Unfortunately, there is currently no jailbreak available for firmware version 4.2.5 on iPhone 4 (CDMA) devices. However, this device can update to 7.1.2 and jailbreak using pangu7 instead.
 
 Due to the age of this iOS version, you will need to use iTunes or similar to manually update the device to iOS 7.1.2, as updating on the device was not a thing at the time of iOS 4.2.5.
 

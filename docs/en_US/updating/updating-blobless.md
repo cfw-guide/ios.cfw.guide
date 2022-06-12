@@ -29,7 +29,7 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.3.1** - June 12th, 2022
+- **15.3.1** - June 13th, 2022
 - **15.4** - June 29th, 2022
 - **15.4.1** - August 14th, 2022
 
