@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const req = require('require-yml');
 const p = 'docs/.vuepress/json/appledb/deviceFiles'
 
 function getAllFiles(dirPath, arrayOfFiles) {
