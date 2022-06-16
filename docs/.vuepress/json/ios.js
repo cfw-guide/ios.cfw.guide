@@ -51,6 +51,7 @@ iosArr.sort(function (a, b) {
 iosArr = iosArr.map(function(x) {
   if (!x.uniqueBuild) x.uniqueBuild = x.build
   if (!x.beta) x.beta = false
+  if (!x.deviceMap) x.deviceMap = []
   return x
 })
 

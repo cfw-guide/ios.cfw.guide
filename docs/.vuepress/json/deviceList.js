@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const req = require('require-yml');
 const p = 'docs/.vuepress/json/appledb/deviceFiles'
 
 function getAllFiles(dirPath, arrayOfFiles) {
@@ -30,8 +31,10 @@ deviceFiles = deviceFiles.map(function(x) {
 var deviceObj = {};
 
 for (const file in deviceFiles) {
-  const id = deviceFiles[file].split(path.sep).slice(-1)[0].split('.')[0]
-  deviceObj[id] = require('.' + path.sep + deviceFiles[file])
+  let req = require('.' + path.sep + deviceFiles[file])
+  if (!req.identifier) req.identifier = req.name
+  if (!req.key) req.key = req.identifier
+  deviceObj[req.key] = req
 }
 
 module.exports = deviceObj;

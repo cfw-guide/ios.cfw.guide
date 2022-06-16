@@ -34,8 +34,8 @@ for (const file in deviceFiles) {
 }
 
 const deviceObj = require('./deviceList')
-const deviceArr = Object.keys(deviceObj).map(key => deviceObj[key])
 
+const deviceArr = Object.keys(deviceObj).map(key => deviceObj[key])
 const devicesInDeviceGroups = deviceGroupArr.map(x => x.devices).flat()
 
 const allowedDeviceTypes = ['iPhone', 'iPad', 'iPod touch', 'iPad mini', 'iPad Air', 'iPad Pro', 'Apple TV', 'HomePod', 'Apple Watch']
