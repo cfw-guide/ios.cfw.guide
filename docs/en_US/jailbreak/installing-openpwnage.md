@@ -5,14 +5,13 @@ description: Guide to installing openpwnage
 permalink: /installing-openpwnage
 redirect_from:
   - /openpwnage
-  - /openpwnage
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - TheHacker894
 ---
 
-openpwnage is capable of jailbreaking all 32bit devices on firmware versions 9.0b1 to 9.3.6.
+openpwnage is capable of jailbreaking all 32bit devices on firmware versions 8.4b4 to 9.3.6.
 
 Note that the openpwnage jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
