@@ -2,7 +2,7 @@ module.exports = {
   search: 'Search',
   
   locales: {
-    lang: 'en-US',
+    lang: 'en_US',
     title: 'iOS Guide',
     description: 'A complete iOS modding guide, from stock to jailbroken.',
   },
@@ -19,6 +19,7 @@ module.exports = {
   	toggleSidebar: "Toggle sidebar",
     
     discordNoticeText: "For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).",
+    repoLabel: '<i class="fab fa-github"></i>',
       
     navbar: require('./navbar'),
     sidebar: require('./sidebar'),

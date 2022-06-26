@@ -26,7 +26,7 @@ To fix this:
 1. Check device manager for any Apple devices and uninstall them and any drivers
 1. Disconnect your device
 1. Install the iTunes `.exe` file from [apple.com](https://support.apple.com/kb/DL1816?locale=en_US) itself
-1. Boot your device into [Recovery Mode](https://www.howtogeek.com/396530/how-to-put-your-iphone-or-ipad-into-recovery-mode/) and plug it into your comoputer
+1. Boot your device into [Recovery Mode](https://www.howtogeek.com/396530/how-to-put-your-iphone-or-ipad-into-recovery-mode/) and plug it into your computer
 1. Uninstall the iBoot (Recovery) driver and software from Device Manager
 1. Run FutureRestore again
 1. Unplug and replug your device.

@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en_US
 title: "Package Managers"
 description: Information on the current package managers available to use
 permalink: /package-managers

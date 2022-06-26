@@ -14,7 +14,7 @@ extra_contributors:
   - hopolapopola
 ---
 
-SockH3lix is capable of jailbreaking 64-bit iOS devices on firmware version 10.0.1 up to 10.3.3.
+SockH3lix is capable of jailbreaking 64-bit iOS devices on firmware version 10.0 up to 10.3.3.
 
 It is also compatible with the iPhone 5 on 10.3.3 and 10.3.4. It is not compatible with A10 devices such as the iPhone 7 and iPad Pro (2nd generation).
 
@@ -23,6 +23,12 @@ Note that the sockH3lix jailbreak is not “persistent” (meaning it does not r
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the h3lix jailbreak application to your device every 7 days from your computer.
 
 We will use Sideloadly to install the application to your device.
+
+::: warning
+
+iPhone 5's using this jailbreak may run into an issue where tweaks will not load properly. If this happens, you should try restoring your device, then jailbreaking with <router-link to="/installing-h3lix">Installing h3lix</router-link> instead.
+
+:::
 
 ## Downloads
 

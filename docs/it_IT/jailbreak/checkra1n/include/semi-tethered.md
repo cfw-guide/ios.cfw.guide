@@ -1,0 +1,1 @@
+Odysseyra1n è un <router-link to="/it_IT/types-of-jailbreak/#semi-tethered-jailbreaks">jailbreak semi-tethered</router-link>, dovrai utilizzare un PC per ri-applicare l'exploit dopo un riavvio. Clicca qui per saperne di più.

@@ -6,7 +6,7 @@ permalink: /installing-evasi0n7
 redirect_from:
   - /evasion7
   - /evasi0n7
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - hopolapopola
@@ -29,7 +29,7 @@ In order to use Evasi0n, you will need a Windows computer running Windows 7 or n
 
 ::: warning
 
-If your device has been OTA updated to its current version of iOS 7, you may encounter a bootloop
+If your device has been OTA updated to its current version of iOS 7, you may encounter a bootloop or face other errors with attemping to jailbreak.
 
 :::
 

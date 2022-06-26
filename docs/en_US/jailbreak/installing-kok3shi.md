@@ -7,17 +7,17 @@ redirect_from:
   - /installing-kokeshi
   - /kok3shi
   - /kokeshi
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - TheHacker894
 ---
 
-Kok3shi is capable of jailbreaking the iPhone 5S and 6, iPad Air 1 and 2, iPad mini 2 - 4, and the 6th Generation iPod Touch on iOS 9.3 - 9.3.5. 
+Kok3shi is capable of jailbreaking A7 to A9(X) devices on 9.3 to 9.3.5, as well as 32-bit devices on 9.3.5/9.3.6
 
 ::: warning
 
-This jailbreak is in its early stages and therefore may not work as intended. Be sure to back up your iOS Device.
+32-bit device support on 9.3.5/9.3.6 is experimental. We recommend using <router-link to="/installing-phoenix">Phoenix</router-link> instead.
 
 :::
 

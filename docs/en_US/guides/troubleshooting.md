@@ -9,6 +9,7 @@ extra_contributors:
   - Tanbeer191
   - TheHacker894
   - raizo
+  - Superuser
 ---
 
 ## Bootloops and respring loops
@@ -123,9 +124,37 @@ Jailbreaks are hardly ever 100% successful, you may need to re-attempt running t
 ### Sileo not appearing upon initially jailbreaking on Chimera 1.6.1 or Taurine 1.1.2
 
 - If you are having this issue on Chimera, get the [latest version of Chimera](https://chimera.coolstar.org/)
-- If you are having this issue on Taurine, get the [1.1.1 version of Taurine](https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa)
+- If you are having this issue on Taurine, get the [latest version of Taurine](https://taurine.app/)
 
 ## Common Errors on unc0ver
+
+### General issues with unc0ver on iOS 14
+
+::: tip
+
+While these issues are generally the most frequent on iOS 14, some issues could be present even on earlier versions of iOS
+
+:::
+
+While using unc0ver on iOS 14, it is very common to run into the following issues:
+  - Apps hanging when trying to launch them
+  - Various app store related issues (including the inability to download apps or make in-app purchases)
+  - Being unable to receive phone calls while jailbroken
+  - Having issues utilizing cellular data (such as being unable to load web pages or other online services)
+  - Being unable to save, take, or view screenshots
+  - Safari not loading pages, or reloading pages infinitely
+  - The share sheet not functioning properly
+  - Issues connecting to Carplay.
+
+::: warning
+
+If you are using Fugu14 to have unc0ver be permanently signed, you may experience these issues to a larger extent, as well as some Fugu14 exclusive issues, such as:
+  - The inability to view battery statistics
+  - More frequent and random kernel panics
+
+:::
+
+To **temporarily** resolve these issues, userspace reboot by typing `launchctl reboot userspace` into a terminal app (e.g. NewTerm) on your device.
 
 ### rootFS already mounted
 
@@ -173,7 +202,7 @@ If this doesn't work, ask on the r/Jailbreak [Discord Server](https://discord.gg
 
 Your ability to fix this issue if you end up in this state depends on your iOS version:
 
-- If you are on iOS versions at or below 14.3 (excluding if you're on 11.x or are A12(X) 12.1.3-12.4.1), follow another jailbreak's <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> that is supported on your device/version combination.
+- If you are on iOS versions at or below 14.3 (excluding if you're on 11.x or are A12(X) 12.1.3-12.4.1), follow another jailbreak's <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> method that is supported on your device/version combination.
 - If you are on iOS versions 14.4 to 14.5.1, attempt to restore rootfs in the Fugu14 app
 - If you are either on iOS versions 14.6 to 14.8, or in the group excluded from the first group, your only options are to wait for another jailbreak, wait for an unc0ver update which fixes this issue, or to DFU Restore to the latest iOS version and lose your ability to jailbreak for the forseeable future
 

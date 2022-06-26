@@ -9,6 +9,8 @@ sidebar: false
 
 + <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
 + <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
++ <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
++ <router-link to="/using-odysseyn1x-a8x-a9x">Using odysseyn1x (A8X/A9X)</router-link>
 + <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
 + <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
 + <router-link to="/installing-taurine">Installing Taurine</router-link>
@@ -17,11 +19,13 @@ sidebar: false
 + <router-link to="/installing-electra">Installing Electra</router-link>
 + <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
 + <router-link to="/installing-h3lix">Installing h3lix</router-link>
-+ <router-link to="/installing-doubleh3lix-ipa">Installing doubleh3lix</router-link>
++ <router-link to="/installing-doubleh3lix-(ipa)">Installing doubleh3lix</router-link>
 + <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
 + <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
 + <router-link to="/installing-phoenix">Installing Phœnix</router-link>
++ <router-link to="/installing-p0laris">Installing p0laris</router-link>
 + <router-link to="/installing-kok3shi">Installing kok3shi</router-link>
++ <router-link to="/installing-openpwnage">Installing openpwnage</router-link>
 + <router-link to="/installing-pangu933">Installing Pangu9</router-link>
 + <router-link to="/installing-homedepot">Installing HomeDepot</router-link>
 + <router-link to="/installing-daibutsu">Installing daibutsu</router-link>
@@ -30,7 +34,9 @@ sidebar: false
 + <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 + <router-link to="/installing-p0sixspwn">Installing P0sixspwn</router-link>
 + <router-link to="/installing-evasi0n6">Installing evasi0n6</router-link>
++ <router-link to="/installing-pwnagetool">Installing PwnageTool</router-link>
 + <router-link to="/installing-absinthe">Installing Absinthe</router-link>
++ <router-link to="/installing-limera1n">Installing limera1n</router-link>
 + <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
 + <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 + <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
@@ -54,7 +60,7 @@ sidebar: false
 
 + <router-link to="/updating-blobless">Updating (Blobless)</router-link>
 + <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
-+ <router-link to="/updating-to-15-3-1">Updating to 15.3.1</router-link>
++ <router-link to="/updating-to-15-5">Updating to 15.5</router-link>
 + <router-link to="/updating-to-12-5-5">Updating to 12.5.5</router-link>
 + <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 + <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>

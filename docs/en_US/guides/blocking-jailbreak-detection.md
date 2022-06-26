@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en_US
 title: "Blocking Jailbreak Detection"
 description: Bypassing and avoiding jailbreak detection.
 permalink: /blocking-jailbreak-detection

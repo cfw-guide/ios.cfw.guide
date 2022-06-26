@@ -6,7 +6,7 @@ permalink: /installing-evasi0n6
 redirect_from:
   - /evasion6
   - /evasi0n6
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - hopolapopola
@@ -26,10 +26,10 @@ In order to use Evasi0n, you will need a Windows computer running Windows XP or 
 ## Installing Evasi0n6
 
 1. Extract the zip to a convenient location e.g. your Downloads folder
-2. Open the evasi0n application
-3. Plug your device into your computer
-4. In Evasi0n, click "Jailbreak"
-5. Once your phone has rebooted once, open the Evasi0n app on your home screen as prompted by the evasi0n desktop application
-6. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
+1. Open the evasi0n application
+1. Plug your device into your computer
+1. In Evasi0n, click "Jailbreak"
+1. Once your phone has rebooted once, open the Evasi0n app on your home screen as prompted by the evasi0n desktop application
+1. Once your phone has rebooted again, unlock your device. Evasi0n will reboot your device one last time and you will see the evasi0n logo on your phone as it boots up
 
 Once you see your lock screen, you should be jailbroken. Cydia will be on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

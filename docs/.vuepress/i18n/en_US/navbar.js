@@ -7,8 +7,8 @@ module.exports = [
         link: '/saving-blobs/',
       },
       {
-        text: 'Resigning Apps',
-        link: '/resigning-apps/',
+        text: 'Sideloading Apps',
+        link: '/sideloading-apps/',
       },
       {
         text: 'Jailbreak Detection',
@@ -17,6 +17,14 @@ module.exports = [
       {
         text: 'FutureRestore',
         link: '/futurerestore/',
+      },/*
+      {
+        text: 'Updating (Dallas)',
+        link: '/updating-dallas/',
+      },*/
+      {
+        text: 'Updating (Blobless)',
+        link: '/updating-blobless/',
       },
     ],
   },

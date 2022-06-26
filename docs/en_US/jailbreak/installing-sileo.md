@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: "Installing Sileo"
-description: Guide to using Cydia
+description: Guide to installing Sileo on checkra1n and unc0ver
 permalink: /installing-sileo
 redirect_from:
   - /install-sileo
@@ -9,7 +9,7 @@ redirect_from:
 
 ## Introduction
 
-This guide will allow you to install Sileo while using unc0ver, allowing you to take advantage of most of the benefits of Sileo while using unc0ver.
+This guide will allow you to install Sileo while using unc0ver or regular checkra1n, allowing you to take advantage of most of the benefits of Sileo while using unc0ver.
 
 ::: warning
 

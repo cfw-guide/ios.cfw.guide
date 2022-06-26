@@ -1,45 +1,43 @@
 module.exports = {
   deviceChart: {
-    info: {
-      title: "Info",
-      name: "Device:",
-      identifier: "Identifier:",
-      soc: "SoC:",
-      arch: "Arch:",
-      model: "Model:",
-      released: "Released:",
-      discontinued: "Discontinued:"
-    },
-    related: { title: "Related Devices" },
-    grouped: { title: "Grouped Devices" },
-    table: {
-      title: "Version Table",
-      tableHeader: [
-        "Build",
-        "Version",
-        "Jailbreak",
-      ],
-      simpleTableHeader: [
-        "From",
-        "To",
-        "Jailbreak",
-      ],
-      showBetaVersions: "Show Beta Versions",
-      hideBetaVersions: "Hide Beta Versions",
-      noJbTip: "For fields marked \"N/A\", there is no jailbreak for that version.",
-      betaTip: "If you have any information regarding jailbreak compatibility with beta versions, please let us know on <a href=\"https://discord.gg/QBj8pBa\" target=\"_blank\">Discord</a>${extLinkSvg}"
-    },
-    devices: {
-      iPhone: "iPhone",
-      iPad: "iPad",
-      mini: "iPad mini",
-      Pro: "iPad Pro",
-      Air: "iPad Air",
-      iPod: "iPod",
-      TV: "Apple TV",
-      Watch: "Apple Watch",
+    deviceSelection: {
+      pageTitle: "Device Selection (${deviceType})",
+      description: "Find out what jailbreaks you can use on your ${deviceType}",
+      requiredReading: {
+        title: "Required Reading",
+        content: [
+          "Different ${deviceType}s will require different steps to jailbreak your ${osStr} device. This page will help you find where to start.",
+          "Please select what model of ${deviceType} you have below."
+        ]
+      },
+      iPhoneNotice: "Note that all \"Plus\", \"Max\" and \"mini\" models of iPhones are functionally identical to the regular models.",
+      info: {
+        soc: "SoC: ${soc}",
+        arch: "Architecture: ${arch}",
+        latestFw: "Latest version: ${latestFw}",
+        released: "Released on ${released}",
+        showMore: "Show more"
+      },
+      dateStyles: { // Don't translate this bit, just ask me (emiyl) to handle it
+        yearOnly: { year: 'numeric'},
+        yearAndMonth: { dateStyle: 'medium'},
+        yearMonthAndDay: { dateStyle: 'medium'}
+      }
     },
     getStarted: {
+      pageTitle: "Get Started",
+      description: "Find out what jailbreaks you can use on your iOS Device",
+      requiredReading: {
+        title: "Required Reading",
+        content: [
+          "Different devices will require different steps to jailbreak your iOS device. This page will help you find where to start.",
+          "Please select what kind of device you have below."
+        ]
+      }
+    },
+    firmwareSelection: {
+      pageTitle: "Firmware Selection (${device})",
+      description: "Find out what jailbreaks you can use on your ${device}.",
       requiredReading: {
         title: "Required Reading",
         content: [
@@ -54,11 +52,8 @@ module.exports = {
           old: "Version",
           new: "Software Version",
         },
-        instructions: [
-          "Open the Settings application",
-          "Navigate to `General` -> `About` -> `${verStr}`",
-        ],
-        image: {
+        instructions: "1. Open the Settings application\n1. Navigate to `General\` -> `About` -> `${verStr}`",
+        image: { // For translating, you can take an identical screenshot of these images in the language that you're translating to
           altText: "Finding iOS version on an ${deviceType}",
           iphone: "/assets/images/find-version.jpg",
           ipad: "/assets/images/find-version-ipad.jpg",
@@ -66,6 +61,18 @@ module.exports = {
           ipadOld: "/assets/images/find-version-ipad-old.jpg",
         },
       }
-    }
+    },
+    table: {
+      title: "Version Table",
+      tableHeader: [
+        "From",
+        "To",
+        "Jailbreak",
+      ],
+      showBetaVersions: "Show Beta Versions",
+      hideBetaVersions: "Hide Beta Versions",
+      noJbTip: "For fields marked \"N/A\", there is no jailbreak for that version.",
+      showMore: "Show more"
+    },
   },
 }

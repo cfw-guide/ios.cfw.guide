@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: en_US
 title: Updating (Blobless) (Advanced)
 description: Guide on updating to unsigned firmwares without any blobs.
 permalink: /updating-blobless-advanced
 extra_contributors:
-  - flower
+  - flowerible
 ---
 
 ## Required Reading
@@ -15,17 +15,21 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **14.8.1** -  March 13th, 2022
-- **15.1 (All devices excluding iPhone 12/13 series)** - March 13th, 2022
-- **15.1.1 (iPhone 12/13 series)** -  March 13th, 2022
+- **15.3.1** - June 13th, 2022
+- **15.4** - June 29th, 2022
+- **15.4.1** - August 14th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
 Because you do not currently have a jailbreak (or you choose not to jailbreak for any reason), you'll have to use advanced methods, involving things such as resetting all contents and settings, to be able to update.
 
-::: warning
+::: danger
 
-If your device is not able to be jailbroken, you must be on iOS versions 14.5 to 14.8 to use the 14.8.1 profile.
+Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
+
+  - 15.3.1: March 14th, 2022
+  - 15.4: March 31st, 2022
+  - 15.4.1: May 16th, 2022
 
 :::
 
@@ -74,9 +78,7 @@ This method requires that you purchase iMazing, if you don't have money to purch
 
 1. When the device boots up after being erased, set it up, then open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [14.8.1](/assets/files/delay_14_8_1_alternate.mobileconfig)
-    - [15.1](/assets/files/delay_15_1.mobileconfig)
-    - [15.1.1](/assets/files/delay_15_1_1.mobileconfig)
+    - [15.3.1](/assets/files/delay_15_3_1.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Reboot your device
 1. Plug your device into power and connect to the Internet with Wi-Fi

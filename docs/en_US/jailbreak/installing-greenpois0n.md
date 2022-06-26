@@ -5,11 +5,11 @@ description: Guide to installing greenpois0n
 permalink: /installing-greenpois0n
 redirect_from:
     - /greenpois0n
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak <a href="http://discord.legacyjailbreak.com/">Discord Server</a>.
+discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---
 
-greenpois0n is capable of jailbreaking every iOS device except the iPhone 3G on firmware versions 4.1, 4.2.1, and 4.2.6
+greenpois0n is capable of jailbreaking every iOS device except the iPhone 3G on firmware versions 4.1, 4.2.1, and 4.2.6, as well as the iPad 1st Generation on version 3.2.2
 
 greenpois0n is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered</router-link> jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
 
@@ -18,7 +18,7 @@ greenpois0n is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">u
 - Computer running macOS 10.11.X or older or Windows XP - 8.1. Wine will not work.
 - [greenpois0n](https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/)
   - Choose RC6.1 if on iOS 4.2.1 or 4.2.6
-  - Choose RC4 if on iOS 4.1
+  - Choose RC4 if on iOS 4.1 or iPhoneOS 3.2.2
 - iTunes version 10.7 if on Windows
   - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
   - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)

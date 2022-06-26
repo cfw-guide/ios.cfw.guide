@@ -33,4 +33,28 @@ for (const file in deviceFiles) {
   deviceGroupArr.push(require('.' + path.sep + deviceFiles[file]));
 }
 
-module.exports = deviceGroupArr;
+const deviceObj = require('./deviceList')
+
+const deviceArr = Object.keys(deviceObj).map(key => deviceObj[key])
+const devicesInDeviceGroups = deviceGroupArr.map(x => x.devices).flat()
+
+const allowedDeviceTypes = ['iPhone', 'iPad', 'iPod touch', 'iPad mini', 'iPad Air', 'iPad Pro', 'Apple TV', 'HomePod', 'Apple Watch']
+const ungroupedDevices = deviceArr.map(x => {
+  if (!x.identifier) x.identifier = x.name
+  if (!x.key) x.key = x.identifier
+  return x
+}).filter(x => 
+  !devicesInDeviceGroups.includes(x.key) &&
+  x.group !== false &&
+  allowedDeviceTypes.includes(x.type)
+)
+
+const nowPutThemInGroups = ungroupedDevices.map(x => {
+  return {
+    name: x.name,
+    type: x.type,
+    devices: [x.key]
+  }
+})
+
+module.exports = deviceGroupArr.concat(nowPutThemInGroups)
