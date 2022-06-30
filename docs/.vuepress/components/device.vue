@@ -113,7 +113,7 @@ export default {
                 if (!jb) retJb.name = 'N/A'
                 else retJb = {
                     name: jb.name,
-                    url: `https://appledb.dev/jailbreak/${jb.name}`,
+                    url: `https://appledb.dev/jailbreak/${jb.name.replace(/ /g,'-')}`,
                     external: true
                 }
 
