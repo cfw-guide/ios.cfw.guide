@@ -101,6 +101,8 @@ After installing the necessary software, you can also install taurine-permanent 
 
 If you're on an A12 or later device, you'll need to take extra steps that are described after this section to be able to successfully jailbreak.
 
+As well, for some A12 and later devices on iOS 14.3, the app might not open, if this happens, you'll need to wait for a taurine-permanent update and you won't be able to use taurine-permanent at this time.
+
 :::
 
 ::: tip
