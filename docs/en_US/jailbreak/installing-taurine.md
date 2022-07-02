@@ -15,7 +15,7 @@ Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">s
 
 The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 14.0 to 14.3.
 
-Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
+Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days. However, if you are on an A11 or lower device, you have the option of installing a permanently signed Taurine app after jailbreaking.
 
 We will use Sideloadly to install the Taurine jailbreak application to your iOS device for use in the next step.
 
@@ -92,3 +92,27 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'
+
+After installing the necessary software, if you are on an A11 or lower device, you can also install taurine-permanent to have a permanently signed Taurine application, which we recommend doing.
+
+## Installing taurine-permanent
+
+::: danger
+
+This only works on A11 and lower devices right now, this does not work on A12 or later devices currently.
+
+:::
+
+::: tip
+
+This is a completely optional step, however it is recommended due to how it makes the process more convienent.
+
+:::
+
+1. Reopen the Sileo application
+1. Tap on the "Search" tab
+1. Search for "taurine-permanent"
+1. Tap "Install"
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap "Done"
