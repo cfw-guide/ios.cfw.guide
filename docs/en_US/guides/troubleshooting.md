@@ -99,6 +99,13 @@ Hold down the Side button and Volume Down button until the device reboots.
 ## Common Errors on Chimera, Odyssey, and Taurine
 
 ### ERR_Jailbreak
+
+::: danger
+
+If you are seeing this issue while using taurine-permanent, follow [ERR_Jailbreak when using taurine-permanent](#ERR_Jailbreak-when-using-taurine-permanent) instead.
+
+:::
+
 This is caused by you having used a previous jailbreak. To solve this, you need to restore rootfs:
 
 1. Reboot the device.
@@ -120,6 +127,14 @@ Once the restore rootfs successfully completes, try jailbreaking again.
 Jailbreaks are hardly ever 100% successful, you may need to re-attempt running the jailbreak multiple times
 
 :::
+
+### ERR_Jailbreak when using taurine-permanent
+
+To work around this issue, you'll need to do the following:
+
+1. Open taurine-permanent and try to jailbreak.
+1. When you get `ERR_Jailbreak`, close the app from the App Switcher.
+1. Reopen taurine-permanent and try to jailbreak again.
 
 ### Sileo not appearing upon initially jailbreaking on Chimera 1.6.1 or Taurine 1.1.2
 
