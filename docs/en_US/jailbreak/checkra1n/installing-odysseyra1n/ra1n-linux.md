@@ -24,10 +24,17 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 :::
 
+::: warning
+
+A7 devices will likely fail to successfully jailbreak with checkra1n on Linux, as a result, you'll need to use an older checkra1n version and quickly unplug and replug your device once you see `Right Before Trigger`. It is highly recommended to follow <router-link to="/installing-chimera">Installing Chimera</router-link> instead. 
+
+:::
+
 ## Downloads (Linux)
 
 - The latest release of [checkra1n](https://checkra.in)
   - If you are on an A8X or A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
+  - If you are on an A7 device, you should instead get the 0.10.1 release of [checkra1n](https://checkra.in/releases/0.10.1-beta#all-downloads)
 
 ![A screenshot of the checkra1n application](/assets/images/checkra1n.png)
 

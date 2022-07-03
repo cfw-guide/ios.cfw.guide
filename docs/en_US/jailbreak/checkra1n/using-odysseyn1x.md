@@ -32,6 +32,12 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
+::: warning
+
+A7 devices will likely fail to successfully jailbreak with Odysseyn1x, as a result, you'll need to use an older Odysseyn1x version and quickly unplug and replug your device once you see `Right Before Trigger`. It is highly recommended to follow <router-link to="/installing-chimera">Installing Chimera</router-link> instead.
+
+:::
+
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
 
 Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS devices with A7 to A11 SoC's on firmwares 12.0 to 14.8.1.
@@ -48,6 +54,7 @@ On iOS 14:
     - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
 - The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases)
     - If you are on an A8X or A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
+    - If you are on an A7 device, you should instead get the v2.12-checkra1n-0.10.1 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.12-checkra1n-0.10.1)
     - For 64-bit computers, download the "AMD64" version
     - For 32-bit computers, download the "i686" version
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)

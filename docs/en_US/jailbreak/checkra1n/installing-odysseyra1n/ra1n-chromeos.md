@@ -28,6 +28,12 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 :::
 
+::: warning
+
+A7 devices will likely fail to successfully jailbreak with checkra1n on Linux, as a result, you'll need to use an older checkra1n version and quickly unplug and replug your device once you see `Right Before Trigger`
+
+:::
+
 ::: danger
 
 This is a highly experimental guide page, there may be things not directly mentioned that need to be done in order to follow this. As a result, we highly recommend getting another type of computer instead if possible.
@@ -44,6 +50,7 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 - The latest release of [checkra1n](https://checkra.in)
   - If you are on an A8X or A9X device, you should instead get the 0.12.2 release of [checkra1n](https://checkra.in/releases/0.12.2-beta#all-downloads)
+  - If you are on an A7 device, you should instead get the 0.10.1 release of [checkra1n](https://checkra.in/releases/0.10.1-beta#all-downloads)
 
 ![A screenshot of the checkra1n application](/assets/images/checkra1n.png)
 
