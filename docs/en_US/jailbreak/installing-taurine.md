@@ -32,6 +32,7 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Taurine](https://taurine.app/)
+  - If you are on iOS 14.2 to 14.3 on an A12 or later device, you should get the 1.1.3 version of [Taurine](https://github.com/Odyssey-Team/Taurine/releases/download/1.1.3/Taurine-1.1.3.ipa) instead.
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -99,15 +100,7 @@ After installing the necessary software, you can also install taurine-permanent 
 
 ::: danger
 
-If you're on an A12 or later device, you'll need to take extra steps that are described after this section to be able to successfully jailbreak.
-
-As well, for some A12 and later devices on iOS 14.3, the app might not open, if this happens, you'll need to wait for a taurine-permanent update and you won't be able to use taurine-permanent at this time.
-
-:::
-
-::: tip
-
-This is a completely optional step, however it is recommended due to how it makes the process more convienent.
+A12 and later devices on 14.2 to 14.3 cannot utilize taurine-permanent at this time.
 
 :::
 
@@ -118,16 +111,3 @@ This is a completely optional step, however it is recommended due to how it make
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap "Done"
-
-::: warning
-
-To successfully rejailbreak using taurine-permanent, you'll need to do the following:
-1. Open the Taurine application that taurine-permanent installs
-1. Tap "Jailbreak"
-1. Once you get "ERR_Jailbreak", close the app using the App Switcher
-1. Reopen the Taurine application
-1. Tap "Jailbreak"
-
-You should be now be jailbroken.
-
-:::
