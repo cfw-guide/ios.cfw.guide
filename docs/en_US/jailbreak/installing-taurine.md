@@ -98,12 +98,6 @@ After installing the necessary software, you can also install taurine-permanent 
 
 ## Installing taurine-permanent
 
-::: danger
-
-A12 and later devices on 14.2 to 14.3 cannot utilize taurine-permanent at this time.
-
-:::
-
 1. Reopen the Sileo application
 1. Tap on the "Search" tab
 1. Search for "taurine-permanent"

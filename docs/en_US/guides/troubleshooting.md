@@ -130,9 +130,7 @@ Jailbreaks are hardly ever 100% successful, you may need to re-attempt running t
 
 ### ERR_Jailbreak when using taurine-permanent
 
-Unless you are on an A12 or later device on 14.2 to 14.3, to solve this, just get the latest version of taurine-permanent.
-
-If you're on an A12 or later device on 14.2 to 14.3, you'll need to wait for a taurine-permanent update.
+Update to the latest version of taurine-permanent.
 
 ### Sileo not appearing upon initially jailbreaking on Chimera 1.6.1 or Taurine 1.1.2
 
