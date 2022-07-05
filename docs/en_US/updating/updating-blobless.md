@@ -1,9 +1,12 @@
 ---
 lang: en_US
 title: Updating (Blobless)
-description: Guide on updating to unsigned firmwares without any blobs.
+description: Guide on updating to unsigned firmwares without any blobs using Dallas profiles.
 permalink: /updating-blobless
 redirect_from:
+  - /dallas
+  - /updating-(dallas)
+  - /updating-Dallas
   - /updating-to-12-5-5-(blobless)
   - /updating-to-14-3-(blobless)
   - /updating-to-14-4-(blobless)
@@ -19,111 +22,121 @@ redirect_from:
   - /updating-alternate-edit
   - /updating-to-14-8-(dallas)
   - /updating-(blobless)
+extra_contributors:
+  - DhinakG
 ---
 
 ## Required Reading
 
-iOS and iPadOS devices can typically only update to firmware versions which Apple has "signed". This usually means that you can only update to the most recent firmware versions. This is bad for jailbreaking, as most jailbreaks rely on exploits that have been patched in newer versions.
+::: tip
 
-Fortunately, we can use different "profiles" to delay a firmware update. This is intended for organisations which require additional time to update their devices, however we can also use these to update to unsigned firmware versions.
-
-This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
-
-- **15.3.1** - June 13th, 2022
-- **15.4** - June 29th, 2022
-- **15.4.1** - August 14th, 2022
-
-Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
-
-::: danger
-
-Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
-
-  - 15.3.1: March 14th, 2022
-  - 15.4: March 31st, 2022
-  - 15.4.1: May 16th, 2022
+If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
 
 :::
+
+::: warning
+
+This page now only exists as a placeholder until newer iOS versions are implemented
+
+:::
+
+## Requirements
+
+- A device you are able to jailbreak and install packages to
+    - Check <router-link to="/get-started">Get Started</router-link> if you are unsure
+- A backup of your device through iCloud
+
+## Instructions
+
+### Installing Dahlia
 
 ::: tip
 
-You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.
+The Dahlia tweak, when using Dallas profiles, redirects update searches to a different server. As such, the owners of the server will be able to view your IP address. This is normal, however if you are uncomfortable with this, follow <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link> instead.
 
 :::
 
-## Preparing
-
-1. Plug your iDevice into your computer and make a backup through iTunes or Finder
 1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repo: [https://cydia.ichitaso.com/](https://cydia.ichitaso.com/)
-1. Search and install the `SupervisedEnabler` package
-1. Reboot your device
-1. Your device should now be supervised
-    - You can check by going into the settings app, where a message should be present at the top indicating so. If there isn't, attempt to reinstall `SupervisedEnabler`
-1. Once you're back into your device, navigate to this webpage
-1. Tap a version below to install its respective update profile:
-    - [15.3.1](/assets/files/delay_15_3_1.mobileconfig)
-    - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
+1. Open your preferred package manager and add the following repos:
+    - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
+    - [https://repo.cadoth.net](https://repo.cadoth.net)
+1. Search and install the `Dahlia` package
+1. Tap `Reboot Device`, and then rejailbreak your device after rebooting
 
-## Restoring rootFS
+### Preparing to Update
+
+1. Open the settings app, scroll down, and tap on `Dahlia`
+1. Tap `Download Profiles`, then tap "Dallas"
+1. Tap on "Dallas Enabler" to download the profile
+1. Tap "Allow" when prompted
+1. Exit out of the Dahlia menu and go to `General` -> `Profiles & Device Management` -> `Dallas Enabler`
+1. Tap "Install" in the top right corner and enter your passcode if prompted
+1. Tap "Install" again twice to confirm
+1. Go back to the `Dahlia` tab in Settings
+1. Re-tap on `Download Profiles` and then re-tap "Dallas"
+1. Under "Version Profiles", tap the version that you want to update to
+1. Tap "Allow" when prompted
+1. Open the Settings app
+1. Exit out of the Dahlia menu and go to `General` -> `Profiles & Device Management` -> `Dallas - [Version]`
+   - If you see an error, make sure you're both jailbroken and that you installed Dallas Enabler earlier
+1. Tap "Install" in the top right corner and enter your passcode if prompted
+1. Tap "Install" again twice to confirm
+1. Reboot your device when prompted, then rejailbreak
+1. Reopen the Settings app and go back to the Dahlia tab
+1. Toggle `Enable Supervision-less Mode.`
+   - You can also choose to enable `Toggle Supervision` instead, but the only way to remove supervision after updating is to either wait for a jailbreak or resetting your device
+1. Make sure `Ready to Update` says "Yes"
+   - If it doesn't, click the "i" next to the "Ready to Update" tab, and see what the issue is
+
+### Restoring rootFS
 
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-1. Ensure that the version displayed is the version you are intending to update to
-    - **Do not** update yet, we will do this later
+1. Ensure that the version displayed is iOS version you desire to update to
+    - **Do not** update yet, we will do this shortly
+    - Ensure that the version displayed is the version that you want to update to
+    - If it says that your device is up to date, the server used for Dallas is offline; wait for it to go back online
 1. Open your current jailbreak and restore rootFS
     - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
 1. Reboot your device
 
-## Updating your firmware version
+### Updating your firmware version
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-1. Ensure that the version displayed is the version you are intending to update to
+1. Ensure that the version displayed is the version that you want to update to
 1. Download and install the update
-1. Once updated, remove the update profile and (if applicable) the beta profile through Settings
 
-If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. 
+### Removing Dallas profiles
 
-::: tip
-
-To remove supervision after updating, either jailbreak and then reinstall then uninstall SupervisedEnabler, or erase all content and settings and restore a backup made prior to becoming supervised.
-
-:::
+1. Open the Settings application after updating to version you desired to update to
+1. Go to `General` if not already there, then `Profiles and Device Management`
+1. Tap on both profiles, and tap `Remove Profile`
+    - Enter your passcode if asked
 
 ::: tip
 
-If the update was successful, continue to <router-link to="/get-started">Get Started</router-link> to jailbreak your device.
+If you chose to enable supervision earlier, your device will remain supervised. Being in a supervised state means that:
+
+- A message will display in Settings, showing that your device is supervised
+- Activation lock will be disabled, potentially making your device accessible by thieves (FindMy will still work however)
+- If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall apps on your device
+
+Note that, for most users, staying in a supervised state won't be an issue.
+
+It is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
+
+::: danger
+
+If you restore a backup made in a jailbroken state from **iTunes/Finder**, you may encounter severe issues, such as bootloops.
 
 :::
 
-## Troubleshooting
+::: warning
 
-::: tip
-
-If you needed to use OTAEnabler, and you needed to modify the Beta Profile in previous steps, you'll need to repeat that section after using OTAEnabler.
+If you restore a backup made in a jailbroken state from **iCloud**, you may encounter false-positive flagging of jailbreak detection. 
 
 :::
-
-### "iOS is up to date"
-
-1. Remove any beta profiles installed
-1. Install the OTADisabler tweak and then uninstall it
-1. Restart your device
-    - You can also use ldrestart or a userspace reboot
-
-### "Unable to check for updates"
-
-1. Restore rootFS through your jailbreak
-1. Install and open the <router-link to="/installing-unc0ver">unc0ver</router-link> application
-1. Turn off "Disable updates"
-1. Re-jailbreak using unc0ver
-
-### It just freezes
-
-Re-enable the OTA daemon using the iCleaner tweak
-
----
 
 Credits to [dhinakg](https://github.com/dhinakg/) for discovering this method.
