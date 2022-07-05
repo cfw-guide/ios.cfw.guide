@@ -32,7 +32,6 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Taurine](https://taurine.app/)
-  - If you are on iOS 14.2 to 14.3 on an A12 or later device, you should get the 1.1.3 version of [Taurine](https://github.com/Odyssey-Team/Taurine/releases/download/1.1.3/Taurine-1.1.3.ipa) instead.
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
