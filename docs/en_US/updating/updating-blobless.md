@@ -127,6 +127,8 @@ Note that, for most users, staying in a supervised state won't be an issue.
 
 It is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
 
+:::
+
 ::: danger
 
 If you restore a backup made in a jailbroken state from **iTunes/Finder**, you may encounter severe issues, such as bootloops.
