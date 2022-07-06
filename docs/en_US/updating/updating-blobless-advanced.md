@@ -15,8 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.3.1** - June 13th, 2022
-- **15.4** - June 29th, 2022
 - **15.4.1** - August 14th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
@@ -27,8 +25,6 @@ Because you do not currently have a jailbreak (or you choose not to jailbreak fo
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 15.3.1: March 14th, 2022
-  - 15.4: March 31st, 2022
   - 15.4.1: May 16th, 2022
 
 :::
@@ -78,7 +74,7 @@ This method requires that you purchase iMazing, if you don't have money to purch
 
 1. When the device boots up after being erased, set it up, then open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [15.3.1](/assets/files/delay_15_3_1.mobileconfig)
+    - [15.4.1](/assets/files/delay_15_4_1.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Reboot your device
 1. Plug your device into power and connect to the Internet with Wi-Fi
@@ -90,34 +86,10 @@ This method requires that you purchase iMazing, if you don't have money to purch
 
 After updating, you can remove supervision and restore your backup you made earlier by erasing all content and settings.
 
-If you're having issues with updating, install [OTAEnabler](https://repo.cadoth.net/) and reboot. If you're still having issues continue reading below. 
-
 ::: tip
 
 If the update was successful, continue to [Get Started](/get-started) to jailbreak your device.
 
 :::
-
-## Troubleshooting
-
-### "iOS is up to date"
-
-1. Remove any beta profiles installed
-1. Install the OTADisabler tweak and then uninstall it
-1. Restart your device
-    - You can also use ldrestart or a userspace reboot
-
-### "Unable to check for updates"
-
-1. Restore rootFS through your jailbreak
-1. Install and open the <router-link to="/installing-unc0ver">unc0ver</router-link> application
-1. Turn off "Disable updates"
-1. Re-jailbreak using unc0ver
-
-### It just freezes
-
-Re-enable the OTA daemon using the iCleaner tweak
-
----
 
 Credits to [dhinakg](https://github.com/dhinakg/) for discovering this method.
