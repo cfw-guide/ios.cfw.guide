@@ -84,7 +84,27 @@ If you previously attempted an older blobless method, remove all delay and beta 
 
 ::: tip
 
-To remove supervision after updating, either jailbreak and then reinstall then uninstall SupervisedEnabler, or erase all content and settings and restore a backup made prior to becoming supervised.
+As a result of needing supervision earlier, your device will remain supervised. Being in a supervised state means that:
+
+- A message will display in Settings, showing that your device is supervised
+- Activation lock will be disabled, potentially making your device accessible by thieves (FindMy will still work however)
+- If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall apps on your device
+
+Note that, for most users, staying in a supervised state won't be an issue.
+
+It is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
+
+:::
+
+::: danger
+
+If you restore a backup made in a jailbroken state from **iTunes/Finder**, you may encounter severe issues, such as bootloops.
+
+:::
+
+::: warning
+
+If you restore a backup made in a jailbroken state from **iCloud**, you may encounter false-positive flagging of jailbreak detection. 
 
 :::
 
