@@ -30,13 +30,13 @@ extra_contributors:
 
 ::: tip
 
-If you previously attempted the regular blobless method, remove all delay and beta profiles prior to following this method.
+If you previously attempted an older blobless method, remove all delay and beta profiles prior to following this method.
 
 :::
 
-::: warning
+::: tip
 
-This page now only exists as a placeholder until newer iOS versions are implemented
+You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.
 
 :::
 

@@ -33,6 +33,12 @@ You must have a jailbreak to follow these instructions. If you cannot jailbreak,
 
 :::
 
+::: tip
+
+If you previously attempted an older blobless method, remove all delay and beta profiles prior to following this method.
+
+:::
+
 ## Installing Dahlia
 
 1. Launch your current jailbreak
