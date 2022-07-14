@@ -51,7 +51,7 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 ::: danger
 
 
-You will bootloop if you jailbreak your device while in the dark
+You will bootloop if you jailbreak your device while in a dark space
 
 
 :::
@@ -75,7 +75,7 @@ You will bootloop if you jailbreak your device while in the dark
 1. Your device will reboot after a short period, then you will need to unlock it
 1. Wait a little while and your device will reboot one more time
 
-### Fixing bootloops while booting in the dark
+### Fixing bootloops while booting in a dark space
 
 1. Unlock your device and open Cydia
 1. Tap `Ignore (Temporary)`
