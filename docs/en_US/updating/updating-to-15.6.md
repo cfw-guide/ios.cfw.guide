@@ -1,17 +1,17 @@
 ---
 lang: en_US
-title: Updating to 15.5
-permalink: /updating-to-15-5
+title: Updating to 15.6
+permalink: /updating-to-15-6
 redirect_from:
-  - /updating-to-15-0
-  - /updating-to-15-0-1
-  - /updating-to-15-0-2
-  - /updating-to-15-1
-  - /updating-to-15-2
-  - /updating-to-15-2-1
-  - /updating-to-15-3-1
-  - /updating-to-15-4-1
-
+    - /updating-to-15-0
+    - /updating-to-15-0-1
+    - /updating-to-15-0-2
+    - /updating-to-15-1
+    - /updating-to-15-2
+    - /updating-to-15-2-1
+    - /updating-to-15-3-1
+    - /updating-to-15-4-1
+    - /updating-to-15-5
 ---
 
 ## Required Reading
