@@ -46,7 +46,7 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 
 On iOS 14: 
 - Odysseyra1n is only fully supported on A8, A9, A10(X), and A11 devices. A8X and A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A8X and A9X devices on 14.5 to 14.8.1, which is detailed at [Using Odysseyn1x (A9X)](/using-odysseyn1x-a9x).
--  A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+- On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 ## Requirements
 
@@ -56,6 +56,7 @@ On iOS 14:
     - If you are on an A8X or A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
     - If you are on an A7 device, you should instead get the v2.12-checkra1n-0.10.1 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.12-checkra1n-0.10.1)
     - For 64-bit computers, download the "AMD64" version
+        - It doesn't matter if you have an AMD processor or not, "AMD64" is just the name of the architecture
     - For 32-bit computers, download the "i686" version
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)
 

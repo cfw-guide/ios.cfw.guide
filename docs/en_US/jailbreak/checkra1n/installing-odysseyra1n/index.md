@@ -36,7 +36,7 @@ If you are already jailbroken with another jailbreak (besides Chimera, Odyssey, 
 
 On iOS 14: 
 - Odysseyra1n is only fully supported on A8, A9, A10(X), and A11 devices. A8X and A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A8X and A9X devices on 14.5 to 14.8.1, which is detailed at <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>.
--  A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+- On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 ---
 
