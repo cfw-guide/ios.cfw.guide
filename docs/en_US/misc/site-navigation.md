@@ -18,6 +18,7 @@ sidebar: false
 -   <router-link to="/installing-chimera">Installing Chimera</router-link>
 -   <router-link to="/installing-electra">Installing Electra</router-link>
 -   <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
+-   <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link>
 -   <router-link to="/installing-h3lix">Installing h3lix</router-link>
 -   <router-link to="/installing-doubleh3lix-(ipa)">Installing doubleh3lix</router-link>
 -   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
