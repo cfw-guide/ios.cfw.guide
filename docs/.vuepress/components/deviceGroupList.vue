@@ -117,8 +117,8 @@ export default {
             var ret = {}
             for (const d in firstDeviceObj) {
                 ret[d] = firstDeviceObj[d].imageBool ?
-                    `https://img.appledb.dev/device@preview/${firstDeviceObj[d].identifier}/0${this.isDarkMode && firstDeviceObj[d].dark ? '_dark' : ''}.png` :
-                    `/assets/images/logo${this.isDarkMode ? '_dark' : ''}.png`
+                    `https://img.appledb.dev/device@preview/${firstDeviceObj[d].identifier}/0${this.isDarkMode && firstDeviceObj[d].dark ? '_dark' : ''}.webp` :
+                    `/assets/images/logo${this.isDarkMode ? '_dark' : ''}.webp`
             }
             
             return ret
