@@ -188,10 +188,9 @@ This is a more advanced method and is not recommended for beginners.
 
 1. Download img4tool on your macOS or Linux machine with `curl -sO https://static.itsnebula.net/get_img4tool.sh && sh get_img4tool.sh`
     - You may review [this script](https://github.com/itsnebulalol/static/blob/main/get_img4tool.sh) before running if you'd like
-2. As the setup is a bit complex, navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk, including running the mount commands
-3. In the SSH session, run `cat /dev/rdisk1 | dd of=/mnt6/dump.raw bs=256 count=$((0x4000))` to get the raw file
-4. Open another terminal window, and run `scp -P 2222 root@localhost:/mnt/dump.raw .` to copy the file to your local machine
-5. Finally, run `img4tool --convert -s dumped.shsh dump.raw` in the same terminal window you ran the scp command
+2. As the setup is a bit complex, navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk
+3. Open another terminal window, run `ssh -p2222 root@localhost "cat /dev/rdisk1" | dd of=dump.raw bs=256 count=$((0x4000))` to get the raw file
+4. Finally, run `img4tool --convert -s dumped.shsh dump.raw` in the same terminal window you ran the previous command
 
 ::: tip
 
