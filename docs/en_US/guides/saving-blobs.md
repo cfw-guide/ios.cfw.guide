@@ -15,6 +15,7 @@ extra_contributors:
   - hopolapopola
   - wr3nch3000
   - Tanbeer191
+  - itsnebulalol
 ---
 
 This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. There are multiple methods below you can try. For unjailbroken devices, you will need to use the "Computer" method.
@@ -149,6 +150,63 @@ If you *restored* using a computer, your blobs will be "Erase" blobs, and **cann
 If you *updated* using a computer, your blobs will be "Update" blobs, and **can only** be used with the "Update (-u)" option in FutureRestore.
 
 ### Save Onboard Blobs
+
+### Using Deverser
+
+::: danger
+
+A Linux or macOS machine is required to use this method, and a jailbroken device with OpenSSH installed.
+
+On checkra1n/odysseyra1n, you don't need OpenSSH, but it's recommended for beginners.
+
+:::
+
+1. On your Linux or macOS machine, run `git clone https://github.com/joshuah345/deverser.git && cd deverser` to grab the source of Deverser from GitHub
+    - If you already have done this, run `cd deverser` and `git pull` to get the latest changes
+2. Run `chmod +x deverser.sh` to allow it to be executed, then run `./deverser.sh` to start the script
+3. Answer `Yes` if it asks to install img4tool
+    - img4tool converts the raw file to your usable SHSH blob
+4. Enter the device's IP address
+    - On checkra1n/odysseyra1n, you can run iproxy if you'd like.
+        - On macOS, in another terminal window, install libimobiledevice with `brew install libimobiledevice libirecovery`, then run `sudo iproxy 22 44`
+        - On Linux, we recommend using OpenSSH on the iDevice, but if you'd like to manually install libimobiledevice, a link to the binaries are [here](https://cadoth.net/~nyuszika7h/ios-builds/libimobiledevice-static-linux.tar.gz)
+    - To use OpenSSH, install it on your device, and get the device's IP address from Wi-Fi settings
+5. The script will then ask you to enter your device's root password twice
+    - If you aren't sure, it's probably `alpine`
+
+You can find your blob named `(YOUR ECID).dumped.shsh` in the directory you ran Deverser (usually ~/deverser).
+
+### Using an SSH Ramdisk
+
+::: danger
+
+A Linux or macOS machine is required to use this method, and a checkm8 device on iOS 12+.
+
+This is a more advanced method and is not recommended for beginners.
+
+:::
+
+1. Download img4tool
+2. As the setup is a bit complex, navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk, including running the mount commands
+3. In the SSH session, run `cat /dev/rdisk1 | dd of=/mnt6/dump.raw bs=256 count=$((0x4000))` to get the raw file
+4. Open another terminal window, and run `scp -P 2222 root@localhost:/mnt/dump.raw .` to copy the file to your local machine
+5. Finally, run `img4tool --convert -s dumped.shsh dump.raw` in the same terminal window you ran the scp command
+
+::: tip
+
+Run `reboot` in the SSH window to get back to iOS. You can also force reboot.
+
+:::
+
+You can find your blob named `dumped.shsh` in the default directory when you open your terminal (usually ~/).
+
+### Using System Info
+
+::: danger
+
+This method currently does not work and will fail to get your onboard blob.
+
+:::
 
 1. Add the [https://apt.arx8x.net](https://apt.arx8x.net) repo to your preferred <router-link to="/package-managers">package manager</router-link>
 2. Download the Tweak `System Info`
