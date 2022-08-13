@@ -14,6 +14,7 @@ extra_contributors:
   - TheHacker894
   - zachary7829
   - Nick Chan
+  - itsnebulalol
 ---
 
 ::: warning

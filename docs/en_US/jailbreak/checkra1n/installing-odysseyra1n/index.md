@@ -20,6 +20,7 @@ extra_contributors:
   - Tanbeer191
   - TheHacker894
   - zachary7829
+  - itsnebulalol
 ---
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
