@@ -47,6 +47,7 @@ sidebar: false
 -   <router-link to="/restoring-rootfs">Restoring Rootfs</router-link>
 -   <router-link to="/installing-sileo">Installing Sileo</router-link>
 -   <router-link to="/using-sileo">Using Sileo</router-link>
+-   <router-link to="/using-zebra">Using Zebra</router-link>
 -   <router-link to="/blocking-updates">Blocking Updates</router-link>
 -   <router-link to="/futurerestore">FutureRestore</router-link>
 -   <router-link to="/package-managers">Package Managers</router-link>
