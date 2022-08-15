@@ -75,6 +75,7 @@ Your iOS device should now reboot.
 ::: tip
 
 While you could, at this stage, install Cydia instead of continuing with the Odysseyra1n steps, we don't recommend it because of the fact that:
+
     - People generally tend to have more stability when using Odysseyra1n instead of installing Cydia
     - Certain ease-of-use functionality (such as shshd, which automatically saves blobs for you when jailbroken) is not available
     - Some tweaks may require or be better tested with software that Odysseyra1n utilizes, rather than the software that is used when you choose to install Cydia
