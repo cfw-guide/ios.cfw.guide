@@ -20,11 +20,13 @@ A respring loop is a symptom of an incompatible tweak(s), causing the device to 
 
 While there is no easy way to diagnose what causes a respring loop, the most likely culprit is your most recently installed/updated tweak being incompatible with your iOS version or another tweak.
 
-#### Semi-untethered jailbreaks
+#### Semi-(un)tethered jailbreaks
 
 ::: tip
 
-A semi-untethered jailbreak is a jailbreak that needs an app or website in order to jailbreak after a reboot.
+A semi-tethered jailbreak is a jailbreak that needs an app on a computer in order to jailbreak after a reboot.
+
+A semi-untethered jailbreak is a jailbreak that needs an app that is installed on the device or website in order to jailbreak after a reboot.
 
 :::
 
@@ -127,6 +129,14 @@ Once the restore rootfs successfully completes, try jailbreaking again.
 Jailbreaks are hardly ever 100% successful, you may need to re-attempt running the jailbreak multiple times
 
 :::
+
+### Unable to open NewTerm or Cr4shed (among other things) after a period of time on Taurine
+
+If you're on 14.3 *or* have an A12 or newer device, you likely either rebooted (which would mean you're no longer in a jailbroken state) or you may have something else causing issues entirely unrelated to the jailbreak.
+
+If you're on 14.0 to 14.2 *and* have A11 or earlier device, this issue is caused by the fact that some tweaks and apps use libaries which have components that may run before the jailbreak is able to stop codesigning. When this happens, affected tweaks and apps cannot be used.
+
+The easiest solution to this issue is to reboot and rejailbreak when this issue happens. Alternatively, if you do not want this issue to happen, you can jailbreak with <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link>, as Taurine and Odysseyra1n are both intercompatible with eachother, and Odysseyra1n is not affected by this issue.
 
 ### ERR_Jailbreak when using taurine-permanent
 
