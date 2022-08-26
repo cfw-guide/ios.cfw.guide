@@ -1,7 +1,7 @@
 ---
 lang: en_US
-title: Updating to 15.6
-permalink: /updating-to-15-6
+title: Updating to 15.6.1
+permalink: /updating-to-15-6-1
 redirect_from:
     - /updating-to-15-0
     - /updating-to-15-0-1
@@ -9,14 +9,17 @@ redirect_from:
     - /updating-to-15-1
     - /updating-to-15-2
     - /updating-to-15-2-1
+    - /updating-to-15.3
     - /updating-to-15-3-1
+    - /updating-to-15.4
     - /updating-to-15-4-1
     - /updating-to-15-5
+    - /updating-to-15.6
 ---
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to !!!include(./docs/en_US/include/latestfw)!!! and wait for an available jailbreak on iOS !!!include(./docs/en_US/include/latestfw)!!! instead.
+If you're on an unsupported firmware version, you can update to !!!include(./docs/en_US/include/latestfw)!!! and wait for an available jailbreak on iOS !!!include(./docs/en_US/include/latestfw)!!! instead. Keep in mind, you'll most likely be waiting for a jailbreak for a while.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is !!!include(./docs/en_US/include/latestfw)!!!, we can easily update to the desired firmware version.
 

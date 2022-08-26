@@ -7,13 +7,14 @@ redirect_from:
   - /repos
 extra_contributors:
   - TheHacker894
+  - itsnebulalol
 ---
 
 After installing your jailbreak, you may want to install some repos (<router-link to="/faq#repos">repositories</router-link>). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!
 
 ## BigBoss
 
-A default repo in most package managers, Big Boss is one of the largest repos, with thousands of tweaks and modifications to install. It's an essential repo that the majority of jailbreakers rely on.
+A default repo in most package managers, BigBoss is one of the largest repos, with thousands of tweaks and modifications to install. It's an essential repo that the majority of jailbreakers rely on.
 
 URL: `http://apt.thebigboss.org/repofiles/cydia/`
 
@@ -33,6 +34,8 @@ URL: [`https://havoc.app/`](https://havoc.app/)
 
 SparkDev's repo includes a host of new tweaks which can enhance iOS, with many focusing on the iPhone X, including an impressive always-on OLED experience.
 
+A package that most people will use from SparkDev's repo is SnowBoard, which can theme icons, UI elements, and more.
+
 URL: [`https://sparkdev.me/`](https://sparkdev.me/)
 
 ## 1Conan's Repo
@@ -41,7 +44,7 @@ This repo is a small one, but includes a crucial tool: TSS Saver. This allows yo
 
 Saving these will allow you to update and downgrade to the specific firmware version that was available when you saved the blobs.
 
-It's important to save them with this tool every time a new update is released.
+It's important to save them with this tool every time a new update is released. For more info about blobs, go to the <router-link to="/saving-blobs">Saving Blobs guide</router-link>.
 
 URL: [`http://repo.1conan.com/`](http://repo.1conan.com/)
 
