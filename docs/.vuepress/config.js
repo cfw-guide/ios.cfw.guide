@@ -14,6 +14,10 @@ module.exports = {
     logo: '/assets/images/logo.png',
     logoDark: '/assets/images/logo_dark.png',
     locales: themeConfigLocales,
+    adUnits: [
+      "8541",
+      "8542"
+    ]
   }),
 
 	plugins: [
@@ -28,7 +32,7 @@ module.exports = {
   
   head: [
     ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
-    ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8531.js'}],
+    ['script', {type: 'text/javascript', src: 'https://cdn.thisiswaldo.com/static/js/8531.js'}],
     ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
     ['script', {src: '/assets/js/analytics.js'}],
     ['script', {src: '/assets/js/if_jailbreaksapp_signed.js'}],
