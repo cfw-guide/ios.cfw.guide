@@ -15,8 +15,8 @@ module.exports = {
     logoDark: '/assets/images/logo_dark.png',
     locales: themeConfigLocales,
     adUnits: [
-      "8408",
-      "8442"
+      "8541",
+      "8542"
     ]
   }),
 
