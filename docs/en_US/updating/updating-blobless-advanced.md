@@ -15,7 +15,9 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.4.1** - August 14th, 2022
+- **12.5.6** (*Only for devices which did not receive iOS 13 or newer*) - November 29th, 2022
+- **15.5** - October 18th, 2022
+- **15.6** - November 15th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -25,7 +27,9 @@ Because you do not currently have a jailbreak (or you choose not to jailbreak fo
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 15.4.1: May 16th, 2022
+  - 12.5.6: August 31st, 2022
+  - 15.5: July 20th, 2022
+  - 15.6: August 17th, 2022
 
 :::
 
