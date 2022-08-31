@@ -33,7 +33,6 @@ module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
     ['script', {type: 'text/javascript', src: 'https://cdn.thisiswaldo.com/static/js/8406.js'}],
-    ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
     ['script', {src: '/assets/js/analytics.js'}],
     ['script', {src: '/assets/js/if_jailbreaksapp_signed.js'}],
     ['script', {src: '/assets/js/show_if_windows.js'}],
