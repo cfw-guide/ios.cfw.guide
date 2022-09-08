@@ -78,11 +78,14 @@ const deviceGroups = require('../../../json/deviceGroups')
     x.arch = Array.from(new Set(devices.map(y => y.arch).filter(y => y).flat()))
 
     let latestFw = osArr.filter(y => y.deviceMap.some(r => x.devices.includes(r)))[0]
+    if (!latestFw) return null
+
     x.latestFw = [[latestFw.osStr, latestFw.version].join(' ')]
     x.latestOsStr = latestFw.osStr
 
     return x
 })
+.filter(x => x)
 .sort((a,b) => {
     let arr = [a,b].map(x => x.type)
     if (arr[0] < arr[1]) return -1
