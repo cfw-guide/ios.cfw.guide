@@ -107,7 +107,6 @@ export default {
             }
 
             const overrides = { 
-                iPhone: "iPhone14,2",
                 AirPods: "AirPods1,1"
             }
             
