@@ -18,6 +18,7 @@ This has a time limit, however. You will only be able to update to the following
 - **12.5.6** (*Only for devices which did not receive iOS 13 or newer*) - November 29th, 2022
 - **15.5** - October 18th, 2022
 - **15.6** - November 15th, 2022
+- **15.6.1** - December 11th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -28,6 +29,7 @@ Depending on your target iOS version, you won't be able to do this if you future
   - 12.5.6: August 31st, 2022
   - 15.5: July 20th, 2022
   - 15.6: August 17th, 2022
+  - 15.6.1: September 12th, 2022
 
 :::
 

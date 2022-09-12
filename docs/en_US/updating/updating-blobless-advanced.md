@@ -18,6 +18,7 @@ This has a time limit, however. You will only be able to update to the following
 - **12.5.6** (*Only for devices which did not receive iOS 13 or newer*) - November 29th, 2022
 - **15.5** - October 18th, 2022
 - **15.6** - November 15th, 2022
+- **15.6.1** - December 11th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -30,6 +31,7 @@ Depending on your target iOS version, you won't be able to do this if you future
   - 12.5.6: August 31st, 2022
   - 15.5: July 20th, 2022
   - 15.6: August 17th, 2022
+  - 15.6.1: September 12th, 2022
 
 :::
 
@@ -78,7 +80,8 @@ This method requires that you purchase iMazing, if you don't have money to purch
 
 1. When the device boots up after being erased, set it up, then open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [15.4.1](/assets/files/delay_15_4_1.mobileconfig)
+    - [15.5](/assets/files/delay_15_5.mobileconfig)
+    - [12.5.5](/assets/files/delay_12_5_5.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Reboot your device
 1. Plug your device into power and connect to the Internet with Wi-Fi
