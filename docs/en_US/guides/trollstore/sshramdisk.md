@@ -9,6 +9,8 @@ redirect_from:
 extra_contributors:
   - opa334
   - Nathan
+  - nebula
+  - Superuser
 ---
 
 ## Requirements
@@ -28,7 +30,7 @@ This will replace the `Tips` app on your device with TrollHelper
 1. Connect your device to your computer and enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>
 1. Open a Terminal
 1. Run `git clone https://github.com/verygenericname/SSHRD_Script --recursive && cd SSHRD_Script`
-1. Run `./sshrd.sh <ios version> TrollStore Tips`
+1. Run `./sshrd.sh 14.8 TrollStore Tips`
 1. Run `./sshrd.sh boot`
 
 Once your device reboots, the Tips app should open TrollHelper
