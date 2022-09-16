@@ -16,7 +16,6 @@ extra_contributors:
 You will need:
 - An A11 or earlier device on iOS 15.0 to 15.5b4
 - A macOS or Linux computer
-- The latest iOS versions' `.ipsw` file for your device, which can be found on [ipsw.me](https://ipsw.me)
 
 ## Installing TrollHelper
 
@@ -29,7 +28,7 @@ This will replace the `Tips` app on your device with TrollHelper
 1. Connect your device to your computer and enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>
 1. Open a Terminal
 1. Run `git clone https://github.com/verygenericname/SSHRD_Script --recursive && cd SSHRD_Script`
-1. Run `./sshrd.sh <the ipsw file location> TrollStore Tips`
+1. Run `./sshrd.sh <ios version> TrollStore Tips`
 1. Run `./sshrd.sh boot`
 
 Once your device reboots, the Tips app should open TrollHelper
