@@ -186,19 +186,13 @@ This is a more advanced method and is not recommended for beginners.
 
 :::
 
-1. Download img4tool on your macOS or Linux machine with `curl -sO https://static.itsnebula.net/get_img4tool.sh && sh get_img4tool.sh`
-    - You may review [this script](https://github.com/itsnebulalol/static/blob/main/get_img4tool.sh) before running if you'd like
-2. As the setup is a bit complex, navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk
-3. Open another terminal window, run `ssh -p2222 root@localhost "cat /dev/rdisk1" | dd of=dump.raw bs=256 count=$((0x4000))` to get the raw file
-4. Finally, run `img4tool --convert -s dumped.shsh dump.raw` in the same terminal window you ran the previous command
+1. Navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk
+    - Using `14.8` as the ramdisk version is recommended, but you can choose whatever
+2. Run `./sshrd.sh dump-blobs`
+3. Finally, run `./sshrd.sh ssh`, then run `reboot` in the SSH session.
+    - Force rebooting will work too
 
-::: tip
-
-Run `reboot` in the SSH window to get back to iOS. You can also force reboot.
-
-:::
-
-You can find your blob named `dumped.shsh` in the default directory when you open your terminal (usually ~/).
+You can find your blob named `dumped.shsh` in the directory where you cloned the repo (usually ~/SSHRD_Script).
 
 ### Using System Info
 
