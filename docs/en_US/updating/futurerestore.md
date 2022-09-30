@@ -73,10 +73,11 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 1. Open FutureRestoreGUI on your computer
     - If prompted by Windows Defender, Windows Smartscreen or other anti-virus software, allow the program to run - it’s safe
 1. When opening FutureRestoreGUI, you should be greeted by this menu:
-![image](https://user-images.githubusercontent.com/48022799/147845013-73dbda5b-500d-4f5a-ae51-3751d9268fe6.png)
+![image](https://user-images.githubusercontent.com/48022799/147845013-73dbda5b-500d-4f5a-ae51-3751d9268fe6.png](https://media.discordapp.net/attachments/594022956313608204/1025256111479197756/unknown.png)
 
 1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-** Note:** If your device supports iOS 15 or is a WiFi only-iPad, you will need to click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. 
+** Note:** If your device supports iOS 15 or is a WiFi only-iPad, you will need to click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. **This option is only available for macOS and Linux**
+  - Windows users must download the beta from [here](https://cdn.discordapp.com/attachments/917198974555942942/1023188228972494858/futurerestore_292_local_win_x64.exe). Once that is done, press `Select FutureRestore Binary/Executable` and navigate to where you have downloaded the beta. Select the file and click `Open`
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
