@@ -12,12 +12,12 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Notes
-If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15 and are on an A12+ device, you will not be able to downgrade, as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.
+If you are on iOS 15.2 or newer on an A11- device, you should follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15.2 or newer and are on an A12+ device, you will not be able to downgrade, as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.2 or newer.
 
 ## Requirements
 
 - Blobs saved for the version you want to restore to
-- A jailbroken device
+- A jailbroken device **or** a device on 15.0-15.1.1
 
 ## Downloads
 
@@ -26,6 +26,9 @@ If you are on iOS 15, you will need to follow [this](https://gist.github.com/nyu
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
+- If on an iOS 15.0-15.1.1 device
+  - The latest version of [TrollStore](https://github.com/opa334/TrollStore/releases)
+  - The latest version of [TrollNonce](https://github.com/opa334/TrollNonce/releases)
 
 ## Getting Started
 
@@ -56,24 +59,32 @@ If you're using unc0ver on iOS 14.6-14.8, you cannot use dimentio as libkrw isn'
     - By default, this is set to `alpine`, not your phone's password.
 1. Once the command executes, a lot of text should appear
 1. Near the end of the text, you should see the line `Set nonce to [generator]`
+
+::: danger
+
+You **must** make sure that the latest SEP/BB is compatible to the version you are attempting to restore to in order to prevent bootloops! To do so, please consult the [SEP/BB Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0). If a cell says "Compatible" then you are free to restore to that version.
+
+:::
  
 ### On Computer 
 1. Connect your iDevice to your computer
 1. Make sure that your computer is trusted by your device
     - Optionally, you can create a full backup of your device through iTunes or Finder
 1. Open FutureRestoreGUI on your computer
-    - If prompted by Windows Defender or other anti-virus software, allow the program to run - it’s safe
+    - If prompted by Windows Defender, Windows Smartscreen or other anti-virus software, allow the program to run - it’s safe
 1. When opening FutureRestoreGUI, you should be greeted by this menu:
 ![image](https://user-images.githubusercontent.com/48022799/147845013-73dbda5b-500d-4f5a-ae51-3751d9268fe6.png)
 
 1. Click the `Download FutureRestore` button to fetch the latest version of FutureRestore
-** Note:** If your device supports iOS 15 or is a WiFi only-iPad, you will need to click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. This version of futurerestore **requires** macOS or Linux.
+** Note:** If your device supports iOS 15 or is a WiFi only-iPad, you will need to click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. 
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
 1. If you are not downgrading, then it is safe to enable `Preserve Data` in the options menu in order to keep data. However using it while downgrading may be dangerous
 1. Do not enable `AP Nonce Collision` on any modern devices
-1. Click Next to navigate to the controls menu
-1. Click `Start Futurerestore`
+2. Enable `Custom Latest` and input `15.7` into the box
+3. Enable `No RSEP` 
+4. Click Next to navigate to the controls menu
+5. Click `Start Futurerestore`
 
 If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #futurerestore-help channel on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).
