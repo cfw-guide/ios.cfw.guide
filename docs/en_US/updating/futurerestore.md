@@ -79,7 +79,7 @@ This method will not work for A9 devices. If you cannot jailbreak, you must foll
 ::: 
 
 1. Open the TrollNonce app 
-2. Select the `Set Nonce` option, then input the generator value you found in your blob into the box. Click `Set`
+2. Select the `Set Nonce` option, then input the generator value you found in your blob into the box. Tap `Set`
 
 ::: danger
 
@@ -108,4 +108,4 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 4. Click Next to navigate to the controls menu
 5. Click `Start Futurerestore`
 
-If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #futurerestore-help channel on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).
+If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #genius-bar thread on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).
