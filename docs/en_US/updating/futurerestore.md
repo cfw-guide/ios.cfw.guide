@@ -19,6 +19,12 @@ If you are on iOS 15.2 or newer on an A11- device, you should follow [this](http
 - Blobs saved for the version you want to restore to
 - A jailbroken device **or** an A10+ device on 15.0-15.1.1
 
+::: danger
+
+You **must** make sure that the latest SEP/BB is compatible to the version you are attempting to restore to in order to prevent bootloops! To do so, please consult the [SEP/BB Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0). If a cell says "Compatible" then you are free to restore to that version.
+
+:::
+
 ## Downloads
 
 - The latest release of [FutureRestore-GUI](https://github.com/CoocooFroggy/FutureRestore-GUI/releases)
@@ -80,14 +86,9 @@ This method will not work for A9 devices. If you cannot jailbreak, you must foll
 
 1. Open the TrollNonce app 
 2. Select the `Set Nonce` option, then input the generator value you found in your blob into the box. Tap `Set`
-
-::: danger
-
-You **must** make sure that the latest SEP/BB is compatible to the version you are attempting to restore to in order to prevent bootloops! To do so, please consult the [SEP/BB Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0). If a cell says "Compatible" then you are free to restore to that version.
-
-:::
  
 ### On Computer 
+
 1. Connect your iDevice to your computer
 1. Make sure that your computer is trusted by your device
     - Optionally, you can create a full backup of your device through iTunes or Finder
@@ -108,4 +109,4 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 4. Click Next to navigate to the controls menu
 5. Click `Start Futurerestore`
 
-If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #genius-bar thread on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).
+If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #genius-bar forum on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).
