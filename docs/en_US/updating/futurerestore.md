@@ -17,6 +17,7 @@ If you are on iOS 15.2 or newer on an A11- device, you should follow [this](http
 ## Requirements
 
 - Blobs saved for the version you want to restore to
+  - These blobs must be for **your** device only; you cannot use other people's blobs
 - A jailbroken device **or** an A10+ device on 15.0-15.1.1
 
 ::: danger
@@ -52,6 +53,12 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 3. Proceed to the next section
 
 ## Finding the generator
+
+::: danger
+
+Make sure you do not edit the blob file! Doing so will make it invalid and unusable with futurerestore.
+
+:::
 
 1. Open your blob in a text editor and search for `generator`
    ![GeneratorExample](https://user-images.githubusercontent.com/48022799/117004373-aa0b6700-acee-11eb-8a70-c488163e349b.jpeg) 
