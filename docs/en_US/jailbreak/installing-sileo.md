@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: "Installing Sileo"
-description: Guide to installing Sileo on checkra1n and unc0ver
+description: Guide to installing Sileo
 permalink: /installing-sileo
 redirect_from:
   - /install-sileo
@@ -9,15 +9,15 @@ redirect_from:
 
 ## Introduction
 
-This guide will allow you to install Sileo while using unc0ver or regular checkra1n, allowing you to take advantage of most of the benefits of Sileo while using unc0ver.
+This guide will allow you to install Sileo if you are using a jailbreak which includes Cydia by default instead.
 
 ::: warning
 
-It is highly recommended to switch to <router-link to="/installing-taurine">Taurine</router-link> (iOS 14), <router-link to="/installing-odyssey">Odyssey</router-link> (iOS 13), <router-link to="/installing-chimera">Chimera</router-link> (iOS 12), or <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link> if possible, for the best experience using Sileo.
+Sileo only supports iOS 12 or newer, if you're on iOS 9 to 11, consider <router-link to="/installing-zebra">installing Zebra</router-link> instead.
 
 :::
 
-## Adding GetSileo
+## Adding the Sileo repo
 
 1. Open the Cydia application
 1. Tap `Sources` on the bar at the bottom
@@ -25,11 +25,10 @@ It is highly recommended to switch to <router-link to="/installing-taurine">Taur
 1. Tap the `+` icon in the top right-hand corner
 1. Enter in `repo.getsileo.app`
 1. Tap `Add Source`
+1. Tap `Return to Cydia`
 
 ## Installing Sileo
 
-1. Open the Cydia application
-1. Tap `Sources` on the bar at the bottom
 1. Tap on the `repo.getsileo.app` repo
 1. Tap `Packaging`
 1. Tap `Sileo`
@@ -50,4 +49,5 @@ Attempting to delete Cydia from your device after installing Sileo may cause iss
 ::: tip
 
 Continue to <router-link to="/using-sileo">Using Sileo</router-link>
+
 :::

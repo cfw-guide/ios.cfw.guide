@@ -76,3 +76,9 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 ----
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+::: tip
+
+If you wish to use a more modern package manager, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
+
+:::

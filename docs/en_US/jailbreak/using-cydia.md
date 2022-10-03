@@ -11,7 +11,11 @@ extra_contributors:
 
 ::: warning
 
-Cydia is incredibly outdated. If you are using a modern jailbreak on iOS 11 or newer, consider using <router-link to="/installing-sileo">Sileo</router-link>
+Cydia is incredibly unmaintained and does not support several modern functions, as a result, we generally recommend using a more modern package manager if your device supports it. 
+
+If you are on iOS 12 or newer, consider using <router-link to="/installing-sileo">Sileo</router-link> instead.
+
+If you are on iOS 9 or newer, consider using <router-link to="/installing-zebra">Zebra</router-link> instead.
 
 :::
 

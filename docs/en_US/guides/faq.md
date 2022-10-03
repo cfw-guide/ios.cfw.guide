@@ -58,7 +58,7 @@ DFU mode is a way you can interact with your iOS device without loading the oper
 ### What can I do once jailbroken?
 
 - Gain full access to your device's OS
-- Get access to a package manager, such as Sileo
+- Get access to a package manager, such as Sileo or Zebra
 - Install themes to change the look and feel of your device
 - Install tweaks to change how iOS behaves
 

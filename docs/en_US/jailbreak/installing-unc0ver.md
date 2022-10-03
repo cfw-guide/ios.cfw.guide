@@ -105,6 +105,9 @@ You should now be jailbroken with Cydia installed on your home screen. You can u
 
 ::: tip
 
-If you wish to use a more modern package manager, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
+If you wish to use a more modern package manager, continue to the following depending on your iOS version:
+
+- If you are on iOS 12 or later, continue to <router-link to="/installing-sileo">Installing Sileo</router-link>
+- If you are on iOS 11, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
 
 :::

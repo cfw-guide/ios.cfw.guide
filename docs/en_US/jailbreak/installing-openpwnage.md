@@ -63,3 +63,9 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+::: tip
+
+If you wish to use a more modern package manager, and are on iOS 9, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
+
+:::

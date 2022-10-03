@@ -81,3 +81,9 @@ You will have to use Cydia to install the untether. If you are unfamiliar with h
 Once finished, you will be prompted to reboot your device.
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+::: tip
+
+If you wish to use a more modern package manager, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
+
+:::
