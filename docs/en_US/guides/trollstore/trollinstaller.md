@@ -45,7 +45,7 @@ The TrollInstaller application can now be opened from home screen.
 
 1. Open the `TrollInstaller` app on your home screen
 1. Press `Install`
-  - If your device reboots, redo these steps
+    - If your device reboots, redo these steps
 
 TrollStore should now be installed. If it doesn't appear on the home screen, restart your device.
 
@@ -66,6 +66,6 @@ This will replace the `Tips` app (or another app that you choose) on your device
 1. Open the `TrollStore` app on your home screen
 1. Press on the `Settings` tab and press `Install Persistence Helper`
 1. Select the `Tips` app
-  - You can choose another *uninstallable default app* instead, but we recommend the tips app as it's the most useless app present.
+    - You can choose another *uninstallable default app* instead, but we recommend the tips app as it's the most useless app present.
 
 The app which was replaced should now open the Persistence Helper.

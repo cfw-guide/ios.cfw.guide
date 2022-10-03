@@ -75,7 +75,7 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 
 ::: warning
 
-If you receive the error `ERR_Jailbreak`, `ERR_Already_Jailbroken` or `ERR_TFP0` read the Taurine/Odyssey section on the <router-link to="/troubleshooting/#common-errors-on-odyssey-and-taurine">Troubleshooting</router-link> page.
+If you receive the error `ERR_Jailbreak`, `ERR_Already_Jailbroken` or `ERR_KernRW` read the Taurine/Odyssey section on the <router-link to="/troubleshooting/#common-errors-on-odyssey-and-taurine">Troubleshooting</router-link> page.
 
 :::
 
@@ -93,7 +93,7 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'
 
-After installing the necessary software, you can also install taurine-permanent to have a permanently signed Taurine application, which we recommend doing.
+After installing the necessary software, you can also install taurine-permanent to have a permanently signed Taurine application, which we recommend doing in order to be able to save effort in the long-term.
 
 ## Installing taurine-permanent
 
