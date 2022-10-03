@@ -130,9 +130,17 @@ Jailbreaks are hardly ever 100% successful, you may need to re-attempt running t
 
 :::
 
+### "Installation Error" upon opening Sileo after initially jailbreaking on Odyssey 1.4.2
+
+Remove the currently installed version of Odyssey, sideload the 1.4.1 version of [Odyssey](https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.1/Odyssey-1.4.1.ipa), and then restore rootfs and then rejailbreak.
+
 ### Unable to open NewTerm or Cr4shed (among other things) after a period of time on Taurine
 
+::: tip
+
 If you're on 14.3 *or* have an A12 or newer device, you likely either rebooted (which would mean you're no longer in a jailbroken state) or you may have something else causing issues entirely unrelated to the jailbreak.
+
+:::
 
 If you're on 14.0 to 14.2 *and* have A11 or earlier device, this issue is caused by the fact that some tweaks and apps use libaries which have components that may run before the jailbreak is able to stop codesigning. When this happens, affected tweaks and apps cannot be used.
 
