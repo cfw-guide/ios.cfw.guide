@@ -29,7 +29,7 @@ URL: [`https://getsileo.app/`](https://getsileo.app/)
 
 Cydia is a package manager that has long been considered the face of jailbreaking, being the package manager of choice for most jailbreaks. [Saurik](https://twitter.com/saurik), the original creator of Cydia, has stopped maintaining the project, but in recent years [Sam Bingner](https://twitter.com/sbingner) has updated the software for modern devices and iOS versions.
 
-Cydia is included by default in unc0ver, checkra1n and other older jailbreaks. You can also choose to install it on Odyssey or Chimera if you so wish to.
+Cydia is included by default in unc0ver, checkra1n and other older jailbreaks.
 
 ### Installer 5
 
