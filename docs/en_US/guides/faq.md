@@ -112,13 +112,13 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **A7/A8 iPhones**: iOS 12.5.5 (via Odysseyra1n, Chimera, or unc0ver)
 - **iPod Touch (6th Generation)**: iOS 12.5.5 (via Odysseyra1n, Chimera, or unc0ver)
 - **A8(X)-A10(X) iPads**: iPadOS 14.8.1 (via Odysseyra1n)
-- **iPod Touch (7th Generation)**: iOS 14.8.1 (via Odysseyra1n)
-- **A9-A11 iPhones**: iOS 14.8.1 (via Odysseyra1n)
+- **iPod Touch (7th Generation)**: iOS 15.3.1 (via palera1n)
+- **A9-A11 iPhones**: iOS 15.3.1 (via palera1n)
 - **A12/A13 iPhones**: iOS 14.8 (via unc0ver)
 - **A12-A14/M1 iPads**: iPadOS 14.5.1 (via unc0ver)
 - **A14 iPhones**: iOS 14.5.1 (via unc0ver)
 
-Note that iOS 15 does not have a jailbreak, which also inherently means no A15 device has a jailbreak currently.
+Note that A12 and newer devices running iOS 14.8.1 are newer do not have a jailbreak, which also inherently means no A15 or A16 device has a jailbreak currently.
 
 ### What is this "Rootless" I am hearing about with regards to iOS 15
 
