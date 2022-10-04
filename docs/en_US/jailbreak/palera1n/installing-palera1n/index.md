@@ -9,7 +9,7 @@ redirect_from:
   - /palera1n
   - /palerain
 extra_contributors:
-  - itsnebulalol
+  - Mineek
 ---
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!

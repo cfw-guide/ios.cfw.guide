@@ -4,7 +4,7 @@ title: Installing palera1n (macOS)
 description: Guide to installing palera1n on macOS
 permalink: /installing-palera1n/macos
 extra_contributors:
-  - itsnebulalol
+  - Mineek
 ---
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!

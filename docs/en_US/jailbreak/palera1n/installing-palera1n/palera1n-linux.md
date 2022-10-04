@@ -4,7 +4,7 @@ title: Installing palera1n (Linux)
 description: Guide to installing palera1n on Linux
 permalink: /installing-palera1n/linux
 extra_contributors:
-  - itsnebulalol
+  - Mineek
 ---
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!
