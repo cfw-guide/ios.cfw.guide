@@ -16,14 +16,13 @@ Pangu7 is capable of jailbreaking every iOS device on firmware version 7.1 up to
 
 Pangu7 is an untethered jailbreak, meaning that it persists after reboot, so once it's installed you will not have to reinstall it unless you erase your device.
 
-You will need a computer running Windows 7 and newer or a Mac running macOS 10.14 Mojave and the appropriate Pangu.
+You will need a computer running Windows XP and newer or a Mac running Mac OS X 10.9 Mavericks to macOS 10.14 Mojave and the appropriate Pangu.
 
 ![A screenshot of Pangu7 (Windows)](/assets/images/pangu7-win.png)
 
-## macOS
+::::: tabs
 
-::: tip
-
+:::: tab name="macOS"
 
 ### Downloads
 
@@ -42,21 +41,15 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 1. Your device will reboot after a short period, then you will need to unlock it
 1. Wait a little while and your device will reboot one more time
 
+::::
 
-
-:::
-
-## Windows
+:::: tab name="Windows"
 
 ::: danger
 
-
 You will bootloop if you jailbreak your device while in a dark space
 
-
 :::
-
-::: tip
 
 
 ### Downloads
@@ -81,14 +74,15 @@ You will bootloop if you jailbreak your device while in a dark space
 1. Tap `Ignore (Temporary)`
 1. Open the Sources tab
 1. Tap `Edit` then `Add`
-1. Type in `https://repo.kawaiizenbo.me` and then tap `Add source` 
+1. Type in `http://repo.kawaiizenbo.me` and then tap `Add source` 
 1. Tap on the new source `KawaiiZenbo's Cydia repository`
 1. Tap on `System` then `Pangu 7.1-7.1.x Untether` 
 1. Tap `Install` then `Confirm`
 1. Reboot your device once the package is installed
 
+::::
 
-:::
+:::::
 
 ----
 
