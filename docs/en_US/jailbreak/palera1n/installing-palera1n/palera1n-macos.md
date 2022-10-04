@@ -7,6 +7,10 @@ extra_contributors:
   - itsnebulalol
 ---
 
+!!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!
+
+!!!include(./docs/en_US/jailbreak/palera1n/include/before-proceeding.md)!!!
+
 # Applying the jailbreak
 
 On macOS, there shouldn't be any connection issues, as libimobiledevice uses the native Apple usbmuxd.

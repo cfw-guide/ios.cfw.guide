@@ -7,6 +7,10 @@ extra_contributors:
   - itsnebulalol
 ---
 
+!!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!
+
+!!!include(./docs/en_US/jailbreak/palera1n/include/before-proceeding.md)!!!
+
 ## Applying the jailbreak
 
 Before proceeding, open up a terminal and run these commands:
