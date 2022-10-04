@@ -9,7 +9,9 @@ extra_contributors:
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!
 
-!!!include(./docs/en_US/jailbreak/palera1n/include/before-proceeding.md)!!!
+!!!include(./docs/en_US/jailbreak/palera1n/include/a10-a11-passcode.md)!!!
+
+!!!include(./docs/en_US/jailbreak/palera1n/include/tips-install.md)!!!
 
 ## Applying the jailbreak
 
@@ -42,24 +44,3 @@ Your device will then boot into a ramdisk, which will replace the Tips app and d
 9. Click enter on the computer, then your phone will respring
 
 Once palera1n says done, have fun and enjoy tweaks! Compatible tweaks are [here](https://github.com/itsnebulalol/ios15-tweaks).
-
-# Reverting the jailbreak
-
-To remove the jailbreak, you **do not have to restore**.
-
-Before proceeding, open up a terminal and run these commands:
-
-`sudo systemctl stop usbmuxd`
-
-`sudo usbmuxd -f -p`
-
-Then, open a second terminal, then you may proceed.
-
-1. Clone the repo with `git clone -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`
-    - If you've already cloned the repo, just run `cd palera1n`
-2. Run `sudo ./palera1n.sh --restore-rootfs`
-    - If you're having an issue, add `--debug` to the end and use those logs to troubleshoot
-
-If you're having trouble, you can run `binaries/Linux/irecovery -n` to run irecovery.
-
-Your device should boot into iOS, and you can use the phone as normal.
