@@ -16,7 +16,7 @@ If you are on Linux, you will have to do another step first. Open up a terminal 
 
 `sudo usbmuxd -f -p`
 
-Then, open a second terminal, then you may proceed.
+Then, open a second terminal, and do the following steps with the other terminal window.
 
 :::
 

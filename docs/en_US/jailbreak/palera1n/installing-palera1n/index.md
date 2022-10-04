@@ -14,19 +14,18 @@ extra_contributors:
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!
 
-!!!include(./docs/en_US/jailbreak/palera1n/include/a10-a11-passcode.md)!!!
-
 !!!include(./docs/en_US/jailbreak/palera1n/include/tips-install.md)!!!
 
-palera1n is a work-in-progress script that automates patching tfp0 and booting a dev kernel.
+palera1n is a work-in-progress script that automates patching tfp0 and booting a dev kernel so that you can successfully jailbreak.
 
-## Supported devices/versions
 
-__iPhones__: X, 8+, 8, 7+, 7, 6s+, 6s, SE
+::: tip
 
-__iPods__: Touch 7
+palera1n only supports iOS 15.0 - 15.3.1. Additionally, it only currently supports A9-A11 iPhones, as well as the iPod Touch 7th Generation.
 
-Only versions supported as of now are iOS 15.0-15.3.1, but support for later versions is possible eventually.
+:::
+
+!!!include(./docs/en_US/jailbreak/palera1n/include/a10-a11-passcode.md)!!!
 
 ---
 
