@@ -35,6 +35,7 @@ const pkgman = {
 const jailbreaking = {
   text: 'Jailbreaking',
   children: [
+    '/installing-palera1n',
     '/installing-odysseyra1n/',
     '/installing-unc0ver/',
     '/installing-chimera/',
