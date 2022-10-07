@@ -44,7 +44,7 @@ The TrollInstaller application can now be opened from home screen.
 ## Installing TrollStore
 
 1. Open the `TrollInstaller` app on your home screen
-1. Press `Install`
+1. Press `Install TrollStore`
     - If your device reboots, redo these steps
 
 TrollStore should now be installed. If it doesn't appear on the home screen, restart your device.
