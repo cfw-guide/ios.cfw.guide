@@ -111,7 +111,7 @@ This method will not work for A9 devices. If you cannot jailbreak, you must foll
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
 1. If you are not downgrading, then it is safe to enable `Preserve Data` in the options menu in order to keep data. However using it while downgrading may be dangerous
 1. Do not enable `AP Nonce Collision` on any modern devices
-2. Enable `Custom Latest` and input `15.7` into the box
+2. Enable `Custom Latest Build ID` and `Custom Latest Beta`, then input `19H12` into the box
 3. Enable `No RSEP` 
 4. Click Next to navigate to the controls menu
 5. Click `Start Futurerestore`
