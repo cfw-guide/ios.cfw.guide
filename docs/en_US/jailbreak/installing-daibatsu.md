@@ -22,7 +22,7 @@ In case you don't know if it's an eligible iPad, the following should be true:
 If it is a 16GB WiFi-Only iPad 2, you should check Settings -> General -> About -> Legal -> RF Exposure
 - If it mentions "iPad2,4" in the URL mentioned in the page, it is a supported device
 
-If it is a cellular iPad 2, or a 32/64GB iPad 2, or if checking the URL does not say it's an iPad2,4, it is not a supported device, and you should follow <router-link to="/installing-etasonJB">Installing etasonJB</router-link> instead.
+If it is a cellular iPad 2, or a 32/64GB iPad 2, or if checking the URL does not say it's an iPad2,4, it is not a supported iPad 2, and you should follow <router-link to="/installing-etasonJB">Installing etasonJB</router-link> instead.
 
 :::
 

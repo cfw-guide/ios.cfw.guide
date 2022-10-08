@@ -13,7 +13,7 @@ extra_contributors:
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tips-install.md)!!!
 
-# Applying the jailbreak
+## Applying the jailbreak
 
 1. Clone the repo with `git clone -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
