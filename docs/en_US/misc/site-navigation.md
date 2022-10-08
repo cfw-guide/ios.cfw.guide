@@ -5,6 +5,12 @@ permalink: /site-navigation
 sidebar: false
 ---
 
+## Highlighted
+
+-   <router-link to="/installing-palera1n">Installing palera1n</router-link>
+-   <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link>
+-   <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link>
+
 ## Jailbreaks
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
