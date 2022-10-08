@@ -19,6 +19,12 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 
 We will use Sideloadly to install the Taurine jailbreak application to your iOS device for use in the next step.
 
+::: tip
+
+If you are on an A12 or newer device, it is **highly** recommended to follow <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link> instead.
+
+:::
+
 ::: warning
 
 If you are already jailbroken with another jailbreak (besides Odysseyra1n), make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.

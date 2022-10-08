@@ -24,7 +24,13 @@ We will use Sideloadly to install the unc0ver jailbreak application to your iOS 
 
 ::: tip
 
-If you are looking for the guide on how to use unc0ver on A12+ devices on firmware versions 14.4 to 14.5.1, continue to <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
+If you are on an A12 or newer device running iOS 14.0 to 14.3 or 14.6 to 14.8, it is **highly** recommended to follow <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link> instead.
+
+:::
+
+::: tip
+
+If you are looking for the guide on how to use unc0ver on A12 or newer devices on firmware versions 14.4 to 14.5.1, continue to <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
 
 :::
 
