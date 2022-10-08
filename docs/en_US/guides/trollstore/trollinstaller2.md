@@ -12,7 +12,7 @@ extra_contributors:
 
 ::: warning
 
-This method requires an A12 or newer device on iOS 15.0 to 15.5b4
+This method requires an A12 or newer device on iOS 14.0 to 15.5b4
 
 :::
 
