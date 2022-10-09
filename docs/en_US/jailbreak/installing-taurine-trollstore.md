@@ -91,13 +91,10 @@ The Taurine app will now be installed onto your device.
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the Taurine application from your home screen immediately afterwards
-    - If you have unc0ver installed, enable "Restore RootFS" before proceeding to remove unc0ver
 1. Tap "Jailbreak"
 1. Reboot your phone when prompted
 1. Open the Taurine application from your home screen immediately after rebooting
 1. Tap "Jailbreak"
-
-If you restored rootFS, go back to step 1 and repeat this section.
 
 ::: tip
 
