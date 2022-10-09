@@ -5,6 +5,11 @@ description: Guide to installing TrollStore using TrollInstaller 2
 permalink: /installing-trollinstaller2
 redirect_from:
   - /trollinstaller2
+  - /installing-trollinstaller
+  - /trollinstaller
+  - /installing-trollstore-sshrd
+  - /sshrd
+  - /trollstore-sshrd
 extra_contributors:
   - opa334
   - iCraze
@@ -12,14 +17,16 @@ extra_contributors:
 
 ::: warning
 
-This method requires an A12 or newer device on iOS 14.0 to 15.5b4
+iOS 14.0 to 14.8.1 support requires an A12 or newer device.
 
 :::
 
 ## Installing TrollInstaller
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Depending on your iOS version, enter one of the following url's:
+    - If you're on iOS 15.0 to 15.5b4, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+    - If you're on iOS 14.0 to 14.8.1, enter [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, though this is really just the TrollInstaller 2 app.
