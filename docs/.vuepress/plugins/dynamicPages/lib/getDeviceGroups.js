@@ -10,6 +10,7 @@ const allowedDeviceTypes = [
 ]
 
 const deviceList = require('../../../json/deviceList')
+const jailbreakList = require('../../../json/jailbreak')
 const osArr = require('../../../json/ios')
 .reverse()
 .filter(x => !x.beta)
@@ -77,11 +78,34 @@ const deviceGroups = require('../../../json/deviceGroups')
     x.soc = Array.from(new Set(devices.map(y => y.soc).filter(y => y).flat()))
     x.arch = Array.from(new Set(devices.map(y => y.arch).filter(y => y).flat()))
 
-    let latestFw = osArr.filter(y => y.deviceMap.some(r => x.devices.includes(r)))[0]
+    let compatibleFirmwares = osArr.filter(y => y.deviceMap.some(r => x.devices.includes(r)))
+
+    let latestFw = compatibleFirmwares[0]
     if (!latestFw) return null
+
+    let latestJailbreakFirmware = compatibleFirmwares.filter(fw => {
+        const compatibleJailbreaks = jailbreakList.filter(jb => {
+            if (!jb.compatibility) return false
+            const compatEntries = jb.compatibility.filter(c => {
+                const deviceCheck = c.devices ? c.devices.some(r => x.devices.includes(r)) : true
+                const firmwareCheck = c.firmwares ? c.firmwares.includes(fw.build) : true
+                return deviceCheck && firmwareCheck
+            })
+            return compatEntries.length > 0
+        })
+        return compatibleJailbreaks.length > 0
+    })[0]
 
     x.latestFw = [[latestFw.osStr, latestFw.version].join(' ')]
     x.latestOsStr = latestFw.osStr
+
+    x.latestJailbreakFirmware = ['']
+    x.latestJailbreakFirmwareOsStr = ''
+
+    if (latestJailbreakFirmware) {
+        x.latestJailbreakFirmware = [[latestJailbreakFirmware.osStr, latestJailbreakFirmware.version].join(' ')]
+        x.latestJailbreakFirmwareOsStr = latestJailbreakFirmware.osStr
+    }
 
     return x
 })

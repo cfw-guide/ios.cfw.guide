@@ -90,11 +90,12 @@ export default {
             let labels = {
                 soc: this.themeLocaleData.info.soc,
                 arch: this.themeLocaleData.info.arch,
+                latestJailbreakFirmware: this.themeLocaleData.info.latestJailbreakFirmware,
                 latestFw: this.themeLocaleData.info.latestFw,
             }
             let o = {}
             for (const dev of this.deviceArr) {
-                let attr = ['soc','arch','latestFw']
+                let attr = ['soc','arch','latestJailbreakFirmware','latestFw']
                 .map(x => {
                     return {
                         type: x,

@@ -15,6 +15,7 @@ module.exports = {
         soc: "SoC: ${soc}",
         arch: "Architecture: ${arch}",
         latestFw: "Latest version: ${latestFw}",
+        latestJailbreakFirmware: "Latest jailbreakable version: ${latestJailbreakFirmware}",
         released: "Released on ${released}",
         showMore: "Show more"
       },
