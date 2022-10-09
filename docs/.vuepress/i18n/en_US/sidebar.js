@@ -37,8 +37,8 @@ const jailbreaking = {
   children: [
     '/installing-palera1n',
     '/installing-odysseyra1n/',
-    '/installing-unc0ver/',
-    '/installing-chimera/',
+    '/installing-unc0ver-trollstore/',
+    '/installing-unc0ver-fugu14/',
   ],
 }
 
