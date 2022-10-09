@@ -101,8 +101,12 @@ const deviceGroups = require('../../../json/deviceGroups')
 
     x.latestJailbreakFirmware = ['']
     x.latestJailbreakFirmwareOsStr = ''
+    x.hasJailbreaks = false
+    x.expanded = false
 
     if (latestJailbreakFirmware) {
+        x.hasJailbreaks = true
+        x.expanded = true
         x.latestJailbreakFirmware = [[latestJailbreakFirmware.osStr, latestJailbreakFirmware.version].join(' ')]
         x.latestJailbreakFirmwareOsStr = latestJailbreakFirmware.osStr
     }

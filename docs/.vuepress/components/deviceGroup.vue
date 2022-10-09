@@ -7,25 +7,38 @@
     <template v-for="dev in deviceArr" :key="dev"><template v-for="url in [`${localePathPrefix}/get-started/${dev.name.fdn()}.html`]" :key="url">
         <div class="flexWrapper">
             <div class="devHead">
-                <router-link :to="url" style="color: inherit;">
+                <router-link :to="dev.hasJailbreaks ? url : ''" :style="{
+                    color: 'inherit',
+                    cursor: dev.hasJailbreaks ? 'pointer' : 'default'
+                }">
                     <h3>{{dev.name}}</h3>
-                    <div class="flexWrapper flexImg" style="user-select: none; height: 8em;">
+                    <div :class="['flexWrapper','flexImg',dev.expanded ? 'expanded' : 'small']" style="user-select: none;">
                         <div>
-                            <template v-if="dev.img.count > 0"><img v-for="i in Math.min(dev.img.count,3)" :key="i" :class="`devImage${i}`" :src="`https://img.appledb.dev/device@preview/${dev.devices[0].replace(/\//g,'%252F')}/${i-1}${isDarkMode && dev.img.dark ? '_dark' : ''}.webp`" style="max-height: 8em; padding-right: .5em;"></template>
-                            <template v-else><img class="devImage0" :src="`/assets/images/logo${isDarkMode ? '_dark' : ''}.webp`" style="max-height: 8em; padding-right: .5em;"></template>
+                            <template v-if="dev.img.count > 0"><img v-for="i in Math.min(dev.img.count,3)" :key="i" :class="['devImage', `devImage${i}`, dev.expanded ? 'expanded' : 'small']" :src="`https://img.appledb.dev/device@preview/${dev.devices[0].replace(/\//g,'%252F')}/${i-1}${isDarkMode && dev.img.dark ? '_dark' : ''}.webp`"></template>
+                            <template v-else><img :class="['devImage','devImage0', dev.expanded ? 'expanded' : 'small']" :src="`/assets/images/logo${isDarkMode ? '_dark' : ''}.webp`"></template>
                         </div>
                     </div>
                 </router-link>
             </div>
             <div class="flexWrapper flexColumn devInfo">
-                <ul class="devInfo infoList" style="position: absolute;">
+                <ul v-if="dev.expanded" class="devInfo infoList" style="position: absolute;">
                     <li v-for="i in infoObj[dev.name].slice(0,3)" :key="i">
                         {{ i.replace('...','') }}
                         <a v-if="i.includes('...')" :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a>
                     </li>
                     <li><router-link :to="url">{{ themeLocaleData.info.showMore }}</router-link></li>
                 </ul>
-                <ul class="devReleased infoList" style="position: relative; top: 9em;">
+                <ul v-else class="devInfo infoList" style="position: absolute;">
+                    <li v-for="i in infoObj[dev.name].slice(0,1)" :key="i">
+                        {{ i.replace('...','') }}
+                        <a v-if="i.includes('...')" :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a>
+                    </li>
+                    <li>No jailbreaks available</li>
+                </ul>
+                <ul class="devReleased infoList" :style="{
+                    position: 'relative',
+                    top: (dev.expanded) ? '9em' : '5.5em'
+                }">
                     <li v-if="released[dev.name]">{{ themeLocaleData.info.released.format({ released: released[dev.name].slice(0,1).join(', ') }) }}<template v-if="dev.released.length > 1">, <a :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a></template></li>
                 </ul>
             </div>
@@ -144,7 +157,21 @@ td, th {
 
 .flexImg {
     overflow: hidden;
+}
+
+.devImage {
     max-height: 8em;
+    padding-right: .5em;
+}
+
+.expanded .devImage {
+    max-height: 8em;
+    padding-right: .5em;
+}
+
+.small .devImage {
+    max-height: 4em;
+    padding-right: .25em;
 }
 
 .flexColumn {
