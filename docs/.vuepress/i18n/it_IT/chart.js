@@ -15,8 +15,10 @@ module.exports = {
         soc: "SoC: ${soc}",
         arch: "Architettura: ${arch}",
         latestFw: "Ultima versione: ${latestFw}",
+        latestJailbreakFirmware: "Latest jailbreakable version: ${latestJailbreakFirmware}",
         released: "Rilasciato il ${released}",
-        showMore: "Mostra altro"
+        showMore: "Mostra altro",
+        noJailbreaks: "No jailbreaks available."
       },
       dateStyles: { // Don't translate this bit, just ask me (emiyl) to handle it
         yearOnly: { year: 'numeric'},
