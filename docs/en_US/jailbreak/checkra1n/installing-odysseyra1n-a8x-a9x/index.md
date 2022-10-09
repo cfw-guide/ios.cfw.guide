@@ -29,6 +29,12 @@ If you are using an A8X or A9X device running iOS 14.4.2 or earlier, you should 
 
 ::: warning
 
+You do not need to use a special build of Odysseyn1x in order to follow this, the normal Odysseyn1x guide is linked below as a result.
+
+:::
+
+::: warning
+
 If you are already jailbroken with regular checkra1n, make sure to properly <router-link to="/removing-checkra1n">remove it</router-link> before proceeding.
 
 :::
@@ -38,7 +44,7 @@ If you are already jailbroken with regular checkra1n, make sure to properly <rou
 Please select your operating system:
 - <router-link to="/installing-odysseyra1n-a8x-a9x/macos/">macOS</router-link>
 - <router-link to="/installing-odysseyra1n-a8x-a9x/linux/">Linux</router-link>
-- <router-link to="/using-odysseyn1x-a8x-a9x/">Windows (Odysseyn1x)</router-link>
+- <router-link to="/using-odysseyn1x/">Windows (Odysseyn1x)</router-link>
 
 ::: danger
 

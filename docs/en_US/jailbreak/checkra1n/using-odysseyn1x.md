@@ -35,7 +35,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 ::: warning
 
-A7 devices will likely fail to successfully jailbreak with Odysseyn1x, as a result, you'll need to use an older Odysseyn1x version and quickly unplug and replug your device once you see `Right Before Trigger`. It is highly recommended to follow <router-link to="/installing-chimera">Installing Chimera</router-link> instead.
+A7 devices will likely fail to successfully jailbreak with Odysseyn1x, as a result, you'll need to use an older Odysseyn1x version and quickly unplug and replug your device once you see `Right Before Trigger`. It is highly recommended to follow <router-link to="/installing-chimera">Installing Chimera</router-link> if you are on iOS 12.0 to 12.5.5 instead.
 
 :::
 
@@ -45,16 +45,13 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
-On iOS 14: 
-- Odysseyra1n is only fully supported on A8, A9, A10(X), and A11 devices. A8X and A9X devices are only fully supported up to 14.4.2 using an older version of checkra1n, with a special method required for A8X and A9X devices on 14.5 to 14.8.1, which is detailed at [Using Odysseyn1x (A9X)](/using-odysseyn1x-a9x).
-- On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
+On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 ## Requirements
 
 - A 256MB or greater USB Drive
     - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
 - The latest version of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases)
-    - If you are on an A8X or A9X device, you should instead get the v2.9 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.9)
     - If you are on an A7 device, you should instead get the v2.12-checkra1n-0.10.1 release of [Odysseyn1x](https://github.com/raspberryenvoie/odysseyn1x/releases/tag/v2.12-checkra1n-0.10.1)
     - For 64-bit computers, download the "AMD64" version
         - It doesn't matter if you have an AMD processor or not, "AMD64" is just the name of the architecture
@@ -92,9 +89,9 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 :::
 
 1. Once you have loaded odysseyn1x, select `checkra1n`
-    - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check` option once it runs
-    - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
-    - If you're on an A8X or A9X device and are on iOS 14.4 to 14.4.2, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
+    - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check`
+    - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions`
+    - If you're on an A8X or A9X device, select the `checkra1n (A8X/A9X)` option, and ignore the next step
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device reboots to a black screen
