@@ -21,12 +21,7 @@ palera1n is a work-in-progress script that automates patching tfp0 and booting a
 
 ::: tip
 
-palera1n only supports iOS 15.0 - 15.3.1. Additionally, it only currently supports the following devices:
-  - A9-A11 iPhones/iPods
-  - A8(X) iPads
-  - iPad 5th Generation
-  - iPad 6th Generation
-  - iPad 7th Generation
+palera1n only supports iOS 15.0 - 15.3.1. Additionally, it does not currently support the iPad Pro 10.5" and only supports other A8(X)-A11 devices
 
 :::
 
