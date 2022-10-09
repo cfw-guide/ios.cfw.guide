@@ -30,7 +30,7 @@ String.prototype.format = function(vars) {
 
 let pageList = []
 
-for (const deviceGroup of deviceGroups) {
+for (const deviceGroup of deviceGroups.filter(x => x.hasJailbreaks)) {
     const filteredOsArr = iosArr.filter(x => x.deviceMap.some(r => deviceGroup.devices.includes(r)))
     const filteredJailbreakArr = jailbreakArr.filter(x => {
         if (!x.compatibility) return false

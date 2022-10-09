@@ -17,7 +17,8 @@ module.exports = {
         latestFw: "Latest version: ${latestFw}",
         latestJailbreakFirmware: "Latest jailbreakable version: ${latestJailbreakFirmware}",
         released: "Released on ${released}",
-        showMore: "Show more"
+        showMore: "Show more",
+        noJailbreaks: "No jailbreaks available."
       },
       dateStyles: { // Don't translate this bit, just ask me (emiyl) to handle it
         yearOnly: { year: 'numeric'},

@@ -33,7 +33,7 @@
                         {{ i.replace('...','') }}
                         <a v-if="i.includes('...')" :href="`https://appledb.dev/device/${dev.name.fdn()}`" target="_blank">...</a>
                     </li>
-                    <li>No jailbreaks available</li>
+                    <li>{{ themeLocaleData.info.noJailbreaks }}</li>
                 </ul>
                 <ul class="devReleased infoList" :style="{
                     position: 'relative',
