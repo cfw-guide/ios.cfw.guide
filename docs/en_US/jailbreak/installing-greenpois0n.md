@@ -18,9 +18,11 @@ You will need a computer running macOS 10.11 or older or Windows XP - 8.1. Wine 
 
 ## Installing the application
 
+<br>
+
 ::::: tabs
 
-:::: tab name="macOS"
+:::: tab name="macOS" :default="true"
 
 1. Download [greenpois0n](https://web.archive.org/web/20131024115207/http://greenpois0n.com/downloads/)
     - Choose RC6.1 if on iOS 4.2.1 or 4.2.6
@@ -84,6 +86,8 @@ After jailbreaking is complete, install the latest version of iTunes to avoid li
 :::
 
 ::::
+
+::::::
 
 ::: tip
 

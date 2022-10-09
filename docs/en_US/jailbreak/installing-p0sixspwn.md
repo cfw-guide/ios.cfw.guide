@@ -1,7 +1,7 @@
 ---
 lang: en_US
-title: Installing P0sixspwn
-description: Guide to installing P0sixspwn
+title: Installing p0sixspwn
+description: Guide to installing p0sixspwn
 permalink: /installing-p0sixspwn
 redirect_from:
   - /installing-posixpwn
@@ -25,7 +25,7 @@ You will need a computer running macOS 10.12 Sierra or older or Windows XP or ne
 
 ::::: tabs
 
-:::: tab name="macOS Sierra or older"
+:::: tab name="macOS Sierra or older" :default="true"
 
 1. Download the latest version of [P0sixspwn](https://ih8sn0w.com/p0sixspwn.html)
 1. Unzip P0sixspwn

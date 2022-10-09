@@ -22,7 +22,7 @@ You will need a computer running Windows XP and newer or a Mac running Mac OS X 
 
 ::::: tabs
 
-:::: tab name="macOS"
+:::: tab name="macOS" :default="true"
 
 ### Downloads
 
