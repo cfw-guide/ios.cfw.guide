@@ -25,7 +25,7 @@ iOS 14.0 to 14.8.1 support requires an A12 or newer device.
 
 1. Open Safari
 1. Depending on your iOS version, enter one of the following url's:
-    - If you're on iOS 15.0 to 15.5b4, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+    - If you're on iOS 15.0 to 15.5b4 or 15.6b1 go 15.6b5, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
     - If you're on iOS 14.0 to 14.8.1, enter [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 

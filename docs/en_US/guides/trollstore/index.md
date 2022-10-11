@@ -26,12 +26,12 @@ Installing TrollStore is a process which varies depending on what device and iOS
 
 If you are jailbroken on iOS 14.0 to 15.3.1, follow <router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link>
 
-If you have an A12 or newer device on iOS 14.0 to 14.8,1, as well as any device on iOS 15.0 to 15.5b4, follow <router-link to="/installing-trollinstaller2">Installing TrollStore (TrollInstaller 2)</router-link>
+If you have an A12 or newer device on iOS 14.0 to 14.8,1, as well as any device on iOS 15.0 to 15.5b4 or 15.6b1 to 15.6b5, follow <router-link to="/installing-trollinstaller2">Installing TrollStore (TrollInstaller 2)</router-link>
 
 :::
 
 ::: danger
 
-If your device is on iOS 13.7 and older or is running iOS 15.5 or newer, it will **never** be supported by TrollStore.
+If your device is on iOS 13.7 and older, is running iOS 15.5, or is running iOS 15.6 or newer, it will **never** be supported by TrollStore.
 
 :::
