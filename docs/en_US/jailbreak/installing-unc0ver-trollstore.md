@@ -42,43 +42,31 @@ unc0ver on firmware versions 14.6 to 14.8 only supports A12 and A13 iPhones.
     - If you are on iOS 14.0 to 14.3, download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa)
     - Make sure to download the unc0ver `.ipa` file **onto your iOS device**
 
-## Installing TrollInstaller 2
+## Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 
-An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollInstaller 2, however.
+An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
 
 ## Installing TrollStore
 
-1. Open the `GTA Car Tracker` app.
+1. Open the `GTA Car Tracker` app
 1. Tap `Install TrollStore`
 
 The TrollStore application will now install to your iOS device.
 
 ## Preparing TrollStore
 
-In order to be able to sideload unc0ver, a couple more steps need to be done.
-
-### Installing ldid
-
-1. Open the `TrollStore` app.
-1. Tap `Install ldid`.
+In order to be able to sideload Taurine, a couple more steps need to be done.
 
 ### Installing Persistence Helper
 
-::: warning
+1. Reopen the `GTA Car Tracker` app
+1. Press `Register Persistence Helper`
 
-This will replace the `Tips` app (or another app that you choose) on your device with TrollHelper
-
-:::
-
-1. Press `Install Persistence Helper`
-1. Select the `Tips` app
-    - You can choose another *uninstallable default app* instead, but we recommend the tips app as it's the most useless app present.
-
-The app which was replaced should now open the Persistence Helper.
+The `GTA Car Tracker` app can now be used as the Persistence Helper
 
 ::: tip
 
@@ -87,6 +75,11 @@ The reason the persistence helper is highly important is that, whenever iOS rebu
 To workaround this, the Persistence Helper (which will still open even after this happens) can refresh app registrations so that the apps will reappear and open again.
 
 :::
+
+### Installing ldid
+
+1. Open the `TrollStore` app
+1. Tap `Install ldid`
 
 ## Installing unc0ver
 

@@ -30,17 +30,17 @@ If you are already jailbroken with unc0ver, make sure to properly <router-link t
 - The latest version of [Taurine](https://taurine.app/)
     - Make sure to download the Taurine `.ipa` file **onto your iOS device**
 
-## Installing TrollInstaller 2
+## Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 
-An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollInstaller 2, however.
+An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
 
 ## Installing TrollStore
 
-1. Open the `GTA Car Tracker` app.
+1. Open the `GTA Car Tracker` app
 1. Tap `Install TrollStore`
 
 The TrollStore application will now install to your iOS device.
@@ -49,24 +49,12 @@ The TrollStore application will now install to your iOS device.
 
 In order to be able to sideload Taurine, a couple more steps need to be done.
 
-### Installing ldid
-
-1. Open the `TrollStore` app.
-1. Tap `Install ldid`.
-
 ### Installing Persistence Helper
 
-::: warning
+1. Reopen the `GTA Car Tracker` app
+1. Press `Register Persistence Helper`
 
-This will replace the `Tips` app (or another app that you choose) on your device with TrollHelper
-
-:::
-
-1. Press `Install Persistence Helper`
-1. Select the `Tips` app
-    - You can choose another *uninstallable default app* instead, but we recommend the tips app as it's the most useless app present.
-
-The app which was replaced should now open the Persistence Helper.
+The `GTA Car Tracker` app can now be used as the Persistence Helper
 
 ::: tip
 
@@ -75,6 +63,11 @@ The reason the persistence helper is highly important is that, whenever iOS rebu
 To workaround this, the Persistence Helper (which will still open even after this happens) can refresh app registrations so that the apps will reappear and open again.
 
 :::
+
+### Installing ldid
+
+1. Open the `TrollStore` app
+1. Tap `Install ldid`
 
 ## Installing Taurine
 
