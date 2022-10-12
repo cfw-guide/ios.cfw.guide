@@ -22,6 +22,7 @@ This has a time limit, however. You will only be able to update to the following
 - **16.0** (*iPhone 14 series only*) - December 13th, 2022
 - **16.0** (*All other devices*) - December 21st, 2022
 - **16.0.1** - December 21st, 2022
+- **16.0.2** - January 8th, 2022
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -38,6 +39,7 @@ Depending on your target iOS version, you won't be able to do this if you future
   - 16.0 (*iPhone 14 series only*): September 14th, 2022
   - 16.0 (*All other devices*): September 22nd, 2022
   - 16.0.1: September 22nd, 2022
+  - 16.0.2: October 10th, 2022
 
 :::
 

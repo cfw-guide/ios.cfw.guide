@@ -1,8 +1,9 @@
 ---
 lang: en_US
-title: Updating to 16.0.2
-permalink: /updating-to-16-0-2
+title: Updating to 16.0.3
+permalink: /updating-to-16-0-3
 redirect_from:
+    - /updating-to-16-0-2
     - /updating-to-16-0
 ---
 
