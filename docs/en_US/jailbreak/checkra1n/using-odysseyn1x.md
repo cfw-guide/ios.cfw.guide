@@ -89,9 +89,9 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 :::
 
 1. Once you have loaded odysseyn1x, select `checkra1n`
+    - If you're on an A8X or A9X device, select the `checkra1n (A8X/A9X)` option instead.
     - If you're on an A11 device, you will need to head into `Options`, then enable the `Skip A11 BPR Check`
     - If you're on iOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions`
-    - If you're on an A8X or A9X device, select the `checkra1n (A8X/A9X)` option, and ignore the next step
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device reboots to a black screen
