@@ -38,7 +38,7 @@ unc0ver on firmware versions 14.6 to 14.8 only supports A12 and A13 iPhones.
 ## Downloads
 
 - unc0ver
-    - If you are on iOS 14.6 to 14.8, download the latest version of [unc0ver](unc0ver.dev)
+    - If you are on iOS 14.6 to 14.8, download the latest version of [unc0ver](https://unc0ver.dev/)
     - If you are on iOS 14.0 to 14.3, download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa)
     - Make sure to download the unc0ver `.ipa` file **onto your iOS device**
 
