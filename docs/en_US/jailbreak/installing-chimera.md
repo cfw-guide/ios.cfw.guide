@@ -47,7 +47,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
-    - If you are on iOS 12.5.6, you will also need [ChimeraFix](https://cdn.discordapp.com/attachments/688122301975363591/1030856161622245376/com.mineek.chimerafix_0.0.1-22debug_iphoneos-arm.deb)
+    - If you are on iOS 12.5.6, you will also need [ChimeraFix](https://github.com/mineek/chimerafix/releases/tag/deb)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -95,7 +95,6 @@ The Chimera application can now be opened from home screen.
     - This is not necessary but recommended
 1. Open the Chimera application from your home screen immediately afterwards
 1. Tap "Jailbreak"
-    - If you're using ChimeraFix for iOS 12.5.6, you may see "Incompatible" instead. If the patching steps were followed properly, however, this button can still be tapped like normal.
 1. Reboot your phone again when prompted
     - If you are not prompted and it automatically reboots, wait 1-2 minutes, then try again.
     - This time, it is necessary
