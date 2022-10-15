@@ -35,7 +35,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 ::: warning
 
-A7 devices will likely fail to successfully jailbreak with Odysseyn1x, as a result, you'll need to use an older Odysseyn1x version and quickly unplug and replug your device once you see `Right Before Trigger`. It is highly recommended to follow <router-link to="/installing-chimera">Installing Chimera</router-link> if you are on iOS 12.0 to 12.5.5 instead.
+A7 devices will likely fail to successfully jailbreak with Odysseyn1x, as a result, you'll need to use an older Odysseyn1x version and quickly unplug and replug your device once you see `Right Before Trigger`. It is highly recommended to follow <router-link to="/installing-chimera">Installing Chimera</router-link> instead.
 
 :::
 
