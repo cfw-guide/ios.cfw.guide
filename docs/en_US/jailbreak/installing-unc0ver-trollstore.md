@@ -39,8 +39,9 @@ unc0ver on firmware versions 14.6 to 14.8 only supports A12 and A13 iPhones.
 
 - unc0ver
     - If you are on iOS 14.6 to 14.8, download the latest version of [unc0ver](https://unc0ver.dev/)
+      - If you are on iOS 14.6 to 14.8, also download the latest version of [u0Launcher](https://github.com/opa334/u0Launcher/releases)
     - If you are on iOS 14.0 to 14.3, download the 6.1.1 version of [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa)
-    - Make sure to download the unc0ver `.ipa` file **onto your iOS device**
+    - Make sure to download the aforementioned files **onto your iOS device**
 
 ## Installing TrollHelper
 
@@ -91,29 +92,25 @@ To workaround this, the Persistence Helper (which will still open even after thi
 
 The unc0ver app will now be installed onto your device.
 
-## Running unc0ver
+::: warning
 
-::: danger
-
-While doing these steps, you may run into an issue where unc0ver gets stuck at step 19 of 32 and will never succeed.
-
-What you can do from here depends on a combination of circumstances and what iOS version you're on:
-  - If you have a sideloaded app already for any reason, restart your device, open that sideloaded app, and then open unc0ver and try to jailbreak.
-  - If you are on iOS 14.0 to 14.3, we recommend following <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link> instead.
-  - If you are on iOS 14.6 to 14.8, or would prefer not to use Taurine for any reason, you will have to follow <router-link to="/installing-unc0ver">Installing unc0ver</router-link> instead.
+If you're on iOS 14.6 to 14.8, you'll need to repeat these steps for the u0Launcher `.ipa` file as well.
 
 :::
+
+## Running unc0ver
 
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the unc0ver application from your home screen immediately afterwards
-    - If unc0ver warns you that the app has been tampered with, reinstall unc0ver via Sideloadly
+    - If you're on iOS 14.6 to 14.8, open the u0Launcher application instead
 1. Open the settings menu and disable the `Disable Auto Updates` toggle
     - unc0ver disables Over-The-Air updates by default, however it's recommended to toggle this as it can cause issues when updating manually if not disabled
 1. Tap "Done"
 1. Tap "Jailbreak"
 1. Reboot your phone when prompted
 1. Open the unc0ver application from your home screen immediately after rebooting
+    - If you're on iOS 14.6 to 14.8, open the u0Launcher application instead
 1. Tap "Jailbreak"
 
 ::: tip
