@@ -70,11 +70,11 @@ If you're on iOS 12.5.6, you'll need to take extra steps in order to inject Chim
 1. Change the Signing mode to `Export`, then click `Start`
 1. Save the newly made `.ipa` file to the same place where you saved Chimera originally
 
-From here, whenever you need to sideload Chimera, use the newly made `.ipa` file instead.
+Repeat steps 1 through 3 of this section, and moving forward, whenever you need to sideload Chimera, use the newly made `.ipa` file instead.
 
 :::
 
-1. Enter in your Apple ID
+4. Enter in your Apple ID
 1. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 

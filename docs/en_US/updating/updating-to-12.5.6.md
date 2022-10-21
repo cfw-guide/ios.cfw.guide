@@ -14,7 +14,7 @@ redirect_from:
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware version 8.0 to 8.4.1 on 64-bit devices. However, some devices, such as the iPhone 6, can update to 12.5.6 and use the Odysseyra1n jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware version 8.0 to 8.4.1 on 64-bit devices. However, some devices, such as the iPhone 6, can update to 12.5.6 and use the Chimera jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest available version for these devices is 12.5.6, we can easily update to this firmware version.
 
