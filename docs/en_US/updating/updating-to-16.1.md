@@ -1,10 +1,11 @@
 ---
 lang: en_US
-title: Updating to 16.0.3
-permalink: /updating-to-16-0-3
+title: Updating to 16.1
+permalink: /updating-to-16-1
 redirect_from:
-    - /updating-to-16-0-2
     - /updating-to-16-0
+    - /updating-to-16-0-2
+    - /updating-to-16-0-3
 ---
 
 ## Required Reading
@@ -14,12 +15,6 @@ If you're on an unsupported firmware version, you can update to !!!include(./doc
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is !!!include(./docs/en_US/include/latestfw)!!!, we can easily update to the desired firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
-
-::: danger
-
-iOS 16 is, at this time, only available for iPhones.
-
-:::
 
 ## Removing Profiles
 

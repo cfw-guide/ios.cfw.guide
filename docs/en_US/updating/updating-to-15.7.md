@@ -28,7 +28,7 @@ If you have installed update blocking via tvOS Beta profiles, you must first rem
 
 ::: warning
 
-If you are using an iPhone which supports iOS 16, you'll need to be on iOS 14.5 or newer in order to update. If you're on iOS 14.4.2 or earlier, you'll need to use <router-link to="/updating-blobless">Updating (Blobless)</router-link> instead.
+If you are using a device which supports iOS 16, you'll need to be on iOS 14.5 or newer in order to update. If you're on iOS 14.4.2 or earlier, you'll need to use <router-link to="/updating-blobless">Updating (Blobless)</router-link> instead.
 
 :::
 
