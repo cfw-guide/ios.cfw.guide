@@ -40,7 +40,7 @@ This error means that you have not set your generator on your device to that of 
 
 ## SEP Firmware is not being signed
 
-This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or manually specify a SEP from the latest available iOS version
+This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or use the `custom-latest` or `custom-latest-buildid` with the `custom-latest-beta` argument with a compatible version provided based on the [SEP/BB Compatibility Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0) (you can use [https://appledb.dev](appledb) to find the buildid for a version).
 
 ## Could not connect to device in recovery mode / Failed to place device in recovery mode
 
@@ -53,3 +53,7 @@ This problem occurs when the user tries to manually specify SEP from the *target
 
 The fix for this is either waiting (it can take a very long time) or just re-trying the process. 
 This is an error that has been diagnosed but no fix for it is available as of the time of writing this.
+
+## About to send NOR data... No data to read
+
+If you get this error message, you may try stopping the futurerestore process and disabling the `no-rsep` argument. If the restore continues to get stuck here regardless if `no-rsep` is enabled or disabled, you may be unable to restore as the cause of this error has not been diagnosed at the time of writing. 
