@@ -40,7 +40,7 @@ This error means that you have not set your generator on your device to that of 
 
 ## SEP Firmware is not being signed
 
-This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or use the `custom-latest` or `custom-latest-buildid` with the `custom-latest-beta` argument with a compatible version provided based on the [SEP/BB Compatibility Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0) (you can use [https://appledb.dev](appledb) to find the buildid for a version).
+This problem occurs when the user tries to manually specify SEP from the *target* version, instead of from the *latest* available version. To fix this problem, either choose the `latest-sep` argument or use the `custom-latest` or `custom-latest-buildid` with the `custom-latest-beta` argument with a compatible version provided based on the [SEP/BB Compatibility Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0) (you can use [https://appledb.dev](appledb) to find the buildid for a version). You do not need to manually provide SEP or BB.
 
 ## Could not connect to device in recovery mode / Failed to place device in recovery mode
 
