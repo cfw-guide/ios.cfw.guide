@@ -105,7 +105,7 @@ This method will not work for A9 devices. If you cannot jailbreak, you must foll
 ![FutureRestoreGUI main screen](/assets/images/futurerestore-gui.png)
 
 1. Click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. **This option is only available for macOS and Linux**
-  - Windows users must download the beta from [here](https://cdn.discordapp.com/attachments/917198974555942942/1023188228972494858/futurerestore_292_local_win_x64.exe). Once that is done, press `Select FutureRestore Binary/Executable` and navigate to where you have downloaded the beta. Select the file and click `Open`
+  - Windows users must download the beta from [here](https://cdn.discordapp.com/attachments/917198974555942942/1031110605089816606/futurerestore_300_local_win_x64.exe). Once that is done, press `Select FutureRestore Binary/Executable` and navigate to where you have downloaded the beta. Select the file and click `Open`
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
