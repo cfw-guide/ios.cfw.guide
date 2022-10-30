@@ -15,7 +15,7 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **12.5.6** (*Only for devices which did not receive iOS 13 or newer*) - November 29th, 2022
+- **12.5.5** (*Only for devices which did not receive iOS 13 or newer*) - November 29th, 2022
 - **15.6** - November 15th, 2022
 - **15.6.1** - December 11th, 2022
 - **16.0** (*iPhone 14 series only*) - December 13th, 2022
@@ -33,7 +33,7 @@ Because you do not currently have a jailbreak (or you choose not to jailbreak fo
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 12.5.6: August 31st, 2022
+  - 12.5.5: August 31st, 2022
   - 15.6: August 17th, 2022
   - 15.6.1: September 12th, 2022
   - 16.0 (*iPhone 14 series only*): September 14th, 2022
@@ -90,7 +90,7 @@ This method requires that you purchase iMazing, if you don't have money to purch
 
 1. When the device boots up after being erased, set it up, then open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [15.5](/assets/files/delay_15_5.mobileconfig)
+    - [15.6](/assets/files/delay_15_6.mobileconfig)
     - [12.5.5](/assets/files/delay_12_5_5.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Reboot your device
