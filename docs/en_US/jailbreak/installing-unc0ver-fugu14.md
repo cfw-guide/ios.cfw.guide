@@ -33,7 +33,7 @@ We will use the AltStore tool to allow us to set everything up to be able to jai
 
 1. Download AltStore for your respective operating system
 1. Launch AltStore/AltServer
-    - On macOS, open the Mail app and open `Mail` -> `Preferencees` in the menu bar
+    - On macOS, open the Mail app and open `Mail` -> `Preferences` in the menu bar
     - Click on the `General` tab, the `Manage Plug-ins`, check `AltPlugin` and apply
 1. Connect your iOS Device to your Mac or PC via USB
 1. Click AltStore/AltServer in the Menu Bar/System Tray
