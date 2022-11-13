@@ -16,12 +16,12 @@ extra_contributors:
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tips-install.md)!!!
 
-palera1n is a work-in-progress script that automates patching tfp0 and booting a dev kernel so that you can successfully jailbreak.
+palera1n is a work-in-progress script that patches the kernel so you can use tweaks and other stuff.
 
 
 ::: tip
 
-palera1n only supports A11 and earlier devices running iOS 15.0 - 15.3.1
+palera1n only supports A11 and earlier devices running iOS 15.0 - 15.7.1
 
 :::
 
