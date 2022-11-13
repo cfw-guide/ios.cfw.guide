@@ -85,7 +85,7 @@ const deviceGroups = require('../../../json/deviceGroups')
 
     let latestJailbreakFirmware = compatibleFirmwares.filter(fw => {
         const compatibleJailbreaks = jailbreakList.filter(jb => {
-            if (!jb.compatibility) return false
+            if (!jb.compatibility || jb.hideFromGuide) return false
             const compatEntries = jb.compatibility.filter(c => {
                 const deviceCheck = c.devices ? c.devices.some(r => x.devices.includes(r)) : true
                 const firmwareCheck = c.firmwares ? c.firmwares.includes(fw.build) : true

@@ -101,7 +101,7 @@ export default {
             let retArr = []
             for (const os of osArr) {
                 let jb = jbArr.filter(x => {
-                    if (!x.compatibility) return false
+                    if (!x.compatibility || x.hideFromGuide) return false
                     const compat = x.compatibility.map(y => 
                         y.firmwares.includes(os.build) &&
                         y.devices.some(r => devArr.includes(r))
