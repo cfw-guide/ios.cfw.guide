@@ -4,7 +4,7 @@
 
     <div v-if="fm.type == 'iPhone'" class="custom-container tip"><p>{{ themeLocaleData.iPhoneNotice }}</p></div>
 
-    <template v-for="dev in deviceArr" :key="dev"><template v-for="url in [`${localePathPrefix}/get-started/${dev.name.fdn()}.html`]" :key="url">
+    <template v-for="dev in deviceArr" :key="dev"><template v-if="dev.hasJailbreaks"><template v-for="url in [`${localePathPrefix}/get-started/${dev.name.fdn()}.html`]" :key="url">
         <div class="flexWrapper">
             <div class="devHead">
                 <router-link :to="dev.hasJailbreaks ? url : ''" :style="{
@@ -45,7 +45,7 @@
         </div>
         <span class="variablePadding"/>
         <hr>
-    </template></template>
+    </template></template></template>
 </template>
 
 <script>

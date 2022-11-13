@@ -2,6 +2,8 @@
     <h2>{{ themeLocaleData.getStarted.requiredReading.title }}</h2>
     <p v-for="s in themeLocaleData.getStarted.requiredReading.content" :key="s">{{ s }}</p>
 
+    <br>
+
     <template v-for="o in groupObj" :key="o">
         <h2 v-if="o.label">{{ o.label }}</h2>
     
@@ -22,6 +24,7 @@
                     ">
                         <img :src="imageObj[o.types[(t - 1) * colCount + c - 1]]" style="max-height: 11em;">
                     </router-link>
+                    <hr class="separator">
                 </td>
             </tr>
         </table>
@@ -129,9 +132,30 @@ export default {
 <style scoped>
 table {
     table-layout: fixed;
+    margin-top: 0em;
 }
 
 td, th {
     text-align: center;
+}
+
+td, th, tr {
+    background: rgba(0,0,0,0);
+    border: 0;
+}
+
+th {
+    padding-bottom: 1em;
+}
+
+.separator {
+    margin-top: 2em;
+    width: 80%;
+}
+
+th a {
+    color: var(--c-text);
+    font-weight: 600;
+    font-size: 1.2em;
 }
 </style>
