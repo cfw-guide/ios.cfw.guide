@@ -114,6 +114,7 @@ const deviceGroups = require('../../../json/deviceGroups')
     return x
 })
 .filter(x => x)
+.filter(x => x.hasJailbreaks)
 .sort((a,b) => {
     let arr = [a,b].map(x => x.type)
     if (arr[0] < arr[1]) return -1

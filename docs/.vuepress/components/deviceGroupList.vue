@@ -60,11 +60,8 @@ export default {
             if (lang == 'en_US') return ''
             return `/${lang}`
         },
-        groupList() {
-            return this.fm.groupList
-        },
         typeArr() {
-            return Array.from(new Set(this.groupList.map(x => x.type)))
+            return Array.from(new Set(this.fm.groupList.map(x => x.type)))
         },
         groupObj() {
             var presetTypeArr = []
@@ -95,11 +92,10 @@ export default {
             return presetOrder
         },
         imageObj() {
-            const groupList = this.groupList
             var tempTypeArr = []
             var firstDeviceObj = {}
 
-            for (const g of groupList) {
+            for (const g of this.fm.groupList) {
                 if (tempTypeArr.includes(g.type)) continue
                 tempTypeArr.push(g.type)
                 firstDeviceObj[g.type] = {
