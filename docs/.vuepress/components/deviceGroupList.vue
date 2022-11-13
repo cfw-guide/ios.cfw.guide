@@ -105,8 +105,9 @@ export default {
                 }
             }
 
-            const overrides = { 
-                AirPods: "AirPods1,1"
+            const overrides = {
+                AirPods: "AirPods1,1",
+                iPhone: "iPhone13,3"
             }
             
             for (const o in overrides) if (firstDeviceObj.hasOwnProperty(o))
