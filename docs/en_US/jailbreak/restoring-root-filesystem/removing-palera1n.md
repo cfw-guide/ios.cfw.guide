@@ -22,7 +22,7 @@ Then, open a second terminal, and do the following steps with the other terminal
 
 1. Clone the repo with `git clone -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
-2. Run `./palera1n.sh --restore-rootfs`
+2. Run `./palera1n.sh --restorerootfs`
     - If you're having an issue, add `--debug` to the end and use those logs to troubleshoot
 
 If you're having trouble, you can run `irecovery -n`.
