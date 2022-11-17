@@ -31,15 +31,17 @@ Then, open a second terminal, and do the subsequent steps with the other termina
 
 ::: tip
 
-If you're switching from rootless or legacy tweaks mode, run `rm -rf palera1n` before proceeding
+If you previously used rootless palera1n or jailbroke with tweaks before November 13th, 2022, run `rm -rf palera1n` before proceeding
 
 :::
 
 1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
 1. Run `sudo ./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
-    - Put your device in DFU Mode before running
+    - Put your device in DFU Mode before running this command
     - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
+    - If you have an iPhone 7 or iPhone 8, **don't include --semi-tethered in the command**, even if you meet the aforementioned criteria to use the flag.
+    - If you have a WiFi-only iPad or an iPod Touch, **include --no-baseband in the command**.
 
 Your device will then boot into a ramdisk, which will replace the Tips app and dump blobs. It will also set boot args and other variables, and either get ready for the tether or setup the fake rootfs. It will also patch the kernel for you, so you can use tweaks.
 
