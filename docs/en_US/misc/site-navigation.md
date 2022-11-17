@@ -50,6 +50,12 @@ sidebar: false
 -   <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 -   <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
 
+
+## Troubleshooting
+
+-   <router-link to="/troubleshooting">Troubleshooting</router-link>
+-   <router-link to="/palera1n-troubleshooting">palera1n Troubleshooting</router-link>
+
 ## Miscellaneous
 
 -   <router-link to="/installing-trollstore">Installing TrollStore</router-link>
@@ -91,6 +97,5 @@ sidebar: false
 -   <router-link to="/">Home</router-link>
 -   <router-link to="/get-started">Get Started</router-link>
 -   <router-link to="/faq">FAQ</router-link>
--   <router-link to="/troubleshooting">Troubleshooting</router-link>
 -   <router-link to="/credits">Credits</router-link>
 -   <router-link to="/donations">Donations</router-link>

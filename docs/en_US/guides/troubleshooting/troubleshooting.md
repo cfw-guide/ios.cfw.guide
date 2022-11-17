@@ -12,6 +12,12 @@ extra_contributors:
   - Superuser
 ---
 
+::: tip
+
+If you're looking for troubleshooting palera1n issues, you should take a look at <router-link to="/palera1n-troubleshooting">palera1n Troubleshooting</router-link>
+
+:::
+
 ## Bootloops and respring loops
 
 ### Respring Loops
