@@ -21,7 +21,7 @@ redirect_from:
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to 15.7.1 and wait for an available jailbreak on iOS 15.7.1 instead. Keep in mind, you'll most likely be waiting for a jailbreak for a while.
+If you're on an unsupported firmware version, you can update to 15.7.1 and either jailbreak with palera1n or wait for an available jailbreak on iOS 15.7.1 instead. Keep in mind, you'll most likely be waiting for a jailbreak for a while if your device cannot already use palera1m.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 15.7.1, we can easily update to the desired firmware version.
 

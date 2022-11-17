@@ -79,7 +79,7 @@ sidebar: false
 -   <router-link to="/updating-blobless">Updating (Blobless)</router-link>
 -   <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link>
 -   <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
--   <router-link to="/updating-to-16-1">Updating to 16.1</router-link>
+-   <router-link to="/updating-to-16-1-1">Updating to 16.1.1</router-link>
 -   <router-link to="/updating-to-15-7-1">Updating to 15.7.1</router-link>
 -   <router-link to="/updating-to-12-5-6">Updating to 12.5.6</router-link>
 -   <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
