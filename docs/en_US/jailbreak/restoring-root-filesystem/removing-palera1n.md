@@ -6,7 +6,7 @@ permalink: /removing-palera1n
 redirect_from: /removing-palerain
 ---
 
-If you want to remove your jailbreak, and untether your device again, you can use the below commands on a PC/Mac while your device is connected in DFU. To remove the jailbreak, you **do not have to restore**.
+If you want to remove palera1n, you can use the below commands on a PC/Mac while your device is connected in DFU. To remove the jailbreak, you **do not have to restore**.
 
 ::: warning
 
@@ -20,11 +20,11 @@ Then, open a second terminal, and do the following steps with the other terminal
 
 :::
 
-1. Clone the repo with `git clone -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`
+1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
-2. Run `./palera1n.sh --restorerootfs`
+2. Run `./palera1n.sh --restorerootfs <iOS version you're on>`
+    - If you're using Linux, add `sudo` to the front of the command
+    - If you're using semi-tethered palera1n, add the `--semi-tethered` flag to the end of the command
     - If you're having an issue, add `--debug` to the end and use those logs to troubleshoot
 
-If you're having trouble, you can run `irecovery -n`.
-
-Your device should boot into iOS, and you can use the phone as normal.
+Your device should boot into iOS, and you can use the device as normal.

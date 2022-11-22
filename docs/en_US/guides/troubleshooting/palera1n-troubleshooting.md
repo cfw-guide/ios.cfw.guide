@@ -33,7 +33,7 @@ These are repositories that are only intended for use with rootless jailbreaks. 
 The binaries of these packages need to be resigned by Procursus Team with a newer version of ldid.
 
 There are two workarounds to this issue that you can use until this is done:
-  - Resign the binaries using `ldid -S`
+  - Resign the binaries using `ldid -s` (e.g. `ldid -s /Applications/Filza.app`)
   - Add `https://mineek.online/` which is a mirror of the Procursus repository with the binaries resigned
 
 ## Attempting to use --semi-tethered with a WiFi-only iPad or iPod Touch does not succeed
