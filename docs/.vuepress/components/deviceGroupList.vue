@@ -24,9 +24,9 @@
                     ">
                         <img :src="imageObj[o.types[(t - 1) * colCount + c - 1]]" style="max-height: 11em;">
                     </router-link>
-                    <hr class="separator">
                 </td>
             </tr>
+            <tr><td v-for="c in colCount" :key="c"><hr class="separator"></td></tr>
         </table>
     </template>
 </template>
