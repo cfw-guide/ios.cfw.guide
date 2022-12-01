@@ -52,6 +52,7 @@ If you previously used rootless palera1n or jailbroke with tweaks before Novembe
 1. Run `sudo ./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
     - Put your device in DFU Mode before running this command
     - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
+    - If you have a wifi-only device, add the `--no-baseband` switch to the command.
     - If you have an iPhone 7 or iPhone 8, **don't include --semi-tethered in the command**, even if you meet the aforementioned criteria to use the flag.
 
 Your device will then boot into a ramdisk, which will replace the Tips app and dump blobs. It will also set boot args and other variables, and either get ready for the tether or setup the fake rootfs. It will also patch the kernel for you, so you can use tweaks.
