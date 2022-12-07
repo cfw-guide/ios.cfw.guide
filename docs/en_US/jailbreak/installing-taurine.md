@@ -11,7 +11,7 @@ extra_contributors:
   - hopolapopola
 ---
 
-Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
+Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 14.0 to 14.3.
 

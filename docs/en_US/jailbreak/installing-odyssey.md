@@ -13,7 +13,7 @@ extra_contributors:
   - raizo
 ---
 
-Odyssey is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
+Odyssey is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 13.0 to 13.7.
 

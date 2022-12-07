@@ -9,7 +9,7 @@ extra_contributors:
   - iCraze
 ---
 
-XinaA15 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
+XinaA15 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 ::: warning
 
@@ -27,7 +27,7 @@ XinaA15 only supports A12 and newer devices on iOS 15.0 to 15.1.1
 
 ## Downloads
 
-- The latest version of [XinaA15](https://ipa5all.lanzoug.com/ipa/2022/12/07/4d2d006f73bdfd0bbfa4fe5a5fd52de2/1670413745/ui2yZogvLciOcVPjT-PkUw.ipa)
+- The latest version of [XinaA15](https://github.com/jacksight/xina520_official_jailbreak)
     - Make sure to download the XinaA15 `.ipa` file **onto your iOS device**
 
 ## Installing TrollHelper
@@ -84,10 +84,9 @@ The XinaA15 app will now be installed onto your device.
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the XinaA15 application from your home screen immediately afterwards
-1. Tap "Jailbreak"
-1. Reboot your phone when prompted
+1. Tap "Jailbreak", then "openJailbreak", your device will then reboot after a period of time
 1. Open the XinaA15 application from your home screen immediately after rebooting
-1. Tap "Jailbreak"
+1. Tap "Jailbreak", then "openJailbreak"
 
 ::: tip
 
