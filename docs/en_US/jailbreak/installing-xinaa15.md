@@ -33,7 +33,7 @@ XinaA15 only supports A12 and newer devices on iOS 15.0 to 15.1.1
 ## Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
