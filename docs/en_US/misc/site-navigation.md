@@ -8,12 +8,12 @@ sidebar: false
 ## Highlighted
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
--   <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link>
--   <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link>
+-   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 
 ## Jailbreaks
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
+-   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 -   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
 -   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
 -   <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
