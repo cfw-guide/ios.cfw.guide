@@ -37,7 +37,7 @@ These are essentially databases that contain lots of tweaks for you to install. 
 
 ### What are tweaks?
 
-Tweaks are small modifications that can be installed change the look and/or feel of your device.
+Tweaks are small modifications that can be installed to change the look and/or feel of your device.
 
 Unlike apps, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Some simpler tweaks might not even have this.
 
@@ -118,7 +118,7 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **A12-A14/M1 iPads**: iPadOS 14.5.1 (via unc0ver)
 - **A14 iPhones**: iOS 14.5.1 (via unc0ver)
 
-Note that A12 and newer devices running iOS 14.8.1 are newer do not have a jailbreak, which also inherently means no A15 or A16 device has a jailbreak currently.
+Note that A12 and newer devices running iOS 14.8.1 and newer do not have a jailbreak, which also inherently means no A15 or A16 device has a jailbreak currently.
 
 ### What is this "Rootless" I am hearing about with regards to iOS 15
 
