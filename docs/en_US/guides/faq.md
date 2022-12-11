@@ -114,35 +114,8 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **A8(X)-A10(X) iPads**: iPadOS 15.7.1 (via palera1n)
 - **iPod Touch (7th Generation)**: iOS 15.7.1 (via palera1n)
 - **A9-A11 iPhones**: iOS 15.7.1 (via palera1n)
-- **A12/A13 iPhones**: iOS 14.8 (via unc0ver)
-- **A12-A14/M1 iPads**: iPadOS 14.5.1 (via unc0ver)
-- **A14 iPhones**: iOS 14.5.1 (via unc0ver)
+- **A12/A13 iPhones**: iOS 15.1 (via XinaA15)
+- **A12-A15/M1 iPads**: iPadOS 15.1 (via XinaA15)
+- **A14/A15 iPhones**: iOS 15.1.1 (via XinaA15)
 
-Note that A12 and newer devices running iOS 14.8.1 are newer do not have a jailbreak, which also inherently means no A15 or A16 device has a jailbreak currently.
-
-### What is this "Rootless" I am hearing about with regards to iOS 15
-
-In iOS 15, Apple made it so that modifying the root filesystem (which almost all jailbreaks for iOS 14 and earlier do) would cause the device to bootloop and no longer be usable without restoring the device to a signed iOS version.
-
-There are two reasonably possible implementations which can be used for iOS 15:
-- Utilizing bind mounts (to essentially create a fake rootfs, which would act like a real one)
-- Going to a rootless system (which would essentially circumvent the core problem entirely)
-
-There are many issues with going with bind mounts, however, mainly that:
-- They only work with jailbreaks which utilize bootrom exploits (currently, that would only be checkra1n)
-- As a result of the first point, any intercompatibility between a semi-tether and semi-untether would be impossible if they utilized bind mounts
-- They are something which Apple could easily change the behavior for in a simple iOS update
-- They can sometimes lead to more potential issues for the end user
-
-There are also reasons that a jailbreak team may want to go for bind mounts if they're developing a jailbreak using the same exploit as checkra1n, such as:
-- They can potentially save some effort with regards to adding in iOS 15 support
-- It can allow for older, non-maintained tweaks to still be able to be used on iOS 15 (although, most tweaks will be broken anyways in some way as a result of other iOS 15 changes)
-
-::: warning
-
-There are some common misconceptions on what Rootless means, however.
-
-- No, Rootless does not mean you won't be able to run stuff as the root user in, say, a terminal application. All it means is that jailbreak related files would be placed in a folder in somewhere outside of the root filesystem.
-- While it is true that going to a Rootless model can result in more tweak incompatibility than if it was to go to a bind mount model, it would only make compatibility worse by a negiligible amount in most circumstances.
-
-:::
+Note that A12 and newer devices running iOS 15.2 or newer do not have a jailbreak, which also inherently means no M2 or A16 device has a jailbreak currently.
