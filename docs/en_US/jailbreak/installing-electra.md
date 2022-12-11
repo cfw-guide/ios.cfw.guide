@@ -11,7 +11,7 @@ extra_contributors:
   - TheHacker894
 ---
 
-Electra is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires a app to re-apply the exploit after a reboot.
+Electra is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 The tool is compatible with jailbreaking devices on iOS versions from 11.0 to 11.4.1.
 
