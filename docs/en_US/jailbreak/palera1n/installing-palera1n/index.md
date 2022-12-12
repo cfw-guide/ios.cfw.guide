@@ -14,10 +14,7 @@ extra_contributors:
 
 !!!include(./docs/en_US/jailbreak/palera1n/include/tethered.md)!!!
 
-!!!include(./docs/en_US/jailbreak/palera1n/include/tips-install.md)!!!
-
 palera1n is a work-in-progress script that patches the kernel so you can use tweaks and other stuff.
-
 
 ::: tip
 
