@@ -21,7 +21,7 @@ palera1n is a work-in-progress script that patches the kernel so you can use twe
 
 ::: tip
 
-palera1n only supports A11 and earlier devices running iOS 15.0 - 15.7.1
+palera1n only supports A11 and earlier devices running iOS 15.0 and later
 
 :::
 
