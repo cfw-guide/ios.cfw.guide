@@ -43,6 +43,7 @@ This section **only applies if you are using iOS 16**. If you are on iOS 15, ski
 1. Open the `Settings` app
 1. Tap on "Privacy and Security"
 1. Scroll down to "Developer Mode" then tap it
+  - You must have [sideloaded an app](https://ios.cfw.guide/sideloading-apps/) before this option will appear
 1. Toggle the `Developer Mode` toggle on, then tap "Restart"
 1. After your device reboots, tap "Turn On" to enable developer mode
 
