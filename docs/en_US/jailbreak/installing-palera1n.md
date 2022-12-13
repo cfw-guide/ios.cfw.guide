@@ -97,7 +97,6 @@ Your device will then boot into a ramdisk, which will dump blobs. It will also s
 1. Once back in recovery/normal mode, place the device into DFU again
 1. The device will boot, open the palera1n loader app, and hit install
 1. Sileo should have appeared on your homescreen
-    - If not, click Tools and choose Do all
 
 Once palera1n says done, tweaks should now be functional. You can find a list of compatible tweaks [here](https://github.com/itsnebulalol/ios15-tweaks).
 
