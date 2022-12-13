@@ -55,7 +55,8 @@ Please select your operating system:
 
 :::: tab name="macOS" :default="true"
 
-1. Download the [palera1n repo](https://github.com/palera1n/palera1n/archive/refs/heads/main.zip)
+1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
+    - If you've already cloned the repo, just run `cd palera1n`
 1. Open up a terminal window and `cd` to the directory
 1. Run `./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
     - Put your device in DFU Mode before running this command
@@ -80,8 +81,9 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Open up a terminal window
 1. Run `sudo systemctl stop usbmuxd`
 1. Run `sudo usbmuxd -f -p`
-1. Download the [palera1n repo](https://github.com/palera1n/palera1n/archive/refs/heads/main.zip)
-1. Open up a new terminal window and `cd` to the directory
+1. Open up a new terminal window
+1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
+    - If you've already cloned the repo, just run `cd palera1n`\
 1. Run `sudo ./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
     - Put your device in DFU Mode before running this command
     - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
