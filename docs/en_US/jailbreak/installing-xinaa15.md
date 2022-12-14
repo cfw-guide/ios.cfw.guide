@@ -94,28 +94,14 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 
 :::
 
-You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+While you are now technically jailbroken at this point, we **highly** recommend doing these next steps to install Sileo instead of what is included by default due to what is included by default having a high likelihood of breaking your jailbreak or potentially forcing you to restore to the latest iOS version
 
-## Updating Sileo
-
-::: tip
-
-It's highly recommended to do these steps, as this will fix issues with signing into repositories, among other issues.
-
-:::
+## Installing Sileo
 
 ### Downloads
 
 - The xina-beta-2 version of [Sileo](https://github.com/Sileo/Sileo/releases/tag/xina-beta-2)
     - Make sure to download the Sileo `.ipa` file **onto your iOS device**
-
-### Removing Sileo-Preboot
-
-1. Open the `TrollStore` app
-1. Tap on `Sileo-Preboot`
-1. Press `Uninstall App`, then `Uninstall`
-
-Sileo-Preboot will now be uninstalled
 
 ### Installing Sileo
 
@@ -125,4 +111,4 @@ Sileo-Preboot will now be uninstalled
 1. Press on the `Share` icon at the top right of the screen
 1. Press `TrollStore`
 
-Sileo will now be reinstalled onto your device, and should eventually reappear on the home screen.
+Sileo should now be installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
