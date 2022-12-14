@@ -106,7 +106,7 @@ It's highly recommended to do these steps, as this will fix issues with signing 
 
 ### Downloads
 
-- The xina-beta version of [Sileo](https://github.com/Sileo/Sileo/releases/tag/xina-beta)
+- The xina-beta-2 version of [Sileo](https://github.com/Sileo/Sileo/releases/tag/xina-beta-2)
     - Make sure to download the Sileo `.ipa` file **onto your iOS device**
 
 ### Removing Sileo-Preboot

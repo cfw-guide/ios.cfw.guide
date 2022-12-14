@@ -98,6 +98,4 @@ Your device will then boot into a ramdisk, which will dump blobs. It will also s
 1. The device will boot, open the palera1n loader app, and hit install
 1. Sileo should have appeared on your homescreen
 
-Once palera1n says done, tweaks should now be functional. You can find a list of compatible tweaks [here](https://github.com/itsnebulalol/ios15-tweaks).
-
 To revert the jailbreak, follow <router-link to="/removing-palera1n/">Removing palera1n</router-link>.
