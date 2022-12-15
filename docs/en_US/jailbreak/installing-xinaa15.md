@@ -94,21 +94,35 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 
 :::
 
-While you are now technically jailbroken at this point, we **highly** recommend doing these next steps to install Sileo instead of what is included by default due to what is included by default having a high likelihood of breaking your jailbreak or potentially forcing you to restore to the latest iOS version
+While you are now jailbroken at this point, we recommend installing Sileo Nightly so that some important issues with the included Sileo can be resolved.
 
-## Installing Sileo
+::: warning
 
-### Downloads
+While this jailbreak does include both Sileo and Saily, we **highly recommend not using Saily** due to the fact that it tends to cause many issues and can generally lead to either your jailbreak being broken or (in very extreme circumstances) potentially a need to restore to the latest iOS version.
 
-- The xina-beta-2 version of [Sileo](https://github.com/Sileo/Sileo/releases/tag/xina-beta-2)
-    - Make sure to download the Sileo `.ipa` file **onto your iOS device**
+If you wish to do so, you can make it so it doesn't install in the first place by toggling the Saily option off before jailbreaking with XinaA15.
 
-### Installing Sileo
+:::
 
-1. Open the `Files` app
-1. Go to where you saved the Sileo `.ipa` file
-1. Tap on the Sileo `.ipa` file
-1. Press on the `Share` icon at the top right of the screen
-1. Press `TrollStore`
+## Installing Sileo Nightly
 
-Sileo should now be installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+### Adding Amy's Repo
+
+1. Open the Sileo application
+1. Tap "Sources" on the bar at the bottom
+1. Tap the "+" icon in the top right-hand corner
+1. Type in [https://repo.anamy.gay/](https://repo.anamy.gay/))
+1. Tap "Add Source"
+
+### Installing Sileo Nightly
+
+1. Tap on "Amy's Repo"
+1. Tap "All Categories"
+1. Tap `Sileo (Nightly Channel)`
+1. Tap the "Get" button at the top of the page
+    - A bar labeled "Queued" should appear at the bottom of your screen
+1. Tap on the bar and press "Confirm"
+    - It may take some time for the tweak to install
+1. After it's finished, tap "Done"
+
+Sileo Nightly should now be installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
