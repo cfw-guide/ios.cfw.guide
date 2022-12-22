@@ -27,7 +27,7 @@ XinaA15 only supports A12 and newer devices on iOS 15.0 to 15.1.1
 
 ## Downloads
 
-- The latest version of [XinaA15](https://github.com/jacksight/xina520_official_jailbreak)
+- The 1.1.4 version of [XinaA15](https://github.com/jacksight/xina520_official_jailbreak/releases/tag/v1.1.4)
     - Make sure to download the XinaA15 `.ipa` file **onto your iOS device**
 
 ## Installing TrollHelper
