@@ -24,7 +24,7 @@ We will use Sideloadly and a patcher script to install the application to your d
 
 ## Downloads
 
-- The latest version of [h3lix](https://h3lix.tihmstar.net/)
+- Version RC6 of [h3lix](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/UgV1HAJT) from the Legacy Jailbreak Archives
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - macOS and Linux: Jakeajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
 - Windows: [winh3lixpatcher](https://github.com/kawaiizenbo/winh3lixpatcher/releases)
