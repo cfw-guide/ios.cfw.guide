@@ -12,13 +12,13 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Notes
-If you are on iOS 15.2 or newer on an A11- device, you should follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15.5 or newer (betas included) and are on an A12+ device, you will not be able to downgrade, as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.5 or newer.
+If you are on iOS 15.2 or newer on an A11- device, you should follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15.6 or newer (betas included) and are on an A12+ device, you will not be able to downgrade/upgrade with FutureRestore as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.5 final or newer.
 
 ## Requirements
 
 - Blobs saved for the version you want to restore to
   - These blobs must be for **your** device only; you cannot use other people's blobs
-- A jailbroken device **or** an A10-A11 device on 15.0-15.1.1 **or** an A12+ device on 15.0-15.4.1
+- A jailbroken device **or** an A10-A11 device on 15.0-15.1.1 **or** an A12+ device on 15.0-15.5b4
 
 ::: danger
 
@@ -33,7 +33,7 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
-- If on an iOS 15.0-15.1.1 device
+- If on an A10-A11 device on 15.0-15.1.1 **or** an A12+ device on 15.0-15.5b4
   - The latest version of [TrollStore](https://github.com/opa334/TrollStore/releases)
   - The latest version of [TrollNonce](https://github.com/opa334/TrollNonce/releases)
 
@@ -48,7 +48,7 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 ## Getting Started (Non-Jailbroken)
 
 1. Navigate to the [TrollStore](https://github.com/opa334/TrollStore) GitHub page and follow the installation instructions for your device
-   - If "None" is listed and you cannot jailbreak or you do not have an A11- device, you will be unable to proceed further
+   - If "Not Supported" is listed and you cannot jailbreak or you do not have an A11- device, you will be unable to proceed further
 2. Once trollstore is installed, install the [TrollNonce](https://github.com/opa334/TrollNonce/releases) app through TrollStore
 3. Proceed to the next section
 
@@ -105,11 +105,11 @@ This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If 
 ![FutureRestoreGUI main screen](/assets/images/futurerestore-gui.png)
 
 1. Click the `Settings` button and enable `Futurerestore Beta`, then click the `Download FutureRestore` button. **This option is only available for macOS and Linux**
-  - Windows users must download the beta from [here](https://cdn.discordapp.com/attachments/917198974555942942/1031110605089816606/futurerestore_300_local_win_x64.exe). Once that is done, press `Select FutureRestore Binary/Executable` and navigate to where you have downloaded the beta. Select the file and click `Open`
+  - Windows users must download the beta from [here](https://cdn.cryptiiiic.com/bin/Windows/x86_64/futurerestore/futurerestore-Windows-x86_64-v2.0.0-test-Build_304-RELEASE.exe). Once that is done, press `Select FutureRestore Binary/Executable` and navigate to where you have downloaded the beta. Select the file and click `Open`
 1. Click the `Select Blob File...` button and select your blob .shsh2 file
 1. Click the `Select Target iPSW File...` and select your .ipsw file
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
-1. If you are not downgrading, then it is safe to enable `Preserve Data` in the options menu in order to keep data. However using it while downgrading may be dangerous
+1. If you are not downgrading, then it is safe to enable `Preserve Data` in the options menu in order to keep data. However, using it while downgrading may be dangerous
 1. Do not enable `AP Nonce Collision` on any modern devices
 1. Enable `Custom Latest Build ID`, input `19G69` into the box 
 1. Enable `Custom Latest Beta`
