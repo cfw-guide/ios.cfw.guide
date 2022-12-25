@@ -29,6 +29,10 @@ Alternatively, you can follow <router-link to="/installing-h3lix">Installing h3l
 
 ## Downloads
 
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+kok3shiX is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
+
 - The latest version of [kok3shiX](https://dora2ios.web.app/kokeshiX.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 
