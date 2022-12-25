@@ -25,7 +25,7 @@ We will use the Sideloadly tool to install the openpwnage jailbreak application 
 openpwnage is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The latest version of [openpwnage](https://github.com/zachary7829/openpwnage)
+- The latest version of [openpwnage](https://github.com/0xilis/openpwnage)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
