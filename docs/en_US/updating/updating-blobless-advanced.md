@@ -21,9 +21,9 @@ This has a time limit, however. You will only be able to update to the following
 - **15.7** (*All other devices*) - January 25th, 2023
 - **16.1** - February 7th, 2023
 - **16.1.1** (*iPhones only*) - February 28th, 2023
-- **15.7.1** - March 13th, 2022
+- **15.7.1** - March 13th, 2023
 - **16.1.1** (*All other devices*) - March 13th, 2023
-- **16.1.2** - March 13th, 2022
+- **16.1.2** - March 13th, 2023
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
