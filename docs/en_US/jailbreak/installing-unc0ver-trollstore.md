@@ -60,7 +60,7 @@ The TrollStore application will now install to your iOS device.
 
 ## Preparing TrollStore
 
-In order to be able to sideload Taurine, a couple more steps need to be done.
+In order to be able to sideload unc0ver (and u0Launcher, if needed), a couple more steps need to be done.
 
 ### Installing Persistence Helper
 
