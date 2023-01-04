@@ -24,7 +24,6 @@ Then, open a second terminal, and do the following steps with the other terminal
     - If you've already cloned the repo, just run `cd palera1n`
 2. Run `./palera1n.sh --restorerootfs <iOS version you're on>`
     - If you're using Linux, add `sudo` to the front of the command
-    - If you're using semi-tethered palera1n, add the `--semi-tethered` flag to the end of the command
     - If you're having an issue, add `--debug` to the end and use those logs to troubleshoot
 
 Your device should boot into iOS, and you can use the device as normal.
