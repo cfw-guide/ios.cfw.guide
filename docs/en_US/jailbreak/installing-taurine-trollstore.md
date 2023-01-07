@@ -67,15 +67,16 @@ To workaround this, the Persistence Helper (which will still open even after thi
 ### Installing ldid
 
 1. Open the `TrollStore` app
+1. Tap `Settings`
 1. Tap `Install ldid`
 
 ## Installing Taurine
 
-1. Open the `Files` app
+1. Go back to the `Apps` tab
+1. Press the `+` on the top right
 1. Go to where you saved the Taurine `.ipa` file
 1. Tap on the Taurine `.ipa` file
-1. Press on the `Share` icon at the top right of the screen
-1. Press `TrollStore`
+1. Tap `Install`
 
 The Taurine app will now be installed onto your device.
 
