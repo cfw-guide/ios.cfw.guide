@@ -28,7 +28,7 @@ XinaA15 only supports A12 and newer devices on iOS 15.0 to 15.1.1
 
 Download both of the following `.ipa` files **onto your iOS device**:
 - The latest version of [XinaA15](https://apt.xina.vip/XinaA12.1.1.6.2.ipa)
-- The xina-beta-4 version of [Sileo](https://github.com/Sileo/Sileo/releases/download/xina-beta-4/Sileo-Xina-Beta-4.ipa)
+- The xina-beta-5 version of [Sileo](https://github.com/Sileo/Sileo/releases/download/xina-beta-5/Sileo-Xina-Beta-5.ipa)
 
 ## Installing TrollHelper
 
