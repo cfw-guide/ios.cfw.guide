@@ -12,7 +12,7 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Osservazioni
-Se sei su iOS 15, dovrai invece seguire [questa](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guida. Nota che se sei su iOS 15 e sei su un dispositivo A12+, non sarai in grado di eseguire un downgrade, siccome attualmente non c'è un jailbreak o un exploit che può essere utilizzato per impostare il nonce sui dispositivi A12+ che eseguono iOS 15.
+Se sei su iOS 15, dovrai invece seguire [questa](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guida. Nota che se sei su iOS 15 e sei su un dispositivo A12+, non sarai in grado di eseguire un downgrade, siccome attualmente non c'è un jailbreak o un exploit che può essere utilizzato per impostare il nonce sui dispositivi A12+ che eseguono iOS 15.
 
 ## Requisiti
 
