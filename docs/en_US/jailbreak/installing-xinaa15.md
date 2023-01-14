@@ -95,7 +95,7 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 
 :::
 
-While you are now jailbroken at this point, as there isn't a package manager included with XinaA15, we'll manually install the xina-beta-4 version of Sileo.
+While you are now jailbroken at this point, as there isn't a package manager included with XinaA15, we'll manually install the xina-beta-5 version of Sileo.
 
 ## Installing Sileo
 
