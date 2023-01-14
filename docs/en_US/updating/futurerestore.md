@@ -12,7 +12,7 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Notes
-If you are on iOS 15.2 or newer on an A11- device, you should follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15.6 or newer (betas included) and are on an A12+ device, you will not be able to downgrade/upgrade with FutureRestore as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.5 final or newer.
+If you are on iOS 15.2 or newer on an A11- device, you should follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15.6 or newer (betas included) and are on an A12+ device, you will not be able to downgrade/upgrade with FutureRestore as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.5 final or newer.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ If you're using unc0ver on iOS 14.6-14.8, you cannot use dimentio as libkrw isn'
 
 ::: warning
 
-This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If you cannot jailbreak, you must follow [this](https://gist.github.com/nyuszika7h/aac55c97f7925cddcf5ec3167f85dfe8) guide.
+This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If you cannot jailbreak, you must follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide.
 
 ::: 
 
