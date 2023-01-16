@@ -2,6 +2,7 @@
 lang: en_US
 title: Restoring to 15.6 RC
 permalink: /restoring-to-15-6
+description: Guide on restoring to iOS 15.6 RC
 redirect_from:
   - /restoring-to-15-6-rc
 ---
