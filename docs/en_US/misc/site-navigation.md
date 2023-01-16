@@ -9,6 +9,7 @@ sidebar: false
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
+-   <router-link to="/restoring-to-15-6">Restoring to 15.6 RC</router-link>
 
 ## Jailbreaks
 
@@ -58,6 +59,7 @@ sidebar: false
 
 ## Miscellaneous
 
+-   <router-link to="/restoring-to-15-6">Restoring to 15.6 RC</router-link>
 -   <router-link to="/installing-trollstore">Installing TrollStore</router-link>
 -   <router-link to="/restoring-rootfs">Restoring Rootfs</router-link>
 -   <router-link to="/installing-sileo">Installing Sileo</router-link>
