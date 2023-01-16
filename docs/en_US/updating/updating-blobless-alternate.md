@@ -15,7 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.0.2** - January 8th, 2023
 - **15.7** (*iPads which got 16.x on 14.4.2 or older only*) - January 22nd, 2023
 - **16.0.3** - January 22nd, 2023
 - **15.7** (*All other devices*) - January 25th, 2023
@@ -31,7 +30,6 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 16.0.2: October 10th, 2022
   - 15.7 (*iPads which got 16.x on 14.4.2 or older only*): October 24th, 2022
   - 16.0.3: October 24th, 2022
   - 15.7 (*All other devices*): October 27th, 2022

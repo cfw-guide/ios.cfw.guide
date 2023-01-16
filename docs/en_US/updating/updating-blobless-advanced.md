@@ -15,7 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.0.2** - January 8th, 2023
 - **15.7** (*iPads which got 16.x on 14.4.2 or older only*) - January 22nd, 2023
 - **16.0.3** - January 22nd, 2023
 - **15.7** (*All other devices*) - January 25th, 2023
@@ -33,7 +32,6 @@ Because you do not currently have a jailbreak (or you choose not to jailbreak fo
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 16.0.2: October 10th, 2022
   - 15.7 (*iPads which got 16.x on 14.4.2 or older only*): October 24th, 2022
   - 16.0.3: October 24th, 2022
   - 15.7 (*All other devices*): October 27th, 2022
@@ -91,7 +89,7 @@ This method requires that you purchase iMazing, if you don't have money to purch
 1. When the device boots up after being erased, set it up, then open this page on your device
 1. Tap a version below to install its respective update profile:
     - [15.7](/assets/files/delay_15_7.mobileconfig)
-    - [16.0.2](/assets/files/delay_16_0_1.mobileconfig)
+    - [16.0.3](/assets/files/delay_16_0_3.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Reboot your device
 1. Plug your device into power and connect to the Internet with Wi-Fi
