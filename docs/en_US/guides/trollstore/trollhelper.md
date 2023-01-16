@@ -14,12 +14,18 @@ extra_contributors:
 ## Requirements
 
 You will need:
-- A jailbroken iOS 14.0 to 15.3.1 device
+- A jailbroken iOS 14.0 to 15.4.1 device
 - A functioning package manager
 
 ::: tip
 
 If it's not already added, you'll also need to add the `havoc.app` repo to your package manager
+
+:::
+
+::: tip
+
+While you can also install TrollStore in this way on a jailbroken iOS 15.5 and later device, it's generally not recommended and anything installed via this manner will also only work in a jailbroken state
 
 :::
 
@@ -31,9 +37,3 @@ If it's not already added, you'll also need to add the `havoc.app` repo to your 
 1. Press `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.
-
-::: warning
-
-If you're jailbroken with palera1n, you'll need to boot the device without substitute in order for TrollStore to be able to sideload apps.
-
-:::
