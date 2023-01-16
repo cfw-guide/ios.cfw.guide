@@ -47,7 +47,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
-    - If you are on iOS 12.5.6, you will also need [ChimeraFix](https://github.com/mineek/chimerafix/releases/tag/deb)
+    - If you are on iOS 12.5.6, you will also need [ChimeraFix](https://github.com/mineek/chimerafix/releases/tag/v2_dylib)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
