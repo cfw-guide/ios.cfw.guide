@@ -21,9 +21,9 @@ Make sure you disable `Find My` or you'll need to enter Recovery or DFU before r
 
 ## Downloads
 
-The 15.6 RC `.ipsw` file for your device:
-    - iPhones and the iPod Touch 7th Generation should down the file from [here](https://appledb.dev/firmware/iOS/19G69)
-    - iPads should download the file from [here](https://appledb.dev/firmware/iPadOS/19G69)
+The 15.6 RC `.ipsw` file for your device:  
+  - iPhones and the iPod Touch 7th Generation should download the file from [here](https://appledb.dev/firmware/iOS/19G69)
+  - iPads should download the file from [here](https://appledb.dev/firmware/iPadOS/19G69)
 
 ## Restoring to 15.6 RC
 
