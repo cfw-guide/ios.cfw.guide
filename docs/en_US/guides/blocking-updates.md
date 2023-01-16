@@ -12,7 +12,7 @@ This will take you through installing the iOS 15 "tvOS profile" to block updates
 
 ## Installing the tvOS profile
 
-1. Open [cydia.ichitaso.com/no-ota15.mobileconfig](https://cydia.ichitaso.com/no-ota15.mobileconfig) in your device's browser
+1. Open [https://alexia.lol/noota16.mobileconfig](https://alexia.lol/noota16.mobileconfig) in your device's browser
 1. Select "Allow" if prompted
 1. Open the Settings application
 1. Navigate to `General` -> `Profile`
