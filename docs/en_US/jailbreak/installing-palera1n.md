@@ -12,6 +12,7 @@ redirect_from:
   - /installing-palera1n/macos
 extra_contributors:
   - Mineek
+  - nebula
 ---
 
 palera1n is a work-in-progress jailbreak script that patches the kernel so you can use Sileo and install tweaks. Currently, palera1n is compatible with A11 (iPhone X) and earlier devices on iOS 15 and later, with some major caveats.
