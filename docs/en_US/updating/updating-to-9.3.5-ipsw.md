@@ -13,7 +13,7 @@ Due to the age of this iOS version, you will need to use iTunes or similar to ma
 ## Updating to 9.3.5
 
 1. Plug your device into your computer.
-1. On iTunes or Finder, locate your device and select `General` or `Settings`.
+1. On iTunes or Finder, locate your device.
 1. Select `Check for Update`.
 1. Select `Download and Update`
     - Ensure that the version you are updating to is iOS 9.3.5

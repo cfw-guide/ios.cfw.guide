@@ -12,7 +12,7 @@ extra_contributors:
   - TheHacker894
 ---
 
-HomeDepot is capable of jailbreaking every 32bit iOS device on firmware version 9.1 up to 9.3.4.
+HomeDepot is capable of jailbreaking every 32-bit iOS device on firmware version 9.1 up to 9.3.4.
 
 Note that the HomeDepot jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 

@@ -11,7 +11,7 @@ extra_contributors:
   - hopolapopola
 ---
 
-kok3shiX is capable of jailbreaking every 32bit iOS device on firmware version 10.3 up to 10.3.4.
+kok3shiX is capable of jailbreaking every 32-bit iOS device on firmware version 10.3 up to 10.3.4.
 
 Note that the kok3shiX jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 

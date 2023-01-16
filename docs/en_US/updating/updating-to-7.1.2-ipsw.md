@@ -13,7 +13,7 @@ Due to the age of this iOS version, you will need to use iTunes or similar to ma
 ## Updating to 7.1.2 using iTunes/Finder
 
 1. Plug your device into your computer.
-1. On iTunes or Finder, locate your device and select `General` or `Settings`.
+1. On iTunes or Finder, locate your device.
 1. Select `Check for Update`.
 1. Select `Download and Update`
     - Ensure that the version you are updating to is iOS 7.1.2

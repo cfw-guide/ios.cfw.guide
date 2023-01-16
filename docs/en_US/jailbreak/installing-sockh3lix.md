@@ -14,7 +14,7 @@ extra_contributors:
   - hopolapopola
 ---
 
-SockH3lix is capable of jailbreaking 64-bit iOS devices on firmware version 10.0 up to 10.3.3.
+SockH3lix is capable of jailbreaking most 64-bit iOS devices on firmware version 10.0 up to 10.3.3.
 
 It is also compatible with the iPhone 5 on 10.3.3 and 10.3.4. It is not compatible with A10 devices such as the iPhone 7 and iPad Pro (2nd generation).
 

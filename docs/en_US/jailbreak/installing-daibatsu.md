@@ -13,9 +13,9 @@ Daibutsu is capable of jailbreaking most A5(X) iOS devices on firmware version 8
 
 ::: warning
 
-Daibutsu only supports iPad 2's that were made in 2012 or later.
+With regards to iPad 2's, Daibutsu only supports iPad 2's that were made in 2012 or later.
 
-In case you don't know if it's an eligible iPad, the following should be true:
+In case you don't know if it's an eligible iPad 2, the following should be true:
 - It is a WiFi-Only iPad 2
 - It is a 16GB iPad 2
 
