@@ -23,7 +23,7 @@ Additionally, if you are on iOS 16 and have ever set a passcode, you will need t
 
 ::: warning
 
-If you have any device on iOS 16.2, it's recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> before following this guide, due to issues with the App Store in a jailbroken state on 16.2
+If you have any device on iOS 16.2 or later, it's recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> before following this guide, due to issues with the App Store in a jailbroken state on 16.2 and later
 
 Additionally, if you have an A10(X) or A11 device on iOS 16, it's also recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> due to the aforementioned extra SEP limitations that exist with iOS 16.
 

@@ -14,11 +14,11 @@ extra_contributors:
 
 Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.6.
+Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.7.
 
 ::: danger
 
-Chimera support on 12.5.6 requires the use of an *unofficial* patch
+Chimera support on 12.5.6 and 12.5.7 requires the use of an *unofficial* patch
 
 If you are not comfortable with using an unofficial patch, you can follow <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> instead.
 
@@ -47,7 +47,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
-    - If you are on iOS 12.5.6, you will also need [ChimeraFix](https://github.com/mineek/chimerafix/releases/tag/v2_dylib)
+    - If you are on iOS 12.5.6 or 12.5.7, you will also need [ChimeraFix](https://github.com/mineek/chimerafix/releases/tag/v2_dylib)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -62,7 +62,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 ::: danger
 
-If you're on iOS 12.5.6, you'll need to take extra steps in order to inject ChimeraFix
+If you're on iOS 12.5.6 or 12.5.7, you'll need to take extra steps in order to inject ChimeraFix
 
 1. Click `Advanced Options`
 1. Click `Inject dylibs/frameworks`
