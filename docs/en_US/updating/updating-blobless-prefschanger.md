@@ -80,6 +80,16 @@ If you are using iOS 16, you will need to take extra steps beforehand to open si
 5. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
+The app will now install to your iOS device.
+
+## Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+The Prefs Changer application can now be opened from home screen.
+
 ## Supervising
 
 1. Open Prefs Changer
