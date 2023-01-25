@@ -27,7 +27,7 @@ This has a time limit, however. You will only be able to update to the following
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
-Because you do not currently have a jailbreak (or you choose not to jailbreak for any reason), you'll have to use advanced methods, involving things such as resetting all contents and settings, to be able to update.
+To be able to use these profiles, your iDevice must be supervised. We will use the app `Prefs Changer` to be able to supervise without Erasing All Content and Settings.
 
 ::: danger
 
