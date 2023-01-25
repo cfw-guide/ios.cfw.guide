@@ -81,6 +81,7 @@ sidebar: false
 
 -   <router-link to="/updating-blobless">Updating (Blobless)</router-link>
 -   <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link>
+-   <router-link to="/updating-blobless-prefschanger">Updating (Blobless) (Prefs Changer)</router-link>
 -   <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
 -   <router-link to="/updating-to-16-3">Updating to 16.3</router-link>
 -   <router-link to="/updating-to-15-7-3">Updating to 15.7.3</router-link>
