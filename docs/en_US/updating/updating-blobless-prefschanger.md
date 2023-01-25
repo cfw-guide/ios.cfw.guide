@@ -80,7 +80,7 @@ If you are using iOS 16, you will need to take extra steps beforehand to open si
 5. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
-## Using Prefs Changer
+## Supervising
 
 1. Open Prefs Changer
 2. Select `Supervised` in the list if not already selected
