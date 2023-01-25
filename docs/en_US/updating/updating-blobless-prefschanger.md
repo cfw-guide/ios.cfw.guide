@@ -52,7 +52,7 @@ Depending on your target iOS version, you won't be able to do this if you future
 
 ## Downloads
 
-- The latest version of [Prefs Changer](https://appinstallerios.com/AppCenter/PrefsChanger.ipa/)
+- The latest version of [Prefs Changer](https://appinstallerios.com/AppCenter/PrefsChanger.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -86,7 +86,7 @@ If you are using iOS 16, you will need to take extra steps beforehand to open si
 2. Select `Supervised` in the list if not already selected
 3. Tap `Apply Supervised`
     - If it says "Applying" for over 30 seconds close and reopen the app and try these steps again.
-4. When it says `Done! to use Supervised open Settings and go to Contacts` open settings
+4. When it says `Done! to use Supervised open Settings and go to Contacts` open Settings
 5. Tap `Contacts` and enable the `Supervised` option
 6. Restart your phone
 
