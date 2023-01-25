@@ -27,7 +27,9 @@ This has a time limit, however. You will only be able to update to the following
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
-To be able to use these profiles, your iDevice must be supervised. We will use the app `Prefs Changer` to be able to supervise without Erasing All Content and Settings.
+To be able to use these profiles, your iDevice must be supervised. We will use the app `Prefs Changer` to be able to supervise your iDevice without Erasing All Content and Settings.
+
+We will use Sideloadly to install the Prefs Changer application to your iOS device for use in the next step.
 
 ::: danger
 
@@ -98,7 +100,7 @@ The Prefs Changer application can now be opened from home screen.
     - If it says "Applying" for over 30 seconds close and reopen the app and try these steps again.
 4. When it says `Done! to use Supervised open Settings and go to Contacts` open Settings
 5. Tap `Contacts` and enable the `Supervised` option
-6. Restart your phone
+6. Restart your iDevice
 
 ## Updating your firmware version
 
@@ -121,6 +123,21 @@ If the update was successful, continue to [Get Started](/get-started) to jailbre
 
 :::
 
+::: tip
+
+As a result of supervising earlier, your device will remain supervised. Being in a supervised state means that:
+
+- A message will display in Settings, showing that your device is supervised
+- Activation lock will be disabled, potentially making your device accessible by thieves (FindMy will still work however)
+- If your device has Mobile Device Management enabled (e.g. a school or work device), then your organisation will be able to silently install and uninstall apps on your device
+
+Note that, for most users, staying in a supervised state won't be an issue.
+
+It is recommended to remove supervision because there are no side effects to removing it. To remove supervision, proceed down below.
+
+:::
+
+
 ## Removing Supervision
 
 1. Open Prefs Changer
@@ -129,6 +146,8 @@ If the update was successful, continue to [Get Started](/get-started) to jailbre
     - If it says "Applying" for over 30 seconds close and reopen the app and try these steps again.
 4. When it says `Done! to use Supervised open Settings and go to Contacts` open settings
 5. Tap `Contacts` and disable the `Supervised` option
-6. Restart your phone
+6. Restart your iDevice
+
+
 
 Credits to [dhinakg](https://github.com/dhinakg/) for discovering this method.
