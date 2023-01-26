@@ -29,6 +29,6 @@ The 15.6 RC `.ipsw` file for your device:
 
 1. Plug your device into your computer.
 1. On iTunes or Finder, locate your device.
-1. While holding down the Shift (Windows) or Option (Mac) key, click `Check for Update`.
-1. Locate the `.ipsw` file you downloaded, and select that `.ipsw` file.
+1. While holding down the Shift (Windows) or Option (Mac) key, click `Restore [Device Type]`.
+1. Locate the `.ipsw` file you downloaded, and select that `.ipsw` file. 
     - Ensure that the version you are updating to is iOS 15.6 RC (19G69)
