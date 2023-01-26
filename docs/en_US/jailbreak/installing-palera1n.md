@@ -50,8 +50,8 @@ Please select your operating system:
 1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
 1. Open up a terminal window and `cd` to the directory
-1. Run `./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
-    - Put your device in DFU Mode **before running this command**
+2. Run `./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
+    - Make sure your device is turned on and connected via a USB-A cable.
     - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
     - Example: `./palera1n.sh --tweaks 15.6.1 --semi-tethered`
 
@@ -78,7 +78,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
 1. Run `sudo ./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
-    - Put your device in DFU Mode **before running this command**
+    - Make sure your device is turned on and connected via a USB-A cable.
     - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
     - Example: `sudo ./palera1n.sh --tweaks 15.6.1 --semi-tethered`
 
