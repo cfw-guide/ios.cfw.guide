@@ -47,7 +47,7 @@ Please select your operating system:
 
 :::: tab name="macOS" :default="true"
 
-1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
+1. Clone the repo with `git clone --recursive --depth=1 --shallow-submodules https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
 1. Open up a terminal window and `cd` to the directory
 2. Run `./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
@@ -75,7 +75,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Run `sudo systemctl stop usbmuxd`
 1. Run `sudo usbmuxd -f -p`
 1. Open up a new terminal window
-1. Clone the repo with `git clone --recursive https://github.com/palera1n/palera1n && cd palera1n`
+1. Clone the repo with `git clone --recursive --depth=1 --shallow-submodules https://github.com/palera1n/palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
 1. Run `sudo ./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
     - Make sure your device is turned on and connected via a USB-A cable.
