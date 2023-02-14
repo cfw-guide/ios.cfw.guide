@@ -23,7 +23,7 @@ extra_contributors:
 
 ::: tip
 
-If you're using an M1 Mac and are using an A9X device, you will be prompted during the process to unplug and replug the device and will need to do so.
+If you're using an Apple Silicon Mac and are using an A9X device, you will be prompted during the process to unplug and replug the device and will need to do so.
 
 :::
 

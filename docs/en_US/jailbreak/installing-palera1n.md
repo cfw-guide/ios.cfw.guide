@@ -65,6 +65,12 @@ Please select your operating system:
 
 ### Running palera1n
 
+::: tip
+
+If you're using an Apple Silicon Mac, you'll need to unplug and replug the device after `Checkmate!` appears in the logs.
+
+:::
+
 1. Run `palera1n <insert arguments here>`
     - 16GB devices should use `palera1n -B -f` - note that you'll need to have 2-3GB of storage space free.
     - Devices with more than 2-3GB of storage space free but with less than 5-10GB of storage space free also can use `palera1n -B -f`, but only if they're on iOS 15.
