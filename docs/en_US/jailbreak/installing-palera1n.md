@@ -15,29 +15,37 @@ extra_contributors:
   - nebula
 ---
 
-palera1n is a work-in-progress jailbreak script that patches the kernel so you can use Sileo and install tweaks. Currently, palera1n is compatible with A11 (iPhone X) and earlier devices on iOS 15 and later, with some major caveats.
+palera1n is a work-in-progress jailbreak that patches the kernel so you can use Sileo and install tweaks. Currently, palera1n is compatible with A11 (iPhone X) and earlier devices on iOS 15 and later, with some major caveats.
 
-On A10(X) and A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
+On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
 Additionally, if you are on iOS 16 and have ever set a passcode, you will need to **erase all content and settings** in order to be able to jailbreak.
 
 ::: warning
 
+This version of palera1n is currently in beta. If you're not comfortable with using beta software, you can follow <router-link to="/installing-palera1n-legacy">Installing palera1n (Legacy)</router-link> instead.
+
+:::
+
+::: warning
+
 If you have any device on iOS 16.2 or later, it's recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> before following this guide, due to issues with the App Store in a jailbroken state on 16.2 and later
 
-Additionally, if you have an A10(X) or A11 device on iOS 16, it's also recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> due to the aforementioned extra SEP limitations that exist with iOS 16.
+Additionally, if you have an A11 device on iOS 16, it's also recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> due to the aforementioned extra SEP limitations that exist with iOS 16.
 
 :::
 
-::: danger
+::: warning
 
-If you are not using the semi-tethered flag, this is a **tethered** jailbreak, which means the device must be booted using a computer every time, otherwise it won't boot at all.
-
-However, this (and the semi-tether as well) can be easily reverted by following <router-link to="/removing-palera1n">Removing palera1n</router-link>.
-
-If you'd like it to be semi-tethered, add the `--semi-tethered` argument to the end of the jailbreak command. Keep in mind this will use 5-10GB of storage, so this won't work on 16GB devices.
+If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n">remove palera1n</router-link> before continuing.
 
 :::
+
+## Downloads
+
+The version of [palera1n](https://github.com/palera1n/palera1n-c/releases) for your OS.
+  - macOS users should generally get `palera1n-macos-universal`
+  - Linux users should get whichever version corresponds to the architecture of the computer you're using
 
 ## Installing the jailbreak
 
@@ -47,13 +55,48 @@ Please select your operating system:
 
 :::: tab name="macOS" :default="true"
 
-1. Clone the repo with `git clone --recursive --depth=1 --shallow-submodules https://github.com/palera1n/palera1n && cd palera1n`
-    - If you've already cloned the repo, just run `cd palera1n`
-1. Open up a terminal window and `cd` to the directory
-2. Run `./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
-    - Make sure your device is turned on and connected via a USB-A cable.
-    - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
-    - Example: `./palera1n.sh --tweaks 15.6.1 --semi-tethered`
+### Installing palera1n
+
+1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
+1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
+    - Replace `./palera1n-macos-universal` with whatever version you downloaded
+1. Run `sudo xattr -cr /usr/local/bin/palera1n`
+1. Run `sudo chmod +x /usr/local/bin/palera1n`
+
+### Running palera1n
+
+1. Run `palera1n <insert arguments here>`
+    - 16GB devices should use `palera1n -B -f` - note that you'll need to have 2-3GB of storage space free.
+    - Devices with more than 2-3GB of storage space free but with less than 5-10GB of storage space free also can use `palera1n -B -f`, but only if they're on iOS 15.
+    - Devices which have iOS 16 or have more than 5-10GB of storage space free should use `palera1n -c -f`
+    - Make sure your device is plugged in when entering this command
+
+::: warning
+
+If your device is either:
+  - On iOS 15 and does not have at least 2-3GB of storage space free
+  - On iOS 16 and does not have at least 5-10GB of storage space free
+
+You won't be able to continue following this guide.
+
+If you cannot free up enough storage to follow this, you can alternatively use the tethered option of legacy palera1n by following <router-link to="/installing-palera1n-legacy">Installing palera1n (Legacy)</router-link> instead.
+
+:::
+
+2. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+
+Your device should begin to jailbreak.
+
+::: tip
+
+A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
+
+1. In the terminal window, press `Control` + `C` on your keyboard
+1. Rerun the command that you just ran
+
+You'll need to do this every time you rejailbreak your device as well.
+
+:::
 
 ::::
 
@@ -71,25 +114,58 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
+### Installing palera1n
+
 1. Open up a terminal window
 1. Run `sudo systemctl stop usbmuxd`
 1. Run `sudo usbmuxd -f -p`
-1. Open up a new terminal window
-1. Clone the repo with `git clone --recursive --depth=1 --shallow-submodules https://github.com/palera1n/palera1n && cd palera1n`
-    - If you've already cloned the repo, just run `cd palera1n`
-1. Run `sudo ./palera1n.sh --tweaks <iOS version you're on> --semi-tethered`
-    - Make sure your device is turned on and connected via a USB-A cable.
-    - The semi-tethered flag uses 5-10GB of storage and is also incompatible with 16GB devices, **don't include --semi-tethered in the command** if you are using a 16GB device or have less than 10GB free.
-    - Example: `sudo ./palera1n.sh --tweaks 15.6.1 --semi-tethered`
+1. Open up a new terminal window and `cd` to the directory that palera1n was downloaded to.
+1. Run `sudo mv ./palera1n-linux-* /usr/bin/palera1n`
+1. Run `sudo chmod +x /usr/bin/palera1n`
+
+### Running palera1n
+
+1. Run `sudo palera1n <insert arguments here>`
+    - 16GB devices should use `sudo palera1n -B -f` - note that you'll need to have 2-3GB of storage space free.
+    - Devices with more than 2-3GB of storage space free but with less than 5-10GB of storage space free also can use `sudo palera1n -B -f`, but only if they're on iOS 15.
+    - Devices which have iOS 16 or have more than 5-10GB of storage space free should use `sudo palera1n -c -f`
+    - Make sure your device is plugged in when entering this command
+
+::: warning
+
+If your device is either:
+  - On iOS 15 and does not have at least 2-3GB of storage space free
+  - On iOS 16 and does not have at least 5-10GB of storage space free
+
+You won't be able to continue following this guide.
+
+If you cannot free up enough storage to follow this, you can alternatively use the tethered option of legacy palera1n by following <router-link to="/installing-palera1n-legacy">Installing palera1n (Legacy)</router-link> instead.
+
+:::
+
+2. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+
+Your device should begin to jailbreak.
+
+::: tip
+
+A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
+
+1. In the terminal window, press `Control` + `C` on your keyboard
+1. Rerun the command that you just ran
+
+You'll need to do this every time you rejailbreak your device as well.
+
+:::
 
 ::::
 
 ::::::
 
-Your device will then boot into a ramdisk, which will dump blobs. It will also set boot arguments and other variables, and either tether your device or setup the fake rootfs. It will also patch the kernel for you, so you can use tweaks.
+Once the device boots up, open the palera1n loader app and tap `Install`. After a bit of time, you'll be prompted to respring and `Sileo Nightly` should be on your home screen.
 
-1. Once back in recovery/normal mode, place the device into DFU again
-1. The device will boot, open the palera1n loader app, and hit install
-1. Sileo should have appeared on your homescreen
+::: tip
 
-To revert the jailbreak, follow <router-link to="/removing-palera1n/">Removing palera1n</router-link>.
+To rejailbreak your device, no matter what command you ran above, simply run `palera1n -f` and then repeat any other applicable steps.
+
+:::
