@@ -19,7 +19,7 @@ palera1n is a work-in-progress jailbreak that patches the kernel so you can use 
 
 On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
-Additionally, if you are on iOS 16 and have ever set a passcode, you will need to **erase all content and settings** in order to be able to jailbreak.
+Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
 
 ::: warning
 
@@ -44,8 +44,8 @@ If you are using an old version of palera1n that was tethered, you'll need to <r
 ## Downloads
 
 The version of [palera1n](https://github.com/palera1n/palera1n-c/releases) for your OS.
-  - macOS users should generally get `palera1n-macos-universal`
-  - Linux users should get whichever version corresponds to the architecture of the computer you're using
+    - macOS users should generally get `palera1n-macos-universal`
+    - Linux users should get whichever version corresponds to the architecture of the computer you're using
 
 ## Installing the jailbreak
 
@@ -60,14 +60,22 @@ Please select your operating system:
 1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
 1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
     - Replace `./palera1n-macos-universal` with whatever version you downloaded
-1. Run `sudo xattr -cr /usr/local/bin/palera1n`
+1. Run `sudo xattr -c /usr/local/bin/palera1n`
 1. Run `sudo chmod +x /usr/local/bin/palera1n`
 
 ### Running palera1n
 
+::: warning
+
+If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
+
+If you do have issues, get a USB-A to Lightning cable and, if necessary, also get a USB-C to USB-A adapter.
+
+:::
+
 ::: tip
 
-If you're using an Apple Silicon Mac, you'll need to unplug and replug the device after `Checkmate!` appears in the logs.
+If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/adapter into, you'll need to unplug and replug the device after `Checkmate!` appears in the logs.
 
 :::
 
@@ -80,8 +88,8 @@ If you're using an Apple Silicon Mac, you'll need to unplug and replug the devic
 ::: warning
 
 If your device is either:
-  - On iOS 15 and does not have at least 2-3GB of storage space free
-  - On iOS 16 and does not have at least 5-10GB of storage space free
+    - On iOS 15 and does not have at least 2-3GB of storage space free
+    - On iOS 16 and does not have at least 5-10GB of storage space free
 
 You won't be able to continue following this guide.
 
@@ -121,6 +129,14 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 :::
 
 ### Installing palera1n
+
+::: warning
+
+If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
+
+If you do have issues, get a USB-A to Lightning cable and, if necessary, also get a USB-C to USB-A adapter.
+
+:::
 
 1. Open up a terminal window
 1. Run `sudo systemctl stop usbmuxd`
