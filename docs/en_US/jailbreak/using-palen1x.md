@@ -88,8 +88,8 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 ::: warning
 
 If your device is either:
-    - On iOS 15 and does not have at least 2-3GB of storage space free
-    - On iOS 16 and does not have at least 5-10GB of storage space free
+   - On iOS 15 and does not have at least 2-3GB of storage space free
+   - On iOS 16 and does not have at least 5-10GB of storage space free
 
 You won't be able to continue following this guide.
 

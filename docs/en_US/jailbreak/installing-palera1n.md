@@ -44,8 +44,8 @@ If you are using an old version of palera1n that was tethered, you'll need to <r
 ## Downloads
 
 The version of [palera1n](https://github.com/palera1n/palera1n-c/releases) for your OS.
-    - macOS users should generally get `palera1n-macos-universal`
-    - Linux users should get whichever version corresponds to the architecture of the computer you're using
+  - macOS users should generally get `palera1n-macos-universal`
+  - Linux users should get whichever version corresponds to the architecture of the computer you're using
 
 ## Installing the jailbreak
 
