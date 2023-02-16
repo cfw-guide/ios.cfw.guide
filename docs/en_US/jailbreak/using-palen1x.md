@@ -24,6 +24,12 @@ If you are trying to use a Virtual Machine software of some sort from Windows (e
 
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
 
+::: tip
+
+This is assuming you're on Windows, as you can run palera1n natively on macOS and Linux. palen1x allows you to run palera1n without installing/booting a full linux distro.
+
+:::
+
 :::
 
 palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking iOS devices with A8(X) to A11 SoC's on iOS 15 and later
