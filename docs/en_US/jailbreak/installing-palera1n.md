@@ -10,6 +10,7 @@ redirect_from:
   - /palerain
   - /installing-palera1n/linux
   - /installing-palera1n/macos
+  - /installing-palera1n/windows
 extra_contributors:
   - Mineek
   - nebula
@@ -179,6 +180,12 @@ A9(X) and earlier devices have an issue where they will get stuck midway through
 You'll need to do this every time you rejailbreak your device as well.
 
 :::
+
+::::
+
+:::: tab name="Windows"
+
+#### Follow the guide for <router-link to="/using-palen1x">palen1x</router-link>.
 
 ::::
 
