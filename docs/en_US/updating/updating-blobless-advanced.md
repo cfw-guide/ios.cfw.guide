@@ -47,7 +47,46 @@ Depending on your target iOS version, you won't be able to do this if you future
 
 1. Plug your iDevice into your computer and make a backup through iTunes or Finder
 
-After making a backup, what you need to do after is dependent on if you use macOS or Windows
+After making a backup, what you need to do after is dependent on if you use macOS, Windows, or if you do not have either or if you wish to keep your device's data. 
+
+
+## On the iDevice itself - Cowabunga, keeps data
+
+### Downloads
+
+- The latest version of [Cowabunga](https://github.com/leminlimez/Cowabunga)
+- The latest version of [Sideloadly](https://sideloadly.io/)
+
+### Installing Cowabunga
+
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the Cowabunga `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple       ID.
+
+The app will now install to your iOS/iPadOS device.
+
+### Trusting Cowabunga
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+The Cowabunga application can now be opened from home screen.
+
+### Supervising the device
+
+1. Open the Cowabunga app
+2. Tap `Tools`
+3. Navigate to the `Miscellaneous` section
+4. Enable `Supervise Device`
+5. Navigate to the `Home` section
+6. Press `Respring`
+7. Reboot the device
+8. You are now supervised without needing iMazing or Apple Configurator 2. Your data will be kept intact, unlike the methods below.  
 
 ## macOS - Apple Configurator 2
 
@@ -71,7 +110,7 @@ After making a backup, what you need to do after is dependent on if you use macO
 
 ::: danger
 
-This method requires that you purchase iMazing, if you don't have money to purchase iMazing, you cannot follow this method
+This method requires that you purchase iMazing, if you don't have money to purchase iMazing, you cannot follow this method and will need to follow the Cowabunga method. 
 
 :::
 
@@ -104,7 +143,7 @@ After updating, you can remove supervision and restore your backup you made earl
 
 ::: tip
 
-If the update was successful, continue to [Get Started](/get-started) to jailbreak your device.
+If the update was successful, you may be able to continue to [Get Started](/get-started) to jailbreak your device.
 
 :::
 
