@@ -50,7 +50,7 @@ Depending on your target iOS version, you won't be able to do this if you future
 After making a backup, what you need to do after is dependent on if you use macOS, Windows, or if you do not have either or if you wish to keep your device's data. 
 
 
-## On the iDevice itself - Cowabunga, keeps data
+## On the iDevice itself - Cowabunga, keeps data (14.0-15.7.1, 16.0-16.1.2 ONLY)
 
 ### Downloads
 
