@@ -59,6 +59,7 @@ Please select your operating system:
 
 1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
 1. Run `sudo mkdir /usr/local/bin`
+    - If you get a message saying `mkdir: /usr/local/bin: File exists`, this is safe to ignore.
 1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
     - Replace `./palera1n-macos-universal` with whatever version you downloaded
 1. Run `sudo xattr -c /usr/local/bin/palera1n`
