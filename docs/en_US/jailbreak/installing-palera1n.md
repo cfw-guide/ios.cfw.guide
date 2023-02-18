@@ -58,6 +58,7 @@ Please select your operating system:
 ### Installing palera1n
 
 1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
+1. Run `sudo mkdir /usr/local/bin`
 1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
     - Replace `./palera1n-macos-universal` with whatever version you downloaded
 1. Run `sudo xattr -c /usr/local/bin/palera1n`
