@@ -101,7 +101,9 @@ If you cannot free up enough storage to follow this, you can alternatively use t
 
 2. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-Your device should begin to jailbreak.
+Your device should begin to create the FakeFS or BindFS (depending on which command you ran).
+
+3. Once your device is done creating the FakeFS or BindFS, run `palera1n -f`
 
 ::: tip
 
@@ -169,7 +171,7 @@ If you cannot free up enough storage to follow this, you can alternatively use t
 
 2. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-Your device should begin to create the FakeFS or BindFS (depending on the command you).
+Your device should begin to create the FakeFS or BindFS (depending on the command you ran).
 
 3. Once your device is done creating the FakeFS or BindFS, run `sudo palera1n -f`
 
