@@ -42,6 +42,12 @@ If you are using an old version of palera1n that was tethered, you'll need to <r
 
 :::
 
+::: tip
+
+If you are using Windows, proceed to <router-link to="/using-palen1x">Using palen1x</router-link>.
+
+:::
+
 ## Downloads
 
 The version of [palera1n](https://github.com/palera1n/palera1n-c/releases) for your OS.
@@ -180,12 +186,6 @@ A9(X) and earlier devices have an issue where they will get stuck midway through
 You'll need to do this every time you rejailbreak your device as well.
 
 :::
-
-::::
-
-:::: tab name="Windows"
-
-#### Follow the guide for <router-link to="/using-palen1x">palen1x</router-link>.
 
 ::::
 
