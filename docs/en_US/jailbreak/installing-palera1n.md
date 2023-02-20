@@ -10,6 +10,7 @@ redirect_from:
   - /palerain
   - /installing-palera1n/linux
   - /installing-palera1n/macos
+  - /installing-palera1n/windows
 extra_contributors:
   - Mineek
   - nebula
@@ -38,6 +39,12 @@ Additionally, if you have an A11 device on iOS 16, it's also recommended to <rou
 ::: warning
 
 If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n">remove palera1n</router-link> before continuing.
+
+:::
+
+::: tip
+
+If you are using Windows, proceed to <router-link to="/using-palen1x">Using palen1x</router-link>.
 
 :::
 
