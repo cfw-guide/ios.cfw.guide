@@ -50,10 +50,7 @@ Additionally, if you have an A11 device on iOS 16, it's also recommended to <rou
 
 - A 64MB or greater USB Drive
     - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
-- The latest version of palen1x:
-    - For 64-bit computers, download [this version](https://cdn.nickchan.lol/palera1n/artifacts/palen1x/c-palen1x-v1.0.6-amd64.iso)
-        - It doesn't matter if you have an AMD processor or not, "AMD64" is just the name of the architecture
-    - For 32-bit computers, download [this version](https://cdn.nickchan.lol/palera1n/artifacts/palen1x/c-palen1x-v1.0.6-i686.iso)
+- The latest version of [palen1x](https://github.com/palera1n/palen1x/releases)
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)
 
 ## Installing Ventoy
@@ -76,6 +73,8 @@ Additionally, if you have an A11 device on iOS 16, it's also recommended to <rou
 
 ## Running palera1n
 
+### Creating the FakeFS/BindFS
+
 ::: warning
 
 If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
@@ -84,18 +83,18 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 :::
 
-1. Once you have loaded palera1n, select `palera1n`
+1. Once you have loaded palen1x, select `palera1n`
 1. Select `Options`
 1. Enable one of the two options, depending on your devices capacity, amount of free space, and iOS version:
     - 16GB devices should enable `Create BindFS` - note that you'll need to have 2-3GB of storage space free.
-    - Devices with more than 2-3GB of storage space free but with less than 5-10GB of storage space free also can enable `Create BindFS`, but only if they're on iOS 15.
-    - Devices which have iOS 16 or have more than 5-10GB of storage space free should enable `Create FakeFS`
+    - Devices with more than 2-3GB of storage space free but with less than 10-15GB of storage space free also can enable `Create BindFS`, but only if they're on iOS 15.
+    - Devices which have iOS 16 or have more than 10-15GB of storage space free should enable `Create FakeFS`
 
 ::: warning
 
 If your device is either:
    - On iOS 15 and does not have at least 2-3GB of storage space free
-   - On iOS 16 and does not have at least 5-10GB of storage space free
+   - On iOS 16 and does not have at least 10-15GB of storage space free
 
 You won't be able to continue following this guide.
 
@@ -103,20 +102,37 @@ You won't be able to continue following this guide.
 
 4. Press `Enter` to save the options you just selected, then select `Start`
     - Make sure your device is plugged in when you do this.
-5. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-Your device should begin to jailbreak.
+Your device should create the FakeFS or BindFS (depending on the option you chose).
 
 ::: tip
 
 A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
 
 1. In the terminal window, press `Control` + `C` on your keyboard
-1. Rerun the command you just ran
-    - If you toggled on `Create BindFS`, it'll be `sudo palera1n -B -f`
-    - If you toggled on `Create FakeFS`, it'll be `sudo palera1n -C -f`
+1. Type `exit`
+1. Rerun the steps in palen1x that you just did
 
-You'll need to do this (but with `sudo palera1n -f` instead of the aforementioned command) every time you rejailbreak your device as well.
+:::
+
+### Jailbreaking with palera1n
+
+1. When prompted to `press enter to exit`, press the enter key.
+1. Once the palen1x menu loads again, reselect `palera1n`
+1. Select `Start`
+    - Make sure your device is plugged in when you do this.
+1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+
+Your device should now begin to jailbreak.
+
+::: tip
+
+A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
+
+1. In the terminal window, press `Control` + `C` on your keyboard
+1. Type `exit`
+1. Rerun the steps in palen1x that you just did
 
 :::
 

@@ -65,6 +65,8 @@ Please select your operating system:
 ### Installing palera1n
 
 1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
+1. Run `sudo mkdir /usr/local/bin`
+    - If you get a message saying `mkdir: /usr/local/bin: File exists`, this is safe to ignore.
 1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
     - Replace `./palera1n-macos-universal` with whatever version you downloaded
 1. Run `sudo xattr -c /usr/local/bin/palera1n`
@@ -88,15 +90,15 @@ If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/a
 
 1. Run `palera1n <insert arguments here>`
     - 16GB devices should use `palera1n -B -f` - note that you'll need to have 2-3GB of storage space free.
-    - Devices with more than 2-3GB of storage space free but with less than 5-10GB of storage space free also can use `palera1n -B -f`, but only if they're on iOS 15.
-    - Devices which have iOS 16 or have more than 5-10GB of storage space free should use `palera1n -c -f`
+    - Devices with more than 2-3GB of storage space free but with less than 10-15GB of storage space free also can use `palera1n -B -f`, but only if they're on iOS 15.
+    - Devices which have iOS 16 or have more than 10-15GB of storage space free should use `palera1n -c -f`
     - Make sure your device is plugged in when entering this command
 
 ::: warning
 
 If your device is either:
    - On iOS 15 and does not have at least 2-3GB of storage space free
-   - On iOS 16 and does not have at least 5-10GB of storage space free
+   - On iOS 16 and does not have at least 10-15GB of storage space free
 
 You won't be able to continue following this guide.
 
@@ -106,7 +108,9 @@ If you cannot free up enough storage to follow this, you can alternatively use t
 
 2. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-Your device should begin to jailbreak.
+Your device should begin to create the FakeFS or BindFS (depending on which command you ran).
+
+3. Once your device is done creating the FakeFS or BindFS, run `palera1n -f`
 
 ::: tip
 
@@ -156,15 +160,15 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 1. Run `sudo palera1n <insert arguments here>`
     - 16GB devices should use `sudo palera1n -B -f` - note that you'll need to have 2-3GB of storage space free.
-    - Devices with more than 2-3GB of storage space free but with less than 5-10GB of storage space free also can use `sudo palera1n -B -f`, but only if they're on iOS 15.
-    - Devices which have iOS 16 or have more than 5-10GB of storage space free should use `sudo palera1n -c -f`
+    - Devices with more than 2-3GB of storage space free but with less than 10-15GB of storage space free also can use `sudo palera1n -B -f`, but only if they're on iOS 15.
+    - Devices which have iOS 16 or have more than 10-15GB of storage space free should use `sudo palera1n -c -f`
     - Make sure your device is plugged in when entering this command
 
 ::: warning
 
 If your device is either:
   - On iOS 15 and does not have at least 2-3GB of storage space free
-  - On iOS 16 and does not have at least 5-10GB of storage space free
+  - On iOS 16 and does not have at least 10-15GB of storage space free
 
 You won't be able to continue following this guide.
 
@@ -174,7 +178,9 @@ If you cannot free up enough storage to follow this, you can alternatively use t
 
 2. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-Your device should begin to jailbreak.
+Your device should begin to create the FakeFS or BindFS (depending on the command you ran).
+
+3. Once your device is done creating the FakeFS or BindFS, run `sudo palera1n -f`
 
 ::: tip
 
