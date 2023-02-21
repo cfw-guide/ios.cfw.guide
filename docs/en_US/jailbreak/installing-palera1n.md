@@ -204,3 +204,5 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 To rejailbreak your device, no matter what command you ran above, simply run `palera1n -f` and then repeat any other applicable steps.
 
 :::
+<br>
+To revert the jailbreak, follow <router-link to="/removing-palera1n/">Removing palera1n</router-link>.
