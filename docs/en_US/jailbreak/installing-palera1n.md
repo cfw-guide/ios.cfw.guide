@@ -30,14 +30,6 @@ This version of palera1n is currently in beta. If you're not comfortable with us
 
 ::: warning
 
-If you have any device on iOS 16.2 or later, it's recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> before following this guide, due to issues with the App Store in a jailbroken state on 16.2 and later
-
-Additionally, if you have an A11 device on iOS 16, it's also recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> due to the aforementioned extra SEP limitations that exist with iOS 16.
-
-:::
-
-::: warning
-
 If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n">remove palera1n</router-link> before continuing.
 
 :::

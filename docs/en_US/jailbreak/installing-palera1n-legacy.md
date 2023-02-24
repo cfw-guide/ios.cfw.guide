@@ -21,14 +21,6 @@ On A10(X) and A11 devices, you **must disable your passcode** and will not be ab
 
 Additionally, if you are on iOS 16 and have ever set a passcode, you will need to **erase all content and settings** in order to be able to jailbreak.
 
-::: warning
-
-If you have any device on iOS 16.2 or later, it's recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> before following this guide, due to issues with the App Store in a jailbroken state on 16.2 and later
-
-Additionally, if you have an A10(X) or A11 device on iOS 16, it's also recommended to <router-link to="/restoring-to-15-6">restore to 15.6 RC</router-link> due to the aforementioned extra SEP limitations that exist with iOS 16.
-
-:::
-
 ::: danger
 
 If you are not using the semi-tethered flag, this is a **tethered** jailbreak, which means the device must be booted using a computer every time, otherwise it won't boot at all.
