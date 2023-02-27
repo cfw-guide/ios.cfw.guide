@@ -8,12 +8,13 @@ sidebar: false
 ## Highlighted
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
+-   <router-link to="/using-palen1x">Using palen1x</router-link>
 -   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
--   <router-link to="/restoring-to-15-6">Restoring to 15.6 RC</router-link>
 
 ## Jailbreaks
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
+-   <router-link to="/using-palen1x">Using palen1x</router-link>
 -   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 -   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
 -   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
@@ -27,6 +28,7 @@ sidebar: false
 -   <router-link to="/installing-chimera">Installing Chimera</router-link>
 -   <router-link to="/installing-electra">Installing Electra</router-link>
 -   <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
+-   <router-link to="/installing-socket">Installing Socket</router-link>
 -   <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link>
 -   <router-link to="/installing-h3lix">Installing h3lix</router-link>
 -   <router-link to="/installing-doubleh3lix-(ipa)">Installing doubleh3lix</router-link>
