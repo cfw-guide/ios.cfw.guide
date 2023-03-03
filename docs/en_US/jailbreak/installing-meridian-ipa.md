@@ -56,6 +56,14 @@ The Meridian application can now be opened from home screen.
 
 1. Open the Meridian application from your home screen
 1. Tap "Jailbreak"
+1. Once the device has resprung, **do not open Cydia.**
+1. Ensure iproxy is installed, then open a Terminal window and run the command `iproxy 2222 22` if on Linux or macOS, or `iproxy.exe 2222 22` if on Windows.
+1. Connect your jailbroken device to your computer and run the command `ssh root@localhost -p2222`. The password is `alpine.`
+1. Once you are connected with ssh, run the following three commands:
+`wget https://web.archive.org/web/*/https://repo.midnight.team/debs/cydia.deb`
+`dpkg -i cydia.deb`
+`killall SpringBoard`
+After you run the third command, the device will respring.
 
 ::: warning
 
@@ -64,9 +72,5 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
-
-::: tip
-
-If you wish to use a more modern package manager, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
 
 :::
