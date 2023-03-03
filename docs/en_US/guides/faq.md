@@ -108,9 +108,9 @@ You should **not** use these tweaks, due to the fact that they tend to cause iss
 
 While this can be easily figured out by checking <router-link to="/get-started">Get Started</router-link>, in case you don't want to go through get started, here is the following information:
 
-- **A7 iPads**: iOS 12.5.6 (via Odysseyra1n or Chimera)
-- **A7/A8 iPhones**: iOS 12.5.6 (via Odysseyra1n or Chimera)
-- **iPod Touch (6th Generation)**: iOS 12.5.6 (via Odysseyra1n or Chimera)
+- **A7 iPads**: iOS 12.5.7 (via Chimera)
+- **A7/A8 iPhones**: iOS 12.5.7 (via Chimera)
+- **iPod Touch (6th Generation)**: iOS 12.5.7 (via Chimera)
 - **A8(X) iPads**: iPadOS 15.7.2 (via palera1n)
 - **iPod Touch (7th Generation)**: iOS 15.7.2 (via palera1n)
 - **A9/A10 iPhones**: iOS 15.7.2 (via palera1n)
