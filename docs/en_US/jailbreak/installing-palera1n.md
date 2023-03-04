@@ -30,7 +30,7 @@ This version of palera1n is currently in beta. If you're not comfortable with us
 
 ::: warning
 
-If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n">remove palera1n</router-link> before continuing.
+If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n-legacy">remove palera1n</router-link> before continuing.
 
 :::
 
