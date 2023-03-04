@@ -33,7 +33,7 @@ We will use Sideloadly and a patcher script to install the application to your d
 
 ::: tip
 
-If you wish to not have to patch an application, and are on iOS 10.3.x, you could follow <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link> instead, though keep in mind that kok3shiX is currently in an alpha stage.
+If you wish to not have to patch an application, and are on iOS 10.3.x, you could follow <router-link to="/installing-socket">Installing Socket</router-link> instead, though keep in mind that kok3shiX is currently in an alpha stage.
 
 :::
 

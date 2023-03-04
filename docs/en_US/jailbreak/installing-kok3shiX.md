@@ -23,7 +23,7 @@ We will use Sideloadly to install the application to your device.
 
 kok3shiX is an Alpha, as a result you may potentially have more issues than you otherwise would. Backup your data before continuing.
 
-Alternatively, you can follow <router-link to="/installing-h3lix">Installing h3lix</router-link> instead, though it does require more effort to jailbreak.
+Alternatively, you can follow <router-link to="/installing-socket">Installing Socket</router-link> <router-link to="/installing-h3lix">Installing h3lix</router-link> instead, though it does require more effort to jailbreak.
 
 :::
 
