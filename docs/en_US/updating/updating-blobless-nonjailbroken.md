@@ -59,7 +59,7 @@ If you previously attempted an older blobless method, remove all delay and beta 
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
-## #Installing the application
+### Installing the application
 
 1. Open Sideloadly
 1. Plug your iOS device into your computer
