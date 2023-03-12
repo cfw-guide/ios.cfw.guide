@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Updating (Blobless) (Alternate Method)
+title: Updating (Blobless) (Non-Jailbroken)
 description: Guide on updating to unsigned firmwares without any blobs using Delay profiles.
-permalink: /updating-blobless-alternate
+permalink: /updating-blobless-nonjailbroken
 extra_contributors:
   - DhinakG
 ---
@@ -41,7 +41,7 @@ Depending on your target iOS version, you won't be able to do this if you future
 
 ::: tip
 
-You must have a jailbreak to follow these instructions. If you cannot jailbreak, follow <router-link to="/updating-blobless-nonjailbroken">Updating (Blobless) (Non-Jailbroken)</router-link> or <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.
+You must be on iOS 15.7.1 and earlier, or iOS 16.0 to 16.1.2. If you are not on those versions, follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> instead.
 
 :::
 
@@ -51,48 +51,59 @@ If you previously attempted an older blobless method, remove all delay and beta 
 
 :::
 
-## Installing Dahlia
+## Installing Supervise
 
-1. Launch your current jailbreak
-1. Open your preferred package manager and add the following repos:
-    - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
-    - [https://repo.cadoth.net](https://repo.cadoth.net)
-1. Search and install the `Dahlia` package
-1. Tap `Reboot Device`, and then rejailbreak your device after rebooting
+### Downloads
 
-## Preparing to update
+- The latest version of [Supervise](https://cdn.discordapp.com/attachments/925909162666373140/1076743371793629204/Supervise.ipa)
+- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
-1. Open the settings app, scroll down, and tap on `Dahlia`
-1. Enable `Toggle Supervision`, then say Yes to Userspace Rebooting
-   - If you are already supervised for any reason, you can skip this step
-1. Tap `Download Profiles`, then tap "Normal"
-1. Tap `Download Profile` next to the iOS version you are wanting to update too.
-1. Tap "Allow" when prompted
-1. Exit out of the Dahlia menu and go to `General` -> `Profiles & Device Management` -> `OTA Delay - [Days] Days`
-1. Tap "Install" in the top right corner and enter your passcode if prompted
-1. Tap "Install" again twice to confirm
-1. Go back to the `Dahlia` tab in Settings
-1. Make sure `Ready to Update` says "Yes"
-   - If it doesn't, click the "i" next to the "Ready to Update" tab, and see what the issue is
+## #Installing the application
 
-## Restoring rootFS
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the Supervise `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
-1. Open the Settings application
-1. Tap `General` -> `Software Update`
-1. Ensure that the version displayed is the version you are intending to update to
-    - **Do not** update yet, we will do this later
-1. Open your current jailbreak and restore rootFS
-    - If you need a detailed guide on how to restore rootfs, follow <router-link to="/restoring-rootfs">Restoring Rootfs</router-link> and select the jailbreak which you currently use
-1. Reboot your device
+The app will now install to your iOS device.
+
+### Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+The Supervise application can now be opened from home screen.
+
+## Supervising your device
+
+1. Open the `Supervise` app from your home screen
+1. Open the Settings app, then go to the `General` tab
+1. Scroll down to the `Toggle Supervision` tab, then go to that tab
+1. Enable the `Toggle Supervision` option
+1. Restart your device
+
+After your device reboots, you should see a notice in Settings that you are supervised, if you don't, repeat the steps in this section.
 
 ## Updating your firmware version
 
+1. Open this page on your device
+1. Tap a version below to install its respective update profile:
+    - [12.5.6](/assets/files/delay_12_5_6.mobileconfig)
+    - [15.7.1](/assets/files/delay_15_7_1.mobileconfig)
+    - [16.1.1](/assets/files/delay_16_1_1.mobileconfig)
+    - [16.1.2](/assets/files/delay_16_1_2.mobileconfig)
+    - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
 1. Ensure that the version displayed is the version you are intending to update to
 1. Download and install the update
-1. Once updated, remove the update profile and (if applicable) the beta profile through Settings
+1. Once updated, remove the update profile through Settings
 
 ::: tip
 
@@ -104,7 +115,9 @@ As a result of supervising earlier, your device will remain supervised. Being in
 
 Note that, for most users, staying in a supervised state won't be an issue.
 
-It is possible to remove the supervised state by resetting your device and restoring a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
+If you're still on iOS 15.7.1 or earlier, or on iOS 16.0 to 16.1.2, you'll be able to reopen the Supervise app and then disable the `Toggle Supervision` option.
+
+If you're on iOS 15.7.2, 15.7.3, or 16.2 and later, you'll need to reset your device and restore a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
 
 :::
 

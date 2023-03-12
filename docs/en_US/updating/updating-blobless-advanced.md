@@ -15,9 +15,8 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.1.1** (*iPhones only*) - February 28th, 2023
 - **15.7.1** - March 13th, 2023
-- **16.1.1** (*All other devices*) - March 13th, 2023
+- **16.1.1** (*iPads only*) - March 13th, 2023
 - **16.1.2** - March 13th, 2023
 - **12.5.6** - April 23rd, 2023
 - **15.7.2** - April 23rd, 2023
@@ -28,13 +27,18 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 Because you do not currently have a jailbreak (or you choose not to jailbreak for any reason), you'll have to use advanced methods, involving things such as resetting all contents and settings, to be able to update.
 
+::: tip
+
+If you're on iOS 15.7.1 or earlier, or are on iOS 16.0 to 16.1.2, you can follow <router-link to="/updating-blobless-nonjailbroken">Updating (Blobless) (Non-Jailbroken)</router-link> instead.
+
+:::
+
 ::: danger
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 16.1.1 (*iPhones only*): November 30th, 2022
   - 15.7.1: December 13th, 2022
-  - 16.1.1 (*All other devices*): December 13th, 2022
+  - 16.1.1 (*iPads only*): December 13th, 2022
   - 16.1.2: December 13th, 2022
   - 12.5.6: January 23rd, 2022
   - 15.7.2: January 23rd, 2022
