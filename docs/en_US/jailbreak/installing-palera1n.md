@@ -24,6 +24,12 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
 
 ::: warning
 
+This version of palera1n is currently in beta. If you're not comfortable with using beta software, you can follow <router-link to="/installing-palera1n-legacy">Installing palera1n (Legacy)</router-link> instead.
+
+:::
+
+::: warning
+
 If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n">remove palera1n</router-link> before continuing.
 
 :::
