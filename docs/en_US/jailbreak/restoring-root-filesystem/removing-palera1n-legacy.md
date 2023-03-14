@@ -20,7 +20,7 @@ Then, open a second terminal, and do the following steps with the other terminal
 
 :::
 
-1. Clone the repo with `git clone --recursive --depth=1 --shallow-submodules https://github.com/palera1n/palera1n && cd palera1n`
+1. Clone the repo with `git clone -b legacy --recursive --depth=1 --shallow-submodules https://github.com/palera1n/palera1n && cd palera1n && cd palera1n`
     - If you've already cloned the repo, just run `cd palera1n`
 2. Run `./palera1n.sh --restorerootfs <iOS version you're on> --tweaks`
     - If you're using Linux, add `sudo` to the front of the command
