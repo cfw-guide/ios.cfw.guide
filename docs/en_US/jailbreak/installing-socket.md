@@ -8,9 +8,10 @@ redirect_from:
 pkgman: zebra
 extra_contributors:
   - hopolapopola
+  - staturnz
 ---
 
-Socket is capable of jailbreaking every 32-bit iOS device on firmware version 10.3 up to 10.3.4.
+Socket is capable of jailbreaking every 32-bit iOS device on firmware version 10.0.1 up to 10.3.4.
 
 Note that the Socket jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
@@ -18,15 +19,10 @@ Due to how custom applications are installed to the device, in most cases you wi
 
 We will use Sideloadly to install the application to your device.
 
-::: warning
-
-Socket is a beta, as a result you may potentially have more issues than you otherwise would. Backup your data before continuing.
-
-Alternatively, you can follow <router-link to="/installing-h3lix">Installing h3lix</router-link> instead, though it does require more effort to jailbreak.
-
-:::
-
 ## Downloads
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+Socket is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
 
 - The latest version of [Socket](https://socket-jb.app)
 - The latest version of [Sideloadly](https://sideloadly.io/)

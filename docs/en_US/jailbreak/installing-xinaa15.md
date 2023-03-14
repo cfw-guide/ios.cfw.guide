@@ -27,7 +27,7 @@ XinaA15 only supports A12 and newer devices on iOS 15.0 to 15.1.1
 ## Downloads
 
 Download both of the following `.ipa` files **onto your iOS device**:
-- The latest version of [XinaA15](https://apt.xina.vip/XinaA12.1.1.6.2.ipa)
+- The latest version of [XinaA15](https://apt.xina.vip/XinaA12.1.1.8.ipa)
 - The xina-beta-5 version of [Sileo](https://github.com/Sileo/Sileo/releases/download/xina-beta-5/Sileo-Xina-Beta-5.ipa)
 
 ## Installing TrollHelper
@@ -63,12 +63,6 @@ The reason the persistence helper is highly important is that, whenever iOS rebu
 To workaround this, the Persistence Helper (which will still open even after this happens) can refresh app registrations so that the apps will reappear and open again.
 
 :::
-
-### Installing ldid
-
-1. Open the `TrollStore` app
-1. Tap `Settings`
-1. Tap `Install ldid`
 
 ## Installing XinaA15
 
