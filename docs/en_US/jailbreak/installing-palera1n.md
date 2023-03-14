@@ -30,7 +30,7 @@ This version of palera1n is currently in beta. If you're not comfortable with us
 
 ::: warning
 
-If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n">remove palera1n</router-link> before continuing.
+If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n-legacy">remove palera1n</router-link> before continuing.
 
 :::
 
@@ -42,7 +42,7 @@ If you are using Windows, proceed to <router-link to="/using-palen1x">Using pale
 
 ## Downloads
 
-The version of [palera1n](https://github.com/palera1n/palera1n-c/releases) for your OS.
+The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.
   - macOS users should generally get `palera1n-macos-universal`
   - Linux users should get whichever version corresponds to the architecture of the computer you're using
 
@@ -196,3 +196,5 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 To rejailbreak your device, no matter what command you ran above, simply run `palera1n -f` and then repeat any other applicable steps.
 
 :::
+<br>
+To revert the jailbreak, follow <router-link to="/removing-palera1n/">Removing palera1n</router-link>.
