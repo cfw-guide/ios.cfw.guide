@@ -42,7 +42,7 @@ If you are using Windows, proceed to <router-link to="/using-palen1x">Using pale
 
 ## Downloads
 
-The version of [palera1n](https://github.com/palera1n/palera1n-c/releases) for your OS.
+The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.
   - macOS users should generally get `palera1n-macos-universal`
   - Linux users should get whichever version corresponds to the architecture of the computer you're using
 
