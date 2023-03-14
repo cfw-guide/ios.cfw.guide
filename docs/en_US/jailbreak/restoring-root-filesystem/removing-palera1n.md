@@ -28,6 +28,6 @@ If you're using Linux, add `sudo` to the front of the next command.
 
 :::
 2. Run `./palera1n --force-revert`
-   - If you're using rootful/semi-tethered palera1n, add the `-f` flag to the end of the command
+   - If you're using rootful palera1n, add the `-f` flag to the end of the command
 
 Your device should boot into iOS, and you can use the device as normal.
