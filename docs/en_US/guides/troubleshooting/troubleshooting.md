@@ -14,7 +14,7 @@ extra_contributors:
 
 ::: tip
 
-If you're looking for troubleshooting palera1n issues, you should take a look at <router-link to="https://docs.palera.in/commonissues">palera1n Common Issues</router-link> on their official docs.
+If you're looking for troubleshooting palera1n issues, you should take a look at [palera1n Common Issues](https://docs.palera.in/commonissues) on their official docs.
 
 :::
 
