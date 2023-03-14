@@ -189,7 +189,7 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::::::
 
-Once the device boots up, open the palera1n loader app and tap `Install`. After a bit of time, you'll be prompted to respring and `Sileo Nightly` should be on your home screen.
+Once the device boots up, open the palera1n loader app and tap `Install`. After a bit of time, you'll be prompted to respring and Sileo should be on your home screen.
 
 ::: tip
 
