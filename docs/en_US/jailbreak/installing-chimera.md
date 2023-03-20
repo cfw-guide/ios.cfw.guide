@@ -3,9 +3,6 @@ lang: en_US
 title: Installing Chimera
 description: Guide to installing Chimera
 permalink: /installing-chimera
-redirect_from:
-  - /chimera
-  - /cm
 pkgman: sileo
 extra_contributors:
   - TheHacker894
