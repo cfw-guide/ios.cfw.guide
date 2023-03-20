@@ -47,7 +47,7 @@ The app will now install to your Apple TV. Once that's done, the ChimeraTV appli
 
 ## Running Chimera
 
-1. Open the ChimeraTV application from your home screen immediately afterwards
+1. Open the ChimeraTV application from your home screen
 1. Tap "Jailbreak"
 1. Reboot your Apple TV again when prompted
     - If you are not prompted and it automatically reboots, wait 1-2 minutes, then try again.
