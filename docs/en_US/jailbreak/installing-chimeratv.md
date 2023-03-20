@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing ChimeraTV
 description: Guide to installing ChimeraTV
-permalink: /installing-chimeraTV
+permalink: /installing-chimeratv
 redirect_from:
   - /chimera
   - /cm
