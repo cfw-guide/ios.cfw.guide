@@ -6,7 +6,7 @@ permalink: /installing-blackb0x
 redirect_from:
     - /blackb0x
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-pkgman: cydia
+pkgman: none
 ---
 
 Blackb0x is capable of untether jailbreaking the Apple TV 2 on Apple TV Software 5.3 and the Apple TV 3 on Apple TV Software 7.2.1 to 7.9. It is also capable of tether jailbreaking the Apple TV 2 on Apple TV Software 6.2.1 and the Apple TV 3 on Apple TV Software 6.0 to 6.2.
@@ -36,10 +36,6 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 It may take a few tries to get your Apple TV into DFU. Be patient and ensure you follow the steps exactly.
 
-::: tip
-
-Blackb0x does not install nito.tv anymore; to install packages you will need to use SSH.
-
 :::
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. The default password for both root is `alpine`.
