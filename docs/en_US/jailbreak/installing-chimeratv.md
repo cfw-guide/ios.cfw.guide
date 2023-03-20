@@ -26,10 +26,6 @@ We will use AltStore to install the ChimeraTV jailbreak application to your Appl
 
 ## Downloads
 
-<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
-</p></div>
-
 - The latest release of [ChimeraTV](https://chimera.coolstar.org/)
 - The latest version of [AltStore](https://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
