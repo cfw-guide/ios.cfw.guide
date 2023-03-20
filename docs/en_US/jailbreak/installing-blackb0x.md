@@ -7,6 +7,8 @@ redirect_from:
     - /blackb0x
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: none
+extra_contributors:
+    - WhitetailAni
 ---
 
 Blackb0x is capable of untether jailbreaking the Apple TV 2 on Apple TV Software 5.3 and the Apple TV 3 on Apple TV Software 7.2.1 to 7.9. It is also capable of tether jailbreaking the Apple TV 2 on Apple TV Software 6.2.1 and the Apple TV 3 on Apple TV Software 6.0 to 6.2.
