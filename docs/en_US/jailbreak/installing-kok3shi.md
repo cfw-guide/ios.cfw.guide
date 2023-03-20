@@ -37,7 +37,7 @@ Kok3shi is capable of jailbreaking A7 to A9(X) devices on 9.3 to 9.3.5, as well 
 1. Drag and drop the Kok3shi `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
