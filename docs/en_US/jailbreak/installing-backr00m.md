@@ -11,7 +11,7 @@ extra_contributors:
 
 backr00m is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-backr00m is capable of jailbreaking all devices on tvOS 10.0-10.2.2
+backr00m is capable of jailbreaking all devices on tvOS 10.2.2-11.1
 
 :::
 
