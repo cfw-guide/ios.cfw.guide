@@ -8,8 +8,7 @@ redirect_from:
   - /cm
 pkgman: nito.tv
 extra_contributors:
-  - TheHacker894
-  - Mineek
+  - WhitetailAni
 ---
 
 ChimeraTV is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
