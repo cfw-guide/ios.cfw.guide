@@ -21,7 +21,7 @@ In order to use PwnageTool, you will need a Mac running macOS Mavericks or earli
 ## Downloads
 
 - The versions of [PwnageTool](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/folder/swVhVKYB) for your platform from the r/LegacyJailbreak archives
-    - If you're using a iPhone 2G or iPod Touch 1/2, download PwnageTool 3.1.5.
+    - If you're using a iPhone 2G or iPod Touch 1/2 or jailbreaking iPhone OS 2, download PwnageTool 3.1.5.
 
 ## Installing PwnageTool
 
