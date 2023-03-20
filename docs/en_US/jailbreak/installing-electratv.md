@@ -14,7 +14,7 @@ extra_contributors:
 
 ElectraTV is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-ElectraTV is capable of jailbreaking all devices on tvOS 11.0-11.4.1.
+ElectraTV is capable of jailbreaking all devices on tvOS 11.0 to 11.4.1.
 
 :::
 
