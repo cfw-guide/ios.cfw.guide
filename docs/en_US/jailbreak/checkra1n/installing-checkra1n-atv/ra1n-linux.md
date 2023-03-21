@@ -30,7 +30,7 @@ If you do have issues, get a USB-A to USB-C cable and, if necessary, also get a 
 
 :::
 
-## Requirements (macOS)
+## Requirements (Linux)
 
 - The latest release of [checkra1n](https://checkra.in)
 - An Apple TV Siri remote (any generation)
@@ -53,6 +53,7 @@ checkra1n team themselves.
 
 1. Run the `checkra1n` binary in the terminal using `./checkra1n`
     - You may need to run `sudo chmod a+x ./checkra1n` if the binary doesn't run
+    - If you're on tvOS 14.6 or later, you will need to head into `Options`, then enable the `Allow Untested Versions` option once it runs
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
