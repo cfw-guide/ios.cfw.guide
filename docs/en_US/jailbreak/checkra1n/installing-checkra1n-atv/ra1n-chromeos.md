@@ -1,11 +1,8 @@
 ---
 lang: en_US
-title: Installing Odysseyra1n (ChromeOS)
-description: Guide to installing Odysseyra1n on ChromeOS
-permalink: /installing-odysseyra1n-chromeos
-redirect_from:
-  - /installing-checkra1n/chromeos
-  - /installing-checkra1n-chromeos
+title: Installing checkra1n for Apple TVs (ChromeOS)
+description: Guide to installing checkra1n for Apple TVs on ChromeOS
+permalink: /installing-checkra1n-tv/chromeos
 extra_contributors:
   - DhinakG
   - Tanbeer191
@@ -23,7 +20,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 ::: warning
 
-If you have an Apple TV HD and are using a USB-C to UsB-C to do this process, you may run into issues entering into DFU mode
+If you have an Apple TV HD and are using a USB-C to USB-C to do this process, you may run into issues entering into DFU mode
 
 If you do have issues, get a USB-A to USB-C cable and, if necessary, also get a USB-C to USB-A adapter.
 
@@ -37,7 +34,7 @@ This is a highly experimental guide page, there may be things not directly menti
 
 ::: tip
 
-You need to have enabled developer mode on your ChromeOS device to follow this
+You need to have enabled developer mode on your ChromeOS device to follow this.
 
 :::
 
@@ -45,7 +42,7 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 - The latest release of [checkra1n](https://checkra.in)
 - An Apple TV Siri remote (any generation)
-- If you have an Apple TV 4K, you will also need two cables
+- If you have an Apple TV 4K, you will also need two cables:
   - A GoldenEye, or Foxlink X892 cable
   - An Alex DCSD cable
 It is recommended to purchase these from AliExpress for the best prices. Note that they typically take about a month to arrive.
