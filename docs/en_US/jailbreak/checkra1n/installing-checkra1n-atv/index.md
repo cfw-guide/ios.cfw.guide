@@ -28,8 +28,6 @@ extra_contributors:
 
 checkra1n is a tool capable of jailbreaking the Apple TV HD and Apple TV 4K (1st generation) firmwares 12.0 to 14.7. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
 
-!!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
-
 ::: warning
 
 If you are already jailbroken with another jailbreak , make sure to properly <router-link to="/restoring-rootfs">remove it</router-link> before proceeding.
@@ -41,7 +39,7 @@ If you are already jailbroken with another jailbreak , make sure to properly <ro
 Please select your operating system:
 - <router-link to="/installing-checkra1n-tv/macos/">macOS</router-link>
 - <router-link to="/installing-checkra1n-tv/linux/">Linux</router-link>
-- <router-link to="/using-odysseyn1x/">Windows (Odysseyn1x)</router-link>
+- <router-link to="/using-odysseyn1x-tv/">Windows (Odysseyn1x)</router-link>
 
 ::: danger
 
