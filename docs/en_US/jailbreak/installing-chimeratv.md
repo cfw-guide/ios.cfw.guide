@@ -35,7 +35,7 @@ We will use AltStore to install the ChimeraTV jailbreak application to your Appl
 1. Open AltStore
 1. Plug your Apple TV into your computer
 1. Hold the Shift key if on Windows or the Option key if on Mac and click the AltServer widget in your menu bar
-1. Select your Apple TV from the list, then select the ChimeraTV .ipa
+1. Select your Apple TV from the list, then select the ChimeraTV `.ipa`
 4. Enter in your Apple ID
 1. Enter in your password
     - AltStore must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
