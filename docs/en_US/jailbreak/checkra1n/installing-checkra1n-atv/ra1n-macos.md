@@ -15,7 +15,7 @@ extra_contributors:
 
 - The latest release of [checkra1n](https://checkra.in)
 - An Apple TV Siri remote (any generation)
-- If you have an Apple TV 4K, you will also need two cables
+- If you have an Apple TV 4K, you will also need two cables:
   - A GoldenEye, or Foxlink X892 cable
   - An Alex DCSD cable
 It is recommended to purchase these from AliExpress for the best prices. Note that they typically take about a month to arrive.
@@ -28,7 +28,7 @@ It is recommended to purchase these from AliExpress for the best prices. Note th
 
 ::: warning
 
-If you have an Apple TV HD and are using a USB-C to UsB-C to do this process, you may run into issues entering into DFU mode
+If you have an Apple TV HD and are using a USB-C to USB-C to do this process, you may run into issues entering into DFU mode
 
 If you do have issues, get a USB-A to USB-C cable and, if necessary, also get a USB-C to USB-A adapter.
 
