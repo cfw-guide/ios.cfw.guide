@@ -15,9 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.7.1** - March 13th, 2023
-- **16.1.1** (*iPads only*) - March 13th, 2023
-- **16.1.2** - March 13th, 2023
 - **12.5.6** - April 23rd, 2023
 - **15.7.2** - April 23rd, 2023
 - **16.2** - April 23rd, 2023
