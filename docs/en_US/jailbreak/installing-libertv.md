@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing LiberTV
 description: Guide to installing LiberTV
-permalink: /installing-LiberTV
+permalink: /installing-libertv
 pkgman: nito.tv
 extra_contributors:
   - WhitetailAni
@@ -33,7 +33,7 @@ We will use AltStore to install the LiberTV jailbreak application to your Apple 
 1. Open AltStore
 1. Plug your Apple TV into your computer
 1. Hold the Shift key if on Windows or the Option key if on Mac and click the AltServer widget in your menu bar
-1. Select your Apple TV from the list, then select the LiberTV .ipa
+1. Select your Apple TV from the list, then select the LiberTV `.ipa`
 4. Enter in your Apple ID
 1. Enter in your password
     - AltStore must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
