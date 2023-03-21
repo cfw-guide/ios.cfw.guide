@@ -36,7 +36,7 @@ This is a highly experimental guide page, there may be things not directly menti
 
 ::: tip
 
-You need to have enabled developer mode on your ChromeOS device to follow this
+You need to have enabled developer mode on your ChromeOS device to follow this.
 
 :::
 
