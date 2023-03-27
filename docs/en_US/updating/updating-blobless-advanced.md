@@ -15,13 +15,11 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.7.1** - March 13th, 2023
-- **16.1.1** (*iPads only*) - March 13th, 2023
-- **16.1.2** - March 13th, 2023
 - **12.5.6** - April 23rd, 2023
 - **15.7.2** - April 23rd, 2023
 - **16.2** - April 23rd, 2023
-= **16.3** - May 14th, 2023
+- **16.3** - May 14th, 2023
+- **16.3.1** - June 25th, 2023
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -37,13 +35,11 @@ If you're on iOS 15.7.1 or earlier, or are on iOS 16.0 to 16.1.2, you can follow
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 15.7.1: December 13th, 2022
-  - 16.1.1 (*iPads only*): December 13th, 2022
-  - 16.1.2: December 13th, 2022
-  - 12.5.6: January 23rd, 2022
-  - 15.7.2: January 23rd, 2022
-  - 16.2: January 23rd, 2022
-  - 16.3: February 13th, 2022
+  - 12.5.6: January 23rd, 2023
+  - 15.7.2: January 23rd, 2023
+  - 16.2: January 23rd, 2023
+  - 16.3: February 13th, 2023
+  - 16.3.1: March 27th, 2023
 
 :::
 
@@ -93,8 +89,8 @@ This method requires that you purchase iMazing, if you don't have money to purch
 1. When the device boots up after being erased, set it up, then open this page on your device
 1. Tap a version below to install its respective update profile:
     - [12.5.6](/assets/files/delay_12_5_6.mobileconfig)
-    - [15.7.1](/assets/files/delay_15_7_1.mobileconfig)
-    - [16.1.1](/assets/files/delay_16_1_1.mobileconfig)
+    - [15.7.2](/assets/files/delay_15_7_2.mobileconfig)
+    - [16.2](/assets/files/delay_16_2.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Reboot your device
 1. Plug your device into power and connect to the Internet with Wi-Fi

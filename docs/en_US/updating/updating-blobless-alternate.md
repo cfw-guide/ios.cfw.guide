@@ -15,13 +15,11 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.7.1** - March 13th, 2023
-- **16.1.1** (*iPads only*) - March 13th, 2023
-- **16.1.2** - March 13th, 2023
 - **12.5.6** - April 23rd, 2023
 - **15.7.2** - April 23rd, 2023
 - **16.2** - April 23rd, 2023
-= **16.3** - May 14th, 2023
+- **16.3** - May 14th, 2023
+- **16.3.1** - June 25th, 2023
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -29,13 +27,11 @@ Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io
 
 Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
 
-  - 15.7.1: December 13th, 2022
-  - 16.1.1 (*iPads only*): December 13th, 2022
-  - 16.1.2: December 13th, 2022
-  - 12.5.6: January 23rd, 2022
-  - 15.7.2: January 23rd, 2022
-  - 16.2: January 23rd, 2022
-  - 16.3: February 13th, 2022
+  - 12.5.6: January 23rd, 2023
+  - 15.7.2: January 23rd, 2023
+  - 16.2: January 23rd, 2023
+  - 16.3: February 13th, 2023
+  - 16.3.1: March 27th, 2023
 
 :::
 
