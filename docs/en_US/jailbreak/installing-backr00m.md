@@ -29,7 +29,7 @@ We will use Sideloadly to install the backr00m jailbreak application to your App
 
 ## Installing the application
 1. Open Sideloadly
-1. Plug your iOS device into your computer
+1. Plug your Apple TV into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the backr00m `.ipa` file into Sideloadly
 1. Enter in your Apple ID
