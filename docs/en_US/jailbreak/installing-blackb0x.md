@@ -18,7 +18,7 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 ## Requirements
 
-- Computer running macOS 10.11.X or older or Windows XP or newer with iTunes installed. Wine will not work.
+- Computer running macOS 10.11.x to 10.13.x or Windows XP to Windows 8.1 with iTunes installed. Wine will not work.
 - The latest version of [Blackb0x](https://github.com/NSSpiral/Blackb0x/releases/tag/0.6.2)
 - If you have an A1427 Apple TV 3, an [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3) and [MAX3421E USB Host Shield](https://www.ebay.com/sch/i.html?_nkw=MAX3421E+Arduino+USB+host+shield)
 - A non-Siri enabled Apple TV aluminum remote:
