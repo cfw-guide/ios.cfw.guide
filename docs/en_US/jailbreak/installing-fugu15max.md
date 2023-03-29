@@ -79,7 +79,7 @@ The Fugu15 Max app will now be installed onto your device.
 
 ::: warning
 
-If your device is on iOS 15.0 to 15.3.1, you'll need to fully disable your Wi-Fi in Settings in order to jailbreak, you'll be able to re-enable it after jailbreaking.
+If your device is on iOS 15.0 to 15.3.1, you'll need to fully disable your Wi-Fi in Settings in order to jailbreak, you'll be able to re-enable it after jailbreaking, but you'll still need to re-disable it every time you rejailbreak.
 
 :::
 
@@ -110,9 +110,26 @@ While you are now jailbroken at this point, we need to both update and install s
 1. Tap "Confirm"
 1. Once finished, tap `Restart SpringBoard`
 1. After the device finishes respringing, reopen Sileo Nightly
+1. Tap on the "Sources" tab
+1. Tap the `+` button, then add `https://dhinakg.github.io/repo/`
+1. Once the repository is added, tap on it, then tap on "All Categories"
+1. Tap on `Sileo (Nightly Channel)`
+1. Tap "Modify", then tap "Upgrade"
+1. Tap the `< All Categories` button
+1. Tap on `PreferenceLoader`
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap `Restart SpringBoard`
+
+## Updating necessary software
+
+1. After the device finishes respringing, reopen Sileo Nightly
 1. Tap on the "Search" tab
 1. Search for "debianutils"
-1. Tap "Modify", then tap "Upgrade
+1. Tap "Modify", then tap "Upgrade"
+1. Tap on `< Search`
+1. Search for "liblzma5"
+1. Tap "Modify", then tap "Upgrade"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap `Done`
