@@ -77,6 +77,12 @@ The Fugu15 Max app will now be installed onto your device.
 
 ## Running Fugu15 Max
 
+::: warning
+
+If your device is on iOS 15.0 to 15.3.1, you'll need to fully disable your Wi-Fi in Settings in order to jailbreak, you'll be able to re-enable it after jailbreaking.
+
+:::
+
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the Fugu15 Max application from your home screen immediately afterwards
