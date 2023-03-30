@@ -19,29 +19,29 @@ THIS IS IN PROGRESS PLEASE DO NOT MERGE
 
 ## Requirements
 
-- A computer with at least one free USB_A port
-- A USB-A flash drive with a capacity between 256MB and 64GB
-- Windows XP to 8.1 or macOS 10.6 to 10.11
+- A computer with at least one free USB-A port
+- A USB-A flash drive with a capacity between 1GB and 64GB
+- macOS 10.6 to 10.12
 
 ## Creating the Patchstick
 
-1. Download Patchstick from [here](https://link.goes.here)
-1. STEP 1 (something like Open Patchstick and select your Apple TV Software version)
-1. STEP 2 (click create image and wait)
-1. STEP 3 (save the image to computer)
-1. Connect your flash drive to your computer. Ensure that it uses the MBR partition table.
-1. Write it to a flash drive using Patchstick. This will take a few minutes, be patient.
-1. Once it is done, eject the flash drive manually.
+1. Download the Apple TV software's restore DMG corresponding to the TV Software version that your Apple TV is running from [here](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/folder/cgUwDb5S). [This link](https://www.iclarified.com/970/appletv-firmware-download-locations) will tell you which DMG corresponds to what TV Software version
+    - If you are running TV Software 1.1, there is no download currently. Contact WhitetailAni#1287 or Converseallstar95#0067 on Discord as soon as you can for additional instructions.
+1. Download the latest version of [ATV USB Creator](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/folder/M1kWwbia)
+1. Unzip ATV USB Creator and drag it to /Applications
+1. Open Terminal and run the command `sudo /Applications/atvusb-creator.app/Contents/MacOS/atvusb-creator` to open the application. Enter your user password when prompted.
+1. In ATV USB Creator, click Choose a DMG and then select your downloaded TV Software DMG.
+1. Ensure that your chosen USB flash drive is selected in the "USB Target Device" dropdown. It will not show the drive's name, only its location in /dev.
+    - To ensure that it is the correct drive, open Disk Utility, select your flash drive, and make sure that the Device listing matches up with ATV USB Creator's selected device.
+    - This will erase all data on the flash drive.
+1. Make sure that `ssh tools` and `bin tools` is enabled under the Installation Options dropdown. You may enable the other options, but they are not required.
+1. Click the `Create Using ->` button and wait. The process will take a few minutes.
 
 ## Installing the Patchstick
 
 1. Unplug the power cable from your Apple TV 1.
 1. Plug your newly created Patchstick into the USB port on the back of your Apple TV.
-6. Hopefully magic happens and you are done
-
-::: tip
-
-Patchstick is annoying to find
+1. Hopefully magic happens and you are done
 
 :::
 
