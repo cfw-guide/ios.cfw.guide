@@ -27,7 +27,7 @@ Fugu15 Max only supports A12 and newer devices on iOS 15.0 to 15.4.1
 
 ## Downloads
 
-Download all of these files **onto your iOS device** from the latest version of [Fugu15 Max](https://github.com/opa334/Fugu15/releases/tag/1.0.0-beta.1):
+Download all of these files **onto your iOS device** from the latest version of [Fugu15 Max](https://github.com/opa334/Fugu15/releases/tag/1.0.0-beta.2):
 - The Fugu15 Max `.tipa` (named `Fugu15.tipa`)
 - The Ellekit `.deb` (named `ellekit_0.3_iphoneos-arm64.deb`)
 
