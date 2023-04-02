@@ -27,9 +27,8 @@ Fugu15 Max only supports A12 and newer devices on iOS 15.0 to 15.4.1
 
 ## Downloads
 
-Download all of these files **onto your iOS device** from the latest version of [Fugu15 Max](https://github.com/opa334/Fugu15/releases/tag/1.0.0-beta.4):
-- The Fugu15 Max `.tipa` (named `Fugu15.tipa`)
-- The Ellekit `.deb` (named `ellekit_0.3_iphoneos-arm64.deb`)
+The latest version of [Fugu15 Max](https://github.com/opa334/Fugu15/releases/tag/1.0.0-beta.4)
+  - Only download the Fugu15 Max `.tipa` (named `Fugu15.tipa`)
 
 ## Installing TrollHelper
 
@@ -100,17 +99,15 @@ While you are now jailbroken at this point, we need to both update and install s
 
 ## Installing necessary software
 
-1. Open the Files application
-1. Go to where you saved the Ellekit `.deb` file
-1. Tap on the Sileo `.deb` file
-1. Tap on the `Share` icon at the top right of the screen
-1. Tap `Sileo Nightly`
+1. Open the Sileo Nightly
+1. Tap on the "Sources" tab
+1. Tap the `+` button, then add `https://ellekit.space/`
+1. One the repository is added, tap on it, then tap on "All Categories"
 1. Tap "Install"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
-1. Once finished, tap `Restart SpringBoard`
-1. After the device finishes respringing, reopen Sileo Nightly
-1. Tap on the "Sources" tab
+1. Once finished, tap `Restart SpringBoard Later`
+1. Go back to the list of repositories on the "Sources" tab
 1. Tap the `+` button, then add `https://dhinakg.github.io/repo/`
 1. Once the repository is added, tap on it, then tap on "All Categories"
 1. Tap on `Sileo (Nightly Channel)`
@@ -133,3 +130,9 @@ While you are now jailbroken at this point, we need to both update and install s
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap `Done`
+
+::: tip
+
+After doing all the above steps, you may need to reboot and rejailbreak in order for tweak injection to function properly.
+
+:::
