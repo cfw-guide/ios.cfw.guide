@@ -62,4 +62,4 @@ It may take a few tries to get your Apple TV into DFU. Be patient and ensure you
 
 :::
 
-You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. The default password for both root is `alpine`.
+You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. The default password for both root and mobile is `alpine`.
