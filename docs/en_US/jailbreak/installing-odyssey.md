@@ -33,7 +33,7 @@ If you are already jailbroken with another jailbreak (besides Odysseyra1n), make
 Odyssey is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The 1.4.1 version of [Odyssey](https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.1/Odyssey-1.4.1.ipa)
+- The latest version of [Odyssey](https://theodyssey.dev/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
