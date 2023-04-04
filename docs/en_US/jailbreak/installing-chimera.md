@@ -16,14 +16,6 @@ Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">s
 
 Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.7.
 
-::: danger
-
-Chimera support on 12.5.6 and 12.5.7 requires the use of an *unofficial* patch
-
-If you are not comfortable with using an unofficial patch, you can follow <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> instead.
-
-:::
-
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the Chimera jailbreak application to your iOS device for use in the next step.
@@ -47,7 +39,6 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
-    - If you are on iOS 12.5.6 or 12.5.7, you will also need [ChimeraFix](https://github.com/mineek/chimerafix/releases/tag/v2_dylib)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -59,22 +50,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the Chimera `.ipa` file into Sideloadly
-
-::: danger
-
-If you're on iOS 12.5.6 or 12.5.7, you'll need to take extra steps in order to inject ChimeraFix
-
-1. Click `Advanced Options`
-1. Click `Inject dylibs/frameworks`
-1. Click on `+dylib/deb`, then select the ChimeraFix `.deb` file
-1. Change the Signing mode to `Export`, then click `Start`
-1. Save the newly made `.ipa` file to the same place where you saved Chimera originally
-
-Repeat steps 1 through 3 of this section, and moving forward, whenever you need to sideload Chimera, use the newly made `.ipa` file instead.
-
-:::
-
-4. Enter in your Apple ID
+1. Enter in your Apple ID
 1. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
