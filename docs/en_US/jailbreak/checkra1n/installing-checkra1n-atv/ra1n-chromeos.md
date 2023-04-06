@@ -72,6 +72,4 @@ It is recommended to purchase these from AliExpress for the best prices. Note th
 
 Your Apple TV device should now reboot.
 
-:::
-
 You should now be jailbroken with the checkra1n loader app installed on your home screen, which allows you to install nito.tv. You can use nito.tv to install tweaks, themes and more.

@@ -47,6 +47,5 @@ If you do have issues, get a USB-A to USB-C cable and, if necessary, also get a 
 
 Your Apple TV device should now reboot.
 
-:::
 
 You should now be jailbroken with the checkra1n loader app installed on your home screen, which allows you to install nito.tv. You can use nito.tv to install tweaks, themes and more.
