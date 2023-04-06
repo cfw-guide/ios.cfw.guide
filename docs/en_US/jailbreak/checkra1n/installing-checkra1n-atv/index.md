@@ -32,6 +32,6 @@ Please select your operating system:
 
 ::: danger
 
-If you have a ChromeOS device, you can attempt to follow <router-link to="/installing-checkra1n-tv-chromeos">Installing checkra1n for Apple TV (ChromeOS)</router-link>, however, do note that it is not recommended due to the fact that it is both more time-consuming and more prone to user error
+If you have a ChromeOS device, you can attempt to follow <router-link to="/installing-checkra1n-tv/chromeos">Installing checkra1n for Apple TV (ChromeOS)</router-link>, however, do note that it is not recommended due to the fact that it is both more time-consuming and more prone to user error
 
 :::
