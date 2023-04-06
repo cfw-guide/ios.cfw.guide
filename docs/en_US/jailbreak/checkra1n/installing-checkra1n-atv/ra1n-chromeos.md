@@ -9,7 +9,6 @@ extra_contributors:
   - TheHacker894
   - zachary7829
   - stekc
-  - WhitetailAni
 ---
 
 ::: warning

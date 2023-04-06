@@ -4,8 +4,6 @@ title: Installing backr00m
 description: Guide to installing backr00m
 permalink: /installing-backr00m
 0pkgman: nito.tv
-extra_contributors:
-  - WhitetailAni
 ---
 
 backr00m is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.

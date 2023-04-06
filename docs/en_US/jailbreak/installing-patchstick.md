@@ -7,8 +7,6 @@ redirect_from:
     - /patchstick
 discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: none
-extra_contributors:
-    - WhitetailAni
 ---
 
 Patchstick is capable of untether jailbreaking the Apple TV 1 on Apple TV Software 1.0 to 3.0.2.

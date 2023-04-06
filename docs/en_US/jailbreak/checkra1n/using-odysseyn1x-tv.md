@@ -17,7 +17,6 @@ extra_contributors:
   - TheHacker894
   - zachary7829
   - itsnebulalol
-  - WhitetailAni
 ---
 
 ::: danger

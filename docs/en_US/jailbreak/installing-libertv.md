@@ -4,8 +4,6 @@ title: Installing LiberTV
 description: Guide to installing LiberTV
 permalink: /installing-libertv
 0pkgman: nito.tv
-extra_contributors:
-  - WhitetailAni
 ---
 
 LiberTV is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
