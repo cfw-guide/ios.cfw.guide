@@ -1,22 +1,14 @@
 ---
 lang: en_US
-title: Using Odysseyn1x
-excerpt: Guide to installing checkra1n via Odysseyn1x
-permalink: /using-odysseyn1x
+title: Using Odysseyn1x (Apple TV)
+excerpt: Guide to installing checkra1n for Apple TV via Odysseyn1x
+permalink: /using-odysseyn1x-tv
 pkgman: sileo
 redirect_from:
-  - /installing-odysseyn1x
-  - /using-odysseynix
-  - /odysseyn1x
-  - /odysseynix
-  - /using-bootra1n
-  - /using-bootrain
-  - /bootra1n
-  - /bootrain
-  - /using-checkn1x
-  - /using-checknix
-  - /checkn1x
-  - /checkn1x
+  - /installing-odysseyn1x-tv
+  - /using-odysseynix-tv
+  - /odysseyn1x-tv
+  - /odysseynix-tv
 extra_contributors:
   - stekc
   - flowerible
