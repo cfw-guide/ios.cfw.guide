@@ -3,7 +3,7 @@ lang: en_US
 title: Installing ElectraTV
 description: Guide to installing electratv
 permalink: /installing-electratv
-pkgman: nito.tv
+0pkgman: nito.tv
 extra_contributors:
   - TheHacker894
   - Mineek

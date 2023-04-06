@@ -6,7 +6,8 @@ const allowedDeviceTypes = [
     'iPad Pro',
     'iPad mini',
     'iPad Air',
-    'iPod touch'
+    'iPod touch',
+    'Apple TV'
 ]
 
 const deviceList = require('../../../json/deviceList')

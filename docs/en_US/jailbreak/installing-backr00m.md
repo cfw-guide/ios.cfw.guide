@@ -3,7 +3,7 @@ lang: en_US
 title: Installing backr00m
 description: Guide to installing backr00m
 permalink: /installing-backr00m
-pkgman: nito.tv
+0pkgman: nito.tv
 extra_contributors:
   - WhitetailAni
 ---

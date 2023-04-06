@@ -62,11 +62,11 @@ for (const i in themeConfigLocales) {
 						{
 							text: updText,
 							children: [
-							jb.updateLink[upd],
-							link,
-							...children,
-							jb.url.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
-							]
+								jb.updateLink[upd],
+								link,
+								...children,
+								jb.pkgman ? jb.url.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html` : null
+							].filter(x => x)
 						},
 						guides,
 						troubleshooting,
@@ -82,10 +82,10 @@ for (const i in themeConfigLocales) {
 				{
 					text: name,
 					children: [
-					link,
-					...children,
-					jb.url.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html`
-					]
+						link,
+						...children,
+						jb.pkgman ? jb.url.replace('index.html', '').replace('.html', '\/') + `using-${jb.pkgman}.html` : null
+					].filter(x => x)
 				},
 				guides,
 				troubleshooting,

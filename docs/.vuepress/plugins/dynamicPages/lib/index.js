@@ -4,7 +4,9 @@ const { path, fs } = require('@vuepress/utils')
 const allowedOsStrings = [
     'iOS',
     'iPhoneOS',
-    'iPadOS'
+    'iPadOS',
+    'tvOS',
+    'Apple TV Software'
 ]
 
 const deviceGroups = require('./getDeviceGroups')

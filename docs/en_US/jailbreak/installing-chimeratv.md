@@ -6,7 +6,7 @@ permalink: /installing-chimeratv
 redirect_from:
   - /chimera
   - /cm
-pkgman: nito.tv
+0pkgman: nito.tv
 extra_contributors:
   - WhitetailAni
 ---

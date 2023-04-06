@@ -3,7 +3,7 @@ lang: en_US
 title: Installing LiberTV
 description: Guide to installing LiberTV
 permalink: /installing-libertv
-pkgman: nito.tv
+0pkgman: nito.tv
 extra_contributors:
   - WhitetailAni
 ---

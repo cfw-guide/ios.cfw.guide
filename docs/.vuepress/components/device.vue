@@ -16,9 +16,9 @@
     </table>
 
     <a :href="`https://appledb.dev/device/${fm.name.replace(/ /g,'-')}.html`" target="_blank">{{ themeLocaleData.table.showMore }}</a>
-    <h2>{{ themeLocaleData.firmwareSelection.findiOSVersion.title.format({ osStr: latestOs.osStr }) }}</h2>
-    <div v-html="themeLocaleData.firmwareSelection.findiOSVersion.instructions.format({ verStr: findOsVersion.verStr }).md()"></div>
-    <div class="custom-container tip"><p>
+    <h2 v-if="findOsVersion.verStr || findOsVersion.imgUrl">{{ themeLocaleData.firmwareSelection.findiOSVersion.title.format({ osStr: latestOs.osStr }) }}</h2>
+    <div v-if="findOsVersion.verStr" v-html="themeLocaleData.firmwareSelection.findiOSVersion.instructions.format({ verStr: findOsVersion.verStr }).md()"></div>
+    <div v-if="findOsVersion.imgUrl" class="custom-container tip"><p>
         <img :src="findOsVersion.imgUrl" :alt="themeLocaleData.firmwareSelection.findiOSVersion.image.altText" class="medium-zoom-image">
     </p></div>
 </template>
@@ -77,18 +77,23 @@ export default {
             const majFw = this.latestOs.version.split('.')[0]
             const oldFw = majFw < 11
             const iPad = this.fm.devType.includes('iPad')
+            const AppleTV = this.fm.devType == 'Apple TV'
+
+            const findiOSVersion = this.themeLocaleData.firmwareSelection.findiOSVersion
 
             let verStr, imgUrl
             if (oldFw) {
-                verStr = this.themeLocaleData.firmwareSelection.findiOSVersion.verStr.old
+                verStr = findiOSVersion.verStr.old
                 imgUrl = iPad ?
-                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.ipadOld :
-                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.iphoneOld
+                findiOSVersion.image.ipadOld : findiOSVersion.image.iphoneOld
             } else {
-                verStr = this.themeLocaleData.firmwareSelection.findiOSVersion.verStr.new
-                imgUrl = iPad ?
-                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.ipad :
-                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.iphone
+                verStr = findiOSVersion.verStr.new
+                imgUrl = iPad ? findiOSVersion.image.ipad : findiOSVersion.image.iphone
+            }
+
+            if (AppleTV) {
+                verStr = null
+                imgUrl = null
             }
 
             return {

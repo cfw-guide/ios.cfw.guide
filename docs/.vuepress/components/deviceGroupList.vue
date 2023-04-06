@@ -74,7 +74,8 @@ export default {
                         "iPad Air",
                         "iPad Pro",
                         "iPad mini",
-                        "iPod touch"
+                        "iPod touch",
+                        "Apple TV"
                     ]
                 }
             ].map(x => {
