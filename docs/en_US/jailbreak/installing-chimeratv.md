@@ -7,21 +7,15 @@ redirect_from:
   - /chimera-tv
   - /cm-tv
 0pkgman: nito.tv
-extra_contributors:
-  - WhitetailAni
 ---
 
 ChimeraTV is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 ChimeraTV is capable of jailbreaking all devices on tvOS 12.0 to 12.2 and 12.4.
 
-:::
-
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the ChimeraTV jailbreak application to your Apple TV for use in the next step.
-
-:::
 
 ## Downloads
 
@@ -52,7 +46,5 @@ The app will now install to your Apple TV. Once that's done, the ChimeraTV appli
 1. Once again, open the ChimeraTV application from your home screen immediately after rebooting
 1. Click "Jailbreak" again
     - If it automatically reboots or crashes and the jailbreak is not installed, wait 1-2 minutes, then try again.
-
-:::
 
 You should now be jailbroken with nito.tv installed on your home screen. You can use nito.tv to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.

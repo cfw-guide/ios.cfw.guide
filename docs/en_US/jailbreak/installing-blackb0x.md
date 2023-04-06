@@ -11,10 +11,9 @@ extra_contributors:
     - WhitetailAni
 ---
 
-Blackb0x is capable of untether jailbreaking the Apple TV 2 on Apple TV Software 5.3 and the Apple TV 3 on Apple TV Software 7.2.1 to 7.9. It is also capable of tether jailbreaking the Apple TV 2 on Apple TV Software 6.2.1 and the Apple TV 3 on Apple TV Software 6.0 to 6.2.
+Blackb0x is capable of untether jailbreaking the Apple TV (2nd generation) on Apple TV Software 5.3 and the Apple TV (3rd generation) on Apple TV Software 7.2.1 to 7.9. It is also capable of <router-link to="/types-of-jailbreak/#tethered-jailbreaks">tether jailbreaking</router-link> the Apple TV (2nd generation) on Apple TV Software 6.2.1 and the Apple TV (3rd generation) on Apple TV Software 6.0 to 6.2.
 
 Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered</router-link> jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
-
 
 ## Requirements
 
@@ -23,7 +22,8 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 - If you have an A1427 Apple TV 3, an [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3), [MAX3421E USB host shield](https://www.aliexpress.com/w/wholesale-MAX3421E-USB-host-shield.html?SearchText=MAX3421E+USB+host+shield&catId=0&g=y&initiative_id=SB_20230401182716&sortType=price_asc&spm=a2g0o.productlist.1000002.0&trafficChannel=main), and USB-A to USB-B cable
 - A non-Siri enabled Apple TV aluminum remote:
 
-![The remote in question](/assets/images/aluminum_tv_remote.png)
+
+<p><img src="/assets/images/aluminum_tv_remote.png" alt="A photo of a non-Siri enabled Apple TV aluminium remote" style="display: block; margin-inline: auto; max-width: 30em;"></p>
 
 ## Pwning with checkm8-a5
 

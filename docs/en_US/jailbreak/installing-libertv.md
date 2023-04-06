@@ -12,13 +12,9 @@ LiberTV is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">s
 
 LiberTV is capable of jailbreaking all devices on tvOS 10.0 to 10.1 and 11.0 to 11.1.
 
-:::
-
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the LiberTV jailbreak application to your Apple TV for use in the next step.
-
-:::
 
 ## Downloads
 
