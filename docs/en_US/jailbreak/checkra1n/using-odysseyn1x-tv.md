@@ -44,8 +44,6 @@ Odysseyn1x is a live bootable Linux environment that allows you to quickly run c
 
 !!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
-On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
-
 ## Requirements
 
 - A 256MB or greater USB Drive
@@ -86,7 +84,7 @@ It is recommended to purchase these from AliExpress for the best prices. Note th
 
 ::: warning
 
-If you have an Apple TV HD and are using a USB-C to UsB-C to do this process, you may run into issues entering into DFU mode
+If you have an Apple TV HD and are using a USB-C to USB-C to do this process, you may run into issues entering into DFU mode
 
 If you do have issues, get a USB-A to USB-C cable and, if necessary, also get a USB-C to USB-A adapter.
 
