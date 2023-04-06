@@ -4,8 +4,8 @@ title: Installing ChimeraTV
 description: Guide to installing ChimeraTV
 permalink: /installing-chimeratv
 redirect_from:
-  - /chimera
-  - /cm
+  - /chimera-tv
+  - /cm-tv
 0pkgman: nito.tv
 extra_contributors:
   - WhitetailAni

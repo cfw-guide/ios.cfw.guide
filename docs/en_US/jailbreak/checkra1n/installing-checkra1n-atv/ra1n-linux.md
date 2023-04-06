@@ -1,7 +1,7 @@
 ---
 lang: en_US
-title: Installing checkra1n for Apple TVs (Linux)
-description: Guide to installing checkra1n for Apple TVs on linux
+title: Installing checkra1n for Apple TV (Linux)
+description: Guide to installing checkra1n for Apple TV on Linux
 permalink: /installing-checkra1n-tv/linux
 extra_contributors:
   - stekc
@@ -35,7 +35,7 @@ If you do have issues, get a USB-A to USB-C cable and, if necessary, also get a 
 - The latest release of [checkra1n](https://checkra.in)
 - An Apple TV Siri remote (any generation)
 - If you have an Apple TV 4K, you will also need two cables:
-  - A GoldenEye, or Foxlink X892 cable
+  - A GoldenEye or Foxlink X892 cable
   - An Alex DCSD cable
 It is recommended to purchase these from AliExpress for the best prices. Note that they typically take about a month to arrive.
 
@@ -45,9 +45,7 @@ It is recommended to purchase these from AliExpress for the best prices. Note th
 
 ::: tip
 
-checkra1n provides native support to machines running a Debian-based distro (e.g Ubuntu). It's
-recommended that you follow [specific instructions](https://checkra.in/linux) provided by the
-checkra1n team themselves.
+checkra1n provides native support to machines running a Debian-based distro (e.g Ubuntu). It's recommended that you follow [specific instructions](https://checkra.in/linux) provided by the checkra1n team themselves.
 
 :::
 
@@ -57,7 +55,7 @@ checkra1n team themselves.
 1. Click `Start` and follow all onscreen prompts
 1. You will now be presented with instructions in how to reboot your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>, click `Start` to begin
     - Follow the instructions until your device shows a black screen
-1. After this, checkra1n should automatically install.
+1. After this, checkra1n should automatically install
 
 Your Apple TV should now reboot.
 

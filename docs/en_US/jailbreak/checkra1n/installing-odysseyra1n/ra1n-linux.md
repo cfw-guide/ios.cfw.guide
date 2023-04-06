@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Installing Odysseyra1n (Linux)
-description: Guide to installing Odysseyra1n on linux
+description: Guide to installing Odysseyra1n on Linux
 permalink: /installing-odysseyra1n/linux
 extra_contributors:
   - stekc
@@ -48,9 +48,7 @@ A7 devices will likely fail to successfully jailbreak with checkra1n on Linux, a
 
 ::: tip
 
-checkra1n provides native support to machines running a Debian-based distro (e.g Ubuntu). It's
-recommended that you follow [specific instructions](https://checkra.in/linux) provided by the
-checkra1n team themselves.
+checkra1n provides native support to machines running a Debian-based distro (e.g Ubuntu). It's recommended that you follow [specific instructions](https://checkra.in/linux) provided by the checkra1n team themselves.
 
 :::
 

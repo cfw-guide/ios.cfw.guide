@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Installing checkra1n (Apple TV)
-description: Guide to installing checkra1n for Apple TVs
+description: Guide to installing checkra1n for Apple TV
 permalink: /installing-checkra1n-tv
 pkgman: sileo
 extra_contributors:

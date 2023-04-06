@@ -65,7 +65,7 @@ On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken
     - For 32-bit computers, download the "i686" version
 - An Apple TV Siri remote (any generation)
 - If you have an Apple TV 4K, you will also need two cables
-  - A GoldenEye, or Foxlink X892 cable
+  - A GoldenEye or Foxlink X892 cable
   - An Alex DCSD cable
 It is recommended to purchase these from AliExpress for the best prices. Note that they typically take about a month to arrive.
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)
