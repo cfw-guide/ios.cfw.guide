@@ -10,6 +10,8 @@ Unfortunately, there is currently no jailbreak available for firmware version 4.
 
 Due to the age of this iOS version, you will need to use iTunes or similar to manually update the device to iOS 7.1.2, as updating on the device was not a thing at the time of iOS 4.2.5.
 
+Note that doing this upgrade is an **irreversible** decision. Even if you dump blobs, there is no public IPSW available and the iOS 7.1.2 baseband is incompatible with iOS 4.2.5.
+
 ## Updating to 7.1.2 using iTunes/Finder
 
 1. Plug your device into your computer.
