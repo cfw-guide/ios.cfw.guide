@@ -43,6 +43,4 @@ The app will now install to your Apple TV. Once that's done, the LiberTV applica
 1. Open the LiberTV application from your home screen
 1. Click "Jailbreak"
 
-:::
-
 You should now be jailbroken with nito.tv installed on your home screen. You can use nito.tv to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
