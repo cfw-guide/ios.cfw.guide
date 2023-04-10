@@ -12,17 +12,17 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Notes
-If you are on iOS 15.2 or newer on an A11- device, you should follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on iOS 15.6 or newer (betas included) and are on an A12+ device, you will not be able to downgrade/upgrade with FutureRestore as there is currently no jailbreak or exploits which can be used to set nonce on A12+ devices running iOS 15.5 final or newer.
+If you are on iOS 15.2 or newer on an A10- device, you should follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on a device that supports iOS 16 (which includes A12+), you will **not** be able to follow this guide due to Cryptex1 and SEP/BB incompatibility. For more information on why this is the case, please go [here](https://gist.github.com/Cryptiiiic/b82133ac290070939189e1377dc3ac85).
 
 ## Requirements
 
 - Blobs saved for the version you want to restore to
   - These blobs must be for **your** device only; you cannot use other people's blobs
-- A jailbroken device **or** an A10-A11 device on 15.0-15.1.1 **or** an A12+ device on 15.0-15.5b4
+- A jailbroken device **or** an A10-A11 device on 15.0-15.1.1
 
 ::: danger
 
-You **must** make sure that the latest SEP/BB is compatible to the version you are attempting to restore to in order to prevent bootloops! To do so, please consult the [SEP/BB Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0). If a cell says "Compatible" then you are free to restore to that version.
+You **must** make sure that the latest SEP/BB is compatible to the version you are attempting to restore to in order to prevent bootloops or failed activation! To do so, please consult the [SEP/BB Chart](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0). If a cell says "Compatible" then you are free to restore to that version.
 
 :::
 
@@ -33,7 +33,7 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
-- If on an A10-A11 device on 15.0-15.1.1 **or** an A12+ device on 15.0-15.5b4
+- If on an A10-A11 device on 15.0-15.1.1
   - The latest version of [TrollStore](https://github.com/opa334/TrollStore/releases)
   - The latest version of [TrollNonce](https://github.com/opa334/TrollNonce/releases)
 
@@ -49,7 +49,7 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 
 1. Navigate to the [TrollStore](https://github.com/opa334/TrollStore) GitHub page and follow the installation instructions for your device
    - If "Not Supported" is listed and you cannot jailbreak or you do not have an A11- device, you will be unable to proceed further
-2. Once trollstore is installed, install the [TrollNonce](https://github.com/opa334/TrollNonce/releases) app through TrollStore
+2. Once TrollStore is installed, install the [TrollNonce](https://github.com/opa334/TrollNonce/releases) app through TrollStore
 3. Proceed to the next section
 
 ## Finding the generator
@@ -96,6 +96,10 @@ This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If 
  
 ### On Computer 
 
+::: danger
+
+To reiterate: you **cannot** FutureRestore on any device that has supports iOS 16. Following the steps listed below will either result in the process failing or will fail activation when setting up the device, both of which will require a restore to a signed iOS version. While you cannot downgrade, you may have a path to upgrade and instructions/details can be found at the <router-link to="/updating-blobless">Updating (blobless)</router-link> page.
+
 1. Connect your iDevice to your computer
 1. Make sure that your computer is trusted by your device
     - Optionally, you can create a full backup of your device through iTunes or Finder
@@ -111,8 +115,6 @@ This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If 
 1. Then click the Next button to navigate to the Options menu, make sure `Extra Logs` is enabled
 1. If you are not downgrading, then it is safe to enable `Preserve Data` in the options menu in order to keep data. However, using it while downgrading may be dangerous
 1. Do not enable `AP Nonce Collision` on any modern devices
-1. Enable `Custom Latest Build ID`, input `19G69` into the box 
-1. Enable `Custom Latest Beta`
 1. Enable `No RSEP` 
 1. Click Next to navigate to the controls menu
 1. Click `Start Futurerestore`
