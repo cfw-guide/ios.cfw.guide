@@ -100,6 +100,8 @@ This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If 
 
 To reiterate: you **cannot** FutureRestore on any device that has supports iOS 16. Following the steps listed below will either result in the process failing or will fail activation when setting up the device, both of which will require a restore to a signed iOS version. While you cannot downgrade, you may have a path to upgrade and instructions/details can be found at the <router-link to="/updating-blobless">Updating (blobless)</router-link> page.
 
+:::
+
 1. Connect your iDevice to your computer
 1. Make sure that your computer is trusted by your device
     - Optionally, you can create a full backup of your device through iTunes or Finder
