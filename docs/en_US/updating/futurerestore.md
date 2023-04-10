@@ -70,12 +70,6 @@ Make sure you do not edit the blob file! Doing so will make it invalid and unusa
 
 ## Setting the nonce (Jailbroken)
 
-::: danger
-
-If you're using unc0ver on iOS 14.6-14.8, you cannot use dimentio as libkrw isn't functioning. You should set your generator from unc0ver's settings instead.
-
-:::
-
 1. Open NewTerm 2 on your iDevice and type the following command, where `[generator]` is the value you just grabbed: `su root -c 'dimentio [generator]'`
     
 1. When asked for a password, enter your root password
