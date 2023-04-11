@@ -33,7 +33,7 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
   - Scroll down and select the other Windows build as the Windows Store version will not work
-- If on an A10-A11 device on 15.0-15.1.1
+- If on an A10 device on 15.0-15.1.1
   - The latest version of [TrollStore](https://github.com/opa334/TrollStore/releases)
   - The latest version of [TrollNonce](https://github.com/opa334/TrollNonce/releases)
 
@@ -81,7 +81,7 @@ Make sure you do not edit the blob file! Doing so will make it invalid and unusa
 
 ::: warning
 
-This method will not work for A9 devices at all or A10-A11 devices on 15.2+. If you cannot jailbreak, you must follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide.
+This method will not work for A9 devices at all or A10 devices on 15.2+. If you cannot jailbreak, you must follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide.
 
 ::: 
 
