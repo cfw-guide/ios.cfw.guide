@@ -77,12 +77,6 @@ To workaround this, the Persistence Helper (which will still open even after thi
 
 :::
 
-### Installing ldid
-
-1. Open the `TrollStore` app
-1. Tap `Settings`
-1. Tap `Install ldid`
-
 ## Installing unc0ver
 
 1. Go back to the `Apps` tab
