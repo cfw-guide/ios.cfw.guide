@@ -27,7 +27,7 @@ Fugu15 Max only supports A12 and newer devices on iOS 15.0 to 15.4.1
 
 ## Downloads
 
-The latest version of [Fugu15 Max](https://github.com/opa334/Fugu15/releases/tag/1.0.0-beta.4)
+The latest version of [Fugu15 Max](https://github.com/opa334/Fugu15/releases)
   - Only download the Fugu15 Max `.tipa` (named `Fugu15.tipa`)
 
 ## Installing TrollHelper
@@ -101,8 +101,7 @@ While you are now jailbroken at this point, we need to both update and install s
 
 1. Open the Sileo Nightly
 1. Tap on the "Sources" tab
-1. Tap the `+` button, then add `https://ellekit.space/`
-1. One the repository is added, tap on it, then tap on "All Categories"
+1. Tap on the "ElleKit" repository, then tap on "All Categories"
 1. Tap "Install"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
