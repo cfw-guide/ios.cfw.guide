@@ -15,7 +15,7 @@ Fugu15 Max is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks
 
 Fugu15 Max is currently a **beta**, as a result, you may run into more issues than you would otherwise expect.
 
-Additionally, as this jailbreak is fundamentally different from how most other jailbreaks have been in the past, you will run into **substantial** issues with tweak compatibility.
+Additionally, as this jailbreak is fundamentally different from how most other jailbreaks have been in the past, you will run into issues with tweak compatibility.
 
 :::
 
@@ -119,7 +119,7 @@ While you are now jailbroken at this point, we need to both update and install s
 
 ## Updating necessary software
 
-1. After the device finishes respringing, reopen Sileo Nightly
+1. After the device finishes respringing, reopen Sileo
 1. Tap on the "Search" tab
 1. Search for "debianutils"
 1. Tap "Modify", then tap "Upgrade"

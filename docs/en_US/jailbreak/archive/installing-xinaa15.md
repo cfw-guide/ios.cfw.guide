@@ -1,20 +1,32 @@
 ---
 lang: en_US
 title: Installing XinaA15
-description: Guide to installing XinaA15
-permalink: /installing-xinaa15
+description: Guide to installing XinaA15 (Archived)
+permalink: /xinaa15-archive
 extra_contributors:
   - opa334
   - iCraze
+redirect_from:
+  - /installing-xinaa15
 ---
 
 XinaA15 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-::: warning
+::: danger
 
-XinaA15 is currently a **beta**, as a result, you may run into more issues than you would otherwise expect.
+This guide only exists as an archive - we won't be making noticeable changes to this guide in the future if anything happens.
 
-Additionally, as this jailbreak is fundamentally different from how most other jailbreaks have been in the past, you may run into issues with tweak compatibility.
+For users who are looking for a jailbreak - we generally recommend following <router-link to="/installing-fugu15max">Installing Fugu15 Max</router-link> instead, as it will provide an overall better experience in almost every way compared to XinaA15, and supports the same devices and iOS versions as XinaA15, and even more.
+
+We don't recommend that average users use XinaA15 at this point though, due to how:
+  - XinaA15 generally requires a lot of patches that can result in a lot of strange and unexplainable issues
+  - Sileo is unable to support future versions for XinaA15, leaving users without an ideal package manager
+  - As iOS 15/16 jailbreaks begin to prioritize rootless, attempting to install packages with an equal or higher rootless version will break (due to the aforementioned note about Sileo being unable to be supported for XinaA15 at this point) making it impossible in the future to install most packages from their repositories
+  - The developer of XinaA15 (xina520) has themselves recommended that users switch to Fugu15 Max
+
+If you currently use XinaA15, we *highly recommend* <router-link to="/removing-xinaa15">Removing XinaA15</router-link> and switching to <router-link to="/installing-fugu15max">Fugu15 Max</router-link>
+
+Regardless, if you choose to install or continue to use XinaA15, do note that there will be an increasing number of unresolvable issues down the road that have little to no fix (other than switching to Fugu15 Max).
 
 :::
 
