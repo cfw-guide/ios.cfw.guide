@@ -45,4 +45,5 @@ THIS IS IN PROGRESS PLEASE DO NOT MERGE
 
 :::
 
-You should now be jailbroken with the Software Menu added to your home screen. You can use this menu to manage your Apple TV. SSH is available via the command `ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss frontrow@ip.of.apple.tv`.
+You should now be jailbroken with the Software Menu added to your home screen. You can use this menu to manage your Apple TV. SSH is available via the command `ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss frontrow@ip.of.apple.tv`, the password is `frontrow`.
+To mount / as read-write, run the command `sudo mount -t hfs -o rw /dev/disk0s3 /`.
