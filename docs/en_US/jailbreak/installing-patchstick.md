@@ -19,7 +19,7 @@ THIS IS IN PROGRESS PLEASE DO NOT MERGE
 
 - A computer with at least one free USB-A port
 - A USB-A flash drive with a capacity between 1GB and 64GB
-- macOS 10.6 to 10.12
+- macOS 10.8 to 10.13
 
 ## Creating the Patchstick
 
@@ -37,10 +37,12 @@ THIS IS IN PROGRESS PLEASE DO NOT MERGE
 
 ## Installing the Patchstick
 
-1. Unplug the power cable from your Apple TV 1.
+1. Unplug the power cable from your Apple TV.
 1. Plug your newly created Patchstick into the USB port on the back of your Apple TV.
-1. Hopefully magic happens and you are done
+1. Plug the power cable back in.
+1. Wait a few minutes. You will see an Apple TV 1 logo with Tux sitting on it for about 30 seconds, and then a lot of text will scroll down the screen.
+1. Once you see the line `penbuntu login: _` at the bottom, unplug the Apple TV, unplug the USB flash drive, and plug your Apple TV back in.
 
 :::
 
-Jailbreak happened
+You should now be jailbroken with the Software Menu added to your home screen. You can use this menu to manage your Apple TV. SSH is available via the command `ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss frontrow@ip.of.apple.tv`.
