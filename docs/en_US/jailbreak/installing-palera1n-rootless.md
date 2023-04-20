@@ -15,6 +15,12 @@ On A11 devices, you **must disable your passcode** and will not be able to use y
 
 Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
 
+::: tip
+
+If you are using Windows, you should follow <router-link to="/using-palen1x-rootless">Using palen1x (Rootless)</router-link> instead.
+
+:::
+
 ## Downloads
 
 The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.
@@ -124,7 +130,7 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::::::
 
-Once the device boots up, open the palera1n loader app and tap `Install`. After a bit of time, you'll be prompted to respring and Sileo should be on your home screen.
+Once the device boots up, open the palera1n loader app and tap `Install`. After a bit of time, you'll be prompted to respring and `Sileo` should be on your home screen.
 
 ::: tip
 
