@@ -17,19 +17,42 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 - Computer running macOS 10.11.x to 10.13.x or Windows XP to Windows 8.1 with iTunes installed. Wine will not work.
 - The latest version of [Blackb0x](https://github.com/NSSpiral/Blackb0x/releases/tag/0.6.2)
-- If you have an A1427 Apple TV 3, an [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3), [MAX3421E USB host shield](https://www.aliexpress.com/w/wholesale-MAX3421E-USB-host-shield.html?SearchText=MAX3421E+USB+host+shield&catId=0&g=y&initiative_id=SB_20230401182716&sortType=price_asc&spm=a2g0o.productlist.1000002.0&trafficChannel=main), and USB-A to USB-B cable
 - A non-Siri enabled Apple TV aluminum remote:
-
-
 <p><img src="/assets/images/aluminum_tv_remote.png" alt="A photo of a non-Siri enabled Apple TV aluminium remote" style="display: block; margin-inline: auto; max-width: 30em;"></p>
+- A1427 only:
+   - An [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3)
+   - A [MAX3421E USB host shield](https://www.aliexpress.com/w/wholesale-MAX3421E-USB-host-shield.html?SearchText=MAX3421E+USB+host+shield&catId=0&g=y&initiative_id=SB_20230401182716&sortType=price_asc&spm=a2g0o.productlist.1000002.0&trafficChannel=main), and USB-A to USB-B cable
+   - A soldering iron
+   - 0.5mm solder
+   - (Optional) Solder flux
+
 
 ## Pwning with checkm8-a5
 
 ::: danger
 
-Only do these steps if you have an A1427 Apple TV
+If you have an A1427 Apple TV 3, the process to jailbreak it is complex and requires basic soldering skills. Proceed with caution.
 
 :::
+
+## Preparing the host shield
+
+Your host shield can arrive in two states - with headers, and without. If it is with headers, it will have pins and pin sockets already soldered to it, allowing you to connect it to an Arduino by simply placing it on top. If it has headers, your job is much easier.
+
+::::: tabs
+
+:::: tab name="With Headers" :default="true"
+
+1. You will need to solder three pads on your USB host shield.
+
+::::
+
+
+:::: tab name="Without Headers" :default="true"
+
+1.
+
+::::
 
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software)
 1. While it is installing, connect your MAX3421E USB host shield to the Arduino. The pins and sockets on the bottom of the host shield will line up with the pins and sockets on the Arduino.
