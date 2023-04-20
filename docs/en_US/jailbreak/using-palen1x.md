@@ -93,7 +93,7 @@ If your device is either:
 
 You won't be able to continue following this guide.
 
-If you cannot free up enough storage to follow this, you can alternatively use rootless palera1n by following <router-link to="/using-palen1x-rootless">IUsing palera1n (Rootless)</router-link> instead.
+If you cannot free up enough storage to follow this, you can alternatively use rootless palera1n by following <router-link to="/using-palen1x-rootless">Using palera1n (Rootless)</router-link> instead.
 
 :::
 
