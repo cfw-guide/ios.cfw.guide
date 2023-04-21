@@ -94,6 +94,12 @@ To use checkm8-a5, you'll need Git. Depending on what version of macOS you're on
 
 ## Running the Script
 
+::: tip
+
+It may take a few tries to get your device into DFU. Be patient and ensure you follow the steps exactly.
+
+:::
+
 ::::: tabs
 
 :::: tab name="iPhone 4s and iPad 2 (non-2012 model)" :default="true"
