@@ -71,7 +71,7 @@ You will need to solder five sets of headers and bridge three pads on your USB h
 
 ::::
 
-# Installing Git
+### Installing Git
 
 ::::: tabs
 
@@ -89,13 +89,13 @@ To use checkm8-a5, you'll need Git. Depending on what version of macOS you're on
 
 ::::
 
-# Patching the USB Host Shield 2.0 Library
+### Patching the USB Host Shield 2.0 Library
 
 1. Open a new Terminal window and run the command `git clone https://github.com/felis/USB_Host_Shield_2.0.git`. This can take a few minutes.
 1. Run the command `git clone https://github.com/synackuk/checkm8-a5.git`.
 1. Run the command `cd USB_Host_Shield_2.0 && git apply ~/checkm8-a5/usb_host_library.patch/`.
 
-# Preparing the Script
+### Preparing the Script
 
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software)
 1. While it is installing, connect your MAX3421E USB host shield to the Arduino. The pins and sockets on the bottom of the host shield will line up with the pins and sockets on the Arduino.
@@ -103,7 +103,7 @@ To use checkm8-a5, you'll need Git. Depending on what version of macOS you're on
 1. Once the Arduino IDE is installed, open Finder, press Command+Shift+G, and type in `~/checkm8-a5`. Open the file named `checkm8-a5.ino`.
 1. In the same Terminal window as before, run `cp -r ~/USB_Host_Shield_2.0 ~/Documents/Arduino/libraries/USB_Host_Shield_Library_2.0`.
 
-# Running the Script
+### Running the Script
 
 1. Connect your Apple TV to a computer with a MicroUSB cable. You will most likely need to disconnect the HDMI cable. Then, enter DFU:
     - Hold Menu and Down until the LED on the Apple TV flashes rapidly.
