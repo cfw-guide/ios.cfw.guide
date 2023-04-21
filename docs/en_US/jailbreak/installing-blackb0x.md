@@ -36,7 +36,7 @@ If you have an A1427 Apple TV 3, the process to jailbreak it is complex and requ
 
 :::
 
-# Preparing the host shield
+### Preparing the host shield
 
 Your host shield can arrive in two states - with headers, and without. If it is with headers, it will have pins and pin sockets already soldered to it, allowing you to connect it to an Arduino by simply placing it on top. If it has headers, your job is much easier.
 
