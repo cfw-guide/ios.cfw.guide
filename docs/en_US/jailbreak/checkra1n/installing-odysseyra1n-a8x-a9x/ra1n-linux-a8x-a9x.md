@@ -9,7 +9,7 @@ extra_contributors:
   - stekc
   - Tanbeer191
   - TheHacker894
-  - zachary7829
+  - Snoolie
 ---
 
 ::: danger
