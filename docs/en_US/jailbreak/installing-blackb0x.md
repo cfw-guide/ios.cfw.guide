@@ -23,7 +23,7 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 <p><img src="/assets/images/aluminum_tv_remote.png" alt="A photo of a non-Siri enabled Apple TV aluminum remote" style="display: block; margin-inline: auto; max-width: 30em;"></p>
 - A1427 only:
    - An [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3)
-   - A [MAX3421E USB host shield](https://www.aliexpress.com/w/wholesale-MAX3421E-USB-host-shield.html?SearchText=MAX3421E+USB+host+shield&catId=0&g=y&initiative_id=SB_20230401182716&sortType=price_asc&spm=a2g0o.productlist.1000002.0&trafficChannel=main), and USB-A to USB-B cable
+   - A [MAX3421E USB host shield](https://www.aliexpress.com/w/wholesale-MAX3421E-USB-host-shield.html), and USB-A to USB-B cable
    - A soldering iron
    - 0.5mm solder
    - (Optional) Solder flux
