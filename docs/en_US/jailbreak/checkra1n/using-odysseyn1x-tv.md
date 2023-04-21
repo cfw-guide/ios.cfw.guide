@@ -15,7 +15,7 @@ extra_contributors:
   - bbaovanc
   - Tanbeer191
   - TheHacker894
-  - zachary7829
+  - Snoolie
   - itsnebulalol
 ---
 
