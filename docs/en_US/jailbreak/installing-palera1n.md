@@ -42,6 +42,12 @@ For those who are interested in using a setup that, while supporting less tweaks
 
 :::
 
+## Downloads
+
+The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.
+  - macOS users should generally get `palera1n-macos-universal`
+  - Linux users should get whichever version corresponds to the architecture of the computer you're using
+
 ## Installing the jailbreak
 
 Please select your operating system:
@@ -52,8 +58,12 @@ Please select your operating system:
 
 ### Installing palera1n
 
-1. Open a terminal window.
-1. Run `sudo curl -Lo /usr/local/bin/palera1n https://github.com/palera1n/palera1n-c/releases/download/v2.0.0-beta.5/palera1n-macos-universal`
+1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
+1. Run `sudo mkdir /usr/local/bin`
+    - If you get a message saying `mkdir: /usr/local/bin: File exists`, this is safe to ignore.
+1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
+    - Replace `./palera1n-macos-universal` with whatever version you downloaded
+1. Run `sudo xattr -c /usr/local/bin/palera1n`
 1. Run `sudo chmod +x /usr/local/bin/palera1n`
 
 ### Running palera1n
@@ -123,10 +133,6 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
-### Downloads
-
-The version of [palera1n](https://github.com/palera1n/palera1n/releases) that corresponds to the architecture of the computer that you're using.
-
 ### Installing palera1n
 
 ::: warning
@@ -142,7 +148,6 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 1. Run `sudo usbmuxd -f -p`
 1. Open up a new terminal window and `cd` to the directory that palera1n was downloaded to.
 1. Run `sudo mv ./palera1n-linux-* /usr/bin/palera1n`
-    - `./palera1n-linux-*` refers to the version that you downloaded above (e.g. `./palera1n-linux-x86_64`) 
 1. Run `sudo chmod +x /usr/bin/palera1n`
 
 ### Running palera1n
