@@ -58,9 +58,18 @@ Please select your operating system:
 
 ### Installing palera1n
 
-1. Open a terminal window and `cd` to the directory that palera1n was downloaded to.
-1. Run `sudo mkdir /usr/local/bin`
-    - If you get a message saying `mkdir: /usr/local/bin: File exists`, this is safe to ignore.
+1. Enable Full Disk Access for Terminal (this only has to be done once)
+   * macOS Monterey and below: System Preferences → Security & Privacy → Privacy → Full Disk Access
+   * macOS Ventura and above: System Settings → Privacy & Security → Full Disk Access
+
+   If Terminal does not show up in the list, click the plus icon and select it from Applications → Utilities.
+1. If you are on macOS Monterey 12.2.1 or below, run the following commands (this only has to be done once):
+   ```
+   sudo python -m ensurepip
+   sudo python -m pip install setuptools xattr==0.6.4
+   ```
+1. Open a terminal window and `cd` to the directory that palera1n was downloaded to (usually `cd ~/Downloads`).
+1. Run `sudo mkdir -p /usr/local/bin`
 1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
     - Replace `./palera1n-macos-universal` with whatever version you downloaded
 1. Run `sudo xattr -c /usr/local/bin/palera1n`
@@ -146,7 +155,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 1. Open up a terminal window
 1. Run `sudo systemctl stop usbmuxd`
 1. Run `sudo usbmuxd -f -p`
-1. Open up a new terminal window and `cd` to the directory that palera1n was downloaded to.
+1. Open up a new terminal window and `cd` to the directory that palera1n was downloaded to (usually `cd ~/Downloads`).
 1. Run `sudo mv ./palera1n-linux-* /usr/bin/palera1n`
 1. Run `sudo chmod +x /usr/bin/palera1n`
 
