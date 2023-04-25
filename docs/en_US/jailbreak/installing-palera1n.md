@@ -47,6 +47,9 @@ For those who are interested in using a setup that, while supporting less tweaks
 The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.
   - macOS users should generally get `palera1n-macos-universal`
   - Linux users should get whichever version corresponds to the architecture of the computer you're using
+    - This will be usually `palera1n-linux-x86_64`. Choose this one if you're unsure.
+    - If you're using a 32-bit computer, choose `palera1n-linux-x86`.
+    - If you're using an ARM computer (e.g. a Raspberry Pi), choose `palera1n-linux-armel` for 32-bit and `palera1n-linux-arm64` for 64-bit.
 
 ## Installing the jailbreak
 
