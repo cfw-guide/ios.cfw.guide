@@ -25,16 +25,18 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 ## Installing Blackb0x
 
-Depending on your model of Apple TV, the steps are different. Select the tab that lists the A-code that corresponds to your Apple TV mode.
+Depending on your model of Apple TV, the steps are different. Select the tab that lists the A-code that corresponds to your Apple TV model.
 
 ::::: tabs
 
 :::: tab name="A1378, A1469" :default="true"
 
-1. Unzip and run Blackb0x
-1. Connect your Apple TV via USB to your computer - you will most likely need to disconnect the HDMI cable.
+1. Unzip and run the Blackb0x application
+1. Connect your Apple TV via USB to your Mac - you will most likely need to disconnect the HDMI cable.
 1. Click `Install Jailbreak`
-1. Once Blackb0x says done, your Apple TV will reboot. Disconnect it from your computer, but once it boots, do not use the Apple TV yet, wait a few minutes until it displays a loading circle and then loads the home screen.
+1. Once Blackb0x says done, your Apple TV will reboot
+1. Disconnect it from your Mac, but do not use the Apple TV yet when it first boots
+1. Wait a few minutes until it displays a loading circle and then loads the home screen.
 
 ::: tip
 
@@ -46,19 +48,23 @@ It may take a few tries to get your Apple TV into DFU. Be patient and ensure you
 
 :::: tab name="A1427" :default="false"
 
-1. Follow the checkm8-a5 guide [here](https://ios.cfw.guide/using-checkm8-a5)
+1. Follow the checkm8-a5 guide [here](/using-checkm8-a5)
 1. Unzip and run Blackb0x
 1. Connect your Apple TV via USB to your computer - you will most likely need to disconnect the HDMI cable.
 1. Follow the steps blackb0x provides to enter DFU
 1. Click `Install Jailbreak`
-1. Once Blackb0x says done, your Apple TV will reboot. Disconnect it from your computer, but once it boots, do not use the Apple TV yet, wait a few minutes until it displays a loading circle and then loads the home screen.
+1. Once Blackb0x says done, your Apple TV will reboot.
+1. Disconnect it from your Mac, but do not use the Apple TV yet when it first boots
+1. Wait a few minutes until it displays a loading circle and then loads the home screen.
 
 ::::
 
+:::::
+
 ::: tip
 
-Your Apple TV 3 may boot into recovery mode after using blackb0x. This is normal, it means you didn't disconnect the USB cable in time - the Apple TV 3 automatically boots into Recovery Mode if it is connected to a computer. Power cycle it and it will boot normally.
+Your Apple TV (3rd generation) may boot into recovery mode after using blackb0x. This is normal, it means you didn't disconnect the USB cable in time - the Apple TV automatically boots into Recovery Mode if it is connected to a computer. Power cycle it and it will boot normally.
 
 :::
 
-You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. To gain access, run the command `ssh -oHostKeyAlgorithms=+ssh-dss root@apple.tv.ip.here`. You can find the IP in Settings.
+You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. To gain access, run the command `ssh -oHostKeyAlgorithms=+ssh-dss root@apple.tv.ip.here`. You can find the IP address in Settings.
