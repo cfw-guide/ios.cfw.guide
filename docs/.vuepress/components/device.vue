@@ -17,9 +17,9 @@
 
     <a :href="`https://appledb.dev/device/${fm.name.replace(/ /g,'-')}.html`" target="_blank">{{ themeLocaleData.table.showMore }}</a>
     <h2 v-if="findOsVersion.verStr || findOsVersion.imgUrl">{{ themeLocaleData.firmwareSelection.findiOSVersion.title.format({ osStr: latestOs.osStr }) }}</h2>
-    <div v-if="findOsVersion.verStr" v-html="themeLocaleData.firmwareSelection.findiOSVersion.instructions.format({ verStr: findOsVersion.verStr }).md()"></div>
+    <div v-if="findOsVersion.verStr" v-html="themeLocaleData.firmwareSelection.findiOSVersion.instructions[fm.devType == 'Apple TV' ? 'tv' : 'ios'].format({ verStr: findOsVersion.verStr }).md()"></div>
     <div v-if="findOsVersion.imgUrl" class="custom-container tip"><p>
-        <img :src="findOsVersion.imgUrl" :alt="themeLocaleData.firmwareSelection.findiOSVersion.image.altText" class="medium-zoom-image">
+        <img :src="findOsVersion.imgUrl" :alt="themeLocaleData.firmwareSelection.findiOSVersion.image.altText.format({ osStr: latestOs.osStr, deviceType: fm.devType })" class="medium-zoom-image">
     </p></div>
 </template>
 
@@ -92,8 +92,8 @@ export default {
             }
 
             if (AppleTV) {
-                verStr = null
-                imgUrl = null
+                verStr = findiOSVersion.verStr.tv
+                imgUrl = findiOSVersion.image.tv
             }
 
             return {
