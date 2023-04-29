@@ -35,14 +35,6 @@ If you are using Windows, you should follow <router-link to="/using-palen1x">Usi
 
 :::
 
-::: tip
-
-If you are in need of more tweak compatibility, you can opt to follow <router-link to="/installing-palera1n-rootful">Installing palera1n (Rootful)</router-link> instead, though do note that it has significant downsides with regards to stability, reliability, complexity, and storage space usage.
-
-*If you don't know if this applies to you or not, ignore this tip and continue following this guide*
-
-:::
-
 ## Downloads
 
 The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.

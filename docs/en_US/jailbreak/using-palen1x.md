@@ -34,14 +34,6 @@ On A11 devices, you **must disable your passcode** and will not be able to use y
 
 Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
 
-::: tip
-
-If you are in need of more tweak compatibility, you can opt to follow <router-link to="/using-palen1x-rootful">Using palen1x (Rootful)</router-link> instead, though do note that it has significant downsides with regards to stability, reliability, complexity, and storage space usage.
-
-*If you don't know if this applies to you or not, ignore this tip and continue following this guide*
-
-:::
-
 ## Requirements
 
 - A 64MB or greater USB Drive
