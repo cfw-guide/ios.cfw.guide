@@ -201,7 +201,7 @@ At this step, there are many errors you may see. A list of the most common, with
 - `usb init failed`: This means you did not solder the USB host shield correctly. Double-check everything is soldered properly and there are no bridges between pins.
 - `Non Apple DFU found (vendorID: 0, productId: 0`: This means the exploit failed. Force reboot the Apple TV, reenter DFU, and try the script again.
 - `heap_feng_shui_req: setup status = 0, data status = 4` on loop: This is usually not an error. If it goes on for more than two minutes, force reboot the device and try the process again - otherwise, it should proceed to sending the line `2. set global state`.
-- `heap_feng_shui_req: setup status = D, data status = 5` on loop *is* an error. Reenter DFU and try again.
+- `heap_feng_shui_req: setup status = D, data status = 5` on loop *is* an error, but easily fixable - simply reupload the script to the Arduino and it should work. If it still doesn't, reenter DFU and try the process again.
 
 :::
 
