@@ -9,13 +9,13 @@ sidebar: false
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
--   <router-link to="/installing-fugu15max">Installing Fugu15 Max</router-link>
+-   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 
 ## Jailbreaks
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
--   <router-link to="/installing-fugu15max">Installing Fugu15 Max</router-link>
+-   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
 -   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
 -   <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
@@ -84,8 +84,8 @@ sidebar: false
 -   <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link>
 -   <router-link to="/updating-blobless-nonjailbroken">Updating (Blobless) (Non-Jailbroken)</router-link>
 -   <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
--   <router-link to="/updating-to-16-4">Updating to 16.4</router-link>
--   <router-link to="/updating-to-15-7-4">Updating to 15.7.4</router-link>
+-   <router-link to="/updating-to-16-4-1">Updating to 16.4.1</router-link>
+-   <router-link to="/updating-to-15-7-5">Updating to 15.7.5</router-link>
 -   <router-link to="/updating-to-12-5-7">Updating to 12.5.7</router-link>
 -   <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 -   <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>

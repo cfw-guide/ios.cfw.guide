@@ -7,7 +7,7 @@ permalink: /removing-xinaa15
 
 Uninstalling a jailbreak isn't as simple as deleting the app. When you uninstall XinaA15, you need to go in the app and restore parts of the OS to how they were before your device was jailbroken.
 
-This guide is useful for people who want to install <router-link to="/installing-fugu15max">Fugu15 Max</router-link>, or just people who want to unjailbreak their device.
+This guide is useful for people who want to install <router-link to="/installing-dopamine">Dopamine</router-link>, or just people who want to unjailbreak their device.
 
 ## Uninstalling XinaA15
 
@@ -29,4 +29,4 @@ XinaA15 should now be removed from your device.
 1. Tap on the `Sileo` application in the "Apps" tab
 1. Tap `Uninstall App`, then press `Uninstall`
 
-Sileo should now be removed from your device, and you should be able to switch to <router-link to="/installing-fugu15max">Fugu15 Max</router-link> if desired.
+Sileo should now be removed from your device, and you should be able to switch to <router-link to="/installing-dopamine">Dopamine</router-link> if desired.
