@@ -1,14 +1,26 @@
 ---
 lang: en_US
 title: Using palen1x (Rootful)
-excerpt: Guide to installing rootful palera1n via palen1x
-permalink: /using-palen1x-rootful
+excerpt: Guide to installing rootful palera1n via palen1x (Archived)
+permalink: /archived-palen1x-rootful
 pkgman: sileo
 extra_contributors:
   - Mineek
   - nebula
   - flowerible
 ---
+
+::: danger
+
+This guide only exists as an archive - we won't be making noticeable changes to this guide in the future if anything happens.
+
+For users who are looking for a maintained palera1n guide - we generally recommend following the normal <router-link to="/using-palen1x">Using palen1x</router-link> guide instead, as it will provide an overall better experience in almost every way compared to using rootful palera1n via palen1x, and is the general direction that most developers are prioritizing tweak support towards.
+
+If you currently use rootful palera1n, we recommend following this guide to <router-link to="/removing-palera1n">remove rootful palera1n</router-link> and then use palen1x to <router-link to="/using-palen1x">Install rootless palera1n</router-link>
+
+Regardless, if you choose to install or continue to use rootful palera1n, do note that there will likely be less and less support over time given, and that newer tweaks will be less and less likely to support this setup of palera1n.
+
+:::
 
 ::: danger
 

@@ -1,13 +1,25 @@
 ---
 lang: en_US
 title: Installing palera1n (Rootful)
-description: Guide to installing rootful palera1n
-permalink: /installing-palera1n-rootful
+description: Guide to installing rootful palera1n (Archived)
+permalink: /archived-palera1n-rootful
 pkgman: sileo
 extra_contributors:
   - Mineek
   - nebula
 ---
+
+::: danger
+
+This guide only exists as an archive - we won't be making noticeable changes to this guide in the future if anything happens.
+
+For users who are looking for a maintained palera1n guide - we generally recommend following the normal <router-link to="/installing-palera1n">Installing palera1n</router-link> guide instead, as it will provide an overall better experience in almost every way compared to using rootful palera1n, and is the general direction that most developers are prioritizing tweak support towards.
+
+If you currently use rootful palera1n, we recommend following this guide to <router-link to="/removing-palera1n">remove rootful palera1n</router-link> and then <router-link to="/installing-palera1n">Install rootless palera1n</router-link>
+
+Regardless, if you choose to install or continue to use rootful palera1n, do note that there will likely be less and less support over time given, and that newer tweaks will be less and less likely to support this setup of palera1n.
+
+:::
 
 palera1n is a work-in-progress jailbreak that patches the kernel so you can use Sileo and install tweaks. Currently, palera1n is compatible with A11 (iPhone X) and earlier devices on iOS 15 and later, with some major caveats.
 
