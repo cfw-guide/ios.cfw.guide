@@ -7,6 +7,8 @@ pkgman: sileo
 extra_contributors:
   - Mineek
   - nebula
+redirect_from:
+  - /using-palen1x-rootful
 ---
 
 ::: danger

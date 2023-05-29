@@ -8,6 +8,8 @@ extra_contributors:
   - Mineek
   - nebula
   - flowerible
+redirect_from:
+  - /installing-palera1n-rootful
 ---
 
 ::: danger
