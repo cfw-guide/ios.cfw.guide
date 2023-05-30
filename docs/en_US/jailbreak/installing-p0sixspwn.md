@@ -45,6 +45,7 @@ You will need a computer running macOS 10.12 Sierra or older or Windows XP or ne
 1. Open Terminal (can be found in `Applications/Utilities/`)
 1. Navigate to the extracted zip folder with `cd`
 1. Run `./p0sixspwn.tool` from the P0sixspwn folder
+    - If you receive an error `“pris0nbarake” cannot be opened because the developer cannot be verified.` or anything similar, run `sudo xattr -c *` in the P0sixspwn folder and then run `./p0sixspwn.tool` again.
 1. Connect your iOS Device over to USB to your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Click `Jailbreak` on P0sixspwn

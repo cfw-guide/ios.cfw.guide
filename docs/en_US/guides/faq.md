@@ -108,16 +108,15 @@ You should **not** use these tweaks, due to the fact that they tend to cause iss
 
 While this can be easily figured out by checking <router-link to="/get-started">Get Started</router-link>, in case you don't want to go through get started, here is the following information:
 
-- **A7 iPads**: iOS 12.5.6 (via Odysseyra1n or Chimera)
-- **A7/A8 iPhones**: iOS 12.5.6 (via Odysseyra1n or Chimera)
-- **iPod Touch (6th Generation)**: iOS 12.5.6 (via Odysseyra1n or Chimera)
-- **A8(X) iPads**: iPadOS 15.7.2 (via palera1n)
-- **iPod Touch (7th Generation)**: iOS 15.7.2 (via palera1n)
-- **A9/A10 iPhones**: iOS 15.7.2 (via palera1n)
-- **A9(X)-A10(X) iPads**: iPadOS 16.2 (via palera1n)
-- **A11 iPhones**: iOS 16.2 (via palera1n)
-- **A12/A13 iPhones**: iOS 15.1 (via XinaA15)
-- **A12-A15/M1 iPads**: iPadOS 15.1 (via XinaA15)
-- **A14/A15 iPhones**: iOS 15.1.1 (via XinaA15)
+- **A7 iPads**: iOS 12.5.7 (via Odysseyra1n or Chimera)
+- **A7/A8 iPhones**: iOS 12.5.7 (via Odysseyra1n or Chimera)
+- **iPod Touch (6th Generation)**: iOS 12.5.7 (via Odysseyra1n or Chimera)
+- **A8(X) iPads**: iPadOS 15.7.4 (via palera1n)
+- **iPod Touch (7th Generation)**: iOS 15.7.4 (via palera1n)
+- **A9/A10 iPhones**: iOS 15.7.4 (via palera1n)
+- **A9(X)-A10(X) iPads**: iPadOS 16.3.1 (via palera1n)
+- **A11 iPhones**: iOS 16.3.1 (via palera1n)
+- **A12-A15 iPhones**: iOS 15.4.1 (via Fugu15 Max)
+- **A12-A15/M1 iPads**: iPadOS 15.4.1 (via Fugu15 Max)
 
-Note that A12 and newer devices running iOS 15.2 or newer do not have a jailbreak, which also inherently means no M2 or A16 device has a jailbreak currently.
+Note that A12 and newer devices running iOS 15.5 or newer do not have a jailbreak, which also inherently means no M2 or A16 device has a jailbreak currently.

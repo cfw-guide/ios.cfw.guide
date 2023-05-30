@@ -1,20 +1,28 @@
 ---
 lang: en_US
-title: Using palen1x
-excerpt: Guide to installing palera1n via palen1x
-permalink: /using-palen1x
+title: Using palen1x (Rootful)
+excerpt: Guide to installing rootful palera1n via palen1x (Archived)
+permalink: /archived-palen1x-rootful
 pkgman: sileo
-redirect_from:
-  - /installing-palen1x
-  - /using-palenix
-  - /palen1x
-  - /palenix
-  - /using-palen1x-rootless
 extra_contributors:
   - Mineek
   - nebula
   - flowerible
+redirect_from:
+  - /installing-palera1n-rootful
 ---
+
+::: danger
+
+This guide only exists as an archive - we won't be making noticeable changes to this guide in the future if anything happens.
+
+For users who are looking for a maintained palera1n guide - we generally recommend following the normal <router-link to="/using-palen1x">Using palen1x</router-link> guide instead, as it will provide an overall better experience in almost every way compared to using rootful palera1n via palen1x, and is the general direction that most developers are prioritizing tweak support towards.
+
+If you currently use rootful palera1n, we recommend following this guide to <router-link to="/removing-palera1n">remove rootful palera1n</router-link> and then use palen1x to <router-link to="/using-palen1x">Install rootless palera1n</router-link>
+
+Regardless, if you choose to install or continue to use rootful palera1n, do note that there will likely be less and less support over time given, and that newer tweaks will be less and less likely to support this setup of palera1n.
+
+:::
 
 ::: danger
 
@@ -61,6 +69,8 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
 
 ## Running palera1n
 
+### Creating the FakeFS/BindFS
+
 ::: warning
 
 If you are using a USB-C to Lightning cable to do this process, you may run into issues entering into DFU mode
@@ -70,10 +80,49 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 :::
 
 1. Once you have loaded palen1x, select `palera1n`
-1. Select `Switch`, then select `Rootless`
-1. Press `Enter` to save the options you just selected, then select `Start`
+1. Select `Options`
+1. Enable one of the two options, depending on your devices capacity, amount of free space, and iOS version:
+    - 16GB devices should enable `Create BindFS` - note that you'll need to have 2-3GB of storage space free.
+    - Devices with more than 2-3GB (if on iOS 15) or more than 5-6GB (if on iOS 16) of storage space free but with less than 10-15GB of storage space free also can enable `Create BindFS`
+    - Devices which have more than 10-15GB of storage space free should enable `Create FakeFS`
+
+::: warning
+
+If your device is either:
+   - On iOS 15 and does not have at least 2-3GB of storage space free
+   - On iOS 16 and does not have at least 5-6GB of storage space free
+
+You won't be able to continue following this guide.
+
+If you cannot free up enough storage to follow this, you should instead use rootless palera1n by following <router-link to="/using-palen1x">Using palera1n</router-link> instead.
+
+:::
+
+4. Press `Enter` to save the options you just selected, then select `Start`
     - Make sure your device is plugged in when you do this.
 1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+
+Your device should create the FakeFS or BindFS (depending on the option you chose).
+
+::: tip
+
+A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
+
+1. In the terminal window, press `Control` + `C` on your keyboard
+1. Type `exit`
+1. Rerun the steps in palen1x that you just did
+
+:::
+
+### Jailbreaking with palera1n
+
+1. When prompted to `press enter to exit`, press the enter key.
+1. Once the palen1x menu loads again, reselect `palera1n`
+1. Select `Start`
+    - Make sure your device is plugged in when you do this.
+1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+
+Your device should now begin to jailbreak.
 
 ::: tip
 
@@ -86,9 +135,3 @@ A9(X) and earlier devices have an issue where they will get stuck midway through
 :::
 
 Once the device boots up, open the palera1n loader app and tap `Install`. After a bit of time, you'll be prompted to respring and `Sileo` should be on your home screen.
-
-::: tip
-
-To rejailbreak your device, simply rerun the command you just ran and then repeat any other applicable steps.
-
-:::

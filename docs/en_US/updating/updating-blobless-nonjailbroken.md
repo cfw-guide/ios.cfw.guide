@@ -15,26 +15,13 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **12.5.6** - April 23rd, 2023
-- **15.7.2** - April 23rd, 2023
-- **16.2** - April 23rd, 2023
-= **16.3** - May 14th, 2023
+- **16.3** - May 14th, 2023
+- **15.7.3** - June 25th, 2023
+- **16.3.1** - June 25th, 2023
+- **16.4** - July 6th, 2023
+- **15.7.4** - July 9th, 2023
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
-
-::: danger
-
-Depending on your target iOS version, you won't be able to do this if you futurerestored after the following dates:
-
-  - 15.7.1: December 13th, 2022
-  - 16.1.1 (*iPads only*): December 13th, 2022
-  - 16.1.2: December 13th, 2022
-  - 12.5.6: January 23rd, 2022
-  - 15.7.2: January 23rd, 2022
-  - 16.2: January 23rd, 2022
-  - 16.3: February 13th, 2022
-
-:::
 
 ::: tip
 
@@ -90,9 +77,8 @@ After your device reboots, you should see a notice in Settings that you are supe
 
 1. Open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [12.5.6](/assets/files/delay_12_5_6.mobileconfig)
-    - [15.7.2](/assets/files/delay_15_7_2.mobileconfig)
-    - [16.2](/assets/files/delay_16_2.mobileconfig)
+    - [15.7.3](/assets/files/delay_15_7_3.mobileconfig)
+    - [16.3](/assets/files/delay_16_3.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
@@ -111,9 +97,7 @@ As a result of supervising earlier, your device will remain supervised. Being in
 
 Note that, for most users, staying in a supervised state won't be an issue.
 
-If you're still on iOS 15.7.1 or earlier, or on iOS 16.0 to 16.1.2, you'll be able to reopen the Supervise app and then disable the `Toggle Supervision` option.
-
-If you're on iOS 15.7.2, 15.7.3, or 16.2 and later, you'll need to reset your device and restore a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
+If you want to remove supervision, you'll need to reset your device and restore a previously made backup. This can be done by selecting "Erase All Content and Settings" in the Settings app, then restoring from a backup during setup from iCloud.
 
 :::
 
