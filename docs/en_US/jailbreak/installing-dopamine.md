@@ -96,6 +96,7 @@ While you are now jailbroken at this point, we need to both update and install s
 1. Open the Sileo app
 1. Tap on the "Sources" tab
 1. Tap on the "ElleKit" repository, then tap on "All Categories"
+1. Tap on `ElleKit`
 1. Tap "Get"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
