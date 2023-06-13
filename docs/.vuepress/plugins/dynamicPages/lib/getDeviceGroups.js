@@ -1,4 +1,5 @@
 const { path, fs } = require('@vuepress/utils')
+const request = require('sync-request')
 
 const allowedDeviceTypes = [
     'iPhone',
@@ -15,40 +16,19 @@ const osArr = require('../../../json/ios')
 .reverse()
 .filter(x => !x.beta)
 
-function isDir(p) {
-    return fs.lstatSync(p).isDirectory()
-}
+let imgJson = []
+try {
+    const req = request(
+        'GET',
+        'https://img.appledb.dev/main.json'
+    ).getBody('utf8')
+    if (!fs.existsSync('./cache')) fs.mkdirSync('./cache')
+    fs.writeFileSync('./cache/imgArr.json', req)
 
-let imgArr = []
-const appleDeviceImagesPath = path.resolve(__dirname, '../../../../../apple-device-images')
-const imagePath = path.join(appleDeviceImagesPath, 'images')
-fs.readdirSync(imagePath)
-.filter(f => f.endsWith('.png') || isDir(path.join(imagePath, f)))
-.forEach(f => {
-    imgArr.push({
-        identifier: f.replace('.png',''),
-        imgCount: (f.endsWith('.png')) ? 1 : -1,
-        dark: false,
-    })
-})
-
-let folderArr = imgArr.filter(x => x.imgCount < 0).filter(x => isDir(path.join(appleDeviceImagesPath, `images/${x.identifier}`)))
-imgArr = imgArr.filter(x => x.imgCount > 0)
-
-for (const i of folderArr) {
-    let folderImgArr = []
-    fs.readdirSync(path.join(appleDeviceImagesPath, `images/${i.identifier}`))
-    .filter(f => f.endsWith('.png'))
-    .forEach(file => {
-        folderImgArr.push(file)
-    })
-    let folderImgCount = folderImgArr.filter(x => !x.endsWith('_dark.png')).length
-    let darkBool = folderImgArr.filter(x => x.endsWith('_dark.png')).length > 0
-    imgArr.push({
-        identifier: i.identifier,
-        imgCount: folderImgCount,
-        dark: darkBool
-    })
+    imgJson = JSON.parse(req)
+} catch {
+    if (fs.existsSync('./cache/imgArr.json'))
+        imgJson = require('../cache/imgArr.json')
 }
 
 const deviceGroups = require('../../../json/deviceGroups')
@@ -128,22 +108,24 @@ const deviceGroups = require('../../../json/deviceGroups')
     return 0
 })
 .map(x => {
-    let imgObj = {}
-    let firstDeviceIdentifier = ''
+    let imgObj = {
+        key: 'logo',
+        count: 1,
+        dark: true
+    }
+
     for (const dev of x.devices) {
-        imgObj = imgArr.filter(y => y.identifier == dev)
-        firstDeviceIdentifier = dev
-        if (imgObj[0] !== undefined) break
+        let findImgObj = imgJson.find(y => y.key == dev)
+        if (findImgObj) {
+            imgObj.key = dev
+            imgObj.count = findImgObj.count
+            imgObj.dark = findImgObj.dark
+            break
+        }
     }
-    x.img = {}
-    if (imgObj.length < 1) {
-        x.img.count = fs.existsSync(path.join(appleDeviceImagesPath, `/images-lowres/${firstDeviceIdentifier}.png`)) ? 1 : 0
-        x.img.dark = false
-    }
-    else {
-        x.img.count = imgObj[0].imgCount
-        x.img.dark = imgObj[0].dark
-    }
+    
+    console.log(imgObj)
+    x.img = imgObj
     return x
 })
 

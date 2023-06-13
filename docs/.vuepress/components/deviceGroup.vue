@@ -14,7 +14,7 @@
                     <h3>{{dev.name}}</h3>
                     <div :class="['flexWrapper','flexImg',dev.expanded ? 'expanded' : 'small']" style="user-select: none;">
                         <div>
-                            <template v-if="dev.img.count > 0"><img v-for="i in Math.min(dev.img.count,3)" :key="i" :class="['devImage', `devImage${i}`, dev.expanded ? 'expanded' : 'small']" :src="`https://img.appledb.dev/device@preview/${dev.devices[0].replace(/\//g,'%252F')}/${i-1}${isDarkMode && dev.img.dark ? '_dark' : ''}.webp`"></template>
+                            <template v-if="dev.img.count > 0"><img v-for="i in Math.min(dev.img.count,3)" :key="i" :class="['devImage', `devImage${i}`, dev.expanded ? 'expanded' : 'small']" :src="`https://img.appledb.dev/device@preview/${dev.img.key}/${i-1}${isDarkMode && dev.img.dark ? '_dark' : ''}.webp`"></template>
                             <template v-else><img :class="['devImage','devImage0', dev.expanded ? 'expanded' : 'small']" :src="`/assets/images/logo${isDarkMode ? '_dark' : ''}.webp`"></template>
                         </div>
                     </div>

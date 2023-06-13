@@ -18,6 +18,7 @@
         "ghbuild": "NODE_OPTIONS=--max_old_space_size=16384 vuepress build docs"
     },
     "dependencies": {
-        "marked": "^4.0.16"
+        "marked": "^4.0.16",
+        "sync-request": "^6.1.0"
     }
 }

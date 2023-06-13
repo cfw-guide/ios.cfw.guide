@@ -99,7 +99,7 @@ export default {
                 if (tempTypeArr.includes(g.type)) continue
                 tempTypeArr.push(g.type)
                 firstDeviceObj[g.type] = {
-                    identifier: g.devices[0],
+                    key: g.img.key,
                     imageBool: g.img.count > 0,
                     dark: g.img.dark
                 }
@@ -111,12 +111,12 @@ export default {
             }
             
             for (const o in overrides) if (firstDeviceObj.hasOwnProperty(o))
-                firstDeviceObj[o].identifier = overrides[o]
+                firstDeviceObj[o].key = overrides[o]
 
             var ret = {}
             for (const d in firstDeviceObj) {
                 ret[d] = firstDeviceObj[d].imageBool ?
-                    `https://img.appledb.dev/device@preview/${firstDeviceObj[d].identifier}/0${this.isDarkMode && firstDeviceObj[d].dark ? '_dark' : ''}.webp` :
+                    `https://img.appledb.dev/device@preview/${firstDeviceObj[d].key}/0${this.isDarkMode && firstDeviceObj[d].dark ? '_dark' : ''}.webp` :
                     `/assets/images/logo${this.isDarkMode ? '_dark' : ''}.webp`
             }
             

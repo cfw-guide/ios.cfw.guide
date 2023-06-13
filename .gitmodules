@@ -7,6 +7,3 @@
 [submodule "emiyl-theme"]
 	path = emiyl-theme
 	url = https://github.com/emiyl/emiyl-theme
-[submodule "apple-device-images"]
-	path = apple-device-images
-	url = https://github.com/emiyl/apple-device-images.git
