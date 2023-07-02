@@ -62,6 +62,6 @@ You need to have enabled developer mode on your ChromeOS device to follow this
 
 1. Run the `palera1n` binary in the terminal using `TERM=linux sudo palera1n`
     - You may need to run `sudo chmod a+x /usr/local/bin/palera1n` if the binary doesn't run
-2. Follow the instructions to put your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
-3. After this, palera1n should automatically detect your device in DFU mode and ask you to press Enter.
+2. After this, palera1n should automatically detect your device in Recovery Mode and ask you to press Enter.
+3. Follow the instructions to put your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 4. Once your device shows the Apple logo, immediately unplug and replug your device for your Chromebook to detect the PongoOS USB device.
