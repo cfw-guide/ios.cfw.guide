@@ -56,12 +56,12 @@ You need to have enabled developer mode on your ChromeOS device to follow this
       - run `mv ~/Downloads/palera1n-linux-* /usr/local/bin/`
 1. Run the following command in terminal: `sudo mount -o remount,exec /tmp`
     - You'll need to do this every single time you reboot your ChromeOS device
-1. Every time you need to jailbreak in ChromeOS, you need to plug in your device, and enter Recovery Mode manually.
+1. Every time you need to jailbreak in ChromeOS, you need to plug in your device, and enter Recovery Mode manually. You can easily find instructions on how to do this with a quick Google search.
 
 ## Running palera1n
 
 1. Run the `palera1n` binary in the terminal using `TERM=linux sudo palera1n`
     - You may need to run `sudo chmod a+x /usr/local/bin/palera1n` if the binary doesn't run
-2. You will now need to manually put your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>. You can usually find how to do this with a quick Google search.
+2. Follow the instructions to put your device into <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 3. After this, palera1n should automatically detect your device in DFU mode and ask you to press Enter.
 4. Once your device shows the Apple logo, immediately unplug and replug your device for your Chromebook to detect the PongoOS USB device.
