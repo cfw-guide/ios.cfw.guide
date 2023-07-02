@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing Odysseyra1n (ChromeOS)
-description: Guide to installing Odysseyra1n on ChromeOS
-permalink: /installing-odysseyra1n-chromeos
+title: Installing palera1n (ChromeOS)
+description: Guide to installing palera1n on ChromeOS
+permalink: /installing-palera1n/chromeos
 redirect_from:
   - /installing-palera1n/chromeos
   - /installing-palera1n-chromeos
