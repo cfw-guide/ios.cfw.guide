@@ -154,6 +154,11 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::::
 
+:::: tab name="ChromeOS"
+::: danger
+
+If you have a ChromeOS device, you can attempt to follow <router-link to="/installing-palera1n-chromeos">Installing palera1n (ChromeOS)</router-link>, however, do note that it is not recommended due to the fact that it is both more time-consuming and more prone to user error.
+
 ::::::
 
 Once the device boots up, open the palera1n loader app and tap `Sileo`. After a bit of time, you'll be prompted to set a passcode for using command line stuff, and then afterwards,`Sileo` should be on your home screen.
