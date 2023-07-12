@@ -35,15 +35,6 @@ If you are using Windows, you should follow <router-link to="/using-palen1x">Usi
 
 :::
 
-## Downloads
-
-The version of [palera1n](https://github.com/palera1n/palera1n/releases) for your OS.
-  - macOS users should generally get `palera1n-macos-universal`
-  - Linux users should get whichever version corresponds to the architecture of the computer you're using
-    - This will be usually `palera1n-linux-x86_64`. Choose this one if you're unsure.
-    - If you're using a 32-bit computer, choose `palera1n-linux-x86`.
-    - If you're using an ARM computer (e.g. a Raspberry Pi), choose `palera1n-linux-armel` for 32-bit and `palera1n-linux-arm64` for 64-bit.
-
 ## Installing the jailbreak
 
 Please select your operating system:
@@ -54,22 +45,8 @@ Please select your operating system:
 
 ### Installing palera1n
 
-1. Enable Full Disk Access for Terminal (this only has to be done once)
-   * macOS Monterey and below: System Preferences → Security & Privacy → Privacy → Full Disk Access
-   * macOS Ventura and above: System Settings → Privacy & Security → Full Disk Access
-
-   If Terminal does not show up in the list, click the plus icon and select it from Applications → Utilities.
-1. If you are on macOS Monterey 12.2.1 or below, run the following commands (this only has to be done once):
-   ```
-   sudo python -m ensurepip
-   sudo python -m pip install setuptools xattr==0.6.4
-   ```
-1. Open a terminal window and `cd` to the directory that palera1n was downloaded to (usually `cd ~/Downloads`).
-1. Run `sudo mkdir -p /usr/local/bin`
-1. Run `sudo mv ./palera1n-macos-universal /usr/local/bin/palera1n`
-    - Replace `./palera1n-macos-universal` with whatever version you downloaded
-1. Run `sudo xattr -c /usr/local/bin/palera1n`
-1. Run `sudo chmod +x /usr/local/bin/palera1n`
+1. Open a terminal window
+1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh/)"`
 
 ### Running palera1n
 
@@ -131,9 +108,8 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 1. Open up a terminal window
 1. Run `sudo systemctl stop usbmuxd`
 1. Run `sudo usbmuxd -f -p`
-1. Open up a new terminal window and `cd` to the directory that palera1n was downloaded to (usually `cd ~/Downloads`).
-1. Run `sudo mv ./palera1n-linux-* /usr/bin/palera1n`
-1. Run `sudo chmod +x /usr/bin/palera1n`
+1. Open up another terminal window
+1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh/)"`
 
 ### Running palera1n
 
