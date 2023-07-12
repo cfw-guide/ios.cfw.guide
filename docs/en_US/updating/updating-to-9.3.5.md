@@ -6,7 +6,7 @@ permalink: /updating-to-9-3-5
 
 ## Required Reading
 
-Unfortunately, there is currently no jailbreak available for firmware versions 8.0 to 8.4 on 32-bit devices. However some devices, such as the iPod Touch 5, can update to 9.3.5 and use the Phœnix jailbreak instead.
+Unfortunately, there is currently no jailbreak available for firmware versions 8.0 to 8.3 on 32-bit devices. However some devices, such as the iPod Touch 5, can update to 9.3.5 and use the kok3shi jailbreak instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 9.3.5, we can easily update to the desired firmware version, due to the age of the devices.
 

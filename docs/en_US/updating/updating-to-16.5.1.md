@@ -1,7 +1,7 @@
 ---
 lang: en_US
-title: Updating to 16.5
-permalink: /updating-to-16-5
+title: Updating to 16.5.1
+permalink: /updating-to-16-5-1
 redirect_from:
     - /updating-to-16-0
     - /updating-to-16-0-2
@@ -12,6 +12,7 @@ redirect_from:
     - /updating-to-16-3
     - /updating-to-16-3-1
     - /updating-to-16-4-1
+    - /updating-to-16-5
 ---
 
 ## Required Reading

@@ -34,9 +34,9 @@ sidebar: false
 -   <router-link to="/installing-doubleh3lix-(ipa)">Installing doubleh3lix</router-link>
 -   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
 -   <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
+-   <router-link to="/installing-kok3shi9">Installing kok3shi9</router-link>
 -   <router-link to="/installing-phoenix">Installing Phœnix</router-link>
 -   <router-link to="/installing-p0laris">Installing p0laris</router-link>
--   <router-link to="/installing-kok3shi">Installing kok3shi</router-link>
 -   <router-link to="/installing-openpwnage">Installing openpwnage</router-link>
 -   <router-link to="/installing-pangu933">Installing Pangu9</router-link>
 -   <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link>
@@ -84,8 +84,8 @@ sidebar: false
 -   <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link>
 -   <router-link to="/updating-blobless-nonjailbroken">Updating (Blobless) (Non-Jailbroken)</router-link>
 -   <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
--   <router-link to="/updating-to-16-4-1">Updating to 16.4.1</router-link>
--   <router-link to="/updating-to-15-7-5">Updating to 15.7.5</router-link>
+-   <router-link to="/updating-to-16-5-1">Updating to 16.5.1</router-link>
+-   <router-link to="/updating-to-15-7-7">Updating to 15.7.7</router-link>
 -   <router-link to="/updating-to-12-5-7">Updating to 12.5.7</router-link>
 -   <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 -   <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>
@@ -93,9 +93,7 @@ sidebar: false
 -   <router-link to="/updating-to-9-3-6-ipsw">Updating to 9.3.6 (iTunes/Finder)</router-link>
 -   <router-link to="/updating-to-9-3-5">Updating to 9.3.5</router-link>
 -   <router-link to="/updating-to-9-3-5-ipsw">Updating to 9.3.5 (iTunes/Finder)</router-link>
--   <router-link to="/updating-to-8-4-1">Updating to 8.4.1</router-link>
 -   <router-link to="/updating-to-7-1-2-ipsw">Updating to 7.1.2 (iTunes/Finder)</router-link>
--   <router-link to="/updating-to-6-1-3">Updating to 6.1.3</router-link>
 
 ## ios.cfw.guide
 
