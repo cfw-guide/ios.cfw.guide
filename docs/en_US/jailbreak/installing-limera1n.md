@@ -7,7 +7,7 @@ redirect_from:
   - /installing-limerain
   - /limera1n
   - /limerain
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---
 

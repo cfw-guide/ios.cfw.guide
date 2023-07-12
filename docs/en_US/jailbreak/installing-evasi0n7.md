@@ -6,7 +6,7 @@ permalink: /installing-evasi0n7
 redirect_from:
   - /evasion7
   - /evasi0n7
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - hopolapopola

@@ -6,7 +6,7 @@ permalink: /using-jailbreakme-4-0
 redirect_from:
   - /installing-jailbreakme-4-0
   - /jailbreakme-4-0
-discordNoticeText: For support in English, ask for help on the r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---
 
