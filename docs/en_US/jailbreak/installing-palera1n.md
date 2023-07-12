@@ -46,7 +46,7 @@ Please select your operating system:
 ### Installing palera1n
 
 1. Open a terminal window
-1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh/)"`
+1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`
 
 ### Running palera1n
 
