@@ -19,6 +19,12 @@ Zebra only supports iOS 9 or newer.
 
 ## Adding the Zebra repo
 
+::: tip
+
+If you already have this repository added (e.g. you jailbroke with kok3shi9) you can skip this section.
+
+:::
+
 1. Open the Cydia application
 1. Tap `Sources` on the bar at the bottom
 1. Tap the `Edit` button in the top right-hand corner
@@ -48,11 +54,5 @@ Attempting to delete Cydia from your device after installing Zebra may cause iss
 ::: tip
 
 Continue to <router-link to="/using-zebra">Using Zebra</router-link>
-
-:::
-
-::: tip
-
-If Zebra claims to be in "Demo Mode", this is a bug which occurs on some older iOS versions, and you may need to downgrade Zebra to a working version. Open Cydia and find the Zebra package once again, then tap "Modify" and then "Downgrade", and choose version 1.1.28 when prompted.
 
 :::
