@@ -5,6 +5,7 @@ description: Guide to installing doubleH3lix via Sideloading
 permalink: /installing-doubleh3lix-(ipa)
 redirect_from:
   - /installing-doubleh3lix-ipa
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - TheHacker894

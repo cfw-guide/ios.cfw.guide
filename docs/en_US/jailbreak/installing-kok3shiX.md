@@ -6,6 +6,7 @@ permalink: /installing-kok3shiX
 redirect_from:
   - /kok3shiX
   - /kokeshiX
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - hopolapopola

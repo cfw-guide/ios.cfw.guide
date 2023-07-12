@@ -9,6 +9,7 @@ redirect_from:
   - /sockh3lix
   - /sh3
   - /she
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - hopolapopola

@@ -6,6 +6,7 @@ permalink: /installing-electra
 redirect_from:
   - /electra
   - /el
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: sileo
 extra_contributors:
   - TheHacker894
