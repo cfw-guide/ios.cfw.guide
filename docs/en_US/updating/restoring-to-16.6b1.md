@@ -27,7 +27,7 @@ Additionally, you'll end up having an outdated beta notice appear every time you
 
 ## Downloads
 
-The 16.6 beta 1 RC `.ipsw` file for your device:  
+The 16.6 beta 1 `.ipsw` file for your device:  
   - iPhones should download the file from [here](https://appledb.dev/firmware/iOS/20G5026e)
   - iPads should download the file from [here](https://appledb.dev/firmware/iPadOS/20G5026e)
 
