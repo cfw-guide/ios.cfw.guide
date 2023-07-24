@@ -15,11 +15,10 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.3** - May 14th, 2023
-- **15.7.3** - June 25th, 2023
-- **16.3.1** - June 25th, 2023
-- **16.4** - July 6th, 2023
-- **15.7.4** - July 9th, 2023
+- **16.4.1** - August 16th, 2023
+- **15.7.5** - August 16th, 2023
+- **16.5** - September 19th, 2023
+- **15.7.6** - September 19th, 2023
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -77,8 +76,8 @@ After your device reboots, you should see a notice in Settings that you are supe
 
 1. Open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [15.7.3](/assets/files/delay_15_7_3.mobileconfig)
-    - [16.3](/assets/files/delay_16_3.mobileconfig)
+    - [15.7.5](/assets/files/delay_15_7_5.mobileconfig)
+    - [16.4.1](/assets/files/delay_16_4_1.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application

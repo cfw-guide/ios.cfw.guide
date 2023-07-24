@@ -1,10 +1,8 @@
---
+---
 lang: en_US
 title: Restoring to 16.6 beta 1
-permalink: /restoring-to-16-6b1
 description: Guide on restoring to iOS/iPadOS 16.6 beta 1
-redirect_from:
-  - /restoring-to-16-6
+permalink: /restoring-to-16-6b1
 ---
 
 ## Required Reading
@@ -23,7 +21,7 @@ Make sure you disable `Find My` or you'll need to enter Recovery or DFU before r
 
 You should only consider doing this if you are on iOS/iPadOS 16.5.1 or later (including later 16.6 betas and iOS/iPadOS 17).
 
-Additionally, you'll end up having an outdated beta notice appear every time you unlock your device or open/close the Control Center or Notification Center. **This is not removable without jailbreaking.**
+Additionally, you'll end up having an outdated beta notice appear every time you unlock your device or open/close the Control Center or Notification Center. **This is not removable without a jailbreak.**
 
 :::
 
