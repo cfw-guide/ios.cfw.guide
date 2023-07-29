@@ -84,7 +84,7 @@ Devi avere un jailbreak per seguire queste istruzioni. Se non riesci a fare il j
 1. Scarica e installa l'aggiornamento
 1. Una volta aggiornato, rimuovi il profilo di aggiornamento e (se presente) il profilo beta tramite le Impostazioni
 
-Se hai problemi con l'aggiornamento, installa [OTAEnabler](https://repo.cadoth.net/) e riavvia. Se hai ancora problemi continua a leggere qui sotto.
+Se hai problemi con l'aggiornamento, installa [OTAEnabler](https://repo.alexia.lol/) e riavvia. Se hai ancora problemi continua a leggere qui sotto.
 
 ::: tip
 
