@@ -90,7 +90,7 @@ Questo metodo richiede l'acquisto di iMazing, se non si dispone di soldi per acq
 
 Dopo l'aggiornamento, è possibile rimuovere la supervisione e ripristinare il backup effettuato in precedenza cancellando tutti i contenuti e le impostazioni.
 
-Se hai problemi con l'aggiornamento, installa [OTAEnabler](https://repo.cadoth.net/) e riavvia. Se hai ancora problemi continua a leggere qui sotto.
+Se hai problemi con l'aggiornamento, installa [OTAEnabler](https://repo.alexia.lol/) e riavvia. Se hai ancora problemi continua a leggere qui sotto.
 
 ::: tip
 

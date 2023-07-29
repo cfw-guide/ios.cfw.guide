@@ -59,7 +59,7 @@ Il tweak Dallas reindirizza le ricerche di aggiornamento a un server diverso. I 
 1. Avvia il tuo attuale jailbreak
 1. Apri il tuo gestore di pacchetti preferito e aggiungi le seguenti repo:
     - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
-    - [https://repo.cadoth.net](https://repo.cadoth.net)
+    - [https://repo.alexia.lol](https://repo.alexia.lol)
 1. Cerca e installa il pacchetto `SupervisedEnabler`
 1. Clicca su `Riavvia il Dispositivo`
 1. Vai su [https://dhinakg.github.io/dallas](https://dhinakg.github.io/dallas) nel tuo dispositivo
@@ -140,7 +140,7 @@ Se hai bisogno di usare OTAEnabler per qualsiasi motivo, dovrai rimuoverlo e poi
 
 ### "Impossibile controllare gli aggiornamenti"
 
-Prova ad usare [OTAEnabler](https://repo.cadoth.net/), se non funziona, segui i passaggi qui sotto:
+Prova ad usare [OTAEnabler](https://repo.alexia.lol/), se non funziona, segui i passaggi qui sotto:
 
 1. Ripristina il rootFS attraverso il tuo jailbreak
 1. Installa e apri <router-link to="/it_IT/installing-unc0ver">l'applicazione</router-link> di unc0ver
