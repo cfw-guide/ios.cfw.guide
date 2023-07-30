@@ -51,6 +51,7 @@ for (const deviceGroup of deviceGroups.filter(x => x.hasJailbreaks)) {
                 description: firmwareSelectionStr.description.format({ device: deviceGroup.name }),
                 chartType: 'device',
                 name: deviceGroup.name,
+                key: deviceGroup.devices.length > 1 ? deviceGroup.name : deviceGroup.devices[0],
                 devType: deviceGroup.type,
                 devArr: deviceGroup.devices,
                 osArr: filteredOsArr,

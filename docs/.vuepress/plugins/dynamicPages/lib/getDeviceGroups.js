@@ -124,7 +124,6 @@ const deviceGroups = require('../../../json/deviceGroups')
         }
     }
     
-    console.log(imgObj)
     x.img = imgObj
     return x
 })

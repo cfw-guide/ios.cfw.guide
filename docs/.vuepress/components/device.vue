@@ -15,7 +15,7 @@
         </tr>
     </table>
 
-    <a :href="`https://appledb.dev/device/${fm.name.replace(/ /g,'-')}.html`" target="_blank">{{ themeLocaleData.table.showMore }}</a>
+    <a :href="`https://appledb.dev/device/${fm.key.replace(/ /g,'-')}.html`" target="_blank">{{ themeLocaleData.table.showMore }}</a>
     <h2>{{ themeLocaleData.firmwareSelection.findiOSVersion.title.format({ osStr: latestOs.osStr }) }}</h2>
     <div v-html="themeLocaleData.firmwareSelection.findiOSVersion.instructions.format({ verStr: findOsVersion.verStr }).md()"></div>
     <div class="custom-container tip"><p>
