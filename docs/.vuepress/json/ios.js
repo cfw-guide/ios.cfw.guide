@@ -31,6 +31,16 @@ var iosArr = [];
 
 for (const file in osFiles) iosArr.push(require('.' + path.sep + osFiles[file]));
 
+iosArr = iosArr
+.filter(x => !x.internal && !x.sdk)
+.map(function(x) {
+  if (!x.uniqueBuild) x.uniqueBuild = x.build
+  if (!x.beta) x.beta = false
+  if (x.rc) x.beta = true
+  if (!x.deviceMap) x.deviceMap = []
+  return x
+})
+
 iosArr.sort(function (a, b) {
   a = a.version.split(' ')[0].split('.')
   while(a.length < 3) a.push('0');
@@ -46,14 +56,6 @@ iosArr.sort(function (a, b) {
   }
   
   a.length == b.length ? 0: (a.length < b.length ? -1 : 1);
-})
-
-iosArr = iosArr.filter(x => !x.internal).map(function(x) {
-  if (!x.uniqueBuild) x.uniqueBuild = x.build
-  if (!x.beta) x.beta = false
-  if (x.rc) x.beta = true
-  if (!x.deviceMap) x.deviceMap = []
-  return x
 })
 
 module.exports = iosArr;
