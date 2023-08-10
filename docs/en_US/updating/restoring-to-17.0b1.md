@@ -9,7 +9,7 @@ permalink: /restoring-to-17-0b1
 
 In many circumstances, updating to a newer version of iOS/iPadOS can make it harder to potentially jailbreak in the future.
 
-Luckily, iOS/iPadOS 17.0's *first beta* is still signed, meaning you can restore to it from any other iOS version with the help of iTunes or Finder.
+Luckily, iOS/iPadOS 17.0's *first beta* is still signed, meaning you can restore to it from any other iOS version with the help of Finder.
 
 ::: warning
 
@@ -25,6 +25,12 @@ Additionally, you'll end up having an outdated beta notice appear every time you
 
 :::
 
+::: danger
+
+You need a macOS device in order to follow this.
+
+:::
+
 ## Downloads
 
 The 17.0 beta 1 `.ipsw` file for your device:  
@@ -34,7 +40,7 @@ The 17.0 beta 1 `.ipsw` file for your device:
 ## Restoring to 17.0 beta 1
 
 1. Plug your device into your computer.
-1. On iTunes or Finder, locate your device.
-1. While holding down the Shift (Windows) or Option (Mac) key, click `Restore [Device Type]`.
+1. In Finder, locate your device.
+1. While holding down the Option (Mac) key, click `Restore [Device Type]`.
 1. Locate the `.ipsw` file you downloaded, and select that `.ipsw` file. 
     - Ensure that the version you are updating to is iOS 17.0 beta 1 (21A5248v)
