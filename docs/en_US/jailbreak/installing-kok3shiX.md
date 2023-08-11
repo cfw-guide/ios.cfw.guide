@@ -24,7 +24,7 @@ We will use Sideloadly to install the application to your device.
 
 kok3shiX is an Alpha, as a result you may potentially have more issues than you otherwise would. Backup your data before continuing.
 
-Alternatively, you can follow <router-link to="/installing-socket">Installing Socket</router-link>instead.
+Alternatively, you can follow <router-link to="/installing-socket">Installing Socket</router-link> instead.
 
 :::
 
