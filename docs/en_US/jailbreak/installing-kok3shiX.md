@@ -24,7 +24,7 @@ We will use Sideloadly to install the application to your device.
 
 kok3shiX is an Alpha, as a result you may potentially have more issues than you otherwise would. Backup your data before continuing.
 
-Alternatively, you can follow <router-link to="/installing-socket">Installing Socket</router-link> <router-link to="/installing-h3lix">Installing h3lix</router-link> instead, though it does require more effort to jailbreak.
+Alternatively, you can follow <router-link to="/installing-socket">Installing Socket</router-link> instead.
 
 :::
 
@@ -34,7 +34,7 @@ Alternatively, you can follow <router-link to="/installing-socket">Installing So
 kok3shiX is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The latest version of [kok3shiX](https://dora2ios.web.app/kokeshiX.html)
+- The latest version of [kok3shiX](https://kok3shidoll.github.io/download/kokeshi/kokeshiX_v1.0_alpha_2.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 
 ## Installing the application
