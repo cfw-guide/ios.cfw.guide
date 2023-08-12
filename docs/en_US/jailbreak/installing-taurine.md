@@ -13,7 +13,17 @@ extra_contributors:
 
 Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 14.0 to 14.3.
+The tool is compatible with jailbreaking all devices on iOS/iPadOS versions 14.0 to 14.3, as well as A11 and earlier devices on iOS/iPadOS versions 14.4 to 14.4.2
+
+::: danger
+
+14.4 to 14.4.2 support is only available via the use of an *unofficial fork* of Taurine.
+
+If you aren't comfortable with using an unofficial fork, you can follow <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link> instead.
+
+Additionally, 14.4 to 14.4.2 support via this unofficial fork is limited to **A11 and earlier devices**
+
+:::
 
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days. However, you also have the option of installing a permanently signed Taurine app after jailbreaking.
 
@@ -38,6 +48,7 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Taurine](https://taurine.app/)
+    - If you're using an A11 or earlier device on 14.4 to 14.4.2, get the latest version of the wh1te4ever fork of [Taurine](https://github.com/wh1te4ever/Taurine/releases/tag/v1.1.6-b)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -102,6 +113,14 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 After installing the necessary software, you can also install taurine-permanent to have a permanently signed Taurine application, which we recommend doing in order to be able to save effort in the long-term.
 
 ## Installing taurine-permanent
+
+::: warning
+
+If you're using an A11 or earlier device on 14.4 to 14.4.2, you won't be able to install taurine-permanent.
+
+You can alternatively install TrollStore (via the TrollStore Helper package on the havoc.app repository) and install the unofficial fork of Taurine through that, in order to permasign it.
+
+:::
 
 1. Reopen the Sileo application
 1. Tap on the "Search" tab
