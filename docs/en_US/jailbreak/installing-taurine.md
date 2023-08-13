@@ -48,7 +48,7 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Taurine](https://taurine.app/)
-    - If you're using an A11 or earlier device on 14.4 to 14.4.2, get the latest version of the wh1te4ever fork of [Taurine](https://github.com/wh1te4ever/Taurine/releases/tag/v1.1.6-b)
+    - If you're using an A11 or earlier device on 14.4 to 14.4.2, get the latest version of the wh1te4ever fork of [Taurine](https://github.com/wh1te4ever/Taurine/releases/tag/v1.1.6-c) instead.
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
