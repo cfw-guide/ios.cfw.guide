@@ -13,11 +13,13 @@ extra_contributors:
 
 Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-The tool is compatible with jailbreaking all devices on iOS/iPadOS versions 14.0 to 14.3, as well as A11 and earlier devices on iOS/iPadOS versions 14.4 to 14.8.1
+The tool is compatible with jailbreaking all devices on iOS/iPadOS versions 14.0 to 14.3, as well as A10(X) and earlier devices on iOS/iPadOS versions 14.4 to 14.8.1 and A11 devices on 14.5 to 14.8.1.
 
 ::: danger
 
-14.4 to 14.8.1 support is limited to **A11 and earlier devices**
+14.5 to 14.8.1 support is limited to **A11 and earlier devices**, and 14.4 to 14.4.2 support is limited to **A10(X) and earlier devices**
+
+Additionally, the applicable support is only available in a **beta version of Taurine**
 
 :::
 
@@ -44,7 +46,7 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Taurine](https://taurine.app/)
-    - If you're using an A11 or earlier device on 14.4 to 14.4.2, get the 1.1.7b1 version of [Taurine](https://cdn.discordapp.com/attachments/668928257428815892/1143386350612123678/Taurine_1.1.7b1.ipa) instead.
+    - If you're using an A10(X) or earlier device on 14.4 to 14.4.2, or an A11 or earlier device on 14.5 to 14.8.1, get the 1.1.7b1 version of [Taurine](https://cdn.discordapp.com/attachments/668928257428815892/1143386350612123678/Taurine_1.1.7b1.ipa) instead.
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -112,7 +114,7 @@ After installing the necessary software, you can also install taurine-permanent 
 
 ::: warning
 
-If you're using an A11 or earlier device on 14.4 to 14.8.1, you won't be able to install taurine-permanent.
+If you're needing to use the 1.1.7b1 version of Taurine to jailbreak, you won't be able to install taurine-permanent.
 
 You can alternatively install TrollStore (via the TrollStore Helper package on the havoc.app repository) and install the unofficial fork of Taurine through that, in order to permasign it.
 
