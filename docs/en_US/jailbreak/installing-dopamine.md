@@ -36,7 +36,7 @@ The latest version of [Dopamine](https://ellekit.space/dopamine)
 1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 
-An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
+An app named `GTA Car Tracker` will now install to your iOS device. Despite the name, this app is actually TrollHelper.
 
 ## Installing TrollStore
 
