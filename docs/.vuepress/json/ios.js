@@ -38,6 +38,8 @@ iosArr = iosArr
   if (!x.beta) x.beta = false
   if (x.rc) x.beta = true
   if (!x.deviceMap) x.deviceMap = []
+  x.sources = []
+  
   return x
 })
 
