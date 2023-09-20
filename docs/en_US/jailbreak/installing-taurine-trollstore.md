@@ -17,7 +17,7 @@ In order to follow this method, you'll need an A12 or newer device. If you have 
 
 :::
 
-While Taurine is compatible with jailbreaking almost all devices on iOS/iPadOS versions from 14.0 to 14.8.1, this method of obtaining Taurine requires an A12 or newer device.
+While Taurine is compatible with jailbreaking every device on iOS/iPadOS versions from 14.0 to 14.8.1, this method of obtaining Taurine requires an A12 or newer device.
 
 ::: warning
 
