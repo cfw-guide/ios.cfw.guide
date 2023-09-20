@@ -13,13 +13,7 @@ extra_contributors:
 
 Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-The tool is compatible with jailbreaking all devices on iOS/iPadOS versions 14.0 to 14.3 and 14.5 to 14.8.1, as well as all devices besides A11 devices on 14.4 to 14.4.2.
-
-::: danger
-
-A11 devices do not currently support versions 14.4 to 14.4.2.
-
-:::
+The tool is compatible with jailbreaking all devices on iOS/iPadOS versions 14.0 to 14.8.1.
 
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days. However, you also have the option of installing a permanently signed Taurine app after jailbreaking.
 
