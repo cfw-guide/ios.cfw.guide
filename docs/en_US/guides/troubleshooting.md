@@ -12,12 +12,6 @@ extra_contributors:
   - Superuser
 ---
 
-::: tip
-
-If you're looking for troubleshooting palera1n issues, you should take a look at [palera1n Common Issues](https://docs.palera.in/commonissues) on their official docs.
-
-:::
-
 ## Bootloops and respring loops
 
 ### Respring Loops
@@ -138,13 +132,13 @@ Jailbreaks are hardly ever 100% successful, you may need to re-attempt running t
 
 ### "Installation Error" upon opening Sileo after initially jailbreaking on Odyssey 1.4.2
 
-Remove the currently installed version of Odyssey, sideload the 1.4.1 version of [Odyssey](https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.1/Odyssey-1.4.1.ipa), and then restore rootfs and then rejailbreak.
+Remove the currently installed version of Odyssey, sideload the [latest version of Odyssey](https://theodyssey.dev), and then restore rootfs and then rejailbreak.
 
 ### Unable to open NewTerm or Cr4shed (among other things) after a period of time on Taurine
 
 ::: tip
 
-If you're on 14.3 *or* have an A12 or newer device, you likely either rebooted (which would mean you're no longer in a jailbroken state) or you may have something else causing issues entirely unrelated to the jailbreak.
+If you're on 14.3 and later *or* have an A12 or newer device, you likely either rebooted (which would mean you're no longer in a jailbroken state) or you may have something else causing issues entirely unrelated to the jailbreak.
 
 :::
 
