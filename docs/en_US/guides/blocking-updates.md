@@ -8,7 +8,7 @@ extra_contributors:
   - Jack LaFond
 ---
 
-This will take you through installing the iOS 15 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
+This will take you through installing the iOS 16 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
 
 ## Installing the tvOS profile
 

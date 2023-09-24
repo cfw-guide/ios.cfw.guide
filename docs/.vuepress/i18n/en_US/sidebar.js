@@ -36,9 +36,9 @@ const jailbreaking = {
   text: 'Jailbreaking',
   children: [
     '/installing-palera1n',
-    '/installing-odysseyra1n/',
-    '/installing-unc0ver-trollstore/',
-    '/installing-unc0ver-fugu14/',
+    '/installing-dopamine/',
+    '/installing-taurine-trollstore/',
+    '/installing-taurine/',
   ],
 }
 

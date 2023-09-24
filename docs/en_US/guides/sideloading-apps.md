@@ -18,7 +18,7 @@ redirect_from:
   - /sideloadly
   - /resigning-apps
 extra_contributors:
-  - flower
+  - ssalagginkool
   - TheHacker894
 ---
 

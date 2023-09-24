@@ -19,7 +19,7 @@ redirect_from:
   - /checkn1x
 extra_contributors:
   - stekc
-  - flowerible
+  - ssalagginkool
   - bbaovanc
   - Tanbeer191
   - TheHacker894

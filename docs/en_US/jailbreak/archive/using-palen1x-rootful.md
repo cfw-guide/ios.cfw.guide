@@ -7,7 +7,7 @@ pkgman: sileo
 extra_contributors:
   - Mineek
   - nebula
-  - flowerible
+  - ssalagginkool
 redirect_from:
   - /installing-palera1n-rootful
 ---
