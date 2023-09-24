@@ -14,9 +14,9 @@ unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">s
 
 The Fugu14 method of unc0ver supports A12 or newer devices on iOS 14.3 to 14.5.1
 
-::: danger
+::: warning
 
-The Fugu14 method of unc0ver does not support beta versions of iOS. If you're on any of the iOS 14.3 betas, follow <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link>. If you are on 14.4 betas or 14.5 betas, you cannot jailbreak at this time and therefore cannot proceed further.
+The Fugu14 method of unc0ver does not support beta versions of iOS. If you're on a beta version of iOS 14.3, 14.4, or 14.5, follow <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link> instead.
 
 :::
 
