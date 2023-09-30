@@ -115,7 +115,7 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **iPod Touch (7th Generation)**: iOS 15.7.9 (via palera1n)
 - **A9/A10 iPhones**: iOS 15.7.9 (via palera1n)
 - **A9(X) iPads**: iPadOS 16.5 (via palera1n)
-- **A10(X) iPads**: iPadOS 17.0 (via palera1n, requires nightly build for now)
+- **A10(X) iPads**: iPadOS 16.7 (via palera1n)
 - **A11 iPhones**: iOS 16.7 (via palera1n)
 - **A12-A15 iPhones**: iOS 15.4.1 (via Dopamine (Also known as Fugu15 Max))
 - **A12-A15/M1 iPads**: iPadOS 15.4.1 (via Dopamine (Also known as Fugu15 Max))
