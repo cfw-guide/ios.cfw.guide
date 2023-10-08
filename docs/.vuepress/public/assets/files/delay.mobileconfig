@@ -184,7 +184,7 @@
 			<key>allowiTunes</key>
 			<true/>
 			<key>enforcedSoftwareUpdateDelay</key>
-			<integer>75</integer>
+			<integer>90</integer>
 			<key>forceAirDropUnmanaged</key>
 			<false/>
 			<key>forceAirPrintTrustedTLSRequirement</key>
@@ -238,9 +238,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Delay updates for 75 days</string>
+	<string>Delay updates for 90 days</string>
 	<key>PayloadDisplayName</key>
-	<string>OTA Delay - 75 Days</string>
+	<string>OTA Delay - 90 Days</string>
 	<key>PayloadIdentifier</key>
 	<string>DhinakGOTADelay</string>
 	<key>PayloadOrganization</key>

@@ -15,10 +15,15 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.4.1** - August 16th, 2023
-- **15.7.5** - August 16th, 2023
-- **16.5** - September 19th, 2023
-- **15.7.6** - September 19th, 2023
+- **15.7.7** - October 22nd, 2023
+- **16.5.1** - October 22nd, 2023
+- **16.6** - December 6th, 2023
+- **15.7.8** - December 10th, 2023
+- **16.6.1 (For devices on 14.4.2 or earlier that got 17)** - December 17th, 2023
+- **16.6.1 (All other devices)** - December 20th, 2023
+- **17.0** - December 20th, 2023
+- **17.0.1** - December 25th, 2023
+- **17.0.2** - January 2nd, 2024
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
