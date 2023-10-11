@@ -17,7 +17,7 @@ extra_contributors:
   - nebula
 ---
 
-palera1n is a work-in-progress jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 to 16.7, with some caveats for A11 devices.
+palera1n is a work-in-progress jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 to 16.7.1, with some caveats for A11 devices.
 
 On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
