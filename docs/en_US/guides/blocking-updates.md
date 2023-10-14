@@ -12,7 +12,7 @@ This will take you through installing the iOS 16 "tvOS profile" to block updates
 
 ## Installing the tvOS profile
 
-1. Open [https://alexia.lol/noota16.mobileconfig](https://alexia.lol/noota16.mobileconfig) in your device's browser
+1. Open [https://static.itsnebula.net/apple/noota/16.mobileconfig](https://static.itsnebula.net/apple/noota/16.mobileconfig) in your device's browser
 1. Select "Allow" if prompted
 1. Open the Settings application
 1. Navigate to `General` -> `Profile`
