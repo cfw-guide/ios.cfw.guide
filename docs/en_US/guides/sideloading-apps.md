@@ -110,7 +110,7 @@ ReProvision Reborn is compatible with iOS 9 and newer
 
 ::: tip
 
-AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
+AltDaemon, which utilizes AltStore, is only compatible with iOS 13 and newer. AltDaemon may also work on rootless iOS 15 and 16.
 
 :::
 
