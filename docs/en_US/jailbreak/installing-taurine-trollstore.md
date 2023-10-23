@@ -25,9 +25,16 @@ If you are already jailbroken with unc0ver, make sure to properly <router-link t
 
 :::
 
+::: warning
+
+*Reliable* M1 iPad Pro support requires an *unofficial* build of Taurine. If you are not comfortable with using an unofficial build, you can attempt to use the official release, but it will be extraordinarily unlikely that it ever succeeds.
+
+:::
+
 ## Downloads
 
 - The latest version of [Taurine](https://taurine.app/)
+    - If you have an M1 iPad Pro, you can opt to get the latest [unofficial Taurine](https://github.com/TheMasterOfMike/Taurine/releases/tag/1.1.7-3_M1) instead (if you do not have an M1 iPad Pro, **do not use this unofficial build**)
     - Make sure to download the Taurine `.ipa` file **onto your iOS device**
 
 ## Installing TrollHelper
