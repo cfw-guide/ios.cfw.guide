@@ -102,10 +102,13 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 
 1. Open the Sileo application
 1. Tap on the "Search" tab
-1. Search for "libhooker"
+1. Search for "libiosexec1"
 1. Tap "Install"
-    - This will begin a queue - do not install the queue until we've selected all our programs to install
-1. Search for "PreferenceLoader" and "RocketBootstrap" and add them to the queue by pressing "Install"
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap "Done"
+1. Search for "libhooker (common)", "PreferenceLoader", and "RocketBootstrap" and add them to the queue by pressing "Install"
+    - While we're preparing the queue, do not install the anything that is queued until after we've selected all our programs to install
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'
