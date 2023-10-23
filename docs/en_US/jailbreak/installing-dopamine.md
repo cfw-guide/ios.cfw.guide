@@ -45,11 +45,7 @@ An app named `GTA Car Tracker` will now install to your iOS device. Despite the 
 
 The TrollStore application will now install to your iOS device.
 
-## Preparing TrollStore
-
-In order to be able to sideload Dopamine, a couple more steps need to be done.
-
-### Installing Persistence Helper
+## Installing Persistence Helper
 
 1. Reopen the `GTA Car Tracker` app
 1. Press `Register Persistence Helper`

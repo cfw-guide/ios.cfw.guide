@@ -58,11 +58,7 @@ An app named `GTA Car Tracker` will now install to your iOS device, this app is 
 
 The TrollStore application will now install to your iOS device.
 
-## Preparing TrollStore
-
-In order to be able to sideload unc0ver (and u0Launcher, if needed), a couple more steps need to be done.
-
-### Installing Persistence Helper
+## Installing Persistence Helper
 
 1. Reopen the `GTA Car Tracker` app
 1. Press `Register Persistence Helper`
