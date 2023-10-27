@@ -18,6 +18,14 @@ extra_contributors:
 
 ::: danger
 
+While palera1n itself does work with iPadOS 17, palen1x does not support iPadOS 17, due to issues with minimal Linux distributions that were introduced in palera1n 2.0.0b8.
+
+If you need iPadOS 17 support, you'll need to follow <router-link to="/installing-palera1n">Installing palera1n</router-link> and either utilize a computer that already has macOS/Linux installed, or create a live Linux USB (or other bootable medium) using a normal Linux distribution.
+
+:::
+
+::: danger
+
 If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide, and will need to obtain a bootable medium and follow the below steps using that bootable medium.
 
 :::
@@ -28,7 +36,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
-palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking iOS devices with A8(X) to A11 SoC's on iOS 15.0 or later.
+palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking iOS devices with A8(X) to A11 SoC's on iOS 15.0 or 16.7.2.
 
 On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
