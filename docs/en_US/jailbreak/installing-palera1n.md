@@ -31,9 +31,7 @@ If you are using an old version of palera1n that was tethered, you'll need to <r
 
 ::: warning
 
-If you are using Windows, **and are not trying to jailbreak an iPadOS 17 device**, you should follow <router-link to="/using-palen1x">Using palen1x</router-link> instead.
-
-If you are trying to jailbreak an iPadOS 17 device using Windows, you'll need to instead manually create a live Linux USB (or any other bootable medium) of a traditional Linux distribution.
+If you are using Windows, you should follow <router-link to="/using-palen1x">Using palen1x</router-link> instead.
 
 :::
 
@@ -91,8 +89,8 @@ Depending on the Linux distribution you are using, you may run into issues with 
 
 If you do run into issues, you have three options:
 - Obtain a Mac and follow the macOS tab instead.
+- <router-link to="/using-palen1x">Use palen1x</router-link> instead, which does not have this issue.
 - **If you are trying to jailbreak a 15.0 to 16.7.2 device**, you can manually install [palera1n 2.0.0b7](https://github.com/palera1n/palera1n/releases/tag/v2.0.0-beta.7) instead.
-- Attempt to use a different Linux distribution (this includes using a live Linux USB (or other bootable medium) of a different distribution)
 
 :::
 
