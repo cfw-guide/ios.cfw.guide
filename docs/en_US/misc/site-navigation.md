@@ -34,7 +34,7 @@ sidebar: false
 -   <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link>
 -   <router-link to="/installing-h3lix">Installing h3lix</router-link>
 -   <router-link to="/installing-doubleh3lix-(ipa)">Installing doubleh3lix</router-link>
--   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
+-   <router-link to="/installing-meridian-(ipa)">Installing Meridian</router-link>
 -   <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
 -   <router-link to="/installing-kok3shi9">Installing kok3shi9</router-link>
 -   <router-link to="/installing-phoenix">Installing Phœnix</router-link>
