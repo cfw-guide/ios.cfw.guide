@@ -43,6 +43,8 @@ This is only needed on iOS 8.0 to 8.4, it is not needed for iOS 8.4.1 or for iOS
 
 :::
 
+::: tip
+
 ### macOS and Linux
 
 1. Open your Terminal application
