@@ -15,8 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **15.7.7** - October 22nd, 2023
-- **16.5.1** - October 22nd, 2023
 - **16.6** - December 6th, 2023
 - **15.7.8** - December 10th, 2023
 - **16.6.1 (For devices on 14.4.2 or earlier that got 17)** - December 17th, 2023
