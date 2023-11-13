@@ -17,7 +17,7 @@ extra_contributors:
   - TheHacker894
 ---
 
-kok3shi9 is capable of jailbreaking A7 to A9(X) devices on 9.3 to 9.3.5, as well as 32-bit devices on 9.3.2 to 9.3.6
+kok3shi9 is capable of jailbreaking all devices devices on 9.3.2 to 9.3.6, as well as 64-bit devices on 9.3 to 9.3.1
 
 ## Downloads
 
