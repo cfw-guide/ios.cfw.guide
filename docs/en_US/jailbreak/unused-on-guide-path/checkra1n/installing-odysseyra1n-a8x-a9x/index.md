@@ -13,11 +13,11 @@ extra_contributors:
   - zachary7829
 ---
 
-!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/semi-tethered.md)!!!
+!!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
 
 checkra1n is a tool capable of jailbreaking millions of iOS devices with the A7 to A11 SoC on firmwares 12.0 to 14.8.1. It's currently only compatible with macOS and Linux. A Windows release is planned to release in the future.
 
-!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/odysseyra1n-explanation.md)!!!
+!!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 On A8X and A9X devices, it is not possible to use checkra1n 0.12.4 (required for 14.5 to 14.8.1 support) without the use of a custom pongoOS and checkra1n in CLI mode.
 
