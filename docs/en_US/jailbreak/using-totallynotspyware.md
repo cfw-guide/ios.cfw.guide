@@ -30,7 +30,7 @@ Note that the TotallyNotSpyware jailbreak is not “persistent” (meaning it do
 
 ::: warning
 
-Should you run into issues with this method for any reason, you can attempt to use <router-link to="/installing-doubleh3lix-(ipa)">doubleh3lix</router-link> if you are on an A7-A9(X) device or <router-link to="/installing-meridian-(ipa)">Meridian</router-link> if you are on an A10(X) device.
+Should you run into issues with this method for any reason, you can attempt to use <router-link to="/installing-doubleh3lix-ipa">doubleh3lix</router-link> if you are on an A7-A9(X) device or <router-link to="/installing-meridian-ipa">Meridian</router-link> if you are on an A10(X) device.
 
 :::
 

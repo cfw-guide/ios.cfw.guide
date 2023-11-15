@@ -2,13 +2,14 @@
 lang: en_US
 title: Installing Meridian
 description: Guide to installing Meridian via Sideloading
-permalink: /installing-meridian-(ipa)
+permalink: /installing-meridian-ipa
 redirect_from:
-  - /installing-meridian-ipa
+  - /installing-meridian-(ipa)
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
   - TheHacker894
+  - TophattedWasTaken
 ---
 
 ::: warning
