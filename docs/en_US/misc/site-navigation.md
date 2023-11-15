@@ -13,32 +13,20 @@ sidebar: false
 -   <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link>
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
 
-## Jailbreaks
+## Recommended Jailbreaks/Methods
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
 -   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link>
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
--   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
--   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
--   <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
--   <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link>
 -   <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
--   <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
 -   <router-link to="/installing-odyssey">Installing Odyssey</router-link>
 -   <router-link to="/installing-chimera">Installing Chimera</router-link>
 -   <router-link to="/installing-electra">Installing Electra</router-link>
 -   <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
 -   <router-link to="/installing-socket">Installing Socket</router-link>
--   <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link>
--   <router-link to="/installing-h3lix">Installing h3lix</router-link>
--   <router-link to="/installing-doubleh3lix-(ipa)">Installing doubleh3lix</router-link>
--   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
--   <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
 -   <router-link to="/installing-kok3shi9">Installing kok3shi9</router-link>
--   <router-link to="/installing-phoenix">Installing Phœnix</router-link>
--   <router-link to="/installing-p0laris">Installing p0laris</router-link>
 -   <router-link to="/installing-openpwnage">Installing openpwnage</router-link>
 -   <router-link to="/installing-pangu933">Installing Pangu9</router-link>
 -   <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link>
@@ -56,6 +44,21 @@ sidebar: false
 -   <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
 -   <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 -   <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
+
+## Other Jailbreaks/Methods
+
+-   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
+-   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
+-   <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
+-   <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link>
+-   <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
+-   <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link>
+-   <router-link to="/installing-h3lix">Installing h3lix</router-link>
+-   <router-link to="/installing-doubleh3lix-ipa">Installing doubleh3lix</router-link>
+-   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
+-   <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
+-   <router-link to="/installing-phoenix">Installing Phœnix</router-link>
+-   <router-link to="/installing-p0laris">Installing p0laris</router-link>
 
 ## Miscellaneous
 
