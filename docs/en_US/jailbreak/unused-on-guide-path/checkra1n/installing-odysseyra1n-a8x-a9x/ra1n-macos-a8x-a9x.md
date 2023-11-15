@@ -73,4 +73,4 @@ If you would prefer to do so, instead of running the script on your computer, yo
 1. Install "iproxy" by pasting and executing the following command: `brew install libusbmuxd`
 1. Install the Odysseyra1n script by pasting and executing the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"`
 
-!!!include(./docs/en_US/jailbreak/checkra1n/include/end-of-page.md)!!!
+!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/end-of-page.md)!!!

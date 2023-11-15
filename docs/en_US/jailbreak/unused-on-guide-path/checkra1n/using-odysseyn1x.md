@@ -45,11 +45,11 @@ A7 devices will likely fail to successfully jailbreak with Odysseyn1x, as a resu
 
 :::
 
-!!!include(./docs/en_US/jailbreak/checkra1n/include/semi-tethered.md)!!!
+!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/semi-tethered.md)!!!
 
 Odysseyn1x is a live bootable Linux environment that allows you to quickly run checkra1n on a compatible device. checkra1n is capable of jailbreaking millions of iOS devices with A7 to A11 SoC's on firmwares 12.0 to 14.8.1.
 
-!!!include(./docs/en_US/jailbreak/checkra1n/include/odysseyra1n-explanation.md)!!!
+!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/odysseyra1n-explanation.md)!!!
 
 On iOS 14, A11 devices do not allow you to use SEP functionality in a jailbroken state. SEP functionality are things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
@@ -131,5 +131,5 @@ The following steps only need to be performed once and are optional but highly r
 1. Sileo should install to your device
 1. Do not close Odysseyn1x as you will need to re-jailbreak in a few minutes
 
-!!!include(./docs/en_US/jailbreak/checkra1n/include/no-loader.md)!!!
-!!!include(./docs/en_US/jailbreak/checkra1n/include/end-of-page.md)!!!
+!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/no-loader.md)!!!
+!!!include(./docs/en_US/jailbreak/unused-on-guide-path/checkra1n/include/end-of-page.md)!!!
