@@ -24,7 +24,7 @@ wtfis is currently **in beta**, if you are not comfortable with using beta softw
 
 ## Downloads
 
-- The latest version of [wtfis](https://github.com/TheRealClarity/wtfis/releases/tag/1.0-b1)
+- The latest version of [wtfis](https://github.com/TheRealClarity/wtfis/releases/latest)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
