@@ -101,7 +101,7 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 
 ::: danger
 
-These steps are only applicable for devices on 9.1 to 9.3.4 - A5(X) devices on 8.0 to 8.4.1 should skip this step and wait for the guide to be fully updated.
+These steps are only applicable for devices on 9.1 to 9.3.4 - A5(X) devices on 8.0 to 8.4.1 should skip this step.
 
 :::
 
