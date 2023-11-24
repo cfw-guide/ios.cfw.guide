@@ -25,7 +25,7 @@ This has a time limit, however. You will only be able to update to the following
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
-Because you do not currently have a jailbreak (or you choose not to jailbreak for any reason), you'll have to use advanced methods, involving things such as resetting all contents and settings, to be able to update.
+Because you do not currently have a jailbreak (or you choose not to jailbreak for any reason), you'll have to use advanced methods, involving things such as resetting all contents and settings or restoring a modified backup, to be able to update.
 
 ::: tip
 
@@ -57,22 +57,14 @@ After making a backup, what you need to do after is dependent on if you use macO
     - If you forgot to backup your data earlier in the guide, this is the last step where you'll be able to do this.
 1. Click `Prepare`, which will erase your device and supervise it
 
-## Windows - iMazing
+## Windows - Cowabunga Lite
 
-::: danger
+1. Download and install the Windows version of Cowabunga Lite from [here](https://github.com/Avangelista/CowabungaLiteWindows/releases)
+1. Extract **the entire Cowabunga Lite folder** to somewhere (doesn't matter), and then open Cowabunga Lite
+1. Click `Setup Options` and toggle the checkmark on for `Enable Supervision`
+1. Click `Apply`, then click `Apply Changes`
 
-This method requires that you purchase iMazing, if you don't have money to purchase iMazing, you cannot follow this method
-
-:::
-
-1. Download and install iMazing from [here](https://imazing.com/download/windows)
-1. After setting up iMazing, click the `Supervision` option
-1. Click Next, click the button below `Organization`, then click Choose
-1. Click the `+` button at the bottom left corner of the new window
-1. Add a name, then click `Save`
-1. Click Choose, then click Next
-    - If you forgot to backup your data earlier in the guide, this is the last step where you'll be able to do this.
-1. Type the number it lists into the text box, then click `Next`, iMazing will erase your device and supervise it
+Your device will now reboot and be supervised.
 
 ## Updating your firmware version
 
