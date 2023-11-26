@@ -70,6 +70,9 @@ The XinaA15 app will now be installed onto your device.
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the XinaA15 application from your home screen immediately afterwards
+1. Tap the Settings icon in the top left-hand corner
+1. Disable the "Auto install of Saily for the first time" option
+1. Tap the back button in the top left-hand corner
 1. Tap "Jailbreak", then "OpenJailbreak", your device will then reboot after a period of time
 1. Open the XinaA15 application from your home screen immediately after rebooting
 
