@@ -3,6 +3,7 @@ lang: en_US
 title: Installing XinaA15
 description: Guide to installing XinaA15
 permalink: /installing-xinaa15
+pkgman: sileo
 extra_contributors:
   - opa334
   - iCraze
