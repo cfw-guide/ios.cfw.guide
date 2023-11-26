@@ -15,12 +15,6 @@ Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">
 
 ::: warning
 
-As this jailbreak is fundamentally different from how most other jailbreaks have been in the past, you will run into issues with tweak compatibility - these will improve over time, however.
-
-:::
-
-::: warning
-
 Dopamine only supports A12 and newer devices on iOS 15.0 to 15.4.1
 
 :::

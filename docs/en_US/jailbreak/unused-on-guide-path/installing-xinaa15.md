@@ -12,8 +12,6 @@ redirect_from:
 
 XinaA15 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-:::
-
 ::: warning
 
 XinaA15 only supports A12 and newer devices on iOS 15.0 to 15.4.1
@@ -66,6 +64,12 @@ To workaround this, the Persistence Helper (which will still open even after thi
 The XinaA15 app will now be installed onto your device.
 
 ## Running XinaA15
+
+::: warning
+
+You need to be connected to the internet in order to jailbreak with XinaA15
+
+:::
 
 1. Reboot your phone
     - This is not necessary but recommended

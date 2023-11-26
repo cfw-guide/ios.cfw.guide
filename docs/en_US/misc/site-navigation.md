@@ -47,6 +47,7 @@ sidebar: false
 
 ## Other Jailbreaks/Methods
 
+-   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 -   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
 -   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
 -   <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
