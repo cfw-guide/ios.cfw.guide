@@ -26,7 +26,9 @@ Installing TrollStore is a process which varies depending on what device and iOS
 
 If you have an A12 or newer device on iOS 14.0 to 14.8.1 or 15.5, as well as any device on iOS 15.0 to 15.5b4 or 15.6b1 to 15.6b5, follow <router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelper OTA)</router-link>
 
-If you have any device on iOS 15.0 to 15.7.1 or iOS 16.0 to 16.1.2, follow <router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link>
+If you have any device on iOS 15.0 to 15.7.1 or iOS 16.0 to 16.1.2, follow <router-link to="/installing-trollhelper-misaka-mdc">Installing TrollStore (Misaka-mdc)</router-link>
+
+If you have any device on iOS 16.2 to 16.5 or 16.6b1, follow <router-link to="/installing-trollhelper-misaka-kfd">Installing TrollStore (Misaka-kfd)</router-link>
 
 If you are jailbroken on iOS 14.0 to 14.8.1, follow <router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link>
 
