@@ -10,7 +10,6 @@ extra_contributors:
 
 ## Requirements
 
-You will need:
 - A device running iOS/iPadOS 16.2 to 16.5, or 16.6b1
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
@@ -54,8 +53,6 @@ This method may take several tries in order to work successfully.
 :::
 
 1. Open Misaka
-1. Go to the Settings button on the top left, scroll down to "EXPLOIT" and change the method to "MDC"
-1. Reopen Misaka
 1. Go to the "Packages [Emu/Var]" tab
 1. Tap on the bottom left button (known as "ToolBox") and tap `Install TrollStore`, then tap `Tips`
 

@@ -10,12 +10,13 @@ extra_contributors:
 
 ## Requirements
 
-You will need:
 - A device running iOS/iPadOS 15.0 to 15.7.1 or 16.0 to 16.1.2
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [Misaka](https://github.com/straight-tamago/misaka/releases/latest)
+
+Additionally, you'll need to download the [TrollStore Misaka](https://cdn.discordapp.com/attachments/1157666534630625380/1178798853185622026/TrollStore_2.misaka) file onto your device.
 
 ## Installing the application
 
@@ -48,7 +49,7 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
 ## Injecting TrollStore Helper
 
 1. Open Misaka
-  - If asked on if you want to use KFD Mode, tap "No"
+    - If asked on if you want to use KFD Mode, tap "No"
 1. Go to the Settings button on the top left, scroll down to "EXPLOIT" and change the method to "MDC"
 1. Reopen Misaka
 1. Go to the "Packages [Emu/Var]" tab
