@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Installing TrollStore (TrollHelperOTA)
-description: Guide to installing TrollStore using TrollHelper
+description: Guide to installing TrollStore via installd bugs
 permalink: /installing-trollhelperota
 redirect_from:
   - /trollhelperota
@@ -33,7 +33,7 @@ A12 and later devices are supported on iOS 14.0 to 15.6.1
     - If you're using an A11 or earlier device, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
 1. Tap `Install`
 
-An app named `GTA Car Tracker` will now install to your iOS device, though this is really just the TrollInstaller 2 app.
+An app named `GTA Car Tracker` will now install to your iOS device, though this is really just the TrollHelperOTA app.
 
 ## Installing TrollStore
 
