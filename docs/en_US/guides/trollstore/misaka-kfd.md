@@ -65,3 +65,9 @@ Your device will respring after you tap `Tips`.
 1. Tap `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.
+
+## Installing Persistence Helper
+
+1. Open the `TrollStore` app on your home screen
+1. Press `Settings`, then press `Install Persistence Helper`
+1. Select `Tips` from the list of apps

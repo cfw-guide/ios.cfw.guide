@@ -22,17 +22,118 @@ Installing TrollStore is a process which varies depending on what device and iOS
 
 ---
 
-::: tip
-
-If you have an A12 or newer device on iOS 14.0 to 14.8.1 or 15.5, as well as any device on iOS 15.0 to 15.5b4 or 15.6b1 to 15.6b5, follow <router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelper OTA)</router-link>
-
-If you have any device on iOS 15.0 to 15.7.1 or iOS 16.0 to 16.1.2, follow <router-link to="/installing-trollhelper-misaka-mdc">Installing TrollStore (Misaka-mdc)</router-link>
-
-If you have any device on iOS 16.2 to 16.5 or 16.6b1, follow <router-link to="/installing-trollhelper-misaka-kfd">Installing TrollStore (Misaka-kfd)</router-link>
-
-If you are jailbroken on iOS 14.0 to 14.8.1, follow <router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link>
-
-:::
+<table>
+  <colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">From</th>
+      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">arm64 (A8 - A11)</th>
+      <th style="text-align: center; font-weight: bold;">arm64e (A12 - A17 / M1 - M2)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">13.7 and earlier</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">14.0</td>
+      <td style="text-align: center; font-weight: bold;">14.8.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.0</td>
+      <td style="text-align: center; font-weight: bold;">15.5 beta 4</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.5</td>
+      <td style="text-align: center; font-weight: bold;">15.5</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka-mdc">Installing TrollStore (Misaka-mdc)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 1</td>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 4</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.6</td>
+      <td style="text-align: center; font-weight: bold;">15.6.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka-mdc">Installing TrollStore (Misaka-mdc)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.7</td>
+      <td style="text-align: center; font-weight: bold;">15.7.1</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-misaka-mdc">Installing TrollStore (Misaka-mdc)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.7.2</td>
+      <td style="text-align: center; font-weight: bold;">15.7.6</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-misaka-kfd">Installing TrollStore (Misaka-kfd)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.7.7</td>
+      <td style="text-align: center; font-weight: bold;">15.8</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">Not Applicable</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.0</td>
+      <td style="text-align: center; font-weight: bold;">16.1.2</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-misaka-mdc">Installing TrollStore (Misaka-mdc)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.2</td>
+      <td style="text-align: center; font-weight: bold;">16.5</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka-kfd">Installing TrollStore (Misaka-kfd)</router-link></td>
+    </tr>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.5.1</td>
+      <td style="text-align: center; font-weight: bold;">16.5.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.6 beta 1</td>
+      <td style="text-align: center; font-weight: bold;">16.6 beta 1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka-kfd">Installing TrollStore (Misaka-kfd)</router-link></td>
+    </tr>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.6 beta 2</td>
+      <td style="text-align: center; font-weight: bold;">16.6.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.7</td>
+      <td style="text-align: center; font-weight: bold;">16.7.2</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">17.0</td>
+      <td style="text-align: center; font-weight: bold;">17.0</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">17.0.1 and later</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+    </tr>
+  </tbody>
+</table>
 
 ::: danger
 
