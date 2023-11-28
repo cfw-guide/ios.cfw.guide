@@ -14,7 +14,7 @@ extra_contributors:
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [TrollInstallerMDC](https://cdn.discordapp.com/attachments/688124711145701393/1178943728157728828/TrollInstallerMDC.ipa)
+- The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
 
 ## Installing the application
 

@@ -41,7 +41,7 @@ If you previously attempted an older blobless method, remove all delay and beta 
 
 ### Downloads
 
-- The latest version of [Supervise](https://cdn.discordapp.com/attachments/925909162666373140/1076743371793629204/Supervise.ipa)
+- The latest version of [Supervise](https://dhinakg.github.io/apps.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
