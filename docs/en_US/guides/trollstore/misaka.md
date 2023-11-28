@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing TrollStore (Misaka-kfd)
-description: Guide to installing TrollStore via Misaka using kfd
-permalink: /installing-trollhelper-misaka-kfd
+title: Installing TrollStore (Misaka)
+description: Guide to installing TrollStore via Misaka
+permalink: /installing-trollhelper-misaka
 redirect_from:
 extra_contributors:
   - opa334
@@ -10,7 +10,7 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 16.2 to 16.5, or 16.6b1
+- A device running iOS/iPadOS 15.7.2 to 15.7.6, 16.2 to 16.5, or 16.6b1
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows

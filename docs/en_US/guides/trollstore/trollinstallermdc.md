@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing TrollStore (Misaka-mdc)
-description: Guide to installing TrollStore via Misaka using mdc
-permalink: /installing-trollhelper-misaka-mdc
+title: Installing TrollStore (TrollInstallerMDC)
+description: Guide to installing TrollStore via TrollInstallerMDC
+permalink: /installing-trollhelper-mdc
 redirect_from:
 extra_contributors:
   - opa334
@@ -14,16 +14,14 @@ extra_contributors:
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [Misaka](https://github.com/straight-tamago/misaka/releases/latest)
-
-Additionally, you'll need to download the [TrollStore Misaka](https://cdn.discordapp.com/attachments/1157666534630625380/1178798853185622026/TrollStore_2.misaka) file onto your device.
+- The latest version of [TrollInstallerMDC](https://cdn.discordapp.com/attachments/688124711145701393/1178943728157728828/TrollInstallerMDC.ipa)
 
 ## Installing the application
 
 1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Misaka `.ipa` file into Sideloadly
+1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
@@ -36,7 +34,7 @@ The app will now install to your iOS device.
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The Misaka application can now be opened from home screen.
+The TrollInstallerMDC application can now be opened from home screen.
 
 ::: danger
 
@@ -48,16 +46,15 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
 
 ## Injecting TrollStore Helper
 
-1. Open Misaka
-    - If asked on if you want to use KFD Mode, tap "No"
-1. Go to the Settings button on the top left, scroll down to "EXPLOIT" and change the method to "MDC"
-1. Reopen Misaka
-1. Go to the "Packages [Emu/Var]" tab
-1. Tap import, then tap the "TrollStore_2.misaka" file you downloaded earlier
-1. Tap on the long string that appears (make sure there's a checkmark) and then press the second button on the top right
-1. Tap "Restart" to Restart SpringBoard
+::: warning
 
-After doing this, reboot your device.
+If you've already opened Tips, reboot your device before following these steps
+
+:::
+
+1. Open TrollInstallerMDC
+1. Once it says "Successfully replaced Tips binary", try to open the `Tips` app
+    - If it gives an error, close TrollInstallerMDC and re-open it 
 
 ## Installing TrollStore
 
