@@ -3,6 +3,7 @@ lang: en_US
 title: Installing TrollStore (TrollInstallerMDC)
 description: Guide to installing TrollStore via TrollInstallerMDC
 permalink: /installing-trollhelper-mdc
+sidebar: false
 redirect_from:
 extra_contributors:
   - opa334

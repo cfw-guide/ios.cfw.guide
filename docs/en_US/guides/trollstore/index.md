@@ -3,6 +3,7 @@ lang: en_US
 title: Installing TrollStore
 description: Guide to installing TrollStore
 permalink: /installing-trollstore
+sidebar: false
 redirect_from:
   - /trollstore
 extra_contributors:
