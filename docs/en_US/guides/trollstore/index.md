@@ -78,12 +78,12 @@ Installing TrollStore is a process which varies depending on what device and iOS
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7.2</td>
-      <td style="text-align: center; font-weight: bold;">15.7.6</td>
+      <td style="text-align: center; font-weight: bold;">15.7.2</td>
       <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
       <td style="text-align: center; font-weight: bold;">Coming Soon</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">15.7.7</td>
+      <td style="text-align: center; font-weight: bold;">15.7.3</td>
       <td style="text-align: center; font-weight: bold;">15.8</td>
       <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
       <td style="text-align: center; font-weight: bold;">Not Applicable</td>
