@@ -62,7 +62,7 @@ Installing TrollStore is a process which varies depending on what device and iOS
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.6 beta 1</td>
-      <td style="text-align: center; font-weight: bold;">15.6 beta 4</td>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 5</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>
