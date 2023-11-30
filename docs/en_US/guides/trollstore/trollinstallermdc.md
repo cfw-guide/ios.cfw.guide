@@ -58,13 +58,12 @@ If you've already opened Tips, reboot your device before following these steps
 :::
 
 1. Open TrollInstallerMDC
-1. Once it says "Successfully replaced Tips binary", try to open the `Tips` app
+1. Once it says "Successfully replaced Tips binary", close the `TrollInstallerMDC` app
     - If it gives an error, close TrollInstallerMDC and re-open it 
 
 ## Installing TrollStore
 
-1. Unlock your device
-1. Open the Tips app
+1. Open the `Tips` app
 1. Tap `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.
