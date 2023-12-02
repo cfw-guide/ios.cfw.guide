@@ -4,12 +4,22 @@ title: Installing TrollStore
 description: Guide to installing TrollStore
 permalink: /installing-trollstore
 sidebar: false
+home: true
+hero: false
 redirect_from:
   - /trollstore
 extra_contributors:
   - opa334
   - iCraze
 ---
+
+# Installing TrollStore
+
+::: tip
+
+For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).
+
+:::
 
 ::: danger
 
