@@ -6,13 +6,14 @@ permalink: /blocking-updates
 extra_contributors:
   - Tanbeer191
   - Jack LaFond
+  - c22dev
 ---
 
 This will take you through installing the iOS 16 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
 
 ## Installing the tvOS profile
 
-1. Open [https://static.itsnebula.net/apple/noota/16.mobileconfig](https://static.itsnebula.net/apple/noota/16.mobileconfig) in your device's browser
+1. Open [https://static.itsnebula.net/apple/noota/17.mobileconfig](https://static.itsnebula.net/apple/noota/17.mobileconfig) in your device's browser
 1. Select "Allow" if prompted
 1. Open the Settings application
 1. Navigate to `General` -> `Profile`
