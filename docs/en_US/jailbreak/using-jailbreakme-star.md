@@ -20,7 +20,7 @@ JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot an
 
 1. Open Safari on your iOS device
 1. Go to the [jailbreakme.com/star/_/](http://jailbreakme.com/star/_/) website
-1. Select the PDF that corresponds to your iOS version. You may use [https://appledb.dev/firmwares.html](https://appledb.dev/firmwares.html) to help you determine which PDF corresponds to your device, as the PDFs are named according to the build ID, not the iOS version.
+1. Select the PDF that corresponds to your iOS version. You may use [https://appledb.dev/firmware.html](https://appledb.dev/firmware.html) to help you determine which PDF corresponds to your device, as the PDFs are named according to the build ID, not the iOS version.
 
 After a couple of minutes, Cydia should be installed on your home screen.
 
