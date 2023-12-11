@@ -23,6 +23,14 @@ On A11 devices, you **must disable your passcode** and will not be able to use y
 
 Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
 
+::: danger
+
+While palera1n currently supports iPadOS 17.2, App Store apps **will crash on launch** while in a jailbroken state.
+
+You are highly encouraged to remain on iPadOS 17.1.2 and earlier or restore to iPadOS 17.1.2 if you have already updated until a palera1n update is released.
+
+:::
+
 ::: warning
 
 If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n-legacy">remove palera1n</router-link> before continuing.
