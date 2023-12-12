@@ -70,8 +70,6 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 - The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.1_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
-## Installing meowbrek2
-
 1. Go back to the `Apps` tab
 1. Press the `+` on the top right
 1. Go to where you saved the meowbrek2 `.tipa` file
