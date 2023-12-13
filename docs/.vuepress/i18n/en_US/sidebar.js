@@ -8,7 +8,7 @@ const getStarted = {
 const guides = {
   text: 'Guides',
   children: [
-    '/saving-blobs/',
+    '/installing-trollstore/',
     '/sideloading-apps/',
     '/blocking-jailbreak-detection/',
     '/updating-blobless/',
@@ -36,9 +36,8 @@ const jailbreaking = {
   text: 'Jailbreaking',
   children: [
     '/installing-palera1n',
+    '/installing-meowbrek2',
     '/installing-dopamine/',
-    '/installing-taurine-trollstore/',
-    '/installing-taurine/',
   ],
 }
 
