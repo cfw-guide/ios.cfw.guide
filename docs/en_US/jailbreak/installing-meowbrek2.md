@@ -72,7 +72,7 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 ### Installing the jailbreak
 
-1. Go back to the `Apps` tab
+1. Re-open the `TrollStore` app on your home screen
 1. Press the `+` on the top right
 1. Go to where you saved the meowbrek2 `.tipa` file
 1. Tap on the meowbrek2 `.tipa` file
