@@ -8,10 +8,12 @@ extra_contributors:
   - Jack LaFond
 ---
 
-This will take you through installing the iOS 16 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
+This will take you through installing the iOS 17 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
 
 ## Installing the tvOS profile
 
+1. Set your device's date to any point before December 14th, 2023
+    - This is so that the profile can be installed despite an expired certificate, and can be set back to normal after the profile is installed.
 1. Open [https://static.itsnebula.net/apple/noota/17.mobileconfig](https://static.itsnebula.net/apple/noota/17.mobileconfig) in your device's browser
 1. Select "Allow" if prompted
 1. Open the Settings application
@@ -25,6 +27,12 @@ This will take you through installing the iOS 16 "tvOS profile" to block updates
 1. Restart your device when prompted
 
 Your device should no longer receive software updates. You can confirm this by going to `Settings > General > Software Update`, and if it shows that "iOS is up to date", you are successfully blocking updates.
+
+::: tip
+
+You can now set your devices date back to the current date.
+
+:::
 
 ## Uninstalling the tvOS Profile
 
