@@ -15,15 +15,14 @@ This will take you through installing the iOS 17 "tvOS profile" to block updates
 1. Set your device's date to any point before December 14th, 2023
     - This is so that the profile can be installed despite an expired certificate, and can be set back to normal after the profile is installed.
 1. Open [https://static.itsnebula.net/apple/noota/17.mobileconfig](https://static.itsnebula.net/apple/noota/17.mobileconfig) in your device's browser
-1. Select "Allow" if prompted
+    - If you recieve a prompt that "Your Clock Is Set Incorrectly", click `Show Details` -> `visit this website`. You may then need to reload the page.
+1. Select "Allow", if prompted, followed by "Close"
 1. Open the Settings application
 1. Navigate to `General` -> `Profile`
-    - This may also be called `Profile and Device Management`
-1. Tap on the tvOS Beta Profile you just installed
-1. Tap "Install"
-1. Confirm by tapping "Install" again
+    - This may also be called `Profile and Device Management` or `VPN & Device Management`
+1. Tap `tvOS 17 Beta Software Profile` -> `Install`
     - Enter your passcode if you have one
-1. Tap "Install" for a third time
+1. Confirm by tapping `Install` two more times
 1. Restart your device when prompted
 
 Your device should no longer receive software updates. You can confirm this by going to `Settings > General > Software Update`, and if it shows that "iOS is up to date", you are successfully blocking updates.
@@ -46,8 +45,10 @@ By removing update blocking, you may unintentionally update to a higher firmware
 
 1. Open the Settings application
 1. Go to `General` -> `Profile`
-  - This may also be called `Profile and Device Management`
-3. Tap on the tvOS Beta Profile
-1. Tap "Remove Downloaded Profile"
+    - This may also be called `Profile and Device Management` or `VPN & Device Management`
+1. Tap `tvOS 17 Beta Software Profile` -> `Remove Downloaded Profile`
+    - Enter your passcode if you have one
+1. Confirm by tapping "Remove" again
+1. Restart your device when prompted
 
 Your device should now be able to update again.
