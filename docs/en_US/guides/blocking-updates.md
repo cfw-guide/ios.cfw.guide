@@ -10,6 +10,12 @@ extra_contributors:
 
 This will take you through installing the iOS 17 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
 
+::: danger
+
+This will block updates until 31st January 2025. Hopefully this guide will have been updated by then!
+
+:::
+
 ## Installing the tvOS profile
 
 1. Set your device's date to any point before December 14th, 2023
