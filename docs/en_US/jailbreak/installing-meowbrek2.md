@@ -8,7 +8,7 @@ pkgman: sileo
 
 meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> ***re***-jailbreaking utility, meaning that it uses an app in order to re-enter a jailbroken state on a device that has already been jailbroken.
 
-meowbrek2 supports **re**-jailbreaking A9(X) to A11 devices on firmware versions 15.0 to 15.7.6 that have previously been jailbroken with palera1n.
+meowbrek2 supports **re**-jailbreaking A11 and earlier devices on firmware versions 15.0 to 15.7.6 that have previously been jailbroken with palera1n.
 
 ::: warning
 
@@ -67,7 +67,9 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 ### Downloads
 
-- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.2_TS.tipa)
+- The latest version of meowbrek2 for your device:
+    - Users with an A9(X) to A11 device should download [the standard release](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.2_TS.tipa)
+    - Users with an A8(X) device should download [the 4k device release](https://kok3shidoll.github.io/download/secret/meowbrek2_4k_1.1.2_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak

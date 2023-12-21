@@ -149,6 +149,4 @@ Installing TrollStore is a process which varies depending on what device and iOS
 
 If your device is on iOS 13.7 and older, is running iOS 16.7.x, or is running iOS 17.0.1 or newer, it will **never** be supported by TrollStore.
 
-Note that, if your device is on iOS 16.7.x, but supports iOS 17.0, you can follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> and refer to the chart for further information
-
 :::

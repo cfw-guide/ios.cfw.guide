@@ -25,7 +25,7 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
 
 ::: danger
 
-While palera1n currently supports iPadOS 17.2, App Store apps **will crash on launch** while in a jailbroken state.
+While palera1n currently supports iPadOS 17.2, many App Store apps **will crash on launch** while in a jailbroken state.
 
 You are highly encouraged to remain on iPadOS 17.1.2 and earlier or restore to iPadOS 17.1.2 if you have already updated until a palera1n update is released.
 
@@ -157,6 +157,6 @@ Once the device boots up, open the palera1n loader app and tap `Sileo`. After a 
 
 To rejailbreak your device, simply rerun the command you just ran and then repeat any other applicable steps.
 
-Alternatively, if you are using an A9(X) to A11 device on 15.0 to 15.7.6, you can use <router-link to="/installing-meowbrek2">meowbrek2</router-link> to rejailbreak as well.
+Alternatively, if you are on 15.0 to 15.7.6, you can use <router-link to="/installing-meowbrek2">meowbrek2</router-link> to rejailbreak as well.
 
 :::
