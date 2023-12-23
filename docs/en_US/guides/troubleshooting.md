@@ -10,6 +10,7 @@ extra_contributors:
   - TheHacker894
   - raizo
   - Superuser
+  - fullpwn
 ---
 
 ## Bootloops and respring loops
