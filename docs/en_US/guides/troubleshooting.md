@@ -98,6 +98,28 @@ Hold down the Side button and Volume Down button until the device reboots.
 2. Quick-press the Volume Down button
 3. Hold down the Side button until the device reboots.
 
+## Setting the Date & Time
+
+### The time zone cannot be set manually due to device restrictions.
+
+::: tip
+
+If the setting 'Set Automatically' is greyed out, it means a configuration profile or Screen Time is preventing you to set your Date & Time.
+
+::
+
+### Screen Time
+::: tip
+
+You will need your Screen Time passcode to modify Screen Time settings.
+
+:::
+
+Certain Screen Time settings can disable the modification of setting Date & Time. It is recommended to disable Screen Time. 
+
+To do this, Go into `Settings` -> `Screen Time` and tap Turn Off App & Website Activity.
+You will also need to disable Share Across Devices.
+
 ## Common Errors on Chimera, Odyssey, and Taurine
 
 ### ERR_Jailbreak
