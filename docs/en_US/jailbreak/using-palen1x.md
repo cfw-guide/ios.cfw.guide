@@ -38,7 +38,7 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
 
 While palera1n currently supports iPadOS 17.2, many App Store apps **will crash on launch** while in a jailbroken state.
 
-You are highly encouraged to remain on iPadOS 17.1.2 and earlier or restore to iPadOS 17.1.2 if you have already updated until a palera1n update is released.
+You are highly encouraged to remain on iPadOS 17.1.2 and earlier until a palera1n update is released.
 
 :::
 
