@@ -11,10 +11,6 @@ extra_contributors:
 
 ## Requirements
 
-<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-TrollInstallerMDC is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
-</p></div>
-
 - A device running iOS/iPadOS 15.0 to 15.7.1 or 16.0 to 16.1.2
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)

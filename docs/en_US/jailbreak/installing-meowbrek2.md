@@ -69,7 +69,7 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 - The latest version of meowbrek2 for your device:
     - Users with an A9(X) to A11 device should download [the standard release](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.2_TS.tipa)
-    - Users with an A8(X) device should download [the 4k device release](https://kok3shidoll.github.io/download/secret/meowbrek2_4k_1.1.2_TS.tipa)
+    - Users with an A8(X) device should download [the 4k device release](https://kok3shidoll.github.io/download/secret/meowbrek2_4k_1.1.2-1_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak
