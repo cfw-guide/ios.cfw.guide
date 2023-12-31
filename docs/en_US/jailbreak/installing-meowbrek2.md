@@ -8,17 +8,19 @@ pkgman: sileo
 
 meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> ***re***-jailbreaking utility, meaning that it uses an app in order to re-enter a jailbroken state on a device that has already been jailbroken.
 
-meowbrek2 supports **re**-jailbreaking A11 and earlier devices on firmware versions 15.0 to 15.7.6 that have previously been jailbroken with palera1n.
+While this tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.7.6, this tool requires the use of TrollStore, which is currently not installable without a previously existing jailbreak on 15.7.2 to 15.7.6.
 
 ::: warning
 
-meowbrek2 only supports devices that have been jailbroken with *rootless* palera1n, if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
+if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
+
+If you are using *rootless* palera1n, this is not an issue, and you can continue with these steps.
 
 :::
 
 ## Installing palera1n
 
-In order to use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n.
+In order to install TrollStore and then use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n.
 
 ::: tip
 
@@ -67,9 +69,7 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 ### Downloads
 
-- The latest version of meowbrek2 for your device:
-    - Users with an A9(X) to A11 device should download [the standard release](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.2_TS.tipa)
-    - Users with an A8(X) device should download [the 4k device release](https://kok3shidoll.github.io/download/secret/meowbrek2_4k_1.1.2-1_TS.tipa)
+- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.3_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak
