@@ -18,7 +18,7 @@ meowbrek2 only supports devices that have been jailbroken with *rootless* palera
 
 ## Installing palera1n
 
-In order to use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n.
+In order to use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n. If you have an A11 device, you will need to disable your passcode to install palera1n, but after you return to this page and reach the end of the "Installing TrollStore" section, you may enable your passcode again. 
 
 ::: tip
 
