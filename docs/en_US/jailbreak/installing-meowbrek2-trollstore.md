@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing meowbrek2 (TrollStore)
 description: Guide to installing meowbrek2 via TrollStore
-permalink: /installing-meowbrek2
+permalink: /installing-meowbrek2=trollstore
 pkgman: sileo
 ---
 
