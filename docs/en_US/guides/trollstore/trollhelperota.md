@@ -39,12 +39,8 @@ An app named `GTA Car Tracker` will now install to your iOS device, though this 
 ## Installing TrollStore
 
 1. Open the `GTA Car Tracker` app on your home screen
+1. Press `Register Persistence Helper`
 1. Press `Install TrollStore`
     - If your device reboots, redo these steps
 
-TrollStore should now be installed. If it doesn't appear on the home screen, restart your device. As a final step, we'll now register the Persistence Helper to the GTA Car Tracker app
-
-## Installing Persistence Helper
-
-1. Reopen the `GTA Car Tracker` app on your home screen
-1. Press `Register Persistence Helper`
+TrollStore should now be installed. If it doesn't appear on the home screen, restart your device.

@@ -48,24 +48,10 @@ An app named `GTA Car Tracker` will now install to your iOS device, this app is 
 ## Installing TrollStore
 
 1. Open the `GTA Car Tracker` app
+1. Tap `Register Persistence Helper`
 1. Tap `Install TrollStore`
 
 The TrollStore application will now install to your iOS device.
-
-## Installing Persistence Helper
-
-1. Reopen the `GTA Car Tracker` app
-1. Press `Register Persistence Helper`
-
-The `GTA Car Tracker` app can now be used as the Persistence Helper
-
-::: tip
-
-The reason the persistence helper is highly important is that, whenever iOS rebuilds its icon cache, all apps installed by TrollStore (as well as TrollStore itself) will either disappear or no longer open.
-
-To workaround this, the Persistence Helper (which will still open even after this happens) can refresh app registrations so that the apps will reappear and open again.
-
-:::
 
 ## Installing Taurine
 
