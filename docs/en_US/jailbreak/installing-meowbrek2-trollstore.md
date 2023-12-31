@@ -20,7 +20,7 @@ If you are using *rootless* palera1n, this is not an issue, and you can continue
 
 ## Installing TrollStore
 
-The method that needs to be followed in order to install TrollStore depends on your current firmware version
+The method that needs to be followed in order to install TrollStore depends on your current firmware version, select the tab that fits your current firmware version and follow the subsequent steps
 
 ::: tip
 
@@ -30,12 +30,12 @@ If you already have TrollStore installed, you can skip this section.
 
 ::::: tabs
 
-:::: tab name="15.0 to 15.4.1" :default="true"
+:::: tab name="TrollHelperOTA (15.0 to 15.4.1)" :default="true"
 
 ### Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
+1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
@@ -50,7 +50,7 @@ The TrollStore application will now install to your iOS device.
 
 ::::
 
-:::: tab name="15.5 to 15.7.1"
+:::: tab name="TrollInstallerMDC (15.5 to 15.7.1)"
 
 ### Requirements
 
@@ -110,7 +110,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ### Downloads
 
-- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.3_TS.tipa)
+- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.3.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak

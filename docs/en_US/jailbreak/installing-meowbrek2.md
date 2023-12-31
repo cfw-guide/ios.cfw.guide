@@ -69,7 +69,7 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 ### Downloads
 
-- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.3_TS.tipa)
+- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.3.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak
