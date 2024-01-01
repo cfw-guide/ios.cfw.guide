@@ -92,7 +92,7 @@ ReProvision Reborn is compatible with iOS 9 and newer.
 1. Add the Havoc Repo to your preferred package manager ([havoc.app](https://havoc.app/))
 1. Install ReProvison Reborn
 1. Open ReProvision Reborn and follow all onscreen prompts
-    - You will be asked to enter your AppleID. This is only sent to Apple and no one else.
+    - You will be asked to enter your Apple ID. This is only sent to Apple and no one else.
 
 ### Resigning using AltDaemon
 
