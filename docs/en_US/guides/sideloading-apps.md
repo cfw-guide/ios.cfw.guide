@@ -85,7 +85,7 @@ AltServer is only compatible with iOS 12.2 and newer.
 
 ::: tip
 
-ReProvision Reborn is compatible with iOS 9 and newer
+ReProvision Reborn is compatible with iOS 9 and newer.
 
 :::
 
