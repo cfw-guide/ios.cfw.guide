@@ -81,7 +81,7 @@ AltServer is only compatible with iOS 12.2 and newer.
 
 ## Resigning Apps
 
-### Resigning using Reprovision Reborn
+### Resigning using ReProvision Reborn
 
 ::: tip
 
@@ -90,8 +90,8 @@ ReProvision Reborn is compatible with iOS 9 and newer
 :::
 
 1. Add the Havoc Repo to your preferred package manager ([havoc.app](https://havoc.app/))
-1. Install Reprovison Reborn
-1. Open Reprovision Reborn and follow all onscreen prompts
+1. Install ReProvison Reborn
+1. Open ReProvision Reborn and follow all onscreen prompts
     - You will be asked to enter your AppleID. This is only sent to Apple and no one else.
 
 ### Resigning using AltDaemon
