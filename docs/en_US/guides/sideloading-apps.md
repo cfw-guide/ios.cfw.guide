@@ -104,7 +104,7 @@ AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
 
 AltDaemon allows AltStore to automatically re-sign these applications, without needing to connect to a computer running AltServer over local network.
 
-1. Add the Chariz repository to your preffered package manager ([repo.chariz.com](https://repo.chariz.com/))
+1. Add the Chariz repository to your preferred package manager ([repo.chariz.com](https://repo.chariz.com/))
 1. Download and install the "AltDaemon" tweak
 1. Close your package manager
 1. Sign any apps that are about to expire
