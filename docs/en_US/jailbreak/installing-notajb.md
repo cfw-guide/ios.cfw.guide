@@ -46,6 +46,13 @@ If you already have TrollStore installed (regardless of whether or not it was th
 
 :::
 
+
+### Enabling Developer Mode
+
+1. Go to the main page of the Settings app
+1. Go to `Settings` -> `Privacy & Security`, then scroll down until you see `Developer Mode`
+1. Tap `Developer Mode`, toggle it on, and follow the on-screen instructions
+
 ### Installing TrollHelper
 
 1. Open the Sileo application
