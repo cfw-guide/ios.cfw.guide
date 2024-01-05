@@ -99,6 +99,6 @@ Once the device boots up, open the palera1n loader app and tap `Sileo`. After a 
 
 To rejailbreak your device, simply rerun the command you just ran and then repeat any other applicable steps.
 
-Alternatively, if you are on 15.0 to 15.7.6, you can use <router-link to="/installing-meowbrek2">meowbrek2</router-link> to rejailbreak as well.
+Alternatively, if you are on 15.0 to 15.8, you can use <router-link to="/installing-meowbrek2">meowbrek2</router-link> to rejailbreak as well.
 
 :::

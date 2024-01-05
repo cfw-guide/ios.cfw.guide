@@ -8,13 +8,19 @@ pkgman: sileo
 
 meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> ***re***-jailbreaking utility, meaning that it uses an app in order to re-enter a jailbroken state on a device that has already been jailbroken.
 
-While this tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.7.6, this tool requires the use of TrollStore, which is currently not installable without a previously existing jailbreak on 15.7.2 to 15.7.6.
+While this tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.8, this tool requires the use of TrollStore, which is currently not installable without a previously existing jailbreak on 15.7.2 to 15.8.
 
 ::: warning
 
 if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
 
 If you are using *rootless* palera1n, this is not an issue, and you can continue with these steps.
+
+:::
+
+::: warning
+
+If you are on 15.0 to 15.7.1, it is highly recommended to follow <router-link to="/installing-meowbrek2-trollstore">Installing meowbrek2 (TrollStore)</router-link> instead.
 
 :::
 
@@ -69,7 +75,7 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 ### Downloads
 
-- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.3.tipa)
+- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.4_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak
