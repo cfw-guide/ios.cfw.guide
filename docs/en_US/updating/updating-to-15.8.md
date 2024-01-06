@@ -29,7 +29,7 @@ redirect_from:
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to 15.8 and jailbreak with palera1n instead.
+If you're on an unsupported firmware version, you can update to 15.8 and jailbreak with meowbrek2 instead.
 
 This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 15.8, we can easily update to the desired firmware version.
 
