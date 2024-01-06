@@ -12,9 +12,9 @@ While this tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS
 
 ::: warning
 
-if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
+if you are currently using *rootful* palera1n, or setup *rootless* palera1n **before April 27th, 2023**, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
 
-If you are using *rootless* palera1n, this is not an issue, and you can continue with these steps.
+If you are using *rootless* palera1n, and set it up **before April 27th, 2023**, this is not an issue, and you can continue with these steps.
 
 :::
 
@@ -26,13 +26,13 @@ If you are on 15.0 to 15.7.1, it is highly recommended to follow <router-link to
 
 ## Installing palera1n
 
-In order to install TrollStore and then use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n.
-
 ::: tip
 
-If you already have *rootless* palera1n installed, you can ignore this section.
+If you already have *rootless* palera1n installed and set it up **before April 27th, 2023**, you can ignore this section.
 
 :::
+
+In order to install TrollStore and then use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n.
 
 ## Installing TrollStore
 
