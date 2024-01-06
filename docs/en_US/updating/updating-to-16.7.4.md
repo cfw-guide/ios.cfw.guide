@@ -17,7 +17,7 @@ redirect_from:
     - /updating-to-16-7
     - /updating-to-16-7-1
     - /updating-to-16-7-2
-    = /updating-to-16-7-3
+    - /updating-to-16-7-3
 ---
 
 ## Required Reading
