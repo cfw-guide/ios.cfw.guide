@@ -110,6 +110,12 @@ Installing TrollStore is a process which varies depending on what device and iOS
       <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
     </tr>
     <tr>
+      <td style="text-align: center; font-weight: bold;">16.7 RC</td>
+      <td style="text-align: center; font-weight: bold;">16.7 RC</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">16.7</td>
       <td style="text-align: center; font-weight: bold;">16.7.4</td>
       <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
@@ -129,6 +135,6 @@ Installing TrollStore is a process which varies depending on what device and iOS
 
 ::: danger
 
-If your device is on iOS 13.7 and older, is running iOS 16.7.x, or is running iOS 17.0.1 or newer, it will **never** be supported by TrollStore.
+If your device is on iOS 13.7 and older, is running iOS 16.7.x (excluding 16.7 RC (20H18)), or is running iOS 17.0.1 or newer, it will **never** be supported by TrollStore.
 
 :::
