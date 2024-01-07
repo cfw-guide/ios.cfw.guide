@@ -15,7 +15,7 @@ extra_contributors:
 ## Requirements
 
 You will need:
-- A jailbroken device running iOS 14.0 to 16.6.1 or iPadOS 17.0
+- A jailbroken device running iOS 14.0 to 16.6.1, 16.7 RC (20H18) or iPadOS 17.0
 - A functioning package manager
 
 ::: tip
