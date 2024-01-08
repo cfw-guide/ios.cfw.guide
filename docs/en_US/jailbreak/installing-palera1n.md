@@ -23,14 +23,6 @@ On A11 devices, you **must disable your passcode** and will not be able to use y
 
 Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
 
-::: danger
-
-While palera1n currently supports iPadOS 17.2, many App Store apps **will crash on launch** while in a jailbroken state.
-
-You are highly encouraged to remain on iPadOS 17.1.2 and earlier until a palera1n update is released.
-
-:::
-
 ::: warning
 
 If you are using an old version of palera1n that was tethered, you'll need to <router-link to="/removing-palera1n-legacy">remove palera1n</router-link> before continuing.
@@ -72,7 +64,7 @@ If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/a
 
 :::
 
-1. Run `palera1n`
+1. Run `palera1n -e thid_should_crash=0`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -95,10 +87,11 @@ You'll need to do this every time you rejailbreak your device as well.
 
 Depending on the Linux distribution you are using, you may run into issues with the latest version (2.0.0b8) of palera1n.
 
-If you do run into issues, you have three options:
+If you do run into issues, you have four options:
 - Obtain a Mac and follow the macOS tab instead.
+- Try to use a different Linux distribution instead (e.g. Ubuntu).
 - <router-link to="/using-palen1x">Use palen1x</router-link> instead, which does not have this issue.
-- **If you are trying to jailbreak a 15.0 to 16.7.2 device**, you can manually install [palera1n 2.0.0b7](https://github.com/palera1n/palera1n/releases/tag/v2.0.0-beta.7) instead.
+- **If you are trying to jailbreak a 15.0 to 16.7.4 device**, you can manually install [palera1n 2.0.0b7](https://github.com/palera1n/palera1n/releases/tag/v2.0.0-beta.7) instead.
 
 :::
 
@@ -132,7 +125,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 ### Running palera1n
 
-1. Run `sudo palera1n`
+1. Run `sudo palera1n -e thid_should_crash=0`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 

@@ -34,14 +34,6 @@ On A11 devices, you **must disable your passcode** and will not be able to use y
 
 Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
 
-::: danger
-
-While palera1n currently supports iPadOS 17.2, many App Store apps **will crash on launch** while in a jailbroken state.
-
-You are highly encouraged to remain on iPadOS 17.1.2 and earlier until a palera1n update is released.
-
-:::
-
 ## Requirements
 
 - A 128MB or greater USB Drive
@@ -77,10 +69,8 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 :::
 
-1. Once you have loaded palen1x, select `palera1n`
-1. Select `Switch`, then select `Rootless`
-1. Press `Enter` to save the options you just selected, then select `Start`
-    - Make sure your device is plugged in when you do this.
+1. Once you have loaded palen1x, select `Shell`
+1. Type `palera1n -e thid_should_crash=0`
 1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 ::: tip
@@ -88,8 +78,9 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
 
 1. In the terminal window, press `Control` + `C` on your keyboard
-1. Type `exit`
-1. Rerun the steps in palen1x that you just did
+1. Rerun the command that you just ran
+
+You'll need to do this every time you rejailbreak your device as well.
 
 :::
 
