@@ -116,7 +116,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ### Downloads
 
-- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.4_TS.tipa)
+- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/meowbrek2_1.1.5_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak
