@@ -51,84 +51,83 @@ Installing TrollStore is a process which varies depending on what device and iOS
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">13.7 and earlier</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+      <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">14.0</td>
       <td style="text-align: center; font-weight: bold;">14.8.1</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.0</td>
       <td style="text-align: center; font-weight: bold;">15.5 beta 4</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.5</td>
       <td style="text-align: center; font-weight: bold;">15.5</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.6 beta 1</td>
       <td style="text-align: center; font-weight: bold;">15.6 beta 5</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.6</td>
       <td style="text-align: center; font-weight: bold;">15.6.1</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7</td>
       <td style="text-align: center; font-weight: bold;">15.7.1</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7.2</td>
       <td style="text-align: center; font-weight: bold;">15.7.2</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center;">Coming Soon</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7.3</td>
       <td style="text-align: center; font-weight: bold;">15.8</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
-      <td style="text-align: center; font-weight: bold;">Not Applicable</td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center;">Not Applicable</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.0</td>
       <td style="text-align: center; font-weight: bold;">16.1.2</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.2</td>
       <td style="text-align: center; font-weight: bold;">16.6.1</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7 RC</td>
       <td style="text-align: center; font-weight: bold;">16.7 RC</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
-      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center;">No Installation Method</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7</td>
       <td style="text-align: center; font-weight: bold;">16.7.4</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+      <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">17.0</td>
       <td style="text-align: center; font-weight: bold;">17.0</td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
-      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center;">No Installation Method</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">17.0.1 and later</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+      <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
   </tbody>
 </table>
