@@ -10,7 +10,7 @@ Def1nit3lyN0tAJa1lbr3akTool is a <router-link to="/types-of-jailbreak/#semi-unte
 
 The tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 16.0 to 16.5.
 
-We will first use Sideloadly to sideload either TrollInstallerMDC or Misaka, then use either TrollInstallerMDC or Misaka to then install TrollStore, and then install Def1nit3lyN0tAJa1lbr3akTool from there.
+We will first use Sideloadly to sideload either TrollInstallerMDC or TrollStar, then use either TrollInstallerMDC or TrollStar to then install TrollStore, and then install Def1nit3lyN0tAJa1lbr3akTool from there.
 
 ::: warning
 
@@ -32,7 +32,7 @@ If you already have TrollStore installed, you can skip this section.
 
 ::::: tabs
 
-:::: tab name="TrollInstallerMDC (16.0 to 16.1.2)"
+:::: tab name="TrollInstallerMDC (16.0 to 16.1.2)" :default="true"
 
 ### Requirements
 
@@ -94,21 +94,21 @@ Your device should respring, and TrollStore should now be installed.
 
 ::::
 
-:::: tab name="Misaka (16.2 to 16.5)"
+:::: tab name="TrollStar (16.2 to 16.5)"
 
 ### Requirements
 
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [Misaka](https://github.com/straight-tamago/misaka/releases/latest)
+- The latest version of [TrollStar](https://github.com/34306/iPA/releases/download/kfd/TrollStar_1.0.ipa)
 
 ### Installing the application
 
 1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Misaka `.ipa` file into Sideloadly
+1. Drag and drop the TrollStar `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
@@ -137,11 +137,14 @@ This method may take several tries in order to work successfully.
 
 :::
 
-1. Open Misaka
-1. Go to the "Packages [Emu/Var]" tab
-1. Tap on the bottom left button (known as "ToolBox") and tap `Install TrollStore`, then tap `Tips`
+1. Open TrollStar
+1. Tap `kopen`
+    - If the device reboots, wait a few minutes, then try again
+1. Tap `Install TrollStore Helper to Tips`
+1. Wait 10-15 seconds, then tap `kclose`
+1. Tap `Respring to Apply`
 
-Your device will respring after you tap `Tips`.
+Your device will respring after you tap `Respring to Apply`.
 
 ### Installing TrollStore
 

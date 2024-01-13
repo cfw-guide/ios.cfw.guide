@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing TrollStore (Misaka)
-description: Guide to installing TrollStore via Misaka
-permalink: /installing-trollhelper-misaka
+title: Installing TrollStore (TrollStar)
+description: Guide to installing TrollStore via TrollStar
+permalink: /installing-trollhelper-trollstar
 sidebar: false
 redirect_from:
 extra_contributors:
@@ -15,14 +15,14 @@ extra_contributors:
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [Misaka](https://github.com/straight-tamago/misaka/releases/latest)
+- The latest version of [TrollStar](https://github.com/34306/iPA/releases/download/kfd/TrollStar_1.0.ipa)
 
 ## Installing the application
 
 1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Misaka `.ipa` file into Sideloadly
+1. Drag and drop the TrollStar `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
@@ -35,7 +35,7 @@ The app will now install to your iOS device.
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The Misaka application can now be opened from home screen.
+The TrollStar application can now be opened from home screen.
 
 ::: danger
 
@@ -53,11 +53,14 @@ This method may take several tries in order to work successfully.
 
 :::
 
-1. Open Misaka
-1. Go to the "Packages [Emu/Var]" tab
-1. Tap on the bottom left button (known as "ToolBox") and tap `Install TrollStore`, then tap `Tips`
+1. Open TrollStar
+1. Tap `kopen`
+    - If the device reboots, wait a few minutes, then try again
+1. Tap `Install TrollStore Helper to Tips`
+1. Wait 10-15 seconds, then tap `kclose`
+1. Tap `Respring to Apply`
 
-Your device will respring after you tap `Tips`.
+Your device will respring after you tap `Respring to Apply`.
 
 ## Installing TrollStore
 

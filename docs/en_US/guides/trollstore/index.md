@@ -106,7 +106,7 @@ Installing TrollStore is a process which varies depending on what device and iOS
     <tr>
       <td style="text-align: center; font-weight: bold;">16.2</td>
       <td style="text-align: center; font-weight: bold;">16.6.1</td>
-      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollhelper-trollstar">Installing TrollStore (TrollStar)</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7 RC</td>
