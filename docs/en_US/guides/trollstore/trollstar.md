@@ -15,7 +15,7 @@ extra_contributors:
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [TrollStar](https://github.com/34306/iPA/releases/download/kfd/TrollStar_1.0.ipa)
+- The latest version of [TrollStar](https://github.com/34306/TrollStar/releases/latest)
 
 ## Installing the application
 
