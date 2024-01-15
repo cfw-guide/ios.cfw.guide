@@ -6,7 +6,7 @@ permalink: /installing-meowbrek2
 pkgman: sileo
 ---
 
-meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> ***re***-jailbreaking utility, meaning that it uses an app in order to re-enter a jailbroken state on a device that has already been jailbroken.
+meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> jailbreak, meaning it requires an app to re-apply the exploit after a reboot.
 
 While this tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.8, this tool requires the use of TrollStore, which is currently not installable without a previously existing jailbreak on 15.7.2 to 15.8.
 
