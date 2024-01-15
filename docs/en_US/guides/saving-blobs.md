@@ -24,6 +24,11 @@ This will take you through the process of saving blobs which are required if you
 
 shshd is a tweak used for automatic blob saving. Once you have it installed, you won't need to worry about manually saving blobs as it handles it all in the background. You must be jailbroken to use shshd. If you aren't jailbroken, follow [Saving blobs with TSS Saver Website](#saving-blobs-with-tss-saver-website).
 
+::: danger
+This method **cannot** save onboard blobs. To save onboard blobs for the installed iOS version, see the [Onbard Blobs Section](#saving-onboard-blobs)
+
+:::
+
 ::: warning
 
 shshd is only compatible with Procursus-based jailbreaks, such as Taurine, Odyssey, Chimera and Odysseyra1n. If you're using unc0ver or checkra1n, follow [Saving blobs with TSS Saver App](#saving-blobs-with-tss-saver-app).
@@ -47,6 +52,11 @@ You shouldn't need to run shshd manually, but it can be run through a terminal.
 
 ## Saving blobs with TSS Saver App
 
+::: danger
+This method **cannot** save onboard blobs. To save onboard blobs for the installed iOS version, see the [Onbard Blobs Section](#saving-onboard-blobs)
+
+:::
+
 The TSS Saver app can be installed on jailbroken devices and allows you to save your blobs easily with the tap of a button. If you aren't jailbroken, follow [Saving blobs with TSS Saver Website](#saving-blobs-with-tss-saver-website) instead.
 
 1. Add [repo.1conan.com](https://repo.1conan.com/) to your sources in your preferred <router-link to="/package-managers">package manager</router-link>
@@ -57,6 +67,11 @@ The TSS Saver app can be installed on jailbroken devices and allows you to save 
 1. Once you receive the confirmation message, tap "Open"
 
 ## Saving blobs with TSS Saver Website
+
+::: danger
+This method **cannot** save onboard blobs. To save onboard blobs for the installed iOS version, see the [Onbard Blobs Section](#saving-onboard-blobs)
+
+:::
 
 The TSS Saver website allows you to save your device's blobs by entering in some device-specific information. Once saved, you can then access the blobs by entering in that information again.
 
@@ -77,6 +92,10 @@ If you are using unc0ver or Taurine on iOS 14, install libkrw or libkernrw respe
 1. Follow the rest of this guide
 
 ### Saving blobs (All Devices)
+::: danger
+This method **cannot** save onboard blobs. To save onboard blobs for the installed iOS version, see the [Onbard Blobs Section](#saving-onboard-blobs)
+
+:::
 1. Connect your iOS Device to your Mac or PC
 1. Open iTunes or Finder
     - Windows users must download the [normal version](https://www.apple.com/itunes/), NOT the Windows Store version
@@ -96,6 +115,10 @@ If you are using unc0ver or Taurine on iOS 14, install libkrw or libkernrw respe
 blobsaver is a cross-platform PC program, compatible with Windows, macOS and Linux, that allows you to easily save your blobs on any device, jailbroken or not. It's not as convenient as the other options, however it works with the most devices.
 
 ### blobsaver
+::: danger
+This method **cannot** save onboard blobs. To save onboard blobs for the installed iOS version, see the [Onbard Blobs Section](#saving-onboard-blobs)
+
+:::
 
 1. Download, install, and launch the latest version of [blobsaver](https://github.com/airsquared/blobsaver/releases)
 1. Connect your iOS device to your computer and make sure it is unlocked
