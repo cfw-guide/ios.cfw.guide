@@ -28,7 +28,7 @@ If you are on 15.0 to 15.7.1, it is highly recommended to follow <router-link to
 
 ::: tip
 
-If you already have *rootless* palera1n installed and set it up **before April 27th, 2023**, you can ignore this section.
+If you already have *rootless* palera1n installed and set it up **after April 27th, 2023**, you can ignore this section.
 
 :::
 
@@ -75,7 +75,7 @@ Once your device finishes rebooting, open the `Tips` app (which you set as the p
 
 ### Downloads
 
-- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/DCFB91F7-FFFD-4F2B-9931-DB6D0B365593//meowbrek2_1.1.5_TS.tipa)
+- The latest version of [meowbrek2](https://kok3shidoll.github.io/download/secret/00169AD7-0BA8-4CA6-B0F4-676C3090DFEC/meowbrek2_1.1.6_TS.tipa)
     - Make sure to download the meowbrek2 `.tipa` file **onto your iOS device**
 
 ### Installing the jailbreak
