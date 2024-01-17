@@ -11,7 +11,7 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 16.2 to 16.6.1
+- A device running iOS/iPadOS 16.0 to 16.6.1
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
