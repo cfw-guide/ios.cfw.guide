@@ -44,18 +44,6 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
 
 :::
 
-## Trusting the application
-
-The TrollMisaka application can now be opened from home screen.
-
-::: danger
-
-If you're on iOS 16.0 to 16.6.1, you'll also need to enable Developer Mode.
-
-To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
-
-:::
-
 ## Adding a Keyboard
 
 1. Open TrollMisaka, then exit the app *while keeping it in the app switcher*
