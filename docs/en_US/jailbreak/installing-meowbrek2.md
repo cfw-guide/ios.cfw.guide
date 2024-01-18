@@ -8,7 +8,7 @@ pkgman: sileo
 
 meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> jailbreak, meaning it requires an app to re-apply the exploit after a reboot.
 
-While this tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.8, this tool requires the use of TrollStore, which is currently not installable without a previously existing jailbreak on 15.7.2 to 15.8.
+meowbrek2 supports A11 and earlier devices on firmware versions 15.0 to 15.8.
 
 ::: warning
 
@@ -18,47 +18,81 @@ If you are using *rootless* palera1n, and set it up **after April 27th, 2023**, 
 
 :::
 
-::: warning
-
-If you are on 15.0 to 15.7.1, it is highly recommended to follow <router-link to="/installing-meowbrek2-trollstore">Installing meowbrek2 (TrollStore)</router-link> instead.
-
-:::
-
-## Installing palera1n
-
-::: tip
-
-If you already have *rootless* palera1n installed and set it up **after April 27th, 2023**, you can ignore this section.
-
-:::
-
-In order to install TrollStore and then use meowbrek2, you'll need to first jailbreak with palera1n by following <router-link to="/installing-palera1n">Installing palera1n</router-link>. You can return to this page once you have finished installing palera1n.
-
 ## Installing TrollStore
 
-::: tip
-
-If it's not already added, you'll also need to add the `havoc.app` repository to Sileo
-
-:::
+The method that needs to be followed in order to install TrollStore depends on your current firmware version, select the tab that fits your current firmware version and follow the subsequent steps
 
 ::: tip
 
-If you already have TrollStore installed (regardless of whether or not it was through the method listed here), you can skip this section
+If you already have TrollStore installed, you can skip this section.
 
 :::
+
+::::: tabs
+
+:::: tab name="TrollHelperOTA (15.0 to 15.4.1)" :default="true"
 
 ### Installing TrollHelper
 
-1. Open the Sileo application
-1. Tap on the "Search" tab
-1. Search for "TrollStore Helper"
-1. Tap "Install"
-1. Tap the "Queued" bar at the bottom of the page
-1. Tap "Confirm"
-1. Once finished, tap "Done", then close Sileo
-1. Open the `TrollHelper` app on your home screen
-1. Press `Install TrollStore`
+1. Open Safari
+1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Tap `Install`
+
+An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
+
+### Installing TrollStore
+
+1. Open the `GTA Car Tracker` app
+1. Tap `Register Persistence Helper`
+1. Tap `Install TrollStore`
+
+The TrollStore application will now install to your iOS device.
+
+::::
+
+:::: tab name="TrollInstallerMDC (15.5 to 15.7.1)"
+
+### Requirements
+
+- The Tips app installed to your device
+- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
+
+### Installing the application
+
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+
+The app will now install to your iOS device.
+
+### Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+### Injecting TrollStore Helper
+
+::: warning
+
+If you've already opened Tips, reboot your device before following these steps
+
+:::
+
+1. Open TrollInstallerMDC
+1. Once it says "Successfully replaced Tips binary", close the `TrollInstallerMDC` app
+    - If it gives an error, close TrollInstallerMDC and re-open it 
+
+### Installing TrollStore
+
+1. Open the `Tips` app
+1. Tap `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.
 
@@ -67,9 +101,89 @@ Your device should respring, and TrollStore should now be installed.
 1. Open the `TrollStore` app on your home screen
 1. Press `Settings`, then press `Install Persistence Helper`
 1. Select `Tips` from the list of apps
-1. Reboot your device
 
-Once your device finishes rebooting, open the `Tips` app (which you set as the persistence helper) and press `Refresh App Registrations`.
+::::
+
+:::: tab name="TrollMisaka (15.7.2 to 15.8)"
+
+### Requirements
+
+- The Tips app installed to your device
+- The latest version of [AltServer](http://altstore.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
+- The latest version of [TrollMisaka](https://github.com/straight-tamago/TrollMisaka/releases/latest)
+
+### Installing the application
+
+1. Open AltServer
+1. Plug your iOS device into your computer
+1. Shift-Click (Windows) or Option-Click (macOS) AltServer in the System Tray or Menu Bar
+1. Click `Sideload .ipa`, then select your device
+1. Select the TrollMisaka `.ipa` file
+
+The app will now install to your iOS device.
+
+### Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+The TrollMisaka application can now be opened from home screen.
+
+### Adding a Keyboard
+
+1. Open TrollMisaka, then exit the app *while keeping it in the app switcher*
+1. Go to `Settings` -> `General` -> `Keyboard` -> `Keyboards` -> `Add New Keyboard...`
+1. Select `TrollMisaka`
+1. Tap `TrollMisaka`, then toggle on `Allow Full Access`, then tap `Allow`
+1. Re-open TrollMisaka
+
+After re-opening TrollMisaka, open the app switcher and then reboot your device.
+
+::: danger
+
+Do not fully close TrollMisaka until TrollStore is installed, or you will have to redo the entire guide from the beginning.
+
+:::
+
+### Injecting TrollStore Helper
+
+::: warning
+
+This method may take several tries in order to work successfully.
+
+:::
+
+1. Unlock your device
+1. Immediately open `Spotlight Search` (via swipping down on the middle of the home screen)
+1. Tap the globe icon on the keyboard
+    - If needed, select `TrollMisaka` from the list of keyboards
+1. Tap `kopen`
+    - If the device reboots, try these steps again
+1. Tap `Install TrollStore`
+    - If the keyboard app seemingly refreshes, try again, If it fails, try again in Safari instead.
+
+Once it says it's successful, you can continue with the next section.
+
+### Installing TrollStore
+
+1. Re-open the app switcher
+1. Open the TrollMisaka app *from the app switcher*
+1. Tap `Install TrollStore`
+
+Your device should respring, and TrollStore should now be installed.
+
+### Installing Persistence Helper
+
+1. Open the `TrollStore` app on your home screen
+1. Press `Settings`, then press `Install Persistence Helper`
+1. Select `Tips` from the list of apps
+
+::::
+
+:::::
 
 ## Installing meowbrek2
 
@@ -101,4 +215,4 @@ If the app or your device crashes/restarts unexpectedly and you don't re-enter a
 
 :::
 
-You should now be back in a jailbroken state with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
