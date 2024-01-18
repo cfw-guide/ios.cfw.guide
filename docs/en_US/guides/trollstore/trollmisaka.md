@@ -11,7 +11,7 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 14.0 to 16.6.1
+- A device running iOS/iPadOS 14.0 to 15.8.1
 - The Tips app installed to your device
 - The latest version of [AltServer](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
@@ -34,7 +34,7 @@ The app will now install to your iOS device.
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The TrollStar application can now be opened from home screen.
+The TrollMisaka application can now be opened from home screen.
 
 ::: danger
 
@@ -75,6 +75,7 @@ This method may take several tries in order to work successfully.
 1. Tap `kopen`
     - If the device reboots, try these steps again
 1. Tap `Install TrollStore`
+    - If the keyboard app seemingly refreshes, try again, If it fails, try again in Safari instead.
 
 Once it says it's successful, you can continue with the next section.
 
