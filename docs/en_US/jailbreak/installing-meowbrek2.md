@@ -108,7 +108,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ::: warning
 
-This method may have issues in some cases. If you are having repeated and unresolvable issues, you can follow <router-link to="/installing-meowbrek2-trollstore">Installing meowbrek2 (palera1n)</router-link> instead.
+This method may have issues in some cases. If you are having repeated and unresolvable issues, you can follow <router-link to="/installing-meowbrek2-palera1n">Installing meowbrek2 (palera1n)</router-link> instead.
 
 :::
 
