@@ -106,6 +106,12 @@ Your device should respring, and TrollStore should now be installed.
 
 :::: tab name="TrollMisaka (15.7.2 to 15.8)"
 
+::: warning
+
+This method may have issues in some cases. If you are having repeated and unresolvable issues, you can follow <router-link to="/installing-meowbrek2-trollstore">Installing meowbrek2 (palera1n)</router-link> instead.
+
+:::
+
 ### Requirements
 
 - The Tips app installed to your device

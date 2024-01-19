@@ -18,12 +18,6 @@ If you are using *rootless* palera1n, and set it up **after April 27th, 2023**, 
 
 :::
 
-::: warning
-
-Unless you were having issues with the main guide, it is highly recommended to follow <router-link to="/installing-meowbrek2-trollstore">Installing meowbrek2 (TrollStore)</router-link> instead.
-
-:::
-
 ## Installing palera1n
 
 ::: tip
