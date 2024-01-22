@@ -61,7 +61,7 @@ permalink: /credits
 
 ## Credits
 
-If I forgot you here, contact me and I'll add your name.
+If I forgot you here, contact us or submit an issue and we'll add your name.
 
 <pre>
   + raizo
