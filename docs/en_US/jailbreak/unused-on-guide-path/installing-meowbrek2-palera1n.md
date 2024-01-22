@@ -8,7 +8,7 @@ pkgman: sileo
 
 meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> jailbreak, meaning it requires an app to re-apply the exploit after a reboot.
 
-This tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.8.
+This tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 15.0 to 15.8.1.
 
 ::: warning
 

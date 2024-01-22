@@ -109,7 +109,7 @@ Installing TrollStore is a process which varies depending on what device and iOS
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7</td>
-      <td style="text-align: center; font-weight: bold;">16.7.4</td>
+      <td style="text-align: center; font-weight: bold;">16.7.5</td>
       <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
     <tr>

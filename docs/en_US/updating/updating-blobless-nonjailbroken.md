@@ -15,11 +15,16 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.6.1 (For devices on 14.4.2 or earlier that got 17)** - December 17th, 2023
-- **16.6.1 (All other devices)** - December 20th, 2023
-- **17.0** - December 20th, 2023
-- **17.0.1** - December 25th, 2023
-- **17.0.2** - January 2nd, 2024
+- **17.1** - February 5th, 2024
+- **17.1.1** - February 28th, 2024
+- **16.7.2** - March 9th, 2024
+- **17.1.2** - March 9th, 2024
+- **16.7.3** - March 18th, 2024
+- **17.2 (For iPhones)** - March 18th, 2024
+- **15.8** - April 21st, 2024
+- **16.7.4** - April 21st, 2024
+- **17.2 (For iPads)** - April 21st, 2024
+- **17.2.1** - April 21st, 2024
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -77,8 +82,9 @@ After your device reboots, you should see a notice in Settings that you are supe
 
 1. Open this page on your device
 1. Tap a version below to install its respective update profile:
-    - [15.7.8](/assets/files/delay.mobileconfig)
-    - [16.6](/assets/files/delay.mobileconfig)
+    - [15.8](/assets/files/delay.mobileconfig)
+    - [16.7.2](/assets/files/delay.mobileconfig)
+    - [17.1](/assets/files/delay.mobileconfig)
     - For more firmware versions, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
