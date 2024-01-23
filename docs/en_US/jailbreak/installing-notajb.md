@@ -186,7 +186,7 @@ The Def1nit3lyN0tAJa1lbr3akTool app will now be installed onto your device.
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the Def1nit3lyN0tAJa1lbr3akTool application from your home screen immediately afterwards
-1. Tap "Jailbreak"
+1. Tap "Start"
 
 ::: tip
 
