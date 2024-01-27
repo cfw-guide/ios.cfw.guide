@@ -15,25 +15,17 @@ Pangu9 is capable of jailbreaking every iOS device on firmware version 9.0GM up 
 
 Pangu9 is an untethered jailbreak, meaning that it persists after reboot, so once it's installed you will not have to reinstall it unless you erase your device.
 
-You will need a computer running Windows 7 and newer or a Mac running macOS 10.14 Mojave and the appropriate Pangu.
+You will need a Mac running macOS 10.14 Mojave or earlier in order to use pangu9.
 
-![A screenshot of Pangu9 (Windows)](/assets/images/pangu9-win.png)
-
-## macOS
-
-::: tip
-
-
-### Downloads
+## Downloads
 
 - Version 1.1.1 of [Pangu](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/w00VVQ7J) from the Legacy Jailbreak Archives
 
-### Installing Pangu
+## Installing Pangu9
 
 1. Open the `pangu9_mac_v1.1.1` dmg and move the application to your `/Applications` folder
 1. Open the terminal and run the following command: `sudo -b /Applications/jb9mac.app/Contents/MacOS/jb9mac`
 1. Turn off Find My iPhone.
-1. Open the `Pangu9_1.1` exe.
 1. Plug your device into your computer and trust your computer.
 1. Unlock your device.
 1. Enable Airplane Mode.
@@ -44,36 +36,6 @@ You will need a computer running Windows 7 and newer or a Mac running macOS 10.1
 1. Click Accept, then press ok for accessing Photo Library.
 1. Keep your device plugged in until the jailbreak hits 100% and your device reboots.
 
-
-:::
-
-## Windows
-
-
-::: tip
-
-
-### Downloads
-- Version 1.0-en of [Pangu](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/s91WAaLZ) from the Legacy Jailbreak Archives
-
-### Installing Pangu
-
-1. Turn off Find My iPhone.
-1. Open the `Pangu9_1.1` exe.
-1. Plug your device into your computer and trust your computer.
-1. Unlock your device.
-1. Enable Airplane Mode.
-1. When Pangu9 says the jailbreak is ready, press Start.
-1. Press the 'Already Backup' button.
-1. After the device reboots, unlock it and re-enable airplane mode.
-1. Open the Pangu app.
-1. Click Accept, then press ok for accessing Photo Library.
-1. Keep your device plugged in until the jailbreak hits 100% and your device reboots.
-
-
-:::
-
-----
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
