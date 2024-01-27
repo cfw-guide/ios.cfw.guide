@@ -8,7 +8,7 @@ pkgman: sileo
 
 Def1nit3lyN0tAJa1lbr3akTool is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-The tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 16.0 to 16.5.
+The tool is capable of jailbreaking A11 and earlier devices on iOS/iPadOS versions 16.0 to 16.6.1.
 
 We will first use Sideloadly to sideload either TrollInstallerMDC or TrollStar, then use either TrollInstallerMDC or TrollStar to then install TrollStore, and then install Def1nit3lyN0tAJa1lbr3akTool from there.
 
@@ -94,7 +94,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ::::
 
-:::: tab name="TrollStar (16.2 to 16.5)"
+:::: tab name="TrollStar (16.2 to 16.6.1)"
 
 ### Requirements
 
