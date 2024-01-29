@@ -27,8 +27,8 @@ HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" ta
 </p></div>
 
 - The latest version of HomeDepot for your iOS version:
-  - Home Depot for [iOS 9.1-9.3.4](http://wall.supplies/)
-  - Home Depot for [iOS 8.0-8.4.1](http://wall.supplies/OLD%20iPhone%20HACKED.html)
+  - Home Depot for [iOS 9.1-9.3.4](https://web.archive.org/web/20240121141909/http://wall.supplies/)
+  - Home Depot for [iOS 8.0-8.4.1](https://web.archive.org/web/20240121141903/https://wall.supplies/OLD%20iPhone%20HACKED.html)
     - If you are on iOS 8.0 to 8.4, you also need to get the latest version of the [ohd patcher](https://github.com/LukeZGD/ohd/releases)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
