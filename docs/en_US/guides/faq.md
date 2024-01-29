@@ -112,7 +112,7 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **A7/A8 iPhones**: iOS 12.5.7 (via Odysseyra1n or Chimera)
 - **iPod Touch (6th Generation)**: iOS 12.5.7 (via Odysseyra1n or Chimera)
 - **A8(X) iPads**: iPadOS 15.8 (via palera1n)
-- **iPod Touch (7th Generation)**: iOS 15.8 (via palera1n)
+- **iPod Touch (7th Generation)**: iOS 15.8.1 (via palera1n)
 - **A9/A10 iPhones**: iOS 15.8 (via palera1n)
 - **A9(X) iPads**: iPadOS 16.7.4 (via palera1n)
 - **A10(X) iPads**: iPadOS 17.1.2 (via palera1n)
