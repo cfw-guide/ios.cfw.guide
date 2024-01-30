@@ -32,7 +32,7 @@ Installing TrollStore is a process which varies depending on Apple TV and tvOS y
 
 ::: danger
 
-If your device is on tvOS 13.4.8 and older, is running tvOS 14.0 *beta 1*, or is running tvOS 17.1 or newer, it will **never** be supported by TrollStore.
+If your device is on tvOS 14.0 *beta 1* or earlier, or is running tvOS 17.1 or newer, it will **never** be supported by TrollStore.
 
 :::
 
@@ -55,12 +55,7 @@ If your device is on tvOS 13.4.8 and older, is running tvOS 14.0 *beta 1*, or is
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">13.4.8 and earlier</td>
-      <td style="text-align: center;" colspan="2">Unsupported</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">14.0 beta 1</td>
-      <td style="text-align: center; font-weight: bold;">14.0 beta 1</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">14.0 beta 1 and earlier</td>
       <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
     <tr>
