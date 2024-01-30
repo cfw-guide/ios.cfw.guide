@@ -22,7 +22,7 @@ extra_contributors:
 
 A11 and earlier devices are supported on iOS 15.0 to 15.5 beta 4 and 15.6 beta 1 to 15.6 beta 5
 
-A12 and later devices are supported on iOS 14.0 to 15.6.1
+A12 and later devices are supported on iOS 14.0 beta 2 to 15.6.1
 
 :::
 

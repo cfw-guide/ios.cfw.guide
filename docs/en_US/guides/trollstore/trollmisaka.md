@@ -11,7 +11,7 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 14.0 to 15.8.1
+- A device running iOS/iPadOS 15.0 to 15.8.1
 - The Tips app installed to your device
 - The latest version of [AltServer](http://altstore.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows

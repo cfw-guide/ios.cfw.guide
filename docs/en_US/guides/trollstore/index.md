@@ -9,6 +9,7 @@ hero: false
 redirect_from:
   - /trollstore
 extra_contributors:
+  - alfiecg24
   - opa334
   - iCraze
 ---
@@ -27,9 +28,15 @@ TrollStore is **not** a jailbreak.
 
 :::
 
-TrollStore is a tool which uses a codesign bypass as well as another exploit in order to permanently sign any app with any entitlements which are necessary for the apps functioning.
+TrollStore is a tool which uses a CoreTrust bug in order to permanently sign any app with any entitlements which are necessary for the apps functioning.
 
 Installing TrollStore is a process which varies depending on what device and iOS you are running, as a result, different guides are attached below depending on said combination
+
+::: danger
+
+If your device is on iOS 13.7 and older, is running iOS 14.0 *beta 1*, is running iOS 16.7.x (excluding 16.7 RC (20H18)), or is running iOS 17.0.1 or newer, it will **never** be supported by TrollStore.
+
+:::
 
 ---
 
@@ -54,7 +61,12 @@ Installing TrollStore is a process which varies depending on what device and iOS
       <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">14.0</td>
+      <td style="text-align: center; font-weight: bold;">14.0 beta 1</td>
+      <td style="text-align: center; font-weight: bold;">14.0 beta 1</td>
+      <td style="text-align: center;" colspan="2">Unsupported</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">14.0 beta 2</td>
       <td style="text-align: center; font-weight: bold;">14.8.1</td>
       <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
       <td style="text-align: center;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
@@ -124,9 +136,3 @@ Installing TrollStore is a process which varies depending on what device and iOS
     </tr>
   </tbody>
 </table>
-
-::: danger
-
-If your device is on iOS 13.7 and older, is running iOS 16.7.x (excluding 16.7 RC (20H18)), or is running iOS 17.0.1 or newer, it will **never** be supported by TrollStore.
-
-:::
