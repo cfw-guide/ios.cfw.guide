@@ -83,12 +83,15 @@ export default {
 
             let verStr, imgUrl
             if (oldFw) {
-                verStr = findiOSVersion.verStr.old
+                verStr = this.themeLocaleData.firmwareSelection.findiOSVersion.verStr.old
                 imgUrl = iPad ?
-                findiOSVersion.image.ipadOld : findiOSVersion.image.iphoneOld
+                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.ipadOld :
+                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.iphoneOld
             } else {
-                verStr = findiOSVersion.verStr.new
-                imgUrl = iPad ? findiOSVersion.image.ipad : findiOSVersion.image.iphone
+                verStr = this.themeLocaleData.firmwareSelection.findiOSVersion.verStr.new
+                imgUrl = iPad ?
+                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.ipad :
+                    this.themeLocaleData.firmwareSelection.findiOSVersion.image.iphone
             }
 
             if (AppleTV) {
