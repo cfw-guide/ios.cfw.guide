@@ -24,6 +24,12 @@ We will use Sideloadly to install the backr00m jailbreak application to your App
 
 ## Installing the application
 
+::: warning
+
+As the Apple TV 4K does not have a USB-C port, you will need to instead navigate to Settings > Remote Apps & Devices > Remote Devices on your Apple TV, rather than plugging it in.
+
+:::
+
 1. Open Sideloadly
 1. Plug your Apple TV into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device

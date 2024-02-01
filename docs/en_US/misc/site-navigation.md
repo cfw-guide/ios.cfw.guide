@@ -47,8 +47,8 @@ sidebar: false
 
 ## AppleTV Jailbreaks/Methods
 
--   <router-link to="/installing-checkra1n-tv">Installing checkra1n (AppleTV)</router-link>
--   <router-link to="/using-odysseyn1x-tv">Using Odysseyn1x (AppleTV)</router-link>
+-   <router-link to="/installing-checkra1n-tv">Installing checkra1n (Apple TV)</router-link>
+-   <router-link to="/using-odysseyn1x-tv">Using Odysseyn1x (Apple TV)</router-link>
 -   <router-link to="/installing-chimeratv">Installing ChimeraTV</router-link>
 -   <router-link to="/installing-electratv">Installing ElectraTV</router-link>
 -   <router-link to="/installing-backr00m">Installing backr00m</router-link>
