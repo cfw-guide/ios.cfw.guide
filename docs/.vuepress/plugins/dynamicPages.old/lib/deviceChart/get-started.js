@@ -25,6 +25,7 @@ function getMajFw(fwStr) {
 
 function getDeviceType(deviceType) {
   if (deviceType == deviceStrings.mini || deviceType == deviceStrings.Air || deviceType == deviceStrings.Pro) return deviceStrings.iPad
+  if (deviceType == deviceStrings.TV) return deviceStrings.TV
   return deviceType
 }
 
@@ -70,9 +71,11 @@ function getFindVersion(deviceType, minFw) {
   if (getMajFw(minFw) < 11) {
     verStr = findVer.verStr.old
     imgUrl = findVer.image.iphoneOld
+
+    if (getDeviceType(deviceType) == 'iPad') imgUrl = findVer.image.ipadOld
   }
   
-  if (getMajFw(minFw) < 11 && getDeviceType(deviceType) == 'iPad') imgUrl = findVer.image.ipadOld
+  if (deviceType == 'Apple TV') imgUrl = null
   
   const instructionsConst = findVer.instructions;
   var instructions = [];

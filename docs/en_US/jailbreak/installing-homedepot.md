@@ -10,6 +10,8 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 extra_contributors:
   - TheHacker894
+  - WhitetailAni
+  - LukeZGD
 ---
 
 HomeDepot is capable of jailbreaking every 32-bit iOS device on firmware version 9.1 up to 9.3.4, as well as A5(X) devices on 8.0 to 8.4.1.
@@ -72,7 +74,7 @@ This is only needed on iOS 8.0 to 8.4, it is not needed for iOS 8.4.1 or for iOS
 1. Drag and drop the HomeDepot `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
@@ -111,7 +113,7 @@ You will have to use Cydia to install the untether. If you are unfamiliar with h
 
 1. Open the Cydia application
 1. Check the "Sources" tab and ensure "tihmstar's beta repo" is added
-    - If you can't find it, tap `Edit` -> `+` and enter `repo.tihmstar.net`
+    - If you can't find it, tap `Edit` -> `+` and enter `thanos.lol`
 1. Open the "Search" tab and enter "UntetherHomeDepot"
 1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
 1. Confirm the installation

@@ -27,7 +27,7 @@ module.exports = function(themeLocale, localePath) {
     for (const p in app.pages) {
       const page = app.pages[p]
       const fm = page.frontmatter
-      if (!fm.hasOwnProperty('pkgman')) continue
+      if (!fm.hasOwnProperty('pkgman') || fm.pkgman == 'none') continue
       ret.push({
         path: page.path.replace('index.html', '').replace('.html','\/') + `using-${fm.pkgman}.html`,
         frontmatter: {

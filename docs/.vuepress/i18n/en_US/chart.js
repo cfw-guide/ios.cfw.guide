@@ -28,11 +28,11 @@ module.exports = {
     },
     getStarted: {
       pageTitle: "Get Started",
-      description: "Find out what jailbreaks you can use on your iOS Device",
+      description: "Find out what jailbreaks you can use on your iOS or tvOS Device",
       requiredReading: {
         title: "Required Reading",
         content: [
-          "Different devices will require different steps to jailbreak your iOS device. This page will help you find where to start.",
+          "Different devices will require different steps to jailbreak your iOS or tvOS device. This page will help you find where to start.",
           "Please select what kind of device you have below."
         ]
       }
@@ -53,14 +53,21 @@ module.exports = {
         verStr: {
           old: "Version",
           new: "Software Version",
+          tvOld: "Apple TV Software",
+          tvNew: "tvOS" //I think I set this up right? it changes depending on whether you're on TV Software or tvOS.
         },
-        instructions: "1. Open the Settings application\n1. Navigate to `General\` -> `About` -> `${verStr}`",
+        instructions: {
+          ios: "1. Open the Settings application\n1. Navigate to `General\` -> `About` -> `${verStr}`",
+          tv: "1. Open the Settings application\n1. Navigate to `General\` -> `About` -> `${verStr}`",
+        },
         image: { // For translating, you can take an identical screenshot of these images in the language that you're translating to
-          altText: "Finding iOS version on an ${deviceType}",
+          altText: "Finding your ${osStr} version on an ${deviceType}",
           iphone: "/assets/images/find-version.jpg",
           ipad: "/assets/images/find-version-ipad.jpg",
           iphoneOld: "/assets/images/find-version-old.jpg",
           ipadOld: "/assets/images/find-version-ipad-old.jpg",
+          tvOld: "/assets/images/find-version-tv-old.jpg",
+          tvNew: "/assets/images/find-version-tv-new.jpg" 
         },
       }
     },
