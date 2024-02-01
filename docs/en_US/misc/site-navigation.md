@@ -45,6 +45,18 @@ sidebar: false
 -   <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 -   <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
 
+## AppleTV Jailbreaks/Methods
+
+-   <router-link to="/installing-checkra1n-tv">Installing checkra1n (AppleTV)</router-link>
+-   <router-link to="/using-odysseyn1x-tv">Using Odysseyn1x (AppleTV)</router-link>
+-   <router-link to="/installing-chimeratv">Installing ChimeraTV</router-link>
+-   <router-link to="/installing-electratv">Installing ElectraTV</router-link>
+-   <router-link to="/installing-backr00m">Installing backr00m</router-link>
+-   <router-link to="/installing-libertv">Installing LiberTV</router-link>
+-   <router-link to="/installing-blackb0x">Installing blackb0x</router-link>
+-   <router-link to="/using-checkm8-a5">Using checkm8-a5</router-link>
+-   <router-link to="/installing-patchstick">Installing Patchstick</router-link>
+
 ## Other Jailbreaks/Methods
 
 -   <router-link to="/installing-meowbrek2-palera1n">Installing meowbrek2 (palera1n)</router-link>
