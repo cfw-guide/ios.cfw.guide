@@ -13,8 +13,6 @@ Patchstick is capable of untether jailbreaking the Apple TV 1 on Apple TV Softwa
 
 Patchstick is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered</router-link> jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes or Finder (macOS Catalina and newer).
 
-THIS IS IN PROGRESS PLEASE DO NOT MERGE
-
 ## Requirements
 
 - A computer with at least one free USB-A port
