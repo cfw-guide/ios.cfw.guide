@@ -52,15 +52,22 @@ module.exports = {
         title: 'Trovare la tua ${osStr} versione',
         verStr: {
           old: 'Versione',
-          new: 'Versione del Software'
+          new: 'Versione del Software',
+          tvOld: "Apple TV Software",
+          tvNew: "tvOS" 
         },
-        instructions: "1. Apri l'app Impostazioni\n1. Entra in `Generali` -> `Info` -> `${verStr}`",
+        instructions: {
+          ios: "1. Apri l'app Impostazioni\n1. Entra in `Generali` -> `Info` -> `${verStr}`",
+          tv: "1. Open the Settings application\n1. Navigate to `General\` -> `About` -> `${verStr}`",
+        },
         image: { // For translating, you can take an identical screenshot of these images in the language that you're translating to
           altText: 'Trovare la versione di iOS su ${deviceType}',
           iphone: '/assets/images/find-version.jpg',
           ipad: '/assets/images/find-version-ipad.jpg',
           iphoneOld: '/assets/images/find-version-old.jpg',
-          ipadOld: '/assets/images/find-version-ipad-old.jpg'
+          ipadOld: '/assets/images/find-version-ipad-old.jpg',
+          tvOld: "/assets/images/find-version-tv-old.jpg",
+          tvNew: "/assets/images/find-version-tv-new.jpg"
         }
       }
     },
