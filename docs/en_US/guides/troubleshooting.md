@@ -314,3 +314,27 @@ This error indicates that the developer of the tweak you are trying to install/r
 In May 2021, Procursus attempted to migrate to a version of dpkg that no longer handles this install error, as developers should have included the `#!/bin/sh` or `#!/bin/bash` calls in their scripts. At the time of writing, the lead developer of Procursus has created a patch, `libiosexec`, that re-adds this error handling. If you still encounter this error, you may not have updated for a while.
 
 :::
+
+### nitoTV issues
+
+The application doesn't launch
+
+1. If nitoTV fails to open upon when clicking on the application, could be the result of the device being in an unjailbroken state. This occurs when the Apple TV reboots or has been shut down and powered back on.
+1. Reinitiating the jailbreak it will bring nitoTV back to full functionality. This could be via checkra1n or by launching any of the other jailbreaks tools and clicking `Jailbreak`.
+
+It fails to install/download/search for updates
+
+1. Open nitoTV and navigate to the `Sources` tab at the top bar and highlight the `nitoTV` repository. Click and hold the trackpad button for one second then releasing will prompt to remove the repository. Once deleted, click `Add` and enter the following repositoy URL: [`https://nitosoft.com/checkra1n/`] then click `Okay`. After a few moments, the repository should show on the list. Once done, initiate the app multitasker and swipe up on nitoTV to terminate the app, then relaunch nitoTV from the homescreen.
+
+nitoTV crashes when adding new repositories
+
+1. Open nitoTV and navigate to the `Installed` tab at the top bar and highlight `nitoTV`. Click `Modify` below the app name and select `Downgrade` then choose the selected version that works best. Another possible way to fix this issue is to log in via SSH. This can be done by locating your Apple TV Devices IP address and using the command `ssh root@Apple TV IP Address` then using `alpine` as the password  to log in. After logging in, type in the following command to add the repository of your choice: `scho "deb URL_ADDRESS`
+
+Issues with respringing
+
+1. In some occurances, nitoTV will need to be terminated from the multitasker window. This is done by pressing the TV button twice on the Siri Remote.
+
+Apps won't appear
+
+1. A simple respring can fix these odd situations. Double-check the console log for any errors and feel free to join the discord channel for further guidance.
+
