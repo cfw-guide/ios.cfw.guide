@@ -14,7 +14,11 @@ nitoTV is a package manager that has been used since the start of jailbreaking A
 
 <p><router-link to="/faq/#what-s-a-repo">Repositories</router-link> are essentially databases that contain lots of tweaks for you to install. When you add repos to nitoTV, you will be able to install the tweaks on it, and look for them using the search function.</p>
 
-Keeping in mind, most iOS repositories DO NOT work with tvOS!
+:::
+
+Keeping in mind, most iOS repositories will not work with tvOS!
+
+:::
 
 This guide will show you how you can install and uninstall tweaks, and add different repos.
 
