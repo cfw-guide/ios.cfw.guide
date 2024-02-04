@@ -34,7 +34,7 @@ The app will now install to your iOS device.
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The TrollMisaka application can now be opened from home screen.
+The TrollMisaka application can now be opened from the home screen.
 
 ::: danger
 
