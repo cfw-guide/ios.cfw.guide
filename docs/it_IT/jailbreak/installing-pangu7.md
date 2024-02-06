@@ -6,7 +6,7 @@ permalink: /it_IT/installing-pangu7
 redirect_from:
   - /it_IT/pangu712
   - /it_IT/pangu7
-discordNoticeText: Per supporto in inglese, chiedi aiuto sul r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: Per supporto in inglese, chiedi aiuto sul [Server Discord](http://discord.legacyjailbreak.com/) di r/LegacyJailbreak.
 pkgman: cydia
 extra_contributors:
   - hopolapopola
@@ -16,14 +16,13 @@ Pangu7 è in grado di eseguire il jailbreak di tutti i dispositivi iOS con una v
 
 Pangu7 è un jailbreak untethered, persiste dopo il riavvio, quindi una volta installato non dovrai reinstallarlo a meno che non inizializzi il dispositivo.
 
-Avrai bisogno di un computer con Windows 7 o più recente o un Mac con macOS Mojave 10.14 e l'appropriata versione di Pangu.
+Avrai bisogno di un computer con Windows XP e più recente o un Mac con Mac OS X 10.9 Mavericks - macOS 10.14 Mojave e l'appropriata versione di Pangu.
 
 ![Uno screenshot di Pangu7 (Windows)](/assets/images/pangu7-win.png)
 
-## macOS
+::::: tabs
 
-::: tip
-
+:::: tab name="macOS" :default="true"
 
 ### Download
 
@@ -42,21 +41,15 @@ Avrai bisogno di un computer con Windows 7 o più recente o un Mac con macOS Moj
 1. Il tuo dispositivo si riavvierà dopo un breve periodo, quindi dovrai sbloccarlo
 1. Attendi un po' e il dispositivo si riavvierà ancora una volta
 
+::::
 
-
-:::
-
-## Windows
+:::: tab name="Windows"
 
 ::: danger
 
-
-Ti imbatterai in un bootloop se esegui il jailbreak del tuo dispositivo mentre sei al buio
-
+Ti imbatterai in un bootloop se esegui il jailbreak del tuo dispositivo mentre sei in uno spazio buio
 
 :::
-
-::: tip
 
 
 ### Download
@@ -75,20 +68,21 @@ Ti imbatterai in un bootloop se esegui il jailbreak del tuo dispositivo mentre s
 1. Il tuo dispositivo si riavvierà dopo un breve periodo, quindi dovrai sbloccarlo
 1. Attendi un po' e il dispositivo si riavvierà ancora una volta
 
-### Fixare i bootloop durante l’avvio del dispositivo al buio
+### Risolvere i bootloop durante l’avvio del dispositivo al buio
 
 1. Sblocca il dispositivo e apri Cydia
 1. Clicca su `Ignore (Temporary)`
 1. Apri la sezione Sources
 1. Clicca su `Edit` poi `Add`
-1. Digita `https://repo.kawaiizenbo.me` e poi premi `Add repo`
+1. Digita `http://repo.kawaiizenbo.me` e poi premi `Add repo`
 1. Clicca sulla nuova sorgente `KawaiiZenbo's Cydia repository`
 1. Clicca su `System`, `Pangu 7.1-7.1.x Untether`
 1. Clicca su `Install`, `Confirm`
 1. Riavvia il dispositivo una volta installato il pacchetto
 
+::::
 
-:::
+:::::
 
 ----
 

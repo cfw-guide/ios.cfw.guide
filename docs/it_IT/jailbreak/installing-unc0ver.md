@@ -16,7 +16,7 @@ extra_contributors:
 
 unc0ver è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
-Questo tool è in grado di eseguire il Jailbreak su quasi tutti i dispositivi iOS su una versione del firmware che va da 11.0 a 14.8, tuttavia, lo utilizzeremo solo per eseguire il jailbreak in dispositivi la quale non è disponibile un'opzione più semplice.
+Questo tool è in grado di eseguire il Jailbreak su quasi tutti i dispositivi iOS su una versione del firmware che va da 11.0 a 14.8 (escluso iOS 12.5.6), tuttavia, lo utilizzeremo solo per eseguire il jailbreak dei dispositivi il quale non è disponibile un'opzione più semplice.
 
 A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/it_IT/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
 
@@ -48,6 +48,7 @@ unc0ver è attualmente firmato su <a href="https://jailbreaks.app/" target="_bla
 
 - Versione 5.3.1 di [unc0ver](https://unc0ver.dev/downloads/5.3.1/72004596b31ba3eae886ac6cc781725879d3b7a4/unc0ver_5.3.1.ipa)
   - Agli utenti con una versione del firmware 12.4.9 - 12.5.4, 13.5.1 - 14.3 è consigliato invece di scaricare la versione 6.1.1 di [unc0ver](https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa)
+  - Agli utenti con una versione del firmware 12.5.5 è consigliato invece di scaricare la versiobe 7.0.2 di [unc0ver](https://unc0ver.dev/downloads/7.0.2/11c3f7b0eea806ba3cac975f74dcc2cc4e916bac/unc0ver_Release_7.0.2.ipa)
   - Agli utenti con una versione del firmware 12.5.5 o con un iPhone A12 o A13 è consigliato invece di scaricare l'ultima versione [unc0ver](https://unc0ver.dev)
 - L'ultima versione di [Sideloadly](https://sideloadly.io/)
 - L'ultima versione di [iTunes](https://www.apple.com/itunes/download/win32) se sei su Windows
@@ -62,7 +63,7 @@ unc0ver è attualmente firmato su <a href="https://jailbreaks.app/" target="_bla
 1. Trascina il file `.ipa` di unc0ver su Sideloadly
 1. Inserisci il tuo Apple ID
 1. Inserisci la tua password
-    - Sideloadly deve fare una richiesta al server per funzionare con gli account Apple ID gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
+    - Sideloadly deve fare una richiesta ai suoi server per funzionare con gli account sviluppatore gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
 
 L’app verrà adesso installata sul tuo dispositivo iOS.
 
@@ -104,6 +105,9 @@ Adesso dovresti essere jailbroken con Cydia installato nella home screen. Puoi u
 
 ::: tip
 
-Se desideri utilizzare un gestore di pacchetti più moderno, continua con <router-link to="/it_IT/installing-sileo">Installazione Sileo</router-link>
+Se si desidera utilizzare un gestore di pacchetti più moderno, continua a seconda della versione di iOS:
+
+- Se si è su iOS 12 o successivi, continua com <router-link to="/installing-sileo">Installare Sileo</router-link>
+- Se si è su iOS 11 o successivi, continua con <router-link to="/installing-zebra">Installare Zebra</router-link>
 
 :::

@@ -29,7 +29,7 @@ URL: [`https://getsileo.app/`](https://getsileo.app/)
 
 Cydia è un Gestore di Pacchetti che è stato a lungo considerato il volto del jailbreaking, essendo il gestore di pacchetti di scelta per la maggior parte dei jailbreak. [Saurik](https://twitter.com/saurik), il creatore originale di Cydia, ha smesso di mantenere il progetto, ma negli ultimi anni [Sam Bingner](https://twitter.com/sbingner) ha aggiornato il software per dispositivi e versioni di iOS moderne.
 
-Cydia è installato di default su unc0ver, checkra1n e altri jailbreak più vecchi. Puoi anche scegliere di installarlo su Odyssey o Chimera se lo si desideri.
+Cydia è installato di default su unc0ver, checkra1n e altri jailbreak più vecchi.
 
 ### Installer 5
 
@@ -44,14 +44,3 @@ URL: [`https://apptapp.me/repo/`](https://apptapp.me/repo/)
 Zebra è un gestore di pacchetti più recente, che fornisce supporto per iOS 9 e successivi. È open source, e dispone di un'interfaccia utente molto più familiare per gli utenti di Cydia rispetto ad altri gestori di pacchetti.
 
 URL: [`https://getzbra.com/`](https://getzbra.com/)
-
-
-<!--
-### Saily
-
-Saily is an extremely recent package manager released in September of 2021, which provides support for iOS 13 and above.
-
-We don't recommend this package manager currently due to the following:
-- It has violated licenses of other package managers (such as Sileo) and continues to do so.
-- It can sometimes cause issues with dpkg, which can lead to you needing to restore rootfs, or, in the worst case scenario (if using unc0ver on iOS versions 14.6 to 14.8) being unable to rejailbreak or restore rootfs at all, and, therefore, putting you into a state where you will not be able to jailbreak at all.
--->

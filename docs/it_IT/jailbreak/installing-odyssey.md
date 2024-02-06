@@ -33,7 +33,7 @@ Se attualmente hai eseguito il jailbreak tramite un altro tool (escluso Odysseyr
 Odyssey è attualmente firmato su <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> per una installazione più facile che non richiede un computer.
 </p></div>
 
-- L’ultima versione di [Odyssey](https://theodyssey.dev)
+- L’ultima versione di [Odyssey](https://theodyssey.dev/)
 - L’ultima versione di [Sideloadly](https://sideloadly.io/)
 - L’ultima versione di [iTunes](https://www.apple.com/itunes/download/win32) se sei su Windows
 
@@ -47,7 +47,7 @@ Odyssey è attualmente firmato su <a href="https://jailbreaks.app/" target="_bla
 1. Trascina il file `.ipa` di Odyssey su Sideloadly
 1. Inserisci il tuo Apple ID
 1. Inserisci la tua password
-    - Sideloadly deve fare una richiesta al server per funzionare con gli account Apple ID gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
+    - Sideloadly deve fare una richiesta ai suoi server per funzionare con gli account sviluppatore gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
 
 L’app verrà adesso installata sul tuo dispositivo iOS.
 

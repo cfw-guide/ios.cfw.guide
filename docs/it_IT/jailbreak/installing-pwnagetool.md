@@ -5,8 +5,10 @@ description: Guida per l’installazione di PwnageTool
 permalink: /it_IT/installing-pwnagetool
 redirect_from:
   - /it_IT/pwnagetool
-discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: Per supporto in inglese, chiedi aiuto sul [Server Discord](http://discord.legacyjailbreak.com/) di r/LegacyJailbreak.
 pkgman: cydia
+extra_contributors:
+  - WhitetailAni
 ---
 
 PwnageTool è in grado di eseguire il jailbreak dei dispositivi pre-A5 su iOS 1.1.4-5.1.1 - anche se il supporto può variare pesantemente.
@@ -21,7 +23,7 @@ Per utilizzare PwnageTool, è necessario un Mac che esegue macOS Mavericks o pre
 ## Download
 
 - Le versioni di[PwnageTool](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/folder/swVhVKYB) per la tua versione di ios dall'archivio di r/LegacyJailbreak
-    - Se stai usando un iPhone 2G o iPod Touch 1/2, scarica PwnageTool 3.1.5.
+    - If you're using a iPhone 2G or iPod Touch 1/2 or jailbreaking iPhone OS 2, download PwnageTool 3.1.5.
 
 ## Installare PwnageTool
 

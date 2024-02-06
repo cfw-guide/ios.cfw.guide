@@ -15,14 +15,9 @@ module.exports = [
                 link: '/it_IT/blocking-jailbreak-detection/'
             },
             {
-                text: 'FutureRestore',
-                link: '/it_IT/futurerestore/'
+                text: 'Installare TrollStore',
+                link: '/installing-trollstore/'
             },
-            /*
-      {
-        text: 'Updating (Dallas)',
-        link: '/it_IT/updating-dallas/',
-      },*/
             {
                 text: 'Aggiornare (Blobless)',
                 link: '/it_IT/updating-blobless/'

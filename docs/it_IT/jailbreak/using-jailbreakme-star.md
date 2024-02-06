@@ -8,8 +8,10 @@ redirect_from:
   - /it_IT/installing-star
   - /it_IT/star
   - /it_IT/jailbreakme-star
-discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: Per supporto in inglese, chiedi aiuto sul [Server Discord](http://discord.legacyjailbreak.com/) di r/LegacyJailbreak.
 pkgman: cydia
+extra_contributors:
+  - WhitetailAni
 ---
 
 JailbreakMe Star è in grado di eseguire il jailbreak di ogni dispositivo su iPhone OS 3.1.2-4.0.1 tranne l'iPad 1a Generazione su iPhone OS 3.2.2.

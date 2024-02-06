@@ -5,10 +5,10 @@ const getStarted = {
 const guides = {
   text: 'Guide',
   children: [
-    '/it_IT/saving-blobs/',
     '/it_IT/sideloading-apps/',
     '/it_IT/blocking-jailbreak-detection/',
     '/it_IT/updating-blobless/',
+    '/installing-trollstore/',
     {
       text: 'FutureRestore',
       link: '/it_IT/futurerestore/'
@@ -30,9 +30,9 @@ const pkgman = {
 const jailbreaking = {
   text: 'Jailbreaking',
   children: [
-    '/it_IT/installing-odysseyra1n/',
-    '/it_IT/installing-unc0ver/',
-    '/it_IT/installing-chimera/'
+    '/installing-palera1n',
+    '/installing-meowbrek2',
+    '/installing-dopamine/'
   ]
 };
 const troubleshooting = {

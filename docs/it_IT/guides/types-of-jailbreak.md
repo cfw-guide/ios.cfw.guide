@@ -15,7 +15,7 @@ Non tutti i jailbreak funzionano allo stesso modo. Questa pagina ti guiderà att
 
 Ci sono 4 tipi principali di jailbreak:
 
-- Completamente Untethered
+- Untethered
 - Semi-Untethered
 - Semi-Tethered
 - Tethered
@@ -31,11 +31,11 @@ I jailbreak Untethered possono essere considerati il santo graal di tutti i jail
 
 Dopo di che, il dispositivo sarà completamente jailbroken e non richiederà ulteriori azioni. L'exploit rimarrà installato sul dispositivo anche dopo il riavvio.
 
-Sfortunatamente, da molto tempo non c'è stato un nuovo jailbreak untethered, ed è probabile che non ne vedremo uno per un tempo ancora più lungo.
+Purtroppo, da molto tempo non viene rilasciato un nuovo jailbreak untethered per utenti finali, ed è probabile che non ne vedremo uno per ancora molto.
 
 L'unica pecca di un jailbreak untethered è che se qualcosa va storto, cis i potrebbe imbattere in un bootloop che richiede il ripristino del dispositivo tramite iTunes o Finder (macOS Catalina o più recente). La probabilità che questo accada è _bassa_, ma è effettivamente possibile.
 
-Alcuni esempi di jailbreak untethered sono [p0sixspwn](installing-p0sixspwn) e Pangu9.
+Alcuni esempi di jailbreak untethered sono <router-link to="/installing-p0sixspwn">p0sixspwn</router-link> e Pangu9.
 
 ### Jailbreak semi-Untethered
 ---
@@ -44,11 +44,9 @@ I jailbreak semi-untethered sono stati il tipo di jailbreak più popolare negli 
 
 <img src="/assets/images/odysseymain.png" width="180" alt="Uno screenshot del jailbreak di Odyssey" class="align-right" />
 
-Questo jailbreak funziona eseguendo l'exploit attraverso un'app sul dispositivo stesso. L'app, tuttavia, deve essere ri-firmata ogni 7 giorni se viene sideloadata con un ID Apple standard. Utility come AltStore, ReProvision Reborn, e AltDaemon rendono questo processo molto più facile.
+Questo jailbreak funziona tramite l'esecuzione dell'exploit attraverso un'app o un sito web sul dispositivo stesso. Data la natura di come l'exploit viene eseguito, questi jailbreak sono facilmente removibili dalla loro app.
 
-A causa della natura di come l'exploit viene applicato, questi jailbreak sono facilmente rimovibili attraverso la loro rispettiva app.
-
-Alcuni esempi di jailbreak semi-untethered includono <router-link to="/it_IT/installing-taurine">Taurine</router-link>, <router-link to="/it_IT/installing-unc0ver">unc0ver</router-link>, e <router-link to="/it_IT/installing-odyssey">Odyssey</router-link>.
+Alcuni esempi di jailbreak semi-untethered includono <router-link to="/installing-taurine">Taurine</router-link>, <router-link to="/installing-dopamine">Dopamine</router-link>, e <router-link to="/installing-odyssey">Odyssey</router-link>.
 
 ### Jailbreak semi-Tethered
 ---
@@ -59,7 +57,7 @@ I jailbreak semi-tethered sono molto simili ai jailbreak semi-untethered, tuttav
 
 A causa della necessità di un computer per ri-eseguire il jailbreak dopo ogni riavvio, la maggior parte sceglie invece di utilizzare un jailbreak semi-untethered.
 
-Un esempio di un jailbreak semi-tethered è <router-link to="/it_IT/installing-odysseyra1n">Odysseyra1n</router-link>.
+Esempi di jailbreak semi-tethered includono <router-link to="/installing-palera1n">palera1n</router-link> e <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link>.
 
 ### Jailbreak Tethered
 ---

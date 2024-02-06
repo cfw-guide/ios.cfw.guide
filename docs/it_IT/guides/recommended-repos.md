@@ -7,6 +7,7 @@ redirect_from:
   - /it_IT/repos
 extra_contributors:
   - TheHacker894
+  - itsnebulalol
 ---
 
 Dopo aver installato il jailbreak, potresti voler installare alcune repo (<router-link to="/it_IT/faq#repos">repository</router-link>). È possibile utilizzare queste per installare più tweak sul dispositivo. Per iniziare, ecco un elenco di alcune repo consigliate. Molte di queste potrebbero già essere installate sul tuo dispositivo!
@@ -33,6 +34,8 @@ URL: [`https://havoc.app/`](https://havoc.app/)
 
 La repo di SparkDev's include una serie di nuovi tweak che possono migliorare iOS, molti sono incentrati su iPhone X, tra cui un'esperienza OLED sempre impressionante.
 
+Un pacchetto che la maggior parte delle persone installa dalla repo di SparkDev è SnowBoard, che può personalizzare ed eseguire il theming di, icone, elementi dell'interfaccia utente e altro ancora.
+
 URL: [`https://sparkdev.me/`](https://sparkdev.me/)
 
 ## 1Conan's Repo
@@ -41,7 +44,7 @@ Questa repo è piccola, ma include un tool fondamentale: TSS Saver. Consente di 
 
 Il salvataggio di questi ti permetterà di aggiornare e downgradare alla versione specifica del firmware disponibile quando hai salvato i blobs.
 
-È importante salvarli con questo tool ogni volta che un nuovo aggiornamento viene rilasciato.
+È importante salvarli con questo tool ogni volta che un nuovo aggiornamento viene rilasciato. Per maggiori informazioni sui blobs, vai alla <router-link to="/saving-blobs">guida per il salvataggio dei Blobs</router-link>.
 
 URL: [`http://repo.1conan.com/`](http://repo.1conan.com/)
 

@@ -15,6 +15,7 @@ extra_contributors:
   - hopolapopola
   - wr3nch3000
   - Tanbeer191
+  - itsnebulalol
 ---
 
 Questo ti guiderà nel processo di salvataggio dei blobs che sono necessari se si desidera effettuare il downgrade ad una versione di iOS o iPadOS più vecchia e non più firmata. Ci sono diversi metodi che puoi provare. Per i dispositivi unjailbroken, è necessario utilizzare il metodo "Computer".
@@ -150,7 +151,58 @@ Se hai *aggiornato* usando un computer, i tuoi blobs saranno "Update" blobs, e p
 
 ### Salvare i Blobs Onboard
 
-1. Aggiungi la repo [https://apt.arx8x.net](https://apt.arx8x.net) sul tuo <router-link to="/it_IT/package-managers">gestore di pacchetti preferito</router-link>
+### Utilizzando Deverser
+
+::: danger
+
+Per utilizzare questo metodo è necessario un pc Linux o macOS e un dispositivo jailbroken con OpenSSH installato.
+
+Su checkra1n/odysseyra1n, non hai bisogno di OpenSSH, ma è consigliato per i principianti.
+
+:::
+
+1. Sul tuo pc Linux o macOS, esegui `git clone https://github.com/joshuah345/deverser.git && cd deverser` per scaricare la sorgente di Deverser da GitHub
+    - Se hai già fatto ciò, esegui `cd deverser` e `git pull` per ottenere le ultime modifiche
+2. Esegui `chmod +x deverser.sh` per consentirne l'esecuzione, poi esegui `./deverser.sh` per avviare lo script
+3. Rispondi `Yes` se viene chiesto di installare img4tool
+    - img4tool converte il file grezzo nel tuo blob SHSH utilizzabile
+4. Inserisci l'indirizzo IP del dispositivo
+    - Su checkra1n/odysseyra1n, puoi eseguire iproxy se vuoi.
+        - Su macOS, in un'altra finestra terminale, installa libimobiledevice con `brew install libimobiledevice libirecovery`, poi esegui `sudo iproxy 22 44`
+        - Su Linux, è consigliaro utilizzare OpenSSH sul dispositivo, ma se si desidera installare manualmente libimobiledevice, un link ai binary sono [qui](https://cadoth.net/~nyuszika7h/ios-builds/libimobiledevice-static-linux.tar.gz)
+    - Per utilizzare OpenSSH, installalo sul tuo dispositivo e ottieni l'indirizzo IP del dispositivo dalle impostazioni Wi-Fi
+5. Lo script ti chiederà di inserire due volte la password di root del tuo dispositivo
+    - Se non sei sicuro, è probabilmente `alpine`
+
+Puoi trovare il tuo blob chiamato `(il TUO ECID).dumped.shsh` nella directory dove hai eseguito Deverser (di solito ~/deverser).
+
+### Utilizzando una Ramdisk SSH
+
+::: danger
+
+Per utilizzare questo metodo è necessario un pc Linux o macOS e un dispositivo vulnerabile a checkm8 su iOS 12+.
+
+Questo è un metodo più avanzato e non è comsigliato ai principianti.
+
+:::
+
+1. Vai su [questo link](https://github.com/verygenericname/SSHRD_Script) e imposta la ramdisk
+    - Utilizzare `14.8` come versione ramdisk è consigliato, ma è possibile sceglierne una qualsiasi
+2. Esegui `./sshrd.sh dump-blobs`
+3. Infine, esegui `./sshrd.sh ssh`, poi esegui `reboot` nella sessione SSH.
+    - Anche il riavvio forzato funzionerà
+
+Puoi trovare il tuo blob chiamato `dumped.shsh` nella directory in cui hai clonato la repo (di solito ~/SSHRD_Script).
+
+### Utilizzando System Info
+
+::: danger
+
+Questo metodo attualmente non funziona e non riuscirai a ottenere il tuo blob.
+
+:::
+
+1. Aggiungi la repo [https://apt.arx8x.net](https://apt.arx8x.net) sul tuo <router-link to="/package-managers">gestore di pacchetti preferito</router-link>
 2. Scarica il Tweak `System Info` ![](https://imgur.com/a/g8XZPrM)
 3. Dopo aver scaricato System Info, apri le Impostazioni e vai su `Generali > Info`
 4. Scorri verso il basso fino a `ECID`

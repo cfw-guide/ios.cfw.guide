@@ -9,6 +9,7 @@ extra_contributors:
   - Tanbeer191
   - TheHacker894
   - raizo
+  - Superuser
 ---
 
 ## Bootloop e respring loop
@@ -19,9 +20,11 @@ Un respring loop è sintomo di uno o più tweak incompatibili, che causano il bl
 
 Mentre non c'è modo semplice per diagnosticare ciò che provoca un respring loop, la colpa più probabile è il tweak più recente installato/aggiornato che risulta incompatibile con la tua versione di iOS o un altro tweak.
 
-#### Jailbreak semi-untethered
+#### Jailbreak semi-(un)tethered
 
 ::: tip
+
+Un jailbreak semi-tethered è un jailbreak che ha bisogno di un'app su un computer per eseguire il jailbreak dopo un riavvio.
 
 Un jailbreak semi-untethered è un jailbreak che ha bisogno di un'app o di un sito web per eseguire il jailbreak dopo un riavvio.
 
@@ -98,6 +101,13 @@ Tieni premuto il tasto Accensione e il tasto Volume Giù fino al riavvio del dis
 ## Errori comuni su Chimera, Odyssey e Taurine
 
 ### ERR_Jailbreak
+
+::: danger
+
+Se riscontri questo problema mentre usi taurine-permanent, segui [ERR_Jailbreak quando si utilizza taurine-permanent](#ERR_Jailbreak-when-using-taurine-permanent).
+
+:::
+
 Questo è causato dal fatto di aver usato un altro jailbreak prima di Taurine. Per risolvere questo problema, è necessario ripristinare il rootfs:
 
 1. Riavvia il dispositivo.
@@ -120,12 +130,60 @@ I Jailbreak non hanno quasi mai un successo del 100%, potrebbe essere necessario
 
 :::
 
+### "Installation Error" dopo aver aperto Sileo per la prima volta con Odyssey 1.4.2
+
+Rimuovi la versione attualmente installata di Odyssey, esegui il sideload dell'[ultima versione di Odyssey](https://theodyssey.dev), ripristina il rootfs e poi esegui nuovamente il jailbreak.
+
+### Impossibilità di aprire NewTerm o Cr4shed dopo un po' di tempo che si utilizza Taurine
+
+::: tip
+
+Se ti trovi su 14.3 o successivi *oppure* hai un dispositivo A12 o più recente, è probabile che il dispositivo si sia riavviato (il che significa che non sei più in uno stato Jailbroken) o potresti avere qualche altro problema non causato dal jailbreak.
+
+:::
+
+Se ti trovi su 14.0-14.3 *e* su un dispositivo A11 o precedente, questo problema è causato dal fatto che alcuni tweak e applicazioni utilizzano delle librerie che hanno dei componenti che possono avviarsi prima del jailbreak, ciò è in grado di interrompere il codesigning. Quando ciò accade, i tweak e le applicazioni che utilizzano queste librerie non possono essere utilizzate.
+
+La soluzione più facile a questo problema è quella di riavviare il dispositivo e ri-eseguire ol jailbreak. In alternativa, se non vuoi che questo problema accada, puoi eseguire il jailbreak con <router-link to="/installing-odysseyra1n">Odysseyra1n</router-link>, siccome Taurine e Odysseyra1n sono entrambi intercompatibili fra loro e Odysseyra1n non è influenzato da questo problema.
+
+### ERR_Jailbreak quando si utilizza taurine-permanent
+
+Aggiorna all'ultima versione di taurine-permanent.
+
 ### Sileo non compare nella home screen dopo aver eseguito il jailbreak per la prima volta su Chimera 1.6.1 o Taurine 1.1.2
 
 - Se hai questo problema su Chimera, usa [l'ultima versione di Chimera](https://chimera.coolstar.org/)
 - Se riscontri questo problema su Taurine, usa [l'ultima versione di Taurine](https://taurine.app/)
 
 ## Errori comuni su unc0ver
+
+### Problemi generali con unc0ver su iOS 14
+
+::: tip
+
+Mentre questi problemi sono generalmente i più frequenti su iOS 14, alcuni problemi potrebbero essere presenti anche su versioni precedenti di iOS
+
+:::
+
+Durante l'utilizzo di unc0ver su iOS 14, è molto comune imbattersi in questi problemi:
+  - Le applicazioni si bloccano quando si tenta di avviarle
+  - Vari problemi relativi all'app store (inclusa l'incapacità di scaricare app o effettuare acquisti in app)
+  - Non riuscire a ricevere chiamate mentre si è jailbroken
+  - Problemi mentre si utilizzano i dati mobili (come non essere in grado di caricare pagine web o altri servizi online)
+  - Impossibile salvare, scattare o visualizzare screenshot
+  - Safari non carica le pagine o le ricarica infinitamente
+  - La sezione di condivisione non funziona correttamente
+  - Problemi di connessione con Carplay.
+
+::: warning
+
+Se stai usando Fugu14 per avere unc0ver firmato in modo permanente, si possono sperimentare questi problemi in misura maggiore, così come alcuni problemi esclusivi di Fugu14, come:
+  - L'incapacità di visualizzare le statistiche della batteria
+  - Kernel panic più frequenti e casuali
+
+:::
+
+Per risolvere **temporaneamente** questi problemi, esegui uno userspace reboot digitando `launchctl reboot userspace` in un'app terminale (ad esempio NewTerm) sul tuo dispositivo.
 
 ### rootFS already mounted
 
@@ -165,7 +223,7 @@ Se ancora non riesci a risolvere, o non c'è nessun aggiornamento scaricato, pot
 
 ::: tip
 
-Se non funziona, chiedi supporto sul [server Discord di r/Jailbreak](https://discord.gg/jb).
+Se non funziona, chiedi supporto sul [Server Discord](https://discord.gg/jb) di r/Jailbreak.
 
 :::
 
@@ -175,7 +233,7 @@ La tua possibilità di risolvere questo problema dipende dalla tua versione di i
 
 - Se sei su iOS 14.3 o inferiore (tranne se sei su 11.x o su A12(X) con 12.1.3-12.4.1), segui un'altra guida per ripristinare <router-link to="/it_IT/restoring-rootfs">il RootFS</router-link> che sia supportata dal tuo dispositivo/versione di ios.
 - Se sei su iOS 14.4-14.5.1, prova a ripristinare il rootfs nell'app di Fugu14
-- Se sei su iOS 14.6-14.8, 11.x o su A12(X) con 12.1.3-12.4.1, le tue opzioni sono quelle di attendere un aggiornamento di unc0ver che risolva questo problema, o ripristinare il dispositivo in modalità DFU all'ultima versione di iOS e perdere la capacità di eseguire il jailbreak fino a quando non ne uscirà uno
+- Se sei su iOS 14.6-14.8, le tue opzioni sono quelle di attendere un aggiornamento di unc0ver che risolve questo problema, o ripristinare il dispositivo in modalità DFU all'ultima versione di iOS e perdere la capacità di eseguire il jailbreak fino a quando non ne uscirà uno
 
 
 ## Correggere gli errori di installazione dei pacchetti su Sileo
@@ -184,7 +242,7 @@ Ai fini di questa sezione di risoluzione dei problemi, stiamo supponendo che usa
 
 Per determinare quale errore si sta incontrando, dovrai cliccare su `Mostra Dettagli` su Sileo quando riscontri un errore durante l'installazione o la rimozione di un pacchetto.
 
-Se le risoluzioni qui sotto non funzionano, puoi chiedere supporto sul [Server Discord di Sileo](https://discord.gg/Sileo).
+Se le risoluzioni qui sotto non funzionano, puoi chiedere supporto sul [Server Discord](https://discord.gg/Sileo) di Sileo.
 
 ### Syntax error: "(" unexpected
 Questo errore indica che lo sviluppatore del tweak che stai cercando di installare/rimuovere ha scritto lo script di installazione/rimozione in modo errato. Avrai bisogno di Filza per risolvere questo problema.

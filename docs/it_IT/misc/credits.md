@@ -48,7 +48,7 @@ permalink: /it_IT/credits
       <img src="https://github.com/TheMasterOfMike.png">
     </div>
     <div class="user">
-      <h3>MasterOfMike</h3>
+      <h3>Michael McAuliff</h3>
       <a class="social-icon" href="https://twitter.com/MasterMike88" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>
@@ -84,7 +84,7 @@ Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
   + kawaiizenbo
   + Vaishnav Santhosh (DeathKnight)
   + TheAlphaStream
-  + Flowerible
+  + ssalagginkool
   + zachary7829
   + Bbaovanc
 </pre>

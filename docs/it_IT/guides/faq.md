@@ -58,7 +58,7 @@ La modalità DFU è un modo per interagire con il dispositivo iOS senza caricare
 ### Cosa posso fare una volta eseguito il Jailbreak?
 
 - Ottenere pieno accesso al sistema operativo del tuo dispositivo
-- Ottenere l'accesso a un gestore di pacchetti, come Sileo
+- Ottenere l'accesso a un gestore di pacchetti, come Sileo o Zebra
 - Installare temi per cambiare l'aspetto e la sensazione del tuo dispositivo
 - Installare tweak per modificare il comportamento di iOS
 
@@ -106,16 +106,18 @@ Dovresti **non** utilizzare questi tweak, a causa del fatto che tendono a causar
 
 ### Qual è l'ultima versione iOS con un jailbreak per il mio dispositivo a 64 bit
 
-Ciò può essere facilmente capito controllando <router-link to="/it_IT/get-started">Cominciamo!</router-link>, nel caso in cui non si voglia passare per Cominciamo!, ecco le seguenti informazioni:
+Ciò può essere facilmente capito controllando <router-link to="/get-started">Cominciamo!</router-link>, nel caso in cui non si voglia passare per Cominciamo!, ecco le seguenti informazioni:
 
-- **iPad A7**: iOS 12.5.5 (via Odysseyra1n, Chimera, o unc0ver)
-- **iPhone A7/A8**: iOS 12.5.5 (via Odysseyra1n, Chimera, o unc0ver)
-- **iPod Touch (6a generazione)**: iOS 12.5.5 (via Odysseyra1n, Chimera, o unc0ver)
-- **iPad A8(X)-A10(X)**: iPadOS 14.8.1 (via Odysseyra1n)
-- **iPod Touch (7a generazione)**: iOS 14.8.1 (via Odysseyra1n)
-- **iPhone A9-A11**: iOS 14.8.1 (via Odysseyra1n)
-- **iPhone A12/A13**: iOS 14.8 (via unc0ver)
-- **iPad A12-A14/M1**: iPadOS 14.5.1 (via unc0ver)
-- **iPhone A14**: iOS 14.5.1 (via unc0ver)
+- **iPad A7**: iOS 12.5.7 (tramite Odysseyra1n o Chimera)
+- **iPhone A7/A8**: iOS 12.5.7 (tramite Odysseyra1n o Chimera)
+- **iPod Touch (6a generazione)**: iOS 12.5.7 (tramite Odysseyra1n o Chimera)
+- **A8(X) iPads**: iPadOS 15.8.1 (via meowbrek2 or palera1n)
+- **iPod Touch (7th Generation)**: iOS 15.8.1 (via meowbrek2 or palera1n)
+- **A9/A10 iPhones**: iOS 15.8.1 (via meowbrek2 or palera1n)
+- **A9(X) iPads**: iPadOS 16.7.5 (via palera1n)
+- **A10(X) iPads**: iPadOS 17.3 (via palera1n)
+- **A11 iPhones**: iOS 16.7.5 (via palera1n)
+- **iPhone A12-A15**: iOS 15.4.1 (tramite Dopamine (Noto anche come Fugu15 Max))
+- **iPad A12-A15/M1**: iPadOS 15.4.1 (tramite Dopamine (Noto anche come Fugu15 Max))
 
-Nota che iOS 15 non ha un jailbreak, ciò significa che anche che nessun dispositivo A15 ha un jailbreak attualmente.
+Tieni a mente che i dispositivi A12 o più recenti che eseguono iOS 15.5 o più recente non hanno un jailbreak, ciò significa anche che nessun dispositivo M2 o A16 ha un jailbreak attualmente.

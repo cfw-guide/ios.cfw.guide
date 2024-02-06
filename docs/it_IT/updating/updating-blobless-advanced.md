@@ -4,7 +4,7 @@ title: Aggiornare (Blobless) (Avanzato)
 description: Guida all'aggiornamento a firmware non firmati senza alcun blob.
 permalink: /it_IT/updating-blobless-advanced
 extra_contributors:
-  - flowerible
+  - ssalagginkool
 ---
 
 ## Lettura Necessaria
@@ -15,21 +15,24 @@ Fortunatamente, possiamo usare diversi "profili" per ritardare un aggiornamento 
 
 Ma questo ha un limite di tempo. Potrai aggiornare solo alle seguenti versioni del firmware prima delle rispettive date di scadenza:
 
-- **15.3.1** - 12 giugno 2022
-- **15.4** - 29 giugno, 2022
-- **15.4.1** - 14 agosto, 2022
+- **17.1** - February 5th, 2024
+- **17.1.1** - February 28th, 2024
+- **16.7.2** - March 9th, 2024
+- **17.1.2** - March 9th, 2024
+- **16.7.3** - March 18th, 2024
+- **17.2 (For iPhones)** - March 18th, 2024
+- **15.8** - April 21st, 2024
+- **16.7.4** - April 21st, 2024
+- **17.2 (For iPads)** - April 21st, 2024
+- **17.2.1** - April 21st, 2024
 
 Il tempo è indicato in `UTC 00:00`. Per ulteriori date di scadenza, controlla [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
-Se al momento non si dispone di un jailbreak (o si sceglie di non fare il jailbreak per un qualsiasi motivo), dovrai utilizzare metodi avanzati, che coinvolgono cose come il ripristino di tutti i contenuti e le impostazioni, per essere in grado di aggiornare.
+Dato che non disponi di un jailbreak al momento (o hai scelto di non eseguire il jailbreak per un qualsiasi motivo), dovrai utilizzare il metodo avanzato, che coinvolge cose come il reset di tutti i contenuti o il ripristino da un backup modificato, per essere in grado di aggiornare.
 
-::: danger
+::: tip
 
-A seconda della versione iOS di destinazione, non sarà possibile farlo se hai usato futurerestore dopo le seguenti date:
-
-  - 15.3.1: 14 Marzo 2022
-  - 15.4: 31 Marzo 2022
-  - 15.4.1: 16 Maggio 2022
+Se sei su iOS 15.7.1 o precedenti, o sei su iOS da 16.0 a 16.1.2, puoi seguire <router-link to="/updating-blobless-nonjailbroken">Aggiornamento (Blobless) (Non-Jailbroken)</router-link> .
 
 :::
 
@@ -57,28 +60,22 @@ Dopo aver fatto un backup, ciò che è necessario fare dopo dipende dal fatto ch
     - Se hai dimenticato di eseguire il backup dei dati in precedenza nella guida, questo è l'ultimo step in cui sarai in grado di farlo.
 1. Clicca `Prepare`, che cancellerà i dati del tuo dispositivo e lo supervisionerà
 
-## Windows - iMazing
+## Windows - Cowabunga Lite
 
-::: danger
+1. Scarica e installa la versione Windows di Cowabunga Lite da [qua](https://github.com/Avangelista/CowabungaLiteWindows/releases)
+1. Estrai **l'intera cartella di Cowabunga Lite** da qualche parte (non importa dove), poi apri Cowabunga Lite
+1. Clicca su `Setup Options` e attiva la spunta su `Enable Supervision`
+1. Clicca `Apply`, poi clicca `Apply Changes`
 
-Questo metodo richiede l'acquisto di iMazing, se non si dispone di soldi per acquistare iMazing, non è possibile seguire questo metodo
-
-:::
-
-1. Scarica e installa iMazing da [qui](https://imazing.com/download/windows)
-1. Dopo aver impostato iMazing, clicca sull'opzione `Supervision`
-1. Fari clic su Next, fai clic sul pulsante sotto `Organization`, poi fai clic su Choose
-1. Clicca sul pulsante `+` nell'angolo in basso a sinistra della nuova finestra
-1. Aggiungi un nome, quindi fai clic su `Save`
-1. Fai clic su Choose, poi clicca su Next
-    - Se hai dimenticato di eseguire il backup dei dati in precedenza nella guida, questo è l'ultimo step in cui sarai in grado di farlo.
-1. Digita il numero indicato nella casella di testo, poi fai clic su `Next`, iMazing cancellerà i dati del dispositivo e lo supervisionerà
+Il tuo dispositivo si riavvierà e sarà supervisionato.
 
 ## Aggiornare la versione del firmware
 
 1. Quando il dispositivo si avvia dopo essere stato cancellato, configuralo, poi apri questa pagina sul dispositivo
 1. Tocca una versione qui sotto per installare il rispettivo profilo di aggiornamento:
-    - [15.3.1](/assets/files/delay_15_3_1.mobileconfig)
+    - [15.8](/assets/files/delay.mobileconfig)
+    - [16.7.2](/assets/files/delay.mobileconfig)
+    - [17.1](/assets/files/delay.mobileconfig)
     - Per ulteriori versioni del firmware, controlla [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 1. Riavvia il dispositivo
 1. Collega il tuo dispositivo all'alimentazione e connettiti a Internet con Wi-Fi
@@ -90,34 +87,10 @@ Questo metodo richiede l'acquisto di iMazing, se non si dispone di soldi per acq
 
 Dopo l'aggiornamento, è possibile rimuovere la supervisione e ripristinare il backup effettuato in precedenza cancellando tutti i contenuti e le impostazioni.
 
-Se hai problemi con l'aggiornamento, installa [OTAEnabler](https://repo.alexia.lol/) e riavvia. Se hai ancora problemi continua a leggere qui sotto.
-
 ::: tip
 
 Se l'aggiornamento è andato a buon fine, continua con [Cominciamo!](/get-started) per eseguire il jailbreak del tuo dispositivo.
 
 :::
-
-## Risoluzione problemi
-
-### "iOS è aggiornato"
-
-1. Rimuovi eventuali profili beta installati
-1. Installare il tweak OTADisabler e poi disinstallalo
-1. Riavvia il dispositivo
-    - È inoltre possibile utilizzare un ldrestart o un userspace reboot
-
-### "Impossibile controllare gli aggiornamenti"
-
-1. Ripristina il rootFS attraverso il tuo jailbreak
-1. Installa e apri <router-link to="/it_IT/installing-unc0ver">l'applicazione</router-link> di unc0ver
-1. Disattiva "Disable updates"
-1. Ri-esegui il jailbreak usando unc0ver
-
-### La schermata si freeza
-
-Riattiva il daemon OTA usando il tweak iCleaner
-
----
 
 Crediti a [dhinakg](https://github.com/dhinakg/) per aver scoperto questo metodo.

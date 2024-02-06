@@ -6,6 +6,7 @@ permalink: /it_IT/installing-electra
 redirect_from:
   - /it_IT/electra
   - /it_IT/el
+discordNoticeText: Per supporto in inglese, chiedi aiuto sul [Server Discord](http://discord.legacyjailbreak.com/) di r/LegacyJailbreak.
 pkgman: sileo
 extra_contributors:
   - TheHacker894
@@ -45,7 +46,7 @@ Electra è attualmente firmato su <a href="https://jailbreaks.app/" target="_bla
 1. Trascina il file `.ipa` di Electra su Sideloadly
 1. Inserisci il tuo Apple ID
 1. Inserisci la tua password
-    - Sideloadly deve fare una richiesta al server per funzionare con gli account Apple Id gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
+    - Sideloadly deve fare una richiesta ai suoi server per funzionare con gli account sviluppatore gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
 
 L’app verrà adesso installata sul tuo dispositivo iOS.
 

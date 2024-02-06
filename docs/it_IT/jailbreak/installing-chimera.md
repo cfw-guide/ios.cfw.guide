@@ -9,11 +9,12 @@ redirect_from:
 pkgman: sileo
 extra_contributors:
   - TheHacker894
+  - Mineek
 ---
 
 Chimera è un <router-link to="/it_IT/types-of-jailbreak/#semi-untethered-jailbreaks">jailbreak semi-untethered</router-link>, richiede l'utilizzo di un'app per ri-eseguire l'exploit dopo un riavvio.
 
-Chimera è in grado di eseguire il jailbreak di tutti i dispositivi su iOS 12.0-12.1.2 e dei dispositivi A7-A11 su iOS 12.0-12.5.5.
+Chimera è in grado di eseguire il jailbreak su tutti i dispositivi da iOS 12.0 a 12.1.2 e sui dispositivi A7-A11 da iOS 12.0 a 12.5.7.
 
 A causa di come funzionano i jailbreak semi-untethered, l'app avrà bisogno di essere <router-link to="/it_IT/resigning-apps">ri-firmata</router-link> ogni 7 giorni.
 
@@ -57,7 +58,7 @@ L’app verrà adesso installata sul tuo dispositivo iOS.
 
 ## Autorizzare l’applicazione
 
-1. Vai in `Impostazioni`-> `Generali` -> `Gestione Dispositivo` -> `<Il tuo Apple ID>`
+1. Vai su `Impostazioni` -> `Generali` -> `Gestione Dispositivo` -> `< Il tuo Apple ID>`
     - A seconda del tuo utilizzo, `Gestione dispositivo` potrebbe apparire come `Gestione Profili e Dispositivo`
 1. Clicca su `Autorizza "<Il tuo Apple ID>"`
 

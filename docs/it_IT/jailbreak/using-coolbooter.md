@@ -5,7 +5,7 @@ description: Guida all'utilizzo di Coolbooter per eseguire il dualboot di due di
 permalink: /it_IT/using-coolbooter
 redirect_from:
   - /it_IT/coolbooter
-discordNoticeText: Per supporto in inglese, chiedi aiuto su r/LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
+discordNoticeText: Per supporto in inglese, chiedi aiuto sul [Server Discord] di r/LegacyJailbreak (http://discord.legacyjailbreak.com/).
 extra_contributors:
   - TheHacker894
 ---

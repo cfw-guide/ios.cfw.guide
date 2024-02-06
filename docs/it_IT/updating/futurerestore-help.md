@@ -39,7 +39,7 @@ Questo errore significa che il generator impostato sul dispositivo non corrispon
 
 ## SEP Firmware is not being signed
 
-Questo problema si verifica quando l'utente tenta di specificare manualmente la SEP della versione *target*, invece della *versione più recente* disponibile. Per risolvere questo problema, scegli l'argomento `latest-sep` o specifica manualmente la SEP dell'ultima versione iOS disponibile
+Questo problema si verifica quando l'utente tenta di specificare manualmente la SEP della versione *target*, invece della *versione più recente* disponibile. Per risolvere questo problema, scegliere l'argomento `latest-sep` o utilizzare l'argomento `custom-latest` o `custom-latest-buildid` con l'argomento `custom-latest-beta` con una versione compatibile fornita in base al [grafico di compatibilità SEP/BB](https://docs.google.com/spreadsheets/d/1Mb1UNm6g3yvdQD67M413GYSaJ4uoNhLgpkc7YKi3LBs/edit#gid=0) (è possibile utilizzare [https://appledb.dev](appledb) per trovare il buildid per una versione). Non è necessario fornire manualmente SEP o BB.
 
 ## Could not connect to device in recovery mode / Failed to place device in recovery mode
 
@@ -51,3 +51,7 @@ Questo problema si verifica quando l'utente tenta di specificare manualmente la 
 ## Error: Unable to receive message from FDR...
 
 La correzione per questo errore è attendere (può richiedere molto tempo) o semplicemente riprovare. Questo è un errore che è stato diagnosticato, ma nessuna correzione per esso è disponibile al momento della scrittura di questa guida.
+
+## About to send NOR data... No data to read
+
+Se ricevi questo messaggio di errore, puoi provare a terminare il processo futurerestore e disabilitare l'argomento `no-rsep`. Se il ripristino continua a rimanere bloccato qui indipendentemente dal fatto che `no-rsep` sia abilitato o disabilitato, potresti non essere in grado di ripristinare perché la causa di questo errore non è stata diagnosticata al momento della scrittura della guida. 

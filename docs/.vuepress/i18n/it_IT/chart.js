@@ -12,13 +12,13 @@ module.exports = {
       },
       iPhoneNotice: 'Nota che tutti i modelli "Plus", "Max" e "mini" di iPhone sono funzionalmente identici ai modelli normali.',
       info: {
-        soc: "SoC: ${soc}",
-        arch: "Architettura: ${arch}",
-        latestFw: "Ultima versione: ${latestFw}",
-        latestJailbreakFirmware: "Latest jailbreakable version: ${latestJailbreakFirmware}",
-        released: "Rilasciato il ${released}",
-        showMore: "Mostra altro",
-        noJailbreaks: "No jailbreaks available."
+        soc: 'SoC: ${soc}',
+        arch: 'Architettura: ${arch}',
+        latestFw: 'Ultima versione: ${latestFw}',
+        latestJailbreakFirmware: 'Ultima versione supportata dal jailbreak: ${latestJailbreakFirmware}',
+        released: 'Rilasciato il ${released}',
+        showMore: 'Mostra altro',
+        noJailbreaks: 'Nessun jailbreak disponibile.'
       },
       dateStyles: { // Don't translate this bit, just ask me (emiyl) to handle it
         yearOnly: { year: 'numeric'},
@@ -27,13 +27,13 @@ module.exports = {
       }
     },
     getStarted: {
-      pageTitle: "Cominciamo!",
-      description: "Scopri quali jailbreak puoi usare sul tuo Dispositivo iOS",
+      pageTitle: 'Cominciamo!',
+      description: 'Find out what jailbreaks you can use on your iOS or tvOS Device',
       requiredReading: {
-        title: "Lettura Necessaria",
+        title: 'Lettura Necessaria',
         content: [
-          "Dispositivi differenti richiederanno passaggi differenti per eseguire il Jailbreak del tuo dispositivo iOS. Questa pagina ti aiuterà a capire da dove iniziare.",
-          "Seleziona che tipo di dispositivo possiedi."
+          'Different devices will require different steps to jailbreak your iOS or tvOS device. This page will help you find where to start.',
+          'Seleziona che tipo di dispositivo possiedi.'
         ]
       }
     },
@@ -53,8 +53,8 @@ module.exports = {
         verStr: {
           old: 'Versione',
           new: 'Versione del Software',
-          tvOld: "Apple TV Software",
-          tvNew: "tvOS" 
+          tvOld: 'Apple TV Software',
+          tvNew: 'tvOS'  //I think I set this up right? it changes depending on whether you're on TV Software or tvOS.
         },
         instructions: {
           ios: "1. Apri l'app Impostazioni\n1. Entra in `Generali` -> `Info` -> `${verStr}`",
@@ -66,8 +66,8 @@ module.exports = {
           ipad: '/assets/images/find-version-ipad.jpg',
           iphoneOld: '/assets/images/find-version-old.jpg',
           ipadOld: '/assets/images/find-version-ipad-old.jpg',
-          tvOld: "/assets/images/find-version-tv-old.jpg",
-          tvNew: "/assets/images/find-version-tv-new.jpg"
+          tvOld: '/assets/images/find-version-tv-old.jpg',
+          tvNew: '/assets/images/find-version-tv-new.jpg'
         }
       }
     },
@@ -81,7 +81,7 @@ module.exports = {
       showBetaVersions: 'Mostra Versioni Beta',
       hideBetaVersions: 'Nascondi Versioni Beta',
       noJbTip: 'Per i campi contrassegnati con "N/A", non c\'è nessun jailbreak per quella versione.',
-      showMore: "Mostra altro"
+      showMore: 'Mostra altro'
     }
   }
 };

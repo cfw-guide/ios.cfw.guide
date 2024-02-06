@@ -18,13 +18,25 @@ redirect_from:
   - /it_IT/sideloadly
   - /it_IT/resigning-apps
 extra_contributors:
-  - flower
+  - ssalagginkool
   - TheHacker894
 ---
 
 ## Lettura Necessaria
 
 I jailbreak semi-untethered richiedono l'utilizzo di un'app sideloadata per eseguire il jailbreak. Le app sideloadate con un ID Apple normale scadranno dopo 7 giorni (o 365 giorni con un ID Apple Developer). Dopo quel periodo, non sarai più in grado di aprire l'app per ri-eseguire il jailbreak.
+
+::: danger
+
+Se utilizzi la versione beta di iOS 16, dovrai seguire qualche passaggio extra prima di essere in grado di aprire le app sideloadate:
+
+1. Apri le Impostazioni
+1. Vai su Privacy e Sicurezza e trova la voce `Modalità sviluppatore`
+1. Attiva la modalità sviluppatore e premi `Riavvia`
+1. Dopo il riavvio del dispositivo, sbloccalo e conferma di voler abilitare la Modalità Sviluppatore
+  - Se hai abilitato un codice di accesso, dovrai inserirlo.
+
+:::
 
 ## Sideloadare le App
 
@@ -42,7 +54,7 @@ Sideloadly è compatibile con iOS 7 e versioni successive.
 1. Trascina un file `.ipa` a tua scelta su Sideloadly
 1. Inserisci il tuo Apple ID
 1. Inserisci la tua password
-    - Sideloadly deve fare una richiesta al server per funzionare con gli account Apple Id gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
+    - Sideloadly deve fare una richiesta al server per funzionare con gli account Apple ID gratuiti. Se non sei d’accordo con ciò, puoi sempre usare un Apple ID alternativo.
 
 ### Sideloadare utilizzando Altstore
 

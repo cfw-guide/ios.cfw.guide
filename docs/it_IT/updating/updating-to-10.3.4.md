@@ -6,7 +6,7 @@ permalink: /it_IT/updating-to-10-3-4
 
 ## Lettura Necessaria
 
-Sfortunatamente, al momento non c'è nessun jailbreak disponibile per le versioni del firmware 8.0-8.4 sui dispositivi a 32 bit. Tuttavia alcuni dispositivi, come l'iPhone 5, possono essere aggiornati a 10.3.4 e utilizzare un jailbreak disponibile.
+Sfortunatamente, al momento non c'è nessun jailbreak disponibile per le versioni del firmware 8.0-8.3 sui dispositivi a 32 bit. Tuttavia alcuni dispositivi, come l'iPhone 5, possono essere aggiornati alla 10.3.4 e utilizzare il jailbreak socket.
 
 Ciò si ottiene semplicemente aggiornando attraverso l'applicazione Impostazioni normalmente. Poiché la versione più recente per questi dispositivi è 10.3.4, possiamo facilmente aggiornare alla versione firmware desiderata, a causa dell'età dei dispositivi.
 
