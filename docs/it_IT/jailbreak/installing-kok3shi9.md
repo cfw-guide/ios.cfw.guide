@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Installare kok3shi9
 description: Guida per l’installazione di kok3shi9
 permalink: /it_IT/installing-kok3shi9
