@@ -25,14 +25,12 @@ Inoltre, se il tuo è un dispostivo A11 con iOS 16 a cui è stato impostato un c
 
 ::: warning
 
-
 Se stai usando una vecchia versione di palera1n tethered, dovrai <router-link to="/removing-palera1n-legacy">rimuovere palera1n</router-link> prima di continuare.
 
 :::
 
 
 ::: warning
-
 
 Se stai usando Windows, devi seguire <router-link to="/using-palen1x">Usare palen1x</router-link> .
 
@@ -45,9 +43,7 @@ Seleziona un sistema operativo:
 
 :::::: tabs
 
-
 :::: tab name="macOS" :default="true"
-
 
 ### Installa palera1n
 
@@ -58,28 +54,23 @@ Seleziona un sistema operativo:
 
 ::: warning
 
-
 Se si utilizza un cavo USB-C a Lightning per eseguire questo processo, è possibile riscontrare problemi ad entrare in modalità DFU
 
 In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche un adattatore USB-C a USB-A.
 
 :::
 
-
 ::: tip
-
 
 Se si utilizza un Mac con Apple Silicon e si utilizza una porta USB-C per collegare il cavo/adattatore, dovrai scollegare e ricollegare il dispositivo dopo che `Checkmate!` compare nei log.
 
 :::
-
 
 1. Run `palera1n -e thid_should_crash=0`
     - Assicurati che il tuo dispositivo sia collegato quando inserisci questo comando
 1. Quando sei pronto, premi `Enter` e segui le istruzioni sullo schermo per entrare in <router-link to="/faq/#what-is-dfu-mode">modalità DFU</router-link>.
 
 ::: tip
-
 
 Dispostitivi con A9(X) o precedenti hanno un problema in cui si bloccheranno a metà di questo processo in pongoOS. Per risolvere questo problema, dovrai fare quanto segue:
 
@@ -90,16 +81,12 @@ Dovrai farlo ogni volta che riesegui il jailbreak sul tuo dispositivo.
 
 :::
 
-
-:
-:::
+::::
 
 
 :::: tab name="Linux"
 
-
 ::: danger
-
 
 A seconda della distribuzione Linux che si sta utilizzando, è possibile eseguire incorrere in problemi con l'ultima versione (2.0.0b8) di palera1n.
 
@@ -111,34 +98,27 @@ If you do run into issues, you have four options:
 
 :::
 
-
 ::: danger
-
 
 Se stai provando ad utilizzare un software per macchina virtuale di qualche tipo da Windows (es. Virtualbox, VMWare, Windows Subsystem for Linux, ecc) non sarà possibile seguire questa guida.
 
 :::
 
-
 ::: warning
-
 
 Se utilizzi un computer con una CPU AMD Ryzen, probabilmente riscontrerai problemi. Se si verificano problemi, è necessario utilizzare un Mac o un computer con una CPU Intel per seguire questa guida.
 
 :::
 
-
 ### Installa palera1n
 
 ::: warning
-
 
 Se si utilizza un cavo USB-C a Lightning per eseguire questo processo, è possibile riscontrare problemi ad entrare in modalità DFU
 
 In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche un adattatore USB-C a USB-A.
 
 :::
-
 
 1. Apri una finestra di terminale
 1. Esegui `sudo systemctl stop usbmuxd`
@@ -154,7 +134,6 @@ In caso di problemi, usa un cavo USB-A a Lightning e, se necessario, usa anche u
 
 ::: tip
 
-
 Dispostitivi con A9(X) o precedenti hanno un problema in cui si bloccheranno a metà di questo processo in pongoOS. Per risolvere questo problema, dovrai fare quanto segue:
 
 1. Nella finestra del terminale, premere `Control` + `C` sulla tastiera
@@ -164,19 +143,14 @@ Dovrai farlo ogni volta che riesegui il jailbreak sul tuo dispositivo.
 
 :::
 
+::::
 
-:
-:::
-
-
-:::
-:::
+::::::
 
 
 Una volta che il dispositivo si avvia, aprire l'app palera1n loader e toccare `Sileo`. Dopo un po 'di tempo, ti verrà chiesto di impostare un codice di accesso per utilizzare comandi da riga di comando, e poi`Sileo` dovrebbe essere sulla schermata iniziale.
 
 ::: tip
-
 
 Per rieseguire il jailbreak il tuo dispositivo, esegui semplicemente il comando che hai appena eseguito e poi ripeti qualsiasi altro passaggio applicabile.
 
