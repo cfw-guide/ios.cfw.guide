@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: unc0ver (TrollStore)
 description: Guida all'installazione di unc0ver utilizzando TrollStore
 permalink: /it_IT/installing-unc0ver-trollstore

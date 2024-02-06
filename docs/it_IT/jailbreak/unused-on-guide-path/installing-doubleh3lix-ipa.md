@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: doubleh3lix
 description: Guida all'installazione di doubleh3lix tramite Sideload
 permalink: /it_IT/installing-doubleh3lix-ipa

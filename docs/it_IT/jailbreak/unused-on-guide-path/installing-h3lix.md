@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: h3lix
 description: Guida per l’installazione di h3lix
 permalink: /it_IT/installing-h3lix

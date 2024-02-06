@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Phoenix
 description: Guida per l’installazione di Phoenix
 permalink: /it_IT/installing-phoenix

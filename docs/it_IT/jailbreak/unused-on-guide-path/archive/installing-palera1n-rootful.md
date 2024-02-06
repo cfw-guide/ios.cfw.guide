@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Installare palera1n (Rootful)
 description: Guida all'installazione di palera1n rootful (Archiviata)
 permalink: /it_IT/archived-palera1n-rootful

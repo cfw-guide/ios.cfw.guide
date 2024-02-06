@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Usare palen1x
 excerpt: Guida all’installazione di palera1n tramite palen1x
 permalink: /it_IT/using-palen1x

@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Odysseyra1n (A8X/A9X) (ChromeOS)
 description: Guida all'installazione di Odysseyra1n su ChromeOS sui dispositivi A9X e A8X
 permalink: /it_IT/installing-odysseyra1n-chromeos-a8x-a9x

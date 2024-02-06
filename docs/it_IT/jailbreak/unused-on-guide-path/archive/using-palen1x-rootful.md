@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Utilizzare palen1x (Rootful)
 excerpt: Guida all'installazione di palera1n rootful tramite palen1x (Archiviata)
 permalink: /it_IT/archived-palen1x-rootful

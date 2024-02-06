@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Odysseyra1n (Linux)
 description: Guida all'installazione di Odysseyra1n su Linux
 permalink: /it_IT/installing-odysseyra1n/linux

@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: p0laris
 description: Guida per l'installazione di p0laris
 permalink: /it_IT/installing-p0laris

@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Odysseyn1x
 excerpt: Guida all'installazione di checkra1n tramite Odysseyn1x
 permalink: /it_IT/using-odysseyn1x

@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: unc0ver (Fugu14)
 description: Guida all'installazione di unc0ver con Fugu14
 permalink: /it_IT/installing-unc0ver-fugu14

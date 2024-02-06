@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Installare wtfis
 description: Guida all'installazione di wtfis
 permalink: /it_IT/installing-wtfis

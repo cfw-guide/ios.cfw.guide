@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: sockH3lix
 description: Guida per l’installazione di sockH3lix
 permalink: /it_IT/installing-sockh3lix

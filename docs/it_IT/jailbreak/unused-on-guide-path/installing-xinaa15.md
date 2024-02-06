@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Installare XinaA15
 description: Guida all'installazione di XinaA15
 permalink: /it_IT/installing-xinaa15

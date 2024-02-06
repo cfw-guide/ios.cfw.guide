@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Aggiornare a 12.5.7
 permalink: /it_IT/updating-to-12-5-7
 redirect_from:

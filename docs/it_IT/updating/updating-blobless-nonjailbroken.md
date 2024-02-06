@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Aggiornamento (Blobless) (Non-Jailbroken)
 description: Guida all'aggiornamento a firmware non firmati senza alcun blob utilizzando il profilo di Delay.
 permalink: /it_IT/updating-blobless-nonjailbroken

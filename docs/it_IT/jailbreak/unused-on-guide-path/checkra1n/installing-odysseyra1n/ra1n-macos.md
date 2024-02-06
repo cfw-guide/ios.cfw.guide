@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Odysseyra1n (macOS)
 description: Guida all'installazione di Odysseyra1n su macOS
 permalink: /it_IT/installing-odysseyra1n/macos

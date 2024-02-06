@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Odysseyra1n (A8X/A9X) (Linux)
 description: Guida all'installazione di Odysseyra1n su dispositivi A8X e A9X su Linux
 permalink: /it_IT/installing-odysseyra1n-a8x-a9x/linux

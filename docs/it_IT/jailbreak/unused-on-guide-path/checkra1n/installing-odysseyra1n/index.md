@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Installazione di Odysseyra1n
 description: Guida all'installazione di Odysseyra1n
 permalink: /it_IT/installing-odysseyra1n

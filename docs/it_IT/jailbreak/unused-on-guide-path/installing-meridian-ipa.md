@@ -1,5 +1,5 @@
 ---
-lang: it_US
+lang: it_IT
 title: Meridian
 description: Guida all'installazione di Meridian tramite Sideload
 permalink: /it_IT/installing-meridian-ipa
