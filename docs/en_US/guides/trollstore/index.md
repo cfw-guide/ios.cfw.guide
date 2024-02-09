@@ -63,7 +63,7 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     <tr>
       <td style="text-align: center; font-weight: bold;">14.0 beta 2</td>
       <td style="text-align: center; font-weight: bold;">14.8.1</td>
-      <td style="text-align: center;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollhelper-trollmisaka">Installing TrollStore (TrollMisaka)</router-link></td>
       <td style="text-align: center;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
     </tr>
     <tr>

@@ -11,20 +11,21 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 15.0 to 15.8.1
+- A device running iOS/iPadOS 14.0 to 15.8.1
 - The Tips app installed to your device
-- The latest version of [AltServer](http://altstore.io/)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 - The latest version of [TrollMisaka](https://github.com/straight-tamago/TrollMisaka/releases/latest)
 
 ## Installing the application
 
-1. Open AltServer
+1. Open Sideloadly
 1. Plug your iOS device into your computer
-1. Shift-Click (Windows) or Option-Click (macOS) AltServer in the System Tray or Menu Bar
-1. Click `Sideload .ipa`, then select your device
-1. Select the TrollMisaka `.ipa` file
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the TrollMisaka `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
@@ -35,14 +36,6 @@ The app will now install to your iOS device.
 1. Tap `Trust "<Your Apple ID>"`
 
 The TrollMisaka application can now be opened from home screen.
-
-::: danger
-
-If you're on iOS 16.0 to 16.6.1, you'll also need to enable Developer Mode.
-
-To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
-
-:::
 
 ## Adding a Keyboard
 
