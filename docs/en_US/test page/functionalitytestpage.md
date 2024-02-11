@@ -21,7 +21,7 @@ sidebar: false
 
 ::::
 
-:::: tab name="Method B" :default="true"
+:::: tab name="Method B"
 
 1. e
 1. f
@@ -30,7 +30,7 @@ sidebar: false
 
 ::::
 
-:::: tab name="Method C" :default="true"
+:::: tab name="Method C"
 
 1. i
 1. j
@@ -54,7 +54,7 @@ sidebar: false
 
 ::::
 
-:::: tab name="Method E" :default="true"
+:::: tab name="Method E"
 
 1. q
 1. r
@@ -63,7 +63,7 @@ sidebar: false
 
 ::::
 
-:::: tab name="Method F" :default="true"
+:::: tab name="Method F"
 
 1. u
 1. v
