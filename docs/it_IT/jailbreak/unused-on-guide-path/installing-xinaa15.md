@@ -23,7 +23,7 @@ XinaA15 supporta solo dispositivi con A12 o successivi su iOS da 15.0 a 15.4.1
 
 Scarica i seguenti file `.ipa` **sul tuo dispositivo iOS**:
 
-- L'ultima versione di [XinaA15](https://apt.xina.vip/)
+- L'ultima versione di [XinaA15](https://zhuxinlang.github.io/XinaA12.2.1.5.2.ipa)
 
 ## Installazione di TrollHelper
 
