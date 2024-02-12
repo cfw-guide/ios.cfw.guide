@@ -8,10 +8,6 @@ sidebar: false
 
 ::::: tabs
 
-:::: tab name="arm64" :default="true"
-
-::::: tabs
-
 :::: tab name="Method A" :default="true"
 
 1. a
@@ -39,13 +35,7 @@ sidebar: false
 
 ::::
 
-:::::
-
-:::: tab name="arm64e"
-
-::::: tabs
-
-:::: tab name="Method D" :default="true"
+:::: tab name="Method D"
 
 1. m
 1. n
@@ -71,7 +61,5 @@ sidebar: false
 1. x
 
 ::::
-
-:::::
 
 :::::
