@@ -42,11 +42,11 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
 
 <table>
   <colgroup>
-    <col span="1" style="width: 14%;">
-    <col span="1" style="width: 14%;">
-    <col span="1" style="width: 24%;">
-    <col span="1" style="width: 24%;">
-    <col span="1" style="width: 24%;">
+    <col span="1" style="width: 13%;">
+    <col span="1" style="width: 13%;">
+    <col span="1" style="width: 23%;">
+    <col span="1" style="width: 28%;">
+    <col span="1" style="width: 23%;">
   </colgroup>
   <thead>
     <tr>
