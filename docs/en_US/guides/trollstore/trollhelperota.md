@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing TrollStore (TrollHelperOTA)
 description: Guide to installing TrollStore via installd bugs
-permalink: /installing-trollhelperota
+permalink: /installing-trollstore-trollhelperota
 sidebar: false
 redirect_from:
   - /trollhelperota

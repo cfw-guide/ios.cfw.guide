@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing TrollStore (Misaka)
 description: Guide to installing TrollStore via Misaka
-permalink: /installing-trollhelper-misaka
+permalink: /installing-trollstore-misaka
 sidebar: false
 redirect_from:
 extra_contributors:

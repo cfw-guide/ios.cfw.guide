@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing TrollStore (TrollHelper)
 description: Guide to installing TrollStore via the TrollStore Helper package
-permalink: /installing-trollhelper
+permalink: /installing-trollstore-trollhelper
 sidebar: false
 redirect_from:
   - /installing-trollstorehelper

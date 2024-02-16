@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing TrollStore (TrollStar)
 description: Guide to installing TrollStore via TrollStar
-permalink: /installing-trollhelper-trollstar
+permalink: /installing-trollstore-trollstar
 sidebar: false
 redirect_from:
 extra_contributors:
