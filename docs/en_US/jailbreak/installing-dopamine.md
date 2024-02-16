@@ -56,7 +56,9 @@ A12 and later devices are supported on iOS 15.0 to 15.6.1
 ### Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Depending on your device, enter one of the following url's:
+    - If you're using an A12 or later device, enter [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
+    - If you're using an A11 or earlier device, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
