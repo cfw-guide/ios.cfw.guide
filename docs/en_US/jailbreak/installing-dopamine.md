@@ -21,6 +21,14 @@ If you're using an A8(X) iPad, at this time, you should follow <router-link to="
 
 :::
 
+::: danger
+
+If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
+
+If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
+
+:::
+
 We will first install TrollStore using one of several methods (depending on your current device and iOS version), and then install Dopamine through TrollStore.
 
 ## Installing TrollStore
@@ -63,7 +71,7 @@ The TrollStore application will now install to your iOS device.
 
 ::::
 
-:::: tab name="TrollInstallerMDC (A11 and earlier 15.5 to 15.6.1 / 15.7 to 15.7.1 / 16.0 to 16.1.2)"
+:::: tab name="TrollInstallerMDC (15.7 to 15.7.1 / 16.0 to 16.1.2 / A11 and earlier 15.5 to 15.6.1)"
 
 ### Requirements
 
@@ -284,14 +292,6 @@ Your device should respring, and TrollStore should now be installed.
 :::::
 
 ## Installing Dopamine
-
-::: danger
-
-If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
-
-If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
-
-:::
 
 ### Downloads
 

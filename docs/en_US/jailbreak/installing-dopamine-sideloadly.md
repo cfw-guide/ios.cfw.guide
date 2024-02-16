@@ -19,6 +19,14 @@ If you're using a beta or release candidate (RC) version of iOS, this guide will
 
 :::
 
+::: danger
+
+If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
+
+If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
+
+:::
+
 ::: tip
 
 If you're using an A8(X) iPad, at this time, you should follow <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link> instead.
