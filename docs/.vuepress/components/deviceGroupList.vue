@@ -108,7 +108,7 @@ export default {
 
             const overrides = {
                 AirPods: "AirPods1,1",
-                iPhone: "iPhone14,3" // change to iPhone15,3 on iOS 16.0+ jailbreak
+                iPhone: "iPhone15,3" // change to iPhone15,3 on iOS 16.0+ jailbreak
                 // iPad Pro: "iPad13,11" // change to iPad14,6 or remove on iPadOS 16.0+ jailbreak
             }
             

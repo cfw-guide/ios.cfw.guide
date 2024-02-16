@@ -7,18 +7,17 @@ sidebar: false
 
 ## Highlighted
 
+-   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
 -   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
--   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 
 ## Recommended Jailbreaks/Methods
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
--   <router-link to="/installing-notajb">Installing Def1nit3lyN0tAJa1lbr3akTool</router-link>
--   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
 -   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
+-   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
 -   <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link>
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
 -   <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
@@ -60,6 +59,8 @@ sidebar: false
 
 ## Other Jailbreaks/Methods
 
+-   <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link>
+-   <router-link to="/installing-notajb">Installing Def1nit3lyN0tAJa1lbr3akTool</router-link>
 -   <router-link to="/installing-meowbrek2-palera1n">Installing meowbrek2 (palera1n)</router-link>
 -   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 -   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>

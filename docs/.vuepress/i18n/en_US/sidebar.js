@@ -36,8 +36,8 @@ const jailbreaking = {
   text: 'Jailbreaking',
   children: [
     '/installing-palera1n',
-    '/installing-meowbrek2',
     '/installing-dopamine/',
+    '/installing-meowbrek2',
   ],
 }
 
