@@ -8,7 +8,7 @@ actions:
   - text: Get Started
     link: get-started
     type: secondary
-heroImage: /assets/images/splash-taurine.png
+heroImage: /assets/images/splash.png
 heroFilter: 0.3
 ---
 
