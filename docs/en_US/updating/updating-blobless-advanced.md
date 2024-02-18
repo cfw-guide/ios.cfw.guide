@@ -15,7 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **17.1** - February 5th, 2024
 - **17.1.1** - February 28th, 2024
 - **16.7.2** - March 9th, 2024
 - **17.1.2** - March 9th, 2024
