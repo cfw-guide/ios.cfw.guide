@@ -15,7 +15,13 @@ Dopamine supports A9(X) and later devices on iOS 15.0 to 16.5, A9(X) to A14 and 
 
 ::: danger
 
-If you're using a beta or release candidate (RC) version of iOS, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+If you're using a beta or release candidate (RC) version of iOS, or if your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+
+:::
+
+::: danger
+
+if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
 
 :::
 
@@ -112,14 +118,20 @@ After doing all the above steps, you may need to reboot and rejailbreak in order
 
 ::: tip
 
-While Dopamine is now installed and setup, this next section - *while optional* - is **highly recommended**, since it'll allow you to install Dopamine and not have to worry about keeping it signed.
+While Dopamine is now installed and setup, this next section - *while technically optional* - is **highly recommended**, since it'll allow you to install Dopamine and not have to worry about keeping it signed.
 
 :::
 
 ### Installing TrollStore
 
-1. In your package manager, search and install the `TrollStore Helper` package
-1. After installing, close your package manager
+1. Open the Sileo app
+1. Go to the Search tab and search for `TrollStore Helper`
+1. Tap on `TrollStore Helper`
+1. Tap "Get"
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. install the `TrollStore Helper` package
+1. After TrollStore Helper installs, close Sileo
 1. Open the `TrollHelper` app on your home screen
 1. Press `Install TrollStore`
 

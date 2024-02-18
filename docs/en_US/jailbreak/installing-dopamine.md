@@ -23,6 +23,12 @@ If you're using an A8(X) iPad, at this time, you should follow <router-link to="
 
 ::: danger
 
+if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
+
+:::
+
+::: danger
+
 If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
 
 If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
@@ -139,9 +145,9 @@ Your device should respring, and TrollStore should now be installed.
 
 :::: tab name="TrollMisaka (15.7.2 to 15.8.1)"
 
-::: warning
+::: danger
 
-This method may have issues in some cases. If you are having repeated and unresolvable issues, you can follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
+This method can be very unreliable in some cases. If you are having issues with doing these steps, you can follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
 
 :::
 
@@ -224,6 +230,12 @@ Your device should respring, and TrollStore should now be installed.
 ::::
 
 :::: tab name="TrollStar (16.2 to 16.6.1)"
+
+::: warning
+
+This method may have issues in some cases. If you are having repeated issues with this method, you can follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
+
+:::
 
 ### Requirements
 
