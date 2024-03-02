@@ -64,7 +64,7 @@ If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/a
 
 :::
 
-1. Run `palera1n -e thid_should_crash=0`
+1. Run `palera1n`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -85,7 +85,7 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::: danger
 
-Depending on the Linux distribution you are using, you may run into issues with the latest version (2.0.0b8) of palera1n.
+Depending on the Linux distribution you are using, you may run into issues with the latest version (2.0.0b9) of palera1n.
 
 If you do run into issues, you have four options:
 - Obtain a Mac and follow the macOS tab instead.
@@ -125,7 +125,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 ### Running palera1n
 
-1. Run `sudo palera1n -e thid_should_crash=0`
+1. Run `sudo palera1n`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -150,6 +150,10 @@ Once the device boots up, open the palera1n loader app and tap `Sileo`. After a 
 
 To rejailbreak your device, simply rerun the command you just ran and then repeat any other applicable steps.
 
-Alternatively, if you are on 15.0 to 15.8.1, you can use <router-link to="/installing-meowbrek2">meowbrek2</router-link> to rejailbreak as well.
+Alternatively, you can also install a permanently signed semi-untethered jailbreak, which will allow you to rejailbreak your device without a computer.
+
+If you are using an A9(X) to A11 device on 15.0 to 16.6.1, you can follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> to rejailbreak.
+
+If you are instead using an A8(X) device on 15.0 to 15.8.2, you can follow <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link> to rejailbreak as well.
 
 :::

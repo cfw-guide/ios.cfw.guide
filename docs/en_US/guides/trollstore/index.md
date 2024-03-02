@@ -97,7 +97,7 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7.2</td>
-      <td style="text-align: center; font-weight: bold;">15.8.1</td>
+      <td style="text-align: center; font-weight: bold;">15.8.2</td>
       <td style="text-align: center;" colspan="3"><router-link to="/installing-trollstore-trollmisaka">TrollMisaka</router-link></td>
     </tr>
     <tr>
@@ -118,7 +118,7 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7</td>
-      <td style="text-align: center; font-weight: bold;">16.7.5</td>
+      <td style="text-align: center; font-weight: bold;">16.7.6</td>
       <td style="text-align: center;" colspan="3">Unsupported</td>
     </tr>
     <tr>
