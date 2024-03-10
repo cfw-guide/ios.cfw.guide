@@ -8,6 +8,7 @@ redirect_from:
 extra_contributors:
   - TheHacker894
   - itsnebulalol
+  - kitiki1222
 ---
 
 After installing your jailbreak, you may want to install some repos (<router-link to="/faq#repos">repositories</router-link>). You can use these to install more tweaks on your device. To get you started, here is a list of some recommended options. A lot of these may already be installed on your device!
@@ -38,7 +39,7 @@ A package that most people will use from SparkDev's repo is SnowBoard, which can
 
 URL: [`https://sparkdev.me/`](https://sparkdev.me/)
 
-## 1Conan's Repo
+## 1Conan's Repo (dosen't work)
 
 This repo is a small one, but includes a crucial tool: TSS Saver. This allows you to save small bits of information related to iOS updates called "blobs".
 
@@ -48,7 +49,7 @@ It's important to save them with this tool every time a new update is released. 
 
 URL: [`http://repo.1conan.com/`](http://repo.1conan.com/)
 
-## rpetrich repo
+## rpetrich repo (dosen't work)
 
 The rpetrich repo is another small repo but includes some useful tweaks and tools which are quite important, such as PreferenceLoader and RocketBootstrap.
 
