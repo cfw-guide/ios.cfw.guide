@@ -26,6 +26,8 @@ extra_contributors:
 1. Enter in your Apple ID
 1. Enter in your password
     - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+1. Hit start
+    - If you are facing errors on any Windows system, try to temporarily disable Windows Defender/Security "Real-time protection" under Virus & Treat protection settings and try again.
 
 The app will now install to your iOS device.
 
@@ -67,10 +69,18 @@ This method may take several tries in order to work successfully.
     - If needed, select `TrollMisaka` from the list of keyboards
 1. Tap `kopen`
     - If the device reboots, try these steps again
+    - If the keyboard app seemingly refreshes, try to use other puaf method: `smith` or `physpuppet` and try again.
 1. Tap `Install TrollStore`
-    - If the keyboard app seemingly refreshes, try again, If it fails, try again in Safari instead.
+    - Option 1: If the keyboard app seemingly refreshes, try again, If it fails, try again in Safari instead.
+    - Option 2: Check internet connections, try to use other internet connections or connect tru hotspot.
 
-Once it says it's successful, you can continue with the next section.
+::: warning
+
+Follow the instruction after it says it's successful, do not open and fully close TrollMisaka, reboot your device first.
+
+:::
+
+After reboot, unlock your device and you can continue with the next section.
 
 ## Installing TrollStore
 
@@ -85,3 +95,7 @@ Your device should respring, and TrollStore should now be installed.
 1. Open the `TrollStore` app on your home screen
 1. Press `Settings`, then press `Install Persistence Helper`
 1. Select `Tips` from the list of apps
+
+## Removal
+
+1. You can now safely delete or remove TrollMisaka after anything.
