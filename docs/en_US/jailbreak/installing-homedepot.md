@@ -31,7 +31,7 @@ HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" ta
 - The latest version of HomeDepot for your iOS version:
   - Home Depot for [iOS 9.1-9.3.4](https://web.archive.org/web/20240121141909/http://wall.supplies/)
   - Home Depot for [iOS 8.0-8.4.1](https://web.archive.org/web/20240121141903/https://wall.supplies/OLD%20iPhone%20HACKED.html)
-    - If you are on iOS 8.0 to 8.4, you also need to get the latest version of the [ohd patcher](https://github.com/LukeZGD/ohd/releases)
+    - You also need to get the latest version of the [ohd patcher](https://github.com/LukeZGD/ohd/releases)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -41,7 +41,7 @@ HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" ta
 
 ::: danger
 
-This is only needed on iOS 8.0 to 8.4, it is not needed for iOS 8.4.1 or for iOS 9.1 to 9.3.4.
+This is only needed on iOS 8.0 to 8.4.1, it is not needed for iOS 9.1 to 9.3.4.
 
 :::
 
@@ -112,8 +112,8 @@ This is an optional step which allows the jailbreak to run automatically when yo
 You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-homedepot/using-cydia.html) first, before returning to this page.
 
 1. Open the Cydia application
-1. Check the "Sources" tab and ensure "tihmstar's beta repo" is added
-    - If you can't find it, tap `Edit` -> `+` and enter `thanos.lol`
+1. Check the "Sources" tab and ensure "thanosrepo" is added
+    - If you can't find it, tap `Edit` -> `+` and enter `repo.thanos.lol`
 1. Open the "Search" tab and enter "UntetherHomeDepot"
 1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
 1. Confirm the installation
