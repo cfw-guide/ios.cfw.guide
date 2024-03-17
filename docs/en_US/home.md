@@ -63,11 +63,12 @@ Tweaks are typically software packages that can be installed to your device whic
 
 ::: danger
 
-Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
+Before following the steps of this guide, you must know the risks of jailbreaking: Every time you modify your system in any way, there is always a chance that you could lose user data and/or ability to jailbreak. It is, however, very rare for a system to be rendered completely unrecoverable.
 
 :::
 
 - It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss
+- It is also reccomended to have another mobile device that can replace your device temporarely in case of the device not working and requiring a system restore to use properly. This device could be a non-Apple mobile device that runs Android or any other OS, unless an iOS-exclusive app or feature is absolutely crucial for your workflow.
 - If no issues occur during installation, you will be jailbroken without any data loss
 - Keep the device plugged into to a power source or keep the battery fairly charged, so that any unexpected power off can be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
