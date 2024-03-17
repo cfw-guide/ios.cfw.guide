@@ -10,6 +10,7 @@ pkgman: none
 extra_contributors:
   - WhitetailAni
 ---
+Note: The Apple TV 1 is based on macOS, not iOS, but it is included on ios.cfw.guide anyways.
 
 Patchstick is capable of untether jailbreaking the Apple TV 1 on Apple TV Software 1.0 to 3.0.2.
 
