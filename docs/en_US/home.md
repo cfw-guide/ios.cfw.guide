@@ -48,7 +48,7 @@ However, jailbreaking can and has been used to steal paid media, a process known
 * Using certain apps, including certain Kodi plugins that promise free movies and TV shows that are usually paid. Kodi itself, and it's official repository is legal.
 * Using video game emulators to download ROMs from other websites. Please only use emulators to play games dumped from a console, disc, or cartrage. Downloading ROMs and decryption keys elsewhere puts the emulation projects and their owners at risk for fines or legal issues. The only exception to the law is with [https://www.romhacking.net/homebrew/ homebrew] video games found on the ROMHacking website, GitHub, or [itch.io itch.io], however you may need a physical console to dump the BIOS or decryption keys in certain cases. 
 
-Additionally, it goes without saying that jailbreaking can open the door for you being able to illegaly snoop on WiFi networks to steal data from people using the network, and you being able to hypothetically steal credit cards via NFC. 
+Additionally, it goes without saying that hacking into other systems that are not yours and do not have permission to hack via a jailbroken device is illegal.
 
 ## What is a package manager?
 
