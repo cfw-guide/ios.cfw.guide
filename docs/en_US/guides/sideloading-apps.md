@@ -81,18 +81,18 @@ AltServer is only compatible with iOS 12.2 and newer.
 
 ## Resigning Apps
 
-### Resigning using Reprovision Reborn
+### Resigning using ReProvision Reborn
 
 ::: tip
 
-ReProvision Reborn is compatible with iOS 9 and newer
+ReProvision Reborn is compatible with iOS 9 and newer.
 
 :::
 
 1. Add the Havoc Repo to your preferred package manager ([havoc.app](https://havoc.app/))
-1. Install Reprovison Reborn
-1. Open Reprovision Reborn and follow all onscreen prompts
-    - You will be asked to enter your AppleID. This is only sent to Apple and no one else.
+1. Install ReProvison Reborn
+1. Open ReProvision Reborn and follow all onscreen prompts
+    - You will be asked to enter your Apple ID. This is only sent to Apple and no one else.
 
 ### Resigning using AltDaemon
 
@@ -104,7 +104,7 @@ AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
 
 AltDaemon allows AltStore to automatically re-sign these applications, without needing to connect to a computer running AltServer over local network.
 
-1. Add the Chariz repository to your package manager ([repo.chariz.com](https://repo.chariz.com/))
+1. Add the Chariz repository to your preferred package manager ([repo.chariz.com](https://repo.chariz.com/))
 1. Download and install the "AltDaemon" tweak
 1. Close your package manager
 1. Sign any apps that are about to expire
