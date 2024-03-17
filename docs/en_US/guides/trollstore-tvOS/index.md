@@ -72,7 +72,7 @@ If your device is on tvOS 14.0 *beta 1* or earlier, or is running tvOS 17.1 or n
     <tr>
       <td style="text-align: center; font-weight: bold;">17.0</td>
       <td style="text-align: center; font-weight: bold;">17.0</td>
-      <td style="text-align: center;">Coming Soon</td>
+      <td style="text-align: center;">SSHRD</td>
       <td style="text-align: center;">No Installation Method</td>
     </tr>
     <tr>
