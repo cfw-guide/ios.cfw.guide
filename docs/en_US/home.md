@@ -42,6 +42,14 @@ Jailbreaking in the US is perfectly legal. In 2010, the US Copyright Office decl
 
 You may want to check in your country whether it is legal there or not before proceeding, however in most countries it should be fine.
 
+However, jailbreaking can and has been used to steal paid media, a process known as pirating. Piracy assisted with jailbroken iOS, iPadOS, and tvOS devices include:
+* Using a jailbroken iOS device to install paid apps via .ipa files.
+* Installing paid tweaks for free. The exception of this is if the creator puts up a paid version on the tweak store, and there is an official version of the tweak on GitHub under an open-source license.
+* Using certain apps, including certain Kodi plugins that promise free movies and TV shows that are usually paid. Kodi itself, and it's official repository is legal.
+* Using video game emulators to download ROMs from other websites. Please only use emulators to play games dumped from a console, disc, or cartrage. Downloading ROMs and decryption keys elsewhere puts the emulation projects and their owners at risk for fines or legal issues. The only exception to the law is with [https://www.romhacking.net/homebrew/ homebrew] video games found on the ROMHacking website, GitHub, or [itch.io itch.io], however you may need a physical console to dump the BIOS or decryption keys in certain cases. 
+
+Additionally, it goes without saying that jailbreaking can open the door for you being able to illegaly snoop on WiFi networks to steal data from people using the network, and you being able to hypothetically steal credit cards via NFC. 
+
 ## What is a package manager?
 
 Package managers are used to install, uninstall and modify official and community-made software to customize your device. Sileo is an example of a package manager.
