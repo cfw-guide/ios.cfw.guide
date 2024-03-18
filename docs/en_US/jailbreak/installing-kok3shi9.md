@@ -23,7 +23,8 @@ kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64
 
 - The latest version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes 32-bit](https://www.apple.com/itunes/download/win32) if on Windows
+- If on 64 bit: [Itunes 64-bit](https://www.apple.com/itunes/download/win64) if on Windows
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
