@@ -39,18 +39,3 @@ A package that most people will use from SparkDev's repo is SnowBoard, which can
 
 URL: [`https://sparkdev.me/`](https://sparkdev.me/)
 
-## 1Conan's Repo (dosen't work)
-
-This repo is a small one, but includes a crucial tool: TSS Saver. This allows you to save small bits of information related to iOS updates called "blobs".
-
-Saving these will allow you to update and downgrade to the specific firmware version that was available when you saved the blobs.
-
-It's important to save them with this tool every time a new update is released. For more info about blobs, go to the <router-link to="/saving-blobs">Saving Blobs guide</router-link>.
-
-URL: [`http://repo.1conan.com/`](http://repo.1conan.com/)
-
-## rpetrich repo (dosen't work)
-
-The rpetrich repo is another small repo but includes some useful tweaks and tools which are quite important, such as PreferenceLoader and RocketBootstrap.
-
-URL: [`https://rpetri.ch/repo/`](https://rpetri.ch/repo/)
