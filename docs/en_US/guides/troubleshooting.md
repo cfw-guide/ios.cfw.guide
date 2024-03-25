@@ -336,7 +336,7 @@ In May 2021, Procursus attempted to migrate to a version of dpkg that no longer 
 1. Click `Modify` below the app name and select `Downgrade` then choose the selected version that works best. 
 1. Another possible way to fix this issue is to log in via SSH. 
 1. This can be done by locating your Apple TV Devices IP address and using the command `ssh root@Apple TV IP Address` then using `alpine` as the password to log in.
-1. After logging in, type in the following command to add the repository of your choice: `scho "deb URL_ADDRESS`
+1. After logging in, type in the following command to add the repository of your choice: `echo deb URL_ADDRESS`
 
 #### Issues with respringing
 
