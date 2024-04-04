@@ -45,16 +45,16 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     <col span="1" style="width: 13%;">
     <col span="1" style="width: 13%;">
     <col span="1" style="width: 23%;">
-    <col span="1" style="width: 28%;">
     <col span="1" style="width: 23%;">
+    <col span="1" style="width: 28%;">
   </colgroup>
   <thead>
     <tr>
       <th style="text-align: center; font-weight: bold;">From</th>
       <th style="text-align: center; font-weight: bold;">To</th>
-      <th style="text-align: center; font-weight: bold;">arm64 (A8-A11)</th>
-      <th style="text-align: center; font-weight: bold;">arm64e (A12-A14/M1-M2)</th>
-      <th style="text-align: center; font-weight: bold;">arm64e (A15-A17)</th>
+      <th style="text-align: center; font-weight: bold;">arm64 (A8)</th>
+      <th style="text-align: center; font-weight: bold;">arm64 (A9-A11)</th>
+      <th style="text-align: center; font-weight: bold;">arm64e (A12-A17/M1-M2)</th>
     </tr>
   </thead>
   <tbody>
@@ -65,8 +65,8 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     <tr>
       <td style="text-align: center; font-weight: bold;">14.0 beta 2</td>
       <td style="text-align: center; font-weight: bold;">14.8.1</td>
-      <td style="text-align: center;"><router-link to="/installing-trollstore-trollmisaka">TrollMisaka</router-link></td>
-      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.0</td>
@@ -77,66 +77,70 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
       <td style="text-align: center; font-weight: bold;">15.5</td>
       <td style="text-align: center; font-weight: bold;">15.5</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallermdc">TrollInstallerMDC</router-link></td>
-      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.6 beta 1</td>
-      <td style="text-align: center; font-weight: bold;">15.6 beta 5</td>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 3</td>
       <td style="text-align: center;" colspan="3"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">15.6</td>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 4</td>
       <td style="text-align: center; font-weight: bold;">15.6.1</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallermdc">TrollInstallerMDC</router-link></td>
-      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7</td>
       <td style="text-align: center; font-weight: bold;">15.7.1</td>
-      <td style="text-align: center;" colspan="3"><router-link to="/installing-trollstore-trollinstallermdc">TrollInstallerMDC</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallermdc">TrollInstallerMDC</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7.2</td>
       <td style="text-align: center; font-weight: bold;">15.8.2</td>
-      <td style="text-align: center;" colspan="3"><router-link to="/installing-trollstore-trollmisaka">TrollMisaka</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollmisaka">TrollMisaka</router-link></td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">16.0</td>
-      <td style="text-align: center; font-weight: bold;">16.1.2</td>
-      <td style="text-align: center;" colspan="3"><router-link to="/installing-trollstore-trollinstallermdc">TrollInstallerMDC</router-link></td>
+      <td style="text-align: center; font-weight: bold;">16.0 beta 1</td>
+      <td style="text-align: center; font-weight: bold;">16.0 beta 3</td>
+      <td style="text-align: center;">Not Applicable</td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">16.2</td>
+      <td style="text-align: center; font-weight: bold;">16.0 beta 4</td>
       <td style="text-align: center; font-weight: bold;">16.6.1</td>
-      <td style="text-align: center;" colspan="3"><router-link to="/installing-trollstore-trollstar">TrollStar</router-link></td>
+      <td style="text-align: center;">Not Applicable</td>
+      <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7 RC</td>
       <td style="text-align: center; font-weight: bold;">16.7 RC</td>
+      <td style="text-align: center;">Not Applicable</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelper">TrollHelper</router-link></td>
-      <td style="text-align: center;" colspan="2">No Install Method</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">16.7</td>
-      <td style="text-align: center; font-weight: bold;">16.7.6</td>
-      <td style="text-align: center;" colspan="3">Unsupported</td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">17.0 beta 1</td>
-      <td style="text-align: center; font-weight: bold;">17.0 beta 4</td>
-      <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelper">TrollHelper</router-link></td>
-      <td style="text-align: center;">Coming Soon</td>
       <td style="text-align: center;">No Install Method</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">17.0 beta 5</td>
+      <td style="text-align: center; font-weight: bold;">16.7</td>
+      <td style="text-align: center; font-weight: bold;">16.7.7</td>
+      <td style="text-align: center;">Not Applicable</td>
+      <td style="text-align: center;" colspan="2">Unsupported</td>
+    </tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">17.0</td>
+      <td style="text-align: center; font-weight: bold;">17.0</td>
+      <td style="text-align: center;">Not Applicable</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelper">TrollHelper</router-link></td>
-      <td style="text-align: center;" colspan="2">No Install Method</td>
+      <td style="text-align: center;">No Install Method</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">17.0.1 and later</td>
-      <td style="text-align: center;" colspan="3">Unsupported</td>
+      <td style="text-align: center;">Not Applicable</td>
+      <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
   </tbody>
 </table>
