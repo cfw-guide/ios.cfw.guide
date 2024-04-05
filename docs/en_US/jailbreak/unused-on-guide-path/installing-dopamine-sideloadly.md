@@ -155,13 +155,13 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 
 ### Downloads
 
-The latest version of [Dopamine](https://ellekit.space/dopamine)
-  - Make sure to download the `.ipa` file onto your iOS device
+- The latest version of [Dopamine](https://ellekit.space/dopamine)
+    - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
 
 1. Open TrollStore if it is not open already
-  - If you're in a different tab, go back to the `Apps` tab
+    - If you're in a different tab, go back to the `Apps` tab
 1. Press the `+` on the top right
 1. Go to where you saved the Dopamine `.ipa` file
 1. Tap on the Dopamine `.ipa` file

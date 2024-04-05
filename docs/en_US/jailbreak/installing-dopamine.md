@@ -119,10 +119,10 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
 
 1. Open TrollInstallerX
 1. Tap `Install TrollStore`
-  - If your device is stuck on "Exploiting Kernel", reboot your device
+    - If your device is stuck on "Exploiting Kernel", reboot your device
 1. When prompted to select an app to install the persistence helper into, select an app you care about **the least**
-  - If you don't know what app to select, select `Tips`
-  - If your device reboots *before* getting to this step, try again
+    - If you don't know what app to select, select `Tips`
+    - If your device reboots *before* getting to this step, try again
 
 Both TrollStore and its persistence helper should now be installed.
 
@@ -135,7 +135,7 @@ Both TrollStore and its persistence helper should now be installed.
 ### Downloads
 
 The latest version of [Dopamine](https://ellekit.space/dopamine)
-  - Make sure to download the `.ipa` file onto your iOS device
+    - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
 
