@@ -134,7 +134,7 @@ Both TrollStore and its persistence helper should now be installed.
 
 ### Downloads
 
-The latest version of [Dopamine](https://ellekit.space/dopamine)
+- The latest version of [Dopamine](https://ellekit.space/dopamine)
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
