@@ -16,7 +16,7 @@ A8(X) iPads are only supported on firmware versions 14.0 to 15.1.
 
 :::
 
-TrollInstallerX supports all iOS/iPadOS devices on firmware versions 14.0 to 15.1.1, as well as all A9(X) and later devices on firmware versions 15.2 to 16.6.1.
+TrollInstallerX supports all iOS/iPadOS devices on firmware versions 14.0 to 15.1.1, A9(X) and later devices on firmware versions 15.2 to 16.6.1, and A10(X) devices on versions 17.0 **beta 1** to 17.0 **beta 4**.
 
 ## Requirements
 
@@ -46,7 +46,7 @@ The TrollInstallerX application can now be opened from home screen.
 
 ::: danger
 
-If you're on iOS 16.0 to 16.6.1, you'll also need to enable Developer Mode.
+If you're on iOS 16.0 or later, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 
