@@ -63,6 +63,18 @@ The tweak should now be installed to your device and will be active whenever you
     
 After respringing, the tweak should now be uninstalled.
 
+## Logging Into Repos
+
+Some repos require you to log in to be able to download their tweak's (e.g. [`https://havoc.app/`](https://havoc.app/), [`https://chariz.com/`](https://chariz.com/)), this can be done by:
+
+1. Open the Sileo application
+1. Tap "Featured" on the bar at the bottom.
+1. Click the profile icon at the top right of the screen.
+1. Under "Payment Providers" tap on the repo you would like to log in to.
+1. Follow the prompts to log in.
+
+You should now be able to download tweaks off the repo you logged into. 
+
 ::: tip
 
 If you run into errors installing or removing packages, read the <router-link to="/troubleshooting/#fixing-package-installation-errors-on-sileo">Troubleshooting</router-link> page
