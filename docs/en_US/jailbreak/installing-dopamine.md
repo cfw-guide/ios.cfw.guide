@@ -49,7 +49,17 @@ If you already have TrollStore installed, you can skip this section.
 
 ::::: tabs
 
-:::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)" :default="true"
+:::: tab name=" " :default="true"
+
+::: warning
+
+Please select a tab from the above options corresponding to your device.
+
+:::
+
+::::
+
+:::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)"
 
 ::: warning
 
