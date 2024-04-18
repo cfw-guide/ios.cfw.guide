@@ -24,6 +24,10 @@ If you are using *rootless* palera1n, while you won't have to do anything, note 
 
 ### Requirements
 
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
+
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest)

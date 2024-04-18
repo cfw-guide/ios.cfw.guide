@@ -60,7 +60,10 @@ This method only supports A12 and later devices.
 ### Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
+1. Open this page on your device
+    - The url of this page is `https://ios.cfw.guide/installing-unc0ver-trollstore`
+1. On your device, [tap here](itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist):
+    - If you're unable to access this page, type `itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist` into Safari
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
@@ -78,6 +81,10 @@ The TrollStore application will now install to your iOS device.
 :::: tab name="TrollInstallerX (A11 and earlier)"
 
 ### Requirements
+
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
 
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows

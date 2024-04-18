@@ -20,6 +20,10 @@ TrollInstallerX supports all iOS/iPadOS devices on firmware versions 14.0 to 15.
 
 ## Requirements
 
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
+
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 - The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest)
@@ -46,7 +50,7 @@ The TrollInstallerX application can now be opened from home screen.
 
 ::: danger
 
-If you're on iOS 16.0 or later, you'll also need to enable Developer Mode.
+If you're on iOS 16.0 or later, and did not use jailbreaks.app to install TrollInstallerX, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 

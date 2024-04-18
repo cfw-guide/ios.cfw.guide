@@ -62,9 +62,10 @@ A12 and later devices are supported on iOS 15.0 to 15.6.1
 ### Installing TrollHelper
 
 1. Open Safari
-1. Depending on your device, enter one of the following url's:
-    - If you're using an A12 or later device, enter [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
-    - If you're using an A11 or earlier device, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Open this page on your device
+    - The url of this page is `https://ios.cfw.guide/installing-dopamine`
+1. On your device, [tap here](itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist):
+    - If you're unable to access this page, type `itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist` into Safari
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
@@ -82,6 +83,10 @@ The TrollStore application will now install to your iOS device.
 :::: tab name="TrollInstallerX (15.7 to 16.6.1 / A11 and earlier 15.5 to 15.6.1)"
 
 ### Requirements
+
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
 
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
@@ -109,7 +114,7 @@ The TrollInstallerX application can now be opened from home screen.
 
 ::: danger
 
-If you're on iOS 16.0 to 16.6.1, you'll also need to enable Developer Mode.
+If you're on iOS 16.0 to 16.6.1, and did not use jailbreaks.app to install TrollInstallerX, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 
