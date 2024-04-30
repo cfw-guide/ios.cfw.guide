@@ -13,13 +13,7 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports A9(X) and later devices on iOS 15.0 to 16.5, A9(X) to A14 and M1 devices on iOS 16.5.1, and A9(X) to A11 devices on iOS 16.6 to 16.6.1.
-
-::: tip
-
-If you're using an A8(X) iPad, at this time, you should follow <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link> instead.
-
-:::
+Dopamine supports all devices on iOS 15.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1.
 
 ::: danger
 
@@ -47,40 +41,15 @@ If you already have TrollStore installed, you can skip this section.
 
 :::
 
-::::: tabs
+::: danger
 
-:::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)" :default="true"
-
-::: warning
-
-A11 and earlier devices are supported on iOS 15.0 to 15.4.1
-
-A12 and later devices are supported on iOS 15.0 to 15.6.1
+If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.7.2 or later, you need to follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
 
 :::
 
-### Installing TrollHelper
+::::: tabs
 
-1. Open Safari
-1. Open this page on your device
-    - The url of this page is `https://ios.cfw.guide/installing-dopamine`
-1. On your device, [tap here](itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist):
-    - If you're unable to access this page, type `itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist` into Safari
-1. Tap `Install`
-
-An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
-
-### Installing TrollStore
-
-1. Open the `GTA Car Tracker` app
-1. Tap `Register Persistence Helper`
-1. Tap `Install TrollStore`
-
-The TrollStore application will now install to your iOS device.
-
-::::
-
-:::: tab name="TrollInstallerX (15.7 to 16.6.1 / A11 and earlier 15.5 to 15.6.1)"
+:::: tab name="TrollInstallerX (A9(X) and later 15.7 to 16.6.1 / A9(X) to A11 15.5 to 15.6.1)" :default="true"
 
 ### Requirements
 
@@ -130,6 +99,93 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
     - If your device reboots *before* getting to this step, try again
 
 Both TrollStore and its persistence helper should now be installed.
+
+::::
+
+:::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)"
+
+::: warning
+
+A11 and earlier devices are supported on iOS 15.0 to 15.4.1
+
+A12 and later devices are supported on iOS 15.0 to 15.6.1
+
+:::
+
+### Installing TrollHelper
+
+1. Open Safari
+1. Open this page on your device
+    - The url of this page is `https://ios.cfw.guide/installing-dopamine`
+1. On your device, [tap here](itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist):
+    - If you're unable to access this page, type `itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist` into Safari
+1. Tap `Install`
+
+An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
+
+### Installing TrollStore
+
+1. Open the `GTA Car Tracker` app
+1. Tap `Register Persistence Helper`
+1. Tap `Install TrollStore`
+
+The TrollStore application will now install to your iOS device.
+
+::::
+
+:::: tab name="TrollInstallerMDC (A8(X) 15.5 to 15.7.1)"
+
+### Requirements
+
+- The Tips app installed to your device
+- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
+
+### Installing the application
+
+1. Open Sideloadly
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
+1. Enter in your Apple ID
+1. Enter in your password
+    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+
+The app will now install to your iOS device.
+
+### Trusting the application
+
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+1. Tap `Trust "<Your Apple ID>"`
+
+The TrollInstallerMDC application can now be opened from home screen.
+
+### Injecting TrollStore Helper
+
+::: warning
+
+If you've already opened Tips, reboot your device before following these steps
+
+:::
+
+1. Open TrollInstallerMDC
+1. Once it says "Successfully replaced Tips binary", close the `TrollInstallerMDC` app
+    - If it gives an error, close TrollInstallerMDC and re-open it 
+
+### Installing TrollStore
+
+1. Open the `Tips` app
+1. Tap `Install TrollStore`
+
+Your device should respring, and TrollStore should now be installed.
+
+### Installing Persistence Helper
+
+1. Open the `TrollStore` app on your home screen
+1. Press `Settings`, then press `Install Persistence Helper`
+1. Select `Tips` from the list of apps
 
 ::::
 
