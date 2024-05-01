@@ -10,14 +10,12 @@ sidebar: false
 -   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
--   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
 
 ## Recommended Jailbreaks/Methods
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
 -   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
--   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
 -   <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
 -   <router-link to="/installing-odyssey">Installing Odyssey</router-link>
@@ -60,6 +58,7 @@ sidebar: false
 
 -   <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link>
 -   <router-link to="/installing-notajb">Installing Def1nit3lyN0tAJa1lbr3akTool</router-link>
+-   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
 -   <router-link to="/installing-meowbrek2-palera1n">Installing meowbrek2 (palera1n)</router-link>
 -   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 -   <router-link to="/installing-taurine-sideloadly">Installing Taurine (Sideloadly)</router-link>
@@ -102,9 +101,9 @@ sidebar: false
 -   <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link>
 -   <router-link to="/updating-blobless-nonjailbroken">Updating (Blobless) (Non-Jailbroken)</router-link>
 -   <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
--   <router-link to="/updating-to-17-3">Updating to 17.3</router-link>
--   <router-link to="/updating-to-16-7-3">Updating to 16.7.5</router-link>
--   <router-link to="/updating-to-15-8-1">Updating to 15.8.1</router-link>
+-   <router-link to="/updating-to-17-4-1">Updating to 17.4.1</router-link>
+-   <router-link to="/updating-to-16-7-7">Updating to 16.7.7</router-link>
+-   <router-link to="/updating-to-15-8-2">Updating to 15.8.2</router-link>
 -   <router-link to="/updating-to-12-5-7">Updating to 12.5.7</router-link>
 -   <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 -   <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>
