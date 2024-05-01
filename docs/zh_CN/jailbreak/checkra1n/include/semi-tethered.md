@@ -1,1 +1,0 @@
-Odysseyra1n是一种 <router-link to="/types-of-jailbreak/#semi-tethered-jailbreaks">半完美越狱</router-link>，这意味着在设备重启后需要电脑重新利用该漏洞。 点击链接了解更多信息。
