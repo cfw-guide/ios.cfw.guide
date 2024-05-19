@@ -115,7 +115,7 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **iPod Touch (7th Generation)**: iOS 15.8.2 (via Dopamine, meowbrek2, or palera1n)
 - **A9/A10 iPhones**: iOS 15.8.2 (via Dopamine, meowbrek2, or palera1n)
 - **A9(X) iPads**: iPadOS 16.7.8 (via palera1n)
-- **A10(X) iPads**: iPadOS 17.4.1 (via palera1n)
+- **A10(X) iPads**: iPadOS 17.5 (via palera1n)
 - **A11 iPhones**: iOS 16.7.8 (via palera1n)
 - **A12-A14 iPhones**: iOS 16.5.1 (via Dopamine)
 - **A12-A14/M1 iPads**: iPadOS 16.5.1 (via Dopamine)
