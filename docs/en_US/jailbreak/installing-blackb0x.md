@@ -17,7 +17,7 @@ Blackb0x is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">unte
 
 ## Requirements
 
-- Intel-based Mac running macOS 10.9 or later.
+- Intel-based Mac running macOS 10.11 or later.
 - The latest version of [Blackb0x](https://github.com/NSSpiral/Blackb0x/releases/tag/0.6.2)
 - A non-Siri enabled Apple TV aluminum remote:
 <p><img src="/assets/images/aluminum_tv_remote.png" alt="A photo of a non-Siri enabled Apple TV aluminum remote" style="display: block; margin-inline: auto; max-width: 30em;"></p>
