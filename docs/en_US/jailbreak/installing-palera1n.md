@@ -85,18 +85,6 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::: danger
 
-Depending on the Linux distribution you are using, you may run into issues with the latest version (2.0.0b9) of palera1n.
-
-If you do run into issues, you have four options:
-- Obtain a Mac and follow the macOS tab instead.
-- Try to use a different Linux distribution instead (e.g. Ubuntu).
-- <router-link to="/using-palen1x">Use palen1x</router-link> instead, which does not have this issue.
-- **If you are trying to jailbreak a 15.0 to 16.7.4 device**, you can manually install [palera1n 2.0.0b7](https://github.com/palera1n/palera1n/releases/tag/v2.0.0-beta.7) instead.
-
-:::
-
-::: danger
-
 If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide.
 
 :::
