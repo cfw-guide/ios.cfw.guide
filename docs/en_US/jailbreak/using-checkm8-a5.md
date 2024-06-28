@@ -129,7 +129,7 @@ It may take a few tries to get your device into DFU. Be patient and ensure you f
 1. Enter DFU using [this guide](https://www.theapplewiki.com/wiki/DFU_Mode#Entering_DFU_Mode)
 1. Disconnect your device from your computer and connect it to your USB host shield.
 1. Under the Tools menu, select Port and ensure your Arduino is selected
-1. In the checkm8_a5 script, find the line that reads `#define A5_8942` and change it to `#define A5-8940`
+1. In the checkm8_a5 script, find the line that reads `#define A5_8942` and change it to `#define A5_8940`
 1. Again under the Tools menu, open Serial Monitor. Set the baud rate is set to 115200, then upload the sketch to the Arduino
 1. Serial Monitor will begin displaying a log of what the script is doing
 1. Once it displays `Done!`, disconnect your device from the Arduino and proceed to the next steps
@@ -160,7 +160,7 @@ On the iPad 3, success rate is much lower compared to other devices. It is not u
 1. Enter DFU using [this guide](https://www.theapplewiki.com/wiki/DFU_Mode#Entering_DFU_Mode)
 1. Disconnect your device from your computer and connect it to your USB host shield
 1. Under the Tools menu, select Port and ensure your Arduino is selected
-1. In the checkm8_a5 script, find the line that reads `#define A5_8942` and change it to `#define A5-8945`.
+1. In the checkm8_a5 script, find the line that reads `#define A5_8942` and change it to `#define A5_8945`.
 1. Again under the Tools menu, open Serial Monitor
 1. Set the baud rate is set to 115200, then upload the sketch to the Arduino
 1. Serial Monitor will begin displaying a log of what the script is doing
