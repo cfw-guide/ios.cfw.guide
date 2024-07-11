@@ -24,7 +24,6 @@ Patchstick is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">un
 ## Creating the Patchstick
 
 1. Download the Apple TV software's restore DMG corresponding to the TV Software version that your Apple TV is running from [here](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/folder/cgUwDb5S). [This link](https://www.iclarified.com/970/appletv-firmware-download-locations) will tell you which DMG corresponds to what TV Software version
-   - If you are running TV Software 1.1, there is no download currently. Contact whitetailani or converseallstar95 on Discord as soon as you can for additional instructions.
 2. Download the latest version of [ATV USB Creator](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/folder/M1kWwbia)
 3. Unzip ATV USB Creator and drag it to /Applications
 4. Open Terminal and run the command `sudo /Applications/atvusb-creator.app/Contents/MacOS/atvusb-creator` to open the application. Enter your user password when prompted.

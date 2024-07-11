@@ -11,11 +11,11 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports A9(X) and later devices on iOS 15.0 to 16.5, A9(X) to A14 and M1 devices on iOS 16.5.1, and A9(X) to A11 devices on iOS 16.6 to 16.6.1.
+Dopamine supports all devices on iOS 15.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1.
 
 ::: danger
 
-If you're using a beta or release candidate (RC) version of iOS, or if your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+If your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
 
 :::
 
@@ -30,12 +30,6 @@ if you are currently using *rootful* palera1n, you need to first <router-link to
 If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
 
 If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
-
-:::
-
-::: tip
-
-If you're using an A8(X) iPad, at this time, you should follow <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link> instead.
 
 :::
 
@@ -155,13 +149,13 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 
 ### Downloads
 
-The latest version of [Dopamine](https://ellekit.space/dopamine)
-  - Make sure to download the `.ipa` file onto your iOS device
+- The latest version of [Dopamine](https://ellekit.space/dopamine)
+    - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
 
 1. Open TrollStore if it is not open already
-  - If you're in a different tab, go back to the `Apps` tab
+    - If you're in a different tab, go back to the `Apps` tab
 1. Press the `+` on the top right
 1. Go to where you saved the Dopamine `.ipa` file
 1. Tap on the Dopamine `.ipa` file

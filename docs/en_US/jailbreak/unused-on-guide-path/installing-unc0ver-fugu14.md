@@ -16,7 +16,7 @@ The Fugu14 method of unc0ver supports A12 or newer devices on iOS 14.3 to 14.5.1
 
 ::: warning
 
-The Fugu14 method of unc0ver does not support beta versions of iOS. If you're on a beta version of iOS 14.3, 14.4, or 14.5, follow <router-link to="/installing-taurine-trollstore">Installing Taurine (TrollStore)</router-link> instead.
+The Fugu14 method of unc0ver does not support beta versions of iOS. If you're on a beta version of iOS 14.3, 14.4, or 14.5, follow <router-link to="/installing-taurine">Installing Taurine</router-link> instead.
 
 :::
 

@@ -15,11 +15,6 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **17.1.1** - February 28th, 2024
-- **16.7.2** - March 9th, 2024
-- **17.1.2** - March 9th, 2024
-- **16.7.3** - March 18th, 2024
-- **17.2 (For iPhones)** - March 18th, 2024
 - **15.8** - April 21st, 2024
 - **16.7.4** - April 21st, 2024
 - **17.2 (For iPads)** - April 21st, 2024
