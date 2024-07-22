@@ -70,7 +70,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 :::
 
 1. Once you have loaded palen1x, select `Shell`
-1. Type `palera1n`
+1. Type `palera1n -l`
 1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 ::: tip

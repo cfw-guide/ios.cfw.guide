@@ -64,7 +64,7 @@ If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/a
 
 :::
 
-1. Run `palera1n`
+1. Run `palera1n -l`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -113,7 +113,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 ### Running palera1n
 
-1. Run `sudo palera1n`
+1. Run `sudo palera1n -l`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
