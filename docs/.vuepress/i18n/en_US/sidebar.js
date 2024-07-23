@@ -35,9 +35,9 @@ const pkgman = {
 const jailbreaking = {
   text: 'Jailbreaking',
   children: [
-    '/installing-palera1n',
+    '/installing-palera1n/',
     '/installing-dopamine/',
-    '/installing-meowbrek2',
+    '/installing-chimera/',
   ],
 }
 

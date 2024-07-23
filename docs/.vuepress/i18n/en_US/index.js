@@ -4,7 +4,7 @@ module.exports = {
   locales: {
     lang: 'en_US',
     title: 'iOS Guide',
-    description: 'A complete iOS modding guide, from stock to jailbroken.',
+    description: 'A complete iOS jailbreaking guide, from stock to jailbroken.',
   },
   
   themeConfig: {

@@ -18,7 +18,6 @@ We will use Sideloadly to install the LiberTV jailbreak application to your Appl
 
 ## Downloads
 
-
 - The latest release of [LiberTV](http://newosxbook.com/libertv/libertv.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
