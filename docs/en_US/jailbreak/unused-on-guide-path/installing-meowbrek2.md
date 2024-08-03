@@ -8,7 +8,7 @@ pkgman: sileo
 
 meowbrek2 is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered</router-link> jailbreak, meaning it requires an app to re-apply the exploit after a reboot.
 
-meowbrek2 supports A11 and earlier devices on firmware versions 15.0 to 15.8.1.
+meowbrek2 supports A11 and earlier devices on firmware versions 15.0 to 15.8.3.
 
 ::: warning
 
@@ -104,7 +104,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ::::
 
-:::: tab name="TrollMisaka (15.7.2 to 15.8.1)"
+:::: tab name="TrollMisaka (15.7.2 to 15.8.3)"
 
 ::: warning
 
