@@ -221,6 +221,12 @@ If the app or your device crashes/restarts unexpectedly and the jailbreak isn't 
 
 :::
 
+::: warning
+
+If your device has a replacement screen, there is a chance (*especially if the screen is of low quality*) that the touchscreen **will not work** after userspace rebooting into a jailbroken state. This is **not** a Dopamine issue, and can only be fixed by getting a better screen replacement.
+
+:::
+
 Sileo should now be installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
 While you are now jailbroken at this point, we need to both update and install some packages so that we're able to both update other packages and have stuff work properly
