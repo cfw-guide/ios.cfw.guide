@@ -1,7 +1,7 @@
 ---
 lang: en_US
-title: Updating to 16.7.9
-permalink: /updating-to-16-7-9
+title: Updating to 16.7.10
+permalink: /updating-to-16-7-10
 redirect_from:
     - /updating-to-16-0
     - /updating-to-16-0-2
@@ -21,6 +21,7 @@ redirect_from:
     - /updating-to-16-7-4
     - /updating-to-16-7-5
     - /updating-to-16-7-8
+    - /updating-to-16-7-9
 ---
 
 ## Required Reading
@@ -46,10 +47,10 @@ Only follow this if you've installed update blocking in the past.
     - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to 16.7.9
+## Updating to 16.7.10
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-    - Ensure that the version you are updating to is 16.7.9
+    - Ensure that the version you are updating to is 16.7.10
 1. Download and install the update
