@@ -122,6 +122,5 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **A12-A14/M1 iPads**: iPadOS 16.5.1 (via Dopamine)
 - **A15/A16 iPhones**: iOS 16.5 (via Dopamine)
 - **A15/M2 iPads**: iPadOS 16.5 (via Dopamine)
-- **T2 (Intel Macs)**: bridgeOS 8.6 (macOS 12.7.6/13.6.9/14.6.1) (via palera1n)
 
 Note that A12 and newer devices running iOS 16.6 or newer do not have a jailbreak, which also inherently means no A17 device has a jailbreak currently.
