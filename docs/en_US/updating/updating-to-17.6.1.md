@@ -1,8 +1,9 @@
 ---
 lang: en_US
-title: Updating to 17.6
-permalink: /updating-to-17-6
+title: Updating to 17.6.1
+permalink: /updating-to-17-6-1
 redirect_from:
+    - /updating-to-17-6
     - /updating-to-17-5-1
     - /updating-to-17-5
     - /updating-to-17-3-1
