@@ -80,6 +80,7 @@ sidebar: false
 
 -   <router-link to="/troubleshooting">Troubleshooting</router-link>
 -   <router-link to="/installing-trollstore">Installing TrollStore</router-link>
+-   <router-link to="/installing-nathanlr">Installing bathanlr</router-link>
 -   <router-link to="/restoring-rootfs">Restoring Rootfs</router-link>
 -   <router-link to="/installing-sileo">Installing Sileo</router-link>
 -   <router-link to="/installing-zebra">Installing Zebra</router-link>
