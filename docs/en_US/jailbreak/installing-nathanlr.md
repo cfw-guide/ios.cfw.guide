@@ -16,6 +16,14 @@ nathanlr is what is considered a **semi**-jailbreak, and is **not** a full-fledg
 
 :::
 
+::: danger
+
+If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
+
+If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
+
+:::
+
 nathanlr is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered semi-jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 The tool is capable of semi-jailbreaking A12 and later devices on iOS/iPadOS versions 16.5.1 to 16.6.1.
@@ -23,6 +31,12 @@ The tool is capable of semi-jailbreaking A12 and later devices on iOS/iPadOS ver
 We will first use Sideloadly to sideload TrollInstallerX, then use TrollInstallerX to install TrollStore, and then install nathanlr from there.
 
 ## Installing TrollStore
+
+::: tip
+
+If you already have TrollStore installed, you can skip this section.
+
+:::
 
 ### Requirements
 
@@ -108,7 +122,7 @@ The nathanlr app will now be installed onto your device.
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the nathanlr application from your home screen immediately afterwards
-1. Tap "Bootstrap", then tap "Start"
+1. Tap "Bootstrap", then tap "Jailbreak"
 
 ::: tip
 
