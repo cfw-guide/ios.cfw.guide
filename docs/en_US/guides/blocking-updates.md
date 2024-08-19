@@ -12,9 +12,7 @@ This will take you through installing the iOS 17 "tvOS profile" to block updates
 
 ## Installing the tvOS profile
 
-1. Set your device's date to any point before December 14th, 2023
-    - This is so that the profile can be installed despite an expired certificate, and can be set back to normal after the profile is installed.
-1. Open [http://152.53.13.42:6969/17.mobileconfig](http://152.53.13.42:6969/17.mobileconfig) in your device's browser
+1. Open [https://f.itsnebula.net/noota-17.mobileconfig](https://f.itsnebula.net/noota-17.mobileconfig) in your device's browser
 1. Select "Allow" if prompted
 1. Open the Settings application
 1. Navigate to `General` -> `Profile`
@@ -27,12 +25,6 @@ This will take you through installing the iOS 17 "tvOS profile" to block updates
 1. Restart your device when prompted
 
 Your device should no longer receive software updates. You can confirm this by going to `Settings > General > Software Update`, and if it shows that "iOS is up to date", you are successfully blocking updates.
-
-::: tip
-
-You can now set your devices date back to the current date.
-
-:::
 
 ## Uninstalling the tvOS Profile
 
