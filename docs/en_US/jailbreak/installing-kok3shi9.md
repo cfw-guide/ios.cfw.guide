@@ -17,11 +17,13 @@ extra_contributors:
   - TheHacker894
 ---
 
-kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64-bit devices on 9.3 to 9.3.1
+kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64-bit devices on 9.2 to 9.3.1
 
 ## Downloads
 
-- The latest version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9.html)
+- The version of kok3shi9 for your device:
+  - **32-bit devices** should download the **4.0.3** version of [kok3shi9](https://kok3shidoll.github.io/download/kokeshi/kok3shi9_v4.0.3.ipa)
+  - **64-bit devices** should download the **latest** version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -59,6 +61,27 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+## Untethering (64-bit, iOS 9.2 to 9.3.4)
+
+::: danger
+
+The steps listed here only apply and only work for **64-bit devices** on iOS 9.2 to 9.3.4.
+
+:::
+
+This is an optional step which allows the jailbreak to run automatically when your device is booted. This means that you won't have to re-jailbreak through jailbreak.me after your device is turned off.
+
+You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-kok3shi9/using-cydia.html) first, before returning to this page.
+
+1. Open the Cydia application
+1. Go to the "Sources" tab
+1. If you can't find it, tap `Edit` -> `+` and enter `kok3shidoll.github.io/kokeshi9`
+1. Open the "Search" tab and enter "kokeshi 9.2-9.3.4 Untether"
+1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
+1. Confirm the installation
+
+Once finished, you will be prompted to reboot your device.
 
 ::: tip
 
