@@ -70,7 +70,7 @@ The steps listed here only apply and only work for **64-bit devices** on iOS 9.2
 
 :::
 
-This is an optional step which allows the jailbreak to run automatically when your device is booted. This means that you won't have to re-jailbreak through jailbreak.me after your device is turned off.
+This is an optional step which allows the jailbreak to run automatically when your device is booted. This means that you won't have to re-jailbreak through rerunning the kok3shi9 app after your device is turned off.
 
 You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-kok3shi9/using-cydia.html) first, before returning to this page.
 
