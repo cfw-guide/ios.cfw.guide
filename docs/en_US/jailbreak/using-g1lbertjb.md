@@ -1,10 +1,13 @@
+---
 lang: en_US
-title: Using g1lbertJB
-description: Guide to using g1lbertJB 
+title: Installing g1lbertJB
+description: Guide to Installing g1lbertJB
 permalink: /installing-g1lbertJB
 redirect_from:
+  - /g1lbert
   - /g1lbertJB
-  - /gJB
+  - g1JB
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---
 
@@ -20,7 +23,7 @@ The only downside to an untethered jailbreak is that if something goes wrong, it
 
 :::: tab name="macOS" :default="true"
 
-### Using g1lbertJB
+### Installing g1lbertJB
 
 1. Download [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/).
 2. Plug in your iOS device.
@@ -37,7 +40,7 @@ If you receive the message "Error Code 1" and/or "Error Code 102" during the jai
 
 :::: tab name="Linux"
 
-### Using g1lbertJB
+### Installing g1lbertJB
 
 1. Download [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/).
 2. Plug in your iOS device.
