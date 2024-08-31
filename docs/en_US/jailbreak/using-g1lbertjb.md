@@ -1,12 +1,16 @@
+---
 lang: en_US
-title: Using g1lbertJB
-description: Guide to using g1lbertJB 
+title: Installing g1lbertJB
+description: Guide to Installing g1lbertJB
 permalink: /installing-g1lbertJB
 redirect_from:
+  - /g1lbert
   - /g1lbertJB
-  - /gJB
+  - g1JB
+discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---
+
 
 g1lbertJB is an [untethered jailbreak](/types-of-jailbreak/#untethered-jailbreaks), meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
 
