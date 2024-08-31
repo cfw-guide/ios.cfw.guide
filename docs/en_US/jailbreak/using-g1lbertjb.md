@@ -11,7 +11,6 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 ---
 
-
 g1lbertJB is an [untethered jailbreak](/types-of-jailbreak/#untethered-jailbreaks), meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
 
 The tool is compatible with jailbreaking all devices on iOS versions 5.0 to 6.1.2.
@@ -24,7 +23,7 @@ The only downside to an untethered jailbreak is that if something goes wrong, it
 
 :::: tab name="macOS" :default="true"
 
-### Using g1lbertJB
+### Installing g1lbertJB
 
 1. Download [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/).
 2. Plug in your iOS device.
@@ -41,7 +40,7 @@ If you receive the message "Error Code 1" and/or "Error Code 102" during the jai
 
 :::: tab name="Linux"
 
-### Using g1lbertJB
+### Installing g1lbertJB
 
 1. Download [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/).
 2. Plug in your iOS device.
