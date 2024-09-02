@@ -15,6 +15,7 @@ extra_contributors:
 
 - A device running iOS/iPadOS 15.0 to 16.6.1, 16.7 RC (20H18), or 17.0
 - The latest version of [python3](https://www.python.org/downloads)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollRestore](https://github.com/JJTech0130/TrollRestore/releases) for your platform.
     - For Windows, this will be `TrollRestore.exe`
     - For Apple Silicon Macs, this will be `TrollRestore_macOS_arm64.zip`
