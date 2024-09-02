@@ -91,8 +91,9 @@ All dependencies needed for TrollRestore should now be installed.
 
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. *In the same terminal window as the previous section*, run `python3 trollstore.py <name of system app you want to overwrite>`
-    - If you are unsure as to what app you want to overwrite, overwrite the Tips app by running `python3 trollstore.py Tips`
+1. *In the same terminal window as the previous section*, run `python3 trollstore.py`
+1. When prompted, type in the name of a system app you want to overwrite, and press enter.
+    - If you are unsure as to what app you want to overwrite, overwrite the Tips app by entering `Tips`
 
 ::: tip
 
