@@ -54,10 +54,12 @@ Alternatively, if you're running into issues doing thist, you can follow the `Li
 
 ### Injecting TrollStore Helper
 
+1. Plug your iOS device into your computer.
+    - Make sure your computer is trusted and allowed to view the contents of your device
 1. Open a File Explorer (Windows) or Finder (macOS) window.
 1. Navigate to where the downloaded/extracted file is saved.
     - This will likely be the `Downloads` folder.
-1. Double Click `TrollRestore`
+1. Double Click `TrollRestore`.
 1. When prompted, type in the name of a system app you want to overwrite, and press enter.
     - If you are unsure as to what app you want to overwrite, overwrite the Tips app by entering `Tips`
 
