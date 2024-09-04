@@ -6,7 +6,7 @@ permalink: /installing-g1lbertJB
 redirect_from:
   - /g1lbert
   - /g1lbertJB
-  - g1JB
+  - /g1JB
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 ---
