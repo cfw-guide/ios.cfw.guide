@@ -41,16 +41,16 @@ If you already have TrollStore installed, you can skip this section.
 
 :::
 
-::: danger
+::: warning
 
-If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.7.2 or later, you need to follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
+If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.5 or later, you should follow the `(Alternative) TrollRestore (15.2 to 16.6.1, 16.7 RC (20H18), or 17.0)` tab.
 
 :::
 
-::::: tabs
+<tabs id="install-methods">
 
-:::: tab name="TrollInstallerX (A9(X) and later 15.7 to 16.6.1 / A9(X) to A11 15.5 to 15.6.1)" :default="true"
-
+  <tab name="TrollInstallerX (A9(X) and later 15.7 to 16.6.1 / A9(X) to A11 15.5 to 15.6.1)" default>
+    
 ### Requirements
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
@@ -99,11 +99,11 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
     - If your device reboots *before* getting to this step, try again
 
 Both TrollStore and its persistence helper should now be installed.
+  
+  </tab>
 
-::::
-
-:::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)"
-
+  <tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)">
+   
 ::: warning
 
 A11 and earlier devices are supported on iOS 15.0 to 15.4.1
@@ -131,52 +131,106 @@ An app named `GTA Car Tracker` will now install to your iOS device, this app is 
 
 The TrollStore application will now install to your iOS device.
 
-::::
+  </tab>
 
-:::: tab name="TrollInstallerMDC (A8(X) 15.5 to 15.7.1)"
-
+  <tab name="(Alternative) TrollRestore (15.2 to 16.6.1, 16.7 RC (20H18), or 17.0)">
+    
 ### Requirements
 
-- The Tips app installed to your device
-- The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
-
-### Installing the application
-
-1. Open Sideloadly
-1. Plug your iOS device into your computer
-    - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
-1. Enter in your Apple ID
-1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
-
-The app will now install to your iOS device.
-
-### Trusting the application
-
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
-    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
-
-The TrollInstallerMDC application can now be opened from home screen.
-
-### Injecting TrollStore Helper
+- A device running iOS/iPadOS 15.2 to 16.6.1, 16.7 RC (20H18), or 17.0
+- The latest version of [python3](https://www.python.org/downloads)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+- The latest version of [TrollRestore](https://github.com/JJTech0130/TrollRestore/releases) for your platform.
+    - For Windows, this will be `TrollRestore.exe`
+    - For Apple Silicon Macs, this will be `TrollRestore_macOS_arm64.zip`
+    - For Intel-based Macs, this will be `TrollRestore_macOS_amd64.zip`
+    - For Linux, this will be `TrollRestore_Linux.zip`
 
 ::: warning
 
-If you've already opened Tips, reboot your device before following these steps
+Before continuing, if you're using *macOS* or *Linux*, extract the contents of the downloaded TrollRestore `.zip` file.
 
 :::
 
-1. Open TrollInstallerMDC
-1. Once it says "Successfully replaced Tips binary", close the `TrollInstallerMDC` app
-    - If it gives an error, close TrollInstallerMDC and re-open it 
+::: warning
+
+As this method of installing TrollStore involves restoring a modified backup, you'll need to disable Find My before continuing with this guide.
+
+After this guide is complete, you are free to re-enable Find My.
+
+:::
+
+### Running TrollRestore
+
+Please select your operating system:
+
+<tabs id="trollrestore-oses">
+  <tab name="macOS/Windows" default>
+
+::: warning
+
+The build of TrollRestore for *Intel-based Macs* is not notarized, which means you'll either need to Double Click while holding Control (if on macOS Sonoma or earlier) or by attempting to open it normally, and then opening `System Settings` -> `Privacy & Security` and scrolling down until you see `Open Anyway`.
+Alternatively, if you're running into issues doing this, you can follow the `Linux` tab instead, as those steps work on all platforms (but are slightly more involved than the normal steps listed in this tab).
+
+:::
+
+#### Injecting TrollStore Helper
+
+1. Plug your iOS device into your computer.
+    - Make sure your computer is trusted and allowed to view the contents of your device
+2. Open a File Explorer (Windows) or Finder (macOS) window.
+3. Navigate to where the downloaded/extracted file is saved.
+    - This will likely be the `Downloads` folder.
+4. Double Click `TrollRestore`.
+5. When prompted, type in the name of a system app you want to overwrite, and press enter.
+    - If you are unsure as to what app you want to overwrite, overwrite the Tips app by entering `Tips`
+
+::: tip
+
+Until the device reboots, there is no visual indication *on the device itself* that anything is being done.
+
+:::
+
+The TrollStore Helper should now be restored to your device, and your device will reboot once this process is complete.
+
+  </tab>
+  <tab name="Linux">
+
+::: tip
+
+While this tab (and the associated zip file) are for Linux platforms, all other platforms can follow this tab and use the Linux `.zip` file as an alternative to the normal executable files.
+
+:::
+
+#### Installing Dependencies
+
+1. Open a terminal application
+1. Run `cd <path/to/TrollRestore>`
+    - In most cases, this will likely mean running `cd ~/Downloads/TrollRestore_Linux`
+1. Run `pip3 install -r requirements.txt` and follow the on screen prompts
+
+All dependencies needed for TrollRestore should now be installed.
+
+#### Injecting TrollStore Helper
+
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. *In the same terminal window as the previous section*, run `python3 trollstore.py`
+1. When prompted, type in the name of a system app you want to overwrite, and press enter.
+    - If you are unsure as to what app you want to overwrite, overwrite the Tips app by entering `Tips`
+
+::: tip
+
+Until the device reboots, there is no visual indication *on the device itself* that anything is being done.
+
+:::
+
+The TrollStore Helper should now be restored to your device, and your device will reboot once this process is complete.
 
 ### Installing TrollStore
 
-1. Open the `Tips` app
+1. Unlock your device.
+1. Open the app you originally put in.
 1. Tap `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.
@@ -187,9 +241,11 @@ Your device should respring, and TrollStore should now be installed.
 1. Press `Settings`, then press `Install Persistence Helper`
 1. Select `Tips` from the list of apps
 
-::::
+  </tab>
+  </tabs>
+</tab>
+</tabs>
 
-:::::
 
 ## Installing Dopamine
 
