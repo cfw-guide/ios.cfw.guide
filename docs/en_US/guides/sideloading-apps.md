@@ -29,7 +29,7 @@ Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. App
 
 ::: danger
 
-If you are using iOS 16, you will need to take extra steps beforehand to open sideloaded apps:
+If you are using iOS 16 or newer, you will need to take extra steps beforehand to open sideloaded apps:
 
 1. Open Settings
 2. Go to Privacy & Security and find the `Developer Mode` entry
