@@ -36,6 +36,12 @@ If you don't know what Bootstrap or Serotonin are, you can ignore this notice an
 
 ## Downloads
 
+::: tip
+
+This section requires a computer.
+
+:::
+
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
@@ -51,6 +57,12 @@ If you don't know what Bootstrap or Serotonin are, you can ignore this notice an
 1. Enter in your password
 
 The app will now install to your iOS device.
+
+::: tip
+
+Once Dopamine is successfully installed, a computer is no longer required for the remainder of this guide.
+
+:::
 
 ### Trusting the application
 

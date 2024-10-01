@@ -38,7 +38,7 @@ The method that needs to be followed in order to install TrollStore depends on b
 
 ::: tip
 
-If you already have TrollStore installed, you can skip this section.
+If you already have TrollStore installed, you will not need a computer for any of the subsequent steps, and you can skip this section.
 
 :::
 
@@ -51,6 +51,12 @@ If you do not already have TrollStore installed, and are using an A8(X) iPad on 
 ::::: tabs
 
 :::: tab name="TrollInstallerX (A9(X) and later 15.7 to 16.6.1 / A9(X) to A11 15.5 to 15.6.1)" :default="true"
+
+::: tip
+
+Unless jailbreaks.app is signed, this section requires a computer.
+
+:::
 
 ### Requirements
 
@@ -72,6 +78,12 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 1. Enter in your password
 
 The app will now install to your iOS device.
+
+::: tip
+
+Once TrollInstallerX is successfully installed, a computer is no longer required for the remainder of this guide.
+
+:::
 
 ### Trusting the application
 
@@ -104,6 +116,12 @@ Both TrollStore and its persistence helper should now be installed.
 
 :::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)"
 
+::: tip
+
+A computer is not required for any steps on this guide.
+
+:::
+
 ::: warning
 
 A11 and earlier devices are supported on iOS 15.0 to 15.4.1
@@ -135,6 +153,12 @@ The TrollStore application will now install to your iOS device.
 
 :::: tab name="TrollInstallerMDC (A8(X) 15.5 to 15.7.1)"
 
+::: tip
+
+This section requires a computer.
+
+:::
+
 ### Requirements
 
 - The Tips app installed to your device
@@ -152,6 +176,12 @@ The TrollStore application will now install to your iOS device.
 1. Enter in your password
 
 The app will now install to your iOS device.
+
+::: tip
+
+Once TrollInstallerMDC is successfully installed, a computer is no longer required for the remainder of this guide.
+
+:::
 
 ### Trusting the application
 
