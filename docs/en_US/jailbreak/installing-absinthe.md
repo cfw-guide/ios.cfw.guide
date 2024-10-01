@@ -9,7 +9,7 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 ---
 
-Absinthe is capable of jailbreaking every iOS device on firmware version 5.1.1 and A5 devices (iPhone 4S, iPad 2) on firmware versions 5.0 and 5.0.1
+Absinthe is capable of jailbreaking every iOS device on firmware versions 5.0.1 and 5.1.1, as well as the iPhone 4S on firmware version 5.0.
 
 Absinthe is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered</router-link> jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
 

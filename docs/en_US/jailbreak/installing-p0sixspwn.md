@@ -15,25 +15,25 @@ extra_contributors:
   - Midnight145
 ---
 
-P0sixspwn is capable of jailbreaking every iOS device on firmware version 6.1.3 up to 6.1.6
+p0sixspwn is capable of jailbreaking every iOS device on firmware version 6.1.3 up to 6.1.6
 
-P0sixspwn is an [untethered](/types-of-jailbreak/#untethered-jailbreaks) jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
+p0sixspwn is an [untethered](/types-of-jailbreak/#untethered-jailbreaks) jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore
 
 You will need a computer running macOS 10.12 Sierra or older or Windows XP or newer. Wine will not work.
 
-![A screenshot of P0sixspwn (Windows)](/assets/images/p0sixspwn-win.png)
+![A screenshot of p0sixspwn (Windows)](/assets/images/p0sixspwn-win.png)
 
 ::::: tabs
 
 :::: tab name="macOS Sierra or older" :default="true"
 
-1. Download the latest version of [P0sixspwn](https://ih8sn0w.com/p0sixspwn.html)
-1. Unzip P0sixspwn
-1. Run P0sixspwn
+1. Download the latest version of [p0sixspwn](https://ih8sn0w.com/p0sixspwn.html)
+1. Unzip p0sixspwn
+1. Run p0sixspwn
     - Right click and click `Open`
 1. Connect your iOS Device over to USB to your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Click `Jailbreak` on P0sixspwn
+1. Click `Jailbreak` on p0sixspwn
     - Jailbreaking may take a while, please be patient and do not let your computer go to sleep mode
 
 ::::
@@ -44,11 +44,11 @@ You will need a computer running macOS 10.12 Sierra or older or Windows XP or ne
 1. Unzip the ZIP file
 1. Open Terminal (can be found in `Applications/Utilities/`)
 1. Navigate to the extracted zip folder with `cd`
-1. Run `./p0sixspwn.tool` from the P0sixspwn folder
-    - If you receive an error `“pris0nbarake” cannot be opened because the developer cannot be verified.` or anything similar, run `sudo xattr -c *` in the P0sixspwn folder and then run `./p0sixspwn.tool` again.
+1. Run `./p0sixspwn.tool` from the p0sixspwn folder
+    - If you receive an error `“pris0nbarake” cannot be opened because the developer cannot be verified.` or anything similar, run `sudo xattr -c *` in the p0sixspwn folder and then run `./p0sixspwn.tool` again.
 1. Connect your iOS Device over to USB to your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Click `Jailbreak` on P0sixspwn
+1. Click `Jailbreak` on p0sixspwn
     - Jailbreaking may take a while, please be patient and do not let your computer go to sleep mode
 
 ::::
@@ -67,12 +67,12 @@ You will need a computer running macOS 10.12 Sierra or older or Windows XP or ne
     - [64-bit](https://secure-appldnld.apple.com/iTunes11/031-3482.20140225.kdX8s/iTunes64Setup.exe)
     - [32-bit](https://secure-appldnld.apple.com/iTunes11/031-3481.20140225.SdYYY/iTunesSetup.exe)
 1. Install iTunes, then restart your computer if prompted
-1. Download the latest version of [P0sixspwn](https://ih8sn0w.com/p0sixspwn.html)
-1. Unzip P0sixspwn
+1. Download the latest version of [p0sixspwn](https://ih8sn0w.com/p0sixspwn.html)
+1. Unzip p0sixspwn
 
 ::: tip
 
-For Windows 10 and later, you will need to set compatibility mode for the P0sixspwn application to Windows XP SP3
+For Windows 10 and later, you will need to set compatibility mode for the p0sixspwn application to Windows XP SP3
 1. Right click on `p0sixspwn-1.0.8.exe`
 1. Select `Properties`
 1. Go to the `Compatibility` tab
@@ -82,10 +82,10 @@ For Windows 10 and later, you will need to set compatibility mode for the P0sixs
 
 :::
 
-9. Run P0sixspwn
+9. Run p0sixspwn
 10. Connect your iOS Device over to USB to your computer
       - Make sure your computer is trusted and allowed to view the contents of your device
-11. Click `Jailbreak` on P0sixspwn
+11. Click `Jailbreak` on p0sixspwn
       - Jailbreaking may take a while, please be patient and do not let your computer go to sleep mode
 
 ::: tip
