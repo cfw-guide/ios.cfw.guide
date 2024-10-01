@@ -59,8 +59,6 @@ sidebar: false
 ## Other Jailbreaks/Methods
 
 -   <router-link to="/installing-notajb">Installing Def1nit3lyN0tAJa1lbr3akTool</router-link>
--   <router-link to="/installing-meowbrek2">Installing meowbrek2</router-link>
--   <router-link to="/installing-meowbrek2-palera1n">Installing meowbrek2 (palera1n)</router-link>
 -   <router-link to="/installing-xinaa15">Installing XinaA15</router-link>
 -   <router-link to="/installing-taurine-sideloadly">Installing Taurine (Sideloadly)</router-link>
 -   <router-link to="/installing-odysseyra1n">Installing Odysseyra1n</router-link>
