@@ -4,6 +4,8 @@ title: Installing Def1nit3lyN0tAJa1lbr3akTool
 description: Guide to installing Def1nit3lyN0tAJa1lbr3akTool
 permalink: /installing-notajb
 pkgman: sileo
+extra_contributors:
+ - Alriceee
 ---
 
 Def1nit3lyN0tAJa1lbr3akTool is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -29,7 +31,7 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 </p></div>
 
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest)
 
 ### Installing the application
@@ -40,7 +42,6 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 1. Drag and drop the TrollInstallerX `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

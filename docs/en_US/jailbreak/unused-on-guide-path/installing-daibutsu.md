@@ -7,6 +7,8 @@ redirect_from:
   - /daibutsu
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
+extra_contributors:
+ - Alriceee
 ---
 
 Daibutsu is capable of jailbreaking most A5(X) iOS devices on firmware version 8.4.1.
@@ -38,7 +40,7 @@ Daibutsu is currently signed at <a href="https://jailbreaks.app/legacy.html" tar
 
 - The latest version of [Daibutsu](https://dora2ios.web.app/daibutsu.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -50,7 +52,6 @@ Daibutsu is currently signed at <a href="https://jailbreaks.app/legacy.html" tar
 1. Drag and drop the Daibutsu `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

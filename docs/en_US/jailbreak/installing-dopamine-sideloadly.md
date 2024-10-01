@@ -7,6 +7,7 @@ pkgman: sileo
 extra_contributors:
   - opa334
   - iCraze
+  - Alriceee
 ---
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -36,7 +37,7 @@ If you don't know what Bootstrap or Serotonin are, you can ignore this notice an
 ## Downloads
 
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
     - A12 and later devices on iOS 15 are recommended to download the 2.1.7 version of [Dopamine](https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa) instead
 
@@ -48,7 +49,6 @@ If you don't know what Bootstrap or Serotonin are, you can ignore this notice an
 1. Drag and drop the Dopamine `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

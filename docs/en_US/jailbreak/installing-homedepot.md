@@ -12,6 +12,7 @@ extra_contributors:
   - TheHacker894
   - WhitetailAni
   - LukeZGD
+  - Alriceee
 ---
 
 HomeDepot is capable of jailbreaking every 32-bit iOS device on firmware version 9.1 up to 9.3.4, as well as A5(X) devices on 8.0 to 8.4.1.
@@ -33,7 +34,7 @@ HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" ta
   - Home Depot for [iOS 8.0-8.4.1](https://web.archive.org/web/20240121141903/https://wall.supplies/OLD%20iPhone%20HACKED.html)
     - You also need to get the latest version of the [ohd patcher](https://github.com/LukeZGD/ohd/releases)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -74,7 +75,6 @@ This is only needed on iOS 8.0 to 8.4.1, it is not needed for iOS 9.1 to 9.3.4.
 1. Drag and drop the HomeDepot `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

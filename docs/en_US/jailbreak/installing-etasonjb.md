@@ -11,9 +11,10 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 extra_contributors:
   - TheHacker894
+  - Alriceee
 ---
 
-EtasonJB is capable of jailbreaking 32bit iOS devices on firmware version 8.4.1.
+EtasonJB is capable of jailbreaking 32-bit iOS devices on firmware version 8.4.1.
 
 Unlike most modern jailbreaks, EtasonJB is persistent after a reboot (this is also referred to as an "untethered" jailbreak). This means that after you reboot the device, the device will stay jailbroken and you won't have to run the exploit again.
 
@@ -23,7 +24,7 @@ We will use the Sideloadly tool to install the EtasonJB jailbreak application to
 
 - The latest version of [EtasonJB](https://etasonjb.tihmstar.net/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -35,7 +36,6 @@ We will use the Sideloadly tool to install the EtasonJB jailbreak application to
 1. Drag and drop the EtasonJB `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

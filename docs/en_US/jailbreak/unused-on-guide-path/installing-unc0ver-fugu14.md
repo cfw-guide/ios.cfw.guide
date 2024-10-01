@@ -8,6 +8,8 @@ redirect_from:
   - /installing-uncover-fugu14
   - /installing-unc0ver-(fugu14)
   - /installing-uncover-(fugu14)
+extra_contributors:
+ - Alriceee
 ---
 
 unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -26,7 +28,7 @@ We will use the AltStore tool to allow us to set everything up to be able to jai
 
 - The latest version of [unc0ver](https://unc0ver.dev)
 - The latest version of [AltStore](http://altstore.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 
 ## Installing the Application

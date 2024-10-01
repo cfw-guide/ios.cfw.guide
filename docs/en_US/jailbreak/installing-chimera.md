@@ -10,6 +10,7 @@ pkgman: sileo
 extra_contributors:
   - TheHacker894
   - Mineek
+  - Alriceee
 ---
 
 Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -39,8 +40,17 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
+    - A7 or A8(X) devices running either 12.3.x or 12.4.1 to 12.5.7 are recommended to use [Chimera patched with chimera_patch](https://jailbreaks.app/cdn/ipas/ChimeraPatch-resigned.ipa) for improved success rates. 
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+::: danger
+
+The patched version of Chimera recommended above is an *unofficial build* of Chimera patched with staturnz's [chimera_patch](https://github.com/staturnzz/chimera_patch) to improve success rate on older devices.
+
+The unofficial build is **completely unnecessary** on newer (A9 and later) devices. Additionally, if you're not comfortable using an unofficial build of Chimera, the normal build of Chimera will still work.
+
+:::
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -52,7 +62,6 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 1. Drag and drop the Chimera `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
@@ -85,3 +94,18 @@ If that app or your device continually crashes/restarts unexpectedly and the jai
 :::
 
 You should now be jailbroken with Sileo installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+## Installing necessary software
+
+1. Open the Sileo application
+1. Tap on the "Search" tab
+1. Search for "libiosexec1"
+1. Tap "Modify", then Tap "Upgrade"
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap "Done"
+1. Search for "libhooker (common)", "PreferenceLoader", and "RocketBootstrap" and add them to the queue by pressing "Install"
+    - While we're preparing the queue, do not install the anything that is queued until after we've selected all our programs to install
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap 'Restart SpringBoard'

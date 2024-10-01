@@ -70,7 +70,6 @@ You now have a patched h3lix ipa that you can sign
 1. Drag and drop the h3lix `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

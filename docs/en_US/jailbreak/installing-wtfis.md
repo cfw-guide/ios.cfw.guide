@@ -10,6 +10,7 @@ pkgman: cydia
 extra_contributors:
   - TheHacker894
   - hopolapopola
+  - Alriceee
 ---
 
 wtfis is capable of jailbreaking every 64bit iOS device on firmware version 8.0 up to 8.4.1.
@@ -26,7 +27,7 @@ wtfis is currently **in beta**, if you are not comfortable with using beta softw
 
 - The latest version of [wtfis](https://github.com/TheRealClarity/wtfis/releases/latest)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -38,7 +39,6 @@ wtfis is currently **in beta**, if you are not comfortable with using beta softw
 1. Drag and drop the wtfis `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

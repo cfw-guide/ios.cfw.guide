@@ -10,6 +10,7 @@ pkgman: cydia
 extra_contributors:
   - TheHacker894
   - TophattedWasTaken
+  - Alriceee
 ---
 
 ::: warning
@@ -30,7 +31,7 @@ We will use the Sideloadly tool to install the Meridian jailbreak application to
 
 - The latest version of [Meridian](https://github.com/PsychoTea/MeridianJB/releases/download/v0.9-007/Meridian-v0.9-007.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -42,7 +43,6 @@ We will use the Sideloadly tool to install the Meridian jailbreak application to
 1. Drag and drop the Meridian `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

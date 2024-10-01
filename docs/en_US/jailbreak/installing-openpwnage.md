@@ -9,6 +9,7 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 extra_contributors:
   - TheHacker894
+  - Alriceee
 ---
 
 openpwnage is capable of jailbreaking all 32bit devices on firmware versions 8.4b4 to 9.3.6.
@@ -27,7 +28,7 @@ openpwnage is currently signed at <a href="https://jailbreaks.app/legacy.html" t
 
 - The latest version of [openpwnage](https://github.com/0xilis/openpwnage)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -39,7 +40,6 @@ openpwnage is currently signed at <a href="https://jailbreaks.app/legacy.html" t
 1. Drag and drop the openpwnage `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
