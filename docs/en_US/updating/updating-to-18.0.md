@@ -1,17 +1,8 @@
 ---
 lang: en_US
-title: Updating to 17.6.1
-permalink: /updating-to-17-6-1
+title: Updating to 18.0
+permalink: /updating-to-18-0
 redirect_from:
-    - /updating-to-17-6
-    - /updating-to-17-5-1
-    - /updating-to-17-5
-    - /updating-to-17-3-1
-    - /updating-to-17-3
-    - /updating-to-17-2
-    - /updating-to-17-1-1
-    - /updating-to-17-1
-    - /updating-to-17-0-3
 ---
 
 ## Required Reading
