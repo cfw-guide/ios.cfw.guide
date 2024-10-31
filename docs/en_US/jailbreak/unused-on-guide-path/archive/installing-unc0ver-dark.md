@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing unc0ver dark
 description: Guide to installing unc0ver dark
-permalink: /installing-unc0ver dark
+permalink: /installing-unc0ver-dark
 pkgman: zebra
 extra_contributors:
   - TheHacker894
