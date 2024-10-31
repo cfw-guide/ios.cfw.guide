@@ -27,11 +27,11 @@ We will use Sideloadly to install the unc0ver dark jailbreak application to your
 
 ::: danger
 
-This guide **should not be followed** unless you have an iOS 12.0 or 12.0.1 device, *and have been unable to achieve a truly functional jailbreak* with any other jailbreak.
+This guide **should not be followed** unless you have an iOS 12.0 or 12.0.1 device, *have been unable to achieve a truly functional jailbreak* with any other jailbreak, and **would absolutely prefer not update to the latest version of iOS for your device**.
 
 Additionally, many steps in this guide will need to be precisely followed, or you will run into issues and need to start most of this guide over.
 
-***If you do not know if you need this, return to <router-link to="/get-started">Get Started</router-link>, and do not continue with this guide***.
+***If you do not know if you need this, and/or are willing to update your device, return to <router-link to="/get-started">Get Started</router-link>, and do not continue with this guide***.
 
 :::
 
