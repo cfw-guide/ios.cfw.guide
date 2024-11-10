@@ -1,8 +1,9 @@
 ---
 lang: en_US
-title: Updating to 18.0
-permalink: /updating-to-18-0
+title: Updating to 18.1
+permalink: /updating-to-18-1
 redirect_from:
+    - /updating-to-18-0
 ---
 
 ## Required Reading
