@@ -16,6 +16,8 @@ Socket is capable of jailbreaking every 32-bit iOS device on firmware version 10
 
 Note that the Socket jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
+Please also note that currently, Terminal and mTerminal do not work with this Jailbreak method due to codeSigning issues. Please use a different jailbreak method, such as [h3lix](https://ios.cfw.guide/installing-h3lix/) if you plan on using these tweaks.
+
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the Socket jailbreak application to your device every 7 days from your computer.
 
 We will use Sideloadly to install the application to your device.
