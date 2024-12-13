@@ -17,7 +17,7 @@ extra_contributors:
   - nebula
 ---
 
-palera1n is a work-in-progress jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 or later, with some caveats for A11 devices.
+palera1n is a work-in-progress jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 or later (**excluding iPadOS 17.7.3**), with some caveats for A11 devices.
 
 On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
@@ -86,6 +86,14 @@ You'll need to do this every time you rejailbreak your device as well.
 ::: danger
 
 If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide.
+
+:::
+
+::: warning
+
+Ubuntu-based Linux distributions are known to have issues successfully running palera1n.
+
+If you are using a UBuntu-based Linux distribution and do run into issues, it's recommended to either use another Linux distribution or follow <router-link to="/using-palen1x">Using palen1x</router-link> instead.
 
 :::
 
