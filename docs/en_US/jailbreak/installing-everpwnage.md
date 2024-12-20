@@ -34,7 +34,7 @@ We will use the Sideloadly tool to install the EverPwnage jailbreak application 
 
 ## Downloads
 
-- The latest version of [EverPwnage](https://github.com/LukeZGD/EverPwnage)
+- The latest version of [EverPwnage](https://github.com/LukeZGD/EverPwnage/releases/latest)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
@@ -64,10 +64,10 @@ The EverPwnage application can now be opened from home screen.
 1. Open the EverPwnage application from your home screen
 1. Tap `Jailbreak`
 
-::: warning
+You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
-If your device crashes or restarts unexpectedly and the jailbreak isn't installed, simply try running the exploit again until it does work.
+::: tip
+
+If you wish to use a more modern package manager, and are using an A6(X) device on 9.0 to 9.0.2, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
 
 :::
-
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
