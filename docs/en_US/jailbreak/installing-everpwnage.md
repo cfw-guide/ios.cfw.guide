@@ -50,6 +50,6 @@ You should now be jailbroken with Cydia installed on your home screen. You can u
 
 ::: tip
 
-If you wish to use a more modern package manager, and are using an A6(X) device on 9.0 to 9.0.2, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
+If you wish to use a more modern package manager, and are using a device on 9.0 to 9.0.2, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
 
 :::
