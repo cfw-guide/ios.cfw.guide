@@ -10,25 +10,7 @@ extra_contributors:
   - Alriceee
 ---
 
-EverPwnage is capable of jailbreaking 32-bit iOS devices on firmware versions 8.0 to 8.4.1, as well as A6(X) devices on 9.0 to 9.0.2.
-
-::: warning
-
-EverPwnage is only capable of doing an *untethered* jailbreak on:
- - A6(X) devices on 8.0 to 8.2
- - 32-bit devices on 8.3 to 8.4.1
-
-In all other cases, EverPwnage will be a *semi-untethered* jailbreak.
-
-:::
-
-::: danger
-
-EverPwnage does not support A5(X) devices on firmware versions 9.0 to 9.0.2. If you have an A5(X) device on 9.0 to 9.0.2, you should follow <router-link to="/installing-pangu9">Installing pangu9</router-link> instead.
-
-Additionally, if you want an *untethered* jailbreak with an A6(X) devices on firmware versions 9.0 to 9.0.2, you should also follow <router-link to="/installing-pangu9">Installing pangu9</router-link> instead.
-
-:::
+EverPwnage is an untethered jailbreak capable of jailbreaking 32-bit iOS devices on firmware versions 8.0 to 9.0.2.
 
 We will use the Sideloadly tool to install the EverPwnage jailbreak application to your iOS device for use in the next step.
 
