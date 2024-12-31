@@ -112,8 +112,8 @@ This is an optional step which allows the jailbreak to run automatically when yo
 You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-homedepot/using-cydia.html) first, before returning to this page.
 
 1. Open the Cydia application
-1. Check the "Sources" tab and ensure "thanosrepo" is added
-    - If you can't find it, tap `Edit` -> `+` and enter `repo.thanos.lol`
+1. Check the "Sources" tab and ensure "LukeZGD's Repo" is added
+    - If you can't find it, tap `Edit` -> `+` and enter `lukezgd.github.io/repo`
 1. Open the "Search" tab and enter "UntetherHomeDepot"
 1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
 1. Confirm the installation

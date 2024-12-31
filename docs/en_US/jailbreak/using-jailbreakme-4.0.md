@@ -17,7 +17,7 @@ Note that the JailbreakMe 4.0 jailbreak is not “persistent” (meaning it does
 ## Running JailbreakMe 4.0
 
 1. Open Safari on your iOS device
-1. Go to the [jailbreak.me](http://jailbreak.me) website
+1. Go to the JailbreakMe 4.0 website [(https://jb.spydar007.com/9/jbme4/)](https://jb.spydar007.com/9/jbme4/)
 1. Tap "jailbreak me!"
 
 After a couple of minutes, Cydia should be installed on your home screen.
@@ -37,8 +37,8 @@ This is an optional step which allows the jailbreak to run automatically when yo
 You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-homedepot/using-cydia.html) first, before returning to this page.
 
 1. Open the Cydia application
-1. Check the "Sources" tab and ensure "tihmstar's beta repo" is added
-    - If you can't find it, tap `Edit` -> `+` and enter `repo.tihmstar.net`
+1. Check the "Sources" tab and ensure "LukeZGD's Repo" is added
+    - If you can't find it, tap `Edit` -> `+` and enter `lukezgd.github.io/repo`
 1. Open the "Search" tab and enter "UntetherHomeDepot"
 1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
 1. Confirm the installation
