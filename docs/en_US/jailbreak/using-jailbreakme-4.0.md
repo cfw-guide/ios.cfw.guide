@@ -17,7 +17,7 @@ Note that the JailbreakMe 4.0 jailbreak is not “persistent” (meaning it does
 ## Running JailbreakMe 4.0
 
 1. Open Safari on your iOS device
-1. Go to the JailbreakMe 4.0 website [(https://jb.spydar007.com/9/jbme4/)](https://jb.spydar007.com/9/jbme4/)
+1. Go to the JailbreakMe 4.0 website ([https://lukezgd.github.io/jbme4](https://lukezgd.github.io/jbme4))
 1. Tap "jailbreak me!"
 
 After a couple of minutes, Cydia should be installed on your home screen.
