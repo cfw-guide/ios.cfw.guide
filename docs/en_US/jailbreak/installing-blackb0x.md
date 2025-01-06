@@ -67,4 +67,4 @@ Your Apple TV (3rd generation) may boot into recovery mode after using blackb0x.
 
 :::
 
-You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. To gain access, run the command `ssh -oHostKeyAlgorithms=+ssh-dss root@apple.tv.ip.here`. You can find the IP address in Settings.
+You should now be jailbroken with Kodi installed on your home screen. To install packages, you will need to use SSH. To gain access, run the command `ssh -oHostKeyAlgorithms=+ssh-rsa root@apple.tv.ip.here`, Password: `alpine`. You can find the IP address in Settings.
