@@ -20,7 +20,7 @@ You will need a computer running Windows XP and newer or a Mac running Mac OS X 
 
 ::: warning
 
-If you are using a 32-bit device, it is recommended to follow <router-link to="/using-lyncis">Ysing Lyncis</router-link> instead, as it does not require a computer and is substantially easier.
+If you are using a 32-bit device, it is recommended to follow <router-link to="/using-lyncis">Using Lyncis</router-link> instead, as it does not require a computer and is substantially easier.
 
 :::
 
