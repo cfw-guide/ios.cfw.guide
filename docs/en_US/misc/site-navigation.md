@@ -31,6 +31,7 @@ sidebar: false
 -   <router-link to="/installing-everpwnage">Installing EverPwnage</router-link>
 -   <router-link to="/installing-wtfis">Installing wtfis</router-link>
 -   <router-link to="/installing-pangu7">Installing Pangu7</router-link>
+-   <router-link to="/using-lyncis">Using Lyncis</router-link>
 -   <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 -   <router-link to="/installing-p0sixspwn">Installing p0sixspwn</router-link>
 -   <router-link to="/installing-evasi0n6">Installing evasi0n6</router-link>
