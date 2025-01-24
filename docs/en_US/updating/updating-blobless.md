@@ -59,7 +59,7 @@ The Dahlia tweak, when using Dallas profiles, redirects update searches to a dif
 1. Launch your current jailbreak
 1. Open your preferred package manager and add the following repos:
     - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
-    - [https://repo.alexia.lol](https://repo.alexia.lol)
+    - [https://repo.lunya.dev](https://repo.lunya.dev)
 1. Search and install the `Dahlia` package
 1. Tap `Reboot Device`, and then rejailbreak your device after rebooting
 
