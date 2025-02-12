@@ -1,8 +1,9 @@
 ---
 lang: en_US
-title: Updating to 18.1
-permalink: /updating-to-18-1
+title: Updating to 18.3.1
+permalink: /updating-to-18-3-1
 redirect_from:
+    - /updating-to-18-1
     - /updating-to-18-0
 ---
 
