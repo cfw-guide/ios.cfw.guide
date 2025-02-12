@@ -73,16 +73,16 @@ This is only needed on iOS 8.0 to 8.4.1, it is not needed for iOS 9.1 to 9.3.4.
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the HomeDepot `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The HomeDepot application can now be opened from home screen.
 
@@ -112,8 +112,8 @@ This is an optional step which allows the jailbreak to run automatically when yo
 You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-homedepot/using-cydia.html) first, before returning to this page.
 
 1. Open the Cydia application
-1. Check the "Sources" tab and ensure "thanosrepo" is added
-    - If you can't find it, tap `Edit` -> `+` and enter `repo.thanos.lol`
+1. Check the "Sources" tab and ensure "LukeZGD's Repo" is added
+    - If you can't find it, tap `Edit` -> `+` and enter `lukezgd.github.io/repo`
 1. Open the "Search" tab and enter "UntetherHomeDepot"
 1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
 1. Confirm the installation

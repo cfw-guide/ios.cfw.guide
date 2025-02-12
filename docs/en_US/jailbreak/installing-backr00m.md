@@ -35,7 +35,7 @@ As the Apple TV 4K does not have a USB-C port, you will need to instead navigate
 1. Plug your Apple TV into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the backr00m `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
 
 The app will now install to your Apple TV. Once that's done, the backr00m application can now be opened from home screen.

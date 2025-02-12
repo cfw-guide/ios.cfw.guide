@@ -91,6 +91,14 @@ If you are trying to use a Virtual Machine software of some sort from Windows (e
 
 ::: warning
 
+Ubuntu-based Linux distributions are known to have issues successfully running palera1n.
+
+If you are using a UBuntu-based Linux distribution and do run into issues, it's recommended to either use another Linux distribution or follow <router-link to="/using-palen1x">Using palen1x</router-link> instead.
+
+:::
+
+::: warning
+
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
 
 :::
