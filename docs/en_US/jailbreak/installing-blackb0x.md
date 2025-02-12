@@ -63,7 +63,7 @@ It may take a few tries to get your Apple TV into DFU. Be patient and ensure you
 
 ::: tip
 
-Your Apple TV (3rd generation) may boot into recovery mode after using blackb0x. This is normal, it means you didn't disconnect the USB cable in time - the Apple TV automatically boots into Recovery Mode if it is connected to a computer. Power cycle it and it will boot normally.
+Your Apple TV may boot into recovery mode after using blackb0x. This is normal, it means you didn't disconnect the USB cable in time - the Apple TV automatically boots into Recovery Mode if it is connected to a computer. Power cycle it and it will boot normally.
 
 :::
 
