@@ -16,6 +16,7 @@ extra_contributors:
   - wr3nch3000
   - Tanbeer191
   - itsnebulalol
+  - bradleytechman
 ---
 
 This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. There are multiple methods below you can try. For unjailbroken devices, you will need to use the "Computer" method.
@@ -187,30 +188,12 @@ This is a more advanced method and is not recommended for beginners.
 :::
 
 1. Navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk
-    - Using `14.8` as the ramdisk version is recommended, but you can choose whatever
+    - Choose whichever option is closest or exact to your version
 2. Run `./sshrd.sh dump-blobs`
 3. Finally, run `./sshrd.sh ssh`, then run `reboot` in the SSH session.
     - Force rebooting will work too
 
 You can find your blob named `dumped.shsh` in the directory where you cloned the repo (usually ~/SSHRD_Script).
-
-### Using System Info
-
-::: danger
-
-This method currently does not work and will fail to get your onboard blob.
-
-:::
-
-1. Add the [https://apt.arx8x.net](https://apt.arx8x.net) repo to your preferred <router-link to="/package-managers">package manager</router-link>
-2. Download the Tweak `System Info`
-![](https://imgur.com/a/g8XZPrM)
-3. After downloading System Info, open Settings and navigate to `General > About` 
-4. Scroll down to `ECID`
-5. Slide left on `ECID` and tap `APTicket`
-4. Tap `Submit`
-
-A popup will appear with the message "APTicket Submitted" once finished. You can now access your blobs on [shsh.host](https://shsh.host).
 
 ### Checking Blob Type
 
