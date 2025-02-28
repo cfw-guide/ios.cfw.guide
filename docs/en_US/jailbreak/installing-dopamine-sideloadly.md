@@ -45,7 +45,6 @@ This section requires a computer.
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - A12 and later devices on iOS 15 are recommended to download the 2.1.7 version of [Dopamine](https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa) instead
 
 ### Installing the application
 
@@ -53,7 +52,7 @@ This section requires a computer.
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the Dopamine `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
 
 The app will now install to your iOS device.
@@ -66,9 +65,9 @@ Once Dopamine is successfully installed, a computer is no longer required for th
 
 ### Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The Dopamine application can now be opened from home screen.
 
@@ -163,7 +162,6 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - A12 and later devices on iOS 15 are recommended to download the 2.1.7 version of [Dopamine](https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine

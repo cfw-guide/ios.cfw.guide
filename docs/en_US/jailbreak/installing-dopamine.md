@@ -75,7 +75,7 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the TrollInstallerX `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
 
 The app will now install to your iOS device.
@@ -88,9 +88,9 @@ Once TrollInstallerX is successfully installed, a computer is no longer required
 
 ### Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The TrollInstallerX application can now be opened from home screen.
 
@@ -173,7 +173,7 @@ This section requires a computer.
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
 
 The app will now install to your iOS device.
@@ -186,9 +186,9 @@ Once TrollInstallerMDC is successfully installed, a computer is no longer requir
 
 ### Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The TrollInstallerMDC application can now be opened from home screen.
 
@@ -226,7 +226,6 @@ Your device should respring, and TrollStore should now be installed.
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - A12 and later devices on iOS 15 are recommended to download the 2.1.7 version of [Dopamine](https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
