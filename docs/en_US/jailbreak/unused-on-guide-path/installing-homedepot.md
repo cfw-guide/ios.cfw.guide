@@ -12,6 +12,7 @@ extra_contributors:
   - TheHacker894
   - WhitetailAni
   - LukeZGD
+  - Alriceee
 ---
 
 HomeDepot is capable of jailbreaking every 32-bit iOS device on firmware version 9.1 up to 9.3.4, as well as A5(X) devices on 8.0 to 8.4.1.
@@ -33,7 +34,7 @@ HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" ta
   - Home Depot for [iOS 8.0-8.4.1](https://web.archive.org/web/20240121141903/https://wall.supplies/OLD%20iPhone%20HACKED.html)
     - You also need to get the latest version of the [ohd patcher](https://github.com/LukeZGD/ohd/releases)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -72,17 +73,16 @@ This is only needed on iOS 8.0 to 8.4.1, it is not needed for iOS 9.1 to 9.3.4.
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the HomeDepot `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The HomeDepot application can now be opened from home screen.
 
@@ -112,8 +112,8 @@ This is an optional step which allows the jailbreak to run automatically when yo
 You will have to use Cydia to install the untether. If you are unfamiliar with how Cydia works, please read [Using Cydia](/installing-homedepot/using-cydia.html) first, before returning to this page.
 
 1. Open the Cydia application
-1. Check the "Sources" tab and ensure "thanosrepo" is added
-    - If you can't find it, tap `Edit` -> `+` and enter `repo.thanos.lol`
+1. Check the "Sources" tab and ensure "LukeZGD's Repo" is added
+    - If you can't find it, tap `Edit` -> `+` and enter `lukezgd.github.io/repo`
 1. Open the "Search" tab and enter "UntetherHomeDepot"
 1. Tap on the tweak and then tap "Install" in the top right-hand corner of the screen
 1. Confirm the installation

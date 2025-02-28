@@ -7,14 +7,28 @@ sidebar: false
 redirect_from:
 extra_contributors:
   - opa334
+  - Alriceee
 ---
+
+::: danger
+
+This method is extremely unreliable, and should be avoided in most cases.
+
+If you **are not** using an A8(X) iPad on 15.7.2 to 15.8.3, you should check the <router-link to="/installing-trollstore">Installing TrollStore</router-link> chart for a better option.
+
+If you **are** using an A8(X) iPad on 15.7.2 to 15.8.3, you can either:
+- Follow <router-link to="/installing-trollstore-trollrestore">Installing TrollStore (TrollRestore)</router-link> (A computer is outright *required*, Find My must also be disabled)
+- Follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> (Recommended if your goal is to jailbreak to begin with)
+- Continue to follow this guide (Only recommended if you don't want to disable Find My *and* do not want to jailbreak)
+
+:::
 
 ## Requirements
 
-- A device running iOS/iPadOS 14.0 to 15.8.2
+- A device running iOS/iPadOS 14.0 to 15.8.3
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollMisaka](https://github.com/straight-tamago/TrollMisaka/releases/latest)
 
 ## Installing the application
@@ -25,7 +39,6 @@ extra_contributors:
 1. Drag and drop the TrollMisaka `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

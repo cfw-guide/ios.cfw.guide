@@ -8,6 +8,7 @@ redirect_from:
 extra_contributors:
   - opa334
   - alfiecg
+  - Alriceee
 ---
 
 ::: warning
@@ -25,8 +26,9 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 </p></div>
 
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+- The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest/download/TrollInstallerX.ipa)
+    - If you are using a Yellow iPhone 14 or Yellow iPhone 14 Plus on 16.3 (**20D50**), you will need the [TrollInstallerX-20D50](https://github.com/alfiecg24/TrollInstallerX/releases/latest/download/TrollInstallerX-20D50.ipa) version instead.
 
 ## Installing the application
 
@@ -36,7 +38,6 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 1. Drag and drop the TrollInstallerX `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 

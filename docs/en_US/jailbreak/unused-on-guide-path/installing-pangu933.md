@@ -12,6 +12,7 @@ extra_contributors:
   - TheHacker894
   - hopolapopola
   - Braec0
+  - Alriceee
 ---
 
 Pangu933 is capable of jailbreaking every 64bit iOS device on firmware version 9.2 up to 9.3.3.
@@ -24,7 +25,7 @@ We will use the Sideloadly tool to install the Pangu933 jailbreak application to
 
 - The latest version of [Pangu933](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.org)_
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -34,17 +35,16 @@ We will use the Sideloadly tool to install the Pangu933 jailbreak application to
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the Pangu9 `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The Pangu application can now be opened from home screen.
 

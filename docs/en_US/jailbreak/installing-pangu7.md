@@ -18,6 +18,12 @@ Pangu7 is an untethered jailbreak, meaning that it persists after reboot, so onc
 
 You will need a computer running Windows XP and newer or a Mac running Mac OS X 10.9 Mavericks to macOS 10.14 Mojave and the appropriate Pangu.
 
+::: warning
+
+If you are using a 32-bit device, it is recommended to follow <router-link to="/using-lyncis">Using Lyncis</router-link> instead, as it does not require a computer and is substantially easier.
+
+:::
+
 ![A screenshot of Pangu7 (Windows)](/assets/images/pangu7-win.png)
 
 ::::: tabs

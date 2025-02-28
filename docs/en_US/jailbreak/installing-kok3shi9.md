@@ -15,6 +15,7 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 extra_contributors:
   - TheHacker894
+  - Alriceee
 ---
 
 kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64-bit devices on 9.2 to 9.3.1
@@ -22,10 +23,10 @@ kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64
 ## Downloads
 
 - The version of kok3shi9 for your device:
-  - **32-bit devices** should download the **4.0.3** version of [kok3shi9](https://kok3shidoll.github.io/download/kokeshi/kok3shi9_v4.0.3.ipa)
+  - **32-bit devices** should download the **4.0.3** version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9_32.html)
   - **64-bit devices** should download the **latest** version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9.html)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -35,17 +36,16 @@ kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the kok3shi9 `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your iOS version, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The kok3shi9 application can now be opened from home screen.
 

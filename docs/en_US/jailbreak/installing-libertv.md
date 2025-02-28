@@ -6,6 +6,7 @@ permalink: /installing-libertv
 0pkgman: nito.tv
 extra_contributors:
   - WhitetailAni
+  - Alriceee
 ---
 
 LiberTV is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -20,7 +21,7 @@ We will use Sideloadly to install the LiberTV jailbreak application to your Appl
 
 - The latest release of [LiberTV](http://newosxbook.com/libertv/libertv.ipa)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ## Installing the application
 
@@ -34,9 +35,8 @@ As the Apple TV 4K does not have a USB-C port, you will need to instead navigate
 1. Plug your Apple TV into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the LiberTV `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your Apple TV. Once that's done, the LiberTV application can now be opened from home screen.
 

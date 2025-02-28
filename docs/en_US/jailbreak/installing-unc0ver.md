@@ -12,6 +12,7 @@ redirect_from:
 pkgman: cydia
 extra_contributors:
   - TheHacker894
+  - Alriceee
 ---
 
 unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -57,7 +58,7 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
   - Users on firmware version 12.5.5 should download the 7.0.2 version of [unc0ver](https://unc0ver.dev/downloads/7.0.2/11c3f7b0eea806ba3cac975f74dcc2cc4e916bac/unc0ver_Release_7.0.2.ipa) instead
   - Users with A12 or A13 iPhones on firmware versions 14.6 - 14.8 should download the latest version of [unc0ver](https://unc0ver.dev) instead
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -67,17 +68,16 @@ unc0ver is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the unc0ver `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The unc0ver application can now be opened from home screen.
 

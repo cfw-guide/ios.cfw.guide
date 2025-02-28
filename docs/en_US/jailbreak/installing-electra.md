@@ -10,6 +10,7 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: sileo
 extra_contributors:
   - TheHacker894
+  - Alriceee
 ---
 
 Electra is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -34,7 +35,7 @@ Electra is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 
 - The latest version of [Electra](https://coolstar.org/electra/)
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
@@ -44,17 +45,16 @@ Electra is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the Electra `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to its servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The Electra application can now be opened from home screen.
 

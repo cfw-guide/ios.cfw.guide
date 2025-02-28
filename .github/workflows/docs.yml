@@ -6,6 +6,9 @@ on:
     branches: [ main, master ]
   # trigger deployment manually
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - update-repo
 
 jobs:
   docs:

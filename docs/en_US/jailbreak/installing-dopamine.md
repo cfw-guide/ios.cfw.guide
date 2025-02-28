@@ -9,6 +9,7 @@ redirect_from:
 extra_contributors:
   - opa334
   - iCraze
+  - Alriceee
 ---
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
@@ -29,7 +30,7 @@ If you don't know what Bootstrap or Serotonin are, you can ignore this notice an
 
 :::
 
-We will first install TrollStore using one of two methods (depending on your current device and iOS version), and then install Dopamine through TrollStore.
+We will first install TrollStore using one of three methods (depending on your current device and iOS version), and then install Dopamine through TrollStore.
 
 ## Installing TrollStore
 
@@ -37,19 +38,25 @@ The method that needs to be followed in order to install TrollStore depends on b
 
 ::: tip
 
-If you already have TrollStore installed, you can skip this section.
+If you already have TrollStore installed, you will not need a computer for any of the subsequent steps, and you can skip this section.
 
 :::
 
 ::: danger
 
-If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.7.2 or later, you need to follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
+If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.7.2 or later, you need to either follow <router-link to="/installing-dopamine-trollrestore">Installing Dopamine (TrollRestore)</router-link> or <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
 
 :::
 
 ::::: tabs
 
 :::: tab name="TrollInstallerX (A9(X) and later 15.7 to 16.6.1 / A9(X) to A11 15.5 to 15.6.1)" :default="true"
+
+::: tip
+
+Unless jailbreaks.app is signed, this section requires a computer.
+
+:::
 
 ### Requirements
 
@@ -58,8 +65,9 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 </p></div>
 
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
-- The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+- The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest/download/TrollInstallerX.ipa)
+    - If you are using a Yellow iPhone 14 or Yellow iPhone 14 Plus on 16.3 (**20D50**), you will need the [TrollInstallerX-20D50](https://github.com/alfiecg24/TrollInstallerX/releases/latest/download/TrollInstallerX-20D50.ipa) version instead.
 
 ### Installing the application
 
@@ -67,17 +75,22 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the TrollInstallerX `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
+::: tip
+
+Once TrollInstallerX is successfully installed, a computer is no longer required for the remainder of this guide.
+
+:::
+
 ### Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The TrollInstallerX application can now be opened from home screen.
 
@@ -103,6 +116,12 @@ Both TrollStore and its persistence helper should now be installed.
 ::::
 
 :::: tab name="TrollHelperOTA (15.0 to 15.4.1 / A12 and later 15.5 to 15.6.1)"
+
+::: tip
+
+A computer is not required for any steps on this guide.
+
+:::
 
 ::: warning
 
@@ -135,11 +154,17 @@ The TrollStore application will now install to your iOS device.
 
 :::: tab name="TrollInstallerMDC (A8(X) 15.5 to 15.7.1)"
 
+::: tip
+
+This section requires a computer.
+
+:::
+
 ### Requirements
 
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
 
 ### Installing the application
@@ -148,17 +173,22 @@ The TrollStore application will now install to your iOS device.
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
+::: tip
+
+Once TrollInstallerMDC is successfully installed, a computer is no longer required for the remainder of this guide.
+
+:::
+
 ### Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The TrollInstallerMDC application can now be opened from home screen.
 
@@ -196,7 +226,6 @@ Your device should respring, and TrollStore should now be installed.
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - A12 and later devices on iOS 15 are recommended to download the 2.1.7 version of [Dopamine](https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine

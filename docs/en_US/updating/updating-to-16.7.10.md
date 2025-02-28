@@ -26,9 +26,9 @@ redirect_from:
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to 16.7.9 and jailbreak with palera1n instead.
+If you're on an unsupported firmware version, you can update to 16.7.10 and jailbreak with palera1n instead.
 
-This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 16.7.9, we can easily update to the desired firmware version.
+This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 16.7.10, we can easily update to the desired firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 

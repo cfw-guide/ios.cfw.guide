@@ -27,6 +27,10 @@ We will use Sideloadly and a patcher script to install the application to your d
 
 - Version RC6 of [h3lix](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/UgV1HAJT) from the Legacy Jailbreak Archives
 - The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+Additionally, you'll also need one of the following to patch the h3lix ipa, depending on your platform:
+
 - macOS and Linux: Jakeajames' [patcher script](https://gist.github.com/jakeajames/b44d8db345769a7149e97f5e155b3d46)
 - Windows: [winh3lixpatcher](https://github.com/kawaiizenbo/winh3lixpatcher/releases)
 
@@ -34,7 +38,7 @@ We will use Sideloadly and a patcher script to install the application to your d
 
 ::: tip
 
-If you wish to not have to patch an application, and are on iOS 10.3.x, you could follow <router-link to="/installing-socket">Installing Socket</router-link> instead, though keep in mind that kok3shiX is currently in an alpha stage.
+If you wish to not have to patch an application, you could follow <router-link to="/installing-socket">Installing Socket</router-link> instead.
 
 :::
 
@@ -68,17 +72,16 @@ You now have a patched h3lix ipa that you can sign
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the h3lix `.ipa` file into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 The app will now install to your iOS device.
 
 ## Trusting the application
 
-1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple ID>`
+1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
-1. Tap `Trust "<Your Apple ID>"`
+1. Tap `Trust "<Your Apple Account>"`
 
 The h3lix application can now be opened from home screen.
 
