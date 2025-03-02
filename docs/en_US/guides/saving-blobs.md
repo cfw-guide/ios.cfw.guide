@@ -16,6 +16,7 @@ extra_contributors:
   - wr3nch3000
   - Tanbeer191
   - itsnebulalol
+  - bradleytechman
 ---
 
 This will take you through the process of saving blobs which are required if you wish to downgrade to an older, unsigned version of iOS or iPadOS. There are multiple methods below you can try. For unjailbroken devices, you will need to use the "Computer" method.
@@ -182,40 +183,24 @@ You can find your blob named `(YOUR ECID).dumped.shsh` in the directory you ran 
 
 A Linux or macOS machine is required to use this method, and a checkm8 device on iOS 12+.
 
+Please note that Linux only supports up to 16.0.3 ramdisks, and users on 16.1-16.3.1 should use the 16.0.3 ramdisk. 16.4+ is not recomended to use the 16.0.3 ramdisk because it will break the SSV seal.
+
 This is a more advanced method and is not recommended for beginners.
 
 :::
 
 1. Navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk
-    - Using `14.8` as the ramdisk version is recommended, but you can choose whatever
+    - Choose whichever option is closest or exact to your version (unless you fall under what is described above)
 2. Run `./sshrd.sh dump-blobs`
 3. Finally, run `./sshrd.sh ssh`, then run `reboot` in the SSH session.
     - Force rebooting will work too
 
 You can find your blob named `dumped.shsh` in the directory where you cloned the repo (usually ~/SSHRD_Script).
 
-### Using System Info
-
-::: danger
-
-This method currently does not work and will fail to get your onboard blob.
-
-:::
-
-1. Add the [https://apt.arx8x.net](https://apt.arx8x.net) repo to your preferred <router-link to="/package-managers">package manager</router-link>
-2. Download the Tweak `System Info`
-![](https://imgur.com/a/g8XZPrM)
-3. After downloading System Info, open Settings and navigate to `General > About` 
-4. Scroll down to `ECID`
-5. Slide left on `ECID` and tap `APTicket`
-4. Tap `Submit`
-
-A popup will appear with the message "APTicket Submitted" once finished. You can now access your blobs on [shsh.host](https://shsh.host).
-
 ### Checking Blob Type
 
 To check what type of blobs you have, use [img4tool](https://github.com/tihmstar/img4tool)
-1. Download the IPSW and OTA zip from the internet, then extract the BuildManifest.plist from both of the iPSWs.
+1. Download the IPSW and OTA zip from the internet, then extract the BuildManifest.plist from both of the IPSWs.
     - Google is your friend
 2. Run  `img4tool -v IPSW_BuildManifest.plist -s blob.shsh2 and img4tool -v OTA_BuildManifest.plist -s blob.shsh2`
 3. Scrub through the output and check which BuildManifest img4tool reported a success with.

@@ -10,6 +10,7 @@ extra_contributors:
   - TheHacker894
   - raizo
   - Superuser
+  - bradleytechman
 ---
 
 ## Bootloops and respring loops
@@ -242,7 +243,7 @@ For the purposes of this troubleshooting section, we are assuming you are runnin
 
 In order to determine which error you are encountering, you will have to tap `Show Details` in Sileo when you encounter an error with installing or removing a package.
 
-If the fixes below don't help, feel free to ask on the Sileo [Discord Server](https://discord.gg/Sileo) for support.
+If the fixes below don't help, feel free to ask on the Sileo [Discord Server](https://discord.gg/Udn4kQg) for support.
 
 ### Syntax error: "(" unexpected
 This error indicates that the developer of the tweak you are trying to install/remove has written the installation/removal script incorrectly. You will need Filza to fix this issue.
@@ -262,14 +263,16 @@ This error indicates that the developer of the tweak you are trying to install/r
    - For free tweaks, you should file a bug report to the developer. If you wish to install the tweak immediately, continue with this guide.
 
 #### Editing the tweak to fix the error (Free tweaks only)
-1. Open [Parcility](https://parcility.co) in Safari on your device
-1. Search for the tweak you wish to install
-   - If it does not appear in the search, you will have to wait for the developer to update their tweak
-1. Tap `Download`
+1. Install [Postbox](https://www.postbox.news/) through your package manager or ipa installer
+   - If you are unable to install a ipa or package, you can install [Postbox Pocket](https://apps.apple.com/us/app/postbox-pocket/id1644577838) if avalible for you.
+1. Search for the tweak you wish to install at the top
+   - If it does not appear in the search, tap on Repos and add the developers repository.
+1. Tap `Install for free`
+2. Tap `Download .deb file`
 1. Once the file has finished downloading, tap on the file in Safari's downloads menu
-1. Tap the share button
-1. Tap `Save to Filza`
-1. Tap `Save`
+1. Tap the magnifying glass icon 
+1. Tap and hold on the file and press "Share"
+1. Tap `Filza`
 1. Open Filza, it will open to the folder where you downloaded the tweak file
 1. Tap on the tweak you wish to fix
 1. Scroll down and tap `Extract`

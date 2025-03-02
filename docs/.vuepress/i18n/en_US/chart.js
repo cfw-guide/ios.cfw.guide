@@ -7,7 +7,8 @@ module.exports = {
         title: "Required Reading",
         content: [
           "Different ${deviceType}s will require different steps to jailbreak your ${osStr} device. This page will help you find where to start.",
-          "Please select what model of ${deviceType} you have below."
+          "Please select what model of ${deviceType} you have below.",
+          "If your ${deviceType} is not listed, it cannot be jailbroken at all."
         ]
       },
       iPhoneNotice: "Note that all \"Plus\", \"Max\" and \"mini\" models of iPhones are functionally identical to the regular models.",
