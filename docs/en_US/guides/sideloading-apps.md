@@ -20,6 +20,7 @@ redirect_from:
 extra_contributors:
   - ssalagginkool
   - TheHacker894
+  - bradleytechman
 ---
 
 ## Required Reading
@@ -28,7 +29,7 @@ Semi-untethered jailbreaks require the use of a sideloaded app to jailbreak. App
 
 ::: danger
 
-If you are using an iOS 16 beta, you will need to take extra steps beforehand to open sideloaded apps:
+If you are using iOS 16 or newer, you will need to take extra steps beforehand to open sideloaded apps:
 
 1. Open Settings
 1. Go to Privacy & Security and find the `Developer Mode` entry
@@ -50,7 +51,7 @@ Sideloadly is compatible with iOS 7 and newer.
 
 1. Open Sideloadly
 1. Plug your iOS device into your computer
-    - Make sure your computer is trusted and allowed to view the contents of your device
+   - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the `.ipa` file of your choice into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
@@ -58,22 +59,24 @@ Sideloadly is compatible with iOS 7 and newer.
 
 ### Sideload using AltStore
 
-<!--I will add AltStore 1.5 soon don't worry-->
-
 ::: tip
 
-AltServer is only compatible with iOS 12.2 and newer.
+AltServer is only compatible with iOS 14.0 and newer.
 
+:::
+::: tip
+If you are using macOS 10.14 or 10.15 download [AltServer 1.6.2](https://f000.backblazeb2.com/file/altstore/altserver/1_6_2.zip)
 :::
 
 1. Download the latest versions [AltServer](http://altstore.io/), [iTunes](https://www.apple.com/itunes/download/win32) if on Windows, and [iCloud](https://secure-appldnld.apple.com/windows/061-91601-20200323-974a39d0-41fc-4761-b571-318b7d9205ed/iCloudSetup.exe) if on Windows
 1. Install AltServer for your respective operating system
-    - On macOS, open the Mail app and open `Mail` -> `Preferences` in the menu bar
+    - On macOS 10.14 and 10.15, open the Mail app and open `Mail` -> `Preferences` in the menu bar 
     - Click on the `General` tab, the `Manage Plug-ins`, check `AltPlugin` and apply
 1. Connect your iOS Device to your Mac or PC via USB
-1. Click AltStore/AltServer in the Menu Bar/System Tray
+1. Click AltServer in the Menu Bar/System Tray
 1. Click Install AltStore
     - Follow all onscreen prompts
+    - You will be asked to enter your Apple ID. This is only sent to Apple and no one else.
 1. Open Settings and navigate to `General` -> `Device Management` and verify AltStore
 1. Open iTunes (Windows or macOS Mojave or older) or Finder (macOS Catalina or newer) and enable syncing over WiFi
 1. Download your desired IPA file and open it in AltStore on your iOS Device.
@@ -85,7 +88,7 @@ AltServer is only compatible with iOS 12.2 and newer.
 
 ::: tip
 
-ReProvision Reborn is compatible with iOS 9 and newer.
+ReProvision Reborn is compatible with iOS 9.0-14.8.1.
 
 :::
 
@@ -98,7 +101,7 @@ ReProvision Reborn is compatible with iOS 9 and newer.
 
 ::: tip
 
-AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 and newer.
+AltDaemon, which utilizes AltStore, is only compatible with iOS 12.2 - 14.5.
 
 :::
 

@@ -183,12 +183,14 @@ You can find your blob named `(YOUR ECID).dumped.shsh` in the directory you ran 
 
 A Linux or macOS machine is required to use this method, and a checkm8 device on iOS 12+.
 
+Please note that Linux only supports up to 16.0.3 ramdisks, and users on 16.1-16.3.1 should use the 16.0.3 ramdisk. 16.4+ is not recomended to use the 16.0.3 ramdisk because it will break the SSV seal.
+
 This is a more advanced method and is not recommended for beginners.
 
 :::
 
 1. Navigate to [this link](https://github.com/verygenericname/SSHRD_Script) and set up the ramdisk
-    - Choose whichever option is closest or exact to your version
+    - Choose whichever option is closest or exact to your version (unless you fall under what is described above)
 2. Run `./sshrd.sh dump-blobs`
 3. Finally, run `./sshrd.sh ssh`, then run `reboot` in the SSH session.
     - Force rebooting will work too
@@ -198,7 +200,7 @@ You can find your blob named `dumped.shsh` in the directory where you cloned the
 ### Checking Blob Type
 
 To check what type of blobs you have, use [img4tool](https://github.com/tihmstar/img4tool)
-1. Download the IPSW and OTA zip from the internet, then extract the BuildManifest.plist from both of the iPSWs.
+1. Download the IPSW and OTA zip from the internet, then extract the BuildManifest.plist from both of the IPSWs.
     - Google is your friend
 2. Run  `img4tool -v IPSW_BuildManifest.plist -s blob.shsh2 and img4tool -v OTA_BuildManifest.plist -s blob.shsh2`
 3. Scrub through the output and check which BuildManifest img4tool reported a success with.
