@@ -39,7 +39,7 @@ Cellular A10X iPad Pros, as well as some iPhone 7's, will run into issues or not
 ## Downloads
 
 - The latest release of [turdus merula](https://sep.lol)
-- The iPSW file for your device from [appledb.dev](https://appledb.dev)
+- The IPSW file for your device from [appledb.dev](https://appledb.dev)
   - This should be the same iOS version as your blob
 
 ## Finding the generator
@@ -84,8 +84,8 @@ A9(X) restores do have a small failure rate. If the restore fails, retry again f
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
 1. Run `/usr/bin/xattr -c ./bin/turdusra1n && /usr/bin/xattr -c ./bin/turdus_merula`
-1. Run `./turdusra1n -ED`
-1. Run `./turdus_merula --get-shcblock [ipsw file]`
+1. Run `./bin/turdusra1n -ED`
+1. Run `./bin/turdus_merula --get-shcblock [ipsw file]`
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
 
 The shcblock will be saved to the `blocks` folder in the `turdus_m3rula` folder, and your device will reboot after this step is completed.
