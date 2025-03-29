@@ -12,7 +12,7 @@ extra_contributors:
   - Alfie
 ---
 
-turdus merula is a tool which utilizes a bootrom exploit and a SEP exploit to allow restoring A9(X) and A10(X) devices to restore to older versions of iOS/iPadOS, including those that are not compatible with the latest signed SEP firmware.
+turdus merula is a tool which utilizes a bootrom exploit and a SEP exploit to allow A9(X) and A10(X) devices to restore to older versions of iOS/iPadOS, including those that are not compatible with the latest signed SEP firmware.
 
 ::: danger
 
