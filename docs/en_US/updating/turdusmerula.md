@@ -60,7 +60,7 @@ If you already know the generator of the blob that you are using to restore, you
 1. Run `cat [shsh blob].shsh2 | grep -A 1 "generator"`
     - Replace `[shsh blob]` with the name of your blob file
 
-Take note of the output listed in the <string> field, as it will be needed in a later step.
+Take note of the output listed in the `<string>` field, as it will be needed in a later step.
 
 ## Using turdus merula
 
