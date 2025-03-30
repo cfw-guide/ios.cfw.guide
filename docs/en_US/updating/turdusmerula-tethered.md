@@ -95,7 +95,7 @@ Your device should now be restored to the targeted firmware version.
 ### Booting the device
 
 1. Re-enter DFU mode on your device
-1. Run `/bin/turdusra1n -TP [pteblock]`
+1. Run `./bin/turdusra1n -TP [pteblock]`
     - Replace `[pteblock]` with the file path of the pteblock you utilized in the previous section
 
 Your device should now boot into the version of iOS you restored to.
