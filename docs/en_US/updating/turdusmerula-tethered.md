@@ -95,6 +95,7 @@ Your device should now be restored to the targeted firmware version.
 ### Booting the device
 
 1. Re-enter DFU mode on your device
+1. Run `./bin/turdusra1n -ED`
 1. Run `/bin/turdusra1n -TP [pteblock]`
     - Replace `[pteblock]` with the file path of the pteblock you utilized in the previous section
 
@@ -130,6 +131,7 @@ For ease-of-use, it is recommended to open a Finder window and drag these files 
 ### Booting the device
 
 1. Re-enter DFU mode on your device
+1. Run `./bin/turdusra1n -ED`
 1. Run `./bin/turdusra1n -t [iBoot.img4] -i [signed-SEP.img4] -p [target-SEP.im4p]`
     - It is recommended to open a Finder window and drag the files from the `image4` folder into the terminal window itself when running this command
 
