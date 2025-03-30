@@ -26,7 +26,7 @@ While turdus merula also supports tethered downgrades (which do not require blob
   - These blobs must be for **your** device only; you cannot use other people's blobs
   - If you are trying to restore to iPadOS 16.0 or later, you also need to have saved cryptex1 information for the version you want to restore to within your shsh2 blobs
 - An A9(X) or A10(X) device
-- macOS
+- macOS 10.12 or later
 
 ::: danger
 
