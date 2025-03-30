@@ -95,7 +95,6 @@ Your device should now be restored to the targeted firmware version.
 ### Booting the device
 
 1. Re-enter DFU mode on your device
-1. Run `./bin/turdusra1n -ED`
 1. Run `/bin/turdusra1n -TP [pteblock]`
     - Replace `[pteblock]` with the file path of the pteblock you utilized in the previous section
 
