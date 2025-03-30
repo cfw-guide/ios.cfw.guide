@@ -57,3 +57,43 @@ This is an error that has been diagnosed but no fix for it is available as of th
 ## About to send NOR data... No data to read
 
 If you get this error message, you may try stopping the futurerestore process and disabling the `no-rsep` argument. If the restore continues to get stuck here regardless if `no-rsep` is enabled or disabled, you may be unable to restore as the cause of this error has not been diagnosed at the time of writing. 
+
+## iMessage not working on A11 devices
+
+You might encounter this issue after downgrading from iOS 16.7.8 or newer to older versions on an A11 device, especially after downgrading to iOS 16.6.x, to fix the issue:
+
+### Prerequisites
+1. A modified version of Dopamine, the `.ipa` can be downloaded via [this direct hyperlink](https://cdn.discordapp.com/attachments/1220760232838303794/1353532814477496430/Dopamine.ipa?ex=67e9e82a&is=67e896aa&hm=0d926812737fe305db47d52d07b5f410b12fe9ae81cb6d74a9a2bae3d4ee1632&).
+   - Guide for sideloading `.ipa` files via TrollStore can be found [here](https://ios.cfw.guide/installing-trollstore/).
+2. The `shared_cache.sh` shell script, the `.sh` can be downloaded via [this direct hyperlink](https://cdn.discordapp.com/attachments/1220760232838303794/1353532814825361479/shared_cache.sh?ex=67e9e82a&is=67e896aa&hm=59c58bd2b7079040b702cac165216a2ad56da05bad3decf83e0a03d48768ef1a&).
+3. 3-6 GB free storage space.
+
+1. Jailbreak with the modified `Dopamine.ipa` after the downgrading process. Guide on how to sideload an `.ipa` via TrollStore can be found [here](https://ios.cfw.guide/installing-trollstore/).
+2. Open iOS built-in Files app, find your `shared_cache.sh` and move it to the root of **On My iPhone**.
+3. Open your preferred package manager, usually **Sileo** or **Zebra**.
+4. Tap on the **Sources** tab.
+5. Make sure the **BigBoss repo** (http://apt.thebigboss.org/repofiles/cydia/) is added.
+6. Tap on the **Search** tab and search for "Filza File Manager" and install the tweak.
+7. Go to your homescreen, tap on **Filza** and navigate to
+   `/var/mobile/Containers/Shared/AppGroup/group.com.apple.FileProvider.LocalStorage/File Provider Storage/`
+9. Find `shared_cache.sh`, tap on it then tap **Continue**.
+10. By default, Filza will execute `sh "shared_cache.sh"`, you might see the following
+    `shared_cache.sh: 4: setopt: not found`
+    `shared_cache.sh: 5: typeset: not found`
+    `shared_cache.sh: 13: Syntax error: "(" unexpected`
+
+    - It outputs those errors because `sh "shared_cache.sh"` isn't the correct command, so ignore it.
+    - Enter these commands, make sure that you are having an internet connection before executing the third command:
+        1. `mv ./shared_cache.sh ~/shared_cache.sh`
+        2. `chmod +x ~/shared_cache.sh`
+        3. `~/shared_cache.sh`
+    
+11. Wait until the script finishes, after that, iMessage will be working.
+
+::: warning
+
+You must use the modified `Dopamine.ipa` in the process, otherwise you will fail at step 10.
+
+:::
+
+Credits to [Cryptic](https://github.com/cryptiiiic) for finding a solution to this issue.
