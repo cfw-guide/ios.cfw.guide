@@ -68,6 +68,7 @@ You might encounter this issue after downgrading from iOS 16.7.8 or newer to old
 2. The `shared_cache.sh` shell script, the `.sh` can be downloaded via [this direct hyperlink](https://cdn.discordapp.com/attachments/1220760232838303794/1353532814825361479/shared_cache.sh?ex=67e9e82a&is=67e896aa&hm=59c58bd2b7079040b702cac165216a2ad56da05bad3decf83e0a03d48768ef1a&).
 3. 3-6 GB free storage space.
 
+### Instructions
 1. Jailbreak with the modified `Dopamine.ipa` after the downgrading process. Guide on how to sideload an `.ipa` via TrollStore can be found [here](https://ios.cfw.guide/installing-trollstore/).
 2. Open iOS built-in Files app, find your `shared_cache.sh` and move it to the root of **On My iPhone**.
 3. Open your preferred package manager, usually **Sileo** or **Zebra**.
