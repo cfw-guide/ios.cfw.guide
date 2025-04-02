@@ -78,4 +78,6 @@ Tap `Share` -> `Add to home screen` for easier access to MeridianFix.
 
 ::::
 
+:::::
+
 You should now be jailbroken with Zebra installed on your home screen. You can use Zebra to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
