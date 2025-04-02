@@ -12,7 +12,7 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Notes
-If you are on iOS 15.2 or newer on an A10- device, you should follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on a device that supports iOS 16 (which includes A12+), you will **not** be able to follow this guide due to Cryptex1 and SEP/BB incompatibility. For more information on why this is the case, please go [here](https://gist.github.com/Cryptiiiic/b82133ac290070939189e1377dc3ac85).
+If you are on iOS 15.2 or newer on an A10- device, you should follow [this](https://docs.google.com/document/d/1-JR4vKboEzCvD_YR1lor-s8HuMAhcfarmr73KC039lM/edit?tab=t.0#heading=h.nbqxqvtctjix) guide instead. Note that if you are on a device that supports iOS 16 (which includes A12+), you will **not** be able to follow this guide due to Cryptex1 and SEP/BB incompatibility. For more information on why this is the case, please go [here](https://gist.github.com/Cryptiiiic/b82133ac290070939189e1377dc3ac85).
 
 ## Requirements
 
