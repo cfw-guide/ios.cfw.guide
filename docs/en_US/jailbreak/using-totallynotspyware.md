@@ -19,47 +19,63 @@ redirect_from:
   - /meridian
   - /md
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
-pkgman: cydia
+pkgman: zebra
 extra_contributors:
   - TheHacker894
 ---
 
-TotallyNotSpyware is capable of jailbreaking every 64-bit iOS device on firmware version 10.0 up to 10.3.3.
+TotallyNotSpyware and its variants are capable of jailbreaking every 64-bit iOS device on firmware versions 10.0 to 10.3.3.
 
 Note that the TotallyNotSpyware jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
-::: warning
+The method that needs to be followed in order to jailbreak depends on your device, select the tab that fits your device and follow the subsequent steps.
 
-Should you run into issues with this method for any reason, you can attempt to use <router-link to="/installing-doubleh3lix-ipa">doubleh3lix</router-link> if you are on an A7-A9(X) device or <router-link to="/installing-meridian-ipa">Meridian</router-link> if you are on an A10(X) device.
+::::: tabs
 
-:::
+:::: tab name="tns-sockport (A7 to A9(X) devices)" :default="true"
 
-## Running TotallyNotSpyware
+## Running tns-sockport
 
 1. Open Safari on your iOS device
-1. Go to the [https://totally-not.spyware.lol/](https://totally-not.spyware.lol/) website
+1. Go to the [https://lukezgd.github.io/tns-sockport](https://lukezgd.github.io/tns-sockport) website
 1. Slide, left to right, on the `Slide for Spyware` slider
 1. Once you see the `Spyware announcement` prompt, press `noot noot`
    - If the device reboots without prompting this, try again.
-1. You'll recieve a prompt asking you to choose between jailbreaking with Meridian or jailbreaking with doubleH3lix, what option you should select depends on your device
-   - If your device is an A7-A9(X) device, you *should* select doubleh3lix.
-   - If your device is an A10(X) device, the only option which works is to select Meridian.
-1. After selecting what you wish to jailbreak with, press `OK`
 
-TotallyNotSpyware will now install the temporary jailbreak on your device. 
+tns-sockport will now jailbreak your device. 
 
-To rejailbreak in the future, doing steps 1 through 4 should rejailbreak your device.
+To rejailbreak in the future, repeat these steps
 
 ::: tip
 
-Tap `Share` -> `Add to home screen` for easier access to TotallyNotSpyware.
+Tap `Share` -> `Add to home screen` for easier access to tns-sockport.
 
 :::
 
-You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+::::
+
+:::: tab name="MeridianFix (A10(X) devices)"
+
+## Running MeridianFix
+
+1. Open Safari on your iOS device
+1. Go to the website for your iOS version:
+   - If you're on iOS 10.3 to 10.3.3, go to [https://lukezgd.github.io/MeridianFix/substrate/index.html](https://lukezgd.github.io/MeridianFix/substrate/index.html)
+   - If you're on iOS 10.0 to 10.2.1, go to [https://lukezgd.github.io/MeridianFix/substitute/index.html](https://lukezgd.github.io/MeridianFix/substitute/index.html)
+1. Slide, left to right, on the `Slide for Spyware` slider
+1. Once you see the `Spyware announcement` prompt, press `noot noot`
+   - If the device reboots without prompting this, try again.
+
+MeridianFix will now jailbreak your device. 
+
+To rejailbreak in the future, repeat these steps
 
 ::: tip
 
-If you wish to use a more modern package manager, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
+Tap `Share` -> `Add to home screen` for easier access to MeridianFix.
 
 :::
+
+::::
+
+You should now be jailbroken with Zebra installed on your home screen. You can use Zebra to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
