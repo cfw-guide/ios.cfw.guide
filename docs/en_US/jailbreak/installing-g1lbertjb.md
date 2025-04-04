@@ -11,51 +11,29 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 ---
 
+g1lbertJB is capable of jailbreaking all devices on iOS 5.0 to 6.1.2
+
 g1lbertJB is an [untethered jailbreak](/types-of-jailbreak/#untethered-jailbreaks), meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
 
-The tool is compatible with jailbreaking all devices on iOS versions 5.0 to 6.1.2.
+In order to use g1lbertJB, you will need a Windows computer running Windows 10 or newer, Mac OS X 10.11 El Capitan or newer, or a modern Linux distro.
 
-::: warning
-The only downside to an untethered jailbreak is that if something goes wrong, it could result in a bootloop, requiring you to restore your device via iTunes or Finder (macOS Catalina or newer). The likelihood of this happening is *low*, but it is indeed possible.
-:::
+## Downloads
 
-::::: tabs
+- The latest version of [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/) for your platform.
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
-:::: tab name="macOS" :default="true"
+## Installing g1lbertJB
 
-### Installing g1lbertJB
-
-1. Download [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/).
-2. Plug in your iOS device.
- 	- Make sure your computer is trusted and allowed to view the contents of your device.
-3. Open Terminal.app from your Applications folder.
-4. Run `cd <where you downloaded g1lbertJB to>`.
-5. Drag `gilbertjb_macos` from the g1lbertJB folder you downloaded earlier into the Terminal window and press Enter. This will start the jailbreaking process.
-
-::: warning
-If you receive the message "Error Code 1" and/or "Error Code 102" during the jailbreak, this is normal and can be ignored.
-:::
-
-::::
-
-:::: tab name="Linux"
-
-### Installing g1lbertJB
-
-1. Download [g1lbertJB](https://github.com/g1lbertJB/g1lbertJB/releases/).
-2. Plug in your iOS device.
- 	- Make sure your computer is trusted and allowed to view the contents of your device.
-3. Open your default terminal application.
-4. Run `systemctl status usbmuxd`.
-    - If it responds with information about usbmuxd, usbmuxd is installed.
-    - If it responds with `Unit usbmuxd.service could not be found`, please install usbmuxd following the [installation guide](https://github.com/libimobiledevice/usbmuxd#installation--getting-started) and then come back.
-5. Run `sudo systemctl stop usbmuxd; sudo usbmuxd -pf`.
-6. Run `cd <where you downloaded g1lbertJB to>`.
-7. Depending on your architecture, drag `gilbertjb_linux_<architecture>` from the g1lbertJB folder you downloaded earlier into the Terminal window and press Enter. This will start the jailbreaking process.
+1. Extract the zip to a convenient location e.g. your Downloads folder
+1. Plug your device into your computer
+1. Run g1lbertJB to start the jailbreaking process:
+    - **Windows**: Double-click `gilbertjb.exe`
+    - **macOS**: Double-click `gilbertjb.command`
+    - **Linux**: Open a Terminal window, drag `gilbertjb.command` to the Terminal window, and press Enter
+1. Once your phone has rebooted once, open the g1lbertJB app on your home screen when prompted. g1lbertJB will reboot your device one last time
 
 ::: warning
 If you receive the message "Error Code 1" and/or "Error Code 102" during the jailbreak, this is normal and can be ignored.
 :::
 
-::::
-
+Once you see your lock screen, you should be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
