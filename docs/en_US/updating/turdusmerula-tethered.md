@@ -86,7 +86,7 @@ The shcblock will be saved to the `blocks` folder in the `turdus_m3rula` folder,
 1. Re-enter DFU mode on your device
 1. Run `./bin/turdusra1n -ED`
 1. Run `./bin/turdus_merula -o --load-pteblock [pteblock] [ipsw file]`
-    - Replace `[pteblock]` with the file path of the shcblock you obtained in the previous section
+    - Replace `[pteblock]` with the file path of the pteblock you obtained in the previous section
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
 1. Follow any additional steps that are listed in the terminal window
 
