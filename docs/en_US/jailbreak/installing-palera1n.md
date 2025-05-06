@@ -132,6 +132,9 @@ A9(X) and earlier devices have an issue where they will get stuck midway through
 1. In the terminal window, press `Control` + `C` on your keyboard
 1. Rerun the command that you just ran
 
+Note: If this does not work, you have to replug the device before pressing `Control` + `C`,
+      replug device and try aain
+
 You'll need to do this every time you rejailbreak your device as well.
 
 :::
