@@ -20,7 +20,7 @@ If you have just restored your device, reboot once prior to continuing, or you m
 
 ::: warning
 
-If you are using a 64-bit device, you should follow <router-link to="/installing-pangu7">Installing pangu7</router-link> instead.
+If you are using a 64-bit device, **or are dependent on using AppSync Unified**, you should follow <router-link to="/installing-pangu7">Installing pangu7</router-link> instead.
 
 :::
 
