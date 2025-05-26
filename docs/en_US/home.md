@@ -50,7 +50,7 @@ They can be considered similar to the iOS App Store, where you can install both 
 
 ## What are tweaks?
 
-Tweaks are typically software packages that can be installed to your device which transform the look and feel of your iOS device. With some exceptions, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Simpler tweaks might not have these.
+Tweaks are typically software packages that can be installed to your device which transform the look, feel, and function of your iOS device. With some exceptions, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Simpler tweaks might not have these.
 
 ## What can I do once jailbroken?
 
