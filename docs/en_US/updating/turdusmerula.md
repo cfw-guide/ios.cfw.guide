@@ -83,7 +83,7 @@ A9(X) restores do have a small failure rate. If the restore fails, retry again f
 1. Enter DFU mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `/usr/bin/xattr -c ./bin/turdusra1n && /usr/bin/xattr -c ./bin/turdus_merula`
+1. Run `xattr -cr ./bin`
 1. Run `./bin/turdusra1n -ED`
 1. Run `./bin/turdus_merula --get-shcblock [ipsw file]`
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
@@ -112,7 +112,7 @@ Your device should now be restored to the targeted firmware version.
 1. Enter DFU mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `/usr/bin/xattr -c ./bin/turdusra1n && /usr/bin/xattr -c ./bin/turdus_merula && /usr/bin/xattr -c ./bin/lib/libirecv.dylib`
+1. Run `xattr -cr ./bin`
 1. Run `./bin/turdusra1n -EDb [generator]`
     - Replace `[generator]` with the generator you obtained in the previous section
 1. Run `./bin/turdus_merula -w --load-shsh [shsh blob] [ipsw file]`
