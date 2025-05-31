@@ -66,7 +66,7 @@ A9(X) restores do have a small failure rate. If the restore fails, retry again f
 1. Enter DFU mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `xattr -cr ./bin`
+1. Run `/usr/bin/xattr -cr ./bin`
 1. Run `./bin/turdusra1n -ED`
 1. Run `./bin/turdus_merula --get-shcblock [ipsw file]`
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
@@ -111,7 +111,7 @@ Your device should now boot into the version of iOS you restored to.
 1. Enter DFU mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `xattr -cr ./bin`
+1. Run `/usr/bin/xattr -cr ./bin`
 1. Run `./bin/turdusra1n -ED`
 1. Run `./bin/turdus_merula -o [ipsw file]`
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
