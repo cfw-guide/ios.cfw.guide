@@ -29,7 +29,8 @@ function getOsStr(v) {
     else return 'tvOS'
   }
   if (hasiPad && !hasiPhone && !hasiPod && majFw > 12) return 'iPadOS';
-  if (majFw < 4) return 'iPhoneOS';
+  if (majFw == 3) return  'iPhone OS';
+  if (majFw < 3) return  'iPhone Software';
   return 'iOS';
 }
 
@@ -55,7 +56,7 @@ function getOsStr(v) {
 
 /*for (var i in iosList) {
   const v = iosList[i]
-  if (iosList.filter(x => x.osStr == 'iPhoneOS' || x.osStr == 'iOS' || x.osStr == 'iPadOS').filter(x => x.version == v.version).length == 1) continue
+  if (iosList.filter(x => x.osStr == 'iPhone Software' || x.osStr == 'iPhone OS' || x.osStr == 'iOS' || x.osStr == 'iPadOS').filter(x => x.version == v.version).length == 1) continue
   console.log(v.version)
 
   page.push({
