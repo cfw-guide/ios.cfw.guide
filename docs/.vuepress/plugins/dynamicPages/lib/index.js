@@ -3,7 +3,8 @@ const { path, fs } = require('@vuepress/utils')
 
 const allowedOsStrings = [
     'iOS',
-    'iPhoneOS',
+    'iPhone Software',
+    'iPhone OS',
     'iPadOS',
     'tvOS',
     'Apple TV Software'

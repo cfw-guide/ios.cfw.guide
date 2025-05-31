@@ -38,7 +38,8 @@ function getOsStr(deviceType, fwStr) {
   
   var ret = 'iOS'
   if (deviceType == 'iPad' && fwStr > 12) ret = 'iPadOS'
-  if (fwStr < 4) ret = 'iPhoneOS'
+  if (fwStr == 3) ret = 'iPhone OS'
+  if (fwStr < 3) ret = 'iPhone Software'
   return ret
 }
 
