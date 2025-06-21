@@ -37,7 +37,7 @@ These are essentially databases that contain lots of tweaks for you to install. 
 
 ### What are tweaks?
 
-Tweaks are small modifications that can be installed change the look and/or feel of your device.
+Tweaks are small modifications that can be installed to change the look, feel, and/or function of your device.
 
 Unlike apps, tweaks usually don't come with an app icon, but rather instead an area in the Settings app to change how the tweak acts. Some simpler tweaks might not even have this.
 

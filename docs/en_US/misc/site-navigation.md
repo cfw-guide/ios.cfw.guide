@@ -80,6 +80,7 @@ sidebar: false
 
 ## Miscellaneous
 
+-   <router-link to="/turdusmerula">turdus merula</router-link>
 -   <router-link to="/troubleshooting">Troubleshooting</router-link>
 -   <router-link to="/installing-trollstore">Installing TrollStore</router-link>
 -   <router-link to="/installing-nathanlr">Installing nathanlr</router-link>
@@ -97,6 +98,7 @@ sidebar: false
 -   <router-link to="/using-cydia">Using Cydia</router-link>
 -   <router-link to="/using-coolbooter">Using Coolbooter</router-link>
 -   <router-link to="/futurerestore-help">FutureRestore Help</router-link>
+-   <router-link to="/turdusmerula-tethered">turdus merula (Tethered)</router-link>
 
 ## 'Updating' Pages
 

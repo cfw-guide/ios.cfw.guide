@@ -112,7 +112,8 @@ const deviceGroups = require('../../../json/deviceGroups')
     let imgObj = {
         key: 'logo',
         count: 1,
-        dark: true
+        dark: true,
+        names: ['0']
     }
 
     for (const dev of x.devices) {
@@ -121,6 +122,7 @@ const deviceGroups = require('../../../json/deviceGroups')
             imgObj.key = dev
             imgObj.count = findImgObj.count
             imgObj.dark = findImgObj.dark
+            imgObj.names = findImgObj.index.map(y => y.id)
             break
         }
     }

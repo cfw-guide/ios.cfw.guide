@@ -96,29 +96,28 @@ export default {
             var tempTypeArr = []
             var firstDeviceObj = {}
 
+            const overrides = {
+                AirPods: "AirPods1,1",
+                iPhone: "iPhone15,2" // change to iPhone15,2 on iOS 16.0+ jailbreak
+                // iPad Pro: "iPad13,11" // change to iPad14,6 or remove on iPadOS 16.0+ jailbreak
+            }
+
             for (const g of this.fm.groupList) {
+                if (overrides.hasOwnProperty(g.type) && g.img.key != overrides[g.type]) continue
                 if (tempTypeArr.includes(g.type)) continue
                 tempTypeArr.push(g.type)
                 firstDeviceObj[g.type] = {
                     key: g.img.key,
                     imageBool: g.img.count > 0,
-                    dark: g.img.dark
+                    dark: g.img.dark,
+                    names: g.img.names
                 }
             }
-
-            const overrides = {
-                AirPods: "AirPods1,1",
-                iPhone: "iPhone15,3" // change to iPhone15,3 on iOS 16.0+ jailbreak
-                // iPad Pro: "iPad13,11" // change to iPad14,6 or remove on iPadOS 16.0+ jailbreak
-            }
-            
-            for (const o in overrides) if (firstDeviceObj.hasOwnProperty(o))
-                firstDeviceObj[o].key = overrides[o]
 
             var ret = {}
             for (const d in firstDeviceObj) {
                 ret[d] = firstDeviceObj[d].imageBool ?
-                    `https://img.appledb.dev/device@preview/${firstDeviceObj[d].key}/0${this.isDarkMode && firstDeviceObj[d].dark ? '_dark' : ''}.webp` :
+                    `https://img.appledb.dev/device@preview/${firstDeviceObj[d].key}/${firstDeviceObj[d].names[0]}${this.isDarkMode && firstDeviceObj[d].dark ? '_dark' : ''}.webp` :
                     `/assets/images/logo${this.isDarkMode ? '_dark' : ''}.webp`
             }
             
