@@ -42,6 +42,7 @@ const allowedDeviceTypes = ['iPhone', 'iPad', 'iPod touch', 'iPad mini', 'iPad A
 const ungroupedDevices = deviceArr.map(x => {
   if (!x.identifier) x.identifier = x.name
   if (!x.key) x.key = x.identifier
+  if (!x.imageKey) x.imageKey = x.key
   return x
 }).filter(x => 
   !devicesInDeviceGroups.includes(x.key) &&
