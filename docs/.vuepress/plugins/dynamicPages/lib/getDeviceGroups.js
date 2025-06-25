@@ -92,10 +92,11 @@ const deviceGroups = require('../../../json/deviceGroups')
         x.latestJailbreakFirmwareOsStr = latestJailbreakFirmware.osStr
     }
 
+    x.imageKeys = Array.from(new Set(devices.map(y => y.imageKey)))
+
     return x
 })
-.filter(x => x)
-.filter(x => x.hasJailbreaks)
+.filter(x => x && x.hasJailbreaks)
 .sort((a,b) => {
     let arr = [a,b].map(x => x.type)
     if (arr[0] < arr[1]) return -1
@@ -116,7 +117,7 @@ const deviceGroups = require('../../../json/deviceGroups')
         names: ['0']
     }
 
-    for (const dev of x.devices) {
+    for (const dev of x.imageKeys) {
         let findImgObj = imgJson.find(y => y.key == dev)
         if (findImgObj) {
             imgObj.key = dev

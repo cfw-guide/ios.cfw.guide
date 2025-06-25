@@ -33,6 +33,7 @@ for (const file in deviceFiles) {
   let req = require('.' + path.sep + deviceFiles[file])
   if (!req.identifier) req.identifier = req.name
   if (!req.key) req.key = req.identifier
+  if (!req.imageKey) req.imageKey = req.key
   deviceObj[req.key] = req
 }
 
