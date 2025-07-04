@@ -146,6 +146,6 @@ Once the device boots up, open the palera1n loader app and tap `Sileo`. After a 
 
 To rejailbreak your device, simply rerun the command you just ran and then repeat any other applicable steps.
 
-Alternatively, if you're on versions 15.0 to 16.6.1, you can follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> to install a permanently signed semi-untethered jailbreak, which will allow you to rejailbreak your device without a computer.
+Alternatively, if you're on versions 15.0 to 16.6.1, you can follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> to install a permanently signed semi-untethered jailbreak, which will allow you to rejailbreak your device without a computer. However, this does not work for tvOS jailbreaks, but the rest of the process is the same.
 
 :::
