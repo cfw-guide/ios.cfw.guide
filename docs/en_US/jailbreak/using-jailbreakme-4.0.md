@@ -10,7 +10,7 @@ discordNoticeText: For support in English, ask for help on the LegacyJailbreak [
 pkgman: cydia
 ---
 
-JailbreakMe 4.0, when paired with UntetherHomeDepot, is capable of doing an untethered jailbreak on every 32-bit iOS device on firmware version 9.1 up to 9.3.4.
+JailbreakMe 4.0, when paired with EverUntether, is capable of doing an untethered jailbreak on every 32-bit iOS device on firmware version 9.1 up to 9.3.4.
 
 ## Running JailbreakMe 4.0
 

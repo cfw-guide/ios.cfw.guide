@@ -27,8 +27,8 @@ sidebar: false
 -   <router-link to="/installing-socket">Installing Socket</router-link>
 -   <router-link to="/installing-kok3shi9">Installing kok3shi9</router-link>
 -   <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link>
--   <router-link to="/installing-pangu9">Installing Pangu9</router-link>
 -   <router-link to="/installing-everpwnage">Installing EverPwnage</router-link>
+-   <router-link to="/installing-pangu9">Installing Pangu9</router-link>
 -   <router-link to="/installing-wtfis">Installing wtfis</router-link>
 -   <router-link to="/installing-pangu7">Installing Pangu7</router-link>
 -   <router-link to="/using-lyncis">Using Lyncis</router-link>
