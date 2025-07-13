@@ -8,11 +8,11 @@ extra_contributors:
   - Jack LaFond
 ---
 
-This will take you through installing the iOS 18 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
+This will take you through installing the iOS 26 "tvOS profile" to block updates on your device. It's easy to install and ensures you'll stay on the firmware you're currently on. This is useful if you're waiting for a jailbreak for a lower version and don't want to update in case it gets patched.
 
 ## Installing the tvOS profile
 
-1. Open [https://f.itsnebula.net/noota-18.mobileconfig](https://f.itsnebula.net/noota-18.mobileconfig) in your device's browser
+1. Open [https://f.itsnebula.net/noota-26.mobileconfig](https://f.itsnebula.net/noota-26.mobileconfig) in your device's browser
 1. Select "Allow" if prompted
 1. Open the Settings application
 1. Navigate to `General` -> `Profile`
