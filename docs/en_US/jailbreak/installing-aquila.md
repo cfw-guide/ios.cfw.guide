@@ -9,7 +9,7 @@ pkgman: cydia
 
 Aquila is capable of jailbreaking all iOS devices on firmware versions 6.0 to 6.1.6.
 
-Aquila is an [untethered jailbreak](/types-of-jailbreak/#untethered-jailbreaks), meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
+Aquila is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered jailbreak</router-link>, meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
 
 In order to use Aquila, you will need a computer with Windows or macOS.
 

@@ -13,7 +13,7 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 15.2 to 16.6.1, 16.7 RC (20H18), or 17.0
+- A device running iOS/iPadOS 15.2 beta 3 to 16.6.1, 16.7 RC (20H18), or 17.0
 - The latest version of [python3](https://www.python.org/downloads)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollRestore](https://github.com/JJTech0130/TrollRestore/releases) for your platform.
