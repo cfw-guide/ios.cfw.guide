@@ -13,11 +13,11 @@ extra_contributors:
   - Alriceee
 ---
 
-Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
+Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app or website to re-apply the exploit after a reboot.
 
 Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.7.
 
-Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
+Due to how semi-untethered jailbreaks work, if you are using an A11 or newer device, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the Chimera jailbreak application to your iOS device for use in the next step.
 
@@ -109,3 +109,25 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'
+
+## Rejailbreaking with TotallyNotSpyware-v2 (A10 and earlier)
+
+::: warning
+
+Rejailbreaking with TotallyNotSpyware-v2 is only supporting on A10 and earlier devices. A11 and later devices will need to keep the Chimera app resigned in order to rejailbreak.
+
+:::
+
+As Chimera is a semi-untethered jailbreak, you won't remain jailbroken if your device reboots or powers off for any reason. Luckily, on A10 and earlier devices, rather than needing to keep the Chimera app sideloaded, you can simply follow the below steps to rejailbreak your device.
+
+::: danger
+
+This **does not** install the jailbreak in the first place - you'll need to sideload the Chimera app and jailbreak normally first before being able to follow this section.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [jbme.h4ck.kr](jbme.h4ck.kr) website
+1. Tap "re-jailbreak"
+
+Your device should now be in a jailbroken state again.
