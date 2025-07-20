@@ -110,15 +110,15 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'
 
-## Rejailbreaking with TotallyNotSpyware-v2 (A10 and earlier)
+## Rejailbreaking with TotallyNotSpyware-v2 (A10(X) and earlier)
 
 ::: warning
 
-Rejailbreaking with TotallyNotSpyware-v2 is only supporting on A10 and earlier devices. A11 and later devices will need to keep the Chimera app resigned in order to rejailbreak.
+Rejailbreaking with TotallyNotSpyware-v2 is only supporting on A10(X) and earlier devices. A11 and later devices will need to keep the Chimera app resigned in order to rejailbreak.
 
 :::
 
-As Chimera is a semi-untethered jailbreak, you won't remain jailbroken if your device reboots or powers off for any reason. Luckily, on A10 and earlier devices, rather than needing to keep the Chimera app sideloaded, you can simply follow the below steps to rejailbreak your device.
+As Chimera is a semi-untethered jailbreak, you won't remain jailbroken if your device reboots or powers off for any reason. Luckily, on A10(X) and earlier devices, rather than needing to keep the Chimera app sideloaded, you can simply follow the below steps to rejailbreak your device.
 
 ::: danger
 
