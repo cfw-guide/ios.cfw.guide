@@ -127,7 +127,14 @@ This **does not** install the jailbreak in the first place - you'll need to side
 :::
 
 1. Open Safari on your iOS device
-1. Go to the [jbme.h4ck.kr](jbme.h4ck.kr) website
-1. Tap "re-jailbreak"
+1. Go to the [jbme.h4ck.kr](http://jbme.h4ck.kr) website, and tap `re-jailbreak`
+1. When prompted, press `Close` on any prompts that appear within Safari
+1. Tap `userspace reboot` to complete the rejailbreaking process
+
+::: warning
+
+If you get `The webpage was reloaded because a problem occurred`, fully close Safari through the App Switcher, then reopen Safari, refresh the page, and try again.
+
+:::
 
 Your device should now be in a jailbroken state again.
