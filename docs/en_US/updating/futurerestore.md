@@ -12,7 +12,7 @@ extra_contributors:
   - CoocooFroggy
 ---
 ## Notes
-If you are on iOS 15.2 or newer on an A10- device, you should follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide instead. Note that if you are on a device that supports iOS 16 (which includes A12+), you will **not** be able to follow this guide due to Cryptex1 and SEP/BB incompatibility. For more information on why this is the case, please go [here](https://gist.github.com/Cryptiiiic/b82133ac290070939189e1377dc3ac85).
+If you are on iOS 15.2 or newer on an A10- device, you should follow [this](https://docs.google.com/document/d/1-JR4vKboEzCvD_YR1lor-s8HuMAhcfarmr73KC039lM/edit?tab=t.0#heading=h.nbqxqvtctjix) guide instead. Note that if you are on a device that supports iOS 16 (which includes A12+), you will **not** be able to follow this guide due to Cryptex1 and SEP/BB incompatibility. For more information on why this is the case, please go [here](https://gist.github.com/Cryptiiiic/b82133ac290070939189e1377dc3ac85).
 
 ## Requirements
 
@@ -32,7 +32,7 @@ You **must** make sure that the latest SEP/BB is compatible to the version you a
 - The iPSW file for your device from [ipsw.me](https://ipsw.me)
   - This should be the same iOS version as your blob
 - On Windows, make sure you have [iTunes](https://www.apple.com/itunes/) installed
-  - Scroll down and select the other Windows build as the Windows Store version will not work
+  - Scroll down and select the other Windows build as the Windows Store version **will not work**
 - If on an A10 device on 15.0-15.1.1
   - The latest version of [TrollStore](https://github.com/opa334/TrollStore/releases)
   - The latest version of [TrollNonce](https://github.com/opa334/TrollNonce/releases)
@@ -81,7 +81,7 @@ Make sure you do not edit the blob file! Doing so will make it invalid and unusa
 
 ::: warning
 
-This method will not work for A9 devices at all or A10 devices on 15.2+. If you cannot jailbreak, you must follow [this](https://gist.github.com/aac55c97f7925cddcf5ec3167f85dfe8) guide.
+This method will not work for A9 devices at all or A10 devices on 15.2+. If you cannot jailbreak, you must follow [this](https://docs.google.com/document/d/1-JR4vKboEzCvD_YR1lor-s8HuMAhcfarmr73KC039lM/edit?tab=t.0#heading=h.nbqxqvtctjix) guide.
 
 ::: 
 
@@ -115,4 +115,4 @@ To reiterate: you **cannot** FutureRestore on any device that has supports iOS 1
 1. Click Next to navigate to the controls menu
 1. Click `Start Futurerestore`
 
-If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #genius-bar forum on the r/jailbreak [Discord Server](https://discord.gg/9apvC4C3CC).
+If you experience any issues during the Process, look in the <router-link to="/futurerestore-help">FutureRestore help page</router-link>, if you still can't find a solution, ask in the #genius-bar forum on the r/jailbreak [Discord Server](https://discord.gg/jb).
