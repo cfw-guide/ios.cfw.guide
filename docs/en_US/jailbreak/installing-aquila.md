@@ -11,12 +11,13 @@ Aquila is capable of jailbreaking all iOS devices on firmware versions 6.0 to 6.
 
 Aquila is an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered jailbreak</router-link>, meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
 
-In order to use Aquila, you will need a computer with Windows or macOS.
+In order to use Aquila, you will need a computer with **64-bit** Windows or macOS.
 
 ## Downloads
 
 - The latest version of [Aquila](https://github.com/staturnzz/aquila/releases/) for your platform.
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+    - Make sure that you are *not* using the Microsoft Store version of iTunes if iTunes is already installed.
 
 ## Installing Aquila
 
