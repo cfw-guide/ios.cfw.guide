@@ -10,13 +10,21 @@ extra_contributors:
   - Alriceee
 ---
 
-EverPwnage is an untethered jailbreak capable of jailbreaking 32-bit iOS devices on firmware versions 8.0 to 9.3.4.
+EverPwnage is an untethered jailbreak capable of jailbreaking 32-bit iOS devices on firmware versions 8.0 to 9.3.6.
 
 We will use the Sideloadly tool to install the EverPwnage jailbreak application to your iOS device for use in the next step.
 
 ::: warning
 
 If you are using a 32-bit device on firmware version 9.1 to 9.3.4, you should follow <router-link to="/using-jailbreakme4-0">Using JailbreakMe 4.0</router-link> instead.
+
+:::
+
+::: warning
+
+EverPwnage is only capable of doing an *untethered* jailbreak for firmware versions 8.0 to 9.3.4.
+
+On firmware versions 9.3.5/9.3.6, EverPwnage is a *semi-untethered* jailbreak.
 
 :::
 
@@ -56,6 +64,6 @@ You should now be jailbroken with Cydia installed on your home screen. You can u
 
 ::: tip
 
-If you wish to use a more modern package manager, and are using a device on 9.0 to 9.3.4, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
+If you wish to use a more modern package manager, and are using a device on iOS 9, continue to <router-link to="/installing-zebra">Installing Zebra</router-link>
 
 :::
