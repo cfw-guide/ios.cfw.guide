@@ -1,7 +1,9 @@
 $background: rgb(246, 246, 246);
-$dm-background: rgb(34, 39, 46);
+$dm-background: rgb(0, 0, 0);
+//$dm-background: rgb(34, 39, 46);
 $background-light: #f0f0f0;
-$dm-background-light: #2b313a;
+$dm-background-light: #000000;
+//$dm-background-light: #2b313a;
 $container-bg: $background-light;
 $dm-container-bg: $dm-background-light;
 $dm-details-bg: #323843;
@@ -9,10 +11,8 @@ $dm-details-bg: #323843;
 $brand: hsl(189, 80%, 45%);
 $brand-light: hsl(189, 90%, 55%);
 
-//$tip: #30bcd5;
-//$dm-tip: #3992a3;
-$tip: #025839;
-$dm-tip: #025839;
+$tip: #30bcd5;
+$dm-tip: #3992a3;
 $tip-bg: #e6edef;
 $tip-bg-hover: mix($tip-bg, $dm-tip, 90%);
 $dm-tip-bg-hover: mix($dm-background-light, black, 90%);
