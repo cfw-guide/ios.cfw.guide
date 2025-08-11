@@ -1,0 +1,60 @@
+$background: rgb(246, 246, 246);
+$dm-background: rgb(34, 39, 46);
+$background-light: #f0f0f0;
+$dm-background-light: #2b313a;
+$container-bg: $background-light;
+$dm-container-bg: $dm-background-light;
+$dm-details-bg: #323843;
+
+$brand: hsl(189, 80%, 45%);
+$brand-light: hsl(189, 90%, 55%);
+
+$tip: #30bcd5;
+$dm-tip: #3992a3;
+$tip-bg: #e6edef;
+$tip-bg-hover: mix($tip-bg, $dm-tip, 90%);
+$dm-tip-bg-hover: mix($dm-background-light, black, 90%);
+
+$dm-warning: #ceab00;
+$dm-warning-title: #ceac03;
+$dm-warning-text-accent: #dbca79;
+
+$dm-danger: #97424a;
+$dm-danger-title: #610000;
+$dm-danger-text-accent: #e96e6e;
+
+:root {
+    --c-brand: #{$brand};
+    --c-brand-light: #{$brand-light};
+    --c-tip: #{$tip};
+
+    --c-bg: #{$background};
+    --c-bg-light: #{$background-light};
+
+    --c-container-bg: #{$container-bg};
+    --c-tip-bg: #{$tip-bg};
+    --c-tip-bg-hover: #{$tip-bg-hover};
+}
+
+html.dark {
+    --c-brand: #{$brand};
+    --c-brand-light: #{$brand-light};
+    
+    --c-bg: #{$dm-background};
+    --c-container-bg: #{$dm-container-bg};
+
+    --c-tip: #{$dm-tip};
+    --c-tip-bg: #{$dm-background-light};
+    --c-tip-bg-hover: #{$dm-tip-bg-hover};
+    --c-warning: #{$dm-warning};
+    --c-warning-bg: var(--c-tip-bg);
+    --c-warning-title: #{$dm-warning-title};
+    --c-warning-text: var(--c-text);
+    --c-warning-text-accent: #{$dm-warning-text-accent};
+    --c-danger: #{$dm-danger};
+    --c-danger-bg: var(--c-tip-bg);
+    --c-danger-title: #{$dm-danger-title};
+    --c-danger-text: var(--c-text);
+    --c-danger-text-accent: #{$dm-danger-text-accent};
+    --c-details-bg: #{$dm-details-bg};
+}

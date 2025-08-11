@@ -1,0 +1,121 @@
+.tab-container {
+	display: flex;
+	flex-wrap: wrap;
+
+	section {
+		display: contents;
+
+		> input {
+			display: none;
+		}
+
+		.tab-link {
+			border: 1px solid var(--c-border);
+			border-bottom-width: 0;
+			padding: 0.5rem 1rem;
+			transition: 150ms ease;
+			cursor: pointer;
+		}
+	
+		@media screen and (min-width: 576px) {
+			html:not([dir=rtl]) & {
+				&:not(:first-of-type) .tab-link {
+					border-left-width: 0px;
+				}
+
+				&:first-of-type .tab-link {
+					border-top-left-radius: 0.25rem;
+				}
+
+				&:last-of-type .tab-link {
+					border-top-right-radius: 0.25rem;
+				}
+			}
+
+			html[dir=rtl] & {
+				&:not(:first-of-type) .tab-link {
+					border-right-width: 0px;
+				}
+
+				&:first-of-type .tab-link {
+					border-top-right-radius: 0.25rem;
+				}
+
+				&:last-of-type .tab-link {
+					border-top-left-radius: 0.25rem;
+				}
+			}
+		}
+
+		/*@media screen and (max-width: 575px) {
+			.tab-link {
+				width: 100%;
+			}
+
+			&:last-of-type .tab-link  {
+				border-bottom-width: 1px;
+				border-radius: 0 0 0.25rem 0.25rem;
+			}
+
+			&:first-of-type .tab-link {
+				border-radius: 0.25rem 0.25rem 0 0 !important;
+			}
+		}*/
+	}
+
+	.tab {
+		display: none;
+		padding: .5rem 1.5rem;
+		order: 999;
+		width: 100%;
+		border: 1px solid var(--c-border);
+
+		h1,h2,h3,h4,h5,h6 {
+			padding-top: 1.1em;
+			margin-top: 0;
+		}
+
+		.header-anchor {
+			display: none;
+		}
+
+		@media screen and (min-width: 576px) {
+			border-radius: 0 0.25rem 0.25rem 0.25rem;
+
+			html[dir=rtl] & {
+				border-radius: 0.25rem 0 0.25rem 0.25rem;
+			}
+		}
+
+		/*@media screen and (max-width: 575px) {
+			border-radius: 0;
+			border-bottom-width: 0;
+			order: 0;
+		}*/
+	}
+
+	@media screen and (max-width: 575px) {
+		.tab-last {
+			border-bottom-width: 1px;
+			border-radius: 0 0 0.25rem 0.25rem;
+		}
+	}
+
+	input:checked + .tab-link {
+		border-radius: 0;
+	}
+
+	input:checked + .tab-link + .tab {
+		display: block;
+	}
+
+	input:checked + .tab-link:not(:hover):not(:active):not(:focus) {
+		background-color: var(--c-border);
+		border-color: var(--c-border);
+	}
+
+	.tab-link:hover, .tab-link:active, .tab-link:focus {
+		background-color: var(--c-border-dark);
+		border-color: var(--c-border-dark);
+	}
+}

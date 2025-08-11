@@ -1,0 +1,113 @@
+@import './palette.scss';
+
+.navbar {
+    background: rgba($background, 0.8);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.06);
+    border-bottom: 0;
+
+    .search-box input {
+        background: rgba(0,0,0,0) url('@vuepress/plugin-search/lib/client/styles/search.svg') 0.6rem 0.5rem no-repeat;
+    }
+}
+
+html.dark .navbar {
+    background: rgba($dm-background, 0.8);
+    box-shadow: none;
+    border-bottom: 1px solid var(--c-border);
+}
+
+@media (min-width: 720px) {
+    .navbar-dropdown-wrapper .navbar-dropdown {
+        display: block !important;
+        border-width: 0px;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4px);
+        transition: visibility 0s, opacity .25s, visibility .25s, transform .25s;
+    }
+
+    html.dark {
+        .navbar-dropdown-wrapper .navbar-dropdown {
+            border-width: 1px;
+        }
+    }
+
+    .navbar-item .fab {
+        font-size: 1.25rem;
+        vertical-align: bottom;
+        padding-bottom: 1px;
+    }
+
+    .navbar-dropdown-wrapper .fas {
+        font-size: 1.25rem;
+        vertical-align: bottom;
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 720px) {
+    .navbar-item i::after { 
+        visibility: visible;
+        font-size: 1rem;
+        letter-spacing: normal;
+        padding-left: .5em;
+    }
+
+    .navbar-item .fa-globe::after { 
+        content: "Language";
+        padding-left: .5em;
+        font-weight: 600;
+    }
+
+    .navbar-item .fa-github::after { 
+        content: "GitHub";
+        padding-left: .5em;
+        font-weight: 600;
+    }
+
+    .navbar-item .fa-twitter::after { 
+        content: "Twitter";
+        font-weight: 600;
+    }
+
+    .navbar-item .fa-discord::after { 
+        content: "Discord";
+        font-weight: 600;
+    }
+}
+
+.navbar-dropdown-wrapper:hover .navbar-dropdown, .navbar-dropdown-wrapper.open .navbar-dropdown {
+    opacity: 1 !important;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.navbar-item, .navbar-item a, .navbar-item .title {
+    transition: color .25s;
+}
+
+.navbar-item:hover .title, .navbar-item.router-link-active .title {
+    border-bottom: 0px;
+    color: var(--c-text-lightest);  
+}
+
+.navbar-item>a:hover, .navbar-item>a.router-link-active {
+    border-bottom: 0px;
+    color: var(--c-text-accent);  
+}
+
+.navbar-item .external-link-icon {
+    display: none;
+}
+
+.toggle-color-mode-button {
+    opacity: 1;
+    
+    .icon {
+        height: calc(1.25rem + 10px);
+        margin-top: -2px;
+    }
+}

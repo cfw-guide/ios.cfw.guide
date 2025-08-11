@@ -1,0 +1,32 @@
+@import './credits.scss';
+@import './table.scss';
+@import './custom-container.scss';
+@import './tabs.scss';
+@import './navigator.scss';
+@import './sidebar.scss';
+@import './navbar.scss';
+
+@media (max-width: 959px) {
+	.theme-default-content:not(.custom) {
+		padding-top: 0rem;
+	}
+}
+
+h5 {
+	text-transform: uppercase;
+	color: var(--c-text-lighter);
+	font-size: 1em;
+
+	display: flex;
+	align-items: center;
+	font-weight: 800;
+	padding-block: 1em;
+
+	&::after {
+		content: "";
+		background: var(--c-border);
+		margin-left: 10px;
+		flex-grow: 1;
+		height: 1px;
+	}
+}

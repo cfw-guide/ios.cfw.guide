@@ -1,0 +1,14 @@
+.navigator {
+	font-size: .9em;
+	
+	a {
+		color: inherit;
+		font-weight: 600;
+	}
+
+	span::after { 
+		content: ">";
+		padding-inline: .5em;
+		font-weight: 200;
+	}
+}
