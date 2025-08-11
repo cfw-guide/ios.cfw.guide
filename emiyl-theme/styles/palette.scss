@@ -9,8 +9,10 @@ $dm-details-bg: #323843;
 $brand: hsl(189, 80%, 45%);
 $brand-light: hsl(189, 90%, 55%);
 
-$tip: #30bcd5;
-$dm-tip: #3992a3;
+//$tip: #30bcd5;
+//$dm-tip: #3992a3;
+$tip: #025839;
+$dm-tip: #025839;
 $tip-bg: #e6edef;
 $tip-bg-hover: mix($tip-bg, $dm-tip, 90%);
 $dm-tip-bg-hover: mix($dm-background-light, black, 90%);
