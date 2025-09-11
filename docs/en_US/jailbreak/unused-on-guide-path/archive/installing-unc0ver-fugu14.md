@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Installing unc0ver (Fugu14)
-description: Guide to installing unc0ver with Fugu14
+description: (NON-FUNCTIONAL) Guide to installing unc0ver with Fugu14
 permalink: /installing-unc0ver-fugu14
 pkgman: cydia
 redirect_from:
@@ -11,6 +11,16 @@ redirect_from:
 extra_contributors:
  - Alriceee
 ---
+
+::: danger
+
+This guide is **no longer functional** due to server-side dependencies no longer working, and only exists as an archive to how this method previously worked. While it may still be technically possible to use this method with substantially more steps, those steps require macOS and a substantial amount of technical knowledge, and far easier methods are available.
+
+Generally speaking, if you were considering following this guide, you should follow <router-link to="/installing-taurine">Installing Taurine</router-link> instead, which is the currently recommended jailbreak for all devices on iOS/iPadOS 14 (including those which supported jailbreaking with this method).
+
+*Alternatively*, if you are on iOS/iPadOS 14.3 specifically (**not** 14.4 to 14.5.1) and you want to use unc0ver specifically, you can follow <router-link to="/installing-unc0ver">Installing unc0ver (TrollStore)</router-link>
+
+:::
 
 unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 

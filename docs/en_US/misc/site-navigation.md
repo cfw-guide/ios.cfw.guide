@@ -65,7 +65,6 @@ sidebar: false
 -   <router-link to="/using-odysseyn1x">Using odysseyn1x</router-link>
 -   <router-link to="/installing-odysseyra1n-a8x-a9x">Installing Odysseyra1n (A8X/A9X)</router-link>
 -   <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link>
--   <router-link to="/installing-unc0ver-fugu14">Installing unc0ver (Fugu14)</router-link>
 -   <router-link to="/installing-h3lix">Installing h3lix</router-link>
 -   <router-link to="/installing-doubleh3lix-ipa">Installing doubleh3lix</router-link>
 -   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
