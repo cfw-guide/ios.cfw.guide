@@ -18,7 +18,7 @@ This guide is **no longer functional** due to server-side dependencies no longer
 
 Generally speaking, if you were considering following this guide, you should follow <router-link to="/installing-taurine">Installing Taurine</router-link> instead, which is the currently recommended jailbreak for all devices on iOS/iPadOS 14 (including those which supported jailbreaking with this method).
 
-*Alternatively*, if you are on iOS/iPadOS 14.3 specifically (**not** 14.4 to 14.5.1) and you want to use unc0ver specifically, you can follow <router-link to="/installing-unc0ver">Installing unc0ver (TrollStore)</router-link>
+*Alternatively*, if you are on iOS/iPadOS 14.3 specifically (**not** 14.4 to 14.5.1) and you want to use unc0ver specifically, you can follow <router-link to="/installing-unc0ver">Installing unc0ver (TrollStore)</router-link> instead.
 
 :::
 
