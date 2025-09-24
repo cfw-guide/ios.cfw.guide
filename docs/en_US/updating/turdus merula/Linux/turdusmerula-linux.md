@@ -103,12 +103,11 @@ A9(X) restores do have a small failure rate. If the restore fails, retry again f
 
 ### Getting the shcblock
 
-1. Connect your device to your Mac
-1. Make sure that your Mac is trusted by your device
+1. Connect your device to your computer
+1. Make sure that your computer is trusted by your device
 1. Enter Recovery mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `/usr/bin/xattr -cr ./bin`
 1. Run `sudo ./bin/turdusra1n -D`
     - Follow the on-screen instructions to enter DFU mode when prompted
 1. Run `sudo ./bin/turdus_merula --get-shcblock [ipsw file]`
@@ -134,12 +133,11 @@ Your device should now be restored to the targeted firmware version.
 
 :::: tab name="A10(X) devices"
 
-1. Connect your device to your Mac
-1. Make sure that your Mac is trusted by your device
+1. Connect your device to your computer
+1. Make sure that your computer is trusted by your device
 1. Enter Recovery mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `/usr/bin/xattr -cr ./bin`
 1. Run `sudo ./bin/turdusra1n -Db [generator]`
     - Replace `[generator]` with the generator you obtained in the previous section
     - Follow the on-screen instructions to enter DFU mode when prompted
