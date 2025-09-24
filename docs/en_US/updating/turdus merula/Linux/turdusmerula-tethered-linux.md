@@ -95,12 +95,11 @@ The shcblock that is grabbed here is designed to *only* be used during the initi
 
 :::
 
-1. Connect your device to your Mac
-1. Make sure that your Mac is trusted by your device
+1. Connect your device to your computer
+1. Make sure that your computer is trusted by your device
 1. Enter Recovery mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `/usr/bin/xattr -cr ./bin`
 1. Run `sudo ./bin/turdusra1n -D`
     - Follow the on-screen instructions to enter DFU mode when prompted
 1. Run `sudo ./bin/turdus_merula --get-shcblock [ipsw file]`
@@ -156,12 +155,11 @@ Your device should now boot into the version of iOS you restored to.
 
 ### Restoring the device
 
-1. Connect your device to your Mac
-1. Make sure that your Mac is trusted by your device
+1. Connect your device to your computer
+1. Make sure that your computer is trusted by your device
 1. Enter Recovery mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
-1. Run `/usr/bin/xattr -cr ./bin`
 1. Run `sudo ./bin/turdusra1n -D`
     - Follow the on-screen instructions to enter DFU mode when prompted
 1. Run `sudo ./bin/turdus_merula -o [ipsw file]`
@@ -174,14 +172,14 @@ Your device should now be restored to the targeted firmware version.
 
 At this stage, files will also be saved into the image4 folder within the `turdus_m3rula` folder. These files are needed in the next section to boot your device.
 
-For ease-of-use, it is recommended to open a Finder window and drag these files into the terminal window itself when running the commands in the next section.
+For ease-of-use, it is recommended to open a file explorer and drag these files into the terminal window itself when running the commands in the next section.
 
 :::
 
 ### Booting the device
 
 1. Run `sudo ./bin/turdusra1n -t [iBoot.img4] -i [signed-SEP.img4] -p [target-SEP.im4p]`
-    - It is recommended to open a Finder window and drag the files from the `image4` folder into the terminal window itself when running this command
+    - It is recommended to open a file explorer and drag the files from the `image4` folder into the terminal window itself when running this command
     - Follow the on-screen instructions to enter DFU mode when prompted
 
 Your device should now boot into the version of iOS you restored to.
