@@ -1,6 +1,6 @@
 ---
 lang: en_US
-title: "Restoring with blobs using FutureRestore"
+title: Restoring with blobs using FutureRestore
 description: Guide to using FutureRestore to restore your device 
 permalink: /futurerestore
 redirect_from:

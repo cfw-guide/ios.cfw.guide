@@ -1,6 +1,6 @@
 ---
 lang: en_US
-title: "FutureRestore issues Help"
+title: FutureRestore issues Help
 description: Provides solutions to some FR issues.
 permalink: /futurerestore-help
 redirect_from:

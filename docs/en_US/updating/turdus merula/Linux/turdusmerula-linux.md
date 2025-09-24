@@ -1,10 +1,8 @@
 ---
 lang: en_US
-title: "Restoring with blobs using turdus merula"
+title: Using turdus merula (Linux)
 description: Guide to using turdus merula to restore your device 
-permalink: /turdusmerula
-redirect_from:
-  - /turdus_merula
+permalink: /turdusmerula-linux
 extra_contributors:
   - kok3shidoll
   - Clarity
@@ -20,13 +18,24 @@ While turdus merula also supports tethered downgrades (which do not require blob
 
 :::
 
+::: danger
+
+If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide.
+
+:::
+
+::: warning
+
+If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.
+
+:::
+
 ## Requirements
 
 - shsh2 blobs saved for the version you want to restore to
   - These blobs must be for **your** device only; you cannot use other people's blobs
   - If you are trying to restore to iPadOS 16.0 or later, you also need to have saved cryptex1 information for the version you want to restore to within your shsh2 blobs
 - An A9(X) or A10(X) device
-- macOS 10.12 or later
 
 ::: danger
 
@@ -36,11 +45,27 @@ Cellular A10X iPad Pros, as well as some iPhone 7's, will run into issues or not
 
 :::
 
+::: warning
+
+Depending on the version you are restoring to, you may need to <router-link to="/turdusmerula-tethered-linux">tether downgrade</router-link> to a different version before downgrading to your target version:
+  - If you are restoring to 10.0 to 10.3.2, you will need to tether downgrade to [iOS 10.3.3](https://appledb.dev/firmware/iOS/14G60.html) first
+  - If you are restoring to 9.0 to 9.3.5, you will need to tether downgrade to [iOS 10.2.1](https://appledb.dev/firmware/iOS/14D27.html) first
+
+**If you are restoring to iOS 11 or later, you can ignore this warning**.
+
+:::
+
 ## Downloads
 
 - The latest release of [turdus merula](https://sep.lol)
 - The IPSW file for your device from [appledb.dev](https://appledb.dev)
   - This should be the same iOS version as your blob
+
+## Preparation
+
+1. Open a terminal window
+1. Run `sudo systemctl stop usbmuxd`
+1. Run `sudo usbmuxd -f -p`
 
 ## Finding the generator
 
@@ -80,22 +105,24 @@ A9(X) restores do have a small failure rate. If the restore fails, retry again f
 
 1. Connect your device to your Mac
 1. Make sure that your Mac is trusted by your device
-1. Enter DFU mode on your device
+1. Enter Recovery mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
 1. Run `/usr/bin/xattr -cr ./bin`
-1. Run `./bin/turdusra1n -ED`
-1. Run `./bin/turdus_merula --get-shcblock [ipsw file]`
+1. Run `sudo ./bin/turdusra1n -D`
+    - Follow the on-screen instructions to enter DFU mode when prompted
+1. Run `sudo ./bin/turdus_merula --get-shcblock [ipsw file]`
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
 
-The shcblock will be saved to the `blocks` folder in the `turdus_m3rula` folder, and your device will reboot after this step is completed.
+The shcblock will be saved to the `block` folder in the `turdus_m3rula` folder, and your device will reboot after this step is completed.
 
 ### Restoring the device
 
-1. Re-enter DFU mode on your device
-1. Run `./bin/turdusra1n -EDb [generator]`
+1. Re-enter Recovery mode on your device
+1. Run `sudo ./bin/turdusra1n -Db [generator]`
     - Replace `[generator]` with the generator you obtained in the previous section
-1. Run `./bin/turdus_merula -w --load-shsh [shsh blob] --load-shcblock [shcblock] [ipsw file]`
+    - Follow the on-screen instructions to enter DFU mode when prompted
+1. Run `sudo ./bin/turdus_merula -w --load-shsh [shsh blob] --load-shcblock [shcblock] [ipsw file]`
     - Replace `[shsh blob]` with the file path of your shsh blob
     - Replace `[shcblock]` with the file path of the shcblock you obtained in the previous section
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
@@ -109,13 +136,14 @@ Your device should now be restored to the targeted firmware version.
 
 1. Connect your device to your Mac
 1. Make sure that your Mac is trusted by your device
-1. Enter DFU mode on your device
+1. Enter Recovery mode on your device
 1. Open a new terminal window and navigate to where you extracted the turdus merula folder to
 1. Run `cd turdus_m3rula` to navigate to the folder where turdus_merula is located
 1. Run `/usr/bin/xattr -cr ./bin`
-1. Run `./bin/turdusra1n -EDb [generator]`
+1. Run `sudo ./bin/turdusra1n -Db [generator]`
     - Replace `[generator]` with the generator you obtained in the previous section
-1. Run `./bin/turdus_merula -w --load-shsh [shsh blob] [ipsw file]`
+    - Follow the on-screen instructions to enter DFU mode when prompted
+1. Run `sudo ./bin/turdus_merula -w --load-shsh [shsh blob] [ipsw file]`
     - Replace `[shsh blob]` with the file path of your shsh blob
     - Replace `[ipsw file]` with the file path of the IPSW file for your version
 1. Follow any additional steps that are listed in the terminal window
