@@ -105,10 +105,11 @@ sidebar: false
 -   <router-link to="/updating-blobless-alternate">Updating (Blobless) (Alternate Method)</router-link>
 -   <router-link to="/updating-blobless-nonjailbroken">Updating (Blobless) (Non-Jailbroken)</router-link>
 -   <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link>
--   <router-link to="/updating-to-18-3-1">Updating to 18.3.1</router-link>
--   <router-link to="/updating-to-17-7.5">Updating to 17.7.5</router-link>
--   <router-link to="/updating-to-16-7-10">Updating to 16.7.10</router-link>
--   <router-link to="/updating-to-15-8-3">Updating to 15.8.3</router-link>
+-   <router-link to="/updating-to-26-0">Updating to 26.0</router-link>
+-   <router-link to="/updating-to-18-7">Updating to 18.7</router-link>
+-   <router-link to="/updating-to-17-7.5">Updating to 17.7.10</router-link>
+-   <router-link to="/updating-to-16-7-12">Updating to 16.7.12</router-link>
+-   <router-link to="/updating-to-15-8-5">Updating to 15.8.5</router-link>
 -   <router-link to="/updating-to-12-5-7">Updating to 12.5.7</router-link>
 -   <router-link to="/updating-to-10-3-4">Updating to 10.3.4</router-link>
 -   <router-link to="/updating-to-10-3-3">Updating to 10.3.3</router-link>
