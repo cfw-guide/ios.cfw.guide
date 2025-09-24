@@ -8,25 +8,27 @@
         <h2 v-if="o.label">{{ o.label }}</h2>
     
         <table v-for="t in Math.ceil(o.types.length / colCount)" :key="t">
-            <tr :style="`width: ${parseInt(100 / colCount)}%;`">
-                <th v-for="c in colCount" :key="c" :style="{'width': parseInt(100 / colCount) + '%'}">
-                    <router-link v-if="o.types[(t - 1) * colCount + c - 1]" :to="
-                        `${localePathPrefix}/get-started/select-${o.types[(t - 1) * colCount + c - 1].fdn().toLowerCase()}/`
-                    ">
-                        {{ o.types[(t - 1) * colCount + c - 1] }}
-                    </router-link>
-                </th>
-            </tr>
-            <tr>
-                <td v-for="c in colCount" :key="c">
-                    <router-link v-if="o.types[(t - 1) * colCount + c - 1]" :to="
-                        `${localePathPrefix}/get-started/select-${o.types[(t - 1) * colCount + c - 1].fdn().toLowerCase()}/`
-                    ">
-                        <img :src="imageObj[o.types[(t - 1) * colCount + c - 1]]" style="max-height: 11em;">
-                    </router-link>
-                </td>
-            </tr>
-            <tr><td v-for="c in colCount" :key="c"><hr class="separator"></td></tr>
+            <tbody>
+                <tr :style="`width: ${parseInt(100 / colCount)}%;`">
+                    <th v-for="c in colCount" :key="c" :style="{'width': parseInt(100 / colCount) + '%'}">
+                        <router-link v-if="o.types[(t - 1) * colCount + c - 1]" :to="
+                            `${localePathPrefix}/get-started/select-${o.types[(t - 1) * colCount + c - 1].fdn().toLowerCase()}/`
+                        ">
+                            {{ o.types[(t - 1) * colCount + c - 1] }}
+                        </router-link>
+                    </th>
+                </tr>
+                <tr>
+                    <td v-for="c in colCount" :key="c">
+                        <router-link v-if="o.types[(t - 1) * colCount + c - 1]" :to="
+                            `${localePathPrefix}/get-started/select-${o.types[(t - 1) * colCount + c - 1].fdn().toLowerCase()}/`
+                        ">
+                            <img :src="imageObj[o.types[(t - 1) * colCount + c - 1]]" style="max-height: 11em;">
+                        </router-link>
+                    </td>
+                </tr>
+                <tr><td v-for="c in colCount" :key="c"><hr class="separator"></td></tr>
+            </tbody>
         </table>
     </template>
 </template>

@@ -68,7 +68,7 @@ These steps should only be followed if you are using Linux, and should be ignore
 
 The following steps will slightly vary depending on if the device you are restoring is an A9(X) or A10(X) device.
 
-::::: tabs
+::::: tabs id="preparing"
 
 :::: tab name="A10(X) devices" :default="true"
 
@@ -100,7 +100,7 @@ Your device should now boot into pongoOS. Once new text stops appearing on your 
 
 Please select your operating system:
 
-:::::: tabs
+::::: tabs id="running-palera1n"
 
 :::: tab name="macOS" :default="true"
 
