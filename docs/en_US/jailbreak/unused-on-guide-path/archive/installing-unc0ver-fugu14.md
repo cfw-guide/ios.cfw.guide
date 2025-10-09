@@ -14,7 +14,7 @@ extra_contributors:
 
 ::: danger
 
-This guide is **no longer functional** due to server-side dependencies no longer working, and only exists as an archive to how this method previously worked. While it may still be technically possible to use this method with substantially more steps, those steps require macOS and a substantial amount of technical knowledge, and far easier methods are available.
+This guide is **no longer functional** as it is currently written due to various changes to the tools and services this method relies on, and only exists as an archive to how this method previously worked. While it may still be technically possible to use this method with substantially more steps, those steps require a high amount of technical knowledge, and far easier methods are available.
 
 Generally speaking, if you were considering following this guide, you should follow <router-link to="/installing-taurine">Installing Taurine</router-link> instead, which is the currently recommended jailbreak for all devices on iOS/iPadOS 14 (including those which supported jailbreaking with this method).
 

@@ -14,7 +14,7 @@ extra_contributors:
   - WhitetailAni
 ---
 
-JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to iOS 4.0.1 except for the iPad 1st Generation on iPhone OS 3.2.2.
+JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to 3.2.1.
 
 JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore.
 
@@ -27,12 +27,6 @@ JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot an
 After a couple of minutes, Cydia should be installed on your home screen.
 
 ## Patching Cydia
-
-::: danger
-
-Skip these steps if you are on iOS 4 or higher
-
-:::
 
 1. Open Cydia and select `Developer (No Filters)`
 1. Wait for data to reload (May take a very long time, ensure device does not go to sleep)
