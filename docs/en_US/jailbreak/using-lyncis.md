@@ -59,7 +59,7 @@ While this section is optional, if you are intending on using **AppSync Unified*
 1. Tap `Install` then `Confirm`
 1. Once it has completed installing, tap `Reboot Device`
 
-After the device has rebooted, the `Pangu7 Migrator` package will be removed to complete the migration
+After the device has rebooted, the `Pangu7 Migrator` package will need to be removed to complete the migration
 
 ### Removing Pangu7 Migrator
 
