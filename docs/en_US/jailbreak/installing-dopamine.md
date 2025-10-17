@@ -232,6 +232,7 @@ Your device should respring, and TrollStore should now be installed.
 
 1. Open `TrollStore`
 1. Press the `+` on the top right
+1. Select <kbd>Install IPA File</kbd>
 1. Go to where you saved the Dopamine `.ipa` file
 1. Tap on the Dopamine `.ipa` file
 1. Tap `Install`
