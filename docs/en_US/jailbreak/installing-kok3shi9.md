@@ -18,13 +18,19 @@ extra_contributors:
   - Alriceee
 ---
 
-kok3shi9 is capable of jailbreaking all devices on 9.3.2 to 9.3.6, as well as 64-bit devices on 9.2 to 9.3.1
+kok3shi9 is capable of jailbreaking 64-bit devices on 9.2 to 9.3.5.
+
+::: warning
+
+If you are using a 32-bit device, you should instead follow
+    - <router-link to="/installing-everpwnage">Installing EverPwnage</router-link> if you are on 9.3.5 or 9.3.6
+    - <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link> if you are on 9.1 to 9.3.4
+
+:::
 
 ## Downloads
 
-- The version of kok3shi9 for your device:
-  - **32-bit devices** should download the **4.0.3** version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9_32.html)
-  - **64-bit devices** should download the **latest** version of [kok3shi9](https://kok3shidoll.web.app/kok3shi9.html)
+- The latest version of [kok3shi9](https://web.archive.org/web/20250831054016/https://kok3shidoll.github.io/download/kokeshi/v5/kok3shi9_v5.0.3.ipa) from archive.org
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
