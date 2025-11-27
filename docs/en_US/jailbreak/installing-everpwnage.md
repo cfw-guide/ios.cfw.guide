@@ -10,7 +10,7 @@ extra_contributors:
   - Alriceee
 ---
 
-EverPwnage is an untethered jailbreak capable of jailbreaking 32-bit iOS devices on firmware versions 8.0 to 9.3.6.
+EverPwnage is an untethered jailbreak capable of jailbreaking 32-bit iOS devices on firmware versions 8.0 to 9.3.4, as well as a semi-untethered jailbreak on firmware versions 9.3.5/9.3.6.
 
 We will use the Sideloadly tool to install the EverPwnage jailbreak application to your iOS device for use in the next step.
 

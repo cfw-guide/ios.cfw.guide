@@ -100,19 +100,19 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">15.7.2</td>
-      <td style="text-align: center; font-weight: bold;">15.8.4</td>
+      <td style="text-align: center; font-weight: bold;">15.8.5</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollmisaka">TrollMisaka</router-link></td>
       <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.0 beta 1</td>
-      <td style="text-align: center; font-weight: bold;">16.0 beta 3</td>
+      <td style="text-align: center; font-weight: bold;">16.0 beta 5</td>
       <td style="text-align: center;">Not Applicable</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollhelperota">TrollHelperOTA</router-link></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">16.0 beta 4</td>
+      <td style="text-align: center; font-weight: bold;">16.0 beta 6</td>
       <td style="text-align: center; font-weight: bold;">16.6.1</td>
       <td style="text-align: center;">Not Applicable</td>
       <td style="text-align: center;" colspan="2"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
@@ -125,7 +125,7 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">16.7</td>
-      <td style="text-align: center; font-weight: bold;">16.7.11</td>
+      <td style="text-align: center; font-weight: bold;">16.7.12</td>
       <td style="text-align: center;">Not Applicable</td>
       <td style="text-align: center;" colspan="2">Unsupported</td>
     </tr>
@@ -134,7 +134,7 @@ If your device is on iOS 14.0 *beta 1* or earlier, is running iOS 16.7.x (exclud
       <td style="text-align: center; font-weight: bold;">17.0 beta 4</td>
       <td style="text-align: center;">Not Applicable</td>
       <td style="text-align: center;"><router-link to="/installing-trollstore-trollinstallerx">TrollInstallerX</router-link></td>
-      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollstore-trollrestore">TrollRestore</router-link></td>
+      <td style="text-align: center;"><router-link to="/installing-trollstore-trollrestore">TrollRestore</router-link></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">17.0 beta 5</td>

@@ -28,7 +28,7 @@ We will use PlumeImpactor to install the application to your device.
 
 ::: warning
 
-iPhone 5's using this jailbreak may run into an issue where tweaks will not load properly. If this happens, you should try restoring your device, then jailbreaking with <router-link to="/installing-kok3shiX">Installing kok3shiX</router-link> instead.
+iPhone 5's using this jailbreak may run into an issue where tweaks will not load properly. If this happens, you should try restoring your device, then jailbreaking with <router-link to="/installing-socket">Installing Socket</router-link> instead.
 
 :::
 
