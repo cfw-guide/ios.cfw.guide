@@ -1,16 +1,8 @@
 ---
 lang: en_US
-title: Installing kok3shi9
+title: Installing kok3shi9 (Sideloadly)
 description: Guide to installing kok3shi9
-permalink: /installing-kok3shi9
-redirect_from:
-  - /installing-kokeshi
-  - /installing-kokeshi9
-  - /installing-kok3shi
-  - /kok3shi
-  - /kokeshi
-  - /kok3shi9
-  - /kokeshi9
+permalink: /installing-kok3shi9-sideloadly
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
@@ -31,19 +23,19 @@ If you are using a 32-bit device, you should instead follow:
 ## Downloads
 
 - The latest version of [kok3shi9](https://web.archive.org/web/20250831054016/https://kok3shidoll.github.io/download/kokeshi/v5/kok3shi9_v5.0.3.ipa) from archive.org
-- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Open PlumeImpactor
-1. Go to `Settings` -> `Sign In`
-1. Enter in your Apple Account and Password
-1. Close the Settings and Sign In windows
-1. Drag and drop the kok3shi9 `.ipa` file into PlumeImpactor
-1. Click `Install`
+1. Drag and drop the kok3shi9 `.ipa` file into Sideloadly
+1. Enter in your Apple Account
+1. Enter in your password
 
 The app will now install to your iOS device.
 

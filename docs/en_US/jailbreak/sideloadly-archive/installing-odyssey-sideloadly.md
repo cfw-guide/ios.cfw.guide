@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing Odyssey
+title: Installing Odyssey (Sideloadly)
 description: Guide to installing Odyssey
-permalink: /installing-odyssey
+permalink: /installing-odyssey-sideloadly
 redirect_from:
   - /odyssey
   - /od
@@ -20,7 +20,7 @@ The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 13.
 
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
-We will use PlumeImpactor to install the Odyssey jailbreak application to your iOS device for use in the next step.
+We will use Sideloadly to install the Odyssey jailbreak application to your iOS device for use in the next step.
 
 ::: warning
 
@@ -35,19 +35,19 @@ Odyssey is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Odyssey](https://theodyssey.dev/)
-- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Open PlumeImpactor
-1. Go to `Settings` -> `Sign In`
-1. Enter in your Apple Account and Password
-1. Close the Settings and Sign In windows
-1. Drag and drop the Odyssey `.ipa` file into PlumeImpactor
-1. Click `Install`
+1. Drag and drop the Odyssey `.ipa` file into Sideloadly
+1. Enter in your Apple Account
+1. Enter in your password
 
 The app will now install to your iOS device.
 

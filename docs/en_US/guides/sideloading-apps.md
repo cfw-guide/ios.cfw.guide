@@ -41,11 +41,28 @@ If you are using iOS 16 or newer, you will need to take extra steps beforehand t
 
 ## Sideloading apps
 
+### Sideload using PlumeImpactor
+
+::: tip
+
+PlumeImpactor is compatible with iOS 9 and newer.
+
+:::
+
+1. Plug your iOS device into your computer
+    - Make sure your computer is trusted and allowed to view the contents of your device
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the `.ipa` file of your choice into PlumeImpactor
+1. Click `Install`
+
 ### Sideload using Sideloadly
 
 ::: tip
 
-Sideloadly is compatible with iOS 7 and newer.
+Sideloadly is compatible with iOS 8 and newer.
 
 :::
 
@@ -53,9 +70,8 @@ Sideloadly is compatible with iOS 7 and newer.
 1. Plug your iOS device into your computer
    - Make sure your computer is trusted and allowed to view the contents of your device
 1. Drag and drop the `.ipa` file of your choice into Sideloadly
-1. Enter in your Apple ID
+1. Enter in your Apple Account
 1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
 
 ### Sideload using AltStore
 

@@ -1,14 +1,8 @@
 ---
 lang: en_US
-title: Installing sockH3lix
+title: Installing sockH3lix (Sideloadly)
 description: Guide to installing sockH3lix
-permalink: /installing-sockh3lix
-redirect_from:
-  - /installing-sockhelix
-  - /sockhelix
-  - /sockh3lix
-  - /sh3
-  - /she
+permalink: /installing-sockh3lix-sideloadly
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
@@ -24,7 +18,7 @@ Note that the sockH3lix jailbreak is not “persistent” (meaning it does not r
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the h3lix jailbreak application to your device every 7 days from your computer.
 
-We will use PlumeImpactor to install the application to your device.
+We will use Sideloadly to install the application to your device.
 
 ::: warning
 
@@ -35,19 +29,17 @@ iPhone 5's using this jailbreak may run into an issue where tweaks will not load
 ## Downloads
 
 - The latest version of [sockH3lix](https://github.com/SongXiaoXi/sockH3lix/releases/latest)
-- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ## Installing the application
 
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Open PlumeImpactor
-1. Go to `Settings` -> `Sign In`
-1. Enter in your Apple Account and Password
-1. Close the Settings and Sign In windows
-1. Drag and drop the sockh3lix `.ipa` file into PlumeImpactor
-1. Click `Install`
+1. Drag and drop the sockH3lix `.ipa` file into Sideloadly
+1. Enter in your Apple Account
+1. Enter in your password
 
 The app will now install to your iOS device.
 

@@ -1,11 +1,8 @@
 ---
 lang: en_US
-title: Installing p0laris
+title: Installing p0laris (Sideloadly)
 description: Guide to installing p0laris
-permalink: /installing-p0laris
-redirect_from:
-  - /p0laris
-  - /polaris
+permalink: /installing-p0laris-sideloadly
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
@@ -19,7 +16,7 @@ Note that the p0laris jailbreak is not “persistent” (meaning it does not rem
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the p0laris jailbreak application to your device every 7 days from your computer.
 
-We will use the PlumeImpactor tool to install the p0laris jailbreak application to your iOS device for use in the next step.
+We will use the Sideloadly tool to install the p0laris jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
@@ -28,19 +25,19 @@ p0laris is currently signed at <a href="https://jailbreaks.app/legacy.html" targ
 </p></div>
 
 - The latest version of [p0laris](https://p0laris.dev/)
-- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Open PlumeImpactor
-1. Go to `Settings` -> `Sign In`
-1. Enter in your Apple Account and Password
-1. Close the Settings and Sign In windows
-1. Drag and drop the p0laris `.ipa` file into PlumeImpactor
-1. Click `Install`
+1. Drag and drop the p0laris `.ipa` file into Sideloadly
+1. Enter in your Apple Account
+1. Enter in your password
 
 The app will now install to your iOS device.
 

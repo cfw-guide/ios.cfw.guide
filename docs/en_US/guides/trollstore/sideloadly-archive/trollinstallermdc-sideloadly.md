@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing TrollStore (TrollStar)
-description: Guide to installing TrollStore via TrollStar
-permalink: /installing-trollstore-trollstar
+title: Installing TrollStore (TrollInstallerMDC, Sideloadly)
+description: Guide to installing TrollStore via TrollInstallerMDC
+permalink: /installing-trollstore-trollinstallermdc-sideloadly
 sidebar: false
 redirect_from:
 extra_contributors:
@@ -12,18 +12,18 @@ extra_contributors:
 
 ## Requirements
 
-- A device running iOS/iPadOS 16.0 to 16.6.1
+- A device running iOS/iPadOS 15.0 to 15.7.1 or 16.0 to 16.1.2
 - The Tips app installed to your device
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
-- The latest version of [TrollStar](https://github.com/34306/TrollStar/releases/latest)
+- The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
 
 ## Installing the application
 
 1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the TrollStar `.ipa` file into Sideloadly
+1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
 1. Enter in your Apple ID
 1. Enter in your password
 
@@ -35,11 +35,11 @@ The app will now install to your iOS device.
     - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
 1. Tap `Trust "<Your Apple ID>"`
 
-The TrollStar application can now be opened from home screen.
+The TrollInstallerMDC application can now be opened from home screen.
 
 ::: danger
 
-If you don't have it enabled already, you'll also need to enable Developer Mode.
+If you're on iOS 16.0 to 16.1.2, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 
@@ -49,22 +49,17 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
 
 ::: warning
 
-This method may take several tries in order to work successfully.
+If you've already opened Tips, reboot your device before following these steps
 
 :::
 
-1. Open TrollStar
-1. Tap `Click here to start!`
-    - If the device reboots, wait a few minutes, then try again
-1. Tap `Install TrollStore Helper to Tips`
-1. Tap `Respring to Apply`
-
-Your device will respring after you tap `Respring to Apply`.
+1. Open TrollInstallerMDC
+1. Once it says "Successfully replaced Tips binary", close the `TrollInstallerMDC` app
+    - If it gives an error, close TrollInstallerMDC and re-open it 
 
 ## Installing TrollStore
 
-1. Unlock your device
-1. Open the Tips app
+1. Open the `Tips` app
 1. Tap `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.

@@ -1,10 +1,8 @@
 ---
 lang: en_US
-title: Installing doubleh3lix
+title: Installing doubleh3lix (Sideloadly)
 description: Guide to installing doubleH3lix via Sideloading
-permalink: /installing-doubleh3lix-ipa
-redirect_from:
-  - /installing-doubleh3lix-(ipa)
+permalink: /installing-doubleh3lix-ipa-sideloadly
 discordNoticeText: For support in English, ask for help on the LegacyJailbreak [Discord Server](http://discord.legacyjailbreak.com/).
 pkgman: cydia
 extra_contributors:
@@ -25,24 +23,24 @@ Note that the doubleh3lix jailbreak is <router-link to="/types-of-jailbreak/#sem
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the doubleh3lix jailbreak application to your device every 7 days from your computer.
 
-We will use the PlumeImpactor tool to install the doubleh3lix jailbreak application to your iOS device for use in the next step.
+We will use the Sideloadly tool to install the doubleh3lix jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
 - The latest version of [doubleh3lix](https://doubleh3lix.tihmstar.net/ipa/doubleH3lix-RC8.ipa)
-- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Open PlumeImpactor
-1. Go to `Settings` -> `Sign In`
-1. Enter in your Apple Account and Password
-1. Close the Settings and Sign In windows
-1. Drag and drop the doubleh3lix `.ipa` file into PlumeImpactor
-1. Click `Install`
+1. Drag and drop the doubleh3lix `.ipa` file into Sideloadly
+1. Enter in your Apple Account
+1. Enter in your password
 
 The app will now install to your iOS device.
 
