@@ -30,7 +30,7 @@ nathanlr is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">
 
 The tool is capable of semi-jailbreaking A12 and later devices on iOS/iPadOS versions 16.5.1 to 16.6.1.
 
-We will first use PlumeImpactor to sideload TrollInstallerX, then use TrollInstallerX to install TrollStore, and then install nathanlr from there.
+We will first use Sideloadly to sideload TrollInstallerX, then use TrollInstallerX to install TrollStore, and then install nathanlr from there.
 
 ## Installing TrollStore
 
@@ -46,20 +46,18 @@ If you already have TrollStore installed, you can skip this section.
 TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest/download/TrollInstallerX.ipa)
 
 ### Installing the application
 
+1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Open PlumeImpactor
-1. Go to `Settings` -> `Sign In`
-1. Enter in your Apple Account and Password
-1. Close the Settings and Sign In windows
-1. Drag and drop the TrollInstallerX `.ipa` file into PlumeImpactor
-1. Click `Install`
+1. Drag and drop the TrollInstallerX `.ipa` file into Sideloadly
+1. Enter in your Apple Account
+1. Enter in your password
 
 The app will now install to your iOS device.
 
