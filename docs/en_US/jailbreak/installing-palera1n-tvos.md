@@ -11,10 +11,7 @@ redirect_from:
   - /installing-palera1n-tvos/linux
   - /installing-palera1n-tvos/macos
   - /installing-palera1n-tvos/windows
-  - /installing-palera1n-tvos-rootful
-extra_contributors:
-  - Bradley
-  - Zenzeq
+  - /installing-palera1n-tvos
 ---
 
 palera1n is a semi-tethered jailbreak compatible with the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 - 26.0.1.
@@ -26,149 +23,16 @@ If you are using an old, tethered version of palera1n, you'll need to <router-li
 
 :::
 
-::: warning
-
-If you are using Windows, you should follow <router-link to="/using-palen1x-tvos">Using palen1x (tvOS)</router-link> instead.
-
-:::
-
-::: danger
-
-You cannot use rootless for this guide and must jailbreak using rootful. If you installed rootless, please follow <router-link to="/removing-palera1n-tvos">Removing palera1n (tvOS)</router-link>.
-
-:::
-
-## Requirements
-
-- An Apple TV Siri remote (any generation)
-- If you have an Apple TV HD, you will need a USB-C cable.
-- If you have an Apple TV 4K, you will also need three cables:
-  - A GoldenEye or Foxlink X892 cable
-  - An Alex DCSD cable (needed to enter DFU mode; using a Lightning cable with the GoldenEye cable on its own won't work)
-  - A standard Lightning cable
-  - It is recommended to purchase these from AliExpress for the best prices. Note that they typically take about a month to arrive.
-
-## Installing the jailbreak
-
-Please select your operating system:
-
-:::::: tabs
-
-:::: tab name="macOS" :default="true"
-
-### Installing palera1n
-
-1. Open a Terminal window.
-1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`
-
-### Running palera1n
-
-::: details Apple TV 4K instructions
-1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter DFU mode.
-1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
-1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
-1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
-1. Run `palera1n -cf`.
-1. After you have created the fakeFS by running the command above, redo steps 1-5 to go back into DFU mode, then come back to the next step.
-1. Run `palera1n -f`.
-
-You'll need to do this every time you rejailbreak your device.
-:::
-
-::: details Apple TV HD instructions
-1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
-1. Run `palera1n -cf`.
-1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
-1. Once your device is done creating the FakeFS or BindFS, run `palera1n -f`.
-
-You'll need to do this every time you rejailbreak your device.
-:::
+The steps to use palera1n are notably different depending on your tvOS version, and as a result, have separate guide pages as outlined below.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
-
-1. In the terminal window, press `Control` + `C` on your keyboard.
-1. Rerun the command that you just ran.
+If you are running tvOS 18.2 - 26.0.1, continue to <router-link to="/installing-palera1n-tvos-18.2">Installing palera1n (tvOS, 18.2+)</router-link>
 
 :::
 
-::::
+::: tip 
 
-:::: tab name="Linux"
-
-
-::: danger
-
-If you are trying to use Virtual Machine software from Windows (e.g., VirtualBox, VMWare, Windows Subsystem for Linux, etc.), you will not succeed with this guide.
-
-:::
-
-::: warning
-
-Ubuntu-based Linux distributions are known to have issues successfully running palera1n.
-
-If you are using an Ubuntu-based Linux distribution and run into issues, it's recommended to either use another Linux distribution or follow <router-link to="/using-palen1x-tvos">Using palen1x (tvOS)</router-link> instead.
-
-:::
-
-::: warning
-
-If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do, you should use a Mac or a computer with an Intel CPU to follow this guide.
-
-:::
-
-### Installing palera1n
-
-1. Open a terminal window.
-1. Run `sudo systemctl stop usbmuxd`.
-1. Run `sudo usbmuxd -f -p`.
-1. Open another terminal window.
-1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`.
-
-
-### Running palera1n
-
-::: details Apple TV 4K instructions
-1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter DFU mode.
-1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
-1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
-1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
-1. Run `palera1n -cf`.
-1. After you have created the fakeFS by running the command above, redo steps 1-5 to go back into DFU mode, then come back to the next step.
-1. Run `palera1n -f`.
-
-You'll need to do this every time you rejailbreak your device.
-:::
-
-::: details Apple TV HD instructions
-1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
-1. Run `palera1n -cf`.
-1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
-1. Once your device is done creating the FakeFS or BindFS, run `palera1n -f`.
-
-You'll need to do this every time you rejailbreak your device.
-:::
-
-::: tip
-
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
-
-1. In the terminal window, press `Control` + `C` on your keyboard.
-1. Rerun the command that you just ran.
-
-:::
-
-::::
-
-::::::
-
-Once the device boots up, open the palera1n loader app and tap `Install`. After some time, you'll be prompted to set a passcode for using command-line tools, and then `purePKG` should be on your home screen.
-
-::: tip
-
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+If you are running tvOS 15.0 - 18.1, continue to <router-link to="/installing-palera1n-tvos-18.1">Installing palera1n (tvOS, 15.0 - 18.1)</router-link>
 
 :::
