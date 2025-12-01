@@ -5,6 +5,12 @@ This page is optional, but helpful if you are unfamiliar with jailbreaking.
 
 :::
 
+::: warning
+
+This guide is formatted for purePKG on tvOS.
+
+:::
+
 purePKG is a modern package manager that has a simple UI made to fit with iOS 13 and above. It's the App Store for all the tweaks and themes available for your device.
 
 <p><router-link to="/faq/#what-are-tweaks">Tweaks</router-link> are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".</p>
