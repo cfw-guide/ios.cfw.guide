@@ -7,7 +7,7 @@ This page is optional, but helpful if you are unfamiliar with jailbreaking.
 
 ::: warning
 
-This guide is formatted for purePKG on tvOS.
+This guide is formatted for purePKG on tvOS. If you are on iOS/iPadOS you should use the package manager that came with your jailbreak. (ex: Sileo)
 
 :::
 
