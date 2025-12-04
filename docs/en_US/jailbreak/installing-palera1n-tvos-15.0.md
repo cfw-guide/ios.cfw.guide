@@ -61,6 +61,7 @@ Please select your operating system:
 ### Running palera1n
 
 ::: details Apple TV 4K instructions
+
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
 1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
