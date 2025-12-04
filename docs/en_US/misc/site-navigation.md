@@ -55,7 +55,7 @@ sidebar: false
 -   <router-link to="/installing-blackb0x">Installing blackb0x</router-link>
 -   <router-link to="/using-checkm8-a5">Using checkm8-a5</router-link>
 -   <router-link to="/installing-patchstick">Installing Patchstick</router-link>
-
+- 	<router-link to="/installing-palera1n-tvos">Installing palera1n(tvOS)</router-link>
 ## Other Jailbreaks/Methods
 
 -   <router-link to="/installing-notajb">Installing Def1nit3lyN0tAJa1lbr3akTool</router-link>
