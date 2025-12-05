@@ -99,8 +99,8 @@ export default {
             var firstDeviceObj = {}
 
             const overrides = {
-                AirPods: "AirPods1,1",
-                iPhone: "iPhone16,2"
+                AirPods: "AirPods1,1"
+                // iPhone: "iPhone16,2"
             }
 
             for (const g of this.fm.groupList) {
