@@ -100,8 +100,7 @@ export default {
 
             const overrides = {
                 AirPods: "AirPods1,1",
-                iPhone: "iPhone15,2" // change to iPhone15,2 on iOS 16.0+ jailbreak
-                // iPad Pro: "iPad13,11" // change to iPad14,6 or remove on iPadOS 16.0+ jailbreak
+                iPhone: "iPhone16,2"
             }
 
             for (const g of this.fm.groupList) {
