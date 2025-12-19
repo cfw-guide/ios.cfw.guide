@@ -37,7 +37,7 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
 ## Requirements
 
 - A 128MB or greater USB Drive
-    - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
+    - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. an SD card or DVD), you can use that instead of a USB Drive
 - The latest version of [palen1x](https://github.com/palera1n/palen1x/releases)
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)
 
