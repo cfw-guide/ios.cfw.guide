@@ -59,6 +59,16 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
     - Search your PC or motherboard brand to find out how to get to your BIOS settings if you are unsure
 1. Press enter once you see the Ventoy screen to boot into palen1x
 
+::: details Booting Ventoy with Secure Boot enabled
+Ventoy can be booted with Secure Boot enabled on (most) UEFI systems by enrolling its Secure Boot key in your motherboard's MOK Manager. To do this:
+
+1. With Secure Boot enabled, enter your boot menu and select your USB Drive to boot from.
+1. When you see the error `Verification failed: (0x1A) Security Violation`, press Enter. You will be brought to a screen asking if you would like to perform MOK Management. Press any key within 10 seconds to open the MOK Manager.
+1. In the MOK Manager, you use the arrow keys to navigate between options and `enter` to confirm your selection. From the list displayed select `Enroll key from disk.` You’ll then see a list of drives, choose `VTOYEFI`. Inside the drive, select `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`, then choose Continue -> Yes -> Reboot.
+
+You should now be able to boot from your USB Drive with Ventoy installed without needing to disable Secure Boot.
+:::
+
 ## Running palera1n
 
 ::: warning
