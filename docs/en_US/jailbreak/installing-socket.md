@@ -25,9 +25,17 @@ We will use PlumeImpactor to install the application to your device.
 Socket is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The latest version of [Socket](https://socket-jb.app)
+- The latest version of LukeZGD's fork of [Socket](https://github.com/LukeZGD/socket/releases)
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+::: warning
+
+The unofficial fork of Socket is recommended, as the latest official version of Socket ships with an older version of Zebra, which - due to various changes surrounding the implementation of rootless for iOS 15 and later - is rather annoying to use or update in recent years.
+
+If you are not comfortable using an unofficial fork, you can use the latest official version of [Socket](https://socket-jb.app) instead.
+
+:::
 
 ## Installing the application
 
