@@ -25,10 +25,6 @@ We will use the PlumeImpactor tool to install the Phœnix jailbreak application 
 
 ## Downloads
 
-<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-Phœnix is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
-</p></div>
-
 - The latest version of [Phœnix](https://phoenixpwn.com/)
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.

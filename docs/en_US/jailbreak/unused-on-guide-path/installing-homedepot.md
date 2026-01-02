@@ -25,10 +25,6 @@ We will use the Sideloadly tool to install the HomeDepot jailbreak application t
 
 ## Downloads
 
-<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-HomeDepot is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
-</p></div>
-
 - The latest version of HomeDepot for your iOS version:
   - Home Depot for [iOS 9.1-9.3.4](https://web.archive.org/web/20240121141909/http://wall.supplies/)
   - Home Depot for [iOS 8.0-8.4.1](https://web.archive.org/web/20240121141903/https://wall.supplies/OLD%20iPhone%20HACKED.html)

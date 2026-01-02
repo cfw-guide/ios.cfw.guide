@@ -23,10 +23,6 @@ We will use the PlumeImpactor tool to install the p0laris jailbreak application 
 
 ## Downloads
 
-<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-p0laris is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
-</p></div>
-
 - The latest version of [p0laris](https://p0laris.dev/)
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
