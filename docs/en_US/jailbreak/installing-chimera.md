@@ -21,6 +21,12 @@ Due to how semi-untethered jailbreaks work, if you are using an A11 or newer dev
 
 We will use PlumeImpactor to install the Chimera jailbreak application to your iOS device for use in the next step.
 
+::: danger
+
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
+
 ::: warning
 
 If you have a newer device with an A12 SoC, such as the iPhone XS, you can only use Chimera on iOS 12.0 - 12.1.2. If you are on iOS 12.1.3 to 12.4.1, you will need to follow <router-link to="/installing-unc0ver">Installing unc0ver</router-link> instead.

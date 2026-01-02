@@ -12,6 +12,12 @@ extra_contributors:
 
 ::: danger
 
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
+
+::: danger
+
 If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc.) this guide will not work, and you should follow <router-link to="/using-odysseyn1x">Using Odysseyn1x</router-link> instead.
 
 :::

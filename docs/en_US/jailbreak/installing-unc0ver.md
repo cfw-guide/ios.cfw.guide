@@ -23,6 +23,12 @@ Due to how semi-untethered jailbreaks work, the app will need to be <router-link
 
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
 
+::: danger
+
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
+
 ::: tip
 
 If you are using a device running iOS 14.0 to 14.3 or 14.6 to 14.8, it is **highly** recommended to follow <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link> instead.

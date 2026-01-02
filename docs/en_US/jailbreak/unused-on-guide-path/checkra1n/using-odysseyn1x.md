@@ -29,6 +29,12 @@ extra_contributors:
 
 ::: danger
 
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
+
+::: danger
+
 If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide, and will need to obtain a bootable medium and follow the below steps using that bootable medium.
 
 :::

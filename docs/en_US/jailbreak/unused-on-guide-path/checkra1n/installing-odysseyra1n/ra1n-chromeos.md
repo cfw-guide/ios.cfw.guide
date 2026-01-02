@@ -14,6 +14,12 @@ extra_contributors:
   - stekc
 ---
 
+::: danger
+
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
+
 ::: warning
 
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do run into issues, you should use a Mac or a computer with an Intel CPU to follow this guide.

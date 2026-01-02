@@ -19,6 +19,12 @@ extra_contributors:
 
 ## Installing checkra1n
 
+::: danger
+
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
+
 ::: tip
 
 If you're using an Apple Silicon Mac and are attempting to jailbreak on A7 device or an A9X (not A9) to A10(X) device, you will be prompted during the process to unplug and replug the device and will need to do so.
