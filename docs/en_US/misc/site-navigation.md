@@ -25,8 +25,8 @@ sidebar: false
 -   <router-link to="/installing-electra">Installing Electra</router-link>
 -   <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
 -   <router-link to="/installing-socket">Installing Socket</router-link>
+-   <router-link to="/using-carbon">Using Carbon</router-link>
 -   <router-link to="/installing-kok3shi9">Installing kok3shi9</router-link>
--   <router-link to="/installing-everpwnage">Installing EverPwnage</router-link>
 -   <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link>
 -   <router-link to="/installing-pangu9">Installing Pangu9</router-link>
 -   <router-link to="/installing-wtfis">Installing wtfis</router-link>
@@ -68,6 +68,7 @@ sidebar: false
 -   <router-link to="/installing-doubleh3lix-ipa">Installing doubleh3lix</router-link>
 -   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
 -   <router-link to="/installing-sockh3lix">Installing sockh3lix</router-link>
+-   <router-link to="/installing-everpwnage">Installing EverPwnage</router-link>
 -   <router-link to="/installing-phoenix">Installing Phœnix</router-link>
 -   <router-link to="/installing-p0laris">Installing p0laris</router-link>
 -   <router-link to="/installing-openpwnage">Installing openpwnage</router-link>

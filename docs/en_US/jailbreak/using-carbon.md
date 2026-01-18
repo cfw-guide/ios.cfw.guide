@@ -19,12 +19,12 @@ Note that the Carbon jailbreak is not “persistent” (meaning it does not rema
 
 1. Open Safari on your iOS device
 1. Go to [http://carbon.sep.lol](http://carbon.sep.lol) website
-1. Press "Run
+1. Press "Run"
    - If the device reboots without prompting this, try again.
 
 Carbon will now jailbreak your device. 
 
-To rejailbreak in the future, repeat these steps
+To rejailbreak in the future, repeat these steps again.
 
 ::: tip
 

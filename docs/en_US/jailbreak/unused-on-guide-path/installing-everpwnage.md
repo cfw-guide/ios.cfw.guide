@@ -16,7 +16,9 @@ We will use the Sideloadly tool to install the EverPwnage jailbreak application 
 
 ::: tip
 
-If you are using a 32-bit device on firmware version 9.1 to 9.3.4, you should follow <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link> instead.
+Unless you are running into issues with it, it is generally recommended to follow:
+   - <router-link to="/using-carbon">Using Carbon</router-link> for iOS 8.0 to 9.0.2/9.3.5 to 9.3.6
+   - <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link> for iOS 9.1 to 9.3.4
 
 :::
 
