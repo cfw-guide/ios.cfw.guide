@@ -18,7 +18,7 @@ Note that the Carbon jailbreak is not “persistent” (meaning it does not rema
 ## Running Carbon
 
 1. Open Safari on your iOS device
-1. Go to [https://carbon.sep.lol](https://carbon.sep.lol) website
+1. Go to [http://carbon.sep.lol](http://carbon.sep.lol) website
 1. Press "Run
    - If the device reboots without prompting this, try again.
 
