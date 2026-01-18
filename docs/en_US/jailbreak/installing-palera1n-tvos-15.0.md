@@ -5,16 +5,14 @@ description: Guide to installing palera1n on tvOS 15.0-18.1
 permalink: /installing-palera1n-tvos-15.0
 pkgman: purePKG
 redirect_from:
-  - /installing-palera1n-tvos18.1
-  - /installing-palera1n-tvos15.0
-  - /installing-palera1n-tvos-15.0
-  - /installing-palen1x-tvos-15.0
-  - /using-palen1x-tvos-15.0
-  - /install-palera1n-tvos-15.0
-  - /palera1n-tvos-15.0
-  - /installing-paleraintv-15.0
-  - /palera1n-tvos15.0
-  - /installing-palera1n-apple-tv-18.1
+  - /installing-palera1n-tvos15
+  - /installing-palera1n-tvos-15
+  - /installing-palen1x-tvos-15
+  - /using-palen1x-tvos-15
+  - /install-palera1n-tvos-15
+  - /palera1n-tvos-15
+  - /installing-paleraintv-15
+  - /palera1n-tvos15
 extra_contributors:
   - Bradley
   - Zenzeq
@@ -61,6 +59,7 @@ Please select your operating system:
 ### Running palera1n
 
 ::: details Apple TV 4K instructions
+
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
 1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
@@ -69,14 +68,17 @@ Please select your operating system:
 1. Run `palera1n -f`.
 
 You'll need to do this every time you rejailbreak your device.
+
 :::
 
 ::: details Apple TV HD instructions
+
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run `palera1n -f`.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 You'll need to do this every time you rejailbreak your device.
+
 :::
 
 ::: tip
@@ -125,6 +127,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ### Running palera1n
 
 ::: details Apple TV 4K instructions
+
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
 1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
@@ -133,14 +136,17 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Run `palera1n -f`.
 
 You'll need to do this every time you rejailbreak your device.
+
 :::
 
 ::: details Apple TV HD instructions
+
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run `palera1n -f`.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 You'll need to do this every time you rejailbreak your device.
+
 :::
 
 ::: tip
@@ -217,15 +223,18 @@ palen1x is a live bootable Linux environment that allows you to quickly run pale
 1. Run `palera1n -f`.
 
 You'll need to do this every time you rejailbreak your device.
+
 :::
 
 ::: details Apple TV HD instructions
+
 1. Once you have loaded palen1x, select `Shell`.
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run `palera1n -f`.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 You'll need to do this every time you rejailbreak your device.
+
 :::
 
 ::: tip
