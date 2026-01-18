@@ -1,18 +1,18 @@
 ---
 lang: en_US
-title: Installing palera1n (tvOS, 18.2+)
-description: Guide to installing palera1n on tvOS 18.2-26.0.1
+title: Installing palera1n for Apple TV (18.2+)
+description:  Guide to installing palera1n for Apple TV on tvOS versions 18.2-26.0.1
 permalink: /installing-palera1n-tvos-18.2
 pkgman: purePKG
 redirect_from:
-  - /installing-palera1n-tvos18
-  - /installing-palera1n-tvos-18
-  - /installing-palen1x-tvos-18
-  - /using-palen1x-tvos-18
-  - /install-palera1n-tvos-18
-  - /palera1n-tvos-18
+  - /installing-palera1n-atv18
+  - /installing-palera1n-atv-18
+  - /installing-palen1x-atv-18
+  - /using-palen1x-atv-18
+  - /install-palera1n-atv-18
+  - /palera1n-atv-18
   - /installing-paleraintv-18
-  - /palera1n-tvos18
+  - /palera1n-atv18
   - /installing-palera1n-apple-tv-18
 extra_contributors:
   - Bradley
@@ -88,7 +88,7 @@ You'll need to do this every time you rejailbreak your device.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+The Apple TV HD has an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
 
 1. In the terminal window, press `Control` + `C` on your keyboard.
 1. Rerun the command that you just ran.
@@ -167,7 +167,7 @@ You'll need to do this every time you rejailbreak your device.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+The Apple TV HD has an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
 
 1. In the terminal window, press `Control` + `C` on your keyboard.
 1. Rerun the command that you just ran.
@@ -259,7 +259,7 @@ You'll need to do this every time you rejailbreak your device.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+The Apple TV HD has an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
 
 1. In the terminal window, press `Control` + `C` on your keyboard.
 1. Rerun the command that you just ran.

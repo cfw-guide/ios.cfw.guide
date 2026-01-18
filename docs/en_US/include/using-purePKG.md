@@ -48,7 +48,7 @@ The repo should now be removed from purePKG.
 ## Installing Tweaks
 
 1. Open the purePKG application
-1. Navigate to "Installed" on the bar at the top
+1. Navigate to "Search" on the bar at the top
 1. Tap on a tweak you'd like to install
 1. Tap the "install" button next to the tweak name
 1. Navigate to "Queued" on the bar at the top

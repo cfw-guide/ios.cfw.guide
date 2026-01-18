@@ -59,7 +59,8 @@ Your device should now be unjailbroken and boot into a stock environment.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+The Apple TV HD has an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+:
 
 1. In the terminal window, press `Control` + `C` on your keyboard.
 1. Rerun the command that you just ran.
@@ -117,7 +118,8 @@ Your device should now be unjailbroken and boot into a stock environment.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+The Apple TV HD has an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+:
 
 1. In the terminal window, press `Control` + `C` on your keyboard.
 1. Rerun the command that you just ran.
@@ -161,7 +163,8 @@ Your device should now be unjailbroken and boot into a stock environment.
 
 ::: tip
 
-A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+The Apple TV HD has an issue where they will get stuck midway through this process in pongoOS. To work around this, you'll need to do the following:
+:
 
 1. In the terminal window, press `Control` + `C` on your keyboard.
 1. Rerun the command that you just ran.

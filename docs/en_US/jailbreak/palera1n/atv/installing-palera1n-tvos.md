@@ -1,16 +1,18 @@
 ---
 lang: en_US
-title: Installing palera1n (tvOS)
-description: Guide to installing palera1n on tvOS
-permalink: /installing-palera1n-tvos
+title: Installing palera1n (Apple TV)
+description: Guide to installing palera1n on Apple TV
+permalink: /installing-palera1n-atv
 pkgman: purePKG
 redirect_from:
   - /installing-paleraintv
   - /palera1n-tvos
-  - /palerain-tvos
-  - /installing-palera1n-tvos/linux
-  - /installing-palera1n-tvos/macos
-  - /installing-palera1n-tvos/windows
+  - /palera1n-atv
+  - /palerain-atv
+  - /installing-palera1n-atv/linux
+  - /installing-palera1n-atv/macos
+  - /installing-palera1n-atv/windows
+  - /installing-palera1n-atv
   - /installing-palera1n-tvos
 ---
 
@@ -27,12 +29,12 @@ The steps to use palera1n are notably different depending on your tvOS version, 
 
 ::: tip
 
-If you are running tvOS 18.2 - 26.0.1, continue to <router-link to="/installing-palera1n-tvos-18.2">Installing palera1n (tvOS, 18.2+)</router-link>
+If you are running tvOS 18.2 - 26.0.1, continue to <router-link to="/installing-palera1n-atv-18.2">Installing palera1n for Apple TV (18.2+)</router-link>
 
 :::
 
 ::: tip 
 
-If you are running tvOS 15.0 - 18.1, continue to <router-link to="/installing-palera1n-tvos-18.1">Installing palera1n (tvOS, 15.0 - 18.1)</router-link>
+If you are running tvOS 15.0 - 18.1, continue to <router-link to="/installing-palera1n-atv-15.0">Installing palera1n for Apple TV (15.0-18.1)</router-link>
 
 :::
