@@ -11,7 +11,7 @@ extra_contributors:
   - TheHacker894
 ---
 
-Carbon is a semi-untethered WebKit-based jailbreak capable of jailbreaking every 64-bit iOS device on firmware versions 8.0 to 9.3.6.
+Carbon is a semi-untethered WebKit-based jailbreak capable of jailbreaking every 32-bit iOS device on firmware versions 8.0 to 9.3.6.
 
 Note that the Carbon jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
