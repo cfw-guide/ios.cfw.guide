@@ -91,7 +91,7 @@ Once TrollInstallerX is successfully installed, a computer is no longer required
 ### Trusting the application
 
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
-    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management` or `VPN & Device Management`
 1. Tap `Trust "<Your Apple Account>"`
 
 The TrollInstallerX application can now be opened from home screen.
@@ -191,7 +191,7 @@ Once TrollInstallerMDC is successfully installed, a computer is no longer requir
 ### Trusting the application
 
 1. Go to `Settings` -> `General` -> `Device Management` -> `<Your Apple Account>`
-    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management`
+    - Depending on your usage, `Device Management` may be labeled `Profiles and Device Management` or `VPN & Device Management`
 1. Tap `Trust "<Your Apple Account>"`
 
 The TrollInstallerMDC application can now be opened from home screen.
@@ -274,7 +274,8 @@ While you are now jailbroken at this point, we need to both update and install s
 1. Tap "Get"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
-1. Once finished, tap `Restart SpringBoard Later`
+1. Once finished, tap `Reboot Device`
+1. After the device has rebooted, open the Sileo app again
 1. Go to the "Search" tab
 1. Search for `PreferenceLoader`
 1. Tap on `PreferenceLoader`
