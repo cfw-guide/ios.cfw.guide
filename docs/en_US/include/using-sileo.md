@@ -43,7 +43,6 @@ The repo should now be removed from Sileo.
 1. Tap on the bar and press "Confirm"
     - It may take some time for the tweak to install
 1. After it's finished, tap "<router-link to="/faq/#what-is-respringing">Respring</router-link>"
-    - The device should appear to reboot after this
     - Sometimes, the button might not say to respring, but you can tap the button anyway
 
 The tweak should now be installed to your device and will be active whenever your device is jailbroken.
@@ -56,9 +55,8 @@ The tweak should now be installed to your device and will be active whenever you
 1. Tap "Remove"
     - A bar labeled "Queued" should appear at the bottom of your screen
 1. Tap on the bar and press "Confirm"
-    - It may take some time for the tweak to install
+    - It may take some time for the tweak to uninstall
 1. After it's finished, tap "<router-link to="/faq/#what-is-respringing">Respring</router-link>"
-    - The device should appear to reboot after this
     - Sometimes, the button might not say to respring, but you can tap the button anyway
     
 After respringing, the tweak should now be uninstalled.
