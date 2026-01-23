@@ -22,9 +22,7 @@ kok3shi9 is capable of jailbreaking 64-bit devices on 9.2 to 9.3.5.
 
 ::: warning
 
-If you are using a 32-bit device, you should instead follow:
-   - <router-link to="/using-carbon">Using Carbon</router-link> if you are on 9.3.5 or 9.3.6
-   - <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link> if you are on 9.1 to 9.3.4
+If you are using a 32-bit device, you should instead follow <router-link to="/using-carbon">Using Carbon</router-link>.
 
 :::
 

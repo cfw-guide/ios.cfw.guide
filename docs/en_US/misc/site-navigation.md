@@ -27,7 +27,6 @@ sidebar: false
 -   <router-link to="/installing-socket">Installing Socket</router-link>
 -   <router-link to="/using-carbon">Using Carbon</router-link>
 -   <router-link to="/installing-kok3shi9">Installing kok3shi9</router-link>
--   <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link>
 -   <router-link to="/installing-pangu9">Installing Pangu9</router-link>
 -   <router-link to="/installing-wtfis">Installing wtfis</router-link>
 -   <router-link to="/installing-pangu7">Installing Pangu7</router-link>
@@ -72,6 +71,7 @@ sidebar: false
 -   <router-link to="/installing-phoenix">Installing Phœnix</router-link>
 -   <router-link to="/installing-p0laris">Installing p0laris</router-link>
 -   <router-link to="/installing-openpwnage">Installing openpwnage</router-link>
+-   <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link>
 -   <router-link to="/installing-homedepot">Installing HomeDepot</router-link>
 -   <router-link to="/installing-pangu933">Installing Pangu933</router-link>
 -   <router-link to="/installing-etasonjb">Installing EtasonJB</router-link>
