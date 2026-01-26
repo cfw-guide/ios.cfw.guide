@@ -15,7 +15,7 @@ extra_contributors:
 
 Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app or website to re-apply the exploit after a reboot.
 
-Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.7.
+Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.8.
 
 Due to how semi-untethered jailbreaks work, if you are using an A11 or newer device, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
@@ -46,7 +46,7 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
-    - A7 or A8(X) devices running either 12.3.x or 12.4.1 to 12.5.7 are recommended to use [Chimera patched with chimera_patch](https://jailbreaks.app/cdn/ipas/ChimeraPatch-resigned.ipa) for improved success rates. 
+    - A7 or A8(X) devices running either 12.3.x or 12.4.1 to 12.5.8 are recommended to use [Chimera patched with chimera_patch](https://jailbreaks.app/cdn/ipas/ChimeraPatch-resigned.ipa) for improved success rates. 
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
