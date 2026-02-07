@@ -20,7 +20,7 @@ In order to follow this method, you'll need a device running iOS versions 14.0 t
 
 :::
 
-While unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3 (excluding iOS 12.5.6/12.5.7) and A12/A13 iPhones on 14.6 to 14.8, this method of obtaining unc0ver requires a device running iOS versions 14.0 to 14.3 or 14.6 to 14.8.
+While unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3 (excluding iOS 12.5.6-12.5.8) and A12/A13 iPhones on 14.6 to 14.8, this method of obtaining unc0ver requires a device running iOS versions 14.0 to 14.3 or 14.6 to 14.8.
 
 ::: warning
 
