@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing palera1n for Apple TV (18.2+)
 description:  Guide to installing palera1n for Apple TV on tvOS versions 18.2-26.0.1
-permalink: /installing-palera1n-atv-18.2
+permalink: /installing-palera1n-atv-18-2
 pkgman: purePKG
 redirect_from:
   - /installing-palera1n-atv18
