@@ -1,4 +1,5 @@
 ## Required Reading
+
 ::: tip
 
 This page is optional, but helpful if you are unfamiliar with jailbreaking.
