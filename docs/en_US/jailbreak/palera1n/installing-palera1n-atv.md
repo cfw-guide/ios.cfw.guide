@@ -29,12 +29,12 @@ The steps to use palera1n are notably different depending on your tvOS version, 
 
 ::: tip
 
-If you are running tvOS 18.2 - 26.0.1, continue to <router-link to="/installing-palera1n-atv-18.2">Installing palera1n for Apple TV (18.2+)</router-link>
+If you are running tvOS 18.2 - 26.0.1, continue to <router-link to="/installing-palera1n-atv-18-2">Installing palera1n for Apple TV (18.2+)</router-link>
 
 :::
 
 ::: tip 
 
-If you are running tvOS 15.0 - 18.1, continue to <router-link to="/installing-palera1n-atv-15.0">Installing palera1n for Apple TV (15.0-18.1)</router-link>
+If you are running tvOS 15.0 - 18.1, continue to <router-link to="/installing-palera1n-atv-15-0">Installing palera1n for Apple TV (15.0-18.1)</router-link>
 
 :::
