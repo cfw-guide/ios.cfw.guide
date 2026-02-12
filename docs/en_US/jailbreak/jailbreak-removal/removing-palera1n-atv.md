@@ -1,19 +1,17 @@
 ---
 lang: en_US
 title: Removing palera1n (Apple TV)
-description: Guide to removing palera1n (Apple TV)
+description: Guide to removing palera1n on the Apple TV
 permalink: /removing-palera1n-tv
 ---
 
 If you want to remove palera1n, you can use the commands below on a PC/Mac while your device is connected. To remove the jailbreak, you **do not have to restore your device**.
 
-
 ::: tip
 
-This guide assumes you are using a computer that already has palera1n installed. You can use the same computer you used before to install palera1n on your device. If you are using a different computer that does not have palera1n installed, follow the <router-link to="/installing-palera1n-tvos-18.2">Installing palera1n (tvOS)</router-link> guide to download palera1n, then return to this page when you reach the "Running palera1n" section (but do not follow the steps in that section).
+This guide assumes you are using a computer that already has palera1n installed. You can use the same computer you used before to install palera1n on your device. If you are using a different computer that does not have palera1n installed, follow the <router-link to="/installing-palera1n-atv">Installing palera1n (Apple TV)</router-link> guide to download palera1n, then return to this page when you reach the "Running palera1n" section (but do not follow the steps in that section).
 
 :::
-
 
 ## Requirements
 
@@ -73,7 +71,6 @@ The Apple TV HD has an issue where they will get stuck midway through this proce
 
 :::: tab name="Linux"
 
-
 ::: danger
 
 If you are trying to use Virtual Machine software from Windows (e.g., VirtualBox, VMWare, Windows Subsystem for Linux, etc.), you will not succeed with this guide.
@@ -93,7 +90,6 @@ If you are using an Ubuntu-based Linux distribution and run into issues, it's re
 If you are using a computer with an AMD Ryzen CPU, you will likely run into issues. If you do, you should use a Mac or a computer with an Intel CPU to follow this guide.
 
 :::
-
 
 ::: details Apple TV 4K instructions
 
@@ -137,7 +133,7 @@ The Apple TV HD has an issue where they will get stuck midway through this proce
 
 ::: tip
 
-If you no longer have your palen1x USB drive, you can prepare another one by following the steps on <router-link :to="{ path: '/installing-palera1n-tvos-18.2', query: { tab: 'palen1x-(windows)' }, hash: '#tab-palen1x-(windows)' }">Installing palera1n (tvOS, palen1x)</router-link> up to, but not including, the "Running palera1n" section.
+If you no longer have your palen1x USB drive, you can prepare another one by following the steps on <router-link :to="{ path: '/installing-palera1n-atv-18-2', query: { tab: 'palen1x-(windows)' }, hash: '#tab-palen1x-(windows)' }">Installing palera1n (tvOS, palen1x)</router-link> up to, but not including, the "Running palera1n" section.
 
 :::
 
