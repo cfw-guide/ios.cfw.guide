@@ -17,11 +17,17 @@ extra_contributors:
 
 unc0ver is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-This tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3 (excluding iOS 12.5.6/12.5.7) and A12/A13 iPhones on 14.6 to 14.8, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
+This tool is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3 (excluding iOS 12.5.6-12.5.8) and A12/A13 iPhones on 14.6 to 14.8, however, for our purposes, it will be used to jailbreak devices in which no easier option is available.
 
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 We will use Sideloadly to install the unc0ver jailbreak application to your iOS device for use in the next step.
+
+::: danger
+
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
 
 ::: tip
 

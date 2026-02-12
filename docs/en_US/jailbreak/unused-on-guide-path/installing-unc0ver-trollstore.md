@@ -20,7 +20,7 @@ In order to follow this method, you'll need a device running iOS versions 14.0 t
 
 :::
 
-While unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3 (excluding iOS 12.5.6/12.5.7) and A12/A13 iPhones on 14.6 to 14.8, this method of obtaining unc0ver requires a device running iOS versions 14.0 to 14.3 or 14.6 to 14.8.
+While unc0ver is capable of jailbreaking nearly every iOS device on firmware version 11.0 up to 14.3 (excluding iOS 12.5.6-12.5.8) and A12/A13 iPhones on 14.6 to 14.8, this method of obtaining unc0ver requires a device running iOS versions 14.0 to 14.3 or 14.6 to 14.8.
 
 ::: warning
 
@@ -85,18 +85,20 @@ The TrollStore application will now install to your iOS device.
 TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX/releases/latest/download/TrollInstallerX.ipa)
 
 ### Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the TrollInstallerX `.ipa` file into Sideloadly
-1. Enter in your Apple Account
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the TrollInstallerX `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 

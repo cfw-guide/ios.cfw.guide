@@ -18,25 +18,35 @@ Note that the Socket jailbreak is not “persistent” (meaning it does not rema
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the Socket jailbreak application to your device every 7 days from your computer.
 
-We will use Sideloadly to install the application to your device.
+We will use PlumeImpactor to install the application to your device.
 
 ## Downloads
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
 Socket is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
-- The latest version of [Socket](https://socket-jb.app)
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of LukeZGD's fork of [Socket](https://github.com/LukeZGD/socket/releases)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
+
+::: warning
+
+The unofficial fork of Socket is recommended, as the latest official version of Socket ships with an older version of Zebra, which - due to various changes surrounding the implementation of rootless for iOS 15 and later - is rather annoying to use or update in recent years.
+
+If you are not comfortable using an unofficial fork, you can use the latest official version of [Socket](https://socket-jb.app) instead.
+
+:::
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Socket `.ipa` file into Sideloadly
-1. Enter in your Apple Account
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the Socket `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 

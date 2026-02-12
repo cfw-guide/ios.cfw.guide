@@ -1,30 +1,33 @@
 ---
 lang: en_US
-title: Installing TrollStore (Misaka) (tvOS)
-description: Guide to installing TrollStore via Misaka on an Apple TV
-permalink: /installing-trollhelper-misaka-tvos
+title: Installing TrollStore (Misaka)
+description: Guide to installing TrollStore via Misaka
+permalink: /installing-trollstore-misaka
 sidebar: false
 redirect_from:
 extra_contributors:
   - opa334
+  - Alriceee
 ---
 
 ## Requirements
 
-- An Apple TV running tvOS 15.0 to 16.6
-- The latest version of [Sideloadly](https://sideloadly.io/)
-- The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
+- A device running iOS/iPadOS 16.0 to 16.6.1
+- The Tips app installed to your device
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
+- The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Misaka](https://github.com/straight-tamago/misaka/releases/latest)
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Misaka `.ipa` file into Sideloadly
-1. Enter in your Apple ID
-1. Enter in your password
-    - Sideloadly must make a request to it's servers in order to work with free developer accounts. If you are not OK with this, you may use an alternate Apple ID.
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the Misaka `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 
@@ -65,3 +68,9 @@ Your device will respring after you tap `Tips`.
 1. Tap `Install TrollStore`
 
 Your device should respring, and TrollStore should now be installed.
+
+## Installing Persistence Helper
+
+1. Open the `TrollStore` app on your home screen
+1. Press `Settings`, then press `Install Persistence Helper`
+1. Select `Tips` from the list of apps

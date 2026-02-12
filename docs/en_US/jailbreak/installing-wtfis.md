@@ -24,6 +24,9 @@ wtfis is currently **in beta**, if you are not comfortable with using beta softw
 :::
 
 ## Downloads
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+wtfis is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
 
 - The latest version of [wtfis](https://github.com/TheRealClarity/wtfis/releases/latest)
 - The latest version of [Sideloadly](https://sideloadly.io/)

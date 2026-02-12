@@ -15,11 +15,17 @@ extra_contributors:
 
 Chimera is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app or website to re-apply the exploit after a reboot.
 
-Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.7.
+Chimera is capable of jailbreaking all devices on iOS 12.0 to 12.1.2 and A7 to A11 devices on iOS 12.0 to 12.5.8.
 
 Due to how semi-untethered jailbreaks work, if you are using an A11 or newer device, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
-We will use Sideloadly to install the Chimera jailbreak application to your iOS device for use in the next step.
+We will use PlumeImpactor to install the Chimera jailbreak application to your iOS device for use in the next step.
+
+::: danger
+
+If you are using iOS 12.0 or 12.0.1, **do not continue to follow this guide**. Instead, join the [r/jailbreak Discord](https://discord.gg/jb), and ping the `Geniuses` role with your device/iOS version.
+
+:::
 
 ::: warning
 
@@ -40,8 +46,8 @@ Chimera is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest release of [Chimera](https://chimera.coolstar.org/)
-    - A7 or A8(X) devices running either 12.3.x or 12.4.1 to 12.5.7 are recommended to use [Chimera patched with chimera_patch](https://jailbreaks.app/cdn/ipas/ChimeraPatch-resigned.ipa) for improved success rates. 
-- The latest version of [Sideloadly](https://sideloadly.io/)
+    - A7 or A8(X) devices running either 12.3.x or 12.4.1 to 12.5.8 are recommended to use [Chimera patched with chimera_patch](https://jailbreaks.app/cdn/ipas/ChimeraPatch-resigned.ipa) for improved success rates. 
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 ::: danger
@@ -52,16 +58,16 @@ The unofficial build is **completely unnecessary** on newer (A9 and later) devic
 
 :::
 
-![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
-
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Chimera `.ipa` file into Sideloadly
-1. Enter in your Apple Account
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the Chimera `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 
@@ -72,7 +78,6 @@ The app will now install to your iOS device.
 1. Tap `Trust "<Your Apple Account>"`
 
 The Chimera application can now be opened from home screen.
-
 
 ## Running Chimera
 

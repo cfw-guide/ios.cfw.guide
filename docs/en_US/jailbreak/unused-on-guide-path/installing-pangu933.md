@@ -19,24 +19,24 @@ Pangu933 is capable of jailbreaking every 64bit iOS device on firmware version 9
 
 Note that the Pangu933 jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot, which luckily does not require the application to be installed. You will be instructed on how to do this.
 
-We will use the Sideloadly tool to install the Pangu933 jailbreak application to your iOS device for use in the next step.
+We will use the PlumeImpactor tool to install the Pangu933 jailbreak application to your iOS device for use in the next step.
 
 ## Downloads
 
 - The latest version of [Pangu933](https://web.archive.org/web/20170214021020/http://dl.pangu.25pp.com/jb/NvwaStone_1.1.ipa) _(archive.org)_
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
-
-![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the Pangu9 `.ipa` file into Sideloadly
-1. Enter in your Apple Account
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the pangu933 `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 

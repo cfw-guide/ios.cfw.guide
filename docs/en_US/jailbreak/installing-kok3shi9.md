@@ -22,28 +22,26 @@ kok3shi9 is capable of jailbreaking 64-bit devices on 9.2 to 9.3.5.
 
 ::: warning
 
-If you are using a 32-bit device, you should instead follow:
-   - <router-link to="/installing-everpwnage">Installing EverPwnage</router-link> if you are on 9.3.5 or 9.3.6
-   - <router-link to="/using-jailbreakme-4-0">Using JailbreakMe 4.0</router-link> if you are on 9.1 to 9.3.4
+If you are using a 32-bit device, you should instead follow <router-link to="/using-carbon">Using Carbon</router-link>.
 
 :::
 
 ## Downloads
 
 - The latest version of [kok3shi9](https://web.archive.org/web/20250831054016/https://kok3shidoll.github.io/download/kokeshi/v5/kok3shi9_v5.0.3.ipa) from archive.org
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
-
-![A screenshot of the Sideloadly application (Windows)](/assets/images/sideloadly_win.png)
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the kok3shi9 `.ipa` file into Sideloadly
-1. Enter in your Apple Account
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the kok3shi9 `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 

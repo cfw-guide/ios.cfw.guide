@@ -14,18 +14,20 @@ extra_contributors:
 
 - A device running iOS/iPadOS 15.0 to 15.7.1 or 16.0 to 16.1.2
 - The Tips app installed to your device
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollInstallerMDC](https://dhinakg.github.io/apps.html)
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the TrollInstallerMDC `.ipa` file into Sideloadly
-1. Enter in your Apple ID
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the TrollInstallerMDC `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 

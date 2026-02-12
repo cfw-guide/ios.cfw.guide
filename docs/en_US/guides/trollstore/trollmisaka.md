@@ -14,31 +14,33 @@ extra_contributors:
 
 This method is extremely unreliable, and should be avoided in most cases.
 
-If you **are not** using an A8(X) iPad on 15.7.2 to 15.8.4, you should check the <router-link to="/installing-trollstore">Installing TrollStore</router-link> chart for a better option.
+If you **are not** using an A8(X) iPad on 15.7.2 to 15.8.6, you should check the <router-link to="/installing-trollstore">Installing TrollStore</router-link> chart for a better option.
 
-If you **are** using an A8(X) iPad on 15.7.2 to 15.8.4, you can either:
+If you **are** using an A8(X) iPad on 15.7.2 to 15.8.6, you can either:
 - Follow <router-link to="/installing-trollstore-trollrestore">Installing TrollStore (TrollRestore)</router-link> (A computer is outright *required*, Find My must also be disabled)
-- Follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> (Recommended if your goal is to jailbreak to begin with)
+- Follow <router-link to="/installing-dopamine-plumeimpactor">Installing Dopamine (PlumeImpactor)</router-link> (Recommended if your goal is to jailbreak to begin with)
 - Continue to follow this guide (Only recommended if you don't want to disable Find My *and* do not want to jailbreak)
 
 :::
 
 ## Requirements
 
-- A device running iOS/iPadOS 14.0 to 15.8.4
+- A device running iOS/iPadOS 14.0 to 15.8.6
 - The Tips app installed to your device
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [TrollMisaka](https://github.com/straight-tamago/TrollMisaka/releases/latest)
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the TrollMisaka `.ipa` file into Sideloadly
-1. Enter in your Apple ID
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the TrollMisaka `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 

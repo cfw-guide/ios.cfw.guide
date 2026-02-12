@@ -21,12 +21,12 @@ Note that the h3lix jailbreak is not “persistent” (meaning it does not remai
 
 Due to how custom applications are installed to the device, in most cases you will need to reinstall the h3lix jailbreak application to your device every 7 days from your computer.
 
-We will use Sideloadly and a patcher script to install the application to your device.
+We will use PlumeImpactor and a patcher script to install the application to your device.
 
 ## Downloads
 
 - Version RC6 of [h3lix](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/UgV1HAJT) from the Legacy Jailbreak Archives
-- The latest version of [Sideloadly](https://sideloadly.io/)
+- The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 
 Additionally, you'll also need one of the following to patch the h3lix ipa, depending on your platform:
@@ -68,12 +68,14 @@ You now have a patched h3lix ipa that you can sign
 
 ## Installing the application
 
-1. Open Sideloadly
 1. Plug your iOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
-1. Drag and drop the h3lix `.ipa` file into Sideloadly
-1. Enter in your Apple Account
-1. Enter in your password
+1. Open PlumeImpactor
+1. Go to `Settings` -> `Sign In`
+1. Enter in your Apple Account and Password
+1. Close the Settings and Sign In windows
+1. Drag and drop the h3lix `.ipa` file into PlumeImpactor
+1. Click `Install`
 
 The app will now install to your iOS device.
 
