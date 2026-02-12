@@ -2,7 +2,7 @@
 lang: en_US
 title: Removing palera1n (Apple TV)
 description: Guide to removing palera1n on the Apple TV
-permalink: /removing-palera1n-tv
+permalink: /removing-palera1n-atv
 ---
 
 If you want to remove palera1n, you can use the commands below on a PC/Mac while your device is connected. To remove the jailbreak, you **do not have to restore your device**.
