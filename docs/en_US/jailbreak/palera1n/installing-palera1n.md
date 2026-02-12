@@ -40,6 +40,7 @@ If you are using Windows, you should follow <router-link to="/using-palen1x">Usi
 This guide cannot be followed for Apple TVs. If you wish to use palera1n on an Apple TV, please follow <router-link to="/installing-palera1n-atv">Installing palera1n (Apple TV)</router-link>
 
 :::
+
 ## Installing the jailbreak
 
 Please select your operating system:
