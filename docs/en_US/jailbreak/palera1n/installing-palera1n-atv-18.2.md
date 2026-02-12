@@ -21,17 +21,15 @@ extra_contributors:
 
 palera1n is a semi-tethered jailbreak compatible with the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 - 26.0.1.
 
-
 ::: warning
 
 If you are using an old, tethered version of palera1n, you'll need to <router-link to="/removing-palera1n-legacy">remove palera1n</router-link> before continuing.
 
 :::
 
-
 ::: danger
 
-You cannot use rootless for this guide and must jailbreak using rootful. If you installed rootless, please follow <router-link to="/removing-palera1n-tvos">Removing palera1n (tvOS)</router-link>.
+You cannot use rootless for this guide and must jailbreak using rootful. If you installed rootless, please follow <router-link to="/removing-palera1n-atv">Removing palera1n (Apple TV)</router-link>.
 
 :::
 
@@ -107,7 +105,6 @@ To rejailbreak your device, simply run the last command again and then repeat an
 
 :::: tab name="Linux"
 
-
 ::: danger
 
 If you are trying to use Virtual Machine software from Windows (e.g., VirtualBox, VMWare, Windows Subsystem for Linux, etc.), you will not succeed with this guide.
@@ -136,7 +133,6 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Run `sudo usbmuxd -f -p`.
 1. Open another terminal window.
 1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`.
-
 
 ### Running palera1n
 
@@ -207,7 +203,6 @@ palen1x is a live bootable Linux environment that allows you to quickly run pale
     - If you don't have a USB drive but have another form of supported removable bootable hardware (e.g., an SD card or DVD), you can use that instead.
 - The latest version of [palen1x](https://github.com/palera1n/palen1x/releases)
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)
-
 
 ### Installing Ventoy
 
