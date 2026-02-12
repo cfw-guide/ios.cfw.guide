@@ -2,7 +2,7 @@
 lang: en_US
 title: Installing palera1n for Apple TV (15.0-18.1)
 description: Guide to installing palera1n for Apple TV on tvOS versions 15.0-18.1
-permalink: /installing-palera1n-atv-15.0
+permalink: /installing-palera1n-atv-15-0
 pkgman: purePKG
 redirect_from:
   - /installing-palera1n-atv15
