@@ -47,6 +47,19 @@ If you are using a 32-bit device, it is recommended to follow <router-link to="/
 1. Your device will reboot after a short period, then you will need to unlock it
 1. Wait a little while and your device will reboot one more time
 
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
+
 ::::
 
 :::: tab name="Windows"
@@ -56,7 +69,6 @@ If you are using a 32-bit device, it is recommended to follow <router-link to="/
 You will bootloop if you jailbreak your device while in a dark space
 
 :::
-
 
 ### Downloads
 - Version 1.0-en of [Pangu](https://mega.nz/folder/k4FAXCIB#Fk7pxs6ikYzL3YBvAGX5ig/file/41UlRSyS) from the Legacy Jailbreak Archives
@@ -73,6 +85,19 @@ You will bootloop if you jailbreak your device while in a dark space
    - Tap Continue to trust the app and allow it to run
 1. Your device will reboot after a short period, then you will need to unlock it
 1. Wait a little while and your device will reboot one more time
+
+### Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories (including the repository required to update the untether) **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
 
 ### Fixing bootloops while booting in a dark space
 
@@ -93,4 +118,3 @@ You will bootloop if you jailbreak your device while in a dark space
 ----
 
 Once you see your lock screen, you will be jailbroken with a fixed untether package that will no longer cause bootloops while in the dark. You can now use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
-

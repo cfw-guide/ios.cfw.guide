@@ -16,7 +16,20 @@ extra_contributors:
 
 JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to 3.2.1.
 
-JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes, Finder (macOS Catalina and newer) or FutureRestore.
+JailbreakMe Star is an untethered jailbreak meaning that it survives a reboot and can cause a permanent bootloop if something goes wrong. If you encounter a bootloop, restore your device via iTunes or Finder (macOS Catalina and newer).
+
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Unsigned iOS Bundle`
+1. Tap `Install` -> `Install` -> `Install` -> Done
 
 ## Running JailbreakMe Star
 

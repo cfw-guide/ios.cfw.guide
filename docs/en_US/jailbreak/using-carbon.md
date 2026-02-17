@@ -15,10 +15,23 @@ Carbon is a WebKit-based jailbreak capable of jailbreaking every 32-bit iOS devi
 
 Note that the Carbon jailbreak is only untethered on firmware versions 8.0 to 9.3.4. If you're on firmware versions 9.3.5 or 9.3.6, you will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://carbon.sep.lol](http://carbon.sep.lol) website
+1. Tap `Install certs`
+1. Tap `Install` -> `Install` -> `Install` -> Done
+
 ## Running Carbon
 
 1. Open Safari on your iOS device
-1. Go to [http://carbon.sep.lol](http://carbon.sep.lol) website
+1. Go to the [http://carbon.sep.lol](http://carbon.sep.lol) website
 1. Press "Run"
    - If the device reboots or the page refreshes, and you don't end up in a jailbroken state, try again.
 

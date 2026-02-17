@@ -64,6 +64,19 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 
 :::
 
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
+
 ## Rejailbreaking
 
 As Pangu933 is a semi-untethered jailbreak, you won't remain jailbroken if your device reboots or powers off for any reason. Luckily, rather than needing to keep the Pangu933 app sideloaded, you can simply follow the below steps to rejailbreak your device.

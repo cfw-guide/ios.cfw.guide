@@ -36,8 +36,20 @@ You will need a Mac running macOS 10.14 Mojave or earlier in order to use pangu9
 1. Click Accept, then press ok for accessing Photo Library.
 1. Keep your device plugged in until the jailbreak hits 100% and your device reboots.
 
-
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
 
 ::: tip
 

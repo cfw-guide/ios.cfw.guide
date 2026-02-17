@@ -12,6 +12,19 @@ pkgman: cydia
 
 JailbreakMe 4.0, when paired with EverUntether, is capable of doing an untethered jailbreak on every 32-bit iOS device on firmware version 9.1 up to 9.3.4.
 
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
+
 ## Running JailbreakMe 4.0
 
 1. Open Safari on your iOS device

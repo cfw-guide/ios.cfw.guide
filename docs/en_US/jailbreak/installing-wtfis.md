@@ -24,6 +24,7 @@ wtfis is currently **in beta**, if you are not comfortable with using beta softw
 :::
 
 ## Downloads
+
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
 wtfis is currently signed at <a href="https://jailbreaks.app/legacy.html" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
@@ -60,3 +61,16 @@ The Pangu application can now be opened from home screen.
 1. Tap "Go"
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Unsigned iOS Bundle`
+1. Tap `Install` -> `Install` -> `Install` -> Done

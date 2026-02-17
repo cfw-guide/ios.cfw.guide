@@ -24,6 +24,19 @@ If you are using a 64-bit device, you should follow <router-link to="/installing
 
 :::
 
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
+
 ## Running Lyncis
 
 1. Open Safari on your iOS device

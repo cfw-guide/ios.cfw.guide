@@ -95,6 +95,19 @@ If your device crashes or restarts unexpectedly and the jailbreak isn't installe
 
 :::
 
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories (including the repository the untether in the next section is on) **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
+
 ## Untethering
 
 ::: danger

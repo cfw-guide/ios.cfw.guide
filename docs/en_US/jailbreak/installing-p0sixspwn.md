@@ -83,9 +83,9 @@ For Windows 10 and later, you will need to set compatibility mode for the p0sixs
 :::
 
 9. Run p0sixspwn
-10. Connect your iOS Device over to USB to your computer
+1. Connect your iOS Device over to USB to your computer
       - Make sure your computer is trusted and allowed to view the contents of your device
-11. Click `Jailbreak` on p0sixspwn
+1. Click `Jailbreak` on p0sixspwn
       - Jailbreaking may take a while, please be patient and do not let your computer go to sleep mode
 
 ::: tip
@@ -110,3 +110,16 @@ Be sure to use an MFI-certified 30-pin or lightning connector for highest chance
 :::
 
 You should now be jailbroken with Cydia installed on your home screen. You can use Cydia to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
+
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
