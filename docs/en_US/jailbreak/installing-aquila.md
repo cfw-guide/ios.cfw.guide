@@ -52,7 +52,7 @@ This does not apply to iOS 4.3 to 6.1.6.
 1. Plug your device into your computer
 1. Run Aquila to start the jailbreaking process:
     - **Windows**: Double-click `aquila_windows`
-    - **macOS**: Double-click `aquila_macOS`
+    - **macOS**: Double-click `aquila`
 
 Aquila will now begin to jailbreak your device.
 
