@@ -31,8 +31,8 @@ sidebar: false
 -   <router-link to="/installing-wtfis">Installing wtfis</router-link>
 -   <router-link to="/installing-pangu7">Installing Pangu7</router-link>
 -   <router-link to="/using-lyncis">Using Lyncis</router-link>
--   <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 -   <router-link to="/installing-aquila">Installing Aquila</router-link>
+-   <router-link to="/installing-evasi0n7">Installing evasi0n7</router-link>
 -   <router-link to="/installing-pwnagetool">Installing PwnageTool</router-link>
 -   <router-link to="/installing-limera1n">Installing limera1n</router-link>
 -   <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
