@@ -14,7 +14,7 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1.
+Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1.
 
 ::: danger
 
@@ -44,13 +44,13 @@ If you already have TrollStore installed, you will not need a computer for any o
 
 ::: danger
 
-If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.7.2 or later, you need to either follow <router-link to="/installing-dopamine-trollrestore">Installing Dopamine (TrollRestore)</router-link> or <router-link to="/installing-dopamine-plumeimpactor">Installing Dopamine (PlumeImpactor)</router-link> instead.
+If you do not already have TrollStore installed, and are using an A8(X) iPad on firmware version 15.7.2 to 15.8.6, you need to either follow <router-link to="/installing-dopamine-trollrestore">Installing Dopamine (TrollRestore)</router-link> or <router-link to="/installing-dopamine-plumeimpactor">Installing Dopamine (PlumeImpactor)</router-link> instead.
 
 :::
 
 ::::: tabs
 
-:::: tab name="TrollInstallerX (A9(X) and later 15.7 to 16.6.1 / A9(X) to A11 15.5 to 15.6.1)" :default="true"
+:::: tab name="TrollInstallerX (16.0 to 16.6.1 / A9(X) and later 15.7 to 15.8.6 / A9(X) to A11 15.5 to 15.6.1)" :default="true"
 
 ::: tip
 

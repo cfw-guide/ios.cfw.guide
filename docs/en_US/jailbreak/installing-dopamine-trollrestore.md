@@ -12,7 +12,7 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1. However, this guide only works on iOS 15.2 to 16.6.1
+Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1. However, this guide only works on iOS 15.2 to 15.8.6 and 16.0 to 16.6.1
 
 ::: danger
 
@@ -22,7 +22,7 @@ if you are currently using *rootful* palera1n, you need to first <router-link to
 
 ::: danger
 
-This guide should only be followed if you have an A8(X) iPad on 15.7.2 to 15.8.3 *or* you have run into issues with the normal guide.
+This guide should only be followed if you have an A8(X) iPad on 15.7.2 to 15.8.6 *or* you have run into issues with the normal guide.
 
 If you do not fit either of these groups, you should follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
 

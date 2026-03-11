@@ -17,7 +17,7 @@ A8(X) iPads are only supported on firmware versions 14.0 to 15.1.
 
 :::
 
-TrollInstallerX supports all iOS/iPadOS devices on firmware versions 14.0 to 15.1.1, A9(X) and later devices on firmware versions 15.2 to 16.6.1, and A10(X) devices on versions 17.0 **beta 1** to 17.0 **beta 4**.
+TrollInstallerX supports all iOS/iPadOS devices on firmware versions 14.0 to 15.1.1, A9(X) and later devices on firmware versions 15.2 to 15.8.6 and 16.0 to 16.6.1, and A10(X) devices on versions 17.0 **beta 1** to 17.0 **beta 4**.
 
 ## Requirements
 
