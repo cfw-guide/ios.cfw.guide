@@ -1,9 +1,10 @@
 ---
 lang: en_US
-title: Updating to 26.3
-permalink: /updating-to-26-3
+title: Updating to 26.3.1
+permalink: /updating-to-26-3-1
 redirect_from:
     - /updating-to-26-0
+    - /updating-to-26-3
 ---
 
 ## Required Reading
