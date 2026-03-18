@@ -10,19 +10,6 @@ extra_contributors:
   - Alriceee
 ---
 
-::: danger
-
-**IMPORTANT NOTICE**: iOS/iPadOS 15.8.7 have recently been released for devices that *did not* get iOS/iPadOS 16 or later, patching the kernel exploit that Dopamine used for earlier 15.x versions, due to its usage in a recently-publicized spyware chain.
-
-As a result, **Dopamine does not support iOS/iPadOS 15.8.7**. Depending on what you wish to do, you have a few options:
-   - **If you are already on iOS/iPadOS 15.8.6 or lower**: Continue to follow this guide to install TrollStore and jailbreak, then <router-link to="/saving-blobs/#saving-blobs-with-blobsaver">Save Blobs with blobsaver</router-link>, then <router-link to="/blocking-updates">Block OTA Updates</router-link>
-   - **If you are on iOS/iPadOS 15.8.7, and wish to downgrade**: Follow <router-link to="/restoring-to-15-8-6">Restoring to 15.8.6</router-link>, then return to this guide and follow the steps listed in the first portion here
-   - **If you are on iOS/iPadOS 15.8.7, and *do not* wish to downgrade**: You cannot continue to follow this guide, and should instead follow <router-link to="/installing-trollstore-trollrestore">Installing TrollStore (TrollRestore)</router-link> to install TrollStore, and then follow <router-link to="/installing-palera1n">Installing palera1n</router-link> to jailbreak
-
-*Note: Most of these steps above will require some access to a computer (especially if you are already on iOS/iPadOS 15.8.7).*
-
-:::
-
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
 Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1. However, this guide only works on iOS 15.2 to 15.8.6 and 16.0 to 16.6.1
