@@ -24,7 +24,7 @@ if you are currently using *rootful* palera1n, you need to first <router-link to
 
 This guide should only be followed if you have an A8(X) iPad on 15.7.2 to 15.8.6 *or* you have run into issues with the normal guide.
 
-If you do not fit either of these groups, you should follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+If you do not fit either of these groups, you should follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
 
 :::
 

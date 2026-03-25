@@ -16,7 +16,7 @@ Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and ea
 
 ::: danger
 
-If your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+If your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
 
 :::
 

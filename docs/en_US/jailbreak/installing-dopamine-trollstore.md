@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing Dopamine
+title: Installing Dopamine (TrollStore)
 description: Guide to installing Dopamine using TrollStore
-permalink: /installing-dopamine
+permalink: /installing-dopamine-trollstore
 pkgman: sileo
 redirect_from:
   - /installing-fugu15max
