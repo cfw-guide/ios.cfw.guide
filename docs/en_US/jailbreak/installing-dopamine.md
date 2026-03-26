@@ -12,7 +12,7 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.7.15, and iPhones on iOS 15.8.7.
+Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.7.15, and iPhones/iPod Touches on iOS 15.8.7.
 
 If you are on iOS 16.7 or later, due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
@@ -145,7 +145,7 @@ There are no additional steps that can be completed on your current firmware ver
 
 ::::
 
-:::: tab name"iOS 15.0 to 16.6.1 / 16.7 RC (20H18)"
+:::: tab name="iOS 15.0 to 16.6.1 / 16.7 RC (20H18)"
 
 ### Installing TrollStore
 
