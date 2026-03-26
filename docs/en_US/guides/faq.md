@@ -117,7 +117,7 @@ While this can be easily figured out by checking <router-link to="/get-started">
 - **A9/A10 iPhones**: iOS 15.8.7 (via palera1n)
 - **A9(X) iPads**: iPadOS 16.7.15 (via palera1n)
 - **iPad 6th Generation**: iPadOS 17.7.10 (via palera1n)
-- **iPad 7th Generation**: iPadOS 18.7.5 (via palera1n)
+- **iPad 7th Generation**: iPadOS 18.7.7 (via palera1n)
 - **A10X iPad Pros**: iPadOS 17.7.10 (via palera1n)
 - **A11 iPhones**: iOS 16.7.15 (via palera1n)
 - **A12-A14 iPhones**: iOS 16.5.1 (via Dopamine)
