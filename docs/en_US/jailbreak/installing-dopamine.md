@@ -1,8 +1,8 @@
 ---
 lang: en_US
-title: Installing Dopamine (PlumeImpactor)
+title: Installing Dopamine
 description: Guide to installing Dopamine using PlumeImpactor
-permalink: /installing-dopamine-plumeimpactor
+permalink: /installing-dopamine
 pkgman: sileo
 extra_contributors:
   - opa334
@@ -12,11 +12,21 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, and A11 and earlier devices on iOS 16.6 to 16.6.1.
+Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.7.15, and iPhones on iOS 15.8.7.
+
+If you are on iOS 16.7 or later, due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
+
+::: warning
+
+Support for 15.8.7, 16.7 RC (20H18), and 16.7 through 16.7.15 is only available **through a public beta**. You may run into issues on these versions that would not occur on versions supported in the latest release of Dopamine.
+
+:::
 
 ::: danger
 
 If your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
+
+Additionally, if you are using a device on iOS 15.0 to 16.6.1, as well as iOS 16.7 RC (20H18), it's highly encouraged to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
 
 :::
 
@@ -45,6 +55,7 @@ This section requires a computer.
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
+    - If you are on iOS 15.8.7, 16.7 RC (20H18), or 16.7 through 16.7.15, use the 2.5b1 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b1) instead
 
 ### Installing the application
 
@@ -75,7 +86,7 @@ The Dopamine application can now be opened from home screen.
 
 ::: danger
 
-If you're on iOS 16.0 to 16.6.1, you'll also need to enable Developer Mode.
+If you're on iOS 16.0 or later, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 
@@ -122,15 +133,27 @@ After doing all the above steps, you may need to reboot and rejailbreak in order
 
 :::
 
-## Installing TrollStore
+## Next Steps
+
+Depending on your current firmware version, there may be additional *recommended* steps that you are able to follow. Select the tab that fits your current firmware version, and - if applicable - follow the subsequent steps.
+
+::::: tabs
+
+:::: tab name="iOS 16.7 to 16.7.15" :default="true"
+
+There are no additional steps that can be completed on your current firmware version.
+
+::::
+
+:::: tab name"iOS 15.0 to 16.6.1 / 16.7 RC (20H18)"
+
+### Installing TrollStore
 
 ::: tip
 
 While Dopamine is now installed and setup, this next section - *while technically optional* - is **highly recommended**, since it'll allow you to install Dopamine and not have to worry about keeping it signed.
 
 :::
-
-### Installing TrollStore
 
 1. Open the Sileo app
 1. Go to the Search tab and search for `TrollStore Helper`
@@ -164,6 +187,7 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
+    - If you are on iOS 15.8.7 or 16.7 RC (20H18), use the 2.5b1 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b1) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
@@ -176,3 +200,7 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 1. Tap `Install`
 
 The Dopamine app will now be installed onto your device.
+
+::::
+
+:::::

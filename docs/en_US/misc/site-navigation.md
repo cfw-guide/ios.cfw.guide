@@ -7,6 +7,7 @@ sidebar: false
 
 ## Highlighted
 
+-   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link>
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
@@ -15,9 +16,8 @@ sidebar: false
 
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
+-   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link>
--   <router-link to="/installing-dopamine-trollrestore">Installing Dopamine (TrollRestore)</router-link>
--   <router-link to="/installing-dopamine-plumeimpactor">Installing Dopamine (PlumeImpactor)</router-link>
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
 -   <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
 -   <router-link to="/installing-odyssey">Installing Odyssey</router-link>
