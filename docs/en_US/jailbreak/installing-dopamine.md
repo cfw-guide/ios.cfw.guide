@@ -44,13 +44,17 @@ If you don't know what Bootstrap or Serotonin are, you can ignore this notice an
 
 :::
 
-## Downloads
-
 ::: tip
 
-This section requires a computer.
+Unless jailbreaks.app is signed, this guide requires a computer.
 
 :::
+
+## Downloads
+
+<div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
+Dopamine 2.5b1 is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+</p></div>
 
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
@@ -86,7 +90,7 @@ The Dopamine application can now be opened from home screen.
 
 ::: danger
 
-If you're on iOS 16.0 or later, you'll also need to enable Developer Mode.
+If you're on iOS 16.0 or later, and did not use jailbreaks.app to install Dopamine, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 
