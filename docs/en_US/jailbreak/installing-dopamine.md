@@ -59,7 +59,7 @@ Dopamine 2.5b1 is currently signed at <a href="https://jailbreaks.app/" target="
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7, 16.7 RC (20H18), or 16.7 through 16.7.15, use the 2.5b1 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b1) instead
+    - If you are on iOS 15.8.7, 16.7 RC (20H18), or 16.7 through 16.7.15, use the 2.5b2 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b2) instead
 
 ### Installing the application
 
@@ -191,7 +191,7 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7 or 16.7 RC (20H18), use the 2.5b1 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b1) instead
+    - If you are on iOS 15.8.7 or 16.7 RC (20H18), use the 2.5b2 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b2) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
