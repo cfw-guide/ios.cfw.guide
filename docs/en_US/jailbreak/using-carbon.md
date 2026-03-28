@@ -13,7 +13,7 @@ extra_contributors:
 
 Carbon is a WebKit-based jailbreak capable of jailbreaking every 32-bit iOS device on firmware versions 8.0 to 9.3.6.
 
-Note that the Carbon jailbreak is only initially untethered on firmware versions 8.0 to 9.3.4. If you're on firmware versions 9.3.5 or 9.3.6, you will need to install a separate package after jailbreaking in order to make it and untethered jailbreak. You will be instructed on how to do this.
+Note that the Carbon jailbreak is only initially untethered on firmware versions 8.0 to 9.3.4. If you're on firmware versions 9.3.5 or 9.3.6, you will need to install a separate package after jailbreaking in order to make it an untethered jailbreak. You will be instructed on how to do this.
 
 ## Running Carbon
 
