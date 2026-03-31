@@ -15,13 +15,13 @@ After jailbreaking, you may be wondering what a package manager is, and why it's
 
 ## What is a package manager?
 
-Package managers are APT frontends, or more simply, an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Different jailbreaks come bundled with different package managers by default, but the most popular is Cydia.
+Package managers are APT frontends, or more simply, an App Store for tweaks. They allow you to browse repositories (sometimes referred to as repos or sources) and download tweaks, apps, and other pieces of software for your jailbroken device. Different jailbreaks come bundled with different package managers by default, but the most popular is Sileo for newer devices.
 
 ### Sileo
 
 [Sileo](https://getsileo.app/) is a Package Manager maintained by [Amy](https://twitter.com/elihwyma) for iOS 11 and above. Sileo prides itself on its Swift-based design, fast performance, and general QOL improvements, such as proper iPad support.
 
-Sileo is installed by default on Electra, Chimera, Odyssey, Taurine, and Odysseyra1n. Sileo is also downloadable through checkra1n as well as unc0ver on iOS 12.0 and higher.
+Sileo is installed by default on Dopamine, Electra, Chimera, Odyssey, Taurine, Odysseyra1n, palera1n, and nathanlr. Sileo is also downloadable through checkra1n as well as unc0ver on iOS 12.0 and higher.
 
 URL: [`https://getsileo.app/`](https://getsileo.app/)
 
@@ -44,3 +44,11 @@ URL: [`https://apptapp.me/repo/`](https://apptapp.me/repo/)
 Zebra is a more recent package manager, providing support for iOS 9 and above. It is open source, and features a much more familar user interface for Cydia users compared to other package managers. 
 
 URL: [`https://getzbra.com/`](https://getzbra.com/)
+
+### purePKG
+
+purePKG is a newer, modern package manager developed by [Lrdsnow](https://twitter.com/Lrdsnow101) for all platforms. 
+
+It is primarily used on newer tvOS versions with palera1n due to no other proper package managers existing for rootless, but can be used in other environments too.
+
+URL:  [`https://lrdsnow.github.io/purepkg`](https://lrdsnow.github.io/purepkg)

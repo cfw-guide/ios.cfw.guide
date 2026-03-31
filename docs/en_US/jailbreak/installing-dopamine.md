@@ -53,7 +53,7 @@ Unless jailbreaks.app is signed, this guide requires a computer.
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-Dopamine 2.5b1 is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+Dopamine 2.5b2 is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
