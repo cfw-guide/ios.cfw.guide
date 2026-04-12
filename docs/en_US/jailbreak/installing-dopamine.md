@@ -122,7 +122,9 @@ While you are now jailbroken at this point, we need to both update and install s
 1. Tap "Get"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
-1. Once finished, tap `Restart SpringBoard Later`
+1. Once finished, tap `Reboot Device` (This is a userspace reboot, so no rejailbreak is required afterwards)
+1. Unlock device
+1. Open the Sileo app
 1. Go to the "Search" tab
 1. Search for `PreferenceLoader`
 1. Tap on `PreferenceLoader`
