@@ -26,7 +26,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ::: tip
 
-We are currently looking for translators for the guide, if you are interested in translating the guide, go to [Crowdin](https://crowdin.com/project/ioscfwguide)
+We are currently looking for translators for the guide. If you are interested in translating the guide, go to [Crowdin](https://crowdin.com/project/ioscfwguide).
 
 :::
 
@@ -44,7 +44,7 @@ You may want to check in your country whether it is legal there or not before pr
 
 ## What is a package manager?
 
-Package managers are used to install, uninstall and modify official and community-made software to customize your device. Sileo is an example of a package manager.
+Package managers are used to install, uninstall, and modify official and community-made software to customize your device. Sileo is an example of a package manager.
 
 They can be considered similar to the iOS App Store, where you can install both free and paid software.
 
@@ -69,7 +69,7 @@ Before following the steps of this guide, you must know the risks of jailbreakin
 
 - It is **strongly** recommended to backup your device to iCloud, iTunes, or Finder (on macOS Catalina or newer) in case of data loss
 - If no issues occur during installation, you will be jailbroken without any data loss
-- Keep the device plugged into to a power source or keep the battery fairly charged, so that any unexpected power off can be prevented
+- Keep the device plugged into a power source or keep the battery fairly charged, so that any unexpected power off can be prevented
 - Jailbreaking allows you to unlock your system but can lead to data loss if you damage the OS
 - You may be vulnerable to more malware and other security issues after jailbreaking compared to if you were in a non-jailbroken state
 - Your device warranty will become void after jailbreaking until it is restored to an un-jailbroken state, which is easy to do
