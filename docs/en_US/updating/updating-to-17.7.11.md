@@ -1,8 +1,9 @@
 ---
 lang: en_US
-title: Updating to 17.7.10
-permalink: /updating-to-17-7-10
+title: Updating to 17.7.11
+permalink: /updating-to-17-7-11
 redirect_from:
+    - /updating-to-17-7-10
     - /updating-to-17-7-5
     - /updating-to-17-7-1
     - /updating-to-17-7
@@ -20,9 +21,9 @@ redirect_from:
 
 ## Required Reading
 
-If you're on an unsupported firmware version, you can update to 17.7.10 and jailbreak with palera1n instead.
+If you're on an unsupported firmware version, you can update to 17.7.11 and jailbreak with palera1n instead.
 
-This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 17.7.10, we can easily update to the desired firmware version.
+This is achieved by simply updating through the Settings application normally. Because the latest version for these devices is 17.7.11, we can easily update to the desired firmware version.
 
 If you have installed update blocking via tvOS Beta profiles, you must first remove that profile before updating. If you don't know what this means, ignore this.
 
@@ -41,10 +42,10 @@ Only follow this if you've installed update blocking in the past.
     - If this is not there, you can skip to the next section of the guide
 1. Tap `Remove Downloaded Profile`
 
-## Updating to 17.7.10
+## Updating to 17.7.11
 
 1. Plug your device into power and connect to the Internet with Wi-Fi
 1. Open the Settings application
 1. Tap `General` -> `Software Update`
-    - Ensure that the version you are updating to is 17.7.10
+    - Ensure that the version you are updating to is 17.7.11
 1. Download and install the update
