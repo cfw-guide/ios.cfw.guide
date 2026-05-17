@@ -95,15 +95,6 @@ If you use a libhooker-based jailbreak, such as <router-link to="/installing-chi
 1. Open the Settings application
 1. Scroll down to `Choicy`
 1. Tap on `Applications`
-<<<<<<< Updated upstream
-1. Tap on an application that you selected with Liberty Lite
-1. Enable `Custom Tweak Configuration`
-	- For Snapchat, enable `Disable Tweak Injection` and skip the next steps
-1. Make sure `Whitelist` is selected
-1. Enable the bypass you're using - for Liberty Lite this would be `zzzzzLiberty`, or `!ABypass2` for A-Bypass.
-1. Repeat this for every app you've selected to use with your bypass tweak.
-
-=======
 1. Scroll down to or search for the application you wish to configure, and tap on it
 1. Tap on an application that you selected with another bypass, if you are using one
 	- Enable `Custom Tweak Configuration` if you are using Choicy alongside another bypass method.
