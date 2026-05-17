@@ -3,7 +3,6 @@ lang: en_US
 title: Installing palera1n (Apple TV)
 description: Guide to installing palera1n on Apple TV
 permalink: /installing-palera1n-atv
-pkgman: purePKG
 redirect_from:
   - /installing-paleraintv
   - /palera1n-tvos
