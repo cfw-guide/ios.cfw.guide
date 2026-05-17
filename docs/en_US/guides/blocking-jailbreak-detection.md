@@ -186,16 +186,11 @@ Liberty Lite cannot be used on rootless jailbreaks like <router-link to="/instal
 1. Enable all the apps you want to block jailbreak detection with
 
 
->>>>>>> Stashed changes
 ## libhooker configurator
 
 ::: danger
 
-<<<<<<< Updated upstream
-This only works on libhooker-based jailbreaks! If you use a Substrate or Substitute based jailbreak, such as checkra1n or unc0ver, then this *will not work*, and you should use [Choicy](#choicy) instead!
-=======
 This only works on libhooker-based jailbreaks! If you use Substrate, Substitute, or an Ellekit based jailbreak, such as checkra1n, unc0ver, Dopamine, palera1n, or nathanlr, then this *will not work*, and you should use [Choicy](#choicy) instead!
->>>>>>> Stashed changes
 
 :::
 
