@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Using JailbreakMe Star
-description: Guide to using JailbreakMe (Star)
+description: (NON-FUNCTIONAL) Guide to using JailbreakMe (Star)
 permalink: /using-jailbreakme-star
 redirect_from:
   - /installing-jailbreakme-star
@@ -13,6 +13,12 @@ pkgman: cydia
 extra_contributors:
   - WhitetailAni
 ---
+
+::: danger
+
+This jailbreak is **no longer functional**, due to the server hosting the contents of the JailbreakMe website no longer being online.
+
+:::
 
 JailbreakMe Star is capable of jailbreaking every device on iPhone OS 3.1.2 to 3.2.1.
 

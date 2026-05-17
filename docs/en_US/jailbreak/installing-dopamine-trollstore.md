@@ -14,17 +14,17 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.6.1, and A9(X) to A11 devices *except the 9.7" iPad Pro and iPad 5th Generation* on iOS 15.8.7 and 16.7 to 16.7.15.
+Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.6.1, and A9(X) to A11 devices *except the 9.7" iPad Pro, iPad 5th Generation, and iPad 6th Generation* on iOS 15.8.7 to 15.8.8 and 16.7 to 18.7.1.
 
 ::: warning
 
-Support for 15.8.7 and 16.7 RC (20H18) is only available **through a public beta**. You may run into issues on these versions that would not occur on versions supported in the latest release of Dopamine.
+Support for 15.8.7 through 15.8.8, 16.7 RC (20H18), and 17.0 is only available **through a public beta**. You may run into issues on these versions that would not occur on versions supported in the latest release of Dopamine.
 
 :::
 
 ::: danger
 
-This guide only works on devices running iOS 15.0 to 16.6.1, as well as iOS 16.7 RC (20H18). If you are on iOS 16.7 or later, you should follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+This guide only works on devices running iOS 15.0 to 16.6.1, as well as iOS 16.7 RC (20H18) and 17.0. If you are on iOS 16.7 through 16.7.16 or 17.0.1 through 18.7.1, you should follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
 
 :::
 
@@ -56,7 +56,7 @@ If you already have TrollStore installed, you will not need a computer for any o
 
 ::::: tabs
 
-:::: tab name="TrollRestore (15.8.7 / 16.7 RC (20H18) / A8(X) 15.7.2 to 15.8.6, macOS/Windows)" :default="true"
+:::: tab name="TrollRestore (15.8.7 to 15.8.8 / 16.7 RC (20H18) / 17.0 / A8(X) 15.7.2 to 15.8.6, macOS/Windows)" :default="true"
 
 ::: tip
 
@@ -128,7 +128,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ::::
 
-:::: tab name="TrollRestore (15.8.7 / 16.7 RC (20H18) / A8(X) 15.7.2 to 15.8.6, Linux)"
+:::: tab name="TrollRestore (15.8.7 to 15.8.i / 16.7 RC (20H18) / 17.0 / A8(X) 15.7.2 to 15.8.6, Linux)"
 
 ::: tip
 
@@ -383,7 +383,7 @@ Your device should respring, and TrollStore should now be installed.
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7 or 16.7 RC (20H18), use the 2.5b2 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b2) instead
+    - If you are on iOS 15.8.7 to 15.8.8, 16.7 RC (20H18), or 17.0, use the 2.5b3 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b3) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine

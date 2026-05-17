@@ -17,7 +17,7 @@ In order to use Aquila, you will need a computer with **64-bit** Windows or macO
 
 If you are using a 32-bit iOS device running iOS 7.1 to 7.1.2, you should follow <router-link to="/using-lyncis">Using Lyncis</router-link> instead.
 
-Additionally, if you are using an iPad 2 running iOS 4.3.3, or any other device running iOS 4.3 to 4.3.3, you should follow <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link> instead.
+<!-- Additionally, if you are using an iPad 2 running iOS 4.3.3, or any other device running iOS 4.3 to 4.3.3, you should follow <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link> instead. --->
 
 :::
 

@@ -38,8 +38,19 @@ If you use an Apple Watch, the DNS profile will *also* block watchOS updates on 
 1. Confirm by tapping "Install" again
     - Enter your passcode if you have one
 1. Tap "Install" for a third time
+1. Toggle WiFi and (if applicable) Cellular off
+1. Reboot your device
+1. Toggle WiFi and (if applicable) Cellular on again
 
 Your device should no longer receive software updates. You can confirm this by going to `Settings > General > Software Update`, and if it shows "Unable to Check for Update" even on a good internet connection, you are successfully blocking updates.
+
+::: warning
+
+If after doing all of the above steps, you are still seeing an update in the aforementioned page, repeat steps 9 and 10, but *do not* toggle WiFi/Cellular on again after rebooting. Check `Settings > General > Software Update` again, and see if an update is visible while not connected to the internet:
+   - If an update *is not* shown: Close Settings, re-enable WiFi/Cellular, then re-open Settings and check `Settings > General > Software Update` again
+   - If an update *is* shown: Make sure an update is not already downloaded. If an update is not already downloaded, then the aforementioned OTA is cached, and you should try setting the date forward a few days to clear this cache. After doing that, close Settings, re-enable WiFi/Cellular, then re-open Settings and check the `Settings > General > Software Update` page again
+
+:::
 
 ### Uninstalling the DNS Profile
 

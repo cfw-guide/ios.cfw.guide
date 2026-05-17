@@ -21,7 +21,7 @@ Zebra only supports iOS 9 or newer.
 
 ::: tip
 
-If you already have this repository added (e.g. you jailbroke with kok3shi9) you can skip this section.
+If you already have this repository added (e.g. you jailbroke with Carbon), you can skip this section.
 
 :::
 

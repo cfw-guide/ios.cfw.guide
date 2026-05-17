@@ -12,13 +12,13 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.6.1, and A9(X) to A11 devices *except the 9.7" iPad Pro and iPad 5th Generation* on iOS 15.8.7 and 16.7 to 16.7.15.
+Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.6.1, and A9(X) to A11 devices *except the 9.7" iPad Pro, iPad 5th Generation, and iPad 6th Generation* on iOS 15.8.7 to 15.8.8, and 16.7 to 18.7.1.
 
 If you are on iOS 16.7 or later, due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days.
 
 ::: warning
 
-Support for 15.8.7, 16.7 RC (20H18), and 16.7 through 16.7.15 is only available **through a public beta**. You may run into issues on these versions that would not occur on versions supported in the latest release of Dopamine.
+Support for 15.8.7 through 15.8.8, 16.7 RC (20H18), and 16.7 through 18.7.1 is only available **through a public beta**. You may run into issues on these versions that would not occur on versions supported in the latest release of Dopamine.
 
 :::
 
@@ -26,7 +26,7 @@ Support for 15.8.7, 16.7 RC (20H18), and 16.7 through 16.7.15 is only available 
 
 If your device is using the preinstalled version of iOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
 
-Additionally, if you are using a device on iOS 15.0 to 16.6.1, as well as iOS 16.7 RC (20H18), it's highly encouraged to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
+Additionally, if you are using a device on iOS 15.0 to 16.6.1, as well as iOS 16.7 RC (20H18) and 17.0, it's highly encouraged to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
 
 :::
 
@@ -53,13 +53,13 @@ Unless jailbreaks.app is signed, this guide requires a computer.
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
-Dopamine 2.5b2 is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
+Dopamine 2.5b3 is currently signed at <a href="https://jailbreaks.app/" target="_blank">jailbreaks.app</a> for easy installation without a computer.
 </p></div>
 
 - The latest version of [PlumeImpactor](https://github.com/khcrysalis/PlumeImpactor/releases/latest)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win64) if on Windows.
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7, 16.7 RC (20H18), or 16.7 through 16.7.15, use the 2.5b2 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b2) instead
+    - If you are on iOS 15.8.7 to 15.8.8, 16.7 RC (20H18), or 16.7 through 18.7.1, use the 2.5b3 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b3) instead
 
 ### Installing the application
 
@@ -143,13 +143,13 @@ Depending on your current firmware version, there may be additional *recommended
 
 ::::: tabs
 
-:::: tab name="iOS 16.7 to 16.7.15" :default="true"
+:::: tab name="iOS 16.7 to 16.7.16 / 17.0.1 to 18.7.1" :default="true"
 
 There are no additional steps that can be completed on your current firmware version.
 
 ::::
 
-:::: tab name="iOS 15.0 to 16.6.1 / 16.7 RC (20H18)"
+:::: tab name="iOS 15.0 to 16.6.1 / 16.7 RC (20H18) / 17.0"
 
 ### Installing TrollStore
 
@@ -191,7 +191,7 @@ TrollStore should now be accessible from the Home Screen. From there, we can use
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7 or 16.7 RC (20H18), use the 2.5b2 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b2) instead
+    - If you are on iOS 15.8.7 to 15.8.8, 16.7 RC (20H18), or 17.0, use the 2.5b3 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b3) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
