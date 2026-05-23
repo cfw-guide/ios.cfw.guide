@@ -128,7 +128,7 @@ Your device should respring, and TrollStore should now be installed.
 
 ::::
 
-:::: tab name="TrollRestore (15.8.7 to 15.8.i / 16.7 RC (20H18) / 17.0 / A8(X) 15.7.2 to 15.8.6, Linux)"
+:::: tab name="TrollRestore (15.8.7 to 15.8.8 / 16.7 RC (20H18) / 17.0 / A8(X) 15.7.2 to 15.8.6, Linux)"
 
 ::: tip
 
