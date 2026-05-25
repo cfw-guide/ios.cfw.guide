@@ -19,7 +19,7 @@ We do not recommend using banking apps on a jailbroken device. Use a separate se
 
 :::
 
-Many apps, which rely on security, will have algorithms to detect and block jailbroken users from using the app. This includes banking apps, some online videogames (e.g. Pokemon Go, Mario Kart Tour) and other privacy focused apps such as Snapchat.
+Many apps, which rely on security, will have algorithms to detect and block jailbroken users from using the app. This includes banking apps, some online video games (e.g. Pokemon Go, Mario Kart Tour) and other privacy-focused apps such as Snapchat.
 
 This is great from a security standpoint, as a jailbroken device is much more likely to become compromised compared to stock iOS. This can cause an issue, however, when some of us just want to use the apps we need to use.
 
@@ -56,28 +56,6 @@ There are other software available for hiding jailbreak, such as Shadow (<a href
 1. Search for and install the packages
 1. Respring when prompted
 
-## A-Bypass
-
-::: tip
-
-According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, and <router-link to="/installing-taurine">Taurine</router-link>. It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
-
-:::
-
-1. Open the Settings application
-2. Scroll down to `A-Bypass`
-3. Tap on `Check for Updates`
-	- If a new app doesn't work with A-Bypass, you should always try to go back and try to check for updates in the A-Bypass preferences again.
-4. Scroll down and enable any apps you wish to block jailbreak detection with.
-
-## Liberty Lite
-
-1. Open the Settings application
-1. Scroll down to `Liberty Lite`
-1. Enable `Enable Liberty`
-1. Tap on `Block Jailbreak Detection`
-1. Enable all the apps you want to block jailbreak detection with
-
 ## Choicy
 
 ::: tip
@@ -88,7 +66,7 @@ This is the best option for users wanting to use Snapchat on their jailbroken de
 
 ::: tip
 
-If you use a libhooker-based jailbreak, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, or <router-link to="/installing-taurine">Taurine</router-link>, then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
+If you use a libhooker-based jailbreak, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="/installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, or <router-link to="/installing-taurine">Taurine</router-link>, then [libhooker configurator](#libhooker-configurator) serves the same purpose as Choicy, while being natively integrated into libhooker.
 
 :::
 
@@ -100,14 +78,14 @@ If you use a libhooker-based jailbreak, such as <router-link to="/installing-chi
 	- Enable `Custom Tweak Configuration` if you are using Choicy alongside another bypass method.
 	- Make sure `Allow` is selected
 	- If you're using another bypass alongside, then enable the bypass you're using - for Liberty Lite this would be `zzzzzLiberty`, or `!ABypass2` for A-Bypass.
-1. If you are not using another bypass along side Choicy or using Snapchat, then toggle `Disable Tweak Injection` 
+1. If you are not using another bypass alongside Choicy or using Snapchat, then toggle `Disable Tweak Injection` 
 1. Repeat this for every app you've selected to use with your bypass tweak.
 
-## A-Bypass (Rootful Only)
+## A-Bypass
 
 ::: tip
 
-According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, and <router-link to="/installing-taurine">Taurine</router-link>. It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
+According to the tweak's author, A-Bypass works better on libhooker-based jailbreaks, such as <router-link to="/installing-chimera">Chimera</router-link>, <router-link to="/installing-odyssey">Odyssey</router-link>, <router-link to="/installing-odysseyra1n">odysseyra1n</router-link>, and <router-link to="/installing-taurine">Taurine</router-link>. It still works on Substrate/Substitute-based jailbreaks, such as checkra1n and unc0ver, however.
 
 :::
 
@@ -171,7 +149,7 @@ Some jailbreaks like <router-link to="/installing-dopamine-trollstore">Dopamine<
 
 :::
 
-## Liberty Lite (Rootful Only)
+## Liberty Lite
 
 ::: danger
 
@@ -232,22 +210,3 @@ KernBypass cannot be used on rootless jailbreaks like <router-link to="/installi
 1. Scroll down to `KernBypass`
 1. Tap `Enable KernBypass`
 1. Enable all the apps you want to block jailbreak detection with
-
-## vnodebypass
-
-::: tip
-
-vnodebypass is similar to KernBypass in regards to what it can bypass, but be aware that while it is active, you will lose access to your tweaks!
-
-:::
-
-::: danger
-
-vnodebypass is a kernel tweak. Do not install on unsupported devices, use it at your own risk.
-
-:::
-
-1. If you are on iOS 14, ensure that `libkrw` 1.1.0 or later is installed. It is available in the default Elucubratus repository, if you are using unc0ver or checkra1n.
-2. Open the `vnodebypass` app
-3. Tap the `Enable` button
-4. When done using the app with jailbreak detection, go back into the `vnodebypass` app and tap `Disable`
