@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           # choose node.js version to use
-          node-version: '16'
+          node-version: "24"
 
       # install dependencies if the cache did not hit
       - name: Install dependencies
