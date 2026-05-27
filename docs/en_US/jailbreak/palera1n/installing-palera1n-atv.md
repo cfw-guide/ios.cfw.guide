@@ -15,7 +15,7 @@ redirect_from:
   - /installing-palera1n-tvos
 ---
 
-palera1n is a semi-tethered jailbreak compatible with the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 - 26.0.1.
+palera1n is a semi-tethered jailbreak compatible with the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 and later.
 
 
 ::: warning
@@ -28,7 +28,7 @@ The steps to use palera1n are notably different depending on your tvOS version, 
 
 ::: tip
 
-If you are running tvOS 18.2 - 26.0.1, continue to <router-link to="/installing-palera1n-atv-18-2">Installing palera1n for Apple TV (18.2+)</router-link>
+If you are running tvOS 18.2 and later, continue to <router-link to="/installing-palera1n-atv-18-2">Installing palera1n for Apple TV (18.2+)</router-link>
 
 :::
 

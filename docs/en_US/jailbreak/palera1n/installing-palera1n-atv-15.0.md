@@ -17,7 +17,7 @@ extra_contributors:
   - Zenzeq
 ---
 
-palera1n is a semi-tethered jailbreak compatible with the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 - 26.0.1.
+palera1n is a semi-tethered jailbreak compatible with the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 and later.
 
 ::: warning
 

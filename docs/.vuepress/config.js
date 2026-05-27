@@ -10,6 +10,7 @@ module.exports = {
   
   theme: localTheme({
     repo: 'cfw-guide/ios.cfw.guide',
+    docsDir: 'docs',
     selectLanguageText: '<i class="fas fa-globe"></i>',
     logo: '/assets/images/logo.png',
     logoDark: '/assets/images/logo_dark.png',
