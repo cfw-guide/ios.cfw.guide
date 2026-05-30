@@ -179,7 +179,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
-palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 - 26.0.1.
+palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking the Apple TV HD (4th generation) and Apple TV 4K (1st generation) on tvOS versions 15.0 and newer.
 
 ### Additional Requirements
 
