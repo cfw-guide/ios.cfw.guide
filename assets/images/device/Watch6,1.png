@@ -1,0 +1,367 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>404: Not Found - IPSW Downloads</title>
+    <meta charset="utf-8">
+
+    
+        <link rel="stylesheet" type="text/css" href="https://ipsw.me/assets/css/app.css?cb=1635964545">
+    
+
+    <link rel="shortcut icon" href="https://ipsw.me/assets/images/favicon.ico?cb=1635964545">
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="googlebot" content="NOODP, nofollow">
+    <meta name="y_key" content="5a3f0dd1613f1141">
+    <meta name="apple-mobile-web-app-title" content="ipsw.me">
+    <meta name="theme-color" content="#007fff">
+
+    <meta name="description" content="Download current and previous versions of Apple's iOS Firmware and receive push notifications when new firmwares are released">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26022325-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-26022325-1');
+    </script>
+
+    <script type="text/javascript">
+        window.cookieconsent_options = {
+            "message": "we use cookies to ensure you get the best experience from our website.",
+            "dismiss": "ok, cool!",
+            "learnMore": "view more info",
+            "link": "/cookies",
+            "theme": "light-bottom"
+        };
+    </script>
+
+    
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-9421549393799412",
+                enable_page_level_ads: true
+            });
+        </script>
+    
+</head>
+
+<body>
+<div class="container-fluid">
+
+
+    <div class="flash-messages" id="flash-messages"></div>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-branding">
+            <a class="navbar-brand brand-logo" href="/"></a>
+
+            <a class="navbar-brand" href="/">
+                IPSW Downloads
+            </a>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
+            
+            
+                
+                    
+                        <li>
+                        <a href="/"><i class="fa fa-fw fa-home"></i> <span class="navigation-label">Home</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/device-finder"><i class="fa fa-fw fa-tablet"></i> <span class="navigation-label">Identify my iOS Device</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/otas"><i class="fa fa-fw fa-cloud-download"></i> <span class="navigation-label">OTA Firmwares</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/history"><i class="fa fa-fw fa-calendar-check-o"></i> <span class="navigation-label">Release History</span></a>
+                    </li>
+                
+            
+                
+                    <li class="dropdown-big-header">
+                        <span>Jailbreak</span>
+                    </li>
+                    
+                    
+                        <li>
+                        <a href="https://canijailbreak.com"><i class="fa fa-fw fa-unlock-alt"></i> <span class="navigation-label">Can I Jailbreak?</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/keys"><i class="fa fa-fw fa-key"></i> <span class="navigation-label">Firmware Keys</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/iPhoneDev"><i class="fa fa-fw fa-flask"></i> <span class="navigation-label">iPhone Dev Team Tools</span></a>
+                    </li>
+                
+            
+                
+                    <li class="dropdown-big-header">
+                        <span>My Account</span>
+                    </li>
+                    
+                    
+                        <li class="visible-logged-in">
+                        <a href="/user/settings"><i class="fa fa-fw fa-cog"></i> <span class="navigation-label">Settings</span></a>
+                    </li>
+                
+                        <li class="visible-logged-in">
+                        <a href="/user/logout"><i class="fa fa-fw fa-sign-out"></i> <span class="navigation-label">Sign Out</span></a>
+                    </li>
+                
+                        <li class="visible-logged-out">
+                        <a href="/user/signup"><i class="fa fa-fw fa-star"></i> <span class="navigation-label">Create an Account</span></a>
+                    </li>
+                
+                        <li class="visible-logged-out">
+                        <a href="/user/login"><i class="fa fa-fw fa-sign-in"></i> <span class="navigation-label">Sign In</span></a>
+                    </li>
+                
+            
+                
+                    <li class="dropdown-big-header">
+                        <span>Other</span>
+                    </li>
+                    
+                    
+                        <li>
+                        <a href="/notifications"><i class="fa fa-fw fa-bell-o"></i> <span class="navigation-label">Notifications</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/help"><i class="fa fa-fw fa-support"></i> <span class="navigation-label">Support</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="https://ipswdownloads.docs.apiary.io"><i class="fa fa-fw fa-wrench"></i> <span class="navigation-label">IPSW Downloads API</span></a>
+                    </li>
+                
+                        <li>
+                        <a href="/contact"><i class="fa fa-fw fa-envelope-o"></i> <span class="navigation-label">Contact</span></a>
+                    </li>
+                
+            
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="navbar-search">
+                <form class="navbar-form" role="search" type="GET" action="/search">
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            class="form-control input-sm"
+                            placeholder="search ipsw.me"
+                            name="q"
+                            id="q"
+                            autocomplete="off"
+                        >
+
+                        <div class="input-group-btn">
+                            <button class="btn btn-sm btn-default btn-nav-search" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </li>
+            <li class="search-link">
+                <a href="/search"><i class="fa fa-search"></i></a>
+            </li>
+
+            <li
+                class="dropdown hidden-xs"
+                id="account-info-navbar"
+            >
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+        
+        
+            
+            
+                <li>
+                    <a href="/"><i class="fa fa-fw fa-home"></i> <span class="navigation-label">Home</span></a>
+                </li>
+            
+                <li>
+                    <a href="/device-finder"><i class="fa fa-fw fa-tablet"></i> <span class="navigation-label">Identify my iOS Device</span></a>
+                </li>
+            
+                <li>
+                    <a href="/otas"><i class="fa fa-fw fa-cloud-download"></i> <span class="navigation-label">OTA Firmwares</span></a>
+                </li>
+            
+                <li>
+                    <a href="/history"><i class="fa fa-fw fa-calendar-check-o"></i> <span class="navigation-label">Release History</span></a>
+                </li>
+            
+        
+            
+                <li class="dropdown-big-header">
+                    <span>Jailbreak</span>
+                </li>
+            
+            
+                <li>
+                    <a href="https://canijailbreak.com"><i class="fa fa-fw fa-unlock-alt"></i> <span class="navigation-label">Can I Jailbreak?</span></a>
+                </li>
+            
+                <li>
+                    <a href="/keys"><i class="fa fa-fw fa-key"></i> <span class="navigation-label">Firmware Keys</span></a>
+                </li>
+            
+                <li>
+                    <a href="/iPhoneDev"><i class="fa fa-fw fa-flask"></i> <span class="navigation-label">iPhone Dev Team Tools</span></a>
+                </li>
+            
+        
+            
+                <li class="dropdown-big-header">
+                    <span>My Account</span>
+                </li>
+            
+            
+                <li class="visible-logged-in">
+                    <a href="/user/settings"><i class="fa fa-fw fa-cog"></i> <span class="navigation-label">Settings</span></a>
+                </li>
+            
+                <li class="visible-logged-in">
+                    <a href="/user/logout"><i class="fa fa-fw fa-sign-out"></i> <span class="navigation-label">Sign Out</span></a>
+                </li>
+            
+                <li class="visible-logged-out">
+                    <a href="/user/signup"><i class="fa fa-fw fa-star"></i> <span class="navigation-label">Create an Account</span></a>
+                </li>
+            
+                <li class="visible-logged-out">
+                    <a href="/user/login"><i class="fa fa-fw fa-sign-in"></i> <span class="navigation-label">Sign In</span></a>
+                </li>
+            
+        
+            
+                <li class="dropdown-big-header">
+                    <span>Other</span>
+                </li>
+            
+            
+                <li>
+                    <a href="/notifications"><i class="fa fa-fw fa-bell-o"></i> <span class="navigation-label">Notifications</span></a>
+                </li>
+            
+                <li>
+                    <a href="/help"><i class="fa fa-fw fa-support"></i> <span class="navigation-label">Support</span></a>
+                </li>
+            
+                <li>
+                    <a href="https://ipswdownloads.docs.apiary.io"><i class="fa fa-fw fa-wrench"></i> <span class="navigation-label">IPSW Downloads API</span></a>
+                </li>
+            
+                <li>
+                    <a href="/contact"><i class="fa fa-fw fa-envelope-o"></i> <span class="navigation-label">Contact</span></a>
+                </li>
+            
+        
+    </ul>
+</div>
+<div class="col-sm-9 col-md-10 col-sm-offset-3 col-md-offset-2 main">
+        
+<div class="text-center">
+    <div class="not-found-penguins">
+        <img src="https://ipsw.me/assets/images/brand/penguin.png?cb=1635964545" class="hidden-xs img img-responsive img-center">
+        <img src="https://ipsw.me/assets/images/brand/racer.png?cb=1635964545" class="img img-responsive img-center">
+        <img src="https://ipsw.me/assets/images/brand/glasses.png?cb=1635964545" class="hidden-xs img img-responsive img-center">
+    </div>
+
+    <h1 class="text-center"><strong>404</strong> Not Found</h1>
+
+    <p>
+        We're racing to try and find that content for you.<br>
+        In the meantime, why not try out some links below?
+    </p>
+
+    <ul class="nav nav-pills" style="display: inline-block;">
+        <li><a href="/"><i class="fa fa-home fa-fw"></i> Home</a></li>
+        <li><a href="/contact"><i class="fa fa-envelope-o fa-fw"></i> Contact</a></li>
+        <li><a href="/help"><i class="fa fa-support fa-fw"></i> Support</a></li>
+    </ul>
+</div>
+
+
+        <div class="clearfix"></div>
+
+        <footer>
+            <div class="description">
+                <small>
+                    All information on these pages is auto updated at least every minute.
+                    When you click on any Apple Software link on the site, you are redirected
+                    to an Apple server. We <strong>do not</strong> (and never will) mirror these files.
+                </small>
+
+                <br>
+
+                <small>
+                    <em>
+                        "Apple", "iOS", "iPhone", "iPad", "Apple Watch", "iPod Touch" and "iTunes"
+                    </em>
+                    are trademarks of Apple Inc.
+                </small>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li><a href="https://ipswdownloads.docs.apiary.io"><i class="fa fa-fw fa-code"></i> IPSW Downloads API</a></li>
+                    <li><a href="/thanks"><i class="fa fa-fw fa-smile-o"></i> Credits/Thanks</a></li>
+                    <li><a href="/privacypolicy"><i class="fa fa-fw fa-user-secret"></i> Privacy Policy</a></li>
+                    <li><a href="https://github.com/cj123"><i class="fa fa-fw fa-github"></i> GitHub</a></li>
+                    <li><a href="/donate"><i class="fa fa-fw fa-paypal"></i> Donate via PayPal</a></li>
+                    <li><a href="/timeline.rss"><i class="fa fa-fw fa-rss"></i> RSS Feed</a></li>
+                </ul>
+            </div>
+
+            <div class="branding">
+                <img src="https://ipsw.me/assets/images/brand/penguin.png?cb=1635964545" class="img img-responsive penguin">
+
+                <span>&copy; 2010-2021 <a href="https://justapengu.in">Just a Penguin</a></span>
+            </div>
+
+            <br><br>
+
+            <div class="build">
+                ipsw-downloads v5.4.10 (#6897)
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+    <script async type="text/javascript" src="https://ipsw.me/assets/js/frontend.js?cb=1635964545"></script>
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6babe6f5fcd4e62c","token":"9c4b62cec9574061b6d87a73818e923a","version":"2021.11.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
