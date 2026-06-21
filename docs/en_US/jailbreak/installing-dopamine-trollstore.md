@@ -383,7 +383,7 @@ Your device should respring, and TrollStore should now be installed.
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7 to 15.8.8, 16.7 RC (20H18), or 17.0, use the 2.5b3 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b3) instead
+    - If you are on iOS 15.8.7 to 15.8.8, 16.7 RC (20H18), or 17.0, use the 2.5b4 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b4) instead
     - Make sure to download the `.ipa` file onto your iOS device
 
 ### Installing Dopamine
