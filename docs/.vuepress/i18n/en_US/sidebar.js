@@ -33,7 +33,8 @@ const jailbreaking = {
   children: [
     '/installing-palera1n/',
     '/installing-dopamine/',
-    '/installing-chimera/',
+    '/installing-dopamine-trollstore/',
+    '/installing-amethyst/',
   ],
 }
 
