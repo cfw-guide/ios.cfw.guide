@@ -17,11 +17,17 @@ extra_contributors:
   - nebula
 ---
 
-palera1n is a jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 and later, with some caveats for A11 devices.
+palera1n is a jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 and later, with some caveats for A11 and A10 devices.
 
-On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
+On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay.
 
 Additionally, if your device is an A11 device on iOS 16 and you've set a passcode before, you will need to **erase all content and settings** in order to be able to jailbreak.
+
+::: warning A10 devices on iOS 16 and later
+
+On A10 and A10X devices (iPad 7th generation, iPhone 7, iPhone 7 Plus, iPad Pro 10.5-inch, iPad Pro 12.9-inch 2nd generation), you **must also disable your passcode** before jailbreaking on iOS 16 and later, including iPadOS 18. The passcode cannot be used while the jailbreak is active.
+
+:::
 
 ::: warning
 
@@ -73,6 +79,17 @@ If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/a
 1. Run `palera1n -l`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+
+::: tip DFU mode on iPad with Home button (iPad 7th gen, iPad 6th gen, iPad mini 5th gen, iPad Air 3rd gen)
+
+These iPads use a different DFU button combination than iPhones without a Home button:
+
+1. Hold the **Top (Power)** button
+2. Without releasing, also hold the **Home** button
+3. After 8 seconds, release the **Top** button but **keep holding Home**
+4. Hold **Home** for 5 more seconds — the screen will go black (DFU mode)
+
+:::
 
 ::: tip
 
@@ -131,6 +148,17 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
+::: tip DFU mode on iPad with Home button (iPad 7th gen, iPad 6th gen, iPad mini 5th gen, iPad Air 3rd gen)
+
+These iPads use a different DFU button combination than iPhones without a Home button:
+
+1. Hold the **Top (Power)** button
+2. Without releasing, also hold the **Home** button
+3. After 8 seconds, release the **Top** button but **keep holding Home**
+4. Hold **Home** for 5 more seconds — the screen will go black (DFU mode)
+
+:::
+
 ::: tip
 
 A9(X) and earlier devices have an issue where they will get stuck midway through this process in pongoOS. To work around this issue, you'll need to do the following:
@@ -146,7 +174,19 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::::::
 
-Once the device boots up, open the palera1n loader app and tap `Sileo`. After a bit of time, you'll be prompted to set a passcode for using command line stuff, and then afterwards,`Sileo` should be on your home screen.
+Once the device boots up, open the palera1n loader app and tap `Sileo`. After a bit of time, you'll be prompted to set a password for using command line stuff, and then afterwards, `Sileo` should be on your home screen.
+
+::: warning SSH password is not `alpine`
+
+palera1n 2.x asks you to set a custom Unix password during bootstrap setup. This password — **not** `alpine` — is what you'll use for SSH access. If you did not set a password during setup, open the palera1n loader app and look for the **"Set SSH Password"** option to configure it.
+
+:::
+
+::: warning Tweak injection is not enabled by default
+
+The base palera1n bootstrap does **not** include a tweak injection library. To enable tweaks, install **ElleKit** from Sileo after bootstrapping. Without it, tweaks installed via Sileo will have no effect.
+
+:::
 
 ::: tip
 
