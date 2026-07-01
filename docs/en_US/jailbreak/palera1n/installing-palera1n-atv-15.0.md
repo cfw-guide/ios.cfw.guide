@@ -71,7 +71,7 @@ Please select your operating system:
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -81,7 +81,7 @@ You'll need to do this every time you rejailbreak your device.
 1. Run `palera1n -f`.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -99,7 +99,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
@@ -138,7 +138,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -148,7 +148,7 @@ You'll need to do this every time you rejailbreak your device.
 1. Run `palera1n -f`.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -165,7 +165,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
@@ -224,7 +224,7 @@ palen1x is a live bootable Linux environment that allows you to quickly run pale
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -235,7 +235,7 @@ You'll need to do this every time you rejailbreak your device.
 1. Run `palera1n -f`.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -252,7 +252,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 

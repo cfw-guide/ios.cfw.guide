@@ -110,7 +110,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
@@ -189,11 +189,13 @@ The Apple TV HD has an issue where they will get stuck midway through this proce
 
 :::
 
+
+
 Once the device boots up, open the palera1n loader app and tap `Install`. After some time, you'll be prompted to set a passcode for using command-line tools, and then `purePKG` should be on your home screen.
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
@@ -290,7 +292,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 

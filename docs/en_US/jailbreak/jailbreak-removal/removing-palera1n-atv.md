@@ -51,7 +51,7 @@ Your device should now be unjailbroken and boot into a stock environment.
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run the correct command depending on your initial jailbreak type:
    - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
-   - For a **rootless** jailbreak, run: `palera1n --force-revert -l`
+   - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 Your device should now be unjailbroken and boot into a stock environment.
@@ -111,7 +111,7 @@ Your device should now be unjailbroken and boot into a stock environment.
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run the correct command depending on your initial jailbreak type:
    - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
-   - For a **rootless** jailbreak, run: `palera1n --force-revert -l`
+   - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 Your device should now be unjailbroken and boot into a stock environment.
@@ -159,7 +159,7 @@ Your device should now be unjailbroken and boot into a stock environment.
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run the correct command depending on your initial jailbreak type:
    - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
-   - For a **rootless** jailbreak, run: `palera1n --force-revert -l`
+   - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 Your device should now be unjailbroken and boot into a stock environment.'
