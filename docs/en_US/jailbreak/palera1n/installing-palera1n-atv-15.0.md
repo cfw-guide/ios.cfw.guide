@@ -31,6 +31,12 @@ You cannot use rootless for this guide and must jailbreak using rootful. If you 
 
 :::
 
+::: danger
+
+This guide is for tvOS versions 15.0 - 18.1. If you are on 18.2 or higher, please go follow <router-link to="/installing-palera1n-atv-18-2">Installing palera1n for Apple TV (18.2+)</router-link>
+
+:::
+
 ## Requirements
 
 - An Apple TV Siri remote (any generation)
@@ -59,7 +65,7 @@ Please select your operating system:
 ::: details Apple TV 4K instructions
 
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable **upside down** - the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
@@ -126,7 +132,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ::: details Apple TV 4K instructions
 
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable **upside down** - the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
@@ -212,7 +218,7 @@ palen1x is a live bootable Linux environment that allows you to quickly run pale
 ::: details Apple TV 4K instructions
 1. Once you have loaded palen1x, select `Shell`.
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable **upside down** - the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
