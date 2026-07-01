@@ -33,6 +33,12 @@ You cannot use rootless for this guide and must jailbreak using rootful. If you 
 
 :::
 
+::: danger
+
+This guide is for tvOS versions 18.2 and higher. If you are on 15.0-18.1, please go follow <router-link to="/installing-palera1n-atv-15-0">Installing palera1n for Apple TV (15.0-18.1)</router-link>
+
+:::
+
 ## Requirements
 
 - An Apple TV Siri remote (any generation)
@@ -61,15 +67,18 @@ Please select your operating system:
 ::: details Apple TV 4K instructions
 
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable **upside down** - the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run `palera1n -cf`.
+	- If you receive a blinking light during this, that is normal. This might take a while.
+		- If it is taking an absurdly long time, then run `palera1n -f --force-revert` and try again.
+	- When this is done, you should be in recovery mode.
 1. After you have created the fakeFS by running the command above, redo steps 1-5 to go back into DFU mode, then come back to the next step.
 1. Run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -77,10 +86,13 @@ You'll need to do this every time you rejailbreak your device.
 
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run `palera1n -cf`.
+	- If you receive a blinking light during this, that is normal. This might take a while.
+		- If it is taking an absurdly long time, then run `palera1n -f --force-revert` and try again.
+	- When this is done, you should be in recovery mode.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Once your device is done creating the fakeFS, run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -97,7 +109,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
@@ -139,25 +151,31 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 ::: details Apple TV 4K instructions
 
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable **upside down** - the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run `palera1n -cf`.
+	- If you receive a blinking light during this, that is normal. This might take a while.
+		- If it is taking an absurdly long time, then run `palera1n -f --force-revert` and try again.
+	- When this is done, you should be in recovery mode.
 1. After you have created the fakeFS by running the command above, redo steps 1-5 to go back into DFU mode, then come back to the next step.
 1. Run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
 ::: details Apple TV HD instructions
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run `palera1n -cf`.
+	- If you receive a blinking light during this, that is normal. This might take a while.
+		- If it is taking an absurdly long time, then run `palera1n -f --force-revert` and try again.
+	- When this is done, you should be in recovery mode.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Once your device is done creating the fakeFS, run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -170,11 +188,13 @@ The Apple TV HD has an issue where they will get stuck midway through this proce
 
 :::
 
+
+
 Once the device boots up, open the palera1n loader app and tap `Install`. After some time, you'll be prompted to set a passcode for using command-line tools, and then `purePKG` should be on your home screen.
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
@@ -228,15 +248,18 @@ palen1x is a live bootable Linux environment that allows you to quickly run pale
 
 1. Once you have loaded palen1x, select `Shell`.
 1. Plug your GoldenEye/Foxlink cable into the Ethernet port on your Apple TV.
-1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable upside down-the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
+1. Plug your DCSD cable into the Lightning connector on the GoldenEye/Foxlink cable **upside down** - the side labeled "this side up" or similar should face down; otherwise, it might not enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Finally, plug the USB end of your DCSD cable into your computer or any power source.
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run `palera1n -cf`.
-1. After you have created the fakeFS by running the command above, redo steps 2-5 to go back into DFU mode, then come back to the next step.
+	- If you receive a blinking light during this, that is normal. This might take a while.
+		- If it is taking an absurdly long time, then run `palera1n -f --force-revert` and try again.
+	- When this is done, you should be in recovery mode.
+1. After you have created the fakeFS by running the command above, redo steps 1-5 to go back into DFU mode, then come back to the next step.
 1. Run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -245,10 +268,13 @@ You'll need to do this every time you rejailbreak your device.
 1. Once you have loaded palen1x, select `Shell`.
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run `palera1n -cf`.
+	- If you receive a blinking light during this, that is normal. This might take a while.
+		- If it is taking an absurdly long time, then run `palera1n -f --force-revert` and try again.
+	- When this is done, you should be in recovery mode.
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 1. Once your device is done creating the fakeFS, run `palera1n -f`.
 
-You'll need to do this every time you rejailbreak your device.
+When you need to rejailbreak, simply run `palera1n -f` and any other steps taken past that point.
 
 :::
 
@@ -265,7 +291,7 @@ Once the device boots up, open the palera1n loader app and tap `Install`. After 
 
 ::: tip
 
-To rejailbreak your device, simply run the last command again and then repeat any other applicable steps.
+To rejailbreak your device, simply run `palera1n -f` again and then repeat any other applicable steps.
 
 :::
 
