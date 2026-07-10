@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Using JailbreakMe Star
-description: (NON-FUNCTIONAL) Guide to using JailbreakMe (Star)
+description: Guide to using JailbreakMe (Star)
 permalink: /using-jailbreakme-star
 redirect_from:
   - /installing-jailbreakme-star
@@ -35,7 +35,7 @@ While this section is *technically* optional, many modern repositories **will no
 ## Running JailbreakMe Star
 
 1. Open Safari on your iOS device
-1. Go to the [jailbreakme.com](http://jailbreakme.com) website
+1. Go to the [jailbreakme.com/star/](http://jailbreakme.com/star/) website
 1. Slide to the right on "Slide to Jailbreak"
 
 After a couple of minutes, Cydia should be installed on your home screen.

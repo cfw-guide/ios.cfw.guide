@@ -1,7 +1,7 @@
 ---
 lang: en_US
 title: Using JailbreakMe Saffron
-description: (NON-FUNCTIONAL) Guide to using JailbreakMe (Saffron)
+description: Guide to using JailbreakMe (Saffron)
 permalink: /using-jailbreakme-saffron
 redirect_from:
   - /installing-jailbreakme-saffron
