@@ -16,7 +16,11 @@ We will use the Sideloadly tool to install the EverPwnage jailbreak application 
 
 ::: tip
 
-Unless you are running into issues with it, it is generally recommended to follow <router-link to="/using-carbon">Using Carbon</router-link> instead.
+If you are running firmware versions 7.1 to 9.3.6, unless you are running into issues it is generally recommended to follow:
+- <router-link to="/using-lyncis">Using Lyncis</router-link> instead if on firmware versions 7.1 to 7.1.2
+- <router-link to="/using-carbon">Using Carbon</router-link> instead if on firmware versions 8.0 to 9.3.6
+
+*Additionally*, if jailbreaks.app is **not** actively signed, and you're on firmware versions 7.0 to 7.0.6, you should follow either <router-link to="/installing-aquila">Installing Aquila</router-link> or <router-link to="/installing-everpwnage-datetrick">Installing EverPwnage (Date Trick)</router-link>.
 
 :::
 
