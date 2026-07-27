@@ -52,7 +52,9 @@ Please select your operating system:
 ### Installing palera1n
 
 1. Open a terminal window
-1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`
+1. Run `/bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`
+    - When prompted, press enter to install the latest release of palera1n
+    - If prompted to add something to "PATH", type `Y` and press enter.
 
 ### Running palera1n
 
@@ -123,7 +125,9 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 1. Run `sudo systemctl stop usbmuxd`
 1. Run `sudo usbmuxd -f -p`
 1. Open up another terminal window
-1. Run `sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`
+1. Run `/bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"`
+    - When prompted, press enter to install the latest release of palera1n
+    - If prompted to add something to "PATH", type `Y` and press enter.
 
 ### Running palera1n
 

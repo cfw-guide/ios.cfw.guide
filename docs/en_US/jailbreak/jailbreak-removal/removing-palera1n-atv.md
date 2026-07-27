@@ -39,7 +39,7 @@ Please select your operating system:
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run the correct command depending on your initial jailbreak type:
-   - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
+   - For a **rootful** jailbreak, run: `palera1n --force-enable-ssv --force-revert -f`
    - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 
 Your device should now be unjailbroken and boot into a stock environment.
@@ -50,7 +50,7 @@ Your device should now be unjailbroken and boot into a stock environment.
 
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run the correct command depending on your initial jailbreak type:
-   - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
+   - For a **rootful** jailbreak, run: `palera1n --force-enable-ssv --force-revert -f`
    - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -99,7 +99,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run the correct command depending on your initial jailbreak type:
-   - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
+   - For a **rootful** jailbreak, run: `palera1n --force-enable-ssv --force-revert -f`
    - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 
 Your device should now be unjailbroken and boot into a stock environment.
@@ -110,7 +110,7 @@ Your device should now be unjailbroken and boot into a stock environment.
 
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run the correct command depending on your initial jailbreak type:
-   - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
+   - For a **rootful** jailbreak, run: `palera1n --force-enable-ssv --force-revert -f`
    - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -146,7 +146,7 @@ If you no longer have your palen1x USB drive, you can prepare another one by fol
 1. Restart your Apple TV with both cables plugged in to put it into DFU mode.
 1. Once in DFU mode, unplug your DCSD cable (**not** your GoldenEye/Foxlink cable, keep that plugged in) and plug in your Lightning cable, with the other end connected to your computer.
 1. Run the correct command depending on your initial jailbreak type:
-   - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
+   - For a **rootful** jailbreak, run: `palera1n --force-enable-ssv --force-revert -f`
    - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 
 Your device should now be unjailbroken and boot into a stock environment.
@@ -158,7 +158,7 @@ Your device should now be unjailbroken and boot into a stock environment.
 1. Once you have loaded palen1x, select `Shell`.
 1. Plug your USB-C cable into the USB-C diagnostic port on the back of the device and the other end into your computer.
 1. Run the correct command depending on your initial jailbreak type:
-   - For a **rootful** jailbreak, run: `palera1n --force-revert -f`
+   - For a **rootful** jailbreak, run: `palera1n --force-enable-ssv --force-revert -f`
    - For a **rootless** jailbreak, run: `palera1n --force-revert -l` (This is an L, __not__ a 1)
 1. When ready, press `Enter` and follow the on-screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
