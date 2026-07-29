@@ -133,7 +133,7 @@ The Apple TV HD has an issue where they will get stuck midway through this proce
 
 ::: tip
 
-If you no longer have your palen1x USB drive, you can prepare another one by following the steps on <router-link :to="{ path: '/installing-palera1n-atv-18-2', query: { tab: 'palen1x-(windows)' }, hash: '#tab-palen1x-(windows)' }">Installing palera1n (tvOS, palen1x)</router-link> up to, but not including, the "Running palera1n" section.
+If you no longer have your palen1x USB drive, you can prepare another one by following the steps on <router-link :to="{ path: '/installing-palera1n-atv', query: { tab: 'palen1x-(windows)' }, hash: '#tab-palen1x-(windows)' }">Installing palera1n (Apple TV, palen1x)</router-link> up to, but not including, the "Running palera1n" section.
 
 :::
 
