@@ -414,7 +414,7 @@ The Dopamine app will now be installed onto your device.
 
 ::: tip
 
-If you are using an A12(X/Z) or A13 device on iOS/iPadOS 16.6 or later, the screen will briefly turn off and on during the jailbreak process. This is perfectly normal, and is a result of one of the exploits in the jailbreak process requiring this.
+If you are using an A12(X/Z) or A13 device on iOS/iPadOS 16.6 or later, the screen will briefly turn off and on during the jailbreak process. This is perfectly normal, and is a result of one of the exploits in the jailbreak process requiring this screen flicker.
 
 :::
 
