@@ -14,17 +14,11 @@ extra_contributors:
 
 Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-Dopamine supports all devices on iOS 15.0 to 15.8.6 and 16.0 to 16.5, A14 and earlier devices and M1 devices on iOS 16.5.1, A11 and earlier devices on iOS 16.6 to 16.6.1, and A9(X) to A11 devices *except the 9.7" iPad Pro, iPad 5th Generation, and iPad 6th Generation* on iOS 15.8.7 to 15.8.8 and 16.7 to 18.7.1.
-
-::: warning
-
-Support for 15.8.7 through 15.8.8, 16.7 RC (20H18), and 17.0 is only available **through a public beta**. You may run into issues on these versions that would not occur on versions supported in the latest release of Dopamine.
-
-:::
+Dopamine supports all devices on iOS/iPadOS 15.0 to 17.3.1, and A13 and earlier devices on iOS/iPadOS 17.4 to 18.7.1 and 26.0 to 26.0.1.
 
 ::: danger
 
-This guide only works on devices running iOS 15.0 to 16.6.1, as well as iOS 16.7 RC (20H18) and 17.0. If you are on iOS 16.7 through 16.7.16 or 17.0.1 through 18.7.1, you should follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
+This guide only works on devices running iOS/iPadOS 15.0 to 16.6.1, as well as iOS/iPadOS 16.7 RC (20H18) and 17.0. If you are on iOS/iPadOS 16.7 through 16.7.16, 17.0.1 through 18.7.1, or 26.0 through 26.0.1, you should follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> instead.
 
 :::
 
@@ -36,13 +30,13 @@ if you are currently using *rootful* palera1n, you need to first <router-link to
 
 ::: danger
 
-If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
+If you have previously used nathanlr, Relaxin, Serotonin, and/or Bootstrap, you will need to remove them fully before proceeding.
 
-If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
+If you don't know what any of those tools are, you can ignore this notice and proceed. If you used nathanlr specifically, you can remove it by following <router-link to="/removing-nathanlr">Removing nathanlr</router-link>.
 
 :::
 
-We will first install TrollStore using one of three methods (depending on your current device and iOS version), and then install Dopamine through TrollStore.
+We will first install TrollStore using one of three methods (depending on your current device and iOS/iPadOS version), and then install Dopamine through TrollStore.
 
 ## Installing TrollStore
 
@@ -95,7 +89,7 @@ The build of TrollRestore for *Intel-based Macs* is not notarized, which means y
 
 ### Injecting TrollStore Helper
 
-1. Plug your iOS device into your computer.
+1. Plug your iOS/iPadOS device into your computer.
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Open a File Explorer (Windows) or Finder (macOS) window.
 1. Navigate to where the downloaded/extracted file is saved.
@@ -173,7 +167,7 @@ All dependencies needed for TrollRestore should now be installed.
 
 ### Injecting TrollStore Helper
 
-1. Plug your iOS device into your computer
+1. Plug your iOS/iPadOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. *In the same terminal window as the previous section*, run `python3 trollstore.py`
 1. When prompted, type in the name of a system app you want to overwrite, and press enter.
@@ -224,7 +218,7 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 
 ### Installing the application
 
-1. Plug your iOS device into your computer
+1. Plug your iOS/iPadOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Open PlumeImpactor
 1. Go to `Settings` -> `Sign In`
@@ -233,7 +227,7 @@ TrollInstallerX is currently signed at <a href="https://jailbreaks.app/" target=
 1. Drag and drop the TrollInstallerX `.ipa` file into PlumeImpactor
 1. Click `Install`
 
-The app will now install to your iOS device.
+The app will now install to your iOS/iPadOS device.
 
 ::: tip
 
@@ -251,13 +245,13 @@ The TrollInstallerX application can now be opened from home screen.
 
 ::: danger
 
-If you're on iOS 16.0 or later, and did not use jailbreaks.app to install TrollInstallerX, you'll also need to enable Developer Mode.
+If you're on iOS/iPadOS 16.0 or later, and did not use jailbreaks.app to install TrollInstallerX, you'll also need to enable Developer Mode.
 
 To do so, go into `Settings` -> `Privacy & Security` and then scroll down until you see `Developer Mode`, tap that option, toggle Developer Mode on, and follow the on-screen instructions
 
 :::
 
-### Installing TrollStore
+### Running TrollInstallerX
 
 1. Open TrollInstallerX
 1. Tap `Install TrollStore`
@@ -266,7 +260,28 @@ To do so, go into `Settings` -> `Privacy & Security` and then scroll down until 
     - If you don't know what app to select, select `Tips`
     - If your device reboots *before* getting to this step, try again
 
-Both TrollStore and its persistence helper should now be installed.
+The persistence helper, and in most cases, TrollStore itself, should now be installed.
+
+::: danger
+
+On iOS/iPadOS 16.5.1 for A15, A16, and M2 devices, as well as iOS/iPadOS 16.6 to 16.6.1 for A12 and later devices, you'll need to install TrollStore through the installed persistence helper after using TrollInstallerX, this is covered in the following additional section below.
+
+All other devices **do not** need to follow the next additional section.
+
+:::
+
+### Additional Steps (A12 and later 16.6 to 16.6.1 / A15-A16/M2 16.5.1)
+
+::: warning
+
+If the persistence helper is not installed into the app you selected, shut down your device normally, turn your device back on, open the app you want as your persistence helper, then close the app (**from the app switcher**) and run TrollInstallerX again.
+
+:::
+
+1. Open the app you selected as your persistence helper from your home screen
+1. Press `Install TrollStore`.
+
+TrollStore will now be installed to your device.
 
 ::::
 
@@ -280,9 +295,9 @@ A computer is not required for any steps on this guide.
 
 ::: warning
 
-A11 and earlier devices are supported on iOS 15.0 to 15.4.1
+A11 and earlier devices are supported on iOS/iPadOS 15.0 to 15.4.1
 
-A12 and later devices are supported on iOS 15.0 to 15.6.1
+A12 and later devices are supported on iOS/iPadOS 15.0 to 15.6.1
 
 :::
 
@@ -295,7 +310,7 @@ A12 and later devices are supported on iOS 15.0 to 15.6.1
     - If you're unable to access this page, type `itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist` into Safari
 1. Tap `Install`
 
-An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
+An app named `GTA Car Tracker` will now install to your iOS/iPadOS device, this app is TrollHelper, however.
 
 ### Installing TrollStore
 
@@ -303,7 +318,7 @@ An app named `GTA Car Tracker` will now install to your iOS device, this app is 
 1. Tap `Register Persistence Helper`
 1. Tap `Install TrollStore`
 
-The TrollStore application will now install to your iOS device.
+The TrollStore application will now install to your iOS/iPadOS device.
 
 ::::
 
@@ -324,7 +339,7 @@ This section requires a computer.
 
 ### Installing the application
 
-1. Plug your iOS device into your computer
+1. Plug your iOS/iPadOS device into your computer
     - Make sure your computer is trusted and allowed to view the contents of your device
 1. Open PlumeImpactor
 1. Go to `Settings` -> `Sign In`
@@ -333,7 +348,7 @@ This section requires a computer.
 1. Drag and drop the TrollInstallerMDC `.ipa` file into PlumeImpactor
 1. Click `Install`
 
-The app will now install to your iOS device.
+The app will now install to your iOS/iPadOS device.
 
 ::: tip
 
@@ -383,8 +398,7 @@ Your device should respring, and TrollStore should now be installed.
 ### Downloads
 
 - The latest version of [Dopamine](https://ellekit.space/dopamine)
-    - If you are on iOS 15.8.7 to 15.8.8, 16.7 RC (20H18), or 17.0, use the 2.5b4 version of [Dopamine](https://github.com/opa334/Dopamine/releases/tag/2.5b4) instead
-    - Make sure to download the `.ipa` file onto your iOS device
+    - Make sure to download the `.ipa` file onto your iOS/iPadOS device
 
 ### Installing Dopamine
 
@@ -398,14 +412,22 @@ The Dopamine app will now be installed onto your device.
 
 ### Running Dopamine
 
+::: tip
+
+If you are using an A12(X/Z) or A13 device on iOS/iPadOS 16.6 or later, the screen will briefly turn off and on during the jailbreak process. This is perfectly normal, and is a result of one of the exploits in the jailbreak process requiring this.
+
+:::
+
 1. Reboot your phone
     - This is not necessary but recommended
 1. Open the Dopamine application from your home screen immediately afterwards
 1. Tap "Jailbreak"
 
-::: tip
+::: warning
 
-If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
+On certain devices with 2GB of RAM running iOS/iPadOS 15.8.7 to 15.8.8 or iOS/iPadOS 16.7 or later, the Dopamine app may need to respring the device before you can attempt to jailbreak. The Dopamine app will notify you if this is the case.
+
+If your device needs this additional step, tap `Apply Workaround`, and then redo steps 2 and 3 of this section after the respring is complete.
 
 :::
 
@@ -415,9 +437,15 @@ If your device has a replacement screen, there is a chance (*especially if the s
 
 :::
 
+::: tip
+
+If the app or your device crashes/restarts unexpectedly and the jailbreak isn't installed, simply try rebooting and running the exploit again until it does work.
+
+:::
+
 Sileo should now be installed on your home screen. You can use Sileo to install <router-link to="/faq/#what-are-tweaks">tweaks</router-link>, themes and more.
 
-While you are now jailbroken at this point, we need to both update and install some packages so that we're able to both update other packages and have stuff work properly
+While you are now jailbroken at this point, we need to both update and install some packages so that we're able to both update other packages and have stuff work properly.
 
 ## Installing necessary software
 
@@ -426,19 +454,16 @@ While you are now jailbroken at this point, we need to both update and install s
 1. Tap on the "ElleKit" repository, then tap on "All Categories"
 1. Tap on `ElleKit`
 1. Tap "Get"
-1. Tap the "Queued" bar at the bottom of the page
-1. Tap "Confirm"
-1. Once finished, tap `Restart SpringBoard Later`
 1. Go to the "Search" tab
 1. Search for `PreferenceLoader`
 1. Tap on `PreferenceLoader`
 1. Tap on "Get"
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
-1. Once finished, tap `Restart SpringBoard`
+1. Once finished, tap `Reboot Device`
 
 ::: tip
 
-After doing all the above steps, you may need to reboot and rejailbreak in order for tweak injection to function properly.
+The `Reboot Device` button in this case does not fully reboot your device. As a result, you will still be in a jailbroken state after pressing this button.
 
 :::

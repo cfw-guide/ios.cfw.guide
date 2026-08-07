@@ -11,6 +11,18 @@ extra_contributors:
 
 ::: danger
 
+This guide only exists as an archive - we won't be making noticeable changes to this guide in the future if anything happens.
+
+nathanlr is what is considered a **semi**-jailbreak, and is **not** a full-fledged, proper jailbreak. As a result, nathanlr has less tweak support and can potentially be more unstable.
+
+All devices that supported nathanlr can now be *properly* jailbroken by following <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead. If you actively use nathanlr right now, it is **highly recommended** to <router-link to="/removing-nathanlr">remove nathanlr</router-link> and <router-link to="/installing-dopamine-trollstore">install Dopamine</router-link>.
+
+If you still choose to install or continue to use nathanlr, do note that there will likely be less and less support given over time.
+
+:::
+
+::: danger
+
 Before continuing, please **read the following information below in full**.
 
 nathanlr is what is considered a **semi**-jailbreak, and is **not** a full-fledged, proper jailbreak.

@@ -7,15 +7,15 @@ sidebar: false
 
 ## Highlighted
 
--   <router-link to="/installing-amethyst">Installing Amethyst</router-link>
 -   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link>
+-   <router-link to="/installing-amethyst">Installing Amethyst</router-link>
 
 ## Recommended Jailbreaks/Methods
 
+-   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-palera1n">Installing palera1n</router-link>
 -   <router-link to="/using-palen1x">Using palen1x</router-link>
--   <router-link to="/installing-dopamine">Installing Dopamine</router-link>
 -   <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link>
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
 -   <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
@@ -85,7 +85,6 @@ sidebar: false
 -   <router-link to="/turdusmerula">turdus merula</router-link>
 -   <router-link to="/troubleshooting">Troubleshooting</router-link>
 -   <router-link to="/installing-trollstore">Installing TrollStore</router-link>
--   <router-link to="/installing-nathanlr">Installing nathanlr</router-link>
 -   <router-link to="/restoring-rootfs">Restoring Rootfs</router-link>
 -   <router-link to="/installing-sileo">Installing Sileo</router-link>
 -   <router-link to="/installing-zebra">Installing Zebra</router-link>
