@@ -28,7 +28,7 @@ Each type is determined by how independent it is from a computer.
 Untethered jailbreaks can be considered the holy grail of all jailbreaks. They only require the exploit to be ran once either via a website, an app or a computer.
 
 ![A screenshot of the p0sixspwn jailbreak](/assets/images/p0sixpwn.png)
-
+iy hi
 After that, your device is fully jailbroken and won't require any further action. The exploit will stay on a device even after you reboot it.
 
 Unfortunately, there hasn't been a new untethered jailbreak for end users in a very long time, and it's likely we won't see one for even longer.
