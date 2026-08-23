@@ -26,7 +26,7 @@ This guide only works on devices running iOS/iPadOS 15.0 to 16.6.1, as well as i
 
 if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
 
-:::
+::: ＇
 
 ::: danger
 
