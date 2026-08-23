@@ -1,13 +1,14 @@
 ---
 lang: en_US
-title: Updating to 26.5
-permalink: /updating-to-26-5
+title: Updating to 26.6.1
+permalink: /updating-to-26-6-1
 redirect_from:
     - /updating-to-26-0
     - /updating-to-26-3
     - /updating-to-26-3-1
     - /updating-to-26-4
     - /updating-to-26-4-2
+    - /updating-to-26-5
 ---
 
 ## Required Reading
