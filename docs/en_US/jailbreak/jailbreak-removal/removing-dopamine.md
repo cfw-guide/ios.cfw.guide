@@ -17,10 +17,12 @@ If you're proceeding to installing palera1n (rootless), you do not need to follo
 
 ## Uninstalling
 
+1. Reboot into an unjailbroken state
 1. Open the Dopamine application
 1. Tap on `Settings`
-1. Press `Remove Jailbreak`
-1. Press `Continue`
+1. Press/Toggle on `Remove Jailbreak`
+- If you have not installed Dopamine with TrollStore, then exit out of settings and tap the `Remove Jailbreak` button.
+- If you have installed Dopamine with TrollStore, then press `Continue`
     - This may take some time
     - If it fails, try again from the beginning
 
