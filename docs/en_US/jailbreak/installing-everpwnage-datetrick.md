@@ -51,8 +51,8 @@ The time mentioned in this section is in the **Central Daylight Time** time zone
 1. Toggle off `Set Automatically` if it's enabled
 1. Click on the Date & Time field
     - This will likely say something that is *formatted* along the lines of `Jul 16, 2026 2:17 AM`
-1. Adjust the Date & Time to be around **Wednesday, June 24th, 2026, at 8:30 AM**
-    - The aforementioned Date & Time field should automatically update to `Jun 24, 2026 8:30 AM`
+1. Adjust the Date & Time to be around **Wednesday, August 24th, 2026, at 7:30 PM**
+    - The aforementioned Date & Time field should automatically update to `Aug 24, 2026 7:30 PM`
 1. Press `General` in the top left to close the page
 
 ## Installing the application
