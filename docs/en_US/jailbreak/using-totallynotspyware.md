@@ -28,7 +28,18 @@ TotallyNotSpyware and its variants are capable of jailbreaking every 64-bit iOS 
 
 Note that the TotallyNotSpyware jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
 
-The method that needs to be followed in order to jailbreak depends on your device, select the tab that fits your device and follow the subsequent steps.
+## Updating Certificates
+
+::: warning
+
+While this section is *technically* optional, many modern repositories **will not work** without these updated certificates.
+
+:::
+
+1. Open Safari on your iOS device
+1. Go to the [http://tlsroot.litten.ca](http://tlsroot.litten.ca) website
+1. Tap `Signed iOS Bundle (iOS 5+)`
+1. Tap `Install` -> `Install` -> `Install` -> Done
 
 ## Running TotallyNotSpyware
 
