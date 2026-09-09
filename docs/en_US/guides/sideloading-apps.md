@@ -113,6 +113,14 @@ ReProvision Reborn is compatible with iOS 9.0-14.8.1.
 1. Open ReProvision Reborn and follow all onscreen prompts
     - You will be asked to enter your Apple ID. This is only sent to Apple and no one else.
 
+### Resigning using AltDaemonModern
+
+AltDaemonModern allows AltStore to automatically re-sign these applications, without needing to connect to a computer running AltServer over local network.
+
+1. Download and install the latest version [AltDaemonModern](https://github.com/emp0ry/AltDaemonModern/releases/latest) tweak
+1. Close your package manager
+1. Sign any apps that are about to expire
+
 ### Resigning using AltDaemon
 
 ::: tip
