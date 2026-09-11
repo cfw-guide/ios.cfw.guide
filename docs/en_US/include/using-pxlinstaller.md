@@ -78,12 +78,12 @@ If you used Antares on the same computer you're following this guide on, this se
 
 ::::
 
+:::::
+
 ### Running PXLInstaller
 
 1. Plug your device into your computer
 1. Open `pxlinstaller-gui.exe`
-
-:::::
 
 ## Installing Tweaks
 
