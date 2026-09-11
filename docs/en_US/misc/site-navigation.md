@@ -37,6 +37,7 @@ sidebar: false
 -   <router-link to="/using-jailbreakme-saffron">Using JailbreakMe Saffron</router-link>
 -   <router-link to="/installing-greenpois0n">Installing greenpois0n</router-link>
 -   <router-link to="/using-jailbreakme-star">Using JailbreakMe Star</router-link>
+-   <router-link to="/installing-antares">Installing Antares</router-link>
 
 ## AppleTV Jailbreaks/Methods
 
@@ -90,6 +91,7 @@ sidebar: false
 -   <router-link to="/installing-zebra">Installing Zebra</router-link>
 -   <router-link to="/using-sileo">Using Sileo</router-link>
 -   <router-link to="/using-zebra">Using Zebra</router-link>
+-   <router-link to="/using-pxlinstaller">Using PXLInstaller</router-link>
 -   <router-link to="/blocking-updates">Blocking Updates</router-link>
 -   <router-link to="/futurerestore">FutureRestore</router-link>
 -   <router-link to="/package-managers">Package Managers</router-link>
