@@ -14,11 +14,19 @@ extra_contributors:
 
 Socket is capable of jailbreaking every 32-bit iOS device on firmware version 10.0.1 up to 10.3.4.
 
-Note that the Socket jailbreak is not “persistent” (meaning it does not remain installed after a reboot). You will need to re-run the exploit after every reboot. You will be instructed on how to do this.
-
-Due to how custom applications are installed to the device, in most cases you will need to reinstall the Socket jailbreak application to your device every 7 days from your computer.
+Socket is generally an <router-link to="/types-of-jailbreak/#untethered-jailbreaks">untethered jailbreak</router-link>, meaning it only requires the exploit to be run once, whether through a website, an app, or a computer.
 
 We will use PlumeImpactor to install the application to your device.
+
+::: danger
+
+Socket is **not** untethered *by default* on the iPad 4th Generation on firmware versions 10.3.2 to 10.3.4, due to an issue where the device will not successfully finish booting around 7% of the time.
+
+You can choose to enable the untether through an option in the Socket app after sideloading Socket. *However*, doing so will require you to reboot the device (whether by holding the home button and power button, or by using [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit/wiki/Misc-Utilities) and its "Reboot Device" option) in the event the device does not successfully boot.
+
+Note that if you are using firmware versions 10.0.1 to 10.3.1, or are using an iPhone 5 or iPhone 5C on firmware versions 10.3.2 to 10.3.4, you are not affected by this issue, and will have the untether enabled by default.
+
+:::
 
 ## Downloads
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
@@ -51,6 +59,14 @@ The app will now install to your iOS device.
 The Socket application can now be opened from home screen.
 
 ## Running Socket
+
+::: danger
+
+If you are using an iPad 4th Generation on firmware versions 10.3.2 to 10.3.4, and are willing to enable the untether despite the aforementioned warnings, you can do so by clicking the gear icon on the bottom right corner, and then toggling on `Install Untether`.
+
+Note that if you are using firmware versions 10.0.1 to 10.3.1, or are using an iPhone 5 or iPhone 5C on firmware versions 10.3.2 to 10.3.4, the untether is enabled by default, and these warnings do not apply to you.
+
+:::
 
 1. Open the Socket application from your home screen
 1. Tap "Jailbreak"
