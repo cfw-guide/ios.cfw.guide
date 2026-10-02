@@ -20,6 +20,7 @@ sidebar: false
 -   <router-link to="/installing-taurine">Installing Taurine</router-link>
 -   <router-link to="/installing-unc0ver">Installing unc0ver</router-link>
 -   <router-link to="/installing-amethyst">Installing Amethyst</router-link>
+-   <router-link to="/installing-electra">Installing Electra</router-link>
 -   <router-link to="/using-tns">Using TotallyNotSpyware</router-link>
 -   <router-link to="/installing-socket">Installing Socket</router-link>
 -   <router-link to="/using-carbon">Using Carbon</router-link>
@@ -65,7 +66,6 @@ sidebar: false
 -   <router-link to="/installing-unc0ver-trollstore">Installing unc0ver (TrollStore)</router-link>
 -   <router-link to="/installing-odyssey">Installing Odyssey</router-link>
 -   <router-link to="/installing-chimera">Installing Chimera</router-link>
--   <router-link to="/installing-electra">Installing Electra</router-link>
 -   <router-link to="/installing-h3lix">Installing h3lix</router-link>
 -   <router-link to="/installing-doubleh3lix-ipa">Installing doubleh3lix</router-link>
 -   <router-link to="/installing-meridian-ipa">Installing Meridian</router-link>
