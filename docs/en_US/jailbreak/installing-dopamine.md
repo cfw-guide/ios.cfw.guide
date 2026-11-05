@@ -18,11 +18,19 @@ If you are on iOS/iPadOS 16.7 or later (excluding iOS/iPadOS 17.0), due to how s
 
 ::: danger
 
-If your device is using the preinstalled version of iOS/iPadOS that your device first shipped with, this guide will not work, and you'll need to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
-
-Additionally, if you are using a device on iOS/iPadOS 15.0 to 16.6.1, as well as iOS/iPadOS 16.7 RC (20H18) and 17.0, it's highly encouraged to follow <router-link to="/installing-dopamine-trollstore">Installing Dopamine (TrollStore)</router-link> instead.
+`18.7.10` is **not** the same as `18.7.1`. `18.7.10` is not currently supported by Dopamine on any device.
 
 :::
+
+::: danger
+
+Follow [Installing Dopamine (TrollStore)](https://ios.cfw.guide/installing-dopamine-trollstore) instead if:
+
+- Your device is on the iOS/iPadOS version it first shipped with when the device initially released, because this guide will not work for you.
+- You’re on iOS/iPadOS 15.0-16.6.1, 16.7 RC (20H18), or 17.0. You can install Dopamine with TrollStore instead, which is highly encouraged (but not required).
+
+:::
+
 
 ::: danger
 
