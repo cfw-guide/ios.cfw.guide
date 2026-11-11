@@ -24,6 +24,7 @@ const pkgman = {
     },
     '/using-sileo/',
     '/using-cydia/',
+    '/using-melder/',
     '/recommended-repos/',
   ],
 }
