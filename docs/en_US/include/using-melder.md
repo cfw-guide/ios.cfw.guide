@@ -6,7 +6,8 @@ This page is optional, but helpful if you are unfamiliar with jailbreaking.
 
 :::
 
-Melder is a package manager with a built-in root terminal. It supports iOS 3.0 to iOS 13. It can be used to install tweaks and themes.
+Melder is a package manager with a built-in root terminal. It supports iPhone OS 3.0 to iOS 13. It can be used to install tweaks and themes.
+
 On iOS 4.0 or newer, it also supports update notifications via [Skyglow Notifications](https://cydia.skyglow.es/tweaks/Notifications/index.html).
 
 <p><router-link to="/faq/#what-are-tweaks">Tweaks</router-link> are small modifications to change the look and/or feel of your device. You can find tweaks on repositories, colloquially referred to as "repos".</p>
