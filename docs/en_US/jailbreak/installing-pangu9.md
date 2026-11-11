@@ -28,6 +28,7 @@ You will need a Mac running macOS 10.14 Mojave or earlier in order to use pangu9
 1. Turn off Find My iPhone.
 1. Plug your device into your computer and trust your computer.
 1. Unlock your device.
+2. Set your device's date to any point before November 2015.
 1. Enable Airplane Mode.
 1. When Pangu9 says the jailbreak is ready, press Start.
 1. Press the 'Already Backup' button.
