@@ -36,7 +36,10 @@ Please select your operating system:
 :::: tab name="macOS" :default="true"
 
 1. Plug your device into your computer
-1. Double-click `antares-gui`
+1. Open a terminal application
+1. Run `cd <path/to/Antares>`
+    - In most cases, this will likely mean running `cd ~/Downloads/Antares_macOS_x64` (or `arm64`)
+1. *In the same terminal window*, run `sudo ./antares-gui.app/Contents/MacOS/antares-gui`
 1. Click `Jailbreak`
 
 Antares will now begin to jailbreak your device.
